@@ -4,6 +4,7 @@
 # GRF name and description
 STR_GRF_NAME_WITH_VER                               :파생형 열차 세트 {VERSION}
 STR_GRF_DESC                                        :파생형 열차 세트 입니다
+STR_GRF_URL                                         :https://github.com/evepoi/Derivative_Train_Set
 
 # locomotive's name
 STR_EMU_320_NAME                                   :[DTS] EMU-320 수출형
