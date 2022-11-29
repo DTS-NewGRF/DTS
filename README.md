@@ -1,7 +1,7 @@
-# Virtual Train Set 가상열차세트
-**가상열차세트**는 가상의 열차 차량을 추가해주는 OpenTTD NewGRF입니다.  
+# Derivative Train Set 파생형 열차세트
+**파생형 열차세트**는 기존 운영되는 GRF의 열차 선형과 선형에 포함된 열차세트 외의 다른 열차세트의 도색이 적용된 OpenTTD NewGRF입니다.  
 게임 비온라인 컨텐츠로서, 게임내 온라인 콘텐츠에서는 다운로드가 공개되지 않습니다.  
-[Github release 페이지](https://github.com/GBLINER/VirtualTrainSet/releases)에서 다운로드할 수 있습니다.
+[Github release 페이지](https://github.com/evepoi/Derivative_Train_Set/releases)에서 다운로드할 수 있습니다.
 
 ## 차량 목록 및 스펙
 

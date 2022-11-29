@@ -2,9 +2,8 @@
 ##gender m f
 
 # GRF name and description
-STR_GRF_NAME_WITH_VER                               :가상 열차 세트 {VERSION}
-STR_GRF_DESC                                        :가상 열차 세트 입니다
-STR_GRF_URL                                         :https://github.com/KoreanGRF/KoreanEmptySet
+STR_GRF_NAME_WITH_VER                               :파생형 열차 세트 {VERSION}
+STR_GRF_DESC                                        :파생형 열차 세트 입니다
 
 # locomotive's name
 STR_HYEL_100_NAME                                   :[VTS] HYEL-100
