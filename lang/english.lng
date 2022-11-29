@@ -6,16 +6,10 @@ STR_GRF_NAME_WITH_VER                               :Derivative Train Set {VERSI
 STR_GRF_DESC                                        :Derivative Train Set
 
 # locomotive's name
-STR_HYEL_100_NAME                                   :[VTS] HYEL-100
-STR_HYEL_200_NAME                                   :[VTS] HYEL-200
-STR_HYEL_300_NAME                                   :[VTS] HYEL-300
-STR_HYEL_400_NAME                                   :[VTS] HYEL-400
-STR_YFX_NAME                                        :[VTS] YFX
+STR_EMU_320_NAME                                    :[DTS] EMU-320 Export Type
 
 # wagon's name
-STR_VTS_PASS_NAME                                   :[VTS] Passenger transport vehicle
-STR_VTS_SPASS_NAME                                  :[VTS] carriage-type passenger transport vehicle
-STR_YFXF_NAME                                       :[VTS] YFX Freight Car
+STR_DTS_PASS_NAME                                   :[DTS] Passenger transport vehicle
 
 # Parameters
 STR_PARAM_Regular_SPEED_Train_NAME                  :Regular Train Speed Variable
@@ -24,48 +18,17 @@ STR_PARAM_High_SPEED_Train_NAME                     :High Speed Train Speed
 STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the high-speed train (Default:331km/h)
 
 # Refit (Additional text)
-STR_REFIT_ADDITIONAL_HYEL_100                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}HYEL-100
-STR_REFIT_ADDITIONAL_HYEL_200                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HYEL-200
-STR_REFIT_ADDITIONAL_HYEL_300                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_HYEL_400                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HYEL-400
-STR_REFIT_ADDITIONAL_YFX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}YFX
+STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}EUM-320
 
 STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
 STR_REFIT_train_configuration_1F                    :{BLACK}train configuration: {GREEN}1F passenger vehicles
-STR_REFIT_train_configuration_2F                    :{BLACK}train configuration: {GREEN}2F passenger vehicles
-STR_REFIT_train_configuration_Coach                 :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
-STR_REFIT_train_configuration_Coach_Last            :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
-STR_REFIT_train_configuration_YFX_Freight           :{BLACK}train configuration: {GREEN}YFX Freight Car
 
 # Liveries
-STR_REFIT_LIVERY_HYEL_100_SRT                       :(SRT)
-STR_REFIT_LIVERY_HYEL_100_CJ                        :(CJ Logistics)
-STR_REFIT_LIVERY_HYEL_100_poste                     :(Poste mail)
-STR_REFIT_LIVERY_HYEL_100_fedex                     :(Fedex)
-STR_REFIT_LIVERY_HYEL_100_SanCheon                  :(SanCheon)
-STR_REFIT_LIVERY_HYEL_100_Hanjin                    :(Hanjin Logistics)
-STR_REFIT_LIVERY_HYEL_100_logen                     :(logen Logistics)
-STR_REFIT_LIVERY_HYEL_100_lotte                     :(lotte Logistics)
-STR_REFIT_LIVERY_HYEL_100_DHL                       :(DHL)
-STR_REFIT_LIVERY_HYEL_100_Yellowcap                 :(Yellowcap)
-STR_REFIT_LIVERY_HYEL_100_Daesin                    :(Daesin Logistics)
-STR_REFIT_LIVERY_HYEL_100_Ilyang                    :(Ilyang Logistics)
-STR_REFIT_LIVERY_HYEL_100_Korail                    :(Korail)
-STR_REFIT_LIVERY_HYEL_100_Ironman                   :(Ironman)
-STR_REFIT_LIVERY_HYEL_100_K_Limousine               :(K Limousine)
-STR_REFIT_LIVERY_HYEL_300                           :(HYEL-300)
-STR_REFIT_LIVERY_HYEL_300_SB                        :(HYEL-300 Sea Livery)
-STR_REFIT_LIVERY_YFX_wagon_original                 :(Wingbody Freight)
-STR_REFIT_LIVERY_YFX_wagon_post                     :(Post Wingbody Freight)
-STR_REFIT_LIVERY_YFX_wagon_CJ_Logistics             :(CJ Logistics Wingbody Freight)
-STR_REFIT_LIVERY_Shinkansen_500_Cool                :(Shinkansen 500 Cool)
-STR_REFIT_LIVERY_Shinkansen_500_Cool_New            :(Shinkansen 500 Cool New)
+STR_REFIT_LIVERY_EMU320_DB                          :(EMU-320 ICE)
+STR_REFIT_LIVERY_EMU320_EURO                        :(EMU-320 Eurostar)
+STR_REFIT_LIVERY_EMU320_THSR                        :(EMU-320 THSR)
 
 # Liveries wagon
-STR_REFIT_LIVERY_Coach_2F_BR                        :(Default Color)
-STR_REFIT_LIVERY_Coach_2F_Taegeuk                   :(Taegeuk Color)
-STR_REFIT_LIVERY_Coach_2F_SR                        :(SR Color)
-STR_REFIT_LIVERY_Coach_2F_K_Limousion               :(K Limousion Color)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :You can't attach this car here
