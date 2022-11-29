@@ -1,0 +1,53 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Coach_2F_Wagon_purchase, "src\wagon\Coach_2F_wagon\Coach_2F_wagon.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. 기본 도색
+--------------------------------------------------------------------*/
+spriteset(set_Coach_2F_Wagon, "src\wagon\Coach_2F_wagon\Coach_2F_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+/*--------------------------------------------------------------------
+2. 태극 도색
+--------------------------------------------------------------------*/
+spriteset(set_Coach_2F_Taegeuk_Wagon, "src\wagon\Coach_2F_wagon\Coach_2F_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+alternative_sprites(set_Coach_2F_Taegeuk_Wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\Coach_2F_wagon\Coach_2F_wagon_Taegeuk.png") {
+    wagon_1F_F(80, 0)
+}
+
+/*--------------------------------------------------------------------
+3. SR 도색
+--------------------------------------------------------------------*/
+spriteset(set_Coach_2F_SR_Wagon, "src\wagon\Coach_2F_wagon\Coach_2F_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+alternative_sprites(set_Coach_2F_SR_Wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\Coach_2F_wagon\Coach_2F_wagon_SR.png") {
+    wagon_1F_F(80, 0)
+}
+
+/*--------------------------------------------------------------------
+3. K 리무진
+--------------------------------------------------------------------*/
+spriteset(set_Coach_2F_K_Limousion_Wagon, "src\wagon\Coach_2F_wagon\Coach_2F_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+alternative_sprites(set_Coach_2F_K_Limousion_Wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\Coach_2F_wagon\Coach_2F_wagon_K_Limousine.png") {
+    wagon_1F_F(80, 0)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Coach_2F_Wagon_purchase, cargo_subtype) {
+    set_Coach_2F_Wagon_purchase;
+}

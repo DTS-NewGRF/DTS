@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_HYEL_200_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_HYEL_200_engineT;
+    set_HYEL_200_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_200_wagon, (position_in_consist)) {
+    1: set_HYEL_200_wagon_r;
+    set_HYEL_200_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_200_wagon_attach, vehicle_type_id) {
+    HYEL_200:               return CB_RESULT_ATTACH_ALLOW;
+    VTS_1F_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

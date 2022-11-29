@@ -1,0 +1,529 @@
+0.6.1 (2021-09-15)
+------------------------------------------------------------------------
+Support for NewGRF additions of OpenTTD 12.0:
+- Update: Increase number of OTTD_GUI sprites to 191 (#253)
+
+
+0.6.0 (2021-08-15)
+------------------------------------------------------------------------
+This release adds major enhancements to switches:
+- Switches can now be used as functions inside expressions
+- Switches can now define parameters, which are passed by callers for usage inside the switch
+- NML now applies optimisations to switches and chains of switches
+- optimisation and deprecation warnings can be suppressed with nmlc flags, see 'nmlc --help' (#230)
+
+Support for NewGRF additions of OpenTTD 12.0:
+- Add: rail vehicle property and callback 'curve_speed_mod' (rail vehicle property 0x2E) (#222)
+
+Support for NewGRF additions of OpenTTD 1.11:
+- Update: Increase number of OTTD_GUI sprites to 186 (#183)
+- Add: Industry spec_flag 'IND_FLAG_DO_NOT_CLAMP_PASSENGER_PRODUCTION' (#183)
+- Add: Vehicle variables 'tile_(supports|powers|is)_(rail|road|tram)type' (#183)
+- Add: Vehicle variable 'tile_has_catenary' (#183)
+- Add: General variable 'inflation', which reports the game setting (#183)
+- Add: Alternative string constants introduced in OpenTTD/OpenTTD#8392 (#176)
+
+Other changes and fixes:
+- Add: industry variable for 'town_index' (var 0x41)
+- Add: constants GROUNDSPRITE_GRASS, GROUNDSPRITE_DESERT_2_2, GROUNDSPRITE_GRASS_1_3, GROUNDSPRITE_GRASS_2_3, GROUNDSPRITE_GRASS_3_3
+- Add: builtin functions for round() and sqrt()
+- Add: plural form 14 for Romanian
+- Change: Check that user code doesn't try to use reserved registers (#189)
+- Change: warn when a deprecated constant is used
+- Change: progress display shows input filename when reading files
+- Change: improve error message when invalid features are used
+- Add: More-obvious error for trailing '.' in a string id (#145)
+- Change: Clean up language definitions (#208)
+- Fix #184: Share townname bits when possible (#185)
+- Fix: Compatibility with Pillow 8.1.0 (#182)
+- Fix #180: No proper error message was given, if an unreferenced String was unable to allocate an id (#181)
+- Fix: Access to persistent-storage of towns  (#173)
+- Fix: Don't suppress errors for incorrect `hide_sprite` values (#168)
+- Fix: Remove trailing whitespaces in NFO output (#164)
+- Fix: town_euclidean_dist was returning incorrect value (#206)
+- Fix: rename MAP_TYPE_RECTANGULAR to MAP_TYPE_SQUARE (#201)
+- Fix: LZ77 compatibility with Python 3.9+ (#215, #228)
+- Fix: access to persistent-storage of towns was broken (#173)
+- Fix: use most likely defined position when reporting error (#226)
+- Update: VS generation script syntax (#233)
+
+
+0.5.3 (2020-09-15)
+------------------------------------------------------------------------
+This release primarily restores legacy industry properties and vars which were removed in NML 0.5.0.  This is done for compatibility, so that older industry grfs can still be compiled with NML 0.5.3.
+
+See the NML 0.5.0 changelog entry for a list of the legacy industry properties and vars that were removed, and are restored in NML 0.5.3. A warning will be shown when these are used, and they may be removed again in some future version.
+
+- Change: Show more info in `nmlc --version
+- Change: Reintroduce industry property 0.4 syntax for compatibility
+- Fix: Rounding errors for some speed values (#147)
+
+
+0.5.2 (2020-05-17)
+------------------------------------------------------------------------
+This release primarily fixes a spritelayout-related bug introduced in 0.5.1 that may affect many grfs.
+
+- Fix #140: non-advanced sprite layouts don't have flags
+- Fix: Make --cache-dir work
+- Fix #139: Don't create the cache directory if --no-cache is passed
+
+
+0.5.1 (2020-05-10)
+------------------------------------------------------------------------
+This release fixes a number of issues reported in 0.5.0.
+
+Note:
+Although nmlc now permits up to 63 each of road and tramtypes, OpenTTD currently requires that the combined total not be more than 63 and that the same label not be used for both a roadtype and a tramtype.
+These limitations are not checked by nmlc.
+
+- Add: Builtin functions roadtype() and tramtype()
+- Fix: Allow calculations for palette in spritelayout
+- Fix #116: TownNames used bits could be the same for sub-parts (#117)
+- Fix #120: Value range of transported_last_month_pct should be 0..100 (#122)
+- Fix #121: STORE_PERM address limit should be 255, not 15
+- Fix #134: Incorrect value of PALETTE_CC_RED
+- Fix #74: Update ottd_display_speed to match changes from OpenTTD r23945 (#75)
+- Fix: ANIM warnings in examples
+- Fix: Make the industry example GRF do something, rather than crashing
+- Fix: Correct limit of available road/tramtypes
+- Fix: Produce, TownNames & TracktypeTable debug_print (#126, #127, #129)
+- Fix: Don't attempt to determine version from git when building from a release tarball
+
+
+0.5.0 (2020-04-26)
+------------------------------------------------------------------------
+
+NML 0.5.0 is a substantial release, covering multiple areas of the newgrf spec.  Thanks to everyone who helped.
+
+
+Industries
+----------
+NOTE TO AUTHORS: NML 0.5.0 removes many industry properties and vars.
+Industry sets using these properties or vars will *not* compile with nml 0.5.0 and need to be updated.
+All industry vars removed in 0.5.0 are replaced by equivalent new vars.
+Production callback (produce block) format also changed so produce blocks will need to be updated.
+We don't break NML backwards compatibility lightly, but this change was necessary to support 16 accepted and 16 produced cargos.
+Thanks.
+
+- Support for up to 16 accepted cargos and 16 produced cargos (available in OpenTTD 1.9.0 onwards)
+- New industry properties and vars
+  - cargo_types
+  - incoming_cargo_waiting
+  - produced_cargo_waiting
+  - this_month_production
+  - last_month_production
+  - this_month_transported
+  - last_month_transported
+  - transported_last_month_pct
+  - production_rate
+- Removed legacy industry properties and vars
+  - accept_cargo_types
+  - prod_cargo_types
+  - prod_multiplier
+  - input_multiplier_1
+  - input_multiplier_2
+  - input_multiplier_3
+  - production_rate_1
+  - production_rate_2
+  - waiting_cargo_1
+  - waiting_cargo_2
+  - waiting_cargo_3
+  - produced_cargo_waiting_1
+  - produced_cargo_waiting_2
+  - produced_this_month_1
+  - produced_this_month_2
+  - produced_last_month_1
+  - produced_last_month_2
+  - transported_this_month_1
+  - transported_this_month_2
+  - transported_last_month_1
+  - transported_last_month_2
+  - transported_last_month_pct_1
+  - transported_last_month_pct_2
+- New approach to tile cargo acceptance
+  - use INDTILE_FLAG_ACCEPT_ALL to accept all cargos industry accepts
+  - or use up to 16 cargos with accepted_cargos property
+- Production callback format changed - see https://newgrf-specs.tt-wiki.net/wiki/NML:Produce
+
+Industry docs: https://newgrf-specs.tt-wiki.net/wiki/NML:Industries
+industry tile docs: https://newgrf-specs.tt-wiki.net/wiki/NML:IndustryTiles
+
+Houses
+------
+- Support for up to 16 accepted cargos at houses
+
+Houses docs: https://newgrf-specs.tt-wiki.net/wiki/NML:Houses
+
+
+Roadtypes and Tramtypes
+-----------------------
+- Support for Roadtypes and Tramtypes (available in OpenTTD 1.10.0 onwards)
+
+Roadtypes docs; https://newgrf-specs.tt-wiki.net/wiki/NML:Roadtypes
+Tramtypes docs: https://newgrf-specs.tt-wiki.net/wiki/NML:Tramtypes
+
+
+Railtypes
+---------
+- Increase railtype ID range from 16 to 64, to support 64 railtypes
+- Railtype flag RAILTYPE_FLAG_HIDDEN for hiding a railtype from player construction menu
+- Railtype flags RAILTYPE_FLAG_ALLOW_90DEG and RAILTYPE_FLAG_DISALLOW_90DEG for 90 degree curves
+- Railtype flags RAILTYPE_FLAG_HIDDEN and RAILTYPE_FLAG_PRECOMBINED for precombined spriteset type
+
+Railtypes docs: https://newgrf-specs.tt-wiki.net/wiki/NML:Railtypes
+
+
+Procedures
+----------
+- Support for use of switches and random switches as procedures, reducing repetition of switches
+
+There are no docs for this at the time of release.
+
+
+Other Changes
+-------------
+- Feature: Add ANIM_TRIGGER_APT_AIRPLANE_LANDS (follows OpenTTD #7182)
+- Feature: Add station var nearby_tile_grfid (0x6A)
+- Feature: Add TTDPatchFlag 256_persistent_registers (0x80)
+- Feature: PUSH/POP_COLOUR codes for strings
+- Feature: Debug_print for GRF parameters
+- Feature: Allow PLY to generate parsing/lexing tables (improves performance); regeneration can be forced with nmlc -R
+- Feature: syntax highlighting support for Visual Studio Editor
+- Change: improved colouring of nmlc errors and warnings (where shell/terminal supports this)
+- Change: Make sprite encoder warnings more informative (#89)
+- Add: nmlc -D option to enable debug mode for parser
+- Fix #36: Global variable traffic_side was inconsistent with global parameter traffic_side
+- Fix #39: Add compatibility with >=pillow-7.0.0
+- Fix #52: Compatibility with python 3.8
+- Fix #57: GRF parameters could be given negative values
+- Fix: Add missing parameter in industry and airport tiles in RandomAction2
+- Fix: Properly clean up resource handles (eliminates 'too many open files' error on macOS with larger GRFs)
+- Codechange: Update nml version detection to support Git using similar approach to OpenTTD
+- Doc: Update example train nml to demonstrate use of sprite stack and vehicle length
+- Doc/Fix: Update the stated version requirements
+
+
+0.4.5 (2018-06-30)
+------------------------------------------------------------------------
+- Feature: increase cargo ID range from 32 to 64, to support 64 cargos in OpenTTD 11ab3c4ea2f6a6d29efda8c9ba2af04194621ea7
+- Change: Support more DCxx strings for OpenTTD r27769.
+- Add: Properties for vehicle sprite stack.
+- Add: CB_FLAG_MORE_SPRITES, PALETTE_IDENTITY
+- Add: String command 9A 1E CARGO_NAME.
+- Add: CB_RESULT_IND_NO_TEXT_NO_AMOUNT
+- Codechange: Store textids without offset in string_ranges
+- Fix: String encoding with cases was non-deterministic and resulted in differing md5sums for the NewGRF.
+- Fix: Rearrange order of string id assignment to keep compatibility.
+- Fix: When some IDs depleted, an internal NML error was raised instead of the intended error message.
+- Fix: most_common_refit was reading the wrong bits in var 42; read the write bits and rename it to most_common_cargo_type
+       as it's more accurate; also add most_common_cargo_subtype which also reads var 42 and was previously missing
+- Fix: Switch from :r format code to !r conversion flag to avoid crashes.
+- Update: Changelog
+
+
+0.4.4 (2016-01-07)
+------------------------------------------------------------------------
+- Fix/Revert: Stripping one path level is not enough
+
+
+0.4.3 (2016-01-07)
+------------------------------------------------------------------------
+- Add: prob_map_gen as alternative name for the mapgen industry probability property
+- Fix: Stripping one path level is enough
+- Fix: Compatibility with newer versions of pillow.
+- Fix: Vehicle 'sort' function caused internal error when an empty list was passed.
+- Fix: motion_counter is 24 bits, not 4.
+
+
+0.4.2 (2015-09-13)
+------------------------------------------------------------------------
+-Add: New industry type limits of OpenTTD 1.6
+-Fix: [CF] Build the version which is asked to be built instead of tip
+-Fix: Mark the cython acceleration module as optional.
+-Fix #7641: Sort gender and case translation tables deterministically (matthijs)
+-Fix #7640: Use dashes, not hyphens in manpage (matthijs)
+-Fix: getbits
+-Fix #7336: Action 6 offset was off by one for VA2 ranges when using a list of expressions in a switch.
+-Fix #7185: Incorrect Action6 offsets for Production Action2.
+-Doc: Be more verbose about MANIFEST.in and remove bootstrap from manifest as well
+
+
+0.4.1 (2015-04-12)
+------------------------------------------------------------------------
+- Change: Try to improve packaging by applying some in-built automatisms via find_package() (oberhumer) (issue #7540)
+- Add: second_rocky_tileset
+- Add: Build-in function 'getbits'
+- Fix: Building source bundle was broken
+- Fix: Version identification for tags
+- Doc: Update readme with python version info
+- Cleanup: Remove pre-OpenTTD-1.1 wrappers for SHIFT_LEFT, SHIFT_RIGHT and SHIFTU_RIGHT.
+- Cleanup: Remove bootstrap
+
+
+0.4.0 (2015-02-18)
+------------------------------------------------------------------------
+- Feature: [NewGRF] create_effect and effect_spawn_model
+- Feature: [NewGRF] EFFECT_SPRITE_NONE constant for create_effect callback
+- Feature: [NewGRF] support for OTTD_RECOLOUR action5 sprite(s)
+- Feature: [NewGRF] Support for Latin
+- Feature: [NewGRF] Variable to test for enabled wagon speed limits. (issue #6474)
+- Feature: Improve speed by caching position during parsing.
+- Feature: Warn about usage of animation and semi-transparent colours, and add spriteset flags to enable/disable the checks. (issue #1085)
+- Feature: Improved error position reporting with templated real sprites. Closes #7001
+- Feature: Cython acceleration module for GRF compression.
+- Change: Convert from Python2 to Python 3.2+
+- Change: At least check for isatty when using the funky colour codes in warning output (issue #5411)
+- Change: Do not store uncompressed sprites in the sprite cache.
+- Change: Use a separate spritecache file for each source image.
+- Change: Keep (possibly only temporarily) unused items in the spritecache until they are out-dated for sure.
+- Change: Reduce load on stdout by limiting incremental progress output to 1 message per second.
+- Change: Store amount of pure-white pixels in the spritecache instead of plain text warnings.
+- Change: Rewrite syntax file generators as python scripts
+- Change: [devzone] Don't run regressions in parallel to allow other tasks to run concurrently
+- Change: [devzone] Also update DevZone when we build tip but call it by its hash
+- Change: [devzone] Build the nml_lz77 extension for use by the CF
+- Add: Print progress information to interactive terminals.
+- Add: Progress output about lang files.
+- Add: Print statistics about used Action0 ids.
+- Add: Print statistics about used ActionF ids.
+- Add: Print statistics about used Spriteset ids.
+- Add: Print statistics about used Spritegroup ids.
+- Add: Print statistics about temporary Action2 registers.
+- Add: Print statistics about temporary ActionD registers and Action10 labels.
+- Add: Print statistics about GRF parameters.
+- Add: Print statistics about string ids.
+- Add: Print statistics about sound effect ids.
+- Add: Print statistics about cargo and railtype translation tables.
+- Add: Command line option to specify a cache directory.
+- Add: Command line option to set verbosity level of info output.
+- Add: Vebosity level 4 for printing CPU time on processing.
+- Add: Real sprites keep list of positions for improved error reporting with templates.
+- Add: Collect positions for real sprites through template instantiation.
+- Add: Build a position with an include stack from a list positions.
+- Fix: [NewGRF] Number of vehicles in var 41 is one-based, only var 40 is zero-based.
+- Fix: [NewGRF] Patch flags can only be accessed via action 7/9. (issue #6996)
+- Fix: [NewGRF] Action7/9 bit tests must use varsize 1.
+- Fix: Don't write parse tables. Closes #4091
+- Fix: Printing Unicode characters in NFO was broken. Also added regression check for it.
+- Fix: CPP output line directive can have several flags, which caused matching failure.
+- Fix: Validate string names for being proper identifiers
+- Fix: Add the output palette to the spritecache key. (issue #6496)
+- Fix: Encode sprites sequentially per source image file. (issue #7004)
+- Fix: No proper error message was given, if an unreferenced Spritegroup was unable to allocate an id.
+- Fix: Don't fail if there's a .hg directory but no mercurial
+- Doc: main function, and instance variables of the parser and scanner.
+- Doc: RealSprite members
+- Doc: Unused return values.
+- Doc: instance variables of SpriteAction.
+
+
+
+0.3.1 (2014-05-10)
+------------------------------------------------------------------------
+- Add: String commands CARGO_LONG, CARGO_SHORT and CARGO_TINY
+- Add: Object variable 'nearby_tile_object_view'
+- Add: Vehicle variable 'vehicle_is_unloading'
+- Add: House callback result 'CB_RESULT_HOUSE_NO_MORE_PRODUCTION'
+- Fix: Typo-fix in font_glpyh block name.
+- Fix: Error in raising an error in format_string
+- Fix: Don't catch more exception than expected, comment typo fixes, removed empty line
+- Fix: Report error from the spriteview position, instead of using a non-existing variable.
+- Fix: Do not report a position using a non-existing instance variable.
+- Fix: Don't crash on raising None after printing a warning.
+- Fix: Add also rpm spec file and syntax highlighting creation scripts to source distribution
+- Doc: Additional documentation, small fixes/improvments.
+- Change: Drop Python 2.5 support.
+
+
+
+0.3.0 (2014-01-01)
+------------------------------------------------------------------------
+- Feature: use grf container format v2, nfo v32 and grf v8
+- Feature: Support for alternate sprites, including 32bpp
+- Feature: Support for houses
+- Feature: Configurable volume for sound effects
+- Feature: Support pillow image library as well (Toshio Kuratomi) (issue #4799)
+- Feature: Remove the 64 kiB file size limit on sound effects
+- Feature: Vehicles: Deprecate property 'refittable_cargo_types' (issue #3583)
+- Feature: Vehicles: Add property 'default_cargo_type' for trains, RVs and ships (issue #3571)
+- Feature: Vehicle properties cargo_allow_refit and cargo_disallow_refit
+- Feature: Vehicles variables curvature info: 'curv_info', ' curv_info_prev_cur', 'curv_info_cur_next' and 'curv_info_prev_next' (variable 0x62)
+- Feature: Vehicles variables 'position_in_articulated_veh' and 'position_in_articulated_veh_from_end' (var 0x4D)
+- Feature: Canals variable 'dike_map' (variable 0x82)
+- Feature: Base-station variables for airports and stations
+- Feature: Station variables
+- Feature: Objects property 'count_per_map256'
+- Feature: General variables 'base_sprite_foundations' and 'base_sprite_shores' (variables 0x15 and 0x16)
+- Feature: Cargo property 'capacity multiplier' (property 0x1D)
+- Feature: Allow outputting multiple sprites per real sprite slot (issue #3712)
+- Feature: Labels for recolour sprites, as for real sprites
+- Feature: use language code instead of number as argument for ##grflangid pragma in language files (issue #3960)
+- Feature: Improved error output (issue #2929, #3814, #4736, #4299, #5411, #6209)
+- Feature: Unit conversions for non-constant values (issue #3828)
+- Feature: Builtin function format_string(format, args) (issue #4074)
+- Feature: Cache real sprites when building a GRF, to reduce compilation time
+- Feature: Allow using 'default: foo' in switch-blocks, or omitting the default altogether (issue #4186)
+- Feature: Check for identical language IDs in the different language files (issue #4997)
+- Feature: Verify whether translations use the plural form expected by their language
+- Feature: Consider file system paths case-insensitive at all systems (issue #5429)
+- Change: Vehicles: 'length' property and callback for trains and RVs (replaces 'shorten_vehicle')
+- Change: Vehicles: No longer set the default cargo automatically (issue #3571)
+- Change: Rework the RV speed property, so it works with non-constant values (issue #3828)
+- Change: Merge aircraft properties 'is_helicopter' and 'is_large' into a single common property 'aircraft_type' (issue #3700)
+- Change: Rename LOADINGSTAGE_XXX to LOADING_STAGE_XXX
+- Change: Canals: variable 'tile_height' now returns height in tiles
+- Change: Rename 'availability' callback to 'construction_probability'
+- Change: snowline_height is in tiles
+- Change: Output cropping debug output to stderr instead of stdout
+- Change: Unlink .grf file before write (issue #4165)
+- Change: Let item ID -1 mean 'use default ID' (as if no ID was specified)
+- Change: Don't always set the same property value for all tiles, only do so when appropriate
+- Change: Allocate parameters starting at 127 instead of 64 (issue #4222)
+- Change: improve optimization for expressions containing comparison operators by marking them as "return bool"
+- Change: Modify version output to always give the version and revision, for both, releases and nightlies
+- Change: delay changing not into xor with 1 to the last moment, it's not efficient when doing the computations via actionD, only for action2
+- Change: use the location of the version_info.py file instead of the current repo's version (issue #5513)
+- Feature: Maintenance cost properties for airports and railtypes
+- Feature: New base costs for property maintenance
+- Add: max_height_level variable
+- Add: a few constants for generic groundsprites in the baseset
+- Add: new constant CB_RESULT_NO_TEXT for use in cargo_subtype_(text/display)
+- Add: Alternative railtype label list (issue #3459)
+- Add: New property 'value_function' for action 0 properties
+- Add: Command-line parameter '--no-cache' (-n) to disable caching of real sprites. Enable this parameter in the regression makefile for the NML-output to NFO/GRF compilation step
+- Add: Command-line parameter '--quiet' to disable all warnings (issue #3106)
+- Add: Command-line parameter '--md5' to write md5sum of grf to another file (issue #3732)
+- Add: NML output for item size and sprite layout parameters
+- Add: Language files: ##map_case pragma similar to ##map_gender
+- Add: TILE_CLASS_VOID to allow checking for map border and to have a constant when using nearby_tile_class on it
+- Add: Scripts to create syntax highlighting file for kate and notepad++
+- Add: misc object flag 'OBJ_FLAG_SCALE_BY_WATER' to influence amount of objects placed on maps
+- Add: Support for Scottish Gaelic
+- Fix: hardcoded path in .devzone/build/files caused errors with new CF (issue #3267)
+- Fix: proper error message when input nml is not utf-8 encoded (issue #3233)
+- Fix: also use the filename in error messages if it isn't preprocessed by gcc but directly supplied as input file
+- Fix: provide proper error message when running out of parameter or label numbers
+- Fix: it was not possible to use constants in the <id>-part of an item-block
+- Fix: Rename all occurences of 'base_sprites' to 'base_graphics', to avoid possible confusion such as wrong NML output
+- Fix: Real sprite lists may contain unexpanded templates, so comparing their lengths makes no sense
+- Fix: only reduce start_id argument to replace-block during pre-process stage (issue #3744)
+- Fix: with statement needs import from future for python 2.5
+- Fix: Fix tile compression to remove some useless (for grfv2) code and add a missing check for the chunk length (issue #3785)
+- Fix: Sprites with long format (!= long chunks) tile compression had incorrect offsets
+- Fix: some string industry properties didn't accept a string as value
+- Fix: do palette conversion before putting the sprite data in a tuple
+- Fix: ind. tile 'autoslope' cb num was set to 0x3B instead of 0x3C
+- Fix: compatibility with python 2.5 (issue #3998)
+- Fix: provide file/line information when detecting an error in a string even when in a later stage (issue #3898)
+- Fix: Backslash-escapes in strings weren't properly validated. Also remove useless \n escape (issue #3636)
+- Fix: Proper handling of failed callbacks (issue #2933)
+- Fix: Provide a proper error message if a substring is missing, instead of an assertion error (also issue #3674) (issue #3932)
+- Fix: Use translations for statically included string parameters if possible, even if the base string is not translated (issue #3642)
+- Fix: Proper error message when running out of switch registers (issue #3082)
+- Fix: Don't use a string instead of a position object (issue #4063)
+- Fix: We should always round floats, but not try to round everything else
+- Fix: refit_cost callback may also be called from the purchase menu
+- Fix: Publishing one of the generated grfs is enough. Especially if they would overwrite eachother on publishing
+- Fix: Make ActionA work for more than 255 consecutive sprites
+- Fix: applying operator ! to a constant number didn't work (issue #4458)
+- Fix: Missing range check for callback results could cause assertions (issue #4769)
+- Fix: Cache white pixel messages (issue #4760)
+- Fix: Random switch interdependencies were messed up (issue #4742)
+- Fix: Rail type and snowline table action6 offsets weren't updated when changing ID to an extended byte (issue #4787)
+- Fix: Incorrect action 6 offset in random action 2 (issue #4730)
+- Fix: Use the same (decimal) numbering scheme for plurals in language files as OpenTTD (issue #4811)
+- Fix: cargo_age_period is property 2B, not 28. A typo caused CB36 to fail
+- Fix: Position information for errors regarding sound file includes was missing / broken (issue #4850)
+- Fix: Give the expected default lang file name in case it wasn't found
+- Fix: Road vehicle speed was incorrectly set for vehicles faster than 70mph (issue #5336)
+- Fix: Object variable 'company colour' returned faulty values (issue #5624)
+- Fix: Snowline code still generated GRFv7 output (issue #5609)
+- Fix: Town name parts could end up with more than 255 entries
+- Fix: Also add offset when skipping fixed rail types
+- Fix: Don't loop forever on / paths (issue #6209)
+- Fix: adjust_value had tendency to take the value higher than the wanted
+- Fix: aircraft speed property conversion didn't do the conversion from (issue #4667)
+- Fix: For houses without any callbacks a dummy VA2 with zero cases was created, which unintentionally returned a computed value (issue #5294)
+- Fix: P string command shall default to the previous parameter (issue #6503)
+- Doc: add abstract base class to document Action0Property and relatives
+- Doc: RPM build spec
+- Doc: why the default language is processed twice
+- Doc: Add some code documentation to the grfstrings.py file
+- Remove: Ability to save 32bpp sprites as pngs, and lots of other stuff that won't be needed anymore
+- Remove: Deprecated refittable_cargo_types property. Instead zero it upon writing a different refit property, to avoid possible conflicts with other grfs (issue #3583)
+- Remove: Unused command-line parameter 'sprites-dir.'
+- Remove: Cargo properties single_unit_text and multiple_units_text
+
+
+0.2.5 (2014-01-01)
+------------------------------------------------------------------------
+- Feature: Support pillow image library as well (Toshio Kuratomi) (issue #4799)
+- Change: Modify version output to always give the version and revision, for both, releases and nightlies
+- Add: New GUI sprite in OpenTTD r24749, r25293, r25344 and r25916
+- Fix: Use the correct version_info.py file instead of the current repo's version (issue #5513)
+- Fix: Town name parts could end up with more than 255 entries
+- Fix: Also add offset when skipping fixed rail types
+- Fix: adjust_value had tendency to take the value higher than the wanted value
+- Fix: aircraft speed property conversion didn't do the conversion from (issue #4667)
+
+
+0.2.4 (2012-10-14)
+------------------------------------------------------------------------
+- Feature: Report NML line information as well as pixel position for pure white pixels. Also, report number of pixels in the sprite, instead of the whole image (issue #4029)
+- Feature: 'signals' callback for railtypes
+- Feature: Allow the 'nfo' unit to be used with non-constant values (issue #3828)
+- Feature: 'build_prod_change' callback for industries to set industry production level on construction
+- Feature: Constant CB_RESULT_REFIT_COST_MASK
+- Feature: Vehicle misc_flag VEHTYPE_FLAG_NO_BREAKDOWN_SMOKE
+- Feature: 'current_max_speed' variable for vehicles (issue #3979)
+- Feature: 'vehicle_is_in_depot' variable for aircraft
+- Feature: 'range' property and callback for aircraft
+- Feature: 'production_rate_1/2' variables for industries
+- Feature: 'town_zone' variable for railtypes
+- Feature: 'other_veh_(curv_info|is_hidden|x_offset|y_offset|z_offset)' variables for vehicles
+- Fix: Provide a proper error message when running out of action2 IDs
+- Fix: A '{' at the end of a string could cause a crash
+- Fix: Backslash-escapes in strings weren't properly validated. Also remove useless \n escape (issue #3636)
+- Fix: Provide a proper error message if a substring is missing, instead of an assertion error (issue #3932)
+- Fix: 'refit_cost' callback may also be called from the purchase menu
+- Fix: Allow using constants > 255 as variable parameter (issue #4086)
+- Fix: Sprite layout register code contained an unsorted iteration over dictionary keys, resulting in possible regression failures
+
+
+0.2.3 (2012-02-19)
+------------------------------------------------------------------------
+- Feature: Action5 for tunnel portals
+- Fix: Properly catch out-of-bounds image reads (issue #3666)
+- Fix: Character code 0xA0 (NBSP) is used for an up arrow in TTD, so
+       don't write it as ascii. Force unicode instead (issue #3643)
+
+
+0.2.2 (2012-01-29)
+------------------------------------------------------------------------
+- Feature: support for (optional) url-information in the grf-block
+- Feature: names for newly defined cargo classes: CC_POWDERIZED and CC_NEO_BULK
+- Feature: clean target to Makefile in main dir and let make clean remove regression/parsetab.py
+- Fix: don't crash when a line in custom_tags.txt is missing a colon delimiter
+- Fix: each action4 is limited to 255 strings. Write multiple actions when we have more than that
+- Fix: groff warning about manpage
+- Fix: include buildout.cfg in src distribution and prune regression/nml_output/ (issue #3490)
+- Fix: Add NML output for replacenew-block (issue #3450)
+- Fix: include nmlc script so regression runs out-of-the-box for source package
+- Fix: several files from examples/ were missing in source distributions
+- Fix: 'make install' was broken
+- Doc: add notice about ZPL in readme.txt
+
+
+0.2.1 (2011-12-18)
+------------------------------------------------------------------------
+- Feature: CB_RESULT_NO_MORE_ARTICULATED_PARTS, CB_RESULT_REVERSED_VEHICLE
+       and CB_RESULT_NO_TEXT as constants to make porting projects to NML 0.3 easier.
+- Fix: Internal error when the ID in a replace-block was not a compile-time constant
+- Fix: Crash when referencing a SpriteSetCollection in a graphics-block that was inside an if-block
+- Fix: Text files in docs/ were not included in source package
+- Doc: Add GPL v2 header to all .py files
+
+
+0.2.0 (2011-11-20)
+------------------------------------------------------------------------
+No changelog available for 0.2.0 and earlier

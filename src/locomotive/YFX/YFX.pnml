@@ -1,0 +1,61 @@
+/*--------------------------------------------------------------------
+YFX
+--------------------------------------------------------------------*/
+// Graphics
+#include "YFX_graphic.pnml"
+
+// Switch
+#include "YFX_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, YFX, 1088){
+    property {
+        name:                           string(STR_YFX_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        dual_headed:                    1;
+        
+        //spec
+        speed:                          600km/h;
+        power:                          10000 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 100;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [COAL, MAIL, OIL_, LVST, GOOD, GRAI, WOOD, IORE, STEL, VALU, PAPR, WHEA, FOOD, GOLD, RUBR, FRUT, MAIZ, CORE, WATR, DIAM, SUGR, BATT, BUBL, COLA, CTCD, FZDR, PLST, SWET, TOFF, TOYS, AORE, RCYC, SGBT, FICR, MNSP, METL, ACID, BEER, STAL, ALUM, NH3_, BEAN, BDMT, CBLK, STCB, CASS, CSTI, CMNT, RFPR, CHLO, CLAY, SOAP, CTAR, JAVA, COKE, COPR, EOIL, POWR, ENSP, BOOM, FMSP, FECR, FERT, FISH, GLAS, KAOL, LIME, MNO2, MILK, NITR, NUTS, O2__, COAT, PEAT, PETR, PHOS, IRON, PIPE, PLAS, POTA, PORE, QLME, SALT, SAND, SCMT, SLAG, SASH, LYE_, STST, STSE, STSH, STWR, GRVL, SULP, WDPR, TYRE, VBOD, VENG, VPTS, VEHI, WOOL, ZINC];
+        cargo_disallow_refit:           [];
+    
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+	graphics {
+        default:                        sw_YFX_engine;
+        purchase:                       sw_YFX_purchase;
+        can_attach_wagon:               sw_YFX_wagon_attach;
+        start_stop:                     sw_YST_train_start_stop_6;
+        additional_text:                string(STR_REFIT_ADDITIONAL_YFX);
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        }
+        }
