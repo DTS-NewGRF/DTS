@@ -4,5 +4,5 @@
 sort(FEAT_TRAINS, [
     EMU320,                    //9001
 
-    DTS_1F_Passenger_Car,      //9000
+    DTS_Passenger_Car,      //9000
     ]);

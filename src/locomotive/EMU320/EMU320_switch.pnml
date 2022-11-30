@@ -65,6 +65,6 @@ switch(FEAT_TRAINS, SELF, sw_EMU320_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 
 
 switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_attach, vehicle_type_id) {
     EMU320:                 return CB_RESULT_ATTACH_ALLOW;
-    DTS_1F_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }
