@@ -1,27 +1,27 @@
 /*--------------------------------------------------------------------
-EMU
+ICE-SP
 --------------------------------------------------------------------*/
 // Graphics
-#include "EMU320_graphic.pnml"
+#include "ICE_graphic.pnml"
 
 // Switch
-#include "EMU320_switch.pnml"
+#include "ICE_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, EMU320, 9001){
+item(FEAT_TRAINS, ICE, 9005){
     property {
-        name:                           string(STR_EMU_320_NAME);
+        name:                           string(STR_ICE_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         dual_headed:                    1;
         
         //spec
-        speed:                          331km/h;
+        speed:                          362km/h;
         power:                          8000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
@@ -29,20 +29,19 @@ item(FEAT_TRAINS, EMU320, 9001){
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 58;
+        cargo_capacity:                 30;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
         cargo_disallow_refit:           [];
         
         //Costs
-        cost_factor:                    10;
-        running_cost_factor:            150;
         refit_cost:                     0;
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
@@ -52,19 +51,19 @@ item(FEAT_TRAINS, EMU320, 9001){
         }
         
     graphics {
-        default:                        sw_EMU320_engine;
-        purchase:                       sw_EMU320_purchase;
+        default:                        sw_ICE_engine;
+        purchase:                       sw_ICE_purchase;
         speed:                          High_Speed_Train;
         loading_speed:                  25;
-        can_attach_wagon:               sw_EMU320_wagon_attach;
-        cargo_subtype_text:             sw_EMU320_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_EMU320);
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_ICE_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_ICE);
         }
 
     livery_override(DTS_Passenger_Car) {
-        default:                        sw_EMU320_wagon;
-        cargo_subtype_text:             sw_EMU320_cargo_subtype_text;
-        cargo_capacity:                 70;
+        default:                        sw_ICE_wagon;
+        cargo_capacity:                 50;
         loading_speed:                  25;
         running_cost_factor:            100;
         }

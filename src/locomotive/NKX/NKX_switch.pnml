@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_NKX_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_NKX_engineT;
+    set_NKX_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_NKX_wagon_cargo_subtype, (position_in_consist)) {
+    1: set_NKX_wagon_r;
+    set_NKX_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_NKX_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    NKX: set_NKX_start_wagon_r;
+    sw_NKX_wagon_cargo_subtype;
+}
+
+switch(FEAT_TRAINS, SELF, sw_NKX_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    NKX: set_NKX_start_wagon;
+    sw_NKX_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_NKX_wagon_attach, vehicle_type_id) {
+    NKX:                    return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

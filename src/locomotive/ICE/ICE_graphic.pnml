@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_ICE_purchase, "src/locomotive/ICE/ICE.png"){
+	tmpl_purchase(0, 0)
+}
+
+alternative_sprites(set_ICE_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ICE/ICE_32bpp.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. ICE
+--------------------------------------------------------------------*/
+spriteset(set_ICEH_purchase, "src/locomotive/ICE/ICE.png"){
+	tmpl_purchase_for_dualhead(0, 54)
+}
+
+spriteset(set_ICE_engineH, "src/locomotive/ICE/ICE.png"){
+	engine(80, 0)
+}
+
+spriteset(set_ICE_wagon, "src/locomotive/ICE/ICE.png") {
+	wagon_1F(80, 27)
+}
+
+spriteset(set_ICE_wagon_r, "src/locomotive/ICE/ICE.png") {
+	wagon_1F_r(80, 27)
+}
+
+spriteset(set_ICE_engineT, "src/locomotive/ICE/ICE.png"){
+	engine_r(80, 54)
+}
+
+/*--------------------------------------------------------------------
+1-1. ICE 32bpp
+--------------------------------------------------------------------*/
+alternative_sprites(set_ICEH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ICE/ICE_32bpp.png"){
+	tmpl_purchase_for_dualhead(0, 54)
+}
+
+alternative_sprites(set_ICE_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ICE/ICE_32bpp.png"){
+	engine(80, 0)
+}
+
+alternative_sprites(set_ICE_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ICE/ICE_32bpp.png") {
+	wagon_1F(80, 27)
+}
+
+alternative_sprites(set_ICE_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ICE/ICE_32bpp.png") {
+	wagon_1F_r(80, 27)
+}
+
+alternative_sprites(set_ICE_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ICE/ICE_32bpp.png"){
+	engine_r(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_ICE_purchase, cargo_subtype) {
+	set_ICE_purchase;
+}

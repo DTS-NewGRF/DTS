@@ -7,7 +7,12 @@ STR_GRF_DESC                                        :Derivative Train Set
 STR_GRF_URL                                         :https://github.com/MEGB-NewGRF/VirtualTrainSet
 
 # locomotive's name
-STR_EMU_320_NAME                                    :[DTS] EMU-320 Export Type
+STR_EMU_320_NAME                                    :[DTS] EMU-320
+STR_Glory_600_NAME                                  :[DTS] Glory 600
+STR_HMX_NAME                                        :[DTS] HMX
+STR_ICE_NAME                                        :[DTS] ICE
+STR_N700_NAME                                       :[DTS] N700
+STR_NKX_NAME                                        :[DTS] NKX
 
 # wagon's name
 STR_DTS_PASS_NAME                                   :[DTS] Passenger transport vehicle
@@ -19,7 +24,12 @@ STR_PARAM_High_SPEED_Train_NAME                     :High Speed Train Speed
 STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the high-speed train (Default:331km/h)
 
 # Refit (Additional text)
-STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}EUM-320
+STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}EUM-320{}source:KR+Set
+STR_REFIT_ADDITIONAL_Glory600                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Glory-600
+STR_REFIT_ADDITIONAL_HMX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HMX
+STR_REFIT_ADDITIONAL_ICE                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}ICE
+STR_REFIT_ADDITIONAL_N700                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_NKX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NKX
 
 STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
 STR_REFIT_train_configuration_1F                    :{BLACK}train configuration: {GREEN}1F passenger vehicles
@@ -28,6 +38,10 @@ STR_REFIT_train_configuration_1F                    :{BLACK}train configuration:
 STR_REFIT_LIVERY_EMU320_DB                          :(EMU-320 ICE)
 STR_REFIT_LIVERY_EMU320_EURO                        :(EMU-320 Eurostar)
 STR_REFIT_LIVERY_EMU320_THSR                        :(EMU-320 THSR)
+STR_REFIT_LIVERY_EMU320_CC                          :(EMU-320 Company Colour)
+STR_REFIT_LIVERY_EMU320_BK                          :(EMU-320 Black Livery)
+STR_REFIT_LIVERY_EMU320_SRT                         :(EMU-320 SRT)
+STR_REFIT_LIVERY_EMU320_SRT2                        :(EMU-320 SRT2)
 
 # Liveries wagon
 
