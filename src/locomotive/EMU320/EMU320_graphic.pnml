@@ -99,37 +99,6 @@ spriteset(set_EMU320_THSR_engineT, "src/locomotive/EMU320/EMU320_THSR.png"){
 }
 
 /*--------------------------------------------------------------------
-EMU320_BK
---------------------------------------------------------------------*/
-spriteset(set_EMU320_BKH_purchase, "src/locomotive/EMU320/EMU320_BK.png"){
-    tmpl_purchase_for_dualhead(0, 135)
-}
-
-spriteset(set_EMU320_BK_engineH, "src/locomotive/EMU320/EMU320_BK.png"){
-    engine(80, 0)
-}
-
-spriteset(set_EMU320_BK_panto_wagon, "src/locomotive/EMU320/EMU320_BK.png"){
-    wagon_1F_F(80, 27)
-}
-
-spriteset(set_EMU320_BK_wagon, "src/locomotive/EMU320/EMU320_BK.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_EMU320_BK_wagon_r, "src/locomotive/EMU320/EMU320_BK.png") {
-    wagon_1F(80, 81)
-}
-
-spriteset(set_EMU320_BK_panto_wagon_r, "src/locomotive/EMU320/EMU320_BK.png"){
-    wagon_1F_F(80, 108)
-}
-
-spriteset(set_EMU320_BK_engineT, "src/locomotive/EMU320/EMU320_BK.png"){
-    engine_r(80, 135)
-}
-
-/*--------------------------------------------------------------------
 EMU320_CC
 --------------------------------------------------------------------*/
 spriteset(set_EMU320_CCH_purchase, "src/locomotive/EMU320/EMU320_CC.png"){
@@ -157,68 +126,6 @@ spriteset(set_EMU320_CC_panto_wagon_r, "src/locomotive/EMU320/EMU320_CC.png"){
 }
 
 spriteset(set_EMU320_CC_engineT, "src/locomotive/EMU320/EMU320_CC.png"){
-    engine_r(80, 135)
-}
-
-/*--------------------------------------------------------------------
-EMU320_SRT
---------------------------------------------------------------------*/
-spriteset(set_EMU320_SRTH_purchase, "src/locomotive/EMU320/EMU320_SRT.png"){
-    tmpl_purchase_for_dualhead(0, 135)
-}
-
-spriteset(set_EMU320_SRT_engineH, "src/locomotive/EMU320/EMU320_SRT.png"){
-    engine(80, 0)
-}
-
-spriteset(set_EMU320_SRT_panto_wagon, "src/locomotive/EMU320/EMU320_SRT.png"){
-    wagon_1F_F(80, 27)
-}
-
-spriteset(set_EMU320_SRT_wagon, "src/locomotive/EMU320/EMU320_SRT.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_EMU320_SRT_wagon_r, "src/locomotive/EMU320/EMU320_SRT.png") {
-    wagon_1F(80, 81)
-}
-
-spriteset(set_EMU320_SRT_panto_wagon_r, "src/locomotive/EMU320/EMU320_SRT.png"){
-    wagon_1F_F(80, 108)
-}
-
-spriteset(set_EMU320_SRT_engineT, "src/locomotive/EMU320/EMU320_SRT.png"){
-    engine_r(80, 135)
-}
-
-/*--------------------------------------------------------------------
-EMU320_SRT2
---------------------------------------------------------------------*/
-spriteset(set_EMU320_SRT2H_purchase, "src/locomotive/EMU320/EMU320_SRT2.png"){
-    tmpl_purchase_for_dualhead(0, 135)
-}
-
-spriteset(set_EMU320_SRT2_engineH, "src/locomotive/EMU320/EMU320_SRT2.png"){
-    engine(80, 0)
-}
-
-spriteset(set_EMU320_SRT2_panto_wagon, "src/locomotive/EMU320/EMU320_SRT2.png"){
-    wagon_1F_F(80, 27)
-}
-
-spriteset(set_EMU320_SRT2_wagon, "src/locomotive/EMU320/EMU320_SRT2.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_EMU320_SRT2_wagon_r, "src/locomotive/EMU320/EMU320_SRT2.png") {
-    wagon_1F(80, 81)
-}
-
-spriteset(set_EMU320_SRT2_panto_wagon_r, "src/locomotive/EMU320/EMU320_SRT2.png"){
-    wagon_1F_F(80, 108)
-}
-
-spriteset(set_EMU320_SRT2_engineT, "src/locomotive/EMU320/EMU320_SRT2.png"){
     engine_r(80, 135)
 }
 
