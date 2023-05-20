@@ -5,3 +5,46 @@
 STR_GRF_NAME_WITH_VER                               :파생형 열차 세트 {VERSION}
 STR_GRF_DESC                                        :파생형 열차 세트 입니다
 STR_GRF_URL                                         :https://github.com/DTS-NewGRF/DTS/releases
+
+# locomotive's name
+STR_EMU_320_NAME                                    :[DTS] EMU-320
+STR_Glory_600_NAME                                  :[DTS] Glory 600
+STR_HMX_NAME                                        :[DTS] HMX
+STR_ICE_NAME                                        :[DTS] ICE
+STR_N700_NAME                                       :[DTS] N700
+STR_NKX_NAME                                        :[DTS] NKX
+
+# wagon's name
+STR_DTS_PASS_NAME                                   :[DTS] 승객 수송 차량
+
+# Parameters
+STR_PARAM_Regular_SPEED_Train_NAME                  :일반열차 속도변수
+STR_PARAM_Regular_SPEED_Train_DESC                  :일반열차의 속도를 조정합니다. (기본:151km/h)
+STR_PARAM_High_SPEED_Train_NAME                     :고속열차 속도변수
+STR_PARAM_High_SPEED_Train_DESC                     :고속열차의 속도를 조정합니다. (기본:331km/h)
+
+# Refit (Additional text)
+STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}EUM-320{}출처:KR+Set
+STR_REFIT_ADDITIONAL_Glory600                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}Glory-600
+STR_REFIT_ADDITIONAL_HMX                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}HMX
+STR_REFIT_ADDITIONAL_ICE                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}ICE
+STR_REFIT_ADDITIONAL_N700                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_NKX                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}NKX
+
+STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
+STR_REFIT_train_configuration_1F                    :{BLACK}열차구성: {GREEN}1층 승객 차량용
+
+# Liveries locomotive
+STR_REFIT_LIVERY_EMU320_DB                          :(EMU-320 ICE)
+STR_REFIT_LIVERY_EMU320_EURO                        :(EMU-320 유로스타)
+STR_REFIT_LIVERY_EMU320_THSR                        :(EMU-320 대만고속철도)
+STR_REFIT_LIVERY_EMU320_CC                          :(EMU-320 회사색상)
+STR_REFIT_LIVERY_EMU320_BK                          :(EMU-320 시안)
+STR_REFIT_LIVERY_EMU320_SRT                         :(EMU-320 SRT 시안 1안)
+STR_REFIT_LIVERY_EMU320_SRT2                        :(EMU-320 SRT 컨셉)
+
+# Liveries wagon
+
+# Errors
+STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다
+STR_ERROR_NOT_ENOUGH_LENGTH6                        :열차 길이가 너무 짧습니다. 최소한 6량 이상을 연결해야 합니다.

@@ -1,0 +1,79 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_NKX_purchase, "src/locomotive/NKX/NKX.png"){
+    tmpl_purchase(0, 0)
+}
+
+alternative_sprites(set_NKX_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX_32bpp.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. NKX
+--------------------------------------------------------------------*/
+spriteset(set_NKXH_purchase, "src/locomotive/NKX/NKX.png"){
+    tmpl_purchase_for_dualhead(0, 81)
+}
+
+spriteset(set_NKX_engineH, "src/locomotive/NKX/NKX.png"){
+    engine(80, 0)
+}
+
+spriteset(set_NKX_start_wagon, "src/locomotive/NKX/NKX.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_NKX_start_wagon_r, "src/locomotive/NKX/NKX.png") {
+    wagon_1F_F_r(80, 27)
+}
+
+spriteset(set_NKX_wagon, "src/locomotive/NKX/NKX.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_NKX_wagon_r, "src/locomotive/NKX/NKX.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_NKX_engineT, "src/locomotive/NKX/NKX.png"){
+    engine_r(80, 81)
+}
+
+/*--------------------------------------------------------------------
+1. NKX 32bpp
+--------------------------------------------------------------------*/
+alternative_sprites(set_NKXH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX_32bpp.png"){
+    tmpl_purchase_for_dualhead(0, 81)
+}
+
+alternative_sprites(set_NKX_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX_32bpp.png"){
+    engine(80, 0)
+}
+
+alternative_sprites(set_NKX_start_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX_32bpp.png") {
+    wagon_1F_F(80, 27)
+}
+
+alternative_sprites(set_NKX_start_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX_32bpp.png") {
+    wagon_1F_F_r(80, 27)
+}
+
+alternative_sprites(set_NKX_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX_32bpp.png") {
+    wagon_1F(80, 54)
+}
+
+alternative_sprites(set_NKX_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX_32bpp.png") {
+    wagon_1F_r(80, 54)
+}
+
+alternative_sprites(set_NKX_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/NKX/NKX_32bpp.png"){
+    engine_r(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_NKX_purchase, cargo_subtype) {
+    set_NKX_purchase;
+}

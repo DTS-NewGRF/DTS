@@ -1,0 +1,11 @@
+/*--------------------------------------------------------------------
+공통객차
+--------------------------------------------------------------------*/
+// Graphics
+#include "passenger_wagon_graphic.pnml"
+
+// Switch
+#include "passenger_wagon_switch.pnml"
+
+// 열차정보
+#include "passenger_1F_wagon.pnml"

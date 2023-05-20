@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Glory_600_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_Glory_600_engineT;
+    set_Glory_600_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Glory_600_wagon, (position_in_consist)) {
+    1: set_Glory_600_wagon_r;
+    set_Glory_600_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Glory_600_wagon_attach, vehicle_type_id) {
+    Glory_600:              return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

@@ -1,0 +1,137 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_EMU320_purchase, "src/locomotive/EMU320/EMU320_DB.png"){
+	tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+EMU320_DB
+--------------------------------------------------------------------*/
+spriteset(set_EMU320_DBH_purchase, "src/locomotive/EMU320/EMU320_DB.png"){
+    tmpl_purchase_for_dualhead(0, 135)
+}
+
+spriteset(set_EMU320_DB_engineH, "src/locomotive/EMU320/EMU320_DB.png"){
+    engine(80, 0)
+}
+
+spriteset(set_EMU320_DB_panto_wagon, "src/locomotive/EMU320/EMU320_DB.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_EMU320_DB_wagon, "src/locomotive/EMU320/EMU320_DB.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_EMU320_DB_wagon_r, "src/locomotive/EMU320/EMU320_DB.png") {
+    wagon_1F(80, 81)
+}
+
+spriteset(set_EMU320_DB_panto_wagon_r, "src/locomotive/EMU320/EMU320_DB.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_EMU320_DB_engineT, "src/locomotive/EMU320/EMU320_DB.png"){
+    engine_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+EMU320_EURO
+--------------------------------------------------------------------*/
+spriteset(set_EMU320_EUROH_purchase, "src/locomotive/EMU320/EMU320_EURO.png"){
+    tmpl_purchase_for_dualhead(0, 135)
+}
+
+spriteset(set_EMU320_EURO_engineH, "src/locomotive/EMU320/EMU320_EURO.png"){
+    engine(80, 0)
+}
+
+spriteset(set_EMU320_EURO_panto_wagon, "src/locomotive/EMU320/EMU320_EURO.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_EMU320_EURO_wagon, "src/locomotive/EMU320/EMU320_EURO.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_EMU320_EURO_wagon_r, "src/locomotive/EMU320/EMU320_EURO.png") {
+    wagon_1F(80, 81)
+}
+
+spriteset(set_EMU320_EURO_panto_wagon_r, "src/locomotive/EMU320/EMU320_EURO.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_EMU320_EURO_engineT, "src/locomotive/EMU320/EMU320_EURO.png"){
+    engine_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+EMU320_THSR
+--------------------------------------------------------------------*/
+spriteset(set_EMU320_THSRH_purchase, "src/locomotive/EMU320/EMU320_THSR.png"){
+    tmpl_purchase_for_dualhead(0, 135)
+}
+
+spriteset(set_EMU320_THSR_engineH, "src/locomotive/EMU320/EMU320_THSR.png"){
+    engine(80, 0)
+}
+
+spriteset(set_EMU320_THSR_panto_wagon, "src/locomotive/EMU320/EMU320_THSR.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_EMU320_THSR_wagon, "src/locomotive/EMU320/EMU320_THSR.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_EMU320_THSR_wagon_r, "src/locomotive/EMU320/EMU320_THSR.png") {
+    wagon_1F(80, 81)
+}
+
+spriteset(set_EMU320_THSR_panto_wagon_r, "src/locomotive/EMU320/EMU320_THSR.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_EMU320_THSR_engineT, "src/locomotive/EMU320/EMU320_THSR.png"){
+    engine_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+EMU320_CC
+--------------------------------------------------------------------*/
+spriteset(set_EMU320_CCH_purchase, "src/locomotive/EMU320/EMU320_CC.png"){
+    tmpl_purchase_for_dualhead(0, 135)
+}
+
+spriteset(set_EMU320_CC_engineH, "src/locomotive/EMU320/EMU320_CC.png"){
+    engine(80, 0)
+}
+
+spriteset(set_EMU320_CC_panto_wagon, "src/locomotive/EMU320/EMU320_CC.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_EMU320_CC_wagon, "src/locomotive/EMU320/EMU320_CC.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_EMU320_CC_wagon_r, "src/locomotive/EMU320/EMU320_CC.png") {
+    wagon_1F(80, 81)
+}
+
+spriteset(set_EMU320_CC_panto_wagon_r, "src/locomotive/EMU320/EMU320_CC.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_EMU320_CC_engineT, "src/locomotive/EMU320/EMU320_CC.png"){
+    engine_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_EMU320_purchase, cargo_subtype) {
+	set_EMU320_purchase;
+}

@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_1F_wagon_purchase, "src\wagon\passenger_wagon\passenger_wagon.png"){
+	tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_2F_wagon_purchase, "src\wagon\passenger_wagon\passenger_wagon.png"){
+	tmpl_wagon_purchase(0, 27)
+}
+
+/*--------------------------------------------------------------------
+1. 1층 공통객차
+--------------------------------------------------------------------*/
+spriteset(set_1F_wagon, "src\wagon\passenger_wagon\passenger_wagon.png") {
+    wagon_1F(80, 0)
+}
+
+spriteset(set_1F_wagon_r, "src\wagon\passenger_wagon\passenger_wagon.png") {
+    wagon_1F_r(80, 0)
+}
