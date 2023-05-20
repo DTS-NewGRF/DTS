@@ -1,0 +1,7 @@
+##grflangid 0x3A
+##gender m f
+
+# GRF name and description
+STR_GRF_NAME_WITH_VER                            :내 GRF v{VERSION}
+STR_GRF_DESC                                     :내 GRF입니다
+STR_GRF_URL                                      :https://github.com/KoreanGRF/KoreanEmptySet
