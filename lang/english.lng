@@ -2,6 +2,6 @@
 
 
 # GRF name and description
-STR_GRF_NAME_WITH_VER                            :My NewGRF v{VERSION}
-STR_GRF_DESC                                     :This is my empty NewGRF set
-STR_GRF_URL                                      :https://github.com/KoreanGRF/KoreanEmptySet
+STR_GRF_NAME_WITH_VER                               :Derivative Train Set {VERSION}
+STR_GRF_DESC                                        :Derivative Train Set
+STR_GRF_URL                                         :https://github.com/MEGB-NewGRF/VirtualTrainSet

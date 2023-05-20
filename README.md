@@ -1,52 +1,24 @@
-# Korean Empty Set
-**Korean Empty Set**은 한국 관련 NewGRF 세트를 위한 템플릿입니다.  
-**Korean Empty Set** is a template for Korean NewGRF sets.
+# Derivative Train Set 파생형 열차세트
+**파생형 열차세트**는 기존 열차셋을 바탕으로 다른 도색이 적용할 경우 적용되는 열차셋이다.
+기존 셋을 바탕으로 제작되는 만큼 적용되는 기준이 다소 까다롭게 적용된다.
+[Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)에서 다운로드할 수 있습니다.
 
-# Requires
-You need Linux bash shell or WSL to make your NewGRF project by using this template.
-And you need to deal with some git command.
+## 등록기준
+### 공통사항
+기본 템플릿과 일치하지 않을 경우 적용이 보류된다.
+### 파생형
+원본이 되는 기존 셋의 출처가 명확해야하며, 원본열차의 선형을 그대로 유지할 수 있어야 한다. (제작시점의 선형기준)
+### 카피형
+- 원본이 되는 기존셋이 그대로 파생형으로 카피되어 넘어올 경우에 해당한다. (제작시점 자료기준)
+- 원본 GRF가 메인임이므로 관련 자료의 이슈 자료는 필수적으로 무시한다.
+- 원본셋과 파생형의 셋이 중련연결하고 싶은 경우를 대비해 카피형이 적용되는 경우가 가장 클 수 있다.
 
-# How to use
- 1. Modify ``Makefile.config``. Do not modify other variables if there is no certain purpose.
-    ```
-    # Name
-    REPO_NAME           ?= Korean Empty Set
-    
-    # File name of *.grf, *.tar and so on
-    BASE_FILENAME       ?= ko_empty_set
-    
-    # Version
-    VERSION             ?= $(shell ./findversion.sh)
-    RECENT_UPDATED      ?= $(shell date +"%Y.%m.%d")
-    REPO_BRANCH_VERSION ?= 0
-    
-    # Author's information
-    AUTHOR_WEBSITE      ?= https://domain.com
-    AUTHOR_EMAIL        ?= your_email@address.com
-    
-    # If needed, declare the minimum NML requirements
-    REQUIRED_NML_BRANCH  = 0.4
-    # MIN_NML_REVISION   = 0
-    ```
-    * ``REPO_NAME``: Your NewGRF name  
-    * ``BASE_FILENAME``: Your NewGRF's file name
-    * ``AUTHOR_WEBSITE``: NewGRF's website url
-    * ``AUTHOR_EMAIL``: Author's email address
- 2. Modify **_./docs/license.txt_** and **_./docs/readme.ptxt_** as you wish
- 3. Rename **_ko_empty_set.pnml_** into the **_(BASE_FILENAME).grf_**  
-    For example, if ``BASE_FILENAME`` is _ko_test_set_, then rename it into **_ko_test_set.grf_**.  
- 4. Write your code in **_ko_test_set.pnml_**.  
-    You may put some other _.pnml_ files by creating some directories, such as ``src``.  
-	Then you may include it by ``#include "./src/some_file_name.pnml"`` syntax.
- 5. Run ``make all`` in the shell. Then compiled **_ko_test_set.tar_** tar file generated in **_./generated/_** directory.
- 6. ``make clean`` will clean your project.
- 7. Version will be named as git's commit hash.  
-    If the last commit has git tag, the tag name will be your NewGRF's version name.
+## 개발
+### 빌드하는 방법
+이 NewGRF를 빌드하려면 [NML](https://github.com/OpenTTD/nml)과 **Python 3**이 필요합니다.  
+터미널 쉘에서 ``make``를 실행하세요. Windows 환경이라면, 그 전에 명령 프롬포트를 열고 ``bash``를 입력하세요.  
+``make clean``을 입력하면 모든 생성된 파일이 초기화됩니다.
 
-# Build release example
-```
-(some git commands, such as "git add ." and "git commit")
-git tag v1.0.2
-make clean
-make all
-```
+## 저작권
+이 NewGRF는 크리에이티브 커먼스 라이선스 v3.0 (CC-BY-NC-SA v3.0)을 따릅니다. <br>
+이 프로젝트에 기여함은 이 라이선스에 동의함을 의미합니다.
