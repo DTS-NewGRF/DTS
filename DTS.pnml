@@ -8,8 +8,8 @@ grf {
     url :                              string(STR_GRF_URL);
     version :                          20230521;
     min_compatible_version :           20230513;
-	
-	// Parameters 매개변수
+
+    // Parameters 매개변수
     #include "src/parameter.pnml"
 }
 
@@ -32,7 +32,7 @@ cargotable {
 
 // Railtypetable
 railtypetable {
-    RAIL, ELRL, MGLV}
+    RAIL, ELRL}
 
 // Load templates
 #include "src/template_list.pnml"
