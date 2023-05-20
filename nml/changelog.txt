@@ -1,3 +1,63 @@
+0.7.2 (2023-04-17)
+------------------------------------------------------------------------
+This release adds support for vehicle variants and the road stops.
+
+Support for NewGRF additions of OpenTTD 14:
+- Feature: Engine name callback
+- Add: Road stops (feature 0x14) (#279)
+
+Support for NewGRF additions of OpenTTD 13:
+- Add: 'tunnels' callback for road- and tramtypes (#273)
+- Feature: support extra_flags for vehicles
+- Feature: support for variant_group action 0 prop for vehicles
+
+Other changes and fixes:
+- Change: Optimise trivial right shift operations on variables
+- Change: Drop binary operations with constant 0 for more operators
+- Fix: By default there is no ELRL railtype. (#277)
+- Change: Don't output callback flag props that are zero.
+
+
+0.7.1 (2022-12-03)
+------------------------------------------------------------------------
+While writing documentation for stations, we made some small changes to the syntax.
+
+Stations changes:
+- Codechange: always use intermediate registers for station sprite layouts
+- Change: allow any expression for station (purchase_)prepare_layout
+- Fix: Station animation triggers every 250 ticks, not 256. (#266)
+- Change: replace nearby_tile_platform_type with nearby_tile_tile_type. (#265)
+- Change: disabled_platforms/length is now bitmask(1-8) (#264)
+- Change: use an array of cargoes for cargo_random_triggers (#263)
+- Fix 16eb0035: disabled_platforms and disabled_length properties used a wrong number
+
+Other changes and fixes:
+- Fix #256: Objects have a 'colour' in var 47. (#267)
+- Fix: Versioning of NewGRF is supposed to start at 1.
+
+
+0.7.0 (2022-08-29)
+------------------------------------------------------------------------
+This release adds the long awaited support for stations.
+
+Support for NewGRF additions of OpenTTD 13.0:
+- Add: Map seed in patch variable 0x17.
+
+Support for NewGRF additions of OpenTTD 1.11:
+- Change: provide nml vars for industry var 0x47 - GameScript control status
+
+Other changes and fixes:
+- Codechange: improve error reporting for procedure calls missing '()' (#257)
+- Add: show an error if a required property is not set for objects (feature 0F) (#236)
+- Fix: Reject empty arrays of expressions (#224)
+- Fix #209: Cargo 'profit' callback applied a unit conversion, when there was no unit. (#220)
+- Change: adjust sound name constants to match OpenTTD
+- Cleanup 8a03613: also remove now useless SHORTEN_TO_X_8 constants
+- Fix #253: Produce a more efficient NFO code for abs() builtin function (#255)
+- Add: Prevent side effects when ternary operator results are not read only (#247)
+- Change: Export keyword JSON for VSCode (#245)
+
+
 0.6.1 (2021-09-15)
 ------------------------------------------------------------------------
 Support for NewGRF additions of OpenTTD 12.0:
