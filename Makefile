@@ -46,7 +46,7 @@ build: $(GRF_GENERATE) doc bundle_tar
 	@echo "[DOC] $@"
 	@cat $< | sed -e "s/{{\VERSION}}/$(VERSION)/" > ./generated/$(notdir $@)
 clean::
-	@-rm -rf ./generated/readme.ptxt
+	@-rm -rf ./generated/readme.txt
 
 # Documents
 doc: generated $(GRF_GENERATE)

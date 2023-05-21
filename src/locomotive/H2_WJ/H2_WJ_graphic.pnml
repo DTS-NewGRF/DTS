@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_H2_WJ_purchase, "src/locomotive/H2_WJ/H2_WJ.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. NKX
+--------------------------------------------------------------------*/
+spriteset(set_H2_WJH_purchase, "src/locomotive/H2_WJ/H2_WJ.png"){
+    tmpl_purchase_for_dualhead(0, 81)
+}
+
+spriteset(set_H2_WJ_engineH, "src/locomotive/H2_WJ/H2_WJ.png"){
+    engine(80, 0)
+}
+
+spriteset(set_H2_WJ_wagon, "src/locomotive/H2_WJ/H2_WJ.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_H2_WJ_engineT, "src/locomotive/H2_WJ/H2_WJ.png"){
+    engine_r(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_H2_WJ_purchase, cargo_subtype) {
+    set_H2_WJ_purchase;
+}

@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_VHST_600X_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_VHST_600X_engineT;
+    set_VHST_600X_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_VHST_600X_wagon, (position_in_consist)) {
+    1: set_VHST_600X_wagon_r;
+    set_VHST_600X_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_VHST_600X_wagon_attach, vehicle_type_id) {
+    VHST_600X:              return CB_RESULT_ATTACH_ALLOW;
+    KTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

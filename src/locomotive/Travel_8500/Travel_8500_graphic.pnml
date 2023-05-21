@@ -1,0 +1,49 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Travel_8500_purchase, "src/locomotive/Travel_8500/Travel_8500.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_A_Train_engine, "src/locomotive/Travel_8500/Travel_8500.png"){
+    engine(80, 0)
+}
+
+spriteset(set_G_Train_engine, "src/locomotive/Travel_8500/Travel_8500.png"){
+    engine(80, 27)
+}
+
+spriteset(set_S_Train_engine, "src/locomotive/Travel_8500/Travel_8500.png"){
+    engine(80, 54)
+}
+
+spriteset(set_V_Train_engine, "src/locomotive/Travel_8500/Travel_8500.png"){
+    engine(80, 81)
+}
+
+spriteset(set_Haerang_Train_engine, "src/locomotive/Travel_8500/Travel_8500.png"){
+    engine(80, 108)
+}
+
+alternative_sprites(set_Haerang_Train_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Travel_8500/Travel_8500_32bpp.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Wine_Train_engine, "src/locomotive/Travel_8500/Travel_8500.png"){
+    engine(80, 135)
+}
+
+spriteset(set_A_New_Train_engine, "src/locomotive/Travel_8500/Travel_8500.png"){
+    engine(80, 162)
+}
+
+spriteset(set_G_New_Train_engine, "src/locomotive/Travel_8500/Travel_8500.png"){
+    engine(80, 189)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Travel_8500_purchase, cargo_subtype) {
+	set_Travel_8500_purchase;
+}

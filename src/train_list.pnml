@@ -1,8 +1,37 @@
 //wagon
-#include "wagon/passenger_wagon/passenger_wagon.pnml"
+#include "wagon/passenger_wagon/passenger_wagon_all.pnml"
+#include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
+#include "wagon/Generatar_Car/Generatar_Car.pnml"
+#include "wagon/Luggage_Car/Luggage_Car.pnml"
+#include "wagon/CTX_Freight_Car/CTX_Freight_Car.pnml"
 
 //locomotive
-#include "locomotive/EMU320/EMU320.pnml"
+#include "locomotive/AREX/AREX.pnml"
+#include "locomotive/Bicheuro_DUPLEX/Bicheuro2.pnml"
+#include "locomotive/CTX/CTX.pnml"
+#include "locomotive/DEL7600/DEL7600.pnml"
+#include "locomotive/EMU/EMU150/EMU150.pnml"
+#include "locomotive/EMU/EMU260/EMU260.pnml"
+#include "locomotive/EMU/EMU260_DD/EMU260_DD.pnml"
+#include "locomotive/EMU/EMU320/EMU320.pnml"
+#include "locomotive/EMU/EMU320_DD/EMU320_DD.pnml"
+#include "locomotive/GT26CW/GT26CW.pnml"
+#include "locomotive/GTX/GTX.pnml"
+#include "locomotive/H2_WJ/H2_WJ.pnml"
+#include "locomotive/HEMU_430X/HEMU_430X.pnml"
+#include "locomotive/HSR_350X/HSR_350X.pnml"
+#include "locomotive/ITX_CW/ITX_CW.pnml"
+#include "locomotive/ITX_SM2/ITX_SM2.pnml"
+#include "locomotive/KTX_SC/KTX_SC.pnml"
+#include "locomotive/KTX_SC2/KTX_SC2.pnml"
+#include "locomotive/NRT2/NRT2.pnml"
+#include "locomotive/Travel_8500/Travel_8500.pnml"
+#include "locomotive/TTX/TTX.pnml"
+#include "locomotive/VHST_600X/VHST_600X.pnml"
+
+//Metro
+#include "metro/AUTS/AUTS.pnml"
+#include "metro/standard/Standard.pnml"
 
 // Sorting
 #include "sort.pnml"

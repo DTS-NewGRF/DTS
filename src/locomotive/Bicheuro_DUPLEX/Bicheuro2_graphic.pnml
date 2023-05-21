@@ -1,0 +1,94 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Bicheuro2_purchase, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_R.png"){
+	tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. Bicheuro2_R
+--------------------------------------------------------------------*/
+spriteset(set_Bicheuro2RH_purchase, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_R.png"){
+	tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_Bicheuro2R_engineH, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_R.png"){
+	engine(80, 0)
+}
+
+spriteset(set_Bicheuro2R_panto_wagon, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_R.png"){
+	wagon_1F_F(80, 27)
+}
+
+spriteset(set_Bicheuro2R_wagon, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_R.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Bicheuro2R_panto_wagon_r, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_R.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Bicheuro2R_engineT, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_R.png"){
+	engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+2. Bicheuro2_G
+--------------------------------------------------------------------*/
+spriteset(set_Bicheuro2GH_purchase, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_G.png"){
+	tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_Bicheuro2G_engineH, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_G.png"){
+	engine(80, 0)
+}
+
+spriteset(set_Bicheuro2G_panto_wagon, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_G.png"){
+	wagon_1F_F(80, 27)
+}
+
+spriteset(set_Bicheuro2G_wagon, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_G.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Bicheuro2G_panto_wagon_r, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_G.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Bicheuro2G_engineT, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_G.png"){
+	engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+3. Bicheuro2_W
+--------------------------------------------------------------------*/
+spriteset(set_Bicheuro2WH_purchase, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_W.png"){
+	tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_Bicheuro2W_engineH, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_W.png"){
+	engine(80, 0)
+}
+
+spriteset(set_Bicheuro2W_panto_wagon, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_W.png"){
+	wagon_1F_F(80, 27)
+}
+
+spriteset(set_Bicheuro2W_wagon, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_W.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Bicheuro2W_panto_wagon_r, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_W.png"){
+	wagon_1F_F(80, 81)
+}
+
+spriteset(set_Bicheuro2W_engineT, "src/locomotive/Bicheuro_DUPLEX/Bicheuro2_W.png"){
+	engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Bicheuro2_purchase, cargo_subtype) {
+	set_Bicheuro2_purchase;
+}
