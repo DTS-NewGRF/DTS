@@ -1,0 +1,280 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_YFXF_purchase, "src\wagon\YFX_wagon\YFX_wagon.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+alternative_sprites(set_YFXF_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. YFX
+--------------------------------------------------------------------*/
+
+spriteset(set_YFX_empty_wagon, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_wagon, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_01_wagon, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_02_wagon, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_03_wagon, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_04_wagon, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+/*--------------------------------------------------------------------
+1-1. YFX 32bpp
+--------------------------------------------------------------------*/
+
+alternative_sprites(set_YFX_empty_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png") {
+    wagon_1F_F(80, 0)
+}
+
+alternative_sprites(set_YFX_loaded_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 27)
+}
+
+alternative_sprites(set_YFX_loaded_01_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 54)
+}
+
+alternative_sprites(set_YFX_loaded_02_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 81)
+}
+
+alternative_sprites(set_YFX_loaded_03_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 108)
+}
+
+alternative_sprites(set_YFX_loaded_04_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 135)
+}
+
+/*--------------------------------------------------------------------
+2. YFX 우체국소포
+--------------------------------------------------------------------*/
+
+spriteset(set_YFX_empty_wagon_post, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_wagon_post, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_01_wagon_post, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_02_wagon_post, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_03_wagon_post, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_04_wagon_post, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+/*--------------------------------------------------------------------
+2-1. YFX 우체국소포 32bpp
+--------------------------------------------------------------------*/
+
+alternative_sprites(set_YFX_empty_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_Post_wagon_32bpp.png") {
+    wagon_1F_F(80, 0)
+}
+
+alternative_sprites(set_YFX_loaded_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_Post_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 27)
+}
+
+alternative_sprites(set_YFX_loaded_01_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_Post_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 54)
+}
+
+alternative_sprites(set_YFX_loaded_02_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_Post_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 81)
+}
+
+alternative_sprites(set_YFX_loaded_03_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_Post_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 108)
+}
+
+alternative_sprites(set_YFX_loaded_04_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_Post_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 135)
+}
+
+/*--------------------------------------------------------------------
+3. YFX CJ
+--------------------------------------------------------------------*/
+
+spriteset(set_YFX_empty_wagon_CJ, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_wagon_CJ, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_01_wagon_CJ, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_02_wagon_CJ, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+/*--------------------------------------------------------------------
+2-1. YFX 우체국소포 32bpp
+--------------------------------------------------------------------*/
+
+alternative_sprites(set_YFX_empty_wagon_CJ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp_CJ_Logistics.png") {
+    wagon_1F_F(80, 0)
+}
+
+alternative_sprites(set_YFX_loaded_wagon_CJ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp_CJ_Logistics.png") {
+    YFX_loaded_wagon_1F_F(80, 27)
+}
+
+alternative_sprites(set_YFX_loaded_01_wagon_CJ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp_CJ_Logistics.png") {
+    YFX_loaded_wagon_1F_F(80, 54)
+}
+
+alternative_sprites(set_YFX_loaded_02_wagon_CJ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp_CJ_Logistics.png") {
+    YFX_loaded_wagon_1F_F(80, 81)
+}
+
+/*--------------------------------------------------------------------
+적재 스위치
+--------------------------------------------------------------------*/
+spritegroup sg_YFX_wagon_01 {
+    loading: [
+        set_YFX_loaded_wagon,
+        set_YFX_loaded_01_wagon,
+    ];
+    loaded: [
+        set_YFX_empty_wagon
+    ];
+}
+
+spritegroup sg_YFX_wagon_02 {
+    loading: [
+        set_YFX_loaded_wagon,
+        set_YFX_loaded_02_wagon,
+    ];
+    loaded: [
+        set_YFX_empty_wagon
+    ];
+}
+
+spritegroup sg_YFX_wagon_03 {
+    loading: [
+        set_YFX_loaded_wagon,
+        set_YFX_loaded_03_wagon,
+    ];
+    loaded: [
+        set_YFX_empty_wagon
+    ];
+}
+
+spritegroup sg_YFX_wagon_04 {
+    loading: [
+        set_YFX_loaded_wagon,
+        set_YFX_loaded_04_wagon,
+    ];
+    loaded: [
+        set_YFX_empty_wagon
+    ];
+}
+
+/*--------------------------------------------------------------------
+우체국 적재 스위치
+--------------------------------------------------------------------*/
+
+spritegroup sg_YFX_wagon_01_post {
+    loading: [
+        set_YFX_loaded_wagon_post,
+        set_YFX_loaded_01_wagon_post,
+    ];
+    loaded: [
+        set_YFX_empty_wagon_post
+    ];
+}
+
+spritegroup sg_YFX_wagon_02_post {
+    loading: [
+        set_YFX_loaded_wagon_post,
+        set_YFX_loaded_02_wagon_post,
+    ];
+    loaded: [
+        set_YFX_empty_wagon_post
+    ];
+}
+
+spritegroup sg_YFX_wagon_03_post {
+    loading: [
+        set_YFX_loaded_wagon_post,
+        set_YFX_loaded_03_wagon_post,
+    ];
+    loaded: [
+        set_YFX_empty_wagon_post
+    ];
+}
+
+spritegroup sg_YFX_wagon_04_post {
+    loading: [
+        set_YFX_loaded_wagon_post,
+        set_YFX_loaded_04_wagon_post,
+    ];
+    loaded: [
+        set_YFX_empty_wagon_post
+    ];
+}
+
+/*--------------------------------------------------------------------
+CJ 적재 스위치
+--------------------------------------------------------------------*/
+
+spritegroup sg_YFX_wagon_01_CJ {
+    loading: [
+        set_YFX_loaded_wagon_CJ,
+        set_YFX_loaded_01_wagon_CJ,
+    ];
+    loaded: [
+        set_YFX_empty_wagon_CJ
+    ];
+}
+
+spritegroup sg_YFX_wagon_02_CJ {
+    loading: [
+        set_YFX_loaded_wagon_CJ,
+        set_YFX_loaded_02_wagon_CJ,
+    ];
+    loaded: [
+        set_YFX_empty_wagon_CJ
+    ];
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_YFXF_purchase, cargo_subtype) {
+    set_YFXF_purchase;
+}

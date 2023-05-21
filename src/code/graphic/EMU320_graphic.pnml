@@ -21,11 +21,11 @@ spriteset(set_EMU320_DB_panto_wagon, "src/graphic/EMU320/EMU320_DB.png"){
 }
 
 spriteset(set_EMU320_DB_wagon, "src/graphic/EMU320/EMU320_DB.png") {
-    wagon_1F(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_EMU320_DB_wagon_r, "src/graphic/EMU320/EMU320_DB.png") {
-    wagon_1F(80, 81)
+    wagon_1F_F(80, 81)
 }
 
 spriteset(set_EMU320_DB_panto_wagon_r, "src/graphic/EMU320/EMU320_DB.png"){
@@ -52,11 +52,11 @@ spriteset(set_EMU320_EURO_panto_wagon, "src/graphic/EMU320/EMU320_EURO.png"){
 }
 
 spriteset(set_EMU320_EURO_wagon, "src/graphic/EMU320/EMU320_EURO.png") {
-    wagon_1F(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_EMU320_EURO_wagon_r, "src/graphic/EMU320/EMU320_EURO.png") {
-    wagon_1F(80, 81)
+    wagon_1F_F(80, 81)
 }
 
 spriteset(set_EMU320_EURO_panto_wagon_r, "src/graphic/EMU320/EMU320_EURO.png"){
@@ -83,11 +83,11 @@ spriteset(set_EMU320_THSR_panto_wagon, "src/graphic/EMU320/EMU320_THSR.png"){
 }
 
 spriteset(set_EMU320_THSR_wagon, "src/graphic/EMU320/EMU320_THSR.png") {
-    wagon_1F(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_EMU320_THSR_wagon_r, "src/graphic/EMU320/EMU320_THSR.png") {
-    wagon_1F(80, 81)
+    wagon_1F_F(80, 81)
 }
 
 spriteset(set_EMU320_THSR_panto_wagon_r, "src/graphic/EMU320/EMU320_THSR.png"){
@@ -114,11 +114,11 @@ spriteset(set_EMU320_CC_panto_wagon, "src/graphic/EMU320/EMU320_CC.png"){
 }
 
 spriteset(set_EMU320_CC_wagon, "src/graphic/EMU320/EMU320_CC.png") {
-    wagon_1F(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_EMU320_CC_wagon_r, "src/graphic/EMU320/EMU320_CC.png") {
-    wagon_1F(80, 81)
+    wagon_1F_F(80, 81)
 }
 
 spriteset(set_EMU320_CC_panto_wagon_r, "src/graphic/EMU320/EMU320_CC.png"){

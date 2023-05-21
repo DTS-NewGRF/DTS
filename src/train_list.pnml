@@ -3,6 +3,7 @@
 
 //locomotive
 #include "code/EMU320.pnml"
+#include "code/Glory600.pnml"
 
 //Metro
 

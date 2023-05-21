@@ -47,7 +47,7 @@ item(FEAT_TRAINS, EMU320, 2001){
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
         
