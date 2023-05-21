@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TGV_M_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_TGV_M_engineT;
+    set_TGV_M_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_middle, (position_in_consist)) {
+    1: set_TGV_M_wagon_r;
+    set_TGV_M_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    TGV_M: set_TGV_M_wagon_end;
+    sw_TGV_M_wagon_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    TGV_M: set_TGV_M_wagon_start;
+    sw_TGV_M_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_attach, vehicle_type_id) {
+    TGV_M:                    return CB_RESULT_ATTACH_ALLOW;
+    ETS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

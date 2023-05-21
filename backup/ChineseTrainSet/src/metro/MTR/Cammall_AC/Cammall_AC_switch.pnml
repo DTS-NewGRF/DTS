@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_MTR_AC_Cammall_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_MTR_AC_Cammall_engineT;
+    set_MTR_AC_Cammall_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_AC_Cammall_wagon_middle, (position_in_consist)) {
+    1: set_MTR_AC_Cammall_wagon_r;
+    set_MTR_AC_Cammall_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_AC_Cammall_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    MTR_DC_Cammall: set_MTR_AC_Cammall_wagon_end;
+    sw_MTR_AC_Cammall_wagon_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_AC_Cammall_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    MTR_DC_Cammall: set_MTR_AC_Cammall_wagon_start;
+    sw_MTR_AC_Cammall_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_AC_Cammall_wagon_attach, vehicle_type_id) {
+    CTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

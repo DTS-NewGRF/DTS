@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_SWagon_purchase, "src\wagon\SPassenger_wagon\25_Type\1F_25_Type.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_SWagon_1F_Red, "src\wagon\SPassenger_wagon\25_Type\1F_25_Type.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_SWagon_1F_Green, "src\wagon\SPassenger_wagon\25_Type\1F_25_Type.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_SWagon_1F_White, "src\wagon\SPassenger_wagon\25_Type\1F_25_Type.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_SWagon_2F, "src\wagon\SPassenger_wagon\25_Type\2F_25_Type.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_SWagon_Bed_3nd, "src\wagon\SPassenger_wagon\25_Type\Bed_25_Type.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_SWagon_Bed_2nd, "src\wagon\SPassenger_wagon\25_Type\Bed_25_Type.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_SWagon_Bed_1nd, "src\wagon\SPassenger_wagon\25_Type\Bed_25_Type.png") {
+    wagon_1F_F(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_SWagon_purchase, cargo_subtype) {
+    set_SWagon_purchase;
+}

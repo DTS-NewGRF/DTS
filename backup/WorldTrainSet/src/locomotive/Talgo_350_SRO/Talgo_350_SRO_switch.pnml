@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Talgo_350_SRO_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_Talgo_350_SRO_engineT;
+    set_Talgo_350_SRO_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Talgo_350_SRO_wagon_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
+    1: set_Talgo_350_SRO_wagon_r;
+    set_Talgo_350_SRO_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Talgo_350_SRO_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    Talgo_350_SRO: set_Talgo_350_SRO_wagon_end;
+    sw_Talgo_350_SRO_wagon_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Talgo_350_SRO_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    Talgo_350_SRO: set_Talgo_350_SRO_wagon_start;
+    sw_Talgo_350_SRO_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Talgo_350_SRO_wagon_attach, vehicle_type_id) {
+    WTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

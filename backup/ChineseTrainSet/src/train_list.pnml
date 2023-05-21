@@ -1,0 +1,38 @@
+//wagon
+#include "wagon/passenger_wagon/passenger_wagon_all.pnml"
+#include "wagon/SPassenger_wagon/25_Type/SPassenger_Wagon.pnml"
+#include "wagon/Generatar_Car/Generatar_Car.pnml"
+#include "wagon/Luggage_Car/Luggage_Car.pnml"
+
+//locomotive
+#include "locomotive/CRH1/CRH1.pnml"
+#include "locomotive/CRH1E/CRH1E.pnml"
+#include "locomotive/CRH1A_A/CRH1A_A.pnml"
+#include "locomotive/CRH2/CRH2.pnml"
+#include "locomotive/CRH2C/CRH2C.pnml"
+#include "locomotive/CRH3/CRH3.pnml"
+#include "locomotive/CRH380A/CRH380A.pnml"
+#include "locomotive/CRH380B/CRH380B.pnml"
+#include "locomotive/CRH380C/CRH380C.pnml"
+#include "locomotive/CRH380D/CRH380D.pnml"
+#include "locomotive/CR380AJ/CR380AJ.pnml"
+#include "locomotive/CR400AF/CR400AF.pnml"
+#include "locomotive/CR400AF_Z/CR400AF_Z.pnml"
+#include "locomotive/CR400BF/CR400BF.pnml"
+#include "locomotive/CR400BF_C/CR400BF_C.pnml"
+#include "locomotive/CR400BF_Z/CR400BF_Z.pnml"
+#include "locomotive/HXD3C/HXD3C.pnml"
+#include "locomotive/NJ2/NJ2.pnml"
+
+//Metro
+#include "metro/MTR/AD_Tranz_CAF_A/AD_Tranz_CAF_A.pnml"
+#include "metro/MTR/Cammall_AC/Cammall_AC.pnml"
+#include "metro/MTR/Cammall_DC/Cammall_DC.pnml"
+#include "metro/MTR/CNR_Changchun/CNR_Changchun.pnml"
+#include "metro/MTR/CRRC/CRRC.pnml"
+#include "metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.pnml"
+#include "metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.pnml"
+#include "metro/MTR/IKK_SP_1900/IKK_SP_1900.pnml"
+
+// Sorting
+#include "sort.pnml"

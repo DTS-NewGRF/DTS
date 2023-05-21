@@ -1,0 +1,105 @@
+##grflangid 0x00
+
+
+# GRF name and description
+STR_GRF_NAME_WITH_VER                            :Japanese Train Set+ Addon 1.4.0
+STR_GRF_DESC                                     :{BLACK}The Japan Train Set+ add-on adds the Japanese Shinkansen and several trains. {}(Updated: {RECENT_UPDATED}){}{SILVER}+ Author: Coconut
+STR_GRF_URL                                      :https://github.com/OpenCreative/JapaneseTrainSet_Plus
+
+# locomotive's name
+STR_Kse2_NAME                                       :[JTS+] Keisei AE series
+STR_Shinkansen_0_NAME                               :[JTS+] Shinkansen 0
+STR_Shinkansen_500_NAME                             :[JTS+] Shinkansen 500
+STR_Shinkansen_700_NAME                             :[JTS+] Shinkansen 700
+STR_Shinkansen_800_NAME                             :[JTS+] Shinkansen 800
+STR_Shinkansen_923_NAME                             :[JTS+] Shinkansen 923
+STR_Shinkansen_E2_NAME                              :[JTS+] Shinkansen E2
+STR_Shinkansen_E5_H5_NAME                           :[JTS+] Shinkansen E5·H5
+STR_Shinkansen_E6_NAME                              :[JTS+] Shinkansen E6
+STR_Shinkansen_E7_W7_NAME                           :[JTS+] Shinkansen E7·W7
+STR_Shinkansen_E8_NAME                              :[JTS+] Shinkansen E8
+STR_Shinkansen_N700_NAME                            :[JTS+] Shinkansen N700
+STR_Shinkansen_N700S_NAME                           :[JTS+] Shinkansen N700S
+STR_Nishitetsu_1000_NAME                            :[JTS+] Nishitetsu 1000
+STR_Nishitetsu_2000_NAME                            :[JTS+] Nishitetsu 2000
+STR_Nishitetsu_3000_NAME                            :[JTS+] Nishitetsu 3000
+STR_Nishitetsu_5000_NAME                            :[JTS+] Nishitetsu 5000
+STR_Nishitetsu_6000_NAME                            :[JTS+] Nishitetsu 6000
+STR_Nishitetsu_7000_NAME                            :[JTS+] Nishitetsu 7000
+STR_Nishitetsu_8000_NAME                            :[JTS+] Nishitetsu 8000
+STR_Nishitetsu_9000_NAME                            :[JTS+] Nishitetsu 9000
+STR_Shinkansen_L0_NAME                              :[JTS+] Shinkansen L0
+
+# wagon's name
+STR_JTS_PASS_NAME                                   :[JTS+] Passenger Car
+STR_JTS_Magv_PASS_NAME                              :[JTS+] Maglev Passenger Car
+
+# Parameters
+STR_PARAM_High_SPEED_Train_NAME                     :High Speed Train Speed
+STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the high-speed train (Default:331km/h)
+STR_PARAM_Japanese_Track_NAME                       :Japan Train Set Track enable
+STR_PARAM_Japanese_Track_DESC                       :Select Track.
+STR_PARAM_Japanese_Track_Japan                      :Select Japan Train Set Track.
+STR_PARAM_Japanese_Track_World                      :Select Default Track.
+
+# Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
+STR_REFIT_ADDITIONAL_Kse2                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_0                   :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_500                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_700                 :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_800                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_923                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_E2                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_E5_H5               :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}E6, E8
+STR_REFIT_ADDITIONAL_Shinkansen_E6                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_E7                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_E8                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_N700                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_N700S               :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Nishitetsu_1000                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 1000
+STR_REFIT_ADDITIONAL_Nishitetsu_2000                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 2000
+STR_REFIT_ADDITIONAL_Nishitetsu_3000                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 3000
+STR_REFIT_ADDITIONAL_Nishitetsu_5000                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 5000
+STR_REFIT_ADDITIONAL_Nishitetsu_6000                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 6000, Nishitetsu 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_7000                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 6000, Nishitetsu 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_8000                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 8000
+STR_REFIT_ADDITIONAL_Nishitetsu_9000                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 9000
+STR_REFIT_ADDITIONAL_Shinkansen_L0                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+
+STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
+STR_REFIT_train_configuration                       :{BLACK}train configuration: {GREEN}Passenger vehicles
+STR_REFIT_train_configuration_Magv                  :{BLACK}train configuration: {GREEN}maglev passenger vehicles
+
+# Liveries
+STR_REFIT_LIVERY_Shinkansen_0                       :(Original Livery)
+STR_REFIT_LIVERY_Shinkansen_0_renewal               :(Renewal Livery)
+STR_REFIT_LIVERY_700_Original                       :(Original Livery)
+STR_REFIT_LIVERY_700_Railstar                       :(Hikari Rail Star Livery)
+STR_REFIT_LIVERY_N700_Tokaido_Sanyo                 :(Tokaido-Sanyo Shinkansen)
+STR_REFIT_LIVERY_N700_Sanyo_Kyushu                  :(Sanyo-Kyushu Shinkansen)
+STR_REFIT_LIVERY_N700S_Tokaido_Sanyo                :(Tokaido-Sanyo Shinkansen)
+STR_REFIT_LIVERY_N700S_Nishikyushu                  :(Nishikyushu Shinkansen)
+STR_REFIT_LIVERY_Shinkansen_E2_Pink                 :(Pink line Livery)
+STR_REFIT_LIVERY_Shinkansen_E2_Red                  :(Red line Livery)
+STR_REFIT_LIVERY_Shinkansen_E5                      :(Shinkansen E5)
+STR_REFIT_LIVERY_Shinkansen_H5                      :(Shinkansen H5)
+STR_REFIT_LIVERY_Nishitetsu_1000_Normal             :(Nishitetsu 1000 series Normal)
+STR_REFIT_LIVERY_Nishitetsu_1000_Normal_Aircon      :(Nishitetsu 1000 series Normal Aircon)
+STR_REFIT_LIVERY_Nishitetsu_1000_Original           :(Nishitetsu 1000 series Original)
+STR_REFIT_LIVERY_Nishitetsu_1000_Express            :(Nishitetsu 1000 series Express)
+STR_REFIT_LIVERY_Nishitetsu_1000_Last_Run           :(Nishitetsu 1000 series Last Run)
+STR_REFIT_LIVERY_Nishitetsu_2000_Normal             :(Nishitetsu 2000 series Normal)
+STR_REFIT_LIVERY_Nishitetsu_2000_Express            :(Nishitetsu 2000 series Express)
+STR_REFIT_LIVERY_Nishitetsu_5000_MG                 :(Nishitetsu 5000 series MG)
+STR_REFIT_LIVERY_Nishitetsu_5000_SIV                :(Nishitetsu 5000 series SIV)
+STR_REFIT_LIVERY_Nishitetsu_6000                    :(Nishitetsu 6000)
+STR_REFIT_LIVERY_Nishitetsu_6050                    :(Nishitetsu 6050)
+STR_REFIT_LIVERY_Nishitetsu_7000                    :(Nishitetsu 7000)
+STR_REFIT_LIVERY_Nishitetsu_7050                    :(Nishitetsu 7050)
+
+# Errors
+STR_ERROR_NO_ATTACH                                 :You can't attach this car here
+STR_ERROR_NOT_ENOUGH_LENGTH4                        :It's too short. It should be equal or more than 4 cars at least.
+STR_ERROR_NOT_ENOUGH_LENGTH5                        :It's too short. It should be equal or more than 5 cars at least.
+STR_ERROR_NOT_ENOUGH_LENGTH6                        :It's too short. It should be equal or more than 6 cars at least.
+STR_ERROR_NOT_ENOUGH_LENGTH8                        :It's too short. It should be equal or more than 8 cars at least.

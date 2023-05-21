@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------------
+Graphics - BF
+--------------------------------------------------------------------*/
+spriteset(set_CR400BF_purchase, "src/locomotive/CR400BF/CR400BF.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_CR400BFH_purchase, "src/locomotive/CR400BF/CR400BF.png"){
+    tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_CR400BF_engineH, "src/locomotive/CR400BF/CR400BF.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CR400BF_wagon_start, "src/locomotive/CR400BF/CR400BF.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_CR400BF_wagon, "src/locomotive/CR400BF/CR400BF.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_CR400BF_wagon_r, "src/locomotive/CR400BF/CR400BF.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_CR400BF_wagon_end, "src/locomotive/CR400BF/CR400BF.png"){
+    wagon_start(80, 81)
+}
+
+spriteset(set_CR400BF_engineT, "src/locomotive/CR400BF/CR400BF.png"){
+    engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CR400BF_purchase, cargo_subtype) {
+    set_CR400BF_purchase;
+}

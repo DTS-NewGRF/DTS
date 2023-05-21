@@ -1,0 +1,65 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Nishitetsu_6050);
+    return string(STR_REFIT_LIVERY_Nishitetsu_6000);
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_engineH, cargo_subtype) {
+    1: set_Nishitetsu_6050_engineH;
+    set_Nishitetsu_6000_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_engineT, cargo_subtype) {
+    1: set_Nishitetsu_6050_engineT;
+    set_Nishitetsu_6000_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_panto_engineT, cargo_subtype) {
+    1: set_Nishitetsu_6050_engineT;
+    set_Nishitetsu_6000_panto_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_3Car_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_Nishitetsu_6000_engineT;
+    sw_Nishitetsu_6000_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_panto_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_Nishitetsu_6000_panto_engineT;
+    sw_Nishitetsu_6000_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_panto_4engine, (position_in_consist) % 4) {
+    1: set_Nishitetsu_9000_panto_engineT;
+    3: set_Nishitetsu_9000_panto_engineT;
+    set_Nishitetsu_9000_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_engine, num_vehs_in_consist) {
+    3: sw_Nishitetsu_6000_panto_engine;
+    4: sw_Nishitetsu_6000_3Car_engine;
+    sw_Nishitetsu_6000_3Car_engine;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_wagon_middel, cargo_subtype) {
+    1: set_Nishitetsu_6050_wagon;
+    set_Nishitetsu_6000_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_panto_wagon, cargo_subtype) {
+    1: set_Nishitetsu_6050_panto_wagon;
+    set_Nishitetsu_6000_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    Nishitetsu_6000: sw_Nishitetsu_6000_panto_wagon;
+    sw_Nishitetsu_6000_wagon_middel;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_wagon_attach, vehicle_type_id) {
+    JTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    Nishitetsu_6000:     return CB_RESULT_ATTACH_ALLOW;
+    Nishitetsu_7000:     return CB_RESULT_ATTACH_ALLOW;
+}

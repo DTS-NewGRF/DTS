@@ -1,0 +1,98 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_TGV_LYAIR);
+    2: return string(STR_REFIT_LIVERY_TGV_THALYS);
+    3: return string(STR_REFIT_LIVERY_TGV_Carmillon);
+    return string(STR_REFIT_LIVERY_TGV_POS);
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_engineH, cargo_subtype) {
+    1: set_TGV_Lyair_engineH;
+    2: set_TGV_Thalys_engineH;
+    3: set_TGV_Carmillon_engineH;
+    set_TGV_Pos_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_engineT, cargo_subtype) {
+    1: set_TGV_Lyair_engineT;
+    2: set_TGV_Thalys_engineT;
+    3: set_TGV_Carmillon_engineT;
+    set_TGV_Pos_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_TGV_Pos_engineT;
+    sw_TGV_Pos_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_start, cargo_subtype) {
+    1: set_TGV_Lyair_wagon_start;
+    2: set_TGV_Thalys_wagon_start;
+    3: set_TGV_Carmillon_wagon_start;
+    set_TGV_Pos_wagon_start;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_special_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
+    1: set_TGV_Pos_wagon_nomal;
+    set_TGV_Pos_wagon_special;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_Lyair_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
+    1: set_TGV_Lyair_wagon_nomal;
+    set_TGV_Lyair_wagon_special;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_Thalys_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
+    1: set_TGV_Thalys_wagon_nomal;
+    set_TGV_Thalys_wagon_special;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_Carmilon_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
+    1: set_TGV_Carmillon_wagon_nomal;
+    set_TGV_Carmillon_wagon_special;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_middle, cargo_subtype) {
+    1: sw_TGV_Pos_Lyair_middle;
+    2: sw_TGV_Pos_Thalys_middle;
+    3: sw_TGV_Pos_Carmilon_middle;
+    sw_TGV_Pos_wagon_special_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_bar_middle, cargo_subtype) {
+    1: set_TGV_Lyair_wagon_bar;
+    2: set_TGV_Thalys_wagon_bar;
+    3: set_TGV_Carmillon_wagon_bar;
+    set_TGV_Pos_wagon_bar;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_end, cargo_subtype) {
+    1: set_TGV_Lyair_wagon_end;
+    2: set_TGV_Thalys_wagon_end;
+    3: set_TGV_Carmillon_wagon_end;
+    set_TGV_Pos_wagon_end;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_bar, (position_in_consist %5) + 1) {
+    1: sw_TGV_Pos_wagon_bar_middle;
+    sw_TGV_Pos_wagon_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    TGV_Pos: sw_TGV_Pos_wagon_end;
+    sw_TGV_Pos_wagon_bar;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    TGV_Pos: sw_TGV_Pos_wagon_start;
+    sw_TGV_Pos_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_attach, vehicle_type_id) {
+    TGV_Pos:                return CB_RESULT_ATTACH_ALLOW;
+    TGV_AR:                 return CB_RESULT_ATTACH_ALLOW;
+    ETS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

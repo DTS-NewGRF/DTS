@@ -1,0 +1,43 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Kse2_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_Kse2_engineT;
+    set_Kse2_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Kse2_4car_wagon, [STORE_TEMP(4, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    Keisei_AE_series: set_Kse2_4car_wagon;
+    set_Kse2_5car_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Kse2_6car_wagon, [STORE_TEMP(2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    Keisei_AE_series: set_Kse2_2car_wagon;
+    sw_Kse2_4car_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Kse2_7car_wagon, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    Keisei_AE_series: set_Kse2_3car_wagon;
+    sw_Kse2_6car_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Kse2_2car_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    Keisei_AE_series: set_Kse2_2car_wagon;
+    sw_Kse2_7car_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Kse2_wagon, [STORE_TEMP(-2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    Keisei_AE_series: set_Kse2_3car_wagon;
+    sw_Kse2_2car_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Kse2_wagon_capacity_in_custom, (position_in_consist_from_end)) {
+    3: return 42;
+    4: return 52;
+       56;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Kse2_wagon_attach, vehicle_type_id) {
+    JTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

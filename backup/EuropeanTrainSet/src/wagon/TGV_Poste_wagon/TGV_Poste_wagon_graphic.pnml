@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_TGV_Poste_wagon_purchase, "src\wagon\TGV_Poste_wagon\TGV_Poste_wagon.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_TGV_Poste_wagon_start, "src\wagon\TGV_Poste_wagon\TGV_Poste_wagon.png"){
+    wagon_start(80, 0)
+}
+
+spriteset(set_TGV_Poste_wagon, "src\wagon\TGV_Poste_wagon\TGV_Poste_wagon.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_TGV_Poste_wagon_end, "src\wagon\TGV_Poste_wagon\TGV_Poste_wagon.png"){
+    wagon_start(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TGV_Poste_wagon_purchase, cargo_subtype) {
+    set_TGV_Poste_wagon_purchase;
+}

@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------------
+정렬
+--------------------------------------------------------------------*/
+sort(FEAT_TRAINS, [
+    Shinkansen_0,              //1051
+    Shinkansen_500,            //1052
+    Shinkansen_700,            //1115
+    Shinkansen_800,            //1053
+    Shinkansen_N700,           //1054
+    Shinkansen_N700_S,         //1113
+    Shinkansen_E2,             //1110
+    Shinkansen_E5_H5,          //1056
+    Shinkansen_E6,             //1057
+    Shinkansen_E7_W7,          //1058
+    Shinkansen_E8,             //1059
+    Shinkansen_923,            //1055
+
+    Keisei_AE_series,          //1142
+    Nishitetsu_1000,           //1139
+    Nishitetsu_2000,           //1140
+    Nishitetsu_3000,           //1141
+    Nishitetsu_5000,           //1144
+    Nishitetsu_6000,           //1145
+    Nishitetsu_7000,           //1146
+    Nishitetsu_8000,           //1147
+    Nishitetsu_9000,           //1116
+
+    Shinkansen_L0,             //1060
+    
+    JTS_Passenger_Car,         //1048
+    
+    JTS_MAGV_Passenger_Car,    //1050
+    ]);

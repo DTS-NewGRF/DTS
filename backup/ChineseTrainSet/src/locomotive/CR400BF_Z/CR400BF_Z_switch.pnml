@@ -1,0 +1,47 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CR400BF_Z_engineH, cargo_subtype) {
+    set_CR400BF_Z_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_Z_engineT, cargo_subtype) {
+    set_CR400BF_Z_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_Z_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_CR400BF_Z_engineT;
+    sw_CR400BF_Z_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_Z_wagon_start, cargo_subtype) {
+    set_CR400BF_Z_wagon_start;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_Z_wagon_front, cargo_subtype) {
+    set_CR400BF_Z_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_Z_wagon_end, cargo_subtype) {
+    set_CR400BF_Z_wagon_end;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_Z_wagon_middle, (position_in_consist)) {
+    sw_CR400BF_Z_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_Z_wagon_rear, [STORE_TEMP(2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    CR400BF_Z: sw_CR400BF_Z_wagon_end;
+    sw_CR400BF_Z_wagon_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_Z_wagon, [STORE_TEMP(-2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    CR400BF_Z: sw_CR400BF_Z_wagon_start;
+    sw_CR400BF_Z_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_Z_wagon_attach, vehicle_type_id) {
+    CR400BF_Z:                  return CB_RESULT_ATTACH_ALLOW;
+    CTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

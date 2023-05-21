@@ -1,0 +1,81 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_700_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_700_Railstar);                   
+    return string(STR_REFIT_LIVERY_700_Original);
+}
+
+switch(FEAT_TRAINS, SELF, sw_700_engineH, cargo_subtype) {
+    1: set_700_RS_engineH; // 히카리 레일스타
+    set_700_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_700_engineT, cargo_subtype) {
+    1: set_700_RS_engineT; // 히카리 레일스타
+    set_700_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_700_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_700_engineT;
+    sw_700_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_700_panto_wagon_cargo_subtype, cargo_subtype) {
+    1: set_700_RS_panto_wagon; // 히카리 레일스타
+    set_700_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_700_panto_wagon_r_cargo_subtype, cargo_subtype) {
+    1: set_700_RS_panto_wagon_r; // 히카리 레일스타
+    set_700_panto_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_700_wagon_front, cargo_subtype) {
+    1: set_700_RS_wagon; // 히카리 레일스타
+    set_700_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_700_wagon_tail, cargo_subtype) {
+    1: set_700_RS_wagon_r; // 히카리 레일스타
+    set_700_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_700_wagon_cargo_subtype, (position_in_consist)) {
+    1: sw_700_wagon_tail;
+    sw_700_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_700_wagon_10car_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    Shinkansen_700: sw_700_panto_wagon_r_cargo_subtype;
+    sw_700_wagon_cargo_subtype;
+}
+
+switch(FEAT_TRAINS, SELF, sw_700_10car_10car_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    Shinkansen_700: sw_700_panto_wagon_cargo_subtype;
+    sw_700_wagon_10car_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_700_wagon_16car_rear, [STORE_TEMP(4, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    Shinkansen_700: sw_700_panto_wagon_r_cargo_subtype;
+    sw_700_wagon_cargo_subtype;
+}
+
+switch(FEAT_TRAINS, SELF, sw_700_wagon_16car_wagon, [STORE_TEMP(-4, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    Shinkansen_700: sw_700_panto_wagon_cargo_subtype;
+    sw_700_wagon_16car_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_700_wagon, num_vehs_in_consist) {
+    6: sw_700_10car_10car_wagon;
+    7: sw_700_10car_10car_wagon;
+    8: sw_700_10car_10car_wagon;
+    9: sw_700_10car_10car_wagon;
+    10: sw_700_10car_10car_wagon;
+    sw_700_wagon_16car_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_700_wagon_attach, vehicle_type_id) {
+    JTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

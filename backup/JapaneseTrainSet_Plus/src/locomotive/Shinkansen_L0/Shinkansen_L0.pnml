@@ -1,0 +1,61 @@
+/*--------------------------------------------------------------------
+신칸센 L0계 리니어 모터카 / Shinkansen L0 Series
+--------------------------------------------------------------------*/
+// Graphics
+#include "Shinkansen_L0_graphic.pnml"
+
+// Switch
+#include "Shinkansen_L0_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Shinkansen_L0, 1060){
+    property {
+        name:                           string(STR_Shinkansen_L0_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2027, 1, 1);
+        track_type:                     MGLV;
+        engine_class:                   ENGINE_CLASS_MAGLEV;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        dual_headed:                    1;
+        
+        //spec
+        speed:                          500km/h;
+        power:                          10000 kW;
+        weight:                         40 ton;
+        tractive_effort_coefficient:    0.3;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 24;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+    
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+	graphics {
+        default:                        sw_Shinkansen_L0_engine;
+        purchase:                       sw_Shinkansen_L0_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_Shinkansen_L0_wagon_attach;
+        start_stop:                     sw_YST_train_start_stop_5;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Shinkansen_L0);
+        }
+        }

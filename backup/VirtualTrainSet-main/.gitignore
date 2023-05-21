@@ -1,8 +1,0 @@
-.nmlcache
-.ignore
-generated
-docs/*.txt
-*.tar
-*.grf
-*.nml
-custom_tags.txt

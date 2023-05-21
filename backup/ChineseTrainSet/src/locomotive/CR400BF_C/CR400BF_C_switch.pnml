@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CR400BF_C_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_CR400BF_C_O);   // 올림픽
+    return string(STR_REFIT_LIVERY_CR400BF_C);
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_C_engineH, cargo_subtype) {
+    1: set_CR400BF_CO_engineH;   // 올림픽
+    set_CR400BF_C_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_C_engineT, cargo_subtype) {
+    1: set_CR400BF_CO_engineT;   // 올림픽
+    set_CR400BF_C_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_C_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_CR400BF_C_engineT;
+    sw_CR400BF_C_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_C_wagon_start, cargo_subtype) {
+    1: set_CR400BF_CO_wagon_start;   // 올림픽
+    set_CR400BF_C_wagon_start;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_C_wagon_front, cargo_subtype) {
+    1: set_CR400BF_CO_wagon;  // 올림픽
+    set_CR400BF_C_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_C_wagon_tail, cargo_subtype) {
+    1: set_CR400BF_CO_wagon_r;   // 올림픽
+    set_CR400BF_C_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_C_wagon_end, cargo_subtype) {
+    1: set_CR400BF_CO_wagon_end;   // 올림픽
+    set_CR400BF_C_wagon_end;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_C_wagon_middle, (position_in_consist)) {
+    1: sw_CR400BF_C_wagon_tail;
+    sw_CR400BF_C_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_C_wagon_rear, [STORE_TEMP(2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    CR400BF_C: sw_CR400BF_C_wagon_end;
+    sw_CR400BF_C_wagon_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_C_wagon, [STORE_TEMP(-2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    CR400BF_C: sw_CR400BF_C_wagon_start;
+    sw_CR400BF_C_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400BF_C_wagon_attach, vehicle_type_id) {
+    CR400BF_C:                  return CB_RESULT_ATTACH_ALLOW;
+    CTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

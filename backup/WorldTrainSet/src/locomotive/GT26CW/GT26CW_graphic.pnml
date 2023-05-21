@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_GT26CW_purchase, "src/locomotive/GT26CW/GT26CW.png"){
+	tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_GT26CW_engine, "src/locomotive/GT26CW/GT26CW.png"){
+	engine(80, 0)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_GT26CW_purchase, cargo_subtype) {
+	set_GT26CW_purchase;
+}

@@ -1,0 +1,69 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding); // 개조형
+    2: return string(STR_REFIT_LIVERY_MTR_DC_Cammall_Disney);   // 디즈니
+    return string(STR_REFIT_LIVERY_MTR_DC_Cammall);
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_engineH, cargo_subtype) {
+    1: set_MTR_DC_Cammall_remodin_engineH;  // 개조형
+    2: set_MTR_DC_Cammall_Disney_engineH;   // 디즈니
+    set_MTR_DC_Cammall_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_engineT, cargo_subtype) {
+    1: set_MTR_DC_Cammall_remodin_engineT;  // 개조형
+    2: set_MTR_DC_Cammall_Disney_engineT;   // 디즈니
+    set_MTR_DC_Cammall_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_MTR_DC_Cammall_engineT;
+    sw_MTR_DC_Cammall_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_wagon_start, cargo_subtype) {
+    1: set_MTR_DC_Cammall_remodin_wagon_start;  // 개조형
+    2: set_MTR_DC_Cammall_Disney_wagon_start;   // 디즈니
+    set_MTR_DC_Cammall_wagon_start;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_wagon_front, cargo_subtype) {
+    1: set_MTR_DC_Cammall_remodin_wagon;    // 개조형
+    2: set_MTR_DC_Cammall_Disney_wagon;     // 디즈니
+    set_MTR_DC_Cammall_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammallwagon_tail, cargo_subtype) {
+    1: set_MTR_DC_Cammall_remodin_wagon_r;  // 개조형
+    2: set_MTR_DC_Cammall_Disney_wagon_r;   // 디즈니
+    set_MTR_DC_Cammall_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_wagon_end, cargo_subtype) {
+    1: set_MTR_DC_Cammall_remodin_wagon_end;    // 개조형
+    2: set_MTR_DC_Cammall_Disney_wagon_end;     // 디즈니
+    set_MTR_DC_Cammall_wagon_end;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_wagon_middle, (position_in_consist)) {
+    1: sw_MTR_DC_Cammallwagon_tail;
+    sw_MTR_DC_Cammall_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    MTR_DC_Cammall: sw_MTR_DC_Cammall_wagon_end;
+    sw_MTR_DC_Cammall_wagon_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    MTR_DC_Cammall: sw_MTR_DC_Cammall_wagon_start;
+    sw_MTR_DC_Cammall_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_wagon_attach, vehicle_type_id) {
+    CTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

@@ -1,0 +1,107 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_MTR_DC_Cammall_purchase, "src/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. Cammall DC 기본차량
+--------------------------------------------------------------------*/
+spriteset(set_MTR_DC_CammallH_purchase, "src/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
+    tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_MTR_DC_Cammall_engineH, "src/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
+    engine(80, 0)
+}
+
+spriteset(set_MTR_DC_Cammall_wagon_start, "src/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_MTR_DC_Cammall_wagon, "src/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_MTR_DC_Cammall_wagon_r, "src/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_MTR_DC_Cammall_wagon_end, "src/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
+    wagon_start(80, 81)
+}
+
+spriteset(set_MTR_DC_Cammall_engineT, "src/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
+    engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+2. Cammall DC 개조차량
+--------------------------------------------------------------------*/
+spriteset(set_MTR_DC_Cammall_remodingH_purchase, "src/metro/MTR/Cammall_DC/Cammall_DC_remoding.png"){
+    tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_MTR_DC_Cammall_remodin_engineH, "src/metro/MTR/Cammall_DC/Cammall_DC_remoding.png"){
+    engine(80, 0)
+}
+
+spriteset(set_MTR_DC_Cammall_remodin_wagon_start, "src/metro/MTR/Cammall_DC/Cammall_DC_remoding.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_MTR_DC_Cammall_remodin_wagon, "src/metro/MTR/Cammall_DC/Cammall_DC_remoding.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_MTR_DC_Cammall_remodin_wagon_r, "src/metro/MTR/Cammall_DC/Cammall_DC_remoding.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_MTR_DC_Cammall_remodin_wagon_end, "src/metro/MTR/Cammall_DC/Cammall_DC_remoding.png"){
+    wagon_start(80, 81)
+}
+
+spriteset(set_MTR_DC_Cammall_remodin_engineT, "src/metro/MTR/Cammall_DC/Cammall_DC_remoding.png"){
+    engine_r(80, 108)
+}
+
+
+/*--------------------------------------------------------------------
+3. Cammall DC 디즈니선
+--------------------------------------------------------------------*/
+spriteset(set_MTR_DC_Cammall_DisneyH_purchase, "src/metro/MTR/Cammall_DC/Cammall_DC_Disney.png"){
+    tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_MTR_DC_Cammall_Disney_engineH, "src/metro/MTR/Cammall_DC/Cammall_DC_Disney.png"){
+    engine(80, 0)
+}
+
+spriteset(set_MTR_DC_Cammall_Disney_wagon_start, "src/metro/MTR/Cammall_DC/Cammall_DC_Disney.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_MTR_DC_Cammall_Disney_wagon, "src/metro/MTR/Cammall_DC/Cammall_DC_Disney.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_MTR_DC_Cammall_Disney_wagon_r, "src/metro/MTR/Cammall_DC/Cammall_DC_Disney.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_MTR_DC_Cammall_Disney_wagon_end, "src/metro/MTR/Cammall_DC/Cammall_DC_Disney.png"){
+    wagon_start(80, 81)
+}
+
+spriteset(set_MTR_DC_Cammall_Disney_engineT, "src/metro/MTR/Cammall_DC/Cammall_DC_Disney.png"){
+    engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_purchase, cargo_subtype) {
+    set_MTR_DC_Cammall_purchase;
+}

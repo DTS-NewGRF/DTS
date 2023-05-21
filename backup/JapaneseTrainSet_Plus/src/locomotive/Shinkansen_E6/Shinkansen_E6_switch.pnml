@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E6_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_Shinkansen_E6_engineT;
+    set_Shinkansen_E6_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E6_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    Shinkansen_E6: set_Shinkansen_E6_panto_wagon_r;
+    set_Shinkansen_E6_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E6_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    Shinkansen_E6: set_Shinkansen_E6_panto_wagon;
+    sw_Shinkansen_E6_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E6_wagon_attach, vehicle_type_id) {
+    Shinkansen_E5_H5:       return CB_RESULT_ATTACH_ALLOW;
+    JTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}
