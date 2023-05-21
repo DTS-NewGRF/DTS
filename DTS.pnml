@@ -8,12 +8,12 @@
  NewGRF 기본 정보
 ------------------------------------------------------------------------------*/
 grf {
-	grfid :                            "KTSP";
+	grfid :                            "DTTS";
 	name :                             string(STR_GRF_NAME_WITH_VER);
 	desc :                             string(STR_GRF_DESC);
 	url :                              string(STR_GRF_URL);
-	version :                          230401;
-	min_compatible_version :           230214;
+	version :                          20230521;
+	min_compatible_version :           20230513;
 	
 	// Parameters 매개변수
     #include "src/parameter.pnml"
@@ -38,7 +38,7 @@ cargotable {
 
 // Railtypetable
 railtypetable {
-    RAIL, ELRL, MGLV}
+    RAIL, ELRL}
 
 // Load templates
 #include "src/template_list.pnml"
