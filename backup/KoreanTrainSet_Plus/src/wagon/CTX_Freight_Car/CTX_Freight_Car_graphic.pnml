@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_CTX_Freight_Car_purchase, "src\wagon\CTX_Freight_Car\CTX_Freight_Car.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_CTX_Freight_Car, "src\wagon\CTX_Freight_Car\CTX_Freight_Car.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_CTX_Freight_Car_Start, "src\wagon\CTX_Freight_Car\CTX_Freight_Car.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_CTX_Freight_Car_end, "src\wagon\CTX_Freight_Car\CTX_Freight_Car.png") {
+    wagon_1F_F(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CTX_Freight_Car_purchase, cargo_subtype) {
+    set_CTX_Freight_Car_purchase;
+}

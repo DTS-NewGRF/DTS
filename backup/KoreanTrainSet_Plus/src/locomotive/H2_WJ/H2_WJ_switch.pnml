@@ -1,0 +1,13 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_H2_WJ_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_H2_WJ_engineT;
+    set_H2_WJ_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_H2_WJ_wagon_attach, vehicle_type_id) {
+    H2_WJ:                    return CB_RESULT_ATTACH_ALLOW;
+    KTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

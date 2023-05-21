@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TTX_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_TTX_engineT;
+    set_TTX_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TTX_wagon, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
+    1: set_TTX_wagon_r;
+    set_TTX_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TTX_wagon_attach, vehicle_type_id) {
+    TTX:                 return CB_RESULT_ATTACH_ALLOW;
+    KTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

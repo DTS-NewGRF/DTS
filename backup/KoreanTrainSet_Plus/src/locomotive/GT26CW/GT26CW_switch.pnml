@@ -1,0 +1,20 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_GT26CW_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_GT26CW_CL);    // Cl
+    2: return string(STR_REFIT_LIVERY_GT26CW_CY_GW); // 충북영동국악와인열차
+    3: return string(STR_REFIT_LIVERY_GT26CW_LB);    // 레이디 버드
+    4: return string(STR_REFIT_LIVERY_GT26CW_ST);    // S-train
+    5: return string(STR_REFIT_LIVERY_GT26CW_G);     // G-train
+    return string(STR_REFIT_LIVERY_GT26CW_Korail);
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_engine, cargo_subtype) {
+    1: set_GT26CW_CL_engine;    // CL
+    2: set_GT26CW_CY_GW_engine; // 충북영동국악와인열차
+    3: set_GT26CW_LB_engine;    // 레이디 버드
+    4: set_GT26CW_ST_engine;    // S-train
+    5: set_GT26CW_G_engine;     // G-train
+    set_GT26CW_engine; 
+}

@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_EMU260_DD_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_EMU260_DD_engineT;
+    set_EMU260_DD_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU260_DD_wagon_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
+    1: set_EMU260_DD_wagon_r;
+    set_EMU260_DD_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU260_DD_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    EMU260_DD: set_EMU260_DD_panto_wagon_r;
+    sw_EMU260_DD_wagon_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU260_DD_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    EMU260_DD: set_EMU260_DD_panto_wagon;
+    sw_EMU260_DD_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU260_DD_wagon_attach, vehicle_type_id) {
+    EMU150:                 return CB_RESULT_ATTACH_ALLOW;
+    Bicheuro2:              return CB_RESULT_ATTACH_ALLOW;
+    EMU260:                 return CB_RESULT_ATTACH_ALLOW;
+    EMU260_DD:              return CB_RESULT_ATTACH_ALLOW;
+    EMU320:                 return CB_RESULT_ATTACH_ALLOW;
+    EMU320_DD:              return CB_RESULT_ATTACH_ALLOW;
+    KTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

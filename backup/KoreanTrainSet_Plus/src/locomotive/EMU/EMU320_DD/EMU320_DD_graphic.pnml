@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_EMU320_DD_purchase, "src/locomotive/EMU/EMU320_DD/EMU320_DD.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_EMU320_DDH_purchase, "src/locomotive/EMU/EMU320_DD/EMU320_DD.png"){
+    tmpl_purchase_for_dualhead(0, 81)
+}
+
+spriteset(set_EMU320_DD_engineH, "src/locomotive/EMU/EMU320_DD/EMU320_DD.png"){
+    engine(80, 0)
+}
+
+spriteset(set_EMU320_DD_wagon, "src/locomotive/EMU/EMU320_DD/EMU320_DD.png") {
+    wagon_1F(80, 27)
+}
+
+spriteset(set_EMU320_DD_wagon_r, "src/locomotive/EMU/EMU320_DD/EMU320_DD.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_EMU320_DD_engineT, "src/locomotive/EMU/EMU320_DD/EMU320_DD.png"){
+    engine_r(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_EMU320_DD_purchase, cargo_subtype) {
+    set_EMU320_DD_purchase;
+}

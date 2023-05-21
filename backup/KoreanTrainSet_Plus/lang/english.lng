@@ -1,0 +1,175 @@
+##grflangid 0x00
+
+
+# GRF name and description
+STR_GRF_NAME_WITH_VER                            :KR+Set 1.4.0
+STR_GRF_DESC                                     :{BLACK}KR+Set adds Korean trains scheduled for production and virtual double-decker trains. {}(Updated: {RECENT_UPDATED}){}{SILVER}+ Author: Coconut
+STR_GRF_URL                                      :https://github.com/OpenCreative/KR_Plus_Set
+
+# locomotive's name
+STR_AREX_NAME                                       :[KR+] AREX series 2000 EMU5
+STR_CTX_NAME                                        :[KR+] CTX
+STR_DEL7600_NAME                                    :[KR+] DEL7600
+STR_EMU150_NAME                                     :[KR+] EMU-150
+STR_EMU260_NAME                                     :[KR+] EMU-260
+STR_EMU260_DD_NAME                                  :[KR+] EMU-260 DD
+STR_EMU320_NAME                                     :[KR+] EMU-320
+STR_EMU320_DD_NAME                                  :[KR+] EMU-320 DD
+STR_GT26CW_NAME                                     :[KR+] GT26CW
+STR_GTX_NAME                                        :[KR+] GTX
+STR_HEMU_430X_NAME                                  :[KR+] HEMU-430X
+STR_HSR_350X_NAME                                   :[KR+] HSR-350X
+STR_ICE_CW_NAME                                     :[KR+] ITX-Chowol
+STR_ITX_SM2_NAME                                    :[KR+] ITX-Saemaeul DD
+STR_KTX_SC_NAME                                     :[KR+] KTX-Sancheon
+STR_KTX_SC2_NAME                                    :[KR+] KTX-DD
+STR_NRT2_NAME                                       :[KR+] Nuriro DD
+STR_Bicheuro2_NAME                                  :[KR+] Bicheuro DUPLEX
+STR_H2_WJ_NAME                                      :[KR+] H2 by WOOJIN
+STR_Travel_8500_NAME                                :[KR+] Travel 8500
+STR_TTX_NAME                                        :[KR+] TTX
+STR_VHST_600X_NAME                                  :[KR+] VHST-600X
+
+# Metro's name
+STR_Standard_Metro_NAME                             :[KR+] Standard Metro
+STR_AUTS_NAME                                       :[KR+] AUTS
+
+# wagon's name
+STR_KTS_PASS_NAME                                   :[KR+] Passenger car
+STR_KTS_SPASS_NAME                                  :[KR+] carriage-type passenger car
+STR_Generatar_Car_NAME                              :[KR+] Generatar Car
+STR_Luggage_Car_NAME                                :[KR+] Luggage Car
+STR_CTX_Freight_Car_NAME                            :[KR+] CTX Freight Car
+
+# Parameters
+STR_PARAM_Regular_SPEED_Train_NAME                  :Regular Train Speed Variable
+STR_PARAM_Regular_SPEED_Train_DESC                  :Adjust the speed of the Regular-speed train (Default:151km/h)
+STR_PARAM_Semi_High_SPEED_Train_NAME                :Semi High Speed Train Speed variable
+STR_PARAM_Semi_High_SPEED_Train_DESC                :Adjust the speed of the Semi High Speed Train (Default:181km/h)
+STR_PARAM_High_SPEED_Train_NAME                     :High Speed Train Speed
+STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the high-speed train (Default:331km/h)
+STR_PARAM_High_SPEED_Train_430_NAME                 :High Speed Train Speed (430km/h train speed control)
+STR_PARAM_High_SPEED_Train_430_DESC                 :Adjust the speed of the high-speed train (Default:430km/h)
+
+# Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
+STR_REFIT_ADDITIONAL_AREX                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}AREX
+STR_REFIT_ADDITIONAL_CTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
+STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}DEL7600
+STR_REFIT_ADDITIONAL_EMU150                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU260                         :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU260_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
+STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}GT26CW
+STR_REFIT_ADDITIONAL_GTX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}GTX
+STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HEMU-430X
+STR_REFIT_ADDITIONAL_HSR_350X                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HSR-350X
+STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}ITX-Chowol
+STR_REFIT_ADDITIONAL_ITX_SM2                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}ITX-Saemaeul DD
+STR_REFIT_ADDITIONAL_KTX_SC                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
+STR_REFIT_ADDITIONAL_KTX_SC2                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
+STR_REFIT_ADDITIONAL_NRT2                           :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nuriro DD
+STR_REFIT_ADDITIONAL_Bicheuro2                      :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
+STR_REFIT_ADDITIONAL_H2_WJ                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}H2 WJ
+STR_REFIT_ADDITIONAL_Travel_8500                    :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}Travel 8500
+STR_REFIT_ADDITIONAL_TTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TTX
+STR_REFIT_ADDITIONAL_VHST_600X                      :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}VHST_600X
+STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+
+STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
+STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
+STR_REFIT_train_configuration_SPassenger            :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
+STR_REFIT_train_configuration_Generatar             :{BLACK}train configuration: {GREEN}Generatar vehicles
+STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
+STR_REFIT_train_configuration_CTX                   :{BLACK}train configuration: {GREEN}CTX Freight vehicles
+
+# Liveries
+STR_REFIT_LIVERY_AREX_Normal                        :(Normal Color)
+STR_REFIT_LIVERY_AREX_Company_Color                 :(Company Color)
+STR_REFIT_LIVERY_CTX_Freight                        :(CTX Freight Only Wine Livery)
+STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX Passenger-Freight Wine Livery)
+STR_REFIT_LIVERY_EMU150R_1F                         :(EMU-150 1F Red Color)
+STR_REFIT_LIVERY_EMU150R_2F                         :(EMU-150 2F Red Color)
+STR_REFIT_LIVERY_EMU150G_1F                         :(EMU-150 1F Green Color)
+STR_REFIT_LIVERY_EMU150G_2F                         :(EMU-150 2F Green Color)
+STR_REFIT_LIVERY_EMU150W_1F                         :(EMU-150 1F White Color)
+STR_REFIT_LIVERY_EMU150W_2F                         :(EMU-150 2F White Color)
+STR_REFIT_LIVERY_EMU260W                            :(EMU-260 White Livery)
+STR_REFIT_LIVERY_EMU260BK                           :(EMU-260 Black Livery)
+STR_REFIT_LIVERY_EMU260MD                           :(HEMU-250 Prototype Livery)
+STR_REFIT_LIVERY_EMU260SM1                          :(EMU-260 Saemaeul First Livery)
+STR_REFIT_LIVERY_EMU260SM2                          :(EMU-260 Saemaeul Second Livery)
+STR_REFIT_LIVERY_EMU260SM3                          :(EMU-260 Saemaeul Third Livery)
+STR_REFIT_LIVERY_EMU320_CC                          :(EMU-320 Company Colour)
+STR_REFIT_LIVERY_EMU320_BK                          :(EMU-320 Black Livery)
+STR_REFIT_LIVERY_EMU320_SRT                         :(EMU-320 SRT)
+STR_REFIT_LIVERY_EMU320_SRT2                        :(EMU-320 SRT2)
+STR_REFIT_LIVERY_GT26CW_Korail                      :(Korail)
+STR_REFIT_LIVERY_GT26CW_CL                          :(CL)
+STR_REFIT_LIVERY_GT26CW_CY_GW                       :(Chungbuk Yeongdong Gugak & Wine Train)
+STR_REFIT_LIVERY_GT26CW_LB                          :(Lady Bird)
+STR_REFIT_LIVERY_GT26CW_ST                          :(S-Train)
+STR_REFIT_LIVERY_GT26CW_G                           :(G-Train)
+STR_REFIT_LIVERY_HEMU_430X_1F                       :(HEMU-430X 1F)
+STR_REFIT_LIVERY_HEMU_430X_2F                       :(HEMU-430X 2F)
+STR_REFIT_LIVERY_ITX_SM2_C                          :(ITX-Saemaeul DD Company Color)
+STR_REFIT_LIVERY_ITX_SM2_G                          :(ITX-Saemaeul DD Green Color)
+STR_REFIT_LIVERY_ITX_SM2_R                          :(ITX-Saemaeul DD Red Color)
+STR_REFIT_LIVERY_ITX_SM2_W                          :(ITX-Saemaeul DD White Color)
+STR_REFIT_LIVERY_KTX_HN_B                           :(KTX-Honam Sky blue Livery)
+STR_REFIT_LIVERY_KTX_HN_Y                           :(KTX-Honam Yellow Livery)
+STR_REFIT_LIVERY_KTX_GG_B                           :(KTX-Gyeonggang Blue Livery)
+STR_REFIT_LIVERY_KTX_GG_W                           :(KTX-Gyeonggang White Livery)
+STR_REFIT_LIVERY_KTX_SC2_B                          :(KTX-DD Blue Color)
+STR_REFIT_LIVERY_KTX_SC2_G                          :(KTX-DD Green Color)
+STR_REFIT_LIVERY_KTX_SC2_W                          :(KTX-DD White Color)
+STR_REFIT_LIVERY_NRT2_Old_B                         :(Nuriro DD Old Blue Color)
+STR_REFIT_LIVERY_NRT2_New_B                         :(Nuriro DD New Blue Color)
+STR_REFIT_LIVERY_NRT2_Old_G                         :(Nuriro DD Old Green Color)
+STR_REFIT_LIVERY_NRT2_New_G                         :(Nuriro DD New Green Color)
+STR_REFIT_LIVERY_NRT2_Old_W                         :(Nuriro DD Old White Color)
+STR_REFIT_LIVERY_NRT2_New_W                         :(Nuriro DD New White Color)
+STR_REFIT_LIVERY_NRT2_Old_OT                        :(Nuriro DD O-train Livery)
+STR_REFIT_LIVERY_NRT2_New_ITX                       :(Nuriro DD ITX Livery)
+STR_REFIT_LIVERY_Bicheuro2_R                        :(EMU-150 DD Red Color)
+STR_REFIT_LIVERY_Bicheuro2_G                        :(EMU-150 DD Green Color)
+STR_REFIT_LIVERY_Bicheuro2_W                        :(EMU-150 DD White Color)
+STR_REFIT_LIVERY_Eco_Rail_Passenger_Car             :(Eco Rail Passenger Car)
+STR_REFIT_LIVERY_CY_GW_Passenger_Car                :(Chungbuk Yeongdong Gugak & Wine Passenger Car)
+STR_REFIT_LIVERY_JA_a_Old_Passenger_Car             :(Jeongseon Arirang Old Color)
+STR_REFIT_LIVERY_JA_a_New_Passenger_Car             :(Jeongseon Arirang New Color)
+STR_REFIT_LIVERY_E_Train_Passenger_Car              :(E-Train)
+STR_REFIT_LIVERY_Wine_Panax_Passenger_Car           :(wine Panax Train)
+STR_REFIT_LIVERY_wine_Cinema_Passenger_Car          :(wine Cinema Train)
+STR_REFIT_LIVERY_Lady_Bird_Passenger_Car            :(Lady Bird)
+STR_REFIT_LIVERY_S_Train_New_Passenger_Car          :(S-Train)
+STR_REFIT_LIVERY_A_Train_New_Passenger_Car          :(A-Train)
+STR_REFIT_LIVERY_G_Train_New_Passenger_Car          :(G-Train)
+STR_REFIT_LIVERY_Eco_Rail_Generatar_Car             :(Generatar Car)
+STR_REFIT_LIVERY_CY_GW_Generatar_Car                :(Chungbuk Yeongdong Gugak & Wine Generatar Car)
+STR_REFIT_LIVERY_JA_a_Old_Generatar_Car             :(Jeongseon Arirang Old Color)
+STR_REFIT_LIVERY_JA_a_New_Generatar_Car             :(Jeongseon Arirang New Color)
+STR_REFIT_LIVERY_Lady_Bird_Generatar_Car            :(Lady Bird)
+STR_REFIT_LIVERY_S_Train_New_Generatar_Car          :(S-Train)
+STR_REFIT_LIVERY_A_Train_New_Generatar_Car          :(A-Train)
+STR_REFIT_LIVERY_G_Train_New_Generatar_Car          :(G-Train)
+STR_REFIT_LIVERY_Eco_Rail_Luggage_Car               :(Eco Rail Luggage Car)
+STR_REFIT_LIVERY_CY_GW_Luggage_Car                  :(Chungbuk Yeongdong Gugak & Wine Luggage Car)
+STR_REFIT_LIVERY_Travel_8500_A_train                :(A-Train)
+STR_REFIT_LIVERY_Travel_8500_A_train_New            :(A-Train New Color)
+STR_REFIT_LIVERY_Travel_8500_G_train                :(G-Train)
+STR_REFIT_LIVERY_Travel_8500_G_train_New            :(G-Train New Color)
+STR_REFIT_LIVERY_Travel_8500_S_train                :(S-Train)
+STR_REFIT_LIVERY_Travel_8500_V_train                :(V-Train)
+STR_REFIT_LIVERY_Travel_8500_Haerang_train          :(Haerang)
+STR_REFIT_LIVERY_Travel_8500_Wine_train             :(Wine)
+
+# Liveries metro
+STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(Long Seat)
+STR_REFIT_LIVERY_Standard_Metro_Cross_Seat          :(Cross Seat)
+
+# Errors
+STR_ERROR_NO_ATTACH                                 :You can't attach this car here
+STR_ERROR_NOT_ENOUGH_LENGTH4                        :It's too short. It should be equal or more than 4 cars at least.
+STR_ERROR_NOT_ENOUGH_LENGTH6                        :It's too short. It should be equal or more than 6 cars at least.
