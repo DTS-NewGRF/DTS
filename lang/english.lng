@@ -8,11 +8,7 @@ STR_GRF_URL                                         :https://github.com/MEGB-New
 
 # locomotive's name
 STR_EMU_320_NAME                                    :[DTS] EMU-320
-STR_Glory_600_NAME                                  :[DTS] Glory 600
-STR_HMX_NAME                                        :[DTS] HMX
-STR_ICE_NAME                                        :[DTS] ICE
-STR_N700_NAME                                       :[DTS] N700
-STR_NKX_NAME                                        :[DTS] NKX
+STR_AREX_NAME                                       :[DTS] AREX series 2000 EMU5
 
 # Metro's name
 
@@ -28,9 +24,20 @@ STR_PARAM_High_SPEED_Train_NAME                     :High Speed Train Speed
 STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the high-speed train (Default:331km/h)
 STR_PARAM_High_SPEED_Train_430_NAME                 :High Speed Train Speed (430km/h train speed control)
 STR_PARAM_High_SPEED_Train_430_DESC                 :Adjust the speed of the high-speed train (Default:430km/h)
+STR_PARAM_Chinese_NAME                              :No Chinese trains allowed.
+STR_PARAM_Chinese_DESC                              :Please check when using Chinese trains. (Default: unused)
+STR_PARAM_European_NAME                             :No European trains allowed.
+STR_PARAM_European_DESC                             :Please check when using European train. (Default: unused)
+STR_PARAM_Japanese_NAME                             :No Japanese trains allowed.
+STR_PARAM_Japanese_DESC                             :Please check when using Japanese train. (Default: unused)
+STR_PARAM_Korea_NAME                                :No Korea type trains allowed.
+STR_PARAM_Korea_DESC                                :Please check when using Korea type trains. (Default: unused)
+STR_PARAM_world_NAME                                :No World type trains allowed.
+STR_PARAM_world_DESC                                :Please check when using World type trains. (Default: unused)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
-STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}EUM-320{}source:KR+Set
+STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}EUM-320
+STR_REFIT_ADDITIONAL_AREX                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}AREX
 STR_REFIT_ADDITIONAL_Glory600                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Glory-600
 STR_REFIT_ADDITIONAL_HMX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HMX
 STR_REFIT_ADDITIONAL_ICE                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}ICE
@@ -45,10 +52,8 @@ STR_REFIT_LIVERY_EMU320_DB                          :(EMU-320 ICE)
 STR_REFIT_LIVERY_EMU320_EURO                        :(EMU-320 Eurostar)
 STR_REFIT_LIVERY_EMU320_THSR                        :(EMU-320 THSR)
 STR_REFIT_LIVERY_EMU320_CC                          :(EMU-320 Company Colour)
-STR_REFIT_LIVERY_NKX_DB                             :(NKX ICE)
-STR_REFIT_LIVERY_NKX_EURO                           :(NKX Eurostar)
-STR_REFIT_LIVERY_NKX_THSR                           :(NKX THSR)
-STR_REFIT_LIVERY_NKX_CC                             :(NKX Company Colour)
+STR_REFIT_LIVERY_AREX_Normal                        :(Normal Color)
+STR_REFIT_LIVERY_AREX_Company_Color                 :(Company Color)
 
 # Liveries metro
 
