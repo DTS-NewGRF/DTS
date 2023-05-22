@@ -31,7 +31,7 @@ sort(FEAT_TRAINS, [
     DEL7600,                   //1148
     
     DTS_Passenger_Car,         //2000
-    KTS_SPassenger_Car,        //1112
+    DTS_SPassenger_Car,        //2006
     Generatar_Car,             //1120
     Luggage_Car,               //1119
     CTX_Freight_Car,           //1133

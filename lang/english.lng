@@ -40,7 +40,7 @@ STR_Standard_Metro_NAME                             :[DTS] Standard Metro
 
 # wagon's name
 STR_DTS_PASS_NAME                                   :[DTS] Passenger car
-STR_KTS_SPASS_NAME                                  :[DTS] carriage-type passenger car
+STR_DTS_SPASS_NAME                                  :[DTS] carriage-type passenger car
 STR_Generatar_Car_NAME                              :[DTS] Generatar Car
 STR_Luggage_Car_NAME                                :[DTS] Luggage Car
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX Freight Car
@@ -109,6 +109,10 @@ STR_REFIT_LIVERY_AREX_Company_Color                 :(Company Color)
 STR_REFIT_LIVERY_BB15000_Orginal                    :(Orginal)
 STR_REFIT_LIVERY_BB15000_Korail                     :(Korail)
 STR_REFIT_LIVERY_BB15000_En_Voyagee                 :(En Voyagee)
+STR_REFIT_LIVERY_European_Type_1nd_Passenger_Car    :(European type 1nd Livery)
+STR_REFIT_LIVERY_European_Type_2nd_Passenger_Car    :(European type 2nd Livery)
+STR_REFIT_LIVERY_European_Type_Bar_Passenger_Car    :(European type Bar Livery)
+STR_REFIT_LIVERY_European_Type_HF_Passenger_Car     :(European type 1/2 1,2nd Livery)
 
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX Freight Only Wine Livery)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX Passenger-Freight Wine Livery)

@@ -40,7 +40,7 @@ STR_Standard_Metro_NAME                             :[DTS] 한국형 표준전�
 
 # wagon's name
 STR_DTS_PASS_NAME                                   :[DTS] 승객 수송 차량
-STR_KTS_SPASS_NAME                                  :[DTS] 객차형 승객 수송 차량
+STR_DTS_SPASS_NAME                                  :[DTS] 객차형 승객 수송 차량
 STR_Generatar_Car_NAME                              :[DTS] 발전차
 STR_Luggage_Car_NAME                                :[DTS] 수화물차
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX용 화물 수송 차량
@@ -109,6 +109,10 @@ STR_REFIT_LIVERY_AREX_Company_Color                 :(회사 색상)
 STR_REFIT_LIVERY_BB15000_Orginal                    :(기본도색)
 STR_REFIT_LIVERY_BB15000_Korail                     :(Korail)
 STR_REFIT_LIVERY_BB15000_En_Voyagee                 :(En Voyagee)
+STR_REFIT_LIVERY_European_Type_1nd_Passenger_Car    :(유럽형 1등석)
+STR_REFIT_LIVERY_European_Type_2nd_Passenger_Car    :(유럽형 2등석)
+STR_REFIT_LIVERY_European_Type_Bar_Passenger_Car    :(유럽형 식당칸)
+STR_REFIT_LIVERY_European_Type_HF_Passenger_Car     :(유럽형 1/2 1,2등석)
 
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX 화물전용 와인도색)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX 여객-화물복합 와인도색)

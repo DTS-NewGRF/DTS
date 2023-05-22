@@ -27,7 +27,6 @@ STR_TGV_Pos_NAME                                    :[ETS] TGV Pos
 STR_TGV_M_NAME                                      :[ETS] TGV M
 
 # wagon's name
-STR_ETS_SPASS_NAME                                  :[ETS] carriage-type passenger transport vehicle
 STR_TGV_Poste_wagon_NAME                            :[ETS] TGV La Poste Freight Car
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
@@ -50,7 +49,6 @@ STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
 STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV M
 
-STR_REFIT_train_configuration_SPassenger            :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}train configuration: {GREEN}TGV La Poste
 
 # Liveries
@@ -87,7 +85,3 @@ STR_REFIT_LIVERY_ICE3V_red                          :(Red Livery)
 STR_REFIT_LIVERY_ICE3V_green                        :(Green Livery)
 STR_REFIT_LIVERY_ICE4_red                           :(Red Livery)
 STR_REFIT_LIVERY_ICE4_green                         :(Green Livery)
-STR_REFIT_LIVERY_Original_1nd_Passenger_Car         :(1nd Livery)
-STR_REFIT_LIVERY_Original_2nd_Passenger_Car         :(2nd Livery)
-STR_REFIT_LIVERY_Original_Bar_Passenger_Car         :(Bar Livery)
-STR_REFIT_LIVERY_Original_HF_Passenger_Car          :(1/2 1,2nd Livery)

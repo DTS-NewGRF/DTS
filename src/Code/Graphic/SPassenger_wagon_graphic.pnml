@@ -1,26 +1,26 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_SPassenger_wagon_purchase, "src\wagon\SPassenger_wagon\SPassenger_wagon.png"){
+spriteset(set_SPassenger_wagon_purchase, "src/Graphic/SPassenger_wagon/EPassenger_wagon.png"){
 	tmpl_wagon_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
-1. SNCF_Corail coach_Original color
+1. 유럽형 객차 승객 차량
 --------------------------------------------------------------------*/
-spriteset(set_Original_1nd_wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_European_Type_1nd_wagon, "src/Graphic/SPassenger_wagon/EPassenger_wagon.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_Original_2nd_wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_European_Type_2nd_wagon, "src/Graphic/SPassenger_wagon/EPassenger_wagon.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_Original_Bar_wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_European_Type_Bar_wagon, "src/Graphic/SPassenger_wagon/EPassenger_wagon.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Original_HF_wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_European_Type_HF_wagon, "src/Graphic/SPassenger_wagon/EPassenger_wagon.png") {
     wagon_1F_F(80, 81)
 }
 
