@@ -3,6 +3,8 @@
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
     AGV,                       //2001
+    APEX20005,                 //2002
+    Avelia_Liberty,            //2003
     HSR_350X,                  //1069
     TTX,                       //1134
     HEMU_430X,                 //1068
@@ -26,7 +28,6 @@ sort(FEAT_TRAINS, [
     Travel_8500,               //1121
     GT26CW,                    //1114
     DEL7600,                   //1148
-    APEX20005,                 //1138
     
     DTS_Passenger_Car,         //2000
     KTS_SPassenger_Car,        //1112

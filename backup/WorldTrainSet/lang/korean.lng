@@ -14,7 +14,6 @@ STR_THSR_700T_NAME                                  :[WTS] 타이완 고속철�
 STR_Renfe_S_130_NAME                                :[WTS] 아프로시욥
 STR_Al_Boraq_NAME                                   :[WTS] 알 보라크
 STR_Talgo_350_SRO_NAME                              :[WTS] 탈고 350 SRO (하라마인 고속철도)
-STR_Avelia_Liberty_NAME                             :[WTS] 아벨리아 리버티
 
 # wagon's name
 STR_WTS_PASS_NAME                                   :[WTS] 승객 수송 차량
@@ -34,7 +33,6 @@ STR_REFIT_ADDITIONAL_THSR_700T                      :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_Al_Boraq                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_Talgo_350_SRO                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_Avelia_Liberty                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 
 STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
 STR_REFIT_train_configuration                       :{BLACK}열차구성: {GREEN}승객 차량용

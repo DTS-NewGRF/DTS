@@ -15,7 +15,6 @@ STR_THSR_700T_NAME                                  :[WTS] THSR 700T
 STR_Renfe_S_130_NAME                                :[WTS] Afrosiyob
 STR_Al_Boraq_NAME                                   :[WTS] Al-Boraq
 STR_Talgo_350_SRO_NAME                              :[WTS] Talgo 350 SRO
-STR_Avelia_Liberty_NAME                             :[WTS] Avelia Liberty
 
 # wagon's name
 STR_WTS_PASS_NAME                                   :[WTS] Passenger Car
@@ -35,7 +34,6 @@ STR_REFIT_ADDITIONAL_THSR_700T                      :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Al_Boraq                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Talgo_350_SRO                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Avelia_Liberty                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 
 STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
 STR_REFIT_train_configuration                       :{BLACK}train configuration: {GREEN}passenger vehicles

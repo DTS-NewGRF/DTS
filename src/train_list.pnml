@@ -8,6 +8,7 @@
 //locomotive
 #include "Code/AGV.pnml"
 #include "Code/AREX.pnml"
+#include "Code/Avelia_Liberty.pnml"
 #include "locomotive/Bicheuro_DUPLEX/Bicheuro2.pnml"
 #include "locomotive/CTX/CTX.pnml"
 #include "locomotive/DEL7600/DEL7600.pnml"
@@ -55,5 +56,5 @@ if (Korea) {
     }
 
 if (world) {
-
+    disable_item(FEAT_TRAINS, 2003); //Avelia_Liberty
     }

@@ -2,6 +2,17 @@
 매개변수
 --------------------------------------------------------------------*/
 param {
+        Metro_Speed_Train {
+            type: int;
+            name: string(STR_PARAM_Metro_SPEED_Train_NAME);
+            desc: string(STR_PARAM_Metro_SPEED_Train_DESC);
+            min_value: 100;
+            max_value: 151;
+            def_value: 121;
+            }
+    }
+
+param {
         Regular_Speed_Train {
             type: int;
             name: string(STR_PARAM_Regular_SPEED_Train_NAME);
