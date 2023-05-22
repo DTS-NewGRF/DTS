@@ -1,0 +1,34 @@
+//wagon
+#include "code/passenger_wagon.pnml"
+
+//locomotive
+#include "code/EMU320.pnml"
+#include "code/AREX.pnml"
+#include "code/GTX.pnml"
+
+//Metro
+
+// Sorting
+#include "sort.pnml"
+
+//disabe_train
+if (Chinese) {
+
+    }
+
+if (European) {
+
+    }
+
+if (Japanese) {
+
+    }
+
+if (Korea) {
+    disable_item(FEAT_TRAINS, 2002); //APEX20005
+    disable_item(FEAT_TRAINS, 2003); //GTX
+    }
+
+if (world) {
+
+    }

@@ -7,7 +7,6 @@ STR_GRF_DESC                                     :{BLACK}KR+Set adds Korean trai
 STR_GRF_URL                                      :https://github.com/OpenCreative/KR_Plus_Set
 
 # locomotive's name
-STR_AREX_NAME                                       :[KR+] AREX series 2000 EMU5
 STR_CTX_NAME                                        :[KR+] CTX
 STR_DEL7600_NAME                                    :[KR+] DEL7600
 STR_EMU150_NAME                                     :[KR+] EMU-150
@@ -16,7 +15,6 @@ STR_EMU260_DD_NAME                                  :[KR+] EMU-260 DD
 STR_EMU320_NAME                                     :[KR+] EMU-320
 STR_EMU320_DD_NAME                                  :[KR+] EMU-320 DD
 STR_GT26CW_NAME                                     :[KR+] GT26CW
-STR_GTX_NAME                                        :[KR+] GTX
 STR_HEMU_430X_NAME                                  :[KR+] HEMU-430X
 STR_HSR_350X_NAME                                   :[KR+] HSR-350X
 STR_ICE_CW_NAME                                     :[KR+] ITX-Chowol
@@ -52,7 +50,6 @@ STR_PARAM_High_SPEED_Train_430_NAME                 :High Speed Train Speed (430
 STR_PARAM_High_SPEED_Train_430_DESC                 :Adjust the speed of the high-speed train (Default:430km/h)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
-STR_REFIT_ADDITIONAL_AREX                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}AREX
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}DEL7600
 STR_REFIT_ADDITIONAL_EMU150                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
@@ -61,7 +58,6 @@ STR_REFIT_ADDITIONAL_EMU260_DD                      :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}GT26CW
-STR_REFIT_ADDITIONAL_GTX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}GTX
 STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HEMU-430X
 STR_REFIT_ADDITIONAL_HSR_350X                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HSR-350X
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}ITX-Chowol
@@ -85,8 +81,6 @@ STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration:
 STR_REFIT_train_configuration_CTX                   :{BLACK}train configuration: {GREEN}CTX Freight vehicles
 
 # Liveries
-STR_REFIT_LIVERY_AREX_Normal                        :(Normal Color)
-STR_REFIT_LIVERY_AREX_Company_Color                 :(Company Color)
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX Freight Only Wine Livery)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX Passenger-Freight Wine Livery)
 STR_REFIT_LIVERY_EMU150R_1F                         :(EMU-150 1F Red Color)

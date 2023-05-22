@@ -1,0 +1,91 @@
+/*--------------------------------------------------------------------
+매개변수
+--------------------------------------------------------------------*/
+param {
+        Regular_Speed_Train {
+            type: int;
+            name: string(STR_PARAM_Regular_SPEED_Train_NAME);
+            desc: string(STR_PARAM_Regular_SPEED_Train_DESC);
+            min_value: 151;
+            max_value: 180;
+            def_value: 151;
+            }
+    }
+
+param {
+        Semi_High_SPEED_Train {
+            type: int;
+            name: string(STR_PARAM_Semi_High_SPEED_Train_NAME);
+            desc: string(STR_PARAM_Semi_High_SPEED_Train_DESC);
+            min_value: 180;
+            max_value: 259;
+            def_value: 180;
+            }
+    }
+
+param {
+        High_Speed_Train {
+            type: int;
+            name: string(STR_PARAM_High_SPEED_Train_NAME);
+            desc: string(STR_PARAM_High_SPEED_Train_DESC);
+            min_value: 300;
+            max_value: 379;
+            def_value: 330;
+            }
+    }
+
+param {
+        High_Speed_Train_430 {
+            type: int;
+            name: string(STR_PARAM_High_SPEED_Train_430_NAME);
+            desc: string(STR_PARAM_High_SPEED_Train_430_DESC);
+            min_value: 430;
+            max_value: 597;
+            def_value: 430;
+            }
+    }
+
+param {
+    Chinese {
+        type: bool;
+        name: string(STR_PARAM_Chinese_NAME);
+        desc: string(STR_PARAM_Chinese_DESC);
+        def_value: 1;
+        }
+    }
+
+param {
+    European {
+        type: bool;
+        name: string(STR_PARAM_European_NAME);
+        desc: string(STR_PARAM_European_DESC);
+        def_value: 1;
+        }
+    }
+
+param {
+    Japanese {
+        type: bool;
+        name: string(STR_PARAM_Japanese_NAME);
+        desc: string(STR_PARAM_Japanese_DESC);
+        def_value: 1;
+        }
+    }
+
+param {
+    Korea {
+        type: bool;
+        name: string(STR_PARAM_Korea_NAME);
+        desc: string(STR_PARAM_Korea_DESC);
+        def_value: 1;
+        }
+    }
+
+param {
+    world {
+        type: bool;
+        name: string(STR_PARAM_world_NAME);
+        desc: string(STR_PARAM_world_DESC);
+        def_value: 1;
+        }
+    }

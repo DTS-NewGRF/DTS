@@ -1,0 +1,53 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Generatar_Car_purchase, "src\wagon\Generatar_Car\Generatar_Car.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
+    wagon_1F_F_mini_7(80, 0)
+}
+
+spriteset(set_CY_GW_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
+    wagon_1F_F_mini_7(80, 25)
+}
+
+spriteset(set_JA_A_Old_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
+    wagon_1F_F_mini_7(80, 50)
+}
+
+spriteset(set_JA_A_New_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
+    wagon_1F_F_mini_7(80, 75)
+}
+
+spriteset(set_Lady_Bird_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
+    wagon_1F_F_mini_6(80, 100)
+}
+
+spriteset(set_S_Train_New_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
+    wagon_1F_F_mini_7(80, 124)
+}
+
+spriteset(set_A_Train_New_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
+    wagon_1F_F_mini_7(80, 149)
+}
+
+alternative_sprites(set_A_Train_New_Generatar_Car, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\Generatar_Car\Generatar_Car_32bpp.png"){
+    wagon_1F_F_mini_7(80, 0)
+}
+
+spriteset(set_G_Train_New_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
+    wagon_1F_F_mini_7(80, 174)
+}
+
+alternative_sprites(set_G_Train_New_Generatar_Car, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\Generatar_Car\Generatar_Car_32bpp.png"){
+    wagon_1F_F_mini_7(80, 25)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Generatar_Car_purchase, cargo_subtype) {
+    set_Generatar_Car_purchase;
+}

@@ -7,7 +7,6 @@ STR_GRF_DESC                                     :{BLACK}KR+Set은 시험용으�
 STR_GRF_URL                                      :https://github.com/OpenCreative/KR_Plus_Set
 
 # locomotive's name
-STR_AREX_NAME                                       :[KR+] AREX (공항철도)
 STR_CTX_NAME                                        :[KR+] CTX
 STR_DEL7600_NAME                                    :[KR+] DEL7600
 STR_EMU150_NAME                                     :[KR+] ITX-새마을 (EMU-150)
@@ -52,7 +51,6 @@ STR_PARAM_High_SPEED_Train_430_NAME                 :고속열차 속도변수 (
 STR_PARAM_High_SPEED_Train_430_DESC                 :고속열차의 속도를 조정합니다. (기본:430km/h)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
-STR_REFIT_ADDITIONAL_AREX                           :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2025년부터 운행될 인천국제공항철도 AREX 통근형 2세대 전동차.
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}KTX-산천을 기반으로한 화물 KTX 열차가 양산되었다는 컨셉을 가진 열차.
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}DEL7600의 A-train 신도색을 적용한 차량입니다.
 STR_REFIT_ADDITIONAL_EMU150                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}2023년부터 운행되고 있는 ITX-새마을 2세대 전동차
@@ -85,8 +83,6 @@ STR_REFIT_train_configuration_Luggage               :{BLACK}열차구성: {GREEN
 STR_REFIT_train_configuration_CTX                   :{BLACK}열차구성: {GREEN}CTX용 화물차량
 
 # Liveries locomotive
-STR_REFIT_LIVERY_AREX_Normal                        :(기본 도색)
-STR_REFIT_LIVERY_AREX_Company_Color                 :(회사 색상)
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX 화물전용 와인도색)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX 여객-화물복합 와인도색)
 STR_REFIT_LIVERY_EMU150R_1F                         :(EMU-150 1층 빨강도색)

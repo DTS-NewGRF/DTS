@@ -1,0 +1,122 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_EMU320_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_EMU320_EURO);    //EMU320_EURO
+    2: return string(STR_REFIT_LIVERY_EMU320_THSR);    //EMU320_THRS
+    4: return string(STR_REFIT_LIVERY_EMU320_CC);      //EMU320_CC
+    return string(STR_REFIT_LIVERY_EMU320_DB);
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_engineH, cargo_subtype) {
+    1: set_EMU320_EURO_engineH;    //EMU320_EURO
+    2: set_EMU320_THSR_engineH;    //EMU320_THRS
+    4: set_EMU320_CC_engineH;      //EMU320_CC
+    set_EMU320_DB_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_engineT, cargo_subtype) {
+    1: set_EMU320_EURO_engineT;    //EMU320_EURO
+    2: set_EMU320_THSR_engineT;    //EMU320_THRS    
+    4: set_EMU320_CC_engineT;      //EMU320_CC
+    set_EMU320_DB_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_EMU320_engineT;
+    sw_EMU320_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_panto_wagon, cargo_subtype) {
+    1: set_EMU320_EURO_panto_wagon;    //EMU320_EURO
+    2: set_EMU320_THSR_panto_wagon;    //EMU320_THRS
+    4: set_EMU320_CC_panto_wagon;      //EMU320_CC
+    set_EMU320_DB_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_panto_wagon_r, cargo_subtype) {
+    1: set_EMU320_EURO_panto_wagon_r;    //EMU320_EURO
+    2: set_EMU320_THSR_panto_wagon_r;    //EMU320_THRS
+    4: set_EMU320_CC_panto_wagon_r;      //EMU320_CC
+    set_EMU320_DB_panto_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_front, cargo_subtype) {
+    1: set_EMU320_EURO_wagon;    //EMU320_EURO
+    2: set_EMU320_THSR_wagon;    //EMU320_THRS
+    4: set_EMU320_CC_wagon;      //EMU320_CC
+    set_EMU320_DB_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_tail, cargo_subtype) {
+    1: set_EMU320_EURO_wagon_r;    //EMU320_EURO
+    2: set_EMU320_THSR_wagon_r;    //EMU320_THRS
+    4: set_EMU320_CC_wagon_r;      //EMU320_CC
+    set_EMU320_DB_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_4car, (position_in_consist) % 4) {
+    2: sw_EMU320_panto_wagon;
+    3: sw_EMU320_panto_wagon_r;
+    sw_EMU320_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_5car, (position_in_consist) % 5) {
+    2: sw_EMU320_panto_wagon;
+    4: sw_EMU320_panto_wagon_r;
+    sw_EMU320_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_6car, (position_in_consist) % 6) {
+    2: sw_EMU320_panto_wagon;
+    4: sw_EMU320_wagon_tail;
+    5: sw_EMU320_panto_wagon_r;
+    sw_EMU320_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_7car, (position_in_consist) % 7) {
+    2: sw_EMU320_panto_wagon;
+    4: sw_EMU320_wagon_tail;
+    6: sw_EMU320_panto_wagon_r;
+    sw_EMU320_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_8car, (position_in_consist) % 8) {
+    2: sw_EMU320_panto_wagon;
+    4: sw_EMU320_wagon_tail;
+    7: sw_EMU320_panto_wagon_r;
+    sw_EMU320_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_9car, (position_in_consist) % 9) {
+    2: sw_EMU320_panto_wagon;
+    4: sw_EMU320_wagon_tail;
+    7: sw_EMU320_wagon_tail;
+    8: sw_EMU320_panto_wagon_r;
+    sw_EMU320_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_10car, (position_in_consist) % 10) {
+    2: sw_EMU320_panto_wagon;
+    4: sw_EMU320_wagon_tail;
+    7: sw_EMU320_wagon_tail;
+    9: sw_EMU320_panto_wagon_r;
+    sw_EMU320_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_wagon, num_vehs_in_consist) {
+    4: sw_EMU320_wagon_4car;
+    5: sw_EMU320_wagon_5car;
+    6: sw_EMU320_wagon_6car;
+    7: sw_EMU320_wagon_7car;
+    8: sw_EMU320_wagon_8car;
+    9: sw_EMU320_wagon_9car;
+    10: sw_EMU320_wagon_10car;
+    sw_EMU320_wagon_8car;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_attach, vehicle_type_id) {
+    EMU320:                 return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

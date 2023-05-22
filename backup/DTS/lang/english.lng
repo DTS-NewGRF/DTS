@@ -1,0 +1,60 @@
+##grflangid 0x00
+
+
+# GRF name and description
+STR_GRF_NAME_WITH_VER                               :Derivative Train Set {VERSION}
+STR_GRF_DESC                                        :Derivative Train Set
+STR_GRF_URL                                         :https://github.com/MEGB-NewGRF/VirtualTrainSet
+
+# locomotive's name
+STR_EMU_320_NAME                                    :[DTS] EMU-320
+STR_AREX_NAME                                       :[DTS] AREX series 2000 EMU5
+STR_GTX_NAME                                        :[DTS] GTX
+
+# Metro's name
+
+# wagon's name
+STR_DTS_PASS_NAME                                   :[DTS] Passenger car
+
+# Parameters
+STR_PARAM_Regular_SPEED_Train_NAME                  :Regular Train Speed Variable
+STR_PARAM_Regular_SPEED_Train_DESC                  :Adjust the speed of the Regular-speed train (Default:151km/h)
+STR_PARAM_Semi_High_SPEED_Train_NAME                :Semi High Speed Train Speed variable
+STR_PARAM_Semi_High_SPEED_Train_DESC                :Adjust the speed of the Semi High Speed Train (Default:181km/h)
+STR_PARAM_High_SPEED_Train_NAME                     :High Speed Train Speed
+STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the high-speed train (Default:331km/h)
+STR_PARAM_High_SPEED_Train_430_NAME                 :High Speed Train Speed (430km/h train speed control)
+STR_PARAM_High_SPEED_Train_430_DESC                 :Adjust the speed of the high-speed train (Default:430km/h)
+STR_PARAM_Chinese_NAME                              :No Chinese trains allowed.
+STR_PARAM_Chinese_DESC                              :Please check when using Chinese trains. (Default: unused)
+STR_PARAM_European_NAME                             :No European trains allowed.
+STR_PARAM_European_DESC                             :Please check when using European train. (Default: unused)
+STR_PARAM_Japanese_NAME                             :No Japanese trains allowed.
+STR_PARAM_Japanese_DESC                             :Please check when using Japanese train. (Default: unused)
+STR_PARAM_Korea_NAME                                :No Korea type trains allowed.
+STR_PARAM_Korea_DESC                                :Please check when using Korea type trains. (Default: unused)
+STR_PARAM_world_NAME                                :No World type trains allowed.
+STR_PARAM_world_DESC                                :Please check when using World type trains. (Default: unused)
+
+# Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
+STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}EUM-320
+STR_REFIT_ADDITIONAL_AREX                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}AREX
+STR_REFIT_ADDITIONAL_GTX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}GTX
+
+STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
+STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
+
+# Liveries
+STR_REFIT_LIVERY_EMU320_DB                          :(EMU-320 ICE)
+STR_REFIT_LIVERY_EMU320_EURO                        :(EMU-320 Eurostar)
+STR_REFIT_LIVERY_EMU320_THSR                        :(EMU-320 THSR)
+STR_REFIT_LIVERY_EMU320_CC                          :(EMU-320 Company Colour)
+STR_REFIT_LIVERY_AREX_Normal                        :(Normal Color)
+STR_REFIT_LIVERY_AREX_Company_Color                 :(Company Color)
+
+# Liveries metro
+
+# Errors
+STR_ERROR_NO_ATTACH                                 :You can't attach this car here
+STR_ERROR_NOT_ENOUGH_LENGTH4                        :It's too short. It should be equal or more than 4 cars at least.
+STR_ERROR_NOT_ENOUGH_LENGTH6                        :It's too short. It should be equal or more than 6 cars at least.
