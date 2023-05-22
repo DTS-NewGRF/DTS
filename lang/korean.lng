@@ -35,7 +35,7 @@ STR_Standard_Metro_NAME                             :[DTS] 한국형 표준전�
 STR_AUTS_NAME                                       :[DTS] 차세대전동차 (AUTS)
 
 # wagon's name
-STR_KTS_PASS_NAME                                   :[DTS] 승객 수송 차량
+STR_DTS_PASS_NAME                                   :[DTS] 승객 수송 차량
 STR_KTS_SPASS_NAME                                  :[DTS] 객차형 승객 수송 차량
 STR_Generatar_Car_NAME                              :[DTS] 발전차
 STR_Luggage_Car_NAME                                :[DTS] 수화물차
@@ -87,7 +87,6 @@ STR_REFIT_ADDITIONAL_VHST_600X                      :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}1999년에 개발된 도시철도 표준 전동차
 STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}2010년에 개발된 차세대 도시철도 전동차
 
-STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
 STR_REFIT_train_configuration_Passenger             :{BLACK}열차구성: {GREEN}승객 차량용
 STR_REFIT_train_configuration_SPassenger            :{BLACK}열차구성: {GREEN}객차형 승객 차량용
 STR_REFIT_train_configuration_Generatar             :{BLACK}열차구성: {GREEN}발전차용

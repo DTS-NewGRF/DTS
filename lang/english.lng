@@ -35,7 +35,7 @@ STR_Standard_Metro_NAME                             :[DTS] Standard Metro
 STR_AUTS_NAME                                       :[DTS] AUTS
 
 # wagon's name
-STR_KTS_PASS_NAME                                   :[DTS] Passenger car
+STR_DTS_PASS_NAME                                   :[DTS] Passenger car
 STR_KTS_SPASS_NAME                                  :[DTS] carriage-type passenger car
 STR_Generatar_Car_NAME                              :[DTS] Generatar Car
 STR_Luggage_Car_NAME                                :[DTS] Luggage Car
@@ -87,7 +87,6 @@ STR_REFIT_ADDITIONAL_VHST_600X                      :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 
-STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
 STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
 STR_REFIT_train_configuration_SPassenger            :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
 STR_REFIT_train_configuration_Generatar             :{BLACK}train configuration: {GREEN}Generatar vehicles

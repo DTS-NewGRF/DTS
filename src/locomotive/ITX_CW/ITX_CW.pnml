@@ -60,7 +60,7 @@ item(FEAT_TRAINS, ITX_CW, 1070){
         additional_text:                string(STR_REFIT_ADDITIONAL_ITX_CW);
         }
 
-    livery_override(KTS_Passenger_Car) {
+    livery_override(DTS_Passenger_Car) {
         default:                        sw_ITX_CW_wagon;
         cargo_capacity:                 200;
         loading_speed:                  25;

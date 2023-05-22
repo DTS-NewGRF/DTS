@@ -1,9 +1,19 @@
 /*--------------------------------------------------------------------
 1층 공통객차
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, KTS_Passenger_Car, 1061){
+// Graphics
+#include "graphic/passenger_wagon_graphic.pnml"
+
+// Switch
+#include "switch/passenger_wagon_switch.pnml"
+
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item (FEAT_TRAINS, DTS_Passenger_Car, 2000){
     property {
-        name:                           string(STR_KTS_PASS_NAME);
+        name:                           string(STR_DTS_PASS_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2002, 1, 1);
         track_type:                     RAIL;

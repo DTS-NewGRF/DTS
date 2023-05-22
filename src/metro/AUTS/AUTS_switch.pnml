@@ -13,6 +13,6 @@ switch(FEAT_TRAINS, SELF, sw_AUTS_wagon, (position_in_consist + 1) % 6) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_AUTS_wagon_attach, vehicle_type_id) {
-    KTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

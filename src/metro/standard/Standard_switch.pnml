@@ -90,6 +90,6 @@ switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_length, num_vehs_in_consist) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_attach, vehicle_type_id) {
-    KTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

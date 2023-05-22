@@ -47,7 +47,7 @@ item(FEAT_TRAINS, GTX, 1067){
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
         
@@ -59,7 +59,7 @@ item(FEAT_TRAINS, GTX, 1067){
         additional_text:                string(STR_REFIT_ADDITIONAL_GTX);
         }
 
-    livery_override(KTS_Passenger_Car) {
+    livery_override(DTS_Passenger_Car) {
         default:                        sw_GTX_wagon;
         cargo_capacity:                 101;
         loading_speed:                  25;

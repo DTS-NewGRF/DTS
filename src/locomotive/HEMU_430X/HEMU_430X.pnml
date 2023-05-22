@@ -60,7 +60,7 @@ item(FEAT_TRAINS, HEMU_430X, 1068){
         additional_text:                string(STR_REFIT_ADDITIONAL_HEMU_430X);
         }
 
-    livery_override(KTS_Passenger_Car) {
+    livery_override(DTS_Passenger_Car) {
         default:                        sw_HEMU_430X_wagon;
         cargo_capacity:                 sw_HEMU_430X_wagon_capacity_in_custom;
         cargo_subtype_text:             sw_HEMU_430X_cargo_subtype_text;

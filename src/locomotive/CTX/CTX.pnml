@@ -63,7 +63,7 @@ item(FEAT_TRAINS, CTX, 1132){
         additional_text:                string(STR_REFIT_ADDITIONAL_CTX);
         }
 
-    livery_override(KTS_Passenger_Car) {
+    livery_override(DTS_Passenger_Car) {
         default:                        sw_CTX_FC_wagon;
         cargo_subtype_text:             sw_CTX_FC_cargo_subtype_text;
         cargo_capacity:                 60;
