@@ -2,15 +2,15 @@
 GT26CW
 --------------------------------------------------------------------*/
 // Graphics
-#include "BB15000_graphic.pnml"
+#include "Graphic/BB15000_graphic.pnml"
 
 // Switch
-#include "BB15000_switch.pnml"
+#include "Switch/BB15000_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, BB15000, 1129){
+item(FEAT_TRAINS, BB15000, 2005){
     property {
         name:                           string(STR_BB15000_NAME);
         climates_available:             ALL_CLIMATES;

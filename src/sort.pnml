@@ -6,6 +6,7 @@ sort(FEAT_TRAINS, [
     APEX20005,                 //2002
     Avelia_Liberty,            //2003
     AUTS,                      //2004
+    BB15000,                   //2005
     HSR_350X,                  //1069
     TTX,                       //1134
     HEMU_430X,                 //1068
