@@ -27,15 +27,8 @@ STR_TGV_Pos_NAME                                    :[ETS] TGV Pos
 STR_TGV_M_NAME                                      :[ETS] TGV M
 
 # wagon's name
-STR_ETS_PASS_NAME                                   :[ETS] Passenger Car
 STR_ETS_SPASS_NAME                                  :[ETS] carriage-type passenger transport vehicle
 STR_TGV_Poste_wagon_NAME                            :[ETS] TGV La Poste Freight Car
-
-# Parameters
-STR_PARAM_Regular_SPEED_Train_NAME                  :Regular Train Speed Variable
-STR_PARAM_Regular_SPEED_Train_DESC                  :Adjust the speed of the Regular-speed train (Default:151km/h)
-STR_PARAM_High_SPEED_Train_NAME                     :High Speed Train Speed
-STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the high-speed train (Default:331km/h)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
@@ -57,8 +50,6 @@ STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
 STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV M
 
-STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
-STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
 STR_REFIT_train_configuration_SPassenger            :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}train configuration: {GREEN}TGV La Poste
 
@@ -100,7 +91,3 @@ STR_REFIT_LIVERY_Original_1nd_Passenger_Car         :(1nd Livery)
 STR_REFIT_LIVERY_Original_2nd_Passenger_Car         :(2nd Livery)
 STR_REFIT_LIVERY_Original_Bar_Passenger_Car         :(Bar Livery)
 STR_REFIT_LIVERY_Original_HF_Passenger_Car          :(1/2 1,2nd Livery)
-
-# Errors
-STR_ERROR_NO_ATTACH                                 :You can't attach this car here
-STR_ERROR_NOT_ENOUGH_LENGTH6                        :It's too short. It should be equal or more than 6 cars at least.

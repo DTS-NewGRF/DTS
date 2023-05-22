@@ -30,24 +30,12 @@ STR_VHST_600X_NAME                                  :[KR+] VHST-600X
 
 # Metro's name
 STR_Standard_Metro_NAME                             :[KR+] Standard Metro
-STR_AUTS_NAME                                       :[KR+] AUTS
 
 # wagon's name
-STR_KTS_PASS_NAME                                   :[KR+] Passenger car
 STR_KTS_SPASS_NAME                                  :[KR+] carriage-type passenger car
 STR_Generatar_Car_NAME                              :[KR+] Generatar Car
 STR_Luggage_Car_NAME                                :[KR+] Luggage Car
 STR_CTX_Freight_Car_NAME                            :[KR+] CTX Freight Car
-
-# Parameters
-STR_PARAM_Regular_SPEED_Train_NAME                  :Regular Train Speed Variable
-STR_PARAM_Regular_SPEED_Train_DESC                  :Adjust the speed of the Regular-speed train (Default:151km/h)
-STR_PARAM_Semi_High_SPEED_Train_NAME                :Semi High Speed Train Speed variable
-STR_PARAM_Semi_High_SPEED_Train_DESC                :Adjust the speed of the Semi High Speed Train (Default:181km/h)
-STR_PARAM_High_SPEED_Train_NAME                     :High Speed Train Speed
-STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the high-speed train (Default:331km/h)
-STR_PARAM_High_SPEED_Train_430_NAME                 :High Speed Train Speed (430km/h train speed control)
-STR_PARAM_High_SPEED_Train_430_DESC                 :Adjust the speed of the high-speed train (Default:430km/h)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
@@ -71,10 +59,7 @@ STR_REFIT_ADDITIONAL_Travel_8500                    :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_TTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TTX
 STR_REFIT_ADDITIONAL_VHST_600X                      :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}VHST_600X
 STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 
-STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
-STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
 STR_REFIT_train_configuration_SPassenger            :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
 STR_REFIT_train_configuration_Generatar             :{BLACK}train configuration: {GREEN}Generatar vehicles
 STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
@@ -162,8 +147,3 @@ STR_REFIT_LIVERY_Travel_8500_Wine_train             :(Wine)
 # Liveries metro
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(Long Seat)
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat          :(Cross Seat)
-
-# Errors
-STR_ERROR_NO_ATTACH                                 :You can't attach this car here
-STR_ERROR_NOT_ENOUGH_LENGTH4                        :It's too short. It should be equal or more than 4 cars at least.
-STR_ERROR_NOT_ENOUGH_LENGTH6                        :It's too short. It should be equal or more than 6 cars at least.

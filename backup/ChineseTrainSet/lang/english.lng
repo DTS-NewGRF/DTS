@@ -37,18 +37,9 @@ STR_MTR_Hyundai_Rotem_R_NAME                        :[CTS] MTR Hyundai Rotem R T
 STR_MTR_IKK_SP_1900_NAME                            :[CTS] MTR IKK SP 1900
 
 # wagon's name
-STR_CTS_PASS_NAME                                   :[CTS] Passenger car
 STR_CTS_SPASS_NAME                                  :[CTS] carriage-type passenger car
 STR_Generatar_Car_NAME                              :[CTS] Generatar Car
 STR_Luggage_Car_NAME                                :[CTS] Luggage Car
-
-# Parameters
-STR_PARAM_Regular_SPEED_Train_NAME                  :Regular Train Speed Variable
-STR_PARAM_Regular_SPEED_Train_DESC                  :Adjust the speed of the Regular-speed train (Default:151km/h)
-STR_PARAM_High_SPEED_Train_NAME                     :High Speed Train Speed
-STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the high-speed train (Default:331km/h)
-STR_PARAM_High_SPEED_Train_430_NAME                 :High Speed Train Speed (430km/h train speed control)
-STR_PARAM_High_SPEED_Train_430_DESC                 :Adjust the speed of the high-speed train (Default:430km/h)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_CRH1                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1
@@ -78,8 +69,6 @@ STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi   :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 
-STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
-STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
 STR_REFIT_train_configuration_SPassenger            :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
 STR_REFIT_train_configuration_Generatar             :{BLACK}train configuration: {GREEN}Generatar vehicles
 STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
@@ -117,8 +106,3 @@ STR_REFIT_LIVERY_Luggage_Car_Red                    :(Luggage Red Car)
 STR_REFIT_LIVERY_Luggage_Car_Green                  :(Luggage Green Car)
 STR_REFIT_LIVERY_Luggage_Car_WhiteA                 :(Luggage WhiteA Car)
 STR_REFIT_LIVERY_Luggage_Car_WhiteB                 :(Luggage WhiteB Car)
-
-# Errors
-STR_ERROR_NO_ATTACH                                 :You can't attach this car here
-STR_ERROR_NOT_ENOUGH_LENGTH3                        :It's too short. It should be equal or more than 3 cars at least.
-STR_ERROR_NOT_ENOUGH_LENGTH6                        :It's too short. It should be equal or more than 6 cars at least.

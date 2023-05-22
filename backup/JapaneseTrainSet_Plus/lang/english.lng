@@ -30,18 +30,6 @@ STR_Nishitetsu_8000_NAME                            :[JTS+] Nishitetsu 8000
 STR_Nishitetsu_9000_NAME                            :[JTS+] Nishitetsu 9000
 STR_Shinkansen_L0_NAME                              :[JTS+] Shinkansen L0
 
-# wagon's name
-STR_JTS_PASS_NAME                                   :[JTS+] Passenger Car
-STR_JTS_Magv_PASS_NAME                              :[JTS+] Maglev Passenger Car
-
-# Parameters
-STR_PARAM_High_SPEED_Train_NAME                     :High Speed Train Speed
-STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the high-speed train (Default:331km/h)
-STR_PARAM_Japanese_Track_NAME                       :Japan Train Set Track enable
-STR_PARAM_Japanese_Track_DESC                       :Select Track.
-STR_PARAM_Japanese_Track_Japan                      :Select Japan Train Set Track.
-STR_PARAM_Japanese_Track_World                      :Select Default Track.
-
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_Kse2                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Shinkansen_0                   :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
@@ -65,10 +53,6 @@ STR_REFIT_ADDITIONAL_Nishitetsu_7000                :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_Nishitetsu_8000                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 8000
 STR_REFIT_ADDITIONAL_Nishitetsu_9000                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 9000
 STR_REFIT_ADDITIONAL_Shinkansen_L0                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-
-STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
-STR_REFIT_train_configuration                       :{BLACK}train configuration: {GREEN}Passenger vehicles
-STR_REFIT_train_configuration_Magv                  :{BLACK}train configuration: {GREEN}maglev passenger vehicles
 
 # Liveries
 STR_REFIT_LIVERY_Shinkansen_0                       :(Original Livery)
@@ -96,10 +80,3 @@ STR_REFIT_LIVERY_Nishitetsu_6000                    :(Nishitetsu 6000)
 STR_REFIT_LIVERY_Nishitetsu_6050                    :(Nishitetsu 6050)
 STR_REFIT_LIVERY_Nishitetsu_7000                    :(Nishitetsu 7000)
 STR_REFIT_LIVERY_Nishitetsu_7050                    :(Nishitetsu 7050)
-
-# Errors
-STR_ERROR_NO_ATTACH                                 :You can't attach this car here
-STR_ERROR_NOT_ENOUGH_LENGTH4                        :It's too short. It should be equal or more than 4 cars at least.
-STR_ERROR_NOT_ENOUGH_LENGTH5                        :It's too short. It should be equal or more than 5 cars at least.
-STR_ERROR_NOT_ENOUGH_LENGTH6                        :It's too short. It should be equal or more than 6 cars at least.
-STR_ERROR_NOT_ENOUGH_LENGTH8                        :It's too short. It should be equal or more than 8 cars at least.

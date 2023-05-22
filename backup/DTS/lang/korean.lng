@@ -8,53 +8,14 @@ STR_GRF_URL                                         :https://github.com/DTS-NewG
 
 # locomotive's name
 STR_EMU_320_NAME                                    :[DTS] EMU-320
-STR_AREX_NAME                                       :[DTS] AREX (공항철도)
 STR_GTX_NAME                                        :[DTS] GTX
-
-# Metro's name
-
-# wagon's name
-STR_DTS_PASS_NAME                                   :[DTS] 승객 수송 차량
-
-# Parameters
-STR_PARAM_Regular_SPEED_Train_NAME                  :일반열차 속도변수
-STR_PARAM_Regular_SPEED_Train_DESC                  :일반열차의 속도를 조정합니다. (기본:151km/h)
-STR_PARAM_Semi_High_SPEED_Train_NAME                :준고속열차 속도변수
-STR_PARAM_Semi_High_SPEED_Train_DESC                :준고속열차의 속도를 조정합니다. (기본:181km/h)
-STR_PARAM_High_SPEED_Train_NAME                     :고속열차 속도변수
-STR_PARAM_High_SPEED_Train_DESC                     :고속열차의 속도를 조정합니다. (기본:331km/h)
-STR_PARAM_High_SPEED_Train_430_NAME                 :고속열차 속도변수 (430km/h 열차속도조절)
-STR_PARAM_High_SPEED_Train_430_DESC                 :고속열차의 속도를 조정합니다. (기본:430km/h)
-STR_PARAM_Chinese_NAME                              :중국형 열차 사용 여부
-STR_PARAM_Chinese_DESC                              :중국형 열차를 사용시 체크하세요. (기본:미사용)
-STR_PARAM_European_NAME                             :유럽형 열차 사용 여부
-STR_PARAM_European_DESC                             :유럽형 열차를 사용시 체크하세요. (기본:미사용)
-STR_PARAM_Japanese_NAME                             :일본형 열차 사용 여부
-STR_PARAM_Japanese_DESC                             :일본형 열차를 사용시 체크하세요. (기본:미사용)
-STR_PARAM_Korea_NAME                                :한국형 열차 사용 여부
-STR_PARAM_Korea_DESC                                :한국형 열차를 사용시 체크하세요. (기본:미사용)
-STR_PARAM_world_NAME                                :세계형 열차 사용금지
-STR_PARAM_world_DESC                                :세계형 열차를 사용시 체크하세요. (기본:미사용)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}EUM-320
-STR_REFIT_ADDITIONAL_AREX                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}AREX
 STR_REFIT_ADDITIONAL_GTX                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}GTX
-
-STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
-STR_REFIT_train_configuration_Passenger             :{BLACK}열차구성: {GREEN}승객 차량용
 
 # Liveries locomotive
 STR_REFIT_LIVERY_EMU320_DB                          :(EMU-320 ICE)
 STR_REFIT_LIVERY_EMU320_EURO                        :(EMU-320 유로스타)
 STR_REFIT_LIVERY_EMU320_THSR                        :(EMU-320 대만고속철도)
 STR_REFIT_LIVERY_EMU320_CC                          :(EMU-320 회사색상)
-STR_REFIT_LIVERY_AREX_Normal                        :(기본 도색)
-STR_REFIT_LIVERY_AREX_Company_Color                 :(회사 색상)
-
-# Liveries metro
-
-# Errors
-STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다
-STR_ERROR_NOT_ENOUGH_LENGTH4                        :열차 길이가 너무 짧습니다. 최소한 4량 이상을 연결해야 합니다.
-STR_ERROR_NOT_ENOUGH_LENGTH6                        :열차 길이가 너무 짧습니다. 최소한 6량 이상을 연결해야 합니다.

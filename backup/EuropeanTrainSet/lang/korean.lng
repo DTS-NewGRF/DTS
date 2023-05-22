@@ -27,15 +27,8 @@ STR_TGV_Pos_NAME                                    :[ETS] TGV 포스
 STR_TGV_M_NAME                                      :[ETS] TGV M
 
 # wagon's name
-STR_ETS_PASS_NAME                                   :[ETS] 승객 수송 차량
 STR_ETS_SPASS_NAME                                  :[ETS] 객차형 승객 수송 차량
 STR_TGV_Poste_wagon_NAME                            :[ETS] TGV 라포스트 화차
-
-# Parameters
-STR_PARAM_Regular_SPEED_Train_NAME                  :일반열차 속도변수
-STR_PARAM_Regular_SPEED_Train_DESC                  :일반열차의 속도를 조정합니다. (기본:151km/h)
-STR_PARAM_High_SPEED_Train_NAME                     :고속열차 속도변수
-STR_PARAM_High_SPEED_Train_DESC                     :고속열차의 속도를 조정합니다. (기본:331km/h)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
@@ -57,8 +50,6 @@ STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
 STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV M
 
-STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
-STR_REFIT_train_configuration_Passenger             :{BLACK}열차구성: {GREEN}승객 차량용
 STR_REFIT_train_configuration_SPassenger            :{BLACK}열차구성: {GREEN}객차형 승객 차량용
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}열차구성: {GREEN}TGV 라포스트
 
@@ -100,7 +91,3 @@ STR_REFIT_LIVERY_Original_1nd_Passenger_Car         :(1등석)
 STR_REFIT_LIVERY_Original_2nd_Passenger_Car         :(2등석)
 STR_REFIT_LIVERY_Original_Bar_Passenger_Car         :(식당칸)
 STR_REFIT_LIVERY_Original_HF_Passenger_Car          :(1/2 1,2등석)
-
-# Errors
-STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다
-STR_ERROR_NOT_ENOUGH_LENGTH6                        :열차 길이가 너무 짧습니다. 최소한 6량 이상을 연결해야 합니다.

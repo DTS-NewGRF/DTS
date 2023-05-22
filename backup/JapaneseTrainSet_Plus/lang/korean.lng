@@ -30,18 +30,6 @@ STR_Nishitetsu_8000_NAME                            :[JTS+] 니시테츠 8000형
 STR_Nishitetsu_9000_NAME                            :[JTS+] 니시테츠 9000형
 STR_Shinkansen_L0_NAME                              :[JTS+] 신칸센 L0계
 
-# wagon's name
-STR_JTS_PASS_NAME                                   :[JTS+] 승객 수송 차량
-STR_JTS_Magv_PASS_NAME                              :[JTS+] 자기부상 승객 수송 차량
-
-# Parameters
-STR_PARAM_High_SPEED_Train_NAME                     :고속열차 속도변수
-STR_PARAM_High_SPEED_Train_DESC                     :고속열차의 속도를 조정합니다. (기본:331km/h)
-STR_PARAM_Japanese_Track_NAME                       :일본 열차 세트 선로 호환변수
-STR_PARAM_Japanese_Track_DESC                       :열차가 등장할 선로를 선택합니다.
-STR_PARAM_Japanese_Track_Japan                      :일본 열차 세트 선로를 선택합니다.
-STR_PARAM_Japanese_Track_World                      :기본 전기 선로를 선택합니다.
-
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_Kse2                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_Shinkansen_0                   :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
@@ -65,10 +53,6 @@ STR_REFIT_ADDITIONAL_Nishitetsu_7000                :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_Nishitetsu_8000                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 8000
 STR_REFIT_ADDITIONAL_Nishitetsu_9000                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 9000
 STR_REFIT_ADDITIONAL_Shinkansen_L0                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차: {RED}불가능
-
-STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
-STR_REFIT_train_configuration                       :{BLACK}열차구성: {GREEN}승객 차량용
-STR_REFIT_train_configuration_Magv                  :{BLACK}열차구성: {GREEN}자기부상 승객 차량용
 
 # Liveries locomotive
 STR_REFIT_LIVERY_Shinkansen_0                       :(오리지널)
@@ -96,10 +80,3 @@ STR_REFIT_LIVERY_Nishitetsu_6000                    :(니시테츠 6000형)
 STR_REFIT_LIVERY_Nishitetsu_6050                    :(니시테츠 6050형)
 STR_REFIT_LIVERY_Nishitetsu_7000                    :(니시테츠 7000형)
 STR_REFIT_LIVERY_Nishitetsu_7050                    :(니시테츠 7050형)
-
-# Errors
-STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다
-STR_ERROR_NOT_ENOUGH_LENGTH4                        :열차 길이가 너무 짧습니다. 최소한 4량 이상을 연결해야 합니다.
-STR_ERROR_NOT_ENOUGH_LENGTH5                        :열차 길이가 너무 짧습니다. 최소한 5량 이상을 연결해야 합니다.
-STR_ERROR_NOT_ENOUGH_LENGTH6                        :열차 길이가 너무 짧습니다. 최소한 6량 이상을 연결해야 합니다.
-STR_ERROR_NOT_ENOUGH_LENGTH8                        :열차 길이가 너무 짧습니다. 최소한 8량 이상을 연결해야 합니다.
