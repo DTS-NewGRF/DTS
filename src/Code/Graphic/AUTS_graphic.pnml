@@ -1,30 +1,30 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_AUTS_purchase, "src/metro/AUTS/AUTS.png"){
+spriteset(set_AUTS_purchase, "src/Graphic/AUTS.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. AUTS
 --------------------------------------------------------------------*/
-spriteset(set_AUTSH_purchase, "src/metro/AUTS/AUTS.png"){
+spriteset(set_AUTSH_purchase, "src/Graphic/AUTS.png"){
     tmpl_purchase_for_dualhead(0, 81)
 }
 
-spriteset(set_AUTS_engineH, "src/metro/AUTS/AUTS.png"){
+spriteset(set_AUTS_engineH, "src/Graphic/AUTS.png"){
     engine(80, 0)
 }
 
-spriteset(set_AUTS_panto_wagon, "src/metro/AUTS/AUTS.png") {
+spriteset(set_AUTS_panto_wagon, "src/Graphic/AUTS.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_AUTS_wagon, "src/metro/AUTS/AUTS.png") {
+spriteset(set_AUTS_wagon, "src/Graphic/AUTS.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_AUTS_engineT, "src/metro/AUTS/AUTS.png"){
+spriteset(set_AUTS_engineT, "src/Graphic/AUTS.png"){
     engine_r(80, 81)
 }
 

@@ -10,6 +10,7 @@ STR_GRF_URL                                         :https://github.com/DTS-NewG
 STR_AGV_NAME                                        :[DTS] AGV
 STR_AREX_NAME                                       :[DTS] AREX (공항철도)
 STR_Avelia_Liberty_NAME                             :[DTS] 아벨리아 리버티
+STR_AUTS_NAME                                       :[DTS] AUTS
 
 STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] DEL7600
@@ -35,7 +36,6 @@ STR_VHST_600X_NAME                                  :[DTS] VHST-600X
 
 # Metro's name
 STR_Standard_Metro_NAME                             :[DTS] 한국형 표준전동차
-STR_AUTS_NAME                                       :[DTS] 차세대전동차 (AUTS)
 
 # wagon's name
 STR_DTS_PASS_NAME                                   :[DTS] 승객 수송 차량
@@ -70,6 +70,7 @@ STR_PARAM_world_DESC                                :세계형 열차를 사용�
 STR_REFIT_ADDITIONAL_AGV                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_AREX                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}AREX
 STR_REFIT_ADDITIONAL_Avelia_Liberty                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
 
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}KTX-산천을 기반으로한 화물 KTX 열차가 양산되었다는 컨셉을 가진 열차.
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}DEL7600의 A-train 신도색을 적용한 차량입니다.
@@ -93,7 +94,6 @@ STR_REFIT_ADDITIONAL_Travel_8500                    :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_TTX                            :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2007년에 제작된 기술실험용으로 개발된 틸팅열차
 STR_REFIT_ADDITIONAL_VHST_600X                      :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2016년에 연구된 고속열차
 STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}1999년에 개발된 도시철도 표준 전동차
-STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}2010년에 개발된 차세대 도시철도 전동차
 
 STR_REFIT_train_configuration_Passenger             :{BLACK}열차구성: {GREEN}승객 차량용
 STR_REFIT_train_configuration_SPassenger            :{BLACK}열차구성: {GREEN}객차형 승객 차량용

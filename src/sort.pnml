@@ -5,11 +5,11 @@ sort(FEAT_TRAINS, [
     AGV,                       //2001
     APEX20005,                 //2002
     Avelia_Liberty,            //2003
+    AUTS,                      //2004
     HSR_350X,                  //1069
     TTX,                       //1134
     HEMU_430X,                 //1068
     Standard_Metro,            //1122
-    AUTS,                      //1123
     H2_WJ,                     //1118
     GTX,                       //1067
     VHST_600X,                 //1135

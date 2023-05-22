@@ -10,6 +10,7 @@ STR_GRF_URL                                         :https://github.com/MEGB-New
 STR_AGV_NAME                                        :[DTS] AGV
 STR_AREX_NAME                                       :[DTS] AREX series 2000 EMU5
 STR_Avelia_Liberty_NAME                             :[DTS] Avelia Liberty
+STR_AUTS_NAME                                       :[DTS] AUTS
 
 STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] DEL7600
@@ -35,7 +36,6 @@ STR_VHST_600X_NAME                                  :[DTS] VHST-600X
 
 # Metro's name
 STR_Standard_Metro_NAME                             :[DTS] Standard Metro
-STR_AUTS_NAME                                       :[DTS] AUTS
 
 # wagon's name
 STR_DTS_PASS_NAME                                   :[DTS] Passenger car
@@ -45,6 +45,8 @@ STR_Luggage_Car_NAME                                :[DTS] Luggage Car
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX Freight Car
 
 # Parameters
+STR_PARAM_Metro_SPEED_Train_NAME                    :Metro Train Speed Variable
+STR_PARAM_Metro_SPEED_Train_DESC                    :Adjust the speed of the Metro train (Default:121km/h)
 STR_PARAM_Regular_SPEED_Train_NAME                  :Regular Train Speed Variable
 STR_PARAM_Regular_SPEED_Train_DESC                  :Adjust the speed of the Regular-speed train (Default:151km/h)
 STR_PARAM_Semi_High_SPEED_Train_NAME                :Semi High Speed Train Speed variable
@@ -68,6 +70,7 @@ STR_PARAM_world_DESC                                :Please check when using Wor
 STR_REFIT_ADDITIONAL_AGV                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_AREX                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}AREX
 STR_REFIT_ADDITIONAL_Avelia_Liberty                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
 
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}DEL7600
@@ -91,7 +94,6 @@ STR_REFIT_ADDITIONAL_Travel_8500                    :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_TTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}TTX
 STR_REFIT_ADDITIONAL_VHST_600X                      :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}VHST_600X
 STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
-STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
 
 STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
 STR_REFIT_train_configuration_SPassenger            :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
