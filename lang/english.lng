@@ -7,6 +7,7 @@ STR_GRF_DESC                                        :Derivative Train Set
 STR_GRF_URL                                         :https://github.com/MEGB-NewGRF/VirtualTrainSet
 
 # locomotive's name
+STR_AGV_NAME                                        :[DTS] AGV
 STR_AREX_NAME                                       :[DTS] AREX series 2000 EMU5
 STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] DEL7600
@@ -62,6 +63,7 @@ STR_PARAM_world_NAME                                :No World type trains allowe
 STR_PARAM_world_DESC                                :Please check when using World type trains. (Default: unused)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
+STR_REFIT_ADDITIONAL_AGV                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_AREX                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}AREX
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}DEL7600

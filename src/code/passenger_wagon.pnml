@@ -2,10 +2,10 @@
 1층 공통객차
 --------------------------------------------------------------------*/
 // Graphics
-#include "graphic/passenger_wagon_graphic.pnml"
+#include "Graphic/Passenger_wagon_graphic.pnml"
 
 // Switch
-#include "switch/passenger_wagon_switch.pnml"
+#include "Switch/Passenger_wagon_switch.pnml"
 
 
 /*--------------------------------------------------------------------

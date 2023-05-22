@@ -40,7 +40,6 @@ STR_PARAM_High_SPEED_Train_NAME                     :High Speed Train Speed
 STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the high-speed train (Default:331km/h)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
-STR_REFIT_ADDITIONAL_AGV                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}BB15000
 STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable

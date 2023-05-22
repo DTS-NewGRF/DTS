@@ -1,11 +1,12 @@
 //wagon
-#include "code/passenger_wagon.pnml"
+#include "Code/passenger_wagon.pnml"
 #include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
 #include "wagon/Generatar_Car/Generatar_Car.pnml"
 #include "wagon/Luggage_Car/Luggage_Car.pnml"
 #include "wagon/CTX_Freight_Car/CTX_Freight_Car.pnml"
 
 //locomotive
+#include "Code/AGV.pnml"
 #include "locomotive/AREX/AREX.pnml"
 #include "locomotive/Bicheuro_DUPLEX/Bicheuro2.pnml"
 #include "locomotive/CTX/CTX.pnml"
@@ -36,13 +37,13 @@
 // Sorting
 #include "sort.pnml"
 
-//disabe_train disable_item(FEAT_TRAINS, 2002); //APEX20005
+//disabe_train
 if (Chinese) {
 
     }
 
 if (European) {
-
+    disable_item(FEAT_TRAINS, 2001); //AGV
     }
 
 if (Japanese) {

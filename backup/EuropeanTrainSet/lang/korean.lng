@@ -7,7 +7,6 @@ STR_GRF_DESC                                        :{BLACK}유럽열차세트�
 STR_GRF_URL                                         :https://github.com/GBLINER/EuropeanTrainSet
 
 # locomotive's name
-STR_AGV_NAME                                        :[ETS] AGV (이탈로)
 STR_BB15000_NAME                                    :[ETS] SNCF BB15000
 STR_Eurostar_E300_NAME                              :[ETS] 유로스타 E300
 STR_Eurostar_E320_NAME                              :[ETS] 유로스타 E320
@@ -40,7 +39,6 @@ STR_PARAM_High_SPEED_Train_NAME                     :고속열차 속도변수
 STR_PARAM_High_SPEED_Train_DESC                     :고속열차의 속도를 조정합니다. (기본:331km/h)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
-STR_REFIT_ADDITIONAL_AGV                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}BB15000
 STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능

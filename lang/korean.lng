@@ -7,6 +7,7 @@ STR_GRF_DESC                                        :파생형 열차 세트 입
 STR_GRF_URL                                         :https://github.com/DTS-NewGRF/DTS/releases
 
 # locomotive's name
+STR_AGV_NAME                                        :[DTS] AGV
 STR_AREX_NAME                                       :[DTS] AREX (공항철도)
 STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] DEL7600
@@ -19,7 +20,7 @@ STR_GT26CW_NAME                                     :[DTS] 7100·7200·7300·740
 STR_GTX_NAME                                        :[DTS] GTX
 STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X (해무)
 STR_HSR_350X_NAME                                   :[DTS] HSR-350X
-STR_ICE_CW_NAME                                     :[DTS] ITX-청춘 Max
+STR_ICE_CW_NAME                                     :[DTS] ITX-초월
 STR_ITX_SM2_NAME                                    :[DTS] ITX-새마을 Max
 STR_KTX_SC_NAME                                     :[DTS] KTX-산천
 STR_KTX_SC2_NAME                                    :[DTS] KTX-DD
@@ -62,6 +63,7 @@ STR_PARAM_world_NAME                                :세계형 열차 사용금�
 STR_PARAM_world_DESC                                :세계형 열차를 사용시 체크하세요. (기본:미사용)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
+STR_REFIT_ADDITIONAL_AGV                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{RED}불가능
 STR_REFIT_ADDITIONAL_AREX                           :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2025년부터 운행될 인천국제공항철도 AREX 통근형 2세대 전동차.
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}KTX-산천을 기반으로한 화물 KTX 열차가 양산되었다는 컨셉을 가진 열차.
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}DEL7600의 A-train 신도색을 적용한 차량입니다.
