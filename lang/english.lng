@@ -9,6 +9,7 @@ STR_GRF_URL                                         :https://github.com/MEGB-New
 # locomotive's name
 STR_AGV_NAME                                        :[DTS] AGV
 STR_AREX_NAME                                       :[DTS] AREX series 2000 EMU5
+
 STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] DEL7600
 STR_EMU150_NAME                                     :[DTS] EMU-150
@@ -65,6 +66,7 @@ STR_PARAM_world_DESC                                :Please check when using Wor
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_AGV                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_AREX                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}AREX
+
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}DEL7600
 STR_REFIT_ADDITIONAL_EMU150                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
@@ -98,6 +100,7 @@ STR_REFIT_train_configuration_CTX                   :{BLACK}train configuration:
 # Liveries
 STR_REFIT_LIVERY_AREX_Normal                        :(Normal Color)
 STR_REFIT_LIVERY_AREX_Company_Color                 :(Company Color)
+
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX Freight Only Wine Livery)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX Passenger-Freight Wine Livery)
 STR_REFIT_LIVERY_EMU150R_1F                         :(EMU-150 1F Red Color)

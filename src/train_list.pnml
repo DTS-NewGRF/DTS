@@ -7,7 +7,7 @@
 
 //locomotive
 #include "Code/AGV.pnml"
-#include "locomotive/AREX/AREX.pnml"
+#include "Code/AREX.pnml"
 #include "locomotive/Bicheuro_DUPLEX/Bicheuro2.pnml"
 #include "locomotive/CTX/CTX.pnml"
 #include "locomotive/DEL7600/DEL7600.pnml"
@@ -51,7 +51,7 @@ if (Japanese) {
     }
 
 if (Korea) {
-
+    disable_item(FEAT_TRAINS, 2002); //AGV
     }
 
 if (world) {

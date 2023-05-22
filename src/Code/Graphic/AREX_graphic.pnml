@@ -1,57 +1,57 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_AREX_purchase, "src/locomotive/AREX/AREX.png"){
+spriteset(set_AREX_purchase, "src/Graphic/AREX/AREX.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. APEX20005
 --------------------------------------------------------------------*/
-spriteset(set_AREXH_purchase, "src/locomotive/AREX/AREX.png"){
+spriteset(set_AREXH_purchase, "src/Graphic/AREX/AREX.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_AREX_engineH, "src/locomotive/AREX/AREX.png"){
+spriteset(set_AREX_engineH, "src/Graphic/AREX/AREX.png"){
     engine(80, 0)
 }
 
-spriteset(set_AREX_panto_wagon, "src/locomotive/AREX/AREX.png"){
+spriteset(set_AREX_panto_wagon, "src/Graphic/AREX/AREX.png"){
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_AREX_wagon, "src/locomotive/AREX/AREX.png") {
+spriteset(set_AREX_wagon, "src/Graphic/AREX/AREX.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_AREX_panto_wagon_r, "src/locomotive/AREX/AREX.png"){
+spriteset(set_AREX_panto_wagon_r, "src/Graphic/AREX/AREX.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_AREX_engineT, "src/locomotive/AREX/AREX.png"){
+spriteset(set_AREX_engineT, "src/Graphic/AREX/AREX.png"){
     engine_r(80, 108)
 }
 
 /*--------------------------------------------------------------------
 2. APEX20005 회사색상
 --------------------------------------------------------------------*/
-spriteset(set_AREX_Compay_engineH, "src/locomotive/AREX/AREX_Company_Color.png"){
+spriteset(set_AREX_Compay_engineH, "src/Graphic/AREX/AREX_Company_Color.png"){
     engine(80, 0)
 }
 
-spriteset(set_AREX_Compay_panto_wagon, "src/locomotive/AREX/AREX_Company_Color.png"){
+spriteset(set_AREX_Compay_panto_wagon, "src/Graphic/AREX/AREX_Company_Color.png"){
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_AREX_Compay_wagon, "src/locomotive/AREX/AREX_Company_Color.png") {
+spriteset(set_AREX_Compay_wagon, "src/Graphic/AREX/AREX_Company_Color.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_AREX_Compay_panto_wagon_r, "src/locomotive/AREX/AREX_Company_Color.png"){
+spriteset(set_AREX_Compay_panto_wagon_r, "src/Graphic/AREX/AREX_Company_Color.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_AREX_Compay_engineT, "src/locomotive/AREX/AREX_Company_Color.png"){
+spriteset(set_AREX_Compay_engineT, "src/Graphic/AREX/AREX_Company_Color.png"){
     engine_r(80, 108)
 }
 
