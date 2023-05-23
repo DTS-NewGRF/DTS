@@ -2,17 +2,17 @@
 MTR Cammall
 --------------------------------------------------------------------*/
 // Graphics
-#include "Cammall_AC_graphic.pnml"
+#include "Graphic/Cammall_AC_graphic.pnml"
 
 // Switch
-#include "Cammall_AC_switch.pnml"
+#include "Switch/Cammall_AC_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, MTR_AC_Cammall, 1024){
+item(FEAT_TRAINS, Cammall_AC, 2008){
     property {
-        name:                           string(STR_MTR_AC_Cammall_NAME);
+        name:                           string(STR_Cammall_AC_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1979, 1, 1);
         track_type:                     ELRL;
@@ -50,18 +50,19 @@ item(FEAT_TRAINS, MTR_AC_Cammall, 1024){
         }
 
 	graphics {
-        default:                        sw_MTR_AC_Cammall_engine;
-        purchase:                       sw_MTR_AC_Cammall_purchase;
+        default:                        sw_Cammall_AC_engine;
+        purchase:                       sw_MTR_Cammall_AC_purchase;
+        speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_MTR_AC_Cammall_wagon_attach;
-        start_stop:                     sw_CTS_train_start_stop_3;
-        additional_text:                string(STR_REFIT_ADDITIONAL_MTR_Cammall_AC);
+        can_attach_wagon:               sw_Cammall_AC_wagon_attach;
+        start_stop:                     sw_DST_train_start_stop_3;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Cammall_AC);
         }
 
-    livery_override(CTS_Passenger_Car) {
-        default:                        sw_MTR_AC_Cammall_wagon;
+    livery_override(DTS_Passenger_Car) {
+        default:                        sw_Cammall_AC_wagon;
         cargo_capacity:                 80;
         loading_speed:                  25;
         running_cost_factor:            100;
