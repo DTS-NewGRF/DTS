@@ -2,15 +2,15 @@
 CRH1
 --------------------------------------------------------------------*/
 // Graphics
-#include "CRH1_graphic.pnml"
+#include "Graphic/CRH1_graphic.pnml"
 
 // Switch
-#include "CRH1_switch.pnml"
+#include "Switch/CRH1_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CRH1, 1016){
+item(FEAT_TRAINS, CRH1, 2012){
     property {
         name:                           string(STR_CRH1_NAME);
         climates_available:             ALL_CLIMATES;
@@ -56,12 +56,13 @@ item(FEAT_TRAINS, CRH1, 1016){
         cost_factor:                    10;
         running_cost_factor:            150;
         can_attach_wagon:               sw_CRH1_wagon_attach;
-        start_stop:                     sw_CTS_train_start_stop_6;
+        cargo_subtype_text:             sw_CRH1_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_CRH1);
         }
         
-    livery_override(CTS_Passenger_Car) {
+    livery_override(DTS_Passenger_Car) {
         default:                        sw_CRH1_wagon;
+        cargo_subtype_text:             sw_CRH1_cargo_subtype_text;
         cargo_capacity:                 101;
         loading_speed:                  25;
         running_cost_factor:            150;

@@ -17,38 +17,39 @@ STR_Cammall_AC_NAME                                 :[DTS] 메트로카멜 교�
 STR_Cammall_DC_NAME                                 :[DTS] 메트로카멜 직류형 전동차
 STR_CNR_Changchun_NAME                              :[DTS] CNR 창춘 전동차
 STR_CR400_NAME                                      :[DTS] CR400
+STR_CRH1_NAME                                       :[DTS] CRH1
 
-STR_CTX_NAME                                        :[DTS] CTX
-STR_DEL7600_NAME                                    :[DTS] DEL7600
-STR_EMU150_NAME                                     :[DTS] ITX-새마을 (EMU-150)
-STR_EMU260_NAME                                     :[DTS] KTX-이음 (EMU-260)
-STR_EMU260_DD_NAME                                  :[DTS] KTX-이음 Max (EMU-260)
-STR_EMU320_NAME                                     :[DTS] KTX-이음 (EMU-320)
-STR_EMU320_DD_NAME                                  :[DTS] KTX-이음 Max (EMU-320)
-STR_GT26CW_NAME                                     :[DTS] 7100·7200·7300·7400·7500호대 디젤기관차
-STR_GTX_NAME                                        :[DTS] GTX
-STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X (해무)
-STR_HSR_350X_NAME                                   :[DTS] HSR-350X
-STR_ICE_CW_NAME                                     :[DTS] ITX-초월
-STR_ITX_SM2_NAME                                    :[DTS] ITX-새마을 Max
-STR_KTX_SC_NAME                                     :[DTS] KTX-산천
-STR_KTX_SC2_NAME                                    :[DTS] KTX-DD
-STR_NRT2_NAME                                       :[DTS] 누리로 Max
-STR_Bicheuro2_NAME                                  :[DTS] ITX-새마을 Max (EMU-150)
-STR_H2_WJ_NAME                                      :[DTS] 우진산전 수소연료전지동차
-STR_Travel_8500_NAME                                :[DTS] 8500호대 전기기관차
-STR_TTX_NAME                                        :[DTS] 한빛 200 (TTX)
-STR_VHST_600X_NAME                                  :[DTS] VHST-600X
+STR_CTX_NAME                                        :[임시추가] CTX
+STR_DEL7600_NAME                                    :[임시추가] DEL7600
+STR_EMU150_NAME                                     :[임시추가] ITX-새마을 (EMU-150)
+STR_EMU260_NAME                                     :[임시추가] KTX-이음 (EMU-260)
+STR_EMU260_DD_NAME                                  :[임시추가] KTX-이음 Max (EMU-260)
+STR_EMU320_NAME                                     :[임시추가] KTX-이음 (EMU-320)
+STR_EMU320_DD_NAME                                  :[임시추가] KTX-이음 Max (EMU-320)
+STR_GT26CW_NAME                                     :[임시추가] 7100·7200·7300·7400·7500호대 디젤기관차
+STR_GTX_NAME                                        :[임시추가] GTX
+STR_HEMU_430X_NAME                                  :[임시추가] HEMU-430X (해무)
+STR_HSR_350X_NAME                                   :[임시추가] HSR-350X
+STR_ICE_CW_NAME                                     :[임시추가] ITX-초월
+STR_ITX_SM2_NAME                                    :[임시추가] ITX-새마을 Max
+STR_KTX_SC_NAME                                     :[임시추가] KTX-산천
+STR_KTX_SC2_NAME                                    :[임시추가] KTX-DD
+STR_NRT2_NAME                                       :[임시추가] 누리로 Max
+STR_Bicheuro2_NAME                                  :[임시추가] ITX-새마을 Max (EMU-150)
+STR_H2_WJ_NAME                                      :[임시추가] 우진산전 수소연료전지동차
+STR_Travel_8500_NAME                                :[임시추가] 8500호대 전기기관차
+STR_TTX_NAME                                        :[임시추가] 한빛 200 (TTX)
+STR_VHST_600X_NAME                                  :[임시추가] VHST-600X
 
 # Metro's name
-STR_Standard_Metro_NAME                             :[DTS] 한국형 표준전동차
+STR_Standard_Metro_NAME                             :[임시추가] 한국형 표준전동차
 
 # wagon's name
 STR_DTS_PASS_NAME                                   :[DTS] 승객 수송 차량
 STR_DTS_SPASS_NAME                                  :[DTS] 객차형 승객 수송 차량
-STR_Generatar_Car_NAME                              :[DTS] 발전차
-STR_Luggage_Car_NAME                                :[DTS] 수화물차
-STR_CTX_Freight_Car_NAME                            :[DTS] CTX용 화물 수송 차량
+STR_Generatar_Car_NAME                              :[임시추가] 발전차
+STR_Luggage_Car_NAME                                :[임시추가] 수화물차
+STR_CTX_Freight_Car_NAME                            :[임시추가] CTX용 화물 수송 차량
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                    :지하철&통근열차 속도변수
@@ -85,6 +86,7 @@ STR_REFIT_ADDITIONAL_Cammall_AC                     :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_Cammall_DC                     :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_CNR_Changchun                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_CR400                          :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}CR400
+STR_REFIT_ADDITIONAL_CRH1                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}CRH1
 
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}KTX-산천을 기반으로한 화물 KTX 열차가 양산되었다는 컨셉을 가진 열차.
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}DEL7600의 A-train 신도색을 적용한 차량입니다.
@@ -138,6 +140,9 @@ STR_REFIT_LIVERY_CR400BF_A_B_G                      :(CR400BF)
 STR_REFIT_LIVERY_CR400BF_C                          :(CR400BF C 일반 도색)
 STR_REFIT_LIVERY_CR400BF_C_O                        :(CR400BF C 2022 베이징동계올림픽 도색)
 STR_REFIT_LIVERY_CR400BF_Z_BZ_GZ                    :(CR400BF Z)
+STR_REFIT_LIVERY_CRH1                               :(CRH1 A)
+STR_REFIT_LIVERY_CRH1A_A                            :(CRH1 A-A)
+STR_REFIT_LIVERY_CRH1E                              :(CRH1 E)
 
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX 화물전용 와인도색)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX 여객-화물복합 와인도색)

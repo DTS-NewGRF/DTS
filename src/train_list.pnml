@@ -16,6 +16,7 @@
 #include "Code/Cammall_DC.pnml"
 #include "Code/CNR_Changchun.pnml"
 #include "Code/CR400.pnml"
+#include "Code/CRH1.pnml"
 
 #include "locomotive/Bicheuro_DUPLEX/Bicheuro2.pnml"
 #include "locomotive/CTX/CTX.pnml"
@@ -48,6 +49,7 @@
 //disabe_train
 if (Chinese) {
     disable_item(FEAT_TRAINS, 2011); //CR400
+    disable_item(FEAT_TRAINS, 2012); //CRH1
     }
 
 if (Hong_Kong) {

@@ -7,7 +7,6 @@ STR_GRF_DESC                                     :{BLACK}중국열차세트는 �
 STR_GRF_URL                                      :https://github.com/GBLINER/ChineseTrainSet
 
 # locomotive's name
-STR_CRH1_NAME                                       :[CTS] CRH1A
 STR_CRH1E_NAME                                      :[CTS] CRH1E
 STR_CRH1A_A_NAME                                    :[CTS] CRH1A-A
 STR_CRH2_NAME                                       :[CTS] CRH2A·B
@@ -33,7 +32,6 @@ STR_Generatar_Car_NAME                              :[CTS] 발전차
 STR_Luggage_Car_NAME                                :[CTS] 수화물차
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
-STR_REFIT_ADDITIONAL_CRH1                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1
 STR_REFIT_ADDITIONAL_CRH1E                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1E
 STR_REFIT_ADDITIONAL_CRH1A_A                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1A-A
 STR_REFIT_ADDITIONAL_CRH2                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH2A·B

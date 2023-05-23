@@ -17,6 +17,7 @@ STR_Cammall_AC_NAME                                 :[DTS] Cammall AC Train
 STR_Cammall_DC_NAME                                 :[DTS] Cammall DC Train
 STR_CNR_Changchun_NAME                              :[DTS] CNR Changchun Trian
 STR_CR400_NAME                                      :[DTS] CR400
+STR_CRH1_NAME                                       :[DTS] CRH1
 
 STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] DEL7600
@@ -85,6 +86,7 @@ STR_REFIT_ADDITIONAL_Cammall_AC                     :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_Cammall_DC                     :{BLACK}Changing model/livery: {GREEN}vailable {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_CNR_Changchun                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_CR400                          :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}CR400
+STR_REFIT_ADDITIONAL_CRH1                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}CRH1
 
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}DEL7600
@@ -138,6 +140,9 @@ STR_REFIT_LIVERY_CR400BF_A_B_G                      :(CR400BF)
 STR_REFIT_LIVERY_CR400BF_C                          :(CR400BF C Golden Phoenix Livery)
 STR_REFIT_LIVERY_CR400BF_C_O                        :(CR400BF C Beijing 2022 Winter Olympics Livery)
 STR_REFIT_LIVERY_CR400BF_Z_BZ_GZ                    :(CR400BF Z)
+STR_REFIT_LIVERY_CRH1                               :(CRH1 A)
+STR_REFIT_LIVERY_CRH1A_A                            :(CRH1 A-A)
+STR_REFIT_LIVERY_CRH1E                              :(CRH1 E)
 
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX Freight Only Wine Livery)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX Passenger-Freight Wine Livery)

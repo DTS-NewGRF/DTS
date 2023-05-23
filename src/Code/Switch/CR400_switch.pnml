@@ -27,6 +27,7 @@ switch(FEAT_TRAINS, SELF, sw_CR400_engineT, cargo_subtype) {
     5: set_CR400BF_Z_engineT;   // CR400BF_Z
     set_CR400AF_engineT;
 }
+
 switch(FEAT_TRAINS, SELF, sw_CR400_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
     1: sw_CR400_engineT;
     sw_CR400_engineH;

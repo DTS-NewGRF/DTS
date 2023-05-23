@@ -12,6 +12,7 @@ sort(FEAT_TRAINS, [
     Cammall_DC,                //2009
     CNR_Changchun,             //2010
     CR400,                     //2011
+    CRH1,                      //2012
 
     HSR_350X,                  //1069
     TTX,                       //1134
