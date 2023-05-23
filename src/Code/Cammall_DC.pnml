@@ -1,18 +1,18 @@
 /*--------------------------------------------------------------------
-MTR CNR Changchun
+MTR Cammall
 --------------------------------------------------------------------*/
 // Graphics
-#include "CNR_Changchun_graphic.pnml"
+#include "Graphic/Cammall_DC_graphic.pnml"
 
 // Switch
-#include "CNR_Changchun_switch.pnml"
+#include "Switch/Cammall_DC_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, MTR_CNR_Changchun, 1026){
+item(FEAT_TRAINS, Cammall_DC, 2009){
     property {
-        name:                           string(STR_MTR_CNR_Changchun_NAME);
+        name:                           string(STR_Cammall_DC_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1979, 1, 1);
         track_type:                     ELRL;
@@ -50,20 +50,21 @@ item(FEAT_TRAINS, MTR_CNR_Changchun, 1026){
         }
 
 	graphics {
-        default:                        sw_MTR_CNR_Changchun_engine;
-        purchase:                       sw_MTR_CNR_Changchun_purchase;
+        default:                        sw_Cammall_DC_engine;
+        purchase:                       sw_Cammall_DC_purchase;
+        speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_MTR_CNR_Changchun_wagon_attach;
-        cargo_subtype_text:             sw_MTR_CNR_Changchun_cargo_subtype_text;
-        start_stop:                     sw_CTS_train_start_stop_3;
-        additional_text:                string(STR_REFIT_ADDITIONAL_MTR_CNR_Changchun);
+        can_attach_wagon:               sw_Cammall_DC_wagon_attach;
+        cargo_subtype_text:             sw_Cammall_DC_cargo_subtype_text;
+        start_stop:                     sw_DST_train_start_stop_3;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Cammall_DC);
         }
 
-    livery_override(CTS_Passenger_Car) {
-        default:                        sw_MTR_CNR_Changchun_wagon;
-        cargo_subtype_text:             sw_MTR_CNR_Changchun_cargo_subtype_text;
+    livery_override(DTS_Passenger_Car) {
+        default:                        sw_Cammall_DC_wagon;
+        cargo_subtype_text:             sw_Cammall_DC_cargo_subtype_text;
         cargo_capacity:                 80;
         loading_speed:                  25;
         running_cost_factor:            100;
