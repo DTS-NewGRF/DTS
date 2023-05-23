@@ -21,6 +21,7 @@ STR_CRH1_NAME                                       :[DTS] CRH1
 STR_CRH380A_NAME                                    :[CTS] CRH380A
 STR_CRH380AJ_NAME                                   :[CTS] CRH380AJ
 STR_CRH380D_NAME                                    :[DTS] CRH380D
+STR_CRRC_NAME                                       :[DTS] CRRC Trian
 
 STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] DEL7600
@@ -93,6 +94,7 @@ STR_REFIT_ADDITIONAL_CRH1                           :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_CRH380A                        :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}CRH380A
 STR_REFIT_ADDITIONAL_CRH380AJ                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_CRH380D                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}CRH380D
+STR_REFIT_ADDITIONAL_CRRC                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
 
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}DEL7600
@@ -151,6 +153,8 @@ STR_REFIT_LIVERY_CRH1A_A                            :(CRH1 A-A)
 STR_REFIT_LIVERY_CRH1E                              :(CRH1 E)
 STR_REFIT_LIVERY_CRH380A                            :(CRH380A)
 STR_REFIT_LIVERY_Vibrant_Express                    :(Vibrant Express)
+STR_REFIT_LIVERY_CRRC_Changchun                     :(Changchun Train)
+STR_REFIT_LIVERY_CRRC_Sipang                        :(Sipang Train)
 
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX Freight Only Wine Livery)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX Passenger-Freight Wine Livery)

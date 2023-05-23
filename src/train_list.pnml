@@ -20,6 +20,7 @@
 #include "Code/CRH380A.pnml"
 #include "Code/CRH380AJ.pnml"
 #include "Code/CRH380D.pnml"
+#include "Code/CRRC.pnml"
 
 #include "locomotive/Bicheuro_DUPLEX/Bicheuro2.pnml"
 #include "locomotive/CTX/CTX.pnml"
@@ -63,6 +64,7 @@ if (Hong_Kong) {
     disable_item(FEAT_TRAINS, 2008); //Cammall_AC
     disable_item(FEAT_TRAINS, 2009); //Cammall_DC
     disable_item(FEAT_TRAINS, 2010); //CNR_Changchun
+    disable_item(FEAT_TRAINS, 2016); //CRRC
     }
 
 if (European) {

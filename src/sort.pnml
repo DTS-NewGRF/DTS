@@ -16,6 +16,7 @@ sort(FEAT_TRAINS, [
     CRH380A,                   //2013
     CRH380AJ,                  //2014
     CRH380D,                   //2015
+    CRRC,                      //2016
 
     HSR_350X,                  //1069
     TTX,                       //1134

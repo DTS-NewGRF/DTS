@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CRRC_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_CRRC_Sipang);  // CRRC 쓰팡
+    return string(STR_REFIT_LIVERY_CRRC_Changchun);
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRRC_engineH, cargo_subtype) {
+    1: set_CRRC_Sipan_engineH;   // CRRC 쓰팡
+    set_CRRC_Changchun_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRRC_engineT, cargo_subtype) {
+    1: set_CRRC_Sipan_engineT;   // CRRC 쓰팡
+    set_CRRC_Changchun_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRRC_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_CRRC_engineT;
+    sw_CRRC_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRRC_panto_wagon, cargo_subtype) {
+    1: set_CRRC_Sipan_panto_wagon;   // CRRC 쓰팡
+    set_CRRC_Changchun_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRRC_wagon_front, cargo_subtype) {
+    1: set_CRRC_Sipan_wagon; // CRRC 쓰팡
+    set_CRRC_Changchun_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRRC_wagon_tail, cargo_subtype) {
+    1: set_CRRC_Sipan_wagon_r;   // CRRC 쓰팡
+    set_CRRC_Changchun_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRRC_panto_wagon_r, cargo_subtype) {
+    1: set_CRRC_Sipan_panto_wagon_r; // CRRC 쓰팡
+    set_CRRC_Changchun_panto_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRRC_wagon_middle, (position_in_consist)) {
+    1: sw_CRRC_wagon_tail;
+    sw_CRRC_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRRC_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    CRRC: sw_CRRC_panto_wagon_r;
+    sw_CRRC_wagon_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRRC_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    CRRC: sw_CRRC_panto_wagon;
+    sw_CRRC_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRRC_wagon_attach, vehicle_type_id) {
+    CRRC:                    return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

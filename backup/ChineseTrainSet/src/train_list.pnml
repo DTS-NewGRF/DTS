@@ -14,7 +14,6 @@
 #include "locomotive/NJ2/NJ2.pnml"
 
 //Metro
-#include "metro/MTR/CRRC/CRRC.pnml"
 #include "metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.pnml"
 #include "metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.pnml"
 #include "metro/MTR/IKK_SP_1900/IKK_SP_1900.pnml"

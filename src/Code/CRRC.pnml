@@ -2,17 +2,17 @@
 MTR CRRC Sipang
 --------------------------------------------------------------------*/
 // Graphics
-#include "CRRC_graphic.pnml"
+#include "Graphic/CRRC_graphic.pnml"
 
 // Switch
-#include "CRRC_switch.pnml"
+#include "Switch/CRRC_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, MTR_CRRC, 1027){
+item(FEAT_TRAINS, CRRC, 2016){
     property {
-        name:                           string(STR_MTR_CRRC_NAME);
+        name:                           string(STR_CRRC_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1979, 1, 1);
         track_type:                     ELRL;
@@ -50,20 +50,21 @@ item(FEAT_TRAINS, MTR_CRRC, 1027){
         }
 
 	graphics {
-        default:                        sw_MTR_CRRC_engine;
-        purchase:                       sw_MTR_CRRC_purchase;
+        default:                        sw_CRRC_engine;
+        purchase:                       sw_CRRC_purchase;
+        speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:					10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_MTR_CRRC_wagon_attach;
-        cargo_subtype_text:             sw_MTR_CRRC_cargo_subtype_text;
-        start_stop:                     sw_CTS_train_start_stop_3;
-        additional_text:                string(STR_REFIT_ADDITIONAL_MTR_CRRC);
+        can_attach_wagon:               sw_CRRC_wagon_attach;
+        cargo_subtype_text:             sw_CRRC_cargo_subtype_text;
+        start_stop:                     sw_DST_train_start_stop_3;
+        additional_text:                string(STR_REFIT_ADDITIONAL_CRRC);
         }
 
-    livery_override(CTS_Passenger_Car) {
-        default:                        sw_MTR_CRRC_wagon;
-        cargo_subtype_text:             sw_MTR_CRRC_cargo_subtype_text;
+    livery_override(DTS_Passenger_Car) {
+        default:                        sw_CRRC_wagon;
+        cargo_subtype_text:             sw_CRRC_cargo_subtype_text;
         cargo_capacity:                 80;
         loading_speed:                  25;
         running_cost_factor:            100;

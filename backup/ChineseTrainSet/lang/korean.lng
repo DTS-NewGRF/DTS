@@ -18,7 +18,6 @@ STR_HXD3C_NAME                                      :[CTS] HXD3C
 STR_NJ2_NAME                                        :[CTS] NJ2
 
 # Metro's name
-STR_MTR_CRRC_NAME                                   :[CTS] 홍콩 MTR CRRC 전동차
 STR_MTR_Hyundai_Rotem_Mitsubishi_NAME               :[CTS] 홍콩 MTR 현대로템 미쓰비시 전동차
 STR_MTR_Hyundai_Rotem_R_NAME                        :[CTS] 홍콩 MTR 현대로템 R형 전동차
 STR_MTR_IKK_SP_1900_NAME                            :[CTS] 홍콩 MTR IKK SP 1900
@@ -36,7 +35,6 @@ STR_REFIT_ADDITIONAL_CRH380B                        :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_CRH380C                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380CL
 STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}HXD3C
 STR_REFIT_ADDITIONAL_NJ2                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}NJ2
-STR_REFIT_ADDITIONAL_MTR_CRRC                       :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
@@ -46,8 +44,6 @@ STR_REFIT_train_configuration_Generatar             :{BLACK}열차구성: {GREEN
 STR_REFIT_train_configuration_Luggage               :{BLACK}열차구성: {GREEN}수화물차용
 
 # Liveries metro
-STR_REFIT_LIVERY_MTR_CRRC_Changchun                 :(MTR CRRC 창춘 전동차)
-STR_REFIT_LIVERY_MTR_CRRC_Sipang                    :(MTR CRRC 쓰팡 전동차)
 STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_Nomal          :(MTR 현대로탬 R형 일반)
 STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_special        :(MTR 현대로탬 R형 특실)
 
