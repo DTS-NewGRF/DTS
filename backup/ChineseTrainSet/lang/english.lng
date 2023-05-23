@@ -12,11 +12,8 @@ STR_CRH1A_A_NAME                                    :[CTS] CRH1A-A
 STR_CRH2_NAME                                       :[CTS] CRH2A·B
 STR_CRH2C_NAME                                      :[CTS] CRH2C
 STR_CRH3_NAME                                       :[CTS] CRH3C
-STR_CRH380A_NAME                                    :[CTS] CRH380A·AL
-STR_CRH380AJ_NAME                                   :[CTS] CRH380AJ
 STR_CRH380B_NAME                                    :[CTS] CRH380B·BL·BG
 STR_CRH380C_NAME                                    :[CTS] CRH380CL
-STR_CRH380D_NAME                                    :[CTS] CRH380D
 STR_HXD3C_NAME                                      :[CTS] HXD3C
 STR_NJ2_NAME                                        :[CTS] NJ2
 
@@ -32,16 +29,11 @@ STR_Generatar_Car_NAME                              :[CTS] Generatar Car
 STR_Luggage_Car_NAME                                :[CTS] Luggage Car
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
-STR_REFIT_ADDITIONAL_CRH1E                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1E
-STR_REFIT_ADDITIONAL_CRH1A_A                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1A-A
 STR_REFIT_ADDITIONAL_CRH2                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH2A·B
 STR_REFIT_ADDITIONAL_CRH2C                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH2C
 STR_REFIT_ADDITIONAL_CRH3                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH3C
-STR_REFIT_ADDITIONAL_CRH380A                        :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}CRH380A·AL
-STR_REFIT_ADDITIONAL_CRH380AJ                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_CRH380B                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380B·BL·BG
 STR_REFIT_ADDITIONAL_CRH380C                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380CL
-STR_REFIT_ADDITIONAL_CRH380D                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380D
 STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HXD3C
 STR_REFIT_ADDITIONAL_NJ2                            :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}NJ2
 STR_REFIT_ADDITIONAL_MTR_CRRC                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
@@ -52,10 +44,6 @@ STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                :{BLACK}Changing model/liver
 STR_REFIT_train_configuration_SPassenger            :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
 STR_REFIT_train_configuration_Generatar             :{BLACK}train configuration: {GREEN}Generatar vehicles
 STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
-
-# Liveries
-STR_REFIT_LIVERY_CRH380A                            :(CRH380A)
-STR_REFIT_LIVERY_Vibrant_Express                    :(Vibrant Express)
 
 # Liveries metro
 STR_REFIT_LIVERY_MTR_CRRC_Changchun                 :(MTR CRRC Changchun Train)

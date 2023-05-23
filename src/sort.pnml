@@ -13,6 +13,9 @@ sort(FEAT_TRAINS, [
     CNR_Changchun,             //2010
     CR400,                     //2011
     CRH1,                      //2012
+    CRH380A,                   //2013
+    CRH380AJ,                  //2014
+    CRH380D,                   //2015
 
     HSR_350X,                  //1069
     TTX,                       //1134

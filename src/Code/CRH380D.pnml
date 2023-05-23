@@ -1,20 +1,20 @@
 /*--------------------------------------------------------------------
-CRH380A Test
+ZEFIRO380
 --------------------------------------------------------------------*/
 // Graphics
-#include "CR380AJ_graphic.pnml"
+#include "Graphic/CRH380D_graphic.pnml"
 
 // Switch
-#include "CR380AJ_switch.pnml"
+#include "Switch/CRH380D_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CRH380AJ, 1019){
+item(FEAT_TRAINS, CRH380D, 2015){
     property {
-        name:                           string(STR_CRH380AJ_NAME);
+        name:                           string(STR_CRH380D_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2017, 1, 1);
+        introduction_date:              date(2014, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -25,6 +25,7 @@ item(FEAT_TRAINS, CRH380AJ, 1019){
         power:                          8000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -33,7 +34,7 @@ item(FEAT_TRAINS, CRH380AJ, 1019){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 0;
+        cargo_capacity:                 54;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -41,26 +42,28 @@ item(FEAT_TRAINS, CRH380AJ, 1019){
         
         //Costs
         refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_NONE;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
         misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
         }
-        
-    graphics {
-        default:                        sw_CRH380AJ_engine;
-        purchase:                       sw_CRH380AJ_purchase;
+
+	graphics {
+        default:                        sw_CRH380D_engine;
+        purchase:                       sw_CRH380D_purchase;
+        speed:                          High_Speed_Train;
+        loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_CRH380AJ_wagon_attach;
-        start_stop:                     sw_CTS_train_start_stop_6;
-        additional_text:                string(STR_REFIT_ADDITIONAL_CRH380AJ);
+        can_attach_wagon:               sw_CRH380D_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_CRH380D);
         }
-        
-    livery_override(CTS_Passenger_Car) {
-        default:                        sw_CRH380AJ_wagon;
-        cargo_capacity:                 0;
-        running_cost_factor:            0;
+
+    livery_override(DTS_Passenger_Car) {
+        default:                        sw_CRH380D_wagon;
+        cargo_capacity:                 90;
+        loading_speed:                  25;
+        running_cost_factor:            150;
         }
         }

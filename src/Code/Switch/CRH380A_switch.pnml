@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CRH380A_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Vibrant_Express);   // Red
+    return string(STR_REFIT_LIVERY_CRH380A);
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_engineH, cargo_subtype) {
+    1: set_Vibrant_Express_engineH;   // Red
+    set_CRH380A_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_engineT, cargo_subtype) {
+    1: set_Vibrant_Express_engineT;   // Red
+    set_CRH380A_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_CRH380A_engineT;
+    sw_CRH380A_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_panto_wagon, cargo_subtype) {
+    1: set_Vibrant_Express_panto_wagon;   // Red
+    set_CRH380A_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_wagon_front, cargo_subtype) {
+    1: set_Vibrant_Express_wagon;   // Red
+    set_CRH380A_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_wagon_tail, cargo_subtype) {
+    1: set_Vibrant_Express_wagon_r;   // Red
+    set_CRH380A_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_panto_wagon_r, cargo_subtype) {
+    1: set_Vibrant_Express_panto_wagon_r;   // Red
+    set_CRH380A_panto_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_wagon_middle, (position_in_consist)) {
+    1: sw_CRH380A_wagon_tail;
+    sw_CRH380A_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    CRH380A: sw_CRH380A_panto_wagon_r;
+    sw_CRH380A_wagon_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    CRH380A: sw_CRH380A_panto_wagon;
+    sw_CRH380A_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CRH380A_wagon_attach, vehicle_type_id) {
+    CRH380A:                 return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

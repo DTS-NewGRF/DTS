@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_CRH380D_purchase, "src/Graphic/CRH380D.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+CRH380D
+--------------------------------------------------------------------*/
+spriteset(set_CRH380DH_purchase, "src/Graphic/CRH380D.png"){
+    tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_CRH380D_engineH, "src/Graphic/CRH380D.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CRH380D_panto_wagon, "src/Graphic/CRH380D.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_CRH380D_wagon, "src/Graphic/CRH380D.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_CRH380D_wagon_r, "src/Graphic/CRH380D.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_CRH380D_panto_wagon_r, "src/Graphic/CRH380D.png"){
+    wagon_start(80, 81)
+}
+
+spriteset(set_CRH380D_engineT, "src/Graphic/CRH380D.png"){
+    engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CRH380D_purchase, cargo_subtype) {
+    set_CRH380D_purchase;
+}

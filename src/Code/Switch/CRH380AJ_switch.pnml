@@ -12,16 +12,16 @@ switch(FEAT_TRAINS, SELF, sw_CRH380AJ_wagon_middle, (position_in_consist)) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_CRH380AJ_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    CRH380AJ: set_CRH380AJ_wagon_end;
+    CRH380AJ: set_CRH380AJ_panto_wagon_r;
     sw_CRH380AJ_wagon_middle;
 }
 
 switch(FEAT_TRAINS, SELF, sw_CRH380AJ_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    CRH380AJ: set_CRH380AJ_wagon_start;
+    CRH380AJ: set_CRH380AJ_panto_wagon;
     sw_CRH380AJ_wagon_rear;
 }
 
 switch(FEAT_TRAINS, SELF, sw_CRH380AJ_wagon_attach, vehicle_type_id) {
-    CTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

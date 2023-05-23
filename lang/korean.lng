@@ -18,6 +18,9 @@ STR_Cammall_DC_NAME                                 :[DTS] 메트로카멜 직�
 STR_CNR_Changchun_NAME                              :[DTS] CNR 창춘 전동차
 STR_CR400_NAME                                      :[DTS] CR400
 STR_CRH1_NAME                                       :[DTS] CRH1
+STR_CRH380A_NAME                                    :[DTS] CRH380A
+STR_CRH380AJ_NAME                                   :[DTS] CRH380AJ
+STR_CRH380D_NAME                                    :[DTS] CRH380D
 
 STR_CTX_NAME                                        :[임시추가] CTX
 STR_DEL7600_NAME                                    :[임시추가] DEL7600
@@ -87,6 +90,9 @@ STR_REFIT_ADDITIONAL_Cammall_DC                     :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_CNR_Changchun                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_CR400                          :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}CR400
 STR_REFIT_ADDITIONAL_CRH1                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}CRH1
+STR_REFIT_ADDITIONAL_CRH380A                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}CRH380A
+STR_REFIT_ADDITIONAL_CRH380AJ                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_CRH380D                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}CRH380D
 
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}KTX-산천을 기반으로한 화물 KTX 열차가 양산되었다는 컨셉을 가진 열차.
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}DEL7600의 A-train 신도색을 적용한 차량입니다.
@@ -143,6 +149,8 @@ STR_REFIT_LIVERY_CR400BF_Z_BZ_GZ                    :(CR400BF Z)
 STR_REFIT_LIVERY_CRH1                               :(CRH1 A)
 STR_REFIT_LIVERY_CRH1A_A                            :(CRH1 A-A)
 STR_REFIT_LIVERY_CRH1E                              :(CRH1 E)
+STR_REFIT_LIVERY_CRH380A                            :(CRH380A)
+STR_REFIT_LIVERY_Vibrant_Express                    :(바이브런트 익스프레스)
 
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX 화물전용 와인도색)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX 여객-화물복합 와인도색)

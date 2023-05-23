@@ -17,6 +17,9 @@
 #include "Code/CNR_Changchun.pnml"
 #include "Code/CR400.pnml"
 #include "Code/CRH1.pnml"
+#include "Code/CRH380A.pnml"
+#include "Code/CRH380AJ.pnml"
+#include "Code/CRH380D.pnml"
 
 #include "locomotive/Bicheuro_DUPLEX/Bicheuro2.pnml"
 #include "locomotive/CTX/CTX.pnml"
@@ -50,6 +53,9 @@
 if (Chinese) {
     disable_item(FEAT_TRAINS, 2011); //CR400
     disable_item(FEAT_TRAINS, 2012); //CRH1
+    disable_item(FEAT_TRAINS, 2013); //CRH380A
+    disable_item(FEAT_TRAINS, 2014); //CRH380AJ
+    disable_item(FEAT_TRAINS, 2015); //CRH380D
     }
 
 if (Hong_Kong) {
