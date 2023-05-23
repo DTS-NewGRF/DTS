@@ -4,8 +4,8 @@
 /*--------------------------------------------------------------------
 편성정보
 --------------------------------------------------------------------*/
-//최소 4량이상 편성
-switch(FEAT_TRAINS, SELF, sw_DST_train_start_stop_4, num_vehs_in_consist >= 4) {
+//최소 3량이상 편성
+switch(FEAT_TRAINS, SELF, sw_DST_train_start_stop_3, num_vehs_in_consist >= 3) {
     1: return CB_RESULT_NO_TEXT;
     return string(STR_ERROR_NOT_ENOUGH_LENGTH4);
 }

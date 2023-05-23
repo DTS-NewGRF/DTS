@@ -66,6 +66,15 @@ param {
     }
 
 param {
+    Hong_Kong {
+        type: bool;
+        name: string(STR_PARAM_Hong_Kong_NAME);
+        desc: string(STR_PARAM_Hong_Kong_DESC);
+        def_value: 1;
+        }
+    }
+
+param {
     European {
         type: bool;
         name: string(STR_PARAM_European_NAME);

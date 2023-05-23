@@ -10,7 +10,7 @@ Avelia_Liberty
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Avelia_Liberty, 2003){
+item(FEAT_TRAINS, Avelia_Liberty, 2004){
     property {
         name:                           string(STR_Avelia_Liberty_NAME);
         climates_available:             ALL_CLIMATES;

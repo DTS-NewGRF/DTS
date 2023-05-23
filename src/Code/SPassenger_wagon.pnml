@@ -10,7 +10,7 @@
 /*--------------------------------------------------------------------
 객차형 승객 차량
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, DTS_SPassenger_Car, 2006){
+item (FEAT_TRAINS, DTS_SPassenger_Car, 2007){
     property {
         name:                           string(STR_DTS_SPASS_NAME);
         climates_available:             ALL_CLIMATES;

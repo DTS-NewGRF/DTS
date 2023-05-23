@@ -25,7 +25,6 @@
 #include "locomotive/NJ2/NJ2.pnml"
 
 //Metro
-#include "metro/MTR/AD_Tranz_CAF_A/AD_Tranz_CAF_A.pnml"
 #include "metro/MTR/Cammall_AC/Cammall_AC.pnml"
 #include "metro/MTR/Cammall_DC/Cammall_DC.pnml"
 #include "metro/MTR/CNR_Changchun/CNR_Changchun.pnml"
@@ -33,6 +32,3 @@
 #include "metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.pnml"
 #include "metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.pnml"
 #include "metro/MTR/IKK_SP_1900/IKK_SP_1900.pnml"
-
-// Sorting
-#include "sort.pnml"

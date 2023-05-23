@@ -12,6 +12,7 @@ STR_AREX_NAME                                       :[DTS] AREX (공항철도)
 STR_Avelia_Liberty_NAME                             :[DTS] 아벨리아 리버티
 STR_AUTS_NAME                                       :[DTS] AUTS
 STR_BB15000_NAME                                    :[DTS] BB15000
+STR_AD_Tranz_CAF_A_NAME                             :[DTS] AD Tranz CAF A형
 
 STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] DEL7600
@@ -58,6 +59,8 @@ STR_PARAM_High_SPEED_Train_430_NAME                 :고속열차 속도변수 (
 STR_PARAM_High_SPEED_Train_430_DESC                 :고속열차의 속도를 조정합니다. (기본:430km/h)
 STR_PARAM_Chinese_NAME                              :중국형 열차 사용 여부
 STR_PARAM_Chinese_DESC                              :중국형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Hong_Kong_NAME                            :홍콩형 열차 사용 여부
+STR_PARAM_Hong_Kong_DESC                            :홍콩형 열차를 사용시 체크하세요. (기본:미사용)
 STR_PARAM_European_NAME                             :유럽형 열차 사용 여부
 STR_PARAM_European_DESC                             :유럽형 열차를 사용시 체크하세요. (기본:미사용)
 STR_PARAM_Japanese_NAME                             :일본형 열차 사용 여부
@@ -73,6 +76,7 @@ STR_REFIT_ADDITIONAL_AREX                           :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_Avelia_Liberty                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}BB15000
+STR_REFIT_ADDITIONAL_AD_Tranz_CAF_A                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
 
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}KTX-산천을 기반으로한 화물 KTX 열차가 양산되었다는 컨셉을 가진 열차.
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}DEL7600의 A-train 신도색을 적용한 차량입니다.
@@ -113,6 +117,8 @@ STR_REFIT_LIVERY_European_Type_1nd_Passenger_Car    :(유럽형 1등석)
 STR_REFIT_LIVERY_European_Type_2nd_Passenger_Car    :(유럽형 2등석)
 STR_REFIT_LIVERY_European_Type_Bar_Passenger_Car    :(유럽형 식당칸)
 STR_REFIT_LIVERY_European_Type_HF_Passenger_Car     :(유럽형 1/2 1,2등석)
+STR_REFIT_LIVERY_AD_Tranz_CAF_A_Airport_Express     :(Airport Express)
+STR_REFIT_LIVERY_AD_Tranz_CAF_A_Tung_Chung          :(Tung Chung)
 
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX 화물전용 와인도색)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX 여객-화물복합 와인도색)

@@ -2,11 +2,13 @@
 정렬
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
-    AGV,                       //2001
-    APEX20005,                 //2002
-    Avelia_Liberty,            //2003
-    AUTS,                      //2004
-    BB15000,                   //2005
+    AD_Tranz_CAF_A,            //2001
+    AGV,                       //2002
+    APEX20005,                 //2003
+    Avelia_Liberty,            //2004
+    AUTS,                      //2005
+    BB15000,                   //2006
+
     HSR_350X,                  //1069
     TTX,                       //1134
     HEMU_430X,                 //1068
@@ -31,7 +33,7 @@ sort(FEAT_TRAINS, [
     DEL7600,                   //1148
     
     DTS_Passenger_Car,         //2000
-    DTS_SPassenger_Car,        //2006
+    DTS_SPassenger_Car,        //2007
     Generatar_Car,             //1120
     Luggage_Car,               //1119
     CTX_Freight_Car,           //1133

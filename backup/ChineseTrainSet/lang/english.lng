@@ -27,7 +27,6 @@ STR_HXD3C_NAME                                      :[CTS] HXD3C
 STR_NJ2_NAME                                        :[CTS] NJ2
 
 # Metro's name
-STR_MTR_AD_Tranz_CAF_A_NAME                         :[CTS] MTR AD Tranz CAF A Type
 STR_MTR_AC_Cammall_NAME                             :[CTS] MTR Cammall AC Train
 STR_MTR_DC_Cammall_NAME                             :[CTS] MTR Cammall DC Train
 STR_MTR_CNR_Changchun_NAME                          :[CTS] MTR CNR Changchun Trian
@@ -60,7 +59,6 @@ STR_REFIT_ADDITIONAL_CR400BF_C                      :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_CR400BF_Z                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CR400BF-Z·BZ·GZ
 STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HXD3C
 STR_REFIT_ADDITIONAL_NJ2                            :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}NJ2
-STR_REFIT_ADDITIONAL_MTR_AD_Tranz_CAF_A             :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_MTR_Cammall_AC                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_MTR_Cammall_DC                 :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_MTR_CNR_Changchun              :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
@@ -80,8 +78,6 @@ STR_REFIT_LIVERY_CR400BF_C                          :(Golden Phoenix Livery)
 STR_REFIT_LIVERY_CR400BF_C_O                        :(Beijing 2022 Winter Olympics Livery)
 
 # Liveries metro
-STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express :(MTR AD Tranz CAF A Type Airport Express)
-STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung      :(MTR AD Tranz CAF A Type Tung Chung)
 STR_REFIT_LIVERY_MTR_DC_Cammall                     :(no remoding Car)
 STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding            :(remoding Car)
 STR_REFIT_LIVERY_MTR_DC_Cammall_Disney              :(Disney Car)
