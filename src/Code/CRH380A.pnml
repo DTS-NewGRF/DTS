@@ -2,15 +2,15 @@
 CRH380A
 --------------------------------------------------------------------*/
 // Graphics
-#include "CRH380A_graphic.pnml"
+#include "Graphic/CRH380A_graphic.pnml"
 
 // Switch
-#include "CRH380A_switch.pnml"
+#include "Switch/CRH380A_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CRH380A, 1018){
+item(FEAT_TRAINS, CRH380A, 2013){
     property {
         name:                           string(STR_CRH380A_NAME);
         climates_available:             ALL_CLIMATES;
@@ -52,16 +52,16 @@ item(FEAT_TRAINS, CRH380A, 1018){
     graphics {
         default:                        sw_CRH380A_engine;
         purchase:                       sw_CRH380A_purchase;
+        speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         can_attach_wagon:               sw_CRH380A_wagon_attach;
         cargo_subtype_text:             sw_CRH380A_cargo_subtype_text;
-        start_stop:                     sw_CTS_train_start_stop_6;
         additional_text:                string(STR_REFIT_ADDITIONAL_CRH380A);
         }
         
-    livery_override(CTS_Passenger_Car) {
+    livery_override(DTS_Passenger_Car) {
         default:                        sw_CRH380A_wagon;
         cargo_subtype_text:             sw_CRH380A_cargo_subtype_text;
         cargo_capacity:                 85;
