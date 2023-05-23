@@ -1,0 +1,90 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CR400_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_CR400AF_Z_BZ_C);  // CR400AF_Z
+    2: return string(STR_REFIT_LIVERY_CR400BF_A_B_G);   // CR400BF
+    3: return string(STR_REFIT_LIVERY_CR400BF_C);       // CR400BF_C
+    4: return string(STR_REFIT_LIVERY_CR400BF_C_O);     // CR400BF_C_O
+    5: return string(STR_REFIT_LIVERY_CR400BF_Z_BZ_GZ); // CR400BF_Z
+    return string(STR_REFIT_LIVERY_CR400AF_A_B_G);
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400_engineH, cargo_subtype) {
+    1: set_CR400AF_Z_engineH;   // CR400AF_Z
+    2: set_CR400BF_engineH;     // CR400BF
+    3: set_CR400BF_C_engineH;   // CR400BF_C
+    4: set_CR400BF_C_O_engineH; // CR400BF_C_O
+    5: set_CR400BF_Z_engineH;   // CR400BF_Z
+    set_CR400AF_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400_engineT, cargo_subtype) {
+    1: set_CR400AF_Z_engineT;   // CR400AF_Z
+    2: set_CR400BF_engineT;     // CR400BF
+    3: set_CR400BF_C_engineT;   // CR400BF_C
+    4: set_CR400BF_C_O_engineT; // CR400BF_C_O
+    5: set_CR400BF_Z_engineT;   // CR400BF_Z
+    set_CR400AF_engineT;
+}
+switch(FEAT_TRAINS, SELF, sw_CR400_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_CR400_engineT;
+    sw_CR400_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400_panto_wagon, cargo_subtype) {
+    1: set_CR400AF_Z_panto_wagon;   // CR400AF_Z
+    2: set_CR400BF_panto_wagon;     // CR400BF
+    3: set_CR400BF_C_panto_wagon;   // CR400BF_C
+    4: set_CR400BF_C_O_panto_wagon; // CR400BF_C_O
+    5: set_CR400BF_Z_panto_wagon;   // CR400BF_Z
+    set_CR400AF_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400_wagon_front, cargo_subtype) {
+    1: set_CR400AF_Z_wagon;   // CR400AF_Z
+    2: set_CR400BF_wagon;     // CR400BF
+    3: set_CR400BF_C_wagon;   // CR400BF_C
+    4: set_CR400BF_C_O_wagon; // CR400BF_C_O
+    5: set_CR400BF_Z_wagon;   // CR400BF_Z
+    set_CR400AF_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400_wagon_tail, cargo_subtype) {
+    1: set_CR400AF_Z_wagon_r;   // CR400AF_Z
+    2: set_CR400BF_wagon_r;     // CR400BF
+    3: set_CR400BF_C_wagon_r;   // CR400BF_C
+    4: set_CR400BF_C_O_wagon_r; // CR400BF_C_O
+    5: set_CR400BF_Z_wagon_r;   // CR400BF_Z
+    set_CR400AF_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400_panto_wagon_r, cargo_subtype) {
+    1: set_CR400AF_Z_panto_wagon_r;   // CR400AF_Z
+    2: set_CR400BF_panto_wagon_r;     // CR400BF
+    3: set_CR400BF_C_panto_wagon_r;   // CR400BF_C
+    4: set_CR400BF_C_O_panto_wagon_r; // CR400BF_C_O
+    5: set_CR400BF_Z_panto_wagon_r;   // CR400BF_Z
+    set_CR400AF_panto_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400_wagon_middle, (position_in_consist)) {
+    1: sw_CR400_wagon_tail;
+    sw_CR400_wagon_front;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400_wagon_rear, [STORE_TEMP(2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    CR400: sw_CR400_panto_wagon_r;
+    sw_CR400_wagon_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400_wagon, [STORE_TEMP(-2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    CR400: sw_CR400_panto_wagon;
+    sw_CR400_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CR400_wagon_attach, vehicle_type_id) {
+    CR400:                   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

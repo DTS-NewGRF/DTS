@@ -8,6 +8,10 @@ sort(FEAT_TRAINS, [
     Avelia_Liberty,            //2004
     AUTS,                      //2005
     BB15000,                   //2006
+    Cammall_AC,                //2008
+    Cammall_DC,                //2009
+    CNR_Changchun,             //2010
+    CR400,                     //2011
 
     HSR_350X,                  //1069
     TTX,                       //1134

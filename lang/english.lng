@@ -13,6 +13,10 @@ STR_Avelia_Liberty_NAME                             :[DTS] Avelia Liberty
 STR_AUTS_NAME                                       :[DTS] AUTS
 STR_BB15000_NAME                                    :[DTS] BB15000
 STR_AD_Tranz_CAF_A_NAME                             :[DTS] AD Tranz CAF A Type
+STR_Cammall_AC_NAME                                 :[DTS] Cammall AC Train
+STR_Cammall_DC_NAME                                 :[DTS] Cammall DC Train
+STR_CNR_Changchun_NAME                              :[DTS] CNR Changchun Trian
+STR_CR400_NAME                                      :[DTS] CR400
 
 STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] DEL7600
@@ -77,6 +81,10 @@ STR_REFIT_ADDITIONAL_Avelia_Liberty                 :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}BB15000
 STR_REFIT_ADDITIONAL_AD_Tranz_CAF_A                 :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Cammall_AC                     :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Cammall_DC                     :{BLACK}Changing model/livery: {GREEN}vailable {}{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_CNR_Changchun                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_CR400                          :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}CR400
 
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}DEL7600
@@ -119,6 +127,17 @@ STR_REFIT_LIVERY_European_Type_Bar_Passenger_Car    :(European type Bar Livery)
 STR_REFIT_LIVERY_European_Type_HF_Passenger_Car     :(European type 1/2 1,2nd Livery)
 STR_REFIT_LIVERY_AD_Tranz_CAF_A_Airport_Express     :(Airport Express)
 STR_REFIT_LIVERY_AD_Tranz_CAF_A_Tung_Chung          :(Tung Chung)
+STR_REFIT_LIVERY_Cammall_DC                         :(no remoding Car)
+STR_REFIT_LIVERY_Cammall_DC_Remoding                :(remoding Car)
+STR_REFIT_LIVERY_Cammall_DC_Disney                  :(Disney Car)
+STR_REFIT_LIVERY_CNR_Changchun                      :(CNR Changchun)
+STR_REFIT_LIVERY_CNR_Changchun_South_Island         :(South Island)
+STR_REFIT_LIVERY_CR400AF_A_B_G                      :(CR400AF)
+STR_REFIT_LIVERY_CR400AF_Z_BZ_C                     :(CR400AF Z)
+STR_REFIT_LIVERY_CR400BF_A_B_G                      :(CR400BF)
+STR_REFIT_LIVERY_CR400BF_C                          :(CR400BF C Golden Phoenix Livery)
+STR_REFIT_LIVERY_CR400BF_C_O                        :(CR400BF C Beijing 2022 Winter Olympics Livery)
+STR_REFIT_LIVERY_CR400BF_Z_BZ_GZ                    :(CR400BF Z)
 
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX Freight Only Wine Livery)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX Passenger-Freight Wine Livery)

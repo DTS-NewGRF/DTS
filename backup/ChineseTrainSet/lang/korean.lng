@@ -18,18 +18,10 @@ STR_CRH380AJ_NAME                                   :[CTS] CRH380AJ
 STR_CRH380B_NAME                                    :[CTS] CRH380B·BL·BG
 STR_CRH380C_NAME                                    :[CTS] CRH380CL
 STR_CRH380D_NAME                                    :[CTS] CRH380D
-STR_CR400AF_NAME                                    :[CTS] CR400AF-A·B·G
-STR_CR400AF_Z_NAME                                  :[CTS] CR400AF-Z·BZ·C
-STR_CR400BF_NAME                                    :[CTS] CR400BF-A·B·G
-STR_CR400BF_C_NAME                                  :[CTS] CR400BF-C
-STR_CR400BF_Z_NAME                                  :[CTS] CR400BF-Z·BZ·GZ
 STR_HXD3C_NAME                                      :[CTS] HXD3C
 STR_NJ2_NAME                                        :[CTS] NJ2
 
 # Metro's name
-STR_MTR_AC_Cammall_NAME                             :[CTS] 홍콩 MTR 메트로카멜 교류형 전동차
-STR_MTR_DC_Cammall_NAME                             :[CTS] 홍콩 MTR 메트로카멜 직류형 전동차
-STR_MTR_CNR_Changchun_NAME                          :[CTS] 홍콩 MTR CNR 창춘 전동차
 STR_MTR_CRRC_NAME                                   :[CTS] 홍콩 MTR CRRC 전동차
 STR_MTR_Hyundai_Rotem_Mitsubishi_NAME               :[CTS] 홍콩 MTR 현대로템 미쓰비시 전동차
 STR_MTR_Hyundai_Rotem_R_NAME                        :[CTS] 홍콩 MTR 현대로템 R형 전동차
@@ -52,16 +44,8 @@ STR_REFIT_ADDITIONAL_CRH380AJ                       :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_CRH380B                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380B·BL·BG
 STR_REFIT_ADDITIONAL_CRH380C                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380CL
 STR_REFIT_ADDITIONAL_CRH380D                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380D
-STR_REFIT_ADDITIONAL_CR400AF                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CR400AF-A·B·G
-STR_REFIT_ADDITIONAL_CR400AF_Z                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CR400AF-Z·BZ·C
-STR_REFIT_ADDITIONAL_CR400BF                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CR400BF-A·B·G
-STR_REFIT_ADDITIONAL_CR400BF_C                      :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}CR400BF-C
-STR_REFIT_ADDITIONAL_CR400BF_Z                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CR400BF-Z·BZ·GZ
 STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}HXD3C
 STR_REFIT_ADDITIONAL_NJ2                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}NJ2
-STR_REFIT_ADDITIONAL_MTR_Cammall_AC                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_Cammall_DC                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_CNR_Changchun              :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_MTR_CRRC                       :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
@@ -74,15 +58,8 @@ STR_REFIT_train_configuration_Luggage               :{BLACK}열차구성: {GREEN
 # Liveries locomotive
 STR_REFIT_LIVERY_CRH380A                            :(CRH380A)
 STR_REFIT_LIVERY_Vibrant_Express                    :(바이브런트 익스프레스)
-STR_REFIT_LIVERY_CR400BF_C                          :(일반 도색)
-STR_REFIT_LIVERY_CR400BF_C_O                        :(2022 베이징동계올림픽 도색)
 
 # Liveries metro
-STR_REFIT_LIVERY_MTR_DC_Cammall                     :(미개조형)
-STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding            :(개조형)
-STR_REFIT_LIVERY_MTR_DC_Cammall_Disney              :(디즈니선)
-STR_REFIT_LIVERY_MTR_CNR_Changchun                  :(MTR CNR 창춘 전동차)
-STR_REFIT_LIVERY_MTR_CNR_Changchun_South_Island     :(MTR CNR 창춘 남부섬선)
 STR_REFIT_LIVERY_MTR_CRRC_Changchun                 :(MTR CRRC 창춘 전동차)
 STR_REFIT_LIVERY_MTR_CRRC_Sipang                    :(MTR CRRC 쓰팡 전동차)
 STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_Nomal          :(MTR 현대로탬 R형 일반)

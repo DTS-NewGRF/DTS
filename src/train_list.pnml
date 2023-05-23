@@ -12,6 +12,11 @@
 #include "Code/Avelia_Liberty.pnml"
 #include "Code/AUTS.pnml"
 #include "Code/BB15000.pnml"
+#include "Code/Cammall_AC.pnml"
+#include "Code/Cammall_DC.pnml"
+#include "Code/CNR_Changchun.pnml"
+#include "Code/CR400.pnml"
+
 #include "locomotive/Bicheuro_DUPLEX/Bicheuro2.pnml"
 #include "locomotive/CTX/CTX.pnml"
 #include "locomotive/DEL7600/DEL7600.pnml"
@@ -42,11 +47,14 @@
 
 //disabe_train
 if (Chinese) {
-
+    disable_item(FEAT_TRAINS, 2011); //CR400
     }
 
 if (Hong_Kong) {
     disable_item(FEAT_TRAINS, 2001); //AD_Tranz_CAF_A
+    disable_item(FEAT_TRAINS, 2008); //Cammall_AC
+    disable_item(FEAT_TRAINS, 2009); //Cammall_DC
+    disable_item(FEAT_TRAINS, 2010); //CNR_Changchun
     }
 
 if (European) {

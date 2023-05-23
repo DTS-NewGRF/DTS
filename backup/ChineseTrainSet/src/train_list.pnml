@@ -16,18 +16,10 @@
 #include "locomotive/CRH380C/CRH380C.pnml"
 #include "locomotive/CRH380D/CRH380D.pnml"
 #include "locomotive/CR380AJ/CR380AJ.pnml"
-#include "locomotive/CR400AF/CR400AF.pnml"
-#include "locomotive/CR400AF_Z/CR400AF_Z.pnml"
-#include "locomotive/CR400BF/CR400BF.pnml"
-#include "locomotive/CR400BF_C/CR400BF_C.pnml"
-#include "locomotive/CR400BF_Z/CR400BF_Z.pnml"
 #include "locomotive/HXD3C/HXD3C.pnml"
 #include "locomotive/NJ2/NJ2.pnml"
 
 //Metro
-#include "metro/MTR/Cammall_AC/Cammall_AC.pnml"
-#include "metro/MTR/Cammall_DC/Cammall_DC.pnml"
-#include "metro/MTR/CNR_Changchun/CNR_Changchun.pnml"
 #include "metro/MTR/CRRC/CRRC.pnml"
 #include "metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.pnml"
 #include "metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.pnml"

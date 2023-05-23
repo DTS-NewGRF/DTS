@@ -13,6 +13,10 @@ STR_Avelia_Liberty_NAME                             :[DTS] 아벨리아 리버�
 STR_AUTS_NAME                                       :[DTS] AUTS
 STR_BB15000_NAME                                    :[DTS] BB15000
 STR_AD_Tranz_CAF_A_NAME                             :[DTS] AD Tranz CAF A형
+STR_Cammall_AC_NAME                                 :[DTS] 메트로카멜 교류형 전동차
+STR_Cammall_DC_NAME                                 :[DTS] 메트로카멜 직류형 전동차
+STR_CNR_Changchun_NAME                              :[DTS] CNR 창춘 전동차
+STR_CR400_NAME                                      :[DTS] CR400
 
 STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] DEL7600
@@ -77,6 +81,10 @@ STR_REFIT_ADDITIONAL_Avelia_Liberty                 :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}BB15000
 STR_REFIT_ADDITIONAL_AD_Tranz_CAF_A                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Cammall_AC                     :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Cammall_DC                     :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_CNR_Changchun                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_CR400                          :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}CR400
 
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}KTX-산천을 기반으로한 화물 KTX 열차가 양산되었다는 컨셉을 가진 열차.
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}DEL7600의 A-train 신도색을 적용한 차량입니다.
@@ -119,6 +127,17 @@ STR_REFIT_LIVERY_European_Type_Bar_Passenger_Car    :(유럽형 식당칸)
 STR_REFIT_LIVERY_European_Type_HF_Passenger_Car     :(유럽형 1/2 1,2등석)
 STR_REFIT_LIVERY_AD_Tranz_CAF_A_Airport_Express     :(Airport Express)
 STR_REFIT_LIVERY_AD_Tranz_CAF_A_Tung_Chung          :(Tung Chung)
+STR_REFIT_LIVERY_Cammall_DC                         :(미개조형)
+STR_REFIT_LIVERY_Cammall_DC_Remoding                :(개조형)
+STR_REFIT_LIVERY_Cammall_DC_Disney                  :(디즈니선)
+STR_REFIT_LIVERY_CNR_Changchun                      :(창춘 전동차)
+STR_REFIT_LIVERY_CNR_Changchun_South_Island         :(남부섬선)
+STR_REFIT_LIVERY_CR400AF_A_B_G                      :(CR400AF)
+STR_REFIT_LIVERY_CR400AF_Z_BZ_C                     :(CR400AF Z)
+STR_REFIT_LIVERY_CR400BF_A_B_G                      :(CR400BF)
+STR_REFIT_LIVERY_CR400BF_C                          :(CR400BF C 일반 도색)
+STR_REFIT_LIVERY_CR400BF_C_O                        :(CR400BF C 2022 베이징동계올림픽 도색)
+STR_REFIT_LIVERY_CR400BF_Z_BZ_GZ                    :(CR400BF Z)
 
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX 화물전용 와인도색)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX 여객-화물복합 와인도색)

@@ -18,18 +18,10 @@ STR_CRH380AJ_NAME                                   :[CTS] CRH380AJ
 STR_CRH380B_NAME                                    :[CTS] CRH380B·BL·BG
 STR_CRH380C_NAME                                    :[CTS] CRH380CL
 STR_CRH380D_NAME                                    :[CTS] CRH380D
-STR_CR400AF_NAME                                    :[CTS] CR400AF-A·B·G
-STR_CR400AF_Z_NAME                                  :[CTS] CR400AF-Z·BZ·C
-STR_CR400BF_NAME                                    :[CTS] CR400BF-A·B·G
-STR_CR400BF_C_NAME                                  :[CTS] CR400BF-C
-STR_CR400BF_Z_NAME                                  :[CTS] CR400BF-Z·BZ·GZ
 STR_HXD3C_NAME                                      :[CTS] HXD3C
 STR_NJ2_NAME                                        :[CTS] NJ2
 
 # Metro's name
-STR_MTR_AC_Cammall_NAME                             :[CTS] MTR Cammall AC Train
-STR_MTR_DC_Cammall_NAME                             :[CTS] MTR Cammall DC Train
-STR_MTR_CNR_Changchun_NAME                          :[CTS] MTR CNR Changchun Trian
 STR_MTR_CRRC_NAME                                   :[CTS] MTR CRRC Trian
 STR_MTR_Hyundai_Rotem_Mitsubishi_NAME               :[CTS] MTR Hyundai Rotem Mitsubishi Trian
 STR_MTR_Hyundai_Rotem_R_NAME                        :[CTS] MTR Hyundai Rotem R Type Train
@@ -52,16 +44,8 @@ STR_REFIT_ADDITIONAL_CRH380AJ                       :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_CRH380B                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380B·BL·BG
 STR_REFIT_ADDITIONAL_CRH380C                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380CL
 STR_REFIT_ADDITIONAL_CRH380D                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380D
-STR_REFIT_ADDITIONAL_CR400AF                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CR400AF-A·B·G
-STR_REFIT_ADDITIONAL_CR400AF_Z                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CR400AF-Z·BZ·C
-STR_REFIT_ADDITIONAL_CR400BF                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CR400BF-A·B·G
-STR_REFIT_ADDITIONAL_CR400BF_C                      :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}CR400BF-C
-STR_REFIT_ADDITIONAL_CR400BF_Z                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CR400BF-Z·BZ·GZ
 STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HXD3C
 STR_REFIT_ADDITIONAL_NJ2                            :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}NJ2
-STR_REFIT_ADDITIONAL_MTR_Cammall_AC                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_MTR_Cammall_DC                 :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_MTR_CNR_Changchun              :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_MTR_CRRC                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
@@ -74,15 +58,8 @@ STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration:
 # Liveries
 STR_REFIT_LIVERY_CRH380A                            :(CRH380A)
 STR_REFIT_LIVERY_Vibrant_Express                    :(Vibrant Express)
-STR_REFIT_LIVERY_CR400BF_C                          :(Golden Phoenix Livery)
-STR_REFIT_LIVERY_CR400BF_C_O                        :(Beijing 2022 Winter Olympics Livery)
 
 # Liveries metro
-STR_REFIT_LIVERY_MTR_DC_Cammall                     :(no remoding Car)
-STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding            :(remoding Car)
-STR_REFIT_LIVERY_MTR_DC_Cammall_Disney              :(Disney Car)
-STR_REFIT_LIVERY_MTR_CNR_Changchun                  :(MTR CNR Changchun)
-STR_REFIT_LIVERY_MTR_CNR_Changchun_South_Island     :(MTR CNR Changchun South Island)
 STR_REFIT_LIVERY_MTR_CRRC_Changchun                 :(MTR CRRC Changchun Train)
 STR_REFIT_LIVERY_MTR_CRRC_Sipang                    :(MTR CRRC Sipang Train)
 STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_Nomal          :(MTR Hyundai Rotem R Type Nomal)
