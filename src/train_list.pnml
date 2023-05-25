@@ -1,9 +1,10 @@
 //wagon
 #include "Code/Passenger_wagon/passenger_wagon.pnml"
 #include "Code/SPassenger_wagon/SPassenger_wagon.pnml"
+#include "Code/CTX_Freight_Car/CTX_Freight_Car.pnml"
+
 #include "wagon/Generatar_Car/Generatar_Car.pnml"
 #include "wagon/Luggage_Car/Luggage_Car.pnml"
-#include "wagon/CTX_Freight_Car/CTX_Freight_Car.pnml"
 
 //locomotive
 #include "Code/AD_Tranz_CAF_A/AD_Tranz_CAF_A.pnml"
@@ -21,10 +22,10 @@
 #include "Code/CRH380AJ/CRH380AJ.pnml"
 #include "Code/CRH380D/CRH380D.pnml"
 #include "Code/CRRC/CRRC.pnml"
+#include "Code/CTX/CTX.pnml"
+#include "Code/DEL7600/DEL7600.pnml"
 
 #include "locomotive/Bicheuro_DUPLEX/Bicheuro2.pnml"
-#include "locomotive/CTX/CTX.pnml"
-#include "locomotive/DEL7600/DEL7600.pnml"
 #include "locomotive/EMU/EMU150/EMU150.pnml"
 #include "locomotive/EMU/EMU260/EMU260.pnml"
 #include "locomotive/EMU/EMU260_DD/EMU260_DD.pnml"
@@ -79,6 +80,8 @@ if (Japanese) {
 if (Korea) {
     disable_item(FEAT_TRAINS, 2003); //APEX20005
     disable_item(FEAT_TRAINS, 2004); //AUTS
+    disable_item(FEAT_TRAINS, 2017); //CTX
+    disable_item(FEAT_TRAINS, 2018); //CTX
     }
 
 if (world) {

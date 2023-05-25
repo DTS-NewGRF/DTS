@@ -10,7 +10,7 @@ GT26CW
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DEL7600, 1148){
+item(FEAT_TRAINS, DEL7600, 2019){
     property {
         name:                           string(STR_DEL7600_NAME);
         climates_available:             ALL_CLIMATES;

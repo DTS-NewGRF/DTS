@@ -1,11 +1,11 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_DEL7600_purchase, "src/locomotive/DEL7600/DEL7600.png"){
+spriteset(set_DEL7600_purchase, "src/Graphic/DEL7600.png"){
     tmpl_single_purchase(0, 0)
 }
 
-spriteset(set_DEL7600_engine, "src/locomotive/DEL7600/DEL7600.png"){
+spriteset(set_DEL7600_engine, "src/Graphic/DEL7600.png"){
     engine(80, 0)
 }
 

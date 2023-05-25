@@ -22,9 +22,9 @@ STR_CRH380A_NAME                                    :[DTS] CRH380A
 STR_CRH380AJ_NAME                                   :[DTS] CRH380AJ
 STR_CRH380D_NAME                                    :[DTS] CRH380D
 STR_CRRC_NAME                                       :[DTS] CRRC 전동차
+STR_CTX_NAME                                        :[DTS] CTX
+STR_DEL7600_NAME                                    :[DTS] 7600형 기관차
 
-STR_CTX_NAME                                        :[임시추가] CTX
-STR_DEL7600_NAME                                    :[임시추가] DEL7600
 STR_EMU150_NAME                                     :[임시추가] ITX-새마을 (EMU-150)
 STR_EMU260_NAME                                     :[임시추가] KTX-이음 (EMU-260)
 STR_EMU260_DD_NAME                                  :[임시추가] KTX-이음 Max (EMU-260)
@@ -51,9 +51,10 @@ STR_Standard_Metro_NAME                             :[임시추가] 한국형 �
 # wagon's name
 STR_DTS_PASS_NAME                                   :[DTS] 승객 수송 차량
 STR_DTS_SPASS_NAME                                  :[DTS] 객차형 승객 수송 차량
+STR_CTX_Freight_Car_NAME                            :[DTS] CTX용 화물 수송 차량
+
 STR_Generatar_Car_NAME                              :[임시추가] 발전차
 STR_Luggage_Car_NAME                                :[임시추가] 수화물차
-STR_CTX_Freight_Car_NAME                            :[임시추가] CTX용 화물 수송 차량
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                    :지하철&통근열차 속도변수
@@ -95,9 +96,9 @@ STR_REFIT_ADDITIONAL_CRH380A                        :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_CRH380AJ                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_CRH380D                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}CRH380D
 STR_REFIT_ADDITIONAL_CRRC                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_CTX                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}CTX, [DTS]KTX-Sancheon, KTX-Sancheon 2F
+STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}DEL7600
 
-STR_REFIT_ADDITIONAL_CTX                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}KTX-산천을 기반으로한 화물 KTX 열차가 양산되었다는 컨셉을 가진 열차.
-STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}DEL7600의 A-train 신도색을 적용한 차량입니다.
 STR_REFIT_ADDITIONAL_EMU150                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}2023년부터 운행되고 있는 ITX-새마을 2세대 전동차
 STR_REFIT_ADDITIONAL_EMU260                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}EMU-260의 초기 디자인 시안대로 양산되었다는 컨셉을 가진 열차
 STR_REFIT_ADDITIONAL_EMU260_DD                      :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}KTX-이음을 2층으로 확장한 컨셉열차
@@ -121,9 +122,10 @@ STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}도색/모델 변경
 
 STR_REFIT_train_configuration_Passenger             :{BLACK}열차구성: {GREEN}승객 차량용
 STR_REFIT_train_configuration_SPassenger            :{BLACK}열차구성: {GREEN}객차형 승객 차량용
+STR_REFIT_train_configuration_CTX                   :{BLACK}열차구성: {GREEN}CTX용 화물차량
+
 STR_REFIT_train_configuration_Generatar             :{BLACK}열차구성: {GREEN}발전차용
 STR_REFIT_train_configuration_Luggage               :{BLACK}열차구성: {GREEN}수화물차용
-STR_REFIT_train_configuration_CTX                   :{BLACK}열차구성: {GREEN}CTX용 화물차량
 
 # Liveries locomotive
 STR_REFIT_LIVERY_AREX_Normal                        :(기본 도색)
@@ -155,9 +157,9 @@ STR_REFIT_LIVERY_CRH380A                            :(CRH380A)
 STR_REFIT_LIVERY_Vibrant_Express                    :(바이브런트 익스프레스)
 STR_REFIT_LIVERY_CRRC_Changchun                     :(창춘 전동차)
 STR_REFIT_LIVERY_CRRC_Sipang                        :(쓰팡 전동차)
-
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX 화물전용 와인도색)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX 여객-화물복합 와인도색)
+
 STR_REFIT_LIVERY_EMU150R_1F                         :(EMU-150 1층 빨강도색)
 STR_REFIT_LIVERY_EMU150R_2F                         :(EMU-150 2층 빨강도색)
 STR_REFIT_LIVERY_EMU150G_1F                         :(EMU-150 1층 녹색도색)

@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-정렬
+정렬 / 공백 ID : 현 없음.
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
     AD_Tranz_CAF_A,            //2001
@@ -17,6 +17,8 @@ sort(FEAT_TRAINS, [
     CRH380AJ,                  //2014
     CRH380D,                   //2015
     CRRC,                      //2016
+    CTX,                       //2017
+    DEL7600,                   //2019
 
     HSR_350X,                  //1069
     TTX,                       //1134
@@ -27,7 +29,6 @@ sort(FEAT_TRAINS, [
     VHST_600X,                 //1135
     KTX_SC,                    //1131
     KTX_SC2,                   //1074
-    CTX,                       //1132
     EMU320,                    //1065
     EMU320_DD,                 //1073
     EMU260,                    //1064
@@ -39,11 +40,11 @@ sort(FEAT_TRAINS, [
     NRT2,                      //1075
     Travel_8500,               //1121
     GT26CW,                    //1114
-    DEL7600,                   //1148
     
     DTS_Passenger_Car,         //2000
     DTS_SPassenger_Car,        //2007
+    CTX_Freight_Car,           //2018
+    
     Generatar_Car,             //1120
     Luggage_Car,               //1119
-    CTX_Freight_Car,           //1133
     ]);
