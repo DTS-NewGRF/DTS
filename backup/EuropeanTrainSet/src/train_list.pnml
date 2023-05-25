@@ -4,7 +4,6 @@
 #include "wagon/TGV_Poste_wagon/TGV_Poste_wagon.pnml"
 
 //locomotive
-#include "locomotive/Eurostar_E300/Eurostar_E300.pnml"
 #include "locomotive/Eurostar_E320/Eurostar_E320.pnml"
 #include "locomotive/ICE1/ICE1.pnml"
 #include "locomotive/ICE2/ICE2.pnml"
@@ -22,6 +21,3 @@
 #include "locomotive/TGV/TGV_AR/TGV_AR.pnml"
 #include "locomotive/TGV/TGV_La_Poste/TGV_La_Poste.pnml"
 #include "locomotive/TGV/TGV_M/TGV_M.pnml"
-
-// Sorting
-#include "sort.pnml"

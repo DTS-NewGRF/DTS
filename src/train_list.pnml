@@ -26,9 +26,10 @@
 #include "Code/CTX/CTX.pnml"
 #include "Code/DEL7600/DEL7600.pnml"
 #include "Code/DFX/DFX.pnml"
+#include "Code/Eurostar_E300/Eurostar_E300.pnml"
+#include "Code/EMU150/EMU150.pnml"
 
 #include "locomotive/Bicheuro_DUPLEX/Bicheuro2.pnml"
-#include "locomotive/EMU/EMU150/EMU150.pnml"
 #include "locomotive/EMU/EMU260/EMU260.pnml"
 #include "locomotive/EMU/EMU260_DD/EMU260_DD.pnml"
 #include "locomotive/EMU/EMU320/EMU320.pnml"
@@ -73,6 +74,7 @@ if (Hong_Kong) {
 if (European) {
     disable_item(FEAT_TRAINS, 2002); //AGV
     disable_item(FEAT_TRAINS, 2006); //BB15000
+    disable_item(FEAT_TRAINS, 2022); //Eurostar_E300
     }
 
 if (Japanese) {
@@ -85,6 +87,7 @@ if (Korea) {
     disable_item(FEAT_TRAINS, 2017); //CTX
     disable_item(FEAT_TRAINS, 2018); //CTX_Freight_Car
     disable_item(FEAT_TRAINS, 2019); //DEL7600
+    disable_item(FEAT_TRAINS, 2023); //EMU150
     }
 
 if (world) {

@@ -20,6 +20,8 @@ sort(FEAT_TRAINS, [
     CTX,                       //2017
     DEL7600,                   //2019
     DFX,                       //2020
+    Eurostar_E300,             //2022
+    EMU150,                    //2023
 
     HSR_350X,                  //1069
     TTX,                       //1134
@@ -36,7 +38,6 @@ sort(FEAT_TRAINS, [
     EMU260_DD,                 //1072
     ITX_CW,                    //1070
     ITX_SM2,                   //1071
-    EMU150,                    //1063
     Bicheuro2,                 //1117
     NRT2,                      //1075
     Travel_8500,               //1121

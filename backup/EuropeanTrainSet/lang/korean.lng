@@ -7,7 +7,6 @@ STR_GRF_DESC                                        :{BLACK}유럽열차세트�
 STR_GRF_URL                                         :https://github.com/GBLINER/EuropeanTrainSet
 
 # locomotive's name
-STR_Eurostar_E300_NAME                              :[ETS] 유로스타 E300
 STR_Eurostar_E320_NAME                              :[ETS] 유로스타 E320
 STR_ICE1_NAME                                       :[ETS] ICE1
 STR_ICE2_NAME                                       :[ETS] ICE2
@@ -30,7 +29,6 @@ STR_TGV_M_NAME                                      :[ETS] TGV M
 STR_TGV_Poste_wagon_NAME                            :[ETS] TGV 라포스트 화차
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
-STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_ICE1                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}ICE1
 STR_REFIT_ADDITIONAL_ICE2                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE2
@@ -52,8 +50,6 @@ STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}도색/모델 변경
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}열차구성: {GREEN}TGV 라포스트
 
 # Liveries locomotive
-STR_REFIT_LIVERY_Eurostar_E300_Old                  :(유로스타 구도색)
-STR_REFIT_LIVERY_Eurostar_E300_New                  :(유로스타 신도색)
 STR_REFIT_LIVERY_TGV_Duplex                         :(TGV 듀플렉스 블루 & 그레이 도색)
 STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV 듀플렉스 리리아·카밀론 도색)
 STR_REFIT_LIVERY_TGV_OUIGO_Duplex                   :(TGV 듀플렉스 위고 도색)

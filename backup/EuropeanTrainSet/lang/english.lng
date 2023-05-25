@@ -7,7 +7,6 @@ STR_GRF_DESC                                        :{BLACK}The European Train S
 STR_GRF_URL                                         :https://github.com/GBLINER/EuropeanTrainSet
 
 # locomotive's name
-STR_Eurostar_E300_NAME                              :[ETS] Eurostar E300
 STR_Eurostar_E320_NAME                              :[ETS] Eurostar E320
 STR_ICE1_NAME                                       :[ETS] ICE1
 STR_ICE2_NAME                                       :[ETS] ICE2
@@ -30,7 +29,6 @@ STR_TGV_M_NAME                                      :[ETS] TGV M
 STR_TGV_Poste_wagon_NAME                            :[ETS] TGV La Poste Freight Car
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
-STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_ICE1                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}ICE1
 STR_REFIT_ADDITIONAL_ICE2                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE2
@@ -52,8 +50,6 @@ STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}Changing model/liver
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}train configuration: {GREEN}TGV La Poste
 
 # Liveries
-STR_REFIT_LIVERY_Eurostar_E300_Old                  :(Eurostar Old Livery)
-STR_REFIT_LIVERY_Eurostar_E300_New                  :(Eurostar New Livery)
 STR_REFIT_LIVERY_TGV_Duplex                         :(TGV Duplex Blue & Grey Livery)
 STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV Duplex Lyria & Carmillon Livery)
 STR_REFIT_LIVERY_TGV_OUIGO_Duplex                   :(TGV Duplex OUIGO Livery)
