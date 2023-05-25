@@ -26,7 +26,8 @@ STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] 7600형 기관차
 STR_DFX_NAME                                        :[DTS] DFX
 STR_Eurostar_E300_NAME                              :[DTS] 유로스타 E300
-STR_EMU150_NAME                                     :[DTS] EMU-150
+STR_EMU150_NAME                                     :[DTS] 비츠로
+STR_EMU150_2F_NAME                                  :[DTS] 비츠로 2층
 
 STR_EMU260_NAME                                     :[임시추가] KTX-이음 (EMU-260)
 STR_EMU260_DD_NAME                                  :[임시추가] KTX-이음 Max (EMU-260)
@@ -41,7 +42,6 @@ STR_ITX_SM2_NAME                                    :[임시추가] ITX-새마�
 STR_KTX_SC_NAME                                     :[임시추가] KTX-산천
 STR_KTX_SC2_NAME                                    :[임시추가] KTX-DD
 STR_NRT2_NAME                                       :[임시추가] 누리로 Max
-STR_Bicheuro2_NAME                                  :[임시추가] ITX-새마을 Max (EMU-150)
 STR_H2_WJ_NAME                                      :[임시추가] 우진산전 수소연료전지동차
 STR_Travel_8500_NAME                                :[임시추가] 8500호대 전기기관차
 STR_TTX_NAME                                        :[임시추가] 한빛 200 (TTX)
@@ -103,7 +103,8 @@ STR_REFIT_ADDITIONAL_CTX                            :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}DEL7600
 STR_REFIT_ADDITIONAL_DFX                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}DFX
 STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_EMU150                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}EMU-150, EMU-150 2F, EMU-260, EMU-260 2F, EUM-320,EMU-320 2F
+STR_REFIT_ADDITIONAL_EMU150                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 2F, EMU-260, EMU-260 2F, EUM-320,EMU-320 2F
+STR_REFIT_ADDITIONAL_EMU150_2F                      :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 2F, EMU-260, EMU-260 2F, EUM-320,EMU-320 2F
 
 STR_REFIT_ADDITIONAL_EMU260                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}EMU-260의 초기 디자인 시안대로 양산되었다는 컨셉을 가진 열차
 STR_REFIT_ADDITIONAL_EMU260_DD                      :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}KTX-이음을 2층으로 확장한 컨셉열차
@@ -118,7 +119,6 @@ STR_REFIT_ADDITIONAL_ITX_SM2                        :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_KTX_SC                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}KTX-산천의 호남고속선, 경강선 초기 디자인 시안대로 양산되었다는 컨셉을 가진 열차.
 STR_REFIT_ADDITIONAL_KTX_SC2                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}2015년에 KTX-산천을 기반으로 연구되었던 2층 고속열차.
 STR_REFIT_ADDITIONAL_NRT2                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}누리로를 2층으로 확장한 컨셉열차
-STR_REFIT_ADDITIONAL_Bicheuro2                      :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}EMU-150을 2층으로 확장한 컨셉열차
 STR_REFIT_ADDITIONAL_H2_WJ                          :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2022년에 제작된 기술실험용으로 개발된 수소 동차
 STR_REFIT_ADDITIONAL_Travel_8500                    :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}한국 열차 세트의 관광열차 부분을 보완하기 위한 전기기관차
 STR_REFIT_ADDITIONAL_TTX                            :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2007년에 제작된 기술실험용으로 개발된 틸팅열차
@@ -208,9 +208,6 @@ STR_REFIT_LIVERY_NRT2_Old_W                         :(누리로 DD 구도색 흰
 STR_REFIT_LIVERY_NRT2_New_W                         :(누리로 DD 신도색 흰색)
 STR_REFIT_LIVERY_NRT2_Old_OT                        :(누리로 DD O-train 도색)
 STR_REFIT_LIVERY_NRT2_New_ITX                       :(누리로 DD ITX 도색)
-STR_REFIT_LIVERY_Bicheuro2_R                        :(EMU-150 DD 빨강도색)
-STR_REFIT_LIVERY_Bicheuro2_G                        :(EMU-150 DD 녹색도색)
-STR_REFIT_LIVERY_Bicheuro2_W                        :(EMU-150 DD 흰색도색)
 STR_REFIT_LIVERY_Eco_Rail_Passenger_Car             :(에코레일)
 STR_REFIT_LIVERY_CY_GW_Passenger_Car                :(충북영동국악와인)
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car             :(정선아리랑 유람열차 구도색)

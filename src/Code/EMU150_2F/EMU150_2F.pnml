@@ -2,17 +2,17 @@
 EMU
 --------------------------------------------------------------------*/
 // Graphics
-#include "Bicheuro2_graphic.pnml"
+#include "EMU150_2F_graphic.pnml"
 
 // Switch
-#include "Bicheuro2_switch.pnml"
+#include "EMU150_2F_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Bicheuro2, 1117){
+item(FEAT_TRAINS, EMU150_2F, 2024){
     property {
-        name:                           string(STR_Bicheuro2_NAME);
+        name:                           string(STR_EMU150_2F_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
@@ -47,23 +47,21 @@ item(FEAT_TRAINS, Bicheuro2, 1117){
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
         
     graphics {
-        default:                        sw_Bicheuro2_engine;
-        purchase:                       sw_Bicheuro2_purchase;
+        default:                        sw_EMU150_2F_engine;
+        purchase:                       sw_EMU150_2F_purchase;
         speed:                          Regular_Speed_Train;
         loading_speed:                  25;
-        can_attach_wagon:               sw_Bicheuro2_wagon_attach;
-        cargo_subtype_text:             sw_Bicheuro2_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Bicheuro2);
+        can_attach_wagon:               sw_EMU150_2F_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_EMU150_2F);
         }
 
     livery_override(DTS_Passenger_Car) {
-        default:                        sw_Bicheuro2_wagon;
-        cargo_subtype_text:             sw_Bicheuro2_cargo_subtype_text;
+        default:                        sw_EMU150_2F_wagon;
         cargo_capacity:                 128;
         loading_speed:                  25;
         running_cost_factor:            100;

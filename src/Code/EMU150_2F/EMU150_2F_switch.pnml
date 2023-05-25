@@ -1,17 +1,22 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_EMU320_DD_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_EMU320_DD_engineT;
-    set_EMU320_DD_engineH;
+switch(FEAT_TRAINS, SELF, sw_EMU150_2F_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_EMU150_2F_engineT;
+    set_EMU150_2F_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_EMU320_DD_wagon, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
-    1: set_EMU320_DD_wagon_r;
-    set_EMU320_DD_wagon;
+switch(FEAT_TRAINS, SELF, sw_EMU150_2F_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    EMU150_2F: set_EMU150_2F_panto_wagon_r;
+    set_EMU150_2F_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_EMU320_DD_wagon_attach, vehicle_type_id) {
+switch(FEAT_TRAINS, SELF, sw_EMU150_2F_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    EMU150_2F: set_EMU150_2F_panto_wagon;
+    sw_EMU150_2F_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU150_2F_wagon_attach, vehicle_type_id) {
     EMU150:                 return CB_RESULT_ATTACH_ALLOW;
     EMU150_2F:              return CB_RESULT_ATTACH_ALLOW;
     EMU260:                 return CB_RESULT_ATTACH_ALLOW;

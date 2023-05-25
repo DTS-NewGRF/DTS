@@ -1,40 +1,40 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_EMU150_purchase, "src/Graphic/EMU150.png"){
+spriteset(set_EMU150_2F_purchase, "src/Graphic/EMU150_2F.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 EMU-150
 --------------------------------------------------------------------*/
-spriteset(set_EMU150H_purchase, "src/Graphic/EMU150.png"){
+spriteset(set_EMU150_2FH_purchase, "src/Graphic/EMU150_2F.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_EMU150_engineH, "src/Graphic/EMU150.png"){
+spriteset(set_EMU150_2F_engineH, "src/Graphic/EMU150_2F.png"){
     engine(80, 0)
 }
 
-spriteset(set_EMU150_panto_wagon, "src/Graphic/EMU150.png"){
+spriteset(set_EMU150_2F_panto_wagon, "src/Graphic/EMU150_2F.png"){
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_EMU150_wagon, "src/Graphic/EMU150.png") {
+spriteset(set_EMU150_2F_wagon, "src/Graphic/EMU150_2F.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_EMU150_panto_wagon_r, "src/Graphic/EMU150.png"){
+spriteset(set_EMU150_2F_panto_wagon_r, "src/Graphic/EMU150_2F.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_EMU150_engineT, "src/Graphic/EMU150.png"){
+spriteset(set_EMU150_2F_engineT, "src/Graphic/EMU150_2F.png"){
     engine_r(80, 108)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_EMU150_purchase, cargo_subtype) {
-    set_EMU150_purchase;
+switch(FEAT_TRAINS, SELF, sw_EMU150_2F_purchase, cargo_subtype) {
+    set_EMU150_2F_purchase;
 }

@@ -2,23 +2,23 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_EMU150_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_EMU150R_engineT;
-    set_EMU150R_engineH;
+    1: set_EMU150_engineT;
+    set_EMU150_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_EMU150_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    EMU150: set_EMU150R_panto_wagon_r;
-    set_EMU150R_wagon;
+    EMU150: set_EMU150_panto_wagon_r;
+    set_EMU150_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_EMU150_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    EMU150: set_EMU150R_panto_wagon;
+    EMU150: set_EMU150_panto_wagon;
     sw_EMU150_wagon_rear;
 }
 
 switch(FEAT_TRAINS, SELF, sw_EMU150_wagon_attach, vehicle_type_id) {
     EMU150:                 return CB_RESULT_ATTACH_ALLOW;
-    Bicheuro2:              return CB_RESULT_ATTACH_ALLOW;
+    EMU150_2F:              return CB_RESULT_ATTACH_ALLOW;
     EMU260:                 return CB_RESULT_ATTACH_ALLOW;
     EMU260_DD:              return CB_RESULT_ATTACH_ALLOW;
     EMU320:                 return CB_RESULT_ATTACH_ALLOW;
