@@ -10,7 +10,7 @@ KTX-N
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, EMU320_DD, 1073){
+item(FEAT_TRAINS, EMU320_DD, 2028){
     property {
         name:                           string(STR_EMU320_DD_NAME);
         climates_available:             ALL_CLIMATES;

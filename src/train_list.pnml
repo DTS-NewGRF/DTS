@@ -32,8 +32,8 @@
 #include "Code/EMU260/EMU260.pnml"
 #include "Code/EMU260_DD/EMU260_DD.pnml"
 #include "Code/EMU320/EMU320.pnml"
+#include "Code/EMU320_DD/EMU320_DD.pnml"
 
-#include "locomotive/EMU/EMU320_DD/EMU320_DD.pnml"
 #include "locomotive/GT26CW/GT26CW.pnml"
 #include "locomotive/GTX/GTX.pnml"
 #include "locomotive/H2_WJ/H2_WJ.pnml"
@@ -91,6 +91,7 @@ if (Korea) {
     disable_item(FEAT_TRAINS, 2024); //EMU150_DD
     disable_item(FEAT_TRAINS, 2025); //EMU260
     disable_item(FEAT_TRAINS, 2026); //EMU260_DD
+    disable_item(FEAT_TRAINS, 2028); //EMU320_DD
     }
 
 if (world) {
