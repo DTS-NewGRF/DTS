@@ -66,18 +66,18 @@ STR_PARAM_High_SPEED_Train_NAME                     :High Speed Train Speed
 STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the high-speed train (Default:331km/h)
 STR_PARAM_High_SPEED_Train_430_NAME                 :High Speed Train Speed (430km/h train speed control)
 STR_PARAM_High_SPEED_Train_430_DESC                 :Adjust the speed of the high-speed train (Default:430km/h)
-STR_PARAM_Chinese_NAME                              :No Chinese trains allowed.
-STR_PARAM_Chinese_DESC                              :Please check when using Chinese trains. (Default: unused)
-STR_PARAM_Hong_Kong_NAME                            :No Hong Kong trains allowed.
-STR_PARAM_Hong_Kong_DESC                            :Please check when using Hong Kong trains. (Default: unused)
-STR_PARAM_European_NAME                             :No European trains allowed.
-STR_PARAM_European_DESC                             :Please check when using European train. (Default: unused)
-STR_PARAM_Japanese_NAME                             :No Japanese trains allowed.
-STR_PARAM_Japanese_DESC                             :Please check when using Japanese train. (Default: unused)
-STR_PARAM_Korea_NAME                                :No Korea type trains allowed.
-STR_PARAM_Korea_DESC                                :Please check when using Korea type trains. (Default: unused)
-STR_PARAM_world_NAME                                :No World type trains allowed.
-STR_PARAM_world_DESC                                :Please check when using World type trains. (Default: unused)
+STR_PARAM_Chinese_NAME                              :Ban on Chinese trains.
+STR_PARAM_Chinese_DESC                              :Check if you do not want to use Chinese trains. (Default: use)
+STR_PARAM_Hong_Kong_NAME                            :Ban on Hong Kong trains.
+STR_PARAM_Hong_Kong_DESC                            :Check if you do not want to use Hong Kong trains. (Default: use)
+STR_PARAM_European_NAME                             :Ban on European trains.
+STR_PARAM_European_DESC                             :Check if you do not want to use European trains.. (Default: use)
+STR_PARAM_Japanese_NAME                             :Ban on Japanese trains.
+STR_PARAM_Japanese_DESC                             :Check if you do not want to use Japanese trains. (Default: use)
+STR_PARAM_Korea_NAME                                :Ban on Korean trains.
+STR_PARAM_Korea_DESC                                :Check if you do not want to use Korean trains. (Default: use)
+STR_PARAM_world_NAME                                :Ban on World trains.
+STR_PARAM_world_DESC                                :Check if you do not want to use World trains. (Default: use)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_AGV                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable

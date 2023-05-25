@@ -1,26 +1,26 @@
 //wagon
-#include "Code/passenger_wagon.pnml"
-#include "Code/SPassenger_wagon.pnml"
+#include "Code/Passenger_wagon/passenger_wagon.pnml"
+#include "Code/SPassenger_wagon/SPassenger_wagon.pnml"
 #include "wagon/Generatar_Car/Generatar_Car.pnml"
 #include "wagon/Luggage_Car/Luggage_Car.pnml"
 #include "wagon/CTX_Freight_Car/CTX_Freight_Car.pnml"
 
 //locomotive
-#include "Code/AD_Tranz_CAF_A.pnml"
-#include "Code/AGV.pnml"
-#include "Code/AREX.pnml"
-#include "Code/Avelia_Liberty.pnml"
-#include "Code/AUTS.pnml"
-#include "Code/BB15000.pnml"
-#include "Code/Cammall_AC.pnml"
-#include "Code/Cammall_DC.pnml"
-#include "Code/CNR_Changchun.pnml"
-#include "Code/CR400.pnml"
-#include "Code/CRH1.pnml"
-#include "Code/CRH380A.pnml"
-#include "Code/CRH380AJ.pnml"
-#include "Code/CRH380D.pnml"
-#include "Code/CRRC.pnml"
+#include "Code/AD_Tranz_CAF_A/AD_Tranz_CAF_A.pnml"
+#include "Code/AGV/AGV.pnml"
+#include "Code/AREX/AREX.pnml"
+#include "Code/AUTS/AUTS.pnml"
+#include "Code/Avelia_Liberty/Avelia_Liberty.pnml"
+#include "Code/BB15000/BB15000.pnml"
+#include "Code/Cammall_AC/Cammall_AC.pnml"
+#include "Code/Cammall_DC/Cammall_DC.pnml"
+#include "Code/CNR_Changchun/CNR_Changchun.pnml"
+#include "Code/CR400/CR400.pnml"
+#include "Code/CRH1/CRH1.pnml"
+#include "Code/CRH380A/CRH380A.pnml"
+#include "Code/CRH380AJ/CRH380AJ.pnml"
+#include "Code/CRH380D/CRH380D.pnml"
+#include "Code/CRRC/CRRC.pnml"
 
 #include "locomotive/Bicheuro_DUPLEX/Bicheuro2.pnml"
 #include "locomotive/CTX/CTX.pnml"
@@ -78,9 +78,9 @@ if (Japanese) {
 
 if (Korea) {
     disable_item(FEAT_TRAINS, 2003); //APEX20005
-    disable_item(FEAT_TRAINS, 2005); //AUTS
+    disable_item(FEAT_TRAINS, 2004); //AUTS
     }
 
 if (world) {
-    disable_item(FEAT_TRAINS, 2004); //Avelia_Liberty
+    disable_item(FEAT_TRAINS, 2005); //Avelia_Liberty
     }

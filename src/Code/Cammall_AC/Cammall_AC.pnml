@@ -1,30 +1,31 @@
 /*--------------------------------------------------------------------
-CR400AF
+MTR Cammall
 --------------------------------------------------------------------*/
 // Graphics
-#include "Graphic/CR400_graphic.pnml"
+#include "Cammall_AC_graphic.pnml"
 
 // Switch
-#include "Switch/CR400_switch.pnml"
+#include "Cammall_AC_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CR400, 2011){
+item(FEAT_TRAINS, Cammall_AC, 2008){
     property {
-        name:                           string(STR_CR400_NAME);
+        name:                           string(STR_Cammall_AC_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2016, 1, 1);
+        introduction_date:              date(1980, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         dual_headed:                    1;
         
         //spec
-        speed:                          430km/h;
-        power:                          10000 kW;
-        weight:                         60 ton;
+        speed:                          120km/h;
+        power:                          2000 kW;
+        weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -33,7 +34,7 @@ item(FEAT_TRAINS, CR400, 2011){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 74;
+        cargo_capacity:                 80;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -44,29 +45,26 @@ item(FEAT_TRAINS, CR400, 2011){
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
         }
-        
-    graphics {
-        default:                        sw_CR400_engine;
-        purchase:                       sw_CR400_purchase;
-        speed:                          High_Speed_Train_430;
+
+	graphics {
+        default:                        sw_Cammall_AC_engine;
+        purchase:                       sw_MTR_Cammall_AC_purchase;
+        speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_CR400_wagon_attach;
-        cargo_subtype_text:             sw_CR400_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_CR400);
+        can_attach_wagon:               sw_Cammall_AC_wagon_attach;
+        start_stop:                     sw_DST_train_start_stop_3;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Cammall_AC);
         }
-        
+
     livery_override(DTS_Passenger_Car) {
-        default:                        sw_CR400_wagon;
-        cargo_subtype_text:             sw_CR400_cargo_subtype_text;
-        cargo_capacity:                 74;
+        default:                        sw_Cammall_AC_wagon;
+        cargo_capacity:                 80;
         loading_speed:                  25;
-        running_cost_factor:            150;
-        power:                          1724;
-        weight:                         14;
+        running_cost_factor:            100;
         }
         }

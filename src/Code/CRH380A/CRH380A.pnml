@@ -2,10 +2,10 @@
 CRH380A
 --------------------------------------------------------------------*/
 // Graphics
-#include "Graphic/CRH380A_graphic.pnml"
+#include "CRH380A_graphic.pnml"
 
 // Switch
-#include "Switch/CRH380A_switch.pnml"
+#include "CRH380A_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보

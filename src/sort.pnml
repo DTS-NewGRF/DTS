@@ -5,8 +5,8 @@ sort(FEAT_TRAINS, [
     AD_Tranz_CAF_A,            //2001
     AGV,                       //2002
     APEX20005,                 //2003
-    Avelia_Liberty,            //2004
-    AUTS,                      //2005
+    AUTS,                      //2004
+    Avelia_Liberty,            //2005
     BB15000,                   //2006
     Cammall_AC,                //2008
     Cammall_DC,                //2009

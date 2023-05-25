@@ -1,30 +1,30 @@
 /*--------------------------------------------------------------------
-CRH380A Test
+GT26CW
 --------------------------------------------------------------------*/
 // Graphics
-#include "Graphic/CRH380AJ_graphic.pnml"
+#include "BB15000_graphic.pnml"
 
 // Switch
-#include "Switch/CRH380AJ_switch.pnml"
+#include "BB15000_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CRH380AJ, 2014){
+item(FEAT_TRAINS, BB15000, 2006){
     property {
-        name:                           string(STR_CRH380AJ_NAME);
+        name:                           string(STR_BB15000_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2017, 1, 1);
+        introduction_date:              date(1971, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
-        speed:                          600km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        speed:                          160km/h;
+        power:                          4420 kW;
+        weight:                         82 ton;
         tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -33,7 +33,7 @@ item(FEAT_TRAINS, CRH380AJ, 2014){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 0;
+        cargo_capacity:                 1;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -41,25 +41,21 @@ item(FEAT_TRAINS, CRH380AJ, 2014){
         
         //Costs
         refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_NONE;
+        running_cost_base:              RUNNING_COST_DIESEL;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
         }
         
     graphics {
-        default:                        sw_CRH380AJ_engine;
-        purchase:                       sw_CRH380AJ_purchase;
+        default:                        sw_BB15000_engine;
+        purchase:                       sw_BB15000_purchase;
+        speed:                          Regular_Speed_Train;
+        cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_CRH380AJ_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_CRH380AJ);
-        }
-        
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_CRH380AJ_wagon;
-        cargo_capacity:                 0;
-        running_cost_factor:            0;
+        cargo_subtype_text:             sw_BB15000_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_ADDITIONAL_BB15000);
         }
         }

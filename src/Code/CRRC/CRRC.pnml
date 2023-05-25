@@ -1,20 +1,20 @@
 /*--------------------------------------------------------------------
-MTR Cammall
+MTR CRRC Sipang
 --------------------------------------------------------------------*/
 // Graphics
-#include "Graphic/Cammall_AC_graphic.pnml"
+#include "CRRC_graphic.pnml"
 
 // Switch
-#include "Switch/Cammall_AC_switch.pnml"
+#include "CRRC_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Cammall_AC, 2008){
+item(FEAT_TRAINS, CRRC, 2016){
     property {
-        name:                           string(STR_Cammall_AC_NAME);
+        name:                           string(STR_CRRC_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1979, 1, 1);
+        introduction_date:              date(2015, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -43,26 +43,28 @@ item(FEAT_TRAINS, Cammall_AC, 2008){
         //Costs
         refit_cost:                     0;
         running_cost_base:              RUNNING_COST_ELECTRIC;
-        
+
         //Flags
         misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
         }
 
 	graphics {
-        default:                        sw_Cammall_AC_engine;
-        purchase:                       sw_MTR_Cammall_AC_purchase;
+        default:                        sw_CRRC_engine;
+        purchase:                       sw_CRRC_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;
-        cost_factor:                    10;
+        cost_factor:					10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Cammall_AC_wagon_attach;
+        can_attach_wagon:               sw_CRRC_wagon_attach;
+        cargo_subtype_text:             sw_CRRC_cargo_subtype_text;
         start_stop:                     sw_DST_train_start_stop_3;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Cammall_AC);
+        additional_text:                string(STR_REFIT_ADDITIONAL_CRRC);
         }
 
     livery_override(DTS_Passenger_Car) {
-        default:                        sw_Cammall_AC_wagon;
+        default:                        sw_CRRC_wagon;
+        cargo_subtype_text:             sw_CRRC_cargo_subtype_text;
         cargo_capacity:                 80;
         loading_speed:                  25;
         running_cost_factor:            100;

@@ -1,29 +1,29 @@
 /*--------------------------------------------------------------------
-AGV
+MTR CNR Changchun
 --------------------------------------------------------------------*/
 // Graphics
-#include "Graphic/AGV_graphic.pnml"
+#include "CNR_Changchun_graphic.pnml"
 
 // Switch
-#include "Switch/AGV_switch.pnml"
+#include "CNR_Changchun_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, AGV, 2002){
+item(FEAT_TRAINS, CNR_Changchun, 2010){
     property {
-        name:                           string(STR_AGV_NAME);
+        name:                           string(STR_CNR_Changchun_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2012, 1, 1);
+        introduction_date:              date(2010, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         dual_headed:                    1;
         
         //spec
-        speed:                          300km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        speed:                          120km/h;
+        power:                          2000 kW;
+        weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -34,7 +34,7 @@ item(FEAT_TRAINS, AGV, 2002){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 85;
+        cargo_capacity:                 80;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -45,25 +45,28 @@ item(FEAT_TRAINS, AGV, 2002){
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
         }
-        
-    graphics {
-        default:                        sw_AGV_engine;
-        purchase:                       sw_AGV_purchase;
-        speed:                          High_Speed_Train;
+
+	graphics {
+        default:                        sw_CNR_Changchun_engine;
+        purchase:                       sw_CNR_Changchun_purchase;
+        speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_AGV_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_AGV);
+        can_attach_wagon:               sw_CNR_Changchun_wagon_attach;
+        cargo_subtype_text:             sw_CNR_Changchun_cargo_subtype_text;
+        start_stop:                     sw_DST_train_start_stop_3;
+        additional_text:                string(STR_REFIT_ADDITIONAL_CNR_Changchun);
         }
-        
+
     livery_override(DTS_Passenger_Car) {
-        default:                        sw_AGV_wagon;
-        cargo_capacity:                 85;
+        default:                        sw_CNR_Changchun_wagon;
+        cargo_subtype_text:             sw_CNR_Changchun_cargo_subtype_text;
+        cargo_capacity:                 80;
         loading_speed:                  25;
-        running_cost_factor:            150;
+        running_cost_factor:            100;
         }
         }

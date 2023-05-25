@@ -66,18 +66,18 @@ STR_PARAM_High_SPEED_Train_NAME                     :고속열차 속도변수
 STR_PARAM_High_SPEED_Train_DESC                     :고속열차의 속도를 조정합니다. (기본:331km/h)
 STR_PARAM_High_SPEED_Train_430_NAME                 :고속열차 속도변수 (430km/h 열차속도조절)
 STR_PARAM_High_SPEED_Train_430_DESC                 :고속열차의 속도를 조정합니다. (기본:430km/h)
-STR_PARAM_Chinese_NAME                              :중국형 열차 사용 여부
-STR_PARAM_Chinese_DESC                              :중국형 열차를 사용시 체크하세요. (기본:미사용)
-STR_PARAM_Hong_Kong_NAME                            :홍콩형 열차 사용 여부
-STR_PARAM_Hong_Kong_DESC                            :홍콩형 열차를 사용시 체크하세요. (기본:미사용)
-STR_PARAM_European_NAME                             :유럽형 열차 사용 여부
-STR_PARAM_European_DESC                             :유럽형 열차를 사용시 체크하세요. (기본:미사용)
-STR_PARAM_Japanese_NAME                             :일본형 열차 사용 여부
-STR_PARAM_Japanese_DESC                             :일본형 열차를 사용시 체크하세요. (기본:미사용)
-STR_PARAM_Korea_NAME                                :한국형 열차 사용 여부
-STR_PARAM_Korea_DESC                                :한국형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Chinese_NAME                              :중국형 열차 사용금지
+STR_PARAM_Chinese_DESC                              :중국형 열차를 사용시 체크하세요. (기본:사용)
+STR_PARAM_Hong_Kong_NAME                            :홍콩형 열차 사용금지
+STR_PARAM_Hong_Kong_DESC                            :홍콩형 열차를 사용시 체크하세요. (기본:사용)
+STR_PARAM_European_NAME                             :유럽형 열차 사용금지
+STR_PARAM_European_DESC                             :유럽형 열차를 사용시 체크하세요. (기본:사용)
+STR_PARAM_Japanese_NAME                             :일본형 열차 사용금지
+STR_PARAM_Japanese_DESC                             :일본형 열차를 사용시 체크하세요. (기본:사용)
+STR_PARAM_Korea_NAME                                :한국형 열차 사용금지
+STR_PARAM_Korea_DESC                                :한국형 열차를 사용시 체크하세요. (기본:사용)
 STR_PARAM_world_NAME                                :세계형 열차 사용금지
-STR_PARAM_world_DESC                                :세계형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_world_DESC                                :세계형 열차를 사용시 체크하세요. (기본:사용)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_AGV                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
