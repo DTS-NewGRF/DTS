@@ -10,7 +10,7 @@ KTX-SC2
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CTX, 1132){
+item(FEAT_TRAINS, CTX, 2017){
     property {
         name:                           string(STR_CTX_NAME);
         climates_available:             ALL_CLIMATES;
