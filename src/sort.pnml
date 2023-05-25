@@ -22,9 +22,10 @@ sort(FEAT_TRAINS, [
     DFX,                       //2020
     Eurostar_E300,             //2022
     EMU150,                    //2023
-    EMU150_2F,                 //2024
+    EMU150_DD,                 //2024
     EMU260,                    //2025
-    EMU260_2F,                 //2026
+    EMU260_DD,                 //2026
+    EMU320,                    //2027
 
     HSR_350X,                  //1069
     TTX,                       //1134
@@ -35,7 +36,6 @@ sort(FEAT_TRAINS, [
     VHST_600X,                 //1135
     KTX_SC,                    //1131
     KTX_SC2,                   //1074
-    EMU320,                    //1065
     EMU320_DD,                 //1073
     ITX_CW,                    //1070
     ITX_SM2,                   //1071

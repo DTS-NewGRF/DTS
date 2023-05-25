@@ -1,28 +1,28 @@
 /*--------------------------------------------------------------------
-EMU
+EMU260
 --------------------------------------------------------------------*/
 // Graphics
-#include "EMU320_graphic.pnml"
+#include "EMU260_DD_graphic.pnml"
 
 // Switch
-#include "EMU320_switch.pnml"
+#include "EMU260_DD_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, EMU320, 1065){
+item(FEAT_TRAINS, EMU260_DD, 2026){
     property {
-        name:                           string(STR_EMU320_NAME);
+        name:                           string(STR_EMU260_DD_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2020, 1, 1);
+        introduction_date:              date(2022, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         dual_headed:                    1;
         
         //spec
-        speed:                          362km/h;
-        power:                          8000 kW;
+        speed:                          260km/h;
+        power:                          10000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -34,7 +34,7 @@ item(FEAT_TRAINS, EMU320, 1065){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 58;
+        cargo_capacity:                 100;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -52,19 +52,16 @@ item(FEAT_TRAINS, EMU320, 1065){
         }
         
     graphics {
-        default:                        sw_EMU320_engine;
-        purchase:                       sw_EMU320_purchase;
-        speed:                          High_Speed_Train;
+        default:                        sw_EMU260_DD_engine;
+        purchase:                       sw_EMU260_DD_purchase;
         loading_speed:                  25;
-        can_attach_wagon:               sw_EMU320_wagon_attach;
-        cargo_subtype_text:             sw_EMU320_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_EMU320);
+        can_attach_wagon:               sw_EMU260_DD_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_EMU260_DD);
         }
 
     livery_override(DTS_Passenger_Car) {
-        default:                        sw_EMU320_wagon;
-        cargo_subtype_text:             sw_EMU320_cargo_subtype_text;
-        cargo_capacity:                 70;
+        default:                        sw_EMU260_DD_wagon;
+        cargo_capacity:                 160;
         loading_speed:                  25;
         running_cost_factor:            100;
         }

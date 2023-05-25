@@ -28,11 +28,11 @@
 #include "Code/DFX/DFX.pnml"
 #include "Code/Eurostar_E300/Eurostar_E300.pnml"
 #include "Code/EMU150/EMU150.pnml"
-#include "Code/EMU150_2F/EMU150_2F.pnml"
+#include "Code/EMU150_DD/EMU150_DD.pnml"
 #include "Code/EMU260/EMU260.pnml"
-#include "Code/EMU260_2F/EMU260_2F.pnml"
+#include "Code/EMU260_DD/EMU260_DD.pnml"
+#include "Code/EMU320/EMU320.pnml"
 
-#include "locomotive/EMU/EMU320/EMU320.pnml"
 #include "locomotive/EMU/EMU320_DD/EMU320_DD.pnml"
 #include "locomotive/GT26CW/GT26CW.pnml"
 #include "locomotive/GTX/GTX.pnml"
@@ -88,9 +88,9 @@ if (Korea) {
     disable_item(FEAT_TRAINS, 2018); //CTX_Freight_Car
     disable_item(FEAT_TRAINS, 2019); //DEL7600
     disable_item(FEAT_TRAINS, 2023); //EMU150
-    disable_item(FEAT_TRAINS, 2024); //EMU150_2F
+    disable_item(FEAT_TRAINS, 2024); //EMU150_DD
     disable_item(FEAT_TRAINS, 2025); //EMU260
-    disable_item(FEAT_TRAINS, 2026); //EMU260_2F
+    disable_item(FEAT_TRAINS, 2026); //EMU260_DD
     }
 
 if (world) {

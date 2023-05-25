@@ -1,29 +1,29 @@
 /*--------------------------------------------------------------------
-EMU260
+EMU
 --------------------------------------------------------------------*/
 // Graphics
-#include "EMU260_2F_graphic.pnml"
+#include "EMU150_DD_graphic.pnml"
 
 // Switch
-#include "EMU260_2F_switch.pnml"
+#include "EMU150_DD_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, EMU260_2F, 2026){
+item(FEAT_TRAINS, EMU150_DD, 2024){
     property {
-        name:                           string(STR_EMU260_2F_NAME);
+        name:                           string(STR_EMU150_DD_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2022, 1, 1);
+        introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         dual_headed:                    1;
         
         //spec
-        speed:                          260km/h;
-        power:                          10000 kW;
-        weight:                         40 ton;
+        speed:                          165km/h;
+        power:                          1000 kW;
+        weight:                         45 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -34,7 +34,7 @@ item(FEAT_TRAINS, EMU260_2F, 2026){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 100;
+        cargo_capacity:                 104;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -47,22 +47,25 @@ item(FEAT_TRAINS, EMU260_2F, 2026){
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
         
     graphics {
-        default:                        sw_EMU260_2F_engine;
-        purchase:                       sw_EMU260_2F_purchase;
+        default:                        sw_EMU150_DD_engine;
+        purchase:                       sw_EMU150_DD_purchase;
+        speed:                          Regular_Speed_Train;
         loading_speed:                  25;
-        can_attach_wagon:               sw_EMU260_2F_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_EMU260_2F);
+        can_attach_wagon:               sw_EMU150_DD_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_EMU150_DD);
         }
 
     livery_override(DTS_Passenger_Car) {
-        default:                        sw_EMU260_2F_wagon;
-        cargo_capacity:                 160;
+        default:                        sw_EMU150_DD_wagon;
+        cargo_capacity:                 128;
         loading_speed:                  25;
         running_cost_factor:            100;
+        power:                          670;
+        weight:                         45;
         }
         }
