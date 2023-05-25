@@ -19,6 +19,7 @@ sort(FEAT_TRAINS, [
     CRRC,                      //2016
     CTX,                       //2017
     DEL7600,                   //2019
+    DFX,                       //2020
 
     HSR_350X,                  //1069
     TTX,                       //1134
@@ -44,6 +45,7 @@ sort(FEAT_TRAINS, [
     DTS_Passenger_Car,         //2000
     DTS_SPassenger_Car,        //2007
     CTX_Freight_Car,           //2018
+    DFX_Freight_Car,           //2021
     
     Generatar_Car,             //1120
     Luggage_Car,               //1119

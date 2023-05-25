@@ -9,11 +9,11 @@ spriteset(set_CTX_Freight_Car, "src/Graphic/CTX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_CTX_Freight_Car_Start, "src/Graphic/CTX_Freight_Car.png") {
+spriteset(set_CTX_Freight_Car_panto_wagon, "src/Graphic/CTX_Freight_Car.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_CTX_Freight_Car_end, "src/Graphic/CTX_Freight_Car.png") {
+spriteset(set_CTX_Freight_Car_panto_wagon_r, "src/Graphic/CTX_Freight_Car.png") {
     wagon_1F_F(80, 54)
 }
 

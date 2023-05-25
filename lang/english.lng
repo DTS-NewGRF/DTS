@@ -24,6 +24,7 @@ STR_CRH380D_NAME                                    :[DTS] CRH380D
 STR_CRRC_NAME                                       :[DTS] CRRC Trian
 STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] DEL7600
+STR_DFX_NAME                                        :[DTS] DFX
 
 STR_EMU150_NAME                                     :[DTS] EMU-150
 STR_EMU260_NAME                                     :[DTS] EMU-260
@@ -52,6 +53,7 @@ STR_Standard_Metro_NAME                             :[DTS] Standard Metro
 STR_DTS_PASS_NAME                                   :[DTS] Passenger car
 STR_DTS_SPASS_NAME                                  :[DTS] carriage-type passenger car
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX Freight Car
+STR_DFX_Freight_Car_NAME                            :[DTS] DFX Freight Car
 
 STR_Generatar_Car_NAME                              :[DTS] Generatar Car
 STR_Luggage_Car_NAME                                :[DTS] Luggage Car
@@ -98,6 +100,7 @@ STR_REFIT_ADDITIONAL_CRH380D                        :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_CRRC                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_CTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train{}{GREEN}CTX, [DTS]KTX-Sancheon, KTX-Sancheon 2F
 STR_REFIT_ADDITIONAL_DEL7600                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}DEL7600
+STR_REFIT_ADDITIONAL_DFX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}DFX
 
 STR_REFIT_ADDITIONAL_EMU150                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU260                         :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
@@ -122,7 +125,8 @@ STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}Changing model/liver
 
 STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
 STR_REFIT_train_configuration_SPassenger            :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
-STR_REFIT_train_configuration_CTX                   :{BLACK}train configuration: {GREEN}CTX Freight vehicles
+STR_REFIT_train_configuration_CTX_Freight           :{BLACK}train configuration: {GREEN}CTX Freight vehicles
+STR_REFIT_train_configuration_DFX_Freight           :{BLACK}train configuration: {GREEN}DFX Freight vehicles
 
 STR_REFIT_train_configuration_Generatar             :{BLACK}train configuration: {GREEN}Generatar vehicles
 STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
@@ -159,6 +163,9 @@ STR_REFIT_LIVERY_CRRC_Changchun                     :(Changchun Train)
 STR_REFIT_LIVERY_CRRC_Sipang                        :(Sipang Train)
 STR_REFIT_LIVERY_CTX_Freight                        :(CTX Freight Only Wine Livery)
 STR_REFIT_LIVERY_CTX_Passenger_Freight              :(CTX Passenger-Freight Wine Livery)
+STR_REFIT_LIVERY_DFX_Freight_Car_original           :(Wingbody Freight)
+STR_REFIT_LIVERY_DFX_Freight_Car_post               :(Post Wingbody Freight)
+STR_REFIT_LIVERY_DFX_Freight_Car_CJ_Logistics       :(CJ Logistics Wingbody Freight)
 
 STR_REFIT_LIVERY_EMU150R_1F                         :(EMU-150 1F Red Color)
 STR_REFIT_LIVERY_EMU150R_2F                         :(EMU-150 2F Red Color)

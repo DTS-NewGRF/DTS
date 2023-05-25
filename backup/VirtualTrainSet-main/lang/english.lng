@@ -11,23 +11,19 @@ STR_HYEL_100_NAME                                   :[VTS] HYEL-100
 STR_HYEL_200_NAME                                   :[VTS] HYEL-200
 STR_HYEL_300_NAME                                   :[VTS] HYEL-300
 STR_HYEL_400_NAME                                   :[VTS] HYEL-400
-STR_YFX_NAME                                        :[VTS] YFX
 
 # wagon's name
 STR_VTS_SPASS_NAME                                  :[VTS] carriage-type passenger transport vehicle
-STR_YFXF_NAME                                       :[VTS] YFX Freight Car
 
 # Refit (Additional text)
 STR_REFIT_ADDITIONAL_HYEL_100                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}HYEL-100
 STR_REFIT_ADDITIONAL_HYEL_200                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HYEL-200
 STR_REFIT_ADDITIONAL_HYEL_300                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_HYEL_400                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HYEL-400
-STR_REFIT_ADDITIONAL_YFX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}YFX
 
 STR_REFIT_train_configuration_2F                    :{BLACK}train configuration: {GREEN}2F passenger vehicles
 STR_REFIT_train_configuration_Coach                 :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
 STR_REFIT_train_configuration_Coach_Last            :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
-STR_REFIT_train_configuration_YFX_Freight           :{BLACK}train configuration: {GREEN}YFX Freight Car
 
 # Liveries
 STR_REFIT_LIVERY_HYEL_100_SRT                       :(SRT)
@@ -47,9 +43,6 @@ STR_REFIT_LIVERY_HYEL_100_Ironman                   :(Ironman)
 STR_REFIT_LIVERY_HYEL_100_K_Limousine               :(K Limousine)
 STR_REFIT_LIVERY_HYEL_300                           :(HYEL-300)
 STR_REFIT_LIVERY_HYEL_300_SB                        :(HYEL-300 Sea Livery)
-STR_REFIT_LIVERY_YFX_wagon_original                 :(Wingbody Freight)
-STR_REFIT_LIVERY_YFX_wagon_post                     :(Post Wingbody Freight)
-STR_REFIT_LIVERY_YFX_wagon_CJ_Logistics             :(CJ Logistics Wingbody Freight)
 STR_REFIT_LIVERY_Shinkansen_500_Cool                :(Shinkansen 500 Cool)
 STR_REFIT_LIVERY_Shinkansen_500_Cool_New            :(Shinkansen 500 Cool New)
 

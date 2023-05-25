@@ -2,6 +2,7 @@
 #include "Code/Passenger_wagon/passenger_wagon.pnml"
 #include "Code/SPassenger_wagon/SPassenger_wagon.pnml"
 #include "Code/CTX_Freight_Car/CTX_Freight_Car.pnml"
+#include "Code/DFX_Freight_Car/DFX_Freight_Car.pnml"
 
 #include "wagon/Generatar_Car/Generatar_Car.pnml"
 #include "wagon/Luggage_Car/Luggage_Car.pnml"
@@ -24,6 +25,7 @@
 #include "Code/CRRC/CRRC.pnml"
 #include "Code/CTX/CTX.pnml"
 #include "Code/DEL7600/DEL7600.pnml"
+#include "Code/DFX/DFX.pnml"
 
 #include "locomotive/Bicheuro_DUPLEX/Bicheuro2.pnml"
 #include "locomotive/EMU/EMU150/EMU150.pnml"
@@ -81,7 +83,8 @@ if (Korea) {
     disable_item(FEAT_TRAINS, 2003); //APEX20005
     disable_item(FEAT_TRAINS, 2004); //AUTS
     disable_item(FEAT_TRAINS, 2017); //CTX
-    disable_item(FEAT_TRAINS, 2018); //CTX
+    disable_item(FEAT_TRAINS, 2018); //CTX_Freight_Car
+    disable_item(FEAT_TRAINS, 2019); //DEL7600
     }
 
 if (world) {
