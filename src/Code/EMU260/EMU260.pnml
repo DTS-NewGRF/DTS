@@ -10,7 +10,7 @@ EMU260
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, EMU260, 1064){
+item(FEAT_TRAINS, EMU260, 2025){
     property {
         name:                           string(STR_EMU260_NAME);
         climates_available:             ALL_CLIMATES;

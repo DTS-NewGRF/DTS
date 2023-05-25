@@ -29,8 +29,8 @@
 #include "Code/Eurostar_E300/Eurostar_E300.pnml"
 #include "Code/EMU150/EMU150.pnml"
 #include "Code/EMU150_2F/EMU150_2F.pnml"
+#include "Code/EMU260/EMU260.pnml"
 
-#include "locomotive/EMU/EMU260/EMU260.pnml"
 #include "locomotive/EMU/EMU260_DD/EMU260_DD.pnml"
 #include "locomotive/EMU/EMU320/EMU320.pnml"
 #include "locomotive/EMU/EMU320_DD/EMU320_DD.pnml"
@@ -89,6 +89,7 @@ if (Korea) {
     disable_item(FEAT_TRAINS, 2019); //DEL7600
     disable_item(FEAT_TRAINS, 2023); //EMU150
     disable_item(FEAT_TRAINS, 2024); //EMU150_2F
+    disable_item(FEAT_TRAINS, 2025); //EMU260
     }
 
 if (world) {

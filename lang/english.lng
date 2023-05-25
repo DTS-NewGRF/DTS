@@ -28,8 +28,8 @@ STR_DFX_NAME                                        :[DTS] DFX
 STR_Eurostar_E300_NAME                              :[DTS] Eurostar E300
 STR_EMU150_NAME                                     :[DTS] Bicheuro
 STR_EMU150_2F_NAME                                  :[DTS] Bicheuro 2F
-
 STR_EMU260_NAME                                     :[DTS] EMU-260
+
 STR_EMU260_DD_NAME                                  :[DTS] EMU-260 DD
 STR_EMU320_NAME                                     :[DTS] EMU-320
 STR_EMU320_DD_NAME                                  :[DTS] EMU-320 DD
@@ -105,11 +105,11 @@ STR_REFIT_ADDITIONAL_DFX                            :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_EMU150                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro 2F, EMU-260, EMU-260 2F, EUM-320,EMU-320 2F
 STR_REFIT_ADDITIONAL_EMU150_2F                      :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro 2F, EMU-260, EMU-260 2F, EUM-320,EMU-320 2F
+STR_REFIT_ADDITIONAL_EMU260                         :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro 2F, EMU-260, EMU-260 2F, EUM-320,EMU-320 2F
 
-STR_REFIT_ADDITIONAL_EMU260                         :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
-STR_REFIT_ADDITIONAL_EMU260_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
-STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
-STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}EMU-150, Bicheuro DUPLEX, EMU-260, EUM-320,{}EMU-260 DD, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU260_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro 2F, EMU-260, EMU-260 2F, EUM-320,EMU-320 2F
+STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro 2F, EMU-260, EMU-260 2F, EUM-320,EMU-320 2F
+STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro 2F, EMU-260, EMU-260 2F, EUM-320,EMU-320 2F
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_GTX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}GTX
 STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HEMU-430X
@@ -170,13 +170,13 @@ STR_REFIT_LIVERY_DFX_Freight_Car_post               :(Post Wingbody Freight)
 STR_REFIT_LIVERY_DFX_Freight_Car_CJ_Logistics       :(CJ Logistics Wingbody Freight)
 STR_REFIT_LIVERY_Eurostar_E300_Old                  :(Eurostar Old Livery)
 STR_REFIT_LIVERY_Eurostar_E300_New                  :(Eurostar New Livery)
-
 STR_REFIT_LIVERY_EMU260W                            :(EMU-260 White Livery)
 STR_REFIT_LIVERY_EMU260BK                           :(EMU-260 Black Livery)
-STR_REFIT_LIVERY_EMU260MD                           :(HEMU-250 Prototype Livery)
+STR_REFIT_LIVERY_EMU260MD                           :(HEMU-260 Prototype Livery)
 STR_REFIT_LIVERY_EMU260SM1                          :(EMU-260 Saemaeul First Livery)
 STR_REFIT_LIVERY_EMU260SM2                          :(EMU-260 Saemaeul Second Livery)
 STR_REFIT_LIVERY_EMU260SM3                          :(EMU-260 Saemaeul Third Livery)
+
 STR_REFIT_LIVERY_EMU320_CC                          :(EMU-320 Company Colour)
 STR_REFIT_LIVERY_EMU320_BK                          :(EMU-320 Black Livery)
 STR_REFIT_LIVERY_EMU320_SRT                         :(EMU-320 SRT)
