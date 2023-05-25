@@ -1,0 +1,79 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_EMU260_2F_purchase, "src/Graphic/EMU260_2F/EMU260_2F.png"){
+    tmpl_purchase(0, 0)
+}
+
+alternative_sprites(set_EMU260_2F_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphic/EMU260_2F/EMU260_2F_32bpp.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+EMU260_2F
+--------------------------------------------------------------------*/
+spriteset(set_EMU260_2FH_purchase, "src/Graphic/EMU260_2F/EMU260_2F.png"){
+    tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_EMU260_2F_engineH, "src/Graphic/EMU260_2F/EMU260_2F.png"){
+    engine(80, 0)
+}
+
+spriteset(set_EMU260_2F_panto_wagon, "src/Graphic/EMU260_2F/EMU260_2F.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_EMU260_2F_wagon, "src/Graphic/EMU260_2F/EMU260_2F.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_EMU260_2F_wagon_r, "src/Graphic/EMU260_2F/EMU260_2F.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_EMU260_2F_panto_wagon_r, "src/Graphic/EMU260_2F/EMU260_2F.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_EMU260_2F_engineT, "src/Graphic/EMU260_2F/EMU260_2F.png"){
+    engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+EMU260_2F 32bpp
+--------------------------------------------------------------------*/
+alternative_sprites(set_EMU260_2FH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphic/EMU260_2F/EMU260_2F_32bpp.png"){
+    tmpl_purchase_for_dualhead(0, 108)
+}
+
+alternative_sprites(set_EMU260_2F_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphic/EMU260_2F/EMU260_2F_32bpp.png"){
+    engine(80, 0)
+}
+
+alternative_sprites(set_EMU260_2F_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphic/EMU260_2F/EMU260_2F_32bpp.png"){
+    wagon_1F_F(80, 27)
+}
+
+alternative_sprites(set_EMU260_2F_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphic/EMU260_2F/EMU260_2F_32bpp.png") {
+    wagon_1F(80, 54)
+}
+
+alternative_sprites(set_EMU260_2F_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphic/EMU260_2F/EMU260_2F_32bpp.png") {
+    wagon_1F_r(80, 54)
+}
+
+alternative_sprites(set_EMU260_2F_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphic/EMU260_2F/EMU260_2F_32bpp.png"){
+    wagon_1F_F(80, 81)
+}
+
+alternative_sprites(set_EMU260_2F_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphic/EMU260_2F/EMU260_2F_32bpp.png"){
+    engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_EMU260_2F_purchase, cargo_subtype) {
+    set_EMU260_2F_purchase;
+}

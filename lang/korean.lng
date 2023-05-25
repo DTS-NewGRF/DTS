@@ -29,8 +29,8 @@ STR_Eurostar_E300_NAME                              :[DTS] 유로스타 E300
 STR_EMU150_NAME                                     :[DTS] 비츠로
 STR_EMU150_2F_NAME                                  :[DTS] 비츠로 2층
 STR_EMU260_NAME                                     :[DTS] EMU-260
+STR_EMU260_2F_NAME                                  :[DTS] EMU-260 2층
 
-STR_EMU260_DD_NAME                                  :[임시추가] KTX-이음 Max (EMU-260)
 STR_EMU320_NAME                                     :[임시추가] KTX-이음 (EMU-320)
 STR_EMU320_DD_NAME                                  :[임시추가] KTX-이음 Max (EMU-320)
 STR_GT26CW_NAME                                     :[임시추가] 7100·7200·7300·7400·7500호대 디젤기관차
@@ -106,8 +106,8 @@ STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_EMU150                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 2F, EMU-260, EMU-260 2F, EUM-320,EMU-320 2F
 STR_REFIT_ADDITIONAL_EMU150_2F                      :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 2F, EMU-260, EMU-260 2F, EUM-320,EMU-320 2F
 STR_REFIT_ADDITIONAL_EMU260                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 2F, EMU-260, EMU-260 2F, EUM-320,EMU-320 2F
+STR_REFIT_ADDITIONAL_EMU260_2F                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 2F, EMU-260, EMU-260 2F, EUM-320,EMU-320 2F
 
-STR_REFIT_ADDITIONAL_EMU260_DD                      :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}KTX-이음을 2층으로 확장한 컨셉열차
 STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}EMU-320의 초기 디자인 시안대로 양산되었다는 컨셉을 가진 열차
 STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}한국형 2층 고속열차가 양산되었다는 컨셉을 가진 열차
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}한국 열차 세트의 관광열차 부분을 보완하기 위한 디젤기관차

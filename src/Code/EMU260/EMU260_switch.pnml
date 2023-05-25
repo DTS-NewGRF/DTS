@@ -88,7 +88,7 @@ switch(FEAT_TRAINS, SELF, sw_EMU260_wagon_attach, vehicle_type_id) {
     EMU150:                 return CB_RESULT_ATTACH_ALLOW;
     EMU150_2F:              return CB_RESULT_ATTACH_ALLOW;
     EMU260:                 return CB_RESULT_ATTACH_ALLOW;
-    EMU260_DD:              return CB_RESULT_ATTACH_ALLOW;
+    EMU260_2F:              return CB_RESULT_ATTACH_ALLOW;
     EMU320:                 return CB_RESULT_ATTACH_ALLOW;
     EMU320_DD:              return CB_RESULT_ATTACH_ALLOW;
     DTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
