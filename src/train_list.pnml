@@ -1,6 +1,6 @@
 //wagon
 #include "Code/Passenger_wagon/passenger_wagon.pnml"
-#include "Code/SPassenger_wagon/SPassenger_wagon.pnml"
+#include "Code/ESPassenger_wagon/ESPassenger_wagon.pnml"
 #include "Code/CTX_Freight_Car/CTX_Freight_Car.pnml"
 #include "Code/DFX_Freight_Car/DFX_Freight_Car.pnml"
 #include "Code/Flat_car/Flat_1F_Car/Flat_1F_Car.pnml"
