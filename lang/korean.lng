@@ -37,6 +37,7 @@ STR_H2_WJ_NAME                                      :[DTS] 우진산전 수소�
 STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X (해무)
 STR_HSR_350X_NAME                                   :[DTS] HSR-350X
 STR_HXD3C_NAME                                      :[DTS] HXD3C
+STR_HYEL_100_NAME                                   :[DTS] HYEL-100
 
 STR_GT26CW_NAME                                     :[임시추가] 7100·7200·7300·7400·7500호대 디젤기관차
 STR_ICE_CW_NAME                                     :[임시추가] ITX-초월
@@ -118,6 +119,7 @@ STR_REFIT_ADDITIONAL_H2_WJ                          :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}HEMU-430X
 STR_REFIT_ADDITIONAL_HSR_350X                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}HSR-350X
 STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}HXD3C
+STR_REFIT_ADDITIONAL_HYEL_100                       :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}HYEL-100
 
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}한국 열차 세트의 관광열차 부분을 보완하기 위한 디젤기관차
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}ITX-청춘을 2층으로 확장한 컨셉열차
@@ -203,6 +205,8 @@ STR_REFIT_LIVERY_Generatar_Car_White                :(발전차 흰색도색)
 STR_REFIT_LIVERY_Generatar_Car_Green                :(발전차 녹색도색)
 STR_REFIT_LIVERY_HEMU_430X_1F                       :(HEMU-430X 1층)
 STR_REFIT_LIVERY_HEMU_430X_2F                       :(HEMU-430X 2층)
+STR_REFIT_LIVERY_HYEL_100_SRT                       :(SRT)
+STR_REFIT_LIVERY_HYEL_100_SanCheon                  :(산천)
 
 STR_REFIT_LIVERY_GT26CW_Korail                      :(코레일)
 STR_REFIT_LIVERY_GT26CW_CL                          :(철도청)
