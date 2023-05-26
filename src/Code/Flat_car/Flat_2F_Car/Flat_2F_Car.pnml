@@ -34,7 +34,7 @@ item(FEAT_TRAINS, FLAT_2F, 2006){
         refit_cost:                     0;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         20 ton;
         loading_speed:                  25;
         vehicle_life:                   30;

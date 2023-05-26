@@ -10,7 +10,7 @@
 /*--------------------------------------------------------------------
 화물차량 정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, FLAT_TANK, 2007){
+item(FEAT_TRAINS, FLAT_TANK, 2030){
     property {
         name:                           string(STR_FLAT_Tank_NAME);
         climates_available:             ALL_CLIMATES;
@@ -34,7 +34,7 @@ item(FEAT_TRAINS, FLAT_TANK, 2007){
         refit_cost:                     0;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         20 ton;
         loading_speed:                  25;
         vehicle_life:                   30;
@@ -46,10 +46,8 @@ item(FEAT_TRAINS, FLAT_TANK, 2007){
         }
 
 	graphics {
-        default:                        sw_Flat_Tank_Car_wagon;
+        default:                        sw_FLAT_TANK_CAR_wagon;
         purchase:                       sw_FLAT_Tank_purchase;
-        can_attach_wagon:               sw_Flat_Tank_wagon_attach;
-        cargo_subtype_text:             sw_Flat_TANK_Car_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL);
+        additional_text:                string(STR_REFIT_train_configuration_Flat_Tank_Freight);
         }
         }
