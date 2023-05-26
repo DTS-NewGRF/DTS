@@ -56,6 +56,7 @@ STR_DTS_SPASS_NAME                                  :[DTS] 객차형 승객 수�
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX용 화물 수송 차량
 STR_DFX_Freight_Car_NAME                            :[DTS] DFX용 화물 수송 차량
 STR_FLAT_1F_NAME                                    :[DTS] 평판화차
+STR_FLAT_2F_NAME                                    :[DTS] 미국형 평판화차
 STR_FLAT_Tank_NAME                                  :[DTS] 평판유조 화차
 
 STR_Generatar_Car_NAME                              :[임시추가] 발전차
@@ -132,6 +133,7 @@ STR_REFIT_train_configuration_SPassenger            :{BLACK}열차구성: {GREEN
 STR_REFIT_train_configuration_CTX                   :{BLACK}열차구성: {GREEN}CTX용 화물차량
 STR_REFIT_train_configuration_DFX_Freight           :{BLACK}열차구성: {GREEN}DFX용 화차
 STR_REFIT_train_configuration_Flat_1F_Freight       :{BLACK}열차구성: {GREEN}평판화차
+STR_REFIT_train_configuration_Flat_2F_Freight       :{BLACK}열차구성: {GREEN}미국형 평판화차
 STR_REFIT_train_configuration_Flat_Tank_Freight     :{BLACK}열차구성: {GREEN}평판유조화차
 
 STR_REFIT_train_configuration_Generatar             :{BLACK}열차구성: {GREEN}발전차용

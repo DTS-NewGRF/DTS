@@ -10,7 +10,7 @@
 /*--------------------------------------------------------------------
 화물차량 정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, FLAT_2F, 2006){
+item(FEAT_TRAINS, FLAT_2F, 2030){
     property {
         name:                           string(STR_FLAT_2F_NAME);
         climates_available:             ALL_CLIMATES;
@@ -48,6 +48,5 @@ item(FEAT_TRAINS, FLAT_2F, 2006){
 	graphics {
         default:                        sw_FLAT_2F_CAR_wagon;
         purchase:                       sw_FLAT_2F_purchase;
-        can_attach_wagon:               sw_Flat_2F_wagon_attach;
         }
         }
