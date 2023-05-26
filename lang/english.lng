@@ -41,6 +41,7 @@ STR_HYEL_100_NAME                                   :[DTS] HYEL-100
 STR_HYEL_150_NAME                                   :[DTS] HYEL-150
 STR_HYEL_200_NAME                                   :[DTS] HYEL-200
 STR_HYEL_300_NAME                                   :[DTS] HYEL-300
+STR_HYEL_400_NAME                                   :[DTS] HYEL-400
 
 STR_GT26CW_NAME                                     :[DTS] GT26CW
 STR_ICE_CW_NAME                                     :[DTS] ITX-Chowol
@@ -125,7 +126,8 @@ STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_HYEL_100                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}HYEL-100
 STR_REFIT_ADDITIONAL_HYEL_150                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}HYEL-150
 STR_REFIT_ADDITIONAL_HYEL_200                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HYEL-200
-STR_REFIT_ADDITIONAL_HYEL_300                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_HYEL_300                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_HYEL_400                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HYEL-400
 
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Chowol

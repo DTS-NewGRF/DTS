@@ -41,6 +41,7 @@ STR_HYEL_100_NAME                                   :[DTS] HYEL-100
 STR_HYEL_150_NAME                                   :[DTS] HYEL-150
 STR_HYEL_200_NAME                                   :[DTS] HYEL-200
 STR_HYEL_300_NAME                                   :[DTS] HYEL-300
+STR_HYEL_400_NAME                                   :[DTS] HYEL-400
 
 STR_GT26CW_NAME                                     :[임시추가] 7100·7200·7300·7400·7500호대 디젤기관차
 STR_ICE_CW_NAME                                     :[임시추가] ITX-초월
@@ -126,6 +127,7 @@ STR_REFIT_ADDITIONAL_HYEL_100                       :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_HYEL_150                       :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}HYEL-150
 STR_REFIT_ADDITIONAL_HYEL_200                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}HYEL-200
 STR_REFIT_ADDITIONAL_HYEL_300                       :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_HYEL_400                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}HYEL-400
 
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}한국 열차 세트의 관광열차 부분을 보완하기 위한 디젤기관차
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}ITX-청춘을 2층으로 확장한 컨셉열차

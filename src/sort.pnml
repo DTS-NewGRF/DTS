@@ -36,6 +36,7 @@ sort(FEAT_TRAINS, [
     HYEL_150,                  //2039
     HYEL_200,                  //2040
     HYEL_300,                  //2041
+    HYEL_400,                  //2042
 
     TTX,                       //1134
     Standard_Metro,            //1122

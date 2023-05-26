@@ -40,7 +40,7 @@ switch(FEAT_TRAINS, SELF, sw_HYEL_400_wagon, random_bits % 5) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_HYEL_400_wagon_attach, vehicle_type_id) {
-    HYEL_400:               return CB_RESULT_ATTACH_ALLOW;
-    VTS_1F_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    HYEL_400:                return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }
