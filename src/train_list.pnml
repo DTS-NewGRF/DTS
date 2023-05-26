@@ -37,9 +37,9 @@
 #include "Code/EMU320/EMU320.pnml"
 #include "Code/EMU320_DD/EMU320_DD.pnml"
 #include "Code/GTX/GTX.pnml"
+#include "Code/H2_WJ/H2_WJ.pnml"
 
 #include "locomotive/GT26CW/GT26CW.pnml"
-#include "locomotive/H2_WJ/H2_WJ.pnml"
 #include "locomotive/HEMU_430X/HEMU_430X.pnml"
 #include "locomotive/HSR_350X/HSR_350X.pnml"
 #include "locomotive/ITX_CW/ITX_CW.pnml"
@@ -96,6 +96,7 @@ if (Korea) {
     disable_item(FEAT_TRAINS, 2026); //EMU260_DD
     disable_item(FEAT_TRAINS, 2028); //EMU320_DD
     disable_item(FEAT_TRAINS, 2033); //GTX
+    disable_item(FEAT_TRAINS, 2034); //H2_WJ
     }
 
 if (world) {

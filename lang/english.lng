@@ -33,6 +33,7 @@ STR_EMU260_DD_NAME                                  :[DTS] EMU-260 DD
 STR_EMU320_NAME                                     :[DTS] EMU-320
 STR_EMU320_DD_NAME                                  :[DTS] EMU-320 DD
 STR_GTX_NAME                                        :[DTS] GTX
+STR_H2_WJ_NAME                                      :[DTS] H2 by WOOJIN
 
 STR_GT26CW_NAME                                     :[DTS] GT26CW
 STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X
@@ -42,7 +43,6 @@ STR_ITX_SM2_NAME                                    :[DTS] ITX-Saemaeul DD
 STR_KTX_SC_NAME                                     :[DTS] KTX-Sancheon
 STR_KTX_SC2_NAME                                    :[DTS] KTX-DD
 STR_NRT2_NAME                                       :[DTS] Nuriro DD
-STR_H2_WJ_NAME                                      :[DTS] H2 by WOOJIN
 STR_Travel_8500_NAME                                :[DTS] Travel 8500
 STR_TTX_NAME                                        :[DTS] TTX
 STR_VHST_600X_NAME                                  :[DTS] VHST-600X
@@ -113,6 +113,7 @@ STR_REFIT_ADDITIONAL_EMU260_DD                      :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
 STR_REFIT_ADDITIONAL_GTX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}GTX
+STR_REFIT_ADDITIONAL_H2_WJ                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}H2 WJ
 
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HEMU-430X
@@ -122,7 +123,6 @@ STR_REFIT_ADDITIONAL_ITX_SM2                        :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_KTX_SC                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
 STR_REFIT_ADDITIONAL_KTX_SC2                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
 STR_REFIT_ADDITIONAL_NRT2                           :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}Nuriro DD
-STR_REFIT_ADDITIONAL_H2_WJ                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}H2 WJ
 STR_REFIT_ADDITIONAL_Travel_8500                    :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}Travel 8500
 STR_REFIT_ADDITIONAL_TTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}TTX
 STR_REFIT_ADDITIONAL_VHST_600X                      :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}VHST_600X
