@@ -35,9 +35,10 @@ STR_EMU320_DD_NAME                                  :[DTS] EMU-320 DD
 STR_GTX_NAME                                        :[DTS] GTX
 STR_H2_WJ_NAME                                      :[DTS] 우진산전 수소연료전지동차
 STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X (해무)
+STR_HSR_350X_NAME                                   :[DTS] HSR-350X
+STR_HXD3C_NAME                                      :[DTS] HXD3C
 
 STR_GT26CW_NAME                                     :[임시추가] 7100·7200·7300·7400·7500호대 디젤기관차
-STR_HSR_350X_NAME                                   :[임시추가] HSR-350X
 STR_ICE_CW_NAME                                     :[임시추가] ITX-초월
 STR_ITX_SM2_NAME                                    :[임시추가] ITX-새마을 Max
 STR_KTX_SC_NAME                                     :[임시추가] KTX-산천
@@ -115,9 +116,10 @@ STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_GTX                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}GTX
 STR_REFIT_ADDITIONAL_H2_WJ                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}H2 WJ
 STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}HEMU-430X
+STR_REFIT_ADDITIONAL_HSR_350X                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}HSR-350X
+STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}HXD3C
 
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}한국 열차 세트의 관광열차 부분을 보완하기 위한 디젤기관차
-STR_REFIT_ADDITIONAL_HSR_350X                       :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2002년에 제작된 기술실험용으로 개발된 고속열차
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}ITX-청춘을 2층으로 확장한 컨셉열차
 STR_REFIT_ADDITIONAL_ITX_SM2                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}ITX-새마을을 2층으로 확장한 컨셉열차
 STR_REFIT_ADDITIONAL_KTX_SC                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}KTX-산천의 호남고속선, 경강선 초기 디자인 시안대로 양산되었다는 컨셉을 가진 열차.
@@ -149,6 +151,13 @@ STR_REFIT_LIVERY_European_Type_1nd_Passenger_Car    :(유럽형 1등석)
 STR_REFIT_LIVERY_European_Type_2nd_Passenger_Car    :(유럽형 2등석)
 STR_REFIT_LIVERY_European_Type_Bar_Passenger_Car    :(유럽형 식당칸)
 STR_REFIT_LIVERY_European_Type_HF_Passenger_Car     :(유럽형 1/2 1,2등석)
+STR_REFIT_LIVERY_Chinese_25_Type_Red_Passenger_Car  :(25형 1층 빨강 도색)
+STR_REFIT_LIVERY_Chinese_25_Type_Green_Passenger_Car:(25형 1층 녹색 도색)
+STR_REFIT_LIVERY_Chinese_25_Type_White_Passenger_Car:(25형 1층 흰색 도색)
+STR_REFIT_LIVERY_Chinese_25_Type_2F_Passenger_Car   :(25형 2층)
+STR_REFIT_LIVERY_Chinese_25_Type_3nd_Bed_Car        :(25형 3등석 침대차량)
+STR_REFIT_LIVERY_Chinese_25_Type_2nd_Bed_Car        :(25형 2등석 침대차량)
+STR_REFIT_LIVERY_Chinese_25_Type_1nd_Bed_Car        :(25형 1등석 침대차량)
 STR_REFIT_LIVERY_AD_Tranz_CAF_A_Airport_Express     :(Airport Express)
 STR_REFIT_LIVERY_AD_Tranz_CAF_A_Tung_Chung          :(Tung Chung)
 STR_REFIT_LIVERY_Cammall_DC                         :(미개조형)

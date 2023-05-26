@@ -14,7 +14,6 @@ STR_CRH2C_NAME                                      :[CTS] CRH2C
 STR_CRH3_NAME                                       :[CTS] CRH3C
 STR_CRH380B_NAME                                    :[CTS] CRH380B·BL·BG
 STR_CRH380C_NAME                                    :[CTS] CRH380CL
-STR_HXD3C_NAME                                      :[CTS] HXD3C
 STR_NJ2_NAME                                        :[CTS] NJ2
 
 # Metro's name
@@ -23,7 +22,6 @@ STR_MTR_Hyundai_Rotem_R_NAME                        :[CTS] MTR Hyundai Rotem R T
 STR_MTR_IKK_SP_1900_NAME                            :[CTS] MTR IKK SP 1900
 
 # wagon's name
-STR_CTS_SPASS_NAME                                  :[CTS] carriage-type passenger car
 STR_Luggage_Car_NAME                                :[CTS] Luggage Car
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
@@ -32,14 +30,11 @@ STR_REFIT_ADDITIONAL_CRH2C                          :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_CRH3                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH3C
 STR_REFIT_ADDITIONAL_CRH380B                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380B·BL·BG
 STR_REFIT_ADDITIONAL_CRH380C                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380CL
-STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HXD3C
 STR_REFIT_ADDITIONAL_NJ2                            :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}NJ2
 STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 
-STR_REFIT_train_configuration_SPassenger            :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
-STR_REFIT_train_configuration_Generatar             :{BLACK}train configuration: {GREEN}Generatar vehicles
 STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
 
 # Liveries metro
@@ -47,13 +42,6 @@ STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_Nomal          :(MTR Hyundai Rotem R Type N
 STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_special        :(MTR Hyundai Rotem R Type special)
 
 # Liveries wagon
-STR_REFIT_LIVERY_SWagon_1F_Red                      :(25 Type 1F Red Color Car)
-STR_REFIT_LIVERY_SWagon_1F_Green                    :(25 Type 1F Green Color Car)
-STR_REFIT_LIVERY_Swagon_1F_White                    :(25 Type 1F White Color Car)
-STR_REFIT_LIVERY_Swagon_2F                          :(25 Type 2F Car)
-STR_REFIT_LIVERY_Swagon_Bed_3nd                     :(25 Type 3nd Bed Car)
-STR_REFIT_LIVERY_Swagon_Bed_2nd                     :(25 Type 2nd Bed Car)
-STR_REFIT_LIVERY_Swagon_Bed_1nd                     :(25 Type 1nd Bed Car)
 STR_REFIT_LIVERY_Luggage_Car_Red                    :(Luggage Red Car)
 STR_REFIT_LIVERY_Luggage_Car_Green                  :(Luggage Green Car)
 STR_REFIT_LIVERY_Luggage_Car_WhiteA                 :(Luggage WhiteA Car)

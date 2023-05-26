@@ -35,9 +35,10 @@ STR_EMU320_DD_NAME                                  :[DTS] EMU-320 DD
 STR_GTX_NAME                                        :[DTS] GTX
 STR_H2_WJ_NAME                                      :[DTS] H2 by WOOJIN
 STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X
+STR_HSR_350X_NAME                                   :[DTS] HSR-350X
+STR_HXD3C_NAME                                      :[DTS] HXD3C
 
 STR_GT26CW_NAME                                     :[DTS] GT26CW
-STR_HSR_350X_NAME                                   :[DTS] HSR-350X
 STR_ICE_CW_NAME                                     :[DTS] ITX-Chowol
 STR_ITX_SM2_NAME                                    :[DTS] ITX-Saemaeul DD
 STR_KTX_SC_NAME                                     :[DTS] KTX-Sancheon
@@ -115,9 +116,10 @@ STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_GTX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}GTX
 STR_REFIT_ADDITIONAL_H2_WJ                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}H2 WJ
 STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HEMU-430X
+STR_REFIT_ADDITIONAL_HSR_350X                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HSR-350X
+STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HXD3C
 
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}GT26CW
-STR_REFIT_ADDITIONAL_HSR_350X                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HSR-350X
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Chowol
 STR_REFIT_ADDITIONAL_ITX_SM2                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Saemaeul DD
 STR_REFIT_ADDITIONAL_KTX_SC                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
@@ -149,6 +151,13 @@ STR_REFIT_LIVERY_European_Type_1nd_Passenger_Car    :(European type 1nd Livery)
 STR_REFIT_LIVERY_European_Type_2nd_Passenger_Car    :(European type 2nd Livery)
 STR_REFIT_LIVERY_European_Type_Bar_Passenger_Car    :(European type Bar Livery)
 STR_REFIT_LIVERY_European_Type_HF_Passenger_Car     :(European type 1/2 1,2nd Livery)
+STR_REFIT_LIVERY_Chinese_25_Type_Red_Passenger_Car  :(25 Type 1F Red Color Car)
+STR_REFIT_LIVERY_Chinese_25_Type_Green_Passenger_Car:(25 Type 1F Green Color Car)
+STR_REFIT_LIVERY_Chinese_25_Type_White_Passenger_Car:(25 Type 1F White Color Car)
+STR_REFIT_LIVERY_Chinese_25_Type_2F_Passenger_Car   :(25 Type 2F Car)
+STR_REFIT_LIVERY_Chinese_25_Type_3nd_Bed_Car        :(25 Type 3nd Bed Car)
+STR_REFIT_LIVERY_Chinese_25_Type_2nd_Bed_Car        :(25 Type 2nd Bed Car)
+STR_REFIT_LIVERY_Chinese_25_Type_1nd_Bed_Car        :(25 Type 1nd Bed Car)
 STR_REFIT_LIVERY_AD_Tranz_CAF_A_Airport_Express     :(Airport Express)
 STR_REFIT_LIVERY_AD_Tranz_CAF_A_Tung_Chung          :(Tung Chung)
 STR_REFIT_LIVERY_Cammall_DC                         :(no remoding Car)

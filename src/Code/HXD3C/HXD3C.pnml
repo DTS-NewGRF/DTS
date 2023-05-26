@@ -10,7 +10,7 @@ HXD3C
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HXD3C, 1111){
+item(FEAT_TRAINS, HXD3C, 2037){
     property {
         name:                           string(STR_HXD3C_NAME);
         climates_available:             ALL_CLIMATES;
@@ -51,6 +51,7 @@ item(FEAT_TRAINS, HXD3C, 1111){
 	graphics {
         default:                        set_HXD3C_engine;
         purchase:                       sw_HXD3C_purchase;
+        speed:                          Regular_Speed_Train;
         cost_factor:                    10;
         running_cost_factor:            150;
         additional_text:                string(STR_REFIT_ADDITIONAL_HXD3C);

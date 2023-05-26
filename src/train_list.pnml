@@ -39,9 +39,10 @@
 #include "Code/GTX/GTX.pnml"
 #include "Code/H2_WJ/H2_WJ.pnml"
 #include "Code/HEMU_430X/HEMU_430X.pnml"
+#include "Code/HSR_350X/HSR_350X.pnml"
+#include "Code/HXD3C/HXD3C.pnml"
 
 #include "locomotive/GT26CW/GT26CW.pnml"
-#include "locomotive/HSR_350X/HSR_350X.pnml"
 #include "locomotive/ITX_CW/ITX_CW.pnml"
 #include "locomotive/ITX_SM2/ITX_SM2.pnml"
 #include "locomotive/KTX_SC/KTX_SC.pnml"
@@ -64,6 +65,7 @@ if (Chinese) {
     disable_item(FEAT_TRAINS, 2013); //CRH380A
     disable_item(FEAT_TRAINS, 2014); //CRH380AJ
     disable_item(FEAT_TRAINS, 2015); //CRH380D
+    disable_item(FEAT_TRAINS, 2037); //HXD3C
     }
 
 if (Hong_Kong) {
@@ -98,6 +100,7 @@ if (Korea) {
     disable_item(FEAT_TRAINS, 2033); //GTX
     disable_item(FEAT_TRAINS, 2034); //H2_WJ
     disable_item(FEAT_TRAINS, 2035); //HEMU_430X
+    disable_item(FEAT_TRAINS, 2036); //HSR_350X
     }
 
 if (world) {
