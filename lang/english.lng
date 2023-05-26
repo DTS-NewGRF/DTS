@@ -32,9 +32,9 @@ STR_EMU260_NAME                                     :[DTS] EMU-260
 STR_EMU260_DD_NAME                                  :[DTS] EMU-260 DD
 STR_EMU320_NAME                                     :[DTS] EMU-320
 STR_EMU320_DD_NAME                                  :[DTS] EMU-320 DD
+STR_GTX_NAME                                        :[DTS] GTX
 
 STR_GT26CW_NAME                                     :[DTS] GT26CW
-STR_GTX_NAME                                        :[DTS] GTX
 STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X
 STR_HSR_350X_NAME                                   :[DTS] HSR-350X
 STR_ICE_CW_NAME                                     :[DTS] ITX-Chowol
@@ -112,9 +112,9 @@ STR_REFIT_ADDITIONAL_EMU260                         :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_EMU260_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
+STR_REFIT_ADDITIONAL_GTX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}GTX
 
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}GT26CW
-STR_REFIT_ADDITIONAL_GTX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}GTX
 STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HEMU-430X
 STR_REFIT_ADDITIONAL_HSR_350X                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HSR-350X
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Chowol

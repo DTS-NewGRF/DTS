@@ -12,12 +12,12 @@ switch(FEAT_TRAINS, SELF, sw_GTX_wagon_middle, (position_in_consist)) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_GTX_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    GTX: set_GTX_wagon_end;
+    GTX: set_GTX_panto_wagon_r;
     sw_GTX_wagon_middle;
 }
 
 switch(FEAT_TRAINS, SELF, sw_GTX_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    GTX: set_GTX_wagon_start;
+    GTX: set_GTX_panto_wagon;
     sw_GTX_wagon_rear;
 }
 

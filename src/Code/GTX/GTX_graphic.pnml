@@ -1,38 +1,38 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_GTX_purchase, "src/locomotive/GTX/GTX.png"){
+spriteset(set_GTX_purchase, "src/Graphic/GTX.png"){
 	tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 GTX
 --------------------------------------------------------------------*/
-spriteset(set_GTXH_purchase, "src/locomotive/GTX/GTX.png"){
+spriteset(set_GTXH_purchase, "src/Graphic/GTX.png"){
 	tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_GTX_engineH, "src/locomotive/GTX/GTX.png"){
+spriteset(set_GTX_engineH, "src/Graphic/GTX.png"){
 	engine(80, 0)
 }
 
-spriteset(set_GTX_wagon_start, "src/locomotive/GTX/GTX.png"){
+spriteset(set_GTX_panto_wagon, "src/Graphic/GTX.png"){
 	wagon_start(80, 27)
 }
 
-spriteset(set_GTX_wagon, "src/locomotive/GTX/GTX.png") {
+spriteset(set_GTX_wagon, "src/Graphic/GTX.png") {
 	wagon_1F(80, 54)
 }
 
-spriteset(set_GTX_wagon_r, "src/locomotive/GTX/GTX.png") {
+spriteset(set_GTX_wagon_r, "src/Graphic/GTX.png") {
 	wagon_1F_r(80, 54)
 }
 
-spriteset(set_GTX_wagon_end, "src/locomotive/GTX/GTX.png"){
+spriteset(set_GTX_panto_wagon_r, "src/Graphic/GTX.png"){
 	wagon_start(80, 81)
 }
 
-spriteset(set_GTX_engineT, "src/locomotive/GTX/GTX.png"){
+spriteset(set_GTX_engineT, "src/Graphic/GTX.png"){
 	engine_r(80, 108)
 }
 
