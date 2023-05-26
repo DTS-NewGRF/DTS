@@ -37,6 +37,7 @@ sort(FEAT_TRAINS, [
     HYEL_200,                  //2040
     HYEL_300,                  //2041
     HYEL_400,                  //2042
+    GT26CW,                    //2045
 
     TTX,                       //1134
     Standard_Metro,            //1122
@@ -51,12 +52,14 @@ sort(FEAT_TRAINS, [
     DTS_Passenger_Car,         //2000
     DTS_ESPassenger_Car,       //2007
     DTS_CSPassenger_Car,       //2043
+    DTS_KSPassenger_Car,       //2044
     CTX_Freight_Car,           //2018
     DFX_Freight_Car,           //2021
     FLAT_1F,                   //2029
     FLAT_2F,                   //2030
     FLAT_TANK,                 //2031
-    Generatar_Car,             //2032
+    CGeneratar_Car,            //2032
+    KGeneratar_Car,            //2046
     
     Luggage_Car,               //1119
     ]);

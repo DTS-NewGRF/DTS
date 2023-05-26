@@ -32,6 +32,7 @@ STR_EMU260_NAME                                     :[DTS] EMU-260
 STR_EMU260_DD_NAME                                  :[DTS] EMU-260 DD
 STR_EMU320_NAME                                     :[DTS] EMU-320
 STR_EMU320_DD_NAME                                  :[DTS] EMU-320 DD
+STR_GT26CW_NAME                                     :[DTS] GT26CW
 STR_GTX_NAME                                        :[DTS] GTX
 STR_H2_WJ_NAME                                      :[DTS] H2 by WOOJIN
 STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X
@@ -43,7 +44,6 @@ STR_HYEL_200_NAME                                   :[DTS] HYEL-200
 STR_HYEL_300_NAME                                   :[DTS] HYEL-300
 STR_HYEL_400_NAME                                   :[DTS] HYEL-400
 
-STR_GT26CW_NAME                                     :[DTS] GT26CW
 STR_ICE_CW_NAME                                     :[DTS] ITX-Chowol
 STR_ITX_SM2_NAME                                    :[DTS] ITX-Saemaeul DD
 STR_KTX_SC_NAME                                     :[DTS] KTX-Sancheon
@@ -60,12 +60,14 @@ STR_Standard_Metro_NAME                             :[DTS] Standard Metro
 STR_DTS_PASS_NAME                                   :[DTS] Passenger car
 STR_DTS_ESPASS_NAME                                 :[DTS] European carriage-type passenger car
 STR_DTS_CSPASS_NAME                                 :[DTS] Chinese carriage-type passenger car
+STR_DTS_KSPASS_NAME                                 :[DTS] Korean carriage-type passenger car
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX Freight Car
 STR_DFX_Freight_Car_NAME                            :[DTS] DFX Freight Car
 STR_FLAT_1F_NAME                                    :[DTS] Flat Car
 STR_FLAT_2F_NAME                                    :[DTS] American Flat Car
 STR_FLAT_Tank_NAME                                  :[DTS] Flat Tank Car
-STR_Generatar_Car_NAME                              :[DTS] Generatar Car
+STR_CGeneratar_Car_NAME                             :[DTS] Chinese Generatar Car
+STR_KGeneratar_Car_NAME                             :[DTS] Korean Generatar Car
 
 STR_Luggage_Car_NAME                                :[DTS] Luggage Car
 
@@ -119,6 +121,7 @@ STR_REFIT_ADDITIONAL_EMU260                         :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_EMU260_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
+STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_GTX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}GTX
 STR_REFIT_ADDITIONAL_H2_WJ                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}H2 WJ
 STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HEMU-430X
@@ -130,7 +133,6 @@ STR_REFIT_ADDITIONAL_HYEL_200                       :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_HYEL_300                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_HYEL_400                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HYEL-400
 
-STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Chowol
 STR_REFIT_ADDITIONAL_ITX_SM2                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Saemaeul DD
 STR_REFIT_ADDITIONAL_KTX_SC                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
@@ -144,12 +146,14 @@ STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}Changing model/liver
 STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
 STR_REFIT_train_configuration_ESPassenger           :{BLACK}train configuration: {GREEN}European carriage-type Passenger vehicles
 STR_REFIT_train_configuration_CSPassenger           :{BLACK}train configuration: {GREEN}Chinese carriage-type Passenger vehicles
+STR_REFIT_train_configuration_KSPassenger           :{BLACK}train configuration: {GREEN}Korean carriage-type Passenger vehicles
 STR_REFIT_train_configuration_CTX_Freight           :{BLACK}train configuration: {GREEN}CTX Freight vehicles
 STR_REFIT_train_configuration_DFX_Freight           :{BLACK}train configuration: {GREEN}DFX Freight vehicles
 STR_REFIT_train_configuration_Flat_1F_Freight       :{BLACK}train configuration: {GREEN}Flat Freight vehicles
 STR_REFIT_train_configuration_Flat_2F_Freight       :{BLACK}train configuration: {GREEN}American Flat Freight vehicles
 STR_REFIT_train_configuration_Flat_Tank_Freight     :{BLACK}train configuration: {GREEN}Flat Tank Freight vehicles
-STR_REFIT_train_configuration_Generatar             :{BLACK}train configuration: {GREEN}Generatar vehicles
+STR_REFIT_train_configuration_CGeneratar            :{BLACK}train configuration: {GREEN}Chinese Generatar vehicles
+STR_REFIT_train_configuration_KGeneratar            :{BLACK}train configuration: {GREEN}Korean Generatar vehicles
 
 STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
 
@@ -208,6 +212,13 @@ STR_REFIT_LIVERY_EMU320_DB                          :(EMU-300 ICE)
 STR_REFIT_LIVERY_EMU320_EURO                        :(EMU-320 Euro)
 STR_REFIT_LIVERY_EMU320_JR                          :(EMU-320 JR)
 STR_REFIT_LIVERY_EMU320_THSR                        :(EMU-320 THSR)
+STR_REFIT_LIVERY_GT26CW_Korail                      :(Korail)
+STR_REFIT_LIVERY_GT26CW_CL                          :(CL)
+STR_REFIT_LIVERY_GT26CW_World                       :(GT26CW)
+STR_REFIT_LIVERY_GT26CW_CY_GW                       :(Chungbuk Yeongdong Gugak & Wine Train)
+STR_REFIT_LIVERY_GT26CW_LB                          :(Lady Bird)
+STR_REFIT_LIVERY_GT26CW_ST                          :(S-Train)
+STR_REFIT_LIVERY_GT26CW_G                           :(G-Train)
 STR_REFIT_LIVERY_Flat                               :(Flat Nomal Car)
 STR_REFIT_LIVERY_Flat_Trailer                       :(Flat Trailer Car Company Color)
 STR_REFIT_LIVERY_Flat_Trailer_2cc                   :(Flat Trailer Car 2cc Color)
@@ -217,11 +228,27 @@ STR_REFIT_LIVERY_HEMU_430X_1F                       :(HEMU-430X 1F)
 STR_REFIT_LIVERY_HEMU_430X_2F                       :(HEMU-430X 2F)
 STR_REFIT_LIVERY_HYEL_100_SRT                       :(SRT)
 STR_REFIT_LIVERY_HYEL_100_SanCheon                  :(SanCheon)
+STR_REFIT_LIVERY_Eco_Rail_Passenger_Car             :(Eco Rail Passenger Car)
+STR_REFIT_LIVERY_CY_GW_Passenger_Car                :(Chungbuk Yeongdong Gugak & Wine Passenger Car)
+STR_REFIT_LIVERY_JA_a_Old_Passenger_Car             :(Jeongseon Arirang Old Color)
+STR_REFIT_LIVERY_JA_a_New_Passenger_Car             :(Jeongseon Arirang New Color)
+STR_REFIT_LIVERY_E_Train_Passenger_Car              :(E-Train)
+STR_REFIT_LIVERY_Wine_Panax_Passenger_Car           :(wine Panax Train)
+STR_REFIT_LIVERY_wine_Cinema_Passenger_Car          :(wine Cinema Train)
+STR_REFIT_LIVERY_Lady_Bird_Passenger_Car            :(Lady Bird)
+STR_REFIT_LIVERY_S_Train_New_Passenger_Car          :(S-Train)
+STR_REFIT_LIVERY_A_Train_New_Passenger_Car          :(A-Train)
+STR_REFIT_LIVERY_G_Train_New_Passenger_Car          :(G-Train)
 STR_REFIT_LIVERY_Korean_2F_SR_Passenger_Car         :(SR Color)
 STR_REFIT_LIVERY_Korean_2F_Taegeuk_Passenger_Car    :(Taegeuk Color)
-
-STR_REFIT_LIVERY_HYEL_300                           :(HYEL-300)
-STR_REFIT_LIVERY_HYEL_300_SB                        :(HYEL-300 Sea Livery)
+STR_REFIT_LIVERY_Eco_Rail_Generatar_Car             :(Generatar Car)
+STR_REFIT_LIVERY_CY_GW_Generatar_Car                :(Chungbuk Yeongdong Gugak & Wine Generatar Car)
+STR_REFIT_LIVERY_JA_a_Old_Generatar_Car             :(Jeongseon Arirang Old Color)
+STR_REFIT_LIVERY_JA_a_New_Generatar_Car             :(Jeongseon Arirang New Color)
+STR_REFIT_LIVERY_Lady_Bird_Generatar_Car            :(Lady Bird)
+STR_REFIT_LIVERY_S_Train_New_Generatar_Car          :(S-Train)
+STR_REFIT_LIVERY_A_Train_New_Generatar_Car          :(A-Train)
+STR_REFIT_LIVERY_G_Train_New_Generatar_Car          :(G-Train)
 
 STR_REFIT_LIVERY_ITX_SM2_C                          :(ITX-Saemaeul DD Company Color)
 STR_REFIT_LIVERY_ITX_SM2_G                          :(ITX-Saemaeul DD Green Color)
@@ -242,25 +269,6 @@ STR_REFIT_LIVERY_NRT2_Old_W                         :(Nuriro DD Old White Color)
 STR_REFIT_LIVERY_NRT2_New_W                         :(Nuriro DD New White Color)
 STR_REFIT_LIVERY_NRT2_Old_OT                        :(Nuriro DD O-train Livery)
 STR_REFIT_LIVERY_NRT2_New_ITX                       :(Nuriro DD ITX Livery)
-STR_REFIT_LIVERY_Eco_Rail_Passenger_Car             :(Eco Rail Passenger Car)
-STR_REFIT_LIVERY_CY_GW_Passenger_Car                :(Chungbuk Yeongdong Gugak & Wine Passenger Car)
-STR_REFIT_LIVERY_JA_a_Old_Passenger_Car             :(Jeongseon Arirang Old Color)
-STR_REFIT_LIVERY_JA_a_New_Passenger_Car             :(Jeongseon Arirang New Color)
-STR_REFIT_LIVERY_E_Train_Passenger_Car              :(E-Train)
-STR_REFIT_LIVERY_Wine_Panax_Passenger_Car           :(wine Panax Train)
-STR_REFIT_LIVERY_wine_Cinema_Passenger_Car          :(wine Cinema Train)
-STR_REFIT_LIVERY_Lady_Bird_Passenger_Car            :(Lady Bird)
-STR_REFIT_LIVERY_S_Train_New_Passenger_Car          :(S-Train)
-STR_REFIT_LIVERY_A_Train_New_Passenger_Car          :(A-Train)
-STR_REFIT_LIVERY_G_Train_New_Passenger_Car          :(G-Train)
-STR_REFIT_LIVERY_Eco_Rail_Generatar_Car             :(Generatar Car)
-STR_REFIT_LIVERY_CY_GW_Generatar_Car                :(Chungbuk Yeongdong Gugak & Wine Generatar Car)
-STR_REFIT_LIVERY_JA_a_Old_Generatar_Car             :(Jeongseon Arirang Old Color)
-STR_REFIT_LIVERY_JA_a_New_Generatar_Car             :(Jeongseon Arirang New Color)
-STR_REFIT_LIVERY_Lady_Bird_Generatar_Car            :(Lady Bird)
-STR_REFIT_LIVERY_S_Train_New_Generatar_Car          :(S-Train)
-STR_REFIT_LIVERY_A_Train_New_Generatar_Car          :(A-Train)
-STR_REFIT_LIVERY_G_Train_New_Generatar_Car          :(G-Train)
 STR_REFIT_LIVERY_Eco_Rail_Luggage_Car               :(Eco Rail Luggage Car)
 STR_REFIT_LIVERY_CY_GW_Luggage_Car                  :(Chungbuk Yeongdong Gugak & Wine Luggage Car)
 STR_REFIT_LIVERY_Travel_8500_A_train                :(A-Train)

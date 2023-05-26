@@ -1,21 +1,21 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Generatar_Car_purchase, "src/Graphic/Generatar_Car.png"){
+spriteset(set_CGeneratar_Car_purchase, "src/Graphic/CGeneratar_Car.png"){
     tmpl_wagon_purchase(0, 0)
 }
 
-spriteset(set_Generatar_Car_White, "src/Graphic/Generatar_Car.png") {
+spriteset(set_CGeneratar_Car_White, "src/Graphic/CGeneratar_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_Generatar_Car_Green, "src/Graphic/Generatar_Car.png") {
+spriteset(set_CGeneratar_Car_Green, "src/Graphic/CGeneratar_Car.png") {
     wagon_1F_F(80, 27)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_Generatar_Car_purchase, cargo_subtype) {
-    set_Generatar_Car_purchase;
+switch(FEAT_TRAINS, SELF, sw_CGeneratar_Car_purchase, cargo_subtype) {
+    set_CGeneratar_Car_purchase;
 }

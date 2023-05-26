@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_GT26CW_purchase, "src/Graphic/GT26CW.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_GT26CW_engine, "src/Graphic/GT26CW.png"){
+    engine(80, 0)
+}
+
+spriteset(set_GT26CW_CL_engine, "src/Graphic/GT26CW.png"){
+    engine(80, 27)
+}
+
+spriteset(set_GT26CW_World_engine, "src/Graphic/GT26CW.png"){
+    engine(80, 54)
+}
+
+spriteset(set_GT26CW_CY_GW_engine, "src/Graphic/GT26CW.png"){
+    engine(80, 81)
+}
+
+spriteset(set_GT26CW_LB_engine, "src/Graphic/GT26CW.png"){
+    engine(80, 108)
+}
+
+spriteset(set_GT26CW_ST_engine, "src/Graphic/GT26CW.png"){
+    engine(80, 135)
+}
+
+spriteset(set_GT26CW_G_engine, "src/Graphic/GT26CW.png"){
+    engine(80, 162)
+}
+
+/*-------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_GT26CW_purchase, cargo_subtype) {
+	set_GT26CW_purchase;
+}

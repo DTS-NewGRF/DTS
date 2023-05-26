@@ -2,12 +2,14 @@
 #include "Code/Passenger_wagon/passenger_wagon.pnml"
 #include "Code/ESPassenger_wagon/ESPassenger_wagon.pnml"
 #include "Code/CSPassenger_wagon/CSPassenger_wagon.pnml"
+#include "Code/KSPassenger_wagon/KSPassenger_wagon.pnml"
 #include "Code/CTX_Freight_Car/CTX_Freight_Car.pnml"
 #include "Code/DFX_Freight_Car/DFX_Freight_Car.pnml"
 #include "Code/Flat_car/Flat_1F_Car/Flat_1F_Car.pnml"
 #include "Code/Flat_car/Flat_2F_Car/Flat_2F_Car.pnml"
 #include "Code/Flat_car/Flat_Tank_Car/Flat_Tank_Car.pnml"
-#include "Code/Generatar_Car/Generatar_Car.pnml"
+#include "Code/CGeneratar_Car/CGeneratar_Car.pnml"
+#include "Code/KGeneratar_Car/KGeneratar_Car.pnml"
 
 #include "wagon/Luggage_Car/Luggage_Car.pnml"
 
@@ -37,6 +39,7 @@
 #include "Code/EMU260_DD/EMU260_DD.pnml"
 #include "Code/EMU320/EMU320.pnml"
 #include "Code/EMU320_DD/EMU320_DD.pnml"
+#include "Code/GT26CW/GT26CW.pnml"
 #include "Code/GTX/GTX.pnml"
 #include "Code/H2_WJ/H2_WJ.pnml"
 #include "Code/HEMU_430X/HEMU_430X.pnml"
@@ -70,6 +73,7 @@ if (Chinese) {
     disable_item(FEAT_TRAINS, 2013); //CRH380A
     disable_item(FEAT_TRAINS, 2014); //CRH380AJ
     disable_item(FEAT_TRAINS, 2015); //CRH380D
+    disable_item(FEAT_TRAINS, 2032); //CGeneratar_Car
     disable_item(FEAT_TRAINS, 2037); //HXD3C
     disable_item(FEAT_TRAINS, 2043); //DTS_CSPassenger_Car
     }
@@ -108,6 +112,8 @@ if (Korea) {
     disable_item(FEAT_TRAINS, 2034); //H2_WJ
     disable_item(FEAT_TRAINS, 2035); //HEMU_430X
     disable_item(FEAT_TRAINS, 2036); //HSR_350X
+    disable_item(FEAT_TRAINS, 2044); //DTS_KSPassenger_Car
+    disable_item(FEAT_TRAINS, 2046); //KGeneratar_Car
     }
 
 if (world) {

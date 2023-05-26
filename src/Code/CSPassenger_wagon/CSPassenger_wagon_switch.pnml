@@ -8,8 +8,6 @@ switch(FEAT_TRAINS, SELF, sw_CSPassenger_cargo_subtype_text, cargo_subtype) {
     4: return string(STR_REFIT_LIVERY_Chinese_25_Type_3nd_Bed_Car);          // 중국형 25형 3등석 침대차
     5: return string(STR_REFIT_LIVERY_Chinese_25_Type_2nd_Bed_Car);          // 중국형 25형 2등석 침대차
     6: return string(STR_REFIT_LIVERY_Chinese_25_Type_1nd_Bed_Car);         // 중국형 25형 1등석 침대차
-    11: return string(STR_REFIT_LIVERY_Korean_2F_SR_Passenger_Car);          // 한국형 2층 SR
-    12: return string(STR_REFIT_LIVERY_Korean_2F_Taegeuk_Passenger_Car);     // 한국형 2층 태극
     return string(STR_REFIT_LIVERY_Chinese_25_Type_Red_Passenger_Car);
 }
 
@@ -20,8 +18,6 @@ switch(FEAT_TRAINS, SELF, sw_CSPassenger_wagon, cargo_subtype) {
     4: set_Chinese_25_Type_3nd_Bed_wagon;      // 중국형 25형 3등석 침대차
     5: set_Chinese_25_Type_2nd_Bed_wagon;      // 중국형 25형 2등석 침대차
     6: set_Chinese_25_Type_1nd_Bed_wagon;     // 중국형 25형 1등석 침대차
-    11: set_Korean_2F_passenger_wagon;         // 한국형 2층 SR
-    12: set_Korean_2F_Taegeuk_passenger_wagon; // 한국형 2층 태극
     set_Chinese_25_Type_Red_wagon;
 }
 

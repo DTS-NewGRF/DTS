@@ -2,17 +2,17 @@
 YFX
 --------------------------------------------------------------------*/
 // Graphics
-#include "Generatar_Car_graphic.pnml"
+#include "CGeneratar_Car_graphic.pnml"
 
 // Switch
-#include "Generatar_Car_switch.pnml"
+#include "CGeneratar_Car_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Generatar_Car, 2032){
+item(FEAT_TRAINS, CGeneratar_Car, 2032){
     property {
-        name:                           string(STR_Generatar_Car_NAME);
+        name:                           string(STR_CGeneratar_Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1967, 1, 1);
         track_type:                     RAIL;
@@ -46,13 +46,13 @@ item(FEAT_TRAINS, Generatar_Car, 2032){
         }
 
 	graphics {
-        default:                        sw_Generatar_wagon;
-        purchase:                       sw_Generatar_Car_purchase;
+        default:                        sw_CGeneratar_wagon;
+        purchase:                       sw_CGeneratar_Car_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_capacity:                 0;
-        cargo_subtype_text:             sw_Generatar_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Generatar);
+        cargo_subtype_text:             sw_CGeneratar_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_CGeneratar);
         }
         }
