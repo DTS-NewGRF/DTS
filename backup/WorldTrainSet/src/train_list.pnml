@@ -1,7 +1,3 @@
-//wagon
-#include "wagon/Flat_2F_Car/Flat_2F_Car.pnml"
-#include "wagon/passenger_wagon/passenger_wagon_all.pnml"
-
 //locomotive
 #include "locomotive/GT26CW/GT26CW.pnml"
 #include "locomotive/NHSRCL_E5/NHSRCL_E5.pnml"
@@ -9,7 +5,3 @@
 #include "locomotive/THSR_700T/THSR_700T.pnml"
 #include "locomotive/AL_BORAQ/Al_Boraq.pnml"
 #include "locomotive/Talgo_350_SRO/Talgo_350_SRO.pnml"
-#include "locomotive/Avelia_Liberty/Avelia_Liberty.pnml"
-
-// Sorting
-#include "sort.pnml"

@@ -24,7 +24,6 @@ STR_MTR_IKK_SP_1900_NAME                            :[CTS] MTR IKK SP 1900
 
 # wagon's name
 STR_CTS_SPASS_NAME                                  :[CTS] carriage-type passenger car
-STR_Generatar_Car_NAME                              :[CTS] Generatar Car
 STR_Luggage_Car_NAME                                :[CTS] Luggage Car
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
@@ -55,8 +54,6 @@ STR_REFIT_LIVERY_Swagon_2F                          :(25 Type 2F Car)
 STR_REFIT_LIVERY_Swagon_Bed_3nd                     :(25 Type 3nd Bed Car)
 STR_REFIT_LIVERY_Swagon_Bed_2nd                     :(25 Type 2nd Bed Car)
 STR_REFIT_LIVERY_Swagon_Bed_1nd                     :(25 Type 1nd Bed Car)
-STR_REFIT_LIVERY_Generatar_Car_White                :(Generatar White Car)
-STR_REFIT_LIVERY_Generatar_Car_Green                :(Generatar Green Car)
 STR_REFIT_LIVERY_Luggage_Car_Red                    :(Luggage Red Car)
 STR_REFIT_LIVERY_Luggage_Car_Green                  :(Luggage Green Car)
 STR_REFIT_LIVERY_Luggage_Car_WhiteA                 :(Luggage WhiteA Car)

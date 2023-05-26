@@ -15,9 +15,6 @@ STR_Renfe_S_130_NAME                                :[WTS] 아프로시욥
 STR_Al_Boraq_NAME                                   :[WTS] 알 보라크
 STR_Talgo_350_SRO_NAME                              :[WTS] 탈고 350 SRO (하라마인 고속철도)
 
-# wagon's name
-STR_FLAT_2F_NAME                                    :[WTS] 평판화차 - 미국형
-
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}GT26CW
 STR_REFIT_ADDITIONAL_NHSRCL_E5                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}NHSRCL E5

@@ -58,8 +58,8 @@ STR_DFX_Freight_Car_NAME                            :[DTS] DFX Freight Car
 STR_FLAT_1F_NAME                                    :[DTS] Flat Car
 STR_FLAT_2F_NAME                                    :[DTS] American Flat Car
 STR_FLAT_Tank_NAME                                  :[DTS] Flat Tank Car
-
 STR_Generatar_Car_NAME                              :[DTS] Generatar Car
+
 STR_Luggage_Car_NAME                                :[DTS] Luggage Car
 
 # Parameters
@@ -135,8 +135,8 @@ STR_REFIT_train_configuration_DFX_Freight           :{BLACK}train configuration:
 STR_REFIT_train_configuration_Flat_1F_Freight       :{BLACK}train configuration: {GREEN}Flat Freight vehicles
 STR_REFIT_train_configuration_Flat_2F_Freight       :{BLACK}train configuration: {GREEN}American Flat Freight vehicles
 STR_REFIT_train_configuration_Flat_Tank_Freight     :{BLACK}train configuration: {GREEN}Flat Tank Freight vehicles
-
 STR_REFIT_train_configuration_Generatar             :{BLACK}train configuration: {GREEN}Generatar vehicles
+
 STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
 
 # Liveries
@@ -190,6 +190,8 @@ STR_REFIT_LIVERY_EMU320_THSR                        :(EMU-320 THSR)
 STR_REFIT_LIVERY_Flat                               :(Flat Nomal Car)
 STR_REFIT_LIVERY_Flat_Trailer                       :(Flat Trailer Car Company Color)
 STR_REFIT_LIVERY_Flat_Trailer_2cc                   :(Flat Trailer Car 2cc Color)
+STR_REFIT_LIVERY_Generatar_Car_White                :(Generatar White Car)
+STR_REFIT_LIVERY_Generatar_Car_Green                :(Generatar Green Car)
 
 STR_REFIT_LIVERY_GT26CW_Korail                      :(Korail)
 STR_REFIT_LIVERY_GT26CW_CL                          :(CL)

@@ -24,7 +24,6 @@ STR_MTR_IKK_SP_1900_NAME                            :[CTS] 홍콩 MTR IKK SP 190
 
 # wagon's name
 STR_CTS_SPASS_NAME                                  :[CTS] 객차형 수송 차량
-STR_Generatar_Car_NAME                              :[CTS] 발전차
 STR_Luggage_Car_NAME                                :[CTS] 수화물차
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
@@ -55,8 +54,6 @@ STR_REFIT_LIVERY_Swagon_2F                          :(25형 2층)
 STR_REFIT_LIVERY_Swagon_Bed_3nd                     :(25형 3등석 침대차량)
 STR_REFIT_LIVERY_Swagon_Bed_2nd                     :(25형 2등석 침대차량)
 STR_REFIT_LIVERY_Swagon_Bed_1nd                     :(25형 1등석 침대차량)
-STR_REFIT_LIVERY_Generatar_Car_White                :(발전차 흰색도색)
-STR_REFIT_LIVERY_Generatar_Car_Green                :(발전차 녹색도색)
 STR_REFIT_LIVERY_Luggage_Car_Red                    :(수화물차 빨강도색)
 STR_REFIT_LIVERY_Luggage_Car_Green                  :(수화물차 녹색도색)
 STR_REFIT_LIVERY_Luggage_Car_WhiteA                 :(수화물차 흰색도색 A)
