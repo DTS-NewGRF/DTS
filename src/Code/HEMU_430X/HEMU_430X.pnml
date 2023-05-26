@@ -10,7 +10,7 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HEMU_430X, 1068){
+item(FEAT_TRAINS, HEMU_430X, 2035){
     property {
         name:                           string(STR_HEMU_430X_NAME);
         climates_available:             ALL_CLIMATES;

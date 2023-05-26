@@ -34,9 +34,9 @@ STR_EMU320_NAME                                     :[DTS] EMU-320
 STR_EMU320_DD_NAME                                  :[DTS] EMU-320 DD
 STR_GTX_NAME                                        :[DTS] GTX
 STR_H2_WJ_NAME                                      :[DTS] H2 by WOOJIN
+STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X
 
 STR_GT26CW_NAME                                     :[DTS] GT26CW
-STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X
 STR_HSR_350X_NAME                                   :[DTS] HSR-350X
 STR_ICE_CW_NAME                                     :[DTS] ITX-Chowol
 STR_ITX_SM2_NAME                                    :[DTS] ITX-Saemaeul DD
@@ -114,9 +114,9 @@ STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
 STR_REFIT_ADDITIONAL_GTX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}GTX
 STR_REFIT_ADDITIONAL_H2_WJ                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}H2 WJ
+STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HEMU-430X
 
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}GT26CW
-STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HEMU-430X
 STR_REFIT_ADDITIONAL_HSR_350X                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HSR-350X
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Chowol
 STR_REFIT_ADDITIONAL_ITX_SM2                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Saemaeul DD
@@ -192,6 +192,8 @@ STR_REFIT_LIVERY_Flat_Trailer                       :(Flat Trailer Car Company C
 STR_REFIT_LIVERY_Flat_Trailer_2cc                   :(Flat Trailer Car 2cc Color)
 STR_REFIT_LIVERY_Generatar_Car_White                :(Generatar White Car)
 STR_REFIT_LIVERY_Generatar_Car_Green                :(Generatar Green Car)
+STR_REFIT_LIVERY_HEMU_430X_1F                       :(HEMU-430X 1F)
+STR_REFIT_LIVERY_HEMU_430X_2F                       :(HEMU-430X 2F)
 
 STR_REFIT_LIVERY_GT26CW_Korail                      :(Korail)
 STR_REFIT_LIVERY_GT26CW_CL                          :(CL)
@@ -199,8 +201,6 @@ STR_REFIT_LIVERY_GT26CW_CY_GW                       :(Chungbuk Yeongdong Gugak &
 STR_REFIT_LIVERY_GT26CW_LB                          :(Lady Bird)
 STR_REFIT_LIVERY_GT26CW_ST                          :(S-Train)
 STR_REFIT_LIVERY_GT26CW_G                           :(G-Train)
-STR_REFIT_LIVERY_HEMU_430X_1F                       :(HEMU-430X 1F)
-STR_REFIT_LIVERY_HEMU_430X_2F                       :(HEMU-430X 2F)
 STR_REFIT_LIVERY_ITX_SM2_C                          :(ITX-Saemaeul DD Company Color)
 STR_REFIT_LIVERY_ITX_SM2_G                          :(ITX-Saemaeul DD Green Color)
 STR_REFIT_LIVERY_ITX_SM2_R                          :(ITX-Saemaeul DD Red Color)

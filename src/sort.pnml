@@ -29,10 +29,10 @@ sort(FEAT_TRAINS, [
     EMU320_DD,                 //2028
     GTX,                       //2033
     H2_WJ,                     //2034
+    HEMU_430X,                 //2035
 
     HSR_350X,                  //1069
     TTX,                       //1134
-    HEMU_430X,                 //1068
     Standard_Metro,            //1122
     VHST_600X,                 //1135
     KTX_SC,                    //1131

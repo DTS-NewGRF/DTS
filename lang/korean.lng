@@ -34,9 +34,9 @@ STR_EMU320_NAME                                     :[DTS] EMU-320
 STR_EMU320_DD_NAME                                  :[DTS] EMU-320 DD
 STR_GTX_NAME                                        :[DTS] GTX
 STR_H2_WJ_NAME                                      :[DTS] 우진산전 수소연료전지동차
+STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X (해무)
 
 STR_GT26CW_NAME                                     :[임시추가] 7100·7200·7300·7400·7500호대 디젤기관차
-STR_HEMU_430X_NAME                                  :[임시추가] HEMU-430X (해무)
 STR_HSR_350X_NAME                                   :[임시추가] HSR-350X
 STR_ICE_CW_NAME                                     :[임시추가] ITX-초월
 STR_ITX_SM2_NAME                                    :[임시추가] ITX-새마을 Max
@@ -114,9 +114,9 @@ STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
 STR_REFIT_ADDITIONAL_GTX                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}GTX
 STR_REFIT_ADDITIONAL_H2_WJ                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}H2 WJ
+STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}HEMU-430X
 
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}한국 열차 세트의 관광열차 부분을 보완하기 위한 디젤기관차
-STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2012년에 제작된 기술실험용으로 개발된 고속열차
 STR_REFIT_ADDITIONAL_HSR_350X                       :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2002년에 제작된 기술실험용으로 개발된 고속열차
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}ITX-청춘을 2층으로 확장한 컨셉열차
 STR_REFIT_ADDITIONAL_ITX_SM2                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}ITX-새마을을 2층으로 확장한 컨셉열차
@@ -192,6 +192,8 @@ STR_REFIT_LIVERY_Flat_Trailer                       :(평판화차 패기형 회
 STR_REFIT_LIVERY_Flat_Trailer_2cc                   :(평판화차 패기형 2cc 색상)
 STR_REFIT_LIVERY_Generatar_Car_White                :(발전차 흰색도색)
 STR_REFIT_LIVERY_Generatar_Car_Green                :(발전차 녹색도색)
+STR_REFIT_LIVERY_HEMU_430X_1F                       :(HEMU-430X 1층)
+STR_REFIT_LIVERY_HEMU_430X_2F                       :(HEMU-430X 2층)
 
 STR_REFIT_LIVERY_GT26CW_Korail                      :(코레일)
 STR_REFIT_LIVERY_GT26CW_CL                          :(철도청)
@@ -199,8 +201,6 @@ STR_REFIT_LIVERY_GT26CW_CY_GW                       :(충북영동국악와인)
 STR_REFIT_LIVERY_GT26CW_LB                          :(레이디버드)
 STR_REFIT_LIVERY_GT26CW_ST                          :(S-Train)
 STR_REFIT_LIVERY_GT26CW_G                           :(G-Train)
-STR_REFIT_LIVERY_HEMU_430X_1F                       :(HEMU-430X 1층)
-STR_REFIT_LIVERY_HEMU_430X_2F                       :(HEMU-430X 2층)
 STR_REFIT_LIVERY_ITX_SM2_C                          :(ITX-새마을 DD 회사색상)
 STR_REFIT_LIVERY_ITX_SM2_G                          :(ITX-새마을 DD 녹색도색)
 STR_REFIT_LIVERY_ITX_SM2_R                          :(ITX-새마을 DD 빨강도색)
