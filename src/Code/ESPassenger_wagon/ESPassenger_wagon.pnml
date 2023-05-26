@@ -2,17 +2,17 @@
 객차형 승객 차량
 --------------------------------------------------------------------*/
 // Graphics
-#include "SPassenger_wagon_graphic.pnml"
+#include "ESPassenger_wagon_graphic.pnml"
 
 // Switch
-#include "SPassenger_wagon_switch.pnml"
+#include "ESPassenger_wagon_switch.pnml"
 
 /*--------------------------------------------------------------------
 객차형 승객 차량
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, DTS_SPassenger_Car, 2007){
+item (FEAT_TRAINS, DTS_ESPassenger_Car, 2007){
     property {
-        name:                           string(STR_DTS_SPASS_NAME);
+        name:                           string(STR_DTS_ESPASS_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1971, 1, 1);
         track_type:                     RAIL;
@@ -46,13 +46,13 @@ item (FEAT_TRAINS, DTS_SPassenger_Car, 2007){
 	}
 
     graphics {
-		default:						sw_SPassenger_wagon;
-		purchase:						sw_SPassenger_wagon_purchase;
-        cargo_capacity:                 sw_SPassenger_wagon_capacity_in_custom;
+		default:						sw_ESPassenger_wagon;
+		purchase:						sw_ESPassenger_wagon_purchase;
+        cargo_capacity:                 sw_ESPassenger_wagon_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_SPassenger_cargo_subtype_text;
+        cargo_subtype_text:             sw_ESPassenger_cargo_subtype_text;
 		additional_text:                string(STR_REFIT_train_configuration_SPassenger);
         }
 	}

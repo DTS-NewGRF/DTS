@@ -57,8 +57,8 @@ STR_VHST_600X_NAME                                  :[임시추가] VHST-600X
 STR_Standard_Metro_NAME                             :[임시추가] 한국형 표준전동차
 
 # wagon's name
-STR_DTS_PASS_NAME                                   :[DTS] 승객 수송 차량
-STR_DTS_SPASS_NAME                                  :[DTS] 객차형 승객 수송 차량
+STR_DTS_PASS_NAME                                   :[DTS] 승객 차량
+STR_DTS_ESPASS_NAME                                 :[DTS] 유럽 객차형 승객 차량
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX용 화물 수송 차량
 STR_DFX_Freight_Car_NAME                            :[DTS] DFX용 화물 수송 차량
 STR_FLAT_1F_NAME                                    :[DTS] 평판화차
@@ -217,17 +217,6 @@ STR_REFIT_LIVERY_HYEL_100_SRT                       :(SRT)
 STR_REFIT_LIVERY_HYEL_100_SanCheon                  :(산천)
 STR_REFIT_LIVERY_Korean_2F_SR_Passenger_Car         :(SR 도색)
 STR_REFIT_LIVERY_Korean_2F_Taegeuk_Passenger_Car    :(태극 도색)
-STR_REFIT_LIVERY_Eco_Rail_Passenger_Car             :(에코레일)
-STR_REFIT_LIVERY_CY_GW_Passenger_Car                :(충북영동국악와인)
-STR_REFIT_LIVERY_JA_a_Old_Passenger_Car             :(정선아리랑 유람열차 구도색)
-STR_REFIT_LIVERY_JA_a_New_Passenger_Car             :(정선아리랑 유람열차 신도색)
-STR_REFIT_LIVERY_E_Train_Passenger_Car              :(E-Train)
-STR_REFIT_LIVERY_Wine_Panax_Passenger_Car           :(와인인삼트레인)
-STR_REFIT_LIVERY_wine_Cinema_Passenger_Car          :(와인시네마트레인)
-STR_REFIT_LIVERY_Lady_Bird_Passenger_Car            :(레이디 버드)
-STR_REFIT_LIVERY_S_Train_New_Passenger_Car          :(S-Train)
-STR_REFIT_LIVERY_A_Train_New_Passenger_Car          :(A-Train)
-STR_REFIT_LIVERY_G_Train_New_Passenger_Car          :(G-Train)
 
 STR_REFIT_LIVERY_ITX_SM2_C                          :(ITX-새마을 DD 회사색상)
 STR_REFIT_LIVERY_ITX_SM2_G                          :(ITX-새마을 DD 녹색도색)

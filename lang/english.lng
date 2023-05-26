@@ -58,7 +58,7 @@ STR_Standard_Metro_NAME                             :[DTS] Standard Metro
 
 # wagon's name
 STR_DTS_PASS_NAME                                   :[DTS] Passenger car
-STR_DTS_SPASS_NAME                                  :[DTS] carriage-type passenger car
+STR_DTS_ESPASS_NAME                                 :[DTS] European carriage-type passenger car
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX Freight Car
 STR_DFX_Freight_Car_NAME                            :[DTS] DFX Freight Car
 STR_FLAT_1F_NAME                                    :[DTS] Flat Car
@@ -217,17 +217,6 @@ STR_REFIT_LIVERY_HYEL_100_SRT                       :(SRT)
 STR_REFIT_LIVERY_HYEL_100_SanCheon                  :(SanCheon)
 STR_REFIT_LIVERY_Korean_2F_SR_Passenger_Car         :(SR Color)
 STR_REFIT_LIVERY_Korean_2F_Taegeuk_Passenger_Car    :(Taegeuk Color)
-STR_REFIT_LIVERY_Eco_Rail_Passenger_Car             :(Eco Rail Passenger Car)
-STR_REFIT_LIVERY_CY_GW_Passenger_Car                :(Chungbuk Yeongdong Gugak & Wine Passenger Car)
-STR_REFIT_LIVERY_JA_a_Old_Passenger_Car             :(Jeongseon Arirang Old Color)
-STR_REFIT_LIVERY_JA_a_New_Passenger_Car             :(Jeongseon Arirang New Color)
-STR_REFIT_LIVERY_E_Train_Passenger_Car              :(E-Train)
-STR_REFIT_LIVERY_Wine_Panax_Passenger_Car           :(wine Panax Train)
-STR_REFIT_LIVERY_wine_Cinema_Passenger_Car          :(wine Cinema Train)
-STR_REFIT_LIVERY_Lady_Bird_Passenger_Car            :(Lady Bird)
-STR_REFIT_LIVERY_S_Train_New_Passenger_Car          :(S-Train)
-STR_REFIT_LIVERY_A_Train_New_Passenger_Car          :(A-Train)
-STR_REFIT_LIVERY_G_Train_New_Passenger_Car          :(G-Train)
 
 STR_REFIT_LIVERY_HYEL_300                           :(HYEL-300)
 STR_REFIT_LIVERY_HYEL_300_SB                        :(HYEL-300 Sea Livery)

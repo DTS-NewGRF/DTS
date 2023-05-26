@@ -1,26 +1,26 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_SPassenger_wagon_purchase, "src/Graphic/SPassenger_wagon/EPassenger_wagon.png"){
+spriteset(set_ESPassenger_wagon_purchase, "src/Graphic/ESPassenger_wagon.png"){
 	tmpl_wagon_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. 유럽형 객차 승객 차량
 --------------------------------------------------------------------*/
-spriteset(set_European_Type_1nd_wagon, "src/Graphic/SPassenger_wagon/EPassenger_wagon.png") {
+spriteset(set_European_Type_1nd_wagon, "src/Graphic/ESPassenger_wagon.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_European_Type_2nd_wagon, "src/Graphic/SPassenger_wagon/EPassenger_wagon.png") {
+spriteset(set_European_Type_2nd_wagon, "src/Graphic/ESPassenger_wagon.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_European_Type_Bar_wagon, "src/Graphic/SPassenger_wagon/EPassenger_wagon.png") {
+spriteset(set_European_Type_Bar_wagon, "src/Graphic/ESPassenger_wagon.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_European_Type_HF_wagon, "src/Graphic/SPassenger_wagon/EPassenger_wagon.png") {
+spriteset(set_European_Type_HF_wagon, "src/Graphic/ESPassenger_wagon.png") {
     wagon_1F_F(80, 81)
 }
 
@@ -80,6 +80,6 @@ alternative_sprites(set_Korean_2F_Taegeuk_passenger_wagon, ZOOM_LEVEL_NORMAL, BI
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_SPassenger_wagon_purchase, cargo_subtype) {
-    set_SPassenger_wagon_purchase;
+switch(FEAT_TRAINS, SELF, sw_ESPassenger_wagon_purchase, cargo_subtype) {
+    set_ESPassenger_wagon_purchase;
 }

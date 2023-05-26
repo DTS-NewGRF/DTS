@@ -83,6 +83,7 @@ if (Hong_Kong) {
 if (European) {
     disable_item(FEAT_TRAINS, 2002); //AGV
     disable_item(FEAT_TRAINS, 2006); //BB15000
+    disable_item(FEAT_TRAINS, 2007); //DTS_ESPassenger_Car
     disable_item(FEAT_TRAINS, 2022); //Eurostar_E300
     }
 
