@@ -8,7 +8,6 @@ STR_GRF_URL                                      :https://github.com/GBLINER/Wor
 
 
 # locomotive's name
-STR_GT26CW_NAME                                     :[WTS] GT26CW
 STR_NHSRCL_E5_NAME                                  :[WTS] NHSRCL E5
 STR_NSW_TrainLink_D_NAME                            :[WTS] NSW TrainLink D
 STR_THSR_700T_NAME                                  :[WTS] THSR 700T
@@ -17,7 +16,6 @@ STR_Al_Boraq_NAME                                   :[WTS] Al-Boraq
 STR_Talgo_350_SRO_NAME                              :[WTS] Talgo 350 SRO
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
-STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_NHSRCL_E5                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NHSRCL E5
 STR_REFIT_ADDITIONAL_NSW_TrainLink_D                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NSW TrainLink D
 STR_REFIT_ADDITIONAL_THSR_700T                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
