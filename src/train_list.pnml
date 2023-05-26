@@ -1,6 +1,7 @@
 //wagon
 #include "Code/Passenger_wagon/passenger_wagon.pnml"
 #include "Code/ESPassenger_wagon/ESPassenger_wagon.pnml"
+#include "Code/CSPassenger_wagon/CSPassenger_wagon.pnml"
 #include "Code/CTX_Freight_Car/CTX_Freight_Car.pnml"
 #include "Code/DFX_Freight_Car/DFX_Freight_Car.pnml"
 #include "Code/Flat_car/Flat_1F_Car/Flat_1F_Car.pnml"
@@ -70,6 +71,7 @@ if (Chinese) {
     disable_item(FEAT_TRAINS, 2014); //CRH380AJ
     disable_item(FEAT_TRAINS, 2015); //CRH380D
     disable_item(FEAT_TRAINS, 2037); //HXD3C
+    disable_item(FEAT_TRAINS, 2043); //DTS_CSPassenger_Car
     }
 
 if (Hong_Kong) {

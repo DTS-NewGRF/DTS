@@ -59,6 +59,7 @@ STR_Standard_Metro_NAME                             :[DTS] Standard Metro
 # wagon's name
 STR_DTS_PASS_NAME                                   :[DTS] Passenger car
 STR_DTS_ESPASS_NAME                                 :[DTS] European carriage-type passenger car
+STR_DTS_CSPASS_NAME                                 :[DTS] Chinese carriage-type passenger car
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX Freight Car
 STR_DFX_Freight_Car_NAME                            :[DTS] DFX Freight Car
 STR_FLAT_1F_NAME                                    :[DTS] Flat Car
@@ -141,7 +142,8 @@ STR_REFIT_ADDITIONAL_VHST_600X                      :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
 
 STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
-STR_REFIT_train_configuration_SPassenger            :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
+STR_REFIT_train_configuration_ESPassenger           :{BLACK}train configuration: {GREEN}European carriage-type Passenger vehicles
+STR_REFIT_train_configuration_CSPassenger           :{BLACK}train configuration: {GREEN}Chinese carriage-type Passenger vehicles
 STR_REFIT_train_configuration_CTX_Freight           :{BLACK}train configuration: {GREEN}CTX Freight vehicles
 STR_REFIT_train_configuration_DFX_Freight           :{BLACK}train configuration: {GREEN}DFX Freight vehicles
 STR_REFIT_train_configuration_Flat_1F_Freight       :{BLACK}train configuration: {GREEN}Flat Freight vehicles

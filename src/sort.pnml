@@ -50,6 +50,7 @@ sort(FEAT_TRAINS, [
     
     DTS_Passenger_Car,         //2000
     DTS_ESPassenger_Car,       //2007
+    DTS_CSPassenger_Car,       //2043
     CTX_Freight_Car,           //2018
     DFX_Freight_Car,           //2021
     FLAT_1F,                   //2029

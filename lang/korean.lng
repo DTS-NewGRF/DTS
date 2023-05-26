@@ -59,6 +59,7 @@ STR_Standard_Metro_NAME                             :[임시추가] 한국형 �
 # wagon's name
 STR_DTS_PASS_NAME                                   :[DTS] 승객 차량
 STR_DTS_ESPASS_NAME                                 :[DTS] 유럽 객차형 승객 차량
+STR_DTS_CSPASS_NAME                                 :[DTS] 중국 객차형 승객 차량
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX용 화물 수송 차량
 STR_DFX_Freight_Car_NAME                            :[DTS] DFX용 화물 수송 차량
 STR_FLAT_1F_NAME                                    :[DTS] 평판화차
@@ -141,7 +142,8 @@ STR_REFIT_ADDITIONAL_VHST_600X                      :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}1999년에 개발된 도시철도 표준 전동차
 
 STR_REFIT_train_configuration_Passenger             :{BLACK}열차구성: {GREEN}승객 차량용
-STR_REFIT_train_configuration_SPassenger            :{BLACK}열차구성: {GREEN}객차형 승객 차량용
+STR_REFIT_train_configuration_ESPassenger           :{BLACK}열차구성: {GREEN}유럽 객차형 승객 차량용
+STR_REFIT_train_configuration_CSPassenger           :{BLACK}열차구성: {GREEN}중국 객차형 승객 차량용
 STR_REFIT_train_configuration_CTX                   :{BLACK}열차구성: {GREEN}CTX용 화물차량
 STR_REFIT_train_configuration_DFX_Freight           :{BLACK}열차구성: {GREEN}DFX용 화차
 STR_REFIT_train_configuration_Flat_1F_Freight       :{BLACK}열차구성: {GREEN}평판화차
