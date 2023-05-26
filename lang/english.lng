@@ -38,6 +38,7 @@ STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X
 STR_HSR_350X_NAME                                   :[DTS] HSR-350X
 STR_HXD3C_NAME                                      :[DTS] HXD3C
 STR_HYEL_100_NAME                                   :[DTS] HYEL-100
+STR_HYEL_150_NAME                                   :[DTS] HYEL-150
 
 STR_GT26CW_NAME                                     :[DTS] GT26CW
 STR_ICE_CW_NAME                                     :[DTS] ITX-Chowol
@@ -120,6 +121,7 @@ STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_HSR_350X                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HSR-350X
 STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HXD3C
 STR_REFIT_ADDITIONAL_HYEL_100                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}HYEL-100
+STR_REFIT_ADDITIONAL_HYEL_150                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}HYEL-150
 
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Chowol

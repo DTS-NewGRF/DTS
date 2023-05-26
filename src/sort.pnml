@@ -33,6 +33,7 @@ sort(FEAT_TRAINS, [
     HSR_350X,                  //2036
     HXD3C,                     //2037
     HYEL_100,                  //2038
+    HYEL_150,                  //2039
 
     TTX,                       //1134
     Standard_Metro,            //1122

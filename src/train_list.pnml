@@ -42,6 +42,7 @@
 #include "Code/HSR_350X/HSR_350X.pnml"
 #include "Code/HXD3C/HXD3C.pnml"
 #include "Code/HYEL_100/HYEL_100.pnml"
+#include "Code/HYEL_150/HYEL_150.pnml"
 
 #include "locomotive/GT26CW/GT26CW.pnml"
 #include "locomotive/ITX_CW/ITX_CW.pnml"
