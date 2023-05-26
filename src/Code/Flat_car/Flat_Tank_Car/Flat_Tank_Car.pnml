@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------------
+컨테이터 탱크 화차 - 20ft
+--------------------------------------------------------------------*/
+// Graphics
+#include "Flat_TanK_graphic.pnml"
+
+// Switch
+#include "Flat_Tank_Car_switch.pnml"
+
+/*--------------------------------------------------------------------
+화물차량 정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, FLAT_TANK, 2007){
+    property {
+        name:                           string(STR_FLAT_Tank_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1967, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        
+        //spec
+        power:                          0 kW;
+        weight:                         15 ton;
+        tractive_effort_coefficient:    0.3;
+        
+        //Cargo
+        cargo_capacity:                 100;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [OIL_, WATR, COLA, FZDR, ACID, CHLO, MILK, RUBR, PLST, BEER, EOIL, PETR, RFPR];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         20 ton;
+        loading_speed:                  25;
+        vehicle_life:                   30;
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        retire_early:                   0;
+        reliability_decay:              0;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        }
+
+	graphics {
+        default:                        sw_Flat_Tank_Car_wagon;
+        purchase:                       sw_FLAT_Tank_purchase;
+        can_attach_wagon:               sw_Flat_Tank_wagon_attach;
+        cargo_subtype_text:             sw_Flat_TANK_Car_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_ADDITIONAL);
+        }
+        }

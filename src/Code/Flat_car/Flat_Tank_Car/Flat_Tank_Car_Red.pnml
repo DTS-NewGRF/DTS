@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+Graphics - Tank Red
+--------------------------------------------------------------------*/
+spriteset(set_FLAT_TANK_CAR_Red_empty_wagon, "src\wagon\flat_Car\Flat_Tank_Car\Flat_Tank_Car_Red.png") {
+    flat_car_1f_container(80, 0)
+}
+
+spriteset(set_FLAT_TANK_CAR_Red_loaded_wagon, "src\wagon\flat_Car\Flat_Tank_Car\Flat_Tank_Car_Red.png") {
+    flat_car_1f_container(80, 27)
+}
+
+spriteset(set_FLAT_TANK_CAR_Red_loading_01_wagon, "src\wagon\flat_Car\Flat_Tank_Car\Flat_Tank_Car_Red.png") {
+    flat_car_1f_container(80, 54)
+}
+
+spriteset(set_FLAT_TANK_CAR_Red_loading_02_wagon, "src\wagon\flat_Car\Flat_Tank_Car\Flat_Tank_Car_Red.png") {
+    flat_car_1f_container(80, 81)
+}
+
+spritegroup sg_FLAT_TANK_CAR_Red_01_wagon {
+    loading: [
+        set_FLAT_TANK_CAR_Red_empty_wagon,
+        set_FLAT_TANK_CAR_Red_loading_01_wagon,
+        set_FLAT_TANK_CAR_Red_loaded_wagon
+    ];
+    loaded: [
+        set_FLAT_TANK_CAR_Red_empty_wagon,
+        set_FLAT_TANK_CAR_Red_loading_01_wagon,
+        set_FLAT_TANK_CAR_Red_loaded_wagon
+    ];
+}
+
+spritegroup sg_FLAT_TANK_CAR_Red_02_wagon {
+    loading: [
+        set_FLAT_TANK_CAR_Red_empty_wagon,
+        set_FLAT_TANK_CAR_Red_loading_02_wagon,
+        set_FLAT_TANK_CAR_Red_loaded_wagon
+    ];
+    loaded: [
+        set_FLAT_TANK_CAR_Red_empty_wagon,
+        set_FLAT_TANK_CAR_Red_loading_02_wagon,
+        set_FLAT_TANK_CAR_Red_loaded_wagon
+    ];
+}

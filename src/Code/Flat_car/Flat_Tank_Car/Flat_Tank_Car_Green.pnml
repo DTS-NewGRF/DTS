@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------------
+Graphics - Tank Green
+--------------------------------------------------------------------*/
+spriteset(set_FLAT_TANK_CAR_purchase, "src\wagon\flat_Car\Flat_Tank_Car\Flat_Tank_Car_Green.png") {
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_FLAT_TANK_CAR_Green_empty_wagon, "src\wagon\flat_Car\Flat_Tank_Car\Flat_Tank_Car_Green.png") {
+    flat_car_1f_container(80, 0)
+}
+
+spriteset(set_FLAT_TANK_CAR_Green_loaded_wagon, "src\wagon\flat_Car\Flat_Tank_Car\Flat_Tank_Car_Green.png") {
+    flat_car_1f_container(80, 27)
+}
+
+spriteset(set_FLAT_TANK_CAR_Green_loading_01_wagon, "src\wagon\flat_Car\Flat_Tank_Car\Flat_Tank_Car_Green.png") {
+    flat_car_1f_container(80, 54)
+}
+
+spriteset(set_FLAT_TANK_CAR_Green_loading_02_wagon, "src\wagon\flat_Car\Flat_Tank_Car\Flat_Tank_Car_Green.png") {
+    flat_car_1f_container(80, 81)
+}
+
+spritegroup sg_FLAT_TANK_CAR_Green_01_wagon {
+    loading: [
+        set_FLAT_TANK_CAR_Green_empty_wagon,
+        set_FLAT_TANK_CAR_Green_loading_01_wagon,
+        set_FLAT_TANK_CAR_Green_loaded_wagon
+    ];
+    loaded: [
+        set_FLAT_TANK_CAR_Green_empty_wagon,
+        set_FLAT_TANK_CAR_Green_loading_01_wagon,
+        set_FLAT_TANK_CAR_Green_loaded_wagon
+    ];
+}
+
+spritegroup sg_FLAT_TANK_CAR_Green_02_wagon {
+    loading: [
+        set_FLAT_TANK_CAR_Green_empty_wagon,
+        set_FLAT_TANK_CAR_Green_loading_02_wagon,
+        set_FLAT_TANK_CAR_Green_loaded_wagon
+    ];
+    loaded: [
+        set_FLAT_TANK_CAR_Green_empty_wagon,
+        set_FLAT_TANK_CAR_Green_loading_02_wagon,
+        set_FLAT_TANK_CAR_Green_loaded_wagon
+    ];
+}

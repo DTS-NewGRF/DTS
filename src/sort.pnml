@@ -47,6 +47,7 @@ sort(FEAT_TRAINS, [
     DTS_SPassenger_Car,        //2007
     CTX_Freight_Car,           //2018
     DFX_Freight_Car,           //2021
+    FLAT_1F,                   //2029
     
     Generatar_Car,             //1120
     Luggage_Car,               //1119

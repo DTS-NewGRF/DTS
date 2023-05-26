@@ -55,6 +55,7 @@ STR_DTS_PASS_NAME                                   :[DTS] Passenger car
 STR_DTS_SPASS_NAME                                  :[DTS] carriage-type passenger car
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX Freight Car
 STR_DFX_Freight_Car_NAME                            :[DTS] DFX Freight Car
+STR_FLAT_1F_NAME                                    :[DTS] Flat Car
 
 STR_Generatar_Car_NAME                              :[DTS] Generatar Car
 STR_Luggage_Car_NAME                                :[DTS] Luggage Car
@@ -129,6 +130,7 @@ STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration:
 STR_REFIT_train_configuration_SPassenger            :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
 STR_REFIT_train_configuration_CTX_Freight           :{BLACK}train configuration: {GREEN}CTX Freight vehicles
 STR_REFIT_train_configuration_DFX_Freight           :{BLACK}train configuration: {GREEN}DFX Freight vehicles
+STR_REFIT_train_configuration_Flat_1F_Freight       :{BLACK}train configuration: {GREEN}Flat Freight vehicles
 
 STR_REFIT_train_configuration_Generatar             :{BLACK}train configuration: {GREEN}Generatar vehicles
 STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
@@ -181,6 +183,9 @@ STR_REFIT_LIVERY_EMU320_DB                          :(EMU-300 ICE)
 STR_REFIT_LIVERY_EMU320_EURO                        :(EMU-320 Euro)
 STR_REFIT_LIVERY_EMU320_JR                          :(EMU-320 JR)
 STR_REFIT_LIVERY_EMU320_THSR                        :(EMU-320 THSR)
+STR_REFIT_LIVERY_Flat                               :(Flat Nomal Car)
+STR_REFIT_LIVERY_Flat_Trailer                       :(Flat Trailer Car Company Color)
+STR_REFIT_LIVERY_Flat_Trailer_2cc                   :(Flat Trailer Car 2cc Color)
 
 STR_REFIT_LIVERY_GT26CW_Korail                      :(Korail)
 STR_REFIT_LIVERY_GT26CW_CL                          :(CL)

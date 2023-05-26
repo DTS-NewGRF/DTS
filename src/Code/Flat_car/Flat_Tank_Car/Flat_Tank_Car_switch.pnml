@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sg_FLAT_TANK_CAR_Green_wagon, random_bits % 2) {
+     0: sg_FLAT_TANK_CAR_Green_01_wagon;
+     1: sg_FLAT_TANK_CAR_Green_02_wagon;
+    set_FLAT_TANK_CAR_Green_empty_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sg_FLAT_TANK_CAR_Red_wagon, random_bits % 2) {
+     0: sg_FLAT_TANK_CAR_Red_01_wagon;
+     1: sg_FLAT_TANK_CAR_Red_02_wagon;
+    set_FLAT_TANK_CAR_Red_empty_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Flat_TANK_Car_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_FlatTanKRed);           
+    return string(STR_REFIT_LIVERY_FlatTankGreen);
+}
+
+switch(FEAT_TRAINS, SELF, sw_Flat_Tank_Car_wagon, cargo_subtype) {
+    1: sg_FLAT_TANK_CAR_Red_wagon;
+    sg_FLAT_TANK_CAR_Green_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Flat_Tank_wagon_attach, vehicle_type_id) {
+    TANK:       return CB_RESULT_ATTACH_ALLOW;
+    FLAT_1F:    return CB_RESULT_ATTACH_ALLOW;
+    FLAT_2F:    return CB_RESULT_ATTACH_ALLOW;
+    FLAT_TANK:  return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}
