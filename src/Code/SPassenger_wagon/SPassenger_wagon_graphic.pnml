@@ -55,6 +55,27 @@ spriteset(set_Chinese_25_Type_1nd_Bed_wagon, "src/Graphic/SPassenger_wagon/25_Ty
     wagon_1F_F(80, 54)
 }
 
+/*--------------------------------------------------------------------
+3. 한국형 2층 객차 승객 차량
+--------------------------------------------------------------------*/
+spriteset(set_Korean_2F_passenger_wagon, "src/Graphic/SPassenger_wagon/KPassenger_wgaon/KPassenger_wgaon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Korean_2F_Taegeuk_passenger_wagon, "src/Graphic/SPassenger_wagon/KPassenger_wgaon/KPassenger_wgaon.png") {
+    wagon_1F_F(80, 0)
+}
+
+/*--------------------------------------------------------------------
+3-1. 한국형 2층 객차 승객 차량 32bpp
+--------------------------------------------------------------------*/
+alternative_sprites(set_Korean_2F_passenger_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphic/SPassenger_wagon/KPassenger_wgaon/KPassenger_wgaon_SR.png") {
+    wagon_1F_F(80, 0)
+}
+
+alternative_sprites(set_Korean_2F_Taegeuk_passenger_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphic/SPassenger_wagon/KPassenger_wgaon/KPassenger_wgaon_Taegeuk.png") {
+    wagon_1F_F(80, 0)
+}
 
 /*--------------------------------------------------------------------
 구매정보

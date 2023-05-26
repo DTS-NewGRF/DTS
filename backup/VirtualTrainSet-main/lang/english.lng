@@ -11,20 +11,7 @@ STR_HYEL_200_NAME                                   :[VTS] HYEL-200
 STR_HYEL_300_NAME                                   :[VTS] HYEL-300
 STR_HYEL_400_NAME                                   :[VTS] HYEL-400
 
-# wagon's name
-STR_VTS_SPASS_NAME                                  :[VTS] carriage-type passenger transport vehicle
-
 # Refit (Additional text)
 STR_REFIT_ADDITIONAL_HYEL_200                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HYEL-200
 STR_REFIT_ADDITIONAL_HYEL_300                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_HYEL_400                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HYEL-400
-
-STR_REFIT_train_configuration_2F                    :{BLACK}train configuration: {GREEN}2F passenger vehicles
-STR_REFIT_train_configuration_Coach                 :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
-STR_REFIT_train_configuration_Coach_Last            :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
-
-# Liveries wagon
-STR_REFIT_LIVERY_Coach_2F_BR                        :(Default Color)
-STR_REFIT_LIVERY_Coach_2F_Taegeuk                   :(Taegeuk Color)
-STR_REFIT_LIVERY_Coach_2F_SR                        :(SR Color)
-STR_REFIT_LIVERY_Coach_2F_K_Limousion               :(K Limousion Color)

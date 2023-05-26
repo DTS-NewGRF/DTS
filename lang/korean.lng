@@ -207,6 +207,8 @@ STR_REFIT_LIVERY_HEMU_430X_1F                       :(HEMU-430X 1층)
 STR_REFIT_LIVERY_HEMU_430X_2F                       :(HEMU-430X 2층)
 STR_REFIT_LIVERY_HYEL_100_SRT                       :(SRT)
 STR_REFIT_LIVERY_HYEL_100_SanCheon                  :(산천)
+STR_REFIT_LIVERY_Korean_2F_SR_Passenger_Car         :(SR 도색)
+STR_REFIT_LIVERY_Korean_2F_Taegeuk_Passenger_Car    :(태극 도색)
 
 STR_REFIT_LIVERY_GT26CW_Korail                      :(코레일)
 STR_REFIT_LIVERY_GT26CW_CL                          :(철도청)

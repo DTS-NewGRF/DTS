@@ -12,20 +12,24 @@ switch(FEAT_TRAINS, SELF, sw_SPassenger_cargo_subtype_text, cargo_subtype) {
     8: return string(STR_REFIT_LIVERY_Chinese_25_Type_3nd_Bed_Car);          // 중국형 25형 3등석 침대차
     9: return string(STR_REFIT_LIVERY_Chinese_25_Type_2nd_Bed_Car);          // 중국형 25형 2등석 침대차
     10: return string(STR_REFIT_LIVERY_Chinese_25_Type_1nd_Bed_Car);         // 중국형 25형 1등석 침대차
+    11: return string(STR_REFIT_LIVERY_Korean_2F_SR_Passenger_Car);          // 한국형 2층 SR
+    12: return string(STR_REFIT_LIVERY_Korean_2F_Taegeuk_Passenger_Car);     // 한국형 2층 태극
     return string(STR_REFIT_LIVERY_European_Type_2nd_Passenger_Car);
 }
 
 switch(FEAT_TRAINS, SELF, sw_SPassenger_wagon, cargo_subtype) {
-    1: set_European_Type_1nd_wagon;        // 유럽형 1등석
-    2: set_European_Type_Bar_wagon;        // 유럽형 식당칸
-    3: set_European_Type_HF_wagon;         // 유럽형 1/2 1,2등석
-    4: set_Chinese_25_Type_Red_wagon;      // 중국형 25형 빨강
-    5: set_Chinese_25_Type_Green_wagon;    // 중국형 25형 녹색
-    6: set_Chinese_25_Type_White_wagon;    // 중국형 25형 흰색
-    7: set_Chinese_25_Type_2F_wagon;       // 중국형 25형 2층
-    8: set_Chinese_25_Type_3nd_Bed_wagon;  // 중국형 25형 3등석 침대차
-    9: set_Chinese_25_Type_2nd_Bed_wagon;  // 중국형 25형 2등석 침대차
-    10: set_Chinese_25_Type_1nd_Bed_wagon; // 중국형 25형 1등석 침대차
+    1: set_European_Type_1nd_wagon;            // 유럽형 1등석
+    2: set_European_Type_Bar_wagon;            // 유럽형 식당칸
+    3: set_European_Type_HF_wagon;             // 유럽형 1/2 1,2등석
+    4: set_Chinese_25_Type_Red_wagon;          // 중국형 25형 빨강
+    5: set_Chinese_25_Type_Green_wagon;        // 중국형 25형 녹색
+    6: set_Chinese_25_Type_White_wagon;        // 중국형 25형 흰색
+    7: set_Chinese_25_Type_2F_wagon;           // 중국형 25형 2층
+    8: set_Chinese_25_Type_3nd_Bed_wagon;      // 중국형 25형 3등석 침대차
+    9: set_Chinese_25_Type_2nd_Bed_wagon;      // 중국형 25형 2등석 침대차
+    10: set_Chinese_25_Type_1nd_Bed_wagon;     // 중국형 25형 1등석 침대차
+    11: set_Korean_2F_passenger_wagon;         // 한국형 2층 SR
+    12: set_Korean_2F_Taegeuk_passenger_wagon; // 한국형 2층 태극
     set_European_Type_2nd_wagon;
 }
 
@@ -37,5 +41,7 @@ switch(FEAT_TRAINS, SELF, sw_SPassenger_wagon_capacity_in_custom, cargo_subtype)
     5: return 100;
     6: return 100;
     7: return 200;
+    11: return 200;
+    12: return 200;
        80;
 }
