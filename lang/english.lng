@@ -39,6 +39,8 @@ STR_HSR_350X_NAME                                   :[DTS] HSR-350X
 STR_HXD3C_NAME                                      :[DTS] HXD3C
 STR_HYEL_100_NAME                                   :[DTS] HYEL-100
 STR_HYEL_150_NAME                                   :[DTS] HYEL-150
+STR_HYEL_200_NAME                                   :[DTS] HYEL-200
+STR_HYEL_300_NAME                                   :[DTS] HYEL-300
 
 STR_GT26CW_NAME                                     :[DTS] GT26CW
 STR_ICE_CW_NAME                                     :[DTS] ITX-Chowol
@@ -122,6 +124,8 @@ STR_REFIT_ADDITIONAL_HSR_350X                       :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HXD3C
 STR_REFIT_ADDITIONAL_HYEL_100                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}HYEL-100
 STR_REFIT_ADDITIONAL_HYEL_150                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}HYEL-150
+STR_REFIT_ADDITIONAL_HYEL_200                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HYEL-200
+STR_REFIT_ADDITIONAL_HYEL_300                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Chowol
@@ -215,12 +219,6 @@ STR_REFIT_LIVERY_Korean_2F_Taegeuk_Passenger_Car    :(Taegeuk Color)
 STR_REFIT_LIVERY_HYEL_300                           :(HYEL-300)
 STR_REFIT_LIVERY_HYEL_300_SB                        :(HYEL-300 Sea Livery)
 
-STR_REFIT_LIVERY_GT26CW_Korail                      :(Korail)
-STR_REFIT_LIVERY_GT26CW_CL                          :(CL)
-STR_REFIT_LIVERY_GT26CW_CY_GW                       :(Chungbuk Yeongdong Gugak & Wine Train)
-STR_REFIT_LIVERY_GT26CW_LB                          :(Lady Bird)
-STR_REFIT_LIVERY_GT26CW_ST                          :(S-Train)
-STR_REFIT_LIVERY_GT26CW_G                           :(G-Train)
 STR_REFIT_LIVERY_ITX_SM2_C                          :(ITX-Saemaeul DD Company Color)
 STR_REFIT_LIVERY_ITX_SM2_G                          :(ITX-Saemaeul DD Green Color)
 STR_REFIT_LIVERY_ITX_SM2_R                          :(ITX-Saemaeul DD Red Color)

@@ -34,6 +34,8 @@ sort(FEAT_TRAINS, [
     HXD3C,                     //2037
     HYEL_100,                  //2038
     HYEL_150,                  //2039
+    HYEL_200,                  //2040
+    HYEL_300,                  //2041
 
     TTX,                       //1134
     Standard_Metro,            //1122
@@ -44,7 +46,6 @@ sort(FEAT_TRAINS, [
     ITX_SM2,                   //1071
     NRT2,                      //1075
     Travel_8500,               //1121
-    GT26CW,                    //1114
     
     DTS_Passenger_Car,         //2000
     DTS_SPassenger_Car,        //2007

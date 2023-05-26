@@ -2,26 +2,26 @@
 GT26CW
 --------------------------------------------------------------------*/
 // Graphics
-#include "HYEL_200_graphic.pnml"
+#include "HYEL_300_graphic.pnml"
 
 // Switch
-#include "HYEL_200_switch.pnml"
+#include "HYEL_300_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HYEL_200, 1085){
+item(FEAT_TRAINS, HYEL_300, 2041){
     property {
-        name:                           string(STR_HYEL_200_NAME);
+        name:                           string(STR_HYEL_300_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2035, 1, 1);
+        introduction_date:              date(2020, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         dual_headed:                    1;
         
         //spec
-        speed:                          181km/h;
+        speed:                          260km/h;
         power:                          8000 kW;
         weight:                         30 ton;
         tractive_effort_coefficient:    0.3;
@@ -35,7 +35,7 @@ item(FEAT_TRAINS, HYEL_200, 1085){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 70;
+        cargo_capacity:                 1;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -51,18 +51,18 @@ item(FEAT_TRAINS, HYEL_200, 1085){
         }
         
     graphics {
-        default:                        sw_HYEL_200_engine;
-        purchase:                       sw_HYEL_200_purchase;
-        speed:                          Regular_Speed_Train;
+        default:                        sw_HYEL_300_engine;
+        purchase:                       sw_HYEL_300_purchase;
+        cargo_capacity:                 0;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_HYEL_200_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_HYEL_200);
+        can_attach_wagon:               sw_HYEL_300_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_HYEL_300);
         }
 
-    livery_override(VTS_1F_Passenger_Car) {
-        default:                        sw_HYEL_200_wagon;
+    livery_override(DTS_Passenger_Car) {
+        default:                        set_HYEL_300_wagon;
         cargo_capacity:                 140;
         loading_speed:                  25;
         running_cost_factor:            100;
