@@ -50,6 +50,7 @@
 #include "Code/HYEL_200/HYEL_200.pnml"
 #include "Code/HYEL_300/HYEL_300.pnml"
 #include "Code/HYEL_400/HYEL_400.pnml"
+#include "Code/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.pnml"
 
 #include "locomotive/ITX_CW/ITX_CW.pnml"
 #include "locomotive/ITX_SM2/ITX_SM2.pnml"
@@ -84,6 +85,7 @@ if (Hong_Kong) {
     disable_item(FEAT_TRAINS, 2009); //Cammall_DC
     disable_item(FEAT_TRAINS, 2010); //CNR_Changchun
     disable_item(FEAT_TRAINS, 2016); //CRRC
+    disable_item(FEAT_TRAINS, 2047); //Rotem_Mitsubishi
     }
 
 if (European) {

@@ -17,7 +17,6 @@ STR_CRH380C_NAME                                    :[CTS] CRH380CL
 STR_NJ2_NAME                                        :[CTS] NJ2
 
 # Metro's name
-STR_MTR_Hyundai_Rotem_Mitsubishi_NAME               :[CTS] 홍콩 MTR 현대로템 미쓰비시 전동차
 STR_MTR_Hyundai_Rotem_R_NAME                        :[CTS] 홍콩 MTR 현대로템 R형 전동차
 STR_MTR_IKK_SP_1900_NAME                            :[CTS] 홍콩 MTR IKK SP 1900
 
@@ -31,7 +30,6 @@ STR_REFIT_ADDITIONAL_CRH3                           :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_CRH380B                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380B·BL·BG
 STR_REFIT_ADDITIONAL_CRH380C                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380CL
 STR_REFIT_ADDITIONAL_NJ2                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}NJ2
-STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 

@@ -1,6 +1,5 @@
 //wagon
 #include "wagon/passenger_wagon/passenger_wagon_all.pnml"
-#include "wagon/SPassenger_wagon/25_Type/SPassenger_Wagon.pnml"
 #include "wagon/Luggage_Car/Luggage_Car.pnml"
 
 //locomotive
@@ -12,6 +11,5 @@
 #include "locomotive/NJ2/NJ2.pnml"
 
 //Metro
-#include "metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.pnml"
 #include "metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.pnml"
 #include "metro/MTR/IKK_SP_1900/IKK_SP_1900.pnml"
