@@ -39,6 +39,7 @@ sort(FEAT_TRAINS, [
     HYEL_400,                  //2042
     GT26CW,                    //2045
     Rotem_Mitsubishi,          //2047
+    Hyundai_Rotem_R,           //2048
 
     TTX,                       //1134
     Standard_Metro,            //1122

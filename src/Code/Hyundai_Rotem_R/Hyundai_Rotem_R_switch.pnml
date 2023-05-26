@@ -1,0 +1,43 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Hyundai_Rotem_R_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Hyundai_Rotem_R_special);  // 특실
+    return string(STR_REFIT_LIVERY_Hyundai_Rotem_R_Nomal);
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hyundai_Rotem_R_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_Hyundai_Rotem_R_engineT;
+    set_Hyundai_Rotem_R_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hyundai_Rotem_R_wagon_middle_Nomal, (position_in_consist)) {
+    1: set_Hyundai_Rotem_R_Nomal_wagon_r;
+    set_Hyundai_Rotem_R_Nomal_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hyundai_Rotem_R_wagon_middle_Special, (position_in_consist)) {
+    1: set_Hyundai_Rotem_R_special_wagon_r;
+    set_Hyundai_Rotem_R_special_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_sw_Hyundai_Rotem_R_wagon_special_rear, [STORE_TEMP(3, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    Hyundai_Rotem_R: sw_Hyundai_Rotem_R_wagon_middle_Special;
+    sw_Hyundai_Rotem_R_wagon_middle_Nomal;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hyundai_Rotem_R_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    Hyundai_Rotem_R: set_Hyundai_Rotem_R_panto_wagon_r;
+    sw_sw_Hyundai_Rotem_R_wagon_special_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hyundai_Rotem_R_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    Hyundai_Rotem_R: set_Hyundai_Rotem_R_panto_wagon;
+    sw_Hyundai_Rotem_R_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hyundai_Rotem_R_wagon_attach, vehicle_type_id) {
+    Hyundai_Rotem_R:        return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}
