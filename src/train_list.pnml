@@ -137,6 +137,11 @@ if (Chinese) {
     disable_item(FEAT_TRAINS, 2032); //CGeneratar_Car
     disable_item(FEAT_TRAINS, 2037); //HXD3C
     disable_item(FEAT_TRAINS, 2043); //DTS_CSPassenger_Car
+    disable_item(FEAT_TRAINS, 2052); //CLuggage_Car
+    disable_item(FEAT_TRAINS, 2056); //CRH2
+    disable_item(FEAT_TRAINS, 2057); //CRH2C
+    disable_item(FEAT_TRAINS, 2058); //CRH3
+    disable_item(FEAT_TRAINS, 2059); //CRH380B
     }
 
 if (Hong_Kong) {
@@ -157,6 +162,7 @@ if (European) {
     disable_item(FEAT_TRAINS, 2049); //ICE1
     disable_item(FEAT_TRAINS, 2050); //ICE2
     disable_item(FEAT_TRAINS, 2051); //ICE3
+    disable_item(FEAT_TRAINS, 2054); //TGV_Poste_wagon
     }
 
 if (Japanese) {
@@ -180,8 +186,10 @@ if (Korea) {
     disable_item(FEAT_TRAINS, 2036); //HSR_350X
     disable_item(FEAT_TRAINS, 2044); //DTS_KSPassenger_Car
     disable_item(FEAT_TRAINS, 2046); //KGeneratar_Car
+    disable_item(FEAT_TRAINS, 2053); //KLuggage_Car
     }
 
 if (world) {
     disable_item(FEAT_TRAINS, 2005); //Avelia_Liberty
+    disable_item(FEAT_TRAINS, 2055); //Al_Boraq
     }

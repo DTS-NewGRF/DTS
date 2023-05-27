@@ -51,6 +51,11 @@ sort(FEAT_TRAINS, [
     EMU320_DD,                 //2028
     HSR_350X,                  //2036
     ICE3,                      //2051
+    Al_Boraq,                  //2055
+    CRH2,                      //2056
+    CRH2C,                     //2057
+    CRH3,                      //2058
+    CRH380B,                   //2059
 
     //고속열차 430
     HEMU_430X,                 //2035
@@ -82,6 +87,7 @@ sort(FEAT_TRAINS, [
     FLAT_TANK,                 //2031
     CGeneratar_Car,            //2032
     KGeneratar_Car,            //2046
-    
-    KLuggage_Car,              //1119
+    CLuggage_Car,              //2052    
+    KLuggage_Car,              //2053
+    TGV_Poste_wagon            //2054
     ]);

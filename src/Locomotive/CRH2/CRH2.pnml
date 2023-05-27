@@ -10,7 +10,7 @@ CRH2
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CRH2, 1107){
+item(FEAT_TRAINS, CRH2, 2056){
     property {
         name:                           string(STR_CRH2_NAME);
         climates_available:             ALL_CLIMATES;
@@ -52,6 +52,7 @@ item(FEAT_TRAINS, CRH2, 1107){
     graphics {
         default:                        sw_CRH2_engine;
         purchase:                       sw_CRH2_purchase;
+        speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

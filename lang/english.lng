@@ -40,10 +40,12 @@ STR_GT26CW_NAME                                     :[DTS] GT26CW
 STR_ICE1_NAME                                       :[DTS] ICE1
 STR_ICE2_NAME                                       :[DTS] ICE2
 STR_ICE3_NAME                                       :[DTS] ICE3
-STR_CRH2_NAME                                       :[DTS] CRH2A·B
+STR_Al_Boraq_NAME                                   :[DTS] Al-Boraq
+STR_CRH2_NAME                                       :[DTS] CRH2A
 STR_CRH2C_NAME                                      :[DTS] CRH2C
 STR_CRH3_NAME                                       :[DTS] CRH3C
-STR_CRH380B_NAME                                    :[DTS] CRH380B·BL·BG
+STR_CRH380B_NAME                                    :[DTS] CRH380B
+
 STR_CRH380C_NAME                                    :[DTS] CRH380CL
 STR_NJ2_NAME                                        :[DTS] NJ2
 STR_ICE_CW_NAME                                     :[DTS] ITX-Chowol
@@ -54,6 +56,7 @@ STR_NRT2_NAME                                       :[DTS] Nuriro DD
 STR_Travel_8500_NAME                                :[DTS] Travel 8500
 STR_TTX_NAME                                        :[DTS] TTX
 STR_VHST_600X_NAME                                  :[DTS] VHST-600X
+
 STR_Eurostar_E320_NAME                              :[DTS] Eurostar E320
 STR_ICE3V_NAME                                      :[DTS] ICE3 (Velaro D)
 STR_ICE4_NAME                                       :[DTS] ICE4
@@ -62,7 +65,7 @@ STR_Renfe_S_102_NAME                                :[DTS] Renfe AVE S-102
 STR_Renfe_S_103_NAME                                :[DTS] Renfe AVE S-103
 STR_Renfe_S_130_NAME                                :[DTS] Renfe Alvia S-130
 STR_TGV_Sud_Est_NAME                                :[DTS] TGV Sud-Est
-STR_TGV_AR_NAME                                     :[DTS] TGV Atlantique · Reseau
+STR_TGV_AR_NAME                                     :[DTS] TGV Atlantique_Reseau
 STR_TGV_Reseau_Duplex_NAME                          :[DTS] TGV Reseau Duplex
 STR_TGV_La_Poste_NAME                               :[DTS] TGV La Poste
 STR_TGV_Duplex_NAME                                 :[DTS] TGV Duplex
@@ -76,9 +79,9 @@ STR_Shinkansen_700_NAME                             :[DTS] Shinkansen 700
 STR_Shinkansen_800_NAME                             :[DTS] Shinkansen 800
 STR_Shinkansen_923_NAME                             :[DTS] Shinkansen 923
 STR_Shinkansen_E2_NAME                              :[DTS] Shinkansen E2
-STR_Shinkansen_E5_H5_NAME                           :[DTS] Shinkansen E5·H5
+STR_Shinkansen_E5_H5_NAME                           :[DTS] Shinkansen E5_H5
 STR_Shinkansen_E6_NAME                              :[DTS] Shinkansen E6
-STR_Shinkansen_E7_W7_NAME                           :[DTS] Shinkansen E7·W7
+STR_Shinkansen_E7_W7_NAME                           :[DTS] Shinkansen E7_W7
 STR_Shinkansen_E8_NAME                              :[DTS] Shinkansen E8
 STR_Shinkansen_N700_NAME                            :[DTS] Shinkansen N700
 STR_Shinkansen_N700S_NAME                           :[DTS] Shinkansen N700S
@@ -94,7 +97,6 @@ STR_Nishitetsu_9000_NAME                            :[DTS] Nishitetsu 9000
 STR_NHSRCL_E5_NAME                                  :[DTS] NHSRCL E5
 STR_NSW_TrainLink_D_NAME                            :[DTS] NSW TrainLink D
 STR_THSR_700T_NAME                                  :[DTS] THSR 700T
-STR_Al_Boraq_NAME                                   :[DTS] Al-Boraq
 STR_Talgo_350_SRO_NAME                              :[DTS] Talgo 350 SRO
 
 # Metro's name
@@ -122,9 +124,8 @@ STR_FLAT_2F_NAME                                    :[DTS] American Flat Car
 STR_FLAT_Tank_NAME                                  :[DTS] Flat Tank Car
 STR_CGeneratar_Car_NAME                             :[DTS] Chinese Generatar Car
 STR_KGeneratar_Car_NAME                             :[DTS] Korean Generatar Car
-
+STR_CLuggage_Car_NAME                               :[DTS] Chinese Luggage Car
 STR_KLuggage_Car_NAME                               :[DTS] Luggage Car
-STR_CLuggage_Car_NAME                               :[DTS] Luggage Car
 STR_TGV_Poste_wagon_NAME                            :[DTS] TGV La Poste Freight Car
 
 # Parameters
@@ -193,13 +194,16 @@ STR_REFIT_ADDITIONAL_Hyundai_Rotem_R                :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_ICE1                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}ICE1
 STR_REFIT_ADDITIONAL_ICE2                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}ICE2
 STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}ICE3
-STR_REFIT_ADDITIONAL_CRH2                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}CRH2A·B
+STR_REFIT_ADDITIONAL_Al_Boraq                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_CRH2                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}CRH2A
 STR_REFIT_ADDITIONAL_CRH2C                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}CRH2C
 STR_REFIT_ADDITIONAL_CRH3                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}CRH3C
 STR_REFIT_ADDITIONAL_CRH380B                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}CRH380B
+
 STR_REFIT_ADDITIONAL_CRH380C                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}CRH380CL
 STR_REFIT_ADDITIONAL_NJ2                            :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}NJ2
 STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
+
 
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Chowol
 STR_REFIT_ADDITIONAL_ITX_SM2                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Saemaeul DD
@@ -220,9 +224,9 @@ STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Reseau Duplex, TGV Duplex
 STR_REFIT_ADDITIONAL_TGV_Sud_Est                    :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Sud-Est
 STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex              :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Reseau Duplex, TGV Duplex
-STR_REFIT_ADDITIONAL_TGV_AR                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
+STR_REFIT_ADDITIONAL_TGV_AR                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique_Reseau, TGV Pos
 STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV La Poste
-STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
+STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique_Reseau, TGV Pos
 STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV M
 
 STR_REFIT_ADDITIONAL_Kse2                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
@@ -250,7 +254,6 @@ STR_REFIT_ADDITIONAL_Nishitetsu_9000                :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_NHSRCL_E5                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NHSRCL E5
 STR_REFIT_ADDITIONAL_NSW_TrainLink_D                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NSW TrainLink D
 STR_REFIT_ADDITIONAL_THSR_700T                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Al_Boraq                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Talgo_350_SRO                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 
 STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
@@ -264,9 +267,8 @@ STR_REFIT_train_configuration_Flat_2F_Freight       :{BLACK}train configuration:
 STR_REFIT_train_configuration_Flat_Tank_Freight     :{BLACK}train configuration: {GREEN}Flat Tank Freight vehicles
 STR_REFIT_train_configuration_CGeneratar            :{BLACK}train configuration: {GREEN}Chinese Generatar vehicles
 STR_REFIT_train_configuration_KGeneratar            :{BLACK}train configuration: {GREEN}Korean Generatar vehicles
-
-STR_REFIT_train_configuration_KLuggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
-STR_REFIT_train_configuration_CLuggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
+STR_REFIT_train_configuration_CLuggage              :{BLACK}train configuration: {GREEN}Chinese Luggage vehicles
+STR_REFIT_train_configuration_KLuggage              :{BLACK}train configuration: {GREEN}Korean Luggage vehicles
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}train configuration: {GREEN}TGV La Poste
 
 # Liveries
@@ -370,7 +372,6 @@ STR_REFIT_LIVERY_ICE3_green                         :(ICE 3 Green Livery)
 STR_REFIT_LIVERY_ICE3M_red                          :(ICE 3M Red Livery)
 STR_REFIT_LIVERY_ICE3M_green                        :(ICE 3M Green Livery)
 STR_REFIT_LIVERY_ICE3M_Blue                         :(ICE 3M Europa Livery)
-
 STR_REFIT_LIVERY_CLuggage_Car_Red                   :(Luggage Red Car)
 STR_REFIT_LIVERY_CLuggage_Car_Green                 :(Luggage Green Car)
 STR_REFIT_LIVERY_CLuggage_Car_WhiteA                :(Luggage WhiteA Car)

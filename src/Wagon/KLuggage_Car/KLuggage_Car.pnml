@@ -10,7 +10,7 @@ YFX
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, KLuggage_Car, 1119){
+item(FEAT_TRAINS, KLuggage_Car, 2053){
     property {
         name:                           string(STR_KLuggage_Car_NAME);
         climates_available:             ALL_CLIMATES;

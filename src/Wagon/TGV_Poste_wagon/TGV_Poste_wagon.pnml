@@ -10,7 +10,7 @@ TGV Old
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, TGV_Poste_wagon, 1033){
+item(FEAT_TRAINS, TGV_Poste_wagon, 2054){
     property {
         name:                           string(STR_TGV_Poste_wagon_NAME);
         climates_available:             ALL_CLIMATES;

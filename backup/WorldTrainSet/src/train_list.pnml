@@ -1,6 +1,0 @@
-//locomotive
-#include "Locomotive/NHSRCL_E5/NHSRCL_E5.pnml"
-#include "Locomotive/NSW_TrainLink_D/NSW_TrainLink_D.pnml"
-#include "Locomotive/THSR_700T/THSR_700T.pnml"
-#include "Locomotive/AL_BORAQ/Al_Boraq.pnml"
-#include "Locomotive/Talgo_350_SRO/Talgo_350_SRO.pnml"
