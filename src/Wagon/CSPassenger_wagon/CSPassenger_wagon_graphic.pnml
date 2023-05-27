@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_CSPassenger_wagon_purchase, "src/Wagon/CSPassenger_wagon/1F_25_Type.png"){
+	tmpl_wagon_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+중국형 객차 승객 차량
+--------------------------------------------------------------------*/
+spriteset(set_Chinese_25_Type_Red_wagon, "src/Wagon/CSPassenger_wagon/1F_25_Type.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Chinese_25_Type_Green_wagon, "src/Wagon/CSPassenger_wagon/1F_25_Type.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Chinese_25_Type_White_wagon, "src/Wagon/CSPassenger_wagon/1F_25_Type.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Chinese_25_Type_2F_wagon, "src/Wagon/CSPassenger_wagon/2F_25_Type.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Chinese_25_Type_3nd_Bed_wagon, "src/Wagon/CSPassenger_wagon/Bed_25_Type.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Chinese_25_Type_2nd_Bed_wagon, "src/Wagon/CSPassenger_wagon/Bed_25_Type.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Chinese_25_Type_1nd_Bed_wagon, "src/Wagon/CSPassenger_wagon/Bed_25_Type.png") {
+    wagon_1F_F(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CSPassenger_wagon_purchase, cargo_subtype) {
+    set_CSPassenger_wagon_purchase;
+}

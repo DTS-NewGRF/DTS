@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_AGV_purchase, "src/Locomotive/AGV/AGV.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_AGVH_purchase, "src/Locomotive/AGV/AGV.png"){
+    tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_AGV_engineH, "src/Locomotive/AGV/AGV.png"){
+    engine(80, 0)
+}
+
+spriteset(set_AGV_wagon_start, "src/Locomotive/AGV/AGV.png"){
+    wagon_panto(80, 27)
+}
+
+spriteset(set_AGV_wagon, "src/Locomotive/AGV/AGV.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_AGV_wagon_r, "src/Locomotive/AGV/AGV.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_AGV_wagon_end, "src/Locomotive/AGV/AGV.png"){
+    wagon_panto(80, 81)
+}
+
+spriteset(set_AGV_engineT, "src/Locomotive/AGV/AGV.png"){
+    engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_AGV_purchase, cargo_subtype) {
+    set_AGV_purchase;
+}

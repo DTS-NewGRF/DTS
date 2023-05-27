@@ -10,18 +10,12 @@ STR_GRF_URL                                         :https://github.com/MEGB-New
 STR_AGV_NAME                                        :[DTS] AGV
 STR_AREX_NAME                                       :[DTS] AREX series 2000 EMU5
 STR_Avelia_Liberty_NAME                             :[DTS] Avelia Liberty
-STR_AUTS_NAME                                       :[DTS] AUTS
 STR_BB15000_NAME                                    :[DTS] BB15000
-STR_AD_Tranz_CAF_A_NAME                             :[DTS] AD Tranz CAF A Type
-STR_Cammall_AC_NAME                                 :[DTS] Cammall AC Train
-STR_Cammall_DC_NAME                                 :[DTS] Cammall DC Train
-STR_CNR_Changchun_NAME                              :[DTS] CNR Changchun Trian
 STR_CR400_NAME                                      :[DTS] CR400
 STR_CRH1_NAME                                       :[DTS] CRH1
 STR_CRH380A_NAME                                    :[CTS] CRH380A
 STR_CRH380AJ_NAME                                   :[CTS] CRH380AJ
 STR_CRH380D_NAME                                    :[DTS] CRH380D
-STR_CRRC_NAME                                       :[DTS] CRRC Trian
 STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] DEL7600
 STR_DFX_NAME                                        :[DTS] DFX
@@ -32,7 +26,6 @@ STR_EMU260_NAME                                     :[DTS] EMU-260
 STR_EMU260_DD_NAME                                  :[DTS] EMU-260 DD
 STR_EMU320_NAME                                     :[DTS] EMU-320
 STR_EMU320_DD_NAME                                  :[DTS] EMU-320 DD
-STR_GT26CW_NAME                                     :[DTS] GT26CW
 STR_GTX_NAME                                        :[DTS] GTX
 STR_H2_WJ_NAME                                      :[DTS] H2 by WOOJIN
 STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X
@@ -43,8 +36,7 @@ STR_HYEL_150_NAME                                   :[DTS] HYEL-150
 STR_HYEL_200_NAME                                   :[DTS] HYEL-200
 STR_HYEL_300_NAME                                   :[DTS] HYEL-300
 STR_HYEL_400_NAME                                   :[DTS] HYEL-400
-STR_Hyundai_Rotem_Mitsubishi_NAME                   :[DTS] Rotem Mitsubishi Trian
-STR_Hyundai_Rotem_R_NAME                            :[DTS] Rotem R Type Train
+STR_GT26CW_NAME                                     :[DTS] GT26CW
 
 STR_ICE_CW_NAME                                     :[DTS] ITX-Chowol
 STR_ITX_SM2_NAME                                    :[DTS] ITX-Saemaeul DD
@@ -56,6 +48,15 @@ STR_TTX_NAME                                        :[DTS] TTX
 STR_VHST_600X_NAME                                  :[DTS] VHST-600X
 
 # Metro's name
+STR_AD_Tranz_CAF_A_NAME                             :[DTS] AD Tranz CAF A Type
+STR_AUTS_NAME                                       :[DTS] AUTS
+STR_Cammall_AC_NAME                                 :[DTS] Cammall AC Train
+STR_Cammall_DC_NAME                                 :[DTS] Cammall DC Train
+STR_CNR_Changchun_NAME                              :[DTS] CNR Changchun Trian
+STR_CRRC_NAME                                       :[DTS] CRRC Trian
+STR_Hyundai_Rotem_Mitsubishi_NAME                   :[DTS] Rotem Mitsubishi Trian
+STR_Hyundai_Rotem_R_NAME                            :[DTS] Rotem R Type Train
+
 STR_Standard_Metro_NAME                             :[DTS] Standard Metro
 
 # wagon's name
@@ -98,12 +99,12 @@ STR_PARAM_world_NAME                                :Ban on World trains.
 STR_PARAM_world_DESC                                :Check if you do not want to use World trains. (Default: use)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
+STR_REFIT_ADDITIONAL_AD_Tranz_CAF_A                 :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_AGV                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_AREX                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}AREX
-STR_REFIT_ADDITIONAL_Avelia_Liberty                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Avelia_Liberty                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}BB15000
-STR_REFIT_ADDITIONAL_AD_Tranz_CAF_A                 :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Cammall_AC                     :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Cammall_DC                     :{BLACK}Changing model/livery: {GREEN}vailable {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_CNR_Changchun                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
@@ -123,7 +124,6 @@ STR_REFIT_ADDITIONAL_EMU260                         :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_EMU260_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train{}{GREEN}Bicheuro, Bicheuro DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
-STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_GTX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}GTX
 STR_REFIT_ADDITIONAL_H2_WJ                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}H2 WJ
 STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HEMU-430X
@@ -134,6 +134,7 @@ STR_REFIT_ADDITIONAL_HYEL_150                       :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_HYEL_200                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HYEL-200
 STR_REFIT_ADDITIONAL_HYEL_300                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_HYEL_400                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}HYEL-400
+STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_Hyundai_Rotem_Mitsubishi       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Hyundai_Rotem_R                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
 
@@ -162,6 +163,8 @@ STR_REFIT_train_configuration_KGeneratar            :{BLACK}train configuration:
 STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
 
 # Liveries
+STR_REFIT_LIVERY_AD_Tranz_CAF_A_Airport_Express     :(Airport Express)
+STR_REFIT_LIVERY_AD_Tranz_CAF_A_Tung_Chung          :(Tung Chung)
 STR_REFIT_LIVERY_AREX_Normal                        :(Normal Color)
 STR_REFIT_LIVERY_AREX_Company_Color                 :(Company Color)
 STR_REFIT_LIVERY_BB15000_Orginal                    :(Orginal)
@@ -171,15 +174,6 @@ STR_REFIT_LIVERY_European_Type_1nd_Passenger_Car    :(European type 1nd Livery)
 STR_REFIT_LIVERY_European_Type_2nd_Passenger_Car    :(European type 2nd Livery)
 STR_REFIT_LIVERY_European_Type_Bar_Passenger_Car    :(European type Bar Livery)
 STR_REFIT_LIVERY_European_Type_HF_Passenger_Car     :(European type 1/2 1,2nd Livery)
-STR_REFIT_LIVERY_Chinese_25_Type_Red_Passenger_Car  :(25 Type 1F Red Color Car)
-STR_REFIT_LIVERY_Chinese_25_Type_Green_Passenger_Car:(25 Type 1F Green Color Car)
-STR_REFIT_LIVERY_Chinese_25_Type_White_Passenger_Car:(25 Type 1F White Color Car)
-STR_REFIT_LIVERY_Chinese_25_Type_2F_Passenger_Car   :(25 Type 2F Car)
-STR_REFIT_LIVERY_Chinese_25_Type_3nd_Bed_Car        :(25 Type 3nd Bed Car)
-STR_REFIT_LIVERY_Chinese_25_Type_2nd_Bed_Car        :(25 Type 2nd Bed Car)
-STR_REFIT_LIVERY_Chinese_25_Type_1nd_Bed_Car        :(25 Type 1nd Bed Car)
-STR_REFIT_LIVERY_AD_Tranz_CAF_A_Airport_Express     :(Airport Express)
-STR_REFIT_LIVERY_AD_Tranz_CAF_A_Tung_Chung          :(Tung Chung)
 STR_REFIT_LIVERY_Cammall_DC                         :(no remoding Car)
 STR_REFIT_LIVERY_Cammall_DC_Remoding                :(remoding Car)
 STR_REFIT_LIVERY_Cammall_DC_Disney                  :(Disney Car)
@@ -216,22 +210,22 @@ STR_REFIT_LIVERY_EMU320_DB                          :(EMU-300 ICE)
 STR_REFIT_LIVERY_EMU320_EURO                        :(EMU-320 Euro)
 STR_REFIT_LIVERY_EMU320_JR                          :(EMU-320 JR)
 STR_REFIT_LIVERY_EMU320_THSR                        :(EMU-320 THSR)
-STR_REFIT_LIVERY_GT26CW_Korail                      :(Korail)
-STR_REFIT_LIVERY_GT26CW_CL                          :(CL)
-STR_REFIT_LIVERY_GT26CW_World                       :(GT26CW)
-STR_REFIT_LIVERY_GT26CW_CY_GW                       :(Chungbuk Yeongdong Gugak & Wine Train)
-STR_REFIT_LIVERY_GT26CW_LB                          :(Lady Bird)
-STR_REFIT_LIVERY_GT26CW_ST                          :(S-Train)
-STR_REFIT_LIVERY_GT26CW_G                           :(G-Train)
 STR_REFIT_LIVERY_Flat                               :(Flat Nomal Car)
 STR_REFIT_LIVERY_Flat_Trailer                       :(Flat Trailer Car Company Color)
 STR_REFIT_LIVERY_Flat_Trailer_2cc                   :(Flat Trailer Car 2cc Color)
-STR_REFIT_LIVERY_Generatar_Car_White                :(Generatar White Car)
-STR_REFIT_LIVERY_Generatar_Car_Green                :(Generatar Green Car)
+STR_REFIT_LIVERY_CGeneratar_Car_White               :(Generatar White Car)
+STR_REFIT_LIVERY_CGeneratar_Car_Green               :(Generatar Green Car)
 STR_REFIT_LIVERY_HEMU_430X_1F                       :(HEMU-430X 1F)
 STR_REFIT_LIVERY_HEMU_430X_2F                       :(HEMU-430X 2F)
 STR_REFIT_LIVERY_HYEL_100_SRT                       :(SRT)
 STR_REFIT_LIVERY_HYEL_100_SanCheon                  :(SanCheon)
+STR_REFIT_LIVERY_Chinese_25_Type_Red_Passenger_Car  :(25 Type 1F Red Color Car)
+STR_REFIT_LIVERY_Chinese_25_Type_Green_Passenger_Car:(25 Type 1F Green Color Car)
+STR_REFIT_LIVERY_Chinese_25_Type_White_Passenger_Car:(25 Type 1F White Color Car)
+STR_REFIT_LIVERY_Chinese_25_Type_2F_Passenger_Car   :(25 Type 2F Car)
+STR_REFIT_LIVERY_Chinese_25_Type_3nd_Bed_Car        :(25 Type 3nd Bed Car)
+STR_REFIT_LIVERY_Chinese_25_Type_2nd_Bed_Car        :(25 Type 2nd Bed Car)
+STR_REFIT_LIVERY_Chinese_25_Type_1nd_Bed_Car        :(25 Type 1nd Bed Car)
 STR_REFIT_LIVERY_Eco_Rail_Passenger_Car             :(Eco Rail Passenger Car)
 STR_REFIT_LIVERY_CY_GW_Passenger_Car                :(Chungbuk Yeongdong Gugak & Wine Passenger Car)
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car             :(Jeongseon Arirang Old Color)
@@ -245,6 +239,13 @@ STR_REFIT_LIVERY_A_Train_New_Passenger_Car          :(A-Train)
 STR_REFIT_LIVERY_G_Train_New_Passenger_Car          :(G-Train)
 STR_REFIT_LIVERY_Korean_2F_SR_Passenger_Car         :(SR Color)
 STR_REFIT_LIVERY_Korean_2F_Taegeuk_Passenger_Car    :(Taegeuk Color)
+STR_REFIT_LIVERY_GT26CW_Korail                      :(Korail)
+STR_REFIT_LIVERY_GT26CW_CL                          :(CL)
+STR_REFIT_LIVERY_GT26CW_World                       :(GT26CW)
+STR_REFIT_LIVERY_GT26CW_CY_GW                       :(Chungbuk Yeongdong Gugak & Wine Train)
+STR_REFIT_LIVERY_GT26CW_LB                          :(Lady Bird)
+STR_REFIT_LIVERY_GT26CW_ST                          :(S-Train)
+STR_REFIT_LIVERY_GT26CW_G                           :(G-Train)
 STR_REFIT_LIVERY_Eco_Rail_Generatar_Car             :(Generatar Car)
 STR_REFIT_LIVERY_CY_GW_Generatar_Car                :(Chungbuk Yeongdong Gugak & Wine Generatar Car)
 STR_REFIT_LIVERY_JA_a_Old_Generatar_Car             :(Jeongseon Arirang Old Color)

@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_DEL7600_purchase, "src/Locomotive/DEL7600/DEL7600.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_DEL7600_engine, "src/Locomotive/DEL7600/DEL7600.png"){
+    engine(80, 0)
+}
+
+/*-------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_DEL7600_purchase, cargo_subtype) {
+	set_DEL7600_purchase;
+}

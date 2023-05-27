@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_ESPassenger_wagon_purchase, "src/Wagon/ESPassenger_wagon/ESPassenger_wagon.png"){
+	tmpl_wagon_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+유럽형 객차 승객 차량
+--------------------------------------------------------------------*/
+spriteset(set_European_Type_1nd_wagon, "src/Wagon/ESPassenger_wagon/ESPassenger_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_European_Type_2nd_wagon, "src/Wagon/ESPassenger_wagon/ESPassenger_wagon.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_European_Type_Bar_wagon, "src/Wagon/ESPassenger_wagon/ESPassenger_wagon.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_European_Type_HF_wagon, "src/Wagon/ESPassenger_wagon/ESPassenger_wagon.png") {
+    wagon_1F_F(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_ESPassenger_wagon_purchase, cargo_subtype) {
+    set_ESPassenger_wagon_purchase;
+}

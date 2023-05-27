@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_CRH380AJ_purchase, "src/Locomotive/CRH380AJ/CRH380AJ.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_CRH380AJH_purchase, "src/Locomotive/CRH380AJ/CRH380AJ.png"){
+    tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_CRH380AJ_engineH, "src/Locomotive/CRH380AJ/CRH380AJ.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CRH380AJ_panto_wagon, "src/Locomotive/CRH380AJ/CRH380AJ.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_CRH380AJ_wagon, "src/Locomotive/CRH380AJ/CRH380AJ.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_CRH380AJ_wagon_r, "src/Locomotive/CRH380AJ/CRH380AJ.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_CRH380AJ_panto_wagon_r, "src/Locomotive/CRH380AJ/CRH380AJ.png"){
+    wagon_start(80, 81)
+}
+
+spriteset(set_CRH380AJ_engineT, "src/Locomotive/CRH380AJ/CRH380AJ.png"){
+    engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CRH380AJ_purchase, cargo_subtype) {
+    set_CRH380AJ_purchase;
+}

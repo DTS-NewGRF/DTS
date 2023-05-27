@@ -1,69 +1,69 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Standard_Metro_purchase, "src/metro/standard/Standard_Long.png"){
+spriteset(set_Standard_Metro_purchase, "src/Metro/Standard/Standard_Long.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. 표준형 롱시트
 --------------------------------------------------------------------*/
-spriteset(set_Standard_Metro_LH_purchase, "src/metro/standard/Standard_Long.png"){
+spriteset(set_Standard_Metro_LH_purchase, "src/Metro/Standard/Standard_Long.png"){
     tmpl_purchase_for_dualhead(0, 81)
 }
 
-spriteset(set_Standard_Metro_L_engineH, "src/metro/standard/Standard_Long.png"){
+spriteset(set_Standard_Metro_L_engineH, "src/Metro/Standard/Standard_Long.png"){
     engine(80, 0)
 }
 
-spriteset(set_Standard_Metro_L_panto_wagon, "src/metro/standard/Standard_Long.png") {
+spriteset(set_Standard_Metro_L_panto_wagon, "src/Metro/Standard/Standard_Long.png") {
     wagon_1F(80, 27)
 }
 
-spriteset(set_Standard_Metro_L_panto_wagon_r, "src/metro/standard/Standard_Long.png") {
+spriteset(set_Standard_Metro_L_panto_wagon_r, "src/Metro/Standard/Standard_Long.png") {
     wagon_1F_r(80, 27)
 }
 
-spriteset(set_Standard_Metro_L_wagon, "src/metro/standard/Standard_Long.png") {
+spriteset(set_Standard_Metro_L_wagon, "src/Metro/Standard/Standard_Long.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_Standard_Metro_L_wagon_r, "src/metro/standard/Standard_Long.png") {
+spriteset(set_Standard_Metro_L_wagon_r, "src/Metro/Standard/Standard_Long.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_Standard_Metro_L_engineT, "src/metro/standard/Standard_Long.png"){
+spriteset(set_Standard_Metro_L_engineT, "src/Metro/Standard/Standard_Long.png"){
     engine_r(80, 81)
 }
 
 /*--------------------------------------------------------------------
 1. 표준형 크로스시트
 --------------------------------------------------------------------*/
-spriteset(set_Standard_Metro_CH_purchase, "src/metro/standard/Standard_Cross.png"){
+spriteset(set_Standard_Metro_CH_purchase, "src/Metro/Standard/Standard_Cross.png"){
     tmpl_purchase_for_dualhead(0, 81)
 }
 
-spriteset(set_Standard_Metro_C_engineH, "src/metro/standard/Standard_Cross.png"){
+spriteset(set_Standard_Metro_C_engineH, "src/Metro/Standard/Standard_Cross.png"){
     engine(80, 0)
 }
 
-spriteset(set_Standard_Metro_C_panto_wagon, "src/metro/standard/Standard_Cross.png") {
+spriteset(set_Standard_Metro_C_panto_wagon, "src/Metro/Standard/Standard_Cross.png") {
     wagon_1F(80, 27)
 }
 
-spriteset(set_Standard_Metro_C_panto_wagon_r, "src/metro/standard/Standard_Cross.png") {
+spriteset(set_Standard_Metro_C_panto_wagon_r, "src/Metro/Standard/Standard_Cross.png") {
     wagon_1F_r(80, 27)
 }
 
-spriteset(set_Standard_Metro_C_wagon, "src/metro/standard/Standard_Cross.png") {
+spriteset(set_Standard_Metro_C_wagon, "src/Metro/Standard/Standard_Cross.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_Standard_Metro_C_wagon_r, "src/metro/standard/Standard_Cross.png") {
+spriteset(set_Standard_Metro_C_wagon_r, "src/Metro/Standard/Standard_Cross.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_Standard_Metro_C_engineT, "src/metro/standard/Standard_Cross.png"){
+spriteset(set_Standard_Metro_C_engineT, "src/Metro/Standard/Standard_Cross.png"){
     engine_r(80, 81)
 }
 

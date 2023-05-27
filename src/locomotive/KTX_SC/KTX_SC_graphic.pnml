@@ -1,131 +1,131 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_KTX_SC_purchase, "src/locomotive/KTX_SC/KTX_HN_B.png"){
+spriteset(set_KTX_SC_purchase, "src/Locomotive/KTX_SC/KTX_HN_B.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. KTX-Honam Sky blue Livery
 --------------------------------------------------------------------*/
-spriteset(set_KTX_HN_BH_purchase, "src/locomotive/KTX_SC/KTX_HN_B.png"){
+spriteset(set_KTX_HN_BH_purchase, "src/Locomotive/KTX_SC/KTX_HN_B.png"){
     tmpl_purchase_for_dualhead(0, 135)
 }
 
-spriteset(set_KTX_HN_B_engineH, "src/locomotive/KTX_SC/KTX_HN_B.png"){
+spriteset(set_KTX_HN_B_engineH, "src/Locomotive/KTX_SC/KTX_HN_B.png"){
     engine(80, 0)
 }
 
-spriteset(set_KTX_HN_B_wagon_start, "src/locomotive/KTX_SC/KTX_HN_B.png"){
+spriteset(set_KTX_HN_B_wagon_start, "src/Locomotive/KTX_SC/KTX_HN_B.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_KTX_HN_B_wagon, "src/locomotive/KTX_SC/KTX_HN_B.png") {
+spriteset(set_KTX_HN_B_wagon, "src/Locomotive/KTX_SC/KTX_HN_B.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_KTX_HN_B_wagon_r, "src/locomotive/KTX_SC/KTX_HN_B.png") {
+spriteset(set_KTX_HN_B_wagon_r, "src/Locomotive/KTX_SC/KTX_HN_B.png") {
     wagon_1F_r(80, 81)
 }
 
-spriteset(set_KTX_HN_B_wagon_end, "src/locomotive/KTX_SC/KTX_HN_B.png"){
+spriteset(set_KTX_HN_B_wagon_end, "src/Locomotive/KTX_SC/KTX_HN_B.png"){
     wagon_start(80, 108)
 }
 
-spriteset(set_KTX_HN_B_engineT, "src/locomotive/KTX_SC/KTX_HN_B.png"){
+spriteset(set_KTX_HN_B_engineT, "src/Locomotive/KTX_SC/KTX_HN_B.png"){
     engine_r(80, 135)
 }
 
 /*--------------------------------------------------------------------
 2. KTX-Honam Yellow Livery
 --------------------------------------------------------------------*/
-spriteset(set_KTX_HN_YH_purchase, "src/locomotive/KTX_SC/KTX_HN_Y.png"){
+spriteset(set_KTX_HN_YH_purchase, "src/Locomotive/KTX_SC/KTX_HN_Y.png"){
     tmpl_purchase_for_dualhead(0, 135)
 }
 
-spriteset(set_KTX_HN_Y_engineH, "src/locomotive/KTX_SC/KTX_HN_Y.png"){
+spriteset(set_KTX_HN_Y_engineH, "src/Locomotive/KTX_SC/KTX_HN_Y.png"){
     engine(80, 0)
 }
 
-spriteset(set_KTX_HN_Y_wagon_start, "src/locomotive/KTX_SC/KTX_HN_Y.png"){
+spriteset(set_KTX_HN_Y_wagon_start, "src/Locomotive/KTX_SC/KTX_HN_Y.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_KTX_HN_Y_wagon, "src/locomotive/KTX_SC/KTX_HN_Y.png") {
+spriteset(set_KTX_HN_Y_wagon, "src/Locomotive/KTX_SC/KTX_HN_Y.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_KTX_HN_Y_wagon_r, "src/locomotive/KTX_SC/KTX_HN_Y.png") {
+spriteset(set_KTX_HN_Y_wagon_r, "src/Locomotive/KTX_SC/KTX_HN_Y.png") {
     wagon_1F_r(80, 81)
 }
 
-spriteset(set_KTX_HN_Y_wagon_end, "src/locomotive/KTX_SC/KTX_HN_Y.png"){
+spriteset(set_KTX_HN_Y_wagon_end, "src/Locomotive/KTX_SC/KTX_HN_Y.png"){
     wagon_start(80, 108)
 }
 
-spriteset(set_KTX_HN_Y_engineT, "src/locomotive/KTX_SC/KTX_HN_Y.png"){
+spriteset(set_KTX_HN_Y_engineT, "src/Locomotive/KTX_SC/KTX_HN_Y.png"){
     engine_r(80, 135)
 }
 
 /*--------------------------------------------------------------------
 3. KTX-Gyeonggang Blue Livery
 --------------------------------------------------------------------*/
-spriteset(set_KTX_GG_BH_purchase, "src/locomotive/KTX_SC/KTX_GG_B.png"){
+spriteset(set_KTX_GG_BH_purchase, "src/Locomotive/KTX_SC/KTX_GG_B.png"){
     tmpl_purchase_for_dualhead(0, 135)
 }
 
-spriteset(set_KTX_GG_B_engineH, "src/locomotive/KTX_SC/KTX_GG_B.png"){
+spriteset(set_KTX_GG_B_engineH, "src/Locomotive/KTX_SC/KTX_GG_B.png"){
     engine(80, 0)
 }
 
-spriteset(set_KTX_GG_B_wagon_start, "src/locomotive/KTX_SC/KTX_GG_B.png"){
+spriteset(set_KTX_GG_B_wagon_start, "src/Locomotive/KTX_SC/KTX_GG_B.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_KTX_GG_B_wagon, "src/locomotive/KTX_SC/KTX_GG_B.png") {
+spriteset(set_KTX_GG_B_wagon, "src/Locomotive/KTX_SC/KTX_GG_B.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_KTX_GG_B_wagon_r, "src/locomotive/KTX_SC/KTX_GG_B.png") {
+spriteset(set_KTX_GG_B_wagon_r, "src/Locomotive/KTX_SC/KTX_GG_B.png") {
     wagon_1F_r(80, 81)
 }
 
-spriteset(set_KTX_GG_B_wagon_end, "src/locomotive/KTX_SC/KTX_GG_B.png"){
+spriteset(set_KTX_GG_B_wagon_end, "src/Locomotive/KTX_SC/KTX_GG_B.png"){
     wagon_start(80, 108)
 }
 
-spriteset(set_KTX_GG_B_engineT, "src/locomotive/KTX_SC/KTX_GG_B.png"){
+spriteset(set_KTX_GG_B_engineT, "src/Locomotive/KTX_SC/KTX_GG_B.png"){
     engine_r(80, 135)
 }
 
 /*--------------------------------------------------------------------
 4. KTX-Gyeonggang White Livery
 --------------------------------------------------------------------*/
-spriteset(set_KTX_GG_WH_purchase, "src/locomotive/KTX_SC/KTX_GG_W.png"){
+spriteset(set_KTX_GG_WH_purchase, "src/Locomotive/KTX_SC/KTX_GG_W.png"){
     tmpl_purchase_for_dualhead(0, 135)
 }
 
-spriteset(set_KTX_GG_W_engineH, "src/locomotive/KTX_SC/KTX_GG_W.png"){
+spriteset(set_KTX_GG_W_engineH, "src/Locomotive/KTX_SC/KTX_GG_W.png"){
     engine(80, 0)
 }
 
-spriteset(set_KTX_GG_W_wagon_start, "src/locomotive/KTX_SC/KTX_GG_W.png"){
+spriteset(set_KTX_GG_W_wagon_start, "src/Locomotive/KTX_SC/KTX_GG_W.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_KTX_GG_W_wagon, "src/locomotive/KTX_SC/KTX_GG_W.png") {
+spriteset(set_KTX_GG_W_wagon, "src/Locomotive/KTX_SC/KTX_GG_W.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_KTX_GG_W_wagon_r, "src/locomotive/KTX_SC/KTX_GG_W.png") {
+spriteset(set_KTX_GG_W_wagon_r, "src/Locomotive/KTX_SC/KTX_GG_W.png") {
     wagon_1F_r(80, 81)
 }
 
-spriteset(set_KTX_GG_W_wagon_end, "src/locomotive/KTX_SC/KTX_GG_W.png"){
+spriteset(set_KTX_GG_W_wagon_end, "src/Locomotive/KTX_SC/KTX_GG_W.png"){
     wagon_start(80, 108)
 }
 
-spriteset(set_KTX_GG_W_engineT, "src/locomotive/KTX_SC/KTX_GG_W.png"){
+spriteset(set_KTX_GG_W_engineT, "src/Locomotive/KTX_SC/KTX_GG_W.png"){
     engine_r(80, 135)
 }
 

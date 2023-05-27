@@ -10,18 +10,12 @@ STR_GRF_URL                                         :https://github.com/DTS-NewG
 STR_AGV_NAME                                        :[DTS] AGV
 STR_AREX_NAME                                       :[DTS] AREX (공항철도)
 STR_Avelia_Liberty_NAME                             :[DTS] 아벨리아 리버티
-STR_AUTS_NAME                                       :[DTS] AUTS
 STR_BB15000_NAME                                    :[DTS] BB15000
-STR_AD_Tranz_CAF_A_NAME                             :[DTS] AD Tranz CAF A형
-STR_Cammall_AC_NAME                                 :[DTS] 메트로카멜 교류형 전동차
-STR_Cammall_DC_NAME                                 :[DTS] 메트로카멜 직류형 전동차
-STR_CNR_Changchun_NAME                              :[DTS] CNR 창춘 전동차
 STR_CR400_NAME                                      :[DTS] CR400
 STR_CRH1_NAME                                       :[DTS] CRH1
 STR_CRH380A_NAME                                    :[DTS] CRH380A
 STR_CRH380AJ_NAME                                   :[DTS] CRH380AJ
 STR_CRH380D_NAME                                    :[DTS] CRH380D
-STR_CRRC_NAME                                       :[DTS] CRRC 전동차
 STR_CTX_NAME                                        :[DTS] CTX
 STR_DEL7600_NAME                                    :[DTS] 7600형 기관차
 STR_DFX_NAME                                        :[DTS] DFX
@@ -32,7 +26,6 @@ STR_EMU260_NAME                                     :[DTS] EMU-260
 STR_EMU260_DD_NAME                                  :[DTS] EMU-260 DD
 STR_EMU320_NAME                                     :[DTS] EMU-320
 STR_EMU320_DD_NAME                                  :[DTS] EMU-320 DD
-STR_GT26CW_NAME                                     :[DTS] GT26CW
 STR_GTX_NAME                                        :[DTS] GTX
 STR_H2_WJ_NAME                                      :[DTS] 우진산전 수소연료전지동차
 STR_HEMU_430X_NAME                                  :[DTS] HEMU-430X (해무)
@@ -43,8 +36,7 @@ STR_HYEL_150_NAME                                   :[DTS] HYEL-150
 STR_HYEL_200_NAME                                   :[DTS] HYEL-200
 STR_HYEL_300_NAME                                   :[DTS] HYEL-300
 STR_HYEL_400_NAME                                   :[DTS] HYEL-400
-STR_Hyundai_Rotem_Mitsubishi_NAME                   :[DTS] 로템 미쓰비시 전동차
-STR_Hyundai_Rotem_R_NAME                            :[DTS] 로템 R형 전동차
+STR_GT26CW_NAME                                     :[DTS] GT26CW
 
 STR_ICE_CW_NAME                                     :[임시추가] ITX-초월
 STR_ITX_SM2_NAME                                    :[임시추가] ITX-새마을 Max
@@ -56,6 +48,15 @@ STR_TTX_NAME                                        :[임시추가] 한빛 200 (
 STR_VHST_600X_NAME                                  :[임시추가] VHST-600X
 
 # Metro's name
+STR_AD_Tranz_CAF_A_NAME                             :[DTS] AD Tranz CAF A형
+STR_AUTS_NAME                                       :[DTS] AUTS
+STR_Cammall_AC_NAME                                 :[DTS] 메트로카멜 교류형 전동차
+STR_Cammall_DC_NAME                                 :[DTS] 메트로카멜 직류형 전동차
+STR_CNR_Changchun_NAME                              :[DTS] CNR 창춘 전동차
+STR_CRRC_NAME                                       :[DTS] CRRC 전동차
+STR_Hyundai_Rotem_Mitsubishi_NAME                   :[DTS] 로템 미쓰비시 전동차
+STR_Hyundai_Rotem_R_NAME                            :[DTS] 로템 R형 전동차
+
 STR_Standard_Metro_NAME                             :[임시추가] 한국형 표준전동차
 
 # wagon's name
@@ -98,12 +99,12 @@ STR_PARAM_world_NAME                                :세계형 열차 사용금�
 STR_PARAM_world_DESC                                :세계형 열차를 사용시 체크하세요. (기본:사용)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
+STR_REFIT_ADDITIONAL_AD_Tranz_CAF_A                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_AGV                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_AREX                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}AREX
-STR_REFIT_ADDITIONAL_Avelia_Liberty                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Avelia_Liberty                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}BB15000
-STR_REFIT_ADDITIONAL_AD_Tranz_CAF_A                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_Cammall_AC                     :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_Cammall_DC                     :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_CNR_Changchun                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 {RED}불가능
@@ -123,7 +124,6 @@ STR_REFIT_ADDITIONAL_EMU260                         :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_EMU260_DD                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU320                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU320_DD                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EUM-320,EMU-320 DD
-STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_GTX                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}GTX
 STR_REFIT_ADDITIONAL_H2_WJ                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}H2 WJ
 STR_REFIT_ADDITIONAL_HEMU_430X                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}HEMU-430X
@@ -134,6 +134,7 @@ STR_REFIT_ADDITIONAL_HYEL_150                       :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_HYEL_200                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}HYEL-200
 STR_REFIT_ADDITIONAL_HYEL_300                       :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {RED}불가능
 STR_REFIT_ADDITIONAL_HYEL_400                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}HYEL-400
+STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_Hyundai_Rotem_Mitsubishi       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_Hyundai_Rotem_R                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
 
@@ -162,6 +163,8 @@ STR_REFIT_train_configuration_KGeneratar            :{BLACK}열차구성: {GREEN
 STR_REFIT_train_configuration_Luggage               :{BLACK}열차구성: {GREEN}수화물차용
 
 # Liveries locomotive
+STR_REFIT_LIVERY_AD_Tranz_CAF_A_Airport_Express     :(Airport Express)
+STR_REFIT_LIVERY_AD_Tranz_CAF_A_Tung_Chung          :(Tung Chung)
 STR_REFIT_LIVERY_AREX_Normal                        :(기본 도색)
 STR_REFIT_LIVERY_AREX_Company_Color                 :(회사 색상)
 STR_REFIT_LIVERY_BB15000_Orginal                    :(기본도색)
@@ -171,15 +174,6 @@ STR_REFIT_LIVERY_European_Type_1nd_Passenger_Car    :(유럽형 1등석)
 STR_REFIT_LIVERY_European_Type_2nd_Passenger_Car    :(유럽형 2등석)
 STR_REFIT_LIVERY_European_Type_Bar_Passenger_Car    :(유럽형 식당칸)
 STR_REFIT_LIVERY_European_Type_HF_Passenger_Car     :(유럽형 1/2 1,2등석)
-STR_REFIT_LIVERY_Chinese_25_Type_Red_Passenger_Car  :(25형 1층 빨강 도색)
-STR_REFIT_LIVERY_Chinese_25_Type_Green_Passenger_Car:(25형 1층 녹색 도색)
-STR_REFIT_LIVERY_Chinese_25_Type_White_Passenger_Car:(25형 1층 흰색 도색)
-STR_REFIT_LIVERY_Chinese_25_Type_2F_Passenger_Car   :(25형 2층)
-STR_REFIT_LIVERY_Chinese_25_Type_3nd_Bed_Car        :(25형 3등석 침대차량)
-STR_REFIT_LIVERY_Chinese_25_Type_2nd_Bed_Car        :(25형 2등석 침대차량)
-STR_REFIT_LIVERY_Chinese_25_Type_1nd_Bed_Car        :(25형 1등석 침대차량)
-STR_REFIT_LIVERY_AD_Tranz_CAF_A_Airport_Express     :(Airport Express)
-STR_REFIT_LIVERY_AD_Tranz_CAF_A_Tung_Chung          :(Tung Chung)
 STR_REFIT_LIVERY_Cammall_DC                         :(미개조형)
 STR_REFIT_LIVERY_Cammall_DC_Remoding                :(개조형)
 STR_REFIT_LIVERY_Cammall_DC_Disney                  :(디즈니선)
@@ -216,22 +210,22 @@ STR_REFIT_LIVERY_EMU320_DB                          :(EMU-300 ICE)
 STR_REFIT_LIVERY_EMU320_EURO                        :(EMU-320 Euro)
 STR_REFIT_LIVERY_EMU320_JR                          :(EMU-320 JR)
 STR_REFIT_LIVERY_EMU320_THSR                        :(EMU-320 THSR)
-STR_REFIT_LIVERY_GT26CW_Korail                      :(코레일)
-STR_REFIT_LIVERY_GT26CW_CL                          :(철도청)
-STR_REFIT_LIVERY_GT26CW_World                       :(GT26CW)
-STR_REFIT_LIVERY_GT26CW_CY_GW                       :(충북영동국악와인)
-STR_REFIT_LIVERY_GT26CW_LB                          :(레이디버드)
-STR_REFIT_LIVERY_GT26CW_ST                          :(S-Train)
-STR_REFIT_LIVERY_GT26CW_G                           :(G-Train)
 STR_REFIT_LIVERY_Flat                               :(평판화차)
 STR_REFIT_LIVERY_Flat_Trailer                       :(평판화차 패기형 회사색상)
 STR_REFIT_LIVERY_Flat_Trailer_2cc                   :(평판화차 패기형 2cc 색상)
-STR_REFIT_LIVERY_Generatar_Car_White                :(발전차 흰색도색)
-STR_REFIT_LIVERY_Generatar_Car_Green                :(발전차 녹색도색)
+STR_REFIT_LIVERY_CGeneratar_Car_White               :(발전차 흰색도색)
+STR_REFIT_LIVERY_CGeneratar_Car_Green               :(발전차 녹색도색)
 STR_REFIT_LIVERY_HEMU_430X_1F                       :(HEMU-430X 1층)
 STR_REFIT_LIVERY_HEMU_430X_2F                       :(HEMU-430X 2층)
 STR_REFIT_LIVERY_HYEL_100_SRT                       :(SRT)
 STR_REFIT_LIVERY_HYEL_100_SanCheon                  :(산천)
+STR_REFIT_LIVERY_Chinese_25_Type_Red_Passenger_Car  :(25형 1층 빨강 도색)
+STR_REFIT_LIVERY_Chinese_25_Type_Green_Passenger_Car:(25형 1층 녹색 도색)
+STR_REFIT_LIVERY_Chinese_25_Type_White_Passenger_Car:(25형 1층 흰색 도색)
+STR_REFIT_LIVERY_Chinese_25_Type_2F_Passenger_Car   :(25형 2층)
+STR_REFIT_LIVERY_Chinese_25_Type_3nd_Bed_Car        :(25형 3등석 침대차량)
+STR_REFIT_LIVERY_Chinese_25_Type_2nd_Bed_Car        :(25형 2등석 침대차량)
+STR_REFIT_LIVERY_Chinese_25_Type_1nd_Bed_Car        :(25형 1등석 침대차량)
 STR_REFIT_LIVERY_Eco_Rail_Passenger_Car             :(에코레일)
 STR_REFIT_LIVERY_CY_GW_Passenger_Car                :(충북영동국악와인)
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car             :(정선아리랑 유람열차 구도색)
@@ -245,6 +239,13 @@ STR_REFIT_LIVERY_A_Train_New_Passenger_Car          :(A-Train)
 STR_REFIT_LIVERY_G_Train_New_Passenger_Car          :(G-Train)
 STR_REFIT_LIVERY_Korean_2F_SR_Passenger_Car         :(SR 도색)
 STR_REFIT_LIVERY_Korean_2F_Taegeuk_Passenger_Car    :(태극 도색)
+STR_REFIT_LIVERY_GT26CW_Korail                      :(코레일)
+STR_REFIT_LIVERY_GT26CW_CL                          :(철도청)
+STR_REFIT_LIVERY_GT26CW_World                       :(GT26CW)
+STR_REFIT_LIVERY_GT26CW_CY_GW                       :(충북영동국악와인)
+STR_REFIT_LIVERY_GT26CW_LB                          :(레이디버드)
+STR_REFIT_LIVERY_GT26CW_ST                          :(S-Train)
+STR_REFIT_LIVERY_GT26CW_G                           :(G-Train)
 STR_REFIT_LIVERY_Eco_Rail_Generatar_Car             :(발전차)
 STR_REFIT_LIVERY_CY_GW_Generatar_Car                :(충북영동국악와인)
 STR_REFIT_LIVERY_JA_a_Old_Generatar_Car             :(정선아리랑 유람열차 구도색)

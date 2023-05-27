@@ -1,112 +1,112 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_KTX_SC2_purchase, "src/locomotive/KTX_SC2/KTX_SC2_B.png"){
+spriteset(set_KTX_SC2_purchase, "src/Locomotive/KTX_SC2/KTX_SC2_B.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1 KTX-SC2 Blue
 --------------------------------------------------------------------*/
-spriteset(set_KTX_SC2_BH_purchase, "src/locomotive/KTX_SC2/KTX_SC2_B.png"){
+spriteset(set_KTX_SC2_BH_purchase, "src/Locomotive/KTX_SC2/KTX_SC2_B.png"){
     tmpl_purchase_for_dualhead(0, 162)
 }
 
-spriteset(set_KTX_SC2_B_engineH, "src/locomotive/KTX_SC2/KTX_SC2_B.png"){
+spriteset(set_KTX_SC2_B_engineH, "src/Locomotive/KTX_SC2/KTX_SC2_B.png"){
     engine(80, 0)
 }
 
-spriteset(set_KTX_SC2_B_wagon_start, "src/locomotive/KTX_SC2/KTX_SC2_B.png"){
+spriteset(set_KTX_SC2_B_wagon_start, "src/Locomotive/KTX_SC2/KTX_SC2_B.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_KTX_SC2_B_wagon, "src/locomotive/KTX_SC2/KTX_SC2_B.png") {
+spriteset(set_KTX_SC2_B_wagon, "src/Locomotive/KTX_SC2/KTX_SC2_B.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_KTX_SC2_B_special_wagon, "src/locomotive/KTX_SC2/KTX_SC2_B.png") {
+spriteset(set_KTX_SC2_B_special_wagon, "src/Locomotive/KTX_SC2/KTX_SC2_B.png") {
     wagon_1F(80, 81)
 }
 
-spriteset(set_KTX_SC2_B_wagon_r, "src/locomotive/KTX_SC2/KTX_SC2_B.png") {
+spriteset(set_KTX_SC2_B_wagon_r, "src/Locomotive/KTX_SC2/KTX_SC2_B.png") {
     wagon_1F_r(80, 108)
 }
 
-spriteset(set_KTX_SC2_B_wagon_end, "src/locomotive/KTX_SC2/KTX_SC2_B.png"){
+spriteset(set_KTX_SC2_B_wagon_end, "src/Locomotive/KTX_SC2/KTX_SC2_B.png"){
     wagon_start(80, 135)
 }
 
-spriteset(set_KTX_SC2_B_engineT, "src/locomotive/KTX_SC2/KTX_SC2_B.png"){
+spriteset(set_KTX_SC2_B_engineT, "src/Locomotive/KTX_SC2/KTX_SC2_B.png"){
     engine_r(80, 162)
 }
 
 /*--------------------------------------------------------------------
 2. KTX-SC2 Green
 --------------------------------------------------------------------*/
-spriteset(set_KTX_SC2_GH_purchase, "src/locomotive/KTX_SC2/KTX_SC2_G.png"){
+spriteset(set_KTX_SC2_GH_purchase, "src/Locomotive/KTX_SC2/KTX_SC2_G.png"){
     tmpl_purchase_for_dualhead(0, 162)
 }
 
-spriteset(set_KTX_SC2_G_engineH, "src/locomotive/KTX_SC2/KTX_SC2_G.png"){
+spriteset(set_KTX_SC2_G_engineH, "src/Locomotive/KTX_SC2/KTX_SC2_G.png"){
     engine(80, 0)
 }
 
-spriteset(set_KTX_SC2_G_wagon_start, "src/locomotive/KTX_SC2/KTX_SC2_G.png"){
+spriteset(set_KTX_SC2_G_wagon_start, "src/Locomotive/KTX_SC2/KTX_SC2_G.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_KTX_SC2_G_wagon, "src/locomotive/KTX_SC2/KTX_SC2_G.png") {
+spriteset(set_KTX_SC2_G_wagon, "src/Locomotive/KTX_SC2/KTX_SC2_G.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_KTX_SC2_G_special_wagon, "src/locomotive/KTX_SC2/KTX_SC2_G.png") {
+spriteset(set_KTX_SC2_G_special_wagon, "src/Locomotive/KTX_SC2/KTX_SC2_G.png") {
     wagon_1F(80, 81)
 }
 
-spriteset(set_KTX_SC2_G_wagon_r, "src/locomotive/KTX_SC2/KTX_SC2_G.png") {
+spriteset(set_KTX_SC2_G_wagon_r, "src/Locomotive/KTX_SC2/KTX_SC2_G.png") {
     wagon_1F_r(80, 108)
 }
 
-spriteset(set_KTX_SC2_G_wagon_end, "src/locomotive/KTX_SC2/KTX_SC2_G.png"){
+spriteset(set_KTX_SC2_G_wagon_end, "src/Locomotive/KTX_SC2/KTX_SC2_G.png"){
     wagon_start(80, 135)
 }
 
-spriteset(set_KTX_SC2_G_engineT, "src/locomotive/KTX_SC2/KTX_SC2_G.png"){
+spriteset(set_KTX_SC2_G_engineT, "src/Locomotive/KTX_SC2/KTX_SC2_G.png"){
     engine_r(80, 162)
 }
 
 /*--------------------------------------------------------------------
 3. KTX-SC2 White
 --------------------------------------------------------------------*/
-spriteset(set_KTX_SC2_WH_purchase, "src/locomotive/KTX_SC2/KTX_SC2_W.png"){
+spriteset(set_KTX_SC2_WH_purchase, "src/Locomotive/KTX_SC2/KTX_SC2_W.png"){
     tmpl_purchase_for_dualhead(0, 162)
 }
 
-spriteset(set_KTX_SC2_W_engineH, "src/locomotive/KTX_SC2/KTX_SC2_W.png"){
+spriteset(set_KTX_SC2_W_engineH, "src/Locomotive/KTX_SC2/KTX_SC2_W.png"){
     engine(80, 0)
 }
 
-spriteset(set_KTX_SC2_W_wagon_start, "src/locomotive/KTX_SC2/KTX_SC2_W.png"){
+spriteset(set_KTX_SC2_W_wagon_start, "src/Locomotive/KTX_SC2/KTX_SC2_W.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_KTX_SC2_W_wagon, "src/locomotive/KTX_SC2/KTX_SC2_W.png") {
+spriteset(set_KTX_SC2_W_wagon, "src/Locomotive/KTX_SC2/KTX_SC2_W.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_KTX_SC2_W_special_wagon, "src/locomotive/KTX_SC2/KTX_SC2_W.png") {
+spriteset(set_KTX_SC2_W_special_wagon, "src/Locomotive/KTX_SC2/KTX_SC2_W.png") {
     wagon_1F(80, 81)
 }
 
-spriteset(set_KTX_SC2_W_wagon_r, "src/locomotive/KTX_SC2/KTX_SC2_W.png") {
+spriteset(set_KTX_SC2_W_wagon_r, "src/Locomotive/KTX_SC2/KTX_SC2_W.png") {
     wagon_1F_r(80, 108)
 }
 
-spriteset(set_KTX_SC2_W_wagon_end, "src/locomotive/KTX_SC2/KTX_SC2_W.png"){
+spriteset(set_KTX_SC2_W_wagon_end, "src/Locomotive/KTX_SC2/KTX_SC2_W.png"){
     wagon_start(80, 135)
 }
 
-spriteset(set_KTX_SC2_W_engineT, "src/locomotive/KTX_SC2/KTX_SC2_W.png"){
+spriteset(set_KTX_SC2_W_engineT, "src/Locomotive/KTX_SC2/KTX_SC2_W.png"){
     engine_r(80, 162)
 }
 

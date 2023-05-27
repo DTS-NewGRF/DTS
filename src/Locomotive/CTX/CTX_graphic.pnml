@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_CTX_purchase, "src/Locomotive/CTX/CTX_FC_R.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+Freight Car
+--------------------------------------------------------------------*/
+spriteset(set_CTX_FC_RH_purchase, "src/Locomotive/CTX/CTX_FC_R.png"){
+    tmpl_purchase_for_dualhead(0, 54)
+}
+
+spriteset(set_CTX_FC_R_engineH, "src/Locomotive/CTX/CTX_FC_R.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CTX_FC_R_wagon, "src/Locomotive/CTX/CTX_FC_R.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_CTX_FC_R_engineT, "src/Locomotive/CTX/CTX_FC_R.png"){
+    engine_r(80, 54)
+}
+
+/*--------------------------------------------------------------------
+Passenger/Freight Hybrid Car
+--------------------------------------------------------------------*/
+spriteset(set_CTX_HC_RH_purchase, "src/Locomotive/CTX/CTX_HC_R.png"){
+    tmpl_purchase_for_dualhead(0, 135)
+}
+
+spriteset(set_CTX_HC_R_engineH, "src/Locomotive/CTX/CTX_HC_R.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CTX_HC_R_wagon_start, "src/Locomotive/CTX/CTX_HC_R.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_CTX_HC_R_wagon, "src/Locomotive/CTX/CTX_HC_R.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_CTX_HC_R_wagon_r, "src/Locomotive/CTX/CTX_HC_R.png") {
+    wagon_1F_r(80, 81)
+}
+
+spriteset(set_CTX_HC_R_wagon_end, "src/Locomotive/CTX/CTX_HC_R.png"){
+    wagon_start(80, 108)
+}
+
+spriteset(set_CTX_HC_R_engineT, "src/Locomotive/CTX/CTX_HC_R.png"){
+    engine_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CTX_purchase, cargo_subtype) {
+    set_CTX_purchase;
+}

@@ -1,15 +1,15 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Luggage_Car_purchase, "src\wagon\Luggage_Car\Luggage_Car.png"){
+spriteset(set_Luggage_Car_purchase, "src\Wagon\Luggage_Car\Luggage_Car.png"){
     tmpl_wagon_purchase(0, 0)
 }
 
-spriteset(set_Eco_Rail_Luggage_Car, "src\wagon\Luggage_Car\Luggage_Car.png") {
+spriteset(set_Eco_Rail_Luggage_Car, "src\Wagon\Luggage_Car\Luggage_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_CY_GW_Luggage_Car, "src\wagon\Luggage_Car\Luggage_Car.png") {
+spriteset(set_CY_GW_Luggage_Car, "src\Wagon\Luggage_Car\Luggage_Car.png") {
     wagon_1F_F(80, 27)
 }
 

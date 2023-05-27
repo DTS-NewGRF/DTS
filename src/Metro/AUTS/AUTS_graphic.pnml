@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_AUTS_purchase, "src/Metro/AUTS/AUTS.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. AUTS
+--------------------------------------------------------------------*/
+spriteset(set_AUTSH_purchase, "src/Metro/AUTS/AUTS.png"){
+    tmpl_purchase_for_dualhead(0, 81)
+}
+
+spriteset(set_AUTS_engineH, "src/Metro/AUTS/AUTS.png"){
+    engine(80, 0)
+}
+
+spriteset(set_AUTS_panto_wagon, "src/Metro/AUTS/AUTS.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_AUTS_wagon, "src/Metro/AUTS/AUTS.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_AUTS_engineT, "src/Metro/AUTS/AUTS.png"){
+    engine_r(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_AUTS_purchase, cargo_subtype) {
+    set_AUTS_purchase;
+}

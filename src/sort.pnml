@@ -2,45 +2,61 @@
 정렬 / 공백 ID : 현 없음.
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
+    //지하철
     AD_Tranz_CAF_A,            //2001
-    AGV,                       //2002
-    APEX20005,                 //2003
     AUTS,                      //2004
-    Avelia_Liberty,            //2005
-    BB15000,                   //2006
     Cammall_AC,                //2008
     Cammall_DC,                //2009
     CNR_Changchun,             //2010
-    CR400,                     //2011
-    CRH1,                      //2012
-    CRH380A,                   //2013
-    CRH380AJ,                  //2014
-    CRH380D,                   //2015
     CRRC,                      //2016
-    CTX,                       //2017
+    Rotem_Mitsubishi,          //2047
+    Hyundai_Rotem_R,           //2048
+
+    //통근열차
+    APEX20005,                 //2003
+    H2_WJ,                     //2034
+
+    //일반열차
+    BB15000,                   //2006
     DEL7600,                   //2019
-    DFX,                       //2020
-    Eurostar_E300,             //2022
     EMU150,                    //2023
     EMU150_DD,                 //2024
-    EMU260,                    //2025
-    EMU260_DD,                 //2026
-    EMU320,                    //2027
-    EMU320_DD,                 //2028
-    GTX,                       //2033
-    H2_WJ,                     //2034
-    HEMU_430X,                 //2035
-    HSR_350X,                  //2036
     HXD3C,                     //2037
     HYEL_100,                  //2038
     HYEL_150,                  //2039
     HYEL_200,                  //2040
-    HYEL_300,                  //2041
-    HYEL_400,                  //2042
     GT26CW,                    //2045
-    Rotem_Mitsubishi,          //2047
-    Hyundai_Rotem_R,           //2048
 
+    //준고속열차 180
+    GTX,                       //2033
+
+    //준고속열차 260
+    CRH1,                      //2012
+    EMU260,                    //2025
+    EMU260_DD,                 //2026
+    HYEL_300,                  //2041
+
+    //고속열차 331
+    AGV,                       //2002
+    Avelia_Liberty,            //2005
+    CR400,                     //2011
+    CRH380A,                   //2013
+    CRH380D,                   //2015
+    CTX,                       //2017
+    DFX,                       //2020
+    Eurostar_E300,             //2022
+    EMU320,                    //2027
+    EMU320_DD,                 //2028
+    HSR_350X,                  //2036
+
+    //고속열차 430
+    HEMU_430X,                 //2035
+    HYEL_400,                  //2042
+
+    //고속열차 600
+    CRH380AJ,                  //2014
+        
+    //미정리
     TTX,                       //1134
     Standard_Metro,            //1122
     VHST_600X,                 //1135
@@ -51,13 +67,14 @@ sort(FEAT_TRAINS, [
     NRT2,                      //1075
     Travel_8500,               //1121
     
+    // Wagon
     DTS_Passenger_Car,         //2000
-    DTS_ESPassenger_Car,       //2007
-    DTS_CSPassenger_Car,       //2043
+    DTS_ESPassenger_Car,       //2007    
+    DTS_CSPassenger_Car,       //2043    
     DTS_KSPassenger_Car,       //2044
     CTX_Freight_Car,           //2018
     DFX_Freight_Car,           //2021
-    FLAT_1F,                   //2029
+    FLAT_1F,                   //2029    
     FLAT_2F,                   //2030
     FLAT_TANK,                 //2031
     CGeneratar_Car,            //2032
