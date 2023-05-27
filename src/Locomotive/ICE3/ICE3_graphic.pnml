@@ -1,0 +1,190 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_ICE3_purchase, "src/Locomotive/ICE3/ICE3_R.png"){
+	tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. ICE 3 Red,
+--------------------------------------------------------------------*/
+
+spriteset(set_ICE3_R_purchase, "src/Locomotive/ICE3/ICE3_R.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_ICE3_R_engineH, "src/Locomotive/ICE3/ICE3_R.png"){
+    ICEengine(80, 0)
+}
+
+spriteset(set_ICE3_R_wagon_start, "src/Locomotive/ICE3/ICE3_R.png"){
+    ICEwagon_start(80, 30)
+}
+
+spriteset(set_ICE3_R_wagon_bar, "src/Locomotive/ICE3/ICE3_R.png"){
+    ICEwagon_bar(80, 60)
+}
+
+spriteset(set_ICE3_R_wagon, "src/Locomotive/ICE3/ICE3_R.png") {
+    ICEwagon_1F_F(80, 90)
+}
+
+spriteset(set_ICE3_R_wagon_r, "src/Locomotive/ICE3/ICE3_R.png") {
+    ICEwagon_1F_F_r(80, 90)
+}
+
+spriteset(set_ICE3_R_wagon_end, "src/Locomotive/ICE3/ICE3_R.png") {
+    ICEwagon_end(80, 120)
+}
+
+spriteset(set_ICE3_R_engineT, "src/Locomotive/ICE3/ICE3_R.png"){
+    ICEengine_r(80, 150)
+}
+
+/*--------------------------------------------------------------------
+2. ICE 3 Green,
+--------------------------------------------------------------------*/
+spriteset(set_ICE3_G_purchase, "src/Locomotive/ICE3/ICE3_G.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_ICE3_G_engineH, "src/Locomotive/ICE3/ICE3_G.png"){
+    ICEengine(80, 0)
+}
+
+spriteset(set_ICE3_G_wagon_start, "src/Locomotive/ICE3/ICE3_G.png"){
+    ICEwagon_start(80, 30)
+}
+
+spriteset(set_ICE3_G_wagon_bar, "src/Locomotive/ICE3/ICE3_G.png"){
+    ICEwagon_bar(80, 60)
+}
+
+spriteset(set_ICE3_G_wagon, "src/Locomotive/ICE3/ICE3_G.png") {
+    ICEwagon_1F_F(80, 90)
+}
+
+spriteset(set_ICE3_G_wagon_r, "src/Locomotive/ICE3/ICE3_G.png") {
+    ICEwagon_1F_F_r(80, 90)
+}
+
+spriteset(set_ICE3_G_wagon_end, "src/Locomotive/ICE3/ICE3_G.png") {
+    ICEwagon_end(80, 120)
+}
+
+spriteset(set_ICE3_G_engineT, "src/Locomotive/ICE3/ICE3_G.png"){
+    ICEengine_r(80, 150)
+}
+
+/*--------------------------------------------------------------------
+3. ICE 3M Red,
+--------------------------------------------------------------------*/
+
+spriteset(set_ICE3M_R_purchase, "src/Locomotive/ICE3/ICE3_R.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_ICE3M_R_engineH, "src/Locomotive/ICE3/ICE3_R.png"){
+    ICEengine(80, 0)
+}
+
+spriteset(set_ICE3M_R_wagon_start, "src/Locomotive/ICE3/ICE3_R.png"){
+    ICEwagon_start(80, 30)
+}
+
+spriteset(set_ICE3M_R_wagon_bar, "src/Locomotive/ICE3/ICE3_R.png"){
+    ICEwagon_bar(80, 60)
+}
+
+spriteset(set_ICE3M_R_wagon, "src/Locomotive/ICE3/ICE3_R.png") {
+    ICEwagon_1F_F(80, 90)
+}
+
+spriteset(set_ICE3M_R_wagon_r, "src/Locomotive/ICE3/ICE3_R.png") {
+    ICEwagon_1F_F_r(80, 90)
+}
+
+spriteset(set_ICE3M_R_wagon_end, "src/Locomotive/ICE3/ICE3_R.png") {
+    ICEwagon_end(80, 120)
+}
+
+spriteset(set_ICE3M_R_engineT, "src/Locomotive/ICE3/ICE3_R.png"){
+    ICEengine_r(80, 150)
+}
+
+/*--------------------------------------------------------------------
+4. ICE 3M Green,
+--------------------------------------------------------------------*/
+spriteset(set_ICE3M_G_purchase, "src/Locomotive/ICE3/ICE3_G.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_ICE3M_G_engineH, "src/Locomotive/ICE3/ICE3_G.png"){
+    ICEengine(80, 0)
+}
+
+spriteset(set_ICE3M_G_wagon_start, "src/Locomotive/ICE3/ICE3_G.png"){
+    ICEwagon_start(80, 30)
+}
+
+spriteset(set_ICE3M_G_wagon_bar, "src/Locomotive/ICE3/ICE3_G.png"){
+    ICEwagon_bar(80, 60)
+}
+
+spriteset(set_ICE3M_G_wagon, "src/Locomotive/ICE3/ICE3_G.png") {
+    ICEwagon_1F_F(80, 90)
+}
+
+spriteset(set_ICE3M_G_wagon_r, "src/Locomotive/ICE3/ICE3_G.png") {
+    ICEwagon_1F_F_r(80, 90)
+}
+
+spriteset(set_ICE3M_G_wagon_end, "src/Locomotive/ICE3/ICE3_G.png") {
+    ICEwagon_end(80, 120)
+}
+
+spriteset(set_ICE3M_G_engineT, "src/Locomotive/ICE3/ICE3_G.png"){
+    ICEengine_r(80, 150)
+}
+
+/*--------------------------------------------------------------------
+5. ICE 3 Blue (Europa)
+--------------------------------------------------------------------*/
+spriteset(set_ICE3M_B_purchase, "src/Locomotive/ICE3/ICE3_B.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_ICE3M_B_engineH, "src/Locomotive/ICE3/ICE3_B.png"){
+    ICEengine(80, 0)
+}
+
+spriteset(set_ICE3M_B_wagon_start, "src/Locomotive/ICE3/ICE3_B.png"){
+    ICEwagon_start(80, 30)
+}
+
+spriteset(set_ICE3M_B_wagon_bar, "src/Locomotive/ICE3/ICE3_B.png"){
+    ICEwagon_bar(80, 60)
+}
+
+spriteset(set_ICE3M_B_wagon, "src/Locomotive/ICE3/ICE3_B.png") {
+    ICEwagon_1F_F(80, 90)
+}
+
+spriteset(set_ICE3M_B_wagon_r, "src/Locomotive/ICE3/ICE3_B.png") {
+    ICEwagon_1F_F_r(80, 90)
+}
+
+spriteset(set_ICE3M_B_wagon_end, "src/Locomotive/ICE3/ICE3_B.png") {
+    ICEwagon_end(80, 120)
+}
+
+spriteset(set_ICE3M_B_engineT, "src/Locomotive/ICE3/ICE3_B.png"){
+    ICEengine_r(80, 150)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_ICE3_purchase, cargo_subtype) {
+	set_ICE3_purchase;
+}

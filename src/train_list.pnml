@@ -46,6 +46,7 @@
 #include "Locomotive/GT26CW/GT26CW.pnml"
 #include "Locomotive/ICE1/ICE1.pnml"
 #include "Locomotive/ICE2/ICE2.pnml"
+#include "Locomotive/ICE3/ICE3.pnml"
 
 //미정리
 #include "Locomotive/ITX_CW/ITX_CW.pnml"
@@ -101,6 +102,7 @@ if (European) {
     disable_item(FEAT_TRAINS, 2022); //Eurostar_E300
     disable_item(FEAT_TRAINS, 2049); //ICE1
     disable_item(FEAT_TRAINS, 2050); //ICE2
+    disable_item(FEAT_TRAINS, 2051); //ICE3
     }
 
 if (Japanese) {
