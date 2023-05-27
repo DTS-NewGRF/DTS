@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_NJ2_purchase, "src/Locomotive/NJ2/NJ2.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_NJ2_engine, "src/Locomotive/NJ2/NJ2.png"){
+    engine(80, 0)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_NJ2_purchase, cargo_subtype) {
+    set_NJ2_purchase;
+}

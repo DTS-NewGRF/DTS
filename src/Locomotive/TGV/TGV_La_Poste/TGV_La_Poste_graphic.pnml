@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_TGV_La_Poste_purchase, "src/Locomotive/TGV/TGV_La_Poste/TGV_La_Poste.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_TGV_La_PosteH_purchase, "src/Locomotive/TGV/TGV_La_Poste/TGV_La_Poste.png"){
+    tmpl_purchase_for_dualhead(0, 27)
+}
+
+spriteset(set_TGV_La_Poste_engineH, "src/Locomotive/TGV/TGV_La_Poste/TGV_La_Poste.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_La_Poste_engineT, "src/Locomotive/TGV/TGV_La_Poste/TGV_La_Poste.png"){
+    engine_r(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TGV_La_Poste_purchase, cargo_subtype) {
+    set_TGV_La_Poste_purchase;
+}

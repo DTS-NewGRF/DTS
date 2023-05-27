@@ -1,0 +1,75 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Shinkansen_E2_purchase, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_pink.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. Shinkansen E2 - Pink
+--------------------------------------------------------------------*/
+spriteset(set_Shinkansen_E2_PinkH_purchase, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Pink.png"){
+    tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_Shinkansen_E2_Pink_engineH, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Pink.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Shinkansen_E2_Pink_wagon_start, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Pink.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_Shinkansen_E2_Pink_wagon, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Pink.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_Shinkansen_E2_Pink_wagon_r, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Pink.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_Shinkansen_E2_Pink_wagon_end, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Pink.png"){
+    wagon_start(80, 81)
+}
+
+spriteset(set_Shinkansen_E2_Pink_engineT, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Pink.png"){
+    engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+2. Shinkansen E2 - Red
+--------------------------------------------------------------------*/
+spriteset(set_Shinkansen_E2_RedH_purchase, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Red.png"){
+    tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_Shinkansen_E2_Red_engineH, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Red.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Shinkansen_E2_Red_wagon_start, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Red.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_Shinkansen_E2_Red_wagon, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Red.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_Shinkansen_E2_Red_wagon_r, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Red.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_Shinkansen_E2_Red_wagon_end, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Red.png"){
+    wagon_start(80, 81)
+}
+
+spriteset(set_Shinkansen_E2_Red_engineT, "src/Locomotive/Shinkansen_E2/Shinkansen_E2_Red.png"){
+    engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E2_purchase, cargo_subtype) {
+    set_Shinkansen_E2_purchase;
+}

@@ -1,0 +1,53 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_102_engineH, cargo_subtype) {
+    set_Renfe_S_102_AVE_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_102_engineT, cargo_subtype) {
+    set_Renfe_S_102_AVE_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_102_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_Renfe_S_102_engineT;
+    sw_Renfe_S_102_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_102_wagon_start, cargo_subtype) {
+    set_Renfe_S_102_AVE_wagon_start;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_102_wagon_middle, cargo_subtype) {
+    set_Renfe_S_102_AVE_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_102_bar, cargo_subtype) {
+    set_Renfe_S_102_AVE_wagon_bar;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_102_wagon_end, cargo_subtype) {
+    set_Renfe_S_102_AVE_wagon_end;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_102_wagon_bar, (position_in_consist %5) + 1) {
+    1: sw_Renfe_S_102_bar;
+    sw_Renfe_S_102_wagon_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_102_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    Renfe_S_102: sw_Renfe_S_102_wagon_end;
+    sw_Renfe_S_102_wagon_bar;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_102_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    Renfe_S_102: sw_Renfe_S_102_wagon_start;
+    sw_Renfe_S_102_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_102_wagon_attach, vehicle_type_id) {
+    Renfe_S_102:            return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

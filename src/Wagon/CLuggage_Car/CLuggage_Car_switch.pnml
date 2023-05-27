@@ -1,0 +1,16 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CLuggage_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_CLuggage_Car_Green);    //녹색
+    2: return string(STR_REFIT_LIVERY_CLuggage_Car_WhiteA);   //힌색 A
+    3: return string(STR_REFIT_LIVERY_CLuggage_Car_WhiteB);   //흰색 B
+    return string(STR_REFIT_LIVERY_CLuggage_Car_Red);
+}
+
+switch(FEAT_TRAINS, SELF, sw_CLuggage_wagon, cargo_subtype) {
+    1: set_CLuggage_Car_Green;    //녹색
+    2: set_CLuggage_Car_WhiteA;   //힌색 A
+    3: set_CLuggage_Car_WhiteB;   //힌색 A
+    set_CLuggage_Car_Red;
+}

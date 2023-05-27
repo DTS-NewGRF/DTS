@@ -11,7 +11,9 @@
 #include "Wagon/CGeneratar_Car/CGeneratar_Car.pnml"
 #include "Wagon/KGeneratar_Car/KGeneratar_Car.pnml"
 
-#include "Wagon/Luggage_Car/Luggage_Car.pnml"
+#include "Wagon/KLuggage_Car/KLuggage_Car.pnml"
+#include "Wagon/CLuggage_Car/CLuggage_Car.pnml"
+#include "Wagon/TGV_Poste_wagon/TGV_Poste_wagon.pnml"
 
 //Locomotive
 #include "Locomotive/AGV/AGV.pnml"
@@ -49,6 +51,28 @@
 #include "Locomotive/ICE3/ICE3.pnml"
 
 //미정리
+#include "Locomotive/CRH2/CRH2.pnml"
+#include "Locomotive/CRH2C/CRH2C.pnml"
+#include "Locomotive/CRH3/CRH3.pnml"
+#include "Locomotive/CRH380B/CRH380B.pnml"
+#include "Locomotive/CRH380C/CRH380C.pnml"
+#include "Locomotive/NJ2/NJ2.pnml"
+
+#include "Locomotive/Eurostar_E320/Eurostar_E320.pnml"
+#include "Locomotive/ICE3V/ICE3V.pnml"
+#include "Locomotive/ICE4/ICE4.pnml"
+#include "Locomotive/Renfe/Renfe_S_100/Renfe_S_100.pnml"
+#include "Locomotive/Renfe/Renfe_S_102/Renfe_S_102.pnml"
+#include "Locomotive/Renfe/Renfe_S_103/Renfe_S_103.pnml"
+#include "Locomotive/Renfe/Renfe_S_130/Renfe_S_130.pnml"
+#include "Locomotive/TGV/TGV_Duplex/TGV_Duplex.pnml"
+#include "Locomotive/TGV/TGV_Pos/TGV_Pos.pnml"
+#include "Locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est.pnml"
+#include "Locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.pnml"
+#include "Locomotive/TGV/TGV_AR/TGV_AR.pnml"
+#include "Locomotive/TGV/TGV_La_Poste/TGV_La_Poste.pnml"
+#include "Locomotive/TGV/TGV_M/TGV_M.pnml"
+
 #include "Locomotive/ITX_CW/ITX_CW.pnml"
 #include "Locomotive/ITX_SM2/ITX_SM2.pnml"
 #include "Locomotive/KTX_SC/KTX_SC.pnml"
@@ -57,6 +81,26 @@
 #include "Locomotive/Travel_8500/Travel_8500.pnml"
 #include "Locomotive/TTX/TTX.pnml"
 #include "Locomotive/VHST_600X/VHST_600X.pnml"
+
+#include "Locomotive/Keisei_AE_series/Keisei_AE_series.pnml"
+#include "Locomotive/Shinkansen_0/Shinkansen_0.pnml"
+#include "Locomotive/Shinkansen_500/Shinkansen_500.pnml"
+#include "Locomotive/Shinkansen_700/Shinkansen_700.pnml"
+#include "Locomotive/Shinkansen_800/Shinkansen_800.pnml"
+#include "Locomotive/Shinkansen_N700/Shinkansen_N700.pnml"
+#include "Locomotive/Shinkansen_N700_S/Shinkansen_N700_S.pnml"
+#include "Locomotive/Shinkansen_E2/Shinkansen_E2.pnml"
+#include "Locomotive/Shinkansen_E5_H5/Shinkansen_E5_H5.pnml"
+#include "Locomotive/Shinkansen_E6/Shinkansen_E6.pnml"
+#include "Locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.pnml"
+#include "Locomotive/Shinkansen_E8/Shinkansen_E8.pnml"
+#include "Locomotive/Shinkansen_923/Shinkansen_923.pnml"
+
+#include "Locomotive/AL_BORAQ/Al_Boraq.pnml"
+#include "Locomotive/NHSRCL_E5/NHSRCL_E5.pnml"
+#include "Locomotive/NSW_TrainLink_D/NSW_TrainLink_D.pnml"
+#include "Locomotive/Talgo_350_SRO/Talgo_350_SRO.pnml"
+#include "Locomotive/THSR_700T/THSR_700T.pnml"
 
 //Metro
 #include "Metro/MTR/AD_Tranz_CAF_A/AD_Tranz_CAF_A.pnml"
@@ -67,8 +111,18 @@
 #include "Metro/MTR/CRRC/CRRC.pnml"
 #include "Metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.pnml"
 #include "Metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.pnml"
+#include "Metro/MTR/IKK_SP_1900/IKK_SP_1900.pnml"
 
 #include "Metro/Standard/Standard.pnml"
+
+#include "Metro/Nishitetsu/1000_series/Nishitetsu_1000.pnml"
+#include "Metro/Nishitetsu/2000_series/Nishitetsu_2000.pnml"
+#include "Metro/Nishitetsu/3000_series/Nishitetsu_3000.pnml"
+#include "Metro/Nishitetsu/5000_series/Nishitetsu_5000.pnml"
+#include "Metro/Nishitetsu/6000_series/Nishitetsu_6000.pnml"
+#include "Metro/Nishitetsu/7000_series/Nishitetsu_7000.pnml"
+#include "Metro/Nishitetsu/8000_series/Nishitetsu_8000.pnml"
+#include "Metro/Nishitetsu/9000_series/Nishitetsu_9000.pnml"
 
 // Sorting
 #include "sort.pnml"

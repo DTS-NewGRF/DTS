@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_6000_purchase, "src/metro/Nishitetsu/6000_series/Nishitetsu_6000.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. 니시테츠 6000형
+--------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_6000H_purchase, "src/metro/Nishitetsu/6000_series/Nishitetsu_6000.png"){
+    tmpl_purchase_for_dualhead(0, 81)
+}
+
+spriteset(set_Nishitetsu_6000_engineH, "src/metro/Nishitetsu/6000_series/Nishitetsu_6000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Nishitetsu_6000_wagon, "src/metro/Nishitetsu/6000_series/Nishitetsu_6000.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Nishitetsu_6000_panto_wagon, "src/metro/Nishitetsu/6000_series/Nishitetsu_6000.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Nishitetsu_6000_engineT, "src/metro/Nishitetsu/6000_series/Nishitetsu_6000.png"){
+    engine_r(80, 81)
+}
+
+spriteset(set_Nishitetsu_6000_panto_engineT, "src/metro/Nishitetsu/6000_series/Nishitetsu_6000.png"){
+    engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+1. 니시테츠 6050형
+--------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_6050_engineH, "src/metro/Nishitetsu/6000_series/Nishitetsu_6050.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Nishitetsu_6050_wagon, "src/metro/Nishitetsu/6000_series/Nishitetsu_6050.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Nishitetsu_6050_panto_wagon, "src/metro/Nishitetsu/6000_series/Nishitetsu_6050.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Nishitetsu_6050_engineT, "src/metro/Nishitetsu/6000_series/Nishitetsu_6050.png"){
+    engine_r(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_purchase, cargo_subtype) {
+    set_Nishitetsu_6000_purchase;
+}

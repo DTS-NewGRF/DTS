@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E320_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_Eurostar_E320_engineT;
+    set_Eurostar_E320_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E320_wagon, position_in_consist) {
+    1: set_Eurostar_E320_wagon_r;
+    set_Eurostar_E320_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E320_wagon_attach, vehicle_type_id) {
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

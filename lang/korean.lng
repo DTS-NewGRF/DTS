@@ -40,7 +40,12 @@ STR_GT26CW_NAME                                     :[DTS] GT26CW
 STR_ICE1_NAME                                       :[DTS] ICE1
 STR_ICE2_NAME                                       :[DTS] ICE2
 STR_ICE3_NAME                                       :[DTS] ICE3
-
+STR_CRH2_NAME                                       :[임시추가] CRH2A·B
+STR_CRH2C_NAME                                      :[임시추가] CRH2C
+STR_CRH3_NAME                                       :[임시추가] CRH3C
+STR_CRH380B_NAME                                    :[임시추가] CRH380B
+STR_CRH380C_NAME                                    :[임시추가] CRH380CL
+STR_NJ2_NAME                                        :[임시추가] NJ2
 STR_ICE_CW_NAME                                     :[임시추가] ITX-초월
 STR_ITX_SM2_NAME                                    :[임시추가] ITX-새마을 Max
 STR_KTX_SC_NAME                                     :[임시추가] KTX-산천
@@ -49,6 +54,48 @@ STR_NRT2_NAME                                       :[임시추가] 누리로 Ma
 STR_Travel_8500_NAME                                :[임시추가] 8500호대 전기기관차
 STR_TTX_NAME                                        :[임시추가] 한빛 200 (TTX)
 STR_VHST_600X_NAME                                  :[임시추가] VHST-600X
+STR_Eurostar_E320_NAME                              :[임시추가] 유로스타 E320
+STR_ICE3V_NAME                                      :[임시추가] ICE3 (벨라로 D)
+STR_ICE4_NAME                                       :[임시추가] ICE4
+STR_Renfe_S_100_NAME                                :[임시추가] 렌페 AVE S-100
+STR_Renfe_S_102_NAME                                :[임시추가] 렌페 AVE S-102
+STR_Renfe_S_103_NAME                                :[임시추가] 렌페 AVE S-103
+STR_Renfe_S_130_NAME                                :[임시추가] 렌페 Alvia S-130
+STR_TGV_Sud_Est_NAME                                :[임시추가] TGV 쉬드-에스트
+STR_TGV_AR_NAME                                     :[임시추가] TGV 아틀랑티크·레조
+STR_TGV_Reseau_Duplex_NAME                          :[임시추가] TGV 레조 듀플렉스
+STR_TGV_La_Poste_NAME                               :[임시추가] TGV 라포스트
+STR_TGV_Duplex_NAME                                 :[임시추가] TGV 듀플렉스
+STR_TGV_Pos_NAME                                    :[임시추가] TGV 포스
+STR_TGV_M_NAME                                      :[임시추가] TGV M
+
+STR_Kse2_NAME                                       :[임시추가] 케이세이 AE형 2세대
+STR_Shinkansen_0_NAME                               :[임시추가] 신칸센 0계
+STR_Shinkansen_500_NAME                             :[임시추가] 신칸센 500계
+STR_Shinkansen_700_NAME                             :[임시추가] 신칸센 700계
+STR_Shinkansen_800_NAME                             :[임시추가] 신칸센 800계
+STR_Shinkansen_923_NAME                             :[임시추가] 신칸센 923형 (닥터 옐로우)
+STR_Shinkansen_E2_NAME                              :[임시추가] 신칸센 E2계
+STR_Shinkansen_E5_H5_NAME                           :[임시추가] 신칸센 E5·H5계 
+STR_Shinkansen_E6_NAME                              :[임시추가] 신칸센 E6계
+STR_Shinkansen_E7_W7_NAME                           :[임시추가] 신칸센 E7·W7계
+STR_Shinkansen_E8_NAME                              :[임시추가] 신칸센 E8계
+STR_Shinkansen_N700_NAME                            :[임시추가] 신칸센 N700계
+STR_Shinkansen_N700S_NAME                           :[임시추가] 신칸센 N700S계
+STR_Nishitetsu_1000_NAME                            :[임시추가] 니시테츠 1000형
+STR_Nishitetsu_2000_NAME                            :[임시추가] 니시테츠 2000형
+STR_Nishitetsu_3000_NAME                            :[임시추가] 니시테츠 3000형
+STR_Nishitetsu_5000_NAME                            :[임시추가] 니시테츠 5000형
+STR_Nishitetsu_6000_NAME                            :[임시추가] 니시테츠 6000형
+STR_Nishitetsu_7000_NAME                            :[임시추가] 니시테츠 7000형
+STR_Nishitetsu_8000_NAME                            :[임시추가] 니시테츠 8000형
+STR_Nishitetsu_9000_NAME                            :[임시추가] 니시테츠 9000형
+
+STR_NHSRCL_E5_NAME                                  :[임시추가] NHSRCL E5
+STR_NSW_TrainLink_D_NAME                            :[임시추가] NSW TrainLink D
+STR_THSR_700T_NAME                                  :[임시추가] 타이완 고속철도 700T형
+STR_Al_Boraq_NAME                                   :[임시추가] 알 보라크
+STR_Talgo_350_SRO_NAME                              :[임시추가] 탈고 350 SRO (하라마인 고속철도)
 
 # Metro's name
 STR_AD_Tranz_CAF_A_NAME                             :[DTS] AD Tranz CAF A형
@@ -59,6 +106,7 @@ STR_CNR_Changchun_NAME                              :[DTS] CNR 창춘 전동차
 STR_CRRC_NAME                                       :[DTS] CRRC 전동차
 STR_Hyundai_Rotem_Mitsubishi_NAME                   :[DTS] 로템 미쓰비시 전동차
 STR_Hyundai_Rotem_R_NAME                            :[DTS] 로템 R형 전동차
+STR_MTR_IKK_SP_1900_NAME                            :[임시추가] IKK SP 1900
 
 STR_Standard_Metro_NAME                             :[임시추가] 한국형 표준전동차
 
@@ -75,7 +123,9 @@ STR_FLAT_Tank_NAME                                  :[DTS] 평판유조 화차
 STR_CGeneratar_Car_NAME                             :[DTS] 중국 발전차
 STR_KGeneratar_Car_NAME                             :[DTS] 한국 발전차
 
-STR_Luggage_Car_NAME                                :[임시추가] 수화물차
+STR_KLuggage_Car_NAME                                :[임시추가] 한국 수화물차
+STR_CLuggage_Car_NAME                                :[임시추가] 중국 수화물차
+STR_TGV_Poste_wagon_NAME                             :[임시추가] TGV 라포스트 화차
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                    :지하철&통근열차 속도변수
@@ -143,6 +193,13 @@ STR_REFIT_ADDITIONAL_Hyundai_Rotem_R                :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_ICE1                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}ICE1
 STR_REFIT_ADDITIONAL_ICE2                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}ICE2
 STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}ICE3
+STR_REFIT_ADDITIONAL_CRH2                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}CRH2A·B
+STR_REFIT_ADDITIONAL_CRH2C                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}CRH2C
+STR_REFIT_ADDITIONAL_CRH3                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}CRH3C
+STR_REFIT_ADDITIONAL_CRH380B                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}CRH380B
+STR_REFIT_ADDITIONAL_CRH380C                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}CRH380CL
+STR_REFIT_ADDITIONAL_NJ2                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}NJ2
+STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
 
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}ITX-청춘을 2층으로 확장한 컨셉열차
 STR_REFIT_ADDITIONAL_ITX_SM2                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}ITX-새마을을 2층으로 확장한 컨셉열차
@@ -153,6 +210,48 @@ STR_REFIT_ADDITIONAL_Travel_8500                    :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_TTX                            :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2007년에 제작된 기술실험용으로 개발된 틸팅열차
 STR_REFIT_ADDITIONAL_VHST_600X                      :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2016년에 연구된 고속열차
 STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}1999년에 개발된 도시철도 표준 전동차
+STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_ICE3V                          :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE3 (벨라로 D)
+STR_REFIT_ADDITIONAL_ICE4                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE4
+STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-100
+STR_REFIT_ADDITIONAL_Renfe_S_102                    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-102
+STR_REFIT_ADDITIONAL_Renfe_S_103                    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-103
+STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 Alvia S-130
+STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
+STR_REFIT_ADDITIONAL_TGV_Sud_Est                    :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 쉬드-에스트
+STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex              :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
+STR_REFIT_ADDITIONAL_TGV_AR                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
+STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV 라포스트
+STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
+STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV M
+
+STR_REFIT_ADDITIONAL_Kse2                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_0                   :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_500                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_700                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_800                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_923                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_E2                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_E5_H5               :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}E6, E8
+STR_REFIT_ADDITIONAL_Shinkansen_E6                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_E7                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_E8                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_N700                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_N700S               :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Nishitetsu_1000                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 1000
+STR_REFIT_ADDITIONAL_Nishitetsu_2000                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 2000
+STR_REFIT_ADDITIONAL_Nishitetsu_3000                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 3000
+STR_REFIT_ADDITIONAL_Nishitetsu_5000                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 5000
+STR_REFIT_ADDITIONAL_Nishitetsu_6000                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 6000, 니시테츠 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_7000                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 6000, 니시테츠 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_8000                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 8000
+STR_REFIT_ADDITIONAL_Nishitetsu_9000                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 9000
+
+STR_REFIT_ADDITIONAL_NHSRCL_E5                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}NHSRCL E5
+STR_REFIT_ADDITIONAL_NSW_TrainLink_D                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}NSW TrainLink D
+STR_REFIT_ADDITIONAL_THSR_700T                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Al_Boraq                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Talgo_350_SRO                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 
 STR_REFIT_train_configuration_Passenger             :{BLACK}열차구성: {GREEN}승객 차량용
 STR_REFIT_train_configuration_ESPassenger           :{BLACK}열차구성: {GREEN}유럽 객차형 승객 차량용
@@ -166,7 +265,9 @@ STR_REFIT_train_configuration_Flat_Tank_Freight     :{BLACK}열차구성: {GREEN
 STR_REFIT_train_configuration_CGeneratar            :{BLACK}열차구성: {GREEN}중국 발전차용
 STR_REFIT_train_configuration_KGeneratar            :{BLACK}열차구성: {GREEN}한국 발전차용
 
-STR_REFIT_train_configuration_Luggage               :{BLACK}열차구성: {GREEN}수화물차용
+STR_REFIT_train_configuration_KLuggage               :{BLACK}열차구성: {GREEN}수화물차용
+STR_REFIT_train_configuration_CLuggage               :{BLACK}열차구성: {GREEN}수화물차용
+STR_REFIT_train_configuration_TGV_Poste             :{BLACK}열차구성: {GREEN}TGV 라포스트
 
 # Liveries locomotive
 STR_REFIT_LIVERY_AD_Tranz_CAF_A_Airport_Express     :(Airport Express)
@@ -270,6 +371,11 @@ STR_REFIT_LIVERY_ICE3M_red                          :(ICE 3M 레드 도색)
 STR_REFIT_LIVERY_ICE3M_green                        :(ICE 3M 그린 도색)
 STR_REFIT_LIVERY_ICE3M_Blue                         :(ICE 3M 유로파 도색)
 
+STR_REFIT_LIVERY_CLuggage_Car_Red                    :(수화물차 빨강도색)
+STR_REFIT_LIVERY_CLuggage_Car_Green                  :(수화물차 녹색도색)
+STR_REFIT_LIVERY_CLuggage_Car_WhiteA                 :(수화물차 흰색도색 A)
+STR_REFIT_LIVERY_CLuggage_Car_WhiteB                 :(수화물차 흰색도색 B)
+
 STR_REFIT_LIVERY_ITX_SM2_C                          :(ITX-새마을 DD 회사색상)
 STR_REFIT_LIVERY_ITX_SM2_G                          :(ITX-새마을 DD 녹색도색)
 STR_REFIT_LIVERY_ITX_SM2_R                          :(ITX-새마을 DD 빨강도색)
@@ -299,6 +405,57 @@ STR_REFIT_LIVERY_Travel_8500_S_train                :(S-Train)
 STR_REFIT_LIVERY_Travel_8500_V_train                :(V-Train)
 STR_REFIT_LIVERY_Travel_8500_Haerang_train          :(Haerang)
 STR_REFIT_LIVERY_Travel_8500_Wine_train             :(Wine)
+
+STR_REFIT_LIVERY_ICE3V_red                          :(레드 도색)
+STR_REFIT_LIVERY_ICE3V_green                        :(그린 도색)
+STR_REFIT_LIVERY_ICE4_red                           :(레드 도색)
+STR_REFIT_LIVERY_ICE4_green                         :(그린 도색)
+STR_REFIT_LIVERY_TGV_Duplex                         :(TGV 듀플렉스 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV 듀플렉스 리리아·카밀론 도색)
+STR_REFIT_LIVERY_TGV_OUIGO_Duplex                   :(TGV 듀플렉스 위고 도색)
+STR_REFIT_LIVERY_TGV_Reseau_Duplex                  :(TGV 레조 듀플렉스 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_Reseau_LYAIR_Duplex            :(TGV 레조 듀플렉스 리리아·카밀론 도색)
+STR_REFIT_LIVERY_TGV_Sud_Est_original               :(TGV 쉬드-에스트 오렌지 도색)
+STR_REFIT_LIVERY_TGV_Sud_Est_blue                   :(TGV 쉬드-에스트 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_Sud_Est_new                    :(TGV 쉬드-에스트 카밀론 도색)
+STR_REFIT_LIVERY_TGV_A_blue                         :(TGV 아틀랑티크 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_A_blueLacroix                  :(TGV 아틀랑티크 블루 & 그레이 라크루아 도색)
+STR_REFIT_LIVERY_TGV_A_carmillon                    :(TGV 아틀랑티크 카밀론 도색)
+STR_REFIT_LIVERY_TGV_R_blue                         :(TGV 레조 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_R_blueLacroix                  :(TGV 레조 블루 & 그레이 라크루아 도색)
+STR_REFIT_LIVERY_TGV_R_carmillon                    :(TGV 레조 카밀론 도색)
+STR_REFIT_LIVERY_TGV_POS                            :(TGV 포스 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_LYAIR                          :(TGV 포스 리리아 도색)
+STR_REFIT_LIVERY_TGV_THALYS                         :(TGV PBKA 탈리스 도색)
+STR_REFIT_LIVERY_TGV_Carmillon                      :(TGV 포스 카밀론 도색)
+STR_REFIT_LIVERY_Renfe_S_100_old                    :(초기 도색)
+STR_REFIT_LIVERY_Renfe_S_100_new                    :(리뉴얼 도색)
+
+STR_REFIT_LIVERY_Shinkansen_0                       :(오리지널)
+STR_REFIT_LIVERY_Shinkansen_0_renewal               :(리뉴얼)
+STR_REFIT_LIVERY_700_Original                       :(오리지널)
+STR_REFIT_LIVERY_700_Railstar                       :(히카리 레일스타)
+STR_REFIT_LIVERY_N700_Tokaido_Sanyo                 :(도카이도·산요 신칸센)
+STR_REFIT_LIVERY_N700_Sanyo_Kyushu                  :(산요·큐슈 신칸센)
+STR_REFIT_LIVERY_N700S_Tokaido_Sanyo                :(도카이도·산요 신칸센)
+STR_REFIT_LIVERY_N700S_Nishikyushu                  :(니시큐슈 신칸센)
+STR_REFIT_LIVERY_Shinkansen_E2_Pink                 :(E2계 - 분홍)
+STR_REFIT_LIVERY_Shinkansen_E2_Red                  :(E2계 - 빨강)
+STR_REFIT_LIVERY_Shinkansen_E5                      :(신칸센 E5계)
+STR_REFIT_LIVERY_Shinkansen_H5                      :(신칸센 H5계)
+STR_REFIT_LIVERY_Nishitetsu_1000_Normal             :(니시테츠 1000형 일반도색)
+STR_REFIT_LIVERY_Nishitetsu_1000_Normal_Aircon      :(니시테츠 1000형 냉방개조)
+STR_REFIT_LIVERY_Nishitetsu_1000_Original           :(니시테츠 1000형 초기도색)
+STR_REFIT_LIVERY_Nishitetsu_1000_Express            :(니시테츠 1000형 특급도색)
+STR_REFIT_LIVERY_Nishitetsu_1000_Last_Run           :(니시테츠 1000형 특별도색)
+STR_REFIT_LIVERY_Nishitetsu_2000_Normal             :(니시테츠 2000형 일반도색)
+STR_REFIT_LIVERY_Nishitetsu_2000_Express            :(니시테츠 2000형 특급도색)
+STR_REFIT_LIVERY_Nishitetsu_5000_MG                 :(니시테츠 5000형 전동발전기)
+STR_REFIT_LIVERY_Nishitetsu_5000_SIV                :(니시테츠 5000형 정지형 인버터)
+STR_REFIT_LIVERY_Nishitetsu_6000                    :(니시테츠 6000형)
+STR_REFIT_LIVERY_Nishitetsu_6050                    :(니시테츠 6050형)
+STR_REFIT_LIVERY_Nishitetsu_7000                    :(니시테츠 7000형)
+STR_REFIT_LIVERY_Nishitetsu_7050                    :(니시테츠 7050형)
 
 # Liveries metro
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(롱 시트)

@@ -1,0 +1,77 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_ICE4_purchase, "src/Locomotive/ICE4/ICE4_R.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. ICE 4 Red
+--------------------------------------------------------------------*/
+
+spriteset(set_ICE4_R_purchase, "src/Locomotive/ICE4/ICE4_R.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_ICE4_R_engineH, "src/Locomotive/ICE4/ICE4_R.png"){
+    ICEengine(80, 0)
+}
+
+spriteset(set_ICE4_R_wagon_rest, "src/Locomotive/ICE4/ICE4_R.png"){
+    ICEwagon_panto(80, 30)
+}
+
+spriteset(set_ICE4_R_wagon_panto, "src/Locomotive/ICE4/ICE4_R.png"){
+    ICEwagon_panto(80, 60)
+}
+
+spriteset(set_ICE4_R_wagon, "src/Locomotive/ICE4/ICE4_R.png") {
+    ICEwagon_1F(80, 90)
+}
+
+spriteset(set_ICE4_R_wagon_r, "src/Locomotive/ICE4/ICE4_R.png") {
+    ICEwagon_1F_r(80, 90)
+}
+
+spriteset(set_ICE4_R_engineT, "src/Locomotive/ICE4/ICE4_R.png"){
+    ICEengine_r(80, 120)
+}
+
+/*--------------------------------------------------------------------
+2. ICE 4 Green
+--------------------------------------------------------------------*/
+
+spriteset(set_ICE4_G_purchase, "src/Locomotive/ICE4/ICE4_G.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_ICE4_G_engineH, "src/Locomotive/ICE4/ICE4_G.png"){
+    ICEengine(80, 0)
+}
+
+spriteset(set_ICE4_G_wagon_rest, "src/Locomotive/ICE4/ICE4_G.png"){
+    ICEwagon_panto(80, 30)
+}
+
+spriteset(set_ICE4_G_wagon_panto, "src/Locomotive/ICE4/ICE4_G.png"){
+    ICEwagon_panto(80, 60)
+}
+
+spriteset(set_ICE4_G_wagon, "src/Locomotive/ICE4/ICE4_G.png") {
+    ICEwagon_1F(80, 90)
+}
+
+spriteset(set_ICE4_G_wagon_r, "src/Locomotive/ICE4/ICE4_G.png") {
+    ICEwagon_1F_r(80, 90)
+}
+
+spriteset(set_ICE4_G_engineT, "src/Locomotive/ICE4/ICE4_G.png"){
+    ICEengine_r(80, 120)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_ICE4_purchase, cargo_subtype) {
+	set_ICE4_purchase;
+}

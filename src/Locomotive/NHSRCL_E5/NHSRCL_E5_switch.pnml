@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_NHSRCL_E5_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_NHSRCL_E5_engineT;
+    set_NHSRCL_E5_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_NHSRCL_E5_wagon_cargo_subtype, (position_in_consist)) {
+    1: set_NHSRCL_E5_wagon_r;
+    set_NHSRCL_E5_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_NHSRCL_E5_wagon_rear, [STORE_TEMP(3, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    NHSRCL_E5: set_NHSRCL_E5_panto_wagon;
+    sw_NHSRCL_E5_wagon_cargo_subtype;
+}
+
+switch(FEAT_TRAINS, SELF, sw_NHSRCL_E5_wagon, [STORE_TEMP(-2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    NHSRCL_E5: set_NHSRCL_E5_panto_wagon;
+    sw_NHSRCL_E5_wagon_rear;
+}
+
+switch(FEAT_TRAINS, SELF, sw_NHSRCL_E5_wagon_attach, vehicle_type_id) {
+    NHSRCL_E5:              return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

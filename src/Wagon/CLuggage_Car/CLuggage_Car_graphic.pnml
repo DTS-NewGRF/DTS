@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_CLuggage_Car_purchase, "src/Wagon/CLuggage_Car/CLuggage_Car.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_CLuggage_Car_Red, "src/Wagon/CLuggage_Car/CLuggage_Car.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_CLuggage_Car_Green, "src/Wagon/CLuggage_Car/CLuggage_Car.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_CLuggage_Car_WhiteA, "src/Wagon/CLuggage_Car/CLuggage_Car.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CLuggage_Car_WhiteB, "src/Wagon/CLuggage_Car/CLuggage_Car.png") {
+    wagon_1F_F(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CLuggage_Car_purchase, cargo_subtype) {
+    set_CLuggage_Car_purchase;
+}

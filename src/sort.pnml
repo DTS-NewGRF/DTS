@@ -83,5 +83,5 @@ sort(FEAT_TRAINS, [
     CGeneratar_Car,            //2032
     KGeneratar_Car,            //2046
     
-    Luggage_Car,               //1119
+    KLuggage_Car,              //1119
     ]);

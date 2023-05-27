@@ -40,7 +40,12 @@ STR_GT26CW_NAME                                     :[DTS] GT26CW
 STR_ICE1_NAME                                       :[DTS] ICE1
 STR_ICE2_NAME                                       :[DTS] ICE2
 STR_ICE3_NAME                                       :[DTS] ICE3
-
+STR_CRH2_NAME                                       :[DTS] CRH2A·B
+STR_CRH2C_NAME                                      :[DTS] CRH2C
+STR_CRH3_NAME                                       :[DTS] CRH3C
+STR_CRH380B_NAME                                    :[DTS] CRH380B·BL·BG
+STR_CRH380C_NAME                                    :[DTS] CRH380CL
+STR_NJ2_NAME                                        :[DTS] NJ2
 STR_ICE_CW_NAME                                     :[DTS] ITX-Chowol
 STR_ITX_SM2_NAME                                    :[DTS] ITX-Saemaeul DD
 STR_KTX_SC_NAME                                     :[DTS] KTX-Sancheon
@@ -49,6 +54,48 @@ STR_NRT2_NAME                                       :[DTS] Nuriro DD
 STR_Travel_8500_NAME                                :[DTS] Travel 8500
 STR_TTX_NAME                                        :[DTS] TTX
 STR_VHST_600X_NAME                                  :[DTS] VHST-600X
+STR_Eurostar_E320_NAME                              :[DTS] Eurostar E320
+STR_ICE3V_NAME                                      :[DTS] ICE3 (Velaro D)
+STR_ICE4_NAME                                       :[DTS] ICE4
+STR_Renfe_S_100_NAME                                :[DTS] Renfe AVE S-100
+STR_Renfe_S_102_NAME                                :[DTS] Renfe AVE S-102
+STR_Renfe_S_103_NAME                                :[DTS] Renfe AVE S-103
+STR_Renfe_S_130_NAME                                :[DTS] Renfe Alvia S-130
+STR_TGV_Sud_Est_NAME                                :[DTS] TGV Sud-Est
+STR_TGV_AR_NAME                                     :[DTS] TGV Atlantique · Reseau
+STR_TGV_Reseau_Duplex_NAME                          :[DTS] TGV Reseau Duplex
+STR_TGV_La_Poste_NAME                               :[DTS] TGV La Poste
+STR_TGV_Duplex_NAME                                 :[DTS] TGV Duplex
+STR_TGV_Pos_NAME                                    :[DTS] TGV Pos
+STR_TGV_M_NAME                                      :[DTS] TGV M
+
+STR_Kse2_NAME                                       :[DTS] Keisei AE series
+STR_Shinkansen_0_NAME                               :[DTS] Shinkansen 0
+STR_Shinkansen_500_NAME                             :[DTS] Shinkansen 500
+STR_Shinkansen_700_NAME                             :[DTS] Shinkansen 700
+STR_Shinkansen_800_NAME                             :[DTS] Shinkansen 800
+STR_Shinkansen_923_NAME                             :[DTS] Shinkansen 923
+STR_Shinkansen_E2_NAME                              :[DTS] Shinkansen E2
+STR_Shinkansen_E5_H5_NAME                           :[DTS] Shinkansen E5·H5
+STR_Shinkansen_E6_NAME                              :[DTS] Shinkansen E6
+STR_Shinkansen_E7_W7_NAME                           :[DTS] Shinkansen E7·W7
+STR_Shinkansen_E8_NAME                              :[DTS] Shinkansen E8
+STR_Shinkansen_N700_NAME                            :[DTS] Shinkansen N700
+STR_Shinkansen_N700S_NAME                           :[DTS] Shinkansen N700S
+STR_Nishitetsu_1000_NAME                            :[DTS] Nishitetsu 1000
+STR_Nishitetsu_2000_NAME                            :[DTS] Nishitetsu 2000
+STR_Nishitetsu_3000_NAME                            :[DTS] Nishitetsu 3000
+STR_Nishitetsu_5000_NAME                            :[DTS] Nishitetsu 5000
+STR_Nishitetsu_6000_NAME                            :[DTS] Nishitetsu 6000
+STR_Nishitetsu_7000_NAME                            :[DTS] Nishitetsu 7000
+STR_Nishitetsu_8000_NAME                            :[DTS] Nishitetsu 8000
+STR_Nishitetsu_9000_NAME                            :[DTS] Nishitetsu 9000
+
+STR_NHSRCL_E5_NAME                                  :[DTS] NHSRCL E5
+STR_NSW_TrainLink_D_NAME                            :[DTS] NSW TrainLink D
+STR_THSR_700T_NAME                                  :[DTS] THSR 700T
+STR_Al_Boraq_NAME                                   :[DTS] Al-Boraq
+STR_Talgo_350_SRO_NAME                              :[DTS] Talgo 350 SRO
 
 # Metro's name
 STR_AD_Tranz_CAF_A_NAME                             :[DTS] AD Tranz CAF A Type
@@ -59,6 +106,7 @@ STR_CNR_Changchun_NAME                              :[DTS] CNR Changchun Trian
 STR_CRRC_NAME                                       :[DTS] CRRC Trian
 STR_Hyundai_Rotem_Mitsubishi_NAME                   :[DTS] Rotem Mitsubishi Trian
 STR_Hyundai_Rotem_R_NAME                            :[DTS] Rotem R Type Train
+STR_MTR_IKK_SP_1900_NAME                            :[DTS] MTR IKK SP 1900
 
 STR_Standard_Metro_NAME                             :[DTS] Standard Metro
 
@@ -75,7 +123,9 @@ STR_FLAT_Tank_NAME                                  :[DTS] Flat Tank Car
 STR_CGeneratar_Car_NAME                             :[DTS] Chinese Generatar Car
 STR_KGeneratar_Car_NAME                             :[DTS] Korean Generatar Car
 
-STR_Luggage_Car_NAME                                :[DTS] Luggage Car
+STR_KLuggage_Car_NAME                               :[DTS] Luggage Car
+STR_CLuggage_Car_NAME                               :[DTS] Luggage Car
+STR_TGV_Poste_wagon_NAME                            :[DTS] TGV La Poste Freight Car
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                    :Metro Train Speed Variable
@@ -143,6 +193,13 @@ STR_REFIT_ADDITIONAL_Hyundai_Rotem_R                :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_ICE1                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}ICE1
 STR_REFIT_ADDITIONAL_ICE2                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}ICE2
 STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}ICE3
+STR_REFIT_ADDITIONAL_CRH2                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}CRH2A·B
+STR_REFIT_ADDITIONAL_CRH2C                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}CRH2C
+STR_REFIT_ADDITIONAL_CRH3                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}CRH3C
+STR_REFIT_ADDITIONAL_CRH380B                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}CRH380B
+STR_REFIT_ADDITIONAL_CRH380C                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}CRH380CL
+STR_REFIT_ADDITIONAL_NJ2                            :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}NJ2
+STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
 
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Chowol
 STR_REFIT_ADDITIONAL_ITX_SM2                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Saemaeul DD
@@ -153,6 +210,48 @@ STR_REFIT_ADDITIONAL_Travel_8500                    :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_TTX                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}TTX
 STR_REFIT_ADDITIONAL_VHST_600X                      :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}VHST_600X
 STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_ICE3V                          :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE3 (Velaro D)
+STR_REFIT_ADDITIONAL_ICE4                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE4
+STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}Renfe AVE S-100
+STR_REFIT_ADDITIONAL_Renfe_S_102                    :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe AVE S-102
+STR_REFIT_ADDITIONAL_Renfe_S_103                    :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe AVE S-103
+STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe Alvia S-130
+STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Reseau Duplex, TGV Duplex
+STR_REFIT_ADDITIONAL_TGV_Sud_Est                    :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Sud-Est
+STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex              :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Reseau Duplex, TGV Duplex
+STR_REFIT_ADDITIONAL_TGV_AR                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
+STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV La Poste
+STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
+STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV M
+
+STR_REFIT_ADDITIONAL_Kse2                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_0                   :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_500                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_700                 :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_800                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_923                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_E2                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_E5_H5               :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}E6, E8
+STR_REFIT_ADDITIONAL_Shinkansen_E6                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_E7                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_E8                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_N700                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_N700S               :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Nishitetsu_1000                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 1000
+STR_REFIT_ADDITIONAL_Nishitetsu_2000                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 2000
+STR_REFIT_ADDITIONAL_Nishitetsu_3000                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 3000
+STR_REFIT_ADDITIONAL_Nishitetsu_5000                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 5000
+STR_REFIT_ADDITIONAL_Nishitetsu_6000                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 6000, Nishitetsu 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_7000                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 6000, Nishitetsu 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_8000                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 8000
+STR_REFIT_ADDITIONAL_Nishitetsu_9000                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 9000
+
+STR_REFIT_ADDITIONAL_NHSRCL_E5                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NHSRCL E5
+STR_REFIT_ADDITIONAL_NSW_TrainLink_D                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NSW TrainLink D
+STR_REFIT_ADDITIONAL_THSR_700T                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Al_Boraq                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Talgo_350_SRO                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 
 STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
 STR_REFIT_train_configuration_ESPassenger           :{BLACK}train configuration: {GREEN}European carriage-type Passenger vehicles
@@ -166,7 +265,9 @@ STR_REFIT_train_configuration_Flat_Tank_Freight     :{BLACK}train configuration:
 STR_REFIT_train_configuration_CGeneratar            :{BLACK}train configuration: {GREEN}Chinese Generatar vehicles
 STR_REFIT_train_configuration_KGeneratar            :{BLACK}train configuration: {GREEN}Korean Generatar vehicles
 
-STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
+STR_REFIT_train_configuration_KLuggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
+STR_REFIT_train_configuration_CLuggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
+STR_REFIT_train_configuration_TGV_Poste             :{BLACK}train configuration: {GREEN}TGV La Poste
 
 # Liveries
 STR_REFIT_LIVERY_AD_Tranz_CAF_A_Airport_Express     :(Airport Express)
@@ -270,6 +371,11 @@ STR_REFIT_LIVERY_ICE3M_red                          :(ICE 3M Red Livery)
 STR_REFIT_LIVERY_ICE3M_green                        :(ICE 3M Green Livery)
 STR_REFIT_LIVERY_ICE3M_Blue                         :(ICE 3M Europa Livery)
 
+STR_REFIT_LIVERY_CLuggage_Car_Red                   :(Luggage Red Car)
+STR_REFIT_LIVERY_CLuggage_Car_Green                 :(Luggage Green Car)
+STR_REFIT_LIVERY_CLuggage_Car_WhiteA                :(Luggage WhiteA Car)
+STR_REFIT_LIVERY_CLuggage_Car_WhiteB                :(Luggage WhiteB Car)
+
 STR_REFIT_LIVERY_ITX_SM2_C                          :(ITX-Saemaeul DD Company Color)
 STR_REFIT_LIVERY_ITX_SM2_G                          :(ITX-Saemaeul DD Green Color)
 STR_REFIT_LIVERY_ITX_SM2_R                          :(ITX-Saemaeul DD Red Color)
@@ -299,6 +405,57 @@ STR_REFIT_LIVERY_Travel_8500_S_train                :(S-Train)
 STR_REFIT_LIVERY_Travel_8500_V_train                :(V-Train)
 STR_REFIT_LIVERY_Travel_8500_Haerang_train          :(Haerang)
 STR_REFIT_LIVERY_Travel_8500_Wine_train             :(Wine)
+
+STR_REFIT_LIVERY_ICE3V_red                          :(Red Livery)
+STR_REFIT_LIVERY_ICE3V_green                        :(Green Livery)
+STR_REFIT_LIVERY_ICE4_red                           :(Red Livery)
+STR_REFIT_LIVERY_ICE4_green                         :(Green Livery)
+STR_REFIT_LIVERY_TGV_Duplex                         :(TGV Duplex Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV Duplex Lyria & Carmillon Livery)
+STR_REFIT_LIVERY_TGV_OUIGO_Duplex                   :(TGV Duplex OUIGO Livery)
+STR_REFIT_LIVERY_TGV_Reseau_Duplex                  :(TGV Reseau Duplex Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_Reseau_LYAIR_Duplex            :(TGV Reseau Duplex Lyria & Carmillon Livery)
+STR_REFIT_LIVERY_TGV_Sud_Est_original               :(TGV Sud-Est Orange Livery)
+STR_REFIT_LIVERY_TGV_Sud_Est_blue                   :(TGV Sud-Est Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_Sud_Est_new                    :(TGV Sud-Est Carmillon Livery)
+STR_REFIT_LIVERY_TGV_A_blue                         :(TGV Atlantique Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_A_blueLacroix                  :(TGV Atlantique Blue & Grey Lacroix Livery)
+STR_REFIT_LIVERY_TGV_A_carmillon                    :(TGV Atlantique Carmillon Livery)
+STR_REFIT_LIVERY_TGV_R_blue                         :(TGV Reseau Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_R_blueLacroix                  :(TGV Reseau Blue & Grey Lacroix Livery)
+STR_REFIT_LIVERY_TGV_R_carmillon                    :(TGV Reseau Carmillon Livery)
+STR_REFIT_LIVERY_TGV_POS                            :(TGV POS Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_LYAIR                          :(TGV POS Lyria Livery)
+STR_REFIT_LIVERY_TGV_THALYS                         :(TGV PBKA Thalys Livery)
+STR_REFIT_LIVERY_TGV_Carmillon                      :(TGV POS Carmillon Livery)
+STR_REFIT_LIVERY_Renfe_S_100_old                    :(Old Livery)
+STR_REFIT_LIVERY_Renfe_S_100_new                    :(Renewal Livery)
+
+STR_REFIT_LIVERY_Shinkansen_0                       :(Original Livery)
+STR_REFIT_LIVERY_Shinkansen_0_renewal               :(Renewal Livery)
+STR_REFIT_LIVERY_700_Original                       :(Original Livery)
+STR_REFIT_LIVERY_700_Railstar                       :(Hikari Rail Star Livery)
+STR_REFIT_LIVERY_N700_Tokaido_Sanyo                 :(Tokaido-Sanyo Shinkansen)
+STR_REFIT_LIVERY_N700_Sanyo_Kyushu                  :(Sanyo-Kyushu Shinkansen)
+STR_REFIT_LIVERY_N700S_Tokaido_Sanyo                :(Tokaido-Sanyo Shinkansen)
+STR_REFIT_LIVERY_N700S_Nishikyushu                  :(Nishikyushu Shinkansen)
+STR_REFIT_LIVERY_Shinkansen_E2_Pink                 :(Pink line Livery)
+STR_REFIT_LIVERY_Shinkansen_E2_Red                  :(Red line Livery)
+STR_REFIT_LIVERY_Shinkansen_E5                      :(Shinkansen E5)
+STR_REFIT_LIVERY_Shinkansen_H5                      :(Shinkansen H5)
+STR_REFIT_LIVERY_Nishitetsu_1000_Normal             :(Nishitetsu 1000 series Normal)
+STR_REFIT_LIVERY_Nishitetsu_1000_Normal_Aircon      :(Nishitetsu 1000 series Normal Aircon)
+STR_REFIT_LIVERY_Nishitetsu_1000_Original           :(Nishitetsu 1000 series Original)
+STR_REFIT_LIVERY_Nishitetsu_1000_Express            :(Nishitetsu 1000 series Express)
+STR_REFIT_LIVERY_Nishitetsu_1000_Last_Run           :(Nishitetsu 1000 series Last Run)
+STR_REFIT_LIVERY_Nishitetsu_2000_Normal             :(Nishitetsu 2000 series Normal)
+STR_REFIT_LIVERY_Nishitetsu_2000_Express            :(Nishitetsu 2000 series Express)
+STR_REFIT_LIVERY_Nishitetsu_5000_MG                 :(Nishitetsu 5000 series MG)
+STR_REFIT_LIVERY_Nishitetsu_5000_SIV                :(Nishitetsu 5000 series SIV)
+STR_REFIT_LIVERY_Nishitetsu_6000                    :(Nishitetsu 6000)
+STR_REFIT_LIVERY_Nishitetsu_6050                    :(Nishitetsu 6050)
+STR_REFIT_LIVERY_Nishitetsu_7000                    :(Nishitetsu 7000)
+STR_REFIT_LIVERY_Nishitetsu_7050                    :(Nishitetsu 7050)
 
 # Liveries metro
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(Long Seat)

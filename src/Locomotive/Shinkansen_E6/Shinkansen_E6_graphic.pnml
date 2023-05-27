@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Shinkansen_E6_purchase, "src/Locomotive/Shinkansen_E6/Shinkansen_E6.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+2. E6
+--------------------------------------------------------------------*/
+spriteset(set_Shinkansen_E6H_purchase, "src/Locomotive/Shinkansen_E6/Shinkansen_E6.png"){
+    tmpl_purchase_for_dualhead(0, 81)
+}
+
+spriteset(set_Shinkansen_E6_engineH, "src/Locomotive/Shinkansen_E6/Shinkansen_E6.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Shinkansen_E6_panto_wagon, "src/Locomotive/Shinkansen_E6/Shinkansen_E6.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Shinkansen_E6_wagon, "src/Locomotive/Shinkansen_E6/Shinkansen_E6.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Shinkansen_E6_panto_wagon_r, "src/Locomotive/Shinkansen_E6/Shinkansen_E6.png"){
+    wagon_1F_F_r(80, 27)
+}
+
+spriteset(set_Shinkansen_E6_engineT, "src/Locomotive/Shinkansen_E6/Shinkansen_E6.png"){
+    engine_r(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E6_purchase, cargo_subtype) {
+    set_Shinkansen_E6_purchase;
+}

@@ -1,0 +1,122 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_TGV_Duplex_purchase, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. TGV Duplex
+--------------------------------------------------------------------*/
+spriteset(set_TGV_DuplexH_purchase, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex.png"){
+    tmpl_purchase_for_dualhead(0, 162)
+}
+
+spriteset(set_TGV_Duplex_engineH, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_Duplex_wagon_start, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_TGV_Duplex_wagon_nomal, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_Duplex_wagon_bar, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex.png") {
+    wagon_bar(80, 81)
+}
+
+spriteset(set_TGV_Duplex_wagon_special, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_TGV_Duplex_wagon_end, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex.png"){
+    wagon_start(80, 135)
+}
+
+spriteset(set_TGV_Duplex_engineT, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex.png"){
+    engine_r(80, 162)
+}
+
+/*--------------------------------------------------------------------
+2. TGV Lyair
+--------------------------------------------------------------------*/
+spriteset(set_TGV_Duplex_LyairH_purchase, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Lyair.png"){
+    tmpl_purchase_for_dualhead(0, 135)
+}
+
+spriteset(set_TGV_Duplex_Lyair_engineH, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Lyair.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_Duplex_Lyair_wagon_start, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Lyair.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_TGV_Duplex_Lyair_wagon_nomal, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Lyair.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_Duplex_Lyair_wagon_nomal_r, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Lyair.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_Duplex_Lyair_wagon_bar, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Lyair.png") {
+    wagon_bar(80, 81)
+}
+
+spriteset(set_TGV_Duplex_Lyair_wagon_end, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Lyair.png"){
+    wagon_start(80, 108)
+}
+
+spriteset(set_TGV_Duplex_Lyair_engineT, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Lyair.png"){
+    engine_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+3. TGV Ouigo
+--------------------------------------------------------------------*/
+spriteset(set_TGV_Duplex_Ouigo_purchase, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_TGV_Duplex_OuigoH_purchase, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png"){
+    tmpl_purchase_for_dualhead(0, 135)
+}
+
+spriteset(set_TGV_Duplex_Ouigo_engineH, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_Duplex_Ouigo_wagon_start, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_TGV_Duplex_Ouigo_wagon, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_Duplex_Ouigo_wagon_r, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_Duplex_Ouigo_wagon_bar, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png") {
+    wagon_bar(80, 81)
+}
+
+spriteset(set_TGV_Duplex_Ouigo_wagon_end, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png"){
+    wagon_start(80, 108)
+}
+
+spriteset(set_TGV_Duplex_Ouigo_engineT, "src/Locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png"){
+    engine_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TGV_Duplex_purchase, cargo_subtype) {
+    set_TGV_Duplex_purchase;
+}
