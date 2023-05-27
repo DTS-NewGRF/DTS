@@ -2,7 +2,6 @@
 
 //locomotive
 #include "locomotive/Eurostar_E320/Eurostar_E320.pnml"
-#include "locomotive/ICE1/ICE1.pnml"
 #include "locomotive/ICE2/ICE2.pnml"
 #include "locomotive/ICE3/ICE3.pnml"
 #include "locomotive/ICE3V/ICE3V.pnml"

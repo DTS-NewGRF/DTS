@@ -8,7 +8,6 @@ STR_GRF_URL                                         :https://github.com/GBLINER/
 
 # locomotive's name
 STR_Eurostar_E320_NAME                              :[ETS] 유로스타 E320
-STR_ICE1_NAME                                       :[ETS] ICE1
 STR_ICE2_NAME                                       :[ETS] ICE2
 STR_ICE3_NAME                                       :[ETS] ICE3
 STR_ICE3V_NAME                                      :[ETS] ICE3 (벨라로 D)
@@ -30,7 +29,6 @@ STR_TGV_Poste_wagon_NAME                            :[ETS] TGV 라포스트 화�
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_ICE1                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}ICE1
 STR_REFIT_ADDITIONAL_ICE2                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE2
 STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE3
 STR_REFIT_ADDITIONAL_ICE3V                          :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE3 (벨라로 D)

@@ -37,6 +37,7 @@ STR_HYEL_200_NAME                                   :[DTS] HYEL-200
 STR_HYEL_300_NAME                                   :[DTS] HYEL-300
 STR_HYEL_400_NAME                                   :[DTS] HYEL-400
 STR_GT26CW_NAME                                     :[DTS] GT26CW
+STR_ICE1_NAME                                       :[DTS] ICE1
 
 STR_ICE_CW_NAME                                     :[DTS] ITX-Chowol
 STR_ITX_SM2_NAME                                    :[DTS] ITX-Saemaeul DD
@@ -137,6 +138,7 @@ STR_REFIT_ADDITIONAL_HYEL_400                       :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_Hyundai_Rotem_Mitsubishi       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Hyundai_Rotem_R                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_ICE1                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train {GREEN}ICE1
 
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Chowol
 STR_REFIT_ADDITIONAL_ITX_SM2                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train {GREEN}ITX-Saemaeul DD

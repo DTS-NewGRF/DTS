@@ -8,7 +8,6 @@ STR_GRF_URL                                         :https://github.com/GBLINER/
 
 # locomotive's name
 STR_Eurostar_E320_NAME                              :[ETS] Eurostar E320
-STR_ICE1_NAME                                       :[ETS] ICE1
 STR_ICE2_NAME                                       :[ETS] ICE2
 STR_ICE3_NAME                                       :[ETS] ICE3
 STR_ICE3V_NAME                                      :[ETS] ICE3 (Velaro D)
@@ -30,7 +29,6 @@ STR_TGV_Poste_wagon_NAME                            :[ETS] TGV La Poste Freight 
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_ICE1                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}ICE1
 STR_REFIT_ADDITIONAL_ICE2                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE2
 STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE3
 STR_REFIT_ADDITIONAL_ICE3V                          :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE3 (Velaro D)

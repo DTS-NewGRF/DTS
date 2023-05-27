@@ -44,6 +44,7 @@
 #include "Locomotive/HYEL_300/HYEL_300.pnml"
 #include "Locomotive/HYEL_400/HYEL_400.pnml"
 #include "Locomotive/GT26CW/GT26CW.pnml"
+#include "Locomotive/ICE1/ICE1.pnml"
 
 //미정리
 #include "Locomotive/ITX_CW/ITX_CW.pnml"
@@ -97,6 +98,7 @@ if (European) {
     disable_item(FEAT_TRAINS, 2006); //BB15000
     disable_item(FEAT_TRAINS, 2007); //DTS_ESPassenger_Car
     disable_item(FEAT_TRAINS, 2022); //Eurostar_E300
+    disable_item(FEAT_TRAINS, 2049); //ICE1
     }
 
 if (Japanese) {
