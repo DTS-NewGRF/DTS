@@ -38,6 +38,7 @@ STR_HYEL_300_NAME                                   :[DTS] HYEL-300
 STR_HYEL_400_NAME                                   :[DTS] HYEL-400
 STR_GT26CW_NAME                                     :[DTS] GT26CW
 STR_ICE1_NAME                                       :[DTS] ICE1
+STR_ICE2_NAME                                       :[DTS] ICE2
 
 STR_ICE_CW_NAME                                     :[임시추가] ITX-초월
 STR_ITX_SM2_NAME                                    :[임시추가] ITX-새마을 Max
@@ -139,6 +140,7 @@ STR_REFIT_ADDITIONAL_GT26CW                         :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_Hyundai_Rotem_Mitsubishi       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_Hyundai_Rotem_R                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_ICE1                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차 {GREEN}ICE1
+STR_REFIT_ADDITIONAL_ICE2                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차 {GREEN}ICE2
 
 STR_REFIT_ADDITIONAL_ITX_CW                         :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}ITX-청춘을 2층으로 확장한 컨셉열차
 STR_REFIT_ADDITIONAL_ITX_SM2                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}ITX-새마을을 2층으로 확장한 컨셉열차
@@ -258,6 +260,8 @@ STR_REFIT_LIVERY_A_Train_New_Generatar_Car          :(A-Train)
 STR_REFIT_LIVERY_G_Train_New_Generatar_Car          :(G-Train)
 STR_REFIT_LIVERY_Hyundai_Rotem_R_Nomal              :(로탬 R형 일반)
 STR_REFIT_LIVERY_Hyundai_Rotem_R_special            :(로탬 R형 특실)
+STR_REFIT_LIVERY_ICE2_red                           :(레드 도색)
+STR_REFIT_LIVERY_ICE2_green                         :(그린 도색)
 
 STR_REFIT_LIVERY_ITX_SM2_C                          :(ITX-새마을 DD 회사색상)
 STR_REFIT_LIVERY_ITX_SM2_G                          :(ITX-새마을 DD 녹색도색)

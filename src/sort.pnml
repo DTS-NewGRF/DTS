@@ -36,6 +36,7 @@ sort(FEAT_TRAINS, [
     EMU260_DD,                 //2026
     HYEL_300,                  //2041
     ICE1,                      //2049
+    ICE2,                      //2050
 
     //고속열차 331
     AGV,                       //2002

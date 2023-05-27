@@ -8,7 +8,6 @@ STR_GRF_URL                                         :https://github.com/GBLINER/
 
 # locomotive's name
 STR_Eurostar_E320_NAME                              :[ETS] Eurostar E320
-STR_ICE2_NAME                                       :[ETS] ICE2
 STR_ICE3_NAME                                       :[ETS] ICE3
 STR_ICE3V_NAME                                      :[ETS] ICE3 (Velaro D)
 STR_ICE4_NAME                                       :[ETS] ICE4
@@ -29,7 +28,6 @@ STR_TGV_Poste_wagon_NAME                            :[ETS] TGV La Poste Freight 
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_ICE2                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE2
 STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE3
 STR_REFIT_ADDITIONAL_ICE3V                          :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE3 (Velaro D)
 STR_REFIT_ADDITIONAL_ICE4                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE4
@@ -68,8 +66,6 @@ STR_REFIT_LIVERY_TGV_THALYS                         :(TGV PBKA Thalys Livery)
 STR_REFIT_LIVERY_TGV_Carmillon                      :(TGV POS Carmillon Livery)
 STR_REFIT_LIVERY_Renfe_S_100_old                    :(Old Livery)
 STR_REFIT_LIVERY_Renfe_S_100_new                    :(Renewal Livery)
-STR_REFIT_LIVERY_ICE2_red                           :(Red Livery)
-STR_REFIT_LIVERY_ICE2_green                         :(Green Livery)
 STR_REFIT_LIVERY_ICE3_red                           :(ICE 3 Red Livery)
 STR_REFIT_LIVERY_ICE3_green                         :(ICE 3 Green Livery)
 STR_REFIT_LIVERY_ICE3M_red                          :(ICE 3M Red Livery)
