@@ -10,7 +10,7 @@ ITX-SC2
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, TTX, 1134){
+item(FEAT_TRAINS, TTX, 2019){
     property {
         name:                           string(STR_TTX_NAME);
         climates_available:             ALL_CLIMATES;
@@ -60,7 +60,7 @@ item(FEAT_TRAINS, TTX, 1134){
         additional_text:                string(STR_REFIT_ADDITIONAL_TTX);
         }
 
-    livery_override(DTS_Passenger_Car) {
+    livery_override(KTS_Passenger_Car) {
         default:                        sw_TTX_wagon;
         cargo_capacity:                 56;
         loading_speed:                  25;

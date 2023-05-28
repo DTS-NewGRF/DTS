@@ -1,95 +1,51 @@
 /*--------------------------------------------------------------------
-정렬 / 공백 ID : 현 없음.
+정렬
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
     //지하철
-    AD_Tranz_CAF_A,            //2060
-    AUTS,                      //2004
-    Cammall_AC,                //2008
-    Cammall_DC,                //2009
-    CNR_Changchun,             //2010
-    CRRC,                      //2016
-    Rotem_Mitsubishi,          //2047
-    Hyundai_Rotem_R,           //2048
+    Standard_Metro,            //2006
+    AUTS,                      //2007
 
     //통근열차
-    APEX20005,                 //2003
-    H2_WJ,                     //2034
+    H2_WJ,                     //2008
 
     //일반열차
-    BB15000,                   //2006
-    DEL7600,                   //2019
-    EMU150,                    //2023
-    EMU150_DD,                 //2024
-    HXD3C,                     //2037
-    HYEL_100,                  //2038
-    HYEL_150,                  //2039
-    HYEL_200,                  //2040
-    GT26CW,                    //2045
+    APEX20005,                 //2009
+    EMU150,                    //2010
+    Bicheuro2,                 //2011
+    NRT2,                      //2012
+    ITX_SM2,                   //2013
+    GT26CW,                    //2014
+    DEL7600,                   //2015
+    Travel_8500,               //2016
 
-    //준고속열차 180
-    GTX,                       //2033
+    //준고속 180
+    GTX,                       //2017
+    ITX_CW,                    //2018
+    TTX,                       //2019
 
-    //준고속열차 260
-    CRH1,                      //2012
-    EMU260,                    //2025
-    EMU260_DD,                 //2026
-    HYEL_300,                  //2041
-    ICE1,                      //2049
-    ICE2,                      //2050
+    //준고속 260
+    EMU260,                    //2020
+    EMU260_DD,                 //2021
 
     //고속열차 331
-    AGV,                       //2061
-    Avelia_Liberty,            //2005
-    CR400,                     //2011
-    CRH380A,                   //2013
-    CRH380D,                   //2015
-    CTX,                       //2017
-    DFX,                       //2020
-    Eurostar_E300,             //2022
-    EMU320,                    //2027
-    EMU320_DD,                 //2028
-    HSR_350X,                  //2036
-    ICE3,                      //2051
-    Al_Boraq,                  //2055
-    CRH2,                      //2056
-    CRH2C,                     //2057
-    CRH3,                      //2058
-    CRH380B,                   //2059
+    EMU320,                    //2022
+    EMU320_DD,                 //2023
+    KTX_SC,                    //2024
+    KTX_SC2,                   //2025
+    CTX,                       //2026
+    HSR_350X,                  //2027
 
     //고속열차 430
-    HEMU_430X,                 //2035
-    HYEL_400,                  //2042
+    HEMU_430X,                 //2028
 
     //고속열차 600
-    CRH380AJ,                  //2014
-        
-    //미정리
-    TTX,                       //1134
-    Standard_Metro,            //1122
-    VHST_600X,                 //1135
-    KTX_SC,                    //1131
-    KTX_SC2,                   //1074
-    ITX_CW,                    //1070
-    ITX_SM2,                   //1071
-    NRT2,                      //1075
-    Travel_8500,               //1121
-    
-    // Wagon
-    DTS_Passenger_Car,         //2000
-    DTS_CPassenger_Car,        //2001
-    DTS_EPassenger_Car,        //2002
-    DTS_ESPassenger_Car,       //2007    
-    DTS_CSPassenger_Car,       //2043    
-    DTS_KSPassenger_Car,       //2044
-    CTX_Freight_Car,           //2018
-    DFX_Freight_Car,           //2021
-    FLAT_1F,                   //2029    
-    FLAT_2F,                   //2030
-    FLAT_TANK,                 //2031
-    CGeneratar_Car,            //2032
-    KGeneratar_Car,            //2046
-    CLuggage_Car,              //2052    
-    KLuggage_Car,              //2053
-    TGV_Poste_wagon            //2054
+    VHST_600X,                 //2029
+
+    //객차
+    KTS_Passenger_Car,         //2001
+    KTS_SPassenger_Car,        //2002
+    Generatar_Car,             //2003
+    Luggage_Car,               //2004
+    CTX_Freight_Car,           //2005
     ]);

@@ -10,7 +10,7 @@ KTX-N
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HSR_350X, 2036){
+item(FEAT_TRAINS, HSR_350X, 2027){
     property {
         name:                           string(STR_HSR_350X_NAME);
         climates_available:             ALL_CLIMATES;
@@ -62,7 +62,7 @@ item(FEAT_TRAINS, HSR_350X, 2036){
         additional_text:                string(STR_REFIT_ADDITIONAL_HSR_350X);
         }
 
-    livery_override(DTS_Passenger_Car) {
+    livery_override(KTS_Passenger_Car) {
         default:                        sw_HSR_350X_wagon;
         cargo_capacity:                 60;
         loading_speed:                  25;

@@ -8,7 +8,7 @@ param {
             desc: string(STR_PARAM_Metro_SPEED_Train_DESC);
             min_value: 100;
             max_value: 151;
-            def_value: 121;
+            def_value: 120;
             }
     }
 
@@ -54,58 +54,4 @@ param {
             max_value: 597;
             def_value: 430;
             }
-    }
-
-param {
-    Chinese {
-        type: bool;
-        name: string(STR_PARAM_Chinese_NAME);
-        desc: string(STR_PARAM_Chinese_DESC);
-        def_value: 1;
-        }
-    }
-
-param {
-    Hong_Kong {
-        type: bool;
-        name: string(STR_PARAM_Hong_Kong_NAME);
-        desc: string(STR_PARAM_Hong_Kong_DESC);
-        def_value: 1;
-        }
-    }
-
-param {
-    European {
-        type: bool;
-        name: string(STR_PARAM_European_NAME);
-        desc: string(STR_PARAM_European_DESC);
-        def_value: 1;
-        }
-    }
-
-param {
-    Japanese {
-        type: bool;
-        name: string(STR_PARAM_Japanese_NAME);
-        desc: string(STR_PARAM_Japanese_DESC);
-        def_value: 1;
-        }
-    }
-
-param {
-    Korea {
-        type: bool;
-        name: string(STR_PARAM_Korea_NAME);
-        desc: string(STR_PARAM_Korea_DESC);
-        def_value: 1;
-        }
-    }
-
-param {
-    world {
-        type: bool;
-        name: string(STR_PARAM_world_NAME);
-        desc: string(STR_PARAM_world_DESC);
-        def_value: 1;
-        }
     }

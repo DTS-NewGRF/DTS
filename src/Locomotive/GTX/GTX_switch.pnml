@@ -12,17 +12,17 @@ switch(FEAT_TRAINS, SELF, sw_GTX_wagon_middle, (position_in_consist)) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_GTX_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    GTX: set_GTX_panto_wagon_r;
+    GTX: set_GTX_wagon_end;
     sw_GTX_wagon_middle;
 }
 
 switch(FEAT_TRAINS, SELF, sw_GTX_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    GTX: set_GTX_panto_wagon;
+    GTX: set_GTX_wagon_start;
     sw_GTX_wagon_rear;
 }
 
 switch(FEAT_TRAINS, SELF, sw_GTX_wagon_attach, vehicle_type_id) {
     GTX:                    return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
+    KTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

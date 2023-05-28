@@ -1,8 +1,0 @@
-/*--------------------------------------------------------------------
-스위치
---------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_FLAT_TANK_CAR_wagon, random_bits % 2) {
-     0: sg_FLAT_TANK_CAR_01_wagon;
-     1: sg_FLAT_TANK_CAR_02_wagon;
-    sg_FLAT_TANK_CAR_01_wagon;
-}

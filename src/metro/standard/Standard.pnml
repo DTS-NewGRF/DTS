@@ -10,7 +10,7 @@ YTRO 100
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Standard_Metro, 1122){
+item(FEAT_TRAINS, Standard_Metro, 2006){
     property {
         name:                           string(STR_Standard_Metro_NAME);
         climates_available:             ALL_CLIMATES;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, Standard_Metro, 1122){
         additional_text:                string(STR_REFIT_ADDITIONAL_Standard_Metro);
         }
 
-    livery_override(DTS_Passenger_Car) {
+    livery_override(KTS_Passenger_Car) {
         default:                        sw_Standard_Metro_wagon_length;
         cargo_subtype_text:             sw_Standard_Metro_cargo_subtype_text;
         cargo_capacity:                 sw_Standard_Metro_wagon_capacity_in_custom;

@@ -1,80 +1,25 @@
 //wagon
-#include "wagon/Passenger_wagon/passenger_wagon.pnml"
-#include "wagon/Cpassenger_wagon/Cpassenger_wagon.pnml"
-#include "wagon/Epassenger_wagon/Epassenger_wagon.pnml"
-#include "wagon/ESPassenger_wagon/ESPassenger_wagon.pnml"
-#include "wagon/CSPassenger_wagon/CSPassenger_wagon.pnml"
-#include "wagon/KSPassenger_wagon/KSPassenger_wagon.pnml"
+#include "wagon/passenger_wagon/passenger_wagon_all.pnml"
+#include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
+#include "wagon/Generatar_Car/Generatar_Car.pnml"
+#include "wagon/Luggage_Car/Luggage_Car.pnml"
 #include "wagon/CTX_Freight_Car/CTX_Freight_Car.pnml"
-#include "wagon/DFX_Freight_Car/DFX_Freight_Car.pnml"
-#include "wagon/Flat_car/Flat_1F_Car/Flat_1F_Car.pnml"
-#include "wagon/Flat_car/Flat_2F_Car/Flat_2F_Car.pnml"
-#include "wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.pnml"
-#include "wagon/CGeneratar_Car/CGeneratar_Car.pnml"
-#include "wagon/KGeneratar_Car/KGeneratar_Car.pnml"
 
-#include "wagon/KLuggage_Car/KLuggage_Car.pnml"
-#include "wagon/CLuggage_Car/CLuggage_Car.pnml"
-#include "wagon/TGV_Poste_wagon/TGV_Poste_wagon.pnml"
-
-//Locomotive
-#include "locomotive/AGV/AGV.pnml"
+//locomotive
 #include "locomotive/AREX/AREX.pnml"
-#include "locomotive/Avelia_Liberty/Avelia_Liberty.pnml"
-#include "locomotive/BB15000/BB15000.pnml"
-#include "locomotive/CR400/CR400.pnml"
-#include "locomotive/CRH1/CRH1.pnml"
-#include "locomotive/CRH380A/CRH380A.pnml"
-#include "locomotive/CRH380AJ/CRH380AJ.pnml"
-#include "locomotive/CRH380D/CRH380D.pnml"
+#include "locomotive/Bicheuro_DUPLEX/Bicheuro2.pnml"
 #include "locomotive/CTX/CTX.pnml"
 #include "locomotive/DEL7600/DEL7600.pnml"
-#include "locomotive/DFX/DFX.pnml"
-#include "locomotive/Eurostar_E300/Eurostar_E300.pnml"
-#include "locomotive/EMU150/EMU150.pnml"
-#include "locomotive/EMU150_DD/EMU150_DD.pnml"
-#include "locomotive/EMU260/EMU260.pnml"
-#include "locomotive/EMU260_DD/EMU260_DD.pnml"
-#include "locomotive/EMU320/EMU320.pnml"
-#include "locomotive/EMU320_DD/EMU320_DD.pnml"
+#include "locomotive/EMU/EMU150/EMU150.pnml"
+#include "locomotive/EMU/EMU260/EMU260.pnml"
+#include "locomotive/EMU/EMU260_DD/EMU260_DD.pnml"
+#include "locomotive/EMU/EMU320/EMU320.pnml"
+#include "locomotive/EMU/EMU320_DD/EMU320_DD.pnml"
+#include "locomotive/GT26CW/GT26CW.pnml"
 #include "locomotive/GTX/GTX.pnml"
 #include "locomotive/H2_WJ/H2_WJ.pnml"
 #include "locomotive/HEMU_430X/HEMU_430X.pnml"
 #include "locomotive/HSR_350X/HSR_350X.pnml"
-#include "locomotive/HXD3C/HXD3C.pnml"
-#include "locomotive/HYEL_100/HYEL_100.pnml"
-#include "locomotive/HYEL_150/HYEL_150.pnml"
-#include "locomotive/HYEL_200/HYEL_200.pnml"
-#include "locomotive/HYEL_300/HYEL_300.pnml"
-#include "locomotive/HYEL_400/HYEL_400.pnml"
-#include "locomotive/GT26CW/GT26CW.pnml"
-#include "locomotive/ICE1/ICE1.pnml"
-#include "locomotive/ICE2/ICE2.pnml"
-#include "locomotive/ICE3/ICE3.pnml"
-
-//미정리
-#include "locomotive/CRH2/CRH2.pnml"
-#include "locomotive/CRH2C/CRH2C.pnml"
-#include "locomotive/CRH3/CRH3.pnml"
-#include "locomotive/CRH380B/CRH380B.pnml"
-#include "locomotive/CRH380C/CRH380C.pnml"
-#include "locomotive/NJ2/NJ2.pnml"
-
-#include "locomotive/Eurostar_E320/Eurostar_E320.pnml"
-#include "locomotive/ICE3V/ICE3V.pnml"
-#include "locomotive/ICE4/ICE4.pnml"
-#include "locomotive/Renfe/Renfe_S_100/Renfe_S_100.pnml"
-#include "locomotive/Renfe/Renfe_S_102/Renfe_S_102.pnml"
-#include "locomotive/Renfe/Renfe_S_103/Renfe_S_103.pnml"
-#include "locomotive/Renfe/Renfe_S_130/Renfe_S_130.pnml"
-#include "locomotive/TGV/TGV_Duplex/TGV_Duplex.pnml"
-#include "locomotive/TGV/TGV_Pos/TGV_Pos.pnml"
-#include "locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est.pnml"
-#include "locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.pnml"
-#include "locomotive/TGV/TGV_AR/TGV_AR.pnml"
-#include "locomotive/TGV/TGV_La_Poste/TGV_La_Poste.pnml"
-#include "locomotive/TGV/TGV_M/TGV_M.pnml"
-
 #include "locomotive/ITX_CW/ITX_CW.pnml"
 #include "locomotive/ITX_SM2/ITX_SM2.pnml"
 #include "locomotive/KTX_SC/KTX_SC.pnml"
@@ -84,114 +29,9 @@
 #include "locomotive/TTX/TTX.pnml"
 #include "locomotive/VHST_600X/VHST_600X.pnml"
 
-#include "locomotive/Keisei_AE_series/Keisei_AE_series.pnml"
-#include "locomotive/Shinkansen_0/Shinkansen_0.pnml"
-#include "locomotive/Shinkansen_500/Shinkansen_500.pnml"
-#include "locomotive/Shinkansen_700/Shinkansen_700.pnml"
-#include "locomotive/Shinkansen_800/Shinkansen_800.pnml"
-#include "locomotive/Shinkansen_N700/Shinkansen_N700.pnml"
-#include "locomotive/Shinkansen_N700_S/Shinkansen_N700_S.pnml"
-#include "locomotive/Shinkansen_E2/Shinkansen_E2.pnml"
-#include "locomotive/Shinkansen_E5_H5/Shinkansen_E5_H5.pnml"
-#include "locomotive/Shinkansen_E6/Shinkansen_E6.pnml"
-#include "locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.pnml"
-#include "locomotive/Shinkansen_E8/Shinkansen_E8.pnml"
-#include "locomotive/Shinkansen_923/Shinkansen_923.pnml"
-
-#include "locomotive/AL_BORAQ/Al_Boraq.pnml"
-#include "locomotive/NHSRCL_E5/NHSRCL_E5.pnml"
-#include "locomotive/NSW_TrainLink_D/NSW_TrainLink_D.pnml"
-#include "locomotive/Talgo_350_SRO/Talgo_350_SRO.pnml"
-#include "locomotive/THSR_700T/THSR_700T.pnml"
-
 //Metro
-#include "metro/MTR/AD_Tranz_CAF_A/AD_Tranz_CAF_A.pnml"
 #include "metro/AUTS/AUTS.pnml"
-#include "metro/MTR/Cammall_AC/Cammall_AC.pnml"
-#include "metro/MTR/Cammall_DC/Cammall_DC.pnml"
-#include "metro/MTR/CNR_Changchun/CNR_Changchun.pnml"
-#include "metro/MTR/CRRC/CRRC.pnml"
-#include "metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.pnml"
-#include "metro/MTR/Hyundai_Rotem_R/Hyundai_Rotem_R.pnml"
-#include "metro/MTR/IKK_SP_1900/IKK_SP_1900.pnml"
-
-#include "metro/Standard/Standard.pnml"
-
-#include "metro/Nishitetsu/1000_series/Nishitetsu_1000.pnml"
-#include "metro/Nishitetsu/2000_series/Nishitetsu_2000.pnml"
-#include "metro/Nishitetsu/3000_series/Nishitetsu_3000.pnml"
-#include "metro/Nishitetsu/5000_series/Nishitetsu_5000.pnml"
-#include "metro/Nishitetsu/6000_series/Nishitetsu_6000.pnml"
-#include "metro/Nishitetsu/7000_series/Nishitetsu_7000.pnml"
-#include "metro/Nishitetsu/8000_series/Nishitetsu_8000.pnml"
-#include "metro/Nishitetsu/9000_series/Nishitetsu_9000.pnml"
+#include "metro/standard/Standard.pnml"
 
 // Sorting
 #include "sort.pnml"
-
-//disabe_train
-if (Chinese) {
-    disable_item(FEAT_TRAINS, 2011); //CR400
-    disable_item(FEAT_TRAINS, 2012); //CRH1
-    disable_item(FEAT_TRAINS, 2013); //CRH380A
-    disable_item(FEAT_TRAINS, 2014); //CRH380AJ
-    disable_item(FEAT_TRAINS, 2015); //CRH380D
-    disable_item(FEAT_TRAINS, 2032); //CGeneratar_Car
-    disable_item(FEAT_TRAINS, 2037); //HXD3C
-    disable_item(FEAT_TRAINS, 2043); //DTS_CSPassenger_Car
-    disable_item(FEAT_TRAINS, 2052); //CLuggage_Car
-    disable_item(FEAT_TRAINS, 2056); //CRH2
-    disable_item(FEAT_TRAINS, 2057); //CRH2C
-    disable_item(FEAT_TRAINS, 2058); //CRH3
-    disable_item(FEAT_TRAINS, 2059); //CRH380B
-    }
-
-if (Hong_Kong) {
-    disable_item(FEAT_TRAINS, 2060); //AD_Tranz_CAF_A
-    disable_item(FEAT_TRAINS, 2008); //Cammall_AC
-    disable_item(FEAT_TRAINS, 2009); //Cammall_DC
-    disable_item(FEAT_TRAINS, 2010); //CNR_Changchun
-    disable_item(FEAT_TRAINS, 2016); //CRRC
-    disable_item(FEAT_TRAINS, 2047); //Rotem_Mitsubishi
-    disable_item(FEAT_TRAINS, 2048); //Hyundai_Rotem_R
-    }
-
-if (European) {
-    disable_item(FEAT_TRAINS, 2061); //AGV
-    disable_item(FEAT_TRAINS, 2006); //BB15000
-    disable_item(FEAT_TRAINS, 2007); //DTS_ESPassenger_Car
-    disable_item(FEAT_TRAINS, 2022); //Eurostar_E300
-    disable_item(FEAT_TRAINS, 2049); //ICE1
-    disable_item(FEAT_TRAINS, 2050); //ICE2
-    disable_item(FEAT_TRAINS, 2051); //ICE3
-    disable_item(FEAT_TRAINS, 2054); //TGV_Poste_wagon
-    }
-
-if (Japanese) {
-
-    }
-
-if (Korea) {
-    disable_item(FEAT_TRAINS, 2003); //APEX20005
-    disable_item(FEAT_TRAINS, 2004); //AUTS
-    disable_item(FEAT_TRAINS, 2017); //CTX
-    disable_item(FEAT_TRAINS, 2018); //CTX_Freight_Car
-    disable_item(FEAT_TRAINS, 2019); //DEL7600
-    disable_item(FEAT_TRAINS, 2023); //EMU150
-    disable_item(FEAT_TRAINS, 2024); //EMU150_DD
-    disable_item(FEAT_TRAINS, 2025); //EMU260
-    disable_item(FEAT_TRAINS, 2026); //EMU260_DD
-    disable_item(FEAT_TRAINS, 2028); //EMU320_DD
-    disable_item(FEAT_TRAINS, 2033); //GTX
-    disable_item(FEAT_TRAINS, 2034); //H2_WJ
-    disable_item(FEAT_TRAINS, 2035); //HEMU_430X
-    disable_item(FEAT_TRAINS, 2036); //HSR_350X
-    disable_item(FEAT_TRAINS, 2044); //DTS_KSPassenger_Car
-    disable_item(FEAT_TRAINS, 2046); //KGeneratar_Car
-    disable_item(FEAT_TRAINS, 2053); //KLuggage_Car
-    }
-
-if (world) {
-    disable_item(FEAT_TRAINS, 2005); //Avelia_Liberty
-    disable_item(FEAT_TRAINS, 2055); //Al_Boraq
-    }

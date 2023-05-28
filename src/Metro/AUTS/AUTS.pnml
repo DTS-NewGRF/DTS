@@ -10,7 +10,7 @@ YTRO 100
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, AUTS, 2004){
+item(FEAT_TRAINS, AUTS, 2007){
     property {
         name:                           string(STR_AUTS_NAME);
         climates_available:             ALL_CLIMATES;
@@ -52,7 +52,6 @@ item(FEAT_TRAINS, AUTS, 2004){
 	graphics {
         default:                        sw_AUTS_engine;
         purchase:                       sw_AUTS_purchase;
-        speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -60,7 +59,7 @@ item(FEAT_TRAINS, AUTS, 2004){
         additional_text:                string(STR_REFIT_ADDITIONAL_AUTS);
         }
 
-    livery_override(DTS_Passenger_Car) {
+    livery_override(KTS_Passenger_Car) {
         default:                        sw_AUTS_wagon;
         loading_speed:                  25;
         running_cost_factor:            100;

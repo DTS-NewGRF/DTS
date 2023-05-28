@@ -16,7 +16,7 @@ spriteset(set_GTX_engineH, "src/locomotive/GTX/GTX.png"){
 	engine(80, 0)
 }
 
-spriteset(set_GTX_panto_wagon, "src/locomotive/GTX/GTX.png"){
+spriteset(set_GTX_wagon_start, "src/locomotive/GTX/GTX.png"){
 	wagon_start(80, 27)
 }
 
@@ -28,7 +28,7 @@ spriteset(set_GTX_wagon_r, "src/locomotive/GTX/GTX.png") {
 	wagon_1F_r(80, 54)
 }
 
-spriteset(set_GTX_panto_wagon_r, "src/locomotive/GTX/GTX.png"){
+spriteset(set_GTX_wagon_end, "src/locomotive/GTX/GTX.png"){
 	wagon_start(80, 81)
 }
 

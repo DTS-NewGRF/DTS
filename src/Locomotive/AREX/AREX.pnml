@@ -10,7 +10,7 @@ EMU
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, APEX20005, 2003){
+item(FEAT_TRAINS, APEX20005, 2009){
     property {
         name:                           string(STR_AREX_NAME);
         climates_available:             ALL_CLIMATES;
@@ -61,7 +61,7 @@ item(FEAT_TRAINS, APEX20005, 2003){
         additional_text:                string(STR_REFIT_ADDITIONAL_AREX);
         }
 
-    livery_override(DTS_Passenger_Car) {
+    livery_override(KTS_Passenger_Car) {
         default:                        sw_AREX_wagon;
         cargo_subtype_text:             sw_AREX_cargo_subtype_text;
         cargo_capacity:                 100;

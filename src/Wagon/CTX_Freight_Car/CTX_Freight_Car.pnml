@@ -10,7 +10,7 @@ YFX
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CTX_Freight_Car, 2018){
+item(FEAT_TRAINS, CTX_Freight_Car, 2005){
     property {
         name:                           string(STR_CTX_Freight_Car_NAME);
         climates_available:             ALL_CLIMATES;
@@ -45,12 +45,12 @@ item(FEAT_TRAINS, CTX_Freight_Car, 2018){
         }
 
 	graphics {
-        default:                        sw_CTX_Freight_Car_wagon;
+        default:                        sw_CTX_FC_F_wagon;
         purchase:                       sw_CTX_Freight_Car_purchase;
-        cargo_subtype_text:             sw_CTX_Freight_Car_cargo_subtype_text;
+        cargo_subtype_text:             sw_CTX_FC_F_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_CTX_Freight);
+        additional_text:                string(STR_REFIT_train_configuration_CTX);
         }
         }

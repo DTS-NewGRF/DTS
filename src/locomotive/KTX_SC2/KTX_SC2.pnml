@@ -10,7 +10,7 @@ KTX-SC2
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, KTX_SC2, 1074){
+item(FEAT_TRAINS, KTX_SC2, 2025){
     property {
         name:                           string(STR_KTX_SC2_NAME);
         climates_available:             ALL_CLIMATES;
@@ -63,7 +63,7 @@ item(FEAT_TRAINS, KTX_SC2, 1074){
         additional_text:                string(STR_REFIT_ADDITIONAL_KTX_SC2);
         }
 
-    livery_override(DTS_Passenger_Car) {
+    livery_override(KTS_Passenger_Car) {
         default:                        sw_KTX_SC2_wagon_10car;
         cargo_subtype_text:             sw_KTX_SC2_cargo_subtype_text;
         cargo_capacity:                 116;

@@ -84,6 +84,6 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC2_wagon_attach, vehicle_type_id) {
     CTX:                    return CB_RESULT_ATTACH_ALLOW;
     KTX_SC:                 return CB_RESULT_ATTACH_ALLOW;
     KTX_SC2:                return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
+    KTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

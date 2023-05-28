@@ -1,0 +1,150 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_SPassenger_cargo_subtype_text, cargo_subtype) {
+     1: return string(STR_REFIT_LIVERY_GT26CW_CY_GW);              // 충북영동국악와인열차
+     2: return string(STR_REFIT_LIVERY_JA_a_Old_Passenger_Car);    // 정선아리랑 유람열차 구도색
+     3: return string(STR_REFIT_LIVERY_JA_a_New_Passenger_Car);    // 정선아리랑 유람열차 신도색
+     4: return string(STR_REFIT_LIVERY_E_Train_Passenger_Car);     // E-Trian
+     5: return string(STR_REFIT_LIVERY_Wine_Panax_Passenger_Car);  // 와인인삼트레인
+     6: return string(STR_REFIT_LIVERY_wine_Cinema_Passenger_Car); // 와인시네마트레인
+     7: return string(STR_REFIT_LIVERY_Lady_Bird_Passenger_Car);   // 레이디 버드
+     8: return string(STR_REFIT_LIVERY_S_Train_New_Passenger_Car); // S-Train 신도색
+     9: return string(STR_REFIT_LIVERY_A_Train_New_Passenger_Car); // A-Train 신도색
+    10: return string(STR_REFIT_LIVERY_G_Train_New_Passenger_Car); // G-Train 신도색
+    return string(STR_REFIT_LIVERY_Eco_Rail_Passenger_Car);
+}
+
+/*--------------------------------------------------------------------
+1. 충북영동국악와인 열차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CY_GW_wagon, position_in_consist % 6) {
+    1: set_CY_GW_1wagon;
+    2: set_CY_GW_2wagon;
+    3: set_CY_GW_3wagon;
+    4: set_CY_GW_4wagon;
+    5: set_CY_GW_5wagon;
+    0: set_CY_GW_6wagon;
+    set_CY_GW_4wagon;
+}
+
+/*--------------------------------------------------------------------
+2. E-Trian
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_E_Train_wagon, position_in_consist % 9) {
+    1: set_EDUCATION_1wagon;
+    2: set_EDUCATION_2wagon;
+    3: set_EDUCATION_3wagon;
+    4: set_EDUCATION_4wagon;
+    5: set_EDUCATION_5wagon;
+    6: set_EDUCATION_6wagon;
+    7: set_EDUCATION_7wagon;
+    8: set_EDUCATION_8wagon;
+    0: set_EDUCATION_9wagon;
+    set_EDUCATION_4wagon;
+}
+
+/*--------------------------------------------------------------------
+3. 와인인삼트레인
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_wine_Panax_wagon, position_in_consist % 7) {
+    1: set_wine_Panax_1wagon;
+    2: set_wine_Panax_2wagon;
+    3: set_wine_Panax_3wagon;
+    4: set_wine_Panax_4wagon;
+    5: set_wine_Panax_5wagon;
+    6: set_wine_Panax_6wagon;
+    0: set_wine_Panax_7wagon;
+    set_wine_Panax_4wagon;
+}
+
+/*--------------------------------------------------------------------
+4. 와인시네마트레인
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_wine_cinema_wagon, position_in_consist % 6) {
+    1: set_wine_cinema_1wagon;
+    2: set_wine_cinema_2wagon;
+    3: set_wine_cinema_3wagon;
+    4: set_wine_cinema_4wagon;
+    5: set_wine_cinema_5wagon;
+    0: set_wine_cinema_6wagon;
+    set_wine_cinema_4wagon;
+}
+
+/*--------------------------------------------------------------------
+5. 레이디 버드
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Lady_Bird_wagon, position_in_consist % 9) {
+    1: set_Lady_Bird_1wagon;
+    2: set_Lady_Bird_2wagon;
+    3: set_Lady_Bird_3wagon;
+    4: set_Lady_Bird_4wagon;
+    5: set_Lady_Bird_5wagon;
+    6: set_Lady_Bird_6wagon;
+    7: set_Lady_Bird_7wagon;
+    8: set_Lady_Bird_8wagon;
+    0: set_Lady_Bird_9wagon;
+    set_Lady_Bird_4wagon;
+}
+
+/*--------------------------------------------------------------------
+6. S-Trian New
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_S_Train_New_wagon, position_in_consist % 5) {
+    1: set_S_Train_New_1wagon;
+    2: set_S_Train_New_2wagon;
+    3: set_S_Train_New_3wagon;
+    4: set_S_Train_New_4wagon;
+    0: set_S_Train_New_5wagon;
+    set_S_Train_New_4wagon;
+}
+
+/*--------------------------------------------------------------------
+7. A-Trian New
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_A_Train_New_wagon, position_in_consist % 4) {
+    1: set_A_Train_New_1wagon;
+    2: set_A_Train_New_2wagon;
+    3: set_A_Train_New_3wagon;
+    0: set_A_Train_New_4wagon;
+    set_A_Train_New_4wagon;
+}
+
+/*--------------------------------------------------------------------
+8. G-Trian New
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_G_Train_New_wagon, position_in_consist % 5) {
+    1: set_G_Train_New_1wagon;
+    2: set_G_Train_New_2wagon;
+    3: set_G_Train_New_3wagon;
+    4: set_G_Train_New_4wagon;
+    0: set_G_Train_New_5wagon;
+    set_G_Train_New_4wagon;
+}
+
+/*--------------------------------------------------------------------
+객차형 스위치 공통
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_SPassenger_wagon, cargo_subtype) {
+     1: sw_CY_GW_wagon;       // 충북영동국악와인열차
+     2: set_JA_A_Old_wagon;   // 정선아리랑 유람열차 구도색
+     3: set_JA_A_New_wagon;   // 정선아리랑 유람열차 신도색
+     4: sw_E_Train_wagon;     // E-Trian
+     5: sw_wine_Panax_wagon;  // 와인인삼트레인
+     6: sw_wine_cinema_wagon; // 와인시네마트레인
+     7: sw_Lady_Bird_wagon;   // 레이디 버드
+     8: sw_S_Train_New_wagon; // S-Train New
+     9: sw_A_Train_New_wagon; // A-Train New
+    10: sw_G_Train_New_wagon; // G-Train New
+    set_Eco_Rail_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_SPassenger_wagon_capacity_in_custom, cargo_subtype) {
+     1: return 72;
+     2: return 56;
+     3: return 56;
+     8: return 72;
+     9: return 72;
+    10: return 72;
+       64;
+}
