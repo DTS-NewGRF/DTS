@@ -1,38 +1,38 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Kse2_purchase, "src/Locomotive/Keisei_AE_series/Keisei_AE_series.png"){
+spriteset(set_Kse2_purchase, "src/locomotive/Keisei_AE_series/Keisei_AE_series.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. 케이세이 AE형
 --------------------------------------------------------------------*/
-spriteset(set_Kse2H_purchase, "src/Locomotive/Keisei_AE_series/Keisei_AE_series.png"){
+spriteset(set_Kse2H_purchase, "src/locomotive/Keisei_AE_series/Keisei_AE_series.png"){
     tmpl_purchase_for_dualhead(0, 135)
 }
 
-spriteset(set_Kse2_engineH, "src/Locomotive/Keisei_AE_series/Keisei_AE_series.png"){
+spriteset(set_Kse2_engineH, "src/locomotive/Keisei_AE_series/Keisei_AE_series.png"){
     engine(80, 0)
 }
 
-spriteset(set_Kse2_2car_wagon, "src/Locomotive/Keisei_AE_series/Keisei_AE_series.png"){
+spriteset(set_Kse2_2car_wagon, "src/locomotive/Keisei_AE_series/Keisei_AE_series.png"){
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_Kse2_3car_wagon, "src/Locomotive/Keisei_AE_series/Keisei_AE_series.png"){
+spriteset(set_Kse2_3car_wagon, "src/locomotive/Keisei_AE_series/Keisei_AE_series.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Kse2_4car_wagon, "src/Locomotive/Keisei_AE_series/Keisei_AE_series.png") {
+spriteset(set_Kse2_4car_wagon, "src/locomotive/Keisei_AE_series/Keisei_AE_series.png") {
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_Kse2_5car_wagon, "src/Locomotive/Keisei_AE_series/Keisei_AE_series.png") {
+spriteset(set_Kse2_5car_wagon, "src/locomotive/Keisei_AE_series/Keisei_AE_series.png") {
     wagon_1F_F(80, 108)
 }
 
-spriteset(set_Kse2_engineT, "src/Locomotive/Keisei_AE_series/Keisei_AE_series.png"){
+spriteset(set_Kse2_engineT, "src/locomotive/Keisei_AE_series/Keisei_AE_series.png"){
     engine_r(80, 135)
 }
 

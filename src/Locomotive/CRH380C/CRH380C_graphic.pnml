@@ -1,35 +1,35 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_CRH380C_purchase, "src/Locomotive/CRH380C/CRH380C.png"){
+spriteset(set_CRH380C_purchase, "src/locomotive/CRH380C/CRH380C.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_CRH380CH_purchase, "src/Locomotive/CRH380C/CRH380C.png"){
+spriteset(set_CRH380CH_purchase, "src/locomotive/CRH380C/CRH380C.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_CRH380C_engineH, "src/Locomotive/CRH380C/CRH380C.png"){
+spriteset(set_CRH380C_engineH, "src/locomotive/CRH380C/CRH380C.png"){
     engine(80, 0)
 }
 
-spriteset(set_CRH380C_wagon_start, "src/Locomotive/CRH380C/CRH380C.png"){
+spriteset(set_CRH380C_wagon_start, "src/locomotive/CRH380C/CRH380C.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_CRH380C_wagon, "src/Locomotive/CRH380C/CRH380C.png") {
+spriteset(set_CRH380C_wagon, "src/locomotive/CRH380C/CRH380C.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_CRH380C_wagon_r, "src/Locomotive/CRH380C/CRH380C.png") {
+spriteset(set_CRH380C_wagon_r, "src/locomotive/CRH380C/CRH380C.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_CRH380C_wagon_end, "src/Locomotive/CRH380C/CRH380C.png"){
+spriteset(set_CRH380C_wagon_end, "src/locomotive/CRH380C/CRH380C.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_CRH380C_engineT, "src/Locomotive/CRH380C/CRH380C.png"){
+spriteset(set_CRH380C_engineT, "src/locomotive/CRH380C/CRH380C.png"){
     engine_r(80, 108)
 }
 

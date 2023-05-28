@@ -1,77 +1,77 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Eurostar_E300_purchase, "src/Locomotive/Eurostar_E300/Eurostar_E300_Old.png"){
+spriteset(set_Eurostar_E300_purchase, "src/locomotive/Eurostar_E300/Eurostar_E300_Old.png"){
 	tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. 유로스타 E300 구도색
 --------------------------------------------------------------------*/
-spriteset(set_Eurostar_E300_OldH_purchase, "src/Locomotive/Eurostar_E300/Eurostar_E300_Old.png"){
+spriteset(set_Eurostar_E300_OldH_purchase, "src/locomotive/Eurostar_E300/Eurostar_E300_Old.png"){
 	tmpl_purchase_for_dualhead(0, 135)
 }
 
-spriteset(set_Eurostar_E300_Old_engineH, "src/Locomotive/Eurostar_E300/Eurostar_E300_Old.png"){
+spriteset(set_Eurostar_E300_Old_engineH, "src/locomotive/Eurostar_E300/Eurostar_E300_Old.png"){
 	engine(80, 0)
 }
 
-spriteset(set_Eurostar_E300_Old_wagon_start, "src/Locomotive/Eurostar_E300/Eurostar_E300_Old.png"){
+spriteset(set_Eurostar_E300_Old_wagon_start, "src/locomotive/Eurostar_E300/Eurostar_E300_Old.png"){
 	wagon_start(80, 27)
 }
 
-spriteset(set_Eurostar_E300_Old_wagon, "src/Locomotive/Eurostar_E300/Eurostar_E300_Old.png") {
+spriteset(set_Eurostar_E300_Old_wagon, "src/locomotive/Eurostar_E300/Eurostar_E300_Old.png") {
 	wagon_1F(80, 54)
 }
 
-spriteset(set_Eurostar_E300_Old_wagon_r, "src/Locomotive/Eurostar_E300/Eurostar_E300_Old.png") {
+spriteset(set_Eurostar_E300_Old_wagon_r, "src/locomotive/Eurostar_E300/Eurostar_E300_Old.png") {
 	wagon_1F_r(80, 54)
 }
 
-spriteset(set_Eurostar_E300_Old_wagon_bar, "src/Locomotive/Eurostar_E300/Eurostar_E300_Old.png") {
+spriteset(set_Eurostar_E300_Old_wagon_bar, "src/locomotive/Eurostar_E300/Eurostar_E300_Old.png") {
 	wagon_bar(80, 81)
 }
 
-spriteset(set_Eurostar_E300_Old_wagon_end, "src/Locomotive/Eurostar_E300/Eurostar_E300_Old.png"){
+spriteset(set_Eurostar_E300_Old_wagon_end, "src/locomotive/Eurostar_E300/Eurostar_E300_Old.png"){
 	wagon_start(80, 108)
 }
 
-spriteset(set_Eurostar_E300_Old_engineT, "src/Locomotive/Eurostar_E300/Eurostar_E300_Old.png"){
+spriteset(set_Eurostar_E300_Old_engineT, "src/locomotive/Eurostar_E300/Eurostar_E300_Old.png"){
 	engine_r(80, 135)
 }
 
 /*--------------------------------------------------------------------
 2. 유로스타 E300 신도색
 --------------------------------------------------------------------*/
-spriteset(set_Eurostar_E300_NewH_purchase, "src/Locomotive/Eurostar_E300/Eurostar_E300_New.png"){
+spriteset(set_Eurostar_E300_NewH_purchase, "src/locomotive/Eurostar_E300/Eurostar_E300_New.png"){
 	tmpl_purchase_for_dualhead(0, 135)
 }
 
-spriteset(set_Eurostar_E300_New_engineH, "src/Locomotive/Eurostar_E300/Eurostar_E300_New.png"){
+spriteset(set_Eurostar_E300_New_engineH, "src/locomotive/Eurostar_E300/Eurostar_E300_New.png"){
 	engine(80, 0)
 }
 
-spriteset(set_Eurostar_E300_New_wagon_start, "src/Locomotive/Eurostar_E300/Eurostar_E300_New.png"){
+spriteset(set_Eurostar_E300_New_wagon_start, "src/locomotive/Eurostar_E300/Eurostar_E300_New.png"){
 	wagon_start(80, 27)
 }
 
-spriteset(set_Eurostar_E300_New_wagon, "src/Locomotive/Eurostar_E300/Eurostar_E300_New.png") {
+spriteset(set_Eurostar_E300_New_wagon, "src/locomotive/Eurostar_E300/Eurostar_E300_New.png") {
 	wagon_1F(80, 54)
 }
 
-spriteset(set_Eurostar_E300_New_wagon_r, "src/Locomotive/Eurostar_E300/Eurostar_E300_New.png") {
+spriteset(set_Eurostar_E300_New_wagon_r, "src/locomotive/Eurostar_E300/Eurostar_E300_New.png") {
 	wagon_1F_r(80, 54)
 }
 
-spriteset(set_Eurostar_E300_New_wagon_bar, "src/Locomotive/Eurostar_E300/Eurostar_E300_New.png") {
+spriteset(set_Eurostar_E300_New_wagon_bar, "src/locomotive/Eurostar_E300/Eurostar_E300_New.png") {
 	wagon_bar(80, 81)
 }
 
-spriteset(set_Eurostar_E300_New_wagon_end, "src/Locomotive/Eurostar_E300/Eurostar_E300_New.png"){
+spriteset(set_Eurostar_E300_New_wagon_end, "src/locomotive/Eurostar_E300/Eurostar_E300_New.png"){
 	wagon_start(80, 108)
 }
 
-spriteset(set_Eurostar_E300_New_engineT, "src/Locomotive/Eurostar_E300/Eurostar_E300_New.png"){
+spriteset(set_Eurostar_E300_New_engineT, "src/locomotive/Eurostar_E300/Eurostar_E300_New.png"){
 	engine_r(80, 135)
 }
 

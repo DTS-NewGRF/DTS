@@ -1,35 +1,35 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Shinkansen_923_purchase, "src/Locomotive/Shinkansen_923/Shinkansen_923.png"){
+spriteset(set_Shinkansen_923_purchase, "src/locomotive/Shinkansen_923/Shinkansen_923.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_Shinkansen_923H_purchase, "src/Locomotive/Shinkansen_923/Shinkansen_923.png"){
+spriteset(set_Shinkansen_923H_purchase, "src/locomotive/Shinkansen_923/Shinkansen_923.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_Shinkansen_923_engineH, "src/Locomotive/Shinkansen_923/Shinkansen_923.png"){
+spriteset(set_Shinkansen_923_engineH, "src/locomotive/Shinkansen_923/Shinkansen_923.png"){
     engine(80, 0)
 }
 
-spriteset(set_Shinkansen_923_wagon_start, "src/Locomotive/Shinkansen_923/Shinkansen_923.png"){
+spriteset(set_Shinkansen_923_wagon_start, "src/locomotive/Shinkansen_923/Shinkansen_923.png"){
     wagon_panto(80, 27)
 }
 
-spriteset(set_Shinkansen_923_wagon, "src/Locomotive/Shinkansen_923/Shinkansen_923.png") {
+spriteset(set_Shinkansen_923_wagon, "src/locomotive/Shinkansen_923/Shinkansen_923.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_Shinkansen_923_wagon_r, "src/Locomotive/Shinkansen_923/Shinkansen_923.png") {
+spriteset(set_Shinkansen_923_wagon_r, "src/locomotive/Shinkansen_923/Shinkansen_923.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_Shinkansen_923_wagon_end, "src/Locomotive/Shinkansen_923/Shinkansen_923.png"){
+spriteset(set_Shinkansen_923_wagon_end, "src/locomotive/Shinkansen_923/Shinkansen_923.png"){
     wagon_panto(80, 81)
 }
 
-spriteset(set_Shinkansen_923_engineT, "src/Locomotive/Shinkansen_923/Shinkansen_923.png"){
+spriteset(set_Shinkansen_923_engineT, "src/locomotive/Shinkansen_923/Shinkansen_923.png"){
     engine_r(80, 108)
 }
 

@@ -1,23 +1,23 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_FLAT_TANK_CAR_purchase, "src/Wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
+spriteset(set_FLAT_TANK_CAR_purchase, "src/wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
     tmpl_wagon_purchase(0, 0)
 }
 
-spriteset(set_FLAT_TANK_CAR_empty_wagon, "src/Wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
+spriteset(set_FLAT_TANK_CAR_empty_wagon, "src/wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
     flat_car_1f_container(80, 0)
 }
 
-spriteset(set_FLAT_TANK_CAR_loaded_wagon, "src/Wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
+spriteset(set_FLAT_TANK_CAR_loaded_wagon, "src/wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
     flat_car_1f_container(80, 27)
 }
 
-spriteset(set_FLAT_TANK_CAR_loading_01_wagon, "src/Wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
+spriteset(set_FLAT_TANK_CAR_loading_01_wagon, "src/wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
     flat_car_1f_container(80, 54)
 }
 
-spriteset(set_FLAT_TANK_CAR_loading_02_wagon, "src/Wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
+spriteset(set_FLAT_TANK_CAR_loading_02_wagon, "src/wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.png") {
     flat_car_1f_container(80, 81)
 }
 

@@ -1,35 +1,35 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_TGV_M_purchase, "src/Locomotive/TGV/TGV_M/TGV_M.png"){
+spriteset(set_TGV_M_purchase, "src/locomotive/TGV/TGV_M/TGV_M.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_TGV_MH_purchase, "src/Locomotive/TGV/TGV_M/TGV_M.png"){
+spriteset(set_TGV_MH_purchase, "src/locomotive/TGV/TGV_M/TGV_M.png"){
     tmpl_purchase_for_dualhead(0, 135)
 }
 
-spriteset(set_TGV_M_engineH, "src/Locomotive/TGV/TGV_M/TGV_M.png"){
+spriteset(set_TGV_M_engineH, "src/locomotive/TGV/TGV_M/TGV_M.png"){
     engine(80, 0)
 }
 
-spriteset(set_TGV_M_wagon_start, "src/Locomotive/TGV/TGV_M/TGV_M.png"){
+spriteset(set_TGV_M_wagon_start, "src/locomotive/TGV/TGV_M/TGV_M.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_TGV_M_wagon, "src/Locomotive/TGV/TGV_M/TGV_M.png") {
+spriteset(set_TGV_M_wagon, "src/locomotive/TGV/TGV_M/TGV_M.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_TGV_M_wagon_r, "src/Locomotive/TGV/TGV_M/TGV_M.png") {
+spriteset(set_TGV_M_wagon_r, "src/locomotive/TGV/TGV_M/TGV_M.png") {
     wagon_1F_r(80, 81)
 }
 
-spriteset(set_TGV_M_wagon_end, "src/Locomotive/TGV/TGV_M/TGV_M.png"){
+spriteset(set_TGV_M_wagon_end, "src/locomotive/TGV/TGV_M/TGV_M.png"){
     wagon_start(80, 108)
 }
 
-spriteset(set_TGV_M_engineT, "src/Locomotive/TGV/TGV_M/TGV_M.png"){
+spriteset(set_TGV_M_engineT, "src/locomotive/TGV/TGV_M/TGV_M.png"){
     engine_r(80, 135)
 }
 

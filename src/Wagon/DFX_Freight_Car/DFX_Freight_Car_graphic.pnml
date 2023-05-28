@@ -1,157 +1,157 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_DFX_Freight_Car_purchase, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png"){
+spriteset(set_DFX_Freight_Car_purchase, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png"){
     tmpl_wagon_purchase(0, 0)
 }
 
-alternative_sprites(set_DFX_Freight_Car_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png"){
+alternative_sprites(set_DFX_Freight_Car_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png"){
     tmpl_wagon_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. DFX Freight Car
 --------------------------------------------------------------------*/
-spriteset(set_DFX_Freight_Car_empty_wagon, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_empty_wagon, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_DFX_Freight_Car_loaded_wagon, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_loaded_wagon, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_DFX_Freight_Car_loaded_01_wagon, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_loaded_01_wagon, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_DFX_Freight_Car_loaded_02_wagon, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_loaded_02_wagon, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_DFX_Freight_Car_loaded_03_wagon, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_loaded_03_wagon, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_DFX_Freight_Car_loaded_04_wagon, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_loaded_04_wagon, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
 /*--------------------------------------------------------------------
 1-1. DFX Freight Car 32bpp
 --------------------------------------------------------------------*/
-alternative_sprites(set_DFX_Freight_Car_empty_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_empty_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png") {
     wagon_1F_F(80, 0)
 }
 
-alternative_sprites(set_DFX_Freight_Car_loaded_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_loaded_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png") {
     YFX_loaded_wagon_1F_F(80, 27)
 }
 
-alternative_sprites(set_DFX_Freight_Car_loaded_01_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_loaded_01_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png") {
     YFX_loaded_wagon_1F_F(80, 54)
 }
 
-alternative_sprites(set_DFX_Freight_Car_loaded_02_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_loaded_02_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png") {
     YFX_loaded_wagon_1F_F(80, 81)
 }
 
-alternative_sprites(set_DFX_Freight_Car_loaded_03_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_loaded_03_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png") {
     YFX_loaded_wagon_1F_F(80, 108)
 }
 
-alternative_sprites(set_DFX_Freight_Car_loaded_04_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_loaded_04_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_32bpp.png") {
     YFX_loaded_wagon_1F_F(80, 135)
 }
 
 /*--------------------------------------------------------------------
 2. DFX Freight Car 우체국소포
 --------------------------------------------------------------------*/
-spriteset(set_DFX_Freight_Car_empty_wagon_post, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_empty_wagon_post, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_DFX_Freight_Car_loaded_wagon_post, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_loaded_wagon_post, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_DFX_Freight_Car_loaded_01_wagon_post, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_loaded_01_wagon_post, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_DFX_Freight_Car_loaded_02_wagon_post, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_loaded_02_wagon_post, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_DFX_Freight_Car_loaded_03_wagon_post, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_loaded_03_wagon_post, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_DFX_Freight_Car_loaded_04_wagon_post, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_loaded_04_wagon_post, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
 /*--------------------------------------------------------------------
 2-1. DFX Freight Car 우체국소포 32bpp
 --------------------------------------------------------------------*/
-alternative_sprites(set_DFX_Freight_Car_empty_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_Post_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_empty_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_Post_32bpp.png") {
     wagon_1F_F(80, 0)
 }
 
-alternative_sprites(set_DFX_Freight_Car_loaded_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_Post_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_loaded_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_Post_32bpp.png") {
     YFX_loaded_wagon_1F_F(80, 27)
 }
 
-alternative_sprites(set_DFX_Freight_Car_loaded_01_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_Post_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_loaded_01_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_Post_32bpp.png") {
     YFX_loaded_wagon_1F_F(80, 54)
 }
 
-alternative_sprites(set_DFX_Freight_Car_loaded_02_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_Post_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_loaded_02_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_Post_32bpp.png") {
     YFX_loaded_wagon_1F_F(80, 81)
 }
 
-alternative_sprites(set_DFX_Freight_Car_loaded_03_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_Post_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_loaded_03_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_Post_32bpp.png") {
     YFX_loaded_wagon_1F_F(80, 108)
 }
 
-alternative_sprites(set_DFX_Freight_Car_loaded_04_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_Post_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_loaded_04_wagon_post, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_Post_32bpp.png") {
     YFX_loaded_wagon_1F_F(80, 135)
 }
 
 /*--------------------------------------------------------------------
 3. DFX Freight Car CJ
 --------------------------------------------------------------------*/
-spriteset(set_DFX_Freight_Car_empty_wagon_CJ, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_empty_wagon_CJ, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_DFX_Freight_Car_loaded_wagon_CJ, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_loaded_wagon_CJ, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_DFX_Freight_Car_loaded_01_wagon_CJ, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_loaded_01_wagon_CJ, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_DFX_Freight_Car_loaded_02_wagon_CJ, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
+spriteset(set_DFX_Freight_Car_loaded_02_wagon_CJ, "src/wagon/DFX_Freight_Car/DFX_Freight_Car.png") {
     wagon_1F_F(80, 0)
 }
 
 /*--------------------------------------------------------------------
 3-1. DFX Freight Car CJ 32bpp
 --------------------------------------------------------------------*/
-alternative_sprites(set_DFX_Freight_Car_empty_wagon_CJ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_CJ_Logistics_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_empty_wagon_CJ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_CJ_Logistics_32bpp.png") {
     wagon_1F_F(80, 0)
 }
 
-alternative_sprites(set_DFX_Freight_Car_loaded_wagon_CJ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_CJ_Logistics_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_loaded_wagon_CJ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_CJ_Logistics_32bpp.png") {
     YFX_loaded_wagon_1F_F(80, 27)
 }
 
-alternative_sprites(set_DFX_Freight_Car_loaded_01_wagon_CJ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_CJ_Logistics_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_loaded_01_wagon_CJ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_CJ_Logistics_32bpp.png") {
     YFX_loaded_wagon_1F_F(80, 54)
 }
 
-alternative_sprites(set_DFX_Freight_Car_loaded_02_wagon_CJ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Wagon/DFX_Freight_Car/DFX_Freight_Car_CJ_Logistics_32bpp.png") {
+alternative_sprites(set_DFX_Freight_Car_loaded_02_wagon_CJ, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/DFX_Freight_Car/DFX_Freight_Car_CJ_Logistics_32bpp.png") {
     YFX_loaded_wagon_1F_F(80, 81)
 }
 

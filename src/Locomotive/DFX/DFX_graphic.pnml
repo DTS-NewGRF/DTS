@@ -1,19 +1,19 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_DFX_purchase, "src/Locomotive/DFX/DFX.png"){
+spriteset(set_DFX_purchase, "src/locomotive/DFX/DFX.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_DFXH_purchase, "src/Locomotive/DFX/DFX.png"){
+spriteset(set_DFXH_purchase, "src/locomotive/DFX/DFX.png"){
     tmpl_purchase_for_dualhead(0, 27)
 }
 
-spriteset(set_DFX_engineH, "src/Locomotive/DFX/DFX.png"){
+spriteset(set_DFX_engineH, "src/locomotive/DFX/DFX.png"){
     engine(80, 0)
 }
 
-spriteset(set_DFX_engineT, "src/Locomotive/DFX/DFX.png"){
+spriteset(set_DFX_engineT, "src/locomotive/DFX/DFX.png"){
     engine_r(80, 27)
 }
 

@@ -1,69 +1,69 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_CNR_Changchun_purchase, "src/Metro/MTR/CNR_Changchun/CNR_Changchun.png"){
+spriteset(set_CNR_Changchun_purchase, "src/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. CNR Changchun
 --------------------------------------------------------------------*/
-spriteset(set_CNR_ChangchunH_purchase, "src/Metro/MTR/CNR_Changchun/CNR_Changchun.png"){
+spriteset(set_CNR_ChangchunH_purchase, "src/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_CNR_Changchun_engineH, "src/Metro/MTR/CNR_Changchun/CNR_Changchun.png"){
+spriteset(set_CNR_Changchun_engineH, "src/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
     engine(80, 0)
 }
 
-spriteset(set_NR_Changchun_panto_wagon, "src/Metro/MTR/CNR_Changchun/CNR_Changchun.png"){
+spriteset(set_NR_Changchun_panto_wagon, "src/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_CNR_Changchun_wagon, "src/Metro/MTR/CNR_Changchun/CNR_Changchun.png") {
+spriteset(set_CNR_Changchun_wagon, "src/metro/MTR/CNR_Changchun/CNR_Changchun.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_CNR_Changchun_wagon_r, "src/Metro/MTR/CNR_Changchun/CNR_Changchun.png") {
+spriteset(set_CNR_Changchun_wagon_r, "src/metro/MTR/CNR_Changchun/CNR_Changchun.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_CNR_Changchun_panto_wagon_r, "src/Metro/MTR/CNR_Changchun/CNR_Changchun.png"){
+spriteset(set_CNR_Changchun_panto_wagon_r, "src/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_CNR_Changchun_engineT, "src/Metro/MTR/CNR_Changchun/CNR_Changchun.png"){
+spriteset(set_CNR_Changchun_engineT, "src/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
     engine_r(80, 108)
 }
 
 /*--------------------------------------------------------------------
 2. CNR Changchun South Island Line
 --------------------------------------------------------------------*/
-spriteset(set_CNR_Changchun_South_IslandH_purchase, "src/Metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
+spriteset(set_CNR_Changchun_South_IslandH_purchase, "src/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_CNR_Changchun_South_Island_engineH, "src/Metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
+spriteset(set_CNR_Changchun_South_Island_engineH, "src/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
     engine(80, 0)
 }
 
-spriteset(set_CNR_Changchun_South_Island_panto_wagon, "src/Metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
+spriteset(set_CNR_Changchun_South_Island_panto_wagon, "src/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_CNR_Changchun_South_Island_wagon, "src/Metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png") {
+spriteset(set_CNR_Changchun_South_Island_wagon, "src/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_CNR_Changchun_South_Island_wagon_r, "src/Metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png") {
+spriteset(set_CNR_Changchun_South_Island_wagon_r, "src/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_CNR_Changchun_South_Island_panto_wagon_r, "src/Metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
+spriteset(set_CNR_Changchun_South_Island_panto_wagon_r, "src/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_CNR_Changchun_South_Island_engineT, "src/Metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
+spriteset(set_CNR_Changchun_South_Island_engineT, "src/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
     engine_r(80, 108)
 }
 

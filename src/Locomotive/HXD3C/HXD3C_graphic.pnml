@@ -1,11 +1,11 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_HXD3C_purchase, "src/Locomotive/HXD3C/HXD3C.png"){
+spriteset(set_HXD3C_purchase, "src/locomotive/HXD3C/HXD3C.png"){
     tmpl_single_purchase(0, 0)
 }
 
-spriteset(set_HXD3C_engine, "src/Locomotive/HXD3C/HXD3C.png"){
+spriteset(set_HXD3C_engine, "src/locomotive/HXD3C/HXD3C.png"){
     engine(80, 0)
 }
 

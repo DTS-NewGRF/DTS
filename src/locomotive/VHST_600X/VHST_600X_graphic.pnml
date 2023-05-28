@@ -1,27 +1,27 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_VHST_600X_purchase, "src/Locomotive/VHST_600X/VHST_600X.png"){
+spriteset(set_VHST_600X_purchase, "src/locomotive/VHST_600X/VHST_600X.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_VHST_600XH_purchase, "src/Locomotive/VHST_600X/VHST_600X.png"){
+spriteset(set_VHST_600XH_purchase, "src/locomotive/VHST_600X/VHST_600X.png"){
     tmpl_purchase_for_dualhead(0, 54)
 }
 
-spriteset(set_VHST_600X_engineH, "src/Locomotive/VHST_600X/VHST_600X.png"){
+spriteset(set_VHST_600X_engineH, "src/locomotive/VHST_600X/VHST_600X.png"){
     engine(80, 0)
 }
 
-spriteset(set_VHST_600X_wagon, "src/Locomotive/VHST_600X/VHST_600X.png") {
+spriteset(set_VHST_600X_wagon, "src/locomotive/VHST_600X/VHST_600X.png") {
     wagon_1F(80, 27)
 }
 
-spriteset(set_VHST_600X_wagon_r, "src/Locomotive/VHST_600X/VHST_600X.png") {
+spriteset(set_VHST_600X_wagon_r, "src/locomotive/VHST_600X/VHST_600X.png") {
     wagon_1F_r(80, 27)
 }
 
-spriteset(set_VHST_600X_engineT, "src/Locomotive/VHST_600X/VHST_600X.png"){
+spriteset(set_VHST_600X_engineT, "src/locomotive/VHST_600X/VHST_600X.png"){
     engine_r(80, 54)
 }
 

@@ -1,193 +1,193 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_CR400_purchase, "src/Locomotive/CR400/CR400AF.png"){
+spriteset(set_CR400_purchase, "src/locomotive/CR400/CR400AF.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. CR400AF A·B·G
 --------------------------------------------------------------------*/
-spriteset(set_CR400AFH_purchase, "src/Locomotive/CR400/CR400AF.png"){
+spriteset(set_CR400AFH_purchase, "src/locomotive/CR400/CR400AF.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_CR400AF_engineH, "src/Locomotive/CR400/CR400AF.png"){
+spriteset(set_CR400AF_engineH, "src/locomotive/CR400/CR400AF.png"){
     engine(80, 0)
 }
 
-spriteset(set_CR400AF_panto_wagon, "src/Locomotive/CR400/CR400AF.png"){
+spriteset(set_CR400AF_panto_wagon, "src/locomotive/CR400/CR400AF.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_CR400AF_wagon, "src/Locomotive/CR400/CR400AF.png") {
+spriteset(set_CR400AF_wagon, "src/locomotive/CR400/CR400AF.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_CR400AF_wagon_r, "src/Locomotive/CR400/CR400AF.png") {
+spriteset(set_CR400AF_wagon_r, "src/locomotive/CR400/CR400AF.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_CR400AF_panto_wagon_r, "src/Locomotive/CR400/CR400AF.png"){
+spriteset(set_CR400AF_panto_wagon_r, "src/locomotive/CR400/CR400AF.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_CR400AF_engineT, "src/Locomotive/CR400/CR400AF.png"){
+spriteset(set_CR400AF_engineT, "src/locomotive/CR400/CR400AF.png"){
     engine_r(80, 108)
 }
 
 /*--------------------------------------------------------------------
 2. CR400AF Z·BZ·C
 --------------------------------------------------------------------*/
-spriteset(set_CR400AF_ZH_purchase, "src/Locomotive/CR400/CR400AF_Z.png"){
+spriteset(set_CR400AF_ZH_purchase, "src/locomotive/CR400/CR400AF_Z.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_CR400AF_Z_engineH, "src/Locomotive/CR400/CR400AF_Z.png"){
+spriteset(set_CR400AF_Z_engineH, "src/locomotive/CR400/CR400AF_Z.png"){
     engine(80, 0)
 }
 
-spriteset(set_CR400AF_Z_panto_wagon, "src/Locomotive/CR400/CR400AF_Z.png"){
+spriteset(set_CR400AF_Z_panto_wagon, "src/locomotive/CR400/CR400AF_Z.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_CR400AF_Z_wagon, "src/Locomotive/CR400/CR400AF_Z.png") {
+spriteset(set_CR400AF_Z_wagon, "src/locomotive/CR400/CR400AF_Z.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_CR400AF_Z_wagon_r, "src/Locomotive/CR400/CR400AF_Z.png") {
+spriteset(set_CR400AF_Z_wagon_r, "src/locomotive/CR400/CR400AF_Z.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_CR400AF_Z_panto_wagon_r, "src/Locomotive/CR400/CR400AF_Z.png"){
+spriteset(set_CR400AF_Z_panto_wagon_r, "src/locomotive/CR400/CR400AF_Z.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_CR400AF_Z_engineT, "src/Locomotive/CR400/CR400AF_Z.png"){
+spriteset(set_CR400AF_Z_engineT, "src/locomotive/CR400/CR400AF_Z.png"){
     engine_r(80, 108)
 }
 
 /*--------------------------------------------------------------------
 3. CR400BF A·B·G
 --------------------------------------------------------------------*/
-spriteset(set_CR400BFH_purchase, "src/Locomotive/CR400/CR400BF.png"){
+spriteset(set_CR400BFH_purchase, "src/locomotive/CR400/CR400BF.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_CR400BF_engineH, "src/Locomotive/CR400/CR400BF.png"){
+spriteset(set_CR400BF_engineH, "src/locomotive/CR400/CR400BF.png"){
     engine(80, 0)
 }
 
-spriteset(set_CR400BF_panto_wagon, "src/Locomotive/CR400/CR400BF.png"){
+spriteset(set_CR400BF_panto_wagon, "src/locomotive/CR400/CR400BF.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_CR400BF_wagon, "src/Locomotive/CR400/CR400BF.png") {
+spriteset(set_CR400BF_wagon, "src/locomotive/CR400/CR400BF.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_CR400BF_wagon_r, "src/Locomotive/CR400/CR400BF.png") {
+spriteset(set_CR400BF_wagon_r, "src/locomotive/CR400/CR400BF.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_CR400BF_panto_wagon_r, "src/Locomotive/CR400/CR400BF.png"){
+spriteset(set_CR400BF_panto_wagon_r, "src/locomotive/CR400/CR400BF.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_CR400BF_engineT, "src/Locomotive/CR400/CR400BF.png"){
+spriteset(set_CR400BF_engineT, "src/locomotive/CR400/CR400BF.png"){
     engine_r(80, 108)
 }
 
 /*--------------------------------------------------------------------
 4. CR400BF C
 --------------------------------------------------------------------*/
-spriteset(set_CR400BF_CH_purchase, "src/Locomotive/CR400/CR400BF_C.png"){
+spriteset(set_CR400BF_CH_purchase, "src/locomotive/CR400/CR400BF_C.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_CR400BF_C_engineH, "src/Locomotive/CR400/CR400BF_C.png"){
+spriteset(set_CR400BF_C_engineH, "src/locomotive/CR400/CR400BF_C.png"){
     engine(80, 0)
 }
 
-spriteset(set_CR400BF_C_panto_wagon, "src/Locomotive/CR400/CR400BF_C.png"){
+spriteset(set_CR400BF_C_panto_wagon, "src/locomotive/CR400/CR400BF_C.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_CR400BF_C_wagon, "src/Locomotive/CR400/CR400BF_C.png") {
+spriteset(set_CR400BF_C_wagon, "src/locomotive/CR400/CR400BF_C.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_CR400BF_C_wagon_r, "src/Locomotive/CR400/CR400BF_C.png") {
+spriteset(set_CR400BF_C_wagon_r, "src/locomotive/CR400/CR400BF_C.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_CR400BF_C_panto_wagon_r, "src/Locomotive/CR400/CR400BF_C.png"){
+spriteset(set_CR400BF_C_panto_wagon_r, "src/locomotive/CR400/CR400BF_C.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_CR400BF_C_engineT, "src/Locomotive/CR400/CR400BF_C.png"){
+spriteset(set_CR400BF_C_engineT, "src/locomotive/CR400/CR400BF_C.png"){
     engine_r(80, 108)
 }
 
 /*--------------------------------------------------------------------
 5. CR400BF C Olympics
 --------------------------------------------------------------------*/
-spriteset(set_CR400BF_C_OH_purchase, "src/Locomotive/CR400/CR400BF_C_O.png"){
+spriteset(set_CR400BF_C_OH_purchase, "src/locomotive/CR400/CR400BF_C_O.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_CR400BF_C_O_engineH, "src/Locomotive/CR400/CR400BF_C_O.png"){
+spriteset(set_CR400BF_C_O_engineH, "src/locomotive/CR400/CR400BF_C_O.png"){
     engine(80, 0)
 }
 
-spriteset(set_CR400BF_C_O_panto_wagon, "src/Locomotive/CR400/CR400BF_C_O.png"){
+spriteset(set_CR400BF_C_O_panto_wagon, "src/locomotive/CR400/CR400BF_C_O.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_CR400BF_C_O_wagon, "src/Locomotive/CR400/CR400BF_C_O.png") {
+spriteset(set_CR400BF_C_O_wagon, "src/locomotive/CR400/CR400BF_C_O.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_CR400BF_C_O_wagon_r, "src/Locomotive/CR400/CR400BF_C_O.png") {
+spriteset(set_CR400BF_C_O_wagon_r, "src/locomotive/CR400/CR400BF_C_O.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_CR400BF_C_O_panto_wagon_r, "src/Locomotive/CR400/CR400BF_C_O.png"){
+spriteset(set_CR400BF_C_O_panto_wagon_r, "src/locomotive/CR400/CR400BF_C_O.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_CR400BF_C_O_engineT, "src/Locomotive/CR400/CR400BF_C_O.png"){
+spriteset(set_CR400BF_C_O_engineT, "src/locomotive/CR400/CR400BF_C_O.png"){
     engine_r(80, 108)
 }
 
 /*--------------------------------------------------------------------
 6. CR400BF Z·BZ·GZ
 --------------------------------------------------------------------*/
-spriteset(set_CR400BF_ZH_purchase, "src/Locomotive/CR400/CR400BF_Z.png"){
+spriteset(set_CR400BF_ZH_purchase, "src/locomotive/CR400/CR400BF_Z.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_CR400BF_Z_engineH, "src/Locomotive/CR400/CR400BF_Z.png"){
+spriteset(set_CR400BF_Z_engineH, "src/locomotive/CR400/CR400BF_Z.png"){
     engine(80, 0)
 }
 
-spriteset(set_CR400BF_Z_panto_wagon, "src/Locomotive/CR400/CR400BF_Z.png"){
+spriteset(set_CR400BF_Z_panto_wagon, "src/locomotive/CR400/CR400BF_Z.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_CR400BF_Z_wagon, "src/Locomotive/CR400/CR400BF_Z.png") {
+spriteset(set_CR400BF_Z_wagon, "src/locomotive/CR400/CR400BF_Z.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_CR400BF_Z_wagon_r, "src/Locomotive/CR400/CR400BF_Z.png") {
+spriteset(set_CR400BF_Z_wagon_r, "src/locomotive/CR400/CR400BF_Z.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_CR400BF_Z_panto_wagon_r, "src/Locomotive/CR400/CR400BF_Z.png"){
+spriteset(set_CR400BF_Z_panto_wagon_r, "src/locomotive/CR400/CR400BF_Z.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_CR400BF_Z_engineT, "src/Locomotive/CR400/CR400BF_Z.png"){
+spriteset(set_CR400BF_Z_engineT, "src/locomotive/CR400/CR400BF_Z.png"){
     engine_r(80, 108)
 }
 

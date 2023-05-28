@@ -1,34 +1,34 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_EMU150_DD_purchase, "src/Locomotive/EMU150_DD/EMU150_DD.png"){
+spriteset(set_EMU150_DD_purchase, "src/locomotive/EMU150_DD/EMU150_DD.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 EMU-150 DD
 --------------------------------------------------------------------*/
-spriteset(set_EMU150_DDH_purchase, "src/Locomotive/EMU150_DD/EMU150_DD.png"){
+spriteset(set_EMU150_DDH_purchase, "src/locomotive/EMU150_DD/EMU150_DD.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_EMU150_DD_engineH, "src/Locomotive/EMU150_DD/EMU150_DD.png"){
+spriteset(set_EMU150_DD_engineH, "src/locomotive/EMU150_DD/EMU150_DD.png"){
     engine(80, 0)
 }
 
-spriteset(set_EMU150_DD_panto_wagon, "src/Locomotive/EMU150_DD/EMU150_DD.png"){
+spriteset(set_EMU150_DD_panto_wagon, "src/locomotive/EMU150_DD/EMU150_DD.png"){
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_EMU150_DD_wagon, "src/Locomotive/EMU150_DD/EMU150_DD.png") {
+spriteset(set_EMU150_DD_wagon, "src/locomotive/EMU150_DD/EMU150_DD.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_EMU150_DD_panto_wagon_r, "src/Locomotive/EMU150_DD/EMU150_DD.png"){
+spriteset(set_EMU150_DD_panto_wagon_r, "src/locomotive/EMU150_DD/EMU150_DD.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_EMU150_DD_engineT, "src/Locomotive/EMU150_DD/EMU150_DD.png"){
+spriteset(set_EMU150_DD_engineT, "src/locomotive/EMU150_DD/EMU150_DD.png"){
     engine_r(80, 108)
 }
 

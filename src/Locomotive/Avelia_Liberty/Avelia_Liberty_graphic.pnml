@@ -1,27 +1,27 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Avelia_Liberty_purchase, "src/Locomotive/Avelia_Liberty/Avelia_Liberty.png"){
+spriteset(set_Avelia_Liberty_purchase, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_Avelia_LibertyH_purchase, "src/Locomotive/Avelia_Liberty/Avelia_Liberty.png"){
+spriteset(set_Avelia_LibertyH_purchase, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
     tmpl_purchase_for_dualhead(0, 54)
 }
 
-spriteset(set_Avelia_Liberty_engineH, "src/Locomotive/Avelia_Liberty/Avelia_Liberty.png"){
+spriteset(set_Avelia_Liberty_engineH, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
     engine(80, 0)
 }
 
-spriteset(set_Avelia_Liberty_wagon, "src/Locomotive/Avelia_Liberty/Avelia_Liberty.png") {
+spriteset(set_Avelia_Liberty_wagon, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png") {
     wagon_1F(80, 27)
 }
 
-spriteset(set_Avelia_Liberty_wagon_r, "src/Locomotive/Avelia_Liberty/Avelia_Liberty.png") {
+spriteset(set_Avelia_Liberty_wagon_r, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png") {
     wagon_1F_r(80, 27)
 }
 
-spriteset(set_Avelia_Liberty_engineT, "src/Locomotive/Avelia_Liberty/Avelia_Liberty.png"){
+spriteset(set_Avelia_Liberty_engineT, "src/locomotive/Avelia_Liberty/Avelia_Liberty.png"){
     engine_r(80, 54)
 }
 

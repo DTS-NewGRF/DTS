@@ -1,15 +1,15 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_CGeneratar_Car_purchase, "src/Wagon/CGeneratar_Car/CGeneratar_Car.png"){
+spriteset(set_CGeneratar_Car_purchase, "src/wagon/CGeneratar_Car/CGeneratar_Car.png"){
     tmpl_wagon_purchase(0, 0)
 }
 
-spriteset(set_CGeneratar_Car_White, "src/Wagon/CGeneratar_Car/CGeneratar_Car.png") {
+spriteset(set_CGeneratar_Car_White, "src/wagon/CGeneratar_Car/CGeneratar_Car.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_CGeneratar_Car_Green, "src/Wagon/CGeneratar_Car/CGeneratar_Car.png") {
+spriteset(set_CGeneratar_Car_Green, "src/wagon/CGeneratar_Car/CGeneratar_Car.png") {
     wagon_1F_F(80, 27)
 }
 
