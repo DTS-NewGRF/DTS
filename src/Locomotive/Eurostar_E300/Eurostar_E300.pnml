@@ -63,7 +63,7 @@ item(FEAT_TRAINS, Eurostar_E300, 2022){
         additional_text:                string(STR_REFIT_ADDITIONAL_Eurostar_E300);
         }
     
-    livery_override(DTS_Passenger_Car) {
+    livery_override(DTS_EPassenger_Car) {
         default:                        sw_Eurostar_E300_wagon;
         cargo_subtype_text:             sw_Eurostar_E300_cargo_subtype_text;
         cargo_capacity:                 58;

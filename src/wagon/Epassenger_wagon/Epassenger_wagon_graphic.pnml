@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Epassenger_wagon_purchase, "src/wagon/Epassenger_wagon/Epassenger_wagon.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. 공통객차
+--------------------------------------------------------------------*/
+spriteset(set_Epassenger_wagon, "src/wagon/Epassenger_wagon/Epassenger_wagon.png") {
+    wagon_1F(80, 0)
+}
+
+spriteset(set_Epassenger_wagon_r, "src/wagon/Epassenger_wagon/Epassenger_wagon.png") {
+    wagon_1F_r(80, 0)
+}

@@ -10,7 +10,7 @@ MTR CRRC Sipang
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, AD_Tranz_CAF_A, 2001){
+item(FEAT_TRAINS, AD_Tranz_CAF_A, 2060){
     property {
         name:                           string(STR_AD_Tranz_CAF_A_NAME);
         climates_available:             ALL_CLIMATES;
@@ -58,11 +58,11 @@ item(FEAT_TRAINS, AD_Tranz_CAF_A, 2001){
         running_cost_factor:            150;
         can_attach_wagon:               sw_AD_Tranz_CAF_A_wagon_attach;
         cargo_subtype_text:             sw_AD_Tranz_CAF_A_cargo_subtype_text;
-        start_stop:                     sw_DST_train_start_stop_3;
+        start_stop:                     sw_DTS_Ctrain_start_stop_3;
         additional_text:                string(STR_REFIT_ADDITIONAL_AD_Tranz_CAF_A);
         }
 
-    livery_override(DTS_Passenger_Car) {
+    livery_override(DTS_CPassenger_Car) {
         default:                        sw_AD_Tranz_CAF_A_wagon;
         cargo_subtype_text:             sw_AD_Tranz_CAF_A_cargo_subtype_text;
         cargo_capacity:                 80;

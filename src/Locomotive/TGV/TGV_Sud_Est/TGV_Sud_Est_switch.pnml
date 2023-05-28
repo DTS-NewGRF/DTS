@@ -79,7 +79,7 @@ switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon, [STORE_TEMP(-1, 0x10F), var[0x61
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_attach, vehicle_type_id) {
-    TGV_Sud_Est:                return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    TGV_Sud_Est:             return CB_RESULT_ATTACH_ALLOW;
+    DTS_EPassenger_Car:      return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

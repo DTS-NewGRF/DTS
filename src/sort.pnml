@@ -3,7 +3,7 @@
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
     //지하철
-    AD_Tranz_CAF_A,            //2001
+    AD_Tranz_CAF_A,            //2060
     AUTS,                      //2004
     Cammall_AC,                //2008
     Cammall_DC,                //2009
@@ -39,7 +39,7 @@ sort(FEAT_TRAINS, [
     ICE2,                      //2050
 
     //고속열차 331
-    AGV,                       //2002
+    AGV,                       //2061
     Avelia_Liberty,            //2005
     CR400,                     //2011
     CRH380A,                   //2013
@@ -77,6 +77,8 @@ sort(FEAT_TRAINS, [
     
     // Wagon
     DTS_Passenger_Car,         //2000
+    DTS_CPassenger_Car,        //2001
+    DTS_EPassenger_Car,        //2002
     DTS_ESPassenger_Car,       //2007    
     DTS_CSPassenger_Car,       //2043    
     DTS_KSPassenger_Car,       //2044

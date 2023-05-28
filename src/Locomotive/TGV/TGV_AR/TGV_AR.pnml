@@ -62,7 +62,7 @@ item(FEAT_TRAINS, TGV_AR, 1044){
         additional_text:                string(STR_REFIT_ADDITIONAL_TGV_AR);
         }
 
-    livery_override(DTS_Passenger_Car) {
+    livery_override(DTS_EPassenger_Car) {
         default:                        sw_TGV_AR_wagon;
         cargo_subtype_text:             sw_TGV_AR_cargo_subtype_text;
         weight:                         37;

@@ -58,7 +58,7 @@ item(FEAT_TRAINS, ICE1, 2049){
         additional_text:                string(STR_REFIT_ADDITIONAL_ICE1);
         }
 
-    livery_override(DTS_Passenger_Car) {
+    livery_override(DTS_EPassenger_Car) {
         default:                        sw_ICE1_wagon;
         cargo_capacity:                 74;
         loading_speed:                  25;

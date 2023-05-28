@@ -23,6 +23,6 @@ switch(FEAT_TRAINS, SELF, sw_CRH380D_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0,
 
 switch(FEAT_TRAINS, SELF, sw_CRH380D_wagon_attach, vehicle_type_id) {
     CRH380D:                 return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
+    DTS_CPassenger_Car:      return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

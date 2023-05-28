@@ -59,7 +59,7 @@ item(FEAT_TRAINS, CRH380C, 1109){
         additional_text:                string(STR_REFIT_ADDITIONAL_CRH380C);
         }
         
-    livery_override(DTS_Passenger_Car) {
+    livery_override(DTS_CPassenger_Car) {
         default:                        sw_CRH380C_wagon;
         cargo_capacity:                 50;
         loading_speed:                  25;

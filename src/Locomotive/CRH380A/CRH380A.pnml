@@ -61,7 +61,7 @@ item(FEAT_TRAINS, CRH380A, 2013){
         additional_text:                string(STR_REFIT_ADDITIONAL_CRH380A);
         }
         
-    livery_override(DTS_Passenger_Car) {
+    livery_override(DTS_CPassenger_Car) {
         default:                        sw_CRH380A_wagon;
         cargo_subtype_text:             sw_CRH380A_cargo_subtype_text;
         cargo_capacity:                 85;

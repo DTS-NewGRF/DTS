@@ -63,7 +63,7 @@ item(FEAT_TRAINS, Renfe_S_100, 1038){
         additional_text:                string(STR_REFIT_ADDITIONAL_Renfe_S_100);
         }
         
-    livery_override(DTS_Passenger_Car) {
+    livery_override(DTS_EPassenger_Car) {
         default:                        sw_Renfe_S_100_wagon;
         cargo_subtype_text:             sw_Renfe_S_100_cargo_subtype_text;
         cargo_capacity:                 85;

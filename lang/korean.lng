@@ -113,6 +113,8 @@ STR_Standard_Metro_NAME                             :[임시추가] 한국형 �
 
 # wagon's name
 STR_DTS_PASS_NAME                                   :[DTS] 승객 차량
+STR_DTS_CPASS_NAME                                  :[DTS] 중국 승객 차량
+STR_DTS_EPASS_NAME                                  :[DTS] 유럽 승객 차량
 STR_DTS_ESPASS_NAME                                 :[DTS] 유럽 객차형 승객 차량
 STR_DTS_CSPASS_NAME                                 :[DTS] 중국 객차형 승객 차량
 STR_DTS_KSPASS_NAME                                 :[DTS] 한국 객차형 승객 차량
@@ -255,6 +257,8 @@ STR_REFIT_ADDITIONAL_THSR_700T                      :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_Talgo_350_SRO                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 
 STR_REFIT_train_configuration_Passenger             :{BLACK}열차구성: {GREEN}승객 차량용
+STR_REFIT_train_configuration_CPassenger            :{BLACK}열차구성: {GREEN}중국 승객 차량용
+STR_REFIT_train_configuration_EPassenger            :{BLACK}열차구성: {GREEN}유럽 승객 차량용
 STR_REFIT_train_configuration_ESPassenger           :{BLACK}열차구성: {GREEN}유럽 객차형 승객 차량용
 STR_REFIT_train_configuration_CSPassenger           :{BLACK}열차구성: {GREEN}중국 객차형 승객 차량용
 STR_REFIT_train_configuration_KSPassenger           :{BLACK}열차구성: {GREEN}중국 객차형 승객 차량용
@@ -462,5 +466,5 @@ STR_REFIT_LIVERY_Standard_Metro_Cross_Seat          :(크로스 시트)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다
-STR_ERROR_NOT_ENOUGH_LENGTH4                        :열차 길이가 너무 짧습니다. 최소한 4량 이상을 연결해야 합니다.
+STR_ERROR_NOT_ENOUGH_LENGTH3                        :열차 길이가 너무 짧습니다. 최소한 3량 이상을 연결해야 합니다.
 STR_ERROR_NOT_ENOUGH_LENGTH6                        :열차 길이가 너무 짧습니다. 최소한 6량 이상을 연결해야 합니다.

@@ -1,5 +1,7 @@
 //wagon
 #include "wagon/Passenger_wagon/passenger_wagon.pnml"
+#include "wagon/Cpassenger_wagon/Cpassenger_wagon.pnml"
+#include "wagon/Epassenger_wagon/Epassenger_wagon.pnml"
 #include "wagon/ESPassenger_wagon/ESPassenger_wagon.pnml"
 #include "wagon/CSPassenger_wagon/CSPassenger_wagon.pnml"
 #include "wagon/KSPassenger_wagon/KSPassenger_wagon.pnml"
@@ -145,7 +147,7 @@ if (Chinese) {
     }
 
 if (Hong_Kong) {
-    disable_item(FEAT_TRAINS, 2001); //AD_Tranz_CAF_A
+    disable_item(FEAT_TRAINS, 2060); //AD_Tranz_CAF_A
     disable_item(FEAT_TRAINS, 2008); //Cammall_AC
     disable_item(FEAT_TRAINS, 2009); //Cammall_DC
     disable_item(FEAT_TRAINS, 2010); //CNR_Changchun
@@ -155,7 +157,7 @@ if (Hong_Kong) {
     }
 
 if (European) {
-    disable_item(FEAT_TRAINS, 2002); //AGV
+    disable_item(FEAT_TRAINS, 2061); //AGV
     disable_item(FEAT_TRAINS, 2006); //BB15000
     disable_item(FEAT_TRAINS, 2007); //DTS_ESPassenger_Car
     disable_item(FEAT_TRAINS, 2022); //Eurostar_E300

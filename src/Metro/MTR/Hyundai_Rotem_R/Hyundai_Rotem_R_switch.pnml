@@ -37,7 +37,7 @@ switch(FEAT_TRAINS, SELF, sw_Hyundai_Rotem_R_wagon, [STORE_TEMP(-1, 0x10F), var[
 }
 
 switch(FEAT_TRAINS, SELF, sw_Hyundai_Rotem_R_wagon_attach, vehicle_type_id) {
-    Hyundai_Rotem_R:        return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    Hyundai_Rotem_R:         return CB_RESULT_ATTACH_ALLOW;
+    DTS_CPassenger_Car:      return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }
