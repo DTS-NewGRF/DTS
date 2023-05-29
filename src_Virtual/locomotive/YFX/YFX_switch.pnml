@@ -1,0 +1,13 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_YFX_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: set_YFX_engineT;
+    set_YFX_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_YFX_wagon_attach, vehicle_type_id) {
+    YFX:    return CB_RESULT_ATTACH_ALLOW;
+    YFXF:   return CB_RESULT_ATTACH_ALLOW;
+   return string(STR_ERROR_NO_ATTACH);
+}
