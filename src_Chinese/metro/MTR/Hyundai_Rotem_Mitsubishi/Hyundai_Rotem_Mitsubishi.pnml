@@ -10,7 +10,7 @@ MTR Rotem Mitsubishi
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Hyundai_Rotem_Mitsubishi, 1028){
+item(FEAT_TRAINS, Hyundai_Rotem_Mitsubishi, 2057){
     property {
         name:                           string(STR_MTR_Hyundai_Rotem_Mitsubishi_NAME);
         climates_available:             ALL_CLIMATES;
@@ -52,6 +52,7 @@ item(FEAT_TRAINS, Hyundai_Rotem_Mitsubishi, 1028){
 	graphics {
         default:                        sw_MTR_Hyundai_Rotem_Mitsubishi_engine;
         purchase:                       sw_MTR_Hyundai_Rotem_Mitsubishi_purchase;
+        speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

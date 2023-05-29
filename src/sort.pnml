@@ -5,6 +5,14 @@ sort(FEAT_TRAINS, [
     //지하철
     Standard_Metro,            //2006
     AUTS,                      //2007
+    AD_Tranz_CAF_A,            //2052
+    MTR_AC_Cammall,            //2053
+    MTR_DC_Cammall,            //2054
+    MTR_CNR_Changchun,         //2055
+    MTR_CRRC,                  //2056
+    Hyundai_Rotem_Mitsubishi,  //2057
+    Hyundai_Rotem_R,           //2058
+    IKK_SP_1900,               //2059
 
     //통근열차
     H2_WJ,                     //2008
@@ -18,6 +26,8 @@ sort(FEAT_TRAINS, [
     GT26CW,                    //2014
     DEL7600,                   //2015
     Travel_8500,               //2016
+    HXD3C,                     //2050
+    NJ2,                       //2051
 
     //준고속 180
     GTX,                       //2017
@@ -27,6 +37,9 @@ sort(FEAT_TRAINS, [
     //준고속 260
     EMU260,                    //2020
     EMU260_DD,                 //2021
+    CRH1,                      //2034
+    CRH1E,                     //2035
+    CRH1A_A,                   //2036
 
     //고속열차 331
     EMU320,                    //2022
@@ -35,12 +48,25 @@ sort(FEAT_TRAINS, [
     KTX_SC2,                   //2025
     CTX,                       //2026
     HSR_350X,                  //2027
+    CRH2,                      //2037
+    CRH2C,                     //2038
+    CRH3,                      //2039
+    CRH380A,                   //2040
+    CRH380B,                   //2041
+    CRH380C,                   //2042
+    CRH380D,                   //2043
 
     //고속열차 430
     HEMU_430X,                 //2028
+    CR400AF,                   //2045
+    CR400AF_Z,                 //2046
+    CR400BF,                   //2047
+    CR400BF_C,                 //2048
+    CR400BF_Z,                 //2049
 
     //고속열차 600
     VHST_600X,                 //2029
+    CRH380AJ,                  //2044
 
     //객차
     KTS_Passenger_Car,         //2001

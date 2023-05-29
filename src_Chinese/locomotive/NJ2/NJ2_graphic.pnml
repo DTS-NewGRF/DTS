@@ -1,11 +1,11 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_NJ2_purchase, "src/locomotive/NJ2/NJ2.png"){
+spriteset(set_NJ2_purchase, "src_Chinese/locomotive/NJ2/NJ2.png"){
     tmpl_single_purchase(0, 0)
 }
 
-spriteset(set_NJ2_engine, "src/locomotive/NJ2/NJ2.png"){
+spriteset(set_NJ2_engine, "src_Chinese/locomotive/NJ2/NJ2.png"){
     engine(80, 0)
 }
 

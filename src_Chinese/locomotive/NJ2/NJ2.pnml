@@ -10,7 +10,7 @@ NJ2
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, NJ2, 1022){
+item(FEAT_TRAINS, NJ2, 2051){
     property {
         name:                           string(STR_NJ2_NAME);
         climates_available:             ALL_CLIMATES;

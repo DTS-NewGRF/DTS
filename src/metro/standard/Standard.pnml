@@ -52,6 +52,7 @@ item(FEAT_TRAINS, Standard_Metro, 2006){
 	graphics {
         default:                        sw_Standard_Metro_engine;
         purchase:                       sw_Standard_Metro_purchase;
+        speed:                          Metro_Speed_Train;
         cargo_capacity:                 sw_Standard_Metro_engine_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;

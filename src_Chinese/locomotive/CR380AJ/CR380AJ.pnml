@@ -10,7 +10,7 @@ CRH380A Test
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CRH380AJ, 1019){
+item(FEAT_TRAINS, CRH380AJ, 2044){
     property {
         name:                           string(STR_CRH380AJ_NAME);
         climates_available:             ALL_CLIMATES;
@@ -54,7 +54,6 @@ item(FEAT_TRAINS, CRH380AJ, 1019){
         cost_factor:                    10;
         running_cost_factor:            150;
         can_attach_wagon:               sw_CRH380AJ_wagon_attach;
-        start_stop:                     sw_CTS_train_start_stop_6;
         additional_text:                string(STR_REFIT_ADDITIONAL_CRH380AJ);
         }
         

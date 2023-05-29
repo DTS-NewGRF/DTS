@@ -51,4 +51,33 @@ if (Chinese) {
     disable_item(FEAT_TRAINS, 2031); //CTS_SPassenger_Car
     disable_item(FEAT_TRAINS, 2032); //CGeneratar_Car
     disable_item(FEAT_TRAINS, 2033); //CLuggage_Car
+    disable_item(FEAT_TRAINS, 2034); //CRH1
+    disable_item(FEAT_TRAINS, 2035); //CRH1E
+    disable_item(FEAT_TRAINS, 2036); //CRH1A_A
+    disable_item(FEAT_TRAINS, 2037); //CRH2
+    disable_item(FEAT_TRAINS, 2038); //CRH2C
+    disable_item(FEAT_TRAINS, 2039); //CRH3
+    disable_item(FEAT_TRAINS, 2040); //CRH380A
+    disable_item(FEAT_TRAINS, 2041); //CRH380B
+    disable_item(FEAT_TRAINS, 2042); //CRH380C
+    disable_item(FEAT_TRAINS, 2043); //CRH380D
+    disable_item(FEAT_TRAINS, 2044); //CRH380AJ
+    disable_item(FEAT_TRAINS, 2045); //CR400AF
+    disable_item(FEAT_TRAINS, 2046); //CR400AF_Z
+    disable_item(FEAT_TRAINS, 2047); //CR400BF
+    disable_item(FEAT_TRAINS, 2048); //CR400BF_C
+    disable_item(FEAT_TRAINS, 2049); //CR400BF_Z
+    disable_item(FEAT_TRAINS, 2050); //HXD3C
+    disable_item(FEAT_TRAINS, 2051); //NJ2
+    }
+
+if (Hong_Kong) {
+    disable_item(FEAT_TRAINS, 2052); //AD_Tranz_CAF_A
+    disable_item(FEAT_TRAINS, 2053); //MTR_AC_Cammall
+    disable_item(FEAT_TRAINS, 2054); //MTR_DC_Cammall
+    disable_item(FEAT_TRAINS, 2055); //MTR_CNR_Changchun
+    disable_item(FEAT_TRAINS, 2056); //MTR_CRRC
+    disable_item(FEAT_TRAINS, 2057); //Hyundai_Rotem_Mitsubishi
+    disable_item(FEAT_TRAINS, 2058); //Hyundai_Rotem_R
+    disable_item(FEAT_TRAINS, 2059); //IKK_SP_1900
     }

@@ -2,69 +2,69 @@
 구매
 --------------------------------------------------------------------*/
 
-spriteset(set_CR400BF_C_purchase, "src/locomotive/CR400BF_C/CR400BF_C.png"){
+spriteset(set_CR400BF_C_purchase, "src_Chinese/locomotive/CR400BF_C/CR400BF_C.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 Graphics - Original
 --------------------------------------------------------------------*/
-spriteset(set_CR400BF_CH_purchase, "src/locomotive/CR400BF_C/CR400BF_C.png"){
+spriteset(set_CR400BF_CH_purchase, "src_Chinese/locomotive/CR400BF_C/CR400BF_C.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_CR400BF_C_engineH, "src/locomotive/CR400BF_C/CR400BF_C.png"){
+spriteset(set_CR400BF_C_engineH, "src_Chinese/locomotive/CR400BF_C/CR400BF_C.png"){
     engine(80, 0)
 }
 
-spriteset(set_CR400BF_C_wagon_start, "src/locomotive/CR400BF_C/CR400BF_C.png"){
+spriteset(set_CR400BF_C_wagon_start, "src_Chinese/locomotive/CR400BF_C/CR400BF_C.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_CR400BF_C_wagon, "src/locomotive/CR400BF_C/CR400BF_C.png") {
+spriteset(set_CR400BF_C_wagon, "src_Chinese/locomotive/CR400BF_C/CR400BF_C.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_CR400BF_C_wagon_r, "src/locomotive/CR400BF_C/CR400BF_C.png") {
+spriteset(set_CR400BF_C_wagon_r, "src_Chinese/locomotive/CR400BF_C/CR400BF_C.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_CR400BF_C_wagon_end, "src/locomotive/CR400BF_C/CR400BF_C.png"){
+spriteset(set_CR400BF_C_wagon_end, "src_Chinese/locomotive/CR400BF_C/CR400BF_C.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_CR400BF_C_engineT, "src/locomotive/CR400BF_C/CR400BF_C.png"){
+spriteset(set_CR400BF_C_engineT, "src_Chinese/locomotive/CR400BF_C/CR400BF_C.png"){
     engine_r(80, 108)
 }
 
 /*--------------------------------------------------------------------
 Graphics - Olympics
 --------------------------------------------------------------------*/
-spriteset(set_CR400BF_CO_H_purchase, "src/locomotive/CR400BF_C/CR400BF_C_W.png"){
+spriteset(set_CR400BF_CO_H_purchase, "src_Chinese/locomotive/CR400BF_C/CR400BF_C_W.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_CR400BF_CO_engineH, "src/locomotive/CR400BF_C/CR400BF_C_W.png"){
+spriteset(set_CR400BF_CO_engineH, "src_Chinese/locomotive/CR400BF_C/CR400BF_C_W.png"){
     engine(80, 0)
 }
 
-spriteset(set_CR400BF_CO_wagon_start, "src/locomotive/CR400BF_C/CR400BF_C_W.png"){
+spriteset(set_CR400BF_CO_wagon_start, "src_Chinese/locomotive/CR400BF_C/CR400BF_C_W.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_CR400BF_CO_wagon, "src/locomotive/CR400BF_C/CR400BF_C_W.png") {
+spriteset(set_CR400BF_CO_wagon, "src_Chinese/locomotive/CR400BF_C/CR400BF_C_W.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_CR400BF_CO_wagon_r, "src/locomotive/CR400BF_C/CR400BF_C_W.png") {
+spriteset(set_CR400BF_CO_wagon_r, "src_Chinese/locomotive/CR400BF_C/CR400BF_C_W.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_CR400BF_CO_wagon_end, "src/locomotive/CR400BF_C/CR400BF_C_W.png"){
+spriteset(set_CR400BF_CO_wagon_end, "src_Chinese/locomotive/CR400BF_C/CR400BF_C_W.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_CR400BF_CO_engineT, "src/locomotive/CR400BF_C/CR400BF_C_W.png"){
+spriteset(set_CR400BF_CO_engineT, "src_Chinese/locomotive/CR400BF_C/CR400BF_C_W.png"){
     engine_r(80, 108)
 }
 

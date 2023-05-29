@@ -64,3 +64,12 @@ param {
         def_value: 1;
         }
     }
+
+param {
+    Hong_Kong {
+        type: bool;
+        name: string(STR_PARAM_Hong_Kong_NAME);
+        desc: string(STR_PARAM_Hong_Kong_DESC);
+        def_value: 1;
+        }
+    }

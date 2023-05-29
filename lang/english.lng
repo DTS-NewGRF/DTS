@@ -29,10 +29,36 @@ STR_H2_WJ_NAME                                      :[DTS] H2 by WOOJIN
 STR_Travel_8500_NAME                                :[DTS] Travel 8500
 STR_TTX_NAME                                        :[DTS] TTX
 STR_VHST_600X_NAME                                  :[DTS] VHST-600X
+STR_CRH1_NAME                                       :[DTS] CRH1A
+STR_CRH1E_NAME                                      :[DTS] CRH1E
+STR_CRH1A_A_NAME                                    :[DTS] CRH1A-A
+STR_CRH2_NAME                                       :[DTS] CRH2A·B
+STR_CRH2C_NAME                                      :[DTS] CRH2C
+STR_CRH3_NAME                                       :[DTS] CRH3C
+STR_CRH380A_NAME                                    :[DTS] CRH380A·AL
+STR_CRH380AJ_NAME                                   :[DTS] CRH380AJ
+STR_CRH380B_NAME                                    :[DTS] CRH380B·BL·BG
+STR_CRH380C_NAME                                    :[DTS] CRH380CL
+STR_CRH380D_NAME                                    :[DTS] CRH380D
+STR_CR400AF_NAME                                    :[DTS] CR400AF-A·B·G
+STR_CR400AF_Z_NAME                                  :[DTS] CR400AF-Z·BZ·C
+STR_CR400BF_NAME                                    :[DTS] CR400BF-A·B·G
+STR_CR400BF_C_NAME                                  :[DTS] CR400BF-C
+STR_CR400BF_Z_NAME                                  :[DTS] CR400BF-Z·BZ·GZ
+STR_HXD3C_NAME                                      :[DTS] HXD3C
+STR_NJ2_NAME                                        :[DTS] NJ2
 
 # Metro's name
 STR_Standard_Metro_NAME                             :[DTS] Standard Metro
 STR_AUTS_NAME                                       :[DTS] AUTS
+STR_MTR_AD_Tranz_CAF_A_NAME                         :[DTS] MTR AD Tranz CAF A Type
+STR_MTR_AC_Cammall_NAME                             :[DTS] MTR Cammall AC Train
+STR_MTR_DC_Cammall_NAME                             :[DTS] MTR Cammall DC Train
+STR_MTR_CNR_Changchun_NAME                          :[DTS] MTR CNR Changchun Trian
+STR_MTR_CRRC_NAME                                   :[DTS] MTR CRRC Trian
+STR_MTR_Hyundai_Rotem_Mitsubishi_NAME               :[DTS] MTR Hyundai Rotem Mitsubishi Trian
+STR_MTR_Hyundai_Rotem_R_NAME                        :[DTS] MTR Hyundai Rotem R Type Train
+STR_MTR_IKK_SP_1900_NAME                            :[DTS] MTR IKK SP 1900
 
 # wagon's name
 STR_KTS_PASS_NAME                                   :[DTS] Passenger car
@@ -58,6 +84,8 @@ STR_PARAM_High_SPEED_Train_430_NAME                 :High Speed Train Speed (430
 STR_PARAM_High_SPEED_Train_430_DESC                 :Adjust the speed of the high-speed train (Default:430km/h)
 STR_PARAM_Chinese_NAME                              :No Chinese trains allowed.
 STR_PARAM_Chinese_DESC                              :Please check when using Chinese trains. (Default: unused)
+STR_PARAM_Hong_Kong_NAME                            :No Hong Kong trains allowed.
+STR_PARAM_Hong_Kong_DESC                            :Please check when using Hong Kong trains. (Default: unused)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_AREX                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}AREX
@@ -84,6 +112,32 @@ STR_REFIT_ADDITIONAL_TTX                            :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_VHST_600X                      :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}VHST_600X
 STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_CRH1                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1
+STR_REFIT_ADDITIONAL_CRH1E                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1E
+STR_REFIT_ADDITIONAL_CRH1A_A                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1A-A
+STR_REFIT_ADDITIONAL_CRH2                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH2A·B
+STR_REFIT_ADDITIONAL_CRH2C                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH2C
+STR_REFIT_ADDITIONAL_CRH3                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH3C
+STR_REFIT_ADDITIONAL_CRH380A                        :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}CRH380A·AL
+STR_REFIT_ADDITIONAL_CRH380AJ                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_CRH380B                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380B·BL·BG
+STR_REFIT_ADDITIONAL_CRH380C                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380CL
+STR_REFIT_ADDITIONAL_CRH380D                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380D
+STR_REFIT_ADDITIONAL_CR400AF                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CR400AF-A·B·G
+STR_REFIT_ADDITIONAL_CR400AF_Z                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CR400AF-Z·BZ·C
+STR_REFIT_ADDITIONAL_CR400BF                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CR400BF-A·B·G
+STR_REFIT_ADDITIONAL_CR400BF_C                      :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}CR400BF-C
+STR_REFIT_ADDITIONAL_CR400BF_Z                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CR400BF-Z·BZ·GZ
+STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HXD3C
+STR_REFIT_ADDITIONAL_NJ2                            :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}NJ2
+STR_REFIT_ADDITIONAL_MTR_AD_Tranz_CAF_A             :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_Cammall_AC                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_Cammall_DC                 :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_CNR_Changchun              :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_CRRC                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 
 STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
 STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
@@ -147,6 +201,35 @@ STR_REFIT_LIVERY_NRT2_New_ITX                       :(Nuriro DD ITX Livery)
 STR_REFIT_LIVERY_Bicheuro2_R                        :(EMU-150 DD Red Color)
 STR_REFIT_LIVERY_Bicheuro2_G                        :(EMU-150 DD Green Color)
 STR_REFIT_LIVERY_Bicheuro2_W                        :(EMU-150 DD White Color)
+STR_REFIT_LIVERY_Travel_8500_A_train                :(A-Train)
+STR_REFIT_LIVERY_Travel_8500_A_train_New            :(A-Train New Color)
+STR_REFIT_LIVERY_Travel_8500_G_train                :(G-Train)
+STR_REFIT_LIVERY_Travel_8500_G_train_New            :(G-Train New Color)
+STR_REFIT_LIVERY_Travel_8500_S_train                :(S-Train)
+STR_REFIT_LIVERY_Travel_8500_V_train                :(V-Train)
+STR_REFIT_LIVERY_Travel_8500_Haerang_train          :(Haerang)
+STR_REFIT_LIVERY_Travel_8500_Wine_train             :(Wine)
+STR_REFIT_LIVERY_CRH380A                            :(CRH380A)
+STR_REFIT_LIVERY_Vibrant_Express                    :(Vibrant Express)
+STR_REFIT_LIVERY_CR400BF_C                          :(Golden Phoenix Livery)
+STR_REFIT_LIVERY_CR400BF_C_O                        :(Beijing 2022 Winter Olympics Livery)
+
+# Liveries metro
+STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(Long Seat)
+STR_REFIT_LIVERY_Standard_Metro_Cross_Seat          :(Cross Seat)
+STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express :(MTR AD Tranz CAF A Type Airport Express)
+STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung      :(MTR AD Tranz CAF A Type Tung Chung)
+STR_REFIT_LIVERY_MTR_DC_Cammall                     :(no remoding Car)
+STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding            :(remoding Car)
+STR_REFIT_LIVERY_MTR_DC_Cammall_Disney              :(Disney Car)
+STR_REFIT_LIVERY_MTR_CNR_Changchun                  :(MTR CNR Changchun)
+STR_REFIT_LIVERY_MTR_CNR_Changchun_South_Island     :(MTR CNR Changchun South Island)
+STR_REFIT_LIVERY_MTR_CRRC_Changchun                 :(MTR CRRC Changchun Train)
+STR_REFIT_LIVERY_MTR_CRRC_Sipang                    :(MTR CRRC Sipang Train)
+STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_Nomal          :(MTR Hyundai Rotem R Type Nomal)
+STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_special        :(MTR Hyundai Rotem R Type special)
+
+# Liveries wagon
 STR_REFIT_LIVERY_Eco_Rail_Passenger_Car             :(Eco Rail Passenger Car)
 STR_REFIT_LIVERY_CY_GW_Passenger_Car                :(Chungbuk Yeongdong Gugak & Wine Passenger Car)
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car             :(Jeongseon Arirang Old Color)
@@ -168,14 +251,6 @@ STR_REFIT_LIVERY_A_Train_New_Generatar_Car          :(A-Train)
 STR_REFIT_LIVERY_G_Train_New_Generatar_Car          :(G-Train)
 STR_REFIT_LIVERY_Eco_Rail_Luggage_Car               :(Eco Rail Luggage Car)
 STR_REFIT_LIVERY_CY_GW_Luggage_Car                  :(Chungbuk Yeongdong Gugak & Wine Luggage Car)
-STR_REFIT_LIVERY_Travel_8500_A_train                :(A-Train)
-STR_REFIT_LIVERY_Travel_8500_A_train_New            :(A-Train New Color)
-STR_REFIT_LIVERY_Travel_8500_G_train                :(G-Train)
-STR_REFIT_LIVERY_Travel_8500_G_train_New            :(G-Train New Color)
-STR_REFIT_LIVERY_Travel_8500_S_train                :(S-Train)
-STR_REFIT_LIVERY_Travel_8500_V_train                :(V-Train)
-STR_REFIT_LIVERY_Travel_8500_Haerang_train          :(Haerang)
-STR_REFIT_LIVERY_Travel_8500_Wine_train             :(Wine)
 STR_REFIT_LIVERY_SWagon_1F_Red                      :(25 Type 1F Red Color Car)
 STR_REFIT_LIVERY_SWagon_1F_Green                    :(25 Type 1F Green Color Car)
 STR_REFIT_LIVERY_Swagon_1F_White                    :(25 Type 1F White Color Car)
@@ -190,11 +265,7 @@ STR_REFIT_LIVERY_Luggage_Car_Green                  :(Luggage Green Car)
 STR_REFIT_LIVERY_Luggage_Car_WhiteA                 :(Luggage WhiteA Car)
 STR_REFIT_LIVERY_Luggage_Car_WhiteB                 :(Luggage WhiteB Car)
 
-# Liveries metro
-STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(Long Seat)
-STR_REFIT_LIVERY_Standard_Metro_Cross_Seat          :(Cross Seat)
-
 # Errors
 STR_ERROR_NO_ATTACH                                 :You can't attach this car here
-STR_ERROR_NOT_ENOUGH_LENGTH4                        :It's too short. It should be equal or more than 4 cars at least.
+STR_ERROR_NOT_ENOUGH_LENGTH3                        :It's too short. It should be equal or more than 3 cars at least.
 STR_ERROR_NOT_ENOUGH_LENGTH6                        :It's too short. It should be equal or more than 6 cars at least.

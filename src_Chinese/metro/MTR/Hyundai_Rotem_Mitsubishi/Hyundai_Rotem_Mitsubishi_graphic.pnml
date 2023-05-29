@@ -1,35 +1,35 @@
 /*--------------------------------------------------------------------
 Graphic
 --------------------------------------------------------------------*/
-spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_purchase, "src/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png"){
+spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_purchase, "src_Chinese/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_MTR_Hyundai_Rotem_MitsubishiH_purchase, "src/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png"){
+spriteset(set_MTR_Hyundai_Rotem_MitsubishiH_purchase, "src_Chinese/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_engineH, "src/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png"){
+spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_engineH, "src_Chinese/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png"){
     engine(80, 0)
 }
 
-spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_wagon_start, "src/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png"){
+spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_wagon_start, "src_Chinese/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_wagon, "src/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png") {
+spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_wagon, "src_Chinese/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_wagon_r, "src/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png") {
+spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_wagon_r, "src_Chinese/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_wagon_end, "src/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png"){
+spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_wagon_end, "src_Chinese/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_engineT, "src/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png"){
+spriteset(set_MTR_Hyundai_Rotem_Mitsubishi_engineT, "src_Chinese/metro/MTR/Hyundai_Rotem_Mitsubishi/Hyundai_Rotem_Mitsubishi.png"){
     engine_r(80, 108)
 }
 

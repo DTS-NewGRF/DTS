@@ -52,6 +52,7 @@ item(FEAT_TRAINS, AUTS, 2007){
 	graphics {
         default:                        sw_AUTS_engine;
         purchase:                       sw_AUTS_purchase;
+        speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

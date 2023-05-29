@@ -1,35 +1,35 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_CRH2_purchase, "src/locomotive/CRH2/CRH2.png"){
+spriteset(set_CRH2_purchase, "src_Chinese/locomotive/CRH2/CRH2.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_CRH2H_purchase, "src/locomotive/CRH2/CRH2.png"){
+spriteset(set_CRH2H_purchase, "src_Chinese/locomotive/CRH2/CRH2.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_CRH2_engineH, "src/locomotive/CRH2/CRH2.png"){
+spriteset(set_CRH2_engineH, "src_Chinese/locomotive/CRH2/CRH2.png"){
     engine(80, 0)
 }
 
-spriteset(set_CRH2_wagon_start, "src/locomotive/CRH2/CRH2.png"){
+spriteset(set_CRH2_wagon_start, "src_Chinese/locomotive/CRH2/CRH2.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_CRH2_wagon, "src/locomotive/CRH2/CRH2.png") {
+spriteset(set_CRH2_wagon, "src_Chinese/locomotive/CRH2/CRH2.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_CRH2_wagon_r, "src/locomotive/CRH2/CRH2.png") {
+spriteset(set_CRH2_wagon_r, "src_Chinese/locomotive/CRH2/CRH2.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_CRH2_wagon_end, "src/locomotive/CRH2/CRH2.png"){
+spriteset(set_CRH2_wagon_end, "src_Chinese/locomotive/CRH2/CRH2.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_CRH2_engineT, "src/locomotive/CRH2/CRH2.png"){
+spriteset(set_CRH2_engineT, "src_Chinese/locomotive/CRH2/CRH2.png"){
     engine_r(80, 108)
 }
 

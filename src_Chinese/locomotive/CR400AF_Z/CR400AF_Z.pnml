@@ -10,7 +10,7 @@ CR400AF_Z
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CR400AF_Z, 1103){
+item(FEAT_TRAINS, CR400AF_Z, 2046){
     property {
         name:                           string(STR_CR400AF_Z_NAME);
         climates_available:             ALL_CLIMATES;
@@ -51,11 +51,11 @@ item(FEAT_TRAINS, CR400AF_Z, 1103){
     graphics {
         default:                        sw_CR400AF_Z_engine;
         purchase:                       sw_CR400AF_Z_purchase;
+        speed:                          High_Speed_Train_430;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         can_attach_wagon:               sw_CR400AF_Z_wagon_attach;
-        start_stop:                     sw_CTS_train_start_stop_6;
         additional_text:                string(STR_REFIT_ADDITIONAL_CR400AF_Z);
         }
         

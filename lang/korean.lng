@@ -29,10 +29,36 @@ STR_H2_WJ_NAME                                      :[DTS] 우진산전 수소�
 STR_Travel_8500_NAME                                :[DTS] 8500호대 전기기관차
 STR_TTX_NAME                                        :[DTS] TTX
 STR_VHST_600X_NAME                                  :[DTS] VHST-600X
+STR_CRH1_NAME                                       :[DTS] CRH1A
+STR_CRH1E_NAME                                      :[DTS] CRH1E
+STR_CRH1A_A_NAME                                    :[DTS] CRH1A-A
+STR_CRH2_NAME                                       :[DTS] CRH2A·B
+STR_CRH2C_NAME                                      :[DTS] CRH2C
+STR_CRH3_NAME                                       :[DTS] CRH3C
+STR_CRH380A_NAME                                    :[DTS] CRH380A·AL
+STR_CRH380AJ_NAME                                   :[DTS] CRH380AJ
+STR_CRH380B_NAME                                    :[DTS] CRH380B·BL·BG
+STR_CRH380C_NAME                                    :[DTS] CRH380CL
+STR_CRH380D_NAME                                    :[DTS] CRH380D
+STR_CR400AF_NAME                                    :[DTS] CR400AF-A·B·G
+STR_CR400AF_Z_NAME                                  :[DTS] CR400AF-Z·BZ·C
+STR_CR400BF_NAME                                    :[DTS] CR400BF-A·B·G
+STR_CR400BF_C_NAME                                  :[DTS] CR400BF-C
+STR_CR400BF_Z_NAME                                  :[DTS] CR400BF-Z·BZ·GZ
+STR_HXD3C_NAME                                      :[DTS] HXD3C
+STR_NJ2_NAME                                        :[DTS] NJ2
 
 # Metro's name
 STR_Standard_Metro_NAME                             :[DTS] 한국형 표준전동차
 STR_AUTS_NAME                                       :[DTS] 차세대전동차 (AUTS)
+STR_MTR_AD_Tranz_CAF_A_NAME                         :[DTS] 홍콩 MTR AD Tranz CAF A형
+STR_MTR_AC_Cammall_NAME                             :[DTS] 홍콩 MTR 메트로카멜 교류형 전동차
+STR_MTR_DC_Cammall_NAME                             :[DTS] 홍콩 MTR 메트로카멜 직류형 전동차
+STR_MTR_CNR_Changchun_NAME                          :[DTS] 홍콩 MTR CNR 창춘 전동차
+STR_MTR_CRRC_NAME                                   :[DTS] 홍콩 MTR CRRC 전동차
+STR_MTR_Hyundai_Rotem_Mitsubishi_NAME               :[DTS] 홍콩 MTR 현대로템 미쓰비시 전동차
+STR_MTR_Hyundai_Rotem_R_NAME                        :[DTS] 홍콩 MTR 현대로템 R형 전동차
+STR_MTR_IKK_SP_1900_NAME                            :[DTS] 홍콩 MTR IKK SP 1900
 
 # wagon's name
 STR_KTS_PASS_NAME                                   :[DTS] 승객 수송 차량
@@ -57,7 +83,9 @@ STR_PARAM_High_SPEED_Train_DESC                     :고속열차의 속도를 �
 STR_PARAM_High_SPEED_Train_430_NAME                 :고속열차 속도변수 (430km/h 열차속도조절)
 STR_PARAM_High_SPEED_Train_430_DESC                 :고속열차의 속도를 조정합니다. (기본:430km/h)
 STR_PARAM_Chinese_NAME                              :중국형 열차 사용 여부
-STR_PARAM_Chinese_DESC                              :중국형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Chinese_DESC                              :중국형 열차를 사용시 체크하세요. (기본:사용)
+STR_PARAM_Hong_Kong_NAME                            :홍콩형 열차 사용 여부
+STR_PARAM_Hong_Kong_DESC                            :홍콩형 열차를 사용시 체크하세요. (기본:사용)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_AREX                           :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2025년부터 운행될 인천국제공항철도 AREX 통근형 2세대 전동차.
@@ -84,6 +112,32 @@ STR_REFIT_ADDITIONAL_TTX                            :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_VHST_600X                      :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2016년에 연구된 고속열차
 STR_REFIT_ADDITIONAL_Standard_Metro                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}1999년에 개발된 도시철도 표준 전동차
 STR_REFIT_ADDITIONAL_AUTS                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}2010년에 개발된 차세대 도시철도 전동차
+STR_REFIT_ADDITIONAL_CRH1                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1
+STR_REFIT_ADDITIONAL_CRH1E                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1E
+STR_REFIT_ADDITIONAL_CRH1A_A                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1A-A
+STR_REFIT_ADDITIONAL_CRH2                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH2A·B
+STR_REFIT_ADDITIONAL_CRH2C                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH2C
+STR_REFIT_ADDITIONAL_CRH3                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH3C
+STR_REFIT_ADDITIONAL_CRH380A                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}CRH380A·AL
+STR_REFIT_ADDITIONAL_CRH380AJ                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_CRH380B                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380B·BL·BG
+STR_REFIT_ADDITIONAL_CRH380C                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380CL
+STR_REFIT_ADDITIONAL_CRH380D                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380D
+STR_REFIT_ADDITIONAL_CR400AF                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CR400AF-A·B·G
+STR_REFIT_ADDITIONAL_CR400AF_Z                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CR400AF-Z·BZ·C
+STR_REFIT_ADDITIONAL_CR400BF                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CR400BF-A·B·G
+STR_REFIT_ADDITIONAL_CR400BF_C                      :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}CR400BF-C
+STR_REFIT_ADDITIONAL_CR400BF_Z                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CR400BF-Z·BZ·GZ
+STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}HXD3C
+STR_REFIT_ADDITIONAL_NJ2                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}NJ2
+STR_REFIT_ADDITIONAL_MTR_AD_Tranz_CAF_A             :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Cammall_AC                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Cammall_DC                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_CNR_Changchun              :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_CRRC                       :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 
 STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
 STR_REFIT_train_configuration_Passenger             :{BLACK}열차구성: {GREEN}승객 차량용
@@ -147,6 +201,35 @@ STR_REFIT_LIVERY_NRT2_New_ITX                       :(누리로 DD ITX 도색)
 STR_REFIT_LIVERY_Bicheuro2_R                        :(EMU-150 DD 빨강도색)
 STR_REFIT_LIVERY_Bicheuro2_G                        :(EMU-150 DD 녹색도색)
 STR_REFIT_LIVERY_Bicheuro2_W                        :(EMU-150 DD 흰색도색)
+STR_REFIT_LIVERY_Travel_8500_A_train                :(A-Train)
+STR_REFIT_LIVERY_Travel_8500_A_train_New            :(A-Train 신도색)
+STR_REFIT_LIVERY_Travel_8500_G_train                :(G-Train)
+STR_REFIT_LIVERY_Travel_8500_G_train_New            :(G-Train 신도색)
+STR_REFIT_LIVERY_Travel_8500_S_train                :(S-Train)
+STR_REFIT_LIVERY_Travel_8500_V_train                :(V-Train)
+STR_REFIT_LIVERY_Travel_8500_Haerang_train          :(Haerang)
+STR_REFIT_LIVERY_Travel_8500_Wine_train             :(Wine)
+STR_REFIT_LIVERY_CRH380A                            :(CRH380A)
+STR_REFIT_LIVERY_Vibrant_Express                    :(바이브런트 익스프레스)
+STR_REFIT_LIVERY_CR400BF_C                          :(일반 도색)
+STR_REFIT_LIVERY_CR400BF_C_O                        :(2022 베이징동계올림픽 도색)
+
+# Liveries metro
+STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(롱 시트)
+STR_REFIT_LIVERY_Standard_Metro_Cross_Seat          :(크로스 시트)
+STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express :(MTR AD Tranz CAF A Type Airport Express)
+STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung      :(MTR AD Tranz CAF A Type Tung Chung)
+STR_REFIT_LIVERY_MTR_DC_Cammall                     :(미개조형)
+STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding            :(개조형)
+STR_REFIT_LIVERY_MTR_DC_Cammall_Disney              :(디즈니선)
+STR_REFIT_LIVERY_MTR_CNR_Changchun                  :(MTR CNR 창춘 전동차)
+STR_REFIT_LIVERY_MTR_CNR_Changchun_South_Island     :(MTR CNR 창춘 남부섬선)
+STR_REFIT_LIVERY_MTR_CRRC_Changchun                 :(MTR CRRC 창춘 전동차)
+STR_REFIT_LIVERY_MTR_CRRC_Sipang                    :(MTR CRRC 쓰팡 전동차)
+STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_Nomal          :(MTR 현대로탬 R형 일반)
+STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_special        :(MTR 현대로탬 R형 특실)
+
+# Liveries wagon
 STR_REFIT_LIVERY_Eco_Rail_Passenger_Car             :(에코레일)
 STR_REFIT_LIVERY_CY_GW_Passenger_Car                :(충북영동국악와인)
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car             :(정선아리랑 유람열차 구도색)
@@ -168,14 +251,6 @@ STR_REFIT_LIVERY_A_Train_New_Generatar_Car          :(A-Train)
 STR_REFIT_LIVERY_G_Train_New_Generatar_Car          :(G-Train)
 STR_REFIT_LIVERY_Eco_Rail_Luggage_Car               :(에코레일)
 STR_REFIT_LIVERY_CY_GW_Luggage_Car                  :(충북영동국악와인)
-STR_REFIT_LIVERY_Travel_8500_A_train                :(A-Train)
-STR_REFIT_LIVERY_Travel_8500_A_train_New            :(A-Train 신도색)
-STR_REFIT_LIVERY_Travel_8500_G_train                :(G-Train)
-STR_REFIT_LIVERY_Travel_8500_G_train_New            :(G-Train 신도색)
-STR_REFIT_LIVERY_Travel_8500_S_train                :(S-Train)
-STR_REFIT_LIVERY_Travel_8500_V_train                :(V-Train)
-STR_REFIT_LIVERY_Travel_8500_Haerang_train          :(Haerang)
-STR_REFIT_LIVERY_Travel_8500_Wine_train             :(Wine)
 STR_REFIT_LIVERY_SWagon_1F_Red                      :(25형 1층 빨강 도색)
 STR_REFIT_LIVERY_SWagon_1F_Green                    :(25형 1층 녹색 도색)
 STR_REFIT_LIVERY_Swagon_1F_White                    :(25형 1층 흰색 도색)
@@ -190,11 +265,7 @@ STR_REFIT_LIVERY_Luggage_Car_Green                  :(수화물차 녹색도색)
 STR_REFIT_LIVERY_Luggage_Car_WhiteA                 :(수화물차 흰색도색 A)
 STR_REFIT_LIVERY_Luggage_Car_WhiteB                 :(수화물차 흰색도색 B)
 
-# Liveries metro
-STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(롱 시트)
-STR_REFIT_LIVERY_Standard_Metro_Cross_Seat          :(크로스 시트)
-
 # Errors
 STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다
-STR_ERROR_NOT_ENOUGH_LENGTH4                        :열차 길이가 너무 짧습니다. 최소한 4량 이상을 연결해야 합니다.
+STR_ERROR_NOT_ENOUGH_LENGTH3                        :열차 길이가 너무 짧습니다. 최소한 3량 이상을 연결해야 합니다.
 STR_ERROR_NOT_ENOUGH_LENGTH6                        :열차 길이가 너무 짧습니다. 최소한 6량 이상을 연결해야 합니다.
