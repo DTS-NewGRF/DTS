@@ -73,3 +73,12 @@ param {
         def_value: 1;
         }
     }
+
+param {
+    European {
+        type: bool;
+        name: string(STR_PARAM_European_NAME);
+        desc: string(STR_PARAM_European_DESC);
+        def_value: 1;
+        }
+    }

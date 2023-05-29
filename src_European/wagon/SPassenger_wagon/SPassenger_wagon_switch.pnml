@@ -1,21 +1,21 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_SPassenger_cargo_subtype_text, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_ESPassenger_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_Original_1nd_Passenger_Car); // 1등석
     2: return string(STR_REFIT_LIVERY_Original_Bar_Passenger_Car); // 식당칸
     3: return string(STR_REFIT_LIVERY_Original_HF_Passenger_Car);  // 1/2 1,2등석
     return string(STR_REFIT_LIVERY_Original_2nd_Passenger_Car);
 }
 
-switch(FEAT_TRAINS, SELF, sw_SPassenger_wagon, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_ESPassenger_wagon, cargo_subtype) {
     1: set_Original_1nd_wagon;       // 1등석
     2: set_Original_Bar_wagon;   // 식당칸
     3: set_Original_HF_wagon;   // 1/2 1,2등석
     set_Original_2nd_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_SPassenger_wagon_capacity_in_custom, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_ESPassenger_wagon_capacity_in_custom, cargo_subtype) {
     1: return 58;
     2: return 44;
     3: return 72;

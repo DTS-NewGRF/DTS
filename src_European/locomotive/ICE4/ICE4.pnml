@@ -10,7 +10,7 @@ ICE4
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, ICE4, 1125){
+item(FEAT_TRAINS, ICE4, 2071){
     property {
         name:                           string(STR_ICE4_NAME);
         climates_available:             ALL_CLIMATES;
@@ -21,7 +21,7 @@ item(FEAT_TRAINS, ICE4, 1125){
         dual_headed:                    1;
         
         //spec
-        speed:                          265km/h;
+        speed:                          260km/h;
         power:                          700 kW;
         weight:                         67 ton;
         tractive_effort_coefficient:    0.3;

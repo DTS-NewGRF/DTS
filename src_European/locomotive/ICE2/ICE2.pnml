@@ -10,7 +10,7 @@ ICE2
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, ICE2, 1127){
+item(FEAT_TRAINS, ICE2, 2068){
     property {
         name:                           string(STR_ICE2_NAME);
         climates_available:             ALL_CLIMATES;

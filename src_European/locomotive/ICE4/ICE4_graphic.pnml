@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_ICE4_purchase, "src/locomotive/ICE4/ICE4_R.png"){
+spriteset(set_ICE4_purchase, "src_European/locomotive/ICE4/ICE4_R.png"){
     tmpl_purchase(0, 0)
 }
 
@@ -9,31 +9,31 @@ spriteset(set_ICE4_purchase, "src/locomotive/ICE4/ICE4_R.png"){
 1. ICE 4 Red
 --------------------------------------------------------------------*/
 
-spriteset(set_ICE4_R_purchase, "src/locomotive/ICE4/ICE4_R.png"){
+spriteset(set_ICE4_R_purchase, "src_European/locomotive/ICE4/ICE4_R.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_ICE4_R_engineH, "src/locomotive/ICE4/ICE4_R.png"){
+spriteset(set_ICE4_R_engineH, "src_European/locomotive/ICE4/ICE4_R.png"){
     ICEengine(80, 0)
 }
 
-spriteset(set_ICE4_R_wagon_rest, "src/locomotive/ICE4/ICE4_R.png"){
+spriteset(set_ICE4_R_wagon_rest, "src_European/locomotive/ICE4/ICE4_R.png"){
     ICEwagon_panto(80, 30)
 }
 
-spriteset(set_ICE4_R_wagon_panto, "src/locomotive/ICE4/ICE4_R.png"){
+spriteset(set_ICE4_R_wagon_panto, "src_European/locomotive/ICE4/ICE4_R.png"){
     ICEwagon_panto(80, 60)
 }
 
-spriteset(set_ICE4_R_wagon, "src/locomotive/ICE4/ICE4_R.png") {
+spriteset(set_ICE4_R_wagon, "src_European/locomotive/ICE4/ICE4_R.png") {
     ICEwagon_1F(80, 90)
 }
 
-spriteset(set_ICE4_R_wagon_r, "src/locomotive/ICE4/ICE4_R.png") {
+spriteset(set_ICE4_R_wagon_r, "src_European/locomotive/ICE4/ICE4_R.png") {
     ICEwagon_1F_r(80, 90)
 }
 
-spriteset(set_ICE4_R_engineT, "src/locomotive/ICE4/ICE4_R.png"){
+spriteset(set_ICE4_R_engineT, "src_European/locomotive/ICE4/ICE4_R.png"){
     ICEengine_r(80, 120)
 }
 
@@ -41,31 +41,31 @@ spriteset(set_ICE4_R_engineT, "src/locomotive/ICE4/ICE4_R.png"){
 2. ICE 4 Green
 --------------------------------------------------------------------*/
 
-spriteset(set_ICE4_G_purchase, "src/locomotive/ICE4/ICE4_G.png"){
+spriteset(set_ICE4_G_purchase, "src_European/locomotive/ICE4/ICE4_G.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_ICE4_G_engineH, "src/locomotive/ICE4/ICE4_G.png"){
+spriteset(set_ICE4_G_engineH, "src_European/locomotive/ICE4/ICE4_G.png"){
     ICEengine(80, 0)
 }
 
-spriteset(set_ICE4_G_wagon_rest, "src/locomotive/ICE4/ICE4_G.png"){
+spriteset(set_ICE4_G_wagon_rest, "src_European/locomotive/ICE4/ICE4_G.png"){
     ICEwagon_panto(80, 30)
 }
 
-spriteset(set_ICE4_G_wagon_panto, "src/locomotive/ICE4/ICE4_G.png"){
+spriteset(set_ICE4_G_wagon_panto, "src_European/locomotive/ICE4/ICE4_G.png"){
     ICEwagon_panto(80, 60)
 }
 
-spriteset(set_ICE4_G_wagon, "src/locomotive/ICE4/ICE4_G.png") {
+spriteset(set_ICE4_G_wagon, "src_European/locomotive/ICE4/ICE4_G.png") {
     ICEwagon_1F(80, 90)
 }
 
-spriteset(set_ICE4_G_wagon_r, "src/locomotive/ICE4/ICE4_G.png") {
+spriteset(set_ICE4_G_wagon_r, "src_European/locomotive/ICE4/ICE4_G.png") {
     ICEwagon_1F_r(80, 90)
 }
 
-spriteset(set_ICE4_G_engineT, "src/locomotive/ICE4/ICE4_G.png"){
+spriteset(set_ICE4_G_engineT, "src_European/locomotive/ICE4/ICE4_G.png"){
     ICEengine_r(80, 120)
 }
 

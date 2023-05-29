@@ -28,6 +28,7 @@ sort(FEAT_TRAINS, [
     Travel_8500,               //2016
     HXD3C,                     //2050
     NJ2,                       //2051
+    BB15000,                   //2064
 
     //준고속 180
     GTX,                       //2017
@@ -40,6 +41,10 @@ sort(FEAT_TRAINS, [
     CRH1,                      //2034
     CRH1E,                     //2035
     CRH1A_A,                   //2036
+    ICE1,                      //2067
+    ICE2,                      //2068
+    ICE4,                      //2071
+    Renfe_S_130,               //2075
 
     //고속열차 331
     EMU320,                    //2022
@@ -55,6 +60,21 @@ sort(FEAT_TRAINS, [
     CRH380B,                   //2041
     CRH380C,                   //2042
     CRH380D,                   //2043
+    AGV,                       //2063
+    Eurostar_E300,             //2065
+    Eurostar_E320,             //2066
+    ICE3,                      //2069
+    ICE3V,                     //2070
+    Renfe_S_100,               //2072
+    Renfe_S_102,               //2073
+    Renfe_S_103,               //2074
+    TGV_Duplex,                //2076
+    TGV_Pos,                   //2077
+    TGV_Sud_Est,               //2078
+    TGV_Reseau_Duplex,         //2079
+    TGV_AR,                    //2080
+    TGV_La_Poste,              //2081
+    TGV_M,                     //2082
 
     //고속열차 430
     HEMU_430X,                 //2028
@@ -71,11 +91,14 @@ sort(FEAT_TRAINS, [
     //객차
     KTS_Passenger_Car,         //2001
     CTS_Passenger_Car,         //2030
+    ETS_Passenger_Car,         //2060
     KTS_SPassenger_Car,        //2002
     CTS_SPassenger_Car,        //2031
+    ETS_SPassenger_Car,        //2061
     Generatar_Car,             //2003
     CGeneratar_Car,            //2032
     Luggage_Car,               //2004
     CLuggage_Car,              //2033
     CTX_Freight_Car,           //2005
+    TGV_Poste_wagon,           //2062
     ]);

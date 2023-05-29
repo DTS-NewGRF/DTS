@@ -1,19 +1,19 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_BB15000_purchase, "src/locomotive/BB15000/BB15000.png"){
+spriteset(set_BB15000_purchase, "src_European/locomotive/BB15000/BB15000.png"){
     tmpl_single_purchase(0, 0)
 }
 
-spriteset(set_BB15000_engine, "src/locomotive/BB15000/BB15000.png"){
+spriteset(set_BB15000_engine, "src_European/locomotive/BB15000/BB15000.png"){
     engine(80, 0)
 }
 
-spriteset(set_BB15000_Korail_engine, "src/locomotive/BB15000/BB15000.png"){
+spriteset(set_BB15000_Korail_engine, "src_European/locomotive/BB15000/BB15000.png"){
     engine(80, 27)
 }
 
-spriteset(set_BB15000_EN_Voyagee_engine, "src/locomotive/BB15000/BB15000.png"){
+spriteset(set_BB15000_EN_Voyagee_engine, "src_European/locomotive/BB15000/BB15000.png"){
     engine(80, 54)
 }
 

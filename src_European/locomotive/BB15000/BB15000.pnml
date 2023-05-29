@@ -10,7 +10,7 @@ GT26CW
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, BB15000, 1129){
+item(FEAT_TRAINS, BB15000, 2064){
     property {
         name:                           string(STR_BB15000_NAME);
         climates_available:             ALL_CLIMATES;

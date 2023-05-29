@@ -1,19 +1,19 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_TGV_Poste_wagon_purchase, "src\wagon\TGV_Poste_wagon\TGV_Poste_wagon.png"){
+spriteset(set_TGV_Poste_wagon_purchase, "src_European\wagon\TGV_Poste_wagon\TGV_Poste_wagon.png"){
     tmpl_wagon_purchase(0, 0)
 }
 
-spriteset(set_TGV_Poste_wagon_start, "src\wagon\TGV_Poste_wagon\TGV_Poste_wagon.png"){
+spriteset(set_TGV_Poste_wagon_start, "src_European\wagon\TGV_Poste_wagon\TGV_Poste_wagon.png"){
     wagon_start(80, 0)
 }
 
-spriteset(set_TGV_Poste_wagon, "src\wagon\TGV_Poste_wagon\TGV_Poste_wagon.png") {
+spriteset(set_TGV_Poste_wagon, "src_European\wagon\TGV_Poste_wagon\TGV_Poste_wagon.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_TGV_Poste_wagon_end, "src\wagon\TGV_Poste_wagon\TGV_Poste_wagon.png"){
+spriteset(set_TGV_Poste_wagon_end, "src_European\wagon\TGV_Poste_wagon\TGV_Poste_wagon.png"){
     wagon_start(80, 54)
 }
 

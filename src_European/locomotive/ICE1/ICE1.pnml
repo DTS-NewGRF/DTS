@@ -10,7 +10,7 @@ ICE1
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, ICE1, 1126){
+item(FEAT_TRAINS, ICE1, 2067){
     property {
         name:                           string(STR_ICE1_NAME);
         climates_available:             ALL_CLIMATES;
@@ -55,7 +55,6 @@ item(FEAT_TRAINS, ICE1, 1126){
         cost_factor:                    10;
         running_cost_factor:            150;
         can_attach_wagon:               sw_ICE1_wagon_attach;
-        start_stop:                     sw_YST_train_start_stop_6;
         additional_text:                string(STR_REFIT_ADDITIONAL_ICE1);
         }
 

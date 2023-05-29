@@ -47,6 +47,26 @@ STR_CR400BF_C_NAME                                  :[DTS] CR400BF-C
 STR_CR400BF_Z_NAME                                  :[DTS] CR400BF-Z·BZ·GZ
 STR_HXD3C_NAME                                      :[DTS] HXD3C
 STR_NJ2_NAME                                        :[DTS] NJ2
+STR_AGV_NAME                                        :[DTS] AGV (이탈로)
+STR_BB15000_NAME                                    :[DTS] SNCF BB15000
+STR_Eurostar_E300_NAME                              :[DTS] 유로스타 E300
+STR_Eurostar_E320_NAME                              :[DTS] 유로스타 E320
+STR_ICE1_NAME                                       :[DTS] ICE1
+STR_ICE2_NAME                                       :[DTS] ICE2
+STR_ICE3_NAME                                       :[DTS] ICE3
+STR_ICE3V_NAME                                      :[DTS] ICE3 (벨라로 D)
+STR_ICE4_NAME                                       :[DTS] ICE4
+STR_Renfe_S_100_NAME                                :[DTS] 렌페 AVE S-100
+STR_Renfe_S_102_NAME                                :[DTS] 렌페 AVE S-102
+STR_Renfe_S_103_NAME                                :[DTS] 렌페 AVE S-103
+STR_Renfe_S_130_NAME                                :[DTS] 렌페 Alvia S-130
+STR_TGV_Sud_Est_NAME                                :[DTS] TGV 쉬드-에스트
+STR_TGV_AR_NAME                                     :[DTS] TGV 아틀랑티크·레조
+STR_TGV_Reseau_Duplex_NAME                          :[DTS] TGV 레조 듀플렉스
+STR_TGV_La_Poste_NAME                               :[DTS] TGV 라포스트
+STR_TGV_Duplex_NAME                                 :[DTS] TGV 듀플렉스
+STR_TGV_Pos_NAME                                    :[DTS] TGV 포스
+STR_TGV_M_NAME                                      :[DTS] TGV M
 
 # Metro's name
 STR_Standard_Metro_NAME                             :[DTS] 한국형 표준전동차
@@ -70,6 +90,9 @@ STR_CTS_PASS_NAME                                   :[DTS] 중국 승객 수송 
 STR_CTS_SPASS_NAME                                  :[DTS] 중국 객차형 수송 차량
 STR_CGeneratar_Car_NAME                             :[DTS] 중국 발전차
 STR_CLuggage_Car_NAME                               :[DTS] 중국 수화물차
+STR_ETS_PASS_NAME                                   :[DTS] 유럽 승객 수송 차량
+STR_ETS_SPASS_NAME                                  :[DTS] 유럽 객차형 승객 수송 차량
+STR_TGV_Poste_wagon_NAME                            :[DTS] TGV 라포스트 화차
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                    :지하철 속도변수
@@ -86,6 +109,8 @@ STR_PARAM_Chinese_NAME                              :중국형 열차 사용 여
 STR_PARAM_Chinese_DESC                              :중국형 열차를 사용시 체크하세요. (기본:사용)
 STR_PARAM_Hong_Kong_NAME                            :홍콩형 열차 사용 여부
 STR_PARAM_Hong_Kong_DESC                            :홍콩형 열차를 사용시 체크하세요. (기본:사용)
+STR_PARAM_European_NAME                             :유럽형 열차 사용 여부
+STR_PARAM_European_DESC                             :유럽형 열차를 사용시 체크하세요. (기본:사용)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_AREX                           :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2025년부터 운행될 인천국제공항철도 AREX 통근형 2세대 전동차.
@@ -119,7 +144,7 @@ STR_REFIT_ADDITIONAL_CRH2                           :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_CRH2C                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH2C
 STR_REFIT_ADDITIONAL_CRH3                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH3C
 STR_REFIT_ADDITIONAL_CRH380A                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}CRH380A·AL
-STR_REFIT_ADDITIONAL_CRH380AJ                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_CRH380AJ                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
 STR_REFIT_ADDITIONAL_CRH380B                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380B·BL·BG
 STR_REFIT_ADDITIONAL_CRH380C                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380CL
 STR_REFIT_ADDITIONAL_CRH380D                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380D
@@ -130,14 +155,34 @@ STR_REFIT_ADDITIONAL_CR400BF_C                      :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_CR400BF_Z                      :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CR400BF-Z·BZ·GZ
 STR_REFIT_ADDITIONAL_HXD3C                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}HXD3C
 STR_REFIT_ADDITIONAL_NJ2                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}NJ2
-STR_REFIT_ADDITIONAL_MTR_AD_Tranz_CAF_A             :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_Cammall_AC                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_Cammall_DC                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_CNR_Changchun              :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_CRRC                       :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_AD_Tranz_CAF_A             :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Cammall_AC                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Cammall_DC                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_MTR_CNR_Changchun              :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_MTR_CRRC                       :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_AGV                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}BB15000
+STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_ICE1                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}ICE1
+STR_REFIT_ADDITIONAL_ICE2                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE2
+STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE3
+STR_REFIT_ADDITIONAL_ICE3V                          :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE3 (벨라로 D)
+STR_REFIT_ADDITIONAL_ICE4                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE4
+STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-100
+STR_REFIT_ADDITIONAL_Renfe_S_102                    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-102
+STR_REFIT_ADDITIONAL_Renfe_S_103                    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-103
+STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 Alvia S-130
+STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
+STR_REFIT_ADDITIONAL_TGV_Sud_Est                    :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 쉬드-에스트
+STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex              :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
+STR_REFIT_ADDITIONAL_TGV_AR                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
+STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV 라포스트
+STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
+STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV M
 
 STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
 STR_REFIT_train_configuration_Passenger             :{BLACK}열차구성: {GREEN}승객 차량용
@@ -149,6 +194,9 @@ STR_REFIT_train_configuration_CPassenger            :{BLACK}열차구성: {GREEN
 STR_REFIT_train_configuration_CSPassenger           :{BLACK}열차구성: {GREEN}중국 객차형 승객 차량용
 STR_REFIT_train_configuration_CGeneratar            :{BLACK}열차구성: {GREEN}중국 발전차용
 STR_REFIT_train_configuration_CLuggage              :{BLACK}열차구성: {GREEN}중국 수화물차용
+STR_REFIT_train_configuration_EPassenger            :{BLACK}열차구성: {GREEN}유럽 승객 차량용
+STR_REFIT_train_configuration_ESPassenger           :{BLACK}열차구성: {GREEN}유럽 객차형 승객 차량용
+STR_REFIT_train_configuration_TGV_Poste             :{BLACK}열차구성: {GREEN}TGV 라포스트
 
 # Liveries locomotive
 STR_REFIT_LIVERY_AREX_Normal                        :(기본 도색)
@@ -213,6 +261,42 @@ STR_REFIT_LIVERY_CRH380A                            :(CRH380A)
 STR_REFIT_LIVERY_Vibrant_Express                    :(바이브런트 익스프레스)
 STR_REFIT_LIVERY_CR400BF_C                          :(일반 도색)
 STR_REFIT_LIVERY_CR400BF_C_O                        :(2022 베이징동계올림픽 도색)
+STR_REFIT_LIVERY_BB15000_Orginal                    :(기본도색)
+STR_REFIT_LIVERY_BB15000_Korail                     :(Korail)
+STR_REFIT_LIVERY_BB15000_En_Voyagee                 :(En Voyagee)
+STR_REFIT_LIVERY_Eurostar_E300_Old                  :(유로스타 구도색)
+STR_REFIT_LIVERY_Eurostar_E300_New                  :(유로스타 신도색)
+STR_REFIT_LIVERY_TGV_Duplex                         :(TGV 듀플렉스 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV 듀플렉스 리리아·카밀론 도색)
+STR_REFIT_LIVERY_TGV_OUIGO_Duplex                   :(TGV 듀플렉스 위고 도색)
+STR_REFIT_LIVERY_TGV_Reseau_Duplex                  :(TGV 레조 듀플렉스 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_Reseau_LYAIR_Duplex            :(TGV 레조 듀플렉스 리리아·카밀론 도색)
+STR_REFIT_LIVERY_TGV_Sud_Est_original               :(TGV 쉬드-에스트 오렌지 도색)
+STR_REFIT_LIVERY_TGV_Sud_Est_blue                   :(TGV 쉬드-에스트 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_Sud_Est_new                    :(TGV 쉬드-에스트 카밀론 도색)
+STR_REFIT_LIVERY_TGV_A_blue                         :(TGV 아틀랑티크 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_A_blueLacroix                  :(TGV 아틀랑티크 블루 & 그레이 라크루아 도색)
+STR_REFIT_LIVERY_TGV_A_carmillon                    :(TGV 아틀랑티크 카밀론 도색)
+STR_REFIT_LIVERY_TGV_R_blue                         :(TGV 레조 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_R_blueLacroix                  :(TGV 레조 블루 & 그레이 라크루아 도색)
+STR_REFIT_LIVERY_TGV_R_carmillon                    :(TGV 레조 카밀론 도색)
+STR_REFIT_LIVERY_TGV_POS                            :(TGV 포스 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_LYAIR                          :(TGV 포스 리리아 도색)
+STR_REFIT_LIVERY_TGV_THALYS                         :(TGV PBKA 탈리스 도색)
+STR_REFIT_LIVERY_TGV_Carmillon                      :(TGV 포스 카밀론 도색)
+STR_REFIT_LIVERY_Renfe_S_100_old                    :(초기 도색)
+STR_REFIT_LIVERY_Renfe_S_100_new                    :(리뉴얼 도색)
+STR_REFIT_LIVERY_ICE2_red                           :(레드 도색)
+STR_REFIT_LIVERY_ICE2_green                         :(그린 도색)
+STR_REFIT_LIVERY_ICE3_red                           :(ICE 3 레드 도색)
+STR_REFIT_LIVERY_ICE3_green                         :(ICE 3 그린 도색)
+STR_REFIT_LIVERY_ICE3M_red                          :(ICE 3M 레드 도색)
+STR_REFIT_LIVERY_ICE3M_green                        :(ICE 3M 그린 도색)
+STR_REFIT_LIVERY_ICE3M_Blue                         :(ICE 3M 유로파 도색)
+STR_REFIT_LIVERY_ICE3V_red                          :(레드 도색)
+STR_REFIT_LIVERY_ICE3V_green                        :(그린 도색)
+STR_REFIT_LIVERY_ICE4_red                           :(레드 도색)
+STR_REFIT_LIVERY_ICE4_green                         :(그린 도색)
 
 # Liveries metro
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(롱 시트)
@@ -264,6 +348,10 @@ STR_REFIT_LIVERY_Luggage_Car_Red                    :(수화물차 빨강도색)
 STR_REFIT_LIVERY_Luggage_Car_Green                  :(수화물차 녹색도색)
 STR_REFIT_LIVERY_Luggage_Car_WhiteA                 :(수화물차 흰색도색 A)
 STR_REFIT_LIVERY_Luggage_Car_WhiteB                 :(수화물차 흰색도색 B)
+STR_REFIT_LIVERY_Original_1nd_Passenger_Car         :(1등석)
+STR_REFIT_LIVERY_Original_2nd_Passenger_Car         :(2등석)
+STR_REFIT_LIVERY_Original_Bar_Passenger_Car         :(식당칸)
+STR_REFIT_LIVERY_Original_HF_Passenger_Car          :(1/2 1,2등석)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다
