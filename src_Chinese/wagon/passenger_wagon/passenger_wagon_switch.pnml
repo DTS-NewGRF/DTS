@@ -17,14 +17,14 @@ switch(FEAT_TRAINS, SELF, sw_CTS_train_start_stop_6, num_vehs_in_consist >= 6) {
 }
 
 //공통객차 텍스트
-switch(FEAT_TRAINS, SELF, sw_Passenger_wagon_cargo_subtype_text, vehicle_type_id) {
+switch(FEAT_TRAINS, SELF, sw_CPassenger_wagon_cargo_subtype_text, vehicle_type_id) {
     return CB_RESULT_NO_TEXT;
 }
 
 /*--------------------------------------------------------------------
 1. 공통객차
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_Passenge_wagon, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
-    1: set_wagon;
-    set_wagon_r;
+switch(FEAT_TRAINS, SELF, sw_CPassenge_wagon, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
+    1: set_Chinese_wagon;
+    set_Chinese_wagon_r;
 }

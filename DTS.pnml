@@ -10,8 +10,8 @@ grf {
 	name :                             string(STR_GRF_NAME_WITH_VER);
 	desc :                             string(STR_GRF_DESC);
 	url :                              string(STR_GRF_URL);
-	version :                          20230528;
-	min_compatible_version :           20230513;
+	version :                          20230529;
+	min_compatible_version :           20230528;
 	
 	// Parameters 매개변수
     #include "src/parameter.pnml"
@@ -44,3 +44,11 @@ railtypetable {
 // Load trains
 #include "src/train_list.pnml"
 #include "src_Chinese/train_list.pnml"
+
+//disabe_train
+if (Chinese) {
+    disable_item(FEAT_TRAINS, 2030); //CTS_Passenger_Car
+    disable_item(FEAT_TRAINS, 2031); //CTS_SPassenger_Car
+    disable_item(FEAT_TRAINS, 2032); //CGeneratar_Car
+    disable_item(FEAT_TRAINS, 2033); //CLuggage_Car
+    }

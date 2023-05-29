@@ -1,12 +1,12 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_Generatar_cargo_subtype_text, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_CGeneratar_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_Generatar_Car_Green);    //녹색
     return string(STR_REFIT_LIVERY_Generatar_Car_White);
 }
 
-switch(FEAT_TRAINS, SELF, sw_Generatar_wagon, cargo_subtype) {
-    1: set_Generatar_Car_Green;    //녹색
-    set_Generatar_Car_White;
+switch(FEAT_TRAINS, SELF, sw_CGeneratar_wagon, cargo_subtype) {
+    1: set_CGeneratar_Car_Green;    //녹색
+    set_CGeneratar_Car_White;
 }

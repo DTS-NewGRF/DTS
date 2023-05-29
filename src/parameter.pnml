@@ -55,3 +55,12 @@ param {
             def_value: 430;
             }
     }
+
+param {
+    Chinese {
+        type: bool;
+        name: string(STR_PARAM_Chinese_NAME);
+        desc: string(STR_PARAM_Chinese_DESC);
+        def_value: 1;
+        }
+    }

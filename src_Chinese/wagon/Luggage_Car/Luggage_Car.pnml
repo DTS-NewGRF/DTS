@@ -10,9 +10,9 @@ YFX
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Luggage_Car, 1015){
+item(FEAT_TRAINS, CLuggage_Car, 2033){
     property {
-        name:                           string(STR_Luggage_Car_NAME);
+        name:                           string(STR_CLuggage_Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1967, 1, 1);
         track_type:                     RAIL;
@@ -45,12 +45,12 @@ item(FEAT_TRAINS, Luggage_Car, 1015){
         }
 
 	graphics {
-        default:                        sw_Luggage_wagon;
-        purchase:                       sw_Luggage_Car_purchase;
+        default:                        sw_CLuggage_wagon;
+        purchase:                       sw_CLuggage_Car_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_Luggage_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Luggage);
+        cargo_subtype_text:             sw_CLuggage_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_CLuggage);
         }
         }

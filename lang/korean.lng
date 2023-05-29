@@ -40,6 +40,10 @@ STR_KTS_SPASS_NAME                                  :[DTS] 객차형 승객 수�
 STR_Generatar_Car_NAME                              :[DTS] 발전차
 STR_Luggage_Car_NAME                                :[DTS] 수화물차
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX용 화물 수송 차량
+STR_CTS_PASS_NAME                                   :[DTS] 중국 승객 수송 차량
+STR_CTS_SPASS_NAME                                  :[DTS] 중국 객차형 수송 차량
+STR_CGeneratar_Car_NAME                             :[DTS] 중국 발전차
+STR_CLuggage_Car_NAME                               :[DTS] 중국 수화물차
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                    :지하철 속도변수
@@ -52,6 +56,8 @@ STR_PARAM_High_SPEED_Train_NAME                     :고속열차 속도변수
 STR_PARAM_High_SPEED_Train_DESC                     :고속열차의 속도를 조정합니다. (기본:331km/h)
 STR_PARAM_High_SPEED_Train_430_NAME                 :고속열차 속도변수 (430km/h 열차속도조절)
 STR_PARAM_High_SPEED_Train_430_DESC                 :고속열차의 속도를 조정합니다. (기본:430km/h)
+STR_PARAM_Chinese_NAME                              :중국형 열차 사용 여부
+STR_PARAM_Chinese_DESC                              :중국형 열차를 사용시 체크하세요. (기본:미사용)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_AREX                           :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2025년부터 운행될 인천국제공항철도 AREX 통근형 2세대 전동차.
@@ -85,6 +91,10 @@ STR_REFIT_train_configuration_SPassenger            :{BLACK}열차구성: {GREEN
 STR_REFIT_train_configuration_Generatar             :{BLACK}열차구성: {GREEN}발전차용
 STR_REFIT_train_configuration_Luggage               :{BLACK}열차구성: {GREEN}수화물차용
 STR_REFIT_train_configuration_CTX                   :{BLACK}열차구성: {GREEN}CTX용 화물차량
+STR_REFIT_train_configuration_CPassenger            :{BLACK}열차구성: {GREEN}중국 승객 차량용
+STR_REFIT_train_configuration_CSPassenger           :{BLACK}열차구성: {GREEN}중국 객차형 승객 차량용
+STR_REFIT_train_configuration_CGeneratar            :{BLACK}열차구성: {GREEN}중국 발전차용
+STR_REFIT_train_configuration_CLuggage              :{BLACK}열차구성: {GREEN}중국 수화물차용
 
 # Liveries locomotive
 STR_REFIT_LIVERY_AREX_Normal                        :(기본 도색)
@@ -166,6 +176,19 @@ STR_REFIT_LIVERY_Travel_8500_S_train                :(S-Train)
 STR_REFIT_LIVERY_Travel_8500_V_train                :(V-Train)
 STR_REFIT_LIVERY_Travel_8500_Haerang_train          :(Haerang)
 STR_REFIT_LIVERY_Travel_8500_Wine_train             :(Wine)
+STR_REFIT_LIVERY_SWagon_1F_Red                      :(25형 1층 빨강 도색)
+STR_REFIT_LIVERY_SWagon_1F_Green                    :(25형 1층 녹색 도색)
+STR_REFIT_LIVERY_Swagon_1F_White                    :(25형 1층 흰색 도색)
+STR_REFIT_LIVERY_Swagon_2F                          :(25형 2층)
+STR_REFIT_LIVERY_Swagon_Bed_3nd                     :(25형 3등석 침대차량)
+STR_REFIT_LIVERY_Swagon_Bed_2nd                     :(25형 2등석 침대차량)
+STR_REFIT_LIVERY_Swagon_Bed_1nd                     :(25형 1등석 침대차량)
+STR_REFIT_LIVERY_Generatar_Car_White                :(발전차 흰색도색)
+STR_REFIT_LIVERY_Generatar_Car_Green                :(발전차 녹색도색)
+STR_REFIT_LIVERY_Luggage_Car_Red                    :(수화물차 빨강도색)
+STR_REFIT_LIVERY_Luggage_Car_Green                  :(수화물차 녹색도색)
+STR_REFIT_LIVERY_Luggage_Car_WhiteA                 :(수화물차 흰색도색 A)
+STR_REFIT_LIVERY_Luggage_Car_WhiteB                 :(수화물차 흰색도색 B)
 
 # Liveries metro
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(롱 시트)

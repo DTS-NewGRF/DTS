@@ -10,7 +10,7 @@ YFX
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CTS_SPassenger_Car, 1011){
+item(FEAT_TRAINS, CTS_SPassenger_Car, 2031){
     property {
         name:                           string(STR_CTS_SPASS_NAME);
         climates_available:             ALL_CLIMATES;
@@ -52,6 +52,6 @@ item(FEAT_TRAINS, CTS_SPassenger_Car, 1011){
         running_cost_factor:            50;
         cargo_capacity:                 sw_SWagon_capacity_in_custom;
         cargo_subtype_text:             sw_SWagon_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_SPassenger);
+        additional_text:                string(STR_REFIT_train_configuration_CSPassenger);
         }
         }

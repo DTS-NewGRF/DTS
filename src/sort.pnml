@@ -44,8 +44,12 @@ sort(FEAT_TRAINS, [
 
     //객차
     KTS_Passenger_Car,         //2001
+    CTS_Passenger_Car,         //2030
     KTS_SPassenger_Car,        //2002
+    CTS_SPassenger_Car,        //2031
     Generatar_Car,             //2003
+    CGeneratar_Car,            //2032
     Luggage_Car,               //2004
+    CLuggage_Car,              //2033
     CTX_Freight_Car,           //2005
     ]);
