@@ -1,173 +1,173 @@
 /*--------------------------------------------------------------------
 1. HYEL_100
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_purchase, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_purchase, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	tmpl_single_purchase(0, 0)
 }
 
-spriteset(set_HYEL_100_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_32bPP.png"){
+alternative_sprites(set_HYEL_100_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_32bPP.png"){
 	tmpl_single_purchase(0, 0)
 }
 
-alternative_sprites(set_HYEL_100_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_32bPP.png"){
+alternative_sprites(set_HYEL_100_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 2. HYEL_100_CJ
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_CJ_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_CJ_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_CJ_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_CJ_32bPP.png"){
+alternative_sprites(set_HYEL_100_CJ_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_CJ_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 3. HYEL_100_우체국 택배
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_Poste_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_Poste_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_Poste_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_Poste_32bPP.png"){
+alternative_sprites(set_HYEL_100_Poste_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_Poste_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 4. HYEL_100_Fedex
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_fedex_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_fedex_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_fedex_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_FEDEX_32bPP.png"){
+alternative_sprites(set_HYEL_100_fedex_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_FEDEX_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 5. HYEL_100_산천
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_SanCheon_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_SanCheon_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_SanCheon_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_ShanCheon_32bPP.png"){
+alternative_sprites(set_HYEL_100_SanCheon_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_ShanCheon_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 6. HYEL_100_한진
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_Hanjin_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_Hanjin_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_Hanjin_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_Hanjin_32bPP.png"){
+alternative_sprites(set_HYEL_100_Hanjin_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_Hanjin_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 7. HYEL_100_로젠
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_logen_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_logen_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_logen_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_logen_32bPP.png"){
+alternative_sprites(set_HYEL_100_logen_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_logen_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 8. HYEL_100_롯데
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_lotte_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_lotte_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_lotte_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_Lotte_32bPP.png"){
+alternative_sprites(set_HYEL_100_lotte_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_Lotte_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 9. HYEL_100_DHL
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_DHL_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_DHL_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_DHL_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_DHL_32bPP.png"){
+alternative_sprites(set_HYEL_100_DHL_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_DHL_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 10. HYEL_100_Yellowcap
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_Yellowcap_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_Yellowcap_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_Yellowcap_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_Yellowcap_32bPP.png"){
+alternative_sprites(set_HYEL_100_Yellowcap_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_Yellowcap_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 11. HYEL_100_Dasein
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_Daesin_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_Daesin_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_Daesin_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_Daesin_32bPP.png"){
+alternative_sprites(set_HYEL_100_Daesin_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_Daesin_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 12. HYEL_100_Ilyang
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_Ilyang_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_Ilyang_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_Ilyang_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_Ilyang_32bPP.png"){
+alternative_sprites(set_HYEL_100_Ilyang_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_Ilyang_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 13. HYEL_100_코레일
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_Korail_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_Korail_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_Korail_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_Korail_32bPP.png"){
+alternative_sprites(set_HYEL_100_Korail_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_Korail_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 13. HYEL_100_아이언맨
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_Ironman_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_Ironman_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_Ironman_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_Ironman_32bPP.png"){
+alternative_sprites(set_HYEL_100_Ironman_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_Ironman_32bPP.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 14. HYEL_100_K 리무진
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_K_Limousine_engine, "src/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_K_Limousine_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
 	engine(80, 0)
 }
 
-alternative_sprites(set_HYEL_100_K_Limousine_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_100/HYEL_100_K_Limousine_32bPP.png"){
+alternative_sprites(set_HYEL_100_K_Limousine_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_K_Limousine_32bPP.png"){
 	engine(80, 0)
 }
 

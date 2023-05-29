@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 1층 공통객차
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, VTS_1F_Passenger_Car, 1076){
+item (FEAT_TRAINS, VTS_1F_Passenger_Car, 2105){
     property {
         name:                           string(STR_VTS_PASS_NAME);
         climates_available:             ALL_CLIMATES;

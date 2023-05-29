@@ -10,7 +10,7 @@ YFX
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, YFXF, 1081){
+item(FEAT_TRAINS, YFXF, 2107){
     property {
         name:                           string(STR_YFXF_NAME);
         climates_available:             ALL_CLIMATES;

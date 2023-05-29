@@ -46,6 +46,7 @@ railtypetable {
 #include "src_Chinese/train_list.pnml"
 #include "src_European/train_list.pnml"
 #include "src_Japanese/train_list.pnml"
+#include "src_Virtual/train_list.pnml"
 
 //disabe_train
 if (Chinese) {

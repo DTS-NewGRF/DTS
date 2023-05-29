@@ -80,14 +80,11 @@ STR_Shinkansen_E7_W7_NAME                           :[DTS] Shinkansen E7·W7
 STR_Shinkansen_E8_NAME                              :[DTS] Shinkansen E8
 STR_Shinkansen_N700_NAME                            :[DTS] Shinkansen N700
 STR_Shinkansen_N700S_NAME                           :[DTS] Shinkansen N700S
-STR_Nishitetsu_1000_NAME                            :[DTS] Nishitetsu 1000
-STR_Nishitetsu_2000_NAME                            :[DTS] Nishitetsu 2000
-STR_Nishitetsu_3000_NAME                            :[DTS] Nishitetsu 3000
-STR_Nishitetsu_5000_NAME                            :[DTS] Nishitetsu 5000
-STR_Nishitetsu_6000_NAME                            :[DTS] Nishitetsu 6000
-STR_Nishitetsu_7000_NAME                            :[DTS] Nishitetsu 7000
-STR_Nishitetsu_8000_NAME                            :[DTS] Nishitetsu 8000
-STR_Nishitetsu_9000_NAME                            :[DTS] Nishitetsu 9000
+STR_HYEL_100_NAME                                   :[DTS] HYEL-100
+STR_HYEL_200_NAME                                   :[DTS] HYEL-200
+STR_HYEL_300_NAME                                   :[DTS] HYEL-300
+STR_HYEL_400_NAME                                   :[DTS] HYEL-400
+STR_YFX_NAME                                        :[DTS] YFX
 
 # Metro's name
 STR_Standard_Metro_NAME                             :[DTS] Standard Metro
@@ -100,6 +97,14 @@ STR_MTR_CRRC_NAME                                   :[DTS] MTR CRRC Trian
 STR_MTR_Hyundai_Rotem_Mitsubishi_NAME               :[DTS] MTR Hyundai Rotem Mitsubishi Trian
 STR_MTR_Hyundai_Rotem_R_NAME                        :[DTS] MTR Hyundai Rotem R Type Train
 STR_MTR_IKK_SP_1900_NAME                            :[DTS] MTR IKK SP 1900
+STR_Nishitetsu_1000_NAME                            :[DTS] Nishitetsu 1000
+STR_Nishitetsu_2000_NAME                            :[DTS] Nishitetsu 2000
+STR_Nishitetsu_3000_NAME                            :[DTS] Nishitetsu 3000
+STR_Nishitetsu_5000_NAME                            :[DTS] Nishitetsu 5000
+STR_Nishitetsu_6000_NAME                            :[DTS] Nishitetsu 6000
+STR_Nishitetsu_7000_NAME                            :[DTS] Nishitetsu 7000
+STR_Nishitetsu_8000_NAME                            :[DTS] Nishitetsu 8000
+STR_Nishitetsu_9000_NAME                            :[DTS] Nishitetsu 9000
 
 # wagon's name
 STR_KTS_PASS_NAME                                   :[DTS] Passenger car
@@ -115,6 +120,9 @@ STR_ETS_PASS_NAME                                   :[DTS] European Passenger Ca
 STR_ETS_SPASS_NAME                                  :[DTS] European carriage-type passenger transport vehicle
 STR_TGV_Poste_wagon_NAME                            :[DTS] TGV La Poste Freight Car
 STR_JTS_PASS_NAME                                   :[DTS] Japanese Passenger Car
+STR_VTS_PASS_NAME                                   :[DTS] Virtual Passenger transport vehicle
+STR_VTS_SPASS_NAME                                  :[DTS] Virtual carriage-type passenger transport vehicle
+STR_YFXF_NAME                                       :[DTS] YFX Freight Car
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                    :Metro Train Speed Variable
@@ -228,6 +236,11 @@ STR_REFIT_ADDITIONAL_Nishitetsu_6000                :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_Nishitetsu_7000                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 6000, Nishitetsu 7000
 STR_REFIT_ADDITIONAL_Nishitetsu_8000                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 8000
 STR_REFIT_ADDITIONAL_Nishitetsu_9000                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 9000
+STR_REFIT_ADDITIONAL_HYEL_100                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}HYEL-100
+STR_REFIT_ADDITIONAL_HYEL_200                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HYEL-200
+STR_REFIT_ADDITIONAL_HYEL_300                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_HYEL_400                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HYEL-400
+STR_REFIT_ADDITIONAL_YFX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}YFX
 
 STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
 STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
@@ -243,6 +256,11 @@ STR_REFIT_train_configuration_EPassenger            :{BLACK}train configuration:
 STR_REFIT_train_configuration_ESPassenger           :{BLACK}train configuration: {GREEN}European carriage-type Passenger vehicles
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}train configuration: {GREEN}TGV La Poste
 STR_REFIT_train_configuration_JPassenger            :{BLACK}train configuration: {GREEN}Japanese Passenger vehicles
+STR_REFIT_train_configuration_1F                    :{BLACK}train configuration: {GREEN}1F passenger vehicles
+STR_REFIT_train_configuration_2F                    :{BLACK}train configuration: {GREEN}2F passenger vehicles
+STR_REFIT_train_configuration_Coach                 :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
+STR_REFIT_train_configuration_Coach_Last            :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
+STR_REFIT_train_configuration_YFX_Freight           :{BLACK}train configuration: {GREEN}YFX Freight Car
 
 # Liveries
 STR_REFIT_LIVERY_AREX_Normal                        :(Normal Color)
@@ -355,6 +373,29 @@ STR_REFIT_LIVERY_Shinkansen_E2_Pink                 :(Pink line Livery)
 STR_REFIT_LIVERY_Shinkansen_E2_Red                  :(Red line Livery)
 STR_REFIT_LIVERY_Shinkansen_E5                      :(Shinkansen E5)
 STR_REFIT_LIVERY_Shinkansen_H5                      :(Shinkansen H5)
+STR_REFIT_LIVERY_HYEL_100_SRT                       :(SRT)
+STR_REFIT_LIVERY_HYEL_100_CJ                        :(CJ Logistics)
+STR_REFIT_LIVERY_HYEL_100_poste                     :(Poste mail)
+STR_REFIT_LIVERY_HYEL_100_fedex                     :(Fedex)
+STR_REFIT_LIVERY_HYEL_100_SanCheon                  :(SanCheon)
+STR_REFIT_LIVERY_HYEL_100_Hanjin                    :(Hanjin Logistics)
+STR_REFIT_LIVERY_HYEL_100_logen                     :(logen Logistics)
+STR_REFIT_LIVERY_HYEL_100_lotte                     :(lotte Logistics)
+STR_REFIT_LIVERY_HYEL_100_DHL                       :(DHL)
+STR_REFIT_LIVERY_HYEL_100_Yellowcap                 :(Yellowcap)
+STR_REFIT_LIVERY_HYEL_100_Daesin                    :(Daesin Logistics)
+STR_REFIT_LIVERY_HYEL_100_Ilyang                    :(Ilyang Logistics)
+STR_REFIT_LIVERY_HYEL_100_Korail                    :(Korail)
+STR_REFIT_LIVERY_HYEL_100_Ironman                   :(Ironman)
+STR_REFIT_LIVERY_HYEL_100_K_Limousine               :(K Limousine)
+STR_REFIT_LIVERY_HYEL_300                           :(HYEL-300)
+STR_REFIT_LIVERY_HYEL_300_SB                        :(HYEL-300 Sea Livery)
+STR_REFIT_LIVERY_YFX_wagon_original                 :(Wingbody Freight)
+STR_REFIT_LIVERY_YFX_wagon_post                     :(Post Wingbody Freight)
+STR_REFIT_LIVERY_YFX_wagon_CJ_Logistics             :(CJ Logistics Wingbody Freight)
+STR_REFIT_LIVERY_Shinkansen_500_Cool                :(Shinkansen 500 Cool)
+STR_REFIT_LIVERY_Shinkansen_500_Cool_New            :(Shinkansen 500 Cool New)
+
 
 # Liveries metro
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(Long Seat)
@@ -423,6 +464,10 @@ STR_REFIT_LIVERY_Original_1nd_Passenger_Car         :(1nd Livery)
 STR_REFIT_LIVERY_Original_2nd_Passenger_Car         :(2nd Livery)
 STR_REFIT_LIVERY_Original_Bar_Passenger_Car         :(Bar Livery)
 STR_REFIT_LIVERY_Original_HF_Passenger_Car          :(1/2 1,2nd Livery)
+STR_REFIT_LIVERY_Coach_2F_BR                        :(Default Color)
+STR_REFIT_LIVERY_Coach_2F_Taegeuk                   :(Taegeuk Color)
+STR_REFIT_LIVERY_Coach_2F_SR                        :(SR Color)
+STR_REFIT_LIVERY_Coach_2F_K_Limousion               :(K Limousion Color)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :You can't attach this car here

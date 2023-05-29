@@ -1,19 +1,19 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_YFX_purchase, "src/locomotive/YFX/YFX.png"){
+spriteset(set_YFX_purchase, "src_Virtual/locomotive/YFX/YFX.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_YFXH_purchase, "src/locomotive/YFX/YFX.png"){
+spriteset(set_YFXH_purchase, "src_Virtual/locomotive/YFX/YFX.png"){
     tmpl_purchase_for_dualhead(0, 27)
 }
 
-spriteset(set_YFX_engineH, "src/locomotive/YFX/YFX.png"){
+spriteset(set_YFX_engineH, "src_Virtual/locomotive/YFX/YFX.png"){
     engine(80, 0)
 }
 
-spriteset(set_YFX_engineT, "src/locomotive/YFX/YFX.png"){
+spriteset(set_YFX_engineT, "src_Virtual/locomotive/YFX/YFX.png"){
     engine_r(80, 27)
 }
 

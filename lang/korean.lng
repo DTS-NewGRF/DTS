@@ -80,14 +80,11 @@ STR_Shinkansen_E7_W7_NAME                           :[DTS] 신칸센 E7·W7계
 STR_Shinkansen_E8_NAME                              :[DTS] 신칸센 E8계
 STR_Shinkansen_N700_NAME                            :[DTS] 신칸센 N700계
 STR_Shinkansen_N700S_NAME                           :[DTS] 신칸센 N700S계
-STR_Nishitetsu_1000_NAME                            :[DTS] 니시테츠 1000형
-STR_Nishitetsu_2000_NAME                            :[DTS] 니시테츠 2000형
-STR_Nishitetsu_3000_NAME                            :[DTS] 니시테츠 3000형
-STR_Nishitetsu_5000_NAME                            :[DTS] 니시테츠 5000형
-STR_Nishitetsu_6000_NAME                            :[DTS] 니시테츠 6000형
-STR_Nishitetsu_7000_NAME                            :[DTS] 니시테츠 7000형
-STR_Nishitetsu_8000_NAME                            :[DTS] 니시테츠 8000형
-STR_Nishitetsu_9000_NAME                            :[DTS] 니시테츠 9000형
+STR_HYEL_100_NAME                                   :[DTS] HYEL-100
+STR_HYEL_200_NAME                                   :[DTS] HYEL-200
+STR_HYEL_300_NAME                                   :[DTS] HYEL-300
+STR_HYEL_400_NAME                                   :[DTS] HYEL-400
+STR_YFX_NAME                                        :[DTS] YFX
 
 # Metro's name
 STR_Standard_Metro_NAME                             :[DTS] 한국형 표준전동차
@@ -100,6 +97,14 @@ STR_MTR_CRRC_NAME                                   :[DTS] 홍콩 MTR CRRC 전�
 STR_MTR_Hyundai_Rotem_Mitsubishi_NAME               :[DTS] 홍콩 MTR 현대로템 미쓰비시 전동차
 STR_MTR_Hyundai_Rotem_R_NAME                        :[DTS] 홍콩 MTR 현대로템 R형 전동차
 STR_MTR_IKK_SP_1900_NAME                            :[DTS] 홍콩 MTR IKK SP 1900
+STR_Nishitetsu_1000_NAME                            :[DTS] 니시테츠 1000형
+STR_Nishitetsu_2000_NAME                            :[DTS] 니시테츠 2000형
+STR_Nishitetsu_3000_NAME                            :[DTS] 니시테츠 3000형
+STR_Nishitetsu_5000_NAME                            :[DTS] 니시테츠 5000형
+STR_Nishitetsu_6000_NAME                            :[DTS] 니시테츠 6000형
+STR_Nishitetsu_7000_NAME                            :[DTS] 니시테츠 7000형
+STR_Nishitetsu_8000_NAME                            :[DTS] 니시테츠 8000형
+STR_Nishitetsu_9000_NAME                            :[DTS] 니시테츠 9000형
 
 # wagon's name
 STR_KTS_PASS_NAME                                   :[DTS] 승객 수송 차량
@@ -115,6 +120,9 @@ STR_ETS_PASS_NAME                                   :[DTS] 유럽 승객 수송 
 STR_ETS_SPASS_NAME                                  :[DTS] 유럽 객차형 승객 수송 차량
 STR_TGV_Poste_wagon_NAME                            :[DTS] TGV 라포스트 화차
 STR_JTS_PASS_NAME                                   :[DTS] 일본 승객 수송 차량
+STR_VTS_PASS_NAME                                   :[DTS] 가상 승객 수송 차량
+STR_VTS_SPASS_NAME                                  :[DTS] 가상 객차형 승객 차량
+STR_YFXF_NAME                                       :[DTS] YFX용 화차
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                    :지하철 속도변수
@@ -228,6 +236,11 @@ STR_REFIT_ADDITIONAL_Nishitetsu_6000                :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_Nishitetsu_7000                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 6000, 니시테츠 7000
 STR_REFIT_ADDITIONAL_Nishitetsu_8000                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 8000
 STR_REFIT_ADDITIONAL_Nishitetsu_9000                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 9000
+STR_REFIT_ADDITIONAL_HYEL_100                       :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}HYEL-100
+STR_REFIT_ADDITIONAL_HYEL_200                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}HYEL-200
+STR_REFIT_ADDITIONAL_HYEL_300                       :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{RED}불가능
+STR_REFIT_ADDITIONAL_HYEL_400                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}HYEL-400
+STR_REFIT_ADDITIONAL_YFX                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}YFX
 
 STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
 STR_REFIT_train_configuration_Passenger             :{BLACK}열차구성: {GREEN}승객 차량용
@@ -243,6 +256,11 @@ STR_REFIT_train_configuration_EPassenger            :{BLACK}열차구성: {GREEN
 STR_REFIT_train_configuration_ESPassenger           :{BLACK}열차구성: {GREEN}유럽 객차형 승객 차량용
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}열차구성: {GREEN}TGV 라포스트
 STR_REFIT_train_configuration_JPassenger            :{BLACK}열차구성: {GREEN}일본 승객 차량용
+STR_REFIT_train_configuration_1F                    :{BLACK}열차구성: {GREEN}1층 승객 차량용
+STR_REFIT_train_configuration_2F                    :{BLACK}열차구성: {GREEN}2층 승객 차량용
+STR_REFIT_train_configuration_Coach                 :{BLACK}열차구성: {GREEN}객차형 승객 차량용
+STR_REFIT_train_configuration_Coach_Last            :{BLACK}열차구성: {GREEN}객차형 승객 차량용
+STR_REFIT_train_configuration_YFX_Freight           :{BLACK}열차구성: {GREEN}YFX용 화차
 
 # Liveries locomotive
 STR_REFIT_LIVERY_AREX_Normal                        :(기본 도색)
@@ -355,6 +373,28 @@ STR_REFIT_LIVERY_Shinkansen_E2_Pink                 :(E2계 - 분홍)
 STR_REFIT_LIVERY_Shinkansen_E2_Red                  :(E2계 - 빨강)
 STR_REFIT_LIVERY_Shinkansen_E5                      :(신칸센 E5계)
 STR_REFIT_LIVERY_Shinkansen_H5                      :(신칸센 H5계)
+STR_REFIT_LIVERY_HYEL_100_SRT                       :(SRT)
+STR_REFIT_LIVERY_HYEL_100_CJ                        :(CJ 대한통운)
+STR_REFIT_LIVERY_HYEL_100_poste                     :(우체국 택배)
+STR_REFIT_LIVERY_HYEL_100_fedex                     :(Fedex)
+STR_REFIT_LIVERY_HYEL_100_SanCheon                  :(산천)
+STR_REFIT_LIVERY_HYEL_100_Hanjin                    :(한진 택배)
+STR_REFIT_LIVERY_HYEL_100_logen                     :(로젠 택배)
+STR_REFIT_LIVERY_HYEL_100_lotte                     :(롯데 택배)
+STR_REFIT_LIVERY_HYEL_100_DHL                       :(DHL)
+STR_REFIT_LIVERY_HYEL_100_Yellowcap                 :(옐로우캡)
+STR_REFIT_LIVERY_HYEL_100_Daesin                    :(대신 택배)
+STR_REFIT_LIVERY_HYEL_100_Ilyang                    :(일양 택배)
+STR_REFIT_LIVERY_HYEL_100_Korail                    :(코레일)
+STR_REFIT_LIVERY_HYEL_100_Ironman                   :(아이언맨)
+STR_REFIT_LIVERY_HYEL_100_K_Limousine               :(K 리무진)
+STR_REFIT_LIVERY_HYEL_300                           :(HYEL-300)
+STR_REFIT_LIVERY_HYEL_300_SB                        :(HYEL-300 바다도색)
+STR_REFIT_LIVERY_YFX_wagon_original                 :(기본 윙바디 화물칸)
+STR_REFIT_LIVERY_YFX_wagon_post                     :(우체국소포 윙바디 화물칸)
+STR_REFIT_LIVERY_YFX_wagon_CJ_Logistics             :(CJ 택배 윙바디 화물칸)
+STR_REFIT_LIVERY_Shinkansen_500_Cool                :(신칸센 500계 Cool)
+STR_REFIT_LIVERY_Shinkansen_500_Cool_New            :(신칸센 500계 Cool 신도색)
 
 # Liveries metro
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(롱 시트)
@@ -423,6 +463,10 @@ STR_REFIT_LIVERY_Original_1nd_Passenger_Car         :(1등석)
 STR_REFIT_LIVERY_Original_2nd_Passenger_Car         :(2등석)
 STR_REFIT_LIVERY_Original_Bar_Passenger_Car         :(식당칸)
 STR_REFIT_LIVERY_Original_HF_Passenger_Car          :(1/2 1,2등석)
+STR_REFIT_LIVERY_Coach_2F_BR                        :(기본 도색)
+STR_REFIT_LIVERY_Coach_2F_Taegeuk                   :(태극 도색)
+STR_REFIT_LIVERY_Coach_2F_SR                        :(SR 도색)
+STR_REFIT_LIVERY_Coach_2F_K_Limousion               :(K 리무진 도색)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다
