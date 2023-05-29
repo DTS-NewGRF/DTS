@@ -1,3 +1,5 @@
+/*--------------------------------------------------------------------
+//미공개
 //wagon
 #include "wagon/passenger_wagon/passenger_wagon.pnml"
 #include "wagon/Coach_2F_wagon/Coach_2F_wagon.pnml"
@@ -9,6 +11,4 @@
 #include "locomotive/HYEL/HYEL_300/HYEL_300.pnml"
 #include "locomotive/HYEL/HYEL_400/HYEL_400.pnml"
 #include "locomotive/YFX/YFX.pnml"
-
-// Sorting
-#include "sort.pnml"
+--------------------------------------------------------------------*/

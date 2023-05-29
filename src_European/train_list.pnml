@@ -1,3 +1,5 @@
+/*--------------------------------------------------------------------
+//미공개
 //wagon
 #include "wagon/passenger_wagon/passenger_wagon_all.pnml"
 #include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
@@ -24,6 +26,4 @@
 #include "locomotive/TGV/TGV_AR/TGV_AR.pnml"
 #include "locomotive/TGV/TGV_La_Poste/TGV_La_Poste.pnml"
 #include "locomotive/TGV/TGV_M/TGV_M.pnml"
-
-// Sorting
-#include "sort.pnml"
+--------------------------------------------------------------------*/

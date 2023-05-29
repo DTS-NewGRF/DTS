@@ -43,3 +43,4 @@ railtypetable {
 
 // Load trains
 #include "src/train_list.pnml"
+#include "src_Chinese/train_list.pnml"

@@ -1,3 +1,5 @@
+/*--------------------------------------------------------------------
+//미공개
 //wagon
 #include "wagon/Flat_2F_Car/Flat_2F_Car.pnml"
 #include "wagon/passenger_wagon/passenger_wagon_all.pnml"
@@ -11,6 +13,4 @@
 #include "locomotive/AL_BORAQ/Al_Boraq.pnml"
 #include "locomotive/Talgo_350_SRO/Talgo_350_SRO.pnml"
 #include "locomotive/Avelia_Liberty/Avelia_Liberty.pnml"
-
-// Sorting
-#include "sort.pnml"
+--------------------------------------------------------------------*/
