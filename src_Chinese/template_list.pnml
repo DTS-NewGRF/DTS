@@ -1,0 +1,9 @@
+/*--------------------------------------------------------------------
+	YST 열차세트
+--------------------------------------------------------------------*/
+
+// Purchase
+#include "template/purchase.pnml"
+
+// Locomotive and wagon
+#include "template/locomotive_and_wagon.pnml"
