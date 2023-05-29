@@ -1,0 +1,76 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_ICE3V_purchase, "src/locomotive/ICE3V/ICE3V_R.png"){
+	tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. ICE 3V Red,
+--------------------------------------------------------------------*/
+
+spriteset(set_ICE3V_R_purchase, "src/locomotive/ICE3V/ICE3V_R.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_ICE3V_R_engineH, "src/locomotive/ICE3V/ICE3V_R.png"){
+    ICEengine(80, 0)
+}
+
+spriteset(set_ICE3V_R_wagon_L, "src/locomotive/ICE3V/ICE3V_R.png"){
+    ICEwagon_1F_F(80, 30)
+}
+
+spriteset(set_ICE3V_R_wagon_panto, "src/locomotive/ICE3V/ICE3V_R.png"){
+    ICEwagon_panto(80, 60)
+}
+
+spriteset(set_ICE3V_R_wagon_panto_r, "src/locomotive/ICE3V/ICE3V_R.png"){
+    ICEwagon_1F_F_r(80, 60)
+}
+
+spriteset(set_ICE3V_R_wagon, "src/locomotive/ICE3V/ICE3V_R.png") {
+    ICEwagon_1F_F(80, 90)
+}
+
+spriteset(set_ICE3V_R_engineT, "src/locomotive/ICE3V/ICE3V_R.png"){
+    ICEengine_r(80, 120)
+}
+
+/*--------------------------------------------------------------------
+2. ICE 3V Green,
+--------------------------------------------------------------------*/
+spriteset(set_ICE3V_G_purchase, "src/locomotive/ICE3V/ICE3V_G.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_ICE3V_G_engineH, "src/locomotive/ICE3V/ICE3V_G.png"){
+    ICEengine(80, 0)
+}
+
+spriteset(set_ICE3V_G_wagon_L, "src/locomotive/ICE3V/ICE3V_G.png"){
+    ICEwagon_1F_F(80, 30)
+}
+
+spriteset(set_ICE3V_G_wagon_panto, "src/locomotive/ICE3V/ICE3V_G.png"){
+    ICEwagon_panto(80, 60)
+}
+
+spriteset(set_ICE3V_G_wagon_panto_r, "src/locomotive/ICE3V/ICE3V_G.png"){
+    ICEwagon_1F_F_r(80, 60)
+}
+
+spriteset(set_ICE3V_G_wagon, "src/locomotive/ICE3V/ICE3V_G.png") {
+    ICEwagon_1F_F(80, 90)
+}
+
+spriteset(set_ICE3V_G_engineT, "src/locomotive/ICE3V/ICE3V_G.png"){
+    ICEengine_r(80, 120)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_ICE3V_purchase, cargo_subtype) {
+	set_ICE3V_purchase;
+}

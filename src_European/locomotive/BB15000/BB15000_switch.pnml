@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_BB15000_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_BB15000_Korail);     // Korail
+    2: return string(STR_REFIT_LIVERY_BB15000_En_Voyagee); // EN Voyagee
+    return string(STR_REFIT_LIVERY_BB15000_Orginal);
+}
+
+switch(FEAT_TRAINS, SELF, sw_BB15000_engine, cargo_subtype) {
+    1: set_BB15000_Korail_engine;    // KKorail
+    2: set_BB15000_EN_Voyagee_engine; // EN Voyagee
+    set_BB15000_engine;
+}

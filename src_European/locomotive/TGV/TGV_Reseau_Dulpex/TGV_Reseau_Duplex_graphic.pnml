@@ -1,0 +1,83 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_TGV_Reseau_Duplex_purchase, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. TGV Reseau Duplex
+--------------------------------------------------------------------*/
+spriteset(set_TGV_Reseau_DuplexH_purchase, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.png"){
+    tmpl_purchase_for_dualhead(0, 162)
+}
+
+spriteset(set_TGV_Reseau_Duplex_engineH, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_Reseau_Duplex_wagon_start, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_TGV_Reseau_Duplex_wagon_nomal, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_Reseau_Duplex_wagon_bar, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.png") {
+    wagon_bar(80, 81)
+}
+
+spriteset(set_TGV_Reseau_Duplex_wagon_special, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_TGV_Reseau_Duplex_wagon_end, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.png"){
+    wagon_start(80, 135)
+}
+
+spriteset(set_TGV_Reseau_Duplex_engineT, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.png"){
+    engine_r(80, 162)
+}
+
+/*--------------------------------------------------------------------
+2. TGV Lyair
+--------------------------------------------------------------------*/
+spriteset(set_TGV_Reseau_Duplex_LyairH_purchase, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex_Lyair.png"){
+    tmpl_purchase_for_dualhead(0, 162)
+}
+
+spriteset(set_TGV_Reseau_Duplex_Lyair_engineH, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex_Lyair.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_Reseau_Duplex_Lyair_wagon_start, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex_Lyair.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_TGV_Reseau_Duplex_Lyair_wagon_nomal, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex_Lyair.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_Reseau_Duplex_Lyair_wagon_bar, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex_Lyair.png") {
+    wagon_bar(80, 81)
+}
+
+spriteset(set_TGV_Reseau_Duplex_Lyair_wagon_special, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex_Lyair.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_TGV_Reseau_Duplex_Lyair_wagon_end, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex_Lyair.png"){
+    wagon_start(80, 135)
+}
+
+spriteset(set_TGV_Reseau_Duplex_Lyair_engineT, "src/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex_Lyair.png"){
+    engine_r(80, 162)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TGV_Reseau_Duplex_purchase, cargo_subtype) {
+    set_TGV_Reseau_Duplex_purchase;
+}

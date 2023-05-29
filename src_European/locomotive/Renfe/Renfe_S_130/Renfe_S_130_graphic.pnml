@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Renfe_S_130_purchase, "src/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. Alvia
+--------------------------------------------------------------------*/
+spriteset(set_Renfe_S_130_AlviaH_purchase, "src/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png"){
+    tmpl_purchase_for_dualhead(0, 135)
+}
+
+spriteset(set_Renfe_S_130_Alvia_engineH, "src/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Renfe_S_130_Alvia_wagon_start, "src/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_Renfe_S_130_Alvia_wagon, "src/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Renfe_S_130_Alvia_wagon_bar, "src/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png") {
+    wagon_bar(80, 81)
+}
+
+spriteset(set_Renfe_S_130_Alvia_wagon_end, "src/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png"){
+    wagon_start(80, 108)
+}
+
+spriteset(set_Renfe_S_130_Alvia_engineT, "src/locomotive/Renfe/Renfe_S_130/Renfe_S_130_Alvia.png"){
+    engine_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_purchase, cargo_subtype) {
+    set_Renfe_S_130_purchase;
+}

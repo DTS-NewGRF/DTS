@@ -1,0 +1,29 @@
+//wagon
+#include "wagon/passenger_wagon/passenger_wagon_all.pnml"
+#include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
+#include "wagon/TGV_Poste_wagon/TGV_Poste_wagon.pnml"
+
+//locomotive
+#include "locomotive/AGV/AGV.pnml"
+#include "locomotive/BB15000/BB15000.pnml"
+#include "locomotive/Eurostar_E300/Eurostar_E300.pnml"
+#include "locomotive/Eurostar_E320/Eurostar_E320.pnml"
+#include "locomotive/ICE1/ICE1.pnml"
+#include "locomotive/ICE2/ICE2.pnml"
+#include "locomotive/ICE3/ICE3.pnml"
+#include "locomotive/ICE3V/ICE3V.pnml"
+#include "locomotive/ICE4/ICE4.pnml"
+#include "locomotive/Renfe/Renfe_S_100/Renfe_S_100.pnml"
+#include "locomotive/Renfe/Renfe_S_102/Renfe_S_102.pnml"
+#include "locomotive/Renfe/Renfe_S_103/Renfe_S_103.pnml"
+#include "locomotive/Renfe/Renfe_S_130/Renfe_S_130.pnml"
+#include "locomotive/TGV/TGV_Duplex/TGV_Duplex.pnml"
+#include "locomotive/TGV/TGV_Pos/TGV_Pos.pnml"
+#include "locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est.pnml"
+#include "locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.pnml"
+#include "locomotive/TGV/TGV_AR/TGV_AR.pnml"
+#include "locomotive/TGV/TGV_La_Poste/TGV_La_Poste.pnml"
+#include "locomotive/TGV/TGV_M/TGV_M.pnml"
+
+// Sorting
+#include "sort.pnml"
