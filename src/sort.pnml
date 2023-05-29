@@ -40,6 +40,8 @@ sort(FEAT_TRAINS, [
     Keisei_AE_series,          //2084
     HYEL_100,                  //2108
     HYEL_200,                  //2109
+    WGT26CW,                   //2115
+    NSW_TrainLink_D,           //2117
 
     //준고속 180
     GTX,                       //2017
@@ -62,6 +64,7 @@ sort(FEAT_TRAINS, [
     Shinkansen_E2,             //2091
     Shinkansen_E7_W7,          //2094
     HYEL_300,                  //2110
+    WRenfe_S_130,              //2119
 
     //고속열차 331
     EMU320,                    //2022
@@ -98,6 +101,11 @@ sort(FEAT_TRAINS, [
     Shinkansen_E5_H5,          //2092
     Shinkansen_E6,             //2093
     Shinkansen_E8,             //2095
+    NHSRCL_E5,                 //2116
+    THSR_700T,                 //2118
+    Al_Boraq,                  //2120
+    Talgo_350_SRO,             //2121
+    Avelia_Liberty,            //2122
 
     //고속열차 430
     HEMU_430X,                 //2028
@@ -121,6 +129,7 @@ sort(FEAT_TRAINS, [
     JTS_Passenger_Car,         //2083
     VTS_1F_Passenger_Car,      //2105
     Coach_2F,                  //2106
+    WTS_Passenger_Car,         //2113
     KTS_SPassenger_Car,        //2002
     CTS_SPassenger_Car,        //2031
     ETS_SPassenger_Car,        //2061
@@ -131,4 +140,5 @@ sort(FEAT_TRAINS, [
     CTX_Freight_Car,           //2005
     TGV_Poste_wagon,           //2062
     YFXF,                      //2107
+    FLAT_2F,                   //2114
     ]);

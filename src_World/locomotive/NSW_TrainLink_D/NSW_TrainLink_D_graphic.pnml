@@ -1,35 +1,35 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_NSW_TrainLink_D_purchase, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png"){
+spriteset(set_NSW_TrainLink_D_purchase, "src_World/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_NSW_TrainLink_DH_purchase, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png"){
+spriteset(set_NSW_TrainLink_DH_purchase, "src_World/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_NSW_TrainLink_D_engineH, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png"){
+spriteset(set_NSW_TrainLink_D_engineH, "src_World/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png"){
     engine(80, 0)
 }
 
-spriteset(set_NSW_TrainLink_D_wagon_A, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png") {
+spriteset(set_NSW_TrainLink_D_wagon_A, "src_World/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_NSW_TrainLink_D_panto_wagon, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png") {
+spriteset(set_NSW_TrainLink_D_panto_wagon, "src_World/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_NSW_TrainLink_D_wagon_B, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png") {
+spriteset(set_NSW_TrainLink_D_wagon_B, "src_World/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png") {
     wagon_1F(80, 81)
 }
 
-spriteset(set_NSW_TrainLink_D_wagon_B_r, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png") {
+spriteset(set_NSW_TrainLink_D_wagon_B_r, "src_World/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png") {
     wagon_1F_r(80, 81)
 }
 
-spriteset(set_NSW_TrainLink_D_engineT, "src/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png"){
+spriteset(set_NSW_TrainLink_D_engineT, "src_World/locomotive/NSW_TrainLink_D/NSW_TrainLink_D.png"){
     engine_r(80, 108)
 }
 

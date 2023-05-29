@@ -91,3 +91,12 @@ param {
         def_value: 1;
         }
     }
+
+param {
+    World {
+        type: bool;
+        name: string(STR_PARAM_World_NAME);
+        desc: string(STR_PARAM_World_DESC);
+        def_value: 1;
+        }
+    }

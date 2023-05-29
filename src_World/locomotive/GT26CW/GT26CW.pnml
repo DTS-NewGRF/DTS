@@ -10,9 +10,9 @@ GT26CW
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, GT26CW, 1091){
+item(FEAT_TRAINS, WGT26CW, 2115){
     property {
-        name:                           string(STR_GT26CW_NAME);
+        name:                           string(STR_WGT26CW_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1967, 1, 1);
         track_type:                     RAIL;
@@ -49,11 +49,11 @@ item(FEAT_TRAINS, GT26CW, 1091){
         }
         
     graphics {
-        default:                        set_GT26CW_engine;
-        purchase:                       sw_GT26CW_purchase;
+        default:                        set_WGT26CW_engine;
+        purchase:                       sw_WGT26CW_purchase;
         speed:                          Regular_Speed_Train;
         cost_factor:                    10;
         running_cost_factor:            150;
-        additional_text:                string(STR_REFIT_ADDITIONAL_GT26CW);
+        additional_text:                string(STR_REFIT_ADDITIONAL_WGT26CW);
         }
         }

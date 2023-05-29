@@ -10,7 +10,7 @@ GT26CW
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, NSW_TrainLink_D, 1124){
+item(FEAT_TRAINS, NSW_TrainLink_D, 2117){
     property {
         name:                           string(STR_NSW_TrainLink_D_NAME);
         climates_available:             ALL_CLIMATES;

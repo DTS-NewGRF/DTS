@@ -47,6 +47,7 @@ railtypetable {
 #include "src_European/train_list.pnml"
 #include "src_Japanese/train_list.pnml"
 #include "src_Virtual/train_list.pnml"
+#include "src_World/train_list.pnml"
 
 //disabe_train
 if (Chinese) {
@@ -136,5 +137,16 @@ if (Japanese) {
     disable_item(FEAT_TRAINS, 2104); //Nishitetsu_9000
     }
 
-
+if (World) {
+    disable_item(FEAT_TRAINS, 2113); //WTS_Passenger_Car
+    disable_item(FEAT_TRAINS, 2114); //FLAT_2F
+    disable_item(FEAT_TRAINS, 2115); //WGT26CW
+    disable_item(FEAT_TRAINS, 2116); //NHSRCL_E5
+    disable_item(FEAT_TRAINS, 2117); //NSW_TrainLink_D
+    disable_item(FEAT_TRAINS, 2118); //THSR_700T
+    disable_item(FEAT_TRAINS, 2119); //WRenfe_S_130
+    disable_item(FEAT_TRAINS, 2120); //Al_Boraq
+    disable_item(FEAT_TRAINS, 2121); //Talgo_350_SRO
+    disable_item(FEAT_TRAINS, 2122); //Avelia_Liberty
+    }
 

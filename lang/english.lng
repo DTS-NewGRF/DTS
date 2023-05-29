@@ -85,6 +85,14 @@ STR_HYEL_200_NAME                                   :[DTS] HYEL-200
 STR_HYEL_300_NAME                                   :[DTS] HYEL-300
 STR_HYEL_400_NAME                                   :[DTS] HYEL-400
 STR_YFX_NAME                                        :[DTS] YFX
+STR_WGT26CW_NAME                                    :[DTS] GT26CW
+STR_NHSRCL_E5_NAME                                  :[DTS] NHSRCL E5
+STR_NSW_TrainLink_D_NAME                            :[DTS] NSW TrainLink D
+STR_THSR_700T_NAME                                  :[DTS] THSR 700T
+STR_WRenfe_S_130_NAME                               :[DTS] Afrosiyob
+STR_Al_Boraq_NAME                                   :[DTS] Al-Boraq
+STR_Talgo_350_SRO_NAME                              :[DTS] Talgo 350 SRO
+STR_Avelia_Liberty_NAME                             :[DTS] Avelia Liberty
 
 # Metro's name
 STR_Standard_Metro_NAME                             :[DTS] Standard Metro
@@ -123,6 +131,8 @@ STR_JTS_PASS_NAME                                   :[DTS] Japanese Passenger Ca
 STR_VTS_PASS_NAME                                   :[DTS] Virtual Passenger transport vehicle
 STR_VTS_SPASS_NAME                                  :[DTS] Virtual carriage-type passenger transport vehicle
 STR_YFXF_NAME                                       :[DTS] YFX Freight Car
+STR_WTS_PASS_NAME                                   :[DTS] World Passenger Car
+STR_FLAT_2F_NAME                                    :[DTS] Flat Car - American
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                    :Metro Train Speed Variable
@@ -143,6 +153,8 @@ STR_PARAM_European_NAME                             :No European trains allowed.
 STR_PARAM_European_DESC                             :Please check when using European trains. (Default: unused)
 STR_PARAM_Japanese_NAME                             :No Japanese trains allowed.
 STR_PARAM_Japanese_DESC                             :Please check when using Japanese trains. (Default: unused)
+STR_PARAM_World_NAME                                :No World trains allowed.
+STR_PARAM_World_DESC                                :Please check when using World trains. (Default: unused)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_AREX                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}AREX
@@ -241,6 +253,14 @@ STR_REFIT_ADDITIONAL_HYEL_200                       :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_HYEL_300                       :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_HYEL_400                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HYEL-400
 STR_REFIT_ADDITIONAL_YFX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}YFX
+STR_REFIT_ADDITIONAL_WGT26CW                        :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}GT26CW
+STR_REFIT_ADDITIONAL_NHSRCL_E5                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NHSRCL E5
+STR_REFIT_ADDITIONAL_NSW_TrainLink_D                :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NSW TrainLink D
+STR_REFIT_ADDITIONAL_THSR_700T                      :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_WRenfe_S_130                   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Al_Boraq                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Talgo_350_SRO                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Avelia_Liberty                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 
 STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
 STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles
@@ -261,6 +281,7 @@ STR_REFIT_train_configuration_2F                    :{BLACK}train configuration:
 STR_REFIT_train_configuration_Coach                 :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
 STR_REFIT_train_configuration_Coach_Last            :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
 STR_REFIT_train_configuration_YFX_Freight           :{BLACK}train configuration: {GREEN}YFX Freight Car
+STR_REFIT_train_configuration_WPassenger            :{BLACK}train configuration: {GREEN}World Passenger vehicles
 
 # Liveries
 STR_REFIT_LIVERY_AREX_Normal                        :(Normal Color)

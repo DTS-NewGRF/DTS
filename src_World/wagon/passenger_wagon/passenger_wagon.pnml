@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 1층 공통객차
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, WTS_Passenger_Car, 1089){
+item (FEAT_TRAINS, WTS_Passenger_Car, 2113){
     property {
         name:                           string(STR_WTS_PASS_NAME);
         climates_available:             ALL_CLIMATES;
@@ -37,12 +37,12 @@ item (FEAT_TRAINS, WTS_Passenger_Car, 1089){
 	}
 
     graphics {
-		default:				     	sw_Passenge_wagon;
-		purchase:						set_wagon_purchase;
+		default:				     	sw_WPassenge_wagon;
+		purchase:						set_World_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_Passenger_wagon_cargo_subtype_text;
-		additional_text:                string(STR_REFIT_train_configuration);
+        cargo_subtype_text:             sw_WPassenger_wagon_cargo_subtype_text;
+		additional_text:                string(STR_REFIT_train_configuration_WPassenger);
         }
 	}

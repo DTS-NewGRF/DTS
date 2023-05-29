@@ -1,52 +1,52 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_engineH, cargo_subtype) {
-    set_Renfe_S_130_Aprosiyob_engineH;    // Aprosiyob
+switch(FEAT_TRAINS, SELF, sw_WRenfe_S_130_engineH, cargo_subtype) {
+    set_WRenfe_S_130_Aprosiyob_engineH;    // Aprosiyob
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_engineT, cargo_subtype) {
-    set_Renfe_S_130_Aprosiyob_engineT;    // Aprosiyob
+switch(FEAT_TRAINS, SELF, sw_WRenfe_S_130_engineT, cargo_subtype) {
+    set_WRenfe_S_130_Aprosiyob_engineT;    // Aprosiyob
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    set_Renfe_S_130_Aprosiyob_engineT;
+switch(FEAT_TRAINS, SELF, sw_WRenfe_S_130_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1:set_WRenfe_S_130_Aprosiyob_engineT;
+    sw_WRenfe_S_130_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_start, cargo_subtype) {
-    set_Renfe_S_130_Aprosiyob_wagon_start;    // Aprosiyob
+switch(FEAT_TRAINS, SELF, sw_WRenfe_S_130_wagon_start, cargo_subtype) {
+    set_WRenfe_S_130_Aprosiyob_wagon_start;    // Aprosiyob
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_middle, cargo_subtype) {
-    set_Renfe_S_130_Aprosiyob_wagon;    // Aprosiyob
+switch(FEAT_TRAINS, SELF, sw_WRenfe_S_130_wagon_middle, cargo_subtype) {
+    set_WRenfe_S_130_Aprosiyob_wagon;    // Aprosiyob
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_bar, cargo_subtype) {
-    set_Renfe_S_130_Aprosiyob_wagon_bar;    // Aprosiyob
+switch(FEAT_TRAINS, SELF, sw_WRenfe_S_130_bar, cargo_subtype) {
+    set_WRenfe_S_130_Aprosiyob_wagon_bar;    // Aprosiyob
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_end, cargo_subtype) {
-    set_Renfe_S_130_Aprosiyob_wagon_end;    // Aprosiyob
+switch(FEAT_TRAINS, SELF, sw_WRenfe_S_130_wagon_end, cargo_subtype) {
+    set_WRenfe_S_130_Aprosiyob_wagon_end;    // Aprosiyob
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_bar, (position_in_consist %5) + 1) {
-    1: sw_Renfe_S_130_bar;
-    sw_Renfe_S_130_wagon_middle;
+switch(FEAT_TRAINS, SELF, sw_WRenfe_S_130_wagon_bar, (position_in_consist %5) + 1) {
+    1: sw_WRenfe_S_130_bar;
+    sw_WRenfe_S_130_wagon_middle;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    Renfe_S_130: sw_Renfe_S_130_wagon_end;
-    sw_Renfe_S_130_wagon_bar;
+switch(FEAT_TRAINS, SELF, sw_WRenfe_S_130_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
+    WRenfe_S_130: sw_WRenfe_S_130_wagon_end;
+    sw_WRenfe_S_130_wagon_bar;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Renfe_S_130: sw_Renfe_S_130_wagon_start;
-    sw_Renfe_S_130_wagon_rear;
+switch(FEAT_TRAINS, SELF, sw_WRenfe_S_130_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    WRenfe_S_130: sw_WRenfe_S_130_wagon_start;
+    sw_WRenfe_S_130_wagon_rear;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_attach, vehicle_type_id) {
-    Renfe_S_130:            return CB_RESULT_ATTACH_ALLOW;
-    WTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+switch(FEAT_TRAINS, SELF, sw_WRenfe_S_130_wagon_attach, vehicle_type_id) {
+    WRenfe_S_130:            return CB_RESULT_ATTACH_ALLOW;
+    WTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }
