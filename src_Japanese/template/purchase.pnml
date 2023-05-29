@@ -1,0 +1,35 @@
+// Template - Purchase image
+template tmpl_purchase_detail(x, y, w, h, offX, offY) {
+    [   0,    0,    1,    1,    0,    0]
+    [   0,    0,    1,    1,    0,    0]
+    [   0,    0,    1,    1,    0,    0]
+    [   0,    0,    1,    1,    0,    0]
+    [   0,    0,    1,    1,    0,    0]
+    [   0,    0,    1,    1,    0,    0]
+    [   x,    y,    w,    h, offX, offY]
+    [   0,    0,    1,    1,    0,    0]
+}
+
+template tmpl_purchase_for_dualhead(x, y) {
+    tmpl_purchase_detail(x, y, 70, 15, -25, -8)
+}
+
+template tmpl_purchase(x, y) {
+    tmpl_purchase_detail(x, y, 70, 15, -25, -8)
+}
+
+template tmpl_single_purchase(x, y) {
+    tmpl_purchase_detail(x, y, 70, 15, -39, -8)
+}
+
+template tmpl_wagon_purchase(x, y) {
+    tmpl_purchase_detail(x, y, 70, 15, -38, -8)
+}
+
+template tmpl_Flat_1F_purchase(x, y) {
+    tmpl_purchase_detail(x, y, 70, 15, -38, -8)
+}
+
+template tmpl_Flat_2F_purchase(x, y) {
+    tmpl_purchase_detail(x, y, 70, 15, -38, -8)
+}

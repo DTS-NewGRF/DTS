@@ -1,0 +1,75 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Shinkansen_700_purchase, "src/locomotive/Shinkansen_700/700.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1 700계 오리지널
+--------------------------------------------------------------------*/
+spriteset(set_700H_purchase, "src/locomotive/Shinkansen_700/700.png"){
+    tmpl_purchase_for_dualhead(0, 81)
+}
+
+spriteset(set_700_engineH, "src/locomotive/Shinkansen_700/700.png"){
+    engine(80, 0)
+}
+
+spriteset(set_700_panto_wagon, "src/locomotive/Shinkansen_700/700.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_700_panto_wagon_r, "src/locomotive/Shinkansen_700/700.png"){
+    wagon_1F_F_r(80, 27)
+}
+
+spriteset(set_700_wagon, "src/locomotive/Shinkansen_700/700.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_700_wagon_r, "src/locomotive/Shinkansen_700/700.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_700_engineT, "src/locomotive/Shinkansen_700/700.png"){
+    engine_r(80, 81)
+}
+
+/*--------------------------------------------------------------------
+2 700계 히카리 레일스타
+--------------------------------------------------------------------*/
+spriteset(set_700_RSH_purchase, "src/locomotive/Shinkansen_700/700_RS.png"){
+    tmpl_purchase_for_dualhead(0, 81)
+}
+
+spriteset(set_700_RS_engineH, "src/locomotive/Shinkansen_700/700_RS.png"){
+    engine(80, 0)
+}
+
+spriteset(set_700_RS_panto_wagon, "src/locomotive/Shinkansen_700/700_RS.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_700_RS_panto_wagon_r, "src/locomotive/Shinkansen_700/700_RS.png"){
+    wagon_1F_F_r(80, 27)
+}
+
+spriteset(set_700_RS_wagon, "src/locomotive/Shinkansen_700/700_RS.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_700_RS_wagon_r, "src/locomotive/Shinkansen_700/700_RS.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_700_RS_engineT, "src/locomotive/Shinkansen_700/700_RS.png"){
+    engine_r(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_700_purchase, cargo_subtype) {
+    set_Shinkansen_700_purchase;
+}

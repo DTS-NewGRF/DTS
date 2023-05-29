@@ -1,0 +1,75 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Shinkansen_N700_S_purchase, "src/locomotive/Shinkansen_N700_S/N700S.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1 N700S계 도카이도-산요
+--------------------------------------------------------------------*/
+spriteset(set_N700S_TH_purchase, "src/locomotive/Shinkansen_N700_S/N700S.png"){
+    tmpl_purchase_for_dualhead(0, 81)
+}
+
+spriteset(set_N700S_T_engineH, "src/locomotive/Shinkansen_N700_S/N700S.png"){
+    engine(80, 0)
+}
+
+spriteset(set_N700S_T_panto_wagon, "src/locomotive/Shinkansen_N700_S/N700S.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_N700S_T_panto_wagon_r, "src/locomotive/Shinkansen_N700_S/N700S.png"){
+    wagon_1F_F_r(80, 27)
+}
+
+spriteset(set_N700S_T_wagon, "src/locomotive/Shinkansen_N700_S/N700S.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_N700S_T_wagon_r, "src/locomotive/Shinkansen_N700_S/N700S.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_N700S_T_engineT, "src/locomotive/Shinkansen_N700_S/N700S.png"){
+    engine_r(80, 81)
+}
+
+/*--------------------------------------------------------------------
+2 N700S계 니시큐슈
+--------------------------------------------------------------------*/
+spriteset(set_N700S_KH_purchase, "src/locomotive/Shinkansen_N700_S/N700S_K.png"){
+    tmpl_purchase_for_dualhead(0, 81)
+}
+
+spriteset(set_N700S_K_engineH, "src/locomotive/Shinkansen_N700_S/N700S_K.png"){
+    engine(80, 0)
+}
+
+spriteset(set_N700S_K_panto_wagon, "src/locomotive/Shinkansen_N700_S/N700S_K.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_N700S_K_panto_wagon_r, "src/locomotive/Shinkansen_N700_S/N700S_K.png"){
+    wagon_1F_F_r(80, 27)
+}
+
+spriteset(set_N700S_K_wagon, "src/locomotive/Shinkansen_N700_S/N700S_K.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_N700S_K_wagon_r, "src/locomotive/Shinkansen_N700_S/N700S_K.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_N700S_K_engineT, "src/locomotive/Shinkansen_N700_S/N700S_K.png"){
+    engine_r(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700S_purchase, cargo_subtype) {
+    set_Shinkansen_N700_S_purchase;
+}
