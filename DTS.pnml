@@ -45,6 +45,7 @@ railtypetable {
 #include "src/train_list.pnml"
 #include "src_Chinese/train_list.pnml"
 #include "src_European/train_list.pnml"
+#include "src_Japanese/train_list.pnml"
 
 //disabe_train
 if (Chinese) {
@@ -108,5 +109,31 @@ if (European) {
     disable_item(FEAT_TRAINS, 2081); //TGV_La_Poste
     disable_item(FEAT_TRAINS, 2082); //TGV_M
     }
+
+if (Japanese) {
+    disable_item(FEAT_TRAINS, 2083); //JTS_Passenger_Car
+    disable_item(FEAT_TRAINS, 2084); //Keisei_AE_series
+    disable_item(FEAT_TRAINS, 2085); //Shinkansen_0
+    disable_item(FEAT_TRAINS, 2086); //Shinkansen_500
+    disable_item(FEAT_TRAINS, 2087); //Shinkansen_700
+    disable_item(FEAT_TRAINS, 2088); //Shinkansen_800
+    disable_item(FEAT_TRAINS, 2089); //Shinkansen_N700
+    disable_item(FEAT_TRAINS, 2090); //Shinkansen_N700_S
+    disable_item(FEAT_TRAINS, 2091); //Shinkansen_E2
+    disable_item(FEAT_TRAINS, 2092); //Shinkansen_E5_H5
+    disable_item(FEAT_TRAINS, 2093); //Shinkansen_E6
+    disable_item(FEAT_TRAINS, 2094); //Shinkansen_E7_W7
+    disable_item(FEAT_TRAINS, 2095); //Shinkansen_E8
+    disable_item(FEAT_TRAINS, 2096); //Shinkansen_923
+    disable_item(FEAT_TRAINS, 2097); //Nishitetsu_1000
+    disable_item(FEAT_TRAINS, 2098); //Nishitetsu_2000
+    disable_item(FEAT_TRAINS, 2099); //Nishitetsu_3000
+    disable_item(FEAT_TRAINS, 2100); //Nishitetsu_5000
+    disable_item(FEAT_TRAINS, 2101); //Nishitetsu_6000
+    disable_item(FEAT_TRAINS, 2102); //Nishitetsu_7000
+    disable_item(FEAT_TRAINS, 2103); //Nishitetsu_8000
+    disable_item(FEAT_TRAINS, 2104); //Nishitetsu_9000
+    }
+
 
 

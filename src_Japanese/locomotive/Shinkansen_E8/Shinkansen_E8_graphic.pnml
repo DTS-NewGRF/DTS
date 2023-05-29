@@ -1,38 +1,38 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Shinkansen_E8_purchase, "src/locomotive/Shinkansen_E8/Shinkansen_E8.png"){
+spriteset(set_Shinkansen_E8_purchase, "src_Japanese/locomotive/Shinkansen_E8/Shinkansen_E8.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. E8
 --------------------------------------------------------------------*/
-spriteset(set_Shinkansen_E8H_purchase, "src/locomotive/Shinkansen_E8/Shinkansen_E8.png"){
+spriteset(set_Shinkansen_E8H_purchase, "src_Japanese/locomotive/Shinkansen_E8/Shinkansen_E8.png"){
     tmpl_purchase_for_dualhead(0, 108)
 }
 
-spriteset(set_Shinkansen_E8_engineH, "src/locomotive/Shinkansen_E8/Shinkansen_E8.png"){
+spriteset(set_Shinkansen_E8_engineH, "src_Japanese/locomotive/Shinkansen_E8/Shinkansen_E8.png"){
     engine(80, 0)
 }
 
-spriteset(set_Shinkansen_E8_wagon_start, "src/locomotive/Shinkansen_E8/Shinkansen_E8.png"){
+spriteset(set_Shinkansen_E8_wagon_start, "src_Japanese/locomotive/Shinkansen_E8/Shinkansen_E8.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_Shinkansen_E8_wagon, "src/locomotive/Shinkansen_E8/Shinkansen_E8.png") {
+spriteset(set_Shinkansen_E8_wagon, "src_Japanese/locomotive/Shinkansen_E8/Shinkansen_E8.png") {
     wagon_1F(80, 54)
 }
 
-spriteset(set_Shinkansen_E8_wagon_r, "src/locomotive/Shinkansen_E8/Shinkansen_E8.png") {
+spriteset(set_Shinkansen_E8_wagon_r, "src_Japanese/locomotive/Shinkansen_E8/Shinkansen_E8.png") {
     wagon_1F_r(80, 54)
 }
 
-spriteset(set_Shinkansen_E8_wagon_end, "src/locomotive/Shinkansen_E8/Shinkansen_E8.png"){
+spriteset(set_Shinkansen_E8_wagon_end, "src_Japanese/locomotive/Shinkansen_E8/Shinkansen_E8.png"){
     wagon_start(80, 81)
 }
 
-spriteset(set_Shinkansen_E8_engineT, "src/locomotive/Shinkansen_E8/Shinkansen_E8.png"){
+spriteset(set_Shinkansen_E8_engineT, "src_Japanese/locomotive/Shinkansen_E8/Shinkansen_E8.png"){
     engine_r(80, 108)
 }
 

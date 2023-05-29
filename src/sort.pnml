@@ -13,6 +13,14 @@ sort(FEAT_TRAINS, [
     Hyundai_Rotem_Mitsubishi,  //2057
     Hyundai_Rotem_R,           //2058
     IKK_SP_1900,               //2059
+    Nishitetsu_1000,           //2097
+    Nishitetsu_2000,           //2098
+    Nishitetsu_3000,           //2099
+    Nishitetsu_5000,           //2100
+    Nishitetsu_6000,           //2101
+    Nishitetsu_7000,           //2102
+    Nishitetsu_8000,           //2103
+    Nishitetsu_9000,           //2104
 
     //통근열차
     H2_WJ,                     //2008
@@ -29,6 +37,7 @@ sort(FEAT_TRAINS, [
     HXD3C,                     //2050
     NJ2,                       //2051
     BB15000,                   //2064
+    Keisei_AE_series,          //2084
 
     //준고속 180
     GTX,                       //2017
@@ -45,6 +54,11 @@ sort(FEAT_TRAINS, [
     ICE2,                      //2068
     ICE4,                      //2071
     Renfe_S_130,               //2075
+    Shinkansen_0,              //2085
+    Shinkansen_700,            //2087
+    Shinkansen_800,            //2088
+    Shinkansen_E2,             //2091
+    Shinkansen_E7_W7,          //2094
 
     //고속열차 331
     EMU320,                    //2022
@@ -75,6 +89,12 @@ sort(FEAT_TRAINS, [
     TGV_AR,                    //2080
     TGV_La_Poste,              //2081
     TGV_M,                     //2082
+    Shinkansen_500,            //2086
+    Shinkansen_N700,           //2089
+    Shinkansen_N700_S,         //2090
+    Shinkansen_E5_H5,          //2092
+    Shinkansen_E6,             //2093
+    Shinkansen_E8,             //2095
 
     //고속열차 430
     HEMU_430X,                 //2028
@@ -87,11 +107,13 @@ sort(FEAT_TRAINS, [
     //고속열차 600
     VHST_600X,                 //2029
     CRH380AJ,                  //2044
+    Shinkansen_923,            //2096
 
     //객차
     KTS_Passenger_Car,         //2001
     CTS_Passenger_Car,         //2030
     ETS_Passenger_Car,         //2060
+    JTS_Passenger_Car,         //2083
     KTS_SPassenger_Car,        //2002
     CTS_SPassenger_Car,        //2031
     ETS_SPassenger_Car,        //2061

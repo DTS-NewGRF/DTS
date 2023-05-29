@@ -10,7 +10,7 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Shinkansen_E6, 1057){
+item(FEAT_TRAINS, Shinkansen_E6, 2093){
     property {
         name:                           string(STR_Shinkansen_E6_NAME);
         climates_available:             ALL_CLIMATES;
@@ -52,11 +52,11 @@ item(FEAT_TRAINS, Shinkansen_E6, 1057){
     graphics {
         default:                        sw_Shinkansen_E6_engine;
         purchase:                       sw_Shinkansen_E6_purchase;
+        speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         can_attach_wagon:               sw_Shinkansen_E6_wagon_attach;
-        start_stop:                     sw_YST_train_start_stop_6;
         additional_text:                string(STR_REFIT_ADDITIONAL_Shinkansen_E6);
         }
         

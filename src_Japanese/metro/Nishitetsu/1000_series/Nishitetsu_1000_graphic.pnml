@@ -1,106 +1,106 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Nishitetsu_1000_purchase, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal.png"){
+spriteset(set_Nishitetsu_1000_purchase, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. 니시테츠 1000형 - Normal
 --------------------------------------------------------------------*/
-spriteset(set_Nishitetsu_1000H_purchase, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal.png"){
+spriteset(set_Nishitetsu_1000H_purchase, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal.png"){
     tmpl_purchase_for_dualhead(0, 81)
 }
 
-spriteset(set_Nishitetsu_1000_Normal_engineH, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal.png"){
+spriteset(set_Nishitetsu_1000_Normal_engineH, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal.png"){
     engine(80, 0)
 }
 
-spriteset(set_Nishitetsu_1000_Normal_wagon, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal.png") {
+spriteset(set_Nishitetsu_1000_Normal_wagon, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_Nishitetsu_1000_Normal_wagon_r, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal.png") {
+spriteset(set_Nishitetsu_1000_Normal_wagon_r, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Nishitetsu_1000_Normal_engineT, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal.png"){
+spriteset(set_Nishitetsu_1000_Normal_engineT, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal.png"){
     engine_r(80, 81)
 }
 
 /*--------------------------------------------------------------------
 2. 니시테츠 1000형 - Normal Aircon
 --------------------------------------------------------------------*/
-spriteset(set_Nishitetsu_1000_Normal_Aircon_engineH, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal_Aircon.png"){
+spriteset(set_Nishitetsu_1000_Normal_Aircon_engineH, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal_Aircon.png"){
     engine(80, 0)
 }
 
-spriteset(set_Nishitetsu_1000_Normal_Aircon_wagon, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal_Aircon.png") {
+spriteset(set_Nishitetsu_1000_Normal_Aircon_wagon, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal_Aircon.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_Nishitetsu_1000_Normal_Aircon_wagon_r, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal_Aircon.png") {
+spriteset(set_Nishitetsu_1000_Normal_Aircon_wagon_r, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal_Aircon.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Nishitetsu_1000_Normal_Aircon_engineT, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal_Aircon.png"){
+spriteset(set_Nishitetsu_1000_Normal_Aircon_engineT, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Normal_Aircon.png"){
     engine_r(80, 81)
 }
 
 /*--------------------------------------------------------------------
 3. 니시테츠 1000형 - Original
 --------------------------------------------------------------------*/
-spriteset(set_Nishitetsu_1000_Original_engineH, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Original.png"){
+spriteset(set_Nishitetsu_1000_Original_engineH, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Original.png"){
     engine(80, 0)
 }
 
-spriteset(set_Nishitetsu_1000_Original_wagon, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Original.png") {
+spriteset(set_Nishitetsu_1000_Original_wagon, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Original.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_Nishitetsu_1000_Original_wagon_r, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Original.png") {
+spriteset(set_Nishitetsu_1000_Original_wagon_r, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Original.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Nishitetsu_1000_Original_engineT, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Original.png"){
+spriteset(set_Nishitetsu_1000_Original_engineT, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Original.png"){
     engine_r(80, 81)
 }
 
 /*--------------------------------------------------------------------
 4. 니시테츠 1000형 - Express
 --------------------------------------------------------------------*/
-spriteset(set_Nishitetsu_1000_Express_engineH, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Express.png"){
+spriteset(set_Nishitetsu_1000_Express_engineH, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Express.png"){
     engine(80, 0)
 }
 
-spriteset(set_Nishitetsu_1000_Express_wagon, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Express.png") {
+spriteset(set_Nishitetsu_1000_Express_wagon, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Express.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_Nishitetsu_1000_Express_wagon_r, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Express.png") {
+spriteset(set_Nishitetsu_1000_Express_wagon_r, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Express.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Nishitetsu_1000_Express_engineT, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Express.png"){
+spriteset(set_Nishitetsu_1000_Express_engineT, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Express.png"){
     engine_r(80, 81)
 }
 
 /*--------------------------------------------------------------------
 4. 니시테츠 1000형 - Last_Run
 --------------------------------------------------------------------*/
-spriteset(set_Nishitetsu_1000_Last_Run_engineH, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Last_Run.png"){
+spriteset(set_Nishitetsu_1000_Last_Run_engineH, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Last_Run.png"){
     engine(80, 0)
 }
 
-spriteset(set_Nishitetsu_1000_Last_Run_wagon, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Last_Run.png") {
+spriteset(set_Nishitetsu_1000_Last_Run_wagon, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Last_Run.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_Nishitetsu_1000_Last_Run_wagon_r, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Last_Run.png") {
+spriteset(set_Nishitetsu_1000_Last_Run_wagon_r, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Last_Run.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Nishitetsu_1000_Last_Run_engineT, "src/metro/Nishitetsu/1000_series/Nishitetsu_1000_Last_Run.png"){
+spriteset(set_Nishitetsu_1000_Last_Run_engineT, "src_Japanese/metro/Nishitetsu/1000_series/Nishitetsu_1000_Last_Run.png"){
     engine_r(80, 81)
 }
 

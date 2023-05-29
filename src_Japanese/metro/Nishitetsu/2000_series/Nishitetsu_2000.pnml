@@ -10,7 +10,7 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Nishitetsu_2000, 1140){
+item(FEAT_TRAINS, Nishitetsu_2000, 2098){
     property {
         name:                           string(STR_Nishitetsu_2000_NAME);
         climates_available:             ALL_CLIMATES;
@@ -52,6 +52,7 @@ item(FEAT_TRAINS, Nishitetsu_2000, 1140){
 	graphics {
         default:                        sw_Nishitetsu_2000_engine;
         purchase:                       sw_Nishitetsu_2000_purchase;
+        speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

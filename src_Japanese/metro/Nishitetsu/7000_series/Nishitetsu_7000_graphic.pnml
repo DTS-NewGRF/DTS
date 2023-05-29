@@ -1,33 +1,33 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Nishitetsu_7000_purchase, "src/metro/Nishitetsu/7000_series/Nishitetsu_7000.png"){
+spriteset(set_Nishitetsu_7000_purchase, "src_Japanese/metro/Nishitetsu/7000_series/Nishitetsu_7000.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. 니시테츠 7000형
 --------------------------------------------------------------------*/
-spriteset(set_Nishitetsu_7000H_purchase, "src/metro/Nishitetsu/7000_series/Nishitetsu_7000.png"){
+spriteset(set_Nishitetsu_7000H_purchase, "src_Japanese/metro/Nishitetsu/7000_series/Nishitetsu_7000.png"){
     tmpl_purchase_for_dualhead(0, 27)
 }
 
-spriteset(set_Nishitetsu_7000_engineH, "src/metro/Nishitetsu/7000_series/Nishitetsu_7000.png"){
+spriteset(set_Nishitetsu_7000_engineH, "src_Japanese/metro/Nishitetsu/7000_series/Nishitetsu_7000.png"){
     engine(80, 0)
 }
 
-spriteset(set_Nishitetsu_7000_engineT, "src/metro/Nishitetsu/7000_series/Nishitetsu_7000.png"){
+spriteset(set_Nishitetsu_7000_engineT, "src_Japanese/metro/Nishitetsu/7000_series/Nishitetsu_7000.png"){
     engine_r(80, 27)
 }
 
 /*--------------------------------------------------------------------
 1. 니시테츠 7050형
 --------------------------------------------------------------------*/
-spriteset(set_Nishitetsu_7050_engineH, "src/metro/Nishitetsu/7000_series/Nishitetsu_7050.png"){
+spriteset(set_Nishitetsu_7050_engineH, "src_Japanese/metro/Nishitetsu/7000_series/Nishitetsu_7050.png"){
     engine(80, 0)
 }
 
-spriteset(set_Nishitetsu_7050_engineT, "src/metro/Nishitetsu/7000_series/Nishitetsu_7050.png"){
+spriteset(set_Nishitetsu_7050_engineT, "src_Japanese/metro/Nishitetsu/7000_series/Nishitetsu_7050.png"){
     engine_r(80, 27)
 }
 /*--------------------------------------------------------------------

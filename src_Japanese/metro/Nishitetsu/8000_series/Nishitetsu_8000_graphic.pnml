@@ -1,30 +1,30 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Nishitetsu_8000_purchase, "src/metro/Nishitetsu/8000_series/Nishitetsu_8000.png"){
+spriteset(set_Nishitetsu_8000_purchase, "src_Japanese/metro/Nishitetsu/8000_series/Nishitetsu_8000.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
 1. 니시테츠 8000형
 --------------------------------------------------------------------*/
-spriteset(set_Nishitetsu_8000H_purchase, "src/metro/Nishitetsu/8000_series/Nishitetsu_8000.png"){
+spriteset(set_Nishitetsu_8000H_purchase, "src_Japanese/metro/Nishitetsu/8000_series/Nishitetsu_8000.png"){
     tmpl_purchase_for_dualhead(0, 81)
 }
 
-spriteset(set_Nishitetsu_8000_engineH, "src/metro/Nishitetsu/8000_series/Nishitetsu_8000.png"){
+spriteset(set_Nishitetsu_8000_engineH, "src_Japanese/metro/Nishitetsu/8000_series/Nishitetsu_8000.png"){
     engine(80, 0)
 }
 
-spriteset(set_Nishitetsu_8000_wagon, "src/metro/Nishitetsu/8000_series/Nishitetsu_8000.png") {
+spriteset(set_Nishitetsu_8000_wagon, "src_Japanese/metro/Nishitetsu/8000_series/Nishitetsu_8000.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_Nishitetsu_8000_panto_wagon, "src/metro/Nishitetsu/8000_series/Nishitetsu_8000.png") {
+spriteset(set_Nishitetsu_8000_panto_wagon, "src_Japanese/metro/Nishitetsu/8000_series/Nishitetsu_8000.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Nishitetsu_8000_engineT, "src/metro/Nishitetsu/8000_series/Nishitetsu_8000.png"){
+spriteset(set_Nishitetsu_8000_engineT, "src_Japanese/metro/Nishitetsu/8000_series/Nishitetsu_8000.png"){
     engine_r(80, 81)
 }
 

@@ -67,6 +67,27 @@ STR_TGV_La_Poste_NAME                               :[DTS] TGV 라포스트
 STR_TGV_Duplex_NAME                                 :[DTS] TGV 듀플렉스
 STR_TGV_Pos_NAME                                    :[DTS] TGV 포스
 STR_TGV_M_NAME                                      :[DTS] TGV M
+STR_Kse2_NAME                                       :[DTS] 케이세이 AE형 2세대
+STR_Shinkansen_0_NAME                               :[DTS] 신칸센 0계
+STR_Shinkansen_500_NAME                             :[DTS] 신칸센 500계
+STR_Shinkansen_700_NAME                             :[DTS] 신칸센 700계
+STR_Shinkansen_800_NAME                             :[DTS] 신칸센 800계
+STR_Shinkansen_923_NAME                             :[DTS] 신칸센 923형 (닥터 옐로우)
+STR_Shinkansen_E2_NAME                              :[DTS] 신칸센 E2계
+STR_Shinkansen_E5_H5_NAME                           :[DTS] 신칸센 E5·H5계 
+STR_Shinkansen_E6_NAME                              :[DTS] 신칸센 E6계
+STR_Shinkansen_E7_W7_NAME                           :[DTS] 신칸센 E7·W7계
+STR_Shinkansen_E8_NAME                              :[DTS] 신칸센 E8계
+STR_Shinkansen_N700_NAME                            :[DTS] 신칸센 N700계
+STR_Shinkansen_N700S_NAME                           :[DTS] 신칸센 N700S계
+STR_Nishitetsu_1000_NAME                            :[DTS] 니시테츠 1000형
+STR_Nishitetsu_2000_NAME                            :[DTS] 니시테츠 2000형
+STR_Nishitetsu_3000_NAME                            :[DTS] 니시테츠 3000형
+STR_Nishitetsu_5000_NAME                            :[DTS] 니시테츠 5000형
+STR_Nishitetsu_6000_NAME                            :[DTS] 니시테츠 6000형
+STR_Nishitetsu_7000_NAME                            :[DTS] 니시테츠 7000형
+STR_Nishitetsu_8000_NAME                            :[DTS] 니시테츠 8000형
+STR_Nishitetsu_9000_NAME                            :[DTS] 니시테츠 9000형
 
 # Metro's name
 STR_Standard_Metro_NAME                             :[DTS] 한국형 표준전동차
@@ -93,6 +114,7 @@ STR_CLuggage_Car_NAME                               :[DTS] 중국 수화물차
 STR_ETS_PASS_NAME                                   :[DTS] 유럽 승객 수송 차량
 STR_ETS_SPASS_NAME                                  :[DTS] 유럽 객차형 승객 수송 차량
 STR_TGV_Poste_wagon_NAME                            :[DTS] TGV 라포스트 화차
+STR_JTS_PASS_NAME                                   :[DTS] 일본 승객 수송 차량
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                    :지하철 속도변수
@@ -111,6 +133,8 @@ STR_PARAM_Hong_Kong_NAME                            :홍콩형 열차 사용 여
 STR_PARAM_Hong_Kong_DESC                            :홍콩형 열차를 사용시 체크하세요. (기본:사용)
 STR_PARAM_European_NAME                             :유럽형 열차 사용 여부
 STR_PARAM_European_DESC                             :유럽형 열차를 사용시 체크하세요. (기본:사용)
+STR_PARAM_Japanese_NAME                             :일본형 열차 사용 여부
+STR_PARAM_Japanese_DESC                             :일본형 열차를 사용시 체크하세요. (기본:사용)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_AREX                           :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2025년부터 운행될 인천국제공항철도 AREX 통근형 2세대 전동차.
@@ -183,6 +207,27 @@ STR_REFIT_ADDITIONAL_TGV_AR                         :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV 라포스트
 STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
 STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV M
+STR_REFIT_ADDITIONAL_Kse2                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_0                   :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_500                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_700                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_800                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_923                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_E2                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_E5_H5               :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}E6, E8
+STR_REFIT_ADDITIONAL_Shinkansen_E6                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_E7                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_E8                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_N700                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_N700S               :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_Nishitetsu_1000                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 1000
+STR_REFIT_ADDITIONAL_Nishitetsu_2000                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 2000
+STR_REFIT_ADDITIONAL_Nishitetsu_3000                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 3000
+STR_REFIT_ADDITIONAL_Nishitetsu_5000                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 5000
+STR_REFIT_ADDITIONAL_Nishitetsu_6000                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 6000, 니시테츠 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_7000                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 6000, 니시테츠 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_8000                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 8000
+STR_REFIT_ADDITIONAL_Nishitetsu_9000                :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 9000
 
 STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
 STR_REFIT_train_configuration_Passenger             :{BLACK}열차구성: {GREEN}승객 차량용
@@ -197,6 +242,7 @@ STR_REFIT_train_configuration_CLuggage              :{BLACK}열차구성: {GREEN
 STR_REFIT_train_configuration_EPassenger            :{BLACK}열차구성: {GREEN}유럽 승객 차량용
 STR_REFIT_train_configuration_ESPassenger           :{BLACK}열차구성: {GREEN}유럽 객차형 승객 차량용
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}열차구성: {GREEN}TGV 라포스트
+STR_REFIT_train_configuration_JPassenger            :{BLACK}열차구성: {GREEN}일본 승객 차량용
 
 # Liveries locomotive
 STR_REFIT_LIVERY_AREX_Normal                        :(기본 도색)
@@ -297,6 +343,18 @@ STR_REFIT_LIVERY_ICE3V_red                          :(레드 도색)
 STR_REFIT_LIVERY_ICE3V_green                        :(그린 도색)
 STR_REFIT_LIVERY_ICE4_red                           :(레드 도색)
 STR_REFIT_LIVERY_ICE4_green                         :(그린 도색)
+STR_REFIT_LIVERY_Shinkansen_0                       :(오리지널)
+STR_REFIT_LIVERY_Shinkansen_0_renewal               :(리뉴얼)
+STR_REFIT_LIVERY_700_Original                       :(오리지널)
+STR_REFIT_LIVERY_700_Railstar                       :(히카리 레일스타)
+STR_REFIT_LIVERY_N700_Tokaido_Sanyo                 :(도카이도·산요 신칸센)
+STR_REFIT_LIVERY_N700_Sanyo_Kyushu                  :(산요·큐슈 신칸센)
+STR_REFIT_LIVERY_N700S_Tokaido_Sanyo                :(도카이도·산요 신칸센)
+STR_REFIT_LIVERY_N700S_Nishikyushu                  :(니시큐슈 신칸센)
+STR_REFIT_LIVERY_Shinkansen_E2_Pink                 :(E2계 - 분홍)
+STR_REFIT_LIVERY_Shinkansen_E2_Red                  :(E2계 - 빨강)
+STR_REFIT_LIVERY_Shinkansen_E5                      :(신칸센 E5계)
+STR_REFIT_LIVERY_Shinkansen_H5                      :(신칸센 H5계)
 
 # Liveries metro
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(롱 시트)
@@ -312,6 +370,19 @@ STR_REFIT_LIVERY_MTR_CRRC_Changchun                 :(MTR CRRC 창춘 전동차)
 STR_REFIT_LIVERY_MTR_CRRC_Sipang                    :(MTR CRRC 쓰팡 전동차)
 STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_Nomal          :(MTR 현대로탬 R형 일반)
 STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_special        :(MTR 현대로탬 R형 특실)
+STR_REFIT_LIVERY_Nishitetsu_1000_Normal             :(니시테츠 1000형 일반도색)
+STR_REFIT_LIVERY_Nishitetsu_1000_Normal_Aircon      :(니시테츠 1000형 냉방개조)
+STR_REFIT_LIVERY_Nishitetsu_1000_Original           :(니시테츠 1000형 초기도색)
+STR_REFIT_LIVERY_Nishitetsu_1000_Express            :(니시테츠 1000형 특급도색)
+STR_REFIT_LIVERY_Nishitetsu_1000_Last_Run           :(니시테츠 1000형 특별도색)
+STR_REFIT_LIVERY_Nishitetsu_2000_Normal             :(니시테츠 2000형 일반도색)
+STR_REFIT_LIVERY_Nishitetsu_2000_Express            :(니시테츠 2000형 특급도색)
+STR_REFIT_LIVERY_Nishitetsu_5000_MG                 :(니시테츠 5000형 전동발전기)
+STR_REFIT_LIVERY_Nishitetsu_5000_SIV                :(니시테츠 5000형 정지형 인버터)
+STR_REFIT_LIVERY_Nishitetsu_6000                    :(니시테츠 6000형)
+STR_REFIT_LIVERY_Nishitetsu_6050                    :(니시테츠 6050형)
+STR_REFIT_LIVERY_Nishitetsu_7000                    :(니시테츠 7000형)
+STR_REFIT_LIVERY_Nishitetsu_7050                    :(니시테츠 7050형)
 
 # Liveries wagon
 STR_REFIT_LIVERY_Eco_Rail_Passenger_Car             :(에코레일)

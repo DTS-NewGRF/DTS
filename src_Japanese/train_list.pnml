@@ -1,5 +1,3 @@
-/*--------------------------------------------------------------------
-//미공개
 //wagon
 #include "wagon/passenger_wagon/passenger_wagon_all.pnml"
 
@@ -17,7 +15,6 @@
 #include "locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.pnml"
 #include "locomotive/Shinkansen_E8/Shinkansen_E8.pnml"
 #include "locomotive/Shinkansen_923/Shinkansen_923.pnml"
-#include "locomotive/Shinkansen_L0/Shinkansen_L0.pnml"
 
 //Metro
 #include "metro/Nishitetsu/1000_series/Nishitetsu_1000.pnml"
@@ -28,4 +25,3 @@
 #include "metro/Nishitetsu/7000_series/Nishitetsu_7000.pnml"
 #include "metro/Nishitetsu/8000_series/Nishitetsu_8000.pnml"
 #include "metro/Nishitetsu/9000_series/Nishitetsu_9000.pnml"
---------------------------------------------------------------------*/

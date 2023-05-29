@@ -82,3 +82,12 @@ param {
         def_value: 1;
         }
     }
+
+param {
+    Japanese {
+        type: bool;
+        name: string(STR_PARAM_Japanese_NAME);
+        desc: string(STR_PARAM_Japanese_DESC);
+        def_value: 1;
+        }
+    }

@@ -10,7 +10,7 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Shinkansen_0, 1051){
+item(FEAT_TRAINS, Shinkansen_0, 2085){
     property {
         name:                           string(STR_Shinkansen_0_NAME);
         climates_available:             ALL_CLIMATES;
@@ -52,12 +52,12 @@ item(FEAT_TRAINS, Shinkansen_0, 1051){
     graphics {
         default:                        sw_Shinkansen_0_engine;
         purchase:                       sw_Shinkansen_0_purchase;
+        speed:                          Semi_High_SPEED_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         can_attach_wagon:               sw_Shinkansen_0_wagon_attach;
         cargo_subtype_text:             sw_Shinkansen_0_cargo_subtype_text;
-        start_stop:                     sw_YST_train_start_stop_4;
         additional_text:                string(STR_REFIT_ADDITIONAL_Shinkansen_0);
         }
         

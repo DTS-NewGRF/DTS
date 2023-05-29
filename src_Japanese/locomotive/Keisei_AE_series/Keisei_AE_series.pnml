@@ -10,7 +10,7 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Keisei_AE_series, 1142){
+item(FEAT_TRAINS, Keisei_AE_series, 2084){
     property {
         name:                           string(STR_Kse2_NAME);
         climates_available:             ALL_CLIMATES;
@@ -52,6 +52,7 @@ item(FEAT_TRAINS, Keisei_AE_series, 1142){
     graphics {
         default:                        sw_Kse2_engine;
         purchase:                       sw_Kse2_purchase;
+        speed:                          Regular_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
