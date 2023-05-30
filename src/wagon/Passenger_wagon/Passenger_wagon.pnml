@@ -1,11 +1,11 @@
 /*--------------------------------------------------------------------
 1층 공통객차
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, KTS_Passenger_Car, 2001){
+item (FEAT_TRAINS, DTS_Passenger_Car, 2001){
     property {
-        name:                           string(STR_KTS_PASS_NAME);
+        name:                           string(STR_DTS_PASS_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2002, 1, 1);
+        introduction_date:              date(1977, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
 

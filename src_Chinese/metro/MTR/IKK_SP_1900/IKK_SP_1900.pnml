@@ -14,7 +14,7 @@ item(FEAT_TRAINS, IKK_SP_1900, 2059){
     property {
         name:                           string(STR_MTR_IKK_SP_1900_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1979, 1, 1);
+        introduction_date:              date(1999, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -57,11 +57,10 @@ item(FEAT_TRAINS, IKK_SP_1900, 2059){
         cost_factor:                    10;
         running_cost_factor:            150;
         can_attach_wagon:               sw_MTR_IKK_SP_1900_wagon_attach;
-        start_stop:                     sw_CTS_train_start_stop_3;
         additional_text:                string(STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900);
         }
 
-    livery_override(CTS_Passenger_Car) {
+    livery_override(DTS_Passenger_Car) {
         default:                        sw_MTR_IKK_SP_1900_wagon;
         cargo_capacity:                 80;
         loading_speed:                  25;

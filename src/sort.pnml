@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-정렬
+정렬 / 공백 : 2030, 2060, 2083, 2105, 2113
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
     //지하철
@@ -123,13 +123,8 @@ sort(FEAT_TRAINS, [
     YFX,                       //2112
 
     //객차
-    KTS_Passenger_Car,         //2001
-    CTS_Passenger_Car,         //2030
-    ETS_Passenger_Car,         //2060
-    JTS_Passenger_Car,         //2083
-    VTS_1F_Passenger_Car,      //2105
+    DTS_Passenger_Car,         //2001
     Coach_2F,                  //2106
-    WTS_Passenger_Car,         //2113
     KTS_SPassenger_Car,        //2002
     CTS_SPassenger_Car,        //2031
     ETS_SPassenger_Car,        //2061

@@ -58,6 +58,6 @@ switch(FEAT_TRAINS, SELF, sw_CR400BF_C_wagon, [STORE_TEMP(-2, 0x10F), var[0x61, 
 
 switch(FEAT_TRAINS, SELF, sw_CR400BF_C_wagon_attach, vehicle_type_id) {
     CR400BF_C:                  return CB_RESULT_ATTACH_ALLOW;
-    CTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

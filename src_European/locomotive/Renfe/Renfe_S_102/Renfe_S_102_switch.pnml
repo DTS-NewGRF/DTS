@@ -48,6 +48,6 @@ switch(FEAT_TRAINS, SELF, sw_Renfe_S_102_wagon, [STORE_TEMP(-1, 0x10F), var[0x61
 
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_102_wagon_attach, vehicle_type_id) {
     Renfe_S_102:            return CB_RESULT_ATTACH_ALLOW;
-    ETS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

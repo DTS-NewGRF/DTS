@@ -57,6 +57,6 @@ switch(FEAT_TRAINS, SELF, sw_MTR_CNR_Changchun_wagon, [STORE_TEMP(-1, 0x10F), va
 }
 
 switch(FEAT_TRAINS, SELF, sw_MTR_CNR_Changchun_wagon_attach, vehicle_type_id) {
-    CTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

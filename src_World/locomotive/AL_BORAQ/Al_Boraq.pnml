@@ -62,7 +62,7 @@ item(FEAT_TRAINS, Al_Boraq, 2120){
         additional_text:                string(STR_REFIT_ADDITIONAL_Al_Boraq);
         }
 
-    livery_override(WTS_Passenger_Car) {
+    livery_override(DTS_Passenger_Car) {
         default:                        sw_Al_Boraq_wagon;
         cargo_capacity:                 170;
         loading_speed:                  25;

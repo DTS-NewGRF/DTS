@@ -23,6 +23,6 @@ switch(FEAT_TRAINS, SELF, sw_NHSRCL_E5_wagon, [STORE_TEMP(-2, 0x10F), var[0x61, 
 
 switch(FEAT_TRAINS, SELF, sw_NHSRCL_E5_wagon_attach, vehicle_type_id) {
     NHSRCL_E5:              return CB_RESULT_ATTACH_ALLOW;
-    WTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

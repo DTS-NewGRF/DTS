@@ -59,7 +59,7 @@ item(FEAT_TRAINS, Shinkansen_800, 2088){
         additional_text:                string(STR_REFIT_ADDITIONAL_Shinkansen_800);
         }
         
-    livery_override(JTS_Passenger_Car) {
+    livery_override(DTS_Passenger_Car) {
         default:                        sw_Shinkansen_800_wagon;
         cargo_capacity:                 65;
         loading_speed:                  25;

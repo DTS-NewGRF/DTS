@@ -1,5 +1,4 @@
-//wagon
-#include "wagon/passenger_wagon/passenger_wagon.pnml"
+//wagon #include "wagon/passenger_wagon/passenger_wagon.pnml"
 #include "wagon/Coach_2F_wagon/Coach_2F_wagon.pnml"
 #include "wagon/YFX_wagon/YFX_wagon.pnml"
 

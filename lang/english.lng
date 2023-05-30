@@ -115,23 +115,18 @@ STR_Nishitetsu_8000_NAME                            :[DTS] Nishitetsu 8000
 STR_Nishitetsu_9000_NAME                            :[DTS] Nishitetsu 9000
 
 # wagon's name
-STR_KTS_PASS_NAME                                   :[DTS] Passenger car
+STR_DTS_PASS_NAME                                   :[DTS] Passenger car
 STR_KTS_SPASS_NAME                                  :[DTS] carriage-type passenger car
 STR_Generatar_Car_NAME                              :[DTS] Generatar Car
 STR_Luggage_Car_NAME                                :[DTS] Luggage Car
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX Freight Car
-STR_CTS_PASS_NAME                                   :[DTS] Chinese Passenger car
 STR_CTS_SPASS_NAME                                  :[DTS] Chinese carriage-type passenger car
 STR_CGeneratar_Car_NAME                             :[DTS] Chinese Generatar Car
 STR_CLuggage_Car_NAME                               :[DTS] Chinese Luggage Car
-STR_ETS_PASS_NAME                                   :[DTS] European Passenger Car
 STR_ETS_SPASS_NAME                                  :[DTS] European carriage-type passenger transport vehicle
 STR_TGV_Poste_wagon_NAME                            :[DTS] TGV La Poste Freight Car
-STR_JTS_PASS_NAME                                   :[DTS] Japanese Passenger Car
-STR_VTS_PASS_NAME                                   :[DTS] Virtual Passenger transport vehicle
 STR_VTS_SPASS_NAME                                  :[DTS] Virtual carriage-type passenger transport vehicle
 STR_YFXF_NAME                                       :[DTS] YFX Freight Car
-STR_WTS_PASS_NAME                                   :[DTS] World Passenger Car
 STR_FLAT_2F_NAME                                    :[DTS] Flat Car - American
 
 # Parameters
@@ -268,20 +263,15 @@ STR_REFIT_train_configuration_SPassenger            :{BLACK}train configuration:
 STR_REFIT_train_configuration_Generatar             :{BLACK}train configuration: {GREEN}Generatar vehicles
 STR_REFIT_train_configuration_Luggage               :{BLACK}train configuration: {GREEN}Luggage vehicles
 STR_REFIT_train_configuration_CTX                   :{BLACK}train configuration: {GREEN}CTX Freight vehicles
-STR_REFIT_train_configuration_CPassenger            :{BLACK}train configuration: {GREEN}Chinese Passenger vehicles
 STR_REFIT_train_configuration_CSPassenger           :{BLACK}train configuration: {GREEN}Chinese carriage-type Passenger vehicles
 STR_REFIT_train_configuration_CGeneratar            :{BLACK}train configuration: {GREEN}Chinese Generatar vehicles
 STR_REFIT_train_configuration_CLuggage              :{BLACK}train configuration: {GREEN}Chinese Luggage vehicles
-STR_REFIT_train_configuration_EPassenger            :{BLACK}train configuration: {GREEN}European Passenger vehicles
 STR_REFIT_train_configuration_ESPassenger           :{BLACK}train configuration: {GREEN}European carriage-type Passenger vehicles
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}train configuration: {GREEN}TGV La Poste
-STR_REFIT_train_configuration_JPassenger            :{BLACK}train configuration: {GREEN}Japanese Passenger vehicles
-STR_REFIT_train_configuration_1F                    :{BLACK}train configuration: {GREEN}1F passenger vehicles
 STR_REFIT_train_configuration_2F                    :{BLACK}train configuration: {GREEN}2F passenger vehicles
 STR_REFIT_train_configuration_Coach                 :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
 STR_REFIT_train_configuration_Coach_Last            :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
 STR_REFIT_train_configuration_YFX_Freight           :{BLACK}train configuration: {GREEN}YFX Freight Car
-STR_REFIT_train_configuration_WPassenger            :{BLACK}train configuration: {GREEN}World Passenger vehicles
 
 # Liveries
 STR_REFIT_LIVERY_AREX_Normal                        :(Normal Color)
@@ -304,6 +294,10 @@ STR_REFIT_LIVERY_EMU320_CC                          :(EMU-320 Company Colour)
 STR_REFIT_LIVERY_EMU320_BK                          :(EMU-320 Black Livery)
 STR_REFIT_LIVERY_EMU320_SRT                         :(EMU-320 SRT)
 STR_REFIT_LIVERY_EMU320_SRT2                        :(EMU-320 SRT2)
+STR_REFIT_LIVERY_EMU320_ICE                         :(EMU-320 ICE)
+STR_REFIT_LIVERY_EMU320_Euro                        :(EMU-320 Euro)
+STR_REFIT_LIVERY_EMU320_THRS                        :(EMU-320 THRS)
+STR_REFIT_LIVERY_EMU320_JR                          :(EMU-320 JR)
 STR_REFIT_LIVERY_GT26CW_Korail                      :(Korail)
 STR_REFIT_LIVERY_GT26CW_CL                          :(CL)
 STR_REFIT_LIVERY_GT26CW_CY_GW                       :(Chungbuk Yeongdong Gugak & Wine Train)

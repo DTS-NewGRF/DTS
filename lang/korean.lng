@@ -115,23 +115,18 @@ STR_Nishitetsu_8000_NAME                            :[DTS] 니시테츠 8000형
 STR_Nishitetsu_9000_NAME                            :[DTS] 니시테츠 9000형
 
 # wagon's name
-STR_KTS_PASS_NAME                                   :[DTS] 승객 수송 차량
+STR_DTS_PASS_NAME                                   :[DTS] 승객 수송 차량
 STR_KTS_SPASS_NAME                                  :[DTS] 객차형 승객 수송 차량
 STR_Generatar_Car_NAME                              :[DTS] 발전차
 STR_Luggage_Car_NAME                                :[DTS] 수화물차
 STR_CTX_Freight_Car_NAME                            :[DTS] CTX용 화물 수송 차량
-STR_CTS_PASS_NAME                                   :[DTS] 중국 승객 수송 차량
 STR_CTS_SPASS_NAME                                  :[DTS] 중국 객차형 수송 차량
 STR_CGeneratar_Car_NAME                             :[DTS] 중국 발전차
 STR_CLuggage_Car_NAME                               :[DTS] 중국 수화물차
-STR_ETS_PASS_NAME                                   :[DTS] 유럽 승객 수송 차량
 STR_ETS_SPASS_NAME                                  :[DTS] 유럽 객차형 승객 수송 차량
 STR_TGV_Poste_wagon_NAME                            :[DTS] TGV 라포스트 화차
-STR_JTS_PASS_NAME                                   :[DTS] 일본 승객 수송 차량
-STR_VTS_PASS_NAME                                   :[DTS] 가상 승객 수송 차량
 STR_VTS_SPASS_NAME                                  :[DTS] 가상 객차형 승객 차량
 STR_YFXF_NAME                                       :[DTS] YFX용 화차
-STR_WTS_PASS_NAME                                   :[DTS] 월드 승객 수송 차량
 STR_FLAT_2F_NAME                                    :[DTS] 평판화차 - 미국형
 
 # Parameters
@@ -268,20 +263,15 @@ STR_REFIT_train_configuration_SPassenger            :{BLACK}열차구성: {GREEN
 STR_REFIT_train_configuration_Generatar             :{BLACK}열차구성: {GREEN}발전차용
 STR_REFIT_train_configuration_Luggage               :{BLACK}열차구성: {GREEN}수화물차용
 STR_REFIT_train_configuration_CTX                   :{BLACK}열차구성: {GREEN}CTX용 화물차량
-STR_REFIT_train_configuration_CPassenger            :{BLACK}열차구성: {GREEN}중국 승객 차량용
 STR_REFIT_train_configuration_CSPassenger           :{BLACK}열차구성: {GREEN}중국 객차형 승객 차량용
 STR_REFIT_train_configuration_CGeneratar            :{BLACK}열차구성: {GREEN}중국 발전차용
 STR_REFIT_train_configuration_CLuggage              :{BLACK}열차구성: {GREEN}중국 수화물차용
-STR_REFIT_train_configuration_EPassenger            :{BLACK}열차구성: {GREEN}유럽 승객 차량용
 STR_REFIT_train_configuration_ESPassenger           :{BLACK}열차구성: {GREEN}유럽 객차형 승객 차량용
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}열차구성: {GREEN}TGV 라포스트
-STR_REFIT_train_configuration_JPassenger            :{BLACK}열차구성: {GREEN}일본 승객 차량용
-STR_REFIT_train_configuration_1F                    :{BLACK}열차구성: {GREEN}1층 승객 차량용
 STR_REFIT_train_configuration_2F                    :{BLACK}열차구성: {GREEN}2층 승객 차량용
 STR_REFIT_train_configuration_Coach                 :{BLACK}열차구성: {GREEN}객차형 승객 차량용
 STR_REFIT_train_configuration_Coach_Last            :{BLACK}열차구성: {GREEN}객차형 승객 차량용
 STR_REFIT_train_configuration_YFX_Freight           :{BLACK}열차구성: {GREEN}YFX용 화차
-STR_REFIT_train_configuration_WPassenger            :{BLACK}열차구성: {GREEN}월드 승객 차량용
 
 # Liveries locomotive
 STR_REFIT_LIVERY_AREX_Normal                        :(기본 도색)
@@ -301,9 +291,13 @@ STR_REFIT_LIVERY_EMU260SM1                          :(EMU-260 새마을 초기 �
 STR_REFIT_LIVERY_EMU260SM2                          :(EMU-260 새마을 중기 도색)
 STR_REFIT_LIVERY_EMU260SM3                          :(EMU-260 새마을 후기 도색)
 STR_REFIT_LIVERY_EMU320_CC                          :(EMU-320 회사색상)
-STR_REFIT_LIVERY_EMU320_BK                          :(EMU-300 시안)
+STR_REFIT_LIVERY_EMU320_BK                          :(EMU-320 시안)
 STR_REFIT_LIVERY_EMU320_SRT                         :(EMU-320 SRT 시안 1안)
 STR_REFIT_LIVERY_EMU320_SRT2                        :(EMU-320 SRT 컨셉)
+STR_REFIT_LIVERY_EMU320_ICE                         :(EMU-320 ICE)
+STR_REFIT_LIVERY_EMU320_Euro                        :(EMU-320 Euro)
+STR_REFIT_LIVERY_EMU320_THRS                        :(EMU-320 THRS)
+STR_REFIT_LIVERY_EMU320_JR                          :(EMU-320 JR)
 STR_REFIT_LIVERY_GT26CW_Korail                      :(코레일)
 STR_REFIT_LIVERY_GT26CW_CL                          :(철도청)
 STR_REFIT_LIVERY_GT26CW_CY_GW                       :(충북영동국악와인)

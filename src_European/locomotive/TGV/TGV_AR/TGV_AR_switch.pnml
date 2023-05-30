@@ -182,6 +182,6 @@ switch(FEAT_TRAINS, SELF, sw_TGV_AR_power, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_TGV_AR_wagon_attach, vehicle_type_id) {
     TGV_Pos:                return CB_RESULT_ATTACH_ALLOW;
     TGV_AR:            return CB_RESULT_ATTACH_ALLOW;
-    ETS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

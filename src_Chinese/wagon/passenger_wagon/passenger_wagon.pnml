@@ -5,7 +5,7 @@ item (FEAT_TRAINS, CTS_Passenger_Car, 2030){
     property {
         name:                           string(STR_CTS_PASS_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1979, 1, 1);
+        introduction_date:              date(1977, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
 

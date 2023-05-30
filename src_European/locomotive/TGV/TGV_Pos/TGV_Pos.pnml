@@ -63,7 +63,7 @@ item(FEAT_TRAINS, TGV_Pos, 2077){
         additional_text:                string(STR_REFIT_ADDITIONAL_TGV_Pos);
         }
 
-    livery_override(ETS_Passenger_Car) {
+    livery_override(DTS_Passenger_Car) {
         default:                        sw_TGV_Pos_wagon;
         cargo_subtype_text:             sw_TGV_Pos_cargo_subtype_text;
         cargo_capacity:                 85;

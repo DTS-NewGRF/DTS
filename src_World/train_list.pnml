@@ -1,6 +1,5 @@
-//wagon
+//wagon #include "wagon/passenger_wagon/passenger_wagon_all.pnml"
 #include "wagon/Flat_2F_Car/Flat_2F_Car.pnml"
-#include "wagon/passenger_wagon/passenger_wagon_all.pnml"
 
 //locomotive
 #include "locomotive/GT26CW/GT26CW.pnml"

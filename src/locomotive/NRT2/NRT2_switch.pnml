@@ -68,6 +68,6 @@ switch(FEAT_TRAINS, SELF, sw_NRT2_wagon, position_in_consist) {
 
 switch(FEAT_TRAINS, SELF, sw_NRT2_wagon_attach, vehicle_type_id) {
     NRT2:                   return CB_RESULT_ATTACH_ALLOW;
-    KTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

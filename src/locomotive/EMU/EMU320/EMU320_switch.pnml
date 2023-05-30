@@ -5,6 +5,10 @@ switch(FEAT_TRAINS, SELF, sw_EMU320_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_EMU320_CC);     //EMU320_CC
     2: return string(STR_REFIT_LIVERY_EMU320_SRT);    //EMU320_SRT
     3: return string(STR_REFIT_LIVERY_EMU320_SRT2);   //EMU320_SRT2
+    4: return string(STR_REFIT_LIVERY_EMU320_ICE);    //EMU320_DB
+    5: return string(STR_REFIT_LIVERY_EMU320_Euro);   //EMU320_Euro
+    6: return string(STR_REFIT_LIVERY_EMU320_THRS);   //EMU320_THRS
+    7: return string(STR_REFIT_LIVERY_EMU320_JR);     //EMU320_JR
     return string(STR_REFIT_LIVERY_EMU320_BK);
 }
 
@@ -12,6 +16,10 @@ switch(FEAT_TRAINS, SELF, sw_EMU320_engineH, cargo_subtype) {
     1: set_EMU320_CC_engineH;     //EMU320_CC
     2: set_EMU320_SRT_engineH;    //EMU320_SRT
     3: set_EMU320_SRT2_engineH;   //EMU320_SRT2
+    4: set_EMU320_DB_engineH;     //EMU320_DB
+    5: set_EMU320_EURO_engineH;   //EMU320_Euro
+    6: set_EMU320_THSR_engineH;   //EMU320_THRS
+    7: set_EMU320_JR_engineH;     //EMU320_JR
     set_EMU320_BK_engineH;
 }
 
@@ -19,6 +27,10 @@ switch(FEAT_TRAINS, SELF, sw_EMU320_engineT, cargo_subtype) {
     1: set_EMU320_CC_engineT;     //EMU320_CC
     2: set_EMU320_SRT_engineT;    //EMU320_SRT
     3: set_EMU320_SRT2_engineT;   //EMU320_SRT2
+    4: set_EMU320_DB_engineT;     //EMU320_DB
+    5: set_EMU320_EURO_engineT;   //EMU320_Euro
+    6: set_EMU320_THSR_engineT;   //EMU320_THRS
+    7: set_EMU320_JR_engineT;     //EMU320_JR
     set_EMU320_BK_engineT;
 }
 
@@ -31,6 +43,10 @@ switch(FEAT_TRAINS, SELF, sw_EMU320_panto_wagon_cargo_subtype, cargo_subtype) {
     1: set_EMU320_CC_panto_wagon;     //EMU320_CC
     2: set_EMU320_SRT_panto_wagon;    //EMU320_SRT
     3: set_EMU320_SRT2_panto_wagon;   //EMU320_SRT2
+    4: set_EMU320_DB_panto_wagon;     //EMU320_DB
+    5: set_EMU320_EURO_panto_wagon;   //EMU320_Euro
+    6: set_EMU320_THSR_panto_wagon;   //EMU320_THRS
+    7: set_EMU320_JR_panto_wagon;     //EMU320_JR
     set_EMU320_BK_panto_wagon;
 }
 
@@ -38,6 +54,10 @@ switch(FEAT_TRAINS, SELF, sw_EMU320_panto_wagon_r_cargo_subtype, cargo_subtype) 
     1: set_EMU320_CC_panto_wagon_r;     //EMU320_CC
     2: set_EMU320_SRT_panto_wagon_r;    //EMU320_SRT
     3: set_EMU320_SRT2_panto_wagon_r;   //EMU320_SRT2
+    4: set_EMU320_DB_panto_wagon_r;     //EMU320_DB
+    5: set_EMU320_EURO_panto_wagon_r;   //EMU320_Euro
+    6: set_EMU320_THSR_panto_wagon_r;   //EMU320_THRS
+    7: set_EMU320_JR_panto_wagon_r;     //EMU320_JR
     set_EMU320_BK_panto_wagon_r;
 }
 
@@ -45,6 +65,10 @@ switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_front, cargo_subtype) {
     1: set_EMU320_CC_wagon;     //EMU320_CC
     2: set_EMU320_SRT_wagon;    //EMU320_SRT
     3: set_EMU320_SRT2_wagon;   //EMU320_SRT2
+    4: set_EMU320_DB_wagon;     //EMU320_DB
+    5: set_EMU320_EURO_wagon;   //EMU320_Euro
+    6: set_EMU320_THSR_wagon;   //EMU320_THRS
+    7: set_EMU320_JR_wagon;     //EMU320_JR
     set_EMU320_BK_wagon;
 }
 
@@ -52,6 +76,10 @@ switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_tail, cargo_subtype) {
     1: set_EMU320_CC_wagon_r;     //EMU320_CC
     2: set_EMU320_SRT_wagon_r;    //EMU320_SRT
     3: set_EMU320_SRT2_wagon_r;   //EMU320_SRT2
+    4: set_EMU320_DB_wagon_r;     //EMU320_DB
+    5: set_EMU320_EURO_wagon_r;   //EMU320_Euro
+    6: set_EMU320_THSR_wagon_r;   //EMU320_THRS
+    7: set_EMU320_JR_wagon_r;     //EMU320_JR
     set_EMU320_BK_wagon_r;
 }
 
@@ -77,6 +105,6 @@ switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_attach, vehicle_type_id) {
     EMU260_DD:              return CB_RESULT_ATTACH_ALLOW;
     EMU320:                 return CB_RESULT_ATTACH_ALLOW;
     EMU320_DD:              return CB_RESULT_ATTACH_ALLOW;
-    KTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

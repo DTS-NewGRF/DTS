@@ -53,6 +53,6 @@ switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0
 
 switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon_attach, vehicle_type_id) {
     Al_Boraq:            return CB_RESULT_ATTACH_ALLOW;
-    WTS_Passenger_Car:  return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:  return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

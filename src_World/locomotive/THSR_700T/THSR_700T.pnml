@@ -60,7 +60,7 @@ item(FEAT_TRAINS, THSR_700T, 2118){
         additional_text:                string(STR_REFIT_ADDITIONAL_THSR_700T);
         }
 
-    livery_override(WTS_Passenger_Car) {
+    livery_override(DTS_Passenger_Car) {
         default:                        sw_THSR_700T_wagon;
         cargo_capacity:                 100;
         loading_speed:                  25;

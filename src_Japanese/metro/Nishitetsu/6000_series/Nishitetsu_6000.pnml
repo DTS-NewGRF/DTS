@@ -61,7 +61,7 @@ item(FEAT_TRAINS, Nishitetsu_6000, 2101){
         additional_text:                string(STR_REFIT_ADDITIONAL_Nishitetsu_6000);
         }
 
-    livery_override(JTS_Passenger_Car) {
+    livery_override(DTS_Passenger_Car) {
         default:                        sw_Nishitetsu_6000_wagon;
         cargo_subtype_text:             sw_Nishitetsu_6000_cargo_subtype_text;
         cargo_capacity:                 146;

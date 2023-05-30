@@ -18,6 +18,6 @@ switch(FEAT_TRAINS, SELF, sw_Shinkansen_E6_wagon, [STORE_TEMP(-1, 0x10F), var[0x
 
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_E6_wagon_attach, vehicle_type_id) {
     Shinkansen_E5_H5:       return CB_RESULT_ATTACH_ALLOW;
-    JTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

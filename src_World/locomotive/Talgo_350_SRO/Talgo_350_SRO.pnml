@@ -62,7 +62,7 @@ item(FEAT_TRAINS, Talgo_350_SRO, 2121){
         additional_text:                string(STR_REFIT_ADDITIONAL_Talgo_350_SRO);
         }
 
-    livery_override(WTS_Passenger_Car) {
+    livery_override(DTS_Passenger_Car) {
         default:                        sw_Talgo_350_SRO_wagon;
         cargo_capacity:                 85;
         loading_speed:                  25;

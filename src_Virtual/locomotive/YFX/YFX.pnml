@@ -52,7 +52,6 @@ item(FEAT_TRAINS, YFX, 2112){
         default:                        sw_YFX_engine;
         purchase:                       sw_YFX_purchase;
         can_attach_wagon:               sw_YFX_wagon_attach;
-        start_stop:                     sw_YST_train_start_stop_6;
         additional_text:                string(STR_REFIT_ADDITIONAL_YFX);
         loading_speed:                  25;
         cost_factor:                    10;

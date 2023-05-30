@@ -76,6 +76,6 @@ switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700S_wagon, num_vehs_in_consist) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700S_wagon_attach, vehicle_type_id) {
-    JTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

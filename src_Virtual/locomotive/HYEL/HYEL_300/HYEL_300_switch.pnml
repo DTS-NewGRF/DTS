@@ -27,6 +27,6 @@ switch(FEAT_TRAINS, SELF, sw_HYEL_300_wagon, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_HYEL_300_wagon_attach, vehicle_type_id) {
-    VTS_1F_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }
