@@ -17,6 +17,6 @@ switch(FEAT_TRAINS, SELF, sw_Nishitetsu_8000_wagon, [STORE_TEMP(-2, 0x10F), var[
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_8000_wagon_attach, vehicle_type_id) {
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
-    Nishitetsu_8000:     return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
+    Nishitetsu_8000:         return CB_RESULT_ATTACH_ALLOW;
 }

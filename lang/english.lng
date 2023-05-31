@@ -128,6 +128,8 @@ STR_TGV_Poste_wagon_NAME                            :[DTS] TGV La Poste Freight 
 STR_VTS_SPASS_NAME                                  :[DTS] Virtual carriage-type passenger transport vehicle
 STR_YFXF_NAME                                       :[DTS] YFX Freight Car
 STR_FLAT_2F_NAME                                    :[DTS] Flat Car - American
+STR_Metro_Pass_NAME                                 :[DTS] Metro Passenger Car
+STR_Metro_panto_Pass_NAME                           :[DTS] Metro panto Passenger Car
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                    :Metro Train Speed Variable
@@ -272,6 +274,8 @@ STR_REFIT_train_configuration_2F                    :{BLACK}train configuration:
 STR_REFIT_train_configuration_Coach                 :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
 STR_REFIT_train_configuration_Coach_Last            :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
 STR_REFIT_train_configuration_YFX_Freight           :{BLACK}train configuration: {GREEN}YFX Freight Car
+STR_REFIT_train_configuration_Metro_Passenger       :{BLACK}train configuration: {GREEN}Metro Passenger vehicles
+STR_REFIT_train_configuration_Metro_Panto_Passenger :{BLACK}train configuration: {GREEN}Metro panto Passenger vehicles
 
 # Liveries
 STR_REFIT_LIVERY_AREX_Normal                        :(Normal Color)
@@ -413,10 +417,12 @@ STR_REFIT_LIVERY_Shinkansen_500_Cool_New            :(Shinkansen 500 Cool New)
 
 
 # Liveries metro
-STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(Long Seat)
-STR_REFIT_LIVERY_Standard_Metro_Cross_Seat          :(Cross Seat)
+STR_REFIT_LIVERY_AUTS                               :(AUTS)
+STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(Standard MetroLong Long Seat)
+STR_REFIT_LIVERY_Standard_Metro_Cross_Seat          :(Standard MetroLong Cross Seat)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express :(MTR AD Tranz CAF A Type Airport Express)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung      :(MTR AD Tranz CAF A Type Tung Chung)
+STR_REFIT_LIVERY_MTR_AC_Cammall                     :(MTR Cammall AC Type)
 STR_REFIT_LIVERY_MTR_DC_Cammall                     :(no remoding Car)
 STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding            :(remoding Car)
 STR_REFIT_LIVERY_MTR_DC_Cammall_Disney              :(Disney Car)

@@ -1,62 +1,58 @@
 /*--------------------------------------------------------------------
-YTRO 100
+metro wagon
 --------------------------------------------------------------------*/
 // Graphics
-#include "AUTS_graphic.pnml"
+#include "Metro_wagon_graphic.pnml"
 
 // Switch
-#include "AUTS_switch.pnml"
+#include "Metro_wagon_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보
+1층 공통객차
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, AUTS, 2007){
+item (FEAT_TRAINS, Metro_Pass, 2030){
     property {
-        name:                           string(STR_AUTS_NAME);
+        name:                           string(STR_Metro_Pass_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2010, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        introduction_date:              date(1980, 1, 1);
+        track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
-        
+
         //spec
-        speed:                          120km/h;
-        power:                          3000 kW;
-        weight:                         20 ton;
+        power:                          0 kW;
+        weight:                         15 ton;
         tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
+
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
-        
+
         //Cargo
         cargo_capacity:                 100;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
         cargo_disallow_refit:           [];
-        
+
         //Costs
         refit_cost:                     0;
         running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
-        extra_weight_per_wagon:         35 ton;
-        }
 
-	graphics {
-        default:                        sw_AUTS_engine;
-        purchase:                       sw_AUTS_purchase;
-        speed:                          Metro_Speed_Train;
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_Metro_wagon;
+        purchase:                       sw_Metro_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
-        running_cost_factor:            150;
-        can_attach_wagon:               sw_AUTS_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_AUTS);
+        running_cost_factor:            50;
+        cargo_subtype_text:             sw_Metro_cargo_subtype_text;
+        cargo_capacity:                 sw_Metro_wagon_capacity_in_custom;
+        additional_text:                string(STR_REFIT_train_configuration_Metro_Passenger);
         }
-        }
+	}

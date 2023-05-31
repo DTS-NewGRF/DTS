@@ -26,70 +26,8 @@ switch(FEAT_TRAINS, SELF, sw_Standard_Metro_engine_capacity_in_custom, cargo_sub
        100;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_panto_wagon_front, cargo_subtype) {
-    1: set_Standard_Metro_C_panto_wagon; // 크로스 시트
-    set_Standard_Metro_L_panto_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_panto_wagon_tail, cargo_subtype) {
-    1: set_Standard_Metro_C_panto_wagon_r; // 크로스 시트
-    set_Standard_Metro_L_panto_wagon_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_front, cargo_subtype) {
-    1: set_Standard_Metro_C_wagon; // 크로스 시트
-    set_Standard_Metro_L_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_tail, cargo_subtype) {
-    1: set_Standard_Metro_C_wagon_r; // 크로스 시트
-    set_Standard_Metro_L_wagon_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon, position_in_consist) {
-    1: sw_Standard_Metro_wagon_tail;
-    sw_Standard_Metro_wagon_front;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_capacity_in_custom, cargo_subtype) {
-    1: return 74;
-       110;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_4car, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Standard_Metro: sw_Standard_Metro_panto_wagon_front;
-    sw_Standard_Metro_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_8car_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    Standard_Metro: sw_Standard_Metro_panto_wagon_tail;
-    sw_Standard_Metro_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_8car, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Standard_Metro: sw_Standard_Metro_panto_wagon_front;
-    sw_Standard_Metro_wagon_8car_rear;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_10car_rear, [STORE_TEMP(2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    Standard_Metro: sw_Standard_Metro_panto_wagon_tail;
-    sw_Standard_Metro_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_10car, [STORE_TEMP(-2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Standard_Metro: sw_Standard_Metro_panto_wagon_front;
-    sw_Standard_Metro_wagon_10car_rear;
-}
-
-// wagon length
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_length, num_vehs_in_consist) {
-    4:  sw_Standard_Metro_wagon_4car;
-    8:  sw_Standard_Metro_wagon_8car;
-    10: sw_Standard_Metro_wagon_10car;
-    sw_Standard_Metro_wagon_10car;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_attach, vehicle_type_id) {
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    Metro_Pass:              return CB_RESULT_ATTACH_ALLOW;
+    Metro_Panto_Car:         return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

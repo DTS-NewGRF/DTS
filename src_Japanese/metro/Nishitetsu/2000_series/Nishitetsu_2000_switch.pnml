@@ -40,6 +40,6 @@ switch(FEAT_TRAINS, SELF, sw_Nishitetsu_2000_wagon, (position_in_consist) % 6) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_2000_wagon_attach, vehicle_type_id) {
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
-    Nishitetsu_2000:     return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
+    Nishitetsu_2000:         return CB_RESULT_ATTACH_ALLOW;
 }

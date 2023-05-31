@@ -22,7 +22,7 @@ switch(FEAT_TRAINS, SELF, sw_MTR_IKK_SP_1900_wagon, [STORE_TEMP(-1, 0x10F), var[
 }
 
 switch(FEAT_TRAINS, SELF, sw_MTR_IKK_SP_1900_wagon_attach, vehicle_type_id) {
-    IKK_SP_1900:            return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    IKK_SP_1900:             return CB_RESULT_ATTACH_ALLOW;
+    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

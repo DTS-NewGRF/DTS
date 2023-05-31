@@ -128,6 +128,8 @@ STR_TGV_Poste_wagon_NAME                            :[DTS] TGV 라포스트 화�
 STR_VTS_SPASS_NAME                                  :[DTS] 가상 객차형 승객 차량
 STR_YFXF_NAME                                       :[DTS] YFX용 화차
 STR_FLAT_2F_NAME                                    :[DTS] 평판화차 - 미국형
+STR_Metro_Pass_NAME                                 :[DTS] 지하철 차량
+STR_Metro_panto_Pass_NAME                           :[DTS] 지하철 팬토 차량
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                    :지하철 속도변수
@@ -272,6 +274,8 @@ STR_REFIT_train_configuration_2F                    :{BLACK}열차구성: {GREEN
 STR_REFIT_train_configuration_Coach                 :{BLACK}열차구성: {GREEN}객차형 승객 차량용
 STR_REFIT_train_configuration_Coach_Last            :{BLACK}열차구성: {GREEN}객차형 승객 차량용
 STR_REFIT_train_configuration_YFX_Freight           :{BLACK}열차구성: {GREEN}YFX용 화차
+STR_REFIT_train_configuration_Metro_Passenger       :{BLACK}열차구성: {GREEN}지하철 승객 차량용
+STR_REFIT_train_configuration_Metro_Panto_Passenger :{BLACK}열차구성: {GREEN}지하철 승객 팬토 차량용
 
 # Liveries locomotive
 STR_REFIT_LIVERY_AREX_Normal                        :(기본 도색)
@@ -412,10 +416,12 @@ STR_REFIT_LIVERY_Shinkansen_500_Cool                :(신칸센 500계 Cool)
 STR_REFIT_LIVERY_Shinkansen_500_Cool_New            :(신칸센 500계 Cool 신도색)
 
 # Liveries metro
-STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(롱 시트)
-STR_REFIT_LIVERY_Standard_Metro_Cross_Seat          :(크로스 시트)
+STR_REFIT_LIVERY_AUTS                               :(AUTS)
+STR_REFIT_LIVERY_Standard_Metro_Long_Seat           :(한국 표준형 지하철 롱 시트)
+STR_REFIT_LIVERY_Standard_Metro_Cross_Seat          :(한국 표준형 지하철 크로스 시트)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express :(MTR AD Tranz CAF A Type Airport Express)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung      :(MTR AD Tranz CAF A Type Tung Chung)
+STR_REFIT_LIVERY_MTR_AC_Cammall                     :(MTR 메트로카멜 교류형)
 STR_REFIT_LIVERY_MTR_DC_Cammall                     :(미개조형)
 STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding            :(개조형)
 STR_REFIT_LIVERY_MTR_DC_Cammall_Disney              :(디즈니선)

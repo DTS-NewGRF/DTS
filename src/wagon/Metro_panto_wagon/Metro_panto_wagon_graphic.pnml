@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Metro_panto_wagon_purchase, "src\wagon\Metro_wagon\Metro_wagon.png"){
+	tmpl_wagon_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. 표준형 롱시트
+--------------------------------------------------------------------*/
+spriteset(set_Standard_Metro_L_panto_wagon, "src\metro\standard\Standard_Long.png") {
+    wagon_1F_F(80, 27)
+}
+
+/*--------------------------------------------------------------------
+2. 표준형 크로스시트
+--------------------------------------------------------------------*/
+spriteset(set_Standard_Metro_C_panto_wagon, "src\metro\standard\Standard_Cross.png") {
+    wagon_1F_F(80, 27)
+}
+
+/*--------------------------------------------------------------------
+3. AUTS
+--------------------------------------------------------------------*/
+spriteset(set_AUTS_panto_wagon, "src\metro\AUTS\AUTS.png") {
+    wagon_1F_F(80, 27)
+}
+
+/*--------------------------------------------------------------------
+4. MTR AD Tranz CAF A형 공항선
+--------------------------------------------------------------------*/
+spriteset(set_MTR_AD_Tranz_CAF_A_Airport_Express_panto_wagon, "src_Chinese/metro/MTR/AD_Tranz_CAF_A/AD_Tranz_CAF_A_Airport_Express.png"){
+    wagon_1F_F(80, 27)
+}
+
+/*--------------------------------------------------------------------
+5. MTR AD Tranz CAF A형 뚱충선
+--------------------------------------------------------------------*/
+spriteset(set_MTR_AD_Tranz_CAF_A_Tung_Chung_panto_wagon, "src_Chinese/metro/MTR/AD_Tranz_CAF_A/AD_Tranz_CAF_A_Tung_Chung.png"){
+    wagon_1F_F(80, 27)
+}
+
+/*--------------------------------------------------------------------
+6. MTR Cammall AC
+--------------------------------------------------------------------*/
+spriteset(set_MTR_AC_Cammall_panto_wagon, "src_Chinese/metro/MTR/Cammall_AC/Cammall_AC.png"){
+    wagon_1F_F(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Metro_panto_wagon_purchase, cargo_subtype) {
+    set_Metro_panto_wagon_purchase;
+}
