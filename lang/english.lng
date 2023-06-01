@@ -263,7 +263,7 @@ STR_REFIT_ADDITIONAL_Al_Boraq                        :{BLACK}Changing model/live
 STR_REFIT_ADDITIONAL_Talgo_350_SRO                   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Avelia_Liberty                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 
-STR_REFIT_train_configuration_Passenger              :{BLACK}train configuration: {GREEN}Passenger vehicles
+STR_REFIT_train_configuration_Passenger              :{BLACK}train configuration: {GREEN}only one Color Passenger vehicles
 STR_REFIT_train_configuration_SPassenger             :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
 STR_REFIT_train_configuration_Generatar              :{BLACK}train configuration: {GREEN}Generatar vehicles
 STR_REFIT_train_configuration_Luggage                :{BLACK}train configuration: {GREEN}Luggage vehicles
@@ -289,11 +289,8 @@ STR_REFIT_LIVERY_AREX_Normal                         :(Normal Color)
 STR_REFIT_LIVERY_AREX_Company_Color                  :(Company Color)
 STR_REFIT_LIVERY_CTX_Freight                         :(CTX Freight Only Wine Livery)
 STR_REFIT_LIVERY_CTX_Passenger_Freight               :(CTX Passenger-Freight Wine Livery)
-STR_REFIT_LIVERY_EMU150R_1F                          :(EMU-150 1F Red Color)
 STR_REFIT_LIVERY_EMU150R_2F                          :(EMU-150 2F Red Color)
-STR_REFIT_LIVERY_EMU150G_1F                          :(EMU-150 1F Green Color)
 STR_REFIT_LIVERY_EMU150G_2F                          :(EMU-150 2F Green Color)
-STR_REFIT_LIVERY_EMU150W_1F                          :(EMU-150 1F White Color)
 STR_REFIT_LIVERY_EMU150W_2F                          :(EMU-150 2F White Color)
 STR_REFIT_LIVERY_EMU260W                             :(EMU-260 White Livery)
 STR_REFIT_LIVERY_EMU260BK                            :(EMU-260 Black Livery)

@@ -1,198 +1,31 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_EMU150_purchase, "src/locomotive/EMU/EMU150/EMU150R.png"){
+spriteset(set_EMU150_purchase, "src/locomotive/EMU/EMU150/EMU150.png"){
 	tmpl_purchase(0, 0)
 }
 
-alternative_sprites(set_EMU150_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150R_32bpp.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
-1. EMU150R
+1. EMU150
 --------------------------------------------------------------------*/
-spriteset(set_EMU150RH_purchase, "src/locomotive/EMU/EMU150/EMU150R.png"){
-	tmpl_purchase_for_dualhead(0, 135)
+spriteset(set_EMU150H_purchase, "src/locomotive/EMU/EMU150/EMU150.png"){
+	tmpl_purchase_for_dualhead(0, 81)
 }
 
-spriteset(set_EMU150R_engineH, "src/locomotive/EMU/EMU150/EMU150R.png"){
+spriteset(set_EMU150_engineH, "src/locomotive/EMU/EMU150/EMU150.png"){
 	engine(80, 0)
 }
 
-spriteset(set_EMU150R_1F_panto_wagon, "src/locomotive/EMU/EMU150/EMU150R.png"){
+spriteset(set_EMU150_panto_wagon, "src/locomotive/EMU/EMU150/EMU150.png"){
 	wagon_1F_F(80, 27)
 }
 
-spriteset(set_EMU150R_1F_wagon, "src/locomotive/EMU/EMU150/EMU150R.png") {
+spriteset(set_EMU150_wagon, "src/locomotive/EMU/EMU150/EMU150.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_EMU150R_2F_wagon, "src/locomotive/EMU/EMU150/EMU150R.png") {
-    wagon_1F_F(80, 81)
-}
-
-spriteset(set_EMU150R_1F_panto_wagon_r, "src/locomotive/EMU/EMU150/EMU150R.png"){
-    wagon_1F_F(80, 108)
-}
-
-spriteset(set_EMU150R_engineT, "src/locomotive/EMU/EMU150/EMU150R.png"){
-	engine_r(80, 135)
-}
-
-/*--------------------------------------------------------------------
-1-1. EMU150R 32bpp
---------------------------------------------------------------------*/
-alternative_sprites(set_EMU150RH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150R_32bpp.png"){
-    tmpl_purchase_for_dualhead(0, 135)
-}
-
-alternative_sprites(set_EMU150R_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150R_32bpp.png"){
-    engine(80, 0)
-}
-
-alternative_sprites(set_EMU150R_1F_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150R_32bpp.png"){
-    wagon_1F_F(80, 27)
-}
-
-alternative_sprites(set_EMU150R_1F_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150R_32bpp.png"){
-    wagon_1F_F(80, 54)
-}
-
-alternative_sprites(set_EMU150R_2F_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150R_32bpp.png"){
-    wagon_1F_F(80, 81)
-}
-
-alternative_sprites(set_EMU150R_1F_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150R_32bpp.png"){
-    wagon_1F_F(80, 108)
-}
-
-alternative_sprites(set_EMU150R_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150R_32bpp.png"){
-    engine_r(80, 135)
-}
-
-/*--------------------------------------------------------------------
-2. EMU150G
---------------------------------------------------------------------*/
-spriteset(set_EMU150GH_purchase, "src/locomotive/EMU/EMU150/EMU150G.png"){
-	tmpl_purchase_for_dualhead(0, 135)
-}
-
-spriteset(set_EMU150G_engineH, "src/locomotive/EMU/EMU150/EMU150G.png"){
-	engine(80, 0)
-}
-
-spriteset(set_EMU150G_1F_panto_wagon, "src/locomotive/EMU/EMU150/EMU150G.png"){
-	wagon_1F_F(80, 27)
-}
-
-spriteset(set_EMU150G_1F_wagon, "src/locomotive/EMU/EMU150/EMU150G.png") {
-    wagon_1F_F(80, 54)
-}
-
-spriteset(set_EMU150G_2F_wagon, "src/locomotive/EMU/EMU150/EMU150G.png") {
-    wagon_1F_F(80, 81)
-}
-
-spriteset(set_EMU150G_1F_panto_wagon_r, "src/locomotive/EMU/EMU150/EMU150G.png"){
-    wagon_1F_F(80, 108)
-}
-
-spriteset(set_EMU150G_engineT, "src/locomotive/EMU/EMU150/EMU150G.png"){
-	engine_r(80, 135)
-}
-
-/*--------------------------------------------------------------------
-2-1. EMU150G_32bpp
---------------------------------------------------------------------*/
-alternative_sprites(set_EMU150GH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150G_32bpp.png"){
-    tmpl_purchase_for_dualhead(0, 135)
-}
-
-alternative_sprites(set_EMU150G_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150G_32bpp.png"){
-    engine(80, 0)
-}
-
-alternative_sprites(set_EMU150G_1F_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150G_32bpp.png"){
-    wagon_1F_F(80, 27)
-}
-
-alternative_sprites(set_EMU150G_1F_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150G_32bpp.png"){
-    wagon_1F_F(80, 54)
-}
-
-alternative_sprites(set_EMU150G_2F_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150G_32bpp.png"){
-    wagon_1F_F(80, 81)
-}
-
-alternative_sprites(set_EMU150G_1F_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150G_32bpp.png"){
-    wagon_1F_F(80, 108)
-}
-
-alternative_sprites(set_EMU150G_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150G_32bpp.png"){
-    engine_r(80, 135)
-}
-
-/*--------------------------------------------------------------------
-3. EMU150W
---------------------------------------------------------------------*/
-spriteset(set_EMU150WH_purchase, "src/locomotive/EMU/EMU150/EMU150W.png"){
-	tmpl_purchase_for_dualhead(0, 108)
-}
-
-spriteset(set_EMU150W_engineH, "src/locomotive/EMU/EMU150/EMU150W.png"){
-	engine(80, 0)
-}
-
-spriteset(set_EMU150W_1F_panto_wagon, "src/locomotive/EMU/EMU150/EMU150W.png"){
-	wagon_1F_F(80, 27)
-}
-
-spriteset(set_EMU150W_1F_wagon, "src/locomotive/EMU/EMU150/EMU150W.png") {
-    wagon_1F_F(80, 54)
-}
-
-spriteset(set_EMU150W_2F_wagon, "src/locomotive/EMU/EMU150/EMU150W.png") {
-    wagon_1F_F(80, 81)
-}
-
-spriteset(set_EMU150W_1F_panto_wagon_r, "src/locomotive/EMU/EMU150/EMU150W.png"){
-	wagon_1F_F(80, 108)
-}
-
-spriteset(set_EMU150W_engineT, "src/locomotive/EMU/EMU150/EMU150W.png"){
-	engine_r(80, 135)
-}
-
-/*--------------------------------------------------------------------
-3-1. EMU150W_32bpp
---------------------------------------------------------------------*/
-alternative_sprites(set_EMU150WH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150W_32bpp.png"){
-    tmpl_purchase_for_dualhead(0, 135)
-}
-
-alternative_sprites(set_EMU150W_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150W_32bpp.png"){
-    engine(80, 0)
-}
-
-alternative_sprites(set_EMU150W_1F_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150W_32bpp.png"){
-    wagon_1F_F(80, 27)
-}
-
-alternative_sprites(set_EMU150W_1F_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150W_32bpp.png"){
-    wagon_1F_F(80, 54)
-}
-
-alternative_sprites(set_EMU150W_2F_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150W_32bpp.png"){
-    wagon_1F_F(80, 81)
-}
-
-alternative_sprites(set_EMU150W_1F_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150W_32bpp.png"){
-    wagon_1F_F(80, 108)
-}
-
-alternative_sprites(set_EMU150W_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU150/EMU150W_32bpp.png"){
-    engine_r(80, 135)
+spriteset(set_EMU150_engineT, "src/locomotive/EMU/EMU150/EMU150.png"){
+	engine_r(80, 81)
 }
 
 /*--------------------------------------------------------------------
