@@ -1,0 +1,76 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_JMetro_wagon_purchase, "src\wagon\JMetro_wagon\JMetro_wagon.png"){
+	tmpl_wagon_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. 니시테츠 2000형 - Normal
+--------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_2000_Normal_wagon, "src_Japanese/metro/Nishitetsu/2000_series/Nishitetsu_2000_Normal.png") {
+    wagon_1F_F(80, 54)
+}
+
+/*--------------------------------------------------------------------
+2. 니시테츠 2000형 - Express
+--------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_2000_Express_wagon, "src_Japanese/metro/Nishitetsu/2000_series/Nishitetsu_2000_Express.png") {
+    wagon_1F_F(80, 54)
+}
+
+/*--------------------------------------------------------------------
+3. 니시테츠 3000형
+--------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_3000_wagon, "src_Japanese/metro/Nishitetsu/3000_series/Nishitetsu_3000.png") {
+    wagon_1F_F(80, 54)
+}
+
+/*--------------------------------------------------------------------
+4. 니시테츠 5000형 - MG
+--------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_5000_MG_wagon, "src_Japanese/metro/Nishitetsu/5000_series/Nishitetsu_5000_MG.png") {
+    wagon_1F_F(80, 54)
+}
+
+/*--------------------------------------------------------------------
+5. 니시테츠 5000형 - SIV
+--------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_5000_SIV_wagon, "src_Japanese/metro/Nishitetsu/5000_series/Nishitetsu_5000_SIV.png") {
+    wagon_1F_F(80, 54)
+}
+
+/*--------------------------------------------------------------------
+6. 니시테츠 6000형
+--------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_6000_wagon, "src_Japanese/metro/Nishitetsu/6000_series/Nishitetsu_6000.png") {
+    wagon_1F_F(80, 27)
+}
+
+/*--------------------------------------------------------------------
+7. 니시테츠 6050형
+--------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_6050_wagon, "src_Japanese/metro/Nishitetsu/6000_series/Nishitetsu_6050.png") {
+    wagon_1F_F(80, 27)
+}
+
+/*--------------------------------------------------------------------
+8. 니시테츠 8000형
+--------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_8000_wagon, "src_Japanese/metro/Nishitetsu/8000_series/Nishitetsu_8000.png") {
+    wagon_1F_F(80, 27)
+}
+
+/*--------------------------------------------------------------------
+9. 니시테츠 9000형
+--------------------------------------------------------------------*/
+spriteset(set_Nishitetsu_9000_wagon, "src_Japanese/metro/Nishitetsu/9000_series/Nishitetsu_9000.png") {
+    wagon_1F(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_JMetro_wagon_purchase, cargo_subtype) {
+    set_JMetro_wagon_purchase;
+}

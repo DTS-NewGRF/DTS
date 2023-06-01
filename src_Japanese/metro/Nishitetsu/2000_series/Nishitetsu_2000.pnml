@@ -60,13 +60,4 @@ item(FEAT_TRAINS, Nishitetsu_2000, 2098){
         cargo_subtype_text:             sw_Nishitetsu_2000_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_Nishitetsu_1000);
         }
-
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_Nishitetsu_2000_wagon;
-        cargo_subtype_text:             sw_Nishitetsu_2000_cargo_subtype_text;
-        cargo_capacity:                 134;
-        loading_speed:                  25;
-        running_cost_factor:            100;
-        weight:                         35;
-        }
         }

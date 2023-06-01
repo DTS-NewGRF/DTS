@@ -132,6 +132,8 @@ STR_KMetro_Pass_NAME                                 :[DTS] 한국형 지하철 
 STR_KMetro_panto_Pass_NAME                           :[DTS] 한국형 지하철 팬토 차량
 STR_HKMetro_Pass_NAME                                :[DTS] 홍콩형 지하철 차량
 STR_HKMetro_panto_Pass_NAME                          :[DTS] 홍콩형 지하철 팬토 차량
+STR_JMetro_Pass_NAME                                 :[DTS] 일본형 지하철 차량
+STR_JMetro_panto_Pass_NAME                           :[DTS] 일본형 지하철 팬토 차량
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                     :지하철 속도변수
@@ -279,6 +281,8 @@ STR_REFIT_train_configuration_KMetro_Passenger       :{BLACK}열차구성: {GREE
 STR_REFIT_train_configuration_KMetro_Panto_Passenger :{BLACK}열차구성: {GREEN}AUTS, 한국형 표준형 전동차
 STR_REFIT_train_configuration_HKMetro_Passenger      :{BLACK}열차구성: {GREEN}MTR
 STR_REFIT_train_configuration_HKMetro_Panto_Passenger:{BLACK}열차구성: {GREEN}MTR
+STR_REFIT_train_configuration_JMetro_Passenger       :{BLACK}열차구성: {GREEN}Nishitetsu
+STR_REFIT_train_configuration_JMetro_Panto_Passenger :{BLACK}열차구성: {GREEN}Nishitetsu
 
 # Liveries locomotive
 STR_REFIT_LIVERY_AREX_Normal                         :(기본 도색)
@@ -444,12 +448,15 @@ STR_REFIT_LIVERY_Nishitetsu_1000_Express             :(니시테츠 1000형 특�
 STR_REFIT_LIVERY_Nishitetsu_1000_Last_Run            :(니시테츠 1000형 특별도색)
 STR_REFIT_LIVERY_Nishitetsu_2000_Normal              :(니시테츠 2000형 일반도색)
 STR_REFIT_LIVERY_Nishitetsu_2000_Express             :(니시테츠 2000형 특급도색)
+STR_REFIT_LIVERY_Nishitetsu_3000                     :(니시테츠 3000형)
 STR_REFIT_LIVERY_Nishitetsu_5000_MG                  :(니시테츠 5000형 전동발전기)
 STR_REFIT_LIVERY_Nishitetsu_5000_SIV                 :(니시테츠 5000형 정지형 인버터)
 STR_REFIT_LIVERY_Nishitetsu_6000                     :(니시테츠 6000형)
 STR_REFIT_LIVERY_Nishitetsu_6050                     :(니시테츠 6050형)
 STR_REFIT_LIVERY_Nishitetsu_7000                     :(니시테츠 7000형)
 STR_REFIT_LIVERY_Nishitetsu_7050                     :(니시테츠 7050형)
+STR_REFIT_LIVERY_Nishitetsu_8000                     :(니시테츠 8000형)
+STR_REFIT_LIVERY_Nishitetsu_9000                     :(니시테츠 9000형)
 
 # Liveries wagon
 STR_REFIT_LIVERY_Eco_Rail_Passenger_Car              :(에코레일)

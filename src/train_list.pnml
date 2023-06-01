@@ -8,6 +8,8 @@
 #include "wagon/KMetro_panto_wagon/KMetro_panto_wagon.pnml"
 #include "wagon/HKMetro_wagon/HKMetro_wagon.pnml"
 #include "wagon/HKMetro_panto_wagon/HKMetro_panto_wagon.pnml"
+#include "wagon/JMetro_wagon/JMetro_wagon.pnml"
+#include "wagon/JMetro_panto_wagon/JMetro_panto_wagon.pnml"
 
 //locomotive
 #include "locomotive/AREX/AREX.pnml"

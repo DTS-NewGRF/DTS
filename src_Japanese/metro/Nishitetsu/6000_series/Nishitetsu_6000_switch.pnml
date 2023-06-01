@@ -43,23 +43,9 @@ switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_engine, num_vehs_in_consist) {
     sw_Nishitetsu_6000_3Car_engine;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_wagon_middel, cargo_subtype) {
-    1: set_Nishitetsu_6050_wagon;
-    set_Nishitetsu_6000_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_panto_wagon, cargo_subtype) {
-    1: set_Nishitetsu_6050_panto_wagon;
-    set_Nishitetsu_6000_panto_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Nishitetsu_6000: sw_Nishitetsu_6000_panto_wagon;
-    sw_Nishitetsu_6000_wagon_middel;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_wagon_attach, vehicle_type_id) {
-    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
     Nishitetsu_6000:         return CB_RESULT_ATTACH_ALLOW;
     Nishitetsu_7000:         return CB_RESULT_ATTACH_ALLOW;
+    JMetro_Pass:             return CB_RESULT_ATTACH_ALLOW;
+    JMetro_Panto_Car:        return CB_RESULT_ATTACH_ALLOW;
 }

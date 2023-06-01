@@ -29,12 +29,7 @@ switch(FEAT_TRAINS, SELF, sw_Nishitetsu_9000_engine, num_vehs_in_consist) {
     sw_Nishitetsu_9000_3Car_engine;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_9000_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Nishitetsu_9000: set_Nishitetsu_9000_wagon;
-    set_Nishitetsu_9000_wagon;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_9000_wagon_attach, vehicle_type_id) {
-    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
     Nishitetsu_9000:         return CB_RESULT_ATTACH_ALLOW;
+    JMetro_Pass:             return CB_RESULT_ATTACH_ALLOW;
 }

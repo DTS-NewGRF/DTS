@@ -30,28 +30,8 @@ switch(FEAT_TRAINS, SELF, sw_Nishitetsu_1000_engine, position_in_consist_from_en
     sw_Nishitetsu_1000_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_1000_wagon_front, cargo_subtype) {
-    1: set_Nishitetsu_1000_Normal_Aircon_wagon; // 냉방도색
-    2: set_Nishitetsu_1000_Original_wagon;      // 초기도색
-    3: set_Nishitetsu_1000_Express_wagon;       // 특급도색
-    4: set_Nishitetsu_1000_Last_Run_wagon;      // 특별도색
-    set_Nishitetsu_1000_Normal_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_1000_wagon_tail, cargo_subtype) {
-    1: set_Nishitetsu_1000_Normal_Aircon_wagon_r; // 냉방도색
-    2: set_Nishitetsu_1000_Original_wagon_r;      // 초기도색
-    3: set_Nishitetsu_1000_Express_wagon_r;       // 특급도색
-    4: set_Nishitetsu_1000_Last_Run_wagon_r;      // 특별도색
-    set_Nishitetsu_1000_Normal_wagon_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_1000_wagon, (position_in_consist)) {
-    1: sw_Nishitetsu_1000_wagon_front;
-    sw_Nishitetsu_1000_wagon_tail;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_1000_wagon_attach, vehicle_type_id) {
-    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
     Nishitetsu_1000:         return CB_RESULT_ATTACH_ALLOW;
+    JMetro_Pass:             return CB_RESULT_ATTACH_ALLOW;
+    JMetro_Panto_Car:        return CB_RESULT_ATTACH_ALLOW;
 }

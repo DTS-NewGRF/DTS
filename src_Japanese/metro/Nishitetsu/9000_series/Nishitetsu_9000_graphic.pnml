@@ -16,10 +16,6 @@ spriteset(set_Nishitetsu_9000_engineH, "src_Japanese/metro/Nishitetsu/9000_serie
     engine(80, 0)
 }
 
-spriteset(set_Nishitetsu_9000_wagon, "src_Japanese/metro/Nishitetsu/9000_series/Nishitetsu_9000.png") {
-    wagon_1F(80, 27)
-}
-
 spriteset(set_Nishitetsu_9000_engineT, "src_Japanese/metro/Nishitetsu/9000_series/Nishitetsu_9000.png"){
     engine_r(80, 54)
 }

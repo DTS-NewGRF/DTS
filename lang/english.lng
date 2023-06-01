@@ -132,6 +132,8 @@ STR_KMetro_Pass_NAME                                 :[DTS] Korean Metro Passeng
 STR_KMetro_panto_Pass_NAME                           :[DTS] Korean Metro panto Passenger Car
 STR_HKMetro_Pass_NAME                                :[DTS] Hong Kong Metro Passenger Car
 STR_HKMetro_panto_Pass_NAME                          :[DTS] Hong Kong Metro panto Passenger Car
+STR_JMetro_Pass_NAME                                 :[DTS] Japanese Metro Passenger Car
+STR_JMetro_panto_Pass_NAME                           :[DTS] Japanese Metro panto Passenger Car
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                     :Metro Train Speed Variable
@@ -279,6 +281,8 @@ STR_REFIT_train_configuration_KMetro_Passenger       :{BLACK}train configuration
 STR_REFIT_train_configuration_KMetro_Panto_Passenger :{BLACK}train configuration: {GREEN}AUTS, Standard Metro
 STR_REFIT_train_configuration_HKMetro_Passenger      :{BLACK}train configuration: {GREEN}MTR
 STR_REFIT_train_configuration_HKMetro_Panto_Passenger:{BLACK}train configuration: {GREEN}MTR
+STR_REFIT_train_configuration_JMetro_Passenger       :{BLACK}train configuration: {GREEN}Nishitetsu
+STR_REFIT_train_configuration_JMetro_Panto_Passenger :{BLACK}train configuration: {GREEN}Nishitetsu
 
 # Liveries
 STR_REFIT_LIVERY_AREX_Normal                         :(Normal Color)
@@ -445,12 +449,15 @@ STR_REFIT_LIVERY_Nishitetsu_1000_Express             :(Nishitetsu 1000 series Ex
 STR_REFIT_LIVERY_Nishitetsu_1000_Last_Run            :(Nishitetsu 1000 series Last Run)
 STR_REFIT_LIVERY_Nishitetsu_2000_Normal              :(Nishitetsu 2000 series Normal)
 STR_REFIT_LIVERY_Nishitetsu_2000_Express             :(Nishitetsu 2000 series Express)
+STR_REFIT_LIVERY_Nishitetsu_3000                     :(Nishitetsu 3000)
 STR_REFIT_LIVERY_Nishitetsu_5000_MG                  :(Nishitetsu 5000 series MG)
 STR_REFIT_LIVERY_Nishitetsu_5000_SIV                 :(Nishitetsu 5000 series SIV)
 STR_REFIT_LIVERY_Nishitetsu_6000                     :(Nishitetsu 6000)
 STR_REFIT_LIVERY_Nishitetsu_6050                     :(Nishitetsu 6050)
 STR_REFIT_LIVERY_Nishitetsu_7000                     :(Nishitetsu 7000)
 STR_REFIT_LIVERY_Nishitetsu_7050                     :(Nishitetsu 7050)
+STR_REFIT_LIVERY_Nishitetsu_8000                     :(Nishitetsu 8000)
+STR_REFIT_LIVERY_Nishitetsu_9000                     :(Nishitetsu 9000)
 
 # Liveries wagon
 STR_REFIT_LIVERY_Eco_Rail_Passenger_Car              :(Eco Rail Passenger Car)

@@ -16,14 +16,6 @@ spriteset(set_Nishitetsu_5000_MG_engineH, "src_Japanese/metro/Nishitetsu/5000_se
     engine(80, 0)
 }
 
-spriteset(set_Nishitetsu_5000_MG_panto_wagon, "src_Japanese/metro/Nishitetsu/5000_series/Nishitetsu_5000_MG.png") {
-    wagon_1F_F(80, 27)
-}
-
-spriteset(set_Nishitetsu_5000_MG_wagon, "src_Japanese/metro/Nishitetsu/5000_series/Nishitetsu_5000_MG.png") {
-    wagon_1F_F(80, 54)
-}
-
 spriteset(set_Nishitetsu_5000_MG_engineT, "src_Japanese/metro/Nishitetsu/5000_series/Nishitetsu_5000_MG.png"){
     engine_r(80, 81)
 }
@@ -33,14 +25,6 @@ spriteset(set_Nishitetsu_5000_MG_engineT, "src_Japanese/metro/Nishitetsu/5000_se
 --------------------------------------------------------------------*/
 spriteset(set_Nishitetsu_5000_SIV_engineH, "src_Japanese/metro/Nishitetsu/5000_series/Nishitetsu_5000_SIV.png"){
     engine(80, 0)
-}
-
-spriteset(set_Nishitetsu_5000_SIV_panto_wagon, "src_Japanese/metro/Nishitetsu/5000_series/Nishitetsu_5000_SIV.png") {
-    wagon_1F_F(80, 27)
-}
-
-spriteset(set_Nishitetsu_5000_SIV_wagon, "src_Japanese/metro/Nishitetsu/5000_series/Nishitetsu_5000_SIV.png") {
-    wagon_1F_F(80, 54)
 }
 
 spriteset(set_Nishitetsu_5000_SIV_engineT, "src_Japanese/metro/Nishitetsu/5000_series/Nishitetsu_5000_SIV.png"){

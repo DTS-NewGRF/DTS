@@ -2,19 +2,19 @@
 metro wagon
 --------------------------------------------------------------------*/
 // Graphics
-#include "HKMetro_wagon_graphic.pnml"
+#include "JMetro_panto_wagon_graphic.pnml"
 
 // Switch
-#include "HKMetro_wagon_switch.pnml"
+#include "JMetro_panto_wagon_switch.pnml"
 
 /*--------------------------------------------------------------------
 1층 공통객차
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, HKMetro_Pass, 2083){
+item (FEAT_TRAINS, JMetro_Panto_Car, 2123){
     property {
-        name:                           string(STR_HKMetro_Pass_NAME);
+        name:                           string(STR_KMetro_panto_Pass_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1977, 1, 1);
+        introduction_date:              date(1957, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
 
@@ -46,12 +46,13 @@ item (FEAT_TRAINS, HKMetro_Pass, 2083){
     }
 
     graphics {
-        default:                        sw_HKMetro_wagon;
-        purchase:                       sw_HKMetro_wagon_purchase;
+        default:                        sw_JMetro_Panto_wagon;
+        purchase:                       sw_JMetro_panto_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_HKMetro_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_HKMetro_Passenger);
+        cargo_subtype_text:             sw_JMetro_Panto_cargo_subtype_text;
+        cargo_capacity:                 sw_JMetro_Panto_wagon_capacity_in_custom;
+        additional_text:                string(STR_REFIT_train_configuration_JMetro_Panto_Passenger);
         }
 	}

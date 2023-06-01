@@ -14,7 +14,7 @@ item (FEAT_TRAINS, HKMetro_Panto_Car, 2105){
     property {
         name:                           string(STR_HKMetro_panto_Pass_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1980, 1, 1);
+        introduction_date:              date(1977, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
 

@@ -134,6 +134,8 @@ if (Japanese) {
     disable_item(FEAT_TRAINS, 2102); //Nishitetsu_7000
     disable_item(FEAT_TRAINS, 2103); //Nishitetsu_8000
     disable_item(FEAT_TRAINS, 2104); //Nishitetsu_9000
+    disable_item(FEAT_TRAINS, 2113); //JMetro_Pass
+    disable_item(FEAT_TRAINS, 2123); //JMetro_Panto_Car
     }
 
 if (World) {
