@@ -130,6 +130,8 @@ sort(FEAT_TRAINS, [
     HKMetro_Panto_Car,         //2105
     JMetro_Pass,               //2113
     JMetro_Panto_Car,          //2123
+    EMU_Pass,                  //2124
+    EMU_Panto_Car,             //2125
     Coach_2F,                  //2106
     KTS_SPassenger_Car,        //2002
     CTS_SPassenger_Car,        //2031

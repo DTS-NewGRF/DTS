@@ -134,6 +134,8 @@ STR_HKMetro_Pass_NAME                                :[DTS] Hong Kong Metro Pass
 STR_HKMetro_panto_Pass_NAME                          :[DTS] Hong Kong Metro panto Passenger Car
 STR_JMetro_Pass_NAME                                 :[DTS] Japanese Metro Passenger Car
 STR_JMetro_panto_Pass_NAME                           :[DTS] Japanese Metro panto Passenger Car
+STR_EMU_Pass_NAME                                    :[DTS] EMU carriage-type passenger car
+STR_EMU_panto_Pass_NAME                              :[DTS] EMU carriage-type panto passenger car
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                     :Metro Train Speed Variable
@@ -283,12 +285,16 @@ STR_REFIT_train_configuration_HKMetro_Passenger      :{BLACK}train configuration
 STR_REFIT_train_configuration_HKMetro_Panto_Passenger:{BLACK}train configuration: {GREEN}MTR
 STR_REFIT_train_configuration_JMetro_Passenger       :{BLACK}train configuration: {GREEN}Nishitetsu
 STR_REFIT_train_configuration_JMetro_Panto_Passenger :{BLACK}train configuration: {GREEN}Nishitetsu
+STR_REFIT_train_configuration_EMU_Passenger          :{BLACK}train configuration: {GREEN}Bicheuro, EMU, GTX, ITX-Saemaeul DD, Nuriro DD
+STR_REFIT_train_configuration_EMU_Panto_Passenger    :{BLACK}train configuration: {GREEN}Bicheuro, EMU, GTX, ITX-Saemaeul DD, Nuriro DD
 
 # Liveries
 STR_REFIT_LIVERY_AREX_Normal                         :(Normal Color)
 STR_REFIT_LIVERY_AREX_Company_Color                  :(Company Color)
 STR_REFIT_LIVERY_CTX_Freight                         :(CTX Freight Only Wine Livery)
 STR_REFIT_LIVERY_CTX_Passenger_Freight               :(CTX Passenger-Freight Wine Livery)
+STR_REFIT_LIVERY_Bicheuro                            :(Bicheuro)
+STR_REFIT_LIVERY_GTX                                 :(GTX)
 STR_REFIT_LIVERY_EMU150R_2F                          :(EMU-150 2F Red Color)
 STR_REFIT_LIVERY_EMU150G_2F                          :(EMU-150 2F Green Color)
 STR_REFIT_LIVERY_EMU150W_2F                          :(EMU-150 2F White Color)

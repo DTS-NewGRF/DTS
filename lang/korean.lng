@@ -134,6 +134,8 @@ STR_HKMetro_Pass_NAME                                :[DTS] 홍콩형 지하철 
 STR_HKMetro_panto_Pass_NAME                          :[DTS] 홍콩형 지하철 팬토 차량
 STR_JMetro_Pass_NAME                                 :[DTS] 일본형 지하철 차량
 STR_JMetro_panto_Pass_NAME                           :[DTS] 일본형 지하철 팬토 차량
+STR_EMU_Pass_NAME                                    :[DTS] EMU 객차형 차량
+STR_EMU_panto_Pass_NAME                              :[DTS] EMU 객차형 팬토 차량
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                     :지하철 속도변수
@@ -283,12 +285,16 @@ STR_REFIT_train_configuration_HKMetro_Passenger      :{BLACK}열차구성: {GREE
 STR_REFIT_train_configuration_HKMetro_Panto_Passenger:{BLACK}열차구성: {GREEN}MTR
 STR_REFIT_train_configuration_JMetro_Passenger       :{BLACK}열차구성: {GREEN}Nishitetsu
 STR_REFIT_train_configuration_JMetro_Panto_Passenger :{BLACK}열차구성: {GREEN}Nishitetsu
+STR_REFIT_train_configuration_EMU_Passenger          :{BLACK}열차구성: {GREEN}비츠로, EMU, GTX, ITX-새마을 DD, 누리로 DD
+STR_REFIT_train_configuration_EMU_Panto_Passenger    :{BLACK}열차구성: {GREEN}비츠로, EMU, GTX, ITX-새마을 DD, 누리로 DD
 
 # Liveries locomotive
 STR_REFIT_LIVERY_AREX_Normal                         :(기본 도색)
 STR_REFIT_LIVERY_AREX_Company_Color                  :(회사 색상)
 STR_REFIT_LIVERY_CTX_Freight                         :(CTX 화물전용 와인도색)
 STR_REFIT_LIVERY_CTX_Passenger_Freight               :(CTX 여객-화물복합 와인도색)
+STR_REFIT_LIVERY_Bicheuro                            :(비츠로)
+STR_REFIT_LIVERY_GTX                                 :(GTX)
 STR_REFIT_LIVERY_EMU150R_2F                          :(EMU-150 2층 빨강도색)
 STR_REFIT_LIVERY_EMU150G_2F                          :(EMU-150 2층 녹색도색)
 STR_REFIT_LIVERY_EMU150W_2F                          :(EMU-150 2층 흰색도색)

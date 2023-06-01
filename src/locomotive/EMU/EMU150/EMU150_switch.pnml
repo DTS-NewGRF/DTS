@@ -6,16 +6,6 @@ switch(FEAT_TRAINS, SELF, sw_EMU150_engine, position_in_consist_from_end == 0 &&
     set_EMU150_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_EMU150_panto_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    EMU150: set_EMU150_panto_wagon;
-    set_EMU150_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_EMU150_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    EMU150: set_EMU150_panto_wagon;
-    sw_EMU150_panto_wagon_rear;
-}
-
 switch(FEAT_TRAINS, SELF, sw_EMU150_wagon_attach, vehicle_type_id) {
     EMU150:                 return CB_RESULT_ATTACH_ALLOW;
     Bicheuro2:              return CB_RESULT_ATTACH_ALLOW;
@@ -23,6 +13,7 @@ switch(FEAT_TRAINS, SELF, sw_EMU150_wagon_attach, vehicle_type_id) {
     EMU260_DD:              return CB_RESULT_ATTACH_ALLOW;
     EMU320:                 return CB_RESULT_ATTACH_ALLOW;
     EMU320_DD:              return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    EMU_Pass:               return CB_RESULT_ATTACH_ALLOW;
+    EMU_Panto_Car:          return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }
