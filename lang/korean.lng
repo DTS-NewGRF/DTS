@@ -115,7 +115,7 @@ STR_Nishitetsu_8000_NAME                             :[DTS] 니시테츠 8000형
 STR_Nishitetsu_9000_NAME                             :[DTS] 니시테츠 9000형
 
 # wagon's name
-STR_DTS_PASS_NAME                                    :[DTS] 승객 수송 차량
+STR_DTS_PASS_NAME                                    :[DTS] 단편도색 승객 차량
 STR_KTS_SPASS_NAME                                   :[DTS] 객차형 승객 수송 차량
 STR_Generatar_Car_NAME                               :[DTS] 발전차
 STR_Luggage_Car_NAME                                 :[DTS] 수화물차

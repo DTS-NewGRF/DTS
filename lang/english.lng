@@ -115,7 +115,7 @@ STR_Nishitetsu_8000_NAME                             :[DTS] Nishitetsu 8000
 STR_Nishitetsu_9000_NAME                             :[DTS] Nishitetsu 9000
 
 # wagon's name
-STR_DTS_PASS_NAME                                    :[DTS] Passenger car
+STR_DTS_PASS_NAME                                    :[DTS] only one Color Passenger car
 STR_KTS_SPASS_NAME                                   :[DTS] carriage-type passenger car
 STR_Generatar_Car_NAME                               :[DTS] Generatar Car
 STR_Luggage_Car_NAME                                 :[DTS] Luggage Car
