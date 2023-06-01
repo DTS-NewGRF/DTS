@@ -27,7 +27,8 @@ switch(FEAT_TRAINS, SELF, sw_Standard_Metro_engine_capacity_in_custom, cargo_sub
 }
 
 switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_attach, vehicle_type_id) {
-    Metro_Pass:              return CB_RESULT_ATTACH_ALLOW;
-    Metro_Panto_Car:         return CB_RESULT_ATTACH_ALLOW;
+    Standard_Metro:          return CB_RESULT_ATTACH_ALLOW;
+    KMetro_Pass:             return CB_RESULT_ATTACH_ALLOW;
+    KMetro_Panto_Car:        return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

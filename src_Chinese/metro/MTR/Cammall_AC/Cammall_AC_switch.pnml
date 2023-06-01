@@ -7,7 +7,8 @@ switch(FEAT_TRAINS, SELF, sw_MTR_AC_Cammall_engine, position_in_consist_from_end
 }
 
 switch(FEAT_TRAINS, SELF, sw_MTR_AC_Cammall_wagon_attach, vehicle_type_id) {
-    Metro_Pass:              return CB_RESULT_ATTACH_ALLOW;
-    Metro_Panto_Car:         return CB_RESULT_ATTACH_ALLOW;
+    MTR_AC_Cammall:          return CB_RESULT_ATTACH_ALLOW;
+    HKMetro_Pass:            return CB_RESULT_ATTACH_ALLOW;
+    HKMetro_Panto_Car:       return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

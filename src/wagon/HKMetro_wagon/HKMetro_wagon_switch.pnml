@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_HKMetro_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung);      // MTR AD Tranz CAF A Type Tung Chung
+    2: return string(STR_REFIT_LIVERY_MTR_AC_Cammall);                     // MTR 메트로카멜 교류형
+    3: return string(STR_REFIT_LIVERY_MTR_DC_Cammall);                     // MTR 메트로카멜 직류형 미개조형
+    4: return string(STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding);            // MTR 메트로카멜 직류형 개조형
+    5: return string(STR_REFIT_LIVERY_MTR_DC_Cammall_Disney);              // MTR 메트로카멜 직류형 디즈니선
+    6: return string(STR_REFIT_LIVERY_MTR_CNR_Changchun);                  // MTR CNR 창춘 전동차
+    7: return string(STR_REFIT_LIVERY_MTR_CNR_Changchun_South_Island);     // MTR CNR 창춘 남부섬선
+    8: return string(STR_REFIT_LIVERY_MTR_CRRC_Changchun);                 // MTR CRRC 창춘 전동차
+    9: return string(STR_REFIT_LIVERY_MTR_CRRC_Sipang);                    // MTR CRRC 쓰팡 전동차
+    10: return string(STR_REFIT_LIVERY_MTR_Hyundai_Rotem_Mitsubishi);      // MTR 현대로템 미쓰비시 전동차
+    11: return string(STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_Nomal);         // MTR 현대로탬 R형 일반
+    12: return string(STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_special);       // MTR 현대로탬 R형 특실
+    13: return string(STR_REFIT_LIVERY_MTR_IKK_SP_1900);                   // MTR IKK SP 1900
+    return string(STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express);
+}
+
+switch(FEAT_TRAINS, SELF, sw_HKMetro_wagon, cargo_subtype) {
+    1: set_MTR_AD_Tranz_CAF_A_Tung_Chung_wagon;
+    2: set_MTR_AC_Cammall_wagon;
+    3: set_MTR_DC_Cammall_wagon;
+    4: set_MTR_DC_Cammall_remodin_wagon;
+    5: set_MTR_DC_Cammall_Disney_wagon;
+    6: set_MTR_CNR_Changchun_wagon;
+    7: set_TR_CNR_Changchun_South_Island_wagon;
+    8: set_MTR_CRRC_Changchun_wagon;
+    9: set_MTR_CRRC_Sipan_wagon;
+    10: set_MTR_Hyundai_Rotem_Mitsubishi_wagon;
+    11: set_MTR_Hyundai_Rotem_R_Nomal_wagon;
+    12: set_MTR_Hyundai_Rotem_R_special_wagon;
+    13: set_MTR_IKK_SP_1900_wagon;
+    set_MTR_AD_Tranz_CAF_A_Airport_Express_wagon;
+}

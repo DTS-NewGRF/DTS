@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_KMetro_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Standard_Metro_Cross_Seat);          // 한국표준형 크로스 시트
+    2: return string(STR_REFIT_LIVERY_AUTS);                               // AUTS
+    return string(STR_REFIT_LIVERY_Standard_Metro_Long_Seat);
+}
+
+switch(FEAT_TRAINS, SELF, sw_KMetro_wagon, cargo_subtype) {
+    1: set_Standard_Metro_C_wagon;
+    2: set_AUTS_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KMetro_wagon_capacity_in_custom, cargo_subtype) {
+    1: return 74;
+    2: return 100;
+       110;
+}

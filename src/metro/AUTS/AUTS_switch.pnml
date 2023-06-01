@@ -7,7 +7,8 @@ switch(FEAT_TRAINS, SELF, sw_AUTS_engine, position_in_consist_from_end == 0 && n
 }
 
 switch(FEAT_TRAINS, SELF, sw_AUTS_wagon_attach, vehicle_type_id) {
-    Metro_Pass:              return CB_RESULT_ATTACH_ALLOW;
-    Metro_Panto_Car:         return CB_RESULT_ATTACH_ALLOW;
+    AUTS:                    return CB_RESULT_ATTACH_ALLOW;
+    KMetro_Pass:             return CB_RESULT_ATTACH_ALLOW;
+    KMetro_Panto_Car:        return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

@@ -2,17 +2,17 @@
 metro wagon
 --------------------------------------------------------------------*/
 // Graphics
-#include "Metro_wagon_graphic.pnml"
+#include "KMetro_wagon_graphic.pnml"
 
 // Switch
-#include "Metro_wagon_switch.pnml"
+#include "KMetro_wagon_switch.pnml"
 
 /*--------------------------------------------------------------------
 1층 공통객차
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, Metro_Pass, 2030){
+item (FEAT_TRAINS, KMetro_Pass, 2030){
     property {
-        name:                           string(STR_Metro_Pass_NAME);
+        name:                           string(STR_KMetro_Pass_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1980, 1, 1);
         track_type:                     RAIL;
@@ -46,13 +46,13 @@ item (FEAT_TRAINS, Metro_Pass, 2030){
     }
 
     graphics {
-        default:                        sw_Metro_wagon;
-        purchase:                       sw_Metro_wagon_purchase;
+        default:                        sw_KMetro_wagon;
+        purchase:                       sw_KMetro_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_Metro_cargo_subtype_text;
-        cargo_capacity:                 sw_Metro_wagon_capacity_in_custom;
-        additional_text:                string(STR_REFIT_train_configuration_Metro_Passenger);
+        cargo_subtype_text:             sw_KMetro_cargo_subtype_text;
+        cargo_capacity:                 sw_KMetro_wagon_capacity_in_custom;
+        additional_text:                string(STR_REFIT_train_configuration_KMetro_Passenger);
         }
 	}

@@ -60,12 +60,4 @@ item(FEAT_TRAINS, MTR_CNR_Changchun, 2055){
         cargo_subtype_text:             sw_MTR_CNR_Changchun_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_MTR_CNR_Changchun);
         }
-
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_MTR_CNR_Changchun_wagon;
-        cargo_subtype_text:             sw_MTR_CNR_Changchun_cargo_subtype_text;
-        cargo_capacity:                 80;
-        loading_speed:                  25;
-        running_cost_factor:            100;
-        }
         }

@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-정렬 / 공백 : 2083, 2105, 2113
+정렬 / 공백 : 2113
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
     //지하철
@@ -124,8 +124,10 @@ sort(FEAT_TRAINS, [
 
     //객차
     DTS_Passenger_Car,         //2001
-    Metro_Pass,                //2030
-    Metro_Panto_Car,           //2060
+    KMetro_Pass,               //2030
+    KMetro_Panto_Car,          //2060
+    HKMetro_Pass,              //2083
+    HKMetro_Panto_Car,         //2105
     Coach_2F,                  //2106
     KTS_SPassenger_Car,        //2002
     CTS_SPassenger_Car,        //2031

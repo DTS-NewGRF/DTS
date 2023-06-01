@@ -83,6 +83,8 @@ if (Hong_Kong) {
     disable_item(FEAT_TRAINS, 2057); //Hyundai_Rotem_Mitsubishi
     disable_item(FEAT_TRAINS, 2058); //Hyundai_Rotem_R
     disable_item(FEAT_TRAINS, 2059); //IKK_SP_1900
+    disable_item(FEAT_TRAINS, 2083); //HKMetro_Pass
+    disable_item(FEAT_TRAINS, 2105); //HKMetro_Panto_Car
     }
 
 if (European) {

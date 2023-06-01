@@ -6,31 +6,15 @@ spriteset(set_MTR_IKK_SP_1900_purchase, "src_Chinese/metro/MTR/IKK_SP_1900/IKK_S
 }
 
 spriteset(set_MTR_IKK_SP_1900H_purchase, "src_Chinese/metro/MTR/IKK_SP_1900/IKK_SP_1900.png"){
-    tmpl_purchase_for_dualhead(0, 108)
+    tmpl_purchase_for_dualhead(0, 81)
 }
 
 spriteset(set_MTR_IKK_SP_1900_engineH, "src_Chinese/metro/MTR/IKK_SP_1900/IKK_SP_1900.png"){
     engine(80, 0)
 }
 
-spriteset(set_MTR_IKK_SP_1900_wagon_start, "src_Chinese/metro/MTR/IKK_SP_1900/IKK_SP_1900.png"){
-    wagon_start(80, 27)
-}
-
-spriteset(set_MTR_IKK_SP_1900_wagon, "src_Chinese/metro/MTR/IKK_SP_1900/IKK_SP_1900.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_MTR_IKK_SP_1900_wagon_r, "src_Chinese/metro/MTR/IKK_SP_1900/IKK_SP_1900.png") {
-    wagon_1F_r(80, 54)
-}
-
-spriteset(set_MTR_IKK_SP_1900_wagon_end, "src_Chinese/metro/MTR/IKK_SP_1900/IKK_SP_1900.png"){
-    wagon_start(80, 81)
-}
-
 spriteset(set_MTR_IKK_SP_1900_engineT, "src_Chinese/metro/MTR/IKK_SP_1900/IKK_SP_1900.png"){
-    engine_r(80, 108)
+    engine_r(80, 81)
 }
 
 /*--------------------------------------------------------------------

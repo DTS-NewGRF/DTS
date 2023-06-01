@@ -9,62 +9,30 @@ spriteset(set_MTR_CNR_Changchun_purchase, "src_Chinese/metro/MTR/CNR_Changchun/C
 1. MTR CNR Changchun
 --------------------------------------------------------------------*/
 spriteset(set_MTR_CNR_ChangchunH_purchase, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
-    tmpl_purchase_for_dualhead(0, 108)
+    tmpl_purchase_for_dualhead(0, 81)
 }
 
 spriteset(set_MTR_CNR_Changchun_engineH, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
     engine(80, 0)
 }
 
-spriteset(set_MTR_CNR_Changchun_wagon_start, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
-    wagon_start(80, 27)
-}
-
-spriteset(set_MTR_CNR_Changchun_wagon, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_MTR_CNR_Changchun_wagon_r, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun.png") {
-    wagon_1F_r(80, 54)
-}
-
-spriteset(set_MTR_CNR_Changchun_wagon_end, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
-    wagon_start(80, 81)
-}
-
 spriteset(set_MTR_CNR_Changchun_engineT, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun.png"){
-    engine_r(80, 108)
+    engine_r(80, 81)
 }
 
 /*--------------------------------------------------------------------
 2. MTR CNR Changchun South Island Line
 --------------------------------------------------------------------*/
 spriteset(set_MTR_CNR_Changchun_South_IslandH_purchase, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
-    tmpl_purchase_for_dualhead(0, 108)
+    tmpl_purchase_for_dualhead(0, 81)
 }
 
 spriteset(set_TR_CNR_Changchun_South_Island_engineH, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
     engine(80, 0)
 }
 
-spriteset(set_TR_CNR_Changchun_South_Island_wagon_start, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
-    wagon_start(80, 27)
-}
-
-spriteset(set_TR_CNR_Changchun_South_Island_wagon, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_TR_CNR_Changchun_South_Island_wagon_r, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png") {
-    wagon_1F_r(80, 54)
-}
-
-spriteset(set_TR_CNR_Changchun_South_Island_wagon_end, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
-    wagon_start(80, 81)
-}
-
 spriteset(set_TR_CNR_Changchun_South_Island_engineT, "src_Chinese/metro/MTR/CNR_Changchun/CNR_Changchun_Sipang.png"){
-    engine_r(80, 108)
+    engine_r(80, 81)
 }
 
 /*--------------------------------------------------------------------

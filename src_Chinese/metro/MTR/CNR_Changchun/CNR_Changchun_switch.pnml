@@ -21,42 +21,9 @@ switch(FEAT_TRAINS, SELF, sw_MTR_CNR_Changchun_engine, position_in_consist_from_
     sw_MTR_CNR_Changchun_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_MTR_CNR_Changchun_wagon_start, cargo_subtype) {
-    1: set_TR_CNR_Changchun_South_Island_wagon_start;   // CNR 남부섬선
-    set_MTR_CNR_Changchun_wagon_start;
-}
-
-switch(FEAT_TRAINS, SELF, sw_MTR_CNR_Changchun_wagon_front, cargo_subtype) {
-    1: set_TR_CNR_Changchun_South_Island_wagon; // CNR 남부섬선
-    set_MTR_CNR_Changchun_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_MTR_CNR_Changchun_wagon_tail, cargo_subtype) {
-    1: set_TR_CNR_Changchun_South_Island_wagon_r;   // CNR 남부섬선
-    set_MTR_CNR_Changchun_wagon_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_MTR_CNR_Changchun_wagon_end, cargo_subtype) {
-    1: set_TR_CNR_Changchun_South_Island_wagon_end; // CNR 남부섬선
-    set_MTR_CNR_Changchun_wagon_end;
-}
-
-switch(FEAT_TRAINS, SELF, sw_MTR_CNR_Changchun_wagon_middle, (position_in_consist)) {
-    1: sw_MTR_CNR_Changchun_wagon_tail;
-    sw_MTR_CNR_Changchun_wagon_front;
-}
-
-switch(FEAT_TRAINS, SELF, sw_MTR_CNR_Changchun_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    MTR_CNR_Changchun: sw_MTR_CNR_Changchun_wagon_end;
-    sw_MTR_CNR_Changchun_wagon_middle;
-}
-
-switch(FEAT_TRAINS, SELF, sw_MTR_CNR_Changchun_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    MTR_CNR_Changchun: sw_MTR_CNR_Changchun_wagon_start;
-    sw_MTR_CNR_Changchun_wagon_rear;
-}
-
 switch(FEAT_TRAINS, SELF, sw_MTR_CNR_Changchun_wagon_attach, vehicle_type_id) {
-    DTS_Passenger_Car:       return CB_RESULT_ATTACH_ALLOW;
+    MTR_CNR_Changchun:       return CB_RESULT_ATTACH_ALLOW;
+    HKMetro_Pass:            return CB_RESULT_ATTACH_ALLOW;
+    HKMetro_Panto_Car:       return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

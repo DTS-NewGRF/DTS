@@ -22,7 +22,8 @@ switch(FEAT_TRAINS, SELF, sw_MTR_AD_Tranz_CAF_A_engine, position_in_consist_from
 }
 
 switch(FEAT_TRAINS, SELF, sw_MTR_AD_Tranz_CAF_A_wagon_attach, vehicle_type_id) {
-    Metro_Pass:              return CB_RESULT_ATTACH_ALLOW;
-    Metro_Panto_Car:         return CB_RESULT_ATTACH_ALLOW;
+    AD_Tranz_CAF_A:          return CB_RESULT_ATTACH_ALLOW;
+    HKMetro_Pass:            return CB_RESULT_ATTACH_ALLOW;
+    HKMetro_Panto_Car:       return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }
