@@ -8,17 +8,16 @@ standard metro
 #include "Standard_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보
+열차정보 4량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Standard_Metro, 2006){
+item(FEAT_TRAINS, Standard_Metro_4Car, 2006){
     property {
-        name:                           string(STR_Standard_Metro_NAME);
+        name:                           string(STR_Standard_Metro_4Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1999, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          120km/h;
@@ -50,10 +49,123 @@ item(FEAT_TRAINS, Standard_Metro, 2006){
         }
 
 	graphics {
-        default:                        sw_Standard_Metro_engine;
+        default:                        sw_Standard_Metro_4car;
+        articulated_part:               sw_articulated_Standard_Metro_4car;
         purchase:                       sw_Standard_Metro_purchase;
         speed:                          Metro_Speed_Train;
-        cargo_capacity:                 sw_Standard_Metro_engine_capacity_in_custom;
+        cargo_capacity:                 sw_Standard_Metro_capacity_in_custom;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_Standard_Metro_wagon_attach;
+        cargo_subtype_text:             sw_Standard_Metro_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Standard_Metro);
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 6량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Standard_Metro_6Car, 2127){
+    property {
+        name:                           string(STR_Standard_Metro_6Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1999, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          2000 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 100;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_Standard_Metro_6car;
+        articulated_part:               sw_articulated_Standard_Metro_6car;
+        purchase:                       sw_Standard_Metro_purchase;
+        speed:                          Metro_Speed_Train;
+        cargo_capacity:                 sw_Standard_Metro_capacity_in_custom;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_Standard_Metro_wagon_attach;
+        cargo_subtype_text:             sw_Standard_Metro_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Standard_Metro);
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 8량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Standard_Metro_8Car, 2128){
+    property {
+        name:                           string(STR_Standard_Metro_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1999, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          2000 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 100;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_Standard_Metro_8car;
+        articulated_part:               sw_articulated_Standard_Metro_8car;
+        purchase:                       sw_Standard_Metro_purchase;
+        speed:                          Metro_Speed_Train;
+        cargo_capacity:                 sw_Standard_Metro_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

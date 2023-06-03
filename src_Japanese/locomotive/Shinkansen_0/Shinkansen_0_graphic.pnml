@@ -8,10 +8,6 @@ spriteset(set_Shinkansen_0_purchase, "src_Japanese/locomotive/Shinkansen_E5_H5/S
 /*--------------------------------------------------------------------
 1. 신칸센 0계
 --------------------------------------------------------------------*/
-spriteset(set_Shinkansen_0H_purchase, "src_Japanese/locomotive/Shinkansen_E5_H5/Shinkansen_E5.png"){
-    tmpl_purchase_for_dualhead(0, 81)
-}
-
 spriteset(set_Shinkansen_0_engineH, "src_Japanese/locomotive/Shinkansen_E5_H5/Shinkansen_E5.png"){
     engine(80, 0)
 }
@@ -51,10 +47,6 @@ alternative_sprites(set_Shinkansen_0_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BP
     tmpl_purchase(0, 0)
 }
 
-alternative_sprites(set_Shinkansen_0H_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_0/Shinkansen_0_32bpp.png"){
-    tmpl_purchase_for_dualhead(0, 135)
-}
-
 alternative_sprites(set_Shinkansen_0_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_0/Shinkansen_0_32bpp.png"){
     engine(80, 0)
 }
@@ -80,7 +72,7 @@ alternative_sprites(set_Shinkansen_0_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP
 }
 
 alternative_sprites(set_Shinkansen_0_panto_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_0/Shinkansen_0_32bpp.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 alternative_sprites(set_Shinkansen_0_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_0/Shinkansen_0_32bpp.png"){
@@ -90,10 +82,6 @@ alternative_sprites(set_Shinkansen_0_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP
 /*--------------------------------------------------------------------
 2. 신칸센 0계 리뉴얼
 --------------------------------------------------------------------*/
-spriteset(set_Shinkansen_0_renewalH_purchase, "src_Japanese/locomotive/Shinkansen_E5_H5/Shinkansen_E5.png"){
-    tmpl_purchase_for_dualhead(0, 81)
-}
-
 spriteset(set_Shinkansen_0_renewal_engineH, "src_Japanese/locomotive/Shinkansen_E5_H5/Shinkansen_E5.png"){
     engine(80, 0)
 }
@@ -129,10 +117,6 @@ spriteset(set_Shinkansen_0_renewal_engineT, "src_Japanese/locomotive/Shinkansen_
 /*--------------------------------------------------------------------
 2-1. 신칸센 0계 리뉴얼 32bpp
 --------------------------------------------------------------------*/
-alternative_sprites(set_Shinkansen_0_renewalH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_0/Shinkansen_0_renewal_32bpp.png"){
-    tmpl_purchase_for_dualhead(0, 135)
-}
-
 alternative_sprites(set_Shinkansen_0_renewal_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_0/Shinkansen_0_renewal_32bpp.png"){
     engine(80, 0)
 }
@@ -158,7 +142,7 @@ alternative_sprites(set_Shinkansen_0_renewal_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEP
 }
 
 alternative_sprites(set_Shinkansen_0_renewal_panto_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_0/Shinkansen_0_renewal_32bpp.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 alternative_sprites(set_Shinkansen_0_renewal_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_0/Shinkansen_0_renewal_32bpp.png"){

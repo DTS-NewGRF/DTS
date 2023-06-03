@@ -36,18 +36,21 @@ switch(FEAT_TRAINS, SELF, sw_AREX_panto_wagon_r, cargo_subtype) {
     set_AREX_panto_wagon_r;
 }
 
-switch(FEAT_TRAINS, SELF, sw_AREX_panto_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    APEX20005: sw_AREX_panto_wagon_r;
-    sw_AREX_wagon_middle;
-}
+switch (FEAT_TRAINS, SELF, sw_AREX_6car, position_in_vehid_chain % 6) {
+    1:sw_AREX_panto_wagon;
+    2:sw_AREX_wagon_middle;
+    3:sw_AREX_wagon_middle;
+    4:sw_AREX_panto_wagon_r;
+    5:sw_AREX_engineT;
+    sw_AREX_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_AREX_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    APEX20005: sw_AREX_panto_wagon;
-    sw_AREX_panto_wagon_rear;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_AREX_6car, extra_callback_info1) {
+    1..5: APEX20005_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_AREX_wagon_attach, vehicle_type_id) {
-    APEX20005:           return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    APEX20005_6Car:          return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

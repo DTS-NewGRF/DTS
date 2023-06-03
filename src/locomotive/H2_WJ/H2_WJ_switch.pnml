@@ -1,13 +1,19 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_H2_WJ_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_H2_WJ_engineT;
-    set_H2_WJ_engineH;
-}
+switch (FEAT_TRAINS, SELF, sw_H2_WJ_4car, position_in_vehid_chain % 4) {
+    1:set_H2_WJ_wagon;
+    2:set_H2_WJ_wagon;
+    3:set_H2_WJ_engineT;
+    set_H2_WJ_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_H2_WJ_4car, extra_callback_info1) {
+    1..3: H2_WJ_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_H2_WJ_wagon_attach, vehicle_type_id) {
-    H2_WJ:                    return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
+    H2_WJ_4Car:                    return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

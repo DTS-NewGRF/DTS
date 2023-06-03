@@ -39,35 +39,9 @@ switch(FEAT_TRAINS, SELF, sw_NRT2_engine, position_in_consist_from_end == 0 && n
     sw_NRT2_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_NRT2_wagon_front, cargo_subtype) {
-    1: set_NRT2_Old_G_wagon;   // 녹색 구도색
-    2: set_NRT2_Old_W_wagon;   // 흰색 구도색
-    3: set_NRT2_New_B_wagon;   // 파랑 신도색
-    4: set_NRT2_New_G_wagon;   // 녹색 신도색
-    5: set_NRT2_New_W_wagon;   // 흰색 신도색
-    6: set_NRT2_Old_OT_wagon;  // O-train 도색
-    7: set_NRT2_New_ITX_wagon; // ITX 도색
-    set_NRT2_Old_B_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_NRT2_wagon_tail, cargo_subtype) {
-    1: set_NRT2_Old_G_wagon_r;   // 녹색 구도색
-    2: set_NRT2_Old_W_wagon_r;   // 흰색 구도색
-    3: set_NRT2_New_B_wagon_r;   // 파랑 신도색
-    4: set_NRT2_New_G_wagon_r;   // 녹색 신도색
-    5: set_NRT2_New_W_wagon_r;   // 흰색 신도색
-    6: set_NRT2_Old_OT_wagon_r;  // O-train 도색
-    7: set_NRT2_New_ITX_wagon_r; // ITX 도색
-    set_NRT2_Old_B_wagon_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_NRT2_wagon, position_in_consist) {
-    1: sw_NRT2_wagon_tail;
-    sw_NRT2_wagon_front;
-}
-
 switch(FEAT_TRAINS, SELF, sw_NRT2_wagon_attach, vehicle_type_id) {
     NRT2:                   return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    EMU_Pass:               return CB_RESULT_ATTACH_ALLOW;
+    EMU_Panto_Car:          return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

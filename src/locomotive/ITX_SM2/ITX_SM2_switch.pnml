@@ -27,27 +27,9 @@ switch(FEAT_TRAINS, SELF, sw_ITX_SM2_engine, position_in_consist_from_end == 0 &
     sw_ITX_SM2_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ITX_SM2_wagon_front, cargo_subtype) {
-    1: set_ITX_SM2_G_wagon;    // 녹색
-    2: set_ITX_SM2_W_wagon;    // 흰색
-    3: set_ITX_SM2_C_wagon;    // 회사
-    set_ITX_SM2_R_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_SM2_wagon_tail, cargo_subtype) {
-    1: set_ITX_SM2_G_wagon_r;    // 녹색
-    2: set_ITX_SM2_W_wagon_r;    // 흰색
-    3: set_ITX_SM2_C_wagon_r;    // 회사
-    set_ITX_SM2_R_wagon_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ITX_SM2_wagon, position_in_consist) {
-    1: sw_ITX_SM2_wagon_tail;
-    sw_ITX_SM2_wagon_front;
-}
-
 switch(FEAT_TRAINS, SELF, sw_ITX_SM2_wagon_attach, vehicle_type_id) {
     ITX_SM2:                return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    EMU_Pass:               return CB_RESULT_ATTACH_ALLOW;
+    EMU_Panto_Car:          return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

@@ -1,10 +1,12 @@
 /*--------------------------------------------------------------------
-정렬
+정렬 / 공백 2060
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
     //지하철
-    Standard_Metro,            //2006
-    AUTS,                      //2007
+    Standard_Metro_4Car,       //2006
+    Standard_Metro_6Car,       //2127
+    Standard_Metro_8Car,       //2128
+    AUTS_6Car,                 //2007
     AD_Tranz_CAF_A,            //2052
     MTR_AC_Cammall,            //2053
     MTR_DC_Cammall,            //2054
@@ -23,12 +25,12 @@ sort(FEAT_TRAINS, [
     Nishitetsu_9000,           //2104
 
     //통근열차
-    H2_WJ,                     //2008
+    H2_WJ_4Car,                //2008
 
     //일반열차
-    APEX20005,                 //2009
+    APEX20005_6Car,            //2009
     EMU150,                    //2010
-    Bicheuro2,                 //2011
+    EMU150_DD,                 //2011
     NRT2,                      //2012
     ITX_SM2,                   //2013
     GT26CW,                    //2014
@@ -58,7 +60,8 @@ sort(FEAT_TRAINS, [
     ICE2,                      //2068
     ICE4,                      //2071
     Renfe_S_130,               //2075
-    Shinkansen_0,              //2085
+    Shinkansen_0_12Car,        //2085
+    Shinkansen_0_16Car,        //2126
     Shinkansen_700,            //2087
     Shinkansen_800,            //2088
     Shinkansen_E2,             //2091
@@ -125,7 +128,6 @@ sort(FEAT_TRAINS, [
     //객차
     DTS_Passenger_Car,         //2001
     KMetro_Pass,               //2030
-    KMetro_Panto_Car,          //2060
     HKMetro_Pass,              //2083
     HKMetro_Panto_Car,         //2105
     JMetro_Pass,               //2113

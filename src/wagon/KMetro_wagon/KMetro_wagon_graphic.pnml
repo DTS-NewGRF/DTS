@@ -8,21 +8,21 @@ spriteset(set_KMetro_wagon_purchase, "src\wagon\KMetro_wagon\KMetro_wagon.png"){
 /*--------------------------------------------------------------------
 1. 표준형 롱시트
 --------------------------------------------------------------------*/
-spriteset(set_Standard_Metro_L_wagon, "src\metro\standard\Standard_Long.png") {
+spriteset(set_Standard_Metro_Long_wagon, "src\metro\standard\Standard_Long.png") {
     wagon_1F_F(80, 54)
 }
 
 /*--------------------------------------------------------------------
 2. 표준형 크로스시트
 --------------------------------------------------------------------*/
-spriteset(set_Standard_Metro_C_wagon, "src\metro\standard\Standard_Cross.png") {
+spriteset(set_Standard_Metro_Cross_wagon, "src\metro\standard\Standard_Cross.png") {
     wagon_1F_F(80, 54)
 }
 
 /*--------------------------------------------------------------------
 3. AUTS
 --------------------------------------------------------------------*/
-spriteset(set_AUTS_wagon, "src\metro\AUTS\AUTS.png") {
+spriteset(set_AUTS_S_wagon, "src\metro\AUTS\AUTS.png") {
     wagon_1F_F(80, 54)
 }
 

@@ -16,14 +16,6 @@ spriteset(set_NRT2_Old_B_engineH, "src/locomotive/NRT2/NRT2_Old_B.png"){
     engine(80, 0)
 }
 
-spriteset(set_NRT2_Old_B_wagon, "src/locomotive/NRT2/NRT2_Old_B.png") {
-    wagon_1F(80, 27)
-}
-
-spriteset(set_NRT2_Old_B_wagon_r, "src/locomotive/NRT2/NRT2_Old_B.png") {
-    wagon_1F_r(80, 27)
-}
-
 spriteset(set_NRT2_Old_B_engineT, "src/locomotive/NRT2/NRT2_Old_B.png"){
     engine_r(80, 54)
 }
@@ -37,14 +29,6 @@ spriteset(set_NRT2_New_BH_purchase, "src/locomotive/NRT2/NRT2_New_B.png"){
 
 spriteset(set_NRT2_New_B_engineH, "src/locomotive/NRT2/NRT2_New_B.png"){
     engine(80, 0)
-}
-
-spriteset(set_NRT2_New_B_wagon, "src/locomotive/NRT2/NRT2_New_B.png") {
-    wagon_1F(80, 27)
-}
-
-spriteset(set_NRT2_New_B_wagon_r, "src/locomotive/NRT2/NRT2_New_B.png") {
-    wagon_1F_r(80, 27)
 }
 
 spriteset(set_NRT2_New_B_engineT, "src/locomotive/NRT2/NRT2_New_B.png"){
@@ -62,14 +46,6 @@ spriteset(set_NRT2_Old_G_engineH, "src/locomotive/NRT2/NRT2_Old_G.png"){
     engine(80, 0)
 }
 
-spriteset(set_NRT2_Old_G_wagon, "src/locomotive/NRT2/NRT2_Old_G.png") {
-    wagon_1F(80, 27)
-}
-
-spriteset(set_NRT2_Old_G_wagon_r, "src/locomotive/NRT2/NRT2_Old_G.png") {
-    wagon_1F_r(80, 27)
-}
-
 spriteset(set_NRT2_Old_G_engineT, "src/locomotive/NRT2/NRT2_Old_G.png"){
     engine_r(80, 54)
 }
@@ -83,14 +59,6 @@ spriteset(set_NRT2_New_GH_purchase, "src/locomotive/NRT2/NRT2_New_G.png"){
 
 spriteset(set_NRT2_New_G_engineH, "src/locomotive/NRT2/NRT2_New_G.png"){
     engine(80, 0)
-}
-
-spriteset(set_NRT2_New_G_wagon, "src/locomotive/NRT2/NRT2_New_G.png") {
-    wagon_1F(80, 27)
-}
-
-spriteset(set_NRT2_New_G_wagon_r, "src/locomotive/NRT2/NRT2_New_G.png") {
-    wagon_1F_r(80, 27)
 }
 
 spriteset(set_NRT2_New_G_engineT, "src/locomotive/NRT2/NRT2_New_G.png"){
@@ -108,14 +76,6 @@ spriteset(set_NRT2_Old_W_engineH, "src/locomotive/NRT2/NRT2_Old_W.png"){
     engine(80, 0)
 }
 
-spriteset(set_NRT2_Old_W_wagon, "src/locomotive/NRT2/NRT2_Old_W.png") {
-    wagon_1F(80, 27)
-}
-
-spriteset(set_NRT2_Old_W_wagon_r, "src/locomotive/NRT2/NRT2_Old_W.png") {
-    wagon_1F_r(80, 27)
-}
-
 spriteset(set_NRT2_Old_W_engineT, "src/locomotive/NRT2/NRT2_Old_W.png"){
     engine_r(80, 54)
 }
@@ -129,14 +89,6 @@ spriteset(set_NRT2_New_WH_purchase, "src/locomotive/NRT2/NRT2_New_W.png"){
 
 spriteset(set_NRT2_New_W_engineH, "src/locomotive/NRT2/NRT2_New_W.png"){
     engine(80, 0)
-}
-
-spriteset(set_NRT2_New_W_wagon, "src/locomotive/NRT2/NRT2_New_W.png") {
-    wagon_1F(80, 27)
-}
-
-spriteset(set_NRT2_New_W_wagon_r, "src/locomotive/NRT2/NRT2_New_W.png") {
-    wagon_1F_r(80, 27)
 }
 
 spriteset(set_NRT2_New_W_engineT, "src/locomotive/NRT2/NRT2_New_W.png"){
@@ -154,14 +106,6 @@ spriteset(set_NRT2_New_ITX_engineH, "src/locomotive/NRT2/NRT2_New_ITX.png"){
     engine(80, 0)
 }
 
-spriteset(set_NRT2_New_ITX_wagon, "src/locomotive/NRT2/NRT2_New_ITX.png") {
-    wagon_1F(80, 27)
-}
-
-spriteset(set_NRT2_New_ITX_wagon_r, "src/locomotive/NRT2/NRT2_New_ITX.png") {
-    wagon_1F_r(80, 27)
-}
-
 spriteset(set_NRT2_New_ITX_engineT, "src/locomotive/NRT2/NRT2_New_ITX.png"){
     engine_r(80, 54)
 }
@@ -175,14 +119,6 @@ spriteset(set_NRT2_Old_OTH_purchase, "src/locomotive/NRT2/NRT2_Old_OT.png"){
 
 spriteset(set_NRT2_Old_OT_engineH, "src/locomotive/NRT2/NRT2_Old_OT.png"){
     engine(80, 0)
-}
-
-spriteset(set_NRT2_Old_OT_wagon, "src/locomotive/NRT2/NRT2_Old_OT.png") {
-    wagon_1F(80, 27)
-}
-
-spriteset(set_NRT2_Old_OT_wagon_r, "src/locomotive/NRT2/NRT2_Old_OT.png") {
-    wagon_1F_r(80, 27)
 }
 
 spriteset(set_NRT2_Old_OT_engineT, "src/locomotive/NRT2/NRT2_Old_OT.png"){

@@ -15,7 +15,11 @@ template tmpl_purchase_for_dualhead(x, y) {
 }
 
 template tmpl_purchase(x, y) {
-    tmpl_purchase_detail(x, y, 70, 15, -25, -8)
+    tmpl_purchase_detail(x, y, 70, 15, -39, -8)
+}
+
+template tmpl_Shinkansen_purchase(x, y) {
+    tmpl_purchase_detail(x, y, 70, 15, -39, -8)
 }
 
 template tmpl_single_purchase(x, y) {

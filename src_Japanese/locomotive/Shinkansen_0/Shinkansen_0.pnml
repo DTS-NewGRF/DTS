@@ -8,17 +8,16 @@
 #include "Shinkansen_0_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보
+열차정보 12량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Shinkansen_0, 2085){
+item(FEAT_TRAINS, Shinkansen_0_12Car, 2085){
     property {
-        name:                           string(STR_Shinkansen_0_NAME);
+        name:                           string(STR_Shinkansen_0_12Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1964, 10, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          220km/h;
@@ -50,24 +49,70 @@ item(FEAT_TRAINS, Shinkansen_0, 2085){
         }
         
     graphics {
-        default:                        sw_Shinkansen_0_engine;
+        default:                        sw_Shinkansen_0_12car;
+        articulated_part:               sw_articulated_Shinkansen_0_12car;
         purchase:                       sw_Shinkansen_0_purchase;
         speed:                          Semi_High_SPEED_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Shinkansen_0_wagon_attach;
         cargo_subtype_text:             sw_Shinkansen_0_cargo_subtype_text;
+        can_attach_wagon:               sw_Shinkansen_0_wagon_attach;
         additional_text:                string(STR_REFIT_ADDITIONAL_Shinkansen_0);
         }
+        }
+    
+/*--------------------------------------------------------------------
+열차정보 16량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Shinkansen_0_16Car, 2126){
+    property {
+        name:                           string(STR_Shinkansen_0_16Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1964, 10, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_Shinkansen_0_wagon;
-        cargo_subtype_text:             sw_Shinkansen_0_cargo_subtype_text;
+        //spec
+        speed:                          220km/h;
+        power:                          1480 kW;
+        weight:                         60 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   20;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
         cargo_capacity:                 87;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP,TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_Shinkansen_0_16car;
+        articulated_part:               sw_articulated_Shinkansen_0_16car;
+        purchase:                       sw_Shinkansen_0_purchase;
+        speed:                          Semi_High_SPEED_Train;
         loading_speed:                  25;
-        running_cost_factor:            100;
-        power:                          993;
-        weight:                         60;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Shinkansen_0_cargo_subtype_text;
+        can_attach_wagon:               sw_Shinkansen_0_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Shinkansen_0);
         }
         }

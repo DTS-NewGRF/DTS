@@ -21,14 +21,64 @@ switch(FEAT_TRAINS, SELF, sw_Standard_Metro_engine, position_in_consist_from_end
     sw_Standard_Metro_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Standard_Metro_engine_capacity_in_custom, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Standard_Metro_panto_wagon, cargo_subtype) {
+    1: set_Standard_Metro_C_panto_wagon; // 크로스 시트
+    set_Standard_Metro_L_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon, cargo_subtype) {
+    1: set_Standard_Metro_C_wagon; // 크로스 시트
+    set_Standard_Metro_L_wagon;
+}
+
+switch (FEAT_TRAINS, SELF, sw_Standard_Metro_4car, position_in_vehid_chain % 4) {
+    1:sw_Standard_Metro_panto_wagon;
+    2:sw_Standard_Metro_panto_wagon;
+    3:sw_Standard_Metro_engineT;
+    sw_Standard_Metro_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Standard_Metro_6car, position_in_vehid_chain % 6) {
+    1:sw_Standard_Metro_panto_wagon;
+    2:sw_Standard_Metro_wagon;
+    3:sw_Standard_Metro_panto_wagon;
+    4:sw_Standard_Metro_panto_wagon;
+    5:sw_Standard_Metro_engineT;
+    sw_Standard_Metro_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Standard_Metro_8car, position_in_vehid_chain % 8) {
+    1:sw_Standard_Metro_panto_wagon;
+    2:sw_Standard_Metro_panto_wagon;
+    3:sw_Standard_Metro_wagon;
+    4:sw_Standard_Metro_wagon;
+    5:sw_Standard_Metro_panto_wagon;
+    6:sw_Standard_Metro_panto_wagon;
+    7:sw_Standard_Metro_engineT;
+    sw_Standard_Metro_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Standard_Metro_4car, extra_callback_info1) {
+    1..3: Standard_Metro_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Standard_Metro_6car, extra_callback_info1) {
+    1..5: Standard_Metro_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Standard_Metro_8car, extra_callback_info1) {
+    1..7: Standard_Metro_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Standard_Metro_capacity_in_custom, cargo_subtype) {
     1: return 62;
        100;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_attach, vehicle_type_id) {
-    Standard_Metro:          return CB_RESULT_ATTACH_ALLOW;
-    KMetro_Pass:             return CB_RESULT_ATTACH_ALLOW;
-    KMetro_Panto_Car:        return CB_RESULT_ATTACH_ALLOW;
+    Standard_Metro_4Car:     return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }
