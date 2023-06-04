@@ -10,15 +10,14 @@ KTX-SC2
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, KTX_SC, 2024){
+item(FEAT_TRAINS, KTX_SC_10Car, 2024){
     property {
-        name:                           string(STR_KTX_SC_NAME);
+        name:                           string(STR_KTX_SC_10Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2015, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          300km/h;
@@ -50,24 +49,17 @@ item(FEAT_TRAINS, KTX_SC, 2024){
         }
 
 	graphics {
-        default:                        sw_KTX_SC_engine;
+        default:                        sw_KTX_SC_10car;
+        articulated_part:               sw_articulated_KTX_SC_10car;
         purchase:                       sw_KTX_SC_purchase;
         speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_capacity:                 0;
+        cargo_capacity:                 60;
         purchase_cargo_capacity:        0;                 
         can_attach_wagon:               sw_KTX_SC_wagon_attach;
         cargo_subtype_text:             sw_KTX_SC_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_KTX_SC);
-        }
-
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_KTX_SC_wagon;
-        cargo_subtype_text:             sw_KTX_SC_cargo_subtype_text;
-        cargo_capacity:                 60;
-        loading_speed:                  25;
-        running_cost_factor:            100;
         }
         }

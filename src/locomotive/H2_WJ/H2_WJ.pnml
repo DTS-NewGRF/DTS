@@ -8,9 +8,64 @@ NKX
 #include "H2_WJ_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보
+열차정보 2량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, H2_WJ_4Car, 2008){
+item(FEAT_TRAINS, H2_WJ_2Car, 2008){
+    property {
+        name:                           string(STR_H2_WJ_2Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2022, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        
+        //spec
+        speed:                          121km/h;
+        power:                          2200 kW;
+        weight:                         30 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 48;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_H2_WJ_2car;
+        articulated_part:               sw_articulated_H2_WJ_2car;
+        purchase:                       sw_H2_WJ_purchase;
+        speed:                          Metro_Speed_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_H2_WJ_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_H2_WJ);
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 4량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, H2_WJ_4Car, 2060){
     property {
         name:                           string(STR_H2_WJ_4Car_NAME);
         climates_available:             ALL_CLIMATES;

@@ -44,7 +44,7 @@ item(FEAT_TRAINS, Travel_8500, 2016){
         running_cost_base:              RUNNING_COST_DIESEL;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
         

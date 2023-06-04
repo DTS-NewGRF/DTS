@@ -8,16 +8,24 @@ spriteset(set_GTX_purchase, "src/locomotive/GTX/GTX.png"){
 /*--------------------------------------------------------------------
 GTX
 --------------------------------------------------------------------*/
-spriteset(set_GTXH_purchase, "src/locomotive/GTX/GTX.png"){
-    tmpl_purchase_for_dualhead(0, 81)
-}
-
 spriteset(set_GTX_engineH, "src/locomotive/GTX/GTX.png"){
     engine(80, 0)
 }
 
+spriteset(set_GTX_panto_wagon, "src/locomotive/GTX/GTX.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_GTX_wagon, "src/locomotive/GTX/GTX.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_GTX_panto_wagon_r, "src/locomotive/GTX/GTX.png"){
+    wagon_1F_F(80, 81)
+}
+
 spriteset(set_GTX_engineT, "src/locomotive/GTX/GTX.png"){
-    engine_r(80, 81)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------

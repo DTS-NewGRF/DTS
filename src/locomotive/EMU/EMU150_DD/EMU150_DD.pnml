@@ -10,15 +10,14 @@ EMU
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, EMU150_DD, 2011){
+item(FEAT_TRAINS, EMU150_DD_6Car, 2011){
     property {
-        name:                           string(STR_EMU150_DD_NAME);
+        name:                           string(STR_EMU150_DD_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          165km/h;
@@ -52,7 +51,8 @@ item(FEAT_TRAINS, EMU150_DD, 2011){
         }
         
     graphics {
-        default:                        sw_EMU150_DD_engine;
+        default:                        sw_EMU150_DD_6car;
+        articulated_part:               sw_articulated_EMU150_DD_6car;
         purchase:                       sw_EMU150_DD_purchase;
         speed:                          Regular_Speed_Train;
         loading_speed:                  25;

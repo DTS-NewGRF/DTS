@@ -10,15 +10,14 @@ EMU260
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, EMU260, 2020){
+item(FEAT_TRAINS, EMU260_6Car, 2020){
     property {
-        name:                           string(STR_EMU260_NAME);
+        name:                           string(STR_EMU260_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          260km/h;
@@ -52,19 +51,12 @@ item(FEAT_TRAINS, EMU260, 2020){
         }
         
     graphics {
-        default:                        sw_EMU260_engine;
+        default:                        sw_EMU260_6car;
+        articulated_part:               sw_articulated_EMU260_6car;
         purchase:                       sw_EMU260_purchase;
         loading_speed:                  25;
         can_attach_wagon:               sw_EMU260_wagon_attach;
         cargo_subtype_text:             sw_EMU260_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_EMU260);
-        }
-
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_EMU260_wagon;
-        cargo_subtype_text:             sw_EMU260_cargo_subtype_text;
-        cargo_capacity:                 70;
-        loading_speed:                  25;
-        running_cost_factor:            100;
         }
         }

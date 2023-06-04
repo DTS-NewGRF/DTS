@@ -28,11 +28,6 @@ switch(FEAT_TRAINS, SELF, sw_EMU260_engineT, cargo_subtype) {
     set_EMU260_W_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_EMU260_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: sw_EMU260_engineT;
-    sw_EMU260_engineH;
-}
-
 switch(FEAT_TRAINS, SELF, sw_EMU260_panto_wagon_cargo_subtype, cargo_subtype) {
     1: set_EMU260_BK_panto_wagon;     //EMU260_BK
     2: set_EMU260_MD_panto_wagon;     //EMU260_MD
@@ -51,7 +46,7 @@ switch(FEAT_TRAINS, SELF, sw_EMU260_panto_wagon_r_cargo_subtype, cargo_subtype) 
     set_EMU260_W_panto_wagon_r;
 }
 
-switch(FEAT_TRAINS, SELF, sw_EMU260_wagon_front, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_EMU260_wagon, cargo_subtype) {
     1: set_EMU260_BK_wagon;     //EMU260_BK
     2: set_EMU260_MD_wagon;     //EMU260_MD
     3: set_EMU260_SM1_wagon;    //EMU260_SM1
@@ -60,37 +55,26 @@ switch(FEAT_TRAINS, SELF, sw_EMU260_wagon_front, cargo_subtype) {
     set_EMU260_W_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_EMU260_wagon_tail, cargo_subtype) {
-    1: set_EMU260_BK_wagon_r;     //EMU260_BK
-    2: set_EMU260_MD_wagon_r;     //EMU260_MD
-    3: set_EMU260_SM1_wagon_r;    //EMU260_SM1
-    4: set_EMU260_SM2_wagon_r;    //EMU260_SM2
-    5: set_EMU260_SM3_wagon_r;    //EMU260_SM3
-    set_EMU260_W_wagon_r;
-}
+switch (FEAT_TRAINS, SELF, sw_EMU260_6car, position_in_vehid_chain % 6) {
+    1:sw_EMU260_panto_wagon_cargo_subtype;
+    2:sw_EMU260_wagon;
+    3:sw_EMU260_wagon;
+    4:sw_EMU260_panto_wagon_r_cargo_subtype;
+    5:sw_EMU260_engineT;
+    sw_EMU260_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_EMU260_wagon_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
-    1: sw_EMU260_wagon_tail;
-    sw_EMU260_wagon_front;
-}
-
-switch(FEAT_TRAINS, SELF, sw_EMU260_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    EMU260: sw_EMU260_panto_wagon_r_cargo_subtype;
-    sw_EMU260_wagon_middle;
-}
-
-switch(FEAT_TRAINS, SELF, sw_EMU260_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    EMU260: sw_EMU260_panto_wagon_cargo_subtype;
-    sw_EMU260_wagon_rear;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_EMU260_6car, extra_callback_info1) {
+    1..5: EMU260_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_EMU260_wagon_attach, vehicle_type_id) {
-    EMU150:                 return CB_RESULT_ATTACH_ALLOW;
-    EMU150_DD:              return CB_RESULT_ATTACH_ALLOW;
-    EMU260:                 return CB_RESULT_ATTACH_ALLOW;
-    EMU260_DD:              return CB_RESULT_ATTACH_ALLOW;
-    EMU320:                 return CB_RESULT_ATTACH_ALLOW;
-    EMU320_DD:              return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    EMU150_6Car:             return CB_RESULT_ATTACH_ALLOW;
+    EMU150_DD_6Car:          return CB_RESULT_ATTACH_ALLOW;
+    EMU260_6Car:             return CB_RESULT_ATTACH_ALLOW;
+    EMU260_DD_6Car:          return CB_RESULT_ATTACH_ALLOW;
+    EMU320_8Car:             return CB_RESULT_ATTACH_ALLOW;
+    EMU320_DD_8Car:          return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

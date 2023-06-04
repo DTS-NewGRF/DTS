@@ -10,24 +10,25 @@ STR_GRF_URL                                          :https://github.com/MEGB-Ne
 STR_AREX_6Car_NAME                                   :[DTS] AREX series 2000 EMU5 6Car
 STR_CTX_NAME                                         :[DTS] CTX
 STR_DEL7600_NAME                                     :[DTS] DEL7600
-STR_EMU150_NAME                                      :[DTS] Bicheuro
-STR_EMU150_DD_NAME                                   :[DTS] Bicheuro DD
-STR_EMU260_NAME                                      :[DTS] EMU-260
-STR_EMU260_DD_NAME                                   :[DTS] EMU-260 DD
-STR_EMU320_NAME                                      :[DTS] EMU-320
-STR_EMU320_DD_NAME                                   :[DTS] EMU-320 DD
+STR_EMU150_6Car_NAME                                 :[DTS] Bicheuro 6Car
+STR_EMU150_DD_6Car_NAME                              :[DTS] Bicheuro DD 6Car
+STR_EMU260_6Car_NAME                                 :[DTS] EMU-260 6Car
+STR_EMU260_DD_6Car_NAME                              :[DTS] EMU-260 DD 6Car
+STR_EMU320_8Car_NAME                                 :[DTS] EMU-320 8Car
+STR_EMU320_DD_8Car_NAME                              :[DTS] EMU-320 DD 8Car
 STR_GT26CW_NAME                                      :[DTS] GT26CW
-STR_GTX_NAME                                         :[DTS] GTX
+STR_GTX_8Car_NAME                                    :[DTS] GTX 8Car
 STR_HEMU_430X_NAME                                   :[DTS] HEMU-430X
 STR_HSR_350X_NAME                                    :[DTS] HSR-350X
-STR_ICE_CW_NAME                                      :[DTS] ITX-Chowol
-STR_ITX_SM2_NAME                                     :[DTS] ITX-Saemaeul DD
-STR_KTX_SC_NAME                                      :[DTS] KTX-Sancheon
+STR_ICE_CW_8Car_NAME                                 :[DTS] ITX-Chowol 8Car
+STR_ITX_SM2_6Car_NAME                                :[DTS] ITX-Saemaeul DD 6Car
+STR_KTX_SC_10Car_NAME                                :[DTS] KTX-Sancheon 10Car
 STR_KTX_SC2_NAME                                     :[DTS] KTX-Sancheon DD
-STR_NRT2_NAME                                        :[DTS] Nuriro DD
+STR_NRT2_6Car_NAME                                   :[DTS] Nuriro DD 6Car
+STR_H2_WJ_2Car_NAME                                  :[DTS] H2 by WOOJIN 2Car
 STR_H2_WJ_4Car_NAME                                  :[DTS] H2 by WOOJIN 4Car
 STR_Travel_8500_NAME                                 :[DTS] Travel 8500
-STR_TTX_NAME                                         :[DTS] TTX
+STR_TTX_6Car_NAME                                    :[DTS] TTX 8Car
 STR_VHST_600X_NAME                                   :[DTS] VHST-600X
 STR_CRH1_NAME                                        :[DTS] CRH1A
 STR_CRH1E_NAME                                       :[DTS] CRH1E
@@ -97,8 +98,6 @@ STR_Avelia_Liberty_NAME                              :[DTS] Avelia Liberty
 
 # Metro's name
 STR_Standard_Metro_4Car_NAME                         :[DTS] Standard Metro 4Car
-STR_Standard_Metro_6Car_NAME                         :[DTS] Standard Metro 6Car
-STR_Standard_Metro_8Car_NAME                         :[DTS] Standard Metro 8Car
 STR_AUTS_6Car_NAME                                   :[DTS] AUTS 6Car
 STR_MTR_AD_Tranz_CAF_A_NAME                          :[DTS] MTR AD Tranz CAF A Type
 STR_MTR_AC_Cammall_NAME                              :[DTS] MTR Cammall AC Train
@@ -162,30 +161,30 @@ STR_PARAM_World_NAME                                 :No World trains allowed.
 STR_PARAM_World_DESC                                 :Please check when using World trains. (Default: unused)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
-STR_REFIT_ADDITIONAL_AREX                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}AREX
+STR_REFIT_ADDITIONAL_AREX                            :{BLACK}Combined train {GREEN}AREX
 STR_REFIT_ADDITIONAL_CTX                             :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
 STR_REFIT_ADDITIONAL_DEL7600                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}DEL7600
-STR_REFIT_ADDITIONAL_EMU150                          :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}EMU-150, EMU-150 DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
-STR_REFIT_ADDITIONAL_EMU150_DD                       :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}EMU-150, EMU-150 DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
-STR_REFIT_ADDITIONAL_EMU260                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}EMU-150, EMU-150 DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
-STR_REFIT_ADDITIONAL_EMU260_DD                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}EMU-150, EMU-150 DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
-STR_REFIT_ADDITIONAL_EMU320                          :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}EMU-150, EMU-150 DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
-STR_REFIT_ADDITIONAL_EMU320_DD                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}EMU-150, EMU-150 DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU150                          :{BLACK}Combined train {GREEN}Bicheuro, Bicheuro DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU150_DD                       :{BLACK}Combined train {GREEN}Bicheuro, Bicheuro DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU260                          :{BLACK}Combined train {GREEN}Bicheuro, Bicheuro DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU260_DD                       :{BLACK}Combined train {GREEN}Bicheuro, Bicheuro DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU320                          :{BLACK}Combined train {GREEN}Bicheuro, Bicheuro DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU320_DD                       :{BLACK}Combined train {GREEN}Bicheuro, Bicheuro DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
 STR_REFIT_ADDITIONAL_GT26CW                          :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}GT26CW
-STR_REFIT_ADDITIONAL_GTX                             :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}GTX
+STR_REFIT_ADDITIONAL_GTX                             :{BLACK}Combined train {GREEN}GTX
 STR_REFIT_ADDITIONAL_HEMU_430X                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HEMU-430X
 STR_REFIT_ADDITIONAL_HSR_350X                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HSR-350X
-STR_REFIT_ADDITIONAL_ITX_CW                          :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}ITX-Chowol
-STR_REFIT_ADDITIONAL_ITX_SM2                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}ITX-Saemaeul DD
-STR_REFIT_ADDITIONAL_KTX_SC                          :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
+STR_REFIT_ADDITIONAL_ITX_CW                          :{BLACK}Combined train {GREEN}ITX-Chowol
+STR_REFIT_ADDITIONAL_ITX_SM2                         :{BLACK}Combined train {GREEN}ITX-Saemaeul DD
+STR_REFIT_ADDITIONAL_KTX_SC                          :{BLACK}Combined train {GREEN}CTX, KTX-Sancheon, KTX-Sancheon DD
 STR_REFIT_ADDITIONAL_KTX_SC2                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}CTX, [KTS+]KTX-Sancheon, KTX-DD
 STR_REFIT_ADDITIONAL_NRT2                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nuriro DD
-STR_REFIT_ADDITIONAL_H2_WJ                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}H2 WJ
+STR_REFIT_ADDITIONAL_H2_WJ                           :{BLACK}Combined train {GREEN}H2 WJ
 STR_REFIT_ADDITIONAL_Travel_8500                     :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}Travel 8500
 STR_REFIT_ADDITIONAL_TTX                             :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TTX
 STR_REFIT_ADDITIONAL_VHST_600X                       :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}VHST_600X
-STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1
 STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1E
 STR_REFIT_ADDITIONAL_CRH1A_A                         :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1A-A
@@ -233,7 +232,7 @@ STR_REFIT_ADDITIONAL_TGV_La_Poste                    :{BLACK}Changing model/live
 STR_REFIT_ADDITIONAL_TGV_Pos                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
 STR_REFIT_ADDITIONAL_TGV_M                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV M
 STR_REFIT_ADDITIONAL_Kse2                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Shinkansen_0                    :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_0                    :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Shinkansen_500                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Shinkansen_700                  :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Shinkansen_800                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
@@ -328,8 +327,11 @@ STR_REFIT_LIVERY_EMU320_ICE                          :(EMU-320 ICE)
 STR_REFIT_LIVERY_EMU320_Euro                         :(EMU-320 Euro)
 STR_REFIT_LIVERY_EMU320_THRS                         :(EMU-320 THRS)
 STR_REFIT_LIVERY_EMU320_JR                           :(EMU-320 JR)
-STR_REFIT_LIVERY_GT26CW_Korail                       :(Korail)
-STR_REFIT_LIVERY_GT26CW_CL                           :(CL)
+STR_REFIT_LIVERY_GT26CW                              :(Passenger, Freight)
+STR_REFIT_LIVERY_GT26CW_A                            :(Old Color)
+STR_REFIT_LIVERY_GT26CW_B                            :(First Freight Color)
+STR_REFIT_LIVERY_GT26CW_C                            :(First Passenger Color)
+STR_REFIT_LIVERY_GT26CW_D                            :(now Freight Color)
 STR_REFIT_LIVERY_GT26CW_CY_GW                        :(Chungbuk Yeongdong Gugak & Wine Train)
 STR_REFIT_LIVERY_GT26CW_LB                           :(Lady Bird)
 STR_REFIT_LIVERY_GT26CW_ST                           :(S-Train)
@@ -343,6 +345,7 @@ STR_REFIT_LIVERY_KTX_GG_W                            :(KTX-Gyeonggang White Live
 STR_REFIT_LIVERY_KTX_SC2_B                           :(KTX-DD Blue Color)
 STR_REFIT_LIVERY_KTX_SC2_G                           :(KTX-DD Green Color)
 STR_REFIT_LIVERY_KTX_SC2_W                           :(KTX-DD White Color)
+STR_REFIT_LIVERY_Travel_8500                         :(Orginal)
 STR_REFIT_LIVERY_Travel_8500_A_train                 :(A-Train)
 STR_REFIT_LIVERY_Travel_8500_A_train_New             :(A-Train New Color)
 STR_REFIT_LIVERY_Travel_8500_G_train                 :(G-Train)

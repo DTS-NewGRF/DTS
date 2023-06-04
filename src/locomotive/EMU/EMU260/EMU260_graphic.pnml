@@ -8,10 +8,6 @@ spriteset(set_EMU260_purchase, "src/locomotive/EMU/EMU260/EMU260_W.png"){
 /*--------------------------------------------------------------------
 EMU260_W
 --------------------------------------------------------------------*/
-spriteset(set_EMU260_WH_purchase, "src/locomotive/EMU/EMU260/EMU260_W.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 spriteset(set_EMU260_W_engineH, "src/locomotive/EMU/EMU260/EMU260_W.png"){
     engine(80, 0)
 }
@@ -21,11 +17,7 @@ spriteset(set_EMU260_W_panto_wagon, "src/locomotive/EMU/EMU260/EMU260_W.png"){
 }
 
 spriteset(set_EMU260_W_wagon, "src/locomotive/EMU/EMU260/EMU260_W.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_EMU260_W_wagon_r, "src/locomotive/EMU/EMU260/EMU260_W.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_EMU260_W_panto_wagon_r, "src/locomotive/EMU/EMU260/EMU260_W.png"){
@@ -33,16 +25,12 @@ spriteset(set_EMU260_W_panto_wagon_r, "src/locomotive/EMU/EMU260/EMU260_W.png"){
 }
 
 spriteset(set_EMU260_W_engineT, "src/locomotive/EMU/EMU260/EMU260_W.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------
 EMU260_BK
 --------------------------------------------------------------------*/
-spriteset(set_EMU260_BKH_purchase, "src/locomotive/EMU/EMU260/EMU260_BK.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 spriteset(set_EMU260_BK_engineH, "src/locomotive/EMU/EMU260/EMU260_BK.png"){
     engine(80, 0)
 }
@@ -52,11 +40,7 @@ spriteset(set_EMU260_BK_panto_wagon, "src/locomotive/EMU/EMU260/EMU260_BK.png"){
 }
 
 spriteset(set_EMU260_BK_wagon, "src/locomotive/EMU/EMU260/EMU260_BK.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_EMU260_BK_wagon_r, "src/locomotive/EMU/EMU260/EMU260_BK.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_EMU260_BK_panto_wagon_r, "src/locomotive/EMU/EMU260/EMU260_BK.png"){
@@ -64,16 +48,12 @@ spriteset(set_EMU260_BK_panto_wagon_r, "src/locomotive/EMU/EMU260/EMU260_BK.png"
 }
 
 spriteset(set_EMU260_BK_engineT, "src/locomotive/EMU/EMU260/EMU260_BK.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------
 EMU260_MD
 --------------------------------------------------------------------*/
-spriteset(set_EMU260_MDH_purchase, "src/locomotive/EMU/EMU260/EMU260_MD.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 spriteset(set_EMU260_MD_engineH, "src/locomotive/EMU/EMU260/EMU260_MD.png"){
     engine(80, 0)
 }
@@ -83,11 +63,7 @@ spriteset(set_EMU260_MD_panto_wagon, "src/locomotive/EMU/EMU260/EMU260_MD.png"){
 }
 
 spriteset(set_EMU260_MD_wagon, "src/locomotive/EMU/EMU260/EMU260_MD.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_EMU260_MD_wagon_r, "src/locomotive/EMU/EMU260/EMU260_MD.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_EMU260_MD_panto_wagon_r, "src/locomotive/EMU/EMU260/EMU260_MD.png"){
@@ -95,16 +71,12 @@ spriteset(set_EMU260_MD_panto_wagon_r, "src/locomotive/EMU/EMU260/EMU260_MD.png"
 }
 
 spriteset(set_EMU260_MD_engineT, "src/locomotive/EMU/EMU260/EMU260_MD.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------
 EMU260_SM1
 --------------------------------------------------------------------*/
-spriteset(set_EMU260_SM1H_purchase, "src/locomotive/EMU/EMU260/EMU260_SM1.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 spriteset(set_EMU260_SM1_engineH, "src/locomotive/EMU/EMU260/EMU260_SM1.png"){
     engine(80, 0)
 }
@@ -114,11 +86,7 @@ spriteset(set_EMU260_SM1_panto_wagon, "src/locomotive/EMU/EMU260/EMU260_SM1.png"
 }
 
 spriteset(set_EMU260_SM1_wagon, "src/locomotive/EMU/EMU260/EMU260_SM1.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_EMU260_SM1_wagon_r, "src/locomotive/EMU/EMU260/EMU260_SM1.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_EMU260_SM1_panto_wagon_r, "src/locomotive/EMU/EMU260/EMU260_SM1.png"){
@@ -126,16 +94,12 @@ spriteset(set_EMU260_SM1_panto_wagon_r, "src/locomotive/EMU/EMU260/EMU260_SM1.pn
 }
 
 spriteset(set_EMU260_SM1_engineT, "src/locomotive/EMU/EMU260/EMU260_SM1.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------
 EMU260_SM2
 --------------------------------------------------------------------*/
-spriteset(set_EMU260_SM2H_purchase, "src/locomotive/EMU/EMU260/EMU260_SM2.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 spriteset(set_EMU260_SM2_engineH, "src/locomotive/EMU/EMU260/EMU260_SM2.png"){
     engine(80, 0)
 }
@@ -145,11 +109,7 @@ spriteset(set_EMU260_SM2_panto_wagon, "src/locomotive/EMU/EMU260/EMU260_SM2.png"
 }
 
 spriteset(set_EMU260_SM2_wagon, "src/locomotive/EMU/EMU260/EMU260_SM2.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_EMU260_SM2_wagon_r, "src/locomotive/EMU/EMU260/EMU260_SM2.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_EMU260_SM2_panto_wagon_r, "src/locomotive/EMU/EMU260/EMU260_SM2.png"){
@@ -157,16 +117,12 @@ spriteset(set_EMU260_SM2_panto_wagon_r, "src/locomotive/EMU/EMU260/EMU260_SM2.pn
 }
 
 spriteset(set_EMU260_SM2_engineT, "src/locomotive/EMU/EMU260/EMU260_SM2.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------
 EMU260_SM3
 --------------------------------------------------------------------*/
-spriteset(set_EMU260_SM3H_purchase, "src/locomotive/EMU/EMU260/EMU260_SM3.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 spriteset(set_EMU260_SM3_engineH, "src/locomotive/EMU/EMU260/EMU260_SM3.png"){
     engine(80, 0)
 }
@@ -176,11 +132,7 @@ spriteset(set_EMU260_SM3_panto_wagon, "src/locomotive/EMU/EMU260/EMU260_SM3.png"
 }
 
 spriteset(set_EMU260_SM3_wagon, "src/locomotive/EMU/EMU260/EMU260_SM3.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_EMU260_SM3_wagon_r, "src/locomotive/EMU/EMU260/EMU260_SM3.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_EMU260_SM3_panto_wagon_r, "src/locomotive/EMU/EMU260/EMU260_SM3.png"){
@@ -188,7 +140,7 @@ spriteset(set_EMU260_SM3_panto_wagon_r, "src/locomotive/EMU/EMU260/EMU260_SM3.pn
 }
 
 spriteset(set_EMU260_SM3_engineT, "src/locomotive/EMU/EMU260/EMU260_SM3.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------

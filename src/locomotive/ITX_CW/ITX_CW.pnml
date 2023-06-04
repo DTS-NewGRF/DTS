@@ -10,15 +10,14 @@ ITX-SC2
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, ITX_CW, 2018){
+item(FEAT_TRAINS, ITX_CW_8Car, 2018){
     property {
-        name:                           string(STR_ICE_CW_NAME);
+        name:                           string(STR_ICE_CW_8Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          181km/h;
@@ -50,7 +49,8 @@ item(FEAT_TRAINS, ITX_CW, 2018){
         }
 
 	graphics {
-        default:                        sw_ITX_CW_engine;
+        default:                        sw_ITX_CW_8car;
+        articulated_part:               sw_articulated_ITX_CW_8car;
         purchase:                       sw_ITX_CW_purchase;
         speed:                          Semi_High_SPEED_Train;
         loading_speed:                  25;
@@ -58,12 +58,5 @@ item(FEAT_TRAINS, ITX_CW, 2018){
         running_cost_factor:            150;
         can_attach_wagon:               sw_ITX_CW_wagon_attach;
         additional_text:                string(STR_REFIT_ADDITIONAL_ITX_CW);
-        }
-
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_ITX_CW_wagon;
-        cargo_capacity:                 200;
-        loading_speed:                  25;
-        running_cost_factor:            100;
         }
         }

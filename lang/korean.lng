@@ -7,27 +7,28 @@ STR_GRF_DESC                                         :파생형 열차 세트 �
 STR_GRF_URL                                          :https://github.com/DTS-NewGRF/DTS/releases
 
 # locomotive's name
-STR_AREX_6Car_NAME                                   :[DTS] AREX (공항철도) 6량
+STR_AREX_6Car_NAME                                   :[6량] AREX (공항철도) [DTS]
 STR_CTX_NAME                                         :[DTS] CTX
 STR_DEL7600_NAME                                     :[DTS] DEL7600
-STR_EMU150_NAME                                      :[DTS] 비츠로
-STR_EMU150_DD_NAME                                   :[DTS] 비츠로 DD
-STR_EMU260_NAME                                      :[DTS] EMU-260
-STR_EMU260_DD_NAME                                   :[DTS] EMU-260 DD
-STR_EMU320_NAME                                      :[DTS] EMU-320
-STR_EMU320_DD_NAME                                   :[DTS] EMU-320 DD
+STR_EMU150_6Car_NAME                                 :[6량] 비츠로 [DTS]
+STR_EMU150_DD_6Car_NAME                              :[6량] 비츠로 DD [DTS]
+STR_EMU260_6Car_NAME                                 :[6량] EMU-260 [DTS]
+STR_EMU260_DD_6Car_NAME                              :[6량] EMU-260 DD [DTS]
+STR_EMU320_8Car_NAME                                 :[8량] EMU-320 [DTS]
+STR_EMU320_DD_8Car_NAME                              :[8량] EMU-320 DD [DTS]
 STR_GT26CW_NAME                                      :[DTS] 7X00호대 디젤기관차
-STR_GTX_NAME                                         :[DTS] GTX
+STR_GTX_8Car_NAME                                    :[8량] GTX [DTS]
 STR_HEMU_430X_NAME                                   :[DTS] HEMU-430X (해무)
 STR_HSR_350X_NAME                                    :[DTS] HSR-350X
-STR_ICE_CW_NAME                                      :[DTS] ITX-초월
-STR_ITX_SM2_NAME                                     :[DTS] ITX-새마을 DD
-STR_KTX_SC_NAME                                      :[DTS] KTX-산천
+STR_ICE_CW_8Car_NAME                                 :[8량] ITX-초월 [DTS]
+STR_ITX_SM2_6Car_NAME                                :[6량] ITX-새마을 DD [DTS]
+STR_KTX_SC_10Car_NAME                                :[10량] KTX-산천 [DTS]
 STR_KTX_SC2_NAME                                     :[DTS] KTX-산천 DD
-STR_NRT2_NAME                                        :[DTS] 누리로 DD
-STR_H2_WJ_4Car_NAME                                  :[DTS] 우진산전 수소연료전지동차 4량
+STR_NRT2_6Car_NAME                                   :[6량] 누리로 DD [DTS]
+STR_H2_WJ_2Car_NAME                                  :[2량] 우진산전 수소연료전지동차 [DTS]
+STR_H2_WJ_4Car_NAME                                  :[4량] 우진산전 수소연료전지동차 [DTS]
 STR_Travel_8500_NAME                                 :[DTS] 8500호대 전기기관차
-STR_TTX_NAME                                         :[DTS] TTX
+STR_TTX_6Car_NAME                                    :[6량] TTX [DTS]
 STR_VHST_600X_NAME                                   :[DTS] VHST-600X
 STR_CRH1_NAME                                        :[DTS] CRH1A
 STR_CRH1E_NAME                                       :[DTS] CRH1E
@@ -68,8 +69,8 @@ STR_TGV_Duplex_NAME                                  :[DTS] TGV 듀플렉스
 STR_TGV_Pos_NAME                                     :[DTS] TGV 포스
 STR_TGV_M_NAME                                       :[DTS] TGV M
 STR_Kse2_NAME                                        :[DTS] 케이세이 AE형 2세대
-STR_Shinkansen_0_12Car_NAME                          :[DTS] 신칸센 0계 12량
-STR_Shinkansen_0_16Car_NAME                          :[DTS] 신칸센 0계 16량
+STR_Shinkansen_0_12Car_NAME                          :[12량] 신칸센 0계 12량 [DTS]
+STR_Shinkansen_0_16Car_NAME                          :[16량] 신칸센 0계 16량 [DTS]
 STR_Shinkansen_500_NAME                              :[DTS] 신칸센 500계
 STR_Shinkansen_700_NAME                              :[DTS] 신칸센 700계
 STR_Shinkansen_800_NAME                              :[DTS] 신칸센 800계
@@ -96,10 +97,8 @@ STR_Talgo_350_SRO_NAME                               :[DTS] 탈고 350 SRO (하�
 STR_Avelia_Liberty_NAME                              :[DTS] 아벨리아 리버티
 
 # Metro's name
-STR_Standard_Metro_4Car_NAME                         :[DTS] 한국형 표준전동차 4량
-STR_Standard_Metro_6Car_NAME                         :[DTS] 한국형 표준전동차 6량
-STR_Standard_Metro_8Car_NAME                         :[DTS] 한국형 표준전동차 8량
-STR_AUTS_6Car_NAME                                   :[DTS] 차세대전동차 6량
+STR_Standard_Metro_4Car_NAME                         :[4량] 한국형 표준전동차 [DTS]
+STR_AUTS_6Car_NAME                                   :[6량] 차세대전동차 [DTS]
 STR_MTR_AD_Tranz_CAF_A_NAME                          :[DTS] 홍콩 MTR AD Tranz CAF A형
 STR_MTR_AC_Cammall_NAME                              :[DTS] 홍콩 MTR 메트로카멜 교류형 전동차
 STR_MTR_DC_Cammall_NAME                              :[DTS] 홍콩 MTR 메트로카멜 직류형 전동차
@@ -118,10 +117,10 @@ STR_Nishitetsu_8000_NAME                             :[DTS] 니시테츠 8000형
 STR_Nishitetsu_9000_NAME                             :[DTS] 니시테츠 9000형
 
 # wagon's name
-STR_DTS_PASS_NAME                                    :[DTS] 단편도색 승객 차량
-STR_KTS_SPASS_NAME                                   :[DTS] 객차형 승객 수송 차량
-STR_Generatar_Car_NAME                               :[DTS] 발전차
-STR_Luggage_Car_NAME                                 :[DTS] 수화물차
+STR_DTS_PASS_NAME                                    :[DTS] 단편도색 승객 차량/추후 제거 예정
+STR_KTS_SPASS_NAME                                   :[기관차연결] 관광열차 객차 차량 [DTS]
+STR_Generatar_Car_NAME                               :[기관차연결] 발전차 [DTS]
+STR_Luggage_Car_NAME                                 :[기관차연결] 수화물차 [DTS]
 STR_CTX_Freight_Car_NAME                             :[DTS] CTX용 화물 수송 차량
 STR_CTS_SPASS_NAME                                   :[DTS] 중국 객차형 수송 차량
 STR_CGeneratar_Car_NAME                              :[DTS] 중국 발전차
@@ -131,12 +130,12 @@ STR_TGV_Poste_wagon_NAME                             :[DTS] TGV 라포스트 화
 STR_VTS_SPASS_NAME                                   :[DTS] 가상 객차형 승객 차량
 STR_YFXF_NAME                                        :[DTS] YFX용 화차
 STR_FLAT_2F_NAME                                     :[DTS] 평판화차 - 미국형
-STR_KMetro_Pass_NAME                                 :[DTS] 한국형 지하철 차량 (기관차 연결용)
+STR_KMetro_Pass_NAME                                 :[기관차연결] 한국형 지하철 차량 [DTS]
 STR_HKMetro_Pass_NAME                                :[DTS] 홍콩형 지하철 차량 (기관차 연결용)
 STR_HKMetro_panto_Pass_NAME                          :[DTS] 홍콩형 지하철 팬토 차량 (기관차 연결용)
 STR_JMetro_Pass_NAME                                 :[DTS] 일본형 지하철 차량 (기관차 연결용)
 STR_JMetro_panto_Pass_NAME                           :[DTS] 일본형 지하철 팬토 차량 (기관차 연결용)
-STR_EMU_Pass_NAME                                    :[DTS] EMU 객차형 차량 (기관차 연결용)
+STR_EMU_Pass_NAME                                    :[기관차연결] EMU 객차 차량 [DTS]
 STR_EMU_panto_Pass_NAME                              :[DTS] EMU 객차형 팬토 차량 (기관차 연결용)
 
 # Parameters
@@ -162,30 +161,30 @@ STR_PARAM_World_NAME                                 :월드형 열차 사용 �
 STR_PARAM_World_DESC                                 :월드형 열차를 사용시 체크하세요. (기본:사용)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
-STR_REFIT_ADDITIONAL_AREX                            :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2025년부터 운행될 인천국제공항철도 AREX 통근형 2세대 전동차.
+STR_REFIT_ADDITIONAL_AREX                            :{BLACK}복합가능열차 {GREEN}AREX
 STR_REFIT_ADDITIONAL_CTX                             :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}KTX-산천을 기반으로한 화물 KTX 열차가 양산되었다는 컨셉을 가진 열차.
 STR_REFIT_ADDITIONAL_DEL7600                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}DEL7600의 A-train 신도색을 적용한 차량입니다.
-STR_REFIT_ADDITIONAL_EMU150                          :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}2023년부터 운행되고 있는 ITX-새마을 2세대 전동차
-STR_REFIT_ADDITIONAL_EMU150_DD                       :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}EMU-150을 2층으로 확장한 컨셉열차
-STR_REFIT_ADDITIONAL_EMU260                          :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}EMU-260의 초기 디자인 시안대로 양산되었다는 컨셉을 가진 열차
-STR_REFIT_ADDITIONAL_EMU260_DD                       :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}KTX-이음을 2층으로 확장한 컨셉열차
-STR_REFIT_ADDITIONAL_EMU320                          :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}EMU-320의 초기 디자인 시안대로 양산되었다는 컨셉을 가진 열차
-STR_REFIT_ADDITIONAL_EMU320_DD                       :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}한국형 2층 고속열차가 양산되었다는 컨셉을 가진 열차
+STR_REFIT_ADDITIONAL_EMU150                          :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU150_DD                       :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU260                          :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU260_DD                       :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU320                          :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU320_DD                       :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
 STR_REFIT_ADDITIONAL_GT26CW                          :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}한국 열차 세트의 관광열차 부분을 보완하기 위한 디젤기관차
-STR_REFIT_ADDITIONAL_GTX                             :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2024년부터 운행될 수도권광역급행철도 GTX-A 전동차
+STR_REFIT_ADDITIONAL_GTX                             :{BLACK}복합가능열차 {GREEN}GTX
 STR_REFIT_ADDITIONAL_HEMU_430X                       :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2012년에 제작된 기술실험용으로 개발된 고속열차
 STR_REFIT_ADDITIONAL_HSR_350X                        :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2002년에 제작된 기술실험용으로 개발된 고속열차
-STR_REFIT_ADDITIONAL_ITX_CW                          :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}ITX-청춘을 2층으로 확장한 컨셉열차
-STR_REFIT_ADDITIONAL_ITX_SM2                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}ITX-새마을을 2층으로 확장한 컨셉열차
-STR_REFIT_ADDITIONAL_KTX_SC                          :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}KTX-산천의 호남고속선, 경강선 초기 디자인 시안대로 양산되었다는 컨셉을 가진 열차.
+STR_REFIT_ADDITIONAL_ITX_CW                          :{BLACK}복합가능열차 {GREEN}ITX-초월
+STR_REFIT_ADDITIONAL_ITX_SM2                         :{BLACK}복합가능열차 {GREEN}ITX-새마을 DD
+STR_REFIT_ADDITIONAL_KTX_SC                          :{BLACK}복합가능열차 {GREEN}KTX-산천, KTX-산천 DD, CTX
 STR_REFIT_ADDITIONAL_KTX_SC2                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}2015년에 KTX-산천을 기반으로 연구되었던 2층 고속열차.
-STR_REFIT_ADDITIONAL_NRT2                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}누리로를 2층으로 확장한 컨셉열차
-STR_REFIT_ADDITIONAL_H2_WJ                           :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2022년에 제작된 기술실험용으로 개발된 수소 동차
+STR_REFIT_ADDITIONAL_NRT2                            :{BLACK}복합가능열차 {GREEN}누리로 DD
+STR_REFIT_ADDITIONAL_H2_WJ                           :{BLACK}복합가능열차 {GREEN}H2 WJ
 STR_REFIT_ADDITIONAL_Travel_8500                     :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}한국 열차 세트의 관광열차 부분을 보완하기 위한 전기기관차
-STR_REFIT_ADDITIONAL_TTX                             :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2007년에 제작된 기술실험용으로 개발된 틸팅열차
+STR_REFIT_ADDITIONAL_TTX                             :{BLACK}복합가능열차 {GREEN}TTX
 STR_REFIT_ADDITIONAL_VHST_600X                       :{BLACK}도색/모델 변경: {RED}불가능 {}{GREEN}2016년에 연구된 고속열차
-STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}1999년에 개발된 도시철도 표준 전동차
-STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{GREEN}2010년에 개발된 차세대 도시철도 전동차
+STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}복합가능열차 {RED}불가능
 STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1
 STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1E
 STR_REFIT_ADDITIONAL_CRH1A_A                         :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1A-A
@@ -233,7 +232,7 @@ STR_REFIT_ADDITIONAL_TGV_La_Poste                    :{BLACK}도색/모델 변�
 STR_REFIT_ADDITIONAL_TGV_Pos                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
 STR_REFIT_ADDITIONAL_TGV_M                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV M
 STR_REFIT_ADDITIONAL_Kse2                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_0                    :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_0                    :{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_Shinkansen_500                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
 STR_REFIT_ADDITIONAL_Shinkansen_700                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
 STR_REFIT_ADDITIONAL_Shinkansen_800                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
@@ -267,10 +266,10 @@ STR_REFIT_ADDITIONAL_Al_Boraq                        :{BLACK}도색/모델 변�
 STR_REFIT_ADDITIONAL_Talgo_350_SRO                   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_Avelia_Liberty                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 
-STR_REFIT_train_configuration_Passenger              :{BLACK}열차구성: {GREEN}단편 도색 승객 차량용
-STR_REFIT_train_configuration_SPassenger             :{BLACK}열차구성: {GREEN}객차형 승객 차량용
-STR_REFIT_train_configuration_Generatar              :{BLACK}열차구성: {GREEN}발전차용
-STR_REFIT_train_configuration_Luggage                :{BLACK}열차구성: {GREEN}수화물차용
+STR_REFIT_train_configuration_Passenger              :{BLACK}열차구성: {GREEN}단편 도색 승객 차량용 / 추후 제거 예정
+STR_REFIT_train_configuration_SPassenger             :{BLACK}열차구성: {GREEN}[기관차연결] 관광열차 객차
+STR_REFIT_train_configuration_Generatar              :{BLACK}열차구성: {GREEN}[기관차연결] 발전차
+STR_REFIT_train_configuration_Luggage                :{BLACK}열차구성: {GREEN}[기관차열차] 수화물차
 STR_REFIT_train_configuration_CTX                    :{BLACK}열차구성: {GREEN}CTX용 화물차량
 STR_REFIT_train_configuration_CSPassenger            :{BLACK}열차구성: {GREEN}중국 객차형 승객 차량용
 STR_REFIT_train_configuration_CGeneratar             :{BLACK}열차구성: {GREEN}중국 발전차용
@@ -328,8 +327,11 @@ STR_REFIT_LIVERY_EMU320_ICE                          :(EMU-320 ICE)
 STR_REFIT_LIVERY_EMU320_Euro                         :(EMU-320 Euro)
 STR_REFIT_LIVERY_EMU320_THRS                         :(EMU-320 THRS)
 STR_REFIT_LIVERY_EMU320_JR                           :(EMU-320 JR)
-STR_REFIT_LIVERY_GT26CW_Korail                       :(코레일)
-STR_REFIT_LIVERY_GT26CW_CL                           :(철도청)
+STR_REFIT_LIVERY_GT26CW                              :(객차, 화차 겸용)
+STR_REFIT_LIVERY_GT26CW_A                            :(구도색)
+STR_REFIT_LIVERY_GT26CW_B                            :(초기도색 화물)
+STR_REFIT_LIVERY_GT26CW_C                            :(초기도색 여객)
+STR_REFIT_LIVERY_GT26CW_D                            :(현도색 화물)
 STR_REFIT_LIVERY_GT26CW_CY_GW                        :(충북영동국악와인)
 STR_REFIT_LIVERY_GT26CW_LB                           :(레이디버드)
 STR_REFIT_LIVERY_GT26CW_ST                           :(S-Train)
@@ -343,6 +345,7 @@ STR_REFIT_LIVERY_KTX_GG_W                            :(KTX-산천 경강선 컨�
 STR_REFIT_LIVERY_KTX_SC2_B                           :(KTX-DD 파랑도색)
 STR_REFIT_LIVERY_KTX_SC2_G                           :(KTX-DD 녹색도색)
 STR_REFIT_LIVERY_KTX_SC2_W                           :(KTX-DD 흰색도색)
+STR_REFIT_LIVERY_Travel_8500                         :(기본도색)
 STR_REFIT_LIVERY_Travel_8500_A_train                 :(A-Train)
 STR_REFIT_LIVERY_Travel_8500_A_train_New             :(A-Train 신도색)
 STR_REFIT_LIVERY_Travel_8500_G_train                 :(G-Train)

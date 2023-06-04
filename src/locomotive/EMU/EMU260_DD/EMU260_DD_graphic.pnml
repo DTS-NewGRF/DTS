@@ -12,10 +12,6 @@ alternative_sprites(set_EMU260_DD_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, 
 /*--------------------------------------------------------------------
 EMU260_DD
 --------------------------------------------------------------------*/
-spriteset(set_EMU260_DDH_purchase, "src/locomotive/EMU/EMU260_DD/EMU260_DD.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 spriteset(set_EMU260_DD_engineH, "src/locomotive/EMU/EMU260_DD/EMU260_DD.png"){
     engine(80, 0)
 }
@@ -25,11 +21,7 @@ spriteset(set_EMU260_DD_panto_wagon, "src/locomotive/EMU/EMU260_DD/EMU260_DD.png
 }
 
 spriteset(set_EMU260_DD_wagon, "src/locomotive/EMU/EMU260_DD/EMU260_DD.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_EMU260_DD_wagon_r, "src/locomotive/EMU/EMU260_DD/EMU260_DD.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_EMU260_DD_panto_wagon_r, "src/locomotive/EMU/EMU260_DD/EMU260_DD.png"){
@@ -37,16 +29,12 @@ spriteset(set_EMU260_DD_panto_wagon_r, "src/locomotive/EMU/EMU260_DD/EMU260_DD.p
 }
 
 spriteset(set_EMU260_DD_engineT, "src/locomotive/EMU/EMU260_DD/EMU260_DD.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------
 EMU260_DD 32bpp
 --------------------------------------------------------------------*/
-alternative_sprites(set_EMU260_DDH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 alternative_sprites(set_EMU260_DD_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png"){
     engine(80, 0)
 }
@@ -56,11 +44,7 @@ alternative_sprites(set_EMU260_DD_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BP
 }
 
 alternative_sprites(set_EMU260_DD_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png") {
-    wagon_1F(80, 54)
-}
-
-alternative_sprites(set_EMU260_DD_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 alternative_sprites(set_EMU260_DD_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png"){
@@ -68,7 +52,7 @@ alternative_sprites(set_EMU260_DD_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32
 }
 
 alternative_sprites(set_EMU260_DD_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------

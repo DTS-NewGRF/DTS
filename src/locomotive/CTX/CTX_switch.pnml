@@ -28,7 +28,7 @@ switch(FEAT_TRAINS, SELF, sw_CTX_FC_wagon, (position_in_vehid_chain + 1) <= (num
 
 switch(FEAT_TRAINS, SELF, sw_CTX_FC_wagon_attach, vehicle_type_id) {
     CTX:                    return CB_RESULT_ATTACH_ALLOW;
-    KTX_SC:                 return CB_RESULT_ATTACH_ALLOW;
+    KTX_SC_10Car:            return CB_RESULT_ATTACH_ALLOW;
     KTX_SC2:                return CB_RESULT_ATTACH_ALLOW;
     DTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
     CTX_Freight_Car:        return CB_RESULT_ATTACH_ALLOW;

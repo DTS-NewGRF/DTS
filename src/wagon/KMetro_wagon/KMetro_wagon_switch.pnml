@@ -10,6 +10,7 @@ switch(FEAT_TRAINS, SELF, sw_KMetro_cargo_subtype_text, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_KMetro_wagon, cargo_subtype) {
     1: set_Standard_Metro_Cross_wagon;
     2: set_AUTS_S_wagon;
+    set_Standard_Metro_Long_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KMetro_wagon_capacity_in_custom, cargo_subtype) {

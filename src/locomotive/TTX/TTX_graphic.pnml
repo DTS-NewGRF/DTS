@@ -8,24 +8,20 @@ spriteset(set_TTX_purchase, "src/locomotive/TTX/TTX.png"){
 /*--------------------------------------------------------------------
 ITX-초월
 --------------------------------------------------------------------*/
-spriteset(set_TTXH_purchase, "src/locomotive/TTX/TTX.png"){
-    tmpl_purchase_for_dualhead(0, 54)
-}
-
 spriteset(set_TTX_engineH, "src/locomotive/TTX/TTX.png"){
     engine(80, 0)
 }
 
 spriteset(set_TTX_wagon, "src/locomotive/TTX/TTX.png") {
-    wagon_1F(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_TTX_wagon_r, "src/locomotive/TTX/TTX.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_TTX_engineT, "src/locomotive/TTX/TTX.png"){
-    engine_r(80, 81)
+    engine(80, 81)
 }
 
 /*--------------------------------------------------------------------

@@ -10,15 +10,14 @@ EMU
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, EMU320, 2022){
+item(FEAT_TRAINS, EMU320_8Car, 2022){
     property {
-        name:                           string(STR_EMU320_NAME);
+        name:                           string(STR_EMU320_8Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          362km/h;
@@ -52,20 +51,13 @@ item(FEAT_TRAINS, EMU320, 2022){
         }
         
     graphics {
-        default:                        sw_EMU320_engine;
+        default:                        sw_EMU320_8car;
+        articulated_part:               sw_articulated_EMU320_8car;
         purchase:                       sw_EMU320_purchase;
         speed:                          High_Speed_Train;
         loading_speed:                  25;
         can_attach_wagon:               sw_EMU320_wagon_attach;
         cargo_subtype_text:             sw_EMU320_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_EMU320);
-        }
-
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_EMU320_wagon;
-        cargo_subtype_text:             sw_EMU320_cargo_subtype_text;
-        cargo_capacity:                 70;
-        loading_speed:                  25;
-        running_cost_factor:            100;
         }
         }

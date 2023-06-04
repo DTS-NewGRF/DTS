@@ -20,21 +20,21 @@ switch(FEAT_TRAINS, SELF, sw_EMU_cargo_subtype_text, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_EMU_wagon, cargo_subtype) {
-    1: set_GTX_wagon;
-    2: set_EMU150_DD_wagon;
-    3: set_NRT2_Old_B_wagon;
-    4: set_NRT2_Old_G_wagon;
-    5: set_NRT2_Old_W_wagon;
-    6: set_NRT2_New_B_wagon;
-    7: set_NRT2_New_G_wagon;
-    8: set_NRT2_New_W_wagon;
-    9: set_NRT2_Old_OT_wagon;
-    10: set_NRT2_New_ITX_wagon;
-    11: set_ITX_SM2_R_wagon;
-    12: set_ITX_SM2_G_wagon;
-    13: set_ITX_SM2_W_wagon;
-    14: set_ITX_SM2_C_wagon;
-    set_EMU150_wagon;
+    1: set_GTX_S_wagon;
+    2: set_EMU150_DD_S_wagon;
+    3: set_NRT2_Old_B_S_wagon;
+    4: set_NRT2_Old_G_S_wagon;
+    5: set_NRT2_Old_W_S_wagon;
+    6: set_NRT2_New_B_S_wagon;
+    7: set_NRT2_New_G_S_wagon;
+    8: set_NRT2_New_W_S_wagon;
+    9: set_NRT2_Old_OT_S_wagon;
+    10: set_NRT2_New_ITX_S_wagon;
+    11: set_ITX_SM2_R_S_wagon;
+    12: set_ITX_SM2_G_S_wagon;
+    13: set_ITX_SM2_W_S_wagon;
+    14: set_ITX_SM2_C_S_wagon;
+    set_EMU150_S_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_EMU_wagon_capacity_in_custom, cargo_subtype) {

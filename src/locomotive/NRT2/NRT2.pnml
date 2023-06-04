@@ -10,15 +10,14 @@ NRT2
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, NRT2, 2012){
+item(FEAT_TRAINS, NRT2_6Car, 2012){
     property {
-        name:                           string(STR_NRT2_NAME);
+        name:                           string(STR_NRT2_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          181km/h;
@@ -50,7 +49,8 @@ item(FEAT_TRAINS, NRT2, 2012){
         }
 
 	graphics {
-        default:                        sw_NRT2_engine;
+        default:                        sw_NRT2_6car;
+        articulated_part:               sw_articulated_NRT2_6car;
         purchase:                       sw_NRT2_purchase;
         speed:                          Regular_Speed_Train;
         loading_speed:                  25;
