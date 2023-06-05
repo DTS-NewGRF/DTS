@@ -49,6 +49,5 @@ switch(FEAT_TRAINS, SELF, sw_Standard_Metro_capacity_in_custom, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_attach, vehicle_type_id) {
-    Standard_Metro_4Car:     return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

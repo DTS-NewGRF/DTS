@@ -1,33 +1,45 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_HSR_350X_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_HSR_350X_engineT;
-    set_HSR_350X_engineH;
-}
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_7car, position_in_vehid_chain % 7) {
+    1:set_HSR_350X_wagon_TM1;
+    2:set_HSR_350X_wagon_TT2;
+    3:set_HSR_350X_wagon_TT3;
+    4:set_HSR_350X_wagon_TT4;
+    5:set_HSR_350X_wagon_TM1_r;
+    6:set_HSR_350X_engineT;
+    set_HSR_350X_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_HSR_350X_wagon_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
-    1: set_HSR_350X_wagon_TT3;
-    set_HSR_350X_wagon_TT4;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_7car, extra_callback_info1) {
+    1..6: HSR_350X_7Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
-switch(FEAT_TRAINS, SELF, sw_HSR_350X_wagon_TT2, [STORE_TEMP(-2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    HSR_350X: set_HSR_350X_wagon_TT2;
-    sw_HSR_350X_wagon_middle;
-}
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_14car, position_in_vehid_chain % 14) {
+    1:set_HSR_350X_wagon_TM1;
+    2:set_HSR_350X_wagon_TT2;
+    3:set_HSR_350X_wagon_TT3;
+    4:set_HSR_350X_wagon_TT3;
+    5:set_HSR_350X_wagon_TT3;
+    6:set_HSR_350X_wagon_TM5;
+    7:set_HSR_350X_wagon_TM5_r;
+    8:set_HSR_350X_wagon_TT4;
+    9:set_HSR_350X_wagon_TT4;
+    10:set_HSR_350X_wagon_TT4;
+    11:set_HSR_350X_wagon_TT4;
+    12:set_HSR_350X_wagon_TM5;
+    13:set_HSR_350X_engineT;
+    set_HSR_350X_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_HSR_350X_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    HSR_350X: set_HSR_350X_wagon_end;
-    sw_HSR_350X_wagon_TT2;
-}
-
-switch(FEAT_TRAINS, SELF, sw_HSR_350X_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    HSR_350X: set_HSR_350X_wagon_start;
-    sw_HSR_350X_wagon_rear;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_14car, extra_callback_info1) {
+    1..13: HSR_350X_14Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_HSR_350X_wagon_attach, vehicle_type_id) {
-    HSR_350X:               return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    HSR_350X_7Car:           return CB_RESULT_ATTACH_ALLOW;
+    HSR_350X_14Car:          return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

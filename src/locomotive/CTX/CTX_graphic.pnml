@@ -21,7 +21,7 @@ spriteset(set_CTX_FC_R_wagon, "src/locomotive/CTX/CTX_FC_R.png") {
 }
 
 spriteset(set_CTX_FC_R_engineT, "src/locomotive/CTX/CTX_FC_R.png"){
-    engine_r(80, 54)
+    engine(80, 54)
 }
 
 /*--------------------------------------------------------------------
@@ -39,12 +39,12 @@ spriteset(set_CTX_HC_R_wagon_start, "src/locomotive/CTX/CTX_HC_R.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_CTX_HC_R_wagon, "src/locomotive/CTX/CTX_HC_R.png") {
-    wagon_1F(80, 54)
+spriteset(set_CTX_HC_R_wagon_A, "src/locomotive/CTX/CTX_HC_R.png") {
+    wagon_1F_F(80, 54)
 }
 
-spriteset(set_CTX_HC_R_wagon_r, "src/locomotive/CTX/CTX_HC_R.png") {
-    wagon_1F_r(80, 81)
+spriteset(set_CTX_HC_R_wagon_B, "src/locomotive/CTX/CTX_HC_R.png") {
+    wagon_1F_F(80, 81)
 }
 
 spriteset(set_CTX_HC_R_wagon_end, "src/locomotive/CTX/CTX_HC_R.png"){
@@ -52,7 +52,7 @@ spriteset(set_CTX_HC_R_wagon_end, "src/locomotive/CTX/CTX_HC_R.png"){
 }
 
 spriteset(set_CTX_HC_R_engineT, "src/locomotive/CTX/CTX_HC_R.png"){
-    engine_r(80, 135)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------

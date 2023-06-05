@@ -1,36 +1,46 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_CTX_FC_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_CTX_Passenger_Freight);
-    return string(STR_REFIT_LIVERY_CTX_Freight);
-}
+switch (FEAT_TRAINS, SELF, sw_CTX_F_10car, position_in_vehid_chain % 10) {
+    1:set_CTX_FC_R_wagon;
+    2:set_CTX_FC_R_wagon;
+    3:set_CTX_FC_R_wagon;
+    4:set_CTX_FC_R_wagon;
+    5:set_CTX_FC_R_wagon;
+    6:set_CTX_FC_R_wagon;
+    7:set_CTX_FC_R_wagon;
+    8:set_CTX_FC_R_wagon;
+    9:set_CTX_FC_R_engineT;
+    set_CTX_FC_R_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_CTX_FC_engineH, cargo_subtype) {
-    1: set_CTX_HC_R_engineH;
-    set_CTX_FC_R_engineH;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_CTX_F_10car, extra_callback_info1) {
+    1..9: CTX_F_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
-switch(FEAT_TRAINS, SELF, sw_CTX_FC_engineT, cargo_subtype) {
-    1: set_CTX_HC_R_engineT;
-    set_CTX_FC_R_engineT;
-}
+switch (FEAT_TRAINS, SELF, sw_CTX_P_10car, position_in_vehid_chain % 10) {
+    1:set_CTX_HC_R_wagon_start;
+    2:set_CTX_HC_R_wagon_A;
+    3:set_CTX_HC_R_wagon_A;
+    4:set_CTX_HC_R_wagon_A;
+    5:set_CTX_HC_R_wagon_B;
+    6:set_CTX_HC_R_wagon_B;
+    7:set_CTX_HC_R_wagon_B;
+    8:set_CTX_HC_R_wagon_end;
+    9:set_CTX_HC_R_engineT;
+    set_CTX_HC_R_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_CTX_FC_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: sw_CTX_FC_engineT;
-    sw_CTX_FC_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_CTX_FC_wagon, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
-    1: set_CTX_HC_R_wagon_r;
-    set_CTX_HC_R_wagon;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_CTX_P_10car, extra_callback_info1) {
+    1..9: CTX_P_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_CTX_FC_wagon_attach, vehicle_type_id) {
-    CTX:                    return CB_RESULT_ATTACH_ALLOW;
+    CTX_F_10Car:             return CB_RESULT_ATTACH_ALLOW;
+    CTX_P_10Car:             return CB_RESULT_ATTACH_ALLOW;
     KTX_SC_10Car:            return CB_RESULT_ATTACH_ALLOW;
-    KTX_SC2:                return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
-    CTX_Freight_Car:        return CB_RESULT_ATTACH_ALLOW;
+    KTX_SC2_10Car:           return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

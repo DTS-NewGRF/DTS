@@ -69,8 +69,9 @@ switch (FEAT_TRAINS, SELF, sw_articulated_KTX_SC_10car, extra_callback_info1) {
     }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_attach, vehicle_type_id) {
-    CTX:                     return CB_RESULT_ATTACH_ALLOW;
+    CTX_F_10Car:             return CB_RESULT_ATTACH_ALLOW;
+    CTX_P_10Car:             return CB_RESULT_ATTACH_ALLOW;
     KTX_SC_10Car:            return CB_RESULT_ATTACH_ALLOW;
-    KTX_SC2:                 return CB_RESULT_ATTACH_ALLOW;
+    KTX_SC2_10Car:           return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

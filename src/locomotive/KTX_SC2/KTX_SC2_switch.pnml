@@ -19,42 +19,28 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC2_engineT, cargo_subtype) {
     set_KTX_SC2_B_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_SC2_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: sw_KTX_SC2_engineT;
-    sw_KTX_SC2_engineH;
-}
-
 switch(FEAT_TRAINS, SELF, sw_KTX_SC2_wagon_start, cargo_subtype) {
     1: set_KTX_SC2_G_wagon_start;
     2: set_KTX_SC2_W_wagon_start;
     set_KTX_SC2_B_wagon_start;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_SC2_B_wagon_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
-    1: set_KTX_SC2_B_wagon_r;
-    set_KTX_SC2_B_wagon;
+switch(FEAT_TRAINS, SELF, sw_KTX_SC2_wagon_A, cargo_subtype) {
+    1: set_KTX_SC2_G_wagon_A;
+    2: set_KTX_SC2_W_wagon_A;
+    set_KTX_SC2_B_wagon_A;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_SC2_G_wagon_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
-    1: set_KTX_SC2_G_wagon_r;
-    set_KTX_SC2_G_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_SC2_W_wagon_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
-    1: set_KTX_SC2_W_wagon_r;
-    set_KTX_SC2_W_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_SC2_wagon_middle, cargo_subtype) {
-    1: sw_KTX_SC2_G_wagon_middle;
-    2: sw_KTX_SC2_W_wagon_middle;
-    sw_KTX_SC2_B_wagon_middle;
-}
-
-switch(FEAT_TRAINS, SELF, sw_KTX_SC2_special_wagon_middle, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_SC2_special_wagon, cargo_subtype) {
     1: set_KTX_SC2_G_special_wagon;
     2: set_KTX_SC2_W_special_wagon;
     set_KTX_SC2_B_special_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC2_wagon_B, cargo_subtype) {
+    1: set_KTX_SC2_G_wagon_B;
+    2: set_KTX_SC2_W_wagon_B;
+    set_KTX_SC2_B_wagon_B;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC2_wagon_end, cargo_subtype) {
@@ -63,27 +49,28 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC2_wagon_end, cargo_subtype) {
     set_KTX_SC2_B_wagon_end;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_SC2_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    KTX_SC2: sw_KTX_SC2_wagon_end;
-    sw_KTX_SC2_wagon_middle;
-}
+switch (FEAT_TRAINS, SELF, sw_KTX_SC2_10car, position_in_vehid_chain % 10) {
+    1:sw_KTX_SC2_wagon_start;
+    2:sw_KTX_SC2_wagon_A;
+    3:sw_KTX_SC2_special_wagon;
+    4:sw_KTX_SC2_wagon_A;
+    5:sw_KTX_SC2_wagon_B;
+    6:sw_KTX_SC2_wagon_B;
+    7:sw_KTX_SC2_wagon_B;
+    8:sw_KTX_SC2_wagon_end;
+    9:sw_KTX_SC2_engineT;
+    sw_KTX_SC2_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_SC2_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    KTX_SC2: sw_KTX_SC2_wagon_start;
-    sw_KTX_SC2_wagon_rear;
-}
-
-// Pantograph - 10 cars
-switch(FEAT_TRAINS, SELF, sw_KTX_SC2_wagon_10car, (position_in_consist + 1) % 10) {
-    4: sw_KTX_SC2_special_wagon_middle;
-    14: sw_KTX_SC2_special_wagon_middle;
-    sw_KTX_SC2_wagon;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_SC2_10car, extra_callback_info1) {
+    1..9: KTX_SC2_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC2_wagon_attach, vehicle_type_id) {
-    CTX:                    return CB_RESULT_ATTACH_ALLOW;
+    CTX_F_10Car:             return CB_RESULT_ATTACH_ALLOW;
+    CTX_P_10Car:             return CB_RESULT_ATTACH_ALLOW;
     KTX_SC_10Car:            return CB_RESULT_ATTACH_ALLOW;
-    KTX_SC2:                return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
+    KTX_SC2_10Car:           return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

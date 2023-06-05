@@ -16,16 +16,20 @@ spriteset(set_EMU150_panto_wagon_A, "src/locomotive/EMU/EMU150/EMU150.png"){
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_EMU150_wagon, "src/locomotive/EMU/EMU150/EMU150.png") {
+spriteset(set_EMU150_1F_wagon, "src/locomotive/EMU/EMU150/EMU150.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_EMU150_panto_wagon_B, "src/locomotive/EMU/EMU150/EMU150.png"){
+spriteset(set_EMU150_2F_wagon, "src/locomotive/EMU/EMU150/EMU150.png") {
     wagon_1F_F(80, 81)
 }
 
+spriteset(set_EMU150_panto_wagon_B, "src/locomotive/EMU/EMU150/EMU150.png"){
+    wagon_1F_F(80, 108)
+}
+
 spriteset(set_EMU150_engineT, "src/locomotive/EMU/EMU150/EMU150.png"){
-    engine(80, 108)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------
