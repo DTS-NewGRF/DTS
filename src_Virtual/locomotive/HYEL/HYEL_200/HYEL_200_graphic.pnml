@@ -2,32 +2,24 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_HYEL_200_purchase, "src_Virtual/locomotive/HYEL/HYEL_200/HYEL_200.png"){
-	tmpl_purchase(0, 0)
-}
-
-spriteset(set_HYEL_200H_purchase, "src_Virtual/locomotive/HYEL/HYEL_200/HYEL_200.png"){
-	tmpl_purchase_for_dualhead(0, 54)
+    tmpl_purchase(0, 0)
 }
 
 spriteset(set_HYEL_200_engineH, "src_Virtual/locomotive/HYEL/HYEL_200/HYEL_200.png"){
-	engine(80, 0)
+    engine(80, 0)
 }
 
 spriteset(set_HYEL_200_wagon, "src_Virtual/locomotive/HYEL/HYEL_200/HYEL_200.png") {
-	wagon_1F(80, 27)
-}
-
-spriteset(set_HYEL_200_wagon_r, "src_Virtual/locomotive/HYEL/HYEL_200/HYEL_200.png") {
-	wagon_1F_r(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_HYEL_200_engineT, "src_Virtual/locomotive/HYEL/HYEL_200/HYEL_200.png"){
-	engine_r(80, 54)
+    engine(80, 54)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_HYEL_200_purchase, cargo_subtype) {
-	set_HYEL_200_purchase;
+    set_HYEL_200_purchase;
 }

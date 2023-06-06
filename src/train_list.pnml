@@ -36,6 +36,9 @@
 #include "locomotive/Travel_8500/Travel_8500.pnml"
 #include "locomotive/TTX/TTX.pnml"
 #include "locomotive/VHST_600X/VHST_600X.pnml"
+#include "locomotive/Glory_600/Glory_600.pnml"
+#include "locomotive/HMX/HMX.pnml"
+#include "locomotive/NKX/NKX.pnml"
 
 //Metro
 #include "metro/AUTS/AUTS.pnml"

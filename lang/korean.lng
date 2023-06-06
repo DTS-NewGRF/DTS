@@ -87,10 +87,10 @@ STR_Shinkansen_E7_W7_NAME                            :[DTS] 신칸센 E7·W7계
 STR_Shinkansen_E8_NAME                               :[DTS] 신칸센 E8계
 STR_Shinkansen_N700_NAME                             :[DTS] 신칸센 N700계
 STR_Shinkansen_N700S_NAME                            :[DTS] 신칸센 N700S계
-STR_HYEL_100_NAME                                    :[DTS] HYEL-100
-STR_HYEL_200_NAME                                    :[DTS] HYEL-200
-STR_HYEL_300_NAME                                    :[DTS] HYEL-300
-STR_HYEL_400_NAME                                    :[DTS] HYEL-400
+STR_HYEL_100_NAME                                    :[단량] HYEL-100 [DTS]
+STR_HYEL_200_6Car_NAME                               :[6량] HYEL-200 [DTS]
+STR_HYEL_300_8Car_NAME                               :[8량] HYEL-300 [DTS]
+STR_HYEL_400_8Car_NAME                               :[8량] HYEL-400 [DTS]
 STR_YFX_NAME                                         :[DTS] YFX
 STR_WGT26CW_NAME                                     :[DTS] GT26CW
 STR_NHSRCL_E5_NAME                                   :[DTS] NHSRCL E5
@@ -100,6 +100,9 @@ STR_WRenfe_S_130_NAME                                :[DTS] 아프로시욥
 STR_Al_Boraq_NAME                                    :[DTS] 알 보라크
 STR_Talgo_350_SRO_NAME                               :[DTS] 탈고 350 SRO (하라마인 고속철도)
 STR_Avelia_Liberty_NAME                              :[DTS] 아벨리아 리버티
+STR_Glory_600_8Car_NAME                              :[8량] Glory 600 [DTS]
+STR_HMX_8Car_NAME                                    :[8량] HMX [DTS]
+STR_NKX_8Car_NAME                                    :[8량] NKX [DTS]
 
 # Metro's name
 STR_Standard_Metro_4Car_NAME                         :[4량] 한국형 표준전동차 [DTS]
@@ -261,10 +264,10 @@ STR_REFIT_ADDITIONAL_Nishitetsu_6000                 :{BLACK}도색/모델 변�
 STR_REFIT_ADDITIONAL_Nishitetsu_7000                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 6000, 니시테츠 7000
 STR_REFIT_ADDITIONAL_Nishitetsu_8000                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 8000
 STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 9000
-STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}HYEL-100
-STR_REFIT_ADDITIONAL_HYEL_200                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}HYEL-200
-STR_REFIT_ADDITIONAL_HYEL_300                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{RED}불가능
-STR_REFIT_ADDITIONAL_HYEL_400                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}HYEL-400
+STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}복합가능열차 {GREEN}HYEL-100
+STR_REFIT_ADDITIONAL_HYEL_200                        :{BLACK}복합가능열차 {GREEN}HYEL-200
+STR_REFIT_ADDITIONAL_HYEL_300                        :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_HYEL_400                        :{BLACK}복합가능열차 {GREEN}HYEL-400
 STR_REFIT_ADDITIONAL_YFX                             :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}YFX
 STR_REFIT_ADDITIONAL_WGT26CW                         :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}GT26CW
 STR_REFIT_ADDITIONAL_NHSRCL_E5                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}NHSRCL E5
@@ -274,6 +277,9 @@ STR_REFIT_ADDITIONAL_WRenfe_S_130                    :{BLACK}도색/모델 변�
 STR_REFIT_ADDITIONAL_Al_Boraq                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_Talgo_350_SRO                   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_Avelia_Liberty                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Glory600                        :{BLACK}복합가능열차 {GREEN}Glory-600
+STR_REFIT_ADDITIONAL_HMX                             :{BLACK}복합가능열차 {GREEN}HMX
+STR_REFIT_ADDITIONAL_NKX                             :{BLACK}복합가능열차 {GREEN}NKX
 
 STR_REFIT_train_configuration_Passenger              :{BLACK}열차구성: {GREEN}단편 도색 승객 차량용 / 추후 제거 예정
 STR_REFIT_train_configuration_SPassenger             :{BLACK}열차구성: {GREEN}[기관차연결] 관광열차 객차

@@ -88,9 +88,9 @@ STR_Shinkansen_E8_NAME                               :[DTS] Shinkansen E8
 STR_Shinkansen_N700_NAME                             :[DTS] Shinkansen N700
 STR_Shinkansen_N700S_NAME                            :[DTS] Shinkansen N700S
 STR_HYEL_100_NAME                                    :[DTS] HYEL-100
-STR_HYEL_200_NAME                                    :[DTS] HYEL-200
-STR_HYEL_300_NAME                                    :[DTS] HYEL-300
-STR_HYEL_400_NAME                                    :[DTS] HYEL-400
+STR_HYEL_200_6Car_NAME                               :[DTS] HYEL-200 6Car
+STR_HYEL_300_8Car_NAME                               :[DTS] HYEL-300 8Car
+STR_HYEL_400_8Car_NAME                               :[DTS] HYEL-400 8Car
 STR_YFX_NAME                                         :[DTS] YFX
 STR_WGT26CW_NAME                                     :[DTS] GT26CW
 STR_NHSRCL_E5_NAME                                   :[DTS] NHSRCL E5
@@ -100,6 +100,9 @@ STR_WRenfe_S_130_NAME                                :[DTS] Afrosiyob
 STR_Al_Boraq_NAME                                    :[DTS] Al-Boraq
 STR_Talgo_350_SRO_NAME                               :[DTS] Talgo 350 SRO
 STR_Avelia_Liberty_NAME                              :[DTS] Avelia Liberty
+STR_Glory_600_8Car_NAME                              :[DTS] Glory 600 8Car
+STR_HMX_8Car_NAME                                    :[DTS] HMX 8Car
+STR_NKX_8Car_NAME                                    :[DTS] NKX 8Car
 
 # Metro's name
 STR_Standard_Metro_4Car_NAME                         :[DTS] Standard Metro 4Car
@@ -261,10 +264,10 @@ STR_REFIT_ADDITIONAL_Nishitetsu_6000                 :{BLACK}Changing model/live
 STR_REFIT_ADDITIONAL_Nishitetsu_7000                 :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 6000, Nishitetsu 7000
 STR_REFIT_ADDITIONAL_Nishitetsu_8000                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 8000
 STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 9000
-STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}HYEL-100
-STR_REFIT_ADDITIONAL_HYEL_200                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HYEL-200
-STR_REFIT_ADDITIONAL_HYEL_300                        :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_HYEL_400                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HYEL-400
+STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}Combined train {GREEN}HYEL-100
+STR_REFIT_ADDITIONAL_HYEL_200                        :{BLACK}Combined train {GREEN}HYEL-200
+STR_REFIT_ADDITIONAL_HYEL_300                        :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_HYEL_400                        :{BLACK}Combined train {GREEN}HYEL-400
 STR_REFIT_ADDITIONAL_YFX                             :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}YFX
 STR_REFIT_ADDITIONAL_WGT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}GT26CW
 STR_REFIT_ADDITIONAL_NHSRCL_E5                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NHSRCL E5
@@ -274,6 +277,9 @@ STR_REFIT_ADDITIONAL_WRenfe_S_130                    :{BLACK}Changing model/live
 STR_REFIT_ADDITIONAL_Al_Boraq                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Talgo_350_SRO                   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Avelia_Liberty                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_Glory600                        :{BLACK}Combined train {GREEN}Glory-600
+STR_REFIT_ADDITIONAL_HMX                             :{BLACK}Combined train {GREEN}HMX
+STR_REFIT_ADDITIONAL_NKX                             :{BLACK}Combined train {GREEN}NKX
 
 STR_REFIT_train_configuration_Passenger              :{BLACK}train configuration: {GREEN}only one Color Passenger vehicles
 STR_REFIT_train_configuration_SPassenger             :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles

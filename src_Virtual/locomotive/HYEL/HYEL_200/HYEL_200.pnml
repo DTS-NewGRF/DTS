@@ -10,15 +10,14 @@ GT26CW
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HYEL_200, 2109){
+item(FEAT_TRAINS, HYEL_200_6Car, 2109){
     property {
-        name:                           string(STR_HYEL_200_NAME);
+        name:                           string(STR_HYEL_200_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2035, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          181km/h;
@@ -35,7 +34,7 @@ item(FEAT_TRAINS, HYEL_200, 2109){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 70;
+        cargo_capacity:                 140;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -51,7 +50,8 @@ item(FEAT_TRAINS, HYEL_200, 2109){
         }
         
     graphics {
-        default:                        sw_HYEL_200_engine;
+        default:                        sw_HYEL_200_6car;
+        articulated_part:               sw_articulated_HYEL_200_6car;
         purchase:                       sw_HYEL_200_purchase;
         speed:                          Regular_Speed_Train;
         cost_factor:                    10;
@@ -59,12 +59,5 @@ item(FEAT_TRAINS, HYEL_200, 2109){
         running_cost_factor:            150;
         can_attach_wagon:               sw_HYEL_200_wagon_attach;
         additional_text:                string(STR_REFIT_ADDITIONAL_HYEL_200);
-        }
-
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_HYEL_200_wagon;
-        cargo_capacity:                 140;
-        loading_speed:                  25;
-        running_cost_factor:            100;
         }
         }

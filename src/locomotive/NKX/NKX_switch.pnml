@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_NKX_8car, position_in_vehid_chain % 8) {
+    1:set_NKX_1wagon;
+    2:set_NKX_wagon;
+    3:set_NKX_wagon;
+    4:set_NKX_wagon;
+    5:set_NKX_wagon;
+    6:set_NKX_7wagon;
+    7:set_NKX_engineT;
+    set_NKX_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_NKX_8car, extra_callback_info1) {
+    1..7: NKX_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_NKX_wagon_attach, vehicle_type_id) {
+    NKX_8Car:                return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

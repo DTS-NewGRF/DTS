@@ -12,111 +12,63 @@ alternative_sprites(set_HYEL_400_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "
 /*--------------------------------------------------------------------
 HYEL 400
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_400H_purchase, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400.png"){
-    tmpl_purchase_for_dualhead(0, 54)
-}
-
 spriteset(set_HYEL_400_engineH, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400.png"){
     engine(80, 0)
 }
 
 spriteset(set_HYEL_400_wagon1, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png") {
-    wagon_1F(80, 27)
-}
-
-spriteset(set_HYEL_400_wagon1_r, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png") {
-    wagon_1F(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_HYEL_400_wagon2, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png") {
-    wagon_1F(80, 27)
-}
-
-spriteset(set_HYEL_400_wagon2_r, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png") {
-    wagon_1F(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_HYEL_400_wagon3, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png") {
-    wagon_1F(80, 27)
-}
-
-spriteset(set_HYEL_400_wagon3_r, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png") {
-    wagon_1F(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_HYEL_400_wagon4, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png") {
-    wagon_1F(80, 27)
-}
-
-spriteset(set_HYEL_400_wagon4_r, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png") {
-    wagon_1F(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_HYEL_400_wagon5, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png") {
-    wagon_1F(80, 27)
-}
-
-spriteset(set_HYEL_400_wagon5_r, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png") {
-    wagon_1F(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_HYEL_400_engineT, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400.png"){
-    engine_r(80, 54)
+    engine(80, 54)
 }
 
 /*--------------------------------------------------------------------
 HYEL 300 32bpp
 --------------------------------------------------------------------*/
-alternative_sprites(set_HYEL_400H_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400_32bpp.png"){
-    tmpl_purchase_for_dualhead(0, 162)
-}
-
 alternative_sprites(set_HYEL_400_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400_32bpp.png"){
     engine(80, 0)
 }
 
 alternative_sprites(set_HYEL_400_wagon1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400_32bpp.png") {
-    wagon_1F(80, 27)
-}
-
-alternative_sprites(set_HYEL_400_wagon1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400_32bpp.png") {
-    wagon_1F_r(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 alternative_sprites(set_HYEL_400_wagon2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400_32bpp.png") {
-    wagon_1F(80, 54)
-}
-
-alternative_sprites(set_HYEL_400_wagon2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400_32bpp.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 alternative_sprites(set_HYEL_400_wagon3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400_32bpp.png") {
-    wagon_1F(80, 81)
-}
-
-alternative_sprites(set_HYEL_400_wagon3_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400_32bpp.png") {
-    wagon_1F_r(80, 81)
+    wagon_1F_F(80, 81)
 }
 
 alternative_sprites(set_HYEL_400_wagon4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400_32bpp.png") {
-    wagon_1F(80, 108)
-}
-
-alternative_sprites(set_HYEL_400_wagon4_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400_32bpp.png") {
-    wagon_1F_r(80, 108)
+    wagon_1F_F(80, 108)
 }
 
 alternative_sprites(set_HYEL_400_wagon5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400_32bpp.png") {
-    wagon_1F(80, 135)
-}
-
-alternative_sprites(set_HYEL_400_wagon5_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400_32bpp.png") {
-    wagon_1F_r(80, 135)
+    wagon_1F_F(80, 135)
 }
 
 alternative_sprites(set_HYEL_400_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_400/HYEL_400_32bpp.png"){
-    engine_r(80, 162)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------

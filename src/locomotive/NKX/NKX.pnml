@@ -1,18 +1,18 @@
 /*--------------------------------------------------------------------
-GT26CW
+NKX
 --------------------------------------------------------------------*/
 // Graphics
-#include "HYEL_300_graphic.pnml"
+#include "NKX_graphic.pnml"
 
 // Switch
-#include "HYEL_300_switch.pnml"
+#include "NKX_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HYEL_300_8Car, 2110){
+item(FEAT_TRAINS, NKX_8Car, 2135){
     property {
-        name:                           string(STR_HYEL_300_8Car_NAME);
+        name:                           string(STR_NKX_8Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     RAIL;
@@ -20,9 +20,9 @@ item(FEAT_TRAINS, HYEL_300_8Car, 2110){
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          260km/h;
+        speed:                          181km/h;
         power:                          8000 kW;
-        weight:                         30 ton;
+        weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -34,7 +34,7 @@ item(FEAT_TRAINS, HYEL_300_8Car, 2110){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 1;
+        cargo_capacity:                 100;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -48,17 +48,16 @@ item(FEAT_TRAINS, HYEL_300_8Car, 2110){
         misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
         }
-        
-    graphics {
-        default:                        sw_HYEL_300_8car;
-        articulated_part:               sw_articulated_HYEL_300_8car;
-        purchase:                       sw_HYEL_300_purchase;
-        cargo_capacity:                 140;
-        cost_factor:                    10;
+
+	graphics {
+        default:                        sw_NKX_8car;
+        articulated_part:               sw_articulated_NKX_8car;
+        purchase:                       sw_NKX_purchase;
+        speed:                          Regular_Speed_Train;
         loading_speed:                  25;
+        cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_HYEL_300_wagon_attach;
-        cargo_subtype_text:             sw_HYEL_300_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_HYEL_300);
+        can_attach_wagon:               sw_NKX_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_NKX);
         }
         }

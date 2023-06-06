@@ -1,18 +1,21 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_HYEL_200_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_HYEL_200_engineT;
-    set_HYEL_200_engineH;
-}
+switch (FEAT_TRAINS, SELF, sw_HYEL_200_6car, position_in_vehid_chain % 6) {
+    1:set_HYEL_200_wagon;
+    2:set_HYEL_200_wagon;
+    3:set_HYEL_200_wagon;
+    4:set_HYEL_200_wagon;
+    5:set_HYEL_200_engineT;
+    set_HYEL_200_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_HYEL_200_wagon, (position_in_consist)) {
-    1: set_HYEL_200_wagon_r;
-    set_HYEL_200_wagon;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_200_6car, extra_callback_info1) {
+    1..5: HYEL_200_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_HYEL_200_wagon_attach, vehicle_type_id) {
-    HYEL_200:               return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:      return CB_RESULT_ATTACH_ALLOW;
+    HYEL_200_6Car:           return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }
