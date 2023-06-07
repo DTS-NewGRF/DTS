@@ -153,7 +153,6 @@ STR_HKMetro_panto_Pass_NAME                          :[DTS] Hong Kong Metro pant
 STR_JMetro_Pass_NAME                                 :[DTS] Japanese Metro Passenger Car
 STR_JMetro_panto_Pass_NAME                           :[DTS] Japanese Metro panto Passenger Car
 STR_EMU_Pass_NAME                                    :[DTS] EMU carriage-type passenger car
-STR_EMU_panto_Pass_NAME                              :[DTS] EMU carriage-type panto passenger car
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                     :Metro Train Speed Variable

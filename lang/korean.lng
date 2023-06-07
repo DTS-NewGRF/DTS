@@ -153,7 +153,6 @@ STR_HKMetro_panto_Pass_NAME                          :[DTS] 홍콩형 지하철 
 STR_JMetro_Pass_NAME                                 :[DTS] 일본형 지하철 차량 (기관차 연결용)
 STR_JMetro_panto_Pass_NAME                           :[DTS] 일본형 지하철 팬토 차량 (기관차 연결용)
 STR_EMU_Pass_NAME                                    :[기관차연결] EMU 객차 차량 [DTS]
-STR_EMU_panto_Pass_NAME                              :[DTS] EMU 객차형 팬토 차량 (기관차 연결용)
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                     :지하철 속도변수
