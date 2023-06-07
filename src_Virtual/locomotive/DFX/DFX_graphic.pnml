@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_DFX_purchase, "src_Virtual/locomotive/DFX/DFX.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_DFX_engineH, "src_Virtual/locomotive/DFX/DFX.png"){
+    engine(80, 0)
+}
+
+spriteset(set_DFX_wagon, "src_Virtual/locomotive/DFX/DFX.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_DFX_engineT, "src_Virtual/locomotive/DFX/DFX.png"){
+    engine(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_DFX_purchase, cargo_subtype) {
+    set_DFX_purchase;
+}

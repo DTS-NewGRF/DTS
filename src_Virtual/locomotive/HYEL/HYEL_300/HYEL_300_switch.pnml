@@ -1,35 +1,15 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_HYEL_300_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_HYEL_300_SB);     //HYEL 300 SB
-    return string(STR_REFIT_LIVERY_HYEL_300);
-}
-
-switch(FEAT_TRAINS, SELF, sw_HYEL_300_engineH, cargo_subtype) {
-    1: set_HYEL_300_SB_engineH;     //HYEL 300 SB
-    set_HYEL_300_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_HYEL_300_engineT, cargo_subtype) {
-    1: set_HYEL_300_SB_wagon_tail;     //HYEL 300 SB
-    set_HYEL_300_wagon_tail; 
-}
-
-switch(FEAT_TRAINS, SELF, sw_HYEL_300_wagon, cargo_subtype) {
-    1: set_HYEL_300_SB_wagon;     //HYEL 300 SB
-    set_HYEL_300_wagon;
-}
-
 switch (FEAT_TRAINS, SELF, sw_HYEL_300_8car, position_in_vehid_chain % 8) {
-    1:sw_HYEL_300_wagon;
-    2:sw_HYEL_300_wagon;
-    3:sw_HYEL_300_wagon;
-    4:sw_HYEL_300_wagon;
-    5:sw_HYEL_300_wagon;
-    6:sw_HYEL_300_wagon;
-    7:sw_HYEL_300_engineT;
-    sw_HYEL_300_engineH; //default
+    1:set_HYEL_300_wagon;
+    2:set_HYEL_300_wagon;
+    3:set_HYEL_300_wagon;
+    4:set_HYEL_300_wagon;
+    5:set_HYEL_300_wagon;
+    6:set_HYEL_300_wagon;
+    7:set_HYEL_300_wagon_tail;
+    set_HYEL_300_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_300_8car, extra_callback_info1) {
@@ -38,5 +18,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_300_8car, extra_callback_info1) {
     }
 
 switch(FEAT_TRAINS, SELF, sw_HYEL_300_wagon_attach, vehicle_type_id) {
+    HYEL_300_8Car:           return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

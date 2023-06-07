@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_MEL_150_purchase, "src/locomotive/MEL_150/MEL_150.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+MEL_150
+--------------------------------------------------------------------*/
+spriteset(set_MEL_150_engineH, "src/locomotive/MEL_150/MEL_150.png"){
+    engine(80, 0)
+}
+
+spriteset(set_MEL_150_panto_wagon, "src/locomotive/MEL_150/MEL_150.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_MEL_150_1F_wagon, "src/locomotive/MEL_150/MEL_150.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_MEL_150_2F_wagon, "src/locomotive/MEL_150/MEL_150.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_MEL_150_engineT, "src/locomotive/MEL_150/MEL_150.png"){
+    engine(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_MEL_150_purchase, cargo_subtype) {
+    set_MEL_150_purchase;
+}

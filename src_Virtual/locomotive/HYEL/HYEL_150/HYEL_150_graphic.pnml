@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------------
+1. HYEL_100
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_150_purchase, "src_Virtual/locomotive/HYEL/HYEL_150/HYEL_150.png"){
+    tmpl_purchase(0, 0)
+}
+
+alternative_sprites(set_HYEL_150_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_150/HYEL_150_32bPP.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_HYEL_150_engine, "src_Virtual/locomotive/HYEL/HYEL_150/HYEL_150.png"){
+    engine(80, 0)
+}
+
+alternative_sprites(set_HYEL_150_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_150/HYEL_150_32bPP.png"){
+    engine(80, 0)
+}
+
+spriteset(set_HYEL_150_SB_engine, "src_Virtual/locomotive/HYEL/HYEL_150/HYEL_150.png"){
+    engine(80, 27)
+}
+
+alternative_sprites(set_HYEL_150_SB_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_150/HYEL_150_32bPP.png"){
+    engine(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_HYEL_150_purchase, cargo_subtype) {
+	set_HYEL_150_purchase;
+}

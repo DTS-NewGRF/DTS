@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_DFX_10car, position_in_vehid_chain % 10) {
+    1:set_DFX_wagon;
+    2:set_DFX_wagon;
+    3:set_DFX_wagon;
+    4:set_DFX_wagon;
+    5:set_DFX_wagon;
+    6:set_DFX_wagon;
+    7:set_DFX_wagon;
+    8:set_DFX_wagon;
+    9:set_DFX_engineT;
+    set_DFX_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_DFX_10car, extra_callback_info1) {
+    1..9: DFX_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_DFX_wagon_attach, vehicle_type_id) {
+    DFX_10Car:               return CB_RESULT_ATTACH_ALLOW;
+   return string(STR_ERROR_NO_ATTACH);
+}

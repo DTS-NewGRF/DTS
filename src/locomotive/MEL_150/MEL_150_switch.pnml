@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_MEL_150_4car, position_in_vehid_chain % 4) {
+    1:set_MEL_150_panto_wagon;
+    2:set_MEL_150_panto_wagon;
+    3:set_MEL_150_engineT;
+    set_MEL_150_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_MEL_150_10car, position_in_vehid_chain % 10) {
+    1:set_MEL_150_panto_wagon;
+    2:set_MEL_150_1F_wagon;
+    3:set_MEL_150_1F_wagon;
+    4:set_MEL_150_1F_wagon;
+    5:set_MEL_150_panto_wagon;
+    6:set_MEL_150_1F_wagon;
+    7:set_MEL_150_panto_wagon;
+    8:set_MEL_150_1F_wagon;
+    9:set_MEL_150_engineT;
+    set_MEL_150_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_MEL_150_12car, position_in_vehid_chain % 12) {
+    1:set_MEL_150_panto_wagon;
+    2:set_MEL_150_1F_wagon;
+    3:set_MEL_150_panto_wagon;
+    4:set_MEL_150_1F_wagon;
+    5:set_MEL_150_2F_wagon;
+    6:set_MEL_150_2F_wagon;
+    7:set_MEL_150_1F_wagon;
+    8:set_MEL_150_1F_wagon;
+    9:set_MEL_150_panto_wagon;
+    10:set_MEL_150_1F_wagon;
+    11:set_MEL_150_engineT;
+    set_MEL_150_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_MEL_150_4car, extra_callback_info1) {
+    1..3: MEL_150_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_MEL_150_10car, extra_callback_info1) {
+    1..9: MEL_150_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_MEL_150_12car, extra_callback_info1) {
+    1..11: MEL_150_12Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_MEL_150_wagon_attach, vehicle_type_id) {
+    MEL_150_4Car:            return CB_RESULT_ATTACH_ALLOW;
+    MEL_150_10Car:           return CB_RESULT_ATTACH_ALLOW;
+    MEL_150_12Car:           return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}

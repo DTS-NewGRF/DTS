@@ -1,0 +1,12 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_HYEL_150_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_HYEL_150_SB);        // 바다도색
+    return string(STR_REFIT_LIVERY_HYEL_150);
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_150_engine, cargo_subtype) {
+    1: set_HYEL_150_SB_engine;        // 바다도색
+    set_HYEL_150_engine;
+}

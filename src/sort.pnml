@@ -5,6 +5,8 @@ sort(FEAT_TRAINS, [
     //지하철
     Standard_Metro_4Car,       //2006
     AUTS_6Car,                 //2007
+    Korail_392000_2Car,        //2139
+    Korail_392000_4Car,        //2140
     AD_Tranz_CAF_A,            //2052
     MTR_AC_Cammall,            //2053
     MTR_DC_Cammall,            //2054
@@ -28,6 +30,11 @@ sort(FEAT_TRAINS, [
 
     //일반열차
     APEX20005_6Car,            //2009
+    MEL_150_4Car,              //2136
+    MEL_150_10Car,             //2137
+    MEL_150_12Car,             //2138
+    APEX20005_6Car,            //2009
+    APEX20005_6Car,            //2009
     EMU150_6Car,               //2010
     EMU150_8Car,               //2131
     EMU150_DD_6Car,            //2011
@@ -41,9 +48,9 @@ sort(FEAT_TRAINS, [
     NJ2,                       //2051
     BB15000,                   //2064
     Keisei_AE_series,          //2084
+    HYEL_15,                   //2115
     HYEL_100,                  //2108
     HYEL_200_6Car,             //2109
-    WGT26CW,                   //2115
     NSW_TrainLink_D,           //2117
     NKX_8Car,                  //2135
 
@@ -68,6 +75,7 @@ sort(FEAT_TRAINS, [
     Shinkansen_800,            //2088
     Shinkansen_E2,             //2091
     Shinkansen_E7_W7,          //2094
+    HYEL_150,                  //2141
     HYEL_300_8Car,             //2110
     WRenfe_S_130,              //2119
     HMX_8Car,                  //2134
@@ -130,7 +138,7 @@ sort(FEAT_TRAINS, [
     Glory_600_8Car,            //2133
     CRH380AJ,                  //2044
     Shinkansen_923,            //2096
-    YFX,                       //2112
+    DFX_10Car,                 //2112
 
     //객차
     DTS_Passenger_Car,         //2001
@@ -150,7 +158,6 @@ sort(FEAT_TRAINS, [
     Luggage_Car,               //2004
     CLuggage_Car,              //2033
     TGV_Poste_wagon,           //2062
-    YFXF,                      //2107
     FLAT_1F,                   //2129
     FLAT_2F,                   //2114
     FLAT_TANK,                 //2130

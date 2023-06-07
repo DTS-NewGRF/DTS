@@ -2,25 +2,25 @@
 GT26CW
 --------------------------------------------------------------------*/
 // Graphics
-#include "HYEL_300_graphic.pnml"
+#include "HYEL_15_graphic.pnml"
 
 // Switch
-#include "HYEL_300_switch.pnml"
+#include "HYEL_15_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HYEL_300_8Car, 2110){
+item(FEAT_TRAINS, HYEL_15, 2115){
     property {
-        name:                           string(STR_HYEL_300_8Car_NAME);
+        name:                           string(STR_HYEL_15_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2020, 1, 1);
+        introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          260km/h;
+        speed:                          181km/h;
         power:                          8000 kW;
         weight:                         30 ton;
         tractive_effort_coefficient:    0.3;
@@ -45,19 +45,17 @@ item(FEAT_TRAINS, HYEL_300_8Car, 2110){
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
         
     graphics {
-        default:                        sw_HYEL_300_8car;
-        articulated_part:               sw_articulated_HYEL_300_8car;
-        purchase:                       sw_HYEL_300_purchase;
-        cargo_capacity:                 140;
+        default:                        set_HYEL_15_engine;
+        purchase:                       sw_HYEL_15_purchase;
+        speed:                          Regular_Speed_Train;
+        cargo_capacity:                 0;
         cost_factor:                    10;
-        loading_speed:                  25;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_HYEL_300_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_HYEL_300);
+        additional_text:                string(STR_REFIT_ADDITIONAL_HYEL_15);
         }
         }

@@ -8,6 +8,9 @@ STR_GRF_URL                                          :https://github.com/MEGB-Ne
 
 # locomotive's name
 STR_AREX_6Car_NAME                                   :[DTS] AREX series 2000 EMU5 6Car
+STR_MEL_150_4Car_NAME                                :[DTS] MEL-150 4Car
+STR_MEL_150_10Car_NAME                               :[DTS] MEL-150 10Car
+STR_MEL_150_12Car_NAME                               :[DTS] MEL-150 12Car
 STR_CTX_F_10Car_NAME                                 :[DTS] CTX Freight 10Car
 STR_CTX_P_10Car_NAME                                 :[DTS] CTX Passenger 10Car
 STR_DEL7600_NAME                                     :[DTS] DEL7600
@@ -87,12 +90,13 @@ STR_Shinkansen_E7_W7_NAME                            :[DTS] Shinkansen E7·W7
 STR_Shinkansen_E8_NAME                               :[DTS] Shinkansen E8
 STR_Shinkansen_N700_NAME                             :[DTS] Shinkansen N700
 STR_Shinkansen_N700S_NAME                            :[DTS] Shinkansen N700S
+STR_HYEL_15_NAME                                     :[DTS] HYEL-15
 STR_HYEL_100_NAME                                    :[DTS] HYEL-100
+STR_HYEL_150_NAME                                    :[DTS] HYEL-150
 STR_HYEL_200_6Car_NAME                               :[DTS] HYEL-200 6Car
 STR_HYEL_300_8Car_NAME                               :[DTS] HYEL-300 8Car
 STR_HYEL_400_8Car_NAME                               :[DTS] HYEL-400 8Car
-STR_YFX_NAME                                         :[DTS] YFX
-STR_WGT26CW_NAME                                     :[DTS] GT26CW
+STR_DFX_10Car_NAME                                   :[DTS] DFX 10Car
 STR_NHSRCL_E5_NAME                                   :[DTS] NHSRCL E5
 STR_NSW_TrainLink_D_NAME                             :[DTS] NSW TrainLink D
 STR_THSR_700T_NAME                                   :[DTS] THSR 700T
@@ -107,6 +111,8 @@ STR_NKX_8Car_NAME                                    :[DTS] NKX 8Car
 # Metro's name
 STR_Standard_Metro_4Car_NAME                         :[DTS] Standard Metro 4Car
 STR_AUTS_6Car_NAME                                   :[DTS] AUTS 6Car
+STR_Korail_392000_2Car_NAME                          :[DTS] Korail 392000 2Car
+STR_Korail_392000_4Car_NAME                          :[DTS] Korail 392000 4Car
 STR_MTR_AD_Tranz_CAF_A_NAME                          :[DTS] MTR AD Tranz CAF A Type
 STR_MTR_AC_Cammall_NAME                              :[DTS] MTR Cammall AC Train
 STR_MTR_DC_Cammall_NAME                              :[DTS] MTR Cammall DC Train
@@ -173,6 +179,7 @@ STR_PARAM_World_DESC                                 :Please check when using Wo
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_AREX                            :{BLACK}Combined train {GREEN}AREX
+STR_REFIT_ADDITIONAL_MEL_150                         :{BLACK}Combined train {GREEN}MEL-150
 STR_REFIT_ADDITIONAL_CTX                             :{BLACK}Combined train {GREEN}CTX, KTX-Sancheon, KTX-Sancheon DD
 STR_REFIT_ADDITIONAL_DEL7600                         :{BLACK}Combined train {GREEN}DEL7600
 STR_REFIT_ADDITIONAL_E8600                           :{BLACK}Combined train {GREEN}E8600
@@ -197,6 +204,7 @@ STR_REFIT_ADDITIONAL_TTX                             :{BLACK}Changing model/live
 STR_REFIT_ADDITIONAL_VHST_600X                       :{BLACK}Combined train {GREEN}VHST_600X
 STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Korail_392000                   :{BLACK}Combined train {GREEN}Korail 392000
 STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1
 STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1E
 STR_REFIT_ADDITIONAL_CRH1A_A                         :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1A-A
@@ -264,12 +272,13 @@ STR_REFIT_ADDITIONAL_Nishitetsu_6000                 :{BLACK}Changing model/live
 STR_REFIT_ADDITIONAL_Nishitetsu_7000                 :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 6000, Nishitetsu 7000
 STR_REFIT_ADDITIONAL_Nishitetsu_8000                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 8000
 STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 9000
+STR_REFIT_ADDITIONAL_HYEL_15                         :{BLACK}Combined train {GREEN}HYEL-15
 STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}Combined train {GREEN}HYEL-100
+STR_REFIT_ADDITIONAL_HYEL_150                        :{BLACK}Combined train {GREEN}HYEL-150
 STR_REFIT_ADDITIONAL_HYEL_200                        :{BLACK}Combined train {GREEN}HYEL-200
 STR_REFIT_ADDITIONAL_HYEL_300                        :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_HYEL_400                        :{BLACK}Combined train {GREEN}HYEL-400
-STR_REFIT_ADDITIONAL_YFX                             :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}YFX
-STR_REFIT_ADDITIONAL_WGT26CW                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}GT26CW
+STR_REFIT_ADDITIONAL_DFX                             :{BLACK}Combined train {GREEN}DFX
 STR_REFIT_ADDITIONAL_NHSRCL_E5                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NHSRCL E5
 STR_REFIT_ADDITIONAL_NSW_TrainLink_D                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NSW TrainLink D
 STR_REFIT_ADDITIONAL_THSR_700T                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
@@ -297,13 +306,11 @@ STR_REFIT_train_configuration_Coach                  :{BLACK}train configuration
 STR_REFIT_train_configuration_Coach_Last             :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
 STR_REFIT_train_configuration_YFX_Freight            :{BLACK}train configuration: {GREEN}YFX Freight Car
 STR_REFIT_train_configuration_KMetro_Passenger       :{BLACK}train configuration: {GREEN}AUTS, Standard Metro
-STR_REFIT_train_configuration_KMetro_Panto_Passenger :{BLACK}train configuration: {GREEN}AUTS, Standard Metro
 STR_REFIT_train_configuration_HKMetro_Passenger      :{BLACK}train configuration: {GREEN}MTR
 STR_REFIT_train_configuration_HKMetro_Panto_Passenger:{BLACK}train configuration: {GREEN}MTR
 STR_REFIT_train_configuration_JMetro_Passenger       :{BLACK}train configuration: {GREEN}Nishitetsu
 STR_REFIT_train_configuration_JMetro_Panto_Passenger :{BLACK}train configuration: {GREEN}Nishitetsu
 STR_REFIT_train_configuration_EMU_Passenger          :{BLACK}train configuration: {GREEN}Bicheuro, EMU, GTX, ITX-Saemaeul DD, Nuriro DD
-STR_REFIT_train_configuration_EMU_Panto_Passenger    :{BLACK}train configuration: {GREEN}Bicheuro, EMU, GTX, ITX-Saemaeul DD, Nuriro DD
 
 # Liveries
 STR_REFIT_LIVERY_AREX_Normal                         :(Normal Color)
@@ -433,11 +440,8 @@ STR_REFIT_LIVERY_HYEL_100_Ilyang                     :(Ilyang Logistics)
 STR_REFIT_LIVERY_HYEL_100_Korail                     :(Korail)
 STR_REFIT_LIVERY_HYEL_100_Ironman                    :(Ironman)
 STR_REFIT_LIVERY_HYEL_100_K_Limousine                :(K Limousine)
-STR_REFIT_LIVERY_HYEL_300                            :(HYEL-300)
-STR_REFIT_LIVERY_HYEL_300_SB                         :(HYEL-300 Sea Livery)
-STR_REFIT_LIVERY_YFX_wagon_original                  :(Wingbody Freight)
-STR_REFIT_LIVERY_YFX_wagon_post                      :(Post Wingbody Freight)
-STR_REFIT_LIVERY_YFX_wagon_CJ_Logistics              :(CJ Logistics Wingbody Freight)
+STR_REFIT_LIVERY_HYEL_150                            :(HYEL-150)
+STR_REFIT_LIVERY_HYEL_150_SB                         :(HYEL-150 Sea Livery)
 STR_REFIT_LIVERY_Shinkansen_500_Cool                 :(Shinkansen 500 Cool)
 STR_REFIT_LIVERY_Shinkansen_500_Cool_New             :(Shinkansen 500 Cool New)
 
@@ -446,6 +450,7 @@ STR_REFIT_LIVERY_Shinkansen_500_Cool_New             :(Shinkansen 500 Cool New)
 STR_REFIT_LIVERY_AUTS                                :(AUTS)
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat            :(Standard MetroLong Long Seat)
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           :(Standard MetroLong Cross Seat)
+STR_REFIT_LIVERY_Korail_392000                       :(Korail 392000)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express  :(MTR AD Tranz CAF A Type Airport Express)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung       :(MTR AD Tranz CAF A Type Tung Chung)
 STR_REFIT_LIVERY_MTR_AC_Cammall                      :(MTR Cammall AC Type)

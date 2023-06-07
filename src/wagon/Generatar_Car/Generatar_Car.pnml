@@ -14,7 +14,7 @@ item(FEAT_TRAINS, Generatar_Car, 2003){
     property {
         name:                           string(STR_Generatar_Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2004, 1, 1);
+        introduction_date:              date(1971, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         

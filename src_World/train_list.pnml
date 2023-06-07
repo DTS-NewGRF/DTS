@@ -2,7 +2,6 @@
 #include "wagon/Flat_2F_Car/Flat_2F_Car.pnml"
 
 //locomotive
-#include "locomotive/GT26CW/GT26CW.pnml"
 #include "locomotive/NHSRCL_E5/NHSRCL_E5.pnml"
 #include "locomotive/NSW_TrainLink_D/NSW_TrainLink_D.pnml"
 #include "locomotive/THSR_700T/THSR_700T.pnml"

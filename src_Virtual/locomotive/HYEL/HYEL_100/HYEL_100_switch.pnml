@@ -36,10 +36,3 @@ switch(FEAT_TRAINS, SELF, sw_HYEL_100_engine, cargo_subtype) {
     14: set_HYEL_100_K_Limousine_engine; // K 리무진
     set_HYEL_100_engine;
 }
-
-switch(FEAT_TRAINS, SELF, sw_HYEL_100_wagon_attach, vehicle_type_id) {
-    HYEL_100:                            return CB_RESULT_ATTACH_ALLOW;
-    Coach_2F:                            return CB_RESULT_ATTACH_ALLOW;
-    YFXF:                                return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}

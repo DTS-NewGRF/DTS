@@ -1,17 +1,17 @@
 /*--------------------------------------------------------------------
-Graphics
+1. HYEL_15
 --------------------------------------------------------------------*/
-spriteset(set_WGT26CW_purchase, "src_World/locomotive/GT26CW/GT26CW.png"){
+spriteset(set_HYEL_15_purchase, "src_Virtual/locomotive/HYEL/HYEL_15/HYEL_15.png"){
 	tmpl_single_purchase(0, 0)
 }
 
-spriteset(set_WGT26CW_engine, "src_World/locomotive/GT26CW/GT26CW.png"){
+spriteset(set_HYEL_15_engine, "src_Virtual/locomotive/HYEL/HYEL_15/HYEL_15.png"){
 	engine(80, 0)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_WGT26CW_purchase, cargo_subtype) {
-	set_WGT26CW_purchase;
+switch(FEAT_TRAINS, SELF, sw_HYEL_15_purchase, cargo_subtype) {
+	set_HYEL_15_purchase;
 }

@@ -10,7 +10,7 @@ grf {
 	name :                             string(STR_GRF_NAME_WITH_VER);
 	desc :                             string(STR_GRF_DESC);
 	url :                              string(STR_GRF_URL);
-	version :                          20230606;
+	version :                          20230607;
 	min_compatible_version :           20230605;
 	
 	// Parameters 매개변수
@@ -140,7 +140,6 @@ if (Japanese) {
 
 if (World) {
     disable_item(FEAT_TRAINS, 2114); //FLAT_2F
-    disable_item(FEAT_TRAINS, 2115); //WGT26CW
     disable_item(FEAT_TRAINS, 2116); //NHSRCL_E5
     disable_item(FEAT_TRAINS, 2117); //NSW_TrainLink_D
     disable_item(FEAT_TRAINS, 2118); //THSR_700T

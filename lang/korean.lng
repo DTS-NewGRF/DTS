@@ -8,6 +8,9 @@ STR_GRF_URL                                          :https://github.com/DTS-New
 
 # locomotive's name
 STR_AREX_6Car_NAME                                   :[6량] AREX (공항철도) [DTS]
+STR_MEL_150_4Car_NAME                                :[4량] MEL-150 [DTS]
+STR_MEL_150_10Car_NAME                               :[10량] MEL-150 [DTS]
+STR_MEL_150_12Car_NAME                               :[12량] MEL-150 [DTS]
 STR_CTX_F_10Car_NAME                                 :[10량] CTX 화물전용 [DTS]
 STR_CTX_P_10Car_NAME                                 :[10량] CTX 승객전용 [DTS]
 STR_DEL7600_NAME                                     :[단량] DEL7600 [DTS]
@@ -87,12 +90,13 @@ STR_Shinkansen_E7_W7_NAME                            :[DTS] 신칸센 E7·W7계
 STR_Shinkansen_E8_NAME                               :[DTS] 신칸센 E8계
 STR_Shinkansen_N700_NAME                             :[DTS] 신칸센 N700계
 STR_Shinkansen_N700S_NAME                            :[DTS] 신칸센 N700S계
+STR_HYEL_15_NAME                                     :[단량] HYEL-15 [DTS]
 STR_HYEL_100_NAME                                    :[단량] HYEL-100 [DTS]
+STR_HYEL_150_NAME                                    :[단량] HYEL-150 [DTS]
 STR_HYEL_200_6Car_NAME                               :[6량] HYEL-200 [DTS]
 STR_HYEL_300_8Car_NAME                               :[8량] HYEL-300 [DTS]
 STR_HYEL_400_8Car_NAME                               :[8량] HYEL-400 [DTS]
-STR_YFX_NAME                                         :[DTS] YFX
-STR_WGT26CW_NAME                                     :[DTS] GT26CW
+STR_DFX_10Car_NAME                                   :[10량] DFX [DTS]
 STR_NHSRCL_E5_NAME                                   :[DTS] NHSRCL E5
 STR_NSW_TrainLink_D_NAME                             :[DTS] NSW TrainLink D
 STR_THSR_700T_NAME                                   :[DTS] 타이완 고속철도 700T형
@@ -107,6 +111,8 @@ STR_NKX_8Car_NAME                                    :[8량] NKX [DTS]
 # Metro's name
 STR_Standard_Metro_4Car_NAME                         :[4량] 한국형 표준전동차 [DTS]
 STR_AUTS_6Car_NAME                                   :[6량] 차세대전동차 [DTS]
+STR_Korail_392000_2Car_NAME                          :[2량] 한국철도공사 392000호대 전동차 [DTS]
+STR_Korail_392000_4Car_NAME                          :[4량] 한국철도공사 392000호대 전동차 [DTS]
 STR_MTR_AD_Tranz_CAF_A_NAME                          :[DTS] 홍콩 MTR AD Tranz CAF A형
 STR_MTR_AC_Cammall_NAME                              :[DTS] 홍콩 MTR 메트로카멜 교류형 전동차
 STR_MTR_DC_Cammall_NAME                              :[DTS] 홍콩 MTR 메트로카멜 직류형 전동차
@@ -138,9 +144,9 @@ STR_ETS_SPASS_NAME                                   :[DTS] 유럽 객차형 승
 STR_TGV_Poste_wagon_NAME                             :[DTS] TGV 라포스트 화차
 STR_VTS_SPASS_NAME                                   :[DTS] 가상 객차형 승객 차량
 STR_YFXF_NAME                                        :[DTS] YFX용 화차
-STR_FLAT_1F_NAME                                     :[DTS] 평판화차
-STR_FLAT_Tank_NAME                                   :[DTS] 평판유조 화차
-STR_FLAT_2F_NAME                                     :[DTS] 평판화차 - 미국형
+STR_FLAT_1F_NAME                                     :[기관차연결] 평판화차 [DTS]
+STR_FLAT_Tank_NAME                                   :[기관차연결] 평판유조 화차 [DTS]
+STR_FLAT_2F_NAME                                     :[기관차연결] 평판화차 - 미국형 [DTS]
 STR_KMetro_Pass_NAME                                 :[기관차연결] 한국형 지하철 차량 [DTS]
 STR_HKMetro_Pass_NAME                                :[DTS] 홍콩형 지하철 차량 (기관차 연결용)
 STR_HKMetro_panto_Pass_NAME                          :[DTS] 홍콩형 지하철 팬토 차량 (기관차 연결용)
@@ -173,6 +179,7 @@ STR_PARAM_World_DESC                                 :월드형 열차를 사용
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_AREX                            :{BLACK}복합가능열차 {GREEN}AREX
+STR_REFIT_ADDITIONAL_MEL_150                         :{BLACK}복합가능열차 {GREEN}MEL-150
 STR_REFIT_ADDITIONAL_CTX                             :{BLACK}복합가능열차 {GREEN}KTX-산천, KTX-산천 DD, CTX
 STR_REFIT_ADDITIONAL_DEL7600                         :{BLACK}복합가능열차 {GREEN}DEL7600
 STR_REFIT_ADDITIONAL_E8600                           :{BLACK}복합가능열차 {GREEN}8600 전기기관차
@@ -197,6 +204,7 @@ STR_REFIT_ADDITIONAL_TTX                             :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_VHST_600X                       :{BLACK}복합가능열차 {GREEN}VHST-600X
 STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}복합가능열차 {RED}불가능
 STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_Korail_392000                   :{BLACK}복합가능열차 {GREEN}Korail 392000
 STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1
 STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1E
 STR_REFIT_ADDITIONAL_CRH1A_A                         :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1A-A
@@ -264,12 +272,13 @@ STR_REFIT_ADDITIONAL_Nishitetsu_6000                 :{BLACK}도색/모델 변�
 STR_REFIT_ADDITIONAL_Nishitetsu_7000                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 6000, 니시테츠 7000
 STR_REFIT_ADDITIONAL_Nishitetsu_8000                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 8000
 STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 9000
+STR_REFIT_ADDITIONAL_HYEL_15                         :{BLACK}복합가능열차 {GREEN}HYEL-15
 STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}복합가능열차 {GREEN}HYEL-100
+STR_REFIT_ADDITIONAL_HYEL_150                        :{BLACK}복합가능열차 {GREEN}HYEL-150
 STR_REFIT_ADDITIONAL_HYEL_200                        :{BLACK}복합가능열차 {GREEN}HYEL-200
 STR_REFIT_ADDITIONAL_HYEL_300                        :{BLACK}복합가능열차 {RED}불가능
 STR_REFIT_ADDITIONAL_HYEL_400                        :{BLACK}복합가능열차 {GREEN}HYEL-400
-STR_REFIT_ADDITIONAL_YFX                             :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}YFX
-STR_REFIT_ADDITIONAL_WGT26CW                         :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}GT26CW
+STR_REFIT_ADDITIONAL_DFX                             :{BLACK}복합가능열차 {GREEN}DFX
 STR_REFIT_ADDITIONAL_NHSRCL_E5                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}NHSRCL E5
 STR_REFIT_ADDITIONAL_NSW_TrainLink_D                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}NSW TrainLink D
 STR_REFIT_ADDITIONAL_THSR_700T                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
@@ -296,14 +305,12 @@ STR_REFIT_train_configuration_2F                     :{BLACK}열차구성: {GREE
 STR_REFIT_train_configuration_Coach                  :{BLACK}열차구성: {GREEN}객차형 승객 차량용
 STR_REFIT_train_configuration_Coach_Last             :{BLACK}열차구성: {GREEN}객차형 승객 차량용
 STR_REFIT_train_configuration_YFX_Freight            :{BLACK}열차구성: {GREEN}YFX용 화차
-STR_REFIT_train_configuration_KMetro_Passenger       :{BLACK}열차구성: {GREEN}AUTS, 한국형 표준형 전동차
-STR_REFIT_train_configuration_KMetro_Panto_Passenger :{BLACK}열차구성: {GREEN}AUTS, 한국형 표준형 전동차
+STR_REFIT_train_configuration_KMetro_Passenger       :{BLACK}열차구성: {GREEN}[기관차연결] 지하철 객차
 STR_REFIT_train_configuration_HKMetro_Passenger      :{BLACK}열차구성: {GREEN}MTR
 STR_REFIT_train_configuration_HKMetro_Panto_Passenger:{BLACK}열차구성: {GREEN}MTR
 STR_REFIT_train_configuration_JMetro_Passenger       :{BLACK}열차구성: {GREEN}Nishitetsu
 STR_REFIT_train_configuration_JMetro_Panto_Passenger :{BLACK}열차구성: {GREEN}Nishitetsu
-STR_REFIT_train_configuration_EMU_Passenger          :{BLACK}열차구성: {GREEN}비츠로, EMU, GTX, ITX-새마을 DD, 누리로 DD
-STR_REFIT_train_configuration_EMU_Panto_Passenger    :{BLACK}열차구성: {GREEN}비츠로, EMU, GTX, ITX-새마을 DD, 누리로 DD
+STR_REFIT_train_configuration_EMU_Passenger          :{BLACK}열차구성: {GREEN}[기관차연결] EMU 객차
 
 # Liveries locomotive
 STR_REFIT_LIVERY_AREX_Normal                         :(기본 도색)
@@ -433,11 +440,8 @@ STR_REFIT_LIVERY_HYEL_100_Ilyang                     :(일양 택배)
 STR_REFIT_LIVERY_HYEL_100_Korail                     :(코레일)
 STR_REFIT_LIVERY_HYEL_100_Ironman                    :(아이언맨)
 STR_REFIT_LIVERY_HYEL_100_K_Limousine                :(K 리무진)
-STR_REFIT_LIVERY_HYEL_300                            :(HYEL-300)
-STR_REFIT_LIVERY_HYEL_300_SB                         :(HYEL-300 바다도색)
-STR_REFIT_LIVERY_YFX_wagon_original                  :(기본 윙바디 화물칸)
-STR_REFIT_LIVERY_YFX_wagon_post                      :(우체국소포 윙바디 화물칸)
-STR_REFIT_LIVERY_YFX_wagon_CJ_Logistics              :(CJ 택배 윙바디 화물칸)
+STR_REFIT_LIVERY_HYEL_150                            :(HYEL-150)
+STR_REFIT_LIVERY_HYEL_150_SB                         :(HYEL-150 바다도색)
 STR_REFIT_LIVERY_Shinkansen_500_Cool                 :(신칸센 500계 Cool)
 STR_REFIT_LIVERY_Shinkansen_500_Cool_New             :(신칸센 500계 Cool 신도색)
 
@@ -445,6 +449,7 @@ STR_REFIT_LIVERY_Shinkansen_500_Cool_New             :(신칸센 500계 Cool 신
 STR_REFIT_LIVERY_AUTS                                :(AUTS)
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat            :(한국 표준형 지하철 롱 시트)
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           :(한국 표준형 지하철 크로스 시트)
+STR_REFIT_LIVERY_Korail_392000                       :(코레일 392000)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express  :(MTR AD Tranz CAF A Type Airport Express)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung       :(MTR AD Tranz CAF A Type Tung Chung)
 STR_REFIT_LIVERY_MTR_AC_Cammall                      :(MTR 메트로카멜 교류형)
