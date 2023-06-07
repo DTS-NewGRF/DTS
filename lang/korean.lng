@@ -68,7 +68,7 @@ STR_ICE4_NAME                                        :[DTS] ICE4
 STR_Renfe_S_100_NAME                                 :[DTS] 렌페 AVE S-100
 STR_Renfe_S_102_NAME                                 :[DTS] 렌페 AVE S-102
 STR_Renfe_S_103_NAME                                 :[DTS] 렌페 AVE S-103
-STR_Renfe_S_130_NAME                                 :[DTS] 렌페 Alvia S-130
+STR_Renfe_S_130_13Car_NAME                           :[13량] 렌페 S-130 [DTS]
 STR_TGV_Sud_Est_NAME                                 :[DTS] TGV 쉬드-에스트
 STR_TGV_AR_NAME                                      :[DTS] TGV 아틀랑티크·레조
 STR_TGV_Reseau_Duplex_NAME                           :[DTS] TGV 레조 듀플렉스
@@ -97,9 +97,10 @@ STR_HYEL_200_6Car_NAME                               :[6량] HYEL-200 [DTS]
 STR_HYEL_300_8Car_NAME                               :[8량] HYEL-300 [DTS]
 STR_HYEL_400_8Car_NAME                               :[8량] HYEL-400 [DTS]
 STR_DFX_10Car_NAME                                   :[10량] DFX [DTS]
-STR_NHSRCL_E5_NAME                                   :[DTS] NHSRCL E5
-STR_NSW_TrainLink_D_NAME                             :[DTS] NSW TrainLink D
-STR_THSR_700T_NAME                                   :[DTS] 타이완 고속철도 700T형
+STR_NHSRCL_E5_10Car_NAME                             :[10량] NHSRCL E5 [DTS]
+STR_NSW_TrainLink_D_4Car_NAME                        :[4량] NSW TrainLink D [DTS]
+STR_NSW_TrainLink_D_6Car_NAME                        :[6량] NSW TrainLink D [DTS]
+STR_THSR_700T_12Car_NAME                             :[12량] 타이완 고속철도 700T형 [DTS]
 STR_WRenfe_S_130_NAME                                :[DTS] 아프로시욥
 STR_Al_Boraq_NAME                                    :[DTS] 알 보라크
 STR_Talgo_350_SRO_NAME                               :[DTS] 탈고 350 SRO (하라마인 고속철도)
@@ -165,16 +166,16 @@ STR_PARAM_High_SPEED_Train_NAME                      :고속열차 속도변수
 STR_PARAM_High_SPEED_Train_DESC                      :고속열차의 속도를 조정합니다. (기본:331km/h)
 STR_PARAM_High_SPEED_Train_430_NAME                  :고속열차 속도변수 (430km/h 열차속도조절)
 STR_PARAM_High_SPEED_Train_430_DESC                  :고속열차의 속도를 조정합니다. (기본:430km/h)
-STR_PARAM_Chinese_NAME                               :중국형 열차 사용 여부
-STR_PARAM_Chinese_DESC                               :중국형 열차를 사용시 체크하세요. (기본:사용)
-STR_PARAM_Hong_Kong_NAME                             :홍콩형 열차 사용 여부
-STR_PARAM_Hong_Kong_DESC                             :홍콩형 열차를 사용시 체크하세요. (기본:사용)
-STR_PARAM_European_NAME                              :유럽형 열차 사용 여부
-STR_PARAM_European_DESC                              :유럽형 열차를 사용시 체크하세요. (기본:사용)
-STR_PARAM_Japanese_NAME                              :일본형 열차 사용 여부
-STR_PARAM_Japanese_DESC                              :일본형 열차를 사용시 체크하세요. (기본:사용)
-STR_PARAM_World_NAME                                 :월드형 열차 사용 여부
-STR_PARAM_World_DESC                                 :월드형 열차를 사용시 체크하세요. (기본:사용)
+STR_PARAM_Chinese_NAME                               :중국형 열차 사용 금지
+STR_PARAM_Chinese_DESC                               :중국형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Hong_Kong_NAME                             :홍콩형 열차 사용 금지
+STR_PARAM_Hong_Kong_DESC                             :홍콩형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_European_NAME                              :유럽형 열차 사용 금지
+STR_PARAM_European_DESC                              :유럽형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Japanese_NAME                              :일본형 열차 사용 금지
+STR_PARAM_Japanese_DESC                              :일본형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_World_NAME                                 :월드형 열차 사용 금지
+STR_PARAM_World_DESC                                 :월드형 열차를 사용시 체크하세요. (기본:미사용)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_AREX                            :{BLACK}복합가능열차 {GREEN}AREX
@@ -278,9 +279,9 @@ STR_REFIT_ADDITIONAL_HYEL_200                        :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_HYEL_300                        :{BLACK}복합가능열차 {RED}불가능
 STR_REFIT_ADDITIONAL_HYEL_400                        :{BLACK}복합가능열차 {GREEN}HYEL-400
 STR_REFIT_ADDITIONAL_DFX                             :{BLACK}복합가능열차 {GREEN}DFX
-STR_REFIT_ADDITIONAL_NHSRCL_E5                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}NHSRCL E5
-STR_REFIT_ADDITIONAL_NSW_TrainLink_D                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}NSW TrainLink D
-STR_REFIT_ADDITIONAL_THSR_700T                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_NHSRCL_E5                       :{BLACK}복합가능열차 {GREEN}NHSRCL E5
+STR_REFIT_ADDITIONAL_NSW_TrainLink_D                 :{BLACK}복합가능열차 {GREEN}NSW TrainLink D
+STR_REFIT_ADDITIONAL_THSR_700T                       :{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_WRenfe_S_130                    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_Al_Boraq                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
 STR_REFIT_ADDITIONAL_Talgo_350_SRO                   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
@@ -401,6 +402,8 @@ STR_REFIT_LIVERY_TGV_THALYS                          :(TGV PBKA 탈리스 도색
 STR_REFIT_LIVERY_TGV_Carmillon                       :(TGV 포스 카밀론 도색)
 STR_REFIT_LIVERY_Renfe_S_100_old                     :(초기 도색)
 STR_REFIT_LIVERY_Renfe_S_100_new                     :(리뉴얼 도색)
+STR_REFIT_LIVERY_Renfe_S_130_Alvia                   :(Alvia)
+STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob               :(Aprosiyob)
 STR_REFIT_LIVERY_ICE2_red                            :(레드 도색)
 STR_REFIT_LIVERY_ICE2_green                          :(그린 도색)
 STR_REFIT_LIVERY_ICE3_red                            :(ICE 3 레드 도색)

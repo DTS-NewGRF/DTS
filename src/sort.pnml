@@ -51,7 +51,8 @@ sort(FEAT_TRAINS, [
     HYEL_15,                   //2115
     HYEL_100,                  //2108
     HYEL_200_6Car,             //2109
-    NSW_TrainLink_D,           //2117
+    NSW_TrainLink_D_4Car,      //2117
+    NSW_TrainLink_D_6Car,      //2142
     NKX_8Car,                  //2135
 
     //준고속 180
@@ -68,7 +69,7 @@ sort(FEAT_TRAINS, [
     ICE1,                      //2067
     ICE2,                      //2068
     ICE4,                      //2071
-    Renfe_S_130,               //2075
+    Renfe_S_130_13Car,         //2075
     Shinkansen_0_12Car,        //2085
     Shinkansen_0_16Car,        //2126
     Shinkansen_700,            //2087
@@ -77,7 +78,6 @@ sort(FEAT_TRAINS, [
     Shinkansen_E7_W7,          //2094
     HYEL_150,                  //2141
     HYEL_300_8Car,             //2110
-    WRenfe_S_130,              //2119
     HMX_8Car,                  //2134
 
     //고속열차 331
@@ -117,8 +117,8 @@ sort(FEAT_TRAINS, [
     Shinkansen_E5_H5,          //2092
     Shinkansen_E6,             //2093
     Shinkansen_E8,             //2095
-    NHSRCL_E5,                 //2116
-    THSR_700T,                 //2118
+    NHSRCL_E5_10Car,           //2116
+    THSR_700T_12Car,           //2118
     Al_Boraq,                  //2120
     Talgo_350_SRO,             //2121
     Avelia_Liberty,            //2122

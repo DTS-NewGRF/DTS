@@ -21,7 +21,7 @@ item(FEAT_TRAINS, Standard_Metro_4Car, 2006){
         
         //spec
         speed:                          120km/h;
-        power:                          2000 kW;
+        power:                          1640 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;

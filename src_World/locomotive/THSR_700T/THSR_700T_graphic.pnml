@@ -8,32 +8,24 @@ spriteset(set_THSR_700T_purchase, "src_World/locomotive/THSR_700T/THSR_700T.png"
 /*--------------------------------------------------------------------
 1 N700계
 --------------------------------------------------------------------*/
-spriteset(set_THSR_700TH_purchase, "src_World/locomotive/THSR_700T/THSR_700T.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 spriteset(set_THSR_700T_engineH, "src_World/locomotive/THSR_700T/THSR_700T.png"){
     engine(80, 0)
 }
 
-spriteset(set_THSR_700T_wagon_start, "src_World/locomotive/THSR_700T/THSR_700T.png"){
-    wagon_panto(80, 27)
+spriteset(set_THSR_700T_panto_wagon, "src_World/locomotive/THSR_700T/THSR_700T.png"){
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_THSR_700T_wagon, "src_World/locomotive/THSR_700T/THSR_700T.png") {
-    wagon_1F(80, 54)
+    wagon_1F_F(80, 54)
 }
 
-spriteset(set_THSR_700T_wagon_r, "src_World/locomotive/THSR_700T/THSR_700T.png") {
-    wagon_1F_r(80, 54)
-}
-
-spriteset(set_THSR_700T_wagon_end, "src_World/locomotive/THSR_700T/THSR_700T.png"){
-    wagon_panto(80, 81)
+spriteset(set_THSR_700T_panto_wagon_r, "src_World/locomotive/THSR_700T/THSR_700T.png"){
+    wagon_1F_F(80, 81)
 }
 
 spriteset(set_THSR_700T_engineT, "src_World/locomotive/THSR_700T/THSR_700T.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------

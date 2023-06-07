@@ -1,53 +1,62 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob); // Aprosiyob
+    return string(STR_REFIT_LIVERY_Renfe_S_130_Alvia);        // Alvia
+}
 
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_engineH, cargo_subtype) {
+    1: set_Renfe_S_130_Aprosiyob_engineH;
     set_Renfe_S_130_Alvia_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_engineT, cargo_subtype) {
+    1: set_Renfe_S_130_Aprosiyob_engineT;
     set_Renfe_S_130_Alvia_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: sw_Renfe_S_130_engineT;
-    sw_Renfe_S_130_engineH;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_start, cargo_subtype) {
+    1: set_Renfe_S_130_Aprosiyob_wagon_start;
     set_Renfe_S_130_Alvia_wagon_start;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_middle, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon, cargo_subtype) {
+    1: set_Renfe_S_130_Aprosiyob_wagon;
     set_Renfe_S_130_Alvia_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_bar, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_bar, cargo_subtype) {
+    1: set_Renfe_S_130_Aprosiyob_wagon_bar;
     set_Renfe_S_130_Alvia_wagon_bar;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_end, cargo_subtype) {
+    1: set_Renfe_S_130_Aprosiyob_wagon_end;
     set_Renfe_S_130_Alvia_wagon_end;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_bar, (position_in_consist %5) + 1) {
-    1: sw_Renfe_S_130_bar;
-    sw_Renfe_S_130_wagon_middle;
-}
+switch (FEAT_TRAINS, SELF, sw_Renfe_S_130_13car, position_in_vehid_chain % 13) {
+    1:sw_Renfe_S_130_wagon_start;
+    2:sw_Renfe_S_130_wagon;
+    3:sw_Renfe_S_130_wagon;
+    4:sw_Renfe_S_130_wagon_bar;
+    5:sw_Renfe_S_130_wagon;
+    6:sw_Renfe_S_130_wagon;
+    7:sw_Renfe_S_130_wagon;
+    8:sw_Renfe_S_130_wagon;
+    9:sw_Renfe_S_130_wagon;
+    10:sw_Renfe_S_130_wagon;
+    11:sw_Renfe_S_130_wagon_end;
+    12:sw_Renfe_S_130_engineT;
+    sw_Renfe_S_130_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    Renfe_S_130: sw_Renfe_S_130_wagon_end;
-    sw_Renfe_S_130_wagon_bar;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Renfe_S_130: sw_Renfe_S_130_wagon_start;
-    sw_Renfe_S_130_wagon_rear;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_Renfe_S_130_13car, extra_callback_info1) {
+    1..12: Renfe_S_130_13Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_attach, vehicle_type_id) {
-    Renfe_S_130:            return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

@@ -68,7 +68,7 @@ STR_ICE4_NAME                                        :[DTS] ICE4
 STR_Renfe_S_100_NAME                                 :[DTS] Renfe AVE S-100
 STR_Renfe_S_102_NAME                                 :[DTS] Renfe AVE S-102
 STR_Renfe_S_103_NAME                                 :[DTS] Renfe AVE S-103
-STR_Renfe_S_130_NAME                                 :[DTS] Renfe Alvia S-130
+STR_Renfe_S_130_13Car_NAME                           :[DTS] Renfe S-130 13Car
 STR_TGV_Sud_Est_NAME                                 :[DTS] TGV Sud-Est
 STR_TGV_AR_NAME                                      :[DTS] TGV Atlantique · Reseau
 STR_TGV_Reseau_Duplex_NAME                           :[DTS] TGV Reseau Duplex
@@ -97,9 +97,10 @@ STR_HYEL_200_6Car_NAME                               :[DTS] HYEL-200 6Car
 STR_HYEL_300_8Car_NAME                               :[DTS] HYEL-300 8Car
 STR_HYEL_400_8Car_NAME                               :[DTS] HYEL-400 8Car
 STR_DFX_10Car_NAME                                   :[DTS] DFX 10Car
-STR_NHSRCL_E5_NAME                                   :[DTS] NHSRCL E5
-STR_NSW_TrainLink_D_NAME                             :[DTS] NSW TrainLink D
-STR_THSR_700T_NAME                                   :[DTS] THSR 700T
+STR_NHSRCL_E5_10Car_NAME                             :[DTS] NHSRCL E5 [DTS]
+STR_NSW_TrainLink_D_4Car_NAME                        :[DTS] NSW TrainLink D 4Car
+STR_NSW_TrainLink_D_6Car_NAME                        :[DTS] NSW TrainLink D 6Car
+STR_THSR_700T_12Car_NAME                             :[DTS] THSR 700T 12Car
 STR_WRenfe_S_130_NAME                                :[DTS] Afrosiyob
 STR_Al_Boraq_NAME                                    :[DTS] Al-Boraq
 STR_Talgo_350_SRO_NAME                               :[DTS] Talgo 350 SRO
@@ -278,9 +279,9 @@ STR_REFIT_ADDITIONAL_HYEL_200                        :{BLACK}Combined train {GRE
 STR_REFIT_ADDITIONAL_HYEL_300                        :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_HYEL_400                        :{BLACK}Combined train {GREEN}HYEL-400
 STR_REFIT_ADDITIONAL_DFX                             :{BLACK}Combined train {GREEN}DFX
-STR_REFIT_ADDITIONAL_NHSRCL_E5                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NHSRCL E5
-STR_REFIT_ADDITIONAL_NSW_TrainLink_D                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}NSW TrainLink D
-STR_REFIT_ADDITIONAL_THSR_700T                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_NHSRCL_E5                       :{BLACK}Combined train {GREEN}NHSRCL E5
+STR_REFIT_ADDITIONAL_NSW_TrainLink_D                 :{BLACK}Combined train {GREEN}NSW TrainLink D
+STR_REFIT_ADDITIONAL_THSR_700T                       :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_WRenfe_S_130                    :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Al_Boraq                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Talgo_350_SRO                   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
@@ -401,6 +402,8 @@ STR_REFIT_LIVERY_TGV_THALYS                          :(TGV PBKA Thalys Livery)
 STR_REFIT_LIVERY_TGV_Carmillon                       :(TGV POS Carmillon Livery)
 STR_REFIT_LIVERY_Renfe_S_100_old                     :(Old Livery)
 STR_REFIT_LIVERY_Renfe_S_100_new                     :(Renewal Livery)
+STR_REFIT_LIVERY_Renfe_S_130_Alvia                   :(Alvia)
+STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob               :(Aprosiyob)
 STR_REFIT_LIVERY_ICE2_red                            :(Red Livery)
 STR_REFIT_LIVERY_ICE2_green                          :(Green Livery)
 STR_REFIT_LIVERY_ICE3_red                            :(ICE 3 Red Livery)

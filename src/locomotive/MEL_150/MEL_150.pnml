@@ -21,7 +21,7 @@ item(FEAT_TRAINS, MEL_150_4Car, 2136){
         
         //spec
         speed:                          150km/h;
-        power:                          880 kW;
+        power:                          1760 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
