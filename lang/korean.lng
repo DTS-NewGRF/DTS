@@ -102,9 +102,9 @@ STR_NSW_TrainLink_D_4Car_NAME                        :[4량] NSW TrainLink D [DT
 STR_NSW_TrainLink_D_6Car_NAME                        :[6량] NSW TrainLink D [DTS]
 STR_THSR_700T_12Car_NAME                             :[12량] 타이완 고속철도 700T형 [DTS]
 STR_WRenfe_S_130_NAME                                :[DTS] 아프로시욥
-STR_Al_Boraq_NAME                                    :[DTS] 알 보라크
-STR_Talgo_350_SRO_NAME                               :[DTS] 탈고 350 SRO (하라마인 고속철도)
-STR_Avelia_Liberty_NAME                              :[DTS] 아벨리아 리버티
+STR_Al_Boraq_10Car_NAME                              :[10량] 알 보라크 [DTS]
+STR_Talgo_350_SRO_14Car_NAME                         :[14량] 탈고 350 SRO (하라마인 고속철도) [DTS]
+STR_Avelia_Liberty_11Car_NAME                        :[11량] 아벨리아 리버티 [DTS]
 STR_Glory_600_8Car_NAME                              :[8량] Glory 600 [DTS]
 STR_HMX_8Car_NAME                                    :[8량] HMX [DTS]
 STR_NKX_8Car_NAME                                    :[8량] NKX [DTS]
@@ -114,19 +114,23 @@ STR_Standard_Metro_4Car_NAME                         :[4량] 한국형 표준전
 STR_AUTS_6Car_NAME                                   :[6량] 차세대전동차 [DTS]
 STR_Korail_392000_2Car_NAME                          :[2량] 한국철도공사 392000호대 전동차 [DTS]
 STR_Korail_392000_4Car_NAME                          :[4량] 한국철도공사 392000호대 전동차 [DTS]
-STR_MTR_AD_Tranz_CAF_A_NAME                          :[DTS] 홍콩 MTR AD Tranz CAF A형
-STR_MTR_AC_Cammall_NAME                              :[DTS] 홍콩 MTR 메트로카멜 교류형 전동차
-STR_MTR_DC_Cammall_NAME                              :[DTS] 홍콩 MTR 메트로카멜 직류형 전동차
-STR_MTR_CNR_Changchun_NAME                           :[DTS] 홍콩 MTR CNR 창춘 전동차
-STR_MTR_CRRC_NAME                                    :[DTS] 홍콩 MTR CRRC 전동차
-STR_MTR_Hyundai_Rotem_Mitsubishi_NAME                :[DTS] 홍콩 MTR 현대로템 미쓰비시 전동차
-STR_MTR_Hyundai_Rotem_R_NAME                         :[DTS] 홍콩 MTR 현대로템 R형 전동차
-STR_MTR_IKK_SP_1900_NAME                             :[DTS] 홍콩 MTR IKK SP 1900
-STR_Nishitetsu_1000_NAME                             :[DTS] 니시테츠 1000형
-STR_Nishitetsu_2000_NAME                             :[DTS] 니시테츠 2000형
-STR_Nishitetsu_3000_NAME                             :[DTS] 니시테츠 3000형
-STR_Nishitetsu_5000_NAME                             :[DTS] 니시테츠 5000형
-STR_Nishitetsu_6000_NAME                             :[DTS] 니시테츠 6000형
+STR_MTR_AD_Tranz_CAF_A_8Car_NAME                     :[8량] 홍콩 MTR AD Tranz CAF A형 [DTS]
+STR_MTR_AC_Cammall_8Car_NAME                         :[8량] 홍콩 MTR 메트로카멜 교류형 전동차 [DTS]
+STR_MTR_DC_Cammall_8Car_NAME                         :[8량] 홍콩 MTR 메트로카멜 직류형 전동차 [DTS]
+STR_MTR_CNR_Changchun_8Car_NAME                      :[8량] 홍콩 MTR CNR 창춘 전동차 [DTS]
+STR_MTR_CRRC_8Car_NAME                               :[8량] 홍콩 MTR CRRC 전동차 [DTS]
+STR_MTR_Hyundai_Rotem_Mitsubishi_8Car_NAME           :[8량] 홍콩 MTR 현대로템 미쓰비시 전동차 [DTS]
+STR_MTR_Hyundai_Rotem_R_8Car_NAME                    :[8량] 홍콩 MTR 현대로템 R형 전동차 [DTS]
+STR_MTR_IKK_SP_1900_8Car_NAME                        :[8량] 홍콩 MTR IKK SP 1900 [DTS]
+STR_Nishitetsu_1000_4Car_NAME                        :[4량] 니시테츠 1000형 [DTS]
+STR_Nishitetsu_2000_6Car_NAME                        :[6량] 니시테츠 2000형 [DTS]
+STR_Nishitetsu_3000_2Car_NAME                        :[2량] 니시테츠 3000형 [DTS]
+STR_Nishitetsu_3000_3Car_NAME                        :[3량] 니시테츠 3000형 [DTS]
+STR_Nishitetsu_3000_5Car_NAME                        :[5량] 니시테츠 3000형 [DTS]
+STR_Nishitetsu_5000_3Car_NAME                        :[3량] 니시테츠 5000형 [DTS]
+STR_Nishitetsu_5000_4Car_NAME                        :[4량] 니시테츠 5000형 [DTS]
+STR_Nishitetsu_6000_3Car_NAME                        :[3량] 니시테츠 6000형 [DTS]
+STR_Nishitetsu_6000_4Car_NAME                        :[4량] 니시테츠 6000형 [DTS]
 STR_Nishitetsu_7000_NAME                             :[DTS] 니시테츠 7000형
 STR_Nishitetsu_8000_NAME                             :[DTS] 니시테츠 8000형
 STR_Nishitetsu_9000_NAME                             :[DTS] 니시테츠 9000형
@@ -202,76 +206,76 @@ STR_REFIT_ADDITIONAL_H2_WJ                           :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_Travel_8500                     :{BLACK}복합가능열차 {GREEN}8500호대 기관차
 STR_REFIT_ADDITIONAL_TTX                             :{BLACK}복합가능열차 {GREEN}TTX
 STR_REFIT_ADDITIONAL_VHST_600X                       :{BLACK}복합가능열차 {GREEN}VHST-600X
-STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}복합가능열차 {RED}불가능
-STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_Korail_392000                   :{BLACK}복합가능열차 {GREEN}Korail 392000
-STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1
-STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1E
-STR_REFIT_ADDITIONAL_CRH1A_A                         :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH1A-A
-STR_REFIT_ADDITIONAL_CRH2                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH2A·B
-STR_REFIT_ADDITIONAL_CRH2C                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH2C
-STR_REFIT_ADDITIONAL_CRH3                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH3C
-STR_REFIT_ADDITIONAL_CRH380A                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}CRH380A·AL
-STR_REFIT_ADDITIONAL_CRH380AJ                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_CRH380B                         :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380B·BL·BG
-STR_REFIT_ADDITIONAL_CRH380C                         :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380CL
-STR_REFIT_ADDITIONAL_CRH380D                         :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CRH380D
-STR_REFIT_ADDITIONAL_CR400AF                         :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CR400AF-A·B·G
-STR_REFIT_ADDITIONAL_CR400AF_Z                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CR400AF-Z·BZ·C
-STR_REFIT_ADDITIONAL_CR400BF                         :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CR400BF-A·B·G
-STR_REFIT_ADDITIONAL_CR400BF_C                       :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}CR400BF-C
-STR_REFIT_ADDITIONAL_CR400BF_Z                       :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}CR400BF-Z·BZ·GZ
-STR_REFIT_ADDITIONAL_HXD3C                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}HXD3C
-STR_REFIT_ADDITIONAL_NJ2                             :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}NJ2
-STR_REFIT_ADDITIONAL_MTR_AD_Tranz_CAF_A              :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_MTR_Cammall_AC                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_MTR_Cammall_DC                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_MTR_CNR_Changchun               :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_MTR_CRRC                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R             :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_AGV                             :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_BB15000                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}BB15000
-STR_REFIT_ADDITIONAL_Eurostar_E300                   :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_Eurostar_E320                   :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_ICE1                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}ICE1
-STR_REFIT_ADDITIONAL_ICE2                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE2
-STR_REFIT_ADDITIONAL_ICE3                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE3
-STR_REFIT_ADDITIONAL_ICE3V                           :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE3 (벨라로 D)
-STR_REFIT_ADDITIONAL_ICE4                            :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}ICE4
-STR_REFIT_ADDITIONAL_Renfe_S_100                     :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-100
-STR_REFIT_ADDITIONAL_Renfe_S_102                     :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-102
-STR_REFIT_ADDITIONAL_Renfe_S_103                     :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-103
-STR_REFIT_ADDITIONAL_Renfe_S_130                     :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 Alvia S-130
-STR_REFIT_ADDITIONAL_TGV_Duplex                      :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
-STR_REFIT_ADDITIONAL_TGV_Sud_Est                     :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 쉬드-에스트
-STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex               :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
-STR_REFIT_ADDITIONAL_TGV_AR                          :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
-STR_REFIT_ADDITIONAL_TGV_La_Poste                    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV 라포스트
-STR_REFIT_ADDITIONAL_TGV_Pos                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
-STR_REFIT_ADDITIONAL_TGV_M                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV M
-STR_REFIT_ADDITIONAL_Kse2                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
+STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}복합가능열차 {GREEN}CRH1
+STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}복합가능열차 {GREEN}CRH1E
+STR_REFIT_ADDITIONAL_CRH1A_A                         :{BLACK}복합가능열차 {GREEN}CRH1A-A
+STR_REFIT_ADDITIONAL_CRH2                            :{BLACK}복합가능열차 {GREEN}CRH2A·B
+STR_REFIT_ADDITIONAL_CRH2C                           :{BLACK}복합가능열차 {GREEN}CRH2C
+STR_REFIT_ADDITIONAL_CRH3                            :{BLACK}복합가능열차 {GREEN}CRH3C
+STR_REFIT_ADDITIONAL_CRH380A                         :{BLACK}복합가능열차 {GREEN}CRH380A·AL
+STR_REFIT_ADDITIONAL_CRH380AJ                        :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_CRH380B                         :{BLACK}복합가능열차 {GREEN}CRH380B·BL·BG
+STR_REFIT_ADDITIONAL_CRH380C                         :{BLACK}복합가능열차 {GREEN}CRH380CL
+STR_REFIT_ADDITIONAL_CRH380D                         :{BLACK}복합가능열차 {GREEN}CRH380D
+STR_REFIT_ADDITIONAL_CR400AF                         :{BLACK}복합가능열차 {GREEN}CR400AF-A·B·G
+STR_REFIT_ADDITIONAL_CR400AF_Z                       :{BLACK}복합가능열차 {GREEN}CR400AF-Z·BZ·C
+STR_REFIT_ADDITIONAL_CR400BF                         :{BLACK}복합가능열차 {GREEN}CR400BF-A·B·G
+STR_REFIT_ADDITIONAL_CR400BF_C                       :{BLACK}복합가능열차 {GREEN}CR400BF-C
+STR_REFIT_ADDITIONAL_CR400BF_Z                       :{BLACK}복합가능열차 {GREEN}CR400BF-Z·BZ·GZ
+STR_REFIT_ADDITIONAL_HXD3C                           :{BLACK}복합가능열차 {GREEN}HXD3C
+STR_REFIT_ADDITIONAL_NJ2                             :{BLACK}복합가능열차 {GREEN}NJ2
+STR_REFIT_ADDITIONAL_MTR_AD_Tranz_CAF_A              :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Cammall_AC                  :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Cammall_DC                  :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_CNR_Changchun               :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_CRRC                        :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi    :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R             :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                 :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_AGV                             :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_BB15000                         :{BLACK}복합가능열차 {GREEN}BB15000
+STR_REFIT_ADDITIONAL_Eurostar_E300                   :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Eurostar_E320                   :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_ICE1                            :{BLACK}복합가능열차 {GREEN}ICE1
+STR_REFIT_ADDITIONAL_ICE2                            :{BLACK}복합가능열차 {GREEN}ICE2
+STR_REFIT_ADDITIONAL_ICE3                            :{BLACK}복합가능열차 {GREEN}ICE3
+STR_REFIT_ADDITIONAL_ICE3V                           :{BLACK}복합가능열차 {GREEN}ICE3 (벨라로 D)
+STR_REFIT_ADDITIONAL_ICE4                            :{BLACK}복합가능열차 {GREEN}ICE4
+STR_REFIT_ADDITIONAL_Renfe_S_100                     :{BLACK}복합가능열차 {GREEN}렌페 AVE S-100
+STR_REFIT_ADDITIONAL_Renfe_S_102                     :{BLACK}복합가능열차 {GREEN}렌페 AVE S-102
+STR_REFIT_ADDITIONAL_Renfe_S_103                     :{BLACK}복합가능열차 {GREEN}렌페 AVE S-103
+STR_REFIT_ADDITIONAL_Renfe_S_130                     :{BLACK}복합가능열차 {GREEN}렌페 Alvia S-130
+STR_REFIT_ADDITIONAL_TGV_Duplex                      :{BLACK}복합가능열차 {GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
+STR_REFIT_ADDITIONAL_TGV_Sud_Est                     :{BLACK}복합가능열차 {GREEN}TGV 쉬드-에스트
+STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex               :{BLACK}복합가능열차 {GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
+STR_REFIT_ADDITIONAL_TGV_AR                          :{BLACK}복합가능열차 {GREEN}TGV 아틀랑티크·레조, TGV 포스
+STR_REFIT_ADDITIONAL_TGV_La_Poste                    :{BLACK}복합가능열차 {GREEN}TGV 라포스트
+STR_REFIT_ADDITIONAL_TGV_Pos                         :{BLACK}복합가능열차 {GREEN}TGV 아틀랑티크·레조, TGV 포스
+STR_REFIT_ADDITIONAL_TGV_M                           :{BLACK}복합가능열차 {GREEN}TGV M
+STR_REFIT_ADDITIONAL_Kse2                            :{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_Shinkansen_0                    :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_500                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_700                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_800                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_923                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_E2                   :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_E5_H5                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}E6, E8
-STR_REFIT_ADDITIONAL_Shinkansen_E6                   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}E5, H5
-STR_REFIT_ADDITIONAL_Shinkansen_E7                   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_E8                   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}E5, H5
-STR_REFIT_ADDITIONAL_Shinkansen_N700                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_N700S                :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성{}{RED}불가능
-STR_REFIT_ADDITIONAL_Nishitetsu_1000                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 1000
-STR_REFIT_ADDITIONAL_Nishitetsu_2000                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 2000
-STR_REFIT_ADDITIONAL_Nishitetsu_3000                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 3000
-STR_REFIT_ADDITIONAL_Nishitetsu_5000                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 5000
-STR_REFIT_ADDITIONAL_Nishitetsu_6000                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 6000, 니시테츠 7000
-STR_REFIT_ADDITIONAL_Nishitetsu_7000                 :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 6000, 니시테츠 7000
-STR_REFIT_ADDITIONAL_Nishitetsu_8000                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 8000
-STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}니시테츠 9000
+STR_REFIT_ADDITIONAL_Shinkansen_500                  :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_700                  :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_800                  :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_923                  :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_E2                   :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_E5_H5                :{BLACK}복합가능열차 {GREEN}E6, E8
+STR_REFIT_ADDITIONAL_Shinkansen_E6                   :{BLACK}복합가능열차 {GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_E7                   :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_E8                   :{BLACK}복합가능열차 {GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_N700                 :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_N700S                :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Nishitetsu_1000                 :{BLACK}복합가능열차 {GREEN}니시테츠 1000
+STR_REFIT_ADDITIONAL_Nishitetsu_2000                 :{BLACK}복합가능열차 {GREEN}니시테츠 2000
+STR_REFIT_ADDITIONAL_Nishitetsu_3000                 :{BLACK}복합가능열차 {GREEN}니시테츠 3000
+STR_REFIT_ADDITIONAL_Nishitetsu_5000                 :{BLACK}복합가능열차 {GREEN}니시테츠 5000
+STR_REFIT_ADDITIONAL_Nishitetsu_6000                 :{BLACK}복합가능열차 {GREEN}니시테츠 6000, 니시테츠 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_7000                 :{BLACK}복합가능열차 {GREEN}니시테츠 6000, 니시테츠 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_8000                 :{BLACK}복합가능열차 {GREEN}니시테츠 8000
+STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}복합가능열차 {GREEN}니시테츠 9000
 STR_REFIT_ADDITIONAL_HYEL_15                         :{BLACK}복합가능열차 {GREEN}HYEL-15
 STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}복합가능열차 {GREEN}HYEL-100
 STR_REFIT_ADDITIONAL_HYEL_150                        :{BLACK}복합가능열차 {GREEN}HYEL-150
@@ -282,10 +286,9 @@ STR_REFIT_ADDITIONAL_DFX                             :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_NHSRCL_E5                       :{BLACK}복합가능열차 {GREEN}NHSRCL E5
 STR_REFIT_ADDITIONAL_NSW_TrainLink_D                 :{BLACK}복합가능열차 {GREEN}NSW TrainLink D
 STR_REFIT_ADDITIONAL_THSR_700T                       :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_WRenfe_S_130                    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_Al_Boraq                        :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_Talgo_350_SRO                   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_Avelia_Liberty                  :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Al_Boraq                        :{BLACK}복합열차구성 {GREEN}Al Boraq
+STR_REFIT_ADDITIONAL_Talgo_350_SRO                   :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Avelia_Liberty                  :{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_Glory600                        :{BLACK}복합가능열차 {GREEN}Glory-600
 STR_REFIT_ADDITIONAL_HMX                             :{BLACK}복합가능열차 {GREEN}HMX
 STR_REFIT_ADDITIONAL_NKX                             :{BLACK}복합가능열차 {GREEN}NKX
@@ -454,7 +457,6 @@ STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           :(한국 표준형 지하�
 STR_REFIT_LIVERY_Korail_392000                       :(코레일 392000)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express  :(MTR AD Tranz CAF A Type Airport Express)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung       :(MTR AD Tranz CAF A Type Tung Chung)
-STR_REFIT_LIVERY_MTR_AC_Cammall                      :(MTR 메트로카멜 교류형)
 STR_REFIT_LIVERY_MTR_DC_Cammall                      :(MTR 메트로카멜 직류형 미개조형)
 STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding             :(MTR 메트로카멜 직류형 개조형)
 STR_REFIT_LIVERY_MTR_DC_Cammall_Disney               :(MTR 메트로카멜 직류형 디즈니선)
@@ -462,11 +464,6 @@ STR_REFIT_LIVERY_MTR_CNR_Changchun                   :(MTR CNR 창춘 전동차)
 STR_REFIT_LIVERY_MTR_CNR_Changchun_South_Island      :(MTR CNR 창춘 남부섬선)
 STR_REFIT_LIVERY_MTR_CRRC_Changchun                  :(MTR CRRC 창춘 전동차)
 STR_REFIT_LIVERY_MTR_CRRC_Sipang                     :(MTR CRRC 쓰팡 전동차)
-STR_REFIT_LIVERY_MTR_Hyundai_Rotem_Mitsubishi        :(MTR 현대로템 미쓰비시 전동차)
-STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R                 :(MTR 현대로탬 R형)
-STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_Nomal           :(MTR 현대로탬 R형 일반)
-STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_special         :(MTR 현대로탬 R형 특실)
-STR_REFIT_LIVERY_MTR_IKK_SP_1900                     :(MTR IKK SP 1900)
 STR_REFIT_LIVERY_Nishitetsu_1000_Normal              :(니시테츠 1000형 일반도색)
 STR_REFIT_LIVERY_Nishitetsu_1000_Normal_Aircon       :(니시테츠 1000형 냉방개조)
 STR_REFIT_LIVERY_Nishitetsu_1000_Original            :(니시테츠 1000형 초기도색)
@@ -474,7 +471,6 @@ STR_REFIT_LIVERY_Nishitetsu_1000_Express             :(니시테츠 1000형 특�
 STR_REFIT_LIVERY_Nishitetsu_1000_Last_Run            :(니시테츠 1000형 특별도색)
 STR_REFIT_LIVERY_Nishitetsu_2000_Normal              :(니시테츠 2000형 일반도색)
 STR_REFIT_LIVERY_Nishitetsu_2000_Express             :(니시테츠 2000형 특급도색)
-STR_REFIT_LIVERY_Nishitetsu_3000                     :(니시테츠 3000형)
 STR_REFIT_LIVERY_Nishitetsu_5000_MG                  :(니시테츠 5000형 전동발전기)
 STR_REFIT_LIVERY_Nishitetsu_5000_SIV                 :(니시테츠 5000형 정지형 인버터)
 STR_REFIT_LIVERY_Nishitetsu_6000                     :(니시테츠 6000형)

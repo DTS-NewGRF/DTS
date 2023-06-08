@@ -1,4 +1,3 @@
-//wagon #include "wagon/passenger_wagon/passenger_wagon_all.pnml"
 #include "wagon/Flat_2F_Car/Flat_2F_Car.pnml"
 
 //locomotive

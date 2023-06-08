@@ -8,46 +8,58 @@ spriteset(set_MTR_DC_Cammall_purchase, "src_Chinese/metro/MTR/Cammall_DC/Cammall
 /*--------------------------------------------------------------------
 1. Cammall DC 기본차량
 --------------------------------------------------------------------*/
-spriteset(set_MTR_DC_CammallH_purchase, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
-    tmpl_purchase_for_dualhead(0, 81)
-}
-
 spriteset(set_MTR_DC_Cammall_engineH, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
     engine(80, 0)
 }
 
+spriteset(set_MTR_DC_Cammall_panto_wagon, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_MTR_DC_Cammall_wagon, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png") {
+    wagon_1F(80, 54)
+}
+
 spriteset(set_MTR_DC_Cammall_engineT, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_no_remoding.png"){
-    engine_r(80, 81)
+    engine(80, 81)
 }
 
 /*--------------------------------------------------------------------
 2. Cammall DC 개조차량
 --------------------------------------------------------------------*/
-spriteset(set_MTR_DC_Cammall_remodingH_purchase, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_remoding.png"){
-    tmpl_purchase_for_dualhead(0, 81)
-}
-
 spriteset(set_MTR_DC_Cammall_remodin_engineH, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_remoding.png"){
     engine(80, 0)
 }
 
+spriteset(set_MTR_DC_Cammall_remodin_panto_wagon, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_remoding.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_MTR_DC_Cammall_remodin_wagon, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_remoding.png") {
+    wagon_1F_F(80, 54)
+}
+
 spriteset(set_MTR_DC_Cammall_remodin_engineT, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_remoding.png"){
-    engine_r(80, 81)
+    engine(80, 81)
 }
 
 /*--------------------------------------------------------------------
 3. Cammall DC 디즈니선
 --------------------------------------------------------------------*/
-spriteset(set_MTR_DC_Cammall_DisneyH_purchase, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_Disney.png"){
-    tmpl_purchase_for_dualhead(0, 81)
-}
-
 spriteset(set_MTR_DC_Cammall_Disney_engineH, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_Disney.png"){
     engine(80, 0)
 }
 
+spriteset(set_MTR_DC_Cammall_Disney_panto_wagon, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_Disney.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_MTR_DC_Cammall_Disney_wagon, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_Disney.png") {
+    wagon_1F_F(80, 54)
+}
+
 spriteset(set_MTR_DC_Cammall_Disney_engineT, "src_Chinese/metro/MTR/Cammall_DC/Cammall_DC_Disney.png"){
-    engine_r(80, 81)
+    engine(80, 81)
 }
 
 /*--------------------------------------------------------------------

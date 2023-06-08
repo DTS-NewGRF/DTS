@@ -19,14 +19,34 @@ switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_engineT, cargo_subtype) {
     set_MTR_DC_Cammall_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: sw_MTR_DC_Cammall_engineT;
-    sw_MTR_DC_Cammall_engineH;
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_panto_wagon, cargo_subtype) {
+    1: set_MTR_DC_Cammall_remodin_panto_wagon;  // 개조형
+    2: set_MTR_DC_Cammall_Disney_panto_wagon;   // 디즈니
+    set_MTR_DC_Cammall_panto_wagon;
 }
 
+switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_wagon, cargo_subtype) {
+    1: set_MTR_DC_Cammall_remodin_wagon;  // 개조형
+    2: set_MTR_DC_Cammall_Disney_wagon;   // 디즈니
+    set_MTR_DC_Cammall_wagon;
+}
+
+switch (FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_8car, position_in_vehid_chain % 8) {
+    1:sw_MTR_DC_Cammall_panto_wagon;
+    2:sw_MTR_DC_Cammall_wagon;
+    3:sw_MTR_DC_Cammall_wagon;
+    4:sw_MTR_DC_Cammall_wagon;
+    5:sw_MTR_DC_Cammall_wagon;
+    6:sw_MTR_DC_Cammall_panto_wagon;
+    7:sw_MTR_DC_Cammall_engineT;
+    sw_MTR_DC_Cammall_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_MTR_DC_Cammall_8car, extra_callback_info1) {
+    1..7: MTR_DC_Cammall_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
 switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_wagon_attach, vehicle_type_id) {
-    MTR_DC_Cammall:          return CB_RESULT_ATTACH_ALLOW;
-    HKMetro_Pass:            return CB_RESULT_ATTACH_ALLOW;
-    HKMetro_Panto_Car:       return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

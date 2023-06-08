@@ -1,18 +1,25 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_Avelia_Liberty_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_Avelia_Liberty_engineT;
-    set_Avelia_Liberty_engineH;
-}
+switch (FEAT_TRAINS, SELF, sw_Avelia_Liberty_11car, position_in_vehid_chain % 11) {
+    1:set_Avelia_Liberty_wagon;
+    2:set_Avelia_Liberty_wagon;
+    3:set_Avelia_Liberty_wagon;
+    4:set_Avelia_Liberty_wagon;
+    5:set_Avelia_Liberty_wagon;
+    6:set_Avelia_Liberty_wagon;
+    7:set_Avelia_Liberty_wagon;
+    8:set_Avelia_Liberty_wagon;
+    9:set_Avelia_Liberty_wagon;
+    10:set_Avelia_Liberty_engineT;
+    set_Avelia_Liberty_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_Avelia_Liberty_wagon, (position_in_consist)) {
-    1: set_Avelia_Liberty_wagon_r;
-    set_Avelia_Liberty_wagon;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_Avelia_Liberty_11car, extra_callback_info1) {
+    1..10: Avelia_Liberty_11Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_Avelia_Liberty_wagon_attach, vehicle_type_id) {
-    Avelia_Liberty:                    return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

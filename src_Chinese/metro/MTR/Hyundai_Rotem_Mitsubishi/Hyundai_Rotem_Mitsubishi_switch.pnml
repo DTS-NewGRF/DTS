@@ -1,14 +1,22 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_MTR_Hyundai_Rotem_Mitsubishi_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_MTR_Hyundai_Rotem_Mitsubishi_engineT;
-    set_MTR_Hyundai_Rotem_Mitsubishi_engineH;
-}
+switch (FEAT_TRAINS, SELF, sw_MTR_Hyundai_Rotem_Mitsubishi_8car, position_in_vehid_chain % 8) {
+    1:set_MTR_Hyundai_Rotem_Mitsubishi_panto_wagon;
+    2:set_MTR_Hyundai_Rotem_Mitsubishi_wagon;
+    3:set_MTR_Hyundai_Rotem_Mitsubishi_wagon;
+    4:set_MTR_Hyundai_Rotem_Mitsubishi_wagon;
+    5:set_MTR_Hyundai_Rotem_Mitsubishi_wagon;
+    6:set_MTR_Hyundai_Rotem_Mitsubishi_panto_wagon;
+    7:set_MTR_Hyundai_Rotem_Mitsubishi_engineT;
+    set_MTR_Hyundai_Rotem_Mitsubishi_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_MTR_Hyundai_Rotem_Mitsubishi_8car, extra_callback_info1) {
+    1..7: Hyundai_Rotem_Mitsubishi_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_MTR_Hyundai_Rotem_Mitsubishi_wagon_attach, vehicle_type_id) {
-    Hyundai_Rotem_Mitsubishi:return CB_RESULT_ATTACH_ALLOW;
-    HKMetro_Pass:            return CB_RESULT_ATTACH_ALLOW;
-    HKMetro_Panto_Car:       return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

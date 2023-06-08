@@ -8,16 +8,20 @@ spriteset(set_Nishitetsu_2000_purchase, "src_Japanese/metro/Nishitetsu/2000_seri
 /*--------------------------------------------------------------------
 1. 니시테츠 2000형 - Normal
 --------------------------------------------------------------------*/
-spriteset(set_Nishitetsu_2000H_purchase, "src_Japanese/metro/Nishitetsu/2000_series/Nishitetsu_2000_Normal.png"){
-    tmpl_purchase_for_dualhead(0, 81)
-}
-
 spriteset(set_Nishitetsu_2000_Normal_engineH, "src_Japanese/metro/Nishitetsu/2000_series/Nishitetsu_2000_Normal.png"){
     engine(80, 0)
 }
 
+spriteset(set_Nishitetsu_2000_Normal_panto_wagon, "src_Japanese/metro/Nishitetsu/2000_series/Nishitetsu_2000_Normal.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Nishitetsu_2000_Normal_wagon, "src_Japanese/metro/Nishitetsu/2000_series/Nishitetsu_2000_Normal.png") {
+    wagon_1F_F(80, 54)
+}
+
 spriteset(set_Nishitetsu_2000_Normal_engineT, "src_Japanese/metro/Nishitetsu/2000_series/Nishitetsu_2000_Normal.png"){
-    engine_r(80, 81)
+    engine(80, 81)
 }
 
 /*--------------------------------------------------------------------
@@ -27,8 +31,16 @@ spriteset(set_Nishitetsu_2000_Express_engineH, "src_Japanese/metro/Nishitetsu/20
     engine(80, 0)
 }
 
+spriteset(set_Nishitetsu_2000_Express_panto_wagon, "src_Japanese/metro/Nishitetsu/2000_series/Nishitetsu_2000_Express.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Nishitetsu_2000_Express_wagon, "src_Japanese/metro/Nishitetsu/2000_series/Nishitetsu_2000_Express.png") {
+    wagon_1F_F(80, 54)
+}
+
 spriteset(set_Nishitetsu_2000_Express_engineT, "src_Japanese/metro/Nishitetsu/2000_series/Nishitetsu_2000_Express.png"){
-    engine_r(80, 81)
+    engine(80, 81)
 }
 
 /*--------------------------------------------------------------------

@@ -8,10 +8,6 @@ spriteset(set_Al_Boraq_purchase, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
 /*--------------------------------------------------------------------
 1. 알 보라크
 --------------------------------------------------------------------*/
-spriteset(set_Al_BoraqH_purchase, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
-    tmpl_purchase_for_dualhead(0, 162)
-}
-
 spriteset(set_Al_Boraq_engineH, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
     engine(80, 0)
 }
@@ -37,7 +33,7 @@ spriteset(set_Al_Boraq_wagon_end, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
 }
 
 spriteset(set_Al_Boraq_engineT, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
-    engine_r(80, 162)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------

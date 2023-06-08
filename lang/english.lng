@@ -102,9 +102,9 @@ STR_NSW_TrainLink_D_4Car_NAME                        :[DTS] NSW TrainLink D 4Car
 STR_NSW_TrainLink_D_6Car_NAME                        :[DTS] NSW TrainLink D 6Car
 STR_THSR_700T_12Car_NAME                             :[DTS] THSR 700T 12Car
 STR_WRenfe_S_130_NAME                                :[DTS] Afrosiyob
-STR_Al_Boraq_NAME                                    :[DTS] Al-Boraq
-STR_Talgo_350_SRO_NAME                               :[DTS] Talgo 350 SRO
-STR_Avelia_Liberty_NAME                              :[DTS] Avelia Liberty
+STR_Al_Boraq_10Car_NAME                              :[DTS] Al-Boraq 10Car
+STR_Talgo_350_SRO_14Car_NAME                         :[DTS] Talgo 350 SRO 14Car
+STR_Avelia_Liberty_11Car_NAME                        :[DTS] Avelia Liberty 11Car
 STR_Glory_600_8Car_NAME                              :[DTS] Glory 600 8Car
 STR_HMX_8Car_NAME                                    :[DTS] HMX 8Car
 STR_NKX_8Car_NAME                                    :[DTS] NKX 8Car
@@ -114,19 +114,23 @@ STR_Standard_Metro_4Car_NAME                         :[DTS] Standard Metro 4Car
 STR_AUTS_6Car_NAME                                   :[DTS] AUTS 6Car
 STR_Korail_392000_2Car_NAME                          :[DTS] Korail 392000 2Car
 STR_Korail_392000_4Car_NAME                          :[DTS] Korail 392000 4Car
-STR_MTR_AD_Tranz_CAF_A_NAME                          :[DTS] MTR AD Tranz CAF A Type
-STR_MTR_AC_Cammall_NAME                              :[DTS] MTR Cammall AC Train
-STR_MTR_DC_Cammall_NAME                              :[DTS] MTR Cammall DC Train
-STR_MTR_CNR_Changchun_NAME                           :[DTS] MTR CNR Changchun Trian
-STR_MTR_CRRC_NAME                                    :[DTS] MTR CRRC Trian
-STR_MTR_Hyundai_Rotem_Mitsubishi_NAME                :[DTS] MTR Hyundai Rotem Mitsubishi Trian
-STR_MTR_Hyundai_Rotem_R_NAME                         :[DTS] MTR Hyundai Rotem R Type Train
-STR_MTR_IKK_SP_1900_NAME                             :[DTS] MTR IKK SP 1900
-STR_Nishitetsu_1000_NAME                             :[DTS] Nishitetsu 1000
-STR_Nishitetsu_2000_NAME                             :[DTS] Nishitetsu 2000
-STR_Nishitetsu_3000_NAME                             :[DTS] Nishitetsu 3000
-STR_Nishitetsu_5000_NAME                             :[DTS] Nishitetsu 5000
-STR_Nishitetsu_6000_NAME                             :[DTS] Nishitetsu 6000
+STR_MTR_AD_Tranz_CAF_A_8Car_NAME                     :[DTS] MTR AD Tranz CAF A Type 8Car
+STR_MTR_AC_Cammall_8Car_NAME                         :[DTS] MTR Cammall AC Train 8Car
+STR_MTR_DC_Cammall_8Car_NAME                         :[DTS] MTR Cammall DC Train 8Car
+STR_MTR_CNR_Changchun_8Car_NAME                      :[DTS] MTR CNR Changchun Trian 8Car
+STR_MTR_CRRC_8Car_NAME                               :[DTS] MTR CRRC Trian 8Car
+STR_MTR_Hyundai_Rotem_Mitsubishi_8Car_NAME           :[DTS] MTR Hyundai Rotem Mitsubishi Trian 8Car
+STR_MTR_Hyundai_Rotem_R_8Car_NAME                    :[DTS] MTR Hyundai Rotem R Type Train 8Car
+STR_MTR_IKK_SP_1900_8Car_NAME                        :[DTS] MTR IKK SP 1900 8Car
+STR_Nishitetsu_1000_4Car_NAME                        :[DTS] Nishitetsu 1000 4Car
+STR_Nishitetsu_2000_6Car_NAME                        :[DTS] Nishitetsu 2000 6Car
+STR_Nishitetsu_3000_2Car_NAME                        :[DTS] Nishitetsu 3000 2Car
+STR_Nishitetsu_3000_3Car_NAME                        :[DTS] Nishitetsu 3000 3Car
+STR_Nishitetsu_3000_5Car_NAME                        :[DTS] Nishitetsu 3000 5Car
+STR_Nishitetsu_5000_3Car_NAME                        :[DTS] Nishitetsu 5000 3Car
+STR_Nishitetsu_5000_4Car_NAME                        :[DTS] Nishitetsu 5000 4Car
+STR_Nishitetsu_6000_3Car_NAME                        :[DTS] Nishitetsu 6000 3Car
+STR_Nishitetsu_6000_4Car_NAME                        :[DTS] Nishitetsu 6000 4Car
 STR_Nishitetsu_7000_NAME                             :[DTS] Nishitetsu 7000
 STR_Nishitetsu_8000_NAME                             :[DTS] Nishitetsu 8000
 STR_Nishitetsu_9000_NAME                             :[DTS] Nishitetsu 9000
@@ -197,81 +201,81 @@ STR_REFIT_ADDITIONAL_ITX_CW                          :{BLACK}Combined train {GRE
 STR_REFIT_ADDITIONAL_ITX_SM2                         :{BLACK}Combined train {GREEN}ITX-Saemaeul DD
 STR_REFIT_ADDITIONAL_KTX_SC                          :{BLACK}Combined train {GREEN}CTX, KTX-Sancheon, KTX-Sancheon DD
 STR_REFIT_ADDITIONAL_KTX_SC2                         :{BLACK}Combined train {GREEN}CTX, KTX-Sancheon, KTX-Sancheon DD
-STR_REFIT_ADDITIONAL_NRT2                            :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nuriro DD
+STR_REFIT_ADDITIONAL_NRT2                            :{BLACK}Combined train {GREEN}Nuriro DD
 STR_REFIT_ADDITIONAL_H2_WJ                           :{BLACK}Combined train {GREEN}H2 WJ
 STR_REFIT_ADDITIONAL_Travel_8500                     :{BLACK}Combined train {GREEN}Travel 8500
-STR_REFIT_ADDITIONAL_TTX                             :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TTX
+STR_REFIT_ADDITIONAL_TTX                             :{BLACK}Combined train {GREEN}TTX
 STR_REFIT_ADDITIONAL_VHST_600X                       :{BLACK}Combined train {GREEN}VHST_600X
 STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Korail_392000                   :{BLACK}Combined train {GREEN}Korail 392000
-STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1
-STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1E
-STR_REFIT_ADDITIONAL_CRH1A_A                         :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH1A-A
-STR_REFIT_ADDITIONAL_CRH2                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH2A·B
-STR_REFIT_ADDITIONAL_CRH2C                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH2C
-STR_REFIT_ADDITIONAL_CRH3                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH3C
-STR_REFIT_ADDITIONAL_CRH380A                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}CRH380A·AL
-STR_REFIT_ADDITIONAL_CRH380AJ                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_CRH380B                         :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380B·BL·BG
-STR_REFIT_ADDITIONAL_CRH380C                         :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380CL
-STR_REFIT_ADDITIONAL_CRH380D                         :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CRH380D
-STR_REFIT_ADDITIONAL_CR400AF                         :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CR400AF-A·B·G
-STR_REFIT_ADDITIONAL_CR400AF_Z                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CR400AF-Z·BZ·C
-STR_REFIT_ADDITIONAL_CR400BF                         :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CR400BF-A·B·G
-STR_REFIT_ADDITIONAL_CR400BF_C                       :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}CR400BF-C
-STR_REFIT_ADDITIONAL_CR400BF_Z                       :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}CR400BF-Z·BZ·GZ
-STR_REFIT_ADDITIONAL_HXD3C                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HXD3C
-STR_REFIT_ADDITIONAL_NJ2                             :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}NJ2
-STR_REFIT_ADDITIONAL_MTR_AD_Tranz_CAF_A              :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_MTR_Cammall_AC                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_MTR_Cammall_DC                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_MTR_CNR_Changchun               :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_MTR_CRRC                        :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi    :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R             :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_AGV                             :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_BB15000                         :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}BB15000
-STR_REFIT_ADDITIONAL_Eurostar_E300                   :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Eurostar_E320                   :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_ICE1                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}ICE1
-STR_REFIT_ADDITIONAL_ICE2                            :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE2
-STR_REFIT_ADDITIONAL_ICE3                            :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE3
-STR_REFIT_ADDITIONAL_ICE3V                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE3 (Velaro D)
-STR_REFIT_ADDITIONAL_ICE4                            :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE4
-STR_REFIT_ADDITIONAL_Renfe_S_100                     :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}Renfe AVE S-100
-STR_REFIT_ADDITIONAL_Renfe_S_102                     :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe AVE S-102
-STR_REFIT_ADDITIONAL_Renfe_S_103                     :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe AVE S-103
-STR_REFIT_ADDITIONAL_Renfe_S_130                     :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe Alvia S-130
-STR_REFIT_ADDITIONAL_TGV_Duplex                      :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Reseau Duplex, TGV Duplex
-STR_REFIT_ADDITIONAL_TGV_Sud_Est                     :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Sud-Est
-STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex               :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Reseau Duplex, TGV Duplex
-STR_REFIT_ADDITIONAL_TGV_AR                          :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
-STR_REFIT_ADDITIONAL_TGV_La_Poste                    :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV La Poste
-STR_REFIT_ADDITIONAL_TGV_Pos                         :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
-STR_REFIT_ADDITIONAL_TGV_M                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV M
-STR_REFIT_ADDITIONAL_Kse2                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}Combined train {GREEN}CRH1
+STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}Combined train {GREEN}CRH1E
+STR_REFIT_ADDITIONAL_CRH1A_A                         :{BLACK}Combined train {GREEN}CRH1A-A
+STR_REFIT_ADDITIONAL_CRH2                            :{BLACK}Combined train {GREEN}CRH2A·B
+STR_REFIT_ADDITIONAL_CRH2C                           :{BLACK}Combined train {GREEN}CRH2C
+STR_REFIT_ADDITIONAL_CRH3                            :{BLACK}Combined train {GREEN}CRH3C
+STR_REFIT_ADDITIONAL_CRH380A                         :{BLACK}Combined train {GREEN}CRH380A·AL
+STR_REFIT_ADDITIONAL_CRH380AJ                        :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_CRH380B                         :{BLACK}Combined train {GREEN}CRH380B·BL·BG
+STR_REFIT_ADDITIONAL_CRH380C                         :{BLACK}Combined train {GREEN}CRH380CL
+STR_REFIT_ADDITIONAL_CRH380D                         :{BLACK}Combined train {GREEN}CRH380D
+STR_REFIT_ADDITIONAL_CR400AF                         :{BLACK}Combined train {GREEN}CR400AF-A·B·G
+STR_REFIT_ADDITIONAL_CR400AF_Z                       :{BLACK}Combined train {GREEN}CR400AF-Z·BZ·C
+STR_REFIT_ADDITIONAL_CR400BF                         :{BLACK}Combined train {GREEN}CR400BF-A·B·G
+STR_REFIT_ADDITIONAL_CR400BF_C                       :{BLACK}Combined train {GREEN}CR400BF-C
+STR_REFIT_ADDITIONAL_CR400BF_Z                       :{BLACK}Combined train {GREEN}CR400BF-Z·BZ·GZ
+STR_REFIT_ADDITIONAL_HXD3C                           :{BLACK}Combined train {GREEN}HXD3C
+STR_REFIT_ADDITIONAL_NJ2                             :{BLACK}Combined train {GREEN}NJ2
+STR_REFIT_ADDITIONAL_MTR_AD_Tranz_CAF_A              :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_Cammall_AC                  :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_Cammall_DC                  :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_CNR_Changchun               :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_CRRC                        :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi    :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R             :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                 :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_AGV                             :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_BB15000                         :{BLACK}Combined train {GREEN}BB15000
+STR_REFIT_ADDITIONAL_Eurostar_E300                   :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Eurostar_E320                   :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_ICE1                            :{BLACK}Combined train {GREEN}ICE1
+STR_REFIT_ADDITIONAL_ICE2                            :{BLACK}Combined train {GREEN}ICE2
+STR_REFIT_ADDITIONAL_ICE3                            :{BLACK}Combined train {GREEN}ICE3
+STR_REFIT_ADDITIONAL_ICE3V                           :{BLACK}Combined train {GREEN}ICE3 (Velaro D)
+STR_REFIT_ADDITIONAL_ICE4                            :{BLACK}Combined train {GREEN}ICE4
+STR_REFIT_ADDITIONAL_Renfe_S_100                     :{BLACK}Combined train {GREEN}Renfe AVE S-100
+STR_REFIT_ADDITIONAL_Renfe_S_102                     :{BLACK}Combined train {GREEN}Renfe AVE S-102
+STR_REFIT_ADDITIONAL_Renfe_S_103                     :{BLACK}Combined train {GREEN}Renfe AVE S-103
+STR_REFIT_ADDITIONAL_Renfe_S_130                     :{BLACK}Combined train {GREEN}Renfe Alvia S-130
+STR_REFIT_ADDITIONAL_TGV_Duplex                      :{BLACK}Combined train {GREEN}TGV Reseau Duplex, TGV Duplex
+STR_REFIT_ADDITIONAL_TGV_Sud_Est                     :{BLACK}Combined train {GREEN}TGV Sud-Est
+STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex               :{BLACK}Combined train {GREEN}TGV Reseau Duplex, TGV Duplex
+STR_REFIT_ADDITIONAL_TGV_AR                          :{BLACK}Combined train {GREEN}TGV Atlantique · Reseau, TGV Pos
+STR_REFIT_ADDITIONAL_TGV_La_Poste                    :{BLACK}Combined train {GREEN}TGV La Poste
+STR_REFIT_ADDITIONAL_TGV_Pos                         :{BLACK}Combined train {GREEN}TGV Atlantique · Reseau, TGV Pos
+STR_REFIT_ADDITIONAL_TGV_M                           :{BLACK}Combined train {GREEN}TGV M
+STR_REFIT_ADDITIONAL_Kse2                            :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Shinkansen_0                    :{BLACK}Combined train {RED}Unavailable
-STR_REFIT_ADDITIONAL_Shinkansen_500                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Shinkansen_700                  :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Shinkansen_800                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Shinkansen_923                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Shinkansen_E2                   :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Shinkansen_E5_H5                :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}E6, E8
-STR_REFIT_ADDITIONAL_Shinkansen_E6                   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}E5, H5
-STR_REFIT_ADDITIONAL_Shinkansen_E7                   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Shinkansen_E8                   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}E5, H5
-STR_REFIT_ADDITIONAL_Shinkansen_N700                 :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Shinkansen_N700S                :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Nishitetsu_1000                 :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 1000
-STR_REFIT_ADDITIONAL_Nishitetsu_2000                 :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 2000
-STR_REFIT_ADDITIONAL_Nishitetsu_3000                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 3000
-STR_REFIT_ADDITIONAL_Nishitetsu_5000                 :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 5000
-STR_REFIT_ADDITIONAL_Nishitetsu_6000                 :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 6000, Nishitetsu 7000
-STR_REFIT_ADDITIONAL_Nishitetsu_7000                 :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Nishitetsu 6000, Nishitetsu 7000
-STR_REFIT_ADDITIONAL_Nishitetsu_8000                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 8000
-STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Nishitetsu 9000
+STR_REFIT_ADDITIONAL_Shinkansen_500                  :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_700                  :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_800                  :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_923                  :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_E2                   :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_E5_H5                :{BLACK}Combined train {GREEN}E6, E8
+STR_REFIT_ADDITIONAL_Shinkansen_E6                   :{BLACK}Combined train {GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_E7                   :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_E8                   :{BLACK}Combined train {GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_N700                 :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Shinkansen_N700S                :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Nishitetsu_1000                 :{BLACK}Combined train {GREEN}Nishitetsu 1000
+STR_REFIT_ADDITIONAL_Nishitetsu_2000                 :{BLACK}Combined train {GREEN}Nishitetsu 2000
+STR_REFIT_ADDITIONAL_Nishitetsu_3000                 :{BLACK}Combined train {GREEN}Nishitetsu 3000
+STR_REFIT_ADDITIONAL_Nishitetsu_5000                 :{BLACK}Combined train {GREEN}Nishitetsu 5000
+STR_REFIT_ADDITIONAL_Nishitetsu_6000                 :{BLACK}Combined train {GREEN}Nishitetsu 6000, Nishitetsu 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_7000                 :{BLACK}Combined train {GREEN}Nishitetsu 6000, Nishitetsu 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_8000                 :{BLACK}Combined train {GREEN}Nishitetsu 8000
+STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}Combined train {GREEN}Nishitetsu 9000
 STR_REFIT_ADDITIONAL_HYEL_15                         :{BLACK}Combined train {GREEN}HYEL-15
 STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}Combined train {GREEN}HYEL-100
 STR_REFIT_ADDITIONAL_HYEL_150                        :{BLACK}Combined train {GREEN}HYEL-150
@@ -282,10 +286,10 @@ STR_REFIT_ADDITIONAL_DFX                             :{BLACK}Combined train {GRE
 STR_REFIT_ADDITIONAL_NHSRCL_E5                       :{BLACK}Combined train {GREEN}NHSRCL E5
 STR_REFIT_ADDITIONAL_NSW_TrainLink_D                 :{BLACK}Combined train {GREEN}NSW TrainLink D
 STR_REFIT_ADDITIONAL_THSR_700T                       :{BLACK}Combined train {RED}Unavailable
-STR_REFIT_ADDITIONAL_WRenfe_S_130                    :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Al_Boraq                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Talgo_350_SRO                   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_Avelia_Liberty                  :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_WRenfe_S_130                    :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Al_Boraq                        :{BLACK}Combined train {GREEN}Al Boraq
+STR_REFIT_ADDITIONAL_Talgo_350_SRO                   :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Avelia_Liberty                  :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Glory600                        :{BLACK}Combined train {GREEN}Glory-600
 STR_REFIT_ADDITIONAL_HMX                             :{BLACK}Combined train {GREEN}HMX
 STR_REFIT_ADDITIONAL_NKX                             :{BLACK}Combined train {GREEN}NKX
@@ -455,7 +459,6 @@ STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           :(Standard MetroLong Cross 
 STR_REFIT_LIVERY_Korail_392000                       :(Korail 392000)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express  :(MTR AD Tranz CAF A Type Airport Express)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung       :(MTR AD Tranz CAF A Type Tung Chung)
-STR_REFIT_LIVERY_MTR_AC_Cammall                      :(MTR Cammall AC Type)
 STR_REFIT_LIVERY_MTR_DC_Cammall                      :(MTR Cammall DC Type no remoding Car)
 STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding             :(MTR Cammall DC Type remoding Car)
 STR_REFIT_LIVERY_MTR_DC_Cammall_Disney               :(MTR Cammall DC Type Disney Car)
@@ -463,11 +466,6 @@ STR_REFIT_LIVERY_MTR_CNR_Changchun                   :(MTR CNR Changchun)
 STR_REFIT_LIVERY_MTR_CNR_Changchun_South_Island      :(MTR CNR Changchun South Island)
 STR_REFIT_LIVERY_MTR_CRRC_Changchun                  :(MTR CRRC Changchun Train)
 STR_REFIT_LIVERY_MTR_CRRC_Sipang                     :(MTR CRRC Sipang Train)
-STR_REFIT_LIVERY_MTR_Hyundai_Rotem_Mitsubishi        :(MTR Hyundai Rotem Mitsubishi Trian)
-STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R                 :(MTR Hyundai Rotem R Trian)
-STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_Nomal           :(MTR Hyundai Rotem R Type Nomal)
-STR_REFIT_LIVERY_MTR_Hyundai_Rotem_R_special         :(MTR Hyundai Rotem R Type special)
-STR_REFIT_LIVERY_MTR_IKK_SP_1900                     :(MTR IKK SP 1900)
 STR_REFIT_LIVERY_Nishitetsu_1000_Normal              :(Nishitetsu 1000 series Normal)
 STR_REFIT_LIVERY_Nishitetsu_1000_Normal_Aircon       :(Nishitetsu 1000 series Normal Aircon)
 STR_REFIT_LIVERY_Nishitetsu_1000_Original            :(Nishitetsu 1000 series Original)
@@ -475,7 +473,6 @@ STR_REFIT_LIVERY_Nishitetsu_1000_Express             :(Nishitetsu 1000 series Ex
 STR_REFIT_LIVERY_Nishitetsu_1000_Last_Run            :(Nishitetsu 1000 series Last Run)
 STR_REFIT_LIVERY_Nishitetsu_2000_Normal              :(Nishitetsu 2000 series Normal)
 STR_REFIT_LIVERY_Nishitetsu_2000_Express             :(Nishitetsu 2000 series Express)
-STR_REFIT_LIVERY_Nishitetsu_3000                     :(Nishitetsu 3000)
 STR_REFIT_LIVERY_Nishitetsu_5000_MG                  :(Nishitetsu 5000 series MG)
 STR_REFIT_LIVERY_Nishitetsu_5000_SIV                 :(Nishitetsu 5000 series SIV)
 STR_REFIT_LIVERY_Nishitetsu_6000                     :(Nishitetsu 6000)

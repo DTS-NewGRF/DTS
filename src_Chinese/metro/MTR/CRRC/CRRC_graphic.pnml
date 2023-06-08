@@ -8,31 +8,39 @@ spriteset(set_MTR_CRRC_purchase, "src_Chinese/metro/MTR/CRRC/CRRC_Changchun.png"
 /*--------------------------------------------------------------------
 1. MTR CRRC Changchun
 --------------------------------------------------------------------*/
-spriteset(set_MTR_CRRC_ChangchunH_purchase, "src_Chinese/metro/MTR/CRRC/CRRC_Changchun.png"){
-    tmpl_purchase_for_dualhead(0, 81)
-}
-
 spriteset(set_MTR_CRRC_Changchun_engineH, "src_Chinese/metro/MTR/CRRC/CRRC_Changchun.png"){
     engine(80, 0)
 }
 
+spriteset(set_MTR_CRRC_Changchun_panto_wagon, "src_Chinese/metro/MTR/CRRC/CRRC_Changchun.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_MTR_CRRC_Changchun_wagon, "src_Chinese/metro/MTR/CRRC/CRRC_Changchun.png") {
+    wagon_1F_F(80, 54)
+}
+
 spriteset(set_MTR_CRRC_Changchun_engineT, "src_Chinese/metro/MTR/CRRC/CRRC_Changchun.png"){
-    engine_r(80, 81)
+    engine(80, 81)
 }
 
 /*--------------------------------------------------------------------
 2. MTR CRRC Sipang
 --------------------------------------------------------------------*/
-spriteset(set_MTR_CRRC_SipangH_purchase, "src_Chinese/metro/MTR/CRRC/CRRC_Sipang.png"){
-    tmpl_purchase_for_dualhead(0, 81)
-}
-
 spriteset(set_MTR_CRRC_Sipan_engineH, "src_Chinese/metro/MTR/CRRC/CRRC_Sipang.png"){
     engine(80, 0)
 }
 
+spriteset(set_MTR_CRRC_Sipan_panto_wagon, "src_Chinese/metro/MTR/CRRC/CRRC_Sipang.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_MTR_CRRC_Sipan_wagon, "src_Chinese/metro/MTR/CRRC/CRRC_Sipang.png") {
+    wagon_1F_F(80, 54)
+}
+
 spriteset(set_MTR_CRRC_Sipan_engineT, "src_Chinese/metro/MTR/CRRC/CRRC_Sipang.png"){
-    engine_r(80, 81)
+    engine(80, 81)
 }
 
 /*--------------------------------------------------------------------

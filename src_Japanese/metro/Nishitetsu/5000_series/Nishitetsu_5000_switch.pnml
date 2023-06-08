@@ -16,13 +16,40 @@ switch(FEAT_TRAINS, SELF, sw_Nishitetsu_5000_engineT, cargo_subtype) {
     set_Nishitetsu_5000_MG_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_5000_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: sw_Nishitetsu_5000_engineT;
-    sw_Nishitetsu_5000_engineH;
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_5000_panto_wagon, cargo_subtype) {
+    1: set_Nishitetsu_5000_SIV_panto_wagon; // SIV
+    set_Nishitetsu_5000_MG_panto_wagon;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_5000_wagon, cargo_subtype) {
+    1: set_Nishitetsu_5000_SIV_panto_wagon; // SIV
+    set_Nishitetsu_5000_MG_wagon;
+}
+
+switch (FEAT_TRAINS, SELF, sw_Nishitetsu_5000_3car, position_in_vehid_chain % 3) {
+    1:sw_Nishitetsu_5000_panto_wagon;
+    2:sw_Nishitetsu_5000_engineT;
+    sw_Nishitetsu_5000_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Nishitetsu_5000_4car, position_in_vehid_chain % 4) {
+    1:sw_Nishitetsu_5000_panto_wagon;
+    2:sw_Nishitetsu_5000_wagon;
+    3:sw_Nishitetsu_5000_engineT;
+    sw_Nishitetsu_5000_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Nishitetsu_5000_3car, extra_callback_info1) {
+    1..2: Nishitetsu_5000_3Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Nishitetsu_5000_4car, extra_callback_info1) {
+    1..3: Nishitetsu_5000_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_5000_wagon_attach, vehicle_type_id) {
-    Nishitetsu_5000:         return CB_RESULT_ATTACH_ALLOW;
-    JMetro_Pass:             return CB_RESULT_ATTACH_ALLOW;
-    JMetro_Panto_Car:        return CB_RESULT_ATTACH_ALLOW;
+    Nishitetsu_5000_3Car:    return CB_RESULT_ATTACH_ALLOW;
+    Nishitetsu_5000_4Car:    return CB_RESULT_ATTACH_ALLOW;
 }

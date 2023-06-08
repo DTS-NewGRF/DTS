@@ -8,11 +8,6 @@ spriteset(set_Talgo_350_SRO_purchase, "src_World/locomotive/Talgo_350_SRO/Talgo_
 /*--------------------------------------------------------------------
 1. Talgo 350 SRO
 --------------------------------------------------------------------*/
-
-spriteset(set_Talgo_350_SROH_purchase, "src_World/locomotive/Talgo_350_SRO/Talgo_350_SRO.png"){
-	tmpl_purchase_for_dualhead(0, 108)
-}
-
 spriteset(set_Talgo_350_SRO_engineH, "src_World/locomotive/Talgo_350_SRO/Talgo_350_SRO.png"){
 	engine(80, 0)
 }
@@ -34,7 +29,7 @@ spriteset(set_Talgo_350_SRO_wagon_end, "src_World/locomotive/Talgo_350_SRO/Talgo
 }
 
 spriteset(set_Talgo_350_SRO_engineT, "src_World/locomotive/Talgo_350_SRO/Talgo_350_SRO.png"){
-	engine_r(80, 108)
+	engine(80, 108)
 }
 
 /*--------------------------------------------------------------------

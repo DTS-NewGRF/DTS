@@ -1,14 +1,22 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_MTR_IKK_SP_1900_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_MTR_IKK_SP_1900_engineT;
-    set_MTR_IKK_SP_1900_engineH;
-}
+switch (FEAT_TRAINS, SELF, sw_MTR_IKK_SP_1900_8car, position_in_vehid_chain % 8) {
+    1:set_MTR_IKK_SP_1900_panto_wagon;
+    2:set_MTR_IKK_SP_1900_wagon;
+    3:set_MTR_IKK_SP_1900_wagon;
+    4:set_MTR_IKK_SP_1900_wagon;
+    5:set_MTR_IKK_SP_1900_wagon;
+    6:set_MTR_IKK_SP_1900_panto_wagon;
+    7:set_MTR_IKK_SP_1900_engineT;
+    set_MTR_IKK_SP_1900_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_MTR_IKK_SP_1900_8car, extra_callback_info1) {
+    1..7: IKK_SP_1900_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_MTR_IKK_SP_1900_wagon_attach, vehicle_type_id) {
-    IKK_SP_1900:             return CB_RESULT_ATTACH_ALLOW;
-    HKMetro_Pass:            return CB_RESULT_ATTACH_ALLOW;
-    HKMetro_Panto_Car:       return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

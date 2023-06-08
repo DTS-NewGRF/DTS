@@ -8,20 +8,24 @@ spriteset(set_Nishitetsu_3000_purchase, "src_Japanese/metro/Nishitetsu/3000_seri
 /*--------------------------------------------------------------------
 1. 니시테츠 3000형
 --------------------------------------------------------------------*/
-spriteset(set_Nishitetsu_3000H_purchase, "src_Japanese/metro/Nishitetsu/3000_series/Nishitetsu_3000.png"){
-    tmpl_purchase_for_dualhead(0, 81)
-}
-
 spriteset(set_Nishitetsu_3000_engineH, "src_Japanese/metro/Nishitetsu/3000_series/Nishitetsu_3000.png"){
     engine(80, 0)
 }
 
 spriteset(set_Nishitetsu_3000_engineT, "src_Japanese/metro/Nishitetsu/3000_series/Nishitetsu_3000.png"){
-    engine_r(80, 81)
+    engine(80, 81)
+}
+
+spriteset(set_Nishitetsu_3000_panto_wagon, "src_Japanese/metro/Nishitetsu/3000_series/Nishitetsu_3000.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Nishitetsu_3000_wagon, "src_Japanese/metro/Nishitetsu/3000_series/Nishitetsu_3000.png") {
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_Nishitetsu_3000_panto_engineT, "src_Japanese/metro/Nishitetsu/3000_series/Nishitetsu_3000.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------

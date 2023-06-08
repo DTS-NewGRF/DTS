@@ -25,13 +25,26 @@ switch(FEAT_TRAINS, SELF, sw_Nishitetsu_1000_engineT, cargo_subtype) {
     set_Nishitetsu_1000_Normal_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_1000_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: sw_Nishitetsu_1000_engineT;
-    sw_Nishitetsu_1000_engineH;
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_1000_panto_wagon, cargo_subtype) {
+    1: set_Nishitetsu_1000_Normal_Aircon_panto_wagon; // 냉방도색
+    2: set_Nishitetsu_1000_Original_panto_wagon;      // 초기도색
+    3: set_Nishitetsu_1000_Express_panto_wagon;       // 특급도색
+    4: set_Nishitetsu_1000_Last_Run_panto_wagon;      // 특별도색
+    set_Nishitetsu_1000_Normal_panto_wagon;
 }
 
+switch (FEAT_TRAINS, SELF, sw_Nishitetsu_1000_4car, position_in_vehid_chain % 4) {
+    1:sw_Nishitetsu_1000_panto_wagon;
+    2:sw_Nishitetsu_1000_panto_wagon;
+    3:sw_Nishitetsu_1000_engineT;
+    sw_Nishitetsu_1000_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Nishitetsu_1000_4car, extra_callback_info1) {
+    1..3: Nishitetsu_1000_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_1000_wagon_attach, vehicle_type_id) {
-    Nishitetsu_1000:         return CB_RESULT_ATTACH_ALLOW;
-    JMetro_Pass:             return CB_RESULT_ATTACH_ALLOW;
-    JMetro_Panto_Car:        return CB_RESULT_ATTACH_ALLOW;
+    Nishitetsu_1000_4Car:    return CB_RESULT_ATTACH_ALLOW;
 }

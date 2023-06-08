@@ -22,6 +22,7 @@ switch(FEAT_TRAINS, SELF, sw_Nishitetsu_7000_engine, position_in_consist_from_en
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_7000_wagon_attach, vehicle_type_id) {
-    Nishitetsu_6000:         return CB_RESULT_ATTACH_ALLOW;
+    Nishitetsu_6000_3Car:    return CB_RESULT_ATTACH_ALLOW;
+    Nishitetsu_6000_4Car:    return CB_RESULT_ATTACH_ALLOW;
     Nishitetsu_7000:         return CB_RESULT_ATTACH_ALLOW;
 }

@@ -10,15 +10,14 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Nishitetsu_1000, 2097){
+item(FEAT_TRAINS, Nishitetsu_1000_4Car, 2097){
     property {
-        name:                           string(STR_Nishitetsu_1000_NAME);
+        name:                           string(STR_Nishitetsu_1000_4Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1957, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          110km/h;
@@ -34,7 +33,7 @@ item(FEAT_TRAINS, Nishitetsu_1000, 2097){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 140;
+        cargo_capacity:                 145;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -50,7 +49,8 @@ item(FEAT_TRAINS, Nishitetsu_1000, 2097){
         }
 
 	graphics {
-        default:                        sw_Nishitetsu_1000_engine;
+        default:                        sw_Nishitetsu_1000_4car;
+        articulated_part:               sw_articulated_Nishitetsu_1000_4car;
         purchase:                       sw_Nishitetsu_1000_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;

@@ -1,58 +1,25 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_Al_Boraq_10car, position_in_vehid_chain % 10) {
+    1:set_Al_Boraq_wagon_start;
+    2:set_Al_Boraq_wagon_nomal;
+    3:set_Al_Boraq_wagon_nomal;
+    4:set_Al_Boraq_wagon_nomal;
+    5:set_Al_Boraq_wagon_bar;
+    6:set_Al_Boraq_wagon_special;
+    7:set_Al_Boraq_wagon_special;
+    8:set_Al_Boraq_wagon_end;
+    9:set_Al_Boraq_engineT;
+    set_Al_Boraq_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_engineH, cargo_subtype) {
-    set_Al_Boraq_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_engineT, cargo_subtype) {
-    set_Al_Boraq_engineT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: sw_Al_Boraq_engineT;
-    sw_Al_Boraq_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon_start, cargo_subtype) {
-    set_Al_Boraq_wagon_start;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon_special_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
-    1: set_Al_Boraq_wagon_nomal;
-    set_Al_Boraq_wagon_special;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon_middle, cargo_subtype) {
-    sw_Al_Boraq_wagon_special_middle;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon_bar_middle, cargo_subtype) {
-    set_Al_Boraq_wagon_bar;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon_end, cargo_subtype) {
-    set_Al_Boraq_wagon_end;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon_bar, (position_in_consist %5) + 1) {
-    1: sw_Al_Boraq_wagon_bar_middle;
-    sw_Al_Boraq_wagon_middle;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    Al_Boraq: sw_Al_Boraq_wagon_end;
-    sw_Al_Boraq_wagon_bar;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Al_Boraq: sw_Al_Boraq_wagon_start;
-    sw_Al_Boraq_wagon_rear;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_Al_Boraq_10car, extra_callback_info1) {
+    1..9: Al_Boraq_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon_attach, vehicle_type_id) {
-    Al_Boraq:            return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:  return CB_RESULT_ATTACH_ALLOW;
+    Al_Boraq_10Car:          return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

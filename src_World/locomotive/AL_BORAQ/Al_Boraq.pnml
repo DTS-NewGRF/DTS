@@ -10,15 +10,14 @@ TGV Duplex
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Al_Boraq, 2120){
+item(FEAT_TRAINS, Al_Boraq_10Car, 2120){
     property {
-        name:                           string(STR_Al_Boraq_NAME);
+        name:                           string(STR_Al_Boraq_10Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2018, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          330km/h;
@@ -50,22 +49,16 @@ item(FEAT_TRAINS, Al_Boraq, 2120){
         }
 
 	graphics {
-        default:                        sw_Al_Boraq_engine;
+        default:                        sw_Al_Boraq_10car;
+        articulated_part:               sw_articulated_Al_Boraq_10car;
         purchase:                       sw_Al_Boraq_purchase;
         speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_capacity:                 0;
+        cargo_capacity:                 170;
         purchase_cargo_capacity:        0;
         can_attach_wagon:               sw_Al_Boraq_wagon_attach;
         additional_text:                string(STR_REFIT_ADDITIONAL_Al_Boraq);
-        }
-
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_Al_Boraq_wagon;
-        cargo_capacity:                 170;
-        loading_speed:                  25;
-        running_cost_factor:            150;
         }
         }

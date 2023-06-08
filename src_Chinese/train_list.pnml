@@ -1,4 +1,3 @@
-//wagon #include "wagon/passenger_wagon/passenger_wagon_all.pnml"
 #include "wagon/SPassenger_wagon/25_Type/SPassenger_Wagon.pnml"
 #include "wagon/Generatar_Car/Generatar_Car.pnml"
 #include "wagon/Luggage_Car/Luggage_Car.pnml"
