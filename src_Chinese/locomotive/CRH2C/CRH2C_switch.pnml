@@ -1,28 +1,23 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_CRH2C_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_CRH2C_engineT;
-    set_CRH2C_engineH;
-}
+switch (FEAT_TRAINS, SELF, sw_CRH2C_8car, position_in_vehid_chain % 8) {
+    1:set_CRH2C_wagon;
+    2:set_CRH2C_wagon;
+    3:set_CRH2C_panto_wagon;
+    4:set_CRH2C_wagon;
+    5:set_CRH2C_panto_wagon_r;
+    6:set_CRH2C_wagon;
+    7:set_CRH2C_engineT;
+    set_CRH2C_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_CRH2C_wagon_middle, (position_in_consist)) {
-    1: set_CRH2C_wagon_r;
-    set_CRH2C_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_CRH2C_wagon_rear, [STORE_TEMP(2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    CRH2C: set_CRH2C_wagon_end;
-    sw_CRH2C_wagon_middle;
-}
-
-switch(FEAT_TRAINS, SELF, sw_CRH2C_wagon, [STORE_TEMP(-2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    CRH2C: set_CRH2C_wagon_start;
-    sw_CRH2C_wagon_rear;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_CRH2C_8car, extra_callback_info1) {
+    1..7: CRH2C_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_CRH2C_wagon_attach, vehicle_type_id) {
-    CRH2C:                   return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    CRH2C_8Car:              return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

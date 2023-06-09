@@ -8,40 +8,28 @@ spriteset(set_CRH380D_purchase, "src_Chinese/locomotive/CRH380D/CRH380D.png"){
 /*--------------------------------------------------------------------
 CRH380D
 --------------------------------------------------------------------*/
-spriteset(set_CRH380DH_purchase, "src_Chinese/locomotive/CRH380D/CRH380D.png"){
-    tmpl_purchase_for_dualhead(0, 135)
-}
-
 spriteset(set_CRH380D_engineH, "src_Chinese/locomotive/CRH380D/CRH380D.png"){
     engine(80, 0)
 }
 
-spriteset(set_CRH380D_wagon_start, "src_Chinese/locomotive/CRH380D/CRH380D.png"){
-    wagon_start(80, 27)
+spriteset(set_CRH380D_panto_wagon, "src_Chinese/locomotive/CRH380D/CRH380D.png"){
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_CRH380D_1F_wagon, "src_Chinese/locomotive/CRH380D/CRH380D.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_CRH380D_1F_wagon_r, "src_Chinese/locomotive/CRH380D/CRH380D.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_CRH380D_2F_wagon, "src_Chinese/locomotive/CRH380D/CRH380D.png") {
-    wagon_2F(80, 81)
+    wagon_1F_F(80, 81)
 }
 
-spriteset(set_CRH380D_2F_wagon_r, "src_Chinese/locomotive/CRH380D/CRH380D.png") {
-    wagon_2F_r(80, 81)
-}
-
-spriteset(set_CRH380D_wagon_end, "src_Chinese/locomotive/CRH380D/CRH380D.png"){
-    wagon_start(80, 108)
+spriteset(set_CRH380D_panto_wagon_r, "src_Chinese/locomotive/CRH380D/CRH380D.png"){
+    wagon_1F_F(80, 108)
 }
 
 spriteset(set_CRH380D_engineT, "src_Chinese/locomotive/CRH380D/CRH380D.png"){
-    engine_r(80, 135)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------

@@ -1,18 +1,28 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_ICE1_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_ICE1_engineT;
-    set_ICE1_engineH;
-}
+switch (FEAT_TRAINS, SELF, sw_ICE1_14car, position_in_vehid_chain % 14) {
+    1:set_ICE1_wagon;
+    2:set_ICE1_wagon;
+    3:set_ICE1_wagon;
+    4:set_ICE1_wagon;
+    5:set_ICE1_wagon;
+    6:set_ICE1_wagon;
+    7:set_ICE1_wagon;
+    8:set_ICE1_wagon_bar;
+    9:set_ICE1_wagon;
+    10:set_ICE1_wagon;
+    11:set_ICE1_wagon;
+    12:set_ICE1_wagon;
+    13:set_ICE1_engineT;
+    set_ICE1_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_ICE1_wagon, [STORE_TEMP(5, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    ICE1: set_ICE1_wagon_bar;
-    set_ICE1_wagon;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_ICE1_14car, extra_callback_info1) {
+    1..13: ICE1_14Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    } 
 
 switch(FEAT_TRAINS, SELF, sw_ICE1_wagon_attach, vehicle_type_id) {
-    ICE1:                   return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

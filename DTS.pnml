@@ -10,7 +10,7 @@ grf {
 	name :                             string(STR_GRF_NAME_WITH_VER);
 	desc :                             string(STR_GRF_DESC);
 	url :                              string(STR_GRF_URL);
-	version :                          20230608;
+	version :                          20230609;
 	min_compatible_version :           20230605;
 	
 	// Parameters 매개변수
@@ -58,10 +58,13 @@ if (Chinese) {
     disable_item(FEAT_TRAINS, 2035); //CRH1E
     disable_item(FEAT_TRAINS, 2036); //CRH1A_A
     disable_item(FEAT_TRAINS, 2037); //CRH2
+    disable_item(FEAT_TRAINS, 2144); //CRH2
     disable_item(FEAT_TRAINS, 2038); //CRH2C
     disable_item(FEAT_TRAINS, 2039); //CRH3
     disable_item(FEAT_TRAINS, 2040); //CRH380A
+    disable_item(FEAT_TRAINS, 2145); //CRH380A
     disable_item(FEAT_TRAINS, 2041); //CRH380B
+    disable_item(FEAT_TRAINS, 2146); //CRH380B
     disable_item(FEAT_TRAINS, 2042); //CRH380C
     disable_item(FEAT_TRAINS, 2043); //CRH380D
     disable_item(FEAT_TRAINS, 2044); //CRH380AJ
@@ -115,8 +118,10 @@ if (European) {
 if (Japanese) {
     disable_item(FEAT_TRAINS, 2084); //Keisei_AE_series
     disable_item(FEAT_TRAINS, 2085); //Shinkansen_0
+    disable_item(FEAT_TRAINS, 2126); //Shinkansen_0
     disable_item(FEAT_TRAINS, 2086); //Shinkansen_500
     disable_item(FEAT_TRAINS, 2087); //Shinkansen_700
+    disable_item(FEAT_TRAINS, 2143); //Shinkansen_700
     disable_item(FEAT_TRAINS, 2088); //Shinkansen_800
     disable_item(FEAT_TRAINS, 2089); //Shinkansen_N700
     disable_item(FEAT_TRAINS, 2090); //Shinkansen_N700_S
@@ -130,6 +135,7 @@ if (Japanese) {
     disable_item(FEAT_TRAINS, 2098); //Nishitetsu_2000
     disable_item(FEAT_TRAINS, 2099); //Nishitetsu_3000
     disable_item(FEAT_TRAINS, 2100); //Nishitetsu_5000
+    disable_item(FEAT_TRAINS, 2107); //Nishitetsu_5000
     disable_item(FEAT_TRAINS, 2101); //Nishitetsu_6000
     disable_item(FEAT_TRAINS, 2102); //Nishitetsu_7000
     disable_item(FEAT_TRAINS, 2103); //Nishitetsu_8000

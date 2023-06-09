@@ -5,32 +5,24 @@ spriteset(set_AGV_purchase, "src_European/locomotive/AGV/AGV.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_AGVH_purchase, "src_European/locomotive/AGV/AGV.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 spriteset(set_AGV_engineH, "src_European/locomotive/AGV/AGV.png"){
     engine(80, 0)
 }
 
-spriteset(set_AGV_wagon_start, "src_European/locomotive/AGV/AGV.png"){
-    wagon_panto(80, 27)
+spriteset(set_AGV_wagon_panto_wagon, "src_European/locomotive/AGV/AGV.png"){
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_AGV_wagon, "src_European/locomotive/AGV/AGV.png") {
-    wagon_1F(80, 54)
+    wagon_1F_F(80, 54)
 }
 
-spriteset(set_AGV_wagon_r, "src_European/locomotive/AGV/AGV.png") {
-    wagon_1F_r(80, 54)
-}
-
-spriteset(set_AGV_wagon_end, "src_European/locomotive/AGV/AGV.png"){
-    wagon_panto(80, 81)
+spriteset(set_AGV_panto_wagon_r, "src_European/locomotive/AGV/AGV.png"){
+    wagon_1F_F(80, 81)
 }
 
 spriteset(set_AGV_engineT, "src_European/locomotive//AGV/AGV.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------

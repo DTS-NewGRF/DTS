@@ -10,15 +10,14 @@ CRH1E
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CRH1E, 2035){
+item(FEAT_TRAINS, CRH1E_16Car, 2035){
     property {
-        name:                           string(STR_CRH1E_NAME);
+        name:                           string(STR_CRH1E_16Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2009, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          260km/h;
@@ -34,7 +33,7 @@ item(FEAT_TRAINS, CRH1E, 2035){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 72;
+        cargo_capacity:                 40;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -50,19 +49,13 @@ item(FEAT_TRAINS, CRH1E, 2035){
         }
         
     graphics {
-        default:                        sw_CRH1E_engine;
+        default:                        sw_CRH1E_16car;
+        articulated_part:               sw_articulated_CRH1E_16car;
         purchase:                       sw_CRH1E_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         can_attach_wagon:               sw_CRH1E_wagon_attach;
         additional_text:                string(STR_REFIT_ADDITIONAL_CRH1E);
-        }
-        
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_CRH1E_wagon;
-        cargo_capacity:                 101;
-        loading_speed:                  25;
-        running_cost_factor:            150;
         }
         }

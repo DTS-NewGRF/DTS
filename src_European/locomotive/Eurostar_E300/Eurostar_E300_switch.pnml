@@ -16,32 +16,17 @@ switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_engineT, cargo_subtype) {
     set_Eurostar_E300_Old_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: sw_Eurostar_E300_engineT;
-    sw_Eurostar_E300_engineH;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_start, cargo_subtype) {
     1: set_Eurostar_E300_New_wagon_start;   // 파랑
     set_Eurostar_E300_Old_wagon_start;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_front, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon, cargo_subtype) {
     1: set_Eurostar_E300_New_wagon;   // 파랑
     set_Eurostar_E300_Old_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_tail, cargo_subtype) {
-    1: set_Eurostar_E300_New_wagon_r;   // 파랑
-    set_Eurostar_E300_Old_wagon_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_front_bar, cargo_subtype) {
-    1: set_Eurostar_E300_New_wagon_bar;   // 파랑
-    set_Eurostar_E300_Old_wagon_bar;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_tail_bar, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_bar, cargo_subtype) {
     1: set_Eurostar_E300_New_wagon_bar;   // 파랑
     set_Eurostar_E300_Old_wagon_bar;
 }
@@ -51,32 +36,34 @@ switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_end, cargo_subtype) {
     set_Eurostar_E300_Old_wagon_end;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_middle, (position_in_consist)) {
-    1: sw_Eurostar_E300_wagon_tail;
-    sw_Eurostar_E300_wagon_front;
-}
+switch (FEAT_TRAINS, SELF, sw_Eurostar_E300_20car, position_in_vehid_chain % 20) {
+    1:sw_Eurostar_E300_wagon_start;
+    2:sw_Eurostar_E300_wagon;
+    3:sw_Eurostar_E300_wagon;
+    4:sw_Eurostar_E300_wagon;
+    5:sw_Eurostar_E300_wagon;
+    6:sw_Eurostar_E300_wagon_bar;
+    7:sw_Eurostar_E300_wagon;
+    8:sw_Eurostar_E300_wagon;
+    9:sw_Eurostar_E300_wagon;
+    10:sw_Eurostar_E300_wagon;
+    11:sw_Eurostar_E300_wagon;
+    12:sw_Eurostar_E300_wagon;
+    13:sw_Eurostar_E300_wagon_bar;
+    14:sw_Eurostar_E300_wagon;
+    15:sw_Eurostar_E300_wagon;
+    16:sw_Eurostar_E300_wagon;
+    17:sw_Eurostar_E300_wagon;
+    18:sw_Eurostar_E300_wagon_end;
+    19:sw_Eurostar_E300_engineT;
+    sw_Eurostar_E300_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_bar_rear, [STORE_TEMP(6, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    Eurostar_E300: sw_Eurostar_E300_wagon_tail_bar;
-    sw_Eurostar_E300_wagon_middle;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_bar, [STORE_TEMP(-6, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Eurostar_E300: sw_Eurostar_E300_wagon_front_bar;
-    sw_Eurostar_E300_wagon_bar_rear;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    Eurostar_E300: sw_Eurostar_E300_wagon_end;
-    sw_Eurostar_E300_wagon_bar;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Eurostar_E300: sw_Eurostar_E300_wagon_start;
-    sw_Eurostar_E300_wagon_rear;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_Eurostar_E300_20car, extra_callback_info1) {
+    1..19: Eurostar_E300_20Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_attach, vehicle_type_id) {
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

@@ -1,5 +1,3 @@
-//wagon #include "wagon/passenger_wagon/passenger_wagon_all.pnml"
-
 //locomotive
 #include "locomotive/Keisei_AE_series/Keisei_AE_series.pnml"
 #include "locomotive/Shinkansen_0/Shinkansen_0.pnml"

@@ -8,21 +8,20 @@
 #include "Nishitetsu_9000_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보
+열차정보 2량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Nishitetsu_9000, 2104){
+item(FEAT_TRAINS, Nishitetsu_9000_2Car, 2104){
     property {
-        name:                           string(STR_Nishitetsu_9000_NAME);
+        name:                           string(STR_Nishitetsu_9000_2Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2016, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          110km/h;
-        power:                          2000 kW;
+        power:                          700 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -34,7 +33,7 @@ item(FEAT_TRAINS, Nishitetsu_9000, 2104){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 80;
+        cargo_capacity:                 124;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -50,7 +49,62 @@ item(FEAT_TRAINS, Nishitetsu_9000, 2104){
         }
 
 	graphics {
-        default:                        sw_Nishitetsu_9000_engine;
+        default:                        sw_Nishitetsu_9000_2Car;
+        articulated_part:               sw_articulated_Nishitetsu_9000_2car;
+        purchase:                       sw_Nishitetsu_9000_purchase;
+        speed:                          Metro_Speed_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_Nishitetsu_9000_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Nishitetsu_9000);
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 3량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Nishitetsu_9000_3Car, 2113){
+    property {
+        name:                           string(STR_Nishitetsu_9000_3Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2016, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        
+        //spec
+        speed:                          110km/h;
+        power:                          700 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 129;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_Nishitetsu_9000_3Car;
+        articulated_part:               sw_articulated_Nishitetsu_9000_3car;
         purchase:                       sw_Nishitetsu_9000_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;

@@ -1,7 +1,6 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-
 switch(FEAT_TRAINS, SELF, sw_ICE2_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_ICE2_green);   // 그린
     return string(STR_REFIT_LIVERY_ICE2_red);      // 레드
@@ -17,107 +16,33 @@ switch(FEAT_TRAINS, SELF, sw_ICE2_engineT, cargo_subtype) {
     set_ICE2_R_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ICE2_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    sw_ICE2_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE2_wagon_nomal, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_ICE2_wagon, cargo_subtype) {
     1: set_ICE2_G_wagon;
     set_ICE2_R_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ICE2_wagon_bar, (position_in_consist %5) + 1) {
+switch(FEAT_TRAINS, SELF, sw_ICE2_wagon_bar, cargo_subtype) {
     1: set_ICE2_G_wagon_bar;
     set_ICE2_R_wagon_bar;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ICE2_2car_wagon, (position_in_consist + 1) % 2) {
-    sw_ICE2_engineT;
-}
+switch (FEAT_TRAINS, SELF, sw_ICE2_8car, position_in_vehid_chain % 8) {
+    1:sw_ICE2_wagon;
+    2:sw_ICE2_wagon;
+    3:sw_ICE2_wagon_bar;
+    4:sw_ICE2_wagon;
+    5:sw_ICE2_wagon;
+    6:sw_ICE2_wagon;
+    7:sw_ICE2_engineT;
+    sw_ICE2_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_ICE2_3car_wagon, (position_in_consist + 1) % 3) {
-    2: sw_ICE2_wagon_nomal;
-    sw_ICE2_engineT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE2_4car_wagon, (position_in_consist + 1) % 4) {
-    2: sw_ICE2_wagon_bar;
-    3: sw_ICE2_wagon_nomal;
-    sw_ICE2_engineT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE2_5car_wagon, (position_in_consist + 1) % 5) {
-    2: sw_ICE2_wagon_bar;
-    3: sw_ICE2_wagon_nomal;
-    4: sw_ICE2_wagon_nomal;
-    sw_ICE2_engineT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE2_6car_wagon, (position_in_consist + 1) % 6) {
-    2: sw_ICE2_wagon_nomal;
-    3: sw_ICE2_wagon_bar;
-    4: sw_ICE2_wagon_nomal;
-    5: sw_ICE2_wagon_nomal;
-    sw_ICE2_engineT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE2_7car_wagon, (position_in_consist + 1) % 7) {
-    2: sw_ICE2_wagon_nomal;
-    3: sw_ICE2_wagon_bar;
-    4: sw_ICE2_wagon_nomal;
-    5: sw_ICE2_wagon_nomal;
-    6: sw_ICE2_wagon_nomal;
-    sw_ICE2_engineT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE2_8car_wagon, (position_in_consist + 1) % 8) {
-    2: sw_ICE2_wagon_nomal;
-    3: sw_ICE2_wagon_nomal;
-    4: sw_ICE2_wagon_bar;
-    5: sw_ICE2_wagon_nomal;
-    6: sw_ICE2_wagon_nomal;
-    7: sw_ICE2_wagon_nomal;
-    sw_ICE2_engineT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE2_9car_wagon, (position_in_consist + 1) % 9) {
-    2: sw_ICE2_wagon_nomal;
-    3: sw_ICE2_wagon_nomal;
-    4: sw_ICE2_wagon_bar;
-    5: sw_ICE2_wagon_nomal;
-    6: sw_ICE2_wagon_nomal;
-    7: sw_ICE2_wagon_nomal;
-    8: sw_ICE2_wagon_nomal;
-    sw_ICE2_engineT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE2_10car_wagon, (position_in_consist + 1) % 10) {
-    2: sw_ICE2_wagon_nomal;
-    3: sw_ICE2_wagon_nomal;
-    4: sw_ICE2_wagon_bar;
-    5: sw_ICE2_wagon_nomal;
-    6: sw_ICE2_wagon_nomal;
-    7: sw_ICE2_wagon_nomal;
-    8: sw_ICE2_wagon_nomal;
-    9: sw_ICE2_wagon_nomal;
-    sw_ICE2_engineT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE2_wagon, num_vehs_in_consist) {
-    2: sw_ICE2_2car_wagon;
-    3: sw_ICE2_3car_wagon;
-    4: sw_ICE2_4car_wagon;
-    5: sw_ICE2_5car_wagon;
-    6: sw_ICE2_6car_wagon;
-    7: sw_ICE2_7car_wagon;
-    8: sw_ICE2_8car_wagon;
-    9: sw_ICE2_9car_wagon;
-    10: sw_ICE2_10car_wagon;
-    sw_ICE2_8car_wagon;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_ICE2_8car, extra_callback_info1) {
+    1..7: ICE2_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    } 
 
 switch(FEAT_TRAINS, SELF, sw_ICE2_wagon_attach, vehicle_type_id) {
-    ICE2:                   return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    ICE2_8Car:               return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

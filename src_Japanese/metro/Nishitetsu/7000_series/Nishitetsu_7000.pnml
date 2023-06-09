@@ -10,15 +10,14 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Nishitetsu_7000, 2102){
+item(FEAT_TRAINS, Nishitetsu_7000_2Car, 2102){
     property {
-        name:                           string(STR_Nishitetsu_7000_NAME);
+        name:                           string(STR_Nishitetsu_7000_2Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2000, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          110km/h;
@@ -50,7 +49,8 @@ item(FEAT_TRAINS, Nishitetsu_7000, 2102){
         }
 
 	graphics {
-        default:                        sw_Nishitetsu_7000_engine;
+        default:                        sw_Nishitetsu_7000_2car;
+        articulated_part:               sw_articulated_Nishitetsu_7000_2car;
         purchase:                       sw_Nishitetsu_7000_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;

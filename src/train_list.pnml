@@ -4,8 +4,6 @@
 #include "wagon/Generatar_Car/Generatar_Car.pnml"
 #include "wagon/Luggage_Car/Luggage_Car.pnml"
 #include "wagon/KMetro_wagon/KMetro_wagon.pnml"
-#include "wagon/JMetro_wagon/JMetro_wagon.pnml"
-#include "wagon/JMetro_panto_wagon/JMetro_panto_wagon.pnml"
 #include "wagon/EMU_wagon/EMU_wagon.pnml"
 #include "wagon/Flat_car/Flat_1F_Car/Flat_1F_Car.pnml"
 #include "wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.pnml"

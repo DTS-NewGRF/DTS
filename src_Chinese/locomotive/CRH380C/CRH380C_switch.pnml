@@ -1,28 +1,30 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_CRH380C_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_CRH380C_engineT;
-    set_CRH380C_engineH;
-}
+switch (FEAT_TRAINS, SELF, sw_CRH380C_16car, position_in_vehid_chain % 16) {
+    1:set_CRH380C_panto_wagon;
+    2:set_CRH380C_wagon;
+    3:set_CRH380C_wagon;
+    4:set_CRH380C_wagon;
+    5:set_CRH380C_wagon;
+    6:set_CRH380C_panto_Dwagon;
+    7:set_CRH380C_wagon;
+    8:set_CRH380C_wagon;
+    9:set_CRH380C_panto_wagon;
+    10:set_CRH380C_wagon;
+    11:set_CRH380C_wagon;
+    12:set_CRH380C_wagon;
+    13:set_CRH380C_wagon;
+    14:set_CRH380C_panto_Dwagon;
+    15:set_CRH380C_engineT;
+    set_CRH380C_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_CRH380C_wagon_middle, (position_in_consist)) {
-    1: set_CRH380C_wagon_r;
-    set_CRH380C_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_CRH380C_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    CRH380C: set_CRH380C_wagon_end;
-    sw_CRH380C_wagon_middle;
-}
-
-switch(FEAT_TRAINS, SELF, sw_CRH380C_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    CRH380C: set_CRH380C_wagon_start;
-    sw_CRH380C_wagon_rear;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_CRH380C_16car, extra_callback_info1) {
+    1..15: CRH380C_16Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_CRH380C_wagon_attach, vehicle_type_id) {
-    CRH380C:                   return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

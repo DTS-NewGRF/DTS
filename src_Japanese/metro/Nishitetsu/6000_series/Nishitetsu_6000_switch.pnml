@@ -57,5 +57,5 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Nishitetsu_6000_4car, extra_callback_i
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_wagon_attach, vehicle_type_id) {
     Nishitetsu_6000_3Car:    return CB_RESULT_ATTACH_ALLOW;
     Nishitetsu_6000_4Car:    return CB_RESULT_ATTACH_ALLOW;
-    Nishitetsu_7000:         return CB_RESULT_ATTACH_ALLOW;
+    Nishitetsu_7000_2Car:    return CB_RESULT_ATTACH_ALLOW;
 }

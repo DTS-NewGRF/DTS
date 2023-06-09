@@ -1,37 +1,26 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_E7_W7_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_Shinkansen_E7_W7_engineT;
-    set_Shinkansen_E7_W7_engineH;
-}
+switch (FEAT_TRAINS, SELF, sw_Shinkansen_E7_W7_12car, position_in_vehid_chain % 12) {
+    1:set_Shinkansen_E7_W7_wagon;
+    2:set_Shinkansen_E7_W7_panto_wagon;
+    3:set_Shinkansen_E7_W7_wagon;
+    4:set_Shinkansen_E7_W7_wagon;
+    5:set_Shinkansen_E7_W7_wagon;
+    6:set_Shinkansen_E7_W7_panto_wagon;
+    7:set_Shinkansen_E7_W7_wagon;
+    8:set_Shinkansen_E7_W7_wagon;
+    9:set_Shinkansen_E7_W7_wagon;
+    10:set_Shinkansen_E7_W7_green_wagon;
+    11:set_Shinkansen_E7_W7_engineT;
+    set_Shinkansen_E7_W7_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_E7_W7_wagon_cargo_subtype, cargo_subtype) {
-    1: set_Shinkansen_E7_W7_wagon_r;
-    set_Shinkansen_E7_W7_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_E7_W7_wagon_capacity_in_custom, position_in_consist_from_end) {
-    1: return 63;
-       88;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_E7_W7_green_wagon, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    Shinkansen_E7_W7: set_Shinkansen_E7_W7_green_wagon;
-    sw_Shinkansen_E7_W7_wagon_cargo_subtype;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_E7_W7_wagon_rear, [STORE_TEMP(5, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    Shinkansen_E7_W7: set_Shinkansen_E7_W7_panto_wagon;
-    sw_Shinkansen_E7_W7_green_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_E7_W7_wagon, [STORE_TEMP(-2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Shinkansen_E7_W7: set_Shinkansen_E7_W7_panto_wagon;
-    sw_Shinkansen_E7_W7_wagon_rear;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_E7_W7_12car, extra_callback_info1) {
+    1..11: Shinkansen_E7_W7_12Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_E7_W7_wagon_attach, vehicle_type_id) {
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

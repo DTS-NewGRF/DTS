@@ -24,9 +24,10 @@ sort(FEAT_TRAINS, [
     Nishitetsu_5000_4Car,          //2107
     Nishitetsu_6000_3Car,          //2101
     Nishitetsu_6000_4Car,          //2119
-    Nishitetsu_7000,               //2102
-    Nishitetsu_8000,               //2103
-    Nishitetsu_9000,               //2104
+    Nishitetsu_7000_2Car,          //2102
+    Nishitetsu_8000_6Car,          //2103
+    Nishitetsu_9000_2Car,          //2104
+    Nishitetsu_9000_3Car,          //2113
 
     //통근열차
     H2_WJ_2Car,                    //2008
@@ -51,7 +52,7 @@ sort(FEAT_TRAINS, [
     HXD3C,                         //2050
     NJ2,                           //2051
     BB15000,                       //2064
-    Keisei_AE_series,              //2084
+    Keisei_AE_series_8Car,         //2084
     HYEL_15,                       //2115
     HYEL_100,                      //2108
     HYEL_200_6Car,                 //2109
@@ -67,19 +68,21 @@ sort(FEAT_TRAINS, [
     //준고속 260
     EMU260_6Car,                   //2020
     EMU260_DD_6Car,                //2021
-    CRH1,                          //2034
-    CRH1E,                         //2035
-    CRH1A_A,                       //2036
-    ICE1,                          //2067
-    ICE2,                          //2068
-    ICE4,                          //2071
+    CRH1_8Car,                     //2034
+    CRH1E_16Car,                   //2035
+    CRH1A_A_8Car,                  //2036
+    ICE1_14Car,                    //2067
+    ICE2_8Car,                     //2068
+    ICE4_7Car,                     //2071
+    ICE4_12Car,                    //2123
     Renfe_S_130_13Car,             //2075
     Shinkansen_0_12Car,            //2085
     Shinkansen_0_16Car,            //2126
-    Shinkansen_700,                //2087
-    Shinkansen_800,                //2088
-    Shinkansen_E2,                 //2091
-    Shinkansen_E7_W7,              //2094
+    Shinkansen_700_8Car,           //2143
+    Shinkansen_700_16Car,          //2087
+    Shinkansen_800_6Car,           //2088
+    Shinkansen_E2_10Car,           //2091
+    Shinkansen_E7_W7_12Car,        //2094
     HYEL_150,                      //2141
     HYEL_300_8Car,                 //2110
     HMX_8Car,                      //2134
@@ -93,16 +96,20 @@ sort(FEAT_TRAINS, [
     CTX_P_10Car,                   //2125
     HSR_350X_7Car,                 //2027
     HSR_350X_14Car,                //2005
-    CRH2,                          //2037
-    CRH2C,                         //2038
-    CRH3,                          //2039
-    CRH380A,                       //2040
-    CRH380B,                       //2041
-    CRH380C,                       //2042
-    CRH380D,                       //2043
-    AGV,                           //2063
-    Eurostar_E300,                 //2065
-    Eurostar_E320,                 //2066
+    CRH2_8Car,                     //2037
+    CRH2_16Car,                    //2144
+    CRH2C_8Car,                    //2038
+    CRH3_8Car,                     //2039
+    CRH380A_8Car,                  //2040
+    CRH380A_16Car,                 //2145
+    CRH380B_8Car,                  //2041
+    CRH380B_16Car,                 //2146
+    CRH380C_16Car,                 //2042
+    CRH380D_8Car,                  //2043
+    CRH380D_16Car,                 //2147
+    AGV_11Car,                     //2063
+    Eurostar_E300_20Car,           //2065
+    Eurostar_E320_16Car,           //2066
     ICE3,                          //2069
     ICE3V,                         //2070
     Renfe_S_100,                   //2072
@@ -140,15 +147,13 @@ sort(FEAT_TRAINS, [
     //고속열차 600
     VHST_600X_8Car,                //2029
     Glory_600_8Car,                //2133
-    CRH380AJ,                      //2044
-    Shinkansen_923,                //2096
+    CRH380AJ_8Car,                 //2044
+    Shinkansen_923_7Car,           //2096
     DFX_10Car,                     //2112
 
     //객차
     DTS_Passenger_Car,             //2001
     KMetro_Pass,                   //2030
-    JMetro_Pass,                   //2113
-    JMetro_Panto_Car,              //2123
     EMU_Pass,                      //2124
     Coach_2F,                      //2106
     KTS_SPassenger_Car,            //2002

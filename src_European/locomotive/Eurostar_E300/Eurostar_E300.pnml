@@ -10,15 +10,14 @@ E300 유로스타
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Eurostar_E300, 2065){
+item(FEAT_TRAINS, Eurostar_E300_20Car, 2065){
     property {
-        name:                           string(STR_Eurostar_E300_NAME);
+        name:                           string(STR_Eurostar_E300_20Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1992, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          362km/h;
@@ -34,7 +33,7 @@ item(FEAT_TRAINS, Eurostar_E300, 2065){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 1;
+        cargo_capacity:                 52;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -50,7 +49,8 @@ item(FEAT_TRAINS, Eurostar_E300, 2065){
         }
         
     graphics {
-        default:                        sw_Eurostar_E300_engine;
+        default:                        sw_Eurostar_E300_20car;
+        articulated_part:               sw_articulated_Eurostar_E300_20car;
         purchase:                       sw_Eurostar_E300_purchase;
         speed:                          High_Speed_Train;
         loading_speed:                  25;
@@ -61,13 +61,5 @@ item(FEAT_TRAINS, Eurostar_E300, 2065){
         can_attach_wagon:               sw_Eurostar_E300_wagon_attach;
         cargo_subtype_text:             sw_Eurostar_E300_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_Eurostar_E300);
-        }
-    
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_Eurostar_E300_wagon;
-        cargo_subtype_text:             sw_Eurostar_E300_cargo_subtype_text;
-        cargo_capacity:                 58;
-        loading_speed:                  25;
-        running_cost_factor:            100;
         }
         }

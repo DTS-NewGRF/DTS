@@ -12,65 +12,47 @@ alternative_sprites(set_CRH1E_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
 /*--------------------------------------------------------------------
 1. CRH1E
 --------------------------------------------------------------------*/
-
-spriteset(set_CRH1EH_purchase, "src_Chinese/locomotive/CRH1/CRH1.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 spriteset(set_CRH1E_engineH, "src_Chinese/locomotive/CRH1/CRH1.png"){
     engine(80, 0)
 }
 
-spriteset(set_CRH1E_wagon_start, "src_Chinese/locomotive/CRH1/CRH1.png"){
-    wagon_start(80, 27)
+spriteset(set_CRH1E_panto_wagon, "src_Chinese/locomotive/CRH1/CRH1.png"){
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_CRH1E_wagon, "src_Chinese/locomotive/CRH1/CRH1.png") {
-    wagon_1F(80, 54)
+    wagon_1F_F(80, 54)
 }
 
-spriteset(set_CRH1E_wagon_r, "src_Chinese/locomotive/CRH1/CRH1.png") {
-    wagon_1F_r(80, 54)
-}
-
-spriteset(set_CRH1E_wagon_end, "src_Chinese/locomotive/CRH1/CRH1.png"){
-    wagon_start(80, 81)
+spriteset(set_CRH1E_panto_wagon_r, "src_Chinese/locomotive/CRH1/CRH1.png"){
+    wagon_1F_F(80, 81)
 }
 
 spriteset(set_CRH1E_engineT, "src_Chinese/locomotive/CRH1/CRH1.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------
 2. CRH1E 32bpp
 --------------------------------------------------------------------*/
-
-alternative_sprites(set_CRH1EH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH1E/CRH1E.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 alternative_sprites(set_CRH1E_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH1E/CRH1E.png"){
     engine(80, 0)
 }
 
-alternative_sprites(set_CRH1E_wagon_start, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH1E/CRH1E.png"){
-    wagon_start(80, 27)
+alternative_sprites(set_CRH1E_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH1E/CRH1E.png"){
+    wagon_1F_F(80, 27)
 }
 
 alternative_sprites(set_CRH1E_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH1E/CRH1E.png"){
-    wagon_1F(80, 54)
+    wagon_1F_F(80, 54)
 }
 
-alternative_sprites(set_CRH1E_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH1E/CRH1E.png"){
-    wagon_1F_r(80, 54)
-}
-
-alternative_sprites(set_CRH1E_wagon_end, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH1E/CRH1E.png"){
-    wagon_start(80, 81)
+alternative_sprites(set_CRH1E_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH1E/CRH1E.png"){
+    wagon_1F_F(80, 81)
 }
 
 alternative_sprites(set_CRH1E_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Chinese/locomotive/CRH1E/CRH1E.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------

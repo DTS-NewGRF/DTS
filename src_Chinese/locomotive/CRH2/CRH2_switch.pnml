@@ -1,28 +1,51 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_CRH2_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_CRH2_engineT;
-    set_CRH2_engineH;
+switch (FEAT_TRAINS, SELF, sw_CRH2_8car, position_in_vehid_chain % 8) {
+    1:set_CRH2_wagon;
+    2:set_CRH2_wagon;
+    3:set_CRH2_panto_wagon;
+    4:set_CRH2_wagon;
+    5:set_CRH2_panto_wagon_r;
+    6:set_CRH2_wagon;
+    7:set_CRH2_engineT;
+    set_CRH2_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_CRH2_16car, position_in_vehid_chain % 16) {
+    1:set_CRH2_wagon;
+    2:set_CRH2_wagon;
+    3:set_CRH2_panto_wagon;
+    4:set_CRH2_wagon;
+    5:set_CRH2_wagon;
+    6:set_CRH2_wagon;
+    7:set_CRH2_wagon;
+    8:set_CRH2_wagon;
+    9:set_CRH2_wagon;
+    10:set_CRH2_wagon;
+    11:set_CRH2_wagon;
+    12:set_CRH2_panto_wagon_r;
+    13:set_CRH2_wagon;
+    14:set_CRH2_wagon;
+    15:set_CRH2_engineT;
+    set_CRH2_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_CRH2_8car, extra_callback_info1) {
+    1..7: CRH2_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_CRH2_16car, extra_callback_info1) {
+    1..15: CRH2_16Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_CRH2_8Car_wagon_attach, vehicle_type_id) {
+    CRH2_8Car:               return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
 }
 
-switch(FEAT_TRAINS, SELF, sw_CRH2_wagon_middle, (position_in_consist)) {
-    1: set_CRH2_wagon_r;
-    set_CRH2_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_CRH2_wagon_rear, [STORE_TEMP(2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    CRH2: set_CRH2_wagon_end;
-    sw_CRH2_wagon_middle;
-}
-
-switch(FEAT_TRAINS, SELF, sw_CRH2_wagon, [STORE_TEMP(-2, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    CRH2: set_CRH2_wagon_start;
-    sw_CRH2_wagon_rear;
-}
-
-switch(FEAT_TRAINS, SELF, sw_CRH2_wagon_attach, vehicle_type_id) {
-    CRH2:                   return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+switch(FEAT_TRAINS, SELF, sw_CRH2_16Car_wagon_attach, vehicle_type_id) {
     return string(STR_ERROR_NO_ATTACH);
 }

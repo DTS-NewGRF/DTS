@@ -38,17 +38,21 @@ STR_H2_WJ_4Car_NAME                                  :[DTS] H2 by WOOJIN 4Car
 STR_Travel_8500_NAME                                 :[DTS] Travel 8500
 STR_TTX_6Car_NAME                                    :[DTS] TTX 8Car
 STR_VHST_600X_8Car_NAME                              :[DTS] VHST-600X 8Car
-STR_CRH1_NAME                                        :[DTS] CRH1A
-STR_CRH1E_NAME                                       :[DTS] CRH1E
-STR_CRH1A_A_NAME                                     :[DTS] CRH1A-A
-STR_CRH2_NAME                                        :[DTS] CRH2A·B
-STR_CRH2C_NAME                                       :[DTS] CRH2C
-STR_CRH3_NAME                                        :[DTS] CRH3C
-STR_CRH380A_NAME                                     :[DTS] CRH380A·AL
-STR_CRH380AJ_NAME                                    :[DTS] CRH380AJ
-STR_CRH380B_NAME                                     :[DTS] CRH380B·BL·BG
-STR_CRH380C_NAME                                     :[DTS] CRH380CL
-STR_CRH380D_NAME                                     :[DTS] CRH380D
+STR_CRH1_8Car_NAME                                   :[DTS] CRH1A 8Car
+STR_CRH1E_16Car_NAME                                 :[DTS] CRH1E 16Car
+STR_CRH1A_A_8Car_NAME                                :[DTS] CRH1A-A 8Car
+STR_CRH2_8Car_NAME                                   :[DTS] CRH2A 8Car
+STR_CRH2_16Car_NAME                                  :[DTS] CRH2B 16Car
+STR_CRH2C_8Car_NAME                                  :[DTS] CRH2C 8Car
+STR_CRH3_8Car_NAME                                   :[DTS] CRH3C 8Car
+STR_CRH380A_8Car_NAME                                :[DTS] CRH380A 8Car
+STR_CRH380A_16Car_NAME                               :[DTS] CRH380AL 16Car
+STR_CRH380AJ_8Car_NAME                               :[DTS] CRH380AJ 8Car
+STR_CRH380B_8Car_NAME                                :[DTS] CRH380B 8Car
+STR_CRH380B_16Car_NAME                               :[DTS] CRH380B 16Car
+STR_CRH380C_16Car_NAME                               :[DTS] CRH380CL 16Car
+STR_CRH380D_8Car_NAME                                :[DTS] CRH380D 8Car
+STR_CRH380D_16Car_NAME                               :[DTS] CRH380D 16Car
 STR_CR400AF_NAME                                     :[DTS] CR400AF-A·B·G
 STR_CR400AF_Z_NAME                                   :[DTS] CR400AF-Z·BZ·C
 STR_CR400BF_NAME                                     :[DTS] CR400BF-A·B·G
@@ -56,15 +60,16 @@ STR_CR400BF_C_NAME                                   :[DTS] CR400BF-C
 STR_CR400BF_Z_NAME                                   :[DTS] CR400BF-Z·BZ·GZ
 STR_HXD3C_NAME                                       :[DTS] HXD3C
 STR_NJ2_NAME                                         :[DTS] NJ2
-STR_AGV_NAME                                         :[DTS] AGV (.italo)
+STR_AGV_11Car_NAME                                   :[DTS] AGV (.italo) 11Car
 STR_BB15000_NAME                                     :[DTS] SNCF BB15000
-STR_Eurostar_E300_NAME                               :[DTS] Eurostar E300
-STR_Eurostar_E320_NAME                               :[DTS] Eurostar E320
-STR_ICE1_NAME                                        :[DTS] ICE1
-STR_ICE2_NAME                                        :[DTS] ICE2
+STR_Eurostar_E300_20Car_NAME                         :[DTS] Eurostar E300 20Car
+STR_Eurostar_E320_16Car_NAME                         :[DTS] Eurostar E320 16Car
+STR_ICE1_14Car_NAME                                  :[DTS] ICE1 14Car
+STR_ICE2_8Car_NAME                                   :[DTS] ICE2 8Car
 STR_ICE3_NAME                                        :[DTS] ICE3
 STR_ICE3V_NAME                                       :[DTS] ICE3 (Velaro D)
-STR_ICE4_NAME                                        :[DTS] ICE4
+STR_ICE4_7Car_NAME                                   :[DTS] ICE4 7Car
+STR_ICE4_12Car_NAME                                  :[DTS] ICE4 12Car
 STR_Renfe_S_100_NAME                                 :[DTS] Renfe AVE S-100
 STR_Renfe_S_102_NAME                                 :[DTS] Renfe AVE S-102
 STR_Renfe_S_103_NAME                                 :[DTS] Renfe AVE S-103
@@ -76,17 +81,18 @@ STR_TGV_La_Poste_NAME                                :[DTS] TGV La Poste
 STR_TGV_Duplex_NAME                                  :[DTS] TGV Duplex
 STR_TGV_Pos_NAME                                     :[DTS] TGV Pos
 STR_TGV_M_NAME                                       :[DTS] TGV M
-STR_Kse2_NAME                                        :[DTS] Keisei AE series
+STR_Kse2_8Car_NAME                                   :[DTS] Keisei AE series 8Car
 STR_Shinkansen_0_12Car_NAME                          :[DTS] Shinkansen 0 12Car
 STR_Shinkansen_0_16Car_NAME                          :[DTS] Shinkansen 0 16Car
 STR_Shinkansen_500_NAME                              :[DTS] Shinkansen 500
-STR_Shinkansen_700_NAME                              :[DTS] Shinkansen 700
-STR_Shinkansen_800_NAME                              :[DTS] Shinkansen 800
-STR_Shinkansen_923_NAME                              :[DTS] Shinkansen 923
-STR_Shinkansen_E2_NAME                               :[DTS] Shinkansen E2
+STR_Shinkansen_700_8Car_NAME                         :[DTS] Shinkansen 700 8Car
+STR_Shinkansen_700_16Car_NAME                        :[DTS] Shinkansen 700 16Car
+STR_Shinkansen_800_6Car_NAME                         :[DTS] Shinkansen 800 6Car
+STR_Shinkansen_923_7Car_NAME                         :[DTS] Shinkansen 923 7Car
+STR_Shinkansen_E2_10Car_NAME                         :[DTS] Shinkansen E2 10Car
 STR_Shinkansen_E5_H5_NAME                            :[DTS] Shinkansen E5·H5
 STR_Shinkansen_E6_NAME                               :[DTS] Shinkansen E6
-STR_Shinkansen_E7_W7_NAME                            :[DTS] Shinkansen E7·W7
+STR_Shinkansen_E7_W7_12Car_NAME                      :[DTS] Shinkansen E7·W7 12Car
 STR_Shinkansen_E8_NAME                               :[DTS] Shinkansen E8
 STR_Shinkansen_N700_NAME                             :[DTS] Shinkansen N700
 STR_Shinkansen_N700S_NAME                            :[DTS] Shinkansen N700S
@@ -101,7 +107,6 @@ STR_NHSRCL_E5_10Car_NAME                             :[DTS] NHSRCL E5 [DTS]
 STR_NSW_TrainLink_D_4Car_NAME                        :[DTS] NSW TrainLink D 4Car
 STR_NSW_TrainLink_D_6Car_NAME                        :[DTS] NSW TrainLink D 6Car
 STR_THSR_700T_12Car_NAME                             :[DTS] THSR 700T 12Car
-STR_WRenfe_S_130_NAME                                :[DTS] Afrosiyob
 STR_Al_Boraq_10Car_NAME                              :[DTS] Al-Boraq 10Car
 STR_Talgo_350_SRO_14Car_NAME                         :[DTS] Talgo 350 SRO 14Car
 STR_Avelia_Liberty_11Car_NAME                        :[DTS] Avelia Liberty 11Car
@@ -131,9 +136,10 @@ STR_Nishitetsu_5000_3Car_NAME                        :[DTS] Nishitetsu 5000 3Car
 STR_Nishitetsu_5000_4Car_NAME                        :[DTS] Nishitetsu 5000 4Car
 STR_Nishitetsu_6000_3Car_NAME                        :[DTS] Nishitetsu 6000 3Car
 STR_Nishitetsu_6000_4Car_NAME                        :[DTS] Nishitetsu 6000 4Car
-STR_Nishitetsu_7000_NAME                             :[DTS] Nishitetsu 7000
-STR_Nishitetsu_8000_NAME                             :[DTS] Nishitetsu 8000
-STR_Nishitetsu_9000_NAME                             :[DTS] Nishitetsu 9000
+STR_Nishitetsu_7000_2Car_NAME                        :[DTS] Nishitetsu 7000 2Car
+STR_Nishitetsu_8000_6Car_NAME                        :[DTS] Nishitetsu 8000 6Car
+STR_Nishitetsu_9000_2Car_NAME                        :[DTS] Nishitetsu 9000 2Car
+STR_Nishitetsu_9000_3Car_NAME                        :[DTS] Nishitetsu 9000 3Car
 
 # wagon's name
 STR_DTS_PASS_NAME                                    :[DTS] only one Color Passenger car
@@ -141,22 +147,16 @@ STR_KTS_SPASS_NAME                                   :[DTS] carriage-type passen
 STR_KTS_SPPASS_NAME                                  :[DTS] Korea carriage-type passenger car
 STR_Generatar_Car_NAME                               :[DTS] Generatar Car
 STR_Luggage_Car_NAME                                 :[DTS] Luggage Car
-STR_CTX_Freight_Car_NAME                             :[DTS] CTX Freight Car
 STR_CTS_SPASS_NAME                                   :[DTS] Chinese carriage-type passenger car
 STR_CGeneratar_Car_NAME                              :[DTS] Chinese Generatar Car
 STR_CLuggage_Car_NAME                                :[DTS] Chinese Luggage Car
 STR_ETS_SPASS_NAME                                   :[DTS] European carriage-type passenger transport vehicle
 STR_TGV_Poste_wagon_NAME                             :[DTS] TGV La Poste Freight Car
 STR_VTS_SPASS_NAME                                   :[DTS] Virtual carriage-type passenger transport vehicle
-STR_YFXF_NAME                                        :[DTS] YFX Freight Car
 STR_FLAT_1F_NAME                                     :[DTS] Flat Car
 STR_FLAT_Tank_NAME                                   :[DTS] Flat Tank Car
 STR_FLAT_2F_NAME                                     :[DTS] Flat Car - American
 STR_KMetro_Pass_NAME                                 :[DTS] Korean Metro Passenger Car
-STR_HKMetro_Pass_NAME                                :[DTS] Hong Kong Metro Passenger Car
-STR_HKMetro_panto_Pass_NAME                          :[DTS] Hong Kong Metro panto Passenger Car
-STR_JMetro_Pass_NAME                                 :[DTS] Japanese Metro Passenger Car
-STR_JMetro_panto_Pass_NAME                           :[DTS] Japanese Metro panto Passenger Car
 STR_EMU_Pass_NAME                                    :[DTS] EMU carriage-type passenger car
 
 # Parameters
@@ -210,16 +210,20 @@ STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}Combined train {RED
 STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Korail_392000                   :{BLACK}Combined train {GREEN}Korail 392000
 STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}Combined train {GREEN}CRH1
-STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}Combined train {GREEN}CRH1E
+STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_CRH1A_A                         :{BLACK}Combined train {GREEN}CRH1A-A
-STR_REFIT_ADDITIONAL_CRH2                            :{BLACK}Combined train {GREEN}CRH2A·B
+STR_REFIT_ADDITIONAL_CRH2A                           :{BLACK}Combined train {GREEN}CRH2A
+STR_REFIT_ADDITIONAL_CRH2B                           :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_CRH2C                           :{BLACK}Combined train {GREEN}CRH2C
 STR_REFIT_ADDITIONAL_CRH3                            :{BLACK}Combined train {GREEN}CRH3C
-STR_REFIT_ADDITIONAL_CRH380A                         :{BLACK}Combined train {GREEN}CRH380A·AL
+STR_REFIT_ADDITIONAL_CRH380A                         :{BLACK}Combined train {GREEN}CRH380A
+STR_REFIT_ADDITIONAL_CRH380AL                        :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_CRH380AJ                        :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_CRH380B                         :{BLACK}Combined train {GREEN}CRH380B·BL·BG
-STR_REFIT_ADDITIONAL_CRH380C                         :{BLACK}Combined train {GREEN}CRH380CL
+STR_REFIT_ADDITIONAL_CRH380BL                        :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_CRH380C                         :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_CRH380D                         :{BLACK}Combined train {GREEN}CRH380D
+STR_REFIT_ADDITIONAL_CRH380D_16Car                   :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_CR400AF                         :{BLACK}Combined train {GREEN}CR400AF-A·B·G
 STR_REFIT_ADDITIONAL_CR400AF_Z                       :{BLACK}Combined train {GREEN}CR400AF-Z·BZ·C
 STR_REFIT_ADDITIONAL_CR400BF                         :{BLACK}Combined train {GREEN}CR400BF-A·B·G
@@ -239,11 +243,12 @@ STR_REFIT_ADDITIONAL_AGV                             :{BLACK}Combined train {RED
 STR_REFIT_ADDITIONAL_BB15000                         :{BLACK}Combined train {GREEN}BB15000
 STR_REFIT_ADDITIONAL_Eurostar_E300                   :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Eurostar_E320                   :{BLACK}Combined train {RED}Unavailable
-STR_REFIT_ADDITIONAL_ICE1                            :{BLACK}Combined train {GREEN}ICE1
+STR_REFIT_ADDITIONAL_ICE1                            :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_ICE2                            :{BLACK}Combined train {GREEN}ICE2
 STR_REFIT_ADDITIONAL_ICE3                            :{BLACK}Combined train {GREEN}ICE3
 STR_REFIT_ADDITIONAL_ICE3V                           :{BLACK}Combined train {GREEN}ICE3 (Velaro D)
-STR_REFIT_ADDITIONAL_ICE4                            :{BLACK}Combined train {GREEN}ICE4
+STR_REFIT_ADDITIONAL_ICE4_7Car                       :{BLACK}Combined train {GREEN}ICE4
+STR_REFIT_ADDITIONAL_ICE4_12Car                      :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Renfe_S_100                     :{BLACK}Combined train {GREEN}Renfe AVE S-100
 STR_REFIT_ADDITIONAL_Renfe_S_102                     :{BLACK}Combined train {GREEN}Renfe AVE S-102
 STR_REFIT_ADDITIONAL_Renfe_S_103                     :{BLACK}Combined train {GREEN}Renfe AVE S-103
@@ -299,7 +304,6 @@ STR_REFIT_train_configuration_SPassenger             :{BLACK}train configuration
 STR_REFIT_train_configuration_SPPassenger            :{BLACK}train configuration: {GREEN}Korea carriage-type Passenger vehicles
 STR_REFIT_train_configuration_Generatar              :{BLACK}train configuration: {GREEN}Generatar vehicles
 STR_REFIT_train_configuration_Luggage                :{BLACK}train configuration: {GREEN}Luggage vehicles
-STR_REFIT_train_configuration_CTX                    :{BLACK}train configuration: {GREEN}CTX Freight vehicles
 STR_REFIT_train_configuration_CSPassenger            :{BLACK}train configuration: {GREEN}Chinese carriage-type Passenger vehicles
 STR_REFIT_train_configuration_CGeneratar             :{BLACK}train configuration: {GREEN}Chinese Generatar vehicles
 STR_REFIT_train_configuration_CLuggage               :{BLACK}train configuration: {GREEN}Chinese Luggage vehicles
@@ -308,12 +312,7 @@ STR_REFIT_train_configuration_TGV_Poste              :{BLACK}train configuration
 STR_REFIT_train_configuration_2F                     :{BLACK}train configuration: {GREEN}2F passenger vehicles
 STR_REFIT_train_configuration_Coach                  :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
 STR_REFIT_train_configuration_Coach_Last             :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
-STR_REFIT_train_configuration_YFX_Freight            :{BLACK}train configuration: {GREEN}YFX Freight Car
 STR_REFIT_train_configuration_KMetro_Passenger       :{BLACK}train configuration: {GREEN}AUTS, Standard Metro
-STR_REFIT_train_configuration_HKMetro_Passenger      :{BLACK}train configuration: {GREEN}MTR
-STR_REFIT_train_configuration_HKMetro_Panto_Passenger:{BLACK}train configuration: {GREEN}MTR
-STR_REFIT_train_configuration_JMetro_Passenger       :{BLACK}train configuration: {GREEN}Nishitetsu
-STR_REFIT_train_configuration_JMetro_Panto_Passenger :{BLACK}train configuration: {GREEN}Nishitetsu
 STR_REFIT_train_configuration_EMU_Passenger          :{BLACK}train configuration: {GREEN}Bicheuro, EMU, GTX, ITX-Saemaeul DD, Nuriro DD
 
 # Liveries
@@ -421,8 +420,6 @@ STR_REFIT_LIVERY_ICE4_red                            :(Red Livery)
 STR_REFIT_LIVERY_ICE4_green                          :(Green Livery)
 STR_REFIT_LIVERY_Shinkansen_0                        :(Original Livery)
 STR_REFIT_LIVERY_Shinkansen_0_renewal                :(Renewal Livery)
-STR_REFIT_LIVERY_700_Original                        :(Original Livery)
-STR_REFIT_LIVERY_700_Railstar                        :(Hikari Rail Star Livery)
 STR_REFIT_LIVERY_N700_Tokaido_Sanyo                  :(Tokaido-Sanyo Shinkansen)
 STR_REFIT_LIVERY_N700_Sanyo_Kyushu                   :(Sanyo-Kyushu Shinkansen)
 STR_REFIT_LIVERY_N700S_Tokaido_Sanyo                 :(Tokaido-Sanyo Shinkansen)
@@ -448,9 +445,6 @@ STR_REFIT_LIVERY_HYEL_100_Ironman                    :(Ironman)
 STR_REFIT_LIVERY_HYEL_100_K_Limousine                :(K Limousine)
 STR_REFIT_LIVERY_HYEL_150                            :(HYEL-150)
 STR_REFIT_LIVERY_HYEL_150_SB                         :(HYEL-150 Sea Livery)
-STR_REFIT_LIVERY_Shinkansen_500_Cool                 :(Shinkansen 500 Cool)
-STR_REFIT_LIVERY_Shinkansen_500_Cool_New             :(Shinkansen 500 Cool New)
-
 
 # Liveries metro
 STR_REFIT_LIVERY_AUTS                                :(AUTS)
@@ -479,8 +473,6 @@ STR_REFIT_LIVERY_Nishitetsu_6000                     :(Nishitetsu 6000)
 STR_REFIT_LIVERY_Nishitetsu_6050                     :(Nishitetsu 6050)
 STR_REFIT_LIVERY_Nishitetsu_7000                     :(Nishitetsu 7000)
 STR_REFIT_LIVERY_Nishitetsu_7050                     :(Nishitetsu 7050)
-STR_REFIT_LIVERY_Nishitetsu_8000                     :(Nishitetsu 8000)
-STR_REFIT_LIVERY_Nishitetsu_9000                     :(Nishitetsu 9000)
 
 # Liveries wagon
 STR_REFIT_LIVERY_Eco_Rail_Passenger_Car              :(Eco Rail Passenger Car)

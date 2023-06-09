@@ -10,15 +10,14 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Shinkansen_E7_W7, 2094){
+item(FEAT_TRAINS, Shinkansen_E7_W7_12Car, 2094){
     property {
-        name:                           string(STR_Shinkansen_E7_W7_NAME);
+        name:                           string(STR_Shinkansen_E7_W7_12Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2014, 3, 15);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          260km/h;
@@ -34,7 +33,7 @@ item(FEAT_TRAINS, Shinkansen_E7_W7, 2094){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 34;
+        cargo_capacity:                 77;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -50,21 +49,13 @@ item(FEAT_TRAINS, Shinkansen_E7_W7, 2094){
         }
     
     graphics {
-        default:                        sw_Shinkansen_E7_W7_engine;
+        default:                        sw_Shinkansen_E7_W7_12car;
+        articulated_part:               sw_articulated_Shinkansen_E7_W7_12car;
         purchase:                       sw_Shinkansen_E7_W7_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         can_attach_wagon:               sw_Shinkansen_E7_W7_wagon_attach;
         additional_text:                string(STR_REFIT_ADDITIONAL_Shinkansen_E7);
-        }
-        
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_Shinkansen_E7_W7_wagon;
-        cargo_capacity:                 sw_Shinkansen_E7_W7_wagon_capacity_in_custom;
-        loading_speed:                  25;
-        running_cost_factor:            150;
-        power:                          1341;
-        weight:                         45;
         }
         }
