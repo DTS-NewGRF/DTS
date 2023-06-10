@@ -25,11 +25,6 @@ switch(FEAT_TRAINS, SELF, sw_ICE3_engineT, cargo_subtype) {
     set_ICE3_R_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ICE3_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: sw_ICE3_engineT;
-    sw_ICE3_engineH;
-}
-
 switch(FEAT_TRAINS, SELF, sw_ICE3_wagon_start, cargo_subtype) {
     1: set_ICE3_G_wagon_start;
     2: set_ICE3M_R_wagon_start;
@@ -70,71 +65,23 @@ switch(FEAT_TRAINS, SELF, sw_ICE3_wagon_bar, cargo_subtype) {
     set_ICE3_R_wagon_bar;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ICE3_8car_wagon, (position_in_consist + 1) % 8) {
-    2: sw_ICE3_wagon_start;
-    3: sw_ICE3_wagon_nomal_r;
-    4: sw_ICE3_wagon_nomal_r;
-    5: sw_ICE3_wagon_bar;
-    6: sw_ICE3_wagon_nomal;
-    7: sw_ICE3_wagon_end;
-    sw_ICE3_wagon_nomal;
-}
+switch (FEAT_TRAINS, SELF, sw_ICE3_8car, position_in_vehid_chain % 8) {
+    1:sw_ICE3_wagon_start;
+    2:sw_ICE3_wagon_nomal;
+    3:sw_ICE3_wagon_nomal;
+    4:sw_ICE3_wagon_bar;
+    5:sw_ICE3_wagon_nomal_r;
+    6:sw_ICE3_wagon_end;
+    7:sw_ICE3_engineT;
+    sw_ICE3_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_ICE3_wagon, num_vehs_in_consist) {
-    3: sw_ICE3_8car_wagon;
-    4: sw_ICE3_8car_wagon;
-    5: sw_ICE3_8car_wagon;
-    6: sw_ICE3_8car_wagon;
-    7: sw_ICE3_8car_wagon;
-    8: sw_ICE3_8car_wagon;
-    sw_ICE3_8car_wagon;
-}
-
-/*--------------------------------------------------------------------
-모델별 무게 차이 구현용 스위치
---------------------------------------------------------------------*/
-
-switch(FEAT_TRAINS, SELF, sw_ICE3_wagon_weight, position_in_consist) {
-    return 50;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE3M_wagon_weight, position_in_consist) {
-    return 56;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE3_weight, cargo_subtype) {
-    0: sw_ICE3_wagon_weight;                                   // ICE3 레드
-    1: sw_ICE3_wagon_weight;                                   // ICE3 그린
-    2: sw_ICE3M_wagon_weight;                                  // ICE3M 레드
-    3: sw_ICE3M_wagon_weight;                                  // ICE3M 그린
-    4: sw_ICE3M_wagon_weight;                                  // ICE3M 블루
-    sw_ICE3_wagon_weight;                   
-}
-
-/*--------------------------------------------------------------------
-모델별 승객 차이 구현용 스위치
---------------------------------------------------------------------*/
-
-switch(FEAT_TRAINS, SELF, sw_ICE3_wagon_capa, position_in_consist) {
-    return 55;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE3M_wagon_capa, position_in_consist) {
-    return 53;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ICE3_capa, cargo_subtype) {
-    0: sw_ICE3_wagon_capa;                                   // ICE3 레드
-    1: sw_ICE3_wagon_capa;                                   // ICE3 그린
-    2: sw_ICE3M_wagon_capa;                                  // ICE3M 레드
-    3: sw_ICE3M_wagon_capa;                                  // ICE3M 그린
-    4: sw_ICE3M_wagon_capa;                                  // ICE3M 블루
-    sw_ICE3_wagon_capa;                   
-}
-
+switch (FEAT_TRAINS, SELF, sw_articulated_ICE3_8car, extra_callback_info1) {
+    1..7: ICE3_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_ICE3_wagon_attach, vehicle_type_id) {
-    ICE3:                   return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    ICE3_8Car:               return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

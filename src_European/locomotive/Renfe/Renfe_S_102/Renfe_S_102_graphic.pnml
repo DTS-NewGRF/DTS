@@ -8,16 +8,12 @@ spriteset(set_Renfe_S_102_purchase, "src_European/locomotive/Renfe/Renfe_S_102/R
 /*--------------------------------------------------------------------
 1. AVE
 --------------------------------------------------------------------*/
-spriteset(set_Renfe_S_102_AVEH_purchase, "src_European/locomotive/Renfe/Renfe_S_102/Renfe_S_102_AVE.png"){
-    tmpl_purchase_for_dualhead(0, 135)
-}
-
 spriteset(set_Renfe_S_102_AVE_engineH, "src_European/locomotive/Renfe/Renfe_S_102/Renfe_S_102_AVE.png"){
     engine(80, 0)
 }
 
 spriteset(set_Renfe_S_102_AVE_wagon_start, "src_European/locomotive/Renfe/Renfe_S_102/Renfe_S_102_AVE.png"){
-    wagon_start(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_Renfe_S_102_AVE_wagon, "src_European/locomotive/Renfe/Renfe_S_102/Renfe_S_102_AVE.png") {
@@ -29,11 +25,11 @@ spriteset(set_Renfe_S_102_AVE_wagon_bar, "src_European/locomotive/Renfe/Renfe_S_
 }
 
 spriteset(set_Renfe_S_102_AVE_wagon_end, "src_European/locomotive/Renfe/Renfe_S_102/Renfe_S_102_AVE.png"){
-    wagon_start(80, 108)
+    wagon_1F_F(80, 108)
 }
 
 spriteset(set_Renfe_S_102_AVE_engineT, "src_European/locomotive/Renfe/Renfe_S_102/Renfe_S_102_AVE.png"){
-    engine_r(80, 135)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------

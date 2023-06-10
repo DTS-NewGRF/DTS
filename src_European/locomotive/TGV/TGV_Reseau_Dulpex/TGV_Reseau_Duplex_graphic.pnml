@@ -8,10 +8,6 @@ spriteset(set_TGV_Reseau_Duplex_purchase, "src_European/locomotive/TGV/TGV_Resea
 /*--------------------------------------------------------------------
 1. TGV Reseau Duplex
 --------------------------------------------------------------------*/
-spriteset(set_TGV_Reseau_DuplexH_purchase, "src_European/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.png"){
-    tmpl_purchase_for_dualhead(0, 162)
-}
-
 spriteset(set_TGV_Reseau_Duplex_engineH, "src_European/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.png"){
     engine(80, 0)
 }
@@ -37,16 +33,12 @@ spriteset(set_TGV_Reseau_Duplex_wagon_end, "src_European/locomotive/TGV/TGV_Rese
 }
 
 spriteset(set_TGV_Reseau_Duplex_engineT, "src_European/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.png"){
-    engine_r(80, 162)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------
 2. TGV Lyair
 --------------------------------------------------------------------*/
-spriteset(set_TGV_Reseau_Duplex_LyairH_purchase, "src_European/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex_Lyair.png"){
-    tmpl_purchase_for_dualhead(0, 162)
-}
-
 spriteset(set_TGV_Reseau_Duplex_Lyair_engineH, "src_European/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex_Lyair.png"){
     engine(80, 0)
 }
@@ -72,7 +64,7 @@ spriteset(set_TGV_Reseau_Duplex_Lyair_wagon_end, "src_European/locomotive/TGV/TG
 }
 
 spriteset(set_TGV_Reseau_Duplex_Lyair_engineT, "src_European/locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex_Lyair.png"){
-    engine_r(80, 162)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------

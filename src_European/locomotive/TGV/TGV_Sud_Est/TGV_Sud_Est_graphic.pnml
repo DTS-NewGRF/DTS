@@ -8,10 +8,6 @@ spriteset(set_TGV_Sud_Est_Orange_purchase, "src_European\locomotive\TGV\TGV_Sud_
 /*--------------------------------------------------------------------
 1. TGV 쉬드-에스트 오렌지
 --------------------------------------------------------------------*/
-spriteset(set_TGV_Sud_Est_OrangeH_purchase, "src_European\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 spriteset(set_TGV_Sud_Est_Orange_engineH, "src_European\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
     engine(80, 0)
 }
@@ -37,16 +33,12 @@ spriteset(set_TGV_Sud_Est_Orange_wagon_end, "src_European\locomotive\TGV\TGV_Sud
 }
 
 spriteset(set_TGV_Sud_Est_Orange_engineT, "src_European\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
-    engine_r(80, 135)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------
 2. TGV 쉬드-에스트 블루&그레이
 --------------------------------------------------------------------*/
-spriteset(set_TGV_Sud_Est_BluegreyH_purchase, "src_European\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_blue.png"){
-    tmpl_purchase_for_dualhead(0, 162)
-}
-
 spriteset(set_TGV_Sud_Est_Bluegrey_engineH, "src_European\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_blue.png"){
     engine(80, 0)
 }
@@ -72,16 +64,12 @@ spriteset(set_TGV_Sud_Est_Bluegrey_wagon_end, "src_European\locomotive\TGV\TGV_S
 }
 
 spriteset(set_TGV_Sud_Est_Bluegrey_engineT, "src_European\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_blue.png"){
-    engine_r(80, 162)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------
 3. TGV 쉬드-에스트 카밀론
 --------------------------------------------------------------------*/
-spriteset(set_TGV_Sud_Est_CarmillonH_purchase, "src_European\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_new.png"){
-    tmpl_purchase_for_dualhead(0, 135)
-}
-
 spriteset(set_TGV_Sud_Est_Carmillon_engineH, "src_European\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_new.png"){
     engine(80, 0)
 }
@@ -107,7 +95,7 @@ spriteset(set_TGV_Sud_Est_Carmillon_wagon_end, "src_European\locomotive\TGV\TGV_
 }
 
 spriteset(set_TGV_Sud_Est_Carmillon_engineT, "src_European\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_new.png"){
-    engine_r(80, 162)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------

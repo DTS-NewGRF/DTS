@@ -33,7 +33,7 @@ item(FEAT_TRAINS, KTX_SC2_10Car, 2025){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 1;
+        cargo_capacity:                 116;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -55,9 +55,7 @@ item(FEAT_TRAINS, KTX_SC2_10Car, 2025){
         speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
-        running_cost_factor:            150;
-        cargo_capacity:                 116;
-        purchase_cargo_capacity:        0;                 
+        running_cost_factor:            150;              
         can_attach_wagon:               sw_KTX_SC2_wagon_attach;
         cargo_subtype_text:             sw_KTX_SC2_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_KTX_SC2);

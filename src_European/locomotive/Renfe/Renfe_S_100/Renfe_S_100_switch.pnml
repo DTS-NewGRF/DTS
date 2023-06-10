@@ -26,29 +26,14 @@ switch(FEAT_TRAINS, SELF, sw_Renfe_S_100_wagon_start, cargo_subtype) {
     set_Renfe_S_100_wagon_start;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_100_old_wagon_middle, (position_in_consist)) {
-    1: set_Renfe_S_100_wagon_r;
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_100_wagon, cargo_subtype) {
+    1: set_Renfe_S_100_new_wagon;
     set_Renfe_S_100_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_100_new_wagon_middle, (position_in_consist)) {
-    1: set_Renfe_S_100_new_wagon_r;
-    set_Renfe_S_100_new_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_100_wagon_middle, cargo_subtype) {
-    1: sw_Renfe_S_100_new_wagon_middle;
-    sw_Renfe_S_100_old_wagon_middle;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_100_wagon_bar_middle, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Renfe_S_100_wagon_bar, cargo_subtype) {
     1: set_Renfe_S_100_new_wagon_bar;
     set_Renfe_S_100_wagon_bar;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_100_wagon_bar, (position_in_consist %5) + 1) {
-    1: sw_Renfe_S_100_wagon_bar_middle;
-    sw_Renfe_S_100_wagon_middle;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_100_wagon_end, cargo_subtype) {
@@ -56,18 +41,25 @@ switch(FEAT_TRAINS, SELF, sw_Renfe_S_100_wagon_end, cargo_subtype) {
     set_Renfe_S_100_wagon_end;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_100_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    Renfe_S_100: sw_Renfe_S_100_wagon_end;
-    sw_Renfe_S_100_wagon_bar;
-}
+switch (FEAT_TRAINS, SELF, sw_Renfe_S_100_10car, position_in_vehid_chain % 10) {
+    1:sw_Renfe_S_100_wagon_start;
+    2:sw_Renfe_S_100_wagon;
+    3:sw_Renfe_S_100_wagon;
+    4:sw_Renfe_S_100_wagon;
+    5:sw_Renfe_S_100_wagon_bar;
+    6:sw_Renfe_S_100_wagon;
+    7:sw_Renfe_S_100_wagon;
+    8:sw_Renfe_S_100_wagon_end;
+    9:sw_Renfe_S_100_engineT;
+    sw_Renfe_S_100_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_100_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Renfe_S_100: sw_Renfe_S_100_wagon_start;
-    sw_Renfe_S_100_wagon_rear;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_Renfe_S_100_10car, extra_callback_info1) {
+    1..9: Renfe_S_100_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_Renfe_S_100_wagon_attach, vehicle_type_id) {
-    Renfe_S_100:            return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    Renfe_S_100_10Car:       return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

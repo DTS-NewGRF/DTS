@@ -34,7 +34,7 @@ item(FEAT_TRAINS, HYEL_400_8Car, 2111){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 0;
+        cargo_capacity:                 140;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -54,7 +54,6 @@ item(FEAT_TRAINS, HYEL_400_8Car, 2111){
         articulated_part:               sw_articulated_HYEL_400_8car;
         purchase:                       sw_HYEL_400_purchase;
         cost_factor:                    10;
-        cargo_capacity:                 140;
         loading_speed:                  25;
         running_cost_factor:            150;
         can_attach_wagon:               sw_HYEL_400_wagon_attach;

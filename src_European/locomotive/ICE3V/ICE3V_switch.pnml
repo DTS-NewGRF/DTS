@@ -16,11 +16,6 @@ switch(FEAT_TRAINS, SELF, sw_ICE3V_engineT, cargo_subtype) {
     set_ICE3V_R_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ICE3V_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: sw_ICE3V_engineT;
-    sw_ICE3V_engineH;
-}
-
 switch(FEAT_TRAINS, SELF, sw_ICE3V_wagon_panto, cargo_subtype) {
     1: set_ICE3V_G_wagon_panto;
     set_ICE3V_R_wagon_panto;
@@ -41,28 +36,23 @@ switch(FEAT_TRAINS, SELF, sw_ICE3V_wagon_S, cargo_subtype) {
     set_ICE3V_R_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ICE3V_8car_wagon, (position_in_consist + 1) % 8) {
-    2: sw_ICE3V_wagon_panto;
-    3: sw_ICE3V_wagon_S;
-    4: sw_ICE3V_wagon_panto;
-    5: sw_ICE3V_wagon_panto;
-    6: sw_ICE3V_wagon_L;
-    7: sw_ICE3V_wagon_panto_r;
-    sw_ICE3V_wagon_L;
-}
+switch (FEAT_TRAINS, SELF, sw_ICE3V_8car, position_in_vehid_chain % 8) {
+    1:sw_ICE3V_wagon_panto;
+    2:sw_ICE3V_wagon_S;
+    3:sw_ICE3V_wagon_panto;
+    4:sw_ICE3V_wagon_panto;
+    5:sw_ICE3V_wagon_L;
+    6:sw_ICE3V_wagon_panto_r;
+    7:sw_ICE3_engineT;
+    sw_ICE3V_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_ICE3V_wagon, num_vehs_in_consist) {
-    3: sw_ICE3V_8car_wagon;
-    4: sw_ICE3V_8car_wagon;
-    5: sw_ICE3V_8car_wagon;
-    6: sw_ICE3V_8car_wagon;
-    7: sw_ICE3V_8car_wagon;
-    8: sw_ICE3V_8car_wagon;
-    sw_ICE3V_8car_wagon;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_ICE3V_8car, extra_callback_info1) {
+    1..7: ICE3V_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_ICE3V_wagon_attach, vehicle_type_id) {
-    ICE3V:                   return CB_RESULT_ATTACH_ALLOW;
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    ICE3V_8Car:              return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

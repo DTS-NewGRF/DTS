@@ -8,25 +8,16 @@ spriteset(set_Renfe_S_100_purchase, "src_European/locomotive/Renfe/Renfe_S_100/R
 /*--------------------------------------------------------------------
 1. Renfe AVE S-100 Old
 --------------------------------------------------------------------*/
-
-spriteset(set_Renfe_S_100H_purchase, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100.png"){
-    tmpl_purchase_for_dualhead(0, 135)
-}
-
 spriteset(set_Renfe_S_100_engineH, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100.png"){
     engine(80, 0)
 }
 
 spriteset(set_Renfe_S_100_wagon_start, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100.png"){
-    wagon_start(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_Renfe_S_100_wagon, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_Renfe_S_100_wagon_r, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_Renfe_S_100_wagon_bar, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100.png") {
@@ -34,35 +25,26 @@ spriteset(set_Renfe_S_100_wagon_bar, "src_European/locomotive/Renfe/Renfe_S_100/
 }
 
 spriteset(set_Renfe_S_100_wagon_end, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100.png"){
-    wagon_start(80, 108)
+    wagon_1F_F(80, 108)
 }
 
 spriteset(set_Renfe_S_100_engineT, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100.png"){
-    engine_r(80, 135)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------
 2. Renfe AVE S-100 New
 --------------------------------------------------------------------*/
-
-spriteset(set_Renfe_S_100_newH_purchase, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100_new.png"){
-    tmpl_purchase_for_dualhead(0, 135)
-}
-
 spriteset(set_Renfe_S_100_new_engineH, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100_new.png"){
     engine(80, 0)
 }
 
 spriteset(set_Renfe_S_100_new_wagon_start, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100_new.png"){
-    wagon_start(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_Renfe_S_100_new_wagon, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100_new.png") {
-    wagon_1F(80, 54)
-}
-
-spriteset(set_Renfe_S_100_new_wagon_r, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100_new.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_Renfe_S_100_new_wagon_bar, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100_new.png") {
@@ -70,11 +52,11 @@ spriteset(set_Renfe_S_100_new_wagon_bar, "src_European/locomotive/Renfe/Renfe_S_
 }
 
 spriteset(set_Renfe_S_100_new_wagon_end, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100_new.png"){
-    wagon_start(80, 108)
+    wagon_1F_F(80, 108)
 }
 
 spriteset(set_Renfe_S_100_new_engineT, "src_European/locomotive/Renfe/Renfe_S_100/Renfe_S_100_new.png"){
-    engine_r(80, 135)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------

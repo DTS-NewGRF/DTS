@@ -10,15 +10,14 @@ CR400BF_C
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CR400BF_C, 2048){
+item(FEAT_TRAINS, CR400BF_C_8Car, 2048){
     property {
-        name:                           string(STR_CR400BF_C_NAME);
+        name:                           string(STR_CR400BF_C_8Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2019, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          420km/h;
@@ -33,7 +32,7 @@ item(FEAT_TRAINS, CR400BF_C, 2048){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 45;
+        cargo_capacity:                 79;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -49,7 +48,8 @@ item(FEAT_TRAINS, CR400BF_C, 2048){
         }
         
     graphics {
-        default:                        sw_CR400BF_C_engine;
+        default:                        sw_CR400BF_C_8car;
+        articulated_part:               sw_articulated_CR400BF_C_8car;
         purchase:                       sw_CR400BF_C_purchase;
         speed:                          High_Speed_Train_430;
         loading_speed:                  25;
@@ -58,13 +58,5 @@ item(FEAT_TRAINS, CR400BF_C, 2048){
         can_attach_wagon:               sw_CR400BF_C_wagon_attach;
         cargo_subtype_text:             sw_CR400BF_C_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_CR400BF_C);
-        }
-        
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_CR400BF_C_wagon;
-        cargo_subtype_text:             sw_CR400BF_C_cargo_subtype_text;
-        cargo_capacity:                 90;
-        loading_speed:                  25;
-        running_cost_factor:            150;
         }
         }

@@ -8,11 +8,6 @@ spriteset(set_ICE3V_purchase, "src_European/locomotive/ICE3V/ICE3V_R.png"){
 /*--------------------------------------------------------------------
 1. ICE 3V Red,
 --------------------------------------------------------------------*/
-
-spriteset(set_ICE3V_R_purchase, "src_European/locomotive/ICE3V/ICE3V_R.png"){
-    tmpl_purchase(0, 0)
-}
-
 spriteset(set_ICE3V_R_engineH, "src_European/locomotive/ICE3V/ICE3V_R.png"){
     ICEengine(80, 0)
 }
@@ -34,16 +29,12 @@ spriteset(set_ICE3V_R_wagon, "src_European/locomotive/ICE3V/ICE3V_R.png") {
 }
 
 spriteset(set_ICE3V_R_engineT, "src_European/locomotive/ICE3V/ICE3V_R.png"){
-    ICEengine_r(80, 120)
+    ICEengine(80, 120)
 }
 
 /*--------------------------------------------------------------------
 2. ICE 3V Green,
 --------------------------------------------------------------------*/
-spriteset(set_ICE3V_G_purchase, "src_European/locomotive/ICE3V/ICE3V_G.png"){
-    tmpl_purchase(0, 0)
-}
-
 spriteset(set_ICE3V_G_engineH, "src_European/locomotive/ICE3V/ICE3V_G.png"){
     ICEengine(80, 0)
 }
@@ -65,7 +56,7 @@ spriteset(set_ICE3V_G_wagon, "src_European/locomotive/ICE3V/ICE3V_G.png") {
 }
 
 spriteset(set_ICE3V_G_engineT, "src_European/locomotive/ICE3V/ICE3V_G.png"){
-    ICEengine_r(80, 120)
+    ICEengine(80, 120)
 }
 
 /*--------------------------------------------------------------------

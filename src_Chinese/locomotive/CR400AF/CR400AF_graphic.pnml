@@ -5,32 +5,24 @@ spriteset(set_CR400AF_purchase, "src_Chinese/locomotive/CR400AF/CR400AF.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_CR400AFH_purchase, "src_Chinese/locomotive/CR400AF/CR400AF.png"){
-    tmpl_purchase_for_dualhead(0, 108)
-}
-
 spriteset(set_CR400AF_engineH, "src_Chinese/locomotive/CR400AF/CR400AF.png"){
     engine(80, 0)
 }
 
-spriteset(set_CR400AF_wagon_start, "src_Chinese/locomotive/CR400AF/CR400AF.png"){
-    wagon_start(80, 27)
+spriteset(set_CR400AF_panto_wagon, "src_Chinese/locomotive/CR400AF/CR400AF.png"){
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_CR400AF_wagon, "src_Chinese/locomotive/CR400AF/CR400AF.png") {
-    wagon_1F(80, 54)
+    wagon_1F_F(80, 54)
 }
 
-spriteset(set_CR400AF_wagon_r, "src_Chinese/locomotive/CR400AF/CR400AF.png") {
-    wagon_1F_r(80, 54)
-}
-
-spriteset(set_CR400AF_wagon_end, "src_Chinese/locomotive/CR400AF/CR400AF.png"){
-    wagon_start(80, 81)
+spriteset(set_CR400AF_panto_wagon_r, "src_Chinese/locomotive/CR400AF/CR400AF.png"){
+    wagon_1F_F(80, 81)
 }
 
 spriteset(set_CR400AF_engineT, "src_Chinese/locomotive/CR400AF/CR400AF.png"){
-    engine_r(80, 108)
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------

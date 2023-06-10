@@ -110,24 +110,28 @@ sort(FEAT_TRAINS, [
     AGV_11Car,                     //2063
     Eurostar_E300_20Car,           //2065
     Eurostar_E320_16Car,           //2066
-    ICE3,                          //2069
-    ICE3V,                         //2070
-    Renfe_S_100,                   //2072
-    Renfe_S_102,                   //2073
-    Renfe_S_103,                   //2074
-    TGV_Duplex,                    //2076
-    TGV_Pos,                       //2077
-    TGV_Sud_Est,                   //2078
-    TGV_Reseau_Duplex,             //2079
-    TGV_AR,                        //2080
-    TGV_La_Poste,                  //2081
-    TGV_M,                         //2082
-    Shinkansen_500,                //2086
-    Shinkansen_N700,               //2089
-    Shinkansen_N700_S,             //2090
-    Shinkansen_E5_H5,              //2092
-    Shinkansen_E6,                 //2093
-    Shinkansen_E8,                 //2095
+    ICE3_8Car,                     //2069
+    ICE3V_8Car,                    //2070
+    Renfe_S_100_10Car,             //2072
+    Renfe_S_102_14Car,             //2073
+    Renfe_S_103_8Car,              //2074
+    TGV_Duplex_10Car,              //2076
+    TGV_Pos_10Car,                 //2077
+    TGV_Sud_Est_10Car,             //2078
+    TGV_Reseau_Duplex_10Car,       //2079
+    TGV_A_12Car,                   //2080
+    TGV_R_10Car,                   //2154
+    TGV_La_Poste_10Car,            //2081
+    TGV_M_10Car,                   //2082
+    Shinkansen_500_8Car,           //2086
+    Shinkansen_500_16Car,          //2062
+    Shinkansen_N700_8Car,          //2089
+    Shinkansen_N700_16Car,         //2155
+    Shinkansen_N700_S_8Car,        //2090
+    Shinkansen_N700_S_16Car,       //2156
+    Shinkansen_E5_H5_10Car,        //2092
+    Shinkansen_E6_7Car,            //2093
+    Shinkansen_E8_7Car,            //2095
     NHSRCL_E5_10Car,               //2116
     THSR_700T_12Car,               //2118
     Al_Boraq_10Car,                //2120
@@ -137,11 +141,17 @@ sort(FEAT_TRAINS, [
     //고속열차 430
     HEMU_430X_6Car,                //2028
     HEMU_430X_8Car,                //2127
-    CR400AF,                       //2045
-    CR400AF_Z,                     //2046
-    CR400BF,                       //2047
-    CR400BF_C,                     //2048
-    CR400BF_Z,                     //2049
+    CR400AF_8Car,                  //2045
+    CR400AF_16Car,                 //2148
+    CR400AF_17Car,                 //2149
+    CR400AF_Z_8Car,                //2046
+    CR400AF_Z_17Car,               //2150
+    CR400BF_8Car,                  //2047
+    CR400BF_16Car,                 //2151
+    CR400BF_17Car,                 //2152
+    CR400BF_C_8Car,                //2048
+    CR400BF_Z_8Car,                //2049
+    CR400BF_Z_17Car,               //2153
     HYEL_400_8Car,                 //2111
 
     //고속열차 600
@@ -152,7 +162,6 @@ sort(FEAT_TRAINS, [
     DFX_10Car,                     //2112
 
     //객차
-    DTS_Passenger_Car,             //2001
     KMetro_Pass,                   //2030
     EMU_Pass,                      //2124
     Coach_2F,                      //2106
@@ -164,7 +173,6 @@ sort(FEAT_TRAINS, [
     CGeneratar_Car,                //2032
     Luggage_Car,                   //2004
     CLuggage_Car,                  //2033
-    TGV_Poste_wagon,               //2062
     FLAT_1F,                       //2129
     FLAT_2F,                       //2114
     FLAT_TANK,                     //2130

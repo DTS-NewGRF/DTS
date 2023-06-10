@@ -8,17 +8,16 @@
 #include "Shinkansen_N700_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보
+열차정보 8량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Shinkansen_N700, 2089){
+item(FEAT_TRAINS, Shinkansen_N700_8Car, 2089){
     property {
-        name:                           string(STR_Shinkansen_N700_NAME);
+        name:                           string(STR_Shinkansen_N700_8Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2007, 7, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
         
         //spec
         speed:                          300km/h;
@@ -50,7 +49,8 @@ item(FEAT_TRAINS, Shinkansen_N700, 2089){
         }
     
 	graphics {
-        default:                        sw_Shinkansen_N700_engine;
+        default:                        sw_Shinkansen_N700_8car;
+        articulated_part:               sw_articulated_Shinkansen_N700_8car;
         purchase:                       sw_Shinkansen_N700_purchase;
         speed:                          High_Speed_Train;
         loading_speed:                  25;
@@ -60,14 +60,59 @@ item(FEAT_TRAINS, Shinkansen_N700, 2089){
         cargo_subtype_text:             sw_N700_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_Shinkansen_N700);
         }
+        }
 
-    livery_override(DTS_Passenger_Car) {
-        default:                        sw_Shinkansen_N700_wagon;
-        cargo_subtype_text:             sw_N700_cargo_subtype_text;
+/*--------------------------------------------------------------------
+열차정보 16량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Shinkansen_N700_16Car, 2155){
+    property {
+        name:                           string(STR_Shinkansen_N700_16Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2007, 7, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        
+        //spec
+        speed:                          300km/h;
+        power:                          2135 kW;
+        weight:                         44 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   20;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
         cargo_capacity:                 82;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+    
+	graphics {
+        default:                        sw_Shinkansen_N700_16car;
+        articulated_part:               sw_articulated_Shinkansen_N700_16car;
+        purchase:                       sw_Shinkansen_N700_purchase;
+        speed:                          High_Speed_Train;
         loading_speed:                  25;
-        running_cost_factor:            100;
-        power:                          1431;
-        weight:                         44;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_Shinkansen_N700_wagon_attach;
+        cargo_subtype_text:             sw_N700_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Shinkansen_N700);
         }
         }

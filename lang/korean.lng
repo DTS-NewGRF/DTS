@@ -53,11 +53,17 @@ STR_CRH380B_16Car_NAME                               :[16량] CRH380BL [DTS]
 STR_CRH380C_16Car_NAME                               :[16량] CRH380CL [DTS]
 STR_CRH380D_8Car_NAME                                :[8량] CRH380D [DTS]
 STR_CRH380D_16Car_NAME                               :[16량] CRH380D [DTS]
-STR_CR400AF_NAME                                     :[DTS] CR400AF-A·B·G
-STR_CR400AF_Z_NAME                                   :[DTS] CR400AF-Z·BZ·C
-STR_CR400BF_NAME                                     :[DTS] CR400BF-A·B·G
-STR_CR400BF_C_NAME                                   :[DTS] CR400BF-C
-STR_CR400BF_Z_NAME                                   :[DTS] CR400BF-Z·BZ·GZ
+STR_CR400AF_8Car_NAME                                :[8량] CR400AF [DTS]
+STR_CR400AF_16Car_NAME                               :[16량] CR400AF [DTS]
+STR_CR400AF_17Car_NAME                               :[17량] CR400AF [DTS]
+STR_CR400AF_Z_8Car_NAME                              :[8량] CR400AF-Z [DTS]
+STR_CR400AF_Z_17Car_NAME                             :[17량] CR400AF-Z [DTS]
+STR_CR400BF_8Car_NAME                                :[8량] CR400BF [DTS]
+STR_CR400BF_16Car_NAME                               :[16량] CR400BF [DTS]
+STR_CR400BF_17Car_NAME                               :[17량] CR400BF [DTS]
+STR_CR400BF_C_8Car_NAME                              :[8량] CR400BF-C [DTS]
+STR_CR400BF_Z_8Car_NAME                              :[8량] CR400BF-Z [DTS]
+STR_CR400BF_Z_17Car_NAME                             :[17량] CR400BF-Z [DTS]
 STR_HXD3C_NAME                                       :[단량] HXD3C [DTS]
 STR_NJ2_NAME                                         :[단량] NJ2 [DTS]
 STR_AGV_11Car_NAME                                   :[11량] AGV (이탈로) [DTS]
@@ -66,36 +72,40 @@ STR_Eurostar_E300_20Car_NAME                         :[20량] 유로스타 E300 
 STR_Eurostar_E320_16Car_NAME                         :[16량] 유로스타 E320 [DTS]
 STR_ICE1_14Car_NAME                                  :[14량] ICE1 [DTS]
 STR_ICE2_8Car_NAME                                   :[8량] ICE2 [DTS]
-STR_ICE3_NAME                                        :[DTS] ICE3
-STR_ICE3V_NAME                                       :[DTS] ICE3 (벨라로 D)
+STR_ICE3_8Car_NAME                                   :[8량] ICE3 [DTS]
+STR_ICE3V_8Car_NAME                                  :[8량] ICE3 (벨라로 D) [DTS]
 STR_ICE4_7Car_NAME                                   :[7량] ICE4 [DTS]
 STR_ICE4_12Car_NAME                                  :[12량] ICE4 [DTS]
-STR_Renfe_S_100_NAME                                 :[DTS] 렌페 AVE S-100
-STR_Renfe_S_102_NAME                                 :[DTS] 렌페 AVE S-102
-STR_Renfe_S_103_NAME                                 :[DTS] 렌페 AVE S-103
+STR_Renfe_S_100_10Car_NAME                           :[10량] 렌페 AVE S-100 [DTS]
+STR_Renfe_S_102_14Car_NAME                           :[14량] 렌페 AVE S-102 [DTS]
+STR_Renfe_S_103_8Car_NAME                            :[8량] 렌페 AVE S-103 [DTS]
 STR_Renfe_S_130_13Car_NAME                           :[13량] 렌페 S-130 [DTS]
-STR_TGV_Sud_Est_NAME                                 :[DTS] TGV 쉬드-에스트
-STR_TGV_AR_NAME                                      :[DTS] TGV 아틀랑티크·레조
-STR_TGV_Reseau_Duplex_NAME                           :[DTS] TGV 레조 듀플렉스
-STR_TGV_La_Poste_NAME                                :[DTS] TGV 라포스트
-STR_TGV_Duplex_NAME                                  :[DTS] TGV 듀플렉스
-STR_TGV_Pos_NAME                                     :[DTS] TGV 포스
-STR_TGV_M_NAME                                       :[DTS] TGV M
+STR_TGV_Sud_Est_10Car_NAME                           :[10량] TGV 쉬드-에스트
+STR_TGV_A_12Car_NAME                                 :[12량] TGV 아틀랑티크 [DTS]
+STR_TGV_R_10Car_NAME                                 :[10량] TGV 레조 [DTS]
+STR_TGV_Reseau_Duplex_10Car_NAME                     :[10량] TGV 레조 듀플렉스 [DTS]
+STR_TGV_La_Poste_10Car_NAME                          :[10량] TGV 라포스트
+STR_TGV_Duplex_10Car_NAME                            :[10량] TGV 듀플렉스 [DTS]
+STR_TGV_Pos_10Car_NAME                               :[10량] TGV 포스 [DTS]
+STR_TGV_M_10Car_NAME                                 :[10량] TGV M [DTS]
 STR_Kse2_8Car_NAME                                   :[8량] 케이세이 AE형 2세대 [DTS]
 STR_Shinkansen_0_12Car_NAME                          :[12량] 신칸센 0계 12량 [DTS]
 STR_Shinkansen_0_16Car_NAME                          :[16량] 신칸센 0계 16량 [DTS]
-STR_Shinkansen_500_NAME                              :[DTS] 신칸센 500계
+STR_Shinkansen_500_8Car_NAME                         :[8량] 신칸센 500계 [DTS]
+STR_Shinkansen_500_16Car_NAME                        :[16량] 신칸센 500계 [DTS]
 STR_Shinkansen_700_8Car_NAME                         :[8량] 신칸센 700계 [DTS]
 STR_Shinkansen_700_16Car_NAME                        :[16량] 신칸센 700계 [DTS]
 STR_Shinkansen_800_6Car_NAME                         :[6량] 신칸센 800계 [DTS]
 STR_Shinkansen_923_7Car_NAME                         :[7량] 신칸센 923형 (닥터 옐로우) [DTS]
 STR_Shinkansen_E2_10Car_NAME                         :[10량] 신칸센 E2계 [DTS]
-STR_Shinkansen_E5_H5_NAME                            :[DTS] 신칸센 E5·H5계 
-STR_Shinkansen_E6_NAME                               :[DTS] 신칸센 E6계
+STR_Shinkansen_E5_H5_10Car_NAME                      :[10량] 신칸센 E5·H5계 [DTS]
+STR_Shinkansen_E6_7Car_NAME                          :[7량] 신칸센 E6계 [DTS]
 STR_Shinkansen_E7_W7_12Car_NAME                      :[12량] 신칸센 E7·W7계 [DTS]
-STR_Shinkansen_E8_NAME                               :[DTS] 신칸센 E8계
-STR_Shinkansen_N700_NAME                             :[DTS] 신칸센 N700계
-STR_Shinkansen_N700S_NAME                            :[DTS] 신칸센 N700S계
+STR_Shinkansen_E8_7Car_NAME                          :[7량] 신칸센 E8계 [DTS]
+STR_Shinkansen_N700_8Car_NAME                        :[8량] 신칸센 N700계 [DTS]
+STR_Shinkansen_N700_16Car_NAME                       :[16량] 신칸센 N700계 [DTS]
+STR_Shinkansen_N700S_8Car_NAME                       :[8량] 신칸센 N700S계 [DTS]
+STR_Shinkansen_N700S_16Car_NAME                      :[16량] 신칸센 N700S계 [DTS]
 STR_HYEL_15_NAME                                     :[단량] HYEL-15 [DTS]
 STR_HYEL_100_NAME                                    :[단량] HYEL-100 [DTS]
 STR_HYEL_150_NAME                                    :[단량] HYEL-150 [DTS]
@@ -142,7 +152,6 @@ STR_Nishitetsu_9000_2Car_NAME                        :[2량] 니시테츠 9000�
 STR_Nishitetsu_9000_3Car_NAME                        :[3량] 니시테츠 9000형 [DTS]
 
 # wagon's name
-STR_DTS_PASS_NAME                                    :[DTS] 단편도색 승객 차량/추후 제거 예정
 STR_KTS_SPASS_NAME                                   :[기관차연결] 관광열차 객차 차량 [DTS]
 STR_KTS_SPPASS_NAME                                  :[기관차연결] 한국 객차 차량 [DTS]
 STR_Generatar_Car_NAME                               :[기관차연결] 한국 발전차 [DTS]
@@ -224,11 +233,15 @@ STR_REFIT_ADDITIONAL_CRH380BL                        :{BLACK}복합열차구성 
 STR_REFIT_ADDITIONAL_CRH380C                         :{BLACK}복합가능열차 {RED}불가능
 STR_REFIT_ADDITIONAL_CRH380D                         :{BLACK}복합가능열차 {GREEN}CRH380D
 STR_REFIT_ADDITIONAL_CRH380D_16Car                   :{BLACK}복합가능열차 {RED}불가능
-STR_REFIT_ADDITIONAL_CR400AF                         :{BLACK}복합가능열차 {GREEN}CR400AF-A·B·G
+STR_REFIT_ADDITIONAL_CR400AF                         :{BLACK}복합가능열차 {GREEN}CR400AF, CR400BF
+STR_REFIT_ADDITIONAL_CR400AF_16Car                   :{BLACK}복합가능열차 {RED}불가능
 STR_REFIT_ADDITIONAL_CR400AF_Z                       :{BLACK}복합가능열차 {GREEN}CR400AF-Z·BZ·C
-STR_REFIT_ADDITIONAL_CR400BF                         :{BLACK}복합가능열차 {GREEN}CR400BF-A·B·G
+STR_REFIT_ADDITIONAL_CR400AF_Z_17Car                 :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_CR400BF                         :{BLACK}복합가능열차 {GREEN}CR400AF, CR400BF
+STR_REFIT_ADDITIONAL_CR400BF_16Car                   :{BLACK}복합가능열차 {RED}불가능
 STR_REFIT_ADDITIONAL_CR400BF_C                       :{BLACK}복합가능열차 {GREEN}CR400BF-C
 STR_REFIT_ADDITIONAL_CR400BF_Z                       :{BLACK}복합가능열차 {GREEN}CR400BF-Z·BZ·GZ
+STR_REFIT_ADDITIONAL_CR400BF_Z_17Car                 :{BLACK}복합가능열차 {RED}불가능
 STR_REFIT_ADDITIONAL_HXD3C                           :{BLACK}복합가능열차 {GREEN}HXD3C
 STR_REFIT_ADDITIONAL_NJ2                             :{BLACK}복합가능열차 {GREEN}NJ2
 STR_REFIT_ADDITIONAL_MTR_AD_Tranz_CAF_A              :{BLACK}복합열차구성 {RED}불가능
@@ -253,12 +266,12 @@ STR_REFIT_ADDITIONAL_Renfe_S_100                     :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_Renfe_S_102                     :{BLACK}복합가능열차 {GREEN}렌페 AVE S-102
 STR_REFIT_ADDITIONAL_Renfe_S_103                     :{BLACK}복합가능열차 {GREEN}렌페 AVE S-103
 STR_REFIT_ADDITIONAL_Renfe_S_130                     :{BLACK}복합가능열차 {GREEN}렌페 Alvia S-130
-STR_REFIT_ADDITIONAL_TGV_Duplex                      :{BLACK}복합가능열차 {GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
-STR_REFIT_ADDITIONAL_TGV_Sud_Est                     :{BLACK}복합가능열차 {GREEN}TGV 쉬드-에스트
-STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex               :{BLACK}복합가능열차 {GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
-STR_REFIT_ADDITIONAL_TGV_AR                          :{BLACK}복합가능열차 {GREEN}TGV 아틀랑티크·레조, TGV 포스
-STR_REFIT_ADDITIONAL_TGV_La_Poste                    :{BLACK}복합가능열차 {GREEN}TGV 라포스트
-STR_REFIT_ADDITIONAL_TGV_Pos                         :{BLACK}복합가능열차 {GREEN}TGV 아틀랑티크·레조, TGV 포스
+STR_REFIT_ADDITIONAL_TGV_Duplex                      :{BLACK}복합가능열차 {GREEN}TGV
+STR_REFIT_ADDITIONAL_TGV_Sud_Est                     :{BLACK}복합가능열차 {GREEN}TGV
+STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex               :{BLACK}복합가능열차 {GREEN}TGV
+STR_REFIT_ADDITIONAL_TGV_AR                          :{BLACK}복합가능열차 {GREEN}TGV
+STR_REFIT_ADDITIONAL_TGV_La_Poste                    :{BLACK}복합가능열차 {GREEN}TGV
+STR_REFIT_ADDITIONAL_TGV_Pos                         :{BLACK}복합가능열차 {GREEN}TGV
 STR_REFIT_ADDITIONAL_TGV_M                           :{BLACK}복합가능열차 {GREEN}TGV M
 STR_REFIT_ADDITIONAL_Kse2                            :{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_Shinkansen_0                    :{BLACK}복합열차구성 {RED}불가능
@@ -298,7 +311,6 @@ STR_REFIT_ADDITIONAL_Glory600                        :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_HMX                             :{BLACK}복합가능열차 {GREEN}HMX
 STR_REFIT_ADDITIONAL_NKX                             :{BLACK}복합가능열차 {GREEN}NKX
 
-STR_REFIT_train_configuration_Passenger              :{BLACK}열차구성: {GREEN}단편 도색 승객 차량용 / 추후 제거 예정
 STR_REFIT_train_configuration_SPassenger             :{BLACK}열차구성: {GREEN}[기관차연결] 관광열차 객차
 STR_REFIT_train_configuration_SPPassenger            :{BLACK}열차구성: {GREEN}[기관차연결] 한국형 객차
 STR_REFIT_train_configuration_Generatar              :{BLACK}열차구성: {GREEN}[기관차연결] 한국형 발전차
@@ -324,12 +336,8 @@ STR_REFIT_LIVERY_GTX                                 :(GTX)
 STR_REFIT_LIVERY_Bicheuro_DD                         :(비츠로 DD)
 STR_REFIT_LIVERY_BicheuroA_DD                        :(비츠로 DD A)
 STR_REFIT_LIVERY_BicheuroB_DD                        :(비츠로 DD B)
-STR_REFIT_LIVERY_NRT2_Old_B                          :(누리로 DD 구도색 파랑)
-STR_REFIT_LIVERY_NRT2_Old_G                          :(누리로 DD 구도색 녹색)
-STR_REFIT_LIVERY_NRT2_Old_W                          :(누리로 DD 구도색 흰색)
-STR_REFIT_LIVERY_NRT2_New_B                          :(누리로 DD 신도색 파랑)
-STR_REFIT_LIVERY_NRT2_New_G                          :(누리로 DD 신도색 녹색)
-STR_REFIT_LIVERY_NRT2_New_W                          :(누리로 DD 신도색 흰색)
+STR_REFIT_LIVERY_NRT2_Old_C                          :(누리로 DD 구도색 회사색상)
+STR_REFIT_LIVERY_NRT2_New_C                          :(누리로 DD 신도색 회사색상)
 STR_REFIT_LIVERY_NRT2_Old_OT                         :(누리로 DD O-train 도색)
 STR_REFIT_LIVERY_NRT2_New_ITX                        :(누리로 DD ITX 도색)
 STR_REFIT_LIVERY_ITX_SM2_C                           :(ITX-새마을 DD 회사색상)

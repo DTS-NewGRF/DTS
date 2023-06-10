@@ -33,7 +33,7 @@ item(FEAT_TRAINS, Eurostar_E300_20Car, 2065){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 52;
+        cargo_capacity:                 38;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -56,8 +56,6 @@ item(FEAT_TRAINS, Eurostar_E300_20Car, 2065){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_capacity:                 0;
-        purchase_cargo_capacity:        0;
         can_attach_wagon:               sw_Eurostar_E300_wagon_attach;
         cargo_subtype_text:             sw_Eurostar_E300_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_Eurostar_E300);

@@ -1,44 +1,46 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: set_Shinkansen_500_engineT;
-    set_Shinkansen_500_engineH;
-}
+switch (FEAT_TRAINS, SELF, sw_Shinkansen_500_8car, position_in_vehid_chain % 8) {
+    1:set_Shinkansen_500_panto_wagon;
+    2:set_Shinkansen_500_wagon;
+    3:set_Shinkansen_500_wagon;
+    4:set_Shinkansen_500_wagon;
+    5:set_Shinkansen_500_wagon;
+    6:set_Shinkansen_500_panto_wagon_r;
+    7:set_Shinkansen_500_engineT;
+    set_Shinkansen_500_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_wagon_cargo_subtype, (position_in_consist)) {
-    1: set_Shinkansen_500_wagon_r;
-    set_Shinkansen_500_wagon;
-}
+switch (FEAT_TRAINS, SELF, sw_Shinkansen_500_16car, position_in_vehid_chain % 16) {
+    1:set_Shinkansen_500_wagon;
+    2:set_Shinkansen_500_wagon;
+    3:set_Shinkansen_500_wagon;
+    4:set_Shinkansen_500_panto_wagon;
+    5:set_Shinkansen_500_wagon;
+    6:set_Shinkansen_500_wagon;
+    7:set_Shinkansen_500_wagon;
+    8:set_Shinkansen_500_wagon;
+    9:set_Shinkansen_500_wagon;
+    10:set_Shinkansen_500_wagon;
+    11:set_Shinkansen_500_panto_wagon_r;
+    12:set_Shinkansen_500_wagon;
+    13:set_Shinkansen_500_wagon;
+    14:set_Shinkansen_500_wagon;
+    15:set_Shinkansen_500_engineT;
+    set_Shinkansen_500_engineH; //default
+    }
 
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_wagon_10car_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    Shinkansen_500: set_Shinkansen_500_panto_wagon_r;
-    sw_Shinkansen_500_wagon_cargo_subtype;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_500_8car, extra_callback_info1) {
+    1..7: Shinkansen_500_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_10car_10car_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Shinkansen_500: set_Shinkansen_500_panto_wagon;
-    sw_Shinkansen_500_wagon_10car_rear;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_wagon_16car_rear, [STORE_TEMP(4, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    Shinkansen_500: set_Shinkansen_500_panto_wagon_r;
-    sw_Shinkansen_500_wagon_cargo_subtype;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_16car_wagon, [STORE_TEMP(-4, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    Shinkansen_500: set_Shinkansen_500_panto_wagon;
-    sw_Shinkansen_500_wagon_16car_rear;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_wagon, num_vehs_in_consist) {
-    8: sw_Shinkansen_500_10car_10car_wagon;
-    9: sw_Shinkansen_500_10car_10car_wagon;
-    10: sw_Shinkansen_500_10car_10car_wagon;
-    sw_Shinkansen_500_16car_wagon;
-}
+switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_500_16car, extra_callback_info1) {
+    1..15: Shinkansen_500_16Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    } 
 
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_wagon_attach, vehicle_type_id) {
-    DTS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

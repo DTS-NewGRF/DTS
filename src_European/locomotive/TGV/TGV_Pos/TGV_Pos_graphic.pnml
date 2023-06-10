@@ -8,10 +8,6 @@ spriteset(set_TGV_Pos_purchase, "src_European/locomotive/TGV/TGV_Pos/TGV_POS.png
 /*--------------------------------------------------------------------
 1. TGV Pos
 --------------------------------------------------------------------*/
-spriteset(set_TGV_PosH_purchase, "src_European/locomotive/TGV/TGV_Pos/TGV_POS.png"){
-    tmpl_purchase_for_dualhead(0, 162)
-}
-
 spriteset(set_TGV_Pos_engineH, "src_European/locomotive/TGV/TGV_Pos/TGV_POS.png"){
     engine(80, 0)
 }
@@ -37,16 +33,12 @@ spriteset(set_TGV_Pos_wagon_end, "src_European/locomotive/TGV/TGV_Pos/TGV_POS.pn
 }
 
 spriteset(set_TGV_Pos_engineT, "src_European/locomotive/TGV/TGV_Pos/TGV_POS.png"){
-    engine_r(80, 162)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------
 2. TGV Lyair
 --------------------------------------------------------------------*/
-spriteset(set_TGV_LyairH_purchase, "src_European/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
-    tmpl_purchase_for_dualhead(0, 162)
-}
-
 spriteset(set_TGV_Lyair_engineH, "src_European/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
     engine(80, 0)
 }
@@ -72,16 +64,12 @@ spriteset(set_TGV_Lyair_wagon_end, "src_European/locomotive/TGV/TGV_Pos/TGV_POS_
 }
 
 spriteset(set_TGV_Lyair_engineT, "src_European/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
-    engine_r(80, 162)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------
 3. TGV Thalys
 --------------------------------------------------------------------*/
-spriteset(set_TGV_ThalysH_purchase, "src_European/locomotive/TGV/TGV_Pos/TGV_POS_Thalys.png"){
-    tmpl_purchase_for_dualhead(0, 162)
-}
-
 spriteset(set_TGV_Thalys_engineH, "src_European/locomotive/TGV/TGV_Pos/TGV_POS_Thalys.png"){
     engine(80, 0)
 }
@@ -107,16 +95,12 @@ spriteset(set_TGV_Thalys_wagon_end, "src_European/locomotive/TGV/TGV_Pos/TGV_POS
 }
 
 spriteset(set_TGV_Thalys_engineT, "src_European/locomotive/TGV/TGV_Pos/TGV_POS_Thalys.png"){
-    engine_r(80, 162)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------
 4. TGV Carmillon
 --------------------------------------------------------------------*/
-spriteset(set_TGV_CarmillonH_purchase, "src_European/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
-    tmpl_purchase_for_dualhead(0, 162)
-}
-
 spriteset(set_TGV_Carmillon_engineH, "src_European/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
     engine(80, 0)
 }
@@ -142,7 +126,7 @@ spriteset(set_TGV_Carmillon_wagon_end, "src_European/locomotive/TGV/TGV_Pos/TGV_
 }
 
 spriteset(set_TGV_Carmillon_engineT, "src_European/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
-    engine_r(80, 162)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------
