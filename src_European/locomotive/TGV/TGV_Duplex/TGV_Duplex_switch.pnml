@@ -32,8 +32,8 @@ switch(FEAT_TRAINS, SELF, sw_TGV_Duplex_wagon, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Duplex_wagon_r, cargo_subtype) {
-    1: set_TGV_Duplex_Lyair_wagon_nomal_r;
-    2: set_TGV_Duplex_Ouigo_wagon_r;
+    1: set_TGV_Duplex_Lyair_wagon_special;
+    2: set_TGV_Duplex_Ouigo_wagon_special;
     set_TGV_Duplex_wagon_special;
 }
 

@@ -51,20 +51,20 @@ spriteset(set_TGV_Duplex_Lyair_wagon_nomal, "src_European/locomotive/TGV/TGV_Dup
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_TGV_Duplex_Lyair_wagon_nomal_r, "src_European/locomotive/TGV/TGV_Duplex/TGV_Duplex_Lyair.png") {
-    wagon_1F_F(80, 54)
-}
-
 spriteset(set_TGV_Duplex_Lyair_wagon_bar, "src_European/locomotive/TGV/TGV_Duplex/TGV_Duplex_Lyair.png") {
     wagon_bar(80, 81)
 }
 
+spriteset(set_TGV_Duplex_Lyair_wagon_special, "src_European/locomotive/TGV/TGV_Duplex/TGV_Duplex_Lyair.png") {
+    wagon_1F_F(80, 108)
+}
+
 spriteset(set_TGV_Duplex_Lyair_wagon_end, "src_European/locomotive/TGV/TGV_Duplex/TGV_Duplex_Lyair.png"){
-    wagon_start(80, 108)
+    wagon_start(80, 135)
 }
 
 spriteset(set_TGV_Duplex_Lyair_engineT, "src_European/locomotive/TGV/TGV_Duplex/TGV_Duplex_Lyair.png"){
-    engine(80, 135)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------
@@ -86,20 +86,20 @@ spriteset(set_TGV_Duplex_Ouigo_wagon, "src_European/locomotive/TGV/TGV_Duplex/TG
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_TGV_Duplex_Ouigo_wagon_r, "src_European/locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png") {
-    wagon_1F_F(80, 54)
-}
-
 spriteset(set_TGV_Duplex_Ouigo_wagon_bar, "src_European/locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png") {
     wagon_bar(80, 81)
 }
 
+spriteset(set_TGV_Duplex_Ouigo_wagon_special, "src_European/locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png") {
+    wagon_1F_F(80, 108)
+}
+
 spriteset(set_TGV_Duplex_Ouigo_wagon_end, "src_European/locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png"){
-    wagon_start(80, 108)
+    wagon_start(80, 135)
 }
 
 spriteset(set_TGV_Duplex_Ouigo_engineT, "src_European/locomotive/TGV/TGV_Duplex/TGV_Duplex_Ouigo.png"){
-    engine(80, 135)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------
