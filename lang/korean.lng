@@ -152,6 +152,7 @@ STR_Nishitetsu_9000_2Car_NAME                        :[2량] 니시테츠 9000�
 STR_Nishitetsu_9000_3Car_NAME                        :[3량] 니시테츠 9000형 [DTS]
 
 # wagon's name
+STR_KTS_SPASS_CY_GW_NAME                             :[관광객차] 충북영동국악와인 [DTS]
 STR_KTS_SPASS_NAME                                   :[기관차연결] 관광열차 객차 차량 [DTS]
 STR_KTS_SPPASS_NAME                                  :[기관차연결] 한국 객차 차량 [DTS]
 STR_Generatar_Car_NAME                               :[기관차연결] 한국 발전차 [DTS]
@@ -312,6 +313,7 @@ STR_REFIT_ADDITIONAL_HMX                             :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_NKX                             :{BLACK}복합가능열차 {GREEN}NKX
 
 STR_REFIT_train_configuration_SPassenger             :{BLACK}열차구성: {GREEN}[기관차연결] 관광열차 객차
+STR_REFIT_train_configuration_CY_GW_Passenger        :{BLACK}열차구성: {GREEN}[기관차연결] 충북국악와인 객차
 STR_REFIT_train_configuration_SPPassenger            :{BLACK}열차구성: {GREEN}[기관차연결] 한국형 객차
 STR_REFIT_train_configuration_Generatar              :{BLACK}열차구성: {GREEN}[기관차연결] 한국형 발전차
 STR_REFIT_train_configuration_Luggage                :{BLACK}열차구성: {GREEN}[기관차열차] 한국형 수화물차

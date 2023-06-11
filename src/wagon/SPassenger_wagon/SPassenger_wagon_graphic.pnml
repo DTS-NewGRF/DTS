@@ -19,52 +19,60 @@ spriteset(set_Eco_Rail_wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png")
 /*--------------------------------------------------------------------
 2. 충북영동국악와인열차
 --------------------------------------------------------------------*/
+spriteset(set_CY_GW_wagon_purchase, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+alternative_sprites(set_CY_GW_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train_32bpp.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
 spriteset(set_CY_GW_1wagon, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train.png") {
-    wagon_1F_F(19, 0)
+    wagon_1F_F(80, 0)
 }
 
 alternative_sprites(set_CY_GW_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train_32bpp.png"){
-    wagon_1F_F(19, 0)
+    wagon_1F_F(80, 0)
 }
 
 spriteset(set_CY_GW_2wagon, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train.png") {
-    wagon_1F_F(19, 27)
+    wagon_1F_F(80, 27)
 }
 
 alternative_sprites(set_CY_GW_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train_32bpp.png"){
-    wagon_1F_F(19, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_CY_GW_3wagon, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train.png") {
-    wagon_1F_F(19, 54)
+    wagon_1F_F(80, 54)
 }
 
 alternative_sprites(set_CY_GW_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train_32bpp.png"){
-    wagon_1F_F(19, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_CY_GW_4wagon, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train.png") {
-    wagon_1F_F(19, 81)
+    wagon_1F_F(80, 81)
 }
 
 alternative_sprites(set_CY_GW_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train_32bpp.png"){
-    wagon_1F_F(19, 81)
+    wagon_1F_F(80, 81)
 }
 
 spriteset(set_CY_GW_5wagon, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train.png") {
-    wagon_1F_F(19, 108)
+    wagon_1F_F(80, 108)
 }
 
 alternative_sprites(set_CY_GW_5wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train_32bpp.png"){
-    wagon_1F_F(19, 108)
+    wagon_1F_F(80, 108)
 }
 
 spriteset(set_CY_GW_6wagon, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train.png") {
-    wagon_1F_F(19, 135)
+    wagon_1F_F(80, 135)
 }
 
 alternative_sprites(set_CY_GW_6wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\Travel_wagon\Chungbuk_Yeongdong_Gugak_&_Wine_Train_32bpp.png"){
-    wagon_1F_F(19, 135)
+    wagon_1F_F(80, 135)
 }
 
 /*--------------------------------------------------------------------

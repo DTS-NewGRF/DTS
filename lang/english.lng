@@ -153,6 +153,7 @@ STR_Nishitetsu_9000_3Car_NAME                        :[DTS] Nishitetsu 9000 3Car
 
 # wagon's name
 STR_KTS_SPASS_NAME                                   :[DTS] carriage-type passenger car
+STR_KTS_SPASS_CY_GW_NAME                             :[DTS] Chungbuk Yeongdong Gugak & Wine Passenger Car
 STR_KTS_SPPASS_NAME                                  :[DTS] Korea carriage-type passenger car
 STR_Generatar_Car_NAME                               :[DTS] Generatar Car
 STR_Luggage_Car_NAME                                 :[DTS] Luggage Car
@@ -313,6 +314,7 @@ STR_REFIT_ADDITIONAL_HMX                             :{BLACK}Combined train {GRE
 STR_REFIT_ADDITIONAL_NKX                             :{BLACK}Combined train {GREEN}NKX
 
 STR_REFIT_train_configuration_SPassenger             :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
+STR_REFIT_train_configuration_CY_GW_Passenger        :{BLACK}train configuration: {GREEN}Chungbuk Yeongdong Gugak & Wine Passenger Car
 STR_REFIT_train_configuration_SPPassenger            :{BLACK}train configuration: {GREEN}Korea carriage-type Passenger vehicles
 STR_REFIT_train_configuration_Generatar              :{BLACK}train configuration: {GREEN}Generatar vehicles
 STR_REFIT_train_configuration_Luggage                :{BLACK}train configuration: {GREEN}Luggage vehicles

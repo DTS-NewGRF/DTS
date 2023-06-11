@@ -2,7 +2,6 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_SPassenger_cargo_subtype_text, cargo_subtype) {
-     1: return string(STR_REFIT_LIVERY_GT26CW_CY_GW);              // 충북영동국악와인열차
      2: return string(STR_REFIT_LIVERY_JA_a_Old_Passenger_Car);    // 정선아리랑 유람열차 구도색
      3: return string(STR_REFIT_LIVERY_JA_a_New_Passenger_Car);    // 정선아리랑 유람열차 신도색
      4: return string(STR_REFIT_LIVERY_E_Train_Passenger_Car);     // E-Trian
@@ -43,15 +42,19 @@ switch(FEAT_TRAINS, SELF, sw_SPPassenger_cargo_subtype_text, cargo_subtype) {
 /*--------------------------------------------------------------------
 1. 충북영동국악와인 열차
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_CY_GW_wagon, position_in_consist % 6) {
-    1: set_CY_GW_1wagon;
-    2: set_CY_GW_2wagon;
-    3: set_CY_GW_3wagon;
-    4: set_CY_GW_4wagon;
-    5: set_CY_GW_5wagon;
-    0: set_CY_GW_6wagon;
-    set_CY_GW_4wagon;
-}
+switch (FEAT_TRAINS, SELF, sw_CY_GW_wagon, position_in_vehid_chain % 6) {
+    1:set_CY_GW_2wagon;
+    2:set_CY_GW_3wagon;
+    3:set_CY_GW_4wagon;
+    4:set_CY_GW_5wagon;
+    5:set_CY_GW_6wagon;
+    set_CY_GW_1wagon; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_sw_CY_GW_6car, extra_callback_info1) {
+    1..5: CY_GW_SPassenger_Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
 
 /*--------------------------------------------------------------------
 2. E-Trian
@@ -151,7 +154,6 @@ switch(FEAT_TRAINS, SELF, sw_G_Train_New_wagon, position_in_consist % 5) {
 객차형 스위치 공통
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_SPassenger_wagon, cargo_subtype) {
-     1: sw_CY_GW_wagon;       // 충북영동국악와인열차
      2: set_JA_A_Old_wagon;   // 정선아리랑 유람열차 구도색
      3: set_JA_A_New_wagon;   // 정선아리랑 유람열차 신도색
      4: sw_E_Train_wagon;     // E-Trian

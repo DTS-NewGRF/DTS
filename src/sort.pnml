@@ -166,6 +166,7 @@ sort(FEAT_TRAINS, [
     EMU_Pass,                      //2124
     Coach_2F,                      //2106
     KTS_SPassenger_Car,            //2002
+    CY_GW_SPassenger_Car,          //2001
     KTS_SPPassenger_Car,           //2132
     CTS_SPassenger_Car,            //2031
     ETS_SPassenger_Car,            //2061
