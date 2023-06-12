@@ -9,6 +9,7 @@ STR_GRF_URL                                          :https://github.com/MEGB-Ne
 # locomotive's name
 STR_AREX_6Car_NAME                                   :[DTS] AREX series 2000 EMU5 6Car
 STR_MEL_150_4Car_NAME                                :[DTS] MEL-150 4Car
+STR_MEL_150_8Car_NAME                                :[DTS] MEL-150 8Car
 STR_MEL_150_10Car_NAME                               :[DTS] MEL-150 10Car
 STR_MEL_150_12Car_NAME                               :[DTS] MEL-150 12Car
 STR_CTX_F_10Car_NAME                                 :[DTS] CTX Freight 10Car

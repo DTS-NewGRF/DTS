@@ -36,6 +36,7 @@ sort(FEAT_TRAINS, [
     //일반열차
     APEX20005_6Car,                //2009
     MEL_150_4Car,                  //2136
+    MEL_150_8Car,                  //2165
     MEL_150_10Car,                 //2137
     MEL_150_12Car,                 //2138
     APEX20005_6Car,                //2009

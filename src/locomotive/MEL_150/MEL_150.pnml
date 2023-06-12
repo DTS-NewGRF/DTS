@@ -62,6 +62,60 @@ item(FEAT_TRAINS, MEL_150_4Car, 2136){
         }
 
 /*--------------------------------------------------------------------
+열차정보 8량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, MEL_150_8Car, 2165){
+    property {
+        name:                           string(STR_MEL_150_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          1760 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 100;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_MEL_150_8car;
+        articulated_part:               sw_articulated_MEL_150_8car;
+        purchase:                       sw_MEL_150_purchase;
+        speed:                          Regular_Speed_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_MEL_150_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_MEL_150);
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, MEL_150_10Car, 2137){
