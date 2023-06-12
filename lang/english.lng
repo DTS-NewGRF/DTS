@@ -152,16 +152,23 @@ STR_Nishitetsu_9000_2Car_NAME                        :[DTS] Nishitetsu 9000 2Car
 STR_Nishitetsu_9000_3Car_NAME                        :[DTS] Nishitetsu 9000 3Car
 
 # wagon's name
-STR_KTS_SPASS_NAME                                   :[DTS] carriage-type passenger car
-STR_KTS_SPASS_CY_GW_NAME                             :[DTS] Chungbuk Yeongdong Gugak & Wine Passenger Car
-STR_KTS_SPPASS_NAME                                  :[DTS] Korea carriage-type passenger car
+STR_Eco_Rail_NAME                                    :[DTS] Eco Rail Passenger Car
+STR_CY_GW_NAME                                       :[DTS] Chungbuk Yeongdong Gugak & Wine Passenger Car
+STR_JA_a_NAME                                        :[DTS] Jeongseon Arirang Passenger Car
+STR_E_Train_NAME                                     :[DTS] E-Train Passenger Car
+STR_Wine_Panax_NAME                                  :[DTS] Wine Panax Passenger Car
+STR_Wine_Cinema_NAME                                 :[DTS] Wine Cinema Passenger Car
+STR_Lady_Bird_NAME                                   :[DTS] Lady Bird Passenger Car
+STR_S_Train_New_NAME                                 :[DTS] S-Train Passenger Car
+STR_A_Train_New_NAME                                 :[DTS] A-Train Passenger Car
+STR_G_Train_New_NAME                                 :[DTS] G-Train Passenger Car
+STR_KTS_SPASS_NAME                                   :[DTS] Korea carriage-type passenger car
 STR_Generatar_Car_NAME                               :[DTS] Generatar Car
 STR_Luggage_Car_NAME                                 :[DTS] Luggage Car
 STR_CTS_SPASS_NAME                                   :[DTS] Chinese carriage-type passenger car
 STR_CGeneratar_Car_NAME                              :[DTS] Chinese Generatar Car
 STR_CLuggage_Car_NAME                                :[DTS] Chinese Luggage Car
 STR_ETS_SPASS_NAME                                   :[DTS] European carriage-type passenger transport vehicle
-STR_TGV_Poste_wagon_NAME                             :[DTS] TGV La Poste Freight Car
 STR_VTS_SPASS_NAME                                   :[DTS] Virtual carriage-type passenger transport vehicle
 STR_FLAT_1F_NAME                                     :[DTS] Flat Car
 STR_FLAT_Tank_NAME                                   :[DTS] Flat Tank Car
@@ -313,9 +320,17 @@ STR_REFIT_ADDITIONAL_Glory600                        :{BLACK}Combined train {GRE
 STR_REFIT_ADDITIONAL_HMX                             :{BLACK}Combined train {GREEN}HMX
 STR_REFIT_ADDITIONAL_NKX                             :{BLACK}Combined train {GREEN}NKX
 
-STR_REFIT_train_configuration_SPassenger             :{BLACK}train configuration: {GREEN}carriage-type Passenger vehicles
+STR_REFIT_train_configuration_Eco_Rail_Passenger     :{BLACK}train configuration: {GREEN}Eco Rail Passenger Car
 STR_REFIT_train_configuration_CY_GW_Passenger        :{BLACK}train configuration: {GREEN}Chungbuk Yeongdong Gugak & Wine Passenger Car
-STR_REFIT_train_configuration_SPPassenger            :{BLACK}train configuration: {GREEN}Korea carriage-type Passenger vehicles
+STR_REFIT_train_configuration_JA_a_Passenger         :{BLACK}train configuration: {GREEN}Jeongseon Arirang Passenger Car
+STR_REFIT_train_configuration_E_Train_Passenger      :{BLACK}train configuration: {GREEN}E-Train Passenger Car
+STR_REFIT_train_configuration_Wine_Panax_Passenger   :{BLACK}train configuration: {GREEN}Wine Panax Passenger Car
+STR_REFIT_train_configuration_Wine_Cinema_Passenger  :{BLACK}train configuration: {GREEN}Wine Cinema Passenger Car
+STR_REFIT_train_configuration_Lady_Bird_Passenger    :{BLACK}train configuration: {GREEN}Lady Bird Passenger Car
+STR_REFIT_train_configuration_S_Train_New_Passenger  :{BLACK}train configuration: {GREEN}S-Train Passenger Car
+STR_REFIT_train_configuration_A_Train_New_Passenger  :{BLACK}train configuration: {GREEN}A-Train Passenger Car
+STR_REFIT_train_configuration_G_Train_New_Passenger  :{BLACK}train configuration: {GREEN}G-Train Passenger Car
+STR_REFIT_train_configuration_SPassenger             :{BLACK}train configuration: {GREEN}Korea carriage-type Passenger vehicles
 STR_REFIT_train_configuration_Generatar              :{BLACK}train configuration: {GREEN}Generatar vehicles
 STR_REFIT_train_configuration_Luggage                :{BLACK}train configuration: {GREEN}Luggage vehicles
 STR_REFIT_train_configuration_CSPassenger            :{BLACK}train configuration: {GREEN}Chinese carriage-type Passenger vehicles
@@ -485,17 +500,8 @@ STR_REFIT_LIVERY_Nishitetsu_7000                     :(Nishitetsu 7000)
 STR_REFIT_LIVERY_Nishitetsu_7050                     :(Nishitetsu 7050)
 
 # Liveries wagon
-STR_REFIT_LIVERY_Eco_Rail_Passenger_Car              :(Eco Rail Passenger Car)
-STR_REFIT_LIVERY_CY_GW_Passenger_Car                 :(Chungbuk Yeongdong Gugak & Wine Passenger Car)
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car              :(Jeongseon Arirang Old Color)
 STR_REFIT_LIVERY_JA_a_New_Passenger_Car              :(Jeongseon Arirang New Color)
-STR_REFIT_LIVERY_E_Train_Passenger_Car               :(E-Train)
-STR_REFIT_LIVERY_Wine_Panax_Passenger_Car            :(wine Panax Train)
-STR_REFIT_LIVERY_wine_Cinema_Passenger_Car           :(wine Cinema Train)
-STR_REFIT_LIVERY_Lady_Bird_Passenger_Car             :(Lady Bird)
-STR_REFIT_LIVERY_S_Train_New_Passenger_Car           :(S-Train)
-STR_REFIT_LIVERY_A_Train_New_Passenger_Car           :(A-Train)
-STR_REFIT_LIVERY_G_Train_New_Passenger_Car           :(G-Train)
 STR_REFIT_LIVERY_1PPassenger_Car                     :(Passenger_Car A)
 STR_REFIT_LIVERY_2PPassenger_Car                     :(Passenger_Car B)
 STR_REFIT_LIVERY_3PPassenger_Car                     :(Passenger_Car C)

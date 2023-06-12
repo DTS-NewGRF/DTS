@@ -81,6 +81,6 @@ switch(FEAT_TRAINS, SELF, sw_TGV_Pos_wagon_attach, vehicle_type_id) {
     TGV_Sud_Est_10Car:       return CB_RESULT_ATTACH_ALLOW;
     TGV_Reseau_Duplex_10Car: return CB_RESULT_ATTACH_ALLOW;
     TGV_A_12Car:             return CB_RESULT_ATTACH_ALLOW;
-    TGV_A_12Car:             return CB_RESULT_ATTACH_ALLOW;
+    TGV_R_10Car:             return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

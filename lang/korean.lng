@@ -152,16 +152,23 @@ STR_Nishitetsu_9000_2Car_NAME                        :[2량] 니시테츠 9000�
 STR_Nishitetsu_9000_3Car_NAME                        :[3량] 니시테츠 9000형 [DTS]
 
 # wagon's name
-STR_KTS_SPASS_CY_GW_NAME                             :[관광객차] 충북영동국악와인 [DTS]
-STR_KTS_SPASS_NAME                                   :[기관차연결] 관광열차 객차 차량 [DTS]
-STR_KTS_SPPASS_NAME                                  :[기관차연결] 한국 객차 차량 [DTS]
+STR_Eco_Rail_NAME                                    :[관광객차] 에코레일 [DTS]
+STR_CY_GW_NAME                                       :[관광객차] 충북영동국악와인 [DTS]
+STR_JA_a_NAME                                        :[관광객차] 정선아리랑 유람열차 [DTS]
+STR_E_Train_NAME                                     :[관광객차] E-Train [DTS]
+STR_Wine_Panax_NAME                                  :[관광객차] 와인인삼트레인 [DTS]
+STR_Wine_Cinema_NAME                                 :[관광객차] 와인시네마트레인 [DTS]
+STR_Lady_Bird_NAME                                   :[관광객차] 레이디버드 [DTS]
+STR_S_Train_New_NAME                                 :[관광객차] S-Train 신도색 [DTS]
+STR_A_Train_New_NAME                                 :[관광객차] A-Train 신도색 [DTS]
+STR_G_Train_New_NAME                                 :[관광객차] G-Train 신도색 [DTS]
+STR_KTS_SPASS_NAME                                   :[기관차연결] 한국 객차 차량 [DTS]
 STR_Generatar_Car_NAME                               :[기관차연결] 한국 발전차 [DTS]
 STR_Luggage_Car_NAME                                 :[기관차연결] 한국 수화물차 [DTS]
 STR_CTS_SPASS_NAME                                   :[기관차연결] 중국 객차 차량 [DTS]
 STR_CGeneratar_Car_NAME                              :[기관차연결] 중국 발전차 [DTS]
 STR_CLuggage_Car_NAME                                :[기관차연결] 중국 수화물차 [DTS]
 STR_ETS_SPASS_NAME                                   :[기관차연결] 유럽 객차 차량 [DTS]
-STR_TGV_Poste_wagon_NAME                             :[DTS] TGV 라포스트 화차
 STR_VTS_SPASS_NAME                                   :[기관차연결] 가상 객차 차량 [DTS]
 STR_FLAT_1F_NAME                                     :[기관차연결] 평판화차 [DTS]
 STR_FLAT_Tank_NAME                                   :[기관차연결] 평판유조 화차 [DTS]
@@ -312,9 +319,17 @@ STR_REFIT_ADDITIONAL_Glory600                        :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_HMX                             :{BLACK}복합가능열차 {GREEN}HMX
 STR_REFIT_ADDITIONAL_NKX                             :{BLACK}복합가능열차 {GREEN}NKX
 
-STR_REFIT_train_configuration_SPassenger             :{BLACK}열차구성: {GREEN}[기관차연결] 관광열차 객차
-STR_REFIT_train_configuration_CY_GW_Passenger        :{BLACK}열차구성: {GREEN}[기관차연결] 충북국악와인 객차
-STR_REFIT_train_configuration_SPPassenger            :{BLACK}열차구성: {GREEN}[기관차연결] 한국형 객차
+STR_REFIT_train_configuration_Eco_Rail_Passenger     :{BLACK}열차구성: {GREEN}[관광열차] 에코레일 객차
+STR_REFIT_train_configuration_CY_GW_Passenger        :{BLACK}열차구성: {GREEN}[관광열차] 충북국악와인 객차
+STR_REFIT_train_configuration_JA_a_Passenger         :{BLACK}열차구성: {GREEN}[관광열차] 정선아리랑 유람열차
+STR_REFIT_train_configuration_E_Train_Passenger      :{BLACK}열차구성: {GREEN}[관광열차] E-Train
+STR_REFIT_train_configuration_Wine_Panax_Passenger   :{BLACK}열차구성: {GREEN}[관광열차] 와인인삼트레인
+STR_REFIT_train_configuration_Wine_Cinema_Passenger  :{BLACK}열차구성: {GREEN}[관광열차] 와인세네마트레인
+STR_REFIT_train_configuration_Lady_Bird_Passenger    :{BLACK}열차구성: {GREEN}[관광열차] 레이디버드
+STR_REFIT_train_configuration_S_Train_New_Passenger  :{BLACK}열차구성: {GREEN}[관광열차] S-Train 신도색
+STR_REFIT_train_configuration_A_Train_New_Passenger  :{BLACK}열차구성: {GREEN}[관광열차] A-Train 신도색
+STR_REFIT_train_configuration_G_Train_New_Passenger  :{BLACK}열차구성: {GREEN}[관광열차] G-Train 신도색
+STR_REFIT_train_configuration_SPassenger             :{BLACK}열차구성: {GREEN}[기관차연결] 한국형 객차
 STR_REFIT_train_configuration_Generatar              :{BLACK}열차구성: {GREEN}[기관차연결] 한국형 발전차
 STR_REFIT_train_configuration_Luggage                :{BLACK}열차구성: {GREEN}[기관차열차] 한국형 수화물차
 STR_REFIT_train_configuration_CSPassenger            :{BLACK}열차구성: {GREEN}[기관차열차] 중국 객차
@@ -325,8 +340,8 @@ STR_REFIT_train_configuration_TGV_Poste              :{BLACK}열차구성: {GREE
 STR_REFIT_train_configuration_2F                     :{BLACK}열차구성: {GREEN}[기관차열차] 2층 객차
 STR_REFIT_train_configuration_Coach                  :{BLACK}열차구성: {GREEN}객차형 승객 차량용
 STR_REFIT_train_configuration_Coach_Last             :{BLACK}열차구성: {GREEN}객차형 승객 차량용
-STR_REFIT_train_configuration_KMetro_Passenger       :{BLACK}열차구성: {GREEN}[기관차연결] 지하철 객차
-STR_REFIT_train_configuration_EMU_Passenger          :{BLACK}열차구성: {GREEN}[기관차연결] EMU 객차
+STR_REFIT_train_configuration_KMetro_Passenger       :{BLACK}열차구성: {GREEN}[기관차연결] 지하철 객차{}대처되는 열차 등장시 삭제예정
+STR_REFIT_train_configuration_EMU_Passenger          :{BLACK}열차구성: {GREEN}[기관차연결] EMU 객차{}순차적 제거 예정.
 
 # Liveries locomotive
 STR_REFIT_LIVERY_AREX_Normal                         :(기본 도색)
@@ -484,17 +499,8 @@ STR_REFIT_LIVERY_Nishitetsu_7000                     :(니시테츠 7000형)
 STR_REFIT_LIVERY_Nishitetsu_7050                     :(니시테츠 7050형)
 
 # Liveries wagon
-STR_REFIT_LIVERY_Eco_Rail_Passenger_Car              :(에코레일)
-STR_REFIT_LIVERY_CY_GW_Passenger_Car                 :(충북영동국악와인)
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car              :(정선아리랑 유람열차 구도색)
 STR_REFIT_LIVERY_JA_a_New_Passenger_Car              :(정선아리랑 유람열차 신도색)
-STR_REFIT_LIVERY_E_Train_Passenger_Car               :(E-Train)
-STR_REFIT_LIVERY_Wine_Panax_Passenger_Car            :(와인인삼트레인)
-STR_REFIT_LIVERY_wine_Cinema_Passenger_Car           :(와인시네마트레인)
-STR_REFIT_LIVERY_Lady_Bird_Passenger_Car             :(레이디 버드)
-STR_REFIT_LIVERY_S_Train_New_Passenger_Car           :(S-Train)
-STR_REFIT_LIVERY_A_Train_New_Passenger_Car           :(A-Train)
-STR_REFIT_LIVERY_G_Train_New_Passenger_Car           :(G-Train)
 STR_REFIT_LIVERY_1PPassenger_Car                     :(우등객차/대우직각, 탕앵객차)
 STR_REFIT_LIVERY_2PPassenger_Car                     :(구도색/나뭇결객차)
 STR_REFIT_LIVERY_3PPassenger_Car                     :(현재도색/리미트객차)

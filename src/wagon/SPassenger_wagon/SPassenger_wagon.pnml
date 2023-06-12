@@ -8,61 +8,11 @@
 #include "SPassenger_wagon_switch.pnml"
 
 /*--------------------------------------------------------------------
-객차형 승객 차량
---------------------------------------------------------------------*/
-item (FEAT_TRAINS, KTS_SPassenger_Car, 2002){
-    property {
-        name:                           string(STR_KTS_SPASS_NAME);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2010, 1, 1);
-        track_type:                     RAIL;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-
-        //spec
-        power:                          0 kW;
-        weight:                         20 ton;
-        tractive_effort_coefficient:    0.3;
-
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-
-        //Cargo
-        cargo_capacity:                 64;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-
-        //Costs
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
-        extra_weight_per_wagon:         20 ton;
-    }
-
-    graphics {
-        default:                        sw_SPassenger_wagon;
-        purchase:                       sw_SPassenger_wagon_purchase;
-        cargo_capacity:                 sw_SPassenger_wagon_capacity_in_custom;
-        loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            50;
-        cargo_subtype_text:             sw_SPassenger_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_SPassenger);
-        }
-    }
-
-/*--------------------------------------------------------------------
 한국형 승객 차량
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, KTS_SPPassenger_Car, 2132){
+item (FEAT_TRAINS, KTS_SPassenger_Car, 2132){
     property {
-        name:                           string(STR_KTS_SPPASS_NAME);
+        name:                           string(STR_KTS_SPASS_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1964, 1, 1);
         track_type:                     RAIL;
@@ -96,25 +46,76 @@ item (FEAT_TRAINS, KTS_SPPassenger_Car, 2132){
     }
 
     graphics {
-        default:                        sw_SPPassenger_wagon;
-        purchase:                       sw_SPPassenger_wagon_purchase;
-        cargo_capacity:                 sw_SPPassenger_wagon_capacity_in_custom;
+        default:                        sw_SPassenger_wagon;
+        purchase:                       sw_SPassenger_wagon_purchase;
+        cargo_capacity:                 sw_SPassenger_wagon_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_SPPassenger_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_SPPassenger);
+        cargo_subtype_text:             sw_SPassenger_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_SPassenger);
         }
     }
 
 /*--------------------------------------------------------------------
-객차형 승객 차량
+관광열차
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, CY_GW_SPassenger_Car, 2001){
+/*--------------------------------------------------------------------
+에코레일
+--------------------------------------------------------------------*/
+item (FEAT_TRAINS, Eco_Rail_Passenger_Car, 2157){
     property {
-        name:                           string(STR_KTS_SPASS_CY_GW_NAME);
+        name:                           string(STR_Eco_Rail_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2010, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 64;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        set_Eco_Rail_wagon;
+        purchase:                       set_Eco_Rail_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        additional_text:                string(STR_REFIT_train_configuration_Eco_Rail_Passenger);
+        }
+    }
+
+/*--------------------------------------------------------------------
+충북국악와인열차
+--------------------------------------------------------------------*/
+item (FEAT_TRAINS, CY_GW_Passenger_Car, 2001){
+    property {
+        name:                           string(STR_CY_GW_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2006, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
 
@@ -153,5 +154,397 @@ item (FEAT_TRAINS, CY_GW_SPassenger_Car, 2001){
         cost_factor:                    10;
         running_cost_factor:            50;
         additional_text:                string(STR_REFIT_train_configuration_CY_GW_Passenger);
+        }
+    }
+
+/*--------------------------------------------------------------------
+정선아리랑 유랑열차
+--------------------------------------------------------------------*/
+item (FEAT_TRAINS, JA_A_Passenger_Car, 2158){
+    property {
+        name:                           string(STR_JA_a_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2002, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 56;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_JA_A_wagon;
+        purchase:                       set_JA_A_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        cargo_subtype_text:             sw_JA_a_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_JA_a_Passenger);
+        }
+    }
+
+/*--------------------------------------------------------------------
+E-Train
+--------------------------------------------------------------------*/
+item (FEAT_TRAINS, E_Train_Passenger_Car, 2159){
+    property {
+        name:                           string(STR_E_Train_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2014, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 64;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_E_Train_wagon;
+        articulated_part:               sw_articulated_sw_E_Train_9car;
+        purchase:                       set_EDUCATION_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        additional_text:                string(STR_REFIT_train_configuration_E_Train_Passenger);
+        }
+    }
+
+/*--------------------------------------------------------------------
+와인인삼트레인
+--------------------------------------------------------------------*/
+item (FEAT_TRAINS, Wine_Panax_Passenger_Car, 2160){
+    property {
+        name:                           string(STR_Wine_Panax_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2006, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 64;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_wine_Panax_wagon;
+        articulated_part:               sw_articulated_sw_wine_Panax_7car;
+        purchase:                       set_wine_Panax_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        additional_text:                string(STR_REFIT_train_configuration_Wine_Panax_Passenger);
+        }
+    }
+
+/*--------------------------------------------------------------------
+와인시네마트레인
+--------------------------------------------------------------------*/
+item (FEAT_TRAINS, Wine_Cinema_Passenger_Car, 2161){
+    property {
+        name:                           string(STR_Wine_Cinema_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2006, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 64;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_wine_cinema_wagon;
+        articulated_part:               sw_articulated_sw_wine_cinema_6car;
+        purchase:                       set_wine_cinema_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        additional_text:                string(STR_REFIT_train_configuration_Wine_Cinema_Passenger);
+        }
+    }
+
+/*--------------------------------------------------------------------
+레이디버드
+--------------------------------------------------------------------*/
+item (FEAT_TRAINS, Lady_Bird_Passenger_Car, 2162){
+    property {
+        name:                           string(STR_Lady_Bird_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2006, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 64;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_Lady_Bird_wagon;
+        articulated_part:               sw_articulated_sw_Lady_Bird_9car;
+        purchase:                       set_Lady_Bird_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        additional_text:                string(STR_REFIT_train_configuration_Lady_Bird_Passenger);
+        }
+    }
+
+/*--------------------------------------------------------------------
+S-Train 신도색
+--------------------------------------------------------------------*/
+item (FEAT_TRAINS, S_Train_New_Passenger_Car, 2163){
+    property {
+        name:                           string(STR_S_Train_New_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2013, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 72;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_S_Train_New_wagon;
+        articulated_part:               sw_articulated_sw_S_Train_New_5car;
+        purchase:                       set_S_Train_New_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        additional_text:                string(STR_REFIT_train_configuration_S_Train_New_Passenger);
+        }
+    }
+
+/*--------------------------------------------------------------------
+A-Train 신도색
+--------------------------------------------------------------------*/
+item (FEAT_TRAINS, A_Train_New_Passenger_Car, 2164){
+    property {
+        name:                           string(STR_A_Train_New_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2022, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 72;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_A_Train_New_wagon;
+        articulated_part:               sw_articulated_sw_A_Train_New_4car;
+        purchase:                       set_A_Train_New_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        additional_text:                string(STR_REFIT_train_configuration_A_Train_New_Passenger);
+        }
+    }
+
+/*--------------------------------------------------------------------
+G-Train 신도색
+--------------------------------------------------------------------*/
+item (FEAT_TRAINS, G_Train_New_Passenger_Car, 2002){
+    property {
+        name:                           string(STR_G_Train_New_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2023, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 72;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_G_Train_New_wagon;
+        articulated_part:               sw_articulated_sw_G_Train_New_5car;
+        purchase:                       set_G_Train_New_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        additional_text:                string(STR_REFIT_train_configuration_G_Train_New_Passenger);
         }
     }

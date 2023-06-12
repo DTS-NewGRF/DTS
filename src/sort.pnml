@@ -162,12 +162,20 @@ sort(FEAT_TRAINS, [
     DFX_10Car,                     //2112
 
     //객차
+    Eco_Rail_Passenger_Car,        //2157
+    CY_GW_Passenger_Car,           //2001
+    JA_A_Passenger_Car,            //2158
+    E_Train_Passenger_Car,         //2159
+    Wine_Panax_Passenger_Car,      //2160
+    Wine_Cinema_Passenger_Car,     //2161
+    Lady_Bird_Passenger_Car,       //2162
+    S_Train_New_Passenger_Car,     //2163
+    A_Train_New_Passenger_Car,     //2164
+    G_Train_New_Passenger_Car,     //2002
     KMetro_Pass,                   //2030
     EMU_Pass,                      //2124
     Coach_2F,                      //2106
-    KTS_SPassenger_Car,            //2002
-    CY_GW_SPassenger_Car,          //2001
-    KTS_SPPassenger_Car,           //2132
+    KTS_SPassenger_Car,            //2132
     CTS_SPassenger_Car,            //2031
     ETS_SPassenger_Car,            //2061
     Generatar_Car,                 //2003
