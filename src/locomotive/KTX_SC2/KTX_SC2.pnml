@@ -44,7 +44,7 @@ item(FEAT_TRAINS, KTX_SC2_10Car, 2025){
         running_cost_base:              RUNNING_COST_DIESEL;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
 
@@ -57,7 +57,6 @@ item(FEAT_TRAINS, KTX_SC2_10Car, 2025){
         cost_factor:                    10;
         running_cost_factor:            150;              
         can_attach_wagon:               sw_KTX_SC2_wagon_attach;
-        cargo_subtype_text:             sw_KTX_SC2_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_KTX_SC2);
         }
         }
