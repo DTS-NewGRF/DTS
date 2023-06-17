@@ -8,10 +8,7 @@ switch(FEAT_TRAINS, SELF, sw_EMU_cargo_subtype_text, cargo_subtype) {
     4: return string(STR_REFIT_LIVERY_NRT2_New_C);    // 누리로 DD 신도색 회사
     5: return string(STR_REFIT_LIVERY_NRT2_Old_OT);   // 누리로 DD O-train
     6: return string(STR_REFIT_LIVERY_NRT2_New_ITX); // 누리로 DD ITX 도색
-    7: return string(STR_REFIT_LIVERY_ITX_SM2_R);    // ITX-새마을 DD 빨강
-    8: return string(STR_REFIT_LIVERY_ITX_SM2_G);    // ITX-새마을 DD 녹색
-    9: return string(STR_REFIT_LIVERY_ITX_SM2_W);    // ITX-새마을 DD 흰색
-    10: return string(STR_REFIT_LIVERY_ITX_SM2_C);    // ITX-새마을 DD 회사
+    7: return string(STR_REFIT_LIVERY_ITX_SM2_C);    // ITX-새마을 DD 회사
     return string(STR_REFIT_LIVERY_Bicheuro);
 }
 
@@ -22,10 +19,7 @@ switch(FEAT_TRAINS, SELF, sw_EMU_wagon, cargo_subtype) {
     4: set_NRT2_New_C_S_wagon;
     5: set_NRT2_Old_OT_S_wagon;
     6: set_NRT2_New_ITX_S_wagon;
-    7: set_ITX_SM2_R_S_wagon;
-    8: set_ITX_SM2_G_S_wagon;
-    9: set_ITX_SM2_W_S_wagon;
-    10: set_ITX_SM2_C_S_wagon;
+    7: set_ITX_SM2_C_S_wagon;
     set_EMU150_S_wagon;
 }
 
@@ -37,8 +31,5 @@ switch(FEAT_TRAINS, SELF, sw_EMU_wagon_capacity_in_custom, cargo_subtype) {
     5: return 116;
     6: return 116;
     7: return 200;
-    8: return 200;
-    9: return 200;
-    10: return 200;
        72;
 }

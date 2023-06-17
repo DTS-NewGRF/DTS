@@ -1,24 +1,62 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_EMU320_DD_purchase, "src/locomotive/EMU/EMU320_DD/EMU320_DD.png"){
+spriteset(set_EMU320_DD_purchase, "src/locomotive/EMU/EMU320_DD/EMU320_DD_CC.png"){
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_EMU320_DD_engineH, "src/locomotive/EMU/EMU320_DD/EMU320_DD.png"){
+/*--------------------------------------------------------------------
+EMU320_DD_CC
+--------------------------------------------------------------------*/
+spriteset(set_EMU320_DD_CC_engineH, "src/locomotive/EMU/EMU320_DD/EMU320_DD_CC.png"){
     engine(80, 0)
 }
 
-spriteset(set_EMU320_DD_wagon_A, "src/locomotive/EMU/EMU320_DD/EMU320_DD.png") {
+spriteset(set_EMU320_DD_CC_wagon_A, "src/locomotive/EMU/EMU320_DD/EMU320_DD_CC.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_EMU320_DD_wagon_B, "src/locomotive/EMU/EMU320_DD/EMU320_DD.png") {
+spriteset(set_EMU320_DD_CC_wagon_B, "src/locomotive/EMU/EMU320_DD/EMU320_DD_CC.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_EMU320_DD_engineT, "src/locomotive/EMU/EMU320_DD/EMU320_DD.png"){
-    engine(80, 81)
+spriteset(set_EMU320_DD_CC_wagon_C, "src/locomotive/EMU/EMU320_DD/EMU320_DD_CC.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_EMU320_DD_CC_wagon_D, "src/locomotive/EMU/EMU320_DD/EMU320_DD_CC.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_EMU320_DD_CC_engineT, "src/locomotive/EMU/EMU320_DD/EMU320_DD_CC.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+EMU320_DD_BK
+--------------------------------------------------------------------*/
+spriteset(set_EMU320_DD_BK_engineH, "src/locomotive/EMU/EMU320_DD/EMU320_DD_BK.png"){
+    engine(80, 0)
+}
+
+spriteset(set_EMU320_DD_BK_wagon_A, "src/locomotive/EMU/EMU320_DD/EMU320_DD_BK.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_EMU320_DD_BK_wagon_B, "src/locomotive/EMU/EMU320_DD/EMU320_DD_BK.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_EMU320_DD_BK_wagon_C, "src/locomotive/EMU/EMU320_DD/EMU320_DD_BK.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_EMU320_DD_BK_wagon_D, "src/locomotive/EMU/EMU320_DD/EMU320_DD_BK.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_EMU320_DD_BK_engineT, "src/locomotive/EMU/EMU320_DD/EMU320_DD_BK.png"){
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------

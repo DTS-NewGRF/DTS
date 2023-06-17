@@ -1,15 +1,50 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_EMU320_DD_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_EMU320_DD_BK);  //EMU320_DD_BK
+    return string(STR_REFIT_LIVERY_EMU320_DD_CC);
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_DD_engineH, cargo_subtype) {
+    1: set_EMU320_DD_BK_engineH;     //EMU320_DD_BK 
+    set_EMU320_DD_CC_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_DD_engineT, cargo_subtype) {
+    1: set_EMU320_DD_BK_engineT;     //EMU320_DD_BK
+    set_EMU320_DD_CC_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_DD_wagon_A, cargo_subtype) {
+    1: set_EMU320_DD_BK_wagon_A;     //EMU320_DD_BK
+    set_EMU320_DD_CC_wagon_A;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_DD_wagon_B, cargo_subtype) {
+    1: set_EMU320_DD_BK_wagon_B;     //EMU320_DD_BK
+    set_EMU320_DD_CC_wagon_B;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_DD_wagon_C, cargo_subtype) {
+    1: set_EMU320_DD_BK_wagon_C;     //EMU320_DD_BK
+    set_EMU320_DD_CC_wagon_C;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EMU320_DD_wagon_D, cargo_subtype) {
+    1: set_EMU320_DD_BK_wagon_D;     //EMU320_DD_BK
+    set_EMU320_DD_CC_wagon_D;
+}
+
 switch (FEAT_TRAINS, SELF, sw_EMU320_DD_8car, position_in_vehid_chain % 8) {
-    1:set_EMU320_DD_wagon_A;
-    2:set_EMU320_DD_wagon_A;
-    3:set_EMU320_DD_wagon_A;
-    4:set_EMU320_DD_wagon_B;
-    5:set_EMU320_DD_wagon_B;
-    6:set_EMU320_DD_wagon_B;
-    7:set_EMU320_DD_engineT;
-    set_EMU320_DD_engineH; //default
+    1:sw_EMU320_DD_wagon_A;
+    2:sw_EMU320_DD_wagon_B;
+    3:sw_EMU320_DD_wagon_C;
+    4:sw_EMU320_DD_wagon_B;
+    5:sw_EMU320_DD_wagon_B;
+    6:sw_EMU320_DD_wagon_D;
+    7:sw_EMU320_DD_engineT;
+    sw_EMU320_DD_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_EMU320_DD_8car, extra_callback_info1) {
