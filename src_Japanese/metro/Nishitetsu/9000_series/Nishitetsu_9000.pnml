@@ -72,6 +72,7 @@ item(FEAT_TRAINS, Nishitetsu_9000_3Car, 2113){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Nishitetsu_9000_2Car;
         
         //spec
         speed:                          110km/h;

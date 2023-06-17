@@ -72,6 +72,7 @@ item(FEAT_TRAINS, MEL_150_8Car, 2165){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  MEL_150_4Car;
         
         //spec
         speed:                          150km/h;
@@ -126,6 +127,7 @@ item(FEAT_TRAINS, MEL_150_10Car, 2137){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  MEL_150_4Car;
         
         //spec
         speed:                          150km/h;
@@ -180,6 +182,7 @@ item(FEAT_TRAINS, MEL_150_12Car, 2138){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  MEL_150_4Car;
         
         //spec
         speed:                          150km/h;

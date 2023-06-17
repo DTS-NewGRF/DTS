@@ -73,6 +73,7 @@ item(FEAT_TRAINS, Nishitetsu_6000_4Car, 2119){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Nishitetsu_6000_3Car;
         
         //spec
         speed:                          110km/h;

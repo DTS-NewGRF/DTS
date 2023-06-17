@@ -71,6 +71,7 @@ item(FEAT_TRAINS, CR400BF_16Car, 2151){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CR400BF_8Car;
         
         //spec
         speed:                          420km/h;
@@ -124,6 +125,7 @@ item(FEAT_TRAINS, CR400BF_17Car, 2152){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CR400BF_8Car;
         
         //spec
         speed:                          420km/h;

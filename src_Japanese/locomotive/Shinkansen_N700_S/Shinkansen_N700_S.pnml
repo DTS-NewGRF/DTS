@@ -18,6 +18,7 @@ item(FEAT_TRAINS, Shinkansen_N700_S_8Car, 2090){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Shinkansen_N700_S_16Car;
         
         //spec
         speed:                          300km/h;

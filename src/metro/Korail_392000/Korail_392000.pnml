@@ -72,6 +72,7 @@ item(FEAT_TRAINS, Korail_392000_4Car, 2140){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail_392000_2Car;
         
         //spec
         speed:                          120km/h;

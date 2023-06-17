@@ -72,6 +72,7 @@ item(FEAT_TRAINS, EMU150_8Car, 2131){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  EMU150_6Car;
         
         //spec
         speed:                          165km/h;

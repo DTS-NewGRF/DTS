@@ -72,6 +72,7 @@ item(FEAT_TRAINS, CTX_P_10Car, 2125){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CTX_F_10Car;
         
         //spec
         speed:                          300km/h;

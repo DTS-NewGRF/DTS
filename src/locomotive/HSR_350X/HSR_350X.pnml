@@ -72,6 +72,7 @@ item(FEAT_TRAINS, HSR_350X_14Car, 2005){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HSR_350X_7Car;
         
         //spec
         speed:                          362km/h;

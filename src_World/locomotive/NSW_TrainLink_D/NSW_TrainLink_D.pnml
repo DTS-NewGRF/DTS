@@ -73,6 +73,7 @@ item(FEAT_TRAINS, NSW_TrainLink_D_6Car, 2142){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  NSW_TrainLink_D_4Car;
         
         //spec
         speed:                          160km/h;

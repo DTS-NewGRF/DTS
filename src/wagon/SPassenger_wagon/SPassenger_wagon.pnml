@@ -118,6 +118,7 @@ item (FEAT_TRAINS, CY_GW_Passenger_Car, 2001){
         introduction_date:              date(2006, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Eco_Rail_Passenger_Car;
 
         //spec
         power:                          0 kW;
@@ -167,6 +168,7 @@ item (FEAT_TRAINS, JA_A_Passenger_Car, 2158){
         introduction_date:              date(2002, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Eco_Rail_Passenger_Car;
 
         //spec
         power:                          0 kW;
@@ -216,6 +218,7 @@ item (FEAT_TRAINS, E_Train_Passenger_Car, 2159){
         introduction_date:              date(2014, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Eco_Rail_Passenger_Car;
 
         //spec
         power:                          0 kW;
@@ -265,6 +268,7 @@ item (FEAT_TRAINS, Wine_Panax_Passenger_Car, 2160){
         introduction_date:              date(2006, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Eco_Rail_Passenger_Car;
 
         //spec
         power:                          0 kW;
@@ -314,6 +318,7 @@ item (FEAT_TRAINS, Wine_Cinema_Passenger_Car, 2161){
         introduction_date:              date(2006, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Eco_Rail_Passenger_Car;
 
         //spec
         power:                          0 kW;
@@ -363,6 +368,7 @@ item (FEAT_TRAINS, Lady_Bird_Passenger_Car, 2162){
         introduction_date:              date(2006, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Eco_Rail_Passenger_Car;
 
         //spec
         power:                          0 kW;
@@ -412,6 +418,7 @@ item (FEAT_TRAINS, S_Train_New_Passenger_Car, 2163){
         introduction_date:              date(2013, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Eco_Rail_Passenger_Car;
 
         //spec
         power:                          0 kW;
@@ -461,6 +468,7 @@ item (FEAT_TRAINS, A_Train_New_Passenger_Car, 2164){
         introduction_date:              date(2022, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Eco_Rail_Passenger_Car;
 
         //spec
         power:                          0 kW;
@@ -510,6 +518,7 @@ item (FEAT_TRAINS, G_Train_New_Passenger_Car, 2002){
         introduction_date:              date(2023, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Eco_Rail_Passenger_Car;
 
         //spec
         power:                          0 kW;

@@ -71,6 +71,7 @@ item(FEAT_TRAINS, HEMU_430X_8Car, 2127){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HEMU_430X_6Car;
         
         //spec
         speed:                          430km/h;
