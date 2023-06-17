@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_EMU320_purchase, "src/locomotive/EMU/EMU320/EMU320_BK.png"){
+spriteset(set_EMU320_purchase, "src/locomotive/EMU/EMU320/EMU320_CC.png"){
 	tmpl_purchase(0, 0)
 }
 
