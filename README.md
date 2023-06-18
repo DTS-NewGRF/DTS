@@ -1,8 +1,8 @@
 # Derivative Train Set 파생형 열차세트 /DTS
 **파생형 열차세트**는 <br>
-약 2016년에 YST set [YST](https://github.com/evepoi/YST)에서 최초로 시작했다.<br>
+약 2016년에 [YST set](https://github.com/evepoi/YST)에서 최초로 시작했다.<br>
 2022년 4월 2일 YST에서 열차들이 나라별도 분리된 <br>
-`[한국열차세트 플러스](https://github.com/GBLINER/KoreanTrainSet_Plus) `<br>
+`[한국열차세트 플러스](https://github.com/GBLINER/KoreanTrainSet_Plus)`<br>
 `[일본열차세트 플러스](https://github.com/GBLINER/JapaneseTrainSet_Plus)`<br>
 `[중국열차세트](https://github.com/GBLINER/ChineseTrainSet)`<br>
 `[유럽열차세트](https://github.com/GBLINER/EuropeanTrainSet)`<br>
