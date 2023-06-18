@@ -2,6 +2,7 @@
 **파생형 열차세트**는 기존 열차셋을 바탕으로 다른 도색이 적용할 경우 적용되는 열차셋이다.
 기존 셋을 바탕으로 제작되는 만큼 적용되는 기준이 다소 까다롭게 적용된다.
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)에서 다운로드할 수 있습니다.
+![DTS_1.00.4](https://github.com/DTS-NewGRF/DTS/blob/minengallery/docs/DTS_1.00.4.png)
 
 ## 등록기준
 ### 공통사항
