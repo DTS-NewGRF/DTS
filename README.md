@@ -13,22 +13,20 @@
 `[YST]는 중단되었다.`<br>
 
 2023년 5월 지금의 `Derivative Train Set 파생형 열차세트 / DTS`로 다시 통합하여 관리하고 있다.<br>
-[Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)
-인게임 온라인 컨텐츠에서 다운받을 수 있다.
+[Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases) & 인게임 온라인 컨텐츠에서 다운받을 수 있다.<br>
 ![DTS_1.00.4](https://github.com/DTS-NewGRF/DTS/blob/minengallery/docs/DTS_1.00.4.png)
 
 ## 등록기준
 ### 공통사항
-기본 템플릿과 일치하지 않을 경우 적용이 보류된다.
-하지만, 그외 자료는 제한을 두지 않고, 적용하고 있다.
+기본 템플릿과 일치하지 않을 경우 적용이 보류된다. 하지만, 그외 자료는 제한을 두지 않고, 적용하고 있다.
 
 ## 개발
 ### 빌드하는 방법
-이 NewGRF를 빌드하려면 [NML](https://github.com/OpenTTD/nml)과 **Python 3**이 필요합니다.  
-터미널 쉘에서 ``make``를 실행하세요. Windows 환경이라면, 그 전에 명령 프롬포트를 열고 ``bash``를 입력하세요.  
+이 NewGRF를 빌드하려면 [NML](https://github.com/OpenTTD/nml)과 **Python 3**이 필요합니다. <br> 
+터미널 쉘에서 ``make``를 실행하세요. Windows 환경이라면, 그 전에 명령 프롬포트를 열고 ``bash``를 입력하세요.  <br>
 ``make clean``을 입력하면 모든 생성된 파일이 초기화됩니다.
 
 ## 저작권
 이 NewGRF는 크리에이티브 커먼스 라이선스 v3.0 (CC-BY-NC-SA v3.0)을 따릅니다. <br>
-이 프로젝트에 기여함은 이 라이선스에 동의함을 의미합니다.
+이 프로젝트에 기여함은 이 라이선스에 동의함을 의미합니다. <br>
 라이선스에 따라, 등록된 자료는 누구나 수정할 수 있습니다.
