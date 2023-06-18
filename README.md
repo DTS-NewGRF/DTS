@@ -1,18 +1,26 @@
-# Derivative Train Set 파생형 열차세트
-**파생형 열차세트**는 기존 열차셋을 바탕으로 다른 도색이 적용할 경우 적용되는 열차셋이다.
-기존 셋을 바탕으로 제작되는 만큼 적용되는 기준이 다소 까다롭게 적용된다.
-[Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)에서 다운로드할 수 있습니다.
+# Derivative Train Set 파생형 열차세트 /DTS {VERSION}
+**파생형 열차세트**는 
+약 2016년에 YST set [YST](https://github.com/evepoi/YST)에서 최초로 시작했다.
+2022년 4월 2일 YST에서 열차들이 나라별도 분리된 
+`[한국열차세트 플러스](https://github.com/GBLINER/KoreanTrainSet_Plus) `
+`[일본열차세트 플러스](https://github.com/GBLINER/JapaneseTrainSet_Plus)`
+`[중국열차세트](https://github.com/GBLINER/ChineseTrainSet)`
+`[유럽열차세트](https://github.com/GBLINER/EuropeanTrainSet)`
+`[세계열차세트](https://github.com/GBLINER/WorldTrainSet)`
+`[가상열차세트](https://github.com/GBLINER/VirtualTrainSet)`
+로 파생되었다.
+가상열차세트를 제외한 다른 셋은 여전히 파생셋으로 관리되고 있다.
+`[YST]는 중단되었다.`
+
+2023년 5월 지금의 `Derivative Train Set 파생형 열차세트 / DTS`로 다시 통합하여 관리하고 있다.
+[Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)
+인게임 온라인 컨텐츠에서 다운받을 수 있다.
 ![DTS_1.00.4](https://github.com/DTS-NewGRF/DTS/blob/minengallery/docs/DTS_1.00.4.png)
 
 ## 등록기준
 ### 공통사항
 기본 템플릿과 일치하지 않을 경우 적용이 보류된다.
-### 파생형
-원본이 되는 기존 셋의 출처가 명확해야하며, 원본열차의 선형을 그대로 유지할 수 있어야 한다. (제작시점의 선형기준)
-### 카피형
-- 원본이 되는 기존셋이 그대로 파생형으로 카피되어 넘어올 경우에 해당한다. (제작시점 자료기준)
-- 원본 GRF가 메인임이므로 관련 자료의 이슈 자료는 필수적으로 무시한다.
-- 원본셋과 파생형의 셋이 중련연결하고 싶은 경우를 대비해 카피형이 적용되는 경우가 가장 클 수 있다.
+하지만, 그외 자료는 제한을 두지 않고, 적용하고 있다.
 
 ## 개발
 ### 빌드하는 방법
@@ -23,3 +31,4 @@
 ## 저작권
 이 NewGRF는 크리에이티브 커먼스 라이선스 v3.0 (CC-BY-NC-SA v3.0)을 따릅니다. <br>
 이 프로젝트에 기여함은 이 라이선스에 동의함을 의미합니다.
+라이선스에 따라, 등록된 자료는 누구나 수정할 수 있습니다.
