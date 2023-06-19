@@ -14,6 +14,9 @@
 
 2023년 5월 지금의 `Derivative Train Set 파생형 열차세트 / DTS`로 다시 통합하여 관리하고 있다.<br>
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases) & 인게임 온라인 컨텐츠에서 다운받을 수 있다.<br>
+<summary>추가되는 열차 목록 보기</summary>
+
+<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
 ![DTS](https://github.com/DTS-NewGRF/DTS/blob/minengallery/docs/DTS.png)
 
 ## 등록기준
