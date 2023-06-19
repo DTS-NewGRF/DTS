@@ -1,6 +1,18 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_EMU150_4car, position_in_vehid_chain % 4) {
+    1:set_EMU150_panto_wagon_A;
+    2:set_EMU150_panto_wagon_B;
+    3:set_EMU150_engineT;
+    set_EMU150_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_EMU150_4car, extra_callback_info1) {
+    1..3: EMU150_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
 switch (FEAT_TRAINS, SELF, sw_EMU150_6car, position_in_vehid_chain % 6) {
     1:set_EMU150_panto_wagon_A;
     2:set_EMU150_1F_wagon;

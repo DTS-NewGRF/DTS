@@ -16,6 +16,7 @@ STR_CTX_F_10Car_NAME                                 :[10량] CTX 화물전용 [
 STR_CTX_P_10Car_NAME                                 :[10량] CTX 승객전용 [DTS]
 STR_DEL7600_NAME                                     :[단량] DEL7600 [DTS]
 STR_E8600_NAME                                       :[단량] 8600호대 전기기관차 [DTS]
+STR_EMU150_4Car_NAME                                 :[4량] 비츠로 [DTS]
 STR_EMU150_6Car_NAME                                 :[6량] 비츠로 [DTS]
 STR_EMU150_8Car_NAME                                 :[8량] 비츠로 [DTS]
 STR_EMU150_DD_6Car_NAME                              :[6량] 비츠로 DD [DTS]
@@ -345,8 +346,6 @@ STR_REFIT_train_configuration_KMetro_Passenger       :{BLACK}열차구성: {GREE
 STR_REFIT_train_configuration_EMU_Passenger          :{BLACK}열차구성: {GREEN}[기관차연결] EMU 객차{}순차적 제거 예정.
 
 # Liveries locomotive
-STR_REFIT_LIVERY_AREX_Normal                         :(기본 도색)
-STR_REFIT_LIVERY_AREX_Company_Color                  :(회사 색상)
 STR_REFIT_LIVERY_Bicheuro                            :(비츠로)
 STR_REFIT_LIVERY_BicheuroA                           :(비츠로 A)
 STR_REFIT_LIVERY_BicheuroB                           :(비츠로 B)
@@ -449,21 +448,8 @@ STR_REFIT_LIVERY_Shinkansen_E2_Pink                  :(E2계 - 분홍)
 STR_REFIT_LIVERY_Shinkansen_E2_Red                   :(E2계 - 빨강)
 STR_REFIT_LIVERY_Shinkansen_E5                       :(신칸센 E5계)
 STR_REFIT_LIVERY_Shinkansen_H5                       :(신칸센 H5계)
-STR_REFIT_LIVERY_HYEL_100_SRT                        :(SRT)
-STR_REFIT_LIVERY_HYEL_100_CJ                         :(CJ 대한통운)
-STR_REFIT_LIVERY_HYEL_100_poste                      :(우체국 택배)
-STR_REFIT_LIVERY_HYEL_100_fedex                      :(Fedex)
-STR_REFIT_LIVERY_HYEL_100_SanCheon                   :(산천)
-STR_REFIT_LIVERY_HYEL_100_Hanjin                     :(한진 택배)
-STR_REFIT_LIVERY_HYEL_100_logen                      :(로젠 택배)
-STR_REFIT_LIVERY_HYEL_100_lotte                      :(롯데 택배)
-STR_REFIT_LIVERY_HYEL_100_DHL                        :(DHL)
-STR_REFIT_LIVERY_HYEL_100_Yellowcap                  :(옐로우캡)
-STR_REFIT_LIVERY_HYEL_100_Daesin                     :(대신 택배)
-STR_REFIT_LIVERY_HYEL_100_Ilyang                     :(일양 택배)
-STR_REFIT_LIVERY_HYEL_100_Korail                     :(코레일)
-STR_REFIT_LIVERY_HYEL_100_Ironman                    :(아이언맨)
-STR_REFIT_LIVERY_HYEL_100_K_Limousine                :(K 리무진)
+STR_REFIT_LIVERY_HYEL_100_SR                         :(SR)
+STR_REFIT_LIVERY_HYEL_100_CI                         :(한국철도공사 CI)
 STR_REFIT_LIVERY_HYEL_150                            :(HYEL-150)
 STR_REFIT_LIVERY_HYEL_150_SB                         :(HYEL-150 바다도색)
 

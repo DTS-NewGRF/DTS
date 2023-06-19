@@ -6,7 +6,7 @@ spriteset(set_AREX_purchase, "src/locomotive/AREX/AREX.png"){
 }
 
 /*--------------------------------------------------------------------
-1. APEX20005
+APEX20005 회사색상
 --------------------------------------------------------------------*/
 spriteset(set_AREX_engineH, "src/locomotive/AREX/AREX.png"){
     engine(80, 0)
@@ -29,31 +29,8 @@ spriteset(set_AREX_engineT, "src/locomotive/AREX/AREX.png"){
 }
 
 /*--------------------------------------------------------------------
-2. APEX20005 회사색상
---------------------------------------------------------------------*/
-spriteset(set_AREX_Compay_engineH, "src/locomotive/AREX/AREX_Company_Color.png"){
-    engine(80, 0)
-}
-
-spriteset(set_AREX_Compay_panto_wagon, "src/locomotive/AREX/AREX_Company_Color.png"){
-    wagon_1F_F(80, 27)
-}
-
-spriteset(set_AREX_Compay_wagon, "src/locomotive/AREX/AREX_Company_Color.png") {
-    wagon_1F_F(80, 54)
-}
-
-spriteset(set_AREX_Compay_panto_wagon_r, "src/locomotive/AREX/AREX_Company_Color.png"){
-    wagon_1F_F(80, 81)
-}
-
-spriteset(set_AREX_Compay_engineT, "src/locomotive/AREX/AREX_Company_Color.png"){
-    engine(80, 108)
-}
-
-/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_AREX_purchase, cargo_subtype) {
-	set_AREX_purchase;
+    set_AREX_purchase;
 }

@@ -1,48 +1,13 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_AREX_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_AREX_Company_Color);   // 회사 색상
-    return string(STR_REFIT_LIVERY_AREX_Normal);
-}
-
-switch(FEAT_TRAINS, SELF, sw_AREX_engineH, cargo_subtype) {
-    1: set_AREX_Compay_engineH;   // 회사 색상
-    set_AREX_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_AREX_engineT, cargo_subtype) {
-    1: set_AREX_Compay_engineT;   // 회사 색상
-    set_AREX_engineT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_AREX_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: sw_AREX_engineT;
-    sw_AREX_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_AREX_panto_wagon, cargo_subtype) {
-    1: set_AREX_Compay_panto_wagon;   // 회사 색상
-    set_AREX_panto_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_AREX_wagon_middle, cargo_subtype) {
-    1: set_AREX_Compay_wagon;   // 회사 색상
-    set_AREX_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_AREX_panto_wagon_r, cargo_subtype) {
-    1: set_AREX_Compay_panto_wagon_r;   // 회사 색상
-    set_AREX_panto_wagon_r;
-}
-
 switch (FEAT_TRAINS, SELF, sw_AREX_6car, position_in_vehid_chain % 6) {
-    1:sw_AREX_panto_wagon;
-    2:sw_AREX_wagon_middle;
-    3:sw_AREX_wagon_middle;
-    4:sw_AREX_panto_wagon_r;
-    5:sw_AREX_engineT;
-    sw_AREX_engineH; //default
+    1:set_AREX_panto_wagon;
+    2:set_AREX_wagon;
+    3:set_AREX_wagon;
+    4:set_AREX_panto_wagon_r;
+    5:set_AREX_engineT;
+    set_AREX_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_AREX_6car, extra_callback_info1) {

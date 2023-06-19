@@ -16,6 +16,7 @@ STR_CTX_F_10Car_NAME                                 :[DTS] CTX Freight 10Car
 STR_CTX_P_10Car_NAME                                 :[DTS] CTX Passenger 10Car
 STR_DEL7600_NAME                                     :[DTS] DEL7600
 STR_E8600_NAME                                       :[DTS] E8600
+STR_EMU150_4Car_NAME                                 :[DTS] Bicheuro 4Car
 STR_EMU150_6Car_NAME                                 :[DTS] Bicheuro 6Car
 STR_EMU150_8Car_NAME                                 :[DTS] Bicheuro 8Car
 STR_EMU150_DD_6Car_NAME                              :[DTS] Bicheuro DD 6Car
@@ -346,8 +347,6 @@ STR_REFIT_train_configuration_KMetro_Passenger       :{BLACK}train configuration
 STR_REFIT_train_configuration_EMU_Passenger          :{BLACK}train configuration: {GREEN}Bicheuro, EMU, GTX, ITX-Saemaeul DD, Nuriro DD
 
 # Liveries
-STR_REFIT_LIVERY_AREX_Normal                         :(Normal Color)
-STR_REFIT_LIVERY_AREX_Company_Color                  :(Company Color)
 STR_REFIT_LIVERY_Bicheuro                            :(Bicheuro)
 STR_REFIT_LIVERY_BicheuroA                           :(Bicheuro A)
 STR_REFIT_LIVERY_BicheuroB                           :(Bicheuro B)
@@ -450,21 +449,8 @@ STR_REFIT_LIVERY_Shinkansen_E2_Pink                  :(Pink line Livery)
 STR_REFIT_LIVERY_Shinkansen_E2_Red                   :(Red line Livery)
 STR_REFIT_LIVERY_Shinkansen_E5                       :(Shinkansen E5)
 STR_REFIT_LIVERY_Shinkansen_H5                       :(Shinkansen H5)
-STR_REFIT_LIVERY_HYEL_100_SRT                        :(SRT)
-STR_REFIT_LIVERY_HYEL_100_CJ                         :(CJ Logistics)
-STR_REFIT_LIVERY_HYEL_100_poste                      :(Poste mail)
-STR_REFIT_LIVERY_HYEL_100_fedex                      :(Fedex)
-STR_REFIT_LIVERY_HYEL_100_SanCheon                   :(SanCheon)
-STR_REFIT_LIVERY_HYEL_100_Hanjin                     :(Hanjin Logistics)
-STR_REFIT_LIVERY_HYEL_100_logen                      :(logen Logistics)
-STR_REFIT_LIVERY_HYEL_100_lotte                      :(lotte Logistics)
-STR_REFIT_LIVERY_HYEL_100_DHL                        :(DHL)
-STR_REFIT_LIVERY_HYEL_100_Yellowcap                  :(Yellowcap)
-STR_REFIT_LIVERY_HYEL_100_Daesin                     :(Daesin Logistics)
-STR_REFIT_LIVERY_HYEL_100_Ilyang                     :(Ilyang Logistics)
-STR_REFIT_LIVERY_HYEL_100_Korail                     :(Korail)
-STR_REFIT_LIVERY_HYEL_100_Ironman                    :(Ironman)
-STR_REFIT_LIVERY_HYEL_100_K_Limousine                :(K Limousine)
+STR_REFIT_LIVERY_HYEL_100_SR                         :(SR)
+STR_REFIT_LIVERY_HYEL_100_CI                         :(Korail CI)
 STR_REFIT_LIVERY_HYEL_150                            :(HYEL-150)
 STR_REFIT_LIVERY_HYEL_150_SB                         :(HYEL-150 Sea Livery)
 
