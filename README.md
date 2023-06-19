@@ -15,11 +15,18 @@
 2023년 5월 지금의 `Derivative Train Set 파생형 열차세트 / DTS`로 다시 통합하여 관리하고 있다.<br>
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases) & 인게임 온라인 컨텐츠에서 다운받을 수 있다.<br>
 <details>
-    <summary>추가되는 열차 목록</summary>
-    ![DTS](https://github.com/DTS-NewGRF/DTS/blob/minengallery/docs/DTS.png)
-    <details>
-        <summary>기관차 및 동력차</summary>
-        <p>STR_AREX_6Car_NAME                                   :[6량] AREX (공항철도) [DTS]
+<summary>추가되는 열차 목록</summary>
+![DTS](https://github.com/DTS-NewGRF/DTS/blob/minengallery/docs/DTS.png)
+> <details>
+<summary>기관차 및 동력차</summary>
+|열차이름|릴리즈 변경|열차 ID|
+|---|---|---|
+|[4량] 한국형 표준전동차 [DTS]||2006|
+|[6량] 차세대전동차 [DTS]||2007|
+|[2량] 한국철도공사 392000호대 전동차 [DTS]||2139|
+
+이하 편집중
+[6량] AREX (공항철도) [DTS]
 STR_MEL_150_4Car_NAME                                :[4량] MEL-150 [DTS]
 STR_MEL_150_8Car_NAME                                :[8량] MEL-150 [DTS]
 STR_MEL_150_10Car_NAME                               :[10량] MEL-150 [DTS]
@@ -138,10 +145,6 @@ STR_Glory_600_8Car_NAME                              :[8량] Glory 600 [DTS]
 STR_HMX_8Car_NAME                                    :[8량] HMX [DTS]
 STR_NKX_8Car_NAME                                    :[8량] NKX [DTS]
 
-# Metro's name
-STR_Standard_Metro_4Car_NAME                         :[4량] 한국형 표준전동차 [DTS]
-STR_AUTS_6Car_NAME                                   :[6량] 차세대전동차 [DTS]
-STR_Korail_392000_2Car_NAME                          :[2량] 한국철도공사 392000호대 전동차 [DTS]
 STR_Korail_392000_4Car_NAME                          :[4량] 한국철도공사 392000호대 전동차 [DTS]
 STR_MTR_AD_Tranz_CAF_A_8Car_NAME                     :[8량] 홍콩 MTR AD Tranz CAF A형 [DTS]
 STR_MTR_AC_Cammall_8Car_NAME                         :[8량] 홍콩 MTR 메트로카멜 교류형 전동차 [DTS]
