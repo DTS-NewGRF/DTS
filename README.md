@@ -13,7 +13,8 @@
 `[YST]는 중단되었다.`<br>
 
 2023년 5월 지금의 `Derivative Train Set 파생형 열차세트 / DTS`로 다시 통합하여 관리하고 있다.<br>
-[Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases) & 인게임 온라인 컨텐츠에서 다운받을 수 있다.<br>
+[Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases) / 최근 버전 : 1.01<br>
+인게임 온라인 컨텐츠에서 다운받을 수 있다. / 최근 컨텐츠 : 1.00.4 <br>
 <details>
     <summary>추가되는 열차 목록</summary>
         <details>
