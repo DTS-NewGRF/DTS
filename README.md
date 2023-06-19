@@ -18,7 +18,8 @@
     <summary>추가되는 열차 목록</summary>
         <details>
             <details>
-                <summary>지하철</summary>
+            <summary>지하철</summary>
+                <summary>한국지하철</summary>
                     <table>
                         <th>열차ID</th>
                         <th>열차이름</th>
