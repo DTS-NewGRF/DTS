@@ -55,7 +55,9 @@ sort(FEAT_TRAINS, [
     Keisei_AE_series_8Car,         //2084
     HYEL_15,                       //2115
     HYEL_100,                      //2108
-    HYEL_200_6Car,                 //2109
+    HYEL_200_4Car,                 //2167
+    HYEL_200_6Car,                 //2168
+    HYEL_220_6Car,                 //2109
     NSW_TrainLink_D_4Car,          //2117
     NSW_TrainLink_D_6Car,          //2142
     NKX_8Car,                      //2135

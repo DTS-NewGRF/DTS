@@ -280,9 +280,19 @@
                         <td>1.01</td>
                     </tr>
                     <tr>
-                        <td>2109</td>
+                        <td>2167</td>
+                        <td>[4량] HYEL-200 [DTS]</td>
+                        <td>1.01</td>
+                    </tr>
+                    <tr>
+                        <td>2168</td>
                         <td>[6량] HYEL-200 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.01</td>
+                    </tr>
+                    <tr>
+                        <td>2109</td>
+                        <td>[6량] HYEL-220 [DTS]</td>
+                        <td>1.01</td>
                     </tr>
                     <tr>
                         <td>2135</td>
@@ -400,7 +410,7 @@
                     <tr>
                         <td>2110</td>
                         <td>[8량] HYEL-300 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.01</td>
                     </tr>
                     <tr>
                         <td>2134</td>

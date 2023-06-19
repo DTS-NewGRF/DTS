@@ -111,7 +111,9 @@ STR_Shinkansen_N700S_16Car_NAME                      :[16량] 신칸센 N700S계
 STR_HYEL_15_NAME                                     :[단량] HYEL-15 [DTS]
 STR_HYEL_100_NAME                                    :[단량] HYEL-100 [DTS]
 STR_HYEL_150_NAME                                    :[단량] HYEL-150 [DTS]
+STR_HYEL_200_4Car_NAME                               :[4량] HYEL-200 [DTS]
 STR_HYEL_200_6Car_NAME                               :[6량] HYEL-200 [DTS]
+STR_HYEL_220_6Car_NAME                               :[6량] HYEL-220 [DTS]
 STR_HYEL_300_8Car_NAME                               :[8량] HYEL-300 [DTS]
 STR_HYEL_400_8Car_NAME                               :[8량] HYEL-400 [DTS]
 STR_DFX_10Car_NAME                                   :[10량] DFX [DTS]
@@ -307,7 +309,8 @@ STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_HYEL_15                         :{BLACK}복합가능열차 {GREEN}HYEL-15
 STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}복합가능열차 {GREEN}HYEL-100
 STR_REFIT_ADDITIONAL_HYEL_150                        :{BLACK}복합가능열차 {GREEN}HYEL-150
-STR_REFIT_ADDITIONAL_HYEL_200                        :{BLACK}복합가능열차 {GREEN}HYEL-200
+STR_REFIT_ADDITIONAL_HYEL_200                        :{BLACK}복합가능열차 {GREEN}HYEL-200, HYEL-220
+STR_REFIT_ADDITIONAL_HYEL_220                        :{BLACK}복합가능열차 {GREEN}HYEL-200, HYEL-220
 STR_REFIT_ADDITIONAL_HYEL_300                        :{BLACK}복합가능열차 {RED}불가능
 STR_REFIT_ADDITIONAL_HYEL_400                        :{BLACK}복합가능열차 {GREEN}HYEL-400
 STR_REFIT_ADDITIONAL_DFX                             :{BLACK}복합가능열차 {GREEN}DFX

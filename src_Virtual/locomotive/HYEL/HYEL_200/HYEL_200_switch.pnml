@@ -1,6 +1,18 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_HYEL_200_4car, position_in_vehid_chain % 4) {
+    1:set_HYEL_200_wagon;
+    2:set_HYEL_200_wagon;
+    3:set_HYEL_200_engineT;
+    set_HYEL_200_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_200_4car, extra_callback_info1) {
+    1..3: HYEL_200_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
 switch (FEAT_TRAINS, SELF, sw_HYEL_200_6car, position_in_vehid_chain % 6) {
     1:set_HYEL_200_wagon;
     2:set_HYEL_200_wagon;
@@ -16,6 +28,8 @@ switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_200_6car, extra_callback_info1) {
     }
 
 switch(FEAT_TRAINS, SELF, sw_HYEL_200_wagon_attach, vehicle_type_id) {
+    HYEL_200_4Car:           return CB_RESULT_ATTACH_ALLOW;
     HYEL_200_6Car:           return CB_RESULT_ATTACH_ALLOW;
+    HYEL_220_6Car:           return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }

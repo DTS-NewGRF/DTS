@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_220_purchase, "src_Virtual/locomotive/HYEL/HYEL_220/HYEL_220.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_HYEL_220_engineH, "src_Virtual/locomotive/HYEL/HYEL_220/HYEL_220.png"){
+    engine(80, 0)
+}
+
+spriteset(set_HYEL_220_wagon, "src_Virtual/locomotive/HYEL/HYEL_220/HYEL_220.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_HYEL_220_engineT, "src_Virtual/locomotive/HYEL/HYEL_220/HYEL_220.png"){
+    engine(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_HYEL_220_purchase, cargo_subtype) {
+    set_HYEL_220_purchase;
+}
