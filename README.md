@@ -170,14 +170,28 @@
                     </table>
             </details>
         </details>
+    <details>
+            <summary>통근열차</summary>
+                <table>
+                    <th>열차ID</th>
+                    <th>열차이름</th>
+                    <th>릴리즈</th>
+                    <tr>
+                        <td>2008</td>
+                        <td>[2량] 우진산전 수소연료전지동차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2060</td>
+                        <td>[4량] 우진산전 수소연료전지동차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                </table>
+        </details>
 </details>
 
 
 이하 편집중
-
-    //통근열차
-    H2_WJ_2Car,                    //2008
-    H2_WJ_4Car,                    //2060
 
     //일반열차
     APEX20005_6Car,                //2009
@@ -362,8 +376,6 @@ STR_ITX_SM2_6Car_NAME                                :[6량] ITX-새마을 DD [D
 STR_KTX_SC_10Car_NAME                                :[10량] KTX-산천 [DTS]
 STR_KTX_SC2_10Car_NAME                               :[10량] KTX-산천 DD [DTS]
 STR_NRT2_4Car_NAME                                   :[4량] 누리로 DD [DTS]
-STR_H2_WJ_2Car_NAME                                  :[2량] 우진산전 수소연료전지동차 [DTS]
-STR_H2_WJ_4Car_NAME                                  :[4량] 우진산전 수소연료전지동차 [DTS]
 STR_Travel_8500_NAME                                 :[단량] 8500호대 전기기관차 [DTS]
 STR_TTX_6Car_NAME                                    :[6량] TTX [DTS]
 STR_VHST_600X_8Car_NAME                              :[8량] VHST-600X [DTS]
