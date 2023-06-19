@@ -17,158 +17,160 @@
 <details>
     <summary>추가되는 열차 목록</summary>
         <details>
-            <summary>지하철</summary>
-                <table>
-                    <th>열차ID</th>
-                    <th>열차이름</th>
-                    <th>릴리즈</th>
-                    <tr>
-                        <td>2006</td>
-                        <td>[4량] 한국형 표준전동차 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2007</td>
-                        <td>[6량] 차세대전동차 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2139</td>
-                        <td>[2량] 한국철도공사 392000호대 전동차 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2140</td>
-                        <td>[4량] 한국철도공사 392000호대 전동차 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2140</td>
-                        <td>[4량] 한국철도공사 392000호대 전동차 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                </table>
-        </details>
-        <details>
-            <summary>홍콩지하철</summary>
-                <table>
-                    <th>열차ID</th>
-                    <th>열차이름</th>
-                    <th>릴리즈</th>
-                    <tr>
-                        <td>2052</td>
-                        <td>[8량] 홍콩 MTR AD Tranz CAF A형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2053</td>
-                        <td>[8량] 홍콩 MTR 메트로카멜 교류형 전동차 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2054</td>
-                        <td>[8량] 홍콩 MTR 메트로카멜 직류형 전동차 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2055</td>
-                        <td>[8량] 홍콩 MTR CNR 창춘 전동차 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2056</td>
-                        <td>[8량] 홍콩 MTR CRRC 전동차 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2057</td>
-                        <td>[8량] 홍콩 MTR 현대로템 미쓰비시 전동차 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2058</td>
-                        <td>[8량] 홍콩 MTR 현대로템 R형 전동차 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2059</td>
-                        <td>[8량] 홍콩 MTR IKK SP 1900 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                </table>
-        </details>
-        <details>
-            <summary>일본지하철</summary>
-                <table>
-                    <th>열차ID</th>
-                    <th>열차이름</th>
-                    <th>릴리즈</th>
-                    <tr>
-                        <td>2097</td>
-                        <td>[4량] 니시테츠 1000형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2098</td>
-                        <td>[6량] 니시테츠 2000형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2099</td>
-                        <td>[2량] 니시테츠 3000형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2083</td>
-                        <td>[3량] 니시테츠 3000형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2105</td>
-                        <td>[5량] 니시테츠 3000형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2100</td>
-                        <td>[3량] 니시테츠 5000형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2107</td>
-                        <td>[4량] 니시테츠 5000형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2101</td>
-                        <td>[3량] 니시테츠 6000형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2119</td>
-                        <td>[4량] 니시테츠 6000형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2102</td>
-                        <td>[2량] 니시테츠 7000형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2103</td>
-                        <td>[6량] 니시테츠 8000형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2104</td>
-                        <td>[2량] 니시테츠 9000형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                    <tr>
-                        <td>2113</td>
-                        <td>[3량] 니시테츠 9000형 [DTS]</td>
-                        <td>1.00.4</td>
-                    </tr>
-                </table>
+            <details>
+                <summary>지하철</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2006</td>
+                            <td>[4량] 한국형 표준전동차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2007</td>
+                            <td>[6량] 차세대전동차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2139</td>
+                            <td>[2량] 한국철도공사 392000호대 전동차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2140</td>
+                            <td>[4량] 한국철도공사 392000호대 전동차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2140</td>
+                            <td>[4량] 한국철도공사 392000호대 전동차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+            <details>
+                <summary>홍콩지하철</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2052</td>
+                            <td>[8량] 홍콩 MTR AD Tranz CAF A형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2053</td>
+                            <td>[8량] 홍콩 MTR 메트로카멜 교류형 전동차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2054</td>
+                            <td>[8량] 홍콩 MTR 메트로카멜 직류형 전동차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2055</td>
+                            <td>[8량] 홍콩 MTR CNR 창춘 전동차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2056</td>
+                            <td>[8량] 홍콩 MTR CRRC 전동차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2057</td>
+                            <td>[8량] 홍콩 MTR 현대로템 미쓰비시 전동차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2058</td>
+                            <td>[8량] 홍콩 MTR 현대로템 R형 전동차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2059</td>
+                            <td>[8량] 홍콩 MTR IKK SP 1900 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+            <details>
+                <summary>일본지하철</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2097</td>
+                            <td>[4량] 니시테츠 1000형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2098</td>
+                            <td>[6량] 니시테츠 2000형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2099</td>
+                            <td>[2량] 니시테츠 3000형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2083</td>
+                            <td>[3량] 니시테츠 3000형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2105</td>
+                            <td>[5량] 니시테츠 3000형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2100</td>
+                            <td>[3량] 니시테츠 5000형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2107</td>
+                            <td>[4량] 니시테츠 5000형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2101</td>
+                            <td>[3량] 니시테츠 6000형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2119</td>
+                            <td>[4량] 니시테츠 6000형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2102</td>
+                            <td>[2량] 니시테츠 7000형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2103</td>
+                            <td>[6량] 니시테츠 8000형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2104</td>
+                            <td>[2량] 니시테츠 9000형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2113</td>
+                            <td>[3량] 니시테츠 9000형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
         </details>
 </details>
 
