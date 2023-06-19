@@ -39,8 +39,6 @@ sort(FEAT_TRAINS, [
     MEL_150_8Car,                  //2165
     MEL_150_10Car,                 //2137
     MEL_150_12Car,                 //2138
-    APEX20005_6Car,                //2009
-    APEX20005_6Car,                //2009
     EMU150_4Car,                   //2166
     EMU150_6Car,                   //2010
     EMU150_8Car,                   //2131

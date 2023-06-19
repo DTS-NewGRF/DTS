@@ -170,7 +170,7 @@
                     </table>
             </details>
         </details>
-    <details>
+        <details>
             <summary>통근열차</summary>
                 <table>
                     <th>열차ID</th>
@@ -188,311 +188,886 @@
                     </tr>
                 </table>
         </details>
-</details>
-
-
-이하 편집중
-
-    //일반열차
-    APEX20005_6Car,                //2009
-    MEL_150_4Car,                  //2136
-    MEL_150_8Car,                  //2165
-    MEL_150_10Car,                 //2137
-    MEL_150_12Car,                 //2138
-    APEX20005_6Car,                //2009
-    APEX20005_6Car,                //2009
-    EMU150_4Car,                   //2166
-    EMU150_6Car,                   //2010
-    EMU150_8Car,                   //2131
-    EMU150_DD_6Car,                //2011
-    NRT2_4Car,                     //2012
-    ITX_SM2_6Car,                  //2013
-    GT26CW,                        //2014
-    DEL7600,                       //2015
-    Travel_8500,                   //2016
-    E8600,                         //2128
-    HXD3C,                         //2050
-    NJ2,                           //2051
-    BB15000,                       //2064
-    Keisei_AE_series_8Car,         //2084
-    HYEL_15,                       //2115
-    HYEL_100,                      //2108
-    HYEL_200_6Car,                 //2109
-    NSW_TrainLink_D_4Car,          //2117
-    NSW_TrainLink_D_6Car,          //2142
-    NKX_8Car,                      //2135
-
-    //준고속 180
-    GTX_8Car,                      //2017
-    ITX_CW_8Car,                   //2018
-    TTX_6Car,                      //2019
-
-    //준고속 260
-    EMU260_6Car,                   //2020
-    EMU260_DD_6Car,                //2021
-    CRH1_8Car,                     //2034
-    CRH1E_16Car,                   //2035
-    CRH1A_A_8Car,                  //2036
-    ICE1_14Car,                    //2067
-    ICE2_8Car,                     //2068
-    ICE4_7Car,                     //2071
-    ICE4_12Car,                    //2123
-    Renfe_S_130_13Car,             //2075
-    Shinkansen_0_12Car,            //2085
-    Shinkansen_0_16Car,            //2126
-    Shinkansen_700_8Car,           //2143
-    Shinkansen_700_16Car,          //2087
-    Shinkansen_800_6Car,           //2088
-    Shinkansen_E2_10Car,           //2091
-    Shinkansen_E7_W7_12Car,        //2094
-    HYEL_150,                      //2141
-    HYEL_300_8Car,                 //2110
-    HMX_8Car,                      //2134
-
-    //고속열차 331
-    EMU320_8Car,                   //2022
-    EMU320_DD_8Car,                //2023
-    KTX_SC_10Car,                  //2024
-    KTX_SC2_10Car,                 //2025
-    CTX_F_10Car,                   //2026
-    CTX_P_10Car,                   //2125
-    HSR_350X_7Car,                 //2027
-    HSR_350X_14Car,                //2005
-    CRH2_8Car,                     //2037
-    CRH2_16Car,                    //2144
-    CRH2C_8Car,                    //2038
-    CRH3_8Car,                     //2039
-    CRH380A_8Car,                  //2040
-    CRH380A_16Car,                 //2145
-    CRH380B_8Car,                  //2041
-    CRH380B_16Car,                 //2146
-    CRH380C_16Car,                 //2042
-    CRH380D_8Car,                  //2043
-    CRH380D_16Car,                 //2147
-    AGV_11Car,                     //2063
-    Eurostar_E300_20Car,           //2065
-    Eurostar_E320_16Car,           //2066
-    ICE3_8Car,                     //2069
-    ICE3V_8Car,                    //2070
-    Renfe_S_100_10Car,             //2072
-    Renfe_S_102_14Car,             //2073
-    Renfe_S_103_8Car,              //2074
-    TGV_Duplex_10Car,              //2076
-    TGV_Pos_10Car,                 //2077
-    TGV_Sud_Est_10Car,             //2078
-    TGV_Reseau_Duplex_10Car,       //2079
-    TGV_A_12Car,                   //2080
-    TGV_R_10Car,                   //2154
-    TGV_La_Poste_10Car,            //2081
-    TGV_M_10Car,                   //2082
-    Shinkansen_500_8Car,           //2086
-    Shinkansen_500_16Car,          //2062
-    Shinkansen_N700_8Car,          //2089
-    Shinkansen_N700_16Car,         //2155
-    Shinkansen_N700_S_8Car,        //2090
-    Shinkansen_N700_S_16Car,       //2156
-    Shinkansen_E5_H5_10Car,        //2092
-    Shinkansen_E6_7Car,            //2093
-    Shinkansen_E8_7Car,            //2095
-    NHSRCL_E5_10Car,               //2116
-    THSR_700T_12Car,               //2118
-    Al_Boraq_10Car,                //2120
-    Talgo_350_SRO_14Car,           //2121
-    Avelia_Liberty_11Car,          //2122
-
-    //고속열차 430
-    HEMU_430X_6Car,                //2028
-    HEMU_430X_8Car,                //2127
-    CR400AF_8Car,                  //2045
-    CR400AF_16Car,                 //2148
-    CR400AF_17Car,                 //2149
-    CR400AF_Z_8Car,                //2046
-    CR400AF_Z_17Car,               //2150
-    CR400BF_8Car,                  //2047
-    CR400BF_16Car,                 //2151
-    CR400BF_17Car,                 //2152
-    CR400BF_C_8Car,                //2048
-    CR400BF_Z_8Car,                //2049
-    CR400BF_Z_17Car,               //2153
-    HYEL_400_8Car,                 //2111
-
-    //고속열차 600
-    VHST_600X_8Car,                //2029
-    Glory_600_8Car,                //2133
-    CRH380AJ_8Car,                 //2044
-    Shinkansen_923_7Car,           //2096
-    DFX_10Car,                     //2112
-
-    //객차
-    Eco_Rail_Passenger_Car,        //2157
-    CY_GW_Passenger_Car,           //2001
-    JA_A_Passenger_Car,            //2158
-    E_Train_Passenger_Car,         //2159
-    Wine_Panax_Passenger_Car,      //2160
-    Wine_Cinema_Passenger_Car,     //2161
-    Lady_Bird_Passenger_Car,       //2162
-    S_Train_New_Passenger_Car,     //2163
-    A_Train_New_Passenger_Car,     //2164
-    G_Train_New_Passenger_Car,     //2002
-    KMetro_Pass,                   //2030
-    EMU_Pass,                      //2124
-    Coach_2F,                      //2106
-    KTS_SPassenger_Car,            //2132
-    CTS_SPassenger_Car,            //2031
-    ETS_SPassenger_Car,            //2061
-    Generatar_Car,                 //2003
-    CGeneratar_Car,                //2032
-    Luggage_Car,                   //2004
-    CLuggage_Car,                  //2033
-    FLAT_1F,                       //2129
-    FLAT_2F,                       //2114
-    FLAT_TANK,                     //2130
-
-[6량] AREX (공항철도) [DTS]
-STR_MEL_150_4Car_NAME                                :[4량] MEL-150 [DTS]
-STR_MEL_150_8Car_NAME                                :[8량] MEL-150 [DTS]
-STR_MEL_150_10Car_NAME                               :[10량] MEL-150 [DTS]
-STR_MEL_150_12Car_NAME                               :[12량] MEL-150 [DTS]
-STR_CTX_F_10Car_NAME                                 :[10량] CTX 화물전용 [DTS]
-STR_CTX_P_10Car_NAME                                 :[10량] CTX 승객전용 [DTS]
-STR_DEL7600_NAME                                     :[단량] DEL7600 [DTS]
-STR_E8600_NAME                                       :[단량] 8600호대 전기기관차 [DTS]
-STR_EMU150_4Car_NAME                                 :[4량] 비츠로 [DTS]
-STR_EMU150_6Car_NAME                                 :[6량] 비츠로 [DTS]
-STR_EMU150_8Car_NAME                                 :[8량] 비츠로 [DTS]
-STR_EMU150_DD_6Car_NAME                              :[6량] 비츠로 DD [DTS]
-STR_EMU260_6Car_NAME                                 :[6량] EMU-260 [DTS]
-STR_EMU260_DD_6Car_NAME                              :[6량] EMU-260 DD [DTS]
-STR_EMU320_8Car_NAME                                 :[8량] EMU-320 [DTS]
-STR_EMU320_DD_8Car_NAME                              :[8량] EMU-320 DD [DTS]
-STR_GT26CW_NAME                                      :[단량] 7X00호대 디젤기관차 [DTS]
-STR_GTX_8Car_NAME                                    :[8량] GTX [DTS]
-STR_HEMU_430X_6Car_NAME                              :[6량] HEMU-430X [DTS]
-STR_HEMU_430X_8Car_NAME                              :[8량] HEMU-430X [DTS]
-STR_HSR_350X_7Car_NAME                               :[7량] HSR-350X [DTS]
-STR_HSR_350X_14Car_NAME                              :[14량] HSR-350X [DTS]
-STR_ICE_CW_8Car_NAME                                 :[8량] ITX-초월 [DTS]
-STR_ITX_SM2_6Car_NAME                                :[6량] ITX-새마을 DD [DTS]
-STR_KTX_SC_10Car_NAME                                :[10량] KTX-산천 [DTS]
-STR_KTX_SC2_10Car_NAME                               :[10량] KTX-산천 DD [DTS]
-STR_NRT2_4Car_NAME                                   :[4량] 누리로 DD [DTS]
-STR_Travel_8500_NAME                                 :[단량] 8500호대 전기기관차 [DTS]
-STR_TTX_6Car_NAME                                    :[6량] TTX [DTS]
-STR_VHST_600X_8Car_NAME                              :[8량] VHST-600X [DTS]
-STR_CRH1_8Car_NAME                                   :[8량] CRH1A [DTS]
-STR_CRH1E_16Car_NAME                                 :[16량] CRH1E [DTS]
-STR_CRH1A_A_8Car_NAME                                :[8량] CRH1A-A [DTS]
-STR_CRH2_8Car_NAME                                   :[8량] CRH2A [DTS]
-STR_CRH2_16Car_NAME                                  :[16량] CRH2B [DTS]
-STR_CRH2C_8Car_NAME                                  :[8량] CRH2C [DTS]
-STR_CRH3_8Car_NAME                                   :[8량] CRH3C [DTS]
-STR_CRH380A_8Car_NAME                                :[8량] CRH380A [DTS]
-STR_CRH380A_16Car_NAME                               :[16량] CRH380AL [DTS]
-STR_CRH380AJ_8Car_NAME                               :[8량] CRH380AJ [DTS]
-STR_CRH380B_8Car_NAME                                :[8량] CRH380B [DTS]
-STR_CRH380B_16Car_NAME                               :[16량] CRH380BL [DTS]
-STR_CRH380C_16Car_NAME                               :[16량] CRH380CL [DTS]
-STR_CRH380D_8Car_NAME                                :[8량] CRH380D [DTS]
-STR_CRH380D_16Car_NAME                               :[16량] CRH380D [DTS]
-STR_CR400AF_8Car_NAME                                :[8량] CR400AF [DTS]
-STR_CR400AF_16Car_NAME                               :[16량] CR400AF [DTS]
-STR_CR400AF_17Car_NAME                               :[17량] CR400AF [DTS]
-STR_CR400AF_Z_8Car_NAME                              :[8량] CR400AF-Z [DTS]
-STR_CR400AF_Z_17Car_NAME                             :[17량] CR400AF-Z [DTS]
-STR_CR400BF_8Car_NAME                                :[8량] CR400BF [DTS]
-STR_CR400BF_16Car_NAME                               :[16량] CR400BF [DTS]
-STR_CR400BF_17Car_NAME                               :[17량] CR400BF [DTS]
-STR_CR400BF_C_8Car_NAME                              :[8량] CR400BF-C [DTS]
-STR_CR400BF_Z_8Car_NAME                              :[8량] CR400BF-Z [DTS]
-STR_CR400BF_Z_17Car_NAME                             :[17량] CR400BF-Z [DTS]
-STR_HXD3C_NAME                                       :[단량] HXD3C [DTS]
-STR_NJ2_NAME                                         :[단량] NJ2 [DTS]
-STR_AGV_11Car_NAME                                   :[11량] AGV (이탈로) [DTS]
-STR_BB15000_NAME                                     :[단량] SNCF BB15000 [DTS]
-STR_Eurostar_E300_20Car_NAME                         :[20량] 유로스타 E300 [DTS]
-STR_Eurostar_E320_16Car_NAME                         :[16량] 유로스타 E320 [DTS]
-STR_ICE1_14Car_NAME                                  :[14량] ICE1 [DTS]
-STR_ICE2_8Car_NAME                                   :[8량] ICE2 [DTS]
-STR_ICE3_8Car_NAME                                   :[8량] ICE3 [DTS]
-STR_ICE3V_8Car_NAME                                  :[8량] ICE3 (벨라로 D) [DTS]
-STR_ICE4_7Car_NAME                                   :[7량] ICE4 [DTS]
-STR_ICE4_12Car_NAME                                  :[12량] ICE4 [DTS]
-STR_Renfe_S_100_10Car_NAME                           :[10량] 렌페 AVE S-100 [DTS]
-STR_Renfe_S_102_14Car_NAME                           :[14량] 렌페 AVE S-102 [DTS]
-STR_Renfe_S_103_8Car_NAME                            :[8량] 렌페 AVE S-103 [DTS]
-STR_Renfe_S_130_13Car_NAME                           :[13량] 렌페 S-130 [DTS]
-STR_TGV_Sud_Est_10Car_NAME                           :[10량] TGV 쉬드-에스트
-STR_TGV_A_12Car_NAME                                 :[12량] TGV 아틀랑티크 [DTS]
-STR_TGV_R_10Car_NAME                                 :[10량] TGV 레조 [DTS]
-STR_TGV_Reseau_Duplex_10Car_NAME                     :[10량] TGV 레조 듀플렉스 [DTS]
-STR_TGV_La_Poste_10Car_NAME                          :[10량] TGV 라포스트
-STR_TGV_Duplex_10Car_NAME                            :[10량] TGV 듀플렉스 [DTS]
-STR_TGV_Pos_10Car_NAME                               :[10량] TGV 포스 [DTS]
-STR_TGV_M_10Car_NAME                                 :[10량] TGV M [DTS]
-STR_Kse2_8Car_NAME                                   :[8량] 케이세이 AE형 2세대 [DTS]
-STR_Shinkansen_0_12Car_NAME                          :[12량] 신칸센 0계 12량 [DTS]
-STR_Shinkansen_0_16Car_NAME                          :[16량] 신칸센 0계 16량 [DTS]
-STR_Shinkansen_500_8Car_NAME                         :[8량] 신칸센 500계 [DTS]
-STR_Shinkansen_500_16Car_NAME                        :[16량] 신칸센 500계 [DTS]
-STR_Shinkansen_700_8Car_NAME                         :[8량] 신칸센 700계 [DTS]
-STR_Shinkansen_700_16Car_NAME                        :[16량] 신칸센 700계 [DTS]
-STR_Shinkansen_800_6Car_NAME                         :[6량] 신칸센 800계 [DTS]
-STR_Shinkansen_923_7Car_NAME                         :[7량] 신칸센 923형 (닥터 옐로우) [DTS]
-STR_Shinkansen_E2_10Car_NAME                         :[10량] 신칸센 E2계 [DTS]
-STR_Shinkansen_E5_H5_10Car_NAME                      :[10량] 신칸센 E5·H5계 [DTS]
-STR_Shinkansen_E6_7Car_NAME                          :[7량] 신칸센 E6계 [DTS]
-STR_Shinkansen_E7_W7_12Car_NAME                      :[12량] 신칸센 E7·W7계 [DTS]
-STR_Shinkansen_E8_7Car_NAME                          :[7량] 신칸센 E8계 [DTS]
-STR_Shinkansen_N700_8Car_NAME                        :[8량] 신칸센 N700계 [DTS]
-STR_Shinkansen_N700_16Car_NAME                       :[16량] 신칸센 N700계 [DTS]
-STR_Shinkansen_N700S_8Car_NAME                       :[8량] 신칸센 N700S계 [DTS]
-STR_Shinkansen_N700S_16Car_NAME                      :[16량] 신칸센 N700S계 [DTS]
-STR_HYEL_15_NAME                                     :[단량] HYEL-15 [DTS]
-STR_HYEL_100_NAME                                    :[단량] HYEL-100 [DTS]
-STR_HYEL_150_NAME                                    :[단량] HYEL-150 [DTS]
-STR_HYEL_200_6Car_NAME                               :[6량] HYEL-200 [DTS]
-STR_HYEL_300_8Car_NAME                               :[8량] HYEL-300 [DTS]
-STR_HYEL_400_8Car_NAME                               :[8량] HYEL-400 [DTS]
-STR_DFX_10Car_NAME                                   :[10량] DFX [DTS]
-STR_NHSRCL_E5_10Car_NAME                             :[10량] NHSRCL E5 [DTS]
-STR_NSW_TrainLink_D_4Car_NAME                        :[4량] NSW TrainLink D [DTS]
-STR_NSW_TrainLink_D_6Car_NAME                        :[6량] NSW TrainLink D [DTS]
-STR_THSR_700T_12Car_NAME                             :[12량] 타이완 고속철도 700T형 [DTS]
-STR_Al_Boraq_10Car_NAME                              :[10량] 알 보라크 [DTS]
-STR_Talgo_350_SRO_14Car_NAME                         :[14량] 탈고 350 SRO (하라마인 고속철도) [DTS]
-STR_Avelia_Liberty_11Car_NAME                        :[11량] 아벨리아 리버티 [DTS]
-STR_Glory_600_8Car_NAME                              :[8량] Glory 600 [DTS]
-STR_HMX_8Car_NAME                                    :[8량] HMX [DTS]
-STR_NKX_8Car_NAME                                    :[8량] NKX [DTS]
-
-    </details>
-    <details>
-        <summary>객화차</summary>
-        <p>STR_Eco_Rail_NAME                                    :[관광객차] 에코레일 [DTS]
-STR_CY_GW_NAME                                       :[관광객차] 충북영동국악와인 [DTS]
-STR_JA_a_NAME                                        :[관광객차] 정선아리랑 유람열차 [DTS]
-STR_E_Train_NAME                                     :[관광객차] E-Train [DTS]
-STR_Wine_Panax_NAME                                  :[관광객차] 와인인삼트레인 [DTS]
-STR_Wine_Cinema_NAME                                 :[관광객차] 와인시네마트레인 [DTS]
-STR_Lady_Bird_NAME                                   :[관광객차] 레이디버드 [DTS]
-STR_S_Train_New_NAME                                 :[관광객차] S-Train 신도색 [DTS]
-STR_A_Train_New_NAME                                 :[관광객차] A-Train 신도색 [DTS]
-STR_G_Train_New_NAME                                 :[관광객차] G-Train 신도색 [DTS]
-STR_KTS_SPASS_NAME                                   :[기관차연결] 한국 객차 차량 [DTS]
-STR_Generatar_Car_NAME                               :[기관차연결] 한국 발전차 [DTS]
-STR_Luggage_Car_NAME                                 :[기관차연결] 한국 수화물차 [DTS]
-STR_CTS_SPASS_NAME                                   :[기관차연결] 중국 객차 차량 [DTS]
-STR_CGeneratar_Car_NAME                              :[기관차연결] 중국 발전차 [DTS]
-STR_CLuggage_Car_NAME                                :[기관차연결] 중국 수화물차 [DTS]
-STR_ETS_SPASS_NAME                                   :[기관차연결] 유럽 객차 차량 [DTS]
-STR_VTS_SPASS_NAME                                   :[기관차연결] 가상 객차 차량 [DTS]
-STR_FLAT_1F_NAME                                     :[기관차연결] 평판화차 [DTS]
-STR_FLAT_Tank_NAME                                   :[기관차연결] 평판유조 화차 [DTS]
-STR_FLAT_2F_NAME                                     :[기관차연결] 평판화차 - 미국형 [DTS]
-STR_KMetro_Pass_NAME                                 :[기관차연결] 한국형 지하철 차량 [DTS]
-STR_EMU_Pass_NAME                                    :[기관차연결] EMU 객차 차량 [DTS]</p>
+        <details>
+            <summary>일반열차</summary>
+                <table>
+                    <th>열차ID</th>
+                    <th>열차이름</th>
+                    <th>릴리즈</th>
+                    <tr>
+                        <td>2009</td>
+                        <td>[6량] AREX (공항철도) [DTS]</td>
+                        <td>1.01</td>
+                    </tr>
+                    <tr>
+                        <td>2136</td>
+                        <td>[4량] MEL-150 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2165</td>
+                        <td>[8량] MEL-150 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2137</td>
+                        <td>[10량] MEL-150 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2138</td>
+                        <td>[12량] MEL-150 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2166</td>
+                        <td>[4량] 비츠로 [DTS]</td>
+                        <td>1.01</td>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>[6량] 비츠로 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2131</td>
+                        <td>[8량] 비츠로 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2011</td>
+                        <td>[6량] 비츠로 DD [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>[4량] 누리로 DD [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2013</td>
+                        <td>[6량] ITX-새마을 DD [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2014</td>
+                        <td>[단량] 7X00호대 디젤기관차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>[단량] DEL7600 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>[단량] 8500호대 전기기관차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2128</td>
+                        <td>[단량] 8600호대 전기기관차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2115</td>
+                        <td>[단량] HYEL-15 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2108</td>
+                        <td>[단량] HYEL-100 [DTS]</td>
+                        <td>1.01</td>
+                    </tr>
+                    <tr>
+                        <td>2109</td>
+                        <td>[6량] HYEL-200 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2135</td>
+                        <td>[8량] NKX [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                </table>
+            <details>
+                <summary>중국일반열차</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2050</td>
+                            <td>[단량] HXD3C [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2051</td>
+                            <td>[단량] NJ2 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+            <details>
+                <summary>유럽일반열차</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2064</td>
+                            <td>[단량] SNCF BB15000 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+            <details>
+                <summary>일본일반열차</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2084</td>
+                            <td>[8량] 케이세이 AE형 2세대 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+            <details>
+                <summary>세계일반열차</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2117</td>
+                            <td>[4량] NSW TrainLink D [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2142</td>
+                            <td>[6량] NSW TrainLink D [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
         </details>
-    </details>
+        <details>
+            <summary>준고속 180km/h</summary>
+                <table>
+                    <th>열차ID</th>
+                    <th>열차이름</th>
+                    <th>릴리즈</th>
+                    <tr>
+                        <td>2017</td>
+                        <td>[8량] GTX [DTS]</td>
+                        <td>1.01</td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>[8량] ITX-초월 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>[6량] TTX [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                </table>
+        </details>
+        <details>
+            <summary>준고속 260km/h</summary>
+                <table>
+                    <th>열차ID</th>
+                    <th>열차이름</th>
+                    <th>릴리즈</th>
+                    <tr>
+                        <td>2020</td>
+                        <td>[6량] EMU-260 [DTS]</td>
+                        <td>1.01</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>[6량] EMU-260 DD [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2141</td>
+                        <td>[단량] HYEL-150 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2110</td>
+                        <td>[8량] HYEL-300 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2134</td>
+                        <td>[8량] HMX [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                </table>
+            <details>
+                <summary>중국 준고속 260km/h</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2034</td>
+                            <td>[8량] CRH1A [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2035</td>
+                            <td>[16량] CRH1E [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2036</td>
+                            <td>[8량] CRH1A-A [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+            <details>
+                <summary>유럽 준고속 260km/h</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2067</td>
+                            <td>[14량] ICE1 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2068</td>
+                            <td>[8량] ICE2 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2071</td>
+                            <td>[7량] ICE4 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2123</td>
+                            <td>[12량] ICE4 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2075</td>
+                            <td>[13량] 렌페 S-130 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+            <details>
+                <summary>일본 준고속 260km/h</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2085</td>
+                            <td>[12량] 신칸센 0계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2126</td>
+                            <td>[16량] 신칸센 0계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2143</td>
+                            <td>[8량] 신칸센 700계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2087</td>
+                            <td>[16량] 신칸센 700계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2088</td>
+                            <td>[6량] 신칸센 800계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2091</td>
+                            <td>[10량] 신칸센 E2계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2094</td>
+                            <td>[12량] 신칸센 E7·W7계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+        </details>
+        <details>
+            <summary>고속열차 331km/h</summary>
+                <table>
+                    <th>열차ID</th>
+                    <th>열차이름</th>
+                    <th>릴리즈</th>
+                    <tr>
+                        <td>2022</td>
+                        <td>[8량] EMU-320 [DTS]</td>
+                        <td>1.01</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>[8량] EMU-320 DD [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>[10량] KTX-산천 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td>[10량] KTX-산천 DD [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2026</td>
+                        <td>[10량] CTX 화물전용 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2125</td>
+                        <td>[10량] CTX 승객전용 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2027</td>
+                        <td>[7량] HSR-350X [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2005</td>
+                        <td>[14량] HSR-350X [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                </table>
+            <details>
+                <summary>중국 고속열차 331km/h</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2037</td>
+                            <td>[8량] CRH2A [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2144</td>
+                            <td>[16량] CRH2B [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2038</td>
+                            <td>[8량] CRH2C [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2039</td>
+                            <td>[8량] CRH3C [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2040</td>
+                            <td>[8량] CRH380A [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2145</td>
+                            <td>[16량] CRH380AL [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2041</td>
+                            <td>[8량] CRH380B [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2146</td>
+                            <td>[16량] CRH380BL [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2042</td>
+                            <td>[16량] CRH380CL [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2043</td>
+                            <td>[8량] CRH380D [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2147</td>
+                            <td>[16량] CRH380D [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+            <details>
+                <summary>유럽 고속열차 331km/h</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2063</td>
+                            <td>[11량] AGV (이탈로) [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2065</td>
+                            <td>[20량] 유로스타 E300 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2066</td>
+                            <td>[16량] 유로스타 E320 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2069</td>
+                            <td>[8량] ICE3 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2070</td>
+                            <td>[8량] ICE3 (벨라로 D) [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2072</td>
+                            <td>[10량] 렌페 AVE S-100 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2073</td>
+                            <td>[14량] 렌페 AVE S-102 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2074</td>
+                            <td>[8량] 렌페 AVE S-103 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2076</td>
+                            <td>[10량] TGV 듀플렉스 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2077</td>
+                            <td>[10량] TGV 포스 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2078</td>
+                            <td>[10량] TGV 쉬드-에스트 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2079</td>
+                            <td>[10량] TGV 레조 듀플렉스 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2080</td>
+                            <td>[12량] TGV 아틀랑티크 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2154</td>
+                            <td>[10량] TGV 레조 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2081</td>
+                            <td>[10량] TGV 라포스트 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2082</td>
+                            <td>[10량] TGV M [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+            <details>
+                <summary>일본 고속열차 331km/h</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2086</td>
+                            <td>[8량] 신칸센 500계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2062</td>
+                            <td>[16량] 신칸센 500계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2089</td>
+                            <td>[8량] 신칸센 N700계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2155</td>
+                            <td>[16량] 신칸센 N700계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2090</td>
+                            <td>[8량] 신칸센 N700S계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2156</td>
+                            <td>[16량] 신칸센 N700S계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2092</td>
+                            <td>[10량] 신칸센 E5·H5계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2093</td>
+                            <td>[7량] 신칸센 E6계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2095</td>
+                            <td>[7량] 신칸센 E8계 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+            <details>
+                <summary>세계 고속열차 331km/h</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2116</td>
+                            <td>[10량] NHSRCL E5 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2118</td>
+                            <td>[12량] 타이완 고속철도 700T형 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2120</td>
+                            <td>[10량] 알 보라크 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2121</td>
+                            <td>[14량] 탈고 350 SRO (하라마인 고속철도) [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2122</td>
+                            <td>[11량] 아벨리아 리버티 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+        </details>
+        <details>
+            <summary>고속열차 430km/h</summary>
+                <table>
+                    <th>열차ID</th>
+                    <th>열차이름</th>
+                    <th>릴리즈</th>
+                    <tr>
+                        <td>2028</td>
+                        <td>[6량] HEMU-430X [DTS]</td>
+                        <td>1.01</td>
+                    </tr>
+                    <tr>
+                        <td>2127</td>
+                        <td>[8량] HEMU-430X [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2111</td>
+                        <td>[8량] HYEL-400 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                </table>
+            <details>
+                <summary>중국 고속열차 430km/h</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2045</td>
+                            <td>[8량] CR400AF [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2148</td>
+                            <td>[16량] CR400AF [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2149</td>
+                            <td>[17량] CR400AF [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2046</td>
+                            <td>[8량] CR400AF-Z [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2150</td>
+                            <td>[17량] CR400AF-Z [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2047</td>
+                            <td>[8량] CR400BF [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2151</td>
+                            <td>[16량] CR400BF [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2152</td>
+                            <td>[17량] CR400BF [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2048</td>
+                            <td>[8량] CR400BF-C [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2049</td>
+                            <td>[8량] CR400BF-Z [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2153</td>
+                            <td>[17량] CR400BF-Z [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+        </details>
+        <details>
+            <summary>고속열차 600km/h</summary>
+                <table>
+                    <th>열차ID</th>
+                    <th>열차이름</th>
+                    <th>릴리즈</th>
+                    <tr>
+                        <td>2029</td>
+                        <td>[8량] VHST-600X [DTS]</td>
+                        <td>1.01</td>
+                    </tr>
+                    <tr>
+                        <td>2133</td>
+                        <td>[8량] Glory 600 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2112</td>
+                        <td>[10량] DFX [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                </table>
+            <details>
+                <summary>테스트 고속열차 600km/h</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2044</td>
+                            <td>[8량] CRH380AJ [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2096</td>
+                            <td>[7량] 신칸센 923형 (닥터 옐로우) [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+        </details>
+        <details>
+            <summary>객화차</summary>
+                <table>
+                    <th>열차ID</th>
+                    <th>열차이름</th>
+                    <th>릴리즈</th>
+                    <tr>
+                        <td>2030</td>
+                        <td>[기관차연결] 한국형 지하철 차량 [DTS]</td>
+                        <td>1.01</td>
+                    </tr>
+                    <tr>
+                        <td>2124</td>
+                        <td>[기관차연결] EMU 객차 차량 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2106</td>
+                        <td>[기관차연결] 가상 객차 차량 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2132</td>
+                        <td>[기관차연결] 한국 객차 차량 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2003</td>
+                        <td>[기관차연결] 한국 발전차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>[기관차연결] 한국 수화물차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2129</td>
+                        <td>[기관차연결] 평판화차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2114</td>
+                        <td>[기관차연결] 평판화차 - 미국형 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2130</td>
+                        <td>[기관차연결] 평판유조 화차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                </table>
+            <details>
+                <summary>관광열차 객차</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2157</td>
+                            <td>[관광객차] 에코레일 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2001</td>
+                            <td>[관광객차] 충북영동국악와인 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2158</td>
+                            <td>[관광객차] 정선아리랑 유람열차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2159</td>
+                            <td>[관광객차] E-Train [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2160</td>
+                            <td>[관광객차] 와인인삼트레인 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2161</td>
+                            <td>[관광객차] 와인시네마트레인 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2162</td>
+                            <td>[관광객차] 레이디버드 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2163</td>
+                            <td>[관광객차] S-Train 신도색 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2164</td>
+                            <td>[관광객차] A-Train 신도색 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2002</td>
+                            <td>[관광객차] G-Train 신도색 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+            <details>
+                <summary>중국 객차</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2031</td>
+                            <td>[기관차연결] 중국 객차 차량 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2032</td>
+                            <td>[기관차연결] 중국 발전차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                        <tr>
+                            <td>2033</td>
+                            <td>[기관차연결] 중국 수화물차 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+            <details>
+                <summary>유럽 객차</summary>
+                    <table>
+                        <th>열차ID</th>
+                        <th>열차이름</th>
+                        <th>릴리즈</th>
+                        <tr>
+                            <td>2061</td>
+                            <td>[기관차연결] 유럽 객차 차량 [DTS]</td>
+                            <td>1.00.4</td>
+                        </tr>
+                    </table>
+            </details>
+        </details>
+</details>
 
 ## 등록기준
 ### 공통사항
