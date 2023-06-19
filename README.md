@@ -17,19 +17,28 @@
 <details>
 <summary>추가되는 열차 목록</summary>
 ![DTS](https://github.com/DTS-NewGRF/DTS/blob/minengallery/docs/DTS.png)
-<details>
+> <details>
 <summary>기관차 및 동력차</summary>
-| 열차이름 | 릴리즈 변경 | 열차 ID |
-|-------|----------|-------|
-| [4량] 한국형 표준전동차 [DTS] | | 2006 |
-| [6량] 차세대전동차 [DTS] | | 2007 |
-| [2량] 한국철도공사 392000호대 전동차 [DTS] | | 2139 |
-| Table Header1 | Table Header2 | Table Header3 |
-|:----------|:----------:|----------:|
-| **Cell** | Cell | ~~Cell~~ |
-| Cell | Cell | Cell |
-| Cell | Cell | Cell |
-
+<table>
+    <th>열차ID</th>
+    <th>열차이름</th>
+    <th>릴리즈</th>
+    <tr><!-- 열차 ID 줄 -->
+        <td>2006</td>
+        <td>2007</td>
+        <td>2139</td>
+    </tr>
+    <tr><!-- 열차이름 줄 -->
+        <td>[4량] 한국형 표준전동차 [DTS]</td>
+        <td>[6량] 차세대전동차 [DTS]</td>
+        <td>[2량] 한국철도공사 392000호대 전동차 [DTS]</td>
+    </tr>
+    <tr><!-- 릴리즈 줄 -->
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 
 이하 편집중
 [6량] AREX (공항철도) [DTS]
@@ -202,23 +211,6 @@ STR_EMU_Pass_NAME                                    :[기관차연결] EMU 객�
         </details>
     </details>
 </details>
-
-|   |   |   |
-|---|---|---|
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
 
 ## 등록기준
 ### 공통사항
