@@ -17,10 +17,10 @@
 <details>
 <summary>추가되는 열차 목록</summary>
 ![DTS](https://github.com/DTS-NewGRF/DTS/blob/minengallery/docs/DTS.png)
-> <details>
+<details>
 <summary>기관차 및 동력차</summary>
 |열차이름|릴리즈 변경|열차 ID|
-|---|---|---|
+|-------|----------|-------|
 |[4량] 한국형 표준전동차 [DTS]||2006|
 |[6량] 차세대전동차 [DTS]||2007|
 |[2량] 한국철도공사 392000호대 전동차 [DTS]||2139|
