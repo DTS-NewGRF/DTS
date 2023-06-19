@@ -24,6 +24,11 @@
 | [4량] 한국형 표준전동차 [DTS] | | 2006 |
 | [6량] 차세대전동차 [DTS] | | 2007 |
 | [2량] 한국철도공사 392000호대 전동차 [DTS] | | 2139 |
+| Table Header1 | Table Header2 | Table Header3 |
+|:----------|:----------:|----------:|
+| **Cell** | Cell | ~~Cell~~ |
+| Cell | Cell | Cell |
+| Cell | Cell | Cell |
 
 이하 편집중
 [6량] AREX (공항철도) [DTS]
