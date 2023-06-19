@@ -15,12 +15,11 @@
 2023년 5월 지금의 `Derivative Train Set 파생형 열차세트 / DTS`로 다시 통합하여 관리하고 있다.<br>
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases) & 인게임 온라인 컨텐츠에서 다운받을 수 있다.<br>
 <details>
-<summary>추가되는 열차 목록</summary>
-
-<!--summary 아래 빈칸 공백 두고 내용을 적는공간-->
-![DTS](https://github.com/DTS-NewGRF/DTS/blob/minengallery/docs/DTS.png)
-<summary>기관차 및 동력차</summary>
-STR_AREX_6Car_NAME                                   :[6량] AREX (공항철도) [DTS]
+    <summary>추가되는 열차 목록</summary>
+    ![DTS](https://github.com/DTS-NewGRF/DTS/blob/minengallery/docs/DTS.png)
+    <details>
+        <summary>기관차 및 동력차</summary>
+        <p>STR_AREX_6Car_NAME                                   :[6량] AREX (공항철도) [DTS]
 STR_MEL_150_4Car_NAME                                :[4량] MEL-150 [DTS]
 STR_MEL_150_8Car_NAME                                :[8량] MEL-150 [DTS]
 STR_MEL_150_10Car_NAME                               :[10량] MEL-150 [DTS]
@@ -164,10 +163,11 @@ STR_Nishitetsu_6000_4Car_NAME                        :[4량] 니시테츠 6000�
 STR_Nishitetsu_7000_2Car_NAME                        :[2량] 니시테츠 7000형 [DTS]
 STR_Nishitetsu_8000_6Car_NAME                        :[6량] 니시테츠 8000형 [DTS]
 STR_Nishitetsu_9000_2Car_NAME                        :[2량] 니시테츠 9000형 [DTS]
-STR_Nishitetsu_9000_3Car_NAME                        :[3량] 니시테츠 9000형 [DTS]
-
-<summary>객화차</summary>
-STR_Eco_Rail_NAME                                    :[관광객차] 에코레일 [DTS]
+STR_Nishitetsu_9000_3Car_NAME                        :[3량] 니시테츠 9000형 [DTS]</p>
+    </details>
+    <details>
+        <summary>객화차</summary>
+        <p>STR_Eco_Rail_NAME                                    :[관광객차] 에코레일 [DTS]
 STR_CY_GW_NAME                                       :[관광객차] 충북영동국악와인 [DTS]
 STR_JA_a_NAME                                        :[관광객차] 정선아리랑 유람열차 [DTS]
 STR_E_Train_NAME                                     :[관광객차] E-Train [DTS]
@@ -189,7 +189,9 @@ STR_FLAT_1F_NAME                                     :[기관차연결] 평판�
 STR_FLAT_Tank_NAME                                   :[기관차연결] 평판유조 화차 [DTS]
 STR_FLAT_2F_NAME                                     :[기관차연결] 평판화차 - 미국형 [DTS]
 STR_KMetro_Pass_NAME                                 :[기관차연결] 한국형 지하철 차량 [DTS]
-STR_EMU_Pass_NAME                                    :[기관차연결] EMU 객차 차량 [DTS]
+STR_EMU_Pass_NAME                                    :[기관차연결] EMU 객차 차량 [DTS]</p>
+        </details>
+    </details>
 </details>
 
 ## 등록기준
