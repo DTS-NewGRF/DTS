@@ -17,39 +17,37 @@
 <details>
     <summary>추가되는 열차 목록</summary>
         <details>
-            <details>
-                <summary>한국지하철</summary>
-                    <table>
-                        <th>열차ID</th>
-                        <th>열차이름</th>
-                        <th>릴리즈</th>
-                        <tr>
-                            <td>2006</td>
-                            <td>[4량] 한국형 표준전동차 [DTS]</td>
-                            <td>1.00.4</td>
-                        </tr>
-                        <tr>
-                            <td>2007</td>
-                            <td>[6량] 차세대전동차 [DTS]</td>
-                            <td>1.00.4</td>
-                        </tr>
-                        <tr>
-                            <td>2139</td>
-                            <td>[2량] 한국철도공사 392000호대 전동차 [DTS]</td>
-                            <td>1.00.4</td>
-                        </tr>
-                        <tr>
-                            <td>2140</td>
-                            <td>[4량] 한국철도공사 392000호대 전동차 [DTS]</td>
-                            <td>1.00.4</td>
-                        </tr>
-                        <tr>
-                            <td>2140</td>
-                            <td>[4량] 한국철도공사 392000호대 전동차 [DTS]</td>
-                            <td>1.00.4</td>
-                        </tr>
-                    </table>
-            </details>
+            <summary>지하철</summary>
+                <table>
+                    <th>열차ID</th>
+                    <th>열차이름</th>
+                    <th>릴리즈</th>
+                    <tr>
+                        <td>2006</td>
+                        <td>[4량] 한국형 표준전동차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2007</td>
+                        <td>[6량] 차세대전동차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2139</td>
+                        <td>[2량] 한국철도공사 392000호대 전동차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2140</td>
+                        <td>[4량] 한국철도공사 392000호대 전동차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                    <tr>
+                        <td>2140</td>
+                        <td>[4량] 한국철도공사 392000호대 전동차 [DTS]</td>
+                        <td>1.00.4</td>
+                    </tr>
+                </table>
             <details>
                 <summary>홍콩지하철</summary>
                     <table>
