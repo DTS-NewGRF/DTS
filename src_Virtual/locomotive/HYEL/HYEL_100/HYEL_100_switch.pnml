@@ -3,7 +3,7 @@
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_HYEL_100_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_HYEL_100_CI);        // CI
-    return string(STR_REFIT_LIVERY_HYEL_100_SR);
+    return string(STR_REFIT_LIVERY_HYEL_100);
 }
 
 switch(FEAT_TRAINS, SELF, sw_HYEL_100_engine, cargo_subtype) {
