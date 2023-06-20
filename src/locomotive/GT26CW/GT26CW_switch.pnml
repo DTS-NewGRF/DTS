@@ -24,3 +24,8 @@ switch(FEAT_TRAINS, SELF, sw_GT26CW_engine, cargo_subtype) {
     8: set_GT26CW_G_engine;     // G-train
     set_GT26CW_engine; 
 }
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/GT26CWDieselStart.wav");
+    return CB_RESULT_NO_SOUND;
+    }
