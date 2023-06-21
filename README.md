@@ -27,7 +27,7 @@
                     <tr>
                         <td>2006</td>
                         <td>[4량] 한국형 표준전동차 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.03</td>
                     </tr>
                     <tr>
                         <td>2007</td>
@@ -239,12 +239,12 @@
                     <tr>
                         <td>2012</td>
                         <td>[4량] 누리로 DD [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.03</td>
                     </tr>
                     <tr>
                         <td>2013</td>
                         <td>[6량] ITX-새마을 DD [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.03</td>
                     </tr>
                     <tr>
                         <td>2014</td>
@@ -259,7 +259,7 @@
                     <tr>
                         <td>2016</td>
                         <td>[단량] 8500호대 전기기관차 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.03</td>
                     </tr>
                     <tr>
                         <td>2128</td>
@@ -279,17 +279,17 @@
                     <tr>
                         <td>2167</td>
                         <td>[4량] HYEL-200 [DTS]</td>
-                        <td>1.01</td>
+                        <td>1.03</td>
                     </tr>
                     <tr>
                         <td>2168</td>
                         <td>[6량] HYEL-200 [DTS]</td>
-                        <td>1.01</td>
+                        <td>1.03</td>
                     </tr>
                     <tr>
                         <td>2109</td>
                         <td>[6량] HYEL-220 [DTS]</td>
-                        <td>1.01</td>
+                        <td>1.03</td>
                     </tr>
                     <tr>
                         <td>2135</td>
@@ -374,12 +374,12 @@
                     <tr>
                         <td>2018</td>
                         <td>[8량] ITX-초월 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.03</td>
                     </tr>
                     <tr>
                         <td>2019</td>
                         <td>[6량] TTX [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.03</td>
                     </tr>
                 </table>
         </details>

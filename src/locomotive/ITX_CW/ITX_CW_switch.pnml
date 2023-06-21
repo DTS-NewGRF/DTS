@@ -21,3 +21,8 @@ switch(FEAT_TRAINS, SELF, sw_ITX_CW_wagon_attach, vehicle_type_id) {
     ITX_CW_8Car:             return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }
+
+switch(FEAT_TRAINS, SELF, sw_ITX_CW_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAStart.wav");
+    return CB_RESULT_NO_SOUND;
+    }

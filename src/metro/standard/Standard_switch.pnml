@@ -51,3 +51,8 @@ switch(FEAT_TRAINS, SELF, sw_Standard_Metro_capacity_in_custom, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_Standard_Metro_wagon_attach, vehicle_type_id) {
     return string(STR_ERROR_NO_ATTACH);
 }
+
+switch(FEAT_TRAINS, SELF, sw_HYNDAIROTEM_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/HYNDAIROTEMStart.wav");
+    return CB_RESULT_NO_SOUND;
+    }

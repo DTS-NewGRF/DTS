@@ -58,5 +58,6 @@ item(FEAT_TRAINS, TTX_6Car, 2019){
         running_cost_factor:            150;
         can_attach_wagon:               sw_TTX_wagon_attach;
         additional_text:                string(STR_REFIT_ADDITIONAL_TTX);
+        sound_effect:                   sw_TTX_sound;
         }
         }
