@@ -57,5 +57,6 @@ item(FEAT_TRAINS, Travel_8500, 2016){
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Travel_8500_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_Travel_8500);
+        sound_effect:                   sw_Travel_8500_sound;
         }
         }

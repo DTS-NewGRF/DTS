@@ -24,3 +24,8 @@ switch(FEAT_TRAINS, SELF, sw_Travel_8500_engine, cargo_subtype) {
     8: set_G_New_Train_engine;   // G-Train 신도색
     set_Travel_8500_engine;
 }
+
+switch(FEAT_TRAINS, SELF, sw_Travel_8500_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/FEL8500Start.wav");
+    return CB_RESULT_NO_SOUND;
+    }
