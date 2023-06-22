@@ -37,12 +37,12 @@
                     <tr>
                         <td>2139</td>
                         <td>[2량] 한국철도공사 392000호대 전동차 [DTS]</td>
-                        <td>1.02</td>
+                        <td>1.04</td>
                     </tr>
                     <tr>
                         <td>2140</td>
                         <td>[4량] 한국철도공사 392000호대 전동차 [DTS]</td>
-                        <td>1.02</td>
+                        <td>1.04</td>
                     </tr>
                 </table>
             <details>
@@ -176,12 +176,12 @@
                     <tr>
                         <td>2008</td>
                         <td>[2량] 우진산전 수소연료전지동차 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.04</td>
                     </tr>
                     <tr>
                         <td>2060</td>
                         <td>[4량] 우진산전 수소연료전지동차 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.04</td>
                     </tr>
                 </table>
         </details>
@@ -269,32 +269,32 @@
                     <tr>
                         <td>2115</td>
                         <td>[단량] HYEL-15 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.04</td>
                     </tr>
                     <tr>
                         <td>2108</td>
                         <td>[단량] HYEL-100 [DTS]</td>
-                        <td>1.01</td>
+                        <td>1.04</td>
                     </tr>
                     <tr>
                         <td>2167</td>
                         <td>[4량] HYEL-200 [DTS]</td>
-                        <td>1.03</td>
+                        <td>1.04</td>
                     </tr>
                     <tr>
                         <td>2168</td>
                         <td>[6량] HYEL-200 [DTS]</td>
-                        <td>1.03</td>
+                        <td>1.04</td>
                     </tr>
                     <tr>
                         <td>2109</td>
                         <td>[6량] HYEL-220 [DTS]</td>
-                        <td>1.03</td>
+                        <td>1.04</td>
                     </tr>
                     <tr>
                         <td>2135</td>
                         <td>[8량] NKX [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.04</td>
                     </tr>
                 </table>
             <details>
@@ -402,17 +402,17 @@
                     <tr>
                         <td>2141</td>
                         <td>[단량] HYEL-150 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.04</td>
                     </tr>
                     <tr>
                         <td>2110</td>
                         <td>[8량] HYEL-300 [DTS]</td>
-                        <td>1.01</td>
+                        <td>1.04</td>
                     </tr>
                     <tr>
                         <td>2134</td>
                         <td>[8량] HMX [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.04</td>
                     </tr>
                 </table>
             <details>
@@ -900,7 +900,7 @@
                     <tr>
                         <td>2133</td>
                         <td>[8량] Glory 600 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.04</td>
                     </tr>
                     <tr>
                         <td>2112</td>

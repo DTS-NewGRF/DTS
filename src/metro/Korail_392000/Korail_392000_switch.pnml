@@ -2,15 +2,15 @@
 스위치
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_Korail_392000_2car, position_in_vehid_chain % 2) {
-    1:set_Korail_392000_2engineT;
-    set_Korail_392000_engineH; //default
+    1:set_Korail_392000_engineT;
+    set_Korail_392000_2engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_Korail_392000_4car, position_in_vehid_chain % 4) {
     1:set_Korail_392000_wagon;
     2:set_Korail_392000_wagon;
-    3:set_Korail_392000_4engineT;
-    set_Korail_392000_engineH; //default
+    3:set_Korail_392000_engineT;
+    set_Korail_392000_4engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_Korail_392000_2car, extra_callback_info1) {

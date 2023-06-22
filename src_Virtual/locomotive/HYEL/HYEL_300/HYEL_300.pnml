@@ -59,5 +59,6 @@ item(FEAT_TRAINS, HYEL_300_8Car, 2110){
         running_cost_factor:            150;
         can_attach_wagon:               sw_HYEL_300_wagon_attach;
         additional_text:                string(STR_REFIT_ADDITIONAL_HYEL_300);
+        sound_effect:                   sw_HYEL_220_sound;
         }
         }

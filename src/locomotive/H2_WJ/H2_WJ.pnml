@@ -59,6 +59,7 @@ item(FEAT_TRAINS, H2_WJ_2Car, 2008){
         running_cost_factor:            150;
         can_attach_wagon:               sw_H2_WJ_wagon_attach;
         additional_text:                string(STR_REFIT_ADDITIONAL_H2_WJ);
+        sound_effect:                   sw_H2_WJ_sound;
         }
         }
 
@@ -115,5 +116,6 @@ item(FEAT_TRAINS, H2_WJ_4Car, 2060){
         running_cost_factor:            150;
         can_attach_wagon:               sw_H2_WJ_wagon_attach;
         additional_text:                string(STR_REFIT_ADDITIONAL_H2_WJ);
+        sound_effect:                   sw_H2_WJ_sound;
         }
         }

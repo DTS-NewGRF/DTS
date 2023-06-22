@@ -8,19 +8,19 @@ spriteset(set_Korail_392000_purchase, "src/metro/Korail_392000/Korail_392000.png
 /*--------------------------------------------------------------------
 Korail_392000
 --------------------------------------------------------------------*/
-spriteset(set_Korail_392000_engineH, "src/metro/Korail_392000/Korail_392000.png"){
+spriteset(set_Korail_392000_2engineH, "src/metro/Korail_392000/Korail_392000.png"){
     engine(80, 0)
 }
 
+spriteset(set_Korail_392000_4engineH, "src/metro/Korail_392000/Korail_392000.png"){
+    engine(80, 27)
+}
+
 spriteset(set_Korail_392000_wagon, "src/metro/Korail_392000/Korail_392000.png") {
-    wagon_1F_F(80, 27)
+    wagon_1F_F(80, 54)
 }
 
-spriteset(set_Korail_392000_2engineT, "src/metro/Korail_392000/Korail_392000.png"){
-    engine(80, 54)
-}
-
-spriteset(set_Korail_392000_4engineT, "src/metro/Korail_392000/Korail_392000.png"){
+spriteset(set_Korail_392000_engineT, "src/metro/Korail_392000/Korail_392000.png"){
     engine(80, 81)
 }
 
