@@ -14,7 +14,7 @@
 
 2023년 5월 지금의 `Derivative Train Set 파생형 열차세트 / DTS`로 다시 통합하여 관리하고 있다.<br>
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
-현 공개된 최근 버전 [깃허브]``1.04`` / [인게임] ``1.00.4``<br>
+현 공개된 최근 버전 [깃허브]``1.05`` / [인게임] ``1.00.4``<br>
 <br>
 <details>
     <summary>추가되는 열차 목록</summary>
@@ -199,22 +199,22 @@
                     <tr>
                         <td>2136</td>
                         <td>[4량] MEL-150 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.05</td>
                     </tr>
                     <tr>
                         <td>2165</td>
                         <td>[8량] MEL-150 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.05</td>
                     </tr>
                     <tr>
                         <td>2137</td>
                         <td>[10량] MEL-150 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.05</td>
                     </tr>
                     <tr>
                         <td>2138</td>
                         <td>[12량] MEL-150 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.05</td>
                     </tr>
                     <tr>
                         <td>2166</td>
@@ -966,7 +966,7 @@
                     <tr>
                         <td>2129</td>
                         <td>[기관차연결] 평판화차 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.05</td>
                     </tr>
                     <tr>
                         <td>2114</td>
@@ -976,7 +976,7 @@
                     <tr>
                         <td>2130</td>
                         <td>[기관차연결] 평판유조 화차 [DTS]</td>
-                        <td>1.00.4</td>
+                        <td>1.05</td>
                     </tr>
                 </table>
             <details>
