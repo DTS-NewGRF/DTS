@@ -2,19 +2,32 @@
 **파생형 열차세트**는 <br>
 약 2016년에 [YST set](https://github.com/evepoi/YST)에서 최초로 시작했다.<br>
 2022년 4월 2일 YST에서 열차들이 나라별도 분리된 <br>
-`[한국열차세트 플러스](https://github.com/GBLINER/KoreanTrainSet_Plus)`<br>
-`[일본열차세트 플러스](https://github.com/GBLINER/JapaneseTrainSet_Plus)`<br>
-`[중국열차세트](https://github.com/GBLINER/ChineseTrainSet)`<br>
-`[유럽열차세트](https://github.com/GBLINER/EuropeanTrainSet)`<br>
-`[세계열차세트](https://github.com/GBLINER/WorldTrainSet)`<br>
-`[가상열차세트](https://github.com/GBLINER/VirtualTrainSet)`<br>
+```
+[한국열차세트 플러스](https://github.com/GBLINER/KoreanTrainSet_Plus)<br>
+[일본열차세트 플러스](https://github.com/GBLINER/JapaneseTrainSet_Plus)<br>
+[중국열차세트](https://github.com/GBLINER/ChineseTrainSet)<br>
+[유럽열차세트](https://github.com/GBLINER/EuropeanTrainSet)<br>
+[세계열차세트](https://github.com/GBLINER/WorldTrainSet)<br>
+[가상열차세트](https://github.com/GBLINER/VirtualTrainSet)<br>
+```
 로 파생되었다.<br>
 가상열차세트를 제외한 다른 셋은 여전히 파생셋으로 관리되고 있다.<br>
 `[YST]는 중단되었다.`<br>
 
 2023년 5월 지금의 `Derivative Train Set 파생형 열차세트 / DTS`로 다시 통합하여 관리하고 있다.<br>
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
-현 공개된 최근 버전 [깃허브]``1.05`` / [인게임] ``1.00.4``<br>
+현 공개된 최근 버전<br>
+[인게임] ``1.00.4``
+[깃허브]``1.05``
+```
+[사운드추가]
+- `[N량] MEL-150 [DTS]`
+
+[변경]
+- `[기관차연결] 평판화차 [DTS]` 그래픽 변경
+- `[기관차연결] 평판유조 화차 [DTS]` 그래픽 변경
+- `[N량] MEL-150 [DTS]` 그래픽 변경
+```
 <br>
 <details>
     <summary>추가되는 열차 목록</summary>
