@@ -2,15 +2,8 @@
 **파생형 열차세트**는 <br>
 약 2016년에 [YST set](https://github.com/evepoi/YST)에서 최초로 시작했다.<br>
 2022년 4월 2일 YST에서 열차들이 나라별도 분리된 <br>
-```
-[한국열차세트 플러스](https://github.com/GBLINER/KoreanTrainSet_Plus)
-[일본열차세트 플러스](https://github.com/GBLINER/JapaneseTrainSet_Plus)
-[중국열차세트](https://github.com/GBLINER/ChineseTrainSet)
-[유럽열차세트](https://github.com/GBLINER/EuropeanTrainSet)
-[세계열차세트](https://github.com/GBLINER/WorldTrainSet)
-[가상열차세트](https://github.com/GBLINER/VirtualTrainSet)
-```
-로 파생되었다.<br>
+[한국열차세트 플러스](https://github.com/GBLINER/KoreanTrainSet_Plus), [일본열차세트 플러스](https://github.com/GBLINER/JapaneseTrainSet_Plus), [중국열차세트](https://github.com/GBLINER/ChineseTrainSet), 
+[유럽열차세트](https://github.com/GBLINER/EuropeanTrainSet), [세계열차세트](https://github.com/GBLINER/WorldTrainSet), [가상열차세트](https://github.com/GBLINER/VirtualTrainSet)로 파생되었다.<br>
 가상열차세트를 제외한 다른 셋은 여전히 파생셋으로 관리되고 있다.<br>
 `[YST]는 중단되었다.`<br>
 
