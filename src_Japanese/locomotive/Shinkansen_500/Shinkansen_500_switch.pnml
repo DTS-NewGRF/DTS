@@ -44,3 +44,13 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_500_16car, extra_callback_i
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_wagon_attach, vehicle_type_id) {
     return string(STR_ERROR_NO_ATTACH);
 }
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_16Car_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAGTOS500start.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_8Car_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTS500start.wav");
+    return CB_RESULT_NO_SOUND;
+    }
