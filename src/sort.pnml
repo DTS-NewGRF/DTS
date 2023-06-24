@@ -129,7 +129,7 @@ sort(FEAT_TRAINS, [
     Shinkansen_500_16Car,          //2062
     Shinkansen_N700_8Car,          //2089
     Shinkansen_N700_16Car,         //2155
-    Shinkansen_N700_S_8Car,        //2090
+    Shinkansen_N700_S_6Car,        //2090
     Shinkansen_N700_S_16Car,       //2156
     Shinkansen_E5_H5_10Car,        //2092
     Shinkansen_E6_7Car,            //2093

@@ -5,6 +5,10 @@ spriteset(set_Shinkansen_N700_S_purchase, "src_Japanese/locomotive/Shinkansen_N7
     tmpl_purchase(0, 0)
 }
 
+spriteset(set_Shinkansen_N700_K_purchase, "src_Japanese/locomotive/Shinkansen_N700_S/N700S_K.png"){
+    tmpl_purchase(0, 0)
+}
+
 /*--------------------------------------------------------------------
 1 N700S계 도카이도-산요
 --------------------------------------------------------------------*/
@@ -54,6 +58,10 @@ spriteset(set_N700S_K_engineT, "src_Japanese/locomotive/Shinkansen_N700_S/N700S_
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700S_purchase, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700S_S_purchase, cargo_subtype) {
     set_Shinkansen_N700_S_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700S_K_purchase, cargo_subtype) {
+    set_Shinkansen_N700_K_purchase;
 }

@@ -1,64 +1,34 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_N700_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_N700_Sanyo_Kyushu);                   
-    return string(STR_REFIT_LIVERY_N700_Tokaido_Sanyo);
-}
-
-switch(FEAT_TRAINS, SELF, sw_N700_engineH, cargo_subtype) {
-    1: set_Sanyo_Kyushu_engineH; // 산요-큐슈
-    set_Tokaido_Sanyo_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_N700_engineT, cargo_subtype) {
-    1: set_Sanyo_Kyushu_engineT; // 산요-큐슈
-    set_Tokaido_Sanyo_engineT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_N700_panto_wagon_cargo_subtype, cargo_subtype) {
-    1: set_Sanyo_Kyushu_panto_wagon; // 산요-큐슈
-    set_Tokaido_Sanyo_panto_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_N700_panto_wagon_r_cargo_subtype, cargo_subtype) {
-    1: set_Sanyo_Kyushu_panto_wagon_r; // 산요-큐슈
-    set_Tokaido_Sanyo_panto_wagon_r;
-}
-
-switch(FEAT_TRAINS, SELF, sw_N700_wagon, cargo_subtype) {
-    1: set_Sanyo_Kyushu_wagon; // 산요-큐슈
-    set_Tokaido_Sanyo_wagon;
-}
-
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_N700_8car, position_in_vehid_chain % 8) {
-    1:sw_N700_panto_wagon_cargo_subtype;
-    2:sw_N700_wagon;
-    3:sw_N700_wagon;
-    4:sw_N700_wagon;
-    5:sw_N700_wagon;
-    6:sw_N700_panto_wagon_r_cargo_subtype;
-    7:sw_N700_engineT;
-    sw_N700_engineH; //default
+    1:set_Sanyo_Kyushu_panto_wagon;
+    2:set_Sanyo_Kyushu_wagon;
+    3:set_Sanyo_Kyushu_wagon;
+    4:set_Sanyo_Kyushu_wagon;
+    5:set_Sanyo_Kyushu_wagon;
+    6:set_Sanyo_Kyushu_panto_wagon_r;
+    7:set_Sanyo_Kyushu_engineT;
+    set_Sanyo_Kyushu_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_N700_16car, position_in_vehid_chain % 16) {
-    1:sw_N700_wagon;
-    2:sw_N700_wagon;
-    3:sw_N700_wagon;
-    4:sw_N700_panto_wagon_cargo_subtype;
-    5:sw_N700_wagon;
-    6:sw_N700_wagon;
-    7:sw_N700_wagon;
-    8:sw_N700_wagon;
-    9:sw_N700_wagon;
-    10:sw_N700_wagon;
-    11:sw_N700_panto_wagon_r_cargo_subtype;
-    12:sw_N700_wagon;
-    13:sw_N700_wagon;
-    14:sw_N700_wagon;
-    15:sw_N700_engineT;
-    sw_N700_engineH; //default
+    1:set_Tokaido_Sanyo_wagon;
+    2:set_Tokaido_Sanyo_wagon;
+    3:set_Tokaido_Sanyo_wagon;
+    4:set_Tokaido_Sanyo_panto_wagon;
+    5:set_Tokaido_Sanyo_wagon;
+    6:set_Tokaido_Sanyo_wagon;
+    7:set_Tokaido_Sanyo_wagon;
+    8:set_Tokaido_Sanyo_wagon;
+    9:set_Tokaido_Sanyo_wagon;
+    10:set_Tokaido_Sanyo_wagon;
+    11:set_Tokaido_Sanyo_panto_wagon_r;
+    12:set_Tokaido_Sanyo_wagon;
+    13:set_Tokaido_Sanyo_wagon;
+    14:set_Tokaido_Sanyo_wagon;
+    15:set_Tokaido_Sanyo_engineT;
+    set_Tokaido_Sanyo_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_N700_8car, extra_callback_info1) {

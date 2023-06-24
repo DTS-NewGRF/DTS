@@ -104,9 +104,9 @@ STR_Shinkansen_E5_H5_10Car_NAME                      :[DTS] Shinkansen E5·H5 10
 STR_Shinkansen_E6_7Car_NAME                          :[DTS] Shinkansen E6 7Car
 STR_Shinkansen_E7_W7_12Car_NAME                      :[DTS] Shinkansen E7·W7 12Car
 STR_Shinkansen_E8_7Car_NAME                          :[DTS] Shinkansen E8 7Car
-STR_Shinkansen_N700_8Car_NAME                        :[DTS] Shinkansen N700 8Car
+STR_Shinkansen_N700_8Car_NAME                        :[DTS] Shinkansen N700 8Car Sanyo-Kyushu Shinkansen
 STR_Shinkansen_N700_16Car_NAME                       :[DTS] Shinkansen N700 16Car
-STR_Shinkansen_N700S_8Car_NAME                       :[DTS] Shinkansen N700S 8Car
+STR_Shinkansen_N700S_6Car_NAME                       :[DTS] Shinkansen N700S 6Car Nishikyushu Shinkansen
 STR_Shinkansen_N700S_16Car_NAME                      :[DTS] Shinkansen N700S 16Car
 STR_HYEL_15_NAME                                     :[DTS] HYEL-15
 STR_HYEL_100_NAME                                    :[DTS] HYEL-100
@@ -444,10 +444,6 @@ STR_REFIT_LIVERY_ICE4_red                            :(Red Livery)
 STR_REFIT_LIVERY_ICE4_green                          :(Green Livery)
 STR_REFIT_LIVERY_Shinkansen_0                        :(Original Livery)
 STR_REFIT_LIVERY_Shinkansen_0_renewal                :(Renewal Livery)
-STR_REFIT_LIVERY_N700_Tokaido_Sanyo                  :(Tokaido-Sanyo Shinkansen)
-STR_REFIT_LIVERY_N700_Sanyo_Kyushu                   :(Sanyo-Kyushu Shinkansen)
-STR_REFIT_LIVERY_N700S_Tokaido_Sanyo                 :(Tokaido-Sanyo Shinkansen)
-STR_REFIT_LIVERY_N700S_Nishikyushu                   :(Nishikyushu Shinkansen)
 STR_REFIT_LIVERY_Shinkansen_E2_Pink                  :(Pink line Livery)
 STR_REFIT_LIVERY_Shinkansen_E2_Red                   :(Red line Livery)
 STR_REFIT_LIVERY_Shinkansen_E5                       :(Shinkansen E5)

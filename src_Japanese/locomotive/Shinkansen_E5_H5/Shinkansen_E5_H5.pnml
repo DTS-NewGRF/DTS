@@ -21,7 +21,7 @@ item(FEAT_TRAINS, Shinkansen_E5_H5_10Car, 2092){
         
         //spec
         speed:                          320km/h;
-        power:                          1920 kW;
+        power:                          9960 kW;
         weight:                         45 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;

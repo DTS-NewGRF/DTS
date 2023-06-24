@@ -22,7 +22,7 @@ item(FEAT_TRAINS, Shinkansen_500_8Car, 2086){
         
         //spec
         speed:                          300km/h;
-        power:                          2280 kW;
+        power:                          17600 kW;
         weight:                         39 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -76,7 +76,7 @@ item(FEAT_TRAINS, Shinkansen_500_16Car, 2062){
         
         //spec
         speed:                          300km/h;
-        power:                          2280 kW;
+        power:                          17600 kW;
         weight:                         39 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;

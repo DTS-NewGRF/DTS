@@ -104,9 +104,9 @@ STR_Shinkansen_E5_H5_10Car_NAME                      :[10량] 신칸센 E5·H5�
 STR_Shinkansen_E6_7Car_NAME                          :[7량] 신칸센 E6계 [DTS]
 STR_Shinkansen_E7_W7_12Car_NAME                      :[12량] 신칸센 E7·W7계 [DTS]
 STR_Shinkansen_E8_7Car_NAME                          :[7량] 신칸센 E8계 [DTS]
-STR_Shinkansen_N700_8Car_NAME                        :[8량] 신칸센 N700계 [DTS]
+STR_Shinkansen_N700_8Car_NAME                        :[8량] 신칸센 N700계 큐슈 [DTS]
 STR_Shinkansen_N700_16Car_NAME                       :[16량] 신칸센 N700계 [DTS]
-STR_Shinkansen_N700S_8Car_NAME                       :[8량] 신칸센 N700S계 [DTS]
+STR_Shinkansen_N700S_6Car_NAME                       :[6량] 신칸센 N700S계 니시큐슈 [DTS]
 STR_Shinkansen_N700S_16Car_NAME                      :[16량] 신칸센 N700S계 [DTS]
 STR_HYEL_15_NAME                                     :[단량] HYEL-15 [DTS]
 STR_HYEL_100_NAME                                    :[단량] HYEL-100 [DTS]
@@ -443,10 +443,6 @@ STR_REFIT_LIVERY_ICE4_red                            :(레드 도색)
 STR_REFIT_LIVERY_ICE4_green                          :(그린 도색)
 STR_REFIT_LIVERY_Shinkansen_0                        :(오리지널)
 STR_REFIT_LIVERY_Shinkansen_0_renewal                :(리뉴얼)
-STR_REFIT_LIVERY_N700_Tokaido_Sanyo                  :(도카이도·산요 신칸센)
-STR_REFIT_LIVERY_N700_Sanyo_Kyushu                   :(산요·큐슈 신칸센)
-STR_REFIT_LIVERY_N700S_Tokaido_Sanyo                 :(도카이도·산요 신칸센)
-STR_REFIT_LIVERY_N700S_Nishikyushu                   :(니시큐슈 신칸센)
 STR_REFIT_LIVERY_Shinkansen_E2_Pink                  :(E2계 - 분홍)
 STR_REFIT_LIVERY_Shinkansen_E2_Red                   :(E2계 - 빨강)
 STR_REFIT_LIVERY_Shinkansen_E5                       :(신칸센 E5계)

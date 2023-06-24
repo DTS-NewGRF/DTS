@@ -1,7 +1,11 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Shinkansen_N700_purchase, "src_Japanese/locomotive/Shinkansen_N700/Tokaido_Sanyo.png"){
+spriteset(set_Shinkansen_N700_Tokaido_Sanyo_purchase, "src_Japanese/locomotive/Shinkansen_N700/Tokaido_Sanyo.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Shinkansen_N700_Sanyo_Kyushu_purchase, "src_Japanese/locomotive/Shinkansen_N700/Sanyo_Kyushu.png"){
     tmpl_purchase(0, 0)
 }
 
@@ -54,6 +58,10 @@ spriteset(set_Sanyo_Kyushu_engineT, "src_Japanese/locomotive/Shinkansen_N700/San
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700_purchase, cargo_subtype) {
-    set_Shinkansen_N700_purchase;
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700_Tokaido_Sanyo_purchase, cargo_subtype) {
+    set_Shinkansen_N700_Tokaido_Sanyo_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700_Sanyo_Kyushu_purchase, cargo_subtype) {
+    set_Shinkansen_N700_Sanyo_Kyushu_purchase;
 }
