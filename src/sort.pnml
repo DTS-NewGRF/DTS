@@ -28,6 +28,10 @@ sort(FEAT_TRAINS, [
     Nishitetsu_8000_6Car,          //2103
     Nishitetsu_9000_2Car,          //2104
     Nishitetsu_9000_3Car,          //2113
+    Hankyu_6000_2Car,              //2169
+    Hankyu_6000_3Car,              //2170
+    Hankyu_6000_4Car,              //2171
+    Hankyu_6000_8Car,              //2172
 
     //통근열차
     H2_WJ_2Car,                    //2008
@@ -39,6 +43,10 @@ sort(FEAT_TRAINS, [
     MEL_150_8Car,                  //2165
     MEL_150_10Car,                 //2137
     MEL_150_12Car,                 //2138
+    CL_150_4Car,                   //2173
+    CL_150_6Car,                   //2174
+    CL_150_8Car,                   //2175
+    CL_180_8Car,                   //2176
     EMU150_4Car,                   //2166
     EMU150_6Car,                   //2010
     EMU150_8Car,                   //2131

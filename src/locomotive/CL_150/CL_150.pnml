@@ -1,0 +1,231 @@
+/*--------------------------------------------------------------------
+YTRO 100
+--------------------------------------------------------------------*/
+// Graphics
+#include "CL_150_graphic.pnml"
+
+// Switch
+#include "CL_150_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 4량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CL_150_4Car, 2173){
+    property {
+        name:                           string(STR_CL_150_4Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          920 kW;
+        weight:                         21 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 54;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_CL_150_4car;
+        articulated_part:               sw_articulated_CL_150_4car;
+        purchase:                       sw_CL_150_purchase;
+        speed:                          Regular_Speed_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_CL_150_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_CL_150);
+        sound_effect:                   sw_CL_150_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 6량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CL_150_6Car, 2174){
+    property {
+        name:                           string(STR_CL_150_6Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CL_150_4Car;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          1380 kW;
+        weight:                         21 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 56;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_CL_150_6car;
+        articulated_part:               sw_articulated_CL_150_6car;
+        purchase:                       sw_CL_150_purchase;
+        speed:                          Regular_Speed_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_CL_150_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_CL_150);
+        sound_effect:                   sw_CL_150_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 8량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CL_150_8Car, 2175){
+    property {
+        name:                           string(STR_CL_150_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CL_150_4Car;
+        
+        //spec
+        speed:                          150km/h;
+        power:                          1840 kW;
+        weight:                         21 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 55;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_CL_150_8car;
+        articulated_part:               sw_articulated_CL_150_8car;
+        purchase:                       sw_CL_150_purchase;
+        speed:                          Regular_Speed_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_CL_150_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_CL_150);
+        sound_effect:                   sw_CL_150_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 8량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CL_180_8Car, 2176){
+    property {
+        name:                           string(STR_CL_180_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CL_150_4Car;
+        
+        //spec
+        speed:                          180km/h;
+        power:                          1840 kW;
+        weight:                         21 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 55;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_CL_180_8car;
+        articulated_part:               sw_articulated_CL_180_8car;
+        purchase:                       sw_CL_150_purchase;
+        speed:                          Semi_High_SPEED_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_CL_150_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_CL_150);
+        sound_effect:                   sw_CL_150_sound;
+        }
+        }

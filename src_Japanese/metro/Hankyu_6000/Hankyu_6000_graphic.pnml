@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_6000_purchase, "src_Japanese/metro/Hankyu_6000/Hankyu_6000.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. 한큐전철 6000형
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_6000_engineH, "src_Japanese/metro/Hankyu_6000/Hankyu_6000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Hankyu_6000_wagon, "src_Japanese/metro/Hankyu_6000/Hankyu_6000.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Hankyu_6000_panto_wagon, "src_Japanese/metro/Hankyu_6000/Hankyu_6000.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Hankyu_6000_engineT, "src_Japanese/metro/Hankyu_6000/Hankyu_6000.png"){
+    engine(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_purchase, cargo_subtype) {
+    set_Hankyu_6000_purchase;
+}

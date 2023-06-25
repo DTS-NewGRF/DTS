@@ -10,6 +10,7 @@
 //locomotive
 #include "locomotive/AREX/AREX.pnml"
 #include "locomotive/MEL_150/MEL_150.pnml"
+#include "locomotive/CL_150/CL_150.pnml"
 #include "locomotive/CTX/CTX.pnml"
 #include "locomotive/DEL7600/DEL7600.pnml"
 #include "locomotive/E8600/E8600.pnml"

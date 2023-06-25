@@ -22,3 +22,4 @@
 #include "metro/Nishitetsu/7000_series/Nishitetsu_7000.pnml"
 #include "metro/Nishitetsu/8000_series/Nishitetsu_8000.pnml"
 #include "metro/Nishitetsu/9000_series/Nishitetsu_9000.pnml"
+#include "metro/Hankyu_6000/Hankyu_6000.pnml"

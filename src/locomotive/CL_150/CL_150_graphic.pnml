@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_CL_150_purchase, "src/locomotive/CL_150/CL_150.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+CL_150
+--------------------------------------------------------------------*/
+spriteset(set_CL_150_engineH, "src/locomotive/CL_150/CL_150.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CL_150_wagon_A, "src/locomotive/CL_150/CL_150.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_CL_150_panto_wagon, "src/locomotive/CL_150/CL_150.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CL_150_wagon_B, "src/locomotive/CL_150/CL_150.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_CL_150_panto_wagon_r, "src/locomotive/CL_150/CL_150.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_CL_150_engineT, "src/locomotive/CL_150/CL_150.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CL_150_purchase, cargo_subtype) {
+    set_CL_150_purchase;
+}

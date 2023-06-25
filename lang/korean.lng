@@ -12,6 +12,10 @@ STR_MEL_150_4Car_NAME                                :[4량] MEL-150 [DTS]
 STR_MEL_150_8Car_NAME                                :[8량] MEL-150 [DTS]
 STR_MEL_150_10Car_NAME                               :[10량] MEL-150 [DTS]
 STR_MEL_150_12Car_NAME                               :[12량] MEL-150 [DTS]
+STR_CL_150_4Car_NAME                                 :[4량] CL-150 [DTS]
+STR_CL_150_6Car_NAME                                 :[6량] CL-150 [DTS]
+STR_CL_150_8Car_NAME                                 :[8량] CL-150 [DTS]
+STR_CL_180_8Car_NAME                                 :[8량] CL-180 [DTS]
 STR_CTX_F_10Car_NAME                                 :[10량] CTX 화물전용 [DTS]
 STR_CTX_P_10Car_NAME                                 :[10량] CTX 승객전용 [DTS]
 STR_DEL7600_NAME                                     :[단량] DEL7600 [DTS]
@@ -154,6 +158,10 @@ STR_Nishitetsu_7000_2Car_NAME                        :[2량] 니시테츠 7000�
 STR_Nishitetsu_8000_6Car_NAME                        :[6량] 니시테츠 8000형 [DTS]
 STR_Nishitetsu_9000_2Car_NAME                        :[2량] 니시테츠 9000형 [DTS]
 STR_Nishitetsu_9000_3Car_NAME                        :[3량] 니시테츠 9000형 [DTS]
+STR_Hankyu_6000_2Car_NAME                            :[2량] 한큐전철 6000형 [DTS]
+STR_Hankyu_6000_3Car_NAME                            :[3량] 한큐전철 6000형 [DTS]
+STR_Hankyu_6000_4Car_NAME                            :[4량] 한큐전철 6000형 [DTS]
+STR_Hankyu_6000_8Car_NAME                            :[8량] 한큐전철 6000형 [DTS]
 
 # wagon's name
 STR_Eco_Rail_NAME                                    :[관광객차] 에코레일 [DTS]
@@ -205,6 +213,7 @@ STR_PARAM_World_DESC                                 :월드형 열차를 사용
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_AREX                            :{BLACK}복합가능열차 {GREEN}AREX
 STR_REFIT_ADDITIONAL_MEL_150                         :{BLACK}복합가능열차 {GREEN}MEL-150
+STR_REFIT_ADDITIONAL_CL_150                          :{BLACK}복합가능열차 {GREEN}CL-150, CL-180
 STR_REFIT_ADDITIONAL_CTX                             :{BLACK}복합가능열차 {GREEN}KTX-산천, KTX-산천 DD, CTX
 STR_REFIT_ADDITIONAL_DEL7600                         :{BLACK}복합가능열차 {GREEN}DEL7600
 STR_REFIT_ADDITIONAL_E8600                           :{BLACK}복합가능열차 {GREEN}8600 전기기관차
@@ -306,6 +315,7 @@ STR_REFIT_ADDITIONAL_Nishitetsu_6000                 :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_Nishitetsu_7000                 :{BLACK}복합가능열차 {GREEN}니시테츠 6000, 니시테츠 7000
 STR_REFIT_ADDITIONAL_Nishitetsu_8000                 :{BLACK}복합가능열차 {GREEN}니시테츠 8000
 STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}복합가능열차 {GREEN}니시테츠 9000
+STR_REFIT_ADDITIONAL_Hankyu_6000                     :{BLACK}복합가능열차 {GREEN}한큐전철 6000
 STR_REFIT_ADDITIONAL_HYEL_15                         :{BLACK}복합가능열차 {GREEN}HYEL-15
 STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}복합가능열차 {GREEN}HYEL-100
 STR_REFIT_ADDITIONAL_HYEL_150                        :{BLACK}복합가능열차 {GREEN}HYEL-150
