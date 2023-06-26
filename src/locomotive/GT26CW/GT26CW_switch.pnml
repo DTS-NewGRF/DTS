@@ -27,5 +27,6 @@ switch(FEAT_TRAINS, SELF, sw_GT26CW_engine, cargo_subtype) {
 
 switch(FEAT_TRAINS, SELF, sw_GT26CW_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/GT26CWDieselStart.wav");
+    SOUND_EVENT_TUNNEL: sound("sounds/DELhorn.wav");
     return CB_RESULT_NO_SOUND;
     }

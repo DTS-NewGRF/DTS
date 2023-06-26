@@ -73,3 +73,8 @@ switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_attach, vehicle_type_id) {
     Hankyu_6000_4Car:        return CB_RESULT_ATTACH_ALLOW;
     Hankyu_6000_8Car:        return CB_RESULT_ATTACH_ALLOW;
 }
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DCMOTER1start.wav");
+    return CB_RESULT_NO_SOUND;
+    }
