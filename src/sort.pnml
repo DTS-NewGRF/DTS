@@ -55,6 +55,7 @@ sort(FEAT_TRAINS, [
     ITX_SM2_6Car,                  //2013
     GT26CW,                        //2014
     DEL7600,                       //2015
+    NEL_8200,                      //2177
     Travel_8500,                   //2016
     E8600,                         //2128
     HXD3C,                         //2050

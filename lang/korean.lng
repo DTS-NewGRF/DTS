@@ -42,6 +42,7 @@ STR_NRT2_4Car_NAME                                   :[DTS/4량] 누리로 DD
 STR_H2_WJ_2Car_NAME                                  :[DTS/2량] 우진산전 수소연료전지동차
 STR_H2_WJ_4Car_NAME                                  :[DTS/4량] 우진산전 수소연료전지동차
 STR_Travel_8500_NAME                                 :[DTS/단량] 8500호대 전기기관차
+STR_NEL_8200_NAME                                    :[DTS/단량] 8200호대 전기기관차
 STR_TTX_6Car_NAME                                    :[DTS/6량] TTX
 STR_VHST_600X_8Car_NAME                              :[DTS/8량] VHST-600X
 STR_CRH1_8Car_NAME                                   :[DTS/8량] CRH1A
@@ -217,6 +218,7 @@ STR_REFIT_ADDITIONAL_CL_150                          :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_CTX                             :{BLACK}복합가능열차 {GREEN}KTX-산천, KTX-산천 DD, CTX
 STR_REFIT_ADDITIONAL_DEL7600                         :{BLACK}복합가능열차 {GREEN}DEL7600
 STR_REFIT_ADDITIONAL_E8600                           :{BLACK}복합가능열차 {GREEN}8600 전기기관차
+STR_REFIT_ADDITIONAL_NEL_8200                        :{BLACK}복합가능열차 {GREEN}8200 전기기관차
 STR_REFIT_ADDITIONAL_EMU150                          :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU150_DD                       :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU260                          :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD

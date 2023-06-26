@@ -42,6 +42,7 @@ STR_NRT2_4Car_NAME                                   :[DTS] Nuriro DD 4Car
 STR_H2_WJ_2Car_NAME                                  :[DTS] H2 by WOOJIN 2Car
 STR_H2_WJ_4Car_NAME                                  :[DTS] H2 by WOOJIN 4Car
 STR_Travel_8500_NAME                                 :[DTS] Travel 8500
+STR_NEL_8200_NAME                                    :[DTS] NEL 8200
 STR_TTX_6Car_NAME                                    :[DTS] TTX 8Car
 STR_VHST_600X_8Car_NAME                              :[DTS] VHST-600X 8Car
 STR_CRH1_8Car_NAME                                   :[DTS] CRH1A 8Car
@@ -217,6 +218,7 @@ STR_REFIT_ADDITIONAL_CL_150                          :{BLACK}Combined train {GRE
 STR_REFIT_ADDITIONAL_CTX                             :{BLACK}Combined train {GREEN}CTX, KTX-Sancheon, KTX-Sancheon DD
 STR_REFIT_ADDITIONAL_DEL7600                         :{BLACK}Combined train {GREEN}DEL7600
 STR_REFIT_ADDITIONAL_E8600                           :{BLACK}Combined train {GREEN}E8600
+STR_REFIT_ADDITIONAL_NEL_8200                        :{BLACK}Combined train {GREEN}NEL 8200
 STR_REFIT_ADDITIONAL_EMU150                          :{BLACK}Combined train {GREEN}Bicheuro, Bicheuro DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU150_DD                       :{BLACK}Combined train {GREEN}Bicheuro, Bicheuro DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD
 STR_REFIT_ADDITIONAL_EMU260                          :{BLACK}Combined train {GREEN}Bicheuro, Bicheuro DD, EMU-260, EUM-320, EMU-260 DD, EMU-320 DD

@@ -24,6 +24,12 @@
 ### HYUNDAIROTEMIGBTIPM1Kstart.wav
 - 한국철도공사 392000호대 전동차, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
 
+### KTXSCstart.wav
+- KTX-산천, KTX-산천 DD, CTX
+
+### SIEMENSGTOlocostart.wav
+- 8200호대 전기 기관차
+
 ### TOSHIBAGTOS500start.wav
 - 신칸센 500계 16량
 

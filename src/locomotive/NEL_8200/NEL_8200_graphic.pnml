@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_NEL_8200_purchase, "src/locomotive/NEL_8200/NEL_8200.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_NEL_8200_engine, "src/locomotive/NEL_8200/NEL_8200.png"){
+    engine(80, 0)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_NEL_8200_purchase, cargo_subtype) {
+	set_NEL_8200_purchase;
+}

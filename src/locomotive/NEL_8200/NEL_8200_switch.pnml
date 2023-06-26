@@ -1,0 +1,7 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_NEL_8200_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/SIEMENSGTOlocostart.wav");
+    return CB_RESULT_NO_SOUND;
+    }
