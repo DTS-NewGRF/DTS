@@ -45,6 +45,7 @@ STR_Travel_8500_NAME                                 :[DTS/단량] 8500호대 �
 STR_NEL_8200_NAME                                    :[DTS/단량] 8200호대 전기기관차
 STR_TTX_6Car_NAME                                    :[DTS/6량] TTX
 STR_VHST_600X_8Car_NAME                              :[DTS/8량] VHST-600X
+STR_MSB_Speeder_NAME                                 :[DTS/단량] MSB 모터카
 STR_CRH1_8Car_NAME                                   :[DTS/8량] CRH1A
 STR_CRH1E_16Car_NAME                                 :[DTS/16량] CRH1E
 STR_CRH1A_A_8Car_NAME                                :[DTS/8량] CRH1A-A
@@ -210,6 +211,8 @@ STR_PARAM_Japanese_NAME                              :일본형 열차 사용 �
 STR_PARAM_Japanese_DESC                              :일본형 열차를 사용시 체크하세요. (기본:미사용)
 STR_PARAM_World_NAME                                 :월드형 열차 사용 금지
 STR_PARAM_World_DESC                                 :월드형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Maintenance_NAME                           :유지보수차량 사용 금지
+STR_PARAM_Maintenance_DESC                           :유지보수차량 사용시 체크하세요. (기본:미사용)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_AREX                            :{BLACK}복합가능열차 {GREEN}AREX
@@ -241,6 +244,7 @@ STR_REFIT_ADDITIONAL_VHST_600X                       :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_Korail_392000                   :{BLACK}복합가능열차 {GREEN}Korail 392000
+STR_REFIT_ADDITIONAL_MSB_Speeder                     :{BLACK}복합가능열차 {GREEN}MSB 모터카
 STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}복합가능열차 {GREEN}CRH1
 STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_CRH1A_A                         :{BLACK}복합가능열차 {GREEN}CRH1A-A

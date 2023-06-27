@@ -37,6 +37,7 @@
 #include "locomotive/Glory_600/Glory_600.pnml"
 #include "locomotive/HMX/HMX.pnml"
 #include "locomotive/NKX/NKX.pnml"
+#include "locomotive/MSB_Speeder/MSB_Speeder.pnml"
 
 //Metro
 #include "metro/AUTS/AUTS.pnml"

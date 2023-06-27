@@ -100,3 +100,12 @@ param {
         def_value: 0;
         }
     }
+
+param {
+    Maintenance {
+        type: bool;
+        name: string(STR_PARAM_Maintenance_NAME);
+        desc: string(STR_PARAM_Maintenance_DESC);
+        def_value: 0;
+        }
+    }

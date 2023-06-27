@@ -53,3 +53,8 @@ switch(FEAT_TRAINS, SELF, sw_Nishitetsu_5000_wagon_attach, vehicle_type_id) {
     Nishitetsu_5000_3Car:    return CB_RESULT_ATTACH_ALLOW;
     Nishitetsu_5000_4Car:    return CB_RESULT_ATTACH_ALLOW;
 }
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_5000_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DCMOTERBASICstart.wav");
+    return CB_RESULT_NO_SOUND;
+    }

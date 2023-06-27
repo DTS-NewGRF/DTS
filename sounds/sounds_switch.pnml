@@ -1,8 +1,3 @@
 /*--------------------------------------------------------------------
-	DTS 열차세트
+스위치
 --------------------------------------------------------------------*/
-// Purchase
-#include "template/purchase.pnml"
-
-// Locomotive and wagon
-#include "template/locomotive_and_wagon.pnml"

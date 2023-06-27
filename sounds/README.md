@@ -6,6 +6,9 @@
 ### DCMOTER1start.wav
 - 한큐전철 6000형
 
+### DCMOTERBASICstart.wav
+- 니시테츠 1000, 2000, 5000, 6000, 8000형
+
 ### FEL8500Start.wav
 - 8500호대 전기기관차
 

@@ -43,3 +43,8 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Nishitetsu_2000_6car, extra_callback_i
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_2000_wagon_attach, vehicle_type_id) {
     Nishitetsu_2000_6Car:    return CB_RESULT_ATTACH_ALLOW;
 }
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_2000_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DCMOTERBASICstart.wav");
+    return CB_RESULT_NO_SOUND;
+    }

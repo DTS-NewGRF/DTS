@@ -10,7 +10,7 @@ grf {
     name :                             string(STR_GRF_NAME_WITH_VER);
     desc :                             string(STR_GRF_DESC);
     url :                              string(STR_GRF_URL);
-    version :                          20230626;
+    version :                          20230627;
     min_compatible_version :           20230618;
 	
 	// Parameters 매개변수
@@ -169,4 +169,11 @@ if (World) {
     disable_item(FEAT_TRAINS, 2121); //Talgo_350_SRO
     disable_item(FEAT_TRAINS, 2122); //Avelia_Liberty
     }
+
+if (Maintenance) {
+    disable_item(FEAT_TRAINS, 2044); //CRH380AJ_8Car
+    disable_item(FEAT_TRAINS, 2096); //Shinkansen_923_7Car
+    disable_item(FEAT_TRAINS, 2178); //MSB_Speeder
+    }
+
 

@@ -1,12 +1,12 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Hankyu_6000_purchase, "src_Japanese/metro/Hankyu_6000/Hankyu_6000.png"){
+spriteset(set_Hankyu_6300_purchase, "src_Japanese/metro/Hankyu_6000/Hankyu_6000.png"){
     tmpl_purchase(0, 0)
 }
 
 /*--------------------------------------------------------------------
-1. 한큐전철 6000형
+1. 한큐전철 6300형
 --------------------------------------------------------------------*/
 spriteset(set_Hankyu_6000_engineH, "src_Japanese/metro/Hankyu_6000/Hankyu_6000.png"){
     engine(80, 0)

@@ -59,6 +59,7 @@ item(FEAT_TRAINS, Nishitetsu_5000_3Car, 2100){
         can_attach_wagon:               sw_Nishitetsu_5000_wagon_attach;
         cargo_subtype_text:             sw_Nishitetsu_5000_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_Nishitetsu_5000);
+        sound_effect:                   sw_Nishitetsu_5000_sound;
         }
         }
 
@@ -115,5 +116,6 @@ item(FEAT_TRAINS, Nishitetsu_5000_4Car, 2107){
         can_attach_wagon:               sw_Nishitetsu_5000_wagon_attach;
         cargo_subtype_text:             sw_Nishitetsu_5000_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_Nishitetsu_5000);
+        sound_effect:                   sw_Nishitetsu_5000_sound;
         }
         }

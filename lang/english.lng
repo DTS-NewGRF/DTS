@@ -45,6 +45,7 @@ STR_Travel_8500_NAME                                 :[DTS] Travel 8500
 STR_NEL_8200_NAME                                    :[DTS] NEL 8200
 STR_TTX_6Car_NAME                                    :[DTS] TTX 8Car
 STR_VHST_600X_8Car_NAME                              :[DTS] VHST-600X 8Car
+STR_MSB_Speeder_NAME                                 :[DTS] MSB Speeder
 STR_CRH1_8Car_NAME                                   :[DTS] CRH1A 8Car
 STR_CRH1E_16Car_NAME                                 :[DTS] CRH1E 16Car
 STR_CRH1A_A_8Car_NAME                                :[DTS] CRH1A-A 8Car
@@ -210,6 +211,8 @@ STR_PARAM_Japanese_NAME                              :No Japanese trains allowed
 STR_PARAM_Japanese_DESC                              :Please check when using Japanese trains. (Default: unused)
 STR_PARAM_World_NAME                                 :No World trains allowed.
 STR_PARAM_World_DESC                                 :Please check when using World trains. (Default: unused)
+STR_PARAM_Maintenance_NAME                           :No Maintenance trains allowed.
+STR_PARAM_Maintenance_DESC                           :Please check when using Maintenance trains. (Default: unused)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_AREX                            :{BLACK}Combined train {GREEN}AREX
@@ -241,6 +244,7 @@ STR_REFIT_ADDITIONAL_VHST_600X                       :{BLACK}Combined train {GRE
 STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Korail_392000                   :{BLACK}Combined train {GREEN}Korail 392000
+STR_REFIT_ADDITIONAL_MSB_Speeder                     :{BLACK}Combined train {GREEN}MSB Speeder
 STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}Combined train {GREEN}CRH1
 STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_CRH1A_A                         :{BLACK}Combined train {GREEN}CRH1A-A
