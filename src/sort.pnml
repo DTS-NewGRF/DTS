@@ -25,7 +25,7 @@ sort(FEAT_TRAINS, [
     Nishitetsu_6000_3Car,          //2101
     Nishitetsu_6000_4Car,          //2119
     Nishitetsu_6050_3Car,          //2181
-    Nishitetsu_6050_4Car,          //2181
+    Nishitetsu_6050_4Car,          //2182
     Nishitetsu_7000_2Car,          //2102
     Nishitetsu_8000_6Car,          //2103
     Nishitetsu_9000_2Car,          //2104
