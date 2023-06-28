@@ -1,51 +1,39 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Nishitetsu_6050);
-    return string(STR_REFIT_LIVERY_Nishitetsu_6000);
-}
-
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_engineH, cargo_subtype) {
-    1: set_Nishitetsu_6050_engineH;
-    set_Nishitetsu_6000_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_3engineT, cargo_subtype) {
-    1: set_Nishitetsu_6050_engineT;
-    set_Nishitetsu_6000_panto_engineT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_engineT, cargo_subtype) {
-    1: set_Nishitetsu_6050_engineT;
-    set_Nishitetsu_6000_engineT;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_panto_wagon, cargo_subtype) {
-    1: set_Nishitetsu_6050_panto_wagon;
-    set_Nishitetsu_6000_panto_wagon;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_wagon, cargo_subtype) {
-    1: set_Nishitetsu_6050_wagon;
-    set_Nishitetsu_6000_wagon;
-}
-
 switch (FEAT_TRAINS, SELF, sw_Nishitetsu_6000_3car, position_in_vehid_chain % 3) {
-    1:sw_Nishitetsu_6000_wagon;
-    2:sw_Nishitetsu_6000_3engineT;
-    sw_Nishitetsu_6000_engineH; //default
+    1:set_Nishitetsu_6000_wagon;
+    2:set_Nishitetsu_6000_panto_engineT;
+    set_Nishitetsu_6000_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Nishitetsu_6050_3car, position_in_vehid_chain % 3) {
+    1:set_Nishitetsu_6050_wagon;
+    2:set_Nishitetsu_6050_engineT;
+    set_Nishitetsu_6050_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_Nishitetsu_6000_4car, position_in_vehid_chain % 4) {
-    1:sw_Nishitetsu_6000_wagon;
-    2:sw_Nishitetsu_6000_panto_wagon;
-    3:sw_Nishitetsu_6000_engineT;
-    sw_Nishitetsu_6000_engineH; //default
+    1:set_Nishitetsu_6000_wagon;
+    2:set_Nishitetsu_6000_panto_wagon;
+    3:set_Nishitetsu_6000_engineT;
+    set_Nishitetsu_6000_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Nishitetsu_6050_4car, position_in_vehid_chain % 4) {
+    1:set_Nishitetsu_6050_wagon;
+    2:set_Nishitetsu_6050_panto_wagon;
+    3:set_Nishitetsu_6050_engineT;
+    set_Nishitetsu_6050_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_Nishitetsu_6000_3car, extra_callback_info1) {
     1..2: Nishitetsu_6000_3Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Nishitetsu_6050_3car, extra_callback_info1) {
+    1..2: Nishitetsu_6050_3Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
@@ -54,13 +42,25 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Nishitetsu_6000_4car, extra_callback_i
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
+switch (FEAT_TRAINS, SELF, sw_articulated_Nishitetsu_6050_4car, extra_callback_info1) {
+    1..3: Nishitetsu_6050_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_wagon_attach, vehicle_type_id) {
     Nishitetsu_6000_3Car:    return CB_RESULT_ATTACH_ALLOW;
     Nishitetsu_6000_4Car:    return CB_RESULT_ATTACH_ALLOW;
+    Nishitetsu_6050_3Car:    return CB_RESULT_ATTACH_ALLOW;
+    Nishitetsu_6050_4Car:    return CB_RESULT_ATTACH_ALLOW;
     Nishitetsu_7000_2Car:    return CB_RESULT_ATTACH_ALLOW;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/DCMOTERBASICstart.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6050_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/MITSUBISHIGTO1start.wav");
     return CB_RESULT_NO_SOUND;
     }

@@ -35,9 +35,13 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Nishitetsu_3000_5car, extra_callback_i
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_3000_wagon_attach, vehicle_type_id) {
     Nishitetsu_3000_2Car:    return CB_RESULT_ATTACH_ALLOW;
     Nishitetsu_3000_3Car:    return CB_RESULT_ATTACH_ALLOW;
     Nishitetsu_3000_5Car:    return CB_RESULT_ATTACH_ALLOW;
 }
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_3000_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTJstart.wav");
+    return CB_RESULT_NO_SOUND;
+    }

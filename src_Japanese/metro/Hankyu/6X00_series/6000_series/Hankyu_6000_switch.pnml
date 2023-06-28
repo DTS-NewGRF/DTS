@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_2car, position_in_vehid_chain % 3) {
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_2car, position_in_vehid_chain % 2) {
     1:set_Hankyu_6000_engineT;
     set_Hankyu_6000_engineH; //default
     }
@@ -11,7 +11,7 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6000_2car, extra_callback_info1
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_3car, position_in_vehid_chain % 4) {
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_3car, position_in_vehid_chain % 3) {
     1:set_Hankyu_6000_wagon;
     2:set_Hankyu_6000_engineT;
     set_Hankyu_6000_engineH; //default
@@ -22,7 +22,7 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6000_3car, extra_callback_info1
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_4car, position_in_vehid_chain % 8) {
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_4car, position_in_vehid_chain % 4) {
     1:set_Hankyu_6000_wagon;
     2:set_Hankyu_6000_wagon;
     3:set_Hankyu_6000_engineT;
@@ -34,7 +34,7 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6000_4car, extra_callback_info1
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_A, position_in_vehid_chain % 10) {
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_A, position_in_vehid_chain % 8) {
     1:set_Hankyu_6000_wagon;
     2:set_Hankyu_6000_panto_wagon;
     3:set_Hankyu_6000_wagon;
@@ -45,7 +45,7 @@ switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_A, position_in_vehid_chain % 10) 
     set_Hankyu_6000_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_B, position_in_vehid_chain % 10) {
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_B, position_in_vehid_chain % 8) {
     1:set_Hankyu_6000_panto_wagon;
     2:set_Hankyu_6000_wagon;
     3:set_Hankyu_6000_wagon;

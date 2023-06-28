@@ -1,80 +1,33 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_2car, position_in_vehid_chain % 3) {
-    1:set_Hankyu_6000_engineT;
-    set_Hankyu_6000_engineH; //default
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6300_4car, position_in_vehid_chain % 4) {
+    1:set_Hankyu_6300_panto_wagon;
+    2:set_Hankyu_6300_wagon;
+    3:set_Hankyu_6300_engineT;
+    set_Hankyu_6300_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6000_2car, extra_callback_info1) {
-    1: Hankyu_6000_2Car;
+switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6300_4car, extra_callback_info1) {
+    1..3: Hankyu_6300_4Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_3car, position_in_vehid_chain % 4) {
-    1:set_Hankyu_6000_wagon;
-    2:set_Hankyu_6000_engineT;
-    set_Hankyu_6000_engineH; //default
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6300_8car, position_in_vehid_chain % 8) {
+    1:set_Hankyu_6300_panto_wagon;
+    2:set_Hankyu_6300_wagon;
+    3:set_Hankyu_6300_wagon;
+    4:set_Hankyu_6300_wagon;
+    5:set_Hankyu_6300_wagon;
+    6:set_Hankyu_6300_panto_wagon;
+    7:set_Hankyu_6300_engineT;
+    set_Hankyu_6300_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6000_3car, extra_callback_info1) {
-    1..2: Hankyu_6000_3Car;
+switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6300_8car, extra_callback_info1) {
+    1..7: Hankyu_6300_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_4car, position_in_vehid_chain % 8) {
-    1:set_Hankyu_6000_wagon;
-    2:set_Hankyu_6000_wagon;
-    3:set_Hankyu_6000_engineT;
-    set_Hankyu_6000_engineH; //default
-    }
-
-switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6000_4car, extra_callback_info1) {
-    1..3: Hankyu_6000_4Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
-
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_A, position_in_vehid_chain % 10) {
-    1:set_Hankyu_6000_wagon;
-    2:set_Hankyu_6000_panto_wagon;
-    3:set_Hankyu_6000_wagon;
-    4:set_Hankyu_6000_wagon;
-    5:set_Hankyu_6000_panto_wagon;
-    6:set_Hankyu_6000_wagon;
-    7:set_Hankyu_6000_engineT;
-    set_Hankyu_6000_engineH; //default
-    }
-
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_B, position_in_vehid_chain % 10) {
-    1:set_Hankyu_6000_panto_wagon;
-    2:set_Hankyu_6000_wagon;
-    3:set_Hankyu_6000_wagon;
-    4:set_Hankyu_6000_panto_wagon;
-    5:set_Hankyu_6000_wagon;
-    6:set_Hankyu_6000_wagon;
-    7:set_Hankyu_6000_engineT;
-    set_Hankyu_6000_engineH; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car, random_bits % 2) {
-     0: sw_Hankyu_6000_8car_A;
-     1: sw_Hankyu_6000_8car_B;
-    sw_Hankyu_6000_8car_A;
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6300_attach, vehicle_type_id) {
 }
-
-switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6000_8car, extra_callback_info1) {
-    1..7: Hankyu_6000_8Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_attach, vehicle_type_id) {
-    Hankyu_6000_2Car:        return CB_RESULT_ATTACH_ALLOW;
-    Hankyu_6000_3Car:        return CB_RESULT_ATTACH_ALLOW;
-    Hankyu_6000_4Car:        return CB_RESULT_ATTACH_ALLOW;
-    Hankyu_6000_8Car:        return CB_RESULT_ATTACH_ALLOW;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/DCMOTER1start.wav");
-    return CB_RESULT_NO_SOUND;
-    }

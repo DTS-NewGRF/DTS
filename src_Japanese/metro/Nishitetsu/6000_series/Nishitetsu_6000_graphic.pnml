@@ -5,6 +5,10 @@ spriteset(set_Nishitetsu_6000_purchase, "src_Japanese/metro/Nishitetsu/6000_seri
     tmpl_purchase(0, 0)
 }
 
+spriteset(set_Nishitetsu_6050_purchase, "src_Japanese/metro/Nishitetsu/6000_series/Nishitetsu_6050.png"){
+    tmpl_purchase(0, 0)
+}
+
 /*--------------------------------------------------------------------
 1. 니시테츠 6000형
 --------------------------------------------------------------------*/
@@ -52,4 +56,8 @@ spriteset(set_Nishitetsu_6050_engineT, "src_Japanese/metro/Nishitetsu/6000_serie
 -------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_purchase, cargo_subtype) {
     set_Nishitetsu_6000_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6050_purchase, cargo_subtype) {
+    set_Nishitetsu_6050_purchase;
 }

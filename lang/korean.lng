@@ -156,6 +156,8 @@ STR_Nishitetsu_5000_3Car_NAME                        :[DTS/3량] 니시테츠 50
 STR_Nishitetsu_5000_4Car_NAME                        :[DTS/4량] 니시테츠 5000형
 STR_Nishitetsu_6000_3Car_NAME                        :[DTS/3량] 니시테츠 6000형
 STR_Nishitetsu_6000_4Car_NAME                        :[DTS/4량] 니시테츠 6000형
+STR_Nishitetsu_6050_3Car_NAME                        :[DTS/3량] 니시테츠 6050형
+STR_Nishitetsu_6050_4Car_NAME                        :[DTS/4량] 니시테츠 6050형
 STR_Nishitetsu_7000_2Car_NAME                        :[DTS/2량] 니시테츠 7000형
 STR_Nishitetsu_8000_6Car_NAME                        :[DTS/6량] 니시테츠 8000형
 STR_Nishitetsu_9000_2Car_NAME                        :[DTS/2량] 니시테츠 9000형
@@ -164,6 +166,8 @@ STR_Hankyu_6000_2Car_NAME                            :[DTS/2량] 한큐전철 60
 STR_Hankyu_6000_3Car_NAME                            :[DTS/3량] 한큐전철 6000형
 STR_Hankyu_6000_4Car_NAME                            :[DTS/4량] 한큐전철 6000형
 STR_Hankyu_6000_8Car_NAME                            :[DTS/8량] 한큐전철 6000형
+STR_Hankyu_6300_4Car_NAME                            :[DTS/4량] 한큐전철 6300형
+STR_Hankyu_6300_8Car_NAME                            :[DTS/8량] 한큐전철 6300형
 
 # wagon's name
 STR_Eco_Rail_NAME                                    :[DTS/관광객차] 에코레일
@@ -317,11 +321,12 @@ STR_REFIT_ADDITIONAL_Nishitetsu_1000                 :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_Nishitetsu_2000                 :{BLACK}복합가능열차 {GREEN}니시테츠 2000
 STR_REFIT_ADDITIONAL_Nishitetsu_3000                 :{BLACK}복합가능열차 {GREEN}니시테츠 3000
 STR_REFIT_ADDITIONAL_Nishitetsu_5000                 :{BLACK}복합가능열차 {GREEN}니시테츠 5000
-STR_REFIT_ADDITIONAL_Nishitetsu_6000                 :{BLACK}복합가능열차 {GREEN}니시테츠 6000, 니시테츠 7000
-STR_REFIT_ADDITIONAL_Nishitetsu_7000                 :{BLACK}복합가능열차 {GREEN}니시테츠 6000, 니시테츠 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_6000                 :{BLACK}복합가능열차 {GREEN}니시테츠 6000, 니시테츠 6050, 니시테츠 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_7000                 :{BLACK}복합가능열차 {GREEN}니시테츠 6000, 니시테츠 6050, 니시테츠 7000
 STR_REFIT_ADDITIONAL_Nishitetsu_8000                 :{BLACK}복합가능열차 {GREEN}니시테츠 8000
 STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}복합가능열차 {GREEN}니시테츠 9000
 STR_REFIT_ADDITIONAL_Hankyu_6000                     :{BLACK}복합가능열차 {GREEN}한큐전철 6000
+STR_REFIT_ADDITIONAL_Hankyu_6300                     :{BLACK}복합가능열차 {RED}불가능
 STR_REFIT_ADDITIONAL_HYEL_15                         :{BLACK}복합가능열차 {GREEN}HYEL-15
 STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}복합가능열차 {GREEN}HYEL-100
 STR_REFIT_ADDITIONAL_HYEL_150                        :{BLACK}복합가능열차 {GREEN}HYEL-150
@@ -491,8 +496,6 @@ STR_REFIT_LIVERY_Nishitetsu_2000_Normal              :(니시테츠 2000형 일�
 STR_REFIT_LIVERY_Nishitetsu_2000_Express             :(니시테츠 2000형 특급도색)
 STR_REFIT_LIVERY_Nishitetsu_5000_MG                  :(니시테츠 5000형 전동발전기)
 STR_REFIT_LIVERY_Nishitetsu_5000_SIV                 :(니시테츠 5000형 정지형 인버터)
-STR_REFIT_LIVERY_Nishitetsu_6000                     :(니시테츠 6000형)
-STR_REFIT_LIVERY_Nishitetsu_6050                     :(니시테츠 6050형)
 STR_REFIT_LIVERY_Nishitetsu_7000                     :(니시테츠 7000형)
 STR_REFIT_LIVERY_Nishitetsu_7050                     :(니시테츠 7050형)
 

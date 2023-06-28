@@ -30,11 +30,17 @@
 ### KTXSCstart.wav
 - KTX-산천, KTX-산천 DD, CTX
 
+### MITSUBISHIGTO1start.wav
+- 니시테츠 6050형
+
 ### SIEMENSGTOlocostart.wav
 - 8200호대 전기 기관차
 
 ### TOSHIBAGTOS500start.wav
 - 신칸센 500계 16량
+
+### TOSHIBAIGBTJstart.wav
+- 니시테츠 3000형, 7000, 7050형
 
 ### TOSHIBAIGBTPMSMstart.wav
 - HYEL-15, 100, 150, 200, 220, 300, 400

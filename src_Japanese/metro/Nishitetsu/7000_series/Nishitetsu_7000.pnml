@@ -59,5 +59,6 @@ item(FEAT_TRAINS, Nishitetsu_7000_2Car, 2102){
         can_attach_wagon:               sw_Nishitetsu_7000_wagon_attach;
         cargo_subtype_text:             sw_Nishitetsu_7000_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_Nishitetsu_7000);
+        sound_effect:                   sw_Nishitetsu_7000_sound;
         }
         }
