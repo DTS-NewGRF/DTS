@@ -8,6 +8,23 @@
 #include "Shinkansen_N700_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Shinkansen_N700, 2203){
+    property {
+        name:                           string(STR_Group_Shinkansen_N700_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_Shinkansen_N700_Tokaido_Sanyo_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 8량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_N700_8Car, 2089){
@@ -18,7 +35,7 @@ item(FEAT_TRAINS, Shinkansen_N700_8Car, 2089){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Shinkansen_N700_16Car;
+        variant_group:                  Shinkansen_N700;
         
         //spec
         speed:                          300km/h;
@@ -73,6 +90,7 @@ item(FEAT_TRAINS, Shinkansen_N700_16Car, 2155){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Shinkansen_N700;
         
         //spec
         speed:                          300km/h;

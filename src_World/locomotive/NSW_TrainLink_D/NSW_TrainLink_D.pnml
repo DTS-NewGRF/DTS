@@ -8,6 +8,23 @@ GT26CW
 #include "NSW_TrainLink_D_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, NSW_TrainLink_D, 2195){
+    property {
+        name:                           string(STR_Group_NSW_TrainLink_D_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_NSW_TrainLink_D_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 4량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, NSW_TrainLink_D_4Car, 2117){
@@ -18,6 +35,7 @@ item(FEAT_TRAINS, NSW_TrainLink_D_4Car, 2117){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  NSW_TrainLink_D;
         
         //spec
         speed:                          160km/h;
@@ -73,7 +91,7 @@ item(FEAT_TRAINS, NSW_TrainLink_D_6Car, 2142){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  NSW_TrainLink_D_4Car;
+        variant_group:                  NSW_TrainLink_D;
         
         //spec
         speed:                          160km/h;

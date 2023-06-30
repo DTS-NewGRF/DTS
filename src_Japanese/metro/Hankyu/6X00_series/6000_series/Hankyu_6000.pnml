@@ -8,6 +8,23 @@
 #include "Hankyu_6000_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Hankyu_6000, 2188){
+    property {
+        name:                           string(STR_Group_Hankyu_6000_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_Hankyu_6000_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 2량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Hankyu_6000_2Car, 2169){
@@ -18,6 +35,7 @@ item(FEAT_TRAINS, Hankyu_6000_2Car, 2169){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Hankyu_6000;
         
         //spec
         speed:                          120km/h;
@@ -73,7 +91,7 @@ item(FEAT_TRAINS, Hankyu_6000_3Car, 2170){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Hankyu_6000_2Car;
+        variant_group:                  Hankyu_6000;
         
         //spec
         speed:                          120km/h;
@@ -129,7 +147,7 @@ item(FEAT_TRAINS, Hankyu_6000_4Car, 2171){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Hankyu_6000_2Car;
+        variant_group:                  Hankyu_6000;
         
         //spec
         speed:                          120km/h;
@@ -185,7 +203,7 @@ item(FEAT_TRAINS, Hankyu_6000_8Car, 2172){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Hankyu_6000_2Car;
+        variant_group:                  Hankyu_6000;
         
         //spec
         speed:                          120km/h;

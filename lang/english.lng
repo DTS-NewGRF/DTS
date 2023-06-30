@@ -8,18 +8,22 @@ STR_GRF_URL                                          :https://github.com/MEGB-Ne
 
 # locomotive's name
 STR_AREX_6Car_NAME                                   :[DTS] AREX series 2000 EMU5 6Car
+STR_Group_MEL_150_NAME                               :[DTS] MEL-150
 STR_MEL_150_4Car_NAME                                :[DTS] MEL-150 4Car
 STR_MEL_150_8Car_NAME                                :[DTS] MEL-150 8Car
 STR_MEL_150_10Car_NAME                               :[DTS] MEL-150 10Car
 STR_MEL_150_12Car_NAME                               :[DTS] MEL-150 12Car
+STR_Group_CL_150_NAME                                :[DTS] CL-150
 STR_CL_150_4Car_NAME                                 :[DTS] CL-150 4Car
 STR_CL_150_6Car_NAME                                 :[DTS] CL-150 6Car
 STR_CL_150_8Car_NAME                                 :[DTS] CL-150 8Car
 STR_CL_180_8Car_NAME                                 :[DTS] CL-180 8Car
+STR_Group_CTX_NAME                                   :[DTS] CTX
 STR_CTX_F_10Car_NAME                                 :[DTS] CTX Freight 10Car
 STR_CTX_P_10Car_NAME                                 :[DTS] CTX Passenger 10Car
 STR_DEL7600_NAME                                     :[DTS] DEL7600
 STR_E8600_NAME                                       :[DTS] E8600
+STR_Group_EMU150_NAME                                :[DTS] Bicheuro
 STR_EMU150_4Car_NAME                                 :[DTS] Bicheuro 4Car
 STR_EMU150_6Car_NAME                                 :[DTS] Bicheuro 6Car
 STR_EMU150_8Car_NAME                                 :[DTS] Bicheuro 8Car
@@ -30,8 +34,10 @@ STR_EMU320_8Car_NAME                                 :[DTS] EMU-320 8Car
 STR_EMU320_DD_8Car_NAME                              :[DTS] EMU-320 DD 8Car
 STR_GT26CW_NAME                                      :[DTS] GT26CW
 STR_GTX_8Car_NAME                                    :[DTS] GTX 8Car
+STR_Group_HEMU_430X_NAME                             :[DTS] HEMU-430X
 STR_HEMU_430X_6Car_NAME                              :[DTS] HEMU-430X 6Car
 STR_HEMU_430X_8Car_NAME                              :[DTS] HEMU-430X 8Car
+STR_Group_HSR_350X_NAME                              :[DTS] HSR-350X
 STR_HSR_350X_7Car_NAME                               :[DTS] HSR-350X 7Car
 STR_HSR_350X_14Car_NAME                              :[DTS] HSR-350X 14Car
 STR_ICE_CW_8Car_NAME                                 :[DTS] ITX-Chowol 8Car
@@ -39,6 +45,7 @@ STR_ITX_SM2_6Car_NAME                                :[DTS] ITX-Saemaeul DD 6Car
 STR_KTX_SC_10Car_NAME                                :[DTS] KTX-Sancheon 10Car
 STR_KTX_SC2_10Car_NAME                               :[DTS] KTX-Sancheon DD 10Car
 STR_NRT2_4Car_NAME                                   :[DTS] Nuriro DD 4Car
+STR_Group_H2_WJ_NAME                                 :[DTS] H2 by WOOJIN
 STR_H2_WJ_2Car_NAME                                  :[DTS] H2 by WOOJIN 2Car
 STR_H2_WJ_4Car_NAME                                  :[DTS] H2 by WOOJIN 4Car
 STR_Travel_8500_NAME                                 :[DTS] Travel 8500
@@ -59,17 +66,22 @@ STR_CRH380AJ_8Car_NAME                               :[DTS] CRH380AJ 8Car
 STR_CRH380B_8Car_NAME                                :[DTS] CRH380B 8Car
 STR_CRH380B_16Car_NAME                               :[DTS] CRH380B 16Car
 STR_CRH380C_16Car_NAME                               :[DTS] CRH380CL 16Car
+STR_Group_CRH380D_NAME                               :[DTS] CRH380D
 STR_CRH380D_8Car_NAME                                :[DTS] CRH380D 8Car
 STR_CRH380D_16Car_NAME                               :[DTS] CRH380D 16Car
+STR_Group_CR400AF_NAME                               :[DTS] CR400AF
 STR_CR400AF_8Car_NAME                                :[DTS] CR400AF 8Car
 STR_CR400AF_16Car_NAME                               :[DTS] CR400AF 16Car
 STR_CR400AF_17Car_NAME                               :[DTS] CR400AF 17Car
+STR_Group_CR400AF_Z_NAME                             :[DTS] CR400AF-Z
 STR_CR400AF_Z_8Car_NAME                              :[DTS] CR400AF-Z 8Car
 STR_CR400AF_Z_17Car_NAME                             :[DTS] CR400AF-Z 17Car
+STR_Group_CR400BF_NAME                               :[DTS] CR400BF
 STR_CR400BF_8Car_NAME                                :[DTS] CR400BF 8Car
 STR_CR400BF_16Car_NAME                               :[DTS] CR400BF 16Car
 STR_CR400BF_17Car_NAME                               :[DTS] CR400BF 17Car
 STR_CR400BF_C_8Car_NAME                              :[DTS] CR400BF-C 8Car
+STR_Group_CR400BF_Z_NAME                             :[DTS] CR400BF-Z
 STR_CR400BF_Z_8Car_NAME                              :[DTS] CR400BF-Z 8Car
 STR_CR400BF_Z_17Car_NAME                             :[DTS] CR400BF-Z 17Car
 STR_HXD3C_NAME                                       :[DTS] HXD3C
@@ -82,6 +94,7 @@ STR_ICE1_14Car_NAME                                  :[DTS] ICE1 14Car
 STR_ICE2_8Car_NAME                                   :[DTS] ICE2 8Car
 STR_ICE3_8Car_NAME                                   :[DTS] ICE3 8Car
 STR_ICE3V_8Car_NAME                                  :[DTS] ICE3 (Velaro D) 8Car
+STR_Group_ICE4_NAME                                  :[DTS] ICE4
 STR_ICE4_7Car_NAME                                   :[DTS] ICE4 7Car
 STR_ICE4_12Car_NAME                                  :[DTS] ICE4 12Car
 STR_Renfe_S_100_10Car_NAME                           :[DTS] Renfe AVE S-100 10Car
@@ -97,10 +110,13 @@ STR_TGV_Duplex_10Car_NAME                            :[DTS] TGV Duplex 10Car
 STR_TGV_Pos_10Car_NAME                               :[DTS] TGV Pos 10Car
 STR_TGV_M_10Car_NAME                                 :[DTS] TGV M 10Car
 STR_Kse2_8Car_NAME                                   :[DTS] Keisei AE series 8Car
+STR_Group_Shinkansen_0_NAME                          :[DTS] Shinkansen 0
 STR_Shinkansen_0_12Car_NAME                          :[DTS] Shinkansen 0 12Car
 STR_Shinkansen_0_16Car_NAME                          :[DTS] Shinkansen 0 16Car
+STR_Group_Shinkansen_500_NAME                        :[DTS] Shinkansen 500
 STR_Shinkansen_500_8Car_NAME                         :[DTS] Shinkansen 500 8Car
 STR_Shinkansen_500_16Car_NAME                        :[DTS] Shinkansen 500 16Car
+STR_Group_Shinkansen_700_NAME                        :[DTS] Shinkansen 700
 STR_Shinkansen_700_8Car_NAME                         :[DTS] Shinkansen 700 8Car
 STR_Shinkansen_700_16Car_NAME                        :[DTS] Shinkansen 700 16Car
 STR_Shinkansen_800_6Car_NAME                         :[DTS] Shinkansen 800 6Car
@@ -110,20 +126,24 @@ STR_Shinkansen_E5_H5_10Car_NAME                      :[DTS] Shinkansen E5·H5 10
 STR_Shinkansen_E6_7Car_NAME                          :[DTS] Shinkansen E6 7Car
 STR_Shinkansen_E7_W7_12Car_NAME                      :[DTS] Shinkansen E7·W7 12Car
 STR_Shinkansen_E8_7Car_NAME                          :[DTS] Shinkansen E8 7Car
+STR_Group_Shinkansen_N700_NAME                       :[DTS] Shinkansen N700
 STR_Shinkansen_N700_8Car_NAME                        :[DTS] Shinkansen N700 8Car Sanyo-Kyushu Shinkansen
 STR_Shinkansen_N700_16Car_NAME                       :[DTS] Shinkansen N700 16Car
+STR_Group_Shinkansen_N700S_NAME                      :[DTS] Shinkansen N700S
 STR_Shinkansen_N700S_6Car_NAME                       :[DTS] Shinkansen N700S 6Car Nishikyushu Shinkansen
 STR_Shinkansen_N700S_16Car_NAME                      :[DTS] Shinkansen N700S 16Car
 STR_HYEL_15_NAME                                     :[DTS] HYEL-15
 STR_HYEL_100_NAME                                    :[DTS] HYEL-100
 STR_HYEL_150_NAME                                    :[DTS] HYEL-150
+STR_Group_HYEL_200_NAME                              :[DTS] HYEL-200
 STR_HYEL_200_4Car_NAME                               :[DTS] HYEL-200 4Car
 STR_HYEL_200_6Car_NAME                               :[DTS] HYEL-200 6Car
 STR_HYEL_220_6Car_NAME                               :[DTS] HYEL-220 6Car
 STR_HYEL_300_8Car_NAME                               :[DTS] HYEL-300 8Car
 STR_HYEL_400_8Car_NAME                               :[DTS] HYEL-400 8Car
 STR_DFX_10Car_NAME                                   :[DTS] DFX 10Car
-STR_NHSRCL_E5_10Car_NAME                             :[DTS] NHSRCL E5 [DTS]
+STR_NHSRCL_E5_10Car_NAME                             :[DTS] NHSRCL E5
+STR_Group_NSW_TrainLink_D_NAME                       :[DTS] NSW TrainLink D
 STR_NSW_TrainLink_D_4Car_NAME                        :[DTS] NSW TrainLink D 4Car
 STR_NSW_TrainLink_D_6Car_NAME                        :[DTS] NSW TrainLink D 6Car
 STR_THSR_700T_12Car_NAME                             :[DTS] THSR 700T 12Car
@@ -137,6 +157,7 @@ STR_NKX_8Car_NAME                                    :[DTS] NKX 8Car
 # Metro's name
 STR_Standard_Metro_4Car_NAME                         :[DTS] Standard Metro 4Car
 STR_AUTS_6Car_NAME                                   :[DTS] AUTS 6Car
+STR_Group_Korail_392000_NAME                         :[DTS] Korail 392000
 STR_Korail_392000_2Car_NAME                          :[DTS] Korail 392000 2Car
 STR_Korail_392000_4Car_NAME                          :[DTS] Korail 392000 4Car
 STR_MTR_AD_Tranz_CAF_A_8Car_NAME                     :[DTS] MTR AD Tranz CAF A Type 8Car
@@ -149,27 +170,34 @@ STR_MTR_Hyundai_Rotem_R_8Car_NAME                    :[DTS] MTR Hyundai Rotem R 
 STR_MTR_IKK_SP_1900_8Car_NAME                        :[DTS] MTR IKK SP 1900 8Car
 STR_Nishitetsu_1000_4Car_NAME                        :[DTS] Nishitetsu 1000 4Car
 STR_Nishitetsu_2000_6Car_NAME                        :[DTS] Nishitetsu 2000 6Car
+STR_Group_Nishitetsu_3000_NAME                       :[DTS] Nishitetsu 3000
 STR_Nishitetsu_3000_2Car_NAME                        :[DTS] Nishitetsu 3000 2Car
 STR_Nishitetsu_3000_3Car_NAME                        :[DTS] Nishitetsu 3000 3Car
 STR_Nishitetsu_3000_5Car_NAME                        :[DTS] Nishitetsu 3000 5Car
+STR_Group_Nishitetsu_5000_NAME                       :[DTS] Nishitetsu 5000
 STR_Nishitetsu_5000_3Car_NAME                        :[DTS] Nishitetsu 5000 3Car
 STR_Nishitetsu_5000_4Car_NAME                        :[DTS] Nishitetsu 5000 4Car
+STR_Group_Nishitetsu_6000_NAME                       :[DTS] Nishitetsu 6000
 STR_Nishitetsu_6000_3Car_NAME                        :[DTS] Nishitetsu 6000 3Car
 STR_Nishitetsu_6000_4Car_NAME                        :[DTS] Nishitetsu 6000 4Car
 STR_Nishitetsu_6050_3Car_NAME                        :[DTS] Nishitetsu 6050 3Car
 STR_Nishitetsu_6050_4Car_NAME                        :[DTS] Nishitetsu 6050 4Car
 STR_Nishitetsu_7000_2Car_NAME                        :[DTS] Nishitetsu 7000 2Car
 STR_Nishitetsu_8000_6Car_NAME                        :[DTS] Nishitetsu 8000 6Car
+STR_Group_Nishitetsu_9000_NAME                       :[DTS] Nishitetsu 9000
 STR_Nishitetsu_9000_2Car_NAME                        :[DTS] Nishitetsu 9000 2Car
 STR_Nishitetsu_9000_3Car_NAME                        :[DTS] Nishitetsu 9000 3Car
+STR_Group_Hankyu_6000_NAME                           :[DTS] Hankyu 6000
 STR_Hankyu_6000_2Car_NAME                            :[DTS] Hankyu 6000 2Car
 STR_Hankyu_6000_3Car_NAME                            :[DTS] Hankyu 6000 3Car
 STR_Hankyu_6000_4Car_NAME                            :[DTS] Hankyu 6000 4Car
 STR_Hankyu_6000_8Car_NAME                            :[DTS] Hankyu 6000 8Car
+STR_Group_Hankyu_6300_NAME                           :[DTS] Hankyu 6300
 STR_Hankyu_6300_4Car_NAME                            :[DTS] Hankyu 6300 4Car
 STR_Hankyu_6300_8Car_NAME                            :[DTS] Hankyu 6300 8Car
 
 # wagon's name
+STR_Group_Travel_wagon_NAME                          :[DTS] Travel Train
 STR_Eco_Rail_NAME                                    :[DTS] Eco Rail Passenger Car
 STR_CY_GW_NAME                                       :[DTS] Chungbuk Yeongdong Gugak & Wine Passenger Car
 STR_JA_a_NAME                                        :[DTS] Jeongseon Arirang Passenger Car
@@ -554,8 +582,6 @@ STR_REFIT_LIVERY_Original_Bar_Passenger_Car          :(Bar Livery)
 STR_REFIT_LIVERY_Original_HF_Passenger_Car           :(1/2 1,2nd Livery)
 STR_REFIT_LIVERY_Coach_2F_BR                         :(Default Color)
 STR_REFIT_LIVERY_Coach_2F_Taegeuk                    :(Taegeuk Color)
-STR_REFIT_LIVERY_Coach_2F_SR                         :(SR Color)
-STR_REFIT_LIVERY_Coach_2F_K_Limousion                :(K Limousion Color)
 STR_REFIT_LIVERY_FlatCC                              :(Flat Car Company Color)
 STR_REFIT_LIVERY_FlatPCC                             :(Flat Car Trailer Color)
 STR_REFIT_LIVERY_FlatP2CC                            :(Flat Car Trailer 2CC Color)

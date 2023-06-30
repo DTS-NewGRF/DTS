@@ -8,6 +8,23 @@ YTRO 100
 #include "Korail_392000_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail_392000, 2183){
+    property {
+        name:                           string(STR_Group_Korail_392000_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_Korail_392000_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 2량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_392000_2Car, 2139){
@@ -18,6 +35,7 @@ item(FEAT_TRAINS, Korail_392000_2Car, 2139){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail_392000;
         
         //spec
         speed:                          120km/h;
@@ -73,7 +91,7 @@ item(FEAT_TRAINS, Korail_392000_4Car, 2140){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_392000_2Car;
+        variant_group:                  Korail_392000;
         
         //spec
         speed:                          120km/h;

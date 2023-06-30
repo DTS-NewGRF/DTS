@@ -8,6 +8,23 @@ ZEFIRO380
 #include "CRH380D_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CRH380D, 2201){
+    property {
+        name:                           string(STR_Group_CRH380D_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_CRH380D_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 8량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CRH380D_8Car, 2043){
@@ -18,6 +35,7 @@ item(FEAT_TRAINS, CRH380D_8Car, 2043){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CRH380D;
         
         //spec
         speed:                          380km/h;
@@ -72,7 +90,7 @@ item(FEAT_TRAINS, CRH380D_16Car, 2147){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  CRH380D_8Car;
+        variant_group:                  CRH380D;
         
         //spec
         speed:                          380km/h;

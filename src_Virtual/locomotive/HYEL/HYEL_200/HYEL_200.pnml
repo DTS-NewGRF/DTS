@@ -8,6 +8,23 @@ GT26CW
 #include "HYEL_200_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_200, 2194){
+    property {
+        name:                           string(STR_Group_HYEL_200_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_HYEL_200_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 4량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HYEL_200_4Car, 2167){
@@ -18,6 +35,7 @@ item(FEAT_TRAINS, HYEL_200_4Car, 2167){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_200;
         
         //spec
         speed:                          150km/h;
@@ -74,7 +92,7 @@ item(FEAT_TRAINS, HYEL_200_6Car, 2168){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HYEL_200_4Car;
+        variant_group:                  HYEL_200;
         
         //spec
         speed:                          150km/h;

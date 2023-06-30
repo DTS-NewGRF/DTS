@@ -8,6 +8,23 @@ CR400BF_Z
 #include "CR400BF_Z_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CR400BF_Z, 2209){
+    property {
+        name:                           string(STR_Group_CR400BF_Z_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_CR400BF_Z_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 8량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CR400BF_Z_8Car, 2049){
@@ -18,6 +35,7 @@ item(FEAT_TRAINS, CR400BF_Z_8Car, 2049){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CR400BF_Z;
         
         //spec
         speed:                          420km/h;
@@ -71,7 +89,7 @@ item(FEAT_TRAINS, CR400BF_Z_17Car, 2153){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  CR400BF_Z_8Car;
+        variant_group:                  CR400BF_Z;
         
         //spec
         speed:                          420km/h;

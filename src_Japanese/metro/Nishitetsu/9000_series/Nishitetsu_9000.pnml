@@ -8,6 +8,23 @@
 #include "Nishitetsu_9000_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Nishitetsu_9000, 2187){
+    property {
+        name:                           string(STR_Group_Nishitetsu_9000_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_Nishitetsu_9000_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 2량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Nishitetsu_9000_2Car, 2104){
@@ -18,6 +35,7 @@ item(FEAT_TRAINS, Nishitetsu_9000_2Car, 2104){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Nishitetsu_9000;
         
         //spec
         speed:                          110km/h;
@@ -72,7 +90,7 @@ item(FEAT_TRAINS, Nishitetsu_9000_3Car, 2113){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Nishitetsu_9000_2Car;
+        variant_group:                  Nishitetsu_9000;
         
         //spec
         speed:                          110km/h;

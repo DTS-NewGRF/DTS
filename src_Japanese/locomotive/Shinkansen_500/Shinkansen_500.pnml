@@ -8,6 +8,23 @@
 #include "Shinkansen_500_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Shinkansen_500, 2202){
+    property {
+        name:                           string(STR_Group_Shinkansen_500_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_Shinkansen_500_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 8량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_500_8Car, 2086){
@@ -18,7 +35,7 @@ item(FEAT_TRAINS, Shinkansen_500_8Car, 2086){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Shinkansen_500_16Car;
+        variant_group:                  Shinkansen_500;
         
         //spec
         speed:                          300km/h;
@@ -74,6 +91,7 @@ item(FEAT_TRAINS, Shinkansen_500_16Car, 2062){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Shinkansen_500;
         
         //spec
         speed:                          300km/h;

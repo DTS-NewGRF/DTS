@@ -8,6 +8,23 @@ KTX-N
 #include "HSR_350X_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HSR_350X, 2200){
+    property {
+        name:                           string(STR_Group_HSR_350X_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_HSR_350X_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 7량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HSR_350X_7Car, 2027){
@@ -18,6 +35,7 @@ item(FEAT_TRAINS, HSR_350X_7Car, 2027){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HSR_350X;
         
         //spec
         speed:                          362km/h;
@@ -72,7 +90,7 @@ item(FEAT_TRAINS, HSR_350X_14Car, 2005){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HSR_350X_7Car;
+        variant_group:                  HSR_350X;
         
         //spec
         speed:                          362km/h;

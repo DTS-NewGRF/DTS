@@ -8,6 +8,23 @@ CR400BF
 #include "CR400BF_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CR400BF, 2208){
+    property {
+        name:                           string(STR_Group_CR400BF_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_CR400BF_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 8량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CR400BF_8Car, 2047){
@@ -18,6 +35,7 @@ item(FEAT_TRAINS, CR400BF_8Car, 2047){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CR400BF;
         
         //spec
         speed:                          420km/h;
@@ -71,7 +89,7 @@ item(FEAT_TRAINS, CR400BF_16Car, 2151){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  CR400BF_8Car;
+        variant_group:                  CR400BF;
         
         //spec
         speed:                          420km/h;
@@ -125,7 +143,7 @@ item(FEAT_TRAINS, CR400BF_17Car, 2152){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  CR400BF_8Car;
+        variant_group:                  CR400BF;
         
         //spec
         speed:                          420km/h;

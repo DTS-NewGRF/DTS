@@ -8,6 +8,23 @@ KTX-SC2
 #include "CTX_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CTX, 2199){
+    property {
+        name:                           string(STR_Group_CTX_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_CTX_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 화물전용
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, CTX_F_10Car, 2026){
@@ -18,6 +35,7 @@ item(FEAT_TRAINS, CTX_F_10Car, 2026){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CTX;
         
         //spec
         speed:                          300km/h;
@@ -73,7 +91,7 @@ item(FEAT_TRAINS, CTX_P_10Car, 2125){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  CTX_F_10Car;
+        variant_group:                  CTX;
         
         //spec
         speed:                          300km/h;

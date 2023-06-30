@@ -40,7 +40,7 @@ item(FEAT_TRAINS, Coach_2F, 2106){
         refit_cost:                     0;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         20 ton;
         }
 
@@ -51,7 +51,6 @@ item(FEAT_TRAINS, Coach_2F, 2106){
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_subtype_text:             sw_Coach_2F_cargo_subtype_text;
-        can_attach_wagon:               sw_Coach_2F_Wagon_attach;
         additional_text:                string(STR_REFIT_train_configuration_Coach);
         }
         }

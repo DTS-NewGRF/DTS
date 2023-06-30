@@ -8,6 +8,23 @@
 #include "Hankyu_6300_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Hankyu_6300, 2189){
+    property {
+        name:                           string(STR_Group_Hankyu_6300_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_Hankyu_6300_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 4량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Hankyu_6300_4Car, 2179){
@@ -18,6 +35,7 @@ item(FEAT_TRAINS, Hankyu_6300_4Car, 2179){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Hankyu_6300;
         
         //spec
         speed:                          120km/h;
@@ -72,7 +90,7 @@ item(FEAT_TRAINS, Hankyu_6300_8Car, 2180){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Hankyu_6300_4Car;
+        variant_group:                  Hankyu_6300;
         
         //spec
         speed:                          120km/h;

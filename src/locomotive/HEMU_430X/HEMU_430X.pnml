@@ -8,6 +8,23 @@
 #include "HEMU_430X_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HEMU_430X, 2205){
+    property {
+        name:                           string(STR_Group_HEMU_430X_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_HEMU_430X_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, HEMU_430X_6Car, 2028){
@@ -18,6 +35,7 @@ item(FEAT_TRAINS, HEMU_430X_6Car, 2028){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HEMU_430X;
         
         //spec
         speed:                          430km/h;
@@ -71,7 +89,7 @@ item(FEAT_TRAINS, HEMU_430X_8Car, 2127){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  HEMU_430X_6Car;
+        variant_group:                  HEMU_430X;
         
         //spec
         speed:                          430km/h;

@@ -8,6 +8,23 @@ EMU
 #include "EMU150_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, EMU150, 2193){
+    property {
+        name:                           string(STR_Group_EMU150_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_EMU150_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, EMU150_6Car, 2010){
@@ -18,7 +35,7 @@ item(FEAT_TRAINS, EMU150_6Car, 2010){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  EMU150_4Car;
+        variant_group:                  EMU150;
         
         //spec
         speed:                          165km/h;
@@ -74,7 +91,7 @@ item(FEAT_TRAINS, EMU150_8Car, 2131){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  EMU150_4Car;
+        variant_group:                  EMU150;
         
         //spec
         speed:                          165km/h;
@@ -130,6 +147,7 @@ item(FEAT_TRAINS, EMU150_4Car, 2166){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  EMU150;
         
         //spec
         speed:                          165km/h;
