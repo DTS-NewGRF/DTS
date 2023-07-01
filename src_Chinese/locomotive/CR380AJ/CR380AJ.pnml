@@ -21,9 +21,10 @@ item(FEAT_TRAINS, CRH380AJ_8Car, 2044){
         
         //spec
         speed:                          600km/h;
-        power:                          8000 kW;
+        power:                          20000 kW;
         weight:                         40 ton;
-        tractive_effort_coefficient:    0.3;
+        tractive_effort_coefficient:    0.3;        
+        air_drag_coefficient:           0.01;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;

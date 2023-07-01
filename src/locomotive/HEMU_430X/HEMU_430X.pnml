@@ -39,7 +39,7 @@ item(FEAT_TRAINS, HEMU_430X_6Car, 2028){
         
         //spec
         speed:                          430km/h;
-        power:                          8000 kW;
+        power:                          20000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
         
@@ -93,7 +93,7 @@ item(FEAT_TRAINS, HEMU_430X_8Car, 2127){
         
         //spec
         speed:                          430km/h;
-        power:                          8000 kW;
+        power:                          20000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
         

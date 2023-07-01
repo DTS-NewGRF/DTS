@@ -24,6 +24,7 @@ item(FEAT_TRAINS, Shinkansen_923_7Car, 2096){
         power:                          20000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;

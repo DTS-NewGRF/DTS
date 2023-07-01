@@ -21,7 +21,7 @@ item(FEAT_TRAINS, HYEL_400_8Car, 2111){
         
         //spec
         speed:                          430km/h;
-        power:                          8000 kW;
+        power:                          20000 kW;
         weight:                         30 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -53,6 +53,7 @@ item(FEAT_TRAINS, HYEL_400_8Car, 2111){
         default:                        sw_HYEL_400_8car;
         articulated_part:               sw_articulated_HYEL_400_8car;
         purchase:                       sw_HYEL_400_purchase;
+        speed:                          High_Speed_Train_430;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;

@@ -39,7 +39,7 @@ item(FEAT_TRAINS, CR400BF_8Car, 2047){
         
         //spec
         speed:                          420km/h;
-        power:                          8000 kW;
+        power:                          20000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
         
@@ -93,7 +93,7 @@ item(FEAT_TRAINS, CR400BF_16Car, 2151){
         
         //spec
         speed:                          420km/h;
-        power:                          8000 kW;
+        power:                          20000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
         
@@ -147,9 +147,10 @@ item(FEAT_TRAINS, CR400BF_17Car, 2152){
         
         //spec
         speed:                          420km/h;
-        power:                          8000 kW;
+        power:                          20000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
