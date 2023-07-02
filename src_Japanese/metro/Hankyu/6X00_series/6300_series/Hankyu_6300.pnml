@@ -76,6 +76,7 @@ item(FEAT_TRAINS, Hankyu_6300_4Car, 2179){
         running_cost_factor:            150;
         can_attach_wagon:               sw_Hankyu_6300_attach;
         additional_text:                string(STR_REFIT_ADDITIONAL_Hankyu_6300);
+        sound_effect:                   sw_Hankyu_6300_sound;
         }
         }
 
@@ -131,5 +132,6 @@ item(FEAT_TRAINS, Hankyu_6300_8Car, 2180){
         running_cost_factor:            150;
         can_attach_wagon:               sw_Hankyu_6300_attach;
         additional_text:                string(STR_REFIT_ADDITIONAL_Hankyu_6300);
+        sound_effect:                   sw_Hankyu_6300_sound;
         }
         }

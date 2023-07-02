@@ -19,7 +19,7 @@ switch (FEAT_TRAINS, SELF, sw_Hankyu_6300_8car, position_in_vehid_chain % 8) {
     3:set_Hankyu_6300_wagon;
     4:set_Hankyu_6300_wagon;
     5:set_Hankyu_6300_wagon;
-    6:set_Hankyu_6300_panto_wagon;
+    6:set_Hankyu_6300_wagon;
     7:set_Hankyu_6300_engineT;
     set_Hankyu_6300_engineH; //default
     }
@@ -31,3 +31,8 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6300_8car, extra_callback_info1
 
 switch(FEAT_TRAINS, SELF, sw_Hankyu_6300_attach, vehicle_type_id) {
 }
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6300_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DCMOTER1start.wav");
+    return CB_RESULT_NO_SOUND;
+    }

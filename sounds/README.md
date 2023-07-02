@@ -4,7 +4,7 @@
 - 비츠로, 비츠로 DD
 
 ### DCMOTER1start.wav
-- 한큐전철 6000형
+- 한큐전철 6000형, 6300형
 
 ### DCMOTERBASICstart.wav
 - 니시테츠 1000, 2000, 5000, 6000, 8000형
@@ -48,6 +48,9 @@
 
 ### TOSHIBAIGBTS500start.wav
 - 신칸센 500계 8량
+
+### TOSHIBASicStart.wav
+- 니시체트 9000형
 
 ### TOSHIBAStart.wav
 - ITX-새마을 DD, ITX-초월, TTX
