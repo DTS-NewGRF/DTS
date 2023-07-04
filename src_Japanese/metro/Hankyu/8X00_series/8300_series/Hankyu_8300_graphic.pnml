@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_8300_purchase, "src_Japanese/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. 한큐전철 8300형
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_8300_engineH, "src_Japanese/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Hankyu_8300_wagon, "src_Japanese/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Hankyu_8300_panto_wagon, "src_Japanese/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Hankyu_8300_engineT, "src_Japanese/metro/Hankyu/8X00_series/8300_series/Hankyu_8300.png"){
+    engine(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Hankyu_8300_purchase, cargo_subtype) {
+    set_Hankyu_8300_purchase;
+}

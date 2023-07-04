@@ -43,6 +43,12 @@ sort(FEAT_TRAINS, [
     Hankyu_6300,                   //2189
     Hankyu_6300_4Car,              //2179
     Hankyu_6300_8Car,              //2180
+    Hankyu_8000,                   //2211
+    Hankyu_8000_2Car,              //2212
+    Hankyu_8000_8Car,              //2213
+    Hankyu_8300,                   //2214
+    Hankyu_8300_2Car,              //2215
+    Hankyu_8300_8Car,              //2216
 
     //통근열차
     H2_WJ,                         //2190

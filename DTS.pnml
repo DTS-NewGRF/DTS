@@ -10,7 +10,7 @@ grf {
     name :                             string(STR_GRF_NAME_WITH_VER);
     desc :                             string(STR_GRF_DESC);
     url :                              string(STR_GRF_URL);
-    version :                          20230702;
+    version :                          20230704;
     min_compatible_version :           20230630;
 	
 	// Parameters 매개변수
@@ -159,6 +159,10 @@ if (Japanese) {
     disable_item(FEAT_TRAINS, 2172); //Hankyu_6000_10Car
     disable_item(FEAT_TRAINS, 2179); //Hankyu_6300_4Car
     disable_item(FEAT_TRAINS, 2180); //Hankyu_6300_8Car
+    disable_item(FEAT_TRAINS, 2212); //Hankyu_8000_2Car
+    disable_item(FEAT_TRAINS, 2213); //Hankyu_8000_8Car
+    disable_item(FEAT_TRAINS, 2215); //Hankyu_8300_2Car
+    disable_item(FEAT_TRAINS, 2216); //Hankyu_8300_8Car
     }
 
 if (World) {

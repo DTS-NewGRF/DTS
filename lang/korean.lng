@@ -195,6 +195,12 @@ STR_Hankyu_6000_8Car_NAME                            :[DTS/8량] 한큐전철 60
 STR_Group_Hankyu_6300_NAME                           :[DTS] 한큐전철 6300형
 STR_Hankyu_6300_4Car_NAME                            :[DTS/4량] 한큐전철 6300형
 STR_Hankyu_6300_8Car_NAME                            :[DTS/8량] 한큐전철 6300형
+STR_Group_Hankyu_8000_NAME                           :[DTS] 한큐전철 8000형
+STR_Hankyu_8000_2Car_NAME                            :[DTS/2량] 한큐전철 8000형
+STR_Hankyu_8000_8Car_NAME                            :[DTS/8량] 한큐전철 8000형
+STR_Group_Hankyu_8300_NAME                           :[DTS] 한큐전철 8300형
+STR_Hankyu_8300_2Car_NAME                            :[DTS/2량] 한큐전철 8300형
+STR_Hankyu_8300_8Car_NAME                            :[DTS/8량] 한큐전철 8300형
 
 # wagon's name
 STR_Group_Travel_wagon_NAME                          :[DTS] 관광열차
@@ -355,6 +361,8 @@ STR_REFIT_ADDITIONAL_Nishitetsu_8000                 :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}복합가능열차 {GREEN}니시테츠 9000
 STR_REFIT_ADDITIONAL_Hankyu_6000                     :{BLACK}복합가능열차 {GREEN}한큐전철 6000
 STR_REFIT_ADDITIONAL_Hankyu_6300                     :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_Hankyu_8000                     :{BLACK}복합가능열차 {GREEN}한큐전철 8000, 8300
+STR_REFIT_ADDITIONAL_Hankyu_8300                     :{BLACK}복합가능열차 {GREEN}한큐전철 8000, 8300
 STR_REFIT_ADDITIONAL_HYEL_15                         :{BLACK}복합가능열차 {GREEN}HYEL-15
 STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}복합가능열차 {GREEN}HYEL-100
 STR_REFIT_ADDITIONAL_HYEL_150                        :{BLACK}복합가능열차 {GREEN}HYEL-150
@@ -526,6 +534,10 @@ STR_REFIT_LIVERY_Nishitetsu_5000_MG                  :(니시테츠 5000형 전�
 STR_REFIT_LIVERY_Nishitetsu_5000_SIV                 :(니시테츠 5000형 정지형 인버터)
 STR_REFIT_LIVERY_Nishitetsu_7000                     :(니시테츠 7000형)
 STR_REFIT_LIVERY_Nishitetsu_7050                     :(니시테츠 7050형)
+STR_REFIT_LIVERY_Hankyu_8000_Long_Seat               :(한큐 8000형 롱 시트)
+STR_REFIT_LIVERY_Hankyu_8000_Cross_Seat              :(한큐 8000형 크로스 시트)
+STR_REFIT_LIVERY_Hankyu_8300_Long_Seat               :(한큐 8300형 롱 시트)
+STR_REFIT_LIVERY_Hankyu_8300_Cross_Seat              :(한큐 8300형 크로스 시트)
 
 # Liveries wagon
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car              :(정선아리랑 유람열차 구도색)

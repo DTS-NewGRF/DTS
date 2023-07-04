@@ -33,6 +33,9 @@
 ### MITSUBISHIGTO1start.wav
 - 니시테츠 6050형
 
+### TOSHIBAGTOJStart.wav
+- 한큐 8000형
+
 ### SIEMENSGTOlocostart.wav
 - 8200호대 전기 기관차
 
@@ -54,6 +57,9 @@
 
 ### TOSHIBAStart.wav
 - ITX-새마을 DD, ITX-초월, TTX
+
+### TOYODENKIGTOStart.wav
+- 한큐 8300형
 
 ### WOOJINMITSUBISHIIGBTstart.wav
 - 우진산전 수소연료전지동차
