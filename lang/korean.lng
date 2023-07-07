@@ -157,9 +157,13 @@ STR_NKX_8Car_NAME                                    :[DTS/8량] NKX
 # Metro's name
 STR_Standard_Metro_4Car_NAME                         :[DTS/4량] 한국형 표준전동차
 STR_AUTS_6Car_NAME                                   :[DTS/6량] 차세대전동차
-STR_Group_Korail_392000_NAME                         :[DTS] 한국철도공사 392000호대 전동차
+STR_Group_Korail_4th_VVVF_NAME                       :[DTS] 한국철도공사 4세대 VVVF 전동차
 STR_Korail_392000_2Car_NAME                          :[DTS/2량] 한국철도공사 392000호대 전동차
 STR_Korail_392000_4Car_NAME                          :[DTS/4량] 한국철도공사 392000호대 전동차
+STR_Korail_4th_VVVF_G1_4Car_NAME                     :[DTS/4량] 한국철도공사 4세대 초기도입분
+STR_Korail_4th_VVVF_G2_G3_4Car_NAME                  :[DTS/4량] 한국철도공사 4세대 1·2차 도입분
+STR_Korail_4th_VVVF_G2_G3_6Car_NAME                  :[DTS/6량] 한국철도공사 4세대 1·2차 도입분
+STR_Korail_4th_VVVF_G2_G3_10Car_NAME                 :[DTS/10량] 한국철도공사 4세대 1·2차 도입분
 STR_MTR_AD_Tranz_CAF_A_8Car_NAME                     :[DTS/8량] 홍콩 MTR AD Tranz CAF A형
 STR_MTR_AC_Cammall_8Car_NAME                         :[DTS/8량] 홍콩 MTR 메트로카멜 교류형 전동차
 STR_MTR_DC_Cammall_8Car_NAME                         :[DTS/8량] 홍콩 MTR 메트로카멜 직류형 전동차
@@ -281,7 +285,7 @@ STR_REFIT_ADDITIONAL_TTX                             :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_VHST_600X                       :{BLACK}복합가능열차 {GREEN}VHST-600X
 STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Korail_392000                   :{BLACK}복합가능열차 {GREEN}Korail 392000
+STR_REFIT_ADDITIONAL_Korail_4th_VVVF                 :{BLACK}복합가능열차 {GREEN}Korail 4세대 VVVF 전동차
 STR_REFIT_ADDITIONAL_MSB_Speeder                     :{BLACK}복합가능열차 {GREEN}MSB 모터카
 STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}복합가능열차 {GREEN}CRH1
 STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}복합열차구성 {RED}불가능
@@ -513,7 +517,12 @@ STR_REFIT_LIVERY_HYEL_150_SB                         :(HYEL-150 바다도색)
 STR_REFIT_LIVERY_AUTS                                :(AUTS)
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat            :(한국 표준형 지하철 롱 시트)
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           :(한국 표준형 지하철 크로스 시트)
-STR_REFIT_LIVERY_Korail_392000                       :(코레일 392000)
+STR_REFIT_LIVERY_Korail_4th_VVVF_G2_SI1              :(코레일 4세대 VVVF 1차분 싱글암1개)
+STR_REFIT_LIVERY_Korail_4th_VVVF_G2_SI2              :(코레일 4세대 VVVF 1차분 싱글암2개)
+STR_REFIT_LIVERY_Korail_4th_VVVF_G2_DOB              :(코레일 4세대 VVVF 1차분 더블암)
+STR_REFIT_LIVERY_Korail_4th_VVVF_G3_SI1              :(코레일 4세대 VVVF 2차분 싱글암1개)
+STR_REFIT_LIVERY_Korail_4th_VVVF_G3_SI2              :(코레일 4세대 VVVF 2차분 싱글암2개)
+STR_REFIT_LIVERY_Korail_4th_VVVF_G3_DOB              :(코레일 4세대 VVVF 2차분 더블암)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express  :(MTR AD Tranz CAF A Type Airport Express)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung       :(MTR AD Tranz CAF A Type Tung Chung)
 STR_REFIT_LIVERY_MTR_DC_Cammall                      :(MTR 메트로카멜 직류형 미개조형)

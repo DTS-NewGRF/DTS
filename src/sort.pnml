@@ -5,9 +5,13 @@ sort(FEAT_TRAINS, [
     //지하철
     Standard_Metro_4Car,           //2006
     AUTS_6Car,                     //2007
-    Korail_392000,                 //2183
+    Korail_4th_VVVF,               //2183
     Korail_392000_2Car,            //2139
+    Korail_4th_VVVF_G1_4Car,       //2030
     Korail_392000_4Car,            //2140
+    Korail_4th_VVVF_G2_G3_4Car,    //2124
+    Korail_4th_VVVF_G2_G3_6Car,    //2217
+    Korail_4th_VVVF_G2_G3_10Car,   //2218
     AD_Tranz_CAF_A_8Car,           //2052
     MTR_AC_Cammall_8Car,           //2053
     MTR_DC_Cammall_8Car,           //2054
@@ -221,8 +225,6 @@ sort(FEAT_TRAINS, [
     S_Train_New_Passenger_Car,     //2163
     A_Train_New_Passenger_Car,     //2164
     G_Train_New_Passenger_Car,     //2002
-    KMetro_Pass,                   //2030
-    EMU_Pass,                      //2124
     Coach_2F,                      //2106
     KTS_SPassenger_Car,            //2132
     CTS_SPassenger_Car,            //2031

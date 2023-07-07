@@ -157,9 +157,13 @@ STR_NKX_8Car_NAME                                    :[DTS] NKX 8Car
 # Metro's name
 STR_Standard_Metro_4Car_NAME                         :[DTS] Standard Metro 4Car
 STR_AUTS_6Car_NAME                                   :[DTS] AUTS 6Car
-STR_Group_Korail_392000_NAME                         :[DTS] Korail 392000
+STR_Group_Korail_4th_VVVF_NAME                       :[DTS] Korail 4th VVVF
 STR_Korail_392000_2Car_NAME                          :[DTS] Korail 392000 2Car
 STR_Korail_392000_4Car_NAME                          :[DTS] Korail 392000 4Car
+STR_Korail_4th_VVVF_G1_4Car_NAME                     :[DTS] Korail 4th VVVF 4Car
+STR_Korail_4th_VVVF_G2_G3_4Car_NAME                  :[DTS] Korail 4th VVVF Generation 1nd, 2nd 4Car
+STR_Korail_4th_VVVF_G2_G3_6Car_NAME                  :[DTS] Korail 4th VVVF Generation 1nd, 2nd 6Car
+STR_Korail_4th_VVVF_G2_G3_10Car_NAME                 :[DTS] Korail 4th VVVF Generation 1nd, 2nd 10Car
 STR_MTR_AD_Tranz_CAF_A_8Car_NAME                     :[DTS] MTR AD Tranz CAF A Type 8Car
 STR_MTR_AC_Cammall_8Car_NAME                         :[DTS] MTR Cammall AC Train 8Car
 STR_MTR_DC_Cammall_8Car_NAME                         :[DTS] MTR Cammall DC Train 8Car
@@ -281,7 +285,7 @@ STR_REFIT_ADDITIONAL_TTX                             :{BLACK}Combined train {GRE
 STR_REFIT_ADDITIONAL_VHST_600X                       :{BLACK}Combined train {GREEN}VHST_600X
 STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}Combined train {RED}Unavailable
-STR_REFIT_ADDITIONAL_Korail_392000                   :{BLACK}Combined train {GREEN}Korail 392000
+STR_REFIT_ADDITIONAL_Korail_4th_VVVF                 :{BLACK}Combined train {GREEN}Korail 4th VVVF
 STR_REFIT_ADDITIONAL_MSB_Speeder                     :{BLACK}Combined train {GREEN}MSB Speeder
 STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}Combined train {GREEN}CRH1
 STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}Combined train {RED}Unavailable
@@ -514,7 +518,12 @@ STR_REFIT_LIVERY_HYEL_150_SB                         :(HYEL-150 Sea Livery)
 STR_REFIT_LIVERY_AUTS                                :(AUTS)
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat            :(Standard MetroLong Long Seat)
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           :(Standard MetroLong Cross Seat)
-STR_REFIT_LIVERY_Korail_392000                       :(Korail 392000)
+STR_REFIT_LIVERY_Korail_4th_VVVF_G2_SI1              :(Korail 4th VVVF Generation 1 SI1)
+STR_REFIT_LIVERY_Korail_4th_VVVF_G2_SI2              :(Korail 4th VVVF Generation 1 SI2)
+STR_REFIT_LIVERY_Korail_4th_VVVF_G2_DOB              :(Korail 4th VVVF Generation 1 DOB)
+STR_REFIT_LIVERY_Korail_4th_VVVF_G3_SI1              :(Korail 4th VVVF Generation 2 SI1)
+STR_REFIT_LIVERY_Korail_4th_VVVF_G3_SI2              :(Korail 4th VVVF Generation 2 SI2)
+STR_REFIT_LIVERY_Korail_4th_VVVF_G3_DOB              :(Korail 4th VVVF Generation 2 DOB)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express  :(MTR AD Tranz CAF A Type Airport Express)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung       :(MTR AD Tranz CAF A Type Tung Chung)
 STR_REFIT_LIVERY_MTR_DC_Cammall                      :(MTR Cammall DC Type no remoding Car)

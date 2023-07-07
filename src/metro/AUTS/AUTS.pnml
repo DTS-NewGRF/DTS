@@ -21,7 +21,7 @@ item(FEAT_TRAINS, AUTS_6Car, 2007){
         
         //spec
         speed:                          120km/h;
-        power:                          2460 kW;
+        power:                          1260 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;

@@ -45,6 +45,9 @@
 ### TOSHIBAIGBTJstart.wav
 - 니시테츠 3000형, 7000, 7050형
 
+### TOSHIBAIGBTKStart.wav
+- 한국철도공사 4세대 VVVF전동차 초기도입분
+
 ### TOSHIBAIGBTPMSMstart.wav
 - HYEL-15, 100, 150, 200, 220, 300, 400
 - NKX, HMX, Glory 600

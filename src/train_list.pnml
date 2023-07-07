@@ -2,8 +2,6 @@
 #include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
 #include "wagon/Generatar_Car/Generatar_Car.pnml"
 #include "wagon/Luggage_Car/Luggage_Car.pnml"
-#include "wagon/KMetro_wagon/KMetro_wagon.pnml"
-#include "wagon/EMU_wagon/EMU_wagon.pnml"
 #include "wagon/Flat_car/Flat_1F_Car/Flat_1F_Car.pnml"
 #include "wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.pnml"
 
@@ -41,8 +39,8 @@
 
 //Metro
 #include "metro/AUTS/AUTS.pnml"
+#include "metro/Korail/Korail_4th/Korail_VVVF/Korail_VVVF.pnml"
 #include "metro/standard/Standard.pnml"
-#include "metro/Korail_392000/Korail_392000.pnml"
 
 // Sorting
 #include "sort.pnml"
