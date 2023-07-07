@@ -39,6 +39,8 @@
 
 //Metro
 #include "metro/AUTS/AUTS.pnml"
+#include "metro/Korail/Korail_1st/Korail_VVVF/Korail_VVVF.pnml"
+#include "metro/Korail/Korail_3rd/Korail_VVVF/Korail_VVVF.pnml"
 #include "metro/Korail/Korail_4th/Korail_VVVF/Korail_VVVF.pnml"
 #include "metro/standard/Standard.pnml"
 

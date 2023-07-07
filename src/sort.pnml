@@ -5,6 +5,19 @@ sort(FEAT_TRAINS, [
     //지하철
     Standard_Metro_4Car,           //2006
     AUTS_6Car,                     //2007
+    Korail_1st_VVVF,               //2227
+    Korail_1st_VVVF_IGBT_4car,     //2228
+    Korail_1st_VVVF_GTO_4car,      //2229
+    Korail_1st_VVVF_IGBT_6car,     //2230
+    Korail_1st_VVVF_GTO_6car,      //2231
+    Korail_1st_VVVF_IGBT_10car,    //2232
+    Korail_1st_VVVF_GTO_10car,     //2233
+    Korail_3rd_VVVF,               //2219
+    Korail_3rd_VVVF_ST_4car,       //2222
+    Korail_3rd_VVVF_G2_4car,       //2223
+    Korail_3rd_VVVF_6car,          //2224
+    Korail_3rd_VVVF_8car,          //2225
+    Korail_3rd_VVVF_10car,         //2226
     Korail_4th_VVVF,               //2183
     Korail_392000_2Car,            //2139
     Korail_4th_VVVF_G1_4Car,       //2030

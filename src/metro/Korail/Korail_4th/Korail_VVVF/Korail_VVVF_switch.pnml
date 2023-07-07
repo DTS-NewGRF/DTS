@@ -76,6 +76,13 @@ switch(FEAT_TRAINS, SELF, sw_Korail_4th_VVVF_G2_G3_6car_capacity_in_custom, carg
        125;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Korail_4th_VVVF_G2_G3_6car_power_in_custom, cargo_subtype) {
+    3: return 2253; // 1680kw
+    4: return 2253; // 1680kw
+    5: return 2253; // 1680kw
+       1690; // 1260kw
+}
+
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_VVVF_G2_G3_10car_capacity_in_custom, cargo_subtype) {
     1: return 121;
        127;

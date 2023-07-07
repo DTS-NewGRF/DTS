@@ -157,6 +157,19 @@ STR_NKX_8Car_NAME                                    :[DTS] NKX 8Car
 # Metro's name
 STR_Standard_Metro_4Car_NAME                         :[DTS] Standard Metro 4Car
 STR_AUTS_6Car_NAME                                   :[DTS] AUTS 6Car
+STR_Group_Korail_1st_VVVF_NAME                       :[DTS] Korail 1st VVVF 
+STR_Korail_1st_VVVF_319K_4Car_IGBT_NAME              :[DTS] Korail 1st 319K IGBT
+STR_Korail_1st_VVVF_319K_4Car_GTO_NAME               :[DTS] Korail 1st 319K GTO
+STR_Korail_1st_VVVF_6Car_IGBT_NAME                   :[DTS] Korail 1st 3X1K
+STR_Korail_1st_VVVF_6Car_GTO_NAME                    :[DTS] Korail 1st 3X1K, 2030
+STR_Korail_1st_VVVF_10Car_IGBT_NAME                  :[DTS] Korail 1st 3X1K
+STR_Korail_1st_VVVF_10Car_GTO_NAME                   :[DTS] Korail 1st 3X1K, 2030, 5000
+STR_Group_Korail_3rd_VVVF_NAME                       :[DTS] Korail 3rd VVVF
+STR_Korail_3rd_VVVF_ST_4Car_NAME                     :[DTS] Korail 3세대 Generation 1nd 4car
+STR_Korail_3rd_VVVF_G2_4Car_NAME                     :[DTS] Korail 3세대 Generation 2nd 4car
+STR_Korail_3rd_VVVF_6Car_NAME                        :[DTS] Korail 3rd VVVF 6car
+STR_Korail_3rd_VVVF_8Car_NAME                        :[DTS] Korail 3rd VVVF 8car
+STR_Korail_3rd_VVVF_10Car_NAME                       :[DTS] Korail 3rd VVVF 10car
 STR_Group_Korail_4th_VVVF_NAME                       :[DTS] Korail 4th VVVF
 STR_Korail_392000_2Car_NAME                          :[DTS] Korail 392000 2Car
 STR_Korail_392000_4Car_NAME                          :[DTS] Korail 392000 4Car
@@ -285,6 +298,8 @@ STR_REFIT_ADDITIONAL_TTX                             :{BLACK}Combined train {GRE
 STR_REFIT_ADDITIONAL_VHST_600X                       :{BLACK}Combined train {GREEN}VHST_600X
 STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}Combined train {RED}Unavailable
+STR_REFIT_ADDITIONAL_Korail_1st_VVVF                 :{BLACK}Combined train {GREEN}Korail 1st VVVF
+STR_REFIT_ADDITIONAL_Korail_3rd_VVVF                 :{BLACK}Combined train {GREEN}Korail 3rd VVVF
 STR_REFIT_ADDITIONAL_Korail_4th_VVVF                 :{BLACK}Combined train {GREEN}Korail 4th VVVF
 STR_REFIT_ADDITIONAL_MSB_Speeder                     :{BLACK}Combined train {GREEN}MSB Speeder
 STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}Combined train {GREEN}CRH1
@@ -518,6 +533,17 @@ STR_REFIT_LIVERY_HYEL_150_SB                         :(HYEL-150 Sea Livery)
 STR_REFIT_LIVERY_AUTS                                :(AUTS)
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat            :(Standard MetroLong Long Seat)
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           :(Standard MetroLong Cross Seat)
+STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K                :(Korail 1st 3X1K)
+STR_REFIT_LIVERY_Korail_1st_VVVF_2030                :(Korail 1st 2030)
+STR_REFIT_LIVERY_Korail_1st_VVVF_5000                :(Korail 1st 5000)
+STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_DOB              :(Korail 3rd VVVF ST DOB)
+STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_331K_DOB         :(Korail 3rd VVVF ST DOB 331K)
+STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_SI               :(Korail 3rd VVVF ST SI)
+STR_REFIT_LIVERY_Korail_3rd_VVVF_G2                  :(Korail 3rd VVVF Generation 2)
+STR_REFIT_LIVERY_Korail_3rd_VVVF_AL_311K             :(Korail 3rd VVVF AL 311K)
+STR_REFIT_LIVERY_Korail_3rd_VVVF_AL_331K             :(Korail 3rd VVVF AL 331K)
+STR_REFIT_LIVERY_Korail_3rd_VVVF_AL_361K_A           :(Korail 3rd VVVF AL 361K door color)
+STR_REFIT_LIVERY_Korail_3rd_VVVF_AL_361K_B           :(Korail 3rd VVVF AL 361K line color)
 STR_REFIT_LIVERY_Korail_4th_VVVF_G2_SI1              :(Korail 4th VVVF Generation 1 SI1)
 STR_REFIT_LIVERY_Korail_4th_VVVF_G2_SI2              :(Korail 4th VVVF Generation 1 SI2)
 STR_REFIT_LIVERY_Korail_4th_VVVF_G2_DOB              :(Korail 4th VVVF Generation 1 DOB)

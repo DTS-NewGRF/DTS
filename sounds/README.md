@@ -2,6 +2,7 @@
 ## 열차 출발음
 ### DAWONSYSIGBTstart.wav
 - 비츠로, 비츠로 DD
+- 한국철도공사 3세대 VVVF전동차 2차분
 
 ### DCMOTER1start.wav
 - 한큐전철 6000형, 6300형
@@ -36,6 +37,9 @@
 ### TOSHIBAGTOJStart.wav
 - 한큐 8000형
 
+### TOSHIBAGTOKStrart.wav
+- 한국철도공사 1세대 VVVF전동차
+
 ### SIEMENSGTOlocostart.wav
 - 8200호대 전기 기관차
 
@@ -46,6 +50,8 @@
 - 니시테츠 3000형, 7000, 7050형
 
 ### TOSHIBAIGBTKStart.wav
+- 한국철도공사 1세대 VVVF전동차
+- 한국철도공사 3세대 VVVF전동차 1차분
 - 한국철도공사 4세대 VVVF전동차 초기도입분
 
 ### TOSHIBAIGBTPMSMstart.wav
