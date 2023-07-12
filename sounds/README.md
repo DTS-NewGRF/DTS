@@ -39,6 +39,7 @@
 
 ### TOSHIBAGTOKStrart.wav
 - 한국철도공사 1세대 VVVF전동차
+- 한국철도공사 2세대 VVVF전동차
 
 ### SIEMENSGTOlocostart.wav
 - 8200호대 전기 기관차
@@ -51,6 +52,7 @@
 
 ### TOSHIBAIGBTKStart.wav
 - 한국철도공사 1세대 VVVF전동차
+- 한국철도공사 2세대 VVVF전동차
 - 한국철도공사 3세대 VVVF전동차 1차분
 - 한국철도공사 4세대 VVVF전동차 초기도입분
 
@@ -72,6 +74,7 @@
 
 ### WOOJINMITSUBISHIIGBTstart.wav
 - 우진산전 수소연료전지동차
+- 한국철도공사 5세대 VVVF전동차
 
 ## 터널진입음
 ### DELhorn.wav

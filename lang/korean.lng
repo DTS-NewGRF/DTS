@@ -164,6 +164,11 @@ STR_Korail_1st_VVVF_6Car_IGBT_NAME                   :[DTS/6량] 한국철도공
 STR_Korail_1st_VVVF_6Car_GTO_NAME                    :[DTS/6량] 한국철도공사 1세대 3X1K, 2030
 STR_Korail_1st_VVVF_10Car_IGBT_NAME                  :[DTS/10량] 한국철도공사 1세대 3X1K
 STR_Korail_1st_VVVF_10Car_GTO_NAME                   :[DTS/10량] 한국철도공사 1세대 3X1K, 2030, 5000
+STR_Group_Korail_2nd_VVVF_NAME                       :[DTS] 한국철도공사 2세대 VVVF 전동차
+STR_Korail_2nd_VVVF_6Car_IGBT_NAME                   :[DTS/6량] 한국철도공사 2세대 IGBT
+STR_Korail_2nd_VVVF_6Car_GTO_NAME                    :[DTS/6량] 한국철도공사 2세대 GTO
+STR_Korail_2nd_VVVF_10Car_IGBT_NAME                  :[DTS/10량] 한국철도공사 2세대 IGBT
+STR_Korail_2nd_VVVF_10Car_GTO_NAME                   :[DTS/10량] 한국철도공사 2세대 GTO
 STR_Group_Korail_3rd_VVVF_NAME                       :[DTS] 한국철도공사 3세대 VVVF 전동차
 STR_Korail_3rd_VVVF_ST_4Car_NAME                     :[DTS/4량] 한국철도공사 3세대 1차 도입분
 STR_Korail_3rd_VVVF_G2_4Car_NAME                     :[DTS/4량] 한국철도공사 3세대 2차 도입분
@@ -177,6 +182,8 @@ STR_Korail_4th_VVVF_G1_4Car_NAME                     :[DTS/4량] 한국철도공
 STR_Korail_4th_VVVF_G2_G3_4Car_NAME                  :[DTS/4량] 한국철도공사 4세대 1·2차 도입분
 STR_Korail_4th_VVVF_G2_G3_6Car_NAME                  :[DTS/6량] 한국철도공사 4세대 1·2차 도입분
 STR_Korail_4th_VVVF_G2_G3_10Car_NAME                 :[DTS/10량] 한국철도공사 4세대 1·2차 도입분
+STR_Group_Korail_5th_VVVF_NAME                       :[DTS] 한국철도공사 5세대 VVVF 전동차
+STR_Korail_5th_VVVF_10Car_NAME                       :[DTS/10량] 한국철도공사 5세대 VVVF 전동차
 STR_MTR_AD_Tranz_CAF_A_8Car_NAME                     :[DTS/8량] 홍콩 MTR AD Tranz CAF A형
 STR_MTR_AC_Cammall_8Car_NAME                         :[DTS/8량] 홍콩 MTR 메트로카멜 교류형 전동차
 STR_MTR_DC_Cammall_8Car_NAME                         :[DTS/8량] 홍콩 MTR 메트로카멜 직류형 전동차
@@ -299,8 +306,10 @@ STR_REFIT_ADDITIONAL_VHST_600X                       :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}복합열차구성 {RED}불가능
 STR_REFIT_ADDITIONAL_Korail_1st_VVVF                 :{BLACK}복합가능열차 {GREEN}Korail 1세대 VVVF 전동차
+STR_REFIT_ADDITIONAL_Korail_2nd_VVVF                 :{BLACK}복합가능열차 {GREEN}Korail 2세대 VVVF 전동차
 STR_REFIT_ADDITIONAL_Korail_3rd_VVVF                 :{BLACK}복합가능열차 {GREEN}Korail 3세대 VVVF 전동차
 STR_REFIT_ADDITIONAL_Korail_4th_VVVF                 :{BLACK}복합가능열차 {GREEN}Korail 4세대 VVVF 전동차
+STR_REFIT_ADDITIONAL_Korail_5th_VVVF                 :{BLACK}복합가능열차 {GREEN}Korail 5세대 VVVF 전동차
 STR_REFIT_ADDITIONAL_MSB_Speeder                     :{BLACK}복합가능열차 {GREEN}MSB 모터카
 STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}복합가능열차 {GREEN}CRH1
 STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}복합열차구성 {RED}불가능
@@ -535,6 +544,10 @@ STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           :(한국 표준형 지하�
 STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K                :(코레일 1세대 3X1K)
 STR_REFIT_LIVERY_Korail_1st_VVVF_2030                :(코레일 1세대 2030)
 STR_REFIT_LIVERY_Korail_1st_VVVF_5000                :(코레일 1세대 5000)
+STR_REFIT_LIVERY_Korail_2nd_VVVF_311K                :(코레일 2세대 311K)
+STR_REFIT_LIVERY_Korail_2nd_VVVF_341K                :(코레일 2세대 341K)
+STR_REFIT_LIVERY_Korail_2nd_VVVF_2030                :(코레일 2세대 2030)
+STR_REFIT_LIVERY_Korail_2nd_VVVF_5000                :(코레일 2세대 5000)
 STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_DOB              :(코레일 3세대 VVVF ST 더블암)
 STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_331K_DOB         :(코레일 3세대 VVVF ST 더블암 331K)
 STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_SI               :(코레일 3세대 VVVF ST 싱글암)
