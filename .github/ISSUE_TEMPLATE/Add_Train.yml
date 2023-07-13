@@ -53,7 +53,6 @@ body:
   - type: dropdown
     attributes:
       label: 속도설정
-      description: DTS는 속도매겨변수로 적용하고 있습니다. 다음을 선택해주세요.
       options:
       - '지하철/통근열차 100 ~ 151km/h'
       - '일반열차 151 ~ 180km/h'
