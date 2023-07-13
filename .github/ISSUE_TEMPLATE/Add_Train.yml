@@ -11,15 +11,11 @@ body:
     attributes:
       label: 필수 스프라이트
       description: 필수 스프라이트를 올려주세요.
-    validations:
-      required: true
   - type: textarea
     attributes:
       label: 32bpp 스프라이트
       description: 32bpp 스프라이트를 올려주세요.
       placeholder: '주의점. 기본스프라이트가 없으면 본 32bpp는 적용되지 않는것이 기본입니다. 신규차량시 꼭 기본 스프라이트를 우선적으로 작업해주세요.'
-    validations:
-      required: false
   - type: checkboxes
     attributes:
       label: '실존 & 가상열차'
@@ -27,8 +23,6 @@ body:
       options:
       - label: '실존차량'
       - label: '가상열차'
-      validations:
-        required: true
   - type: checkboxes
     attributes:
       label: 편성방식
@@ -36,8 +30,6 @@ body:
       options:
       - label: '고정편성 (기관차)'
       - label: '기관차연결 (객화차)'
-      validations:
-        required: true
   - type: textarea
     attributes:
       label: 설명
