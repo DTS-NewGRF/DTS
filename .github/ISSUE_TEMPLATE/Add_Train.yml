@@ -21,10 +21,19 @@ body:
     validations:
       required: true
   - type: checkboxes
+    label: 실존 & 가상열차
+    description: 실존 & 가상여부를 체크해주세요.
     attributes:
       options:
       - label: 실존차량
       - label: 가상열차
+  - type: checkboxes
+    label: 편성방식
+    description: 편성방식을 선택해주세요.
+    attributes:
+      options:
+      - label: 고정편성 (기관차)
+      - label: 기관차연결 (객화차)
   - type: textarea
     attributes:
       label: 설명
@@ -34,15 +43,12 @@ body:
   - type: input
     attributes:
       label: GRF내 열차 이름 한국어
+      description: GRF내 열차 이름을 한국어로 적어주세요.
       placeholder: 열차이름
-  - type: checkboxes
-    attributes:
-      options:
-      - label: 고정편성 (기관차)
-      - label: 기관차연결 (객화차)
   - type: input
     attributes:
       label: GRF내 열차 이름 영문
+      description: GRF내 열차 이름을 영어로 적어주세요.
       placeholder: Train Name
   - type: dropdown
     attributes:
@@ -60,15 +66,18 @@ body:
   - type: input
     attributes:
       label: 도입년도
+      description: 등장년도를 적어주세요.
       placeholder: 2023
   - type: input
     attributes:
       label: 전체 편성수
+      description: 열차 편성을 적어주세요.
       placeholder: 4량/6량
   - type: input
     attributes:
       label: 수송량
-      placeholder: '[계산식] 전체 수송량/열차편성수=?명 (반올림 및 정수값 세팅) 121.1=>121명/150.5=>151명'
+      description: 열차 수송량을 계산하여 적어주세요. [계산식] 전체 수송량/열차편성수=?명 (반올림 및 정수값 세팅)
+      placeholder: '121명'
   - type: textarea
     attributes:
       label: 적용스팩 세부사항
@@ -78,4 +87,5 @@ body:
   - type: input
     attributes:
       label: 편성구조
+      description: 열차 편성 구조를 알려주세요.
       placeholder: 앞- N량 객차 - 뒤 순으로 명시.
