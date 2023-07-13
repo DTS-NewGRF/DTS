@@ -4,14 +4,6 @@ about: 버그사항 접수시 활용
 title: "[Bug]: "
 labels: bug
 assignees: ''
-
----
-
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
   - octocat
 body:
   - type: markdown
@@ -69,3 +61,5 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+
+---
