@@ -12,11 +12,7 @@ body:
       label: 열차이름
       description: 변경될 열차를 선택해주세요.
       options:
-        - AREX (공항철도)
-        - MEL-150
-        - CL-150
-        - CTX
-        - DEL7600
+        - '[DTS/6량] AREX (공항철도)'
     validations:
       required: true
   - type: textarea
