@@ -254,6 +254,8 @@ body:
         - '[DTS/기관차연결] 평판화차'
         - '[DTS/기관차연결] 평판유조 화차'
         - '[DTS/기관차연결] 평판화차 - 미국형'
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: 버그사항
