@@ -3,7 +3,8 @@ name: "[버그사항]"
 about: 버그사항 접수시 활용
 title: "[버그] 버그사항"
 labels: bug
-assignees:
+assignees: ''
+body:
   - type: markdown
     attributes:
       value: |
