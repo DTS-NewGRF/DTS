@@ -21,14 +21,3 @@ body:
       description: 개선될 사항을 알려주세요.
     validations:
       required: true
-  - type: textarea
-    id: reproduce
-    attributes:
-      label: Steps to reproduce
-      description: As detailed as possible, please tell us how we can reproduce this. Feel free to attach a savegame (zip it first) to make it more clear.
-      placeholder: |
-        1. Loaded the attached savegame.
-        2. Click on the button left of that other icon.
-        3. The window doesn't open.
-    validations:
-      required: true
