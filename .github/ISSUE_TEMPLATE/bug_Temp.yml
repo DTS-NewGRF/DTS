@@ -15,10 +15,10 @@ body:
     validations:
       required: true
   - type: textarea
-    id: actual
+    id: Improve
     attributes:
-      label: Actual result
-      description: Describe in a few words what actually happens.
+      label: Improve
+      description: 개선될 사항을 알려주세요.
     validations:
       required: true
   - type: textarea
