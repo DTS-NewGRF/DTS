@@ -15,17 +15,3 @@ body:
       placeholder: '[DTS/N량] 열차이름'
     validations:
       required: true
-  - type: textarea
-    id: 1
-    attributes:
-      label: bugs
-      description: 문제가 발생한 버그사항. 필요시 스샷 첨부
-    validations:
-      required: true
-  - type: textarea
-    id: 2
-    attributes:
-      label: Improve
-      description: 개선될 사항을 알려주세요.
-    validations:
-      required: true
