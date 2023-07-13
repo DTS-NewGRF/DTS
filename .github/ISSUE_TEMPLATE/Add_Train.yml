@@ -1,7 +1,7 @@
 name: "[열차추가]"
 description: 새로운 열차를 추가하고 싶으십니까?
 title: "[열차추가]"
-labels: Add train, Edit_Graphic
+labels: "Add train, Edit_Graphic"
 body:
   - type: markdown
     attributes:
