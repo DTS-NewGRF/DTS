@@ -1,29 +1,24 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_SPassenger_cargo_subtype_text, cargo_subtype) {
-     1: return string(STR_REFIT_LIVERY_2PPassenger_Car);  // 구도색/나뭇결객차
-     2: return string(STR_REFIT_LIVERY_3PPassenger_Car);  // 현재도색/리미트객차
-     3: return string(STR_REFIT_LIVERY_4PPassenger_Car);  // 구도색/대우특실
-     4: return string(STR_REFIT_LIVERY_5PPassenger_Car);  // 구도색/해태특실
-     5: return string(STR_REFIT_LIVERY_6PPassenger_Car);  // 신도색/해태특실
-     6: return string(STR_REFIT_LIVERY_7PPassenger_Car);  // 초기도색/대우직각, 카와사키
-     7: return string(STR_REFIT_LIVERY_8PPassenger_Car);  // 초기도색/유선형 객차
-     8: return string(STR_REFIT_LIVERY_9PPassenger_Car);  // 초기도색/장대형 객차
-     9: return string(STR_REFIT_LIVERY_10PPassenger_Car); // 구도색/유선형, 장대형 객차
-    10: return string(STR_REFIT_LIVERY_11PPassenger_Car); // 신도색/유선형, 장대형 객차
-    11: return string(STR_REFIT_LIVERY_12PPassenger_Car); // 구도색/유선형, 장대형 객차
-    12: return string(STR_REFIT_LIVERY_13PPassenger_Car); // 신도색/유선형, 장대형 객차
-    13: return string(STR_REFIT_LIVERY_14PPassenger_Car); // 현재도색/리미트 격상 객차
-    14: return string(STR_REFIT_LIVERY_15PPassenger_Car); // 초기도색/대우직각, 탕액객차, 카와사키
-    15: return string(STR_REFIT_LIVERY_16PPassenger_Car); // 구도색/대우직각
-    16: return string(STR_REFIT_LIVERY_17PPassenger_Car); // 구도색/리미트객차
-    17: return string(STR_REFIT_LIVERY_18PPassenger_Car); // 초기도색/유선형객차
-    18: return string(STR_REFIT_LIVERY_19PPassenger_Car); // 초기도색/장대형객차
-    19: return string(STR_REFIT_LIVERY_20PPassenger_Car); // 구도색, 신도색/유선형, 장대형 객차
-    20: return string(STR_REFIT_LIVERY_21PPassenger_Car); // 구도색/리미트객차
-    21: return string(STR_REFIT_LIVERY_22PPassenger_Car); // 신도색/리미트객차
-    return string(STR_REFIT_LIVERY_1PPassenger_Car);
+switch(FEAT_TRAINS, SELF, sw_SSPassenger_cargo_subtype_text, cargo_subtype) {
+     1: return string(STR_REFIT_LIVERY_1SPassenger_Car_S);  // 일반실 관광호 특실
+     2: return string(STR_REFIT_LIVERY_2SPassenger_Car);    // 일반실 유선형 객차 초기 도색
+     3: return string(STR_REFIT_LIVERY_2SPassenger_Car_S);  // 일반실 유선형 객차 초기 도색 특실
+     4: return string(STR_REFIT_LIVERY_3SPassenger_Car);    // 일반실 장대형 객차 초기 도색
+     5: return string(STR_REFIT_LIVERY_3SPassenger_Car_S);  // 일반실 장대형 객차 초기 도색 특실
+     6: return string(STR_REFIT_LIVERY_4SPassenger_Car);    // 일반실 유선형, 장대형 객차 구도색
+     7: return string(STR_REFIT_LIVERY_5SPassenger_Car);    // 일반실 유선형, 장대형 객차 신도색
+     8: return string(STR_REFIT_LIVERY_6SPassenger_Car);    // 무궁화 격상 일반실
+     9: return string(STR_REFIT_LIVERY_7SPassenger_Car);    // 특실 유선형, 장대형 구도색
+    10: return string(STR_REFIT_LIVERY_8SPassenger_Car);    // 특실 유선형, 장대형 신도색
+    11: return string(STR_REFIT_LIVERY_9SPassenger_Car);    // 식당차 관광호 객차
+    12: return string(STR_REFIT_LIVERY_10SPassenger_Car);   // 반식반객 관광호 전망객차
+    13: return string(STR_REFIT_LIVERY_11SPassenger_Car);   // 식당차 유선형 초기도색
+    14: return string(STR_REFIT_LIVERY_12SPassenger_Car);   // 식당차 장대형 초기도색
+    15: return string(STR_REFIT_LIVERY_13SPassenger_Car);   // 식당차 유선형, 장대형 구도색·신도색
+    16: return string(STR_REFIT_LIVERY_14SPassenger_Car);   // 카페객차 유선형, 장대형
+    return string(STR_REFIT_LIVERY_1SPassenger_Car);
 }
 
 /*--------------------------------------------------------------------
@@ -181,80 +176,75 @@ switch (FEAT_TRAINS, SELF, sw_articulated_sw_G_Train_New_5car, extra_callback_in
 /*--------------------------------------------------------------------
 한국형 객차 랜덤
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_Korea_Train_8wagon, random_bits % 2) {
-     0: set_Korea_Train_8wagon_A;
-     1: set_Korea_Train_8wagon_B;
-    set_Korea_Train_8wagon_A;
+switch(FEAT_TRAINS, SELF, sw_Korea_STrain_2wagon, random_bits % 2) {
+     0: set_Korea_STrain_2wagon_A;
+     1: set_Korea_STrain_2wagon_B;
+    set_Korea_STrain_2wagon_A;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Korea_Train_9wagon, random_bits % 2) {
-     0: set_Korea_Train_9wagon_A;
-     1: set_Korea_Train_9wagon_B;
-    set_Korea_Train_9wagon_A;
+switch(FEAT_TRAINS, SELF, sw_Korea_STrain_3wagon, random_bits % 2) {
+     0: set_Korea_STrain_3wagon_A;
+     1: set_Korea_STrain_3wagon_B;
+    set_Korea_STrain_3wagon_A;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Korea_Train_10wagon, random_bits % 2) {
-     0: set_Korea_Train_10wagon_A;
-     1: set_Korea_Train_10wagon_B;
-    set_Korea_Train_10wagon_A;
+switch(FEAT_TRAINS, SELF, sw_Korea_STrain_4wagon, random_bits % 2) {
+     0: set_Korea_STrain_4wagon_A;
+     1: set_Korea_STrain_4wagon_B;
+    set_Korea_STrain_4wagon_A;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Korea_Train_11wagon, random_bits % 2) {
-     0: set_Korea_Train_11wagon_A;
-     1: set_Korea_Train_11wagon_B;
-    set_Korea_Train_11wagon_A;
+switch(FEAT_TRAINS, SELF, sw_Korea_STrain_5wagon, random_bits % 2) {
+     0: set_Korea_STrain_5wagon_A;
+     1: set_Korea_STrain_5wagon_B;
+    set_Korea_STrain_5wagon_A;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Korea_STrain_6wagon, random_bits % 2) {
+     0: set_Korea_STrain_6wagon_A;
+     1: set_Korea_STrain_6wagon_B;
+    set_Korea_STrain_6wagon_A;
+}
 
 /*--------------------------------------------------------------------
 한국형 객차
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_SPassenger_wagon, cargo_subtype) {
-     1: set_Korea_Train_2wagon;  // 구도색/나뭇결객차
-     2: set_Korea_Train_3wagon;  // 현재도색/리미트객차
-     3: set_Korea_Train_4wagon;  // 구도색/대우특실
-     4: set_Korea_Train_5wagon;  // 구도색/해태특실
-     5: set_Korea_Train_6wagon;  // 신도색/해태특실
-     6: set_Korea_Train_7wagon;  // 초기도색/대우직각, 카와사키
-     7: sw_Korea_Train_8wagon;   // 초기도색/유선형 객차
-     8: sw_Korea_Train_9wagon;   // 초기도색/장대형 객차
-     9: sw_Korea_Train_10wagon;  // 구도색/유선형, 장대형 객차
-    10: sw_Korea_Train_11wagon;  // 신도색/유선형, 장대형 객차
-    11: set_Korea_Train_12wagon; // 구도색/유선형, 장대형 객차
-    12: set_Korea_Train_13wagon; // 신도색/유선형, 장대형 객차
-    13: set_Korea_Train_14wagon; // 현재도색/리미트 격상 객차
-    14: set_Korea_Train_15wagon; // 초기도색/대우직각, 탕액객차, 카와사키
-    15: set_Korea_Train_16wagon; // 구도색/대우직각
-    16: set_Korea_Train_17wagon; // 구도색/리미트객차
-    17: set_Korea_Train_18wagon; // 초기도색/유선형객차
-    18: set_Korea_Train_19wagon; // 초기도색/장대형객차
-    19: set_Korea_Train_20wagon; // 구도색, 신도색/유선형, 장대형 객차
-    20: set_Korea_Train_21wagon; // 구도색/리미트객차
-    21: set_Korea_Train_22wagon; // 신도색/리미트객차
-    set_Korea_Train_1wagon;
+switch(FEAT_TRAINS, SELF, sw_SSPassenger_wagon, cargo_subtype) {
+     1: set_Korea_STrain_1wagon;   // 일반실 관광호 특실
+     2: sw_Korea_STrain_2wagon;    // 일반실 유선형 객차 초기 도색
+     3: sw_Korea_STrain_2wagon;    // 일반실 유선형 객차 초기 도색 특실
+     4: sw_Korea_STrain_3wagon;    // 일반실 장대형 객차 초기 도색
+     5: sw_Korea_STrain_3wagon;    // 일반실 장대형 객차 초기 도색 특실
+     6: sw_Korea_STrain_4wagon;    // 일반실 유선형, 장대형 객차 구도색
+     7: sw_Korea_STrain_5wagon;    // 일반실 유선형, 장대형 객차 신도색
+     8: sw_Korea_STrain_6wagon;    // 무궁화 격상 일반실
+     9: set_Korea_STrain_7wagon;   // 특실 유선형, 장대형 구도색
+    10: set_Korea_STrain_8wagon;   // 특실 유선형, 장대형 신도색
+    11: set_Korea_STrain_9wagon;   // 식당차 관광호 객차
+    12: set_Korea_STrain_10wagon;  // 반식반객 관광호 전망객차
+    13: set_Korea_STrain_11wagon;  // 식당차 유선형 초기도색
+    14: set_Korea_STrain_12wagon;  // 식당차 장대형 초기도색
+    15: set_Korea_STrain_13wagon;  // 식당차 유선형, 장대형 구도색·신도색
+    16: set_Korea_STrain_14wagon;  // 카페객차 유선형, 장대형
+    set_Korea_STrain_1wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_SPassenger_wagon_capacity_in_custom, cargo_subtype) {
-     1: return 72;
-     2: return 72;
-     3: return 64;
+switch(FEAT_TRAINS, SELF, sw_SSPassenger_wagon_capacity_in_custom, cargo_subtype) {
+     1: return 48;
+     2: return 64;
+     3: return 48;
      4: return 64;
-     5: return 64;
-     6: return 56;
+     5: return 48;
+     6: return 64;
      7: return 64;
-     8: return 64;
-     9: return 64;
-    10: return 64;
-    11: return 48;
-    12: return 48;
-    13: return 72;
+     8: return 72;
+     9: return 48;
+    10: return 48;
+    11: return 50;
+    12: return 40;
+    13: return 50;
     14: return 50;
     15: return 50;
     16: return 50;
-    17: return 50;
-    18: return 50;
-    19: return 50;
-    20: return 24;
-    21: return 24;
-       80;
+       56;
 }

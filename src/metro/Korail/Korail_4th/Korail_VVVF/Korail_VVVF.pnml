@@ -39,7 +39,7 @@ item(FEAT_TRAINS, Korail_392000_2Car, 2139){
         
         //spec
         speed:                          120km/h;
-        power:                          840 kW;
+        power:                          1680 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -95,7 +95,7 @@ item(FEAT_TRAINS, Korail_392000_4Car, 2140){
         
         //spec
         speed:                          120km/h;
-        power:                          840 kW;
+        power:                          1680 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -151,7 +151,7 @@ item(FEAT_TRAINS, Korail_4th_VVVF_G1_4Car, 2030){
         
         //spec
         speed:                          120km/h;
-        power:                          840 kW;
+        power:                          1680 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -207,7 +207,7 @@ item(FEAT_TRAINS, Korail_4th_VVVF_G2_G3_4Car, 2124){
         
         //spec
         speed:                          120km/h;
-        power:                          840 kW;
+        power:                          1680 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -265,7 +265,7 @@ item(FEAT_TRAINS, Korail_4th_VVVF_G2_G3_6Car, 2217){
         
         //spec
         speed:                          120km/h;
-        power:                          1260 kW;
+        power:                          3360 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -298,7 +298,6 @@ item(FEAT_TRAINS, Korail_4th_VVVF_G2_G3_6Car, 2217){
         purchase:                       sw_Korail_4th_VVVF_G2_purchase;
         speed:                          Metro_Speed_Train;
         cargo_capacity:                 sw_Korail_4th_VVVF_G2_G3_6car_capacity_in_custom;
-        power:                          sw_Korail_4th_VVVF_G2_G3_6car_power_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -324,7 +323,7 @@ item(FEAT_TRAINS, Korail_4th_VVVF_G2_G3_10Car, 2218){
         
         //spec
         speed:                          120km/h;
-        power:                          2100 kW;
+        power:                          4200 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;

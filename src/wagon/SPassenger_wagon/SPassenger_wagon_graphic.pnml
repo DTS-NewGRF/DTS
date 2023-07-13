@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_SPassenger_wagon_purchase, "src\wagon\SPassenger_wagon\SPassenger_wagon.png"){
+spriteset(set_SSPassenger_wagon_purchase, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png"){
     tmpl_wagon_purchase(0, 0)
 }
 
@@ -351,115 +351,87 @@ spriteset(set_G_Train_New_5wagon, "src\wagon\SPassenger_wagon\Travel_wagon\G_tra
 }
 
 /*--------------------------------------------------------------------
-11. 한국형 객차 2CC
+11. 한국형 새마을 객차 2CC
 --------------------------------------------------------------------*/
-spriteset(set_Korea_Train_1wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_1wagon, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_Korea_Train_2wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_2wagon_A, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_Korea_Train_3wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_2wagon_B, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
+    wagon_1F_F(299, 27)
+}
+
+spriteset(set_Korea_STrain_3wagon_A, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Korea_Train_4wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_3wagon_B, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
+    wagon_1F_F(299, 54)
+}
+
+spriteset(set_Korea_STrain_4wagon_A, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_Korea_Train_5wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_4wagon_B, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
+    wagon_1F_F(299, 81)
+}
+
+spriteset(set_Korea_STrain_5wagon_A, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 108)
 }
 
-spriteset(set_Korea_Train_6wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_5wagon_B, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
+    wagon_1F_F(299, 108)
+}
+
+spriteset(set_Korea_STrain_6wagon_A, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 135)
 }
 
-spriteset(set_Korea_Train_7wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_6wagon_B, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
+    wagon_1F_F(299, 135)
+}
+
+spriteset(set_Korea_STrain_7wagon, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 162)
 }
 
-spriteset(set_Korea_Train_8wagon_A, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_8wagon, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 189)
 }
 
-spriteset(set_Korea_Train_8wagon_B, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
-    wagon_1F_F(299, 189)
-}
-
-spriteset(set_Korea_Train_9wagon_A, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_9wagon, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 216)
 }
 
-spriteset(set_Korea_Train_9wagon_B, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
-    wagon_1F_F(299, 216)
-}
-
-spriteset(set_Korea_Train_10wagon_A, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_10wagon, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 243)
 }
 
-spriteset(set_Korea_Train_10wagon_B, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
-    wagon_1F_F(80, 243)
-}
-
-spriteset(set_Korea_Train_11wagon_A, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_11wagon, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 270)
 }
 
-spriteset(set_Korea_Train_11wagon_B, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
-    wagon_1F_F(80, 270)
-}
-
-spriteset(set_Korea_Train_12wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_12wagon, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 297)
 }
 
-spriteset(set_Korea_Train_13wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_13wagon, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 324)
 }
 
-spriteset(set_Korea_Train_14wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
+spriteset(set_Korea_STrain_14wagon, "src\wagon\SPassenger_wagon\SSPassenger_wagon.png") {
     wagon_1F_F(80, 351)
-}
-
-spriteset(set_Korea_Train_15wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
-    wagon_1F_F(80, 378)
-}
-
-spriteset(set_Korea_Train_16wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
-    wagon_1F_F(80, 405)
-}
-
-spriteset(set_Korea_Train_17wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
-    wagon_1F_F(80, 432)
-}
-
-spriteset(set_Korea_Train_18wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
-    wagon_1F_F(80, 459)
-}
-
-spriteset(set_Korea_Train_19wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
-    wagon_1F_F(80, 486)
-}
-
-spriteset(set_Korea_Train_20wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
-    wagon_1F_F(80, 513)
-}
-
-spriteset(set_Korea_Train_21wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
-    wagon_1F_F(80, 540)
-}
-
-spriteset(set_Korea_Train_22wagon, "src\wagon\SPassenger_wagon\SPassenger_wagon.png") {
-    wagon_1F_F(80, 567)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_SPassenger_wagon_purchase, cargo_subtype) {
-    set_SPassenger_wagon_purchase;
+switch(FEAT_TRAINS, SELF, sw_SSPassenger_wagon_purchase, cargo_subtype) {
+    set_SSPassenger_wagon_purchase;
 }

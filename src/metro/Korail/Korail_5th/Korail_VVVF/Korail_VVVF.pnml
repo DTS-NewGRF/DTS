@@ -38,7 +38,7 @@ item(FEAT_TRAINS, Korail_5th_VVVF_10Car, 2239){
         
         //spec
         speed:                          120km/h;
-        power:                          2100 kW;
+        power:                          4200 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;

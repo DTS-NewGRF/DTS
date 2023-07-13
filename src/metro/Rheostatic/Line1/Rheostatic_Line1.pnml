@@ -2,17 +2,17 @@
 YTRO 100
 --------------------------------------------------------------------*/
 // Graphics
-#include "Korail_VVVF_graphic.pnml"
+#include "Rheostatic_Line1_graphic.pnml"
 
 // Switch
-#include "Korail_VVVF_switch.pnml"
+#include "Rheostatic_Line1_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_2nd_VVVF, 2234){
+item(FEAT_TRAINS, Rheostatic_Line1, 3000){
     property {
-        name:                           string(STR_Group_Korail_2nd_VVVF_NAME);
+        name:                           string(STR_Group_Rheostatic_Line1_EMU_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -20,26 +20,82 @@ item(FEAT_TRAINS, Korail_2nd_VVVF, 2234){
         }
 
     graphics {
-        purchase:                       sw_Korail_2nd_VVVF_purchase;
+        purchase:                       sw_Rheostatic_Line1_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 4량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Rheostatic_Line1_4Car, 3001){
+    property {
+        name:                           string(STR_Rheostatic_Line1_4Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1978, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Rheostatic_Line1;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          960 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 122;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Rheostatic_Line1_4car;
+        articulated_part:               sw_articulated_Rheostatic_Line1_4car;
+        purchase:                       sw_Korail_K1000_Initial_purchase;
+        speed:                          Metro_Speed_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_Rheostatic_Line1_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Rheostatic_Line1);
+        sound_effect:                   sw_Rheostatic_Line1_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_2nd_VVVF_IGBT_6car, 2235){
+item(FEAT_TRAINS, Rheostatic_Line1_6Car, 3002){
     property {
-        name:                           string(STR_Korail_2nd_VVVF_6Car_IGBT_NAME);
+        name:                           string(STR_Rheostatic_Line1_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2003, 1, 1);
+        introduction_date:              date(1974, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_2nd_VVVF;
+        variant_group:                  Rheostatic_Line1;
         
         //spec
         speed:                          120km/h;
-        power:                          2400 kW;
+        power:                          1920 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -67,91 +123,36 @@ item(FEAT_TRAINS, Korail_2nd_VVVF_IGBT_6car, 2235){
         }
 
     graphics {
-        default:                        sw_Korail_2nd_VVVF_IGBT_6car;
-        articulated_part:               sw_articulated_Korail_2nd_VVVF_IGBT_6car;
-        purchase:                       sw_Korail_2nd_VVVF_purchase;
+        default:                        sw_Rheostatic_Line1_6car;
+        articulated_part:               sw_articulated_Rheostatic_Line1_6car;
+        purchase:                       sw_Korail_K1000_Initial_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_2nd_VVVF_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_2nd_VVVF);
-        sound_effect:                   sw_Korail_2nd_VVVF_IGBT_sound;
+        can_attach_wagon:               sw_Rheostatic_Line1_wagon_attach;
+        cargo_subtype_text:             sw_Rheostatic_Line1_6car_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Rheostatic_Line1);
+        sound_effect:                   sw_Rheostatic_Line1_sound;
         }
         }
 
 /*--------------------------------------------------------------------
-열차정보 6량
+열차정보 8량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_2nd_VVVF_GTO_6car, 2236){
+item(FEAT_TRAINS, Rheostatic_Line1_8Car, 3003){
     property {
-        name:                           string(STR_Korail_2nd_VVVF_6Car_GTO_NAME);
+        name:                           string(STR_Rheostatic_Line1_8Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1999, 1, 1);
+        introduction_date:              date(1981, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_2nd_VVVF;
+        variant_group:                  Rheostatic_Line1;
         
         //spec
         speed:                          120km/h;
-        power:                          2400 kW;
-        weight:                         20 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 125;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
-        extra_weight_per_wagon:         35 ton;
-        }
-
-    graphics {
-        default:                        sw_Korail_2nd_VVVF_GTO_6car;
-        articulated_part:               sw_articulated_Korail_2nd_VVVF_GTO_6car;
-        purchase:                       sw_Korail_2nd_VVVF_purchase;
-        speed:                          Metro_Speed_Train;
-        loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_2nd_VVVF_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_2nd_VVVF);
-        sound_effect:                   sw_Korail_2nd_VVVF_GTO_sound;
-        }
-        }
-
-/*--------------------------------------------------------------------
-열차정보 10량
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_2nd_VVVF_IGBT_10car, 2237){
-    property {
-        name:                           string(STR_Korail_2nd_VVVF_10Car_IGBT_NAME);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2003, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_2nd_VVVF;
-        
-        //spec
-        speed:                          120km/h;
-        power:                          4000 kW;
+        power:                          2880 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -179,36 +180,35 @@ item(FEAT_TRAINS, Korail_2nd_VVVF_IGBT_10car, 2237){
         }
 
     graphics {
-        default:                        sw_Korail_2nd_VVVF_IGBT_10car;
-        articulated_part:               sw_articulated_Korail_2nd_VVVF_IGBT_10car;
-        purchase:                       sw_Korail_2nd_VVVF_purchase;
+        default:                        sw_Rheostatic_Line1_8car;
+        articulated_part:               sw_articulated_Rheostatic_Line1_8car;
+        purchase:                       sw_Korail_K1000_Initial_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_2nd_VVVF_wagon_attach;
-        cargo_subtype_text:             sw_Korail_2nd_VVVF_IGBT_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_2nd_VVVF);
-        sound_effect:                   sw_Korail_2nd_VVVF_IGBT_sound;
+        can_attach_wagon:               sw_Rheostatic_Line1_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Rheostatic_Line1);
+        sound_effect:                   sw_Rheostatic_Line1_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_2nd_VVVF_GTO_10car, 2238){
+item(FEAT_TRAINS, Rheostatic_Line1_10Car, 3004){
     property {
-        name:                           string(STR_Korail_2nd_VVVF_10Car_GTO_NAME);
+        name:                           string(STR_Rheostatic_Line1_10Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1999, 1, 1);
+        introduction_date:              date(1986, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_2nd_VVVF;
+        variant_group:                  Rheostatic_Line1;
         
         //spec
         speed:                          120km/h;
-        power:                          4000 kW;
+        power:                          2880 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -236,16 +236,16 @@ item(FEAT_TRAINS, Korail_2nd_VVVF_GTO_10car, 2238){
         }
 
     graphics {
-        default:                        sw_Korail_2nd_VVVF_GTO_10car;
-        articulated_part:               sw_articulated_Korail_2nd_VVVF_GTO_10car;
-        purchase:                       sw_Korail_2nd_VVVF_purchase;
+        default:                        sw_Rheostatic_Line1_10car;
+        articulated_part:               sw_articulated_Rheostatic_Line1_10car;
+        purchase:                       sw_Rheostatic_Line1_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_2nd_VVVF_wagon_attach;
-        cargo_subtype_text:             sw_Korail_2nd_VVVF_GTO_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_2nd_VVVF);
-        sound_effect:                   sw_Korail_2nd_VVVF_GTO_sound;
+        can_attach_wagon:               sw_Rheostatic_Line1_wagon_attach;
+        cargo_subtype_text:             sw_Rheostatic_Line1_10car_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Rheostatic_Line1);
+        sound_effect:                   sw_Rheostatic_Line1_sound;
         }
         }

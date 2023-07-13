@@ -40,11 +40,11 @@
 //Metro
 #include "metro/AUTS/AUTS.pnml"
 #include "metro/Korail/Korail_1st/Korail_VVVF/Korail_VVVF.pnml"
-#include "metro/Korail/Korail_1st/Korail_Rheostatic/Korail_Rheostatic.pnml"
 #include "metro/Korail/Korail_2nd/Korail_VVVF/Korail_VVVF.pnml"
 #include "metro/Korail/Korail_3rd/Korail_VVVF/Korail_VVVF.pnml"
 #include "metro/Korail/Korail_4th/Korail_VVVF/Korail_VVVF.pnml"
 #include "metro/Korail/Korail_5th/Korail_VVVF/Korail_VVVF.pnml"
+#include "metro/Rheostatic/Line1/Rheostatic_Line1.pnml"
 #include "metro/standard/Standard.pnml"
 
 // Sorting

@@ -39,7 +39,7 @@ item(FEAT_TRAINS, CL_150_4Car, 2173){
         
         //spec
         speed:                          150km/h;
-        power:                          920 kW;
+        power:                          1680 kW;
         weight:                         21 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -95,7 +95,7 @@ item(FEAT_TRAINS, CL_150_6Car, 2174){
         
         //spec
         speed:                          150km/h;
-        power:                          1380 kW;
+        power:                          2520 kW;
         weight:                         21 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -151,7 +151,7 @@ item(FEAT_TRAINS, CL_150_8Car, 2175){
         
         //spec
         speed:                          150km/h;
-        power:                          1840 kW;
+        power:                          3360 kW;
         weight:                         21 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -207,7 +207,7 @@ item(FEAT_TRAINS, CL_180_8Car, 2176){
         
         //spec
         speed:                          180km/h;
-        power:                          1840 kW;
+        power:                          3360 kW;
         weight:                         21 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;

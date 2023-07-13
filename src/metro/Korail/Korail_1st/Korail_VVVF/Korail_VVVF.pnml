@@ -39,7 +39,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_4car, 2228){
         
         //spec
         speed:                          120km/h;
-        power:                          800 kW;
+        power:                          1600 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -95,7 +95,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_4car, 2229){
         
         //spec
         speed:                          120km/h;
-        power:                          800 kW;
+        power:                          1600 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -151,7 +151,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_6car, 2230){
         
         //spec
         speed:                          120km/h;
-        power:                          1200 kW;
+        power:                          2400 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -207,7 +207,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_6car, 2231){
         
         //spec
         speed:                          120km/h;
-        power:                          1200 kW;
+        power:                          2400 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -264,7 +264,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_10car, 2232){
         
         //spec
         speed:                          120km/h;
-        power:                          2000 kW;
+        power:                          4000 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -320,7 +320,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_10car, 2233){
         
         //spec
         speed:                          120km/h;
-        power:                          2000 kW;
+        power:                          4000 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
