@@ -18,8 +18,6 @@ body:
       label: 32bpp 스프라이트
       description: 32bpp 스프라이트를 올려주세요.
       placeholder: '주의점. 기본스프라이트가 없으면 본 32bpp는 적용되지 않는것이 기본입니다. 신규차량시 꼭 기본 스프라이트를 우선적으로 작업해주세요.'
-    validations:
-      required: true
   - type: checkboxes
     attributes:
       label: '실존 & 가상열차'
