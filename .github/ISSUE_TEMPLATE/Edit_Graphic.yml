@@ -8,9 +8,9 @@ body:
       value: |
         버그사항 접수해주셔서 감사합니다.!
   - type: input
-    id: name
+    id: Game_name
     attributes:
-      label: name
+      label: Game_name
       description: 게임에서 나오는 해당 열차 이름을 적어주세요.
       placeholder: '[DTS/N량] 열차이름'
     validations:
