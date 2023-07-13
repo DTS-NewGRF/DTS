@@ -9,14 +9,14 @@ body:
         버그사항 접수해주셔서 감사합니다.!
   - type: input
     attributes:
-      label: name
+      label: 열차이름
       description: 게임에서 나오는 해당 열차 이름을 적어주세요.
       placeholder: '[DTS/N량] 열차이름'
     validations:
       required: true
   - type: textarea
     attributes:
-      label: change Sprite
+      label: 변경 스프라이트
       description: 변경될 스프라이트를 올려주세요.
     validations:
       required: true
