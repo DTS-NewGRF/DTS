@@ -1,7 +1,7 @@
 name: "[열차변경]"
 description: DTS의 열차 그래픽을 바꾸고 싶으십니까?
 title: "[열차변경]"
-labels: Edit Graphic
+labels: Edit_Graphic
 body:
   - type: markdown
     attributes:
