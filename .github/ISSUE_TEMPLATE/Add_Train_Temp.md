@@ -2,7 +2,7 @@
 name: "[열차추가]"
 about: 새로운 열차 추가시 적용할 템플릿입니다.
 title: "[열차추가] 열차이름"
-labels: Add train
+labels: Add train, Edit Graphic
 assignees: ''
 
 ---
