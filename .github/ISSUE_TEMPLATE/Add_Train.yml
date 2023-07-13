@@ -23,8 +23,6 @@ body:
       options:
       - label: '실존차량'
       - label: '가상열차'
-    validations:
-      required: on
   - type: checkboxes
     attributes:
       label: 편성방식
@@ -33,7 +31,7 @@ body:
       - label: '고정편성 (기관차)'
       - label: '기관차연결 (객화차)'
     validations:
-      required: on
+      required: true
   - type: textarea
     attributes:
       label: 설명
