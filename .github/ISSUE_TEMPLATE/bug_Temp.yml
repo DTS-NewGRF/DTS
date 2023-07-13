@@ -8,9 +8,9 @@ body:
       value: |
         버그사항 접수해주셔서 감사합니다.!
   - type: textarea
-    id: 1 버그사항
+    id: Bugs
     attributes:
-      label: bug
+      label: bugs
       description: 문제가 발생한 버그사항. 필요시 스샷 첨부
     validations:
       required: true
