@@ -38,8 +38,6 @@ body:
     attributes:
       label: 설명
       description: 설명사항을 적어주세요.  
-    validations:
-      required: true
   - type: input
     attributes:
       label: GRF내 열차 이름 한국어
@@ -85,5 +83,3 @@ body:
     attributes:
       label: 적용스팩 세부사항
       description: 적용스팩에 대한 추가적 사항을 상세히 적어주세요.
-    validations:
-      required: true
