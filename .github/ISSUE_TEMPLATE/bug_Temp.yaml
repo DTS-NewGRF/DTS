@@ -4,6 +4,5 @@ title: "[버그] 버그사항"
 labels: [bug]
 body:
 -type: markdown
-    attributes:
-      value: |
-        버그 신고 감사합니다.!
+  attributes:
+    value: 버그 신고 감사합니다.!
