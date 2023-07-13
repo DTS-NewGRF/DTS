@@ -1,0 +1,81 @@
+name: "[열차추가]"
+about: 새로운 열차를 추가하고 싶으십니까?
+title: "[열차추가]"
+labels: Add train, Edit Graphic
+body:
+  - type: markdown
+    attributes:
+      value: |
+        새로운 차량을 추가해주셔서 감사합니다!
+  - type: textarea
+    attributes:
+      label: 필수 스프라이트
+      description: 필수 스프라이트를 올려주세요.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 32bpp 스프라이트
+      description: 필수 스프라이트를 올려주세요.
+      placeholder: 주의점. 기본스프라이트가 없으면 본 32bpp는 적용되지 않는것이 기본입니다. 신규차량시 꼭 기본 스프라이트를 우선적으로 작업해주세요.
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      options:
+      - label: 실존차량
+      - label: 가상열차
+  - type: textarea
+    attributes:
+      label: 설명
+      description: 설명사항을 적어주세요.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: GRF내 열차 이름 한국어
+      placeholder: 열차이름
+  - type: checkboxes
+    attributes:
+      options:
+      - label: 고정편성 (기관차)
+      - label: 기관차연결 (객화차)
+  - type: input
+    attributes:
+      label: GRF내 열차 이름 영문
+      placeholder: Train Name
+  - type: dropdown
+    attributes:
+      label: 속도설정
+      description: DTS는 속도매겨변수로 적용하고 있습니다. 다음을 선택해주세요.
+      options:
+      - '지하철/통근열차 100 ~ 151km/h'
+      - '일반열차 151 ~ 180km/h'
+      - '준고속 180 ~ 260km/h'
+      - '고속 300 ~ 380km/h'
+      - '준초고속 430 ~ 600km/h'
+      - '초고속 600km/h'
+      validations:
+      required: true
+  - type: input
+    attributes:
+      label: 도입년도
+      placeholder: 2023
+  - type: input
+    attributes:
+      label: 전체 편성수
+      placeholder: 4량/6량
+  - type: input
+    attributes:
+      label: 수송량
+      placeholder: '[계산식] 전체 수송량/열차편성수=?명 (반올림 및 정수값 세팅) 121.1=>121명/150.5=>151명'
+  - type: textarea
+    attributes:
+      label: 적용스팩 세부사항
+      description: 적용스팩에 대한 추가적 사항을 상세히 적어주세요.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: 편성구조
+      placeholder: 앞- N량 객차 - 뒤 순으로 명시.

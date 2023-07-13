@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        버그사항 접수해주셔서 감사합니다.!
+        변경사항을 추가해주셔서 감사합니다!
   - type: dropdown
     attributes:
       label: 변경 열차선택
