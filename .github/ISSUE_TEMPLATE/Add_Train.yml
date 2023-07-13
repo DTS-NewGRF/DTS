@@ -21,16 +21,16 @@ body:
     validations:
       required: true
   - type: checkboxes
-    label: '실존 & 가상열차'
-    description: '실존 & 가상여부를 체크해주세요.'
     attributes:
+      label: '실존 & 가상열차'
+      description: '실존 & 가상여부를 체크해주세요.'
       options:
       - label: '실존차량'
       - label: '가상열차'
   - type: checkboxes
-    label: 편성방식
-    description: 편성방식을 선택해주세요.
     attributes:
+      label: 편성방식
+      description: 편성방식을 선택해주세요.
       options:
       - label: '고정편성 (기관차)'
       - label: '기관차연결 (객화차)'
