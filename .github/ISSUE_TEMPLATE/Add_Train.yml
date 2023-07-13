@@ -8,18 +8,16 @@ body:
       value: |
         새로운 차량을 추가해주셔서 감사합니다!
   - type: textarea
-    attributes:
-      label: 필수 스프라이트
-      description: 필수 스프라이트를 올려주세요.
+    label: 필수 스프라이트
+    description: 필수 스프라이트를 올려주세요.
     validations:
-      required: true
+    required: true
   - type: textarea
-    attributes:
-      label: 32bpp 스프라이트
-      description: 필수 스프라이트를 올려주세요.
-      placeholder: '주의점. 기본스프라이트가 없으면 본 32bpp는 적용되지 않는것이 기본입니다. 신규차량시 꼭 기본 스프라이트를 우선적으로 작업해주세요.'
+    label: 32bpp 스프라이트
+    description: 필수 스프라이트를 올려주세요.
+    placeholder: '주의점. 기본스프라이트가 없으면 본 32bpp는 적용되지 않는것이 기본입니다. 신규차량시 꼭 기본 스프라이트를 우선적으로 작업해주세요.'
     validations:
-      required: true
+    required: true
   - type: checkboxes
     label: '실존 & 가상열차'
     description: '실존 & 가상여부를 체크해주세요.'
@@ -35,9 +33,8 @@ body:
       - label: '고정편성 (기관차)'
       - label: '기관차연결 (객화차)'
   - type: textarea
-    attributes:
-      label: 설명
-      description: 설명사항을 적어주세요.
+    label: 설명
+    description: 설명사항을 적어주세요.  
     validations:
       required: true
   - type: input
