@@ -28,8 +28,8 @@ body:
       label: 편성방식
       description: 편성방식을 선택해주세요.
       options:
-      - label: '고정편성 (기관차)'
-      - label: '기관차연결 (객화차)'
+      - label: '고정편성'
+      - label: '단일구성 (객화차 & 단일 기관차)'
     validations:
       required: true
   - type: textarea
