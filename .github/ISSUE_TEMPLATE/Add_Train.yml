@@ -45,11 +45,6 @@ body:
       label: GRF내 열차 이름 한국어
       description: GRF내 열차 이름을 한국어로 적어주세요.
       placeholder: 열차이름
-  - type: input
-    attributes:
-      label: GRF내 열차 이름 영문
-      description: GRF내 열차 이름을 영어로 적어주세요.
-      placeholder: Train Name
   - type: dropdown
     attributes:
       label: 속도설정을 체크해주세요.
