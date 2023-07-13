@@ -1,13 +1,31 @@
 name: "[열차변경]"
 description: DTS의 열차 그래픽을 바꾸고 싶으십니까?
 title: "[열차변경]"
-labels: "Edit Graphic"
+labels: Edit Graphic
 body:
-  - type: input
-    id: Change_name
+  - type: markdown
     attributes:
-      label: Change_name
+      value: |
+        열차 변경을 작성해주셔서 감사합니다!
+  - type: input
+    id: change_name
+    attributes:
+      label: change_name
       description: 게임에서 나오는 해당 열차 이름을 적어주세요.
       placeholder: '[DTS/N량] 열차이름'
+    validations:
+      required: true
+  - type: textarea
+    id: 1
+    attributes:
+      label: bugs
+      description: 문제가 발생한 버그사항. 필요시 스샷 첨부
+    validations:
+      required: true
+  - type: textarea
+    id: 2
+    attributes:
+      label: Improve
+      description: 개선될 사항을 알려주세요.
     validations:
       required: true
