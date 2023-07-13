@@ -47,6 +47,22 @@ body:
       placeholder: 열차이름
   - type: input
     attributes:
+      label: GRF내 열차 이름 영문
+      description: GRF내 열차 이름을 영어로 적어주세요.
+      placeholder: Train Name
+  - type: checkboxes
+    attributes:
+      label: 열차속도
+      description: 열차의 속도를 정해주세요 게임내 속도 매겨변수를 정의하는 것입니다.
+      options:
+      - label: '지하철/통근열차 100 ~ 151km/h'
+      - label: '일반열차 151 ~ 181km/h'
+      - label: '준고속열차 181 ~ 260km/h'
+      - label: '고속열차 300 ~ 380km/h'
+      - label: '준초고속열차 430 ~ 600km/h'
+      - label: '초고속열차 600km/h'
+  - type: input
+    attributes:
       label: 도입년도
       description: 등장년도를 적어주세요.
       placeholder: '2023'
