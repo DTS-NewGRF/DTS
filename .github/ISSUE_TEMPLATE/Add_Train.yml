@@ -1,7 +1,7 @@
 name: "[열차추가]"
 about: "새로운 열차를 추가하고 싶으십니까?"
 title: "[열차추가]"
-labels: Add train, Edit Graphic
+labels: Add train, Edit_Graphic
 body:
   - type: markdown
     attributes:
@@ -21,8 +21,8 @@ body:
     validations:
       required: true
   - type: checkboxes
-    label: 실존 & 가상열차
-    description: 실존 & 가상여부를 체크해주세요.
+    label: '실존 & 가상열차'
+    description: '실존 & 가상여부를 체크해주세요.'
     attributes:
       options:
       - label: '실존차량'
@@ -72,11 +72,11 @@ body:
     attributes:
       label: 전체 편성수
       description: 열차 편성을 적어주세요.
-      placeholder: 4량/6량
+      placeholder: '4량/6량'
   - type: input
     attributes:
       label: 수송량
-      description: 열차 수송량을 계산하여 적어주세요. [계산식] 전체 수송량/열차편성수=?명 (반올림 및 정수값 세팅)
+      description: '열차 수송량을 계산하여 적어주세요. [계산식] 전체 수송량/열차편성수=?명 (반올림 및 정수값 세팅)'
       placeholder: '121명'
   - type: textarea
     attributes:
@@ -88,4 +88,4 @@ body:
     attributes:
       label: 편성구조
       description: 열차 편성 구조를 알려주세요.
-      placeholder: 앞- N량 객차 - 뒤 순으로 명시.
+      placeholder: '앞- N량 객차 - 뒤 순으로 명시.'
