@@ -52,14 +52,14 @@ body:
       placeholder: Train Name
   - type: dropdown
     attributes:
-      label: 속도설정
+      label: 속도설정을 체크해주세요.
       options:
-      - '지하철/통근열차 100 ~ 151km/h'
-      - '일반열차 151 ~ 180km/h'
-      - '준고속 180 ~ 260km/h'
-      - '고속 300 ~ 380km/h'
-      - '준초고속 430 ~ 600km/h'
-      - '초고속 600km/h'
+      - 지하철/통근열차 '100 ~ 151km/h'
+      - 일반열차 '151 ~ 180km/h'
+      - 준고속 '180 ~ 260km/h'
+      - 고속 '300 ~ 380km/h'
+      - 준초고속 '430 ~ 600km/h'
+      - 초고속 '600km/h'
       validations:
       required: true
   - type: input
