@@ -6,20 +6,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: version
-    attributes:
-      label: Version of OpenTTD
-      description: Fill in below what version of OpenTTD you are using, including your OS.
-      placeholder: ex. 1.11.2, Windows 10
-    validations:
-      required: true
+        버그사항 접수해주셔서 감사합니다.!
   - type: textarea
-    id: expected
+    id: 버그사항
     attributes:
-      label: Expected result
-      description: Describe in a few words what you expected to happen.
+      label: 버그사항
+      description: 문제가 발생한 버그사항.
     validations:
       required: true
   - type: textarea
