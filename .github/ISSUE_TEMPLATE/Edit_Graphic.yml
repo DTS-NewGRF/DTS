@@ -8,9 +8,9 @@ body:
       value: |
         열차 변경을 작성해주셔서 감사합니다!
   - type: input
-    id: changename
+    id: Train_name
     attributes:
-      label: changename
+      label: Train_name
       description: 게임에서 나오는 해당 열차 이름을 적어주세요.
       placeholder: '[DTS/N량] 열차이름'
     validations:
