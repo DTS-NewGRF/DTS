@@ -73,7 +73,12 @@ body:
       placeholder: '4량/6량'
   - type: input
     attributes:
-      label: 수송량
+      label: 편성구조
+      description: 열차 편성 구조를 알려주세요.
+      placeholder: '앞- N량 객차 - 뒤 순으로 명시.'
+  - type: input
+    attributes:
+      label: 객차당 수송량
       description: '열차 수송량을 계산하여 적어주세요. [계산식] 전체 수송량/열차편성수=?명 (반올림 및 정수값 세팅)'
       placeholder: '121명'
   - type: textarea
@@ -82,8 +87,3 @@ body:
       description: 적용스팩에 대한 추가적 사항을 상세히 적어주세요.
     validations:
       required: true
-  - type: input
-    attributes:
-      label: 편성구조
-      description: 열차 편성 구조를 알려주세요.
-      placeholder: '앞- N량 객차 - 뒤 순으로 명시.'
