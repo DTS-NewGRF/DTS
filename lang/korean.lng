@@ -230,6 +230,8 @@ STR_Hankyu_8000_8Car_NAME                            :[DTS/8량] 한큐전철 80
 STR_Group_Hankyu_8300_NAME                           :[DTS] 한큐전철 8300형
 STR_Hankyu_8300_2Car_NAME                            :[DTS/2량] 한큐전철 8300형
 STR_Hankyu_8300_8Car_NAME                            :[DTS/8량] 한큐전철 8300형
+STR_Hankyu_9000_8Car_NAME                            :[DTS/8량] 한큐전철 9000형
+STR_Hankyu_9300_8Car_NAME                            :[DTS/8량] 한큐전철 9300형
 
 # wagon's name
 STR_Group_Travel_wagon_NAME                          :[DTS] 관광열차
@@ -255,8 +257,6 @@ STR_VTS_SPASS_NAME                                   :[DTS/기관차연결] 가�
 STR_FLAT_1F_NAME                                     :[DTS/기관차연결] 평판화차
 STR_FLAT_Tank_NAME                                   :[DTS/기관차연결] 평판유조 화차
 STR_FLAT_2F_NAME                                     :[DTS/기관차연결] 평판화차 - 미국형
-STR_KMetro_Pass_NAME                                 :[DTS/기관차연결/삭제예정] 한국형 지하철 차량
-STR_EMU_Pass_NAME                                    :[DTS/기관차연결/삭제예정] EMU 객차 차량
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                     :지하철 속도변수
@@ -398,6 +398,8 @@ STR_REFIT_ADDITIONAL_Hankyu_6000                     :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_Hankyu_6300                     :{BLACK}복합가능열차 {RED}불가능
 STR_REFIT_ADDITIONAL_Hankyu_8000                     :{BLACK}복합가능열차 {GREEN}한큐전철 8000, 8300
 STR_REFIT_ADDITIONAL_Hankyu_8300                     :{BLACK}복합가능열차 {GREEN}한큐전철 8000, 8300
+STR_REFIT_ADDITIONAL_Hankyu_9000                     :{BLACK}복합가능열차 {GREEN}한큐전철 9000
+STR_REFIT_ADDITIONAL_Hankyu_9300                     :{BLACK}복합가능열차 {GREEN}한큐전철 9300
 STR_REFIT_ADDITIONAL_HYEL_15                         :{BLACK}복합가능열차 {GREEN}HYEL-15
 STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}복합가능열차 {GREEN}HYEL-100
 STR_REFIT_ADDITIONAL_HYEL_150                        :{BLACK}복합가능열차 {GREEN}HYEL-150

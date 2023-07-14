@@ -230,6 +230,8 @@ STR_Hankyu_8000_8Car_NAME                            :[DTS] Hankyu 8000 8Car
 STR_Group_Hankyu_8300_NAME                           :[DTS] Hankyu 8300
 STR_Hankyu_8300_2Car_NAME                            :[DTS] Hankyu 8300 2Car
 STR_Hankyu_8300_8Car_NAME                            :[DTS] Hankyu 8300 8Car
+STR_Hankyu_9000_8Car_NAME                            :[DTS] Hankyu 9000 8Car
+STR_Hankyu_9300_8Car_NAME                            :[DTS] Hankyu 9300 8Car
 
 # wagon's name
 STR_Group_Travel_wagon_NAME                          :[DTS] Travel Train
@@ -398,6 +400,8 @@ STR_REFIT_ADDITIONAL_Hankyu_6000                     :{BLACK}Combined train {GRE
 STR_REFIT_ADDITIONAL_Hankyu_6300                     :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Hankyu_8000                     :{BLACK}Combined train {GREEN}Hankyu 8000, 8300
 STR_REFIT_ADDITIONAL_Hankyu_8300                     :{BLACK}Combined train {GREEN}Hankyu 8000, 8300
+STR_REFIT_ADDITIONAL_Hankyu_9000                     :{BLACK}Combined train {GREEN}Hankyu 9000
+STR_REFIT_ADDITIONAL_Hankyu_9300                     :{BLACK}Combined train {GREEN}Hankyu 9300
 STR_REFIT_ADDITIONAL_HYEL_15                         :{BLACK}Combined train {GREEN}HYEL-15
 STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}Combined train {GREEN}HYEL-100
 STR_REFIT_ADDITIONAL_HYEL_150                        :{BLACK}Combined train {GREEN}HYEL-150

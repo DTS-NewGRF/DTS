@@ -48,6 +48,9 @@
 ### TOSHIBAGTOS500start.wav
 - 신칸센 500계 16량
 
+### TOSHIBAIGBTJ2start.wav
+- 니시테츠 9000형
+
 ### TOSHIBAIGBTJstart.wav
 - 니시테츠 3000형, 7000, 7050형
 
@@ -72,6 +75,9 @@
 
 ### TOYODENKIGTOStart.wav
 - 한큐 8300형
+
+### TOYODENKIIGBTStart.wav
+- 한큐 9300형
 
 ### WOOJINMITSUBISHIIGBTstart.wav
 - 우진산전 수소연료전지동차

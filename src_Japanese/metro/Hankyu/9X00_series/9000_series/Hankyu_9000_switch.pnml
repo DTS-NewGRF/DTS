@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_Hankyu_9000_8car, position_in_vehid_chain % 8) {
+    1:set_Hankyu_9000_wagon;
+    2:set_Hankyu_9000_wagon;
+    3:set_Hankyu_9000_wagon;
+    4:set_Hankyu_9000_wagon;
+    5:set_Hankyu_9000_wagon;
+    6:set_Hankyu_9000_panto_wagon;
+    7:set_Hankyu_9000_engineT;
+    set_Hankyu_9000_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_9000_8car, extra_callback_info1) {
+    1..7: Hankyu_9000_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_9000_attach, vehicle_type_id) {
+    Hankyu_9000_8Car:        return CB_RESULT_ATTACH_ALLOW;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_9000_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTJ2start.wav");
+    return CB_RESULT_NO_SOUND;
+    }

@@ -163,6 +163,8 @@ if (Japanese) {
     disable_item(FEAT_TRAINS, 2213); //Hankyu_8000_8Car
     disable_item(FEAT_TRAINS, 2215); //Hankyu_8300_2Car
     disable_item(FEAT_TRAINS, 2216); //Hankyu_8300_8Car
+    disable_item(FEAT_TRAINS, 2246); //Hankyu_9000_8Car
+    disable_item(FEAT_TRAINS, 2247); //Hankyu_9300_8Car
     }
 
 if (World) {

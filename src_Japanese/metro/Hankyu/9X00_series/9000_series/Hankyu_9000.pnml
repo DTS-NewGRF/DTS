@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------------
+한큐전철 8000형
+--------------------------------------------------------------------*/
+// Graphics
+#include "Hankyu_9000_graphic.pnml"
+
+// Switch
+#include "Hankyu_9000_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 8량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Hankyu_9000_8Car, 2246){
+    property {
+        name:                           string(STR_Hankyu_9000_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2010, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          1080 kW;
+        weight:                         29 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 131;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+        graphics {
+        default:                        sw_Hankyu_9000_8car;
+        articulated_part:               sw_articulated_Hankyu_9000_8car;
+        purchase:                       sw_Hankyu_9000_purchase;
+        speed:                          Metro_Speed_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_Hankyu_9000_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Hankyu_9000);
+        sound_effect:                   sw_Hankyu_9000_sound;
+        }
+        }
