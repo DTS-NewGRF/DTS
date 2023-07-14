@@ -17,6 +17,7 @@ item(FEAT_TRAINS, H2_WJ, 2190){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2200 kW;
         }
 
     graphics {

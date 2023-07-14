@@ -17,10 +17,12 @@ item(FEAT_TRAINS, Korail_1st_VVVF, 2227){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        power:                          1600 kW;
         }
 
     graphics {
-        purchase:                       sw_Korail_1st_VVVF_purchase;
+        purchase:                       sw_Group_Korail_1st_VVVF_purchase;
         }
         }
 

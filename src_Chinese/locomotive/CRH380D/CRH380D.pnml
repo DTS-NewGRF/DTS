@@ -17,6 +17,7 @@ item(FEAT_TRAINS, CRH380D, 2201){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          8000 kW;
         }
 
     graphics {

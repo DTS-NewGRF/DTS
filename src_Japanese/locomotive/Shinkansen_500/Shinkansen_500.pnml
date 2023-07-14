@@ -17,6 +17,7 @@ item(FEAT_TRAINS, Shinkansen_500, 2202){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          17600 kW;
         }
 
     graphics {

@@ -17,6 +17,7 @@ item(FEAT_TRAINS, Nishitetsu_3000, 2184){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          525 kW;
         }
 
     graphics {

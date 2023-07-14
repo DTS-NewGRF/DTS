@@ -8,23 +8,6 @@ YTRO 100
 #include "Korail_VVVF_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보 그룹
-
-item(FEAT_TRAINS, Korail_5th_VVVF, ????){
-    property {
-        name:                           string(STR_Group_Korail_5th_VVVF_NAME);
-        climates_available:             NO_CLIMATE;
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        }
-
-    graphics {
-        purchase:                       sw_Korail_4th_VVVF_G1_purchase;
-        }
-        }
---------------------------------------------------------------------*/
-/*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_5th_VVVF_10Car, 2239){

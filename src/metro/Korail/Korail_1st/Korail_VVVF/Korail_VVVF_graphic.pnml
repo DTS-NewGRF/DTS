@@ -84,6 +84,10 @@ spriteset(set_Korail_1st_VVVF_5000_engineT, "src/metro/Korail/Korail_1st/Korail_
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Group_Korail_1st_VVVF_purchase, 1) {
+    set_Korail_1st_VVVF_purchase;
+}
+
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_purchase, cargo_subtype) {
     set_Korail_1st_VVVF_purchase;
 }

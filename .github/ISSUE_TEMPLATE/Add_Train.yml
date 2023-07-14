@@ -79,16 +79,16 @@ body:
       required: true
   - type: input
     attributes:
-      label: 편성구조
-      description: 열차 편성 구조를 알려주세요.
-      placeholder: '앞- N량 객차 - 뒤 순으로 명시.'
-    validations:
-      required: true
-  - type: input
-    attributes:
       label: 객차당 수송량
       description: '열차 수송량을 계산하여 적어주세요. [계산식] 전체 수송량/열차편성수=?명 (반올림 및 정수값 세팅)'
       placeholder: '121명'
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 편성구조
+      description: 열차 편성 구조를 스프라이트 이름과 함께 직관적으로 알려주세요.
+      placeholder: '앞- N량 객차 - 뒤 순으로 명시.'
     validations:
       required: true
   - type: textarea
