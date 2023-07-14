@@ -21,6 +21,33 @@ switch(FEAT_TRAINS, SELF, sw_SSPassenger_cargo_subtype_text, cargo_subtype) {
     return string(STR_REFIT_LIVERY_1SPassenger_Car);
 }
 
+switch(FEAT_TRAINS, SELF, sw_MSPassenger_cargo_subtype_text, cargo_subtype) {
+     1: return string(STR_REFIT_LIVERY_2MPassenger_Car);     // 일반실 구도색 수동문
+     2: return string(STR_REFIT_LIVERY_3MPassenger_Car);     // 일반실 구도색 자동문
+     3: return string(STR_REFIT_LIVERY_4MPassenger_Car);     // 일반실 신도색
+     4: return string(STR_REFIT_LIVERY_5MPassenger_Car);     // 일반실 리미트객차 구도색
+     5: return string(STR_REFIT_LIVERY_6MPassenger_Car);     // 일반실 리미트객차 신도색
+     6: return string(STR_REFIT_LIVERY_7MPassenger_Car);     // 일반실 격하특실 구도색
+     7: return string(STR_REFIT_LIVERY_8MPassenger_Car);     // 일반실 격하특실 신도색
+     8: return string(STR_REFIT_LIVERY_9MPassenger_Car);     // 일반실 해태특실 신도색
+     9: return string(STR_REFIT_LIVERY_10MPassenger_Car);    // 특실 한진특실 구도색
+    10: return string(STR_REFIT_LIVERY_11MPassenger_Car);    // 특실 해태특실 구도색
+    11: return string(STR_REFIT_LIVERY_12MPassenger_Car);    // 특실 해태특실 신도색
+    12: return string(STR_REFIT_LIVERY_13MPassenger_Car);    // 특실 격하특실 신도색
+    13: return string(STR_REFIT_LIVERY_14MPassenger_Car);    // 식당차 우등객차
+    14: return string(STR_REFIT_LIVERY_15MPassenger_Car);    // 식당차 구도색
+    15: return string(STR_REFIT_LIVERY_16MPassenger_Car);    // 식당차 리미트객차 신도색
+    16: return string(STR_REFIT_LIVERY_17MPassenger_Car);    // 카페객차 신도색
+    17: return string(STR_REFIT_LIVERY_18MPassenger_Car);    // 카페객차 리미트개차 구도색
+    18: return string(STR_REFIT_LIVERY_19MPassenger_Car);    // 카페객차 리미트개차 신도색
+    19: return string(STR_REFIT_LIVERY_20MPassenger_Car);    // 침대객차 초기도색
+    20: return string(STR_REFIT_LIVERY_21MPassenger_Car);    // 침대객차 구도색 수동문
+    21: return string(STR_REFIT_LIVERY_22MPassenger_Car);    // 침대객차 구도색 자동문
+    22: return string(STR_REFIT_LIVERY_23MPassenger_Car);    // 침대객차 리미트객차 구도색
+    23: return string(STR_REFIT_LIVERY_24MPassenger_Car);    // 침대객차 리미트객차 신도색
+    return string(STR_REFIT_LIVERY_1MPassenger_Car);
+}
+
 /*--------------------------------------------------------------------
 1. 충북영동국악와인 열차
 --------------------------------------------------------------------*/
@@ -174,7 +201,7 @@ switch (FEAT_TRAINS, SELF, sw_articulated_sw_G_Train_New_5car, extra_callback_in
     }
 
 /*--------------------------------------------------------------------
-한국형 객차 랜덤
+한국형 새마을 객차 랜덤
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Korea_STrain_2wagon, random_bits % 2) {
      0: set_Korea_STrain_2wagon_A;
@@ -207,7 +234,7 @@ switch(FEAT_TRAINS, SELF, sw_Korea_STrain_6wagon, random_bits % 2) {
 }
 
 /*--------------------------------------------------------------------
-한국형 객차
+한국형 새마을 객차
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_SSPassenger_wagon, cargo_subtype) {
      1: set_Korea_STrain_1wagon;   // 일반실 관광호 특실
@@ -247,4 +274,112 @@ switch(FEAT_TRAINS, SELF, sw_SSPassenger_wagon_capacity_in_custom, cargo_subtype
     15: return 50;
     16: return 50;
        56;
+}
+
+/*--------------------------------------------------------------------
+한국형 무궁화 객차 랜덤
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Korea_MTrain_1wagon, random_bits % 2) {
+     0: set_Korea_MTrain_1wagon_A;
+     1: set_Korea_MTrain_1wagon_B;
+    set_Korea_MTrain_1wagon_A;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korea_MTrain_2wagon, random_bits % 2) {
+     0: set_Korea_MTrain_2wagon_A;
+     1: set_Korea_MTrain_2wagon_B;
+    set_Korea_MTrain_2wagon_A;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korea_MTrain_3wagon, random_bits % 2) {
+     0: set_Korea_MTrain_3wagon_A;
+     1: set_Korea_MTrain_3wagon_B;
+    set_Korea_MTrain_3wagon_A;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korea_MTrain_4wagon, random_bits % 2) {
+     0: set_Korea_MTrain_4wagon_A;
+     1: set_Korea_MTrain_4wagon_B;
+    set_Korea_MTrain_4wagon_A;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korea_MTrain_5wagon, random_bits % 2) {
+     0: set_Korea_MTrain_5wagon_A;
+     1: set_Korea_MTrain_5wagon_B;
+    set_Korea_MTrain_5wagon_A;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korea_MTrain_6wagon, random_bits % 2) {
+     0: set_Korea_MTrain_6wagon_A;
+     1: set_Korea_MTrain_6wagon_B;
+    set_Korea_MTrain_6wagon_A;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korea_MTrain_7wagon, random_bits % 2) {
+     0: set_Korea_MTrain_7wagon_A;
+     1: set_Korea_MTrain_7wagon_B;
+    set_Korea_MTrain_7wagon_A;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korea_MTrain_8wagon, random_bits % 2) {
+     0: set_Korea_MTrain_8wagon_A;
+     1: set_Korea_MTrain_8wagon_B;
+    set_Korea_MTrain_8wagon_A;
+}
+
+/*--------------------------------------------------------------------
+한국형 무궁화 객차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_MSPassenger_wagon, cargo_subtype) {
+     1: sw_Korea_MTrain_2wagon;     // 일반실 구도색 수동문
+     2: sw_Korea_MTrain_3wagon;     // 일반실 구도색 자동문
+     3: sw_Korea_MTrain_4wagon;     // 일반실 신도색
+     4: sw_Korea_MTrain_5wagon;     // 일반실 리미트객차 구도색
+     5: sw_Korea_MTrain_6wagon;     // 일반실 리미트객차 신도색
+     6: sw_Korea_MTrain_7wagon;     // 일반실 격하특실 구도색
+     7: sw_Korea_MTrain_8wagon;     // 일반실 격하특실 신도색
+     8: set_Korea_MTrain_9wagon;    // 일반실 해태특실 신도색
+     9: set_Korea_MTrain_10wagon;   // 특실 한진특실 구도색
+    10: set_Korea_MTrain_11wagon;   // 특실 해태특실 구도색
+    11: set_Korea_MTrain_12wagon;   // 특실 해태특실 신도색
+    12: set_Korea_MTrain_13wagon;   // 특실 격하특실 신도색
+    13: set_Korea_MTrain_14wagon;   // 식당차 우등객차
+    14: set_Korea_MTrain_15wagon;   // 식당차 구도색
+    15: set_Korea_MTrain_16wagon;   // 식당차 리미트객차 신도색
+    16: set_Korea_MTrain_17wagon;   // 카페객차 신도색
+    17: set_Korea_MTrain_18wagon;   // 카페객차 리미트개차 구도색
+    18: set_Korea_MTrain_19wagon;   // 카페객차 리미트개차 신도색
+    19: set_Korea_MTrain_20wagon;   // 침대객차 초기도색
+    20: set_Korea_MTrain_21wagon;   // 침대객차 구도색 수동문
+    21: set_Korea_MTrain_22wagon;   // 침대객차 구도색 자동문
+    22: set_Korea_MTrain_23wagon;   // 침대객차 리미트객차 구도색
+    23: set_Korea_MTrain_24wagon;   // 침대객차 리미트객차 신도색
+    sw_Korea_MTrain_1wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MSPassenger_wagon_capacity_in_custom, cargo_subtype) {
+     1: return 72;
+     2: return 72;
+     3: return 72;
+     4: return 72;
+     5: return 72;
+     6: return 64;
+     7: return 64;
+     8: return 64;
+     9: return 64;
+    10: return 64;
+    11: return 64;
+    12: return 64;
+    13: return 50;
+    14: return 50;
+    15: return 50;
+    16: return 50;
+    17: return 50;
+    18: return 50;
+    19: return 28;
+    20: return 28;
+    21: return 28;
+    22: return 28;
+    23: return 28;
+       90;
 }

@@ -250,6 +250,7 @@ sort(FEAT_TRAINS, [
     A_Train_New_Passenger_Car,     //2164
     G_Train_New_Passenger_Car,     //2002
     Coach_2F,                      //2106
+    KTS_MSPassenger_Car,           //2245
     KTS_SSPassenger_Car,           //2132
     CTS_SPassenger_Car,            //2031
     ETS_SPassenger_Car,            //2061

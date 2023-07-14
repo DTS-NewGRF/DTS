@@ -243,6 +243,7 @@ STR_Lady_Bird_NAME                                   :[DTS] Lady Bird Passenger 
 STR_S_Train_New_NAME                                 :[DTS] S-Train Passenger Car
 STR_A_Train_New_NAME                                 :[DTS] A-Train Passenger Car
 STR_G_Train_New_NAME                                 :[DTS] G-Train Passenger Car
+STR_KTS_MSPASS_NAME                                  :[DTS] Korea Mugunhwa passenger car
 STR_KTS_SSPASS_NAME                                  :[DTS] Korea Saemaeul passenger car
 STR_Generatar_Car_NAME                               :[DTS] Generatar Car
 STR_Luggage_Car_NAME                                 :[DTS] Luggage Car
@@ -426,6 +427,7 @@ STR_REFIT_train_configuration_Lady_Bird_Passenger    :{BLACK}train configuration
 STR_REFIT_train_configuration_S_Train_New_Passenger  :{BLACK}train configuration: {GREEN}S-Train Passenger Car
 STR_REFIT_train_configuration_A_Train_New_Passenger  :{BLACK}train configuration: {GREEN}A-Train Passenger Car
 STR_REFIT_train_configuration_G_Train_New_Passenger  :{BLACK}train configuration: {GREEN}G-Train Passenger Car
+STR_REFIT_train_configuration_MSPassenger            :{BLACK}train configuration: {GREEN}Korea Mugunhwa Passenger vehicles
 STR_REFIT_train_configuration_SSPassenger            :{BLACK}train configuration: {GREEN}Korea Saemaeul Passenger vehicles
 STR_REFIT_train_configuration_Generatar              :{BLACK}train configuration: {GREEN}Generatar vehicles
 STR_REFIT_train_configuration_Luggage                :{BLACK}train configuration: {GREEN}Luggage vehicles
@@ -602,6 +604,30 @@ STR_REFIT_LIVERY_Hankyu_8300_Cross_Seat              : Hankyu 8300 Cross Seat
 # Liveries wagon
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car              : Jeongseon Arirang Old Color
 STR_REFIT_LIVERY_JA_a_New_Passenger_Car              : Jeongseon Arirang New Color
+STR_REFIT_LIVERY_1MPassenger_Car                     : 1Passenger_Car
+STR_REFIT_LIVERY_2MPassenger_Car                     : 2Passenger_Car
+STR_REFIT_LIVERY_3MPassenger_Car                     : 3Passenger_Car
+STR_REFIT_LIVERY_4MPassenger_Car                     : 4Passenger_Car
+STR_REFIT_LIVERY_5MPassenger_Car                     : 5Passenger_Car
+STR_REFIT_LIVERY_6MPassenger_Car                     : 6Passenger_Car
+STR_REFIT_LIVERY_7MPassenger_Car                     : 7Passenger_Car
+STR_REFIT_LIVERY_8MPassenger_Car                     : 8Passenger_Car
+STR_REFIT_LIVERY_9MPassenger_Car                     : 9Passenger_Car
+STR_REFIT_LIVERY_10MPassenger_Car                    : 10Passenger_Car
+STR_REFIT_LIVERY_11MPassenger_Car                    : 11Passenger_Car
+STR_REFIT_LIVERY_12MPassenger_Car                    : 12Passenger_Car
+STR_REFIT_LIVERY_13MPassenger_Car                    : 13Passenger_Car
+STR_REFIT_LIVERY_14MPassenger_Car                    : 14Passenger_Car
+STR_REFIT_LIVERY_15MPassenger_Car                    : 15Passenger_Car
+STR_REFIT_LIVERY_16MPassenger_Car                    : 16Passenger_Car
+STR_REFIT_LIVERY_17MPassenger_Car                    : 17Passenger_Car
+STR_REFIT_LIVERY_18MPassenger_Car                    : 18Passenger_Car
+STR_REFIT_LIVERY_19MPassenger_Car                    : 19Passenger_Car
+STR_REFIT_LIVERY_20MPassenger_Car                    : 20Passenger_Car
+STR_REFIT_LIVERY_21MPassenger_Car                    : 21Passenger_Car
+STR_REFIT_LIVERY_22MPassenger_Car                    : 22Passenger_Car
+STR_REFIT_LIVERY_23MPassenger_Car                    : 23Passenger_Car
+STR_REFIT_LIVERY_24MPassenger_Car                    : 24Passenger_Car
 STR_REFIT_LIVERY_1SPassenger_Car                     : 1Passenger_Car
 STR_REFIT_LIVERY_1SPassenger_Car_S                   : 1Passenger_Car Special
 STR_REFIT_LIVERY_2SPassenger_Car                     : 2Passenger_Car

@@ -5,6 +5,10 @@ spriteset(set_SSPassenger_wagon_purchase, "src\wagon\SPassenger_wagon\SSPassenge
     tmpl_wagon_purchase(0, 0)
 }
 
+spriteset(set_MSPassenger_wagon_purchase, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
 /*--------------------------------------------------------------------
 1. 에코레일
 --------------------------------------------------------------------*/
@@ -430,8 +434,143 @@ spriteset(set_Korea_STrain_14wagon, "src\wagon\SPassenger_wagon\SSPassenger_wago
 }
 
 /*--------------------------------------------------------------------
+12. 한국형 무궁화 객차 2CC
+--------------------------------------------------------------------*/
+spriteset(set_Korea_MTrain_1wagon_A, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Korea_MTrain_1wagon_B, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(299, 0)
+}
+
+spriteset(set_Korea_MTrain_2wagon_A, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Korea_MTrain_2wagon_B, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(299, 27)
+}
+
+spriteset(set_Korea_MTrain_3wagon_A, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korea_MTrain_3wagon_B, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(299, 54)
+}
+
+spriteset(set_Korea_MTrain_4wagon_A, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korea_MTrain_4wagon_B, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(299, 81)
+}
+
+spriteset(set_Korea_MTrain_5wagon_A, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Korea_MTrain_5wagon_B, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(299, 108)
+}
+
+spriteset(set_Korea_MTrain_6wagon_A, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Korea_MTrain_6wagon_B, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(299, 135)
+}
+
+spriteset(set_Korea_MTrain_7wagon_A, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Korea_MTrain_7wagon_B, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(299, 162)
+}
+
+spriteset(set_Korea_MTrain_8wagon_A, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_Korea_MTrain_8wagon_B, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_Korea_MTrain_9wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 216)
+}
+
+spriteset(set_Korea_MTrain_10wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 243)
+}
+
+spriteset(set_Korea_MTrain_11wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 270)
+}
+
+spriteset(set_Korea_MTrain_12wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 297)
+}
+
+spriteset(set_Korea_MTrain_13wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 324)
+}
+
+spriteset(set_Korea_MTrain_14wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 351)
+}
+
+spriteset(set_Korea_MTrain_15wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 378)
+}
+
+spriteset(set_Korea_MTrain_16wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 405)
+}
+
+spriteset(set_Korea_MTrain_17wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 432)
+}
+
+spriteset(set_Korea_MTrain_18wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 459)
+}
+
+spriteset(set_Korea_MTrain_19wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 486)
+}
+
+spriteset(set_Korea_MTrain_20wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 513)
+}
+
+spriteset(set_Korea_MTrain_21wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 540)
+}
+
+spriteset(set_Korea_MTrain_22wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 567)
+}
+
+spriteset(set_Korea_MTrain_23wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 594)
+}
+
+spriteset(set_Korea_MTrain_24wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 621)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_SSPassenger_wagon_purchase, cargo_subtype) {
     set_SSPassenger_wagon_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MSPassenger_wagon_purchase, cargo_subtype) {
+    set_MSPassenger_wagon_purchase;
 }
