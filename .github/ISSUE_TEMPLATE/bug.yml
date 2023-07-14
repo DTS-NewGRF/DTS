@@ -12,7 +12,6 @@ body:
       label: 기본 열차 선택
       description: 기본 열차에 해당하면 선택해주세요.
       options:
-        - '해당없음'
         - '[DTS/4량] 한국형 표준전동차'
         - '[DTS/6량] 차세대전동차'
         - '[DTS] 한국철도공사 1세대 VVVF 전동차 (그룹)'
@@ -109,7 +108,6 @@ body:
       label: 중국형 열차 선택
       description: 중국형 열차에 해당하면 선택해주세요.
       options:
-        - '해당없음'
         - '[DTS/단량] HXD3C'
         - '[DTS/단량] NJ2'
         - '[DTS/8량] CRH1A'
@@ -148,7 +146,6 @@ body:
       label: 홍콩형 열차 선택
       description: 홍콩형 열차에 해당하면 선택해주세요.
       options:
-        - '해당없음'
         - '[DTS/8량] 홍콩 MTR AD Tranz CAF A형'
         - '[DTS/8량] 홍콩 MTR 메트로카멜 교류형 전동차'
         - '[DTS/8량] 홍콩 MTR 메트로카멜 직류형 전동차'
@@ -162,7 +159,6 @@ body:
       label: 유럽형 열차 선택
       description: 유럽형 열차에 해당하면 선택해주세요.
       options:
-        - '해당없음'
         - '[DTS/단량] SNCF BB15000'
         - '[DTS/14량] ICE1'
         - '[DTS/8량] ICE2'
@@ -191,7 +187,6 @@ body:
       label: 일본형 열차 선택
       description: 일본형 열차에 해당하면 선택해주세요.
       options:
-        - '해당없음'
         - '[DTS/4량] 니시테츠 1000형'
         - '[DTS/6량] 니시테츠 2000형'
         - '[DTS] 니시테츠 3000형 (그룹)'
@@ -253,7 +248,6 @@ body:
       label: 월드형 열차 선택
       description: 월드형 열차에 해당하면 선택해주세요.
       options:
-        - '해당없음'
         - '[DTS] NSW TrainLink D (그룹)'
         - '[DTS/4량] NSW TrainLink D'
         - '[DTS/6량] NSW TrainLink D'
@@ -267,14 +261,12 @@ body:
       label: 유지보수형 열차 선택
       description: 유지보수 열차에 해당하면 선택해주세요.
       options:
-        - '해당없음'
         - '[DTS/단량] MSB 모터카'
   - type: dropdown
     attributes:
       label: 객화차 선택
       description: 객화차에 해당하면 선택해주세요.
       options:
-        - '해당없음'
         - '[DTS] 관광열차 (그룹)'
         - '[DTS/관광객차] 에코레일'
         - '[DTS/관광객차] 충북영동국악와인'
