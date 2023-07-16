@@ -302,6 +302,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_10car, 2232){
         cost_factor:                    10;
         running_cost_factor:            150;
         can_attach_wagon:               sw_Korail_1st_VVVF_wagon_attach;
+        cargo_subtype_text:             sw_Korail_1st_VVVF_IGBT_10car_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_Korail_1st_VVVF);
         sound_effect:                   sw_Korail_1st_VVVF_IGBT_sound;
         }
@@ -358,7 +359,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_10car, 2233){
         cost_factor:                    10;
         running_cost_factor:            150;
         can_attach_wagon:               sw_Korail_1st_VVVF_wagon_attach;
-        cargo_subtype_text:             sw_Korail_1st_VVVF_10car_cargo_subtype_text;
+        cargo_subtype_text:             sw_Korail_1st_VVVF_GTO_10car_cargo_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_Korail_1st_VVVF);
         sound_effect:                   sw_Korail_1st_VVVF_GTO_sound;
         }

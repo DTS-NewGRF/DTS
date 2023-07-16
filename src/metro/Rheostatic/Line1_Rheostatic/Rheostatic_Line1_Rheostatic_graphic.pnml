@@ -1,0 +1,71 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Rheostatic_Line1_Rheostatic_purchase, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+K1000
+--------------------------------------------------------------------*/
+spriteset(set_Rheostatic_K1000_engineH_TC1A, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Rheostatic_K1000_engineH_TC1B, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Rheostatic_K1000_wagon, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+    engine(80, 54)
+}
+
+spriteset(set_Rheostatic_K1000_panto_wagon, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Rheostatic_K1000_engineT_TC2A, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Rheostatic_K1000_engineT_TC2B, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+S1000
+--------------------------------------------------------------------*/
+spriteset(set_Rheostatic_S1000_engineH, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Rheostatic_S1000_wagon_MA_T, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Rheostatic_S1000_panto_wagon_A, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    engine(80, 54)
+}
+
+spriteset(set_Rheostatic_S1000_wagon_MB, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Rheostatic_S1000_panto_wagon_B, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Rheostatic_S1000_engineT_TCA, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    engine(80, 135)
+}
+
+spriteset(set_Rheostatic_S1000_engineT_TCB, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    engine(80, 162)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Rheostatic_purchase, cargo_subtype) {
+    set_Rheostatic_Line1_Rheostatic_purchase;
+}

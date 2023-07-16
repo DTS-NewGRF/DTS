@@ -194,6 +194,8 @@ STR_Rheostatic_Line1_Second_4Car_NAME                :[DTS/4량] 수도권 1호�
 STR_Rheostatic_Line1_Second_6Car_NAME                :[DTS/6량] 수도권 1호선 저항제어 전동차 [중기저항]
 STR_Rheostatic_Line1_Second_8Car_NAME                :[DTS/8량] 수도권 1호선 저항제어 전동차 [중기저항]
 STR_Rheostatic_Line1_Second_10Car_NAME               :[DTS/10량] 수도권 1호선 저항제어 전동차 [중기저항]
+STR_Rheostatic_Line1_Third_10Car_NAME                :[DTS/10량] 수도권 1호선 저항제어 전동차 [신조저항]
+STR_Rheostatic_Line1_Rheostatic_10Car_NAME           :[DTS/10량] 수도권 1호선 저항제어 전동차 [개조저항]
 STR_MTR_AD_Tranz_CAF_A_8Car_NAME                     :[DTS/8량] 홍콩 MTR AD Tranz CAF A형
 STR_MTR_AC_Cammall_8Car_NAME                         :[DTS/8량] 홍콩 MTR 메트로카멜 교류형 전동차
 STR_MTR_DC_Cammall_8Car_NAME                         :[DTS/8량] 홍콩 MTR 메트로카멜 직류형 전동차
@@ -323,6 +325,8 @@ STR_REFIT_ADDITIONAL_Korail_4th_VVVF                 :{BLACK}복합가능열차 
 STR_REFIT_ADDITIONAL_Korail_5th_VVVF                 :{BLACK}복합가능열차 {GREEN}Korail 5세대 VVVF 전동차
 STR_REFIT_ADDITIONAL_Rheostatic_Line1                :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [초기저항]
 STR_REFIT_ADDITIONAL_Rheostatic_Line1_Second         :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [중기저항]
+STR_REFIT_ADDITIONAL_Rheostatic_Line1_Third          :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [신조저항]
+STR_REFIT_ADDITIONAL_Rheostatic_Line1_Rheostatic     :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [개조저항]
 STR_REFIT_ADDITIONAL_MSB_Speeder                     :{BLACK}복합가능열차 {GREEN}MSB 모터카
 STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}복합가능열차 {GREEN}CRH1
 STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}복합열차구성 {RED}불가능
@@ -555,9 +559,11 @@ STR_REFIT_LIVERY_HYEL_150_SB                         : HYEL-150 바다도색
 STR_REFIT_LIVERY_AUTS                                : AUTS
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat            : 한국 표준형 지하철 롱 시트
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           : 한국 표준형 지하철 크로스 시트
-STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K                : 코레일 1세대 3X1K
+STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_A              : 코레일 1세대 3X1K
+STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_B              : 코레일 1세대 3X1K 부수객차 편성
 STR_REFIT_LIVERY_Korail_1st_VVVF_2030                : 코레일 1세대 2030
-STR_REFIT_LIVERY_Korail_1st_VVVF_5000                : 코레일 1세대 5000
+STR_REFIT_LIVERY_Korail_1st_VVVF_5000_A              : 코레일 1세대 5000
+STR_REFIT_LIVERY_Korail_1st_VVVF_5000_B              : 코레일 1세대 5000 부수객차 편성
 STR_REFIT_LIVERY_Korail_2nd_VVVF_311K                : 코레일 2세대 311K
 STR_REFIT_LIVERY_Korail_2nd_VVVF_341K                : 코레일 2세대 341K
 STR_REFIT_LIVERY_Korail_2nd_VVVF_2030                : 코레일 2세대 2030
@@ -583,7 +589,8 @@ STR_REFIT_LIVERY_Line1_K1000_Old_A                   : 초기저항 철도청 �
 STR_REFIT_LIVERY_Line1_K1000_Old_B                   : 초기저항 철도청 구도색 중기저항객차 편성
 STR_REFIT_LIVERY_Line1_S1000                         : 초기저항 서울지하철공사 도색 [비냉방]
 STR_REFIT_LIVERY_Line1_S1000_Aircon                  : 초기저항 서울지하철공사 도색 [냉방개조]
-STR_REFIT_LIVERY_Line1_Initial_1                     : 중기저항 초기형 초기도색
+STR_REFIT_LIVERY_Line1_Initial_1_A                   : 중기저항 초기형 초기도색
+STR_REFIT_LIVERY_Line1_Initial_1_B                   : 중기저항 초기형 초기도색 (초기저항 부수객차 편성)
 STR_REFIT_LIVERY_Line1_Old_1_A                       : 중기저항 초기형 구도색
 STR_REFIT_LIVERY_Line1_Old_1_B                       : 중기저항 초기형 구도색 (초기저항 부수객차 편성)
 STR_REFIT_LIVERY_Line1_Old_1_C                       : 중기저항 초기형 구도색 (전차량 동력객차)
@@ -594,11 +601,19 @@ STR_REFIT_LIVERY_Line1_New_1_B                       : 중기저항 초기형 �
 STR_REFIT_LIVERY_Line1_New_1_C                       : 중기저항 초기형 신도색 (전차량 동력객차)
 STR_REFIT_LIVERY_Line1_New_1_D                       : 중기저항 초기형 신도색 (초기저항 동력객차 편성 시) A
 STR_REFIT_LIVERY_Line1_New_1_E                       : 중기저항 초기형 신도색 (초기저항 동력객차 편성 시) B
-STR_REFIT_LIVERY_Line1_Initial_2                     : 중기저항 후기형 초기도색
+STR_REFIT_LIVERY_Line1_Initial_2_A                   : 중기저항 후기형 초기도색
+STR_REFIT_LIVERY_Line1_Initial_2_B                   : 중기저항 후기형 초기도색 (초기저항 부수객차 편성)
 STR_REFIT_LIVERY_Line1_Old_2_A                       : 중기저항 후기형 구도색
 STR_REFIT_LIVERY_Line1_Old_2_B                       : 중기저항 후기형 구도색 (초기저항 부수객차 편성)
 STR_REFIT_LIVERY_Line1_New_2_A                       : 중기저항 후기형 신도색
 STR_REFIT_LIVERY_Line1_New_2_B                       : 중기저항 후기형 신도색 (초기저항 부수객차 편성)
+STR_REFIT_LIVERY_Line1_Third_Old_A                   : 신조저항 구도색
+STR_REFIT_LIVERY_Line1_Third_Old_B                   : 신조저항 구도색 (무동력객차 편성)
+STR_REFIT_LIVERY_Line1_Third_New                     : 신조저항 신도색
+STR_REFIT_LIVERY_Line1_Rheostatic_K1000_A            : 코레일 개조저항 A
+STR_REFIT_LIVERY_Line1_Rheostatic_K1000_B            : 코레일 개조저항 B
+STR_REFIT_LIVERY_Line1_Rheostatic_S1000              : 서울교통공사 개조저항
+STR_REFIT_LIVERY_Line1_Rheostatic_S1000_1011F        : 서울교통공사 개조저항 1011F
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express  : MTR AD Tranz CAF A Type Airport Express
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung       : MTR AD Tranz CAF A Type Tung Chung
 STR_REFIT_LIVERY_MTR_DC_Cammall                      : MTR 메트로카멜 직류형 미개조형

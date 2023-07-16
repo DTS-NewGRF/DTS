@@ -1,0 +1,310 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_10car_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Line1_Initial_1_B);
+    2: return string(STR_REFIT_LIVERY_Line1_Old_1_A);
+    3: return string(STR_REFIT_LIVERY_Line1_Old_1_B);
+    4: return string(STR_REFIT_LIVERY_Line1_Old_1_C);
+    5: return string(STR_REFIT_LIVERY_Line1_Old_1_D);
+    6: return string(STR_REFIT_LIVERY_Line1_Old_1_E);
+    7: return string(STR_REFIT_LIVERY_Line1_New_1_A);
+    8: return string(STR_REFIT_LIVERY_Line1_New_1_B);
+    9: return string(STR_REFIT_LIVERY_Line1_New_1_C);
+    10: return string(STR_REFIT_LIVERY_Line1_New_1_D);
+    11: return string(STR_REFIT_LIVERY_Line1_New_1_E);
+    12: return string(STR_REFIT_LIVERY_Line1_Initial_2_A);
+    13: return string(STR_REFIT_LIVERY_Line1_Initial_2_B);
+    14: return string(STR_REFIT_LIVERY_Line1_Old_2_A);
+    15: return string(STR_REFIT_LIVERY_Line1_Old_2_B);
+    16: return string(STR_REFIT_LIVERY_Line1_New_2_A);
+    17: return string(STR_REFIT_LIVERY_Line1_New_2_B);
+    return string(STR_REFIT_LIVERY_Line1_Initial_1_A);
+}
+
+// 10량
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_10Car_engineH, cargo_subtype) {
+    1: set_Korail_Initial_1_engineH;
+    2: set_Korail_Old_1_engineH;
+    3: set_Korail_Old_1_engineH;
+    4: set_Korail_Old_1_engineH;
+    5: set_Korail_Old_1_engineH;
+    6: set_Korail_Old_1_engineH;
+    7: set_Korail_New_1_engineH;
+    8: set_Korail_New_1_engineH;
+    9: set_Korail_New_1_engineH;
+    10: set_Korail_New_1_engineH;
+    11: set_Korail_New_1_engineH;
+    12: set_Korail_Initial_2_engineH;
+    13: set_Korail_Initial_2_engineH;
+    14: set_Korail_Old_2_engineH;
+    15: set_Korail_Old_2_engineH;
+    16: set_Korail_New_2_engineH;
+    17: set_Korail_New_2_engineH;
+    set_Korail_Initial_1_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_10Car_2wagon, cargo_subtype) {
+    1: set_Korail_Initial_1_wagon_MA;
+    2: set_Korail_Old_1_wagon_MA;
+    3: set_Korail_Old_1_wagon_MA;
+    4: set_Korail_Old_1_wagon_MA;
+    5: set_Korail_Old_1_wagon_MA;
+    6: set_Korail_Old_1_wagon_MB;
+    7: set_Korail_New_1_wagon_MA;
+    8: set_Korail_New_1_wagon_MA;
+    9: set_Korail_New_1_wagon_MA;
+    10: set_Korail_New_1_wagon_MA;
+    11: set_Korail_New_1_wagon_MB;
+    12: set_Korail_Initial_2_wagon_M;
+    13: set_Korail_Initial_2_wagon_M;
+    14: set_Korail_Old_2_wagon_M;
+    15: set_Korail_Old_2_wagon_M;
+    16: set_Korail_New_2_wagon_M;
+    17: set_Korail_New_2_wagon_M;
+    set_Korail_Initial_1_wagon_MA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_10Car_3wagon, cargo_subtype) {
+    1: set_Korail_Initial_1_panto_wagon;
+    2: set_Korail_Old_1_panto_wagon_A;
+    3: set_Korail_Old_1_panto_wagon_A;
+    4: set_Korail_Old_1_panto_wagon_A;
+    5: set_Korail_Old_1_panto_wagon_A;
+    6: set_Korail_Old_1_panto_wagon_B;
+    7: set_Korail_New_1_panto_wagon_A;
+    8: set_Korail_New_1_panto_wagon_A;
+    9: set_Korail_New_1_panto_wagon_A;
+    10: set_Korail_New_1_panto_wagon_A;
+    11: set_Korail_New_1_panto_wagon_B;
+    12: set_Korail_Initial_2_panto_wagon;
+    13: set_Korail_Initial_2_panto_wagon;
+    14: set_Korail_Old_2_panto_wagon;
+    15: set_Korail_Old_2_panto_wagon;
+    16: set_Korail_New_2_panto_wagon;
+    17: set_Korail_New_2_panto_wagon;
+    set_Korail_Initial_1_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_10Car_4wagon, cargo_subtype) {
+    1: set_Korail_Initial_1_wagon_T;
+    2: set_Korail_Old_1_wagon_MA;
+    3: set_Korail_Old_1_wagon_MB;
+    4: set_Korail_Old_1_wagon_MA;
+    5: set_Korail_Old_1_wagon_MB;
+    6: set_Korail_Old_1_wagon_MB;
+    7: set_Korail_New_1_wagon_MA;
+    8: set_Korail_New_1_wagon_MB;
+    9: set_Korail_New_1_wagon_MA;
+    10: set_Korail_New_1_wagon_MB;
+    11: set_Korail_New_1_wagon_MB;
+    12: set_Korail_Initial_2_wagon_TA;
+    13: set_Korail_Initial_2_wagon_TB;
+    14: set_Korail_Old_2_wagon_TA;
+    15: set_Korail_Old_2_wagon_TB;
+    16: set_Korail_New_2_wagon_TA;
+    17: set_Korail_New_2_wagon_TB;
+    set_Korail_Initial_1_wagon_MA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_10Car_5wagon, cargo_subtype) {
+    1: set_Korail_Initial_1_wagon_MA;
+    2: set_Korail_Old_1_wagon_MA;
+    3: set_Korail_Old_1_wagon_MA;
+    4: set_Korail_Old_1_panto_wagon_A;
+    5: set_Korail_Old_1_wagon_MA;
+    6: set_Korail_Old_1_wagon_MA;
+    7: set_Korail_New_1_wagon_MA;
+    8: set_Korail_New_1_wagon_MA;
+    9: set_Korail_New_1_panto_wagon_A;
+    10: set_Korail_New_1_wagon_MA;
+    11: set_Korail_New_1_wagon_MA;
+    12: set_Korail_Initial_2_wagon_M;
+    13: set_Korail_Initial_2_wagon_M;
+    14: set_Korail_Old_2_wagon_M;
+    15: set_Korail_Old_2_wagon_M;
+    16: set_Korail_New_2_wagon_M;
+    17: set_Korail_New_2_wagon_M;
+    set_Korail_Initial_1_wagon_MA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_10Car_6wagon, cargo_subtype) {
+    1: set_Korail_Initial_1_panto_wagon;
+    2: set_Korail_Old_1_panto_wagon_A;
+    3: set_Korail_Old_1_panto_wagon_A;
+    4: set_Korail_Old_1_wagon_MA;
+    5: set_Korail_Old_1_panto_wagon_A;
+    6: set_Korail_Old_1_panto_wagon_A;
+    7: set_Korail_New_1_panto_wagon_A;
+    8: set_Korail_New_1_panto_wagon_A;
+    9: set_Korail_New_1_wagon_MA;
+    10: set_Korail_New_1_panto_wagon_A;
+    11: set_Korail_New_1_panto_wagon_A;
+    12: set_Korail_Initial_2_panto_wagon;
+    13: set_Korail_Initial_2_panto_wagon;
+    14: set_Korail_Old_2_panto_wagon;
+    15: set_Korail_Old_2_panto_wagon;
+    16: set_Korail_New_2_panto_wagon;
+    17: set_Korail_New_2_panto_wagon;
+    set_Korail_Initial_1_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_10Car_7wagon, cargo_subtype) {
+    1: set_Korail_Initial_1_wagon_T;
+    2: set_Korail_Old_1_wagon_MA;
+    3: set_Korail_Old_1_wagon_MB;
+    4: set_Korail_Old_1_panto_wagon_A;
+    5: set_Korail_Old_1_wagon_MB;
+    6: set_Korail_Old_1_wagon_MB;
+    7: set_Korail_New_1_wagon_MA;
+    8: set_Korail_New_1_wagon_MB;
+    9: set_Korail_New_1_panto_wagon_A;
+    10: set_Korail_New_1_wagon_MB;
+    11: set_Korail_New_1_wagon_MB;
+    12: set_Korail_Initial_2_wagon_TA;
+    13: set_Korail_Initial_2_wagon_TB;
+    14: set_Korail_Old_2_wagon_TA;
+    15: set_Korail_Old_2_wagon_TB;
+    16: set_Korail_New_2_wagon_TA;
+    17: set_Korail_New_2_wagon_TB;
+    set_Korail_Initial_1_wagon_MA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_10Car_8wagon, cargo_subtype) {
+    1: set_Korail_Initial_1_wagon_MA;
+    2: set_Korail_Old_1_wagon_MA;
+    3: set_Korail_Old_1_wagon_MA;
+    4: set_Korail_Old_1_wagon_MA;
+    5: set_Korail_Old_1_wagon_MB;
+    6: set_Korail_Old_1_wagon_MA;
+    7: set_Korail_New_1_wagon_MA;
+    8: set_Korail_New_1_wagon_MA;
+    9: set_Korail_New_1_wagon_MA;
+    10: set_Korail_New_1_wagon_MB;
+    11: set_Korail_New_1_wagon_MA;
+    12: set_Korail_Initial_2_wagon_M;
+    13: set_Korail_Initial_2_wagon_M;
+    14: set_Korail_Old_2_wagon_M;
+    15: set_Korail_Old_2_wagon_M;
+    16: set_Korail_New_2_wagon_M;
+    17: set_Korail_New_2_wagon_M;
+    set_Korail_Initial_1_wagon_MA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_10Car_9wagon, cargo_subtype) {
+    1: set_Korail_Initial_1_panto_wagon;
+    2: set_Korail_Old_1_panto_wagon_A;
+    3: set_Korail_Old_1_panto_wagon_A;
+    4: set_Korail_Old_1_panto_wagon_A;
+    5: set_Korail_Old_1_panto_wagon_B;
+    6: set_Korail_Old_1_panto_wagon_A;
+    7: set_Korail_New_1_panto_wagon_A;
+    8: set_Korail_New_1_panto_wagon_A;
+    9: set_Korail_New_1_panto_wagon_A;
+    10: set_Korail_New_1_panto_wagon_B;
+    11: set_Korail_New_1_panto_wagon_A;
+    12: set_Korail_Initial_2_panto_wagon;
+    13: set_Korail_Initial_2_panto_wagon;
+    14: set_Korail_Old_2_panto_wagon;
+    15: set_Korail_Old_2_panto_wagon;
+    16: set_Korail_New_2_panto_wagon;
+    17: set_Korail_New_2_panto_wagon;
+    set_Korail_Initial_1_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_10Car_engineT, cargo_subtype) {
+    1: set_Korail_Initial_1_engineT;
+    2: set_Korail_Old_1_engineT;
+    3: set_Korail_Old_1_engineT;
+    4: set_Korail_Old_1_engineT;
+    5: set_Korail_Old_1_engineT;
+    6: set_Korail_Old_1_engineT;
+    7: set_Korail_New_1_engineT;
+    8: set_Korail_New_1_engineT;
+    9: set_Korail_New_1_engineT;
+    10: set_Korail_New_1_engineT;
+    11: set_Korail_New_1_engineT;
+    12: set_Korail_Initial_2_engineT;
+    13: set_Korail_Initial_2_engineT;
+    14: set_Korail_Old_2_engineT;
+    15: set_Korail_Old_2_engineT;
+    16: set_Korail_New_2_engineT;
+    17: set_Korail_New_2_engineT;
+    set_Korail_Initial_1_engineT;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_4car, position_in_vehid_chain % 4) {
+    1:set_Korail_Initial_1_wagon_MA;
+    2:set_Korail_Initial_1_panto_wagon;
+    3:set_Korail_Initial_1_engineT;
+    set_Korail_Initial_1_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_6car, position_in_vehid_chain % 6) {
+    1:set_Korail_Initial_1_wagon_MA;
+    2:set_Korail_Initial_1_panto_wagon;
+    3:set_Korail_Initial_1_wagon_MA;
+    4:set_Korail_Initial_1_panto_wagon;
+    5:set_Korail_Initial_1_engineT;
+    set_Korail_Initial_1_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_8car, position_in_vehid_chain % 8) {
+    1:set_Korail_Initial_1_wagon_MA;
+    2:set_Korail_Initial_1_panto_wagon;
+    3:set_Korail_Initial_1_wagon_MA;
+    4:set_Korail_Initial_1_panto_wagon;
+    5:set_Korail_Initial_1_wagon_MA;
+    6:set_Korail_Initial_1_panto_wagon;
+    7:set_Korail_Initial_1_engineT;
+    set_Korail_Initial_1_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_10car, position_in_vehid_chain % 10) {
+    1:sw_Rheostatic_Line1_Second_10Car_2wagon;
+    2:sw_Rheostatic_Line1_Second_10Car_3wagon;
+    3:sw_Rheostatic_Line1_Second_10Car_4wagon;
+    4:sw_Rheostatic_Line1_Second_10Car_5wagon;
+    5:sw_Rheostatic_Line1_Second_10Car_6wagon;
+    6:sw_Rheostatic_Line1_Second_10Car_7wagon;
+    7:sw_Rheostatic_Line1_Second_10Car_8wagon;
+    8:sw_Rheostatic_Line1_Second_10Car_9wagon;
+    9:sw_Rheostatic_Line1_Second_10Car_engineT;
+    sw_Rheostatic_Line1_Second_10Car_engineH; //default
+    }
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_Rheostatic_Line1_Second_4car, extra_callback_info1) {
+    1..3: Rheostatic_Line1_Second_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Rheostatic_Line1_Second_6car, extra_callback_info1) {
+    1..5: Rheostatic_Line1_Second_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Rheostatic_Line1_Second_8car, extra_callback_info1) {
+    1..7: Rheostatic_Line1_Second_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Rheostatic_Line1_Second_10car, extra_callback_info1) {
+    1..9: Rheostatic_Line1_Second_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_attach, vehicle_type_id) {
+    Rheostatic_Line1_Second_4Car:   return CB_RESULT_ATTACH_ALLOW;
+    Rheostatic_Line1_Second_6Car:   return CB_RESULT_ATTACH_ALLOW;
+    Rheostatic_Line1_Second_8Car:   return CB_RESULT_ATTACH_ALLOW;
+    Rheostatic_Line1_Second_10Car:  return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}
+
+switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DCMOTERBASICstart.wav");
+    return CB_RESULT_NO_SOUND;
+    }

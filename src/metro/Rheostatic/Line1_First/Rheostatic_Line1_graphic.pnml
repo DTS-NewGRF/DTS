@@ -51,12 +51,8 @@ spriteset(set_Korail_K1000_Initial_Aircon_MB_panto_wagon, "src/metro/Rheostatic/
     wagon_1F_F(80, 108)
 }
 
-spriteset(set_Korail_K1000_Initial_Aircon_T_wagon, "src/metro/Rheostatic/Line1_First/Korail_K1000_Initial_Aircon.png"){
-    engine(80, 135)
-}
-
 spriteset(set_Korail_K1000_Initial_Aircon_engineT, "src/metro/Rheostatic/Line1_First/Korail_K1000_Initial_Aircon.png"){
-    engine(80, 162)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------
@@ -82,12 +78,8 @@ spriteset(set_Korail_K1000_Old_MB_panto_wagon, "src/metro/Rheostatic/Line1_First
     wagon_1F_F(80, 108)
 }
 
-spriteset(set_Korail_K1000_Old_T_wagon, "src/metro/Rheostatic/Line1_First/Korail_K1000_Old.png"){
-    engine(80, 135)
-}
-
 spriteset(set_Korail_K1000_Old_engineT, "src/metro/Rheostatic/Line1_First/Korail_K1000_Old.png"){
-    engine(80, 162)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------
@@ -124,12 +116,8 @@ spriteset(set_S1000_Aircon_M_panto_wagon, "src/metro/Rheostatic/Line1_First/S100
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_S1000_Aircon_T_wagon, "src/metro/Rheostatic/Line1_First/S1000_Aircon.png"){
-    engine(80, 81)
-}
-
 spriteset(set_S1000_Aircon_engineT, "src/metro/Rheostatic/Line1_First/S1000_Aircon.png"){
-    engine(80, 108)
+    engine(80, 81)
 }
 
 /*--------------------------------------------------------------------

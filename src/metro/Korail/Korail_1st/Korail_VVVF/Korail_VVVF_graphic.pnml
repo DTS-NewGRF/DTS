@@ -24,8 +24,12 @@ spriteset(set_Korail_1st_VVVF_3X1K_panto_wagon, "src/metro/Korail/Korail_1st/Kor
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Korail_1st_VVVF_3X1K_engineT, "src/metro/Korail/Korail_1st/Korail_VVVF/Korail_3X1K.png"){
+spriteset(set_Korail_1st_VVVF_3X1K_wagon_T, "src/metro/Korail/Korail_1st/Korail_VVVF/Korail_3X1K.png"){
     engine(80, 81)
+}
+
+spriteset(set_Korail_1st_VVVF_3X1K_engineT, "src/metro/Korail/Korail_1st/Korail_VVVF/Korail_3X1K.png"){
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------
@@ -77,8 +81,12 @@ spriteset(set_Korail_1st_VVVF_5000_panto_wagon, "src/metro/Korail/Korail_1st/Kor
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Korail_1st_VVVF_5000_engineT, "src/metro/Korail/Korail_1st/Korail_VVVF/Korail_5000.png"){
+spriteset(set_Korail_1st_VVVF_5000_wagon_T, "src/metro/Korail/Korail_1st/Korail_VVVF/Korail_5000.png"){
     engine(80, 81)
+}
+
+spriteset(set_Korail_1st_VVVF_5000_engineT, "src/metro/Korail/Korail_1st/Korail_VVVF/Korail_5000.png"){
+    engine(80, 108)
 }
 
 /*--------------------------------------------------------------------

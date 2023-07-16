@@ -194,6 +194,8 @@ STR_Rheostatic_Line1_Second_4Car_NAME                :[DTS] Line1 Rheostatic EMU
 STR_Rheostatic_Line1_Second_6Car_NAME                :[DTS] Line1 Rheostatic EMU [Second] 6Car
 STR_Rheostatic_Line1_Second_8Car_NAME                :[DTS] Line1 Rheostatic EMU [Second] 8Car
 STR_Rheostatic_Line1_Second_10Car_NAME               :[DTS] Line1 Rheostatic EMU [Second] 10Car
+STR_Rheostatic_Line1_Third_10Car_NAME                :[DTS] Line1 Rheostatic EMU [Third] 10Car
+STR_Rheostatic_Line1_Rheostatic_10Car_NAME           :[DTS] Line1 Rheostatic EMU [Rheostatic] 10Car
 STR_MTR_AD_Tranz_CAF_A_8Car_NAME                     :[DTS] MTR AD Tranz CAF A Type 8Car
 STR_MTR_AC_Cammall_8Car_NAME                         :[DTS] MTR Cammall AC Train 8Car
 STR_MTR_DC_Cammall_8Car_NAME                         :[DTS] MTR Cammall DC Train 8Car
@@ -325,6 +327,8 @@ STR_REFIT_ADDITIONAL_Korail_4th_VVVF                 :{BLACK}Combined train {GRE
 STR_REFIT_ADDITIONAL_Korail_5th_VVVF                 :{BLACK}Combined train {GREEN}Korail 5th VVVF
 STR_REFIT_ADDITIONAL_Rheostatic_Line1                :{BLACK}Combined train {GREEN}Line1 Rheostatic EMU
 STR_REFIT_ADDITIONAL_Rheostatic_Line1_Second         :{BLACK}Combined train {GREEN}Line1 Rheostatic EMU Second
+STR_REFIT_ADDITIONAL_Rheostatic_Line1_Third          :{BLACK}Combined train {GREEN}Line1 Rheostatic EMU Third
+STR_REFIT_ADDITIONAL_Rheostatic_Line1_Rheostatic     :{BLACK}Combined train {GREEN}Line1 Rheostatic EMU Rheostatic
 STR_REFIT_ADDITIONAL_MSB_Speeder                     :{BLACK}Combined train {GREEN}MSB Speeder
 STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}Combined train {GREEN}CRH1
 STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}Combined train {RED}Unavailable
@@ -558,9 +562,11 @@ STR_REFIT_LIVERY_HYEL_150_SB                         : HYEL-150 Sea Livery
 STR_REFIT_LIVERY_AUTS                                : AUTS
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat            : Standard MetroLong Long Seat
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           : Standard MetroLong Cross Seat
-STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K                : Korail 1st 3X1K
+STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_A              : Korail 1st 3X1K A
+STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_B              : Korail 1st 3X1K B
 STR_REFIT_LIVERY_Korail_1st_VVVF_2030                : Korail 1st 2030
-STR_REFIT_LIVERY_Korail_1st_VVVF_5000                : Korail 1st 5000
+STR_REFIT_LIVERY_Korail_1st_VVVF_5000_A              : Korail 1st 5000 A
+STR_REFIT_LIVERY_Korail_1st_VVVF_5000_B              : Korail 1st 5000 B
 STR_REFIT_LIVERY_Korail_2nd_VVVF_311K                : Korail 2nd 311K
 STR_REFIT_LIVERY_Korail_2nd_VVVF_341K                : Korail 2nd 341K
 STR_REFIT_LIVERY_Korail_2nd_VVVF_2030                : Korail 2nd 2030
@@ -586,7 +592,8 @@ STR_REFIT_LIVERY_Line1_K1000_Old_A                   : First EMU KNR 2nd livery 
 STR_REFIT_LIVERY_Line1_K1000_Old_B                   : First EMU KNR 2nd livery B
 STR_REFIT_LIVERY_Line1_S1000                         : First EMU Seoul metro livery
 STR_REFIT_LIVERY_Line1_S1000_Aircon                  : First EMU Seoul metro livery Aircon
-STR_REFIT_LIVERY_Line1_Initial_1                     : Second EMU KNR 1st livery
+STR_REFIT_LIVERY_Line1_Initial_1_A                   : Second EMU KNR 1st livery A
+STR_REFIT_LIVERY_Line1_Initial_1_B                   : Second EMU KNR 1st livery B
 STR_REFIT_LIVERY_Line1_Old_1_A                       : Second EMU KNR 2nd livery A
 STR_REFIT_LIVERY_Line1_Old_1_B                       : Second EMU KNR 2nd livery B
 STR_REFIT_LIVERY_Line1_Old_1_C                       : Second EMU KNR 2nd livery C
@@ -597,11 +604,19 @@ STR_REFIT_LIVERY_Line1_New_1_B                       : Second EMU KNR 1st Curren
 STR_REFIT_LIVERY_Line1_New_1_C                       : Second EMU KNR 1st Current livery C
 STR_REFIT_LIVERY_Line1_New_1_D                       : Second EMU KNR 1st Current livery D
 STR_REFIT_LIVERY_Line1_New_1_E                       : Second EMU KNR 1st Current livery E
-STR_REFIT_LIVERY_Line1_Initial_2                     : Second EMU KNR 1st Last livery
+STR_REFIT_LIVERY_Line1_Initial_2_A                   : Second EMU KNR 1st Last livery A
+STR_REFIT_LIVERY_Line1_Initial_2_B                   : Second EMU KNR 1st Last livery B
 STR_REFIT_LIVERY_Line1_Old_2_A                       : Second EMU KNR 2st Last livery A
 STR_REFIT_LIVERY_Line1_Old_2_B                       : Second EMU KNR 2st Last livery B
 STR_REFIT_LIVERY_Line1_New_2_A                       : Second EMU KNR 2st Last Current livery A
 STR_REFIT_LIVERY_Line1_New_2_B                       : Second EMU KNR 2st Last Current livery B
+STR_REFIT_LIVERY_Line1_Third_Old_A                   : last EMU KNR 2nd livery A
+STR_REFIT_LIVERY_Line1_Third_Old_B                   : last EMU KNR 2nd livery B
+STR_REFIT_LIVERY_Line1_Third_New                     : last EMU Current livery
+STR_REFIT_LIVERY_Line1_Rheostatic_K1000_A            : Korail Rheostatic EMU A
+STR_REFIT_LIVERY_Line1_Rheostatic_K1000_B            : Korail Rheostatic EMU B
+STR_REFIT_LIVERY_Line1_Rheostatic_S1000              : Seoul metro Rheostatic EMU livery
+STR_REFIT_LIVERY_Line1_Rheostatic_S1000_1011F        : Seoul metro Rheostatic EMU livery 1011F
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express  : MTR AD Tranz CAF A Type Airport Express
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung       : MTR AD Tranz CAF A Type Tung Chung
 STR_REFIT_LIVERY_MTR_DC_Cammall                      : MTR Cammall DC Type no remoding Car

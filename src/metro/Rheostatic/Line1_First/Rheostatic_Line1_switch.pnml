@@ -69,16 +69,6 @@ switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_10Car_panto_M_wagon, cargo_subtype
     set_Korail_K1000_Initial_panto_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_10Car_T_wagon, cargo_subtype) {
-    1: set_Korail_K1000_Initial_Aircon_T_wagon;
-    2: set_Korail_K1000_Initial_Aircon_T_wagon;
-    3: set_Korail_K1000_Old_T_wagon;
-    4: set_Korail_K1000_Old_T_wagon;
-    5: set_S1000_wagon;
-    6: set_S1000_Aircon_T_wagon;
-    set_Korail_K1000_Initial_wagon;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_10Car_engineT, cargo_subtype) {
     1: set_Korail_K1000_Initial_Aircon_engineT;
     2: set_Korail_K1000_Initial_Aircon_engineT;
@@ -120,10 +110,10 @@ switch (FEAT_TRAINS, SELF, sw_Rheostatic_Line1_8car, position_in_vehid_chain % 8
 switch (FEAT_TRAINS, SELF, sw_Rheostatic_Line1_10car, position_in_vehid_chain % 10) {
     1:sw_Rheostatic_Line1_10Car_M_wagon;
     2:sw_Rheostatic_Line1_10Car_panto_M_wagon;
-    3:sw_Rheostatic_Line1_10Car_T_wagon;
+    3:sw_Rheostatic_Line1_10Car_M_wagon;
     4:sw_Rheostatic_Line1_10Car_M_wagon;
     5:sw_Rheostatic_Line1_10Car_panto_M_wagon;
-    6:sw_Rheostatic_Line1_10Car_T_wagon;
+    6:sw_Rheostatic_Line1_10Car_M_wagon;
     7:sw_Rheostatic_Line1_10Car_M_wagon;
     8:sw_Rheostatic_Line1_10Car_panto_M_wagon;
     9:sw_Rheostatic_Line1_10Car_engineT;
