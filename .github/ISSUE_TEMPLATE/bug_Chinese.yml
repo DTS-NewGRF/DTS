@@ -1,0 +1,61 @@
+name: "[버그사항] 중국형 "
+description: DTS중 중국형 열차에 버그사항을 찾으셨습니까?
+title: "[버그]"
+labels: "bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        버그사항 접수해주셔서 감사합니다.!
+  - type: dropdown
+    attributes:
+      label: 중국형 열차 선택
+      description: 중국형 열차에 해당하면 선택해주세요.
+      options:
+        - '[DTS/단량] HXD3C'
+        - '[DTS/단량] NJ2'
+        - '[DTS/8량] CRH1A'
+        - '[DTS/16량] CRH1E'
+        - '[DTS/8량] CRH1A-A'
+        - '[DTS/8량] CRH2A'
+        - '[DTS/16량] CRH2B'
+        - '[DTS/8량] CRH2C'
+        - '[DTS/8량] CRH3C'
+        - '[DTS/8량] CRH380A'
+        - '[DTS/16량] CRH380AL'
+        - '[DTS/8량] CRH380B'
+        - '[DTS/16량] CRH380BL'
+        - '[DTS/16량] CRH380CL'
+        - '[DTS] CRH380D (그룹)'
+        - '[DTS/8량] CRH380D'
+        - '[DTS/16량] CRH380D'
+        - '[DTS] CR400AF (그룹)'
+        - '[DTS/8량] CR400AF'
+        - '[DTS/16량] CR400AF'
+        - '[DTS/17량] CR400AF'
+        - '[DTS] CR400AF-Z (그룹)'
+        - '[DTS/8량] CR400AF-Z'
+        - '[DTS/17량] CR400AF-Z'
+        - '[DTS] CR400BF (그룹)'
+        - '[DTS/8량] CR400BF'
+        - '[DTS/16량] CR400BF'
+        - '[DTS/17량] CR400BF'
+        - '[DTS/8량] CR400BF-C'
+        - '[DTS] CR400BF-Z (그룹)'
+        - '[DTS/8량] CR400BF-Z'
+        - '[DTS/17량] CR400BF-Z'
+        - '[DTS/8량] CRH380AJ'
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 버그사항
+      description: 문제가 발생한 버그사항. 필요시 스샷 첨부
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 개선점
+      description: 개선될 사항을 알려주세요.
+    validations:
+      required: true

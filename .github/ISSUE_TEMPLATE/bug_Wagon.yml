@@ -1,0 +1,51 @@
+name: "[버그사항] 객화차형"
+description: DTS중 객화차형 열차에 버그사항을 찾으셨습니까?
+title: "[버그]"
+labels: "bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        버그사항 접수해주셔서 감사합니다.!
+  - type: dropdown
+    attributes:
+      label: 객화차 선택
+      description: 객화차에 해당하면 선택해주세요.
+      options:
+        - '[DTS] 관광열차 (그룹)'
+        - '[DTS/관광객차] 에코레일'
+        - '[DTS/관광객차] 충북영동국악와인'
+        - '[DTS/관광객차] 정선아리랑 유람열차'
+        - '[DTS/관광객차] E-Train'
+        - '[DTS/관광객차] 와인인삼트레인'
+        - '[DTS/관광객차] 와인시네마트레인'
+        - '[DTS/관광객차] 레이디버드'
+        - '[DTS/관광객차] S-Train 신도색'
+        - '[DTS/관광객차] A-Train 신도색'
+        - '[DTS/관광객차] G-Train 신도색'
+        - '[DTS/기관차연결] 가상 객차 차량'
+        - '[DTS/기관차연결] 한국 무궁화호 객차 차량'
+        - '[DTS/기관차연결] 한국 새마을호 객차 차량'
+        - '[DTS/기관차연결] 중국 객차 차량'
+        - '[DTS/기관차연결] 유럽 객차 차량'
+        - '[DTS/기관차연결] 한국 발전차'
+        - '[DTS/기관차연결] 중국 발전차'
+        - '[DTS/기관차연결] 한국 수화물차'
+        - '[DTS/기관차연결] 중국 수화물차'
+        - '[DTS/기관차연결] 평판화차'
+        - '[DTS/기관차연결] 평판유조 화차'
+        - '[DTS/기관차연결] 평판화차 - 미국형'
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 버그사항
+      description: 문제가 발생한 버그사항. 필요시 스샷 첨부
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 개선점
+      description: 개선될 사항을 알려주세요.
+    validations:
+      required: true

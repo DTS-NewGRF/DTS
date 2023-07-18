@@ -1,0 +1,36 @@
+name: "[버그사항] 홍콩형 "
+description: DTS중 홍콩형 열차에 버그사항을 찾으셨습니까?
+title: "[버그]"
+labels: "bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        버그사항 접수해주셔서 감사합니다.!
+  - type: dropdown
+    attributes:
+      label: 홍콩형 열차 선택
+      description: 홍콩형 열차에 해당하면 선택해주세요.
+      options:
+        - '[DTS/8량] 홍콩 MTR AD Tranz CAF A형'
+        - '[DTS/8량] 홍콩 MTR 메트로카멜 교류형 전동차'
+        - '[DTS/8량] 홍콩 MTR 메트로카멜 직류형 전동차'
+        - '[DTS/8량] 홍콩 MTR CNR 창춘 전동차'
+        - '[DTS/8량] 홍콩 MTR CRRC 전동차'
+        - '[DTS/8량] 홍콩 MTR 현대로템 미쓰비시 전동차'
+        - '[DTS/8량] 홍콩 MTR 현대로템 R형 전동차'
+        - '[DTS/8량] 홍콩 MTR IKK SP 1900'
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 버그사항
+      description: 문제가 발생한 버그사항. 필요시 스샷 첨부
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 개선점
+      description: 개선될 사항을 알려주세요.
+    validations:
+      required: true
