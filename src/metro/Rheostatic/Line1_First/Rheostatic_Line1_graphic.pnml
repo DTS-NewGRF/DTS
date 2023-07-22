@@ -17,7 +17,7 @@ spriteset(set_Korail_K1000_Initial_engineH, "src/metro/Rheostatic/Line1_First/Ko
 }
 
 spriteset(set_Korail_K1000_Initial_wagon, "src/metro/Rheostatic/Line1_First/Korail_K1000_Initial.png"){
-    engine(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_Korail_K1000_Initial_panto_wagon, "src/metro/Rheostatic/Line1_First/Korail_K1000_Initial.png"){
@@ -44,7 +44,7 @@ spriteset(set_Korail_K1000_Initial_Aircon_MA_panto_wagon, "src/metro/Rheostatic/
 }
 
 spriteset(set_Korail_K1000_Initial_Aircon_MB_wagon, "src/metro/Rheostatic/Line1_First/Korail_K1000_Initial_Aircon.png"){
-    engine(80, 81)
+    wagon_1F_F(80, 81)
 }
 
 spriteset(set_Korail_K1000_Initial_Aircon_MB_panto_wagon, "src/metro/Rheostatic/Line1_First/Korail_K1000_Initial_Aircon.png"){
@@ -63,7 +63,7 @@ spriteset(set_Korail_K1000_Old_engineH, "src/metro/Rheostatic/Line1_First/Korail
 }
 
 spriteset(set_Korail_K1000_Old_MA_wagon, "src/metro/Rheostatic/Line1_First/Korail_K1000_Old.png"){
-    engine(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_Korail_K1000_Old_MA_panto_wagon, "src/metro/Rheostatic/Line1_First/Korail_K1000_Old.png"){
@@ -71,7 +71,7 @@ spriteset(set_Korail_K1000_Old_MA_panto_wagon, "src/metro/Rheostatic/Line1_First
 }
 
 spriteset(set_Korail_K1000_Old_MB_wagon, "src/metro/Rheostatic/Line1_First/Korail_K1000_Old.png"){
-    engine(80, 81)
+    wagon_1F_F(80, 81)
 }
 
 spriteset(set_Korail_K1000_Old_MB_panto_wagon, "src/metro/Rheostatic/Line1_First/Korail_K1000_Old.png"){
@@ -90,7 +90,7 @@ spriteset(set_S1000_engineH, "src/metro/Rheostatic/Line1_First/S1000.png"){
 }
 
 spriteset(set_S1000_wagon, "src/metro/Rheostatic/Line1_First/S1000.png"){
-    engine(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_S1000_panto_wagon, "src/metro/Rheostatic/Line1_First/S1000.png"){
@@ -109,7 +109,7 @@ spriteset(set_S1000_Aircon_engineH, "src/metro/Rheostatic/Line1_First/S1000_Airc
 }
 
 spriteset(set_S1000_Aircon_M_wagon, "src/metro/Rheostatic/Line1_First/S1000_Aircon.png"){
-    engine(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_S1000_Aircon_M_panto_wagon, "src/metro/Rheostatic/Line1_First/S1000_Aircon.png"){

@@ -39,11 +39,13 @@
 
 //Metro
 #include "metro/AUTS/AUTS.pnml"
-#include "metro/Korail/Korail_1st/Korail_VVVF/Korail_VVVF.pnml"
-#include "metro/Korail/Korail_2nd/Korail_VVVF/Korail_VVVF.pnml"
-#include "metro/Korail/Korail_3rd/Korail_VVVF/Korail_VVVF.pnml"
-#include "metro/Korail/Korail_4th/Korail_VVVF/Korail_VVVF.pnml"
-#include "metro/Korail/Korail_5th/Korail_VVVF/Korail_VVVF.pnml"
+#include "metro/VVVF/Korail_1st/Korail_VVVF_1st.pnml"
+#include "metro/VVVF/Korail_2nd/Korail_VVVF_2nd.pnml"
+#include "metro/VVVF/Korail_3rd/Korail_VVVF_3rd.pnml"
+#include "metro/VVVF/Korail_4th/Korail_VVVF_4th.pnml"
+#include "metro/VVVF/Korail_5th/Korail_VVVF_5th.pnml"
+#include "metro/VVVF/Seoulmetro_1st/Seoulmetro_1st.pnml"
+#include "metro/VVVF/Seoulmetro_2nd/Seoulmetro_2nd.pnml"
 #include "metro/Rheostatic/Line1_First/Rheostatic_Line1.pnml"
 #include "metro/Rheostatic/Line1_Second/Rheostatic_Line1_Second.pnml"
 #include "metro/Rheostatic/Line1_Third/Rheostatic_Line1_Third.pnml"

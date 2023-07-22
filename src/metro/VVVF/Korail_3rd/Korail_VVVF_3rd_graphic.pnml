@@ -1,0 +1,198 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Korail_3rd_VVVF_purchase, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_ST.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Korail_3rd_VVVF_G2_purchase, "src/metro/VVVF/Korail_3rd/Korail_Generation_2.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+한국철도공사 3세대 1차분 스테인레스
+--------------------------------------------------------------------*/
+spriteset(set_Korail_3rd_VVVF_G1_ST_engineH, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_ST.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_ST_wagon, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_ST.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_ST_panto_wagon_DOB, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_ST.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_ST_panto_wagon_DOB1, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_ST.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_ST_panto_wagon_DOB2, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_ST.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_ST_panto_wagon_SIN_4car, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_ST.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_ST_panto_wagon_SIN, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_ST.png"){
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_ST_engineT, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_ST.png"){
+    engine(80, 189)
+}
+
+/*--------------------------------------------------------------------
+한국철도공사 3세대 1차분 알루미늄 311k
+--------------------------------------------------------------------*/
+spriteset(set_Korail_3rd_VVVF_G1_AL_311K_engineH, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_311K.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_AL_311K_wagon_A, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_311K.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_AL_311K_panto_wagon_DOB_A, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_311K.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_AL_311K_wagon_B, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_311K.png"){
+    engine(80, 81)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_AL_311K_panto_wagon_DOB_B, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_311K.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_AL_311K_engineT, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_311K.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+한국철도공사 3세대 1차분 알루미늄 331k
+--------------------------------------------------------------------*/
+spriteset(set_Korail_3rd_VVVF_G1_AL_331K_engineH, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_331K.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_AL_331K_wagon, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_331K.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_AL_331K_panto_wagon, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_331K.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_AL_331K_engineT, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_331K.png"){
+    engine(80, 81)
+}
+
+/*--------------------------------------------------------------------
+한국철도공사 3세대 1차분 알루미늄 361k
+--------------------------------------------------------------------*/
+spriteset(set_Korail_3rd_VVVF_G1_AL_361k_engineH, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_361K.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_AL_361k_wagon, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_361K.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_AL_361k_panto_wagon, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_361K.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_3rd_VVVF_G1_AL_361k_engineT, "src/metro/VVVF/Korail_3rd/Korail_Generation_1_AL_361K.png"){
+    engine(80, 81)
+}
+
+/*--------------------------------------------------------------------
+한국철도공사 3세대 2차분
+--------------------------------------------------------------------*/
+spriteset(set_Korail_3rd_VVVF_G2_engineH, "src/metro/VVVF/Korail_3rd/Korail_Generation_2.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_3rd_VVVF_G2_panto_wagon_A, "src/metro/VVVF/Korail_3rd/Korail_Generation_2.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Korail_3rd_VVVF_G2_panto_wagon_B, "src/metro/VVVF/Korail_3rd/Korail_Generation_2.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_3rd_VVVF_G2_engineT, "src/metro/VVVF/Korail_3rd/Korail_Generation_2.png"){
+    engine(80, 81)
+}
+
+/*--------------------------------------------------------------------
+한국철도공사 3세대 자전거 도색 8량
+--------------------------------------------------------------------*/
+spriteset(set_Korail_3rd_VVVF_Bike_engineH, "src/metro/VVVF/Korail_3rd/Bike_Train.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_3rd_VVVF_Bike_2wagon, "src/metro/VVVF/Korail_3rd/Bike_Train.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_3rd_VVVF_Bike_3wagon, "src/metro/VVVF/Korail_3rd/Bike_Train.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_3rd_VVVF_Bike_4wagon, "src/metro/VVVF/Korail_3rd/Bike_Train.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Korail_3rd_VVVF_Bike_5wagon, "src/metro/VVVF/Korail_3rd/Bike_Train.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Korail_3rd_VVVF_Bike_6wagon, "src/metro/VVVF/Korail_3rd/Bike_Train.png"){
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Korail_3rd_VVVF_Bike_7wagon, "src/metro/VVVF/Korail_3rd/Bike_Train.png"){
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_Korail_3rd_VVVF_Bike_engineT, "src/metro/VVVF/Korail_3rd/Bike_Train.png"){
+    engine(80, 243)
+}
+
+/*--------------------------------------------------------------------
+한국철도공사 3세대 민원전철 365 10량
+--------------------------------------------------------------------*/
+spriteset(set_Korail_3rd_VVVF_Civil_complaint_365_engineH, "src/metro/VVVF/Korail_3rd/Civil_complaint_365.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_3rd_VVVF_Civil_complaint_365_wagon, "src/metro/VVVF/Korail_3rd/Civil_complaint_365.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Korail_3rd_VVVF_Civil_complaint_365_wagon_T1, "src/metro/VVVF/Korail_3rd/Civil_complaint_365.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_3rd_VVVF_Civil_complaint_365_panto_wagon, "src/metro/VVVF/Korail_3rd/Civil_complaint_365.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_3rd_VVVF_Civil_complaint_365_engineT, "src/metro/VVVF/Korail_3rd/Civil_complaint_365.png"){
+    engine(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Korail_3rd_VVVF_purchase, cargo_subtype) {
+    set_Korail_3rd_VVVF_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_3rd_VVVF_G2_purchase, cargo_subtype) {
+    set_Korail_3rd_VVVF_G2_purchase;
+}

@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_2nd_purchase, "src/metro/VVVF/Seoulmetro_2nd/Seoulmetro_2nd_4000.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+서울교통공사 4000호대
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_2nd_4000_engineH, "src/metro/VVVF/Seoulmetro_2nd/Seoulmetro_2nd_4000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Seoulmetro_2nd_4000_panto_wagon, "src/metro/VVVF/Seoulmetro_2nd/Seoulmetro_2nd_4000.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Seoulmetro_2nd_4000_wagon, "src/metro/VVVF/Seoulmetro_2nd/Seoulmetro_2nd_4000.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Seoulmetro_2nd_4000_engineT, "src/metro/VVVF/Seoulmetro_2nd/Seoulmetro_2nd_4000.png"){
+    engine(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_purchase, cargo_subtype) {
+    set_Seoulmetro_2nd_purchase;
+}

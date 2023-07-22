@@ -2,17 +2,17 @@
 YTRO 100
 --------------------------------------------------------------------*/
 // Graphics
-#include "Korail_VVVF_graphic.pnml"
+#include "Seoulmetro_1st_graphic.pnml"
 
 // Switch
-#include "Korail_VVVF_switch.pnml"
+#include "Seoulmetro_1st_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_2nd_VVVF, 2234){
+item(FEAT_TRAINS, Seoulmetro_1st_VVVF, 2255){
     property {
-        name:                           string(STR_Group_Korail_2nd_VVVF_NAME);
+        name:                           string(STR_Group_Seoulmetro_1st_VVVF_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -21,22 +21,22 @@ item(FEAT_TRAINS, Korail_2nd_VVVF, 2234){
         }
 
     graphics {
-        purchase:                       sw_Korail_2nd_VVVF_purchase;
+        purchase:                       sw_Seoulmetro_1st_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_2nd_VVVF_IGBT_6car, 2235){
+item(FEAT_TRAINS, Seoulmetro_1st_VVVF_6Car, 2256){
     property {
-        name:                           string(STR_Korail_2nd_VVVF_6Car_IGBT_NAME);
+        name:                           string(STR_Seoulmetro_1st_VVVF_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2003, 1, 1);
+        introduction_date:              date(1993, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_2nd_VVVF;
+        variant_group:                  Seoulmetro_1st_VVVF;
         
         //spec
         speed:                          120km/h;
@@ -68,87 +68,31 @@ item(FEAT_TRAINS, Korail_2nd_VVVF_IGBT_6car, 2235){
         }
 
     graphics {
-        default:                        sw_Korail_2nd_VVVF_IGBT_6car;
-        articulated_part:               sw_articulated_Korail_2nd_VVVF_IGBT_6car;
-        purchase:                       sw_Korail_2nd_VVVF_purchase;
+        default:                        sw_Seoulmetro_1st_VVVF_6car;
+        articulated_part:               sw_articulated_Seoulmetro_1st_VVVF_6car;
+        purchase:                       sw_Seoulmetro_1st_4000_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_2nd_VVVF_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_2nd_VVVF);
-        sound_effect:                   sw_Korail_2nd_VVVF_IGBT_sound;
-        }
-        }
-
-/*--------------------------------------------------------------------
-열차정보 6량
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_2nd_VVVF_GTO_6car, 2236){
-    property {
-        name:                           string(STR_Korail_2nd_VVVF_6Car_GTO_NAME);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1999, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_2nd_VVVF;
-        
-        //spec
-        speed:                          120km/h;
-        power:                          2400 kW;
-        weight:                         20 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 125;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
-        extra_weight_per_wagon:         35 ton;
-        }
-
-    graphics {
-        default:                        sw_Korail_2nd_VVVF_GTO_6car;
-        articulated_part:               sw_articulated_Korail_2nd_VVVF_GTO_6car;
-        purchase:                       sw_Korail_2nd_VVVF_purchase;
-        speed:                          Metro_Speed_Train;
-        loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_2nd_VVVF_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_2nd_VVVF);
-        sound_effect:                   sw_Korail_2nd_VVVF_GTO_sound;
+        can_attach_wagon:               sw_Seoulmetro_1st_VVVF_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Seoulmetro_1st);
+        sound_effect:                   sw_Seoulmetro_1st_VVVF_GTO_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_2nd_VVVF_IGBT_10car, 2237){
+item(FEAT_TRAINS, Seoulmetro_1st_VVVF_GTO_10Car, 2257){
     property {
-        name:                           string(STR_Korail_2nd_VVVF_10Car_IGBT_NAME);
+        name:                           string(STR_Seoulmetro_1st_VVVF_GTO_10Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2003, 1, 1);
+        introduction_date:              date(1993, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_2nd_VVVF;
+        variant_group:                  Seoulmetro_1st_VVVF;
         
         //spec
         speed:                          120km/h;
@@ -180,32 +124,32 @@ item(FEAT_TRAINS, Korail_2nd_VVVF_IGBT_10car, 2237){
         }
 
     graphics {
-        default:                        sw_Korail_2nd_VVVF_IGBT_10car;
-        articulated_part:               sw_articulated_Korail_2nd_VVVF_IGBT_10car;
-        purchase:                       sw_Korail_2nd_VVVF_purchase;
+        default:                        sw_Seoulmetro_1st_VVVF_GTO_10car;
+        articulated_part:               sw_articulated_Seoulmetro_1st_VVVF_GTO_10car;
+        purchase:                       sw_Seoulmetro_1st_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_2nd_VVVF_wagon_attach;
-        cargo_subtype_text:             sw_Korail_2nd_VVVF_IGBT_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_2nd_VVVF);
-        sound_effect:                   sw_Korail_2nd_VVVF_IGBT_sound;
+        can_attach_wagon:               sw_Seoulmetro_1st_VVVF_attach;
+        cargo_subtype_text:             sw_Seoulmetro_1st_VVVF_GTO_10car_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Seoulmetro_1st);
+        sound_effect:                   sw_Seoulmetro_1st_VVVF_GTO_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_2nd_VVVF_GTO_10car, 2238){
+item(FEAT_TRAINS, Seoulmetro_1st_VVVF_IGBT_10Car, 2258){
     property {
-        name:                           string(STR_Korail_2nd_VVVF_10Car_GTO_NAME);
+        name:                           string(STR_Seoulmetro_1st_VVVF_IGBT_10Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1999, 1, 1);
+        introduction_date:              date(1993, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_2nd_VVVF;
+        variant_group:                  Seoulmetro_1st_VVVF;
         
         //spec
         speed:                          120km/h;
@@ -237,16 +181,15 @@ item(FEAT_TRAINS, Korail_2nd_VVVF_GTO_10car, 2238){
         }
 
     graphics {
-        default:                        sw_Korail_2nd_VVVF_GTO_10car;
-        articulated_part:               sw_articulated_Korail_2nd_VVVF_GTO_10car;
-        purchase:                       sw_Korail_2nd_VVVF_purchase;
+        default:                        sw_Seoulmetro_1st_VVVF_IGBT_10car;
+        articulated_part:               sw_articulated_Seoulmetro_1st_VVVF_IGBT_10car;
+        purchase:                       sw_Seoulmetro_1st_4000_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_2nd_VVVF_wagon_attach;
-        cargo_subtype_text:             sw_Korail_2nd_VVVF_GTO_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_2nd_VVVF);
-        sound_effect:                   sw_Korail_2nd_VVVF_GTO_sound;
+        can_attach_wagon:               sw_Seoulmetro_1st_VVVF_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Seoulmetro_1st);
+        sound_effect:                   sw_Seoulmetro_1st_VVVF_IGBT_sound;
         }
         }

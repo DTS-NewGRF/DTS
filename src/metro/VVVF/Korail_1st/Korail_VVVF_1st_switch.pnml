@@ -20,6 +20,11 @@ switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_GTO_10car_cargo_subtype_text, cargo
     return string(STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_A);
 }
 
+switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10car_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Korail_1st_VVVF_3000_Old);
+    return string(STR_REFIT_LIVERY_Korail_1st_VVVF_3000_New);
+}
+
 // 6량
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_6Car_engineH, cargo_subtype) {
     1: set_Korail_1st_VVVF_2030_engineH;
@@ -61,6 +66,7 @@ switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_IGBT_10Car_panto_wagon, cargo_subty
     1: set_Korail_1st_VVVF_3X1K_panto_wagon;
     set_Korail_1st_VVVF_3X1K_panto_wagon;
 }
+
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_IGBT_10Car_engineT, cargo_subtype) {
     1: set_Korail_1st_VVVF_3X1K_engineT;
     set_Korail_1st_VVVF_3X1K_engineT;
@@ -103,6 +109,26 @@ switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_GTO_10Car_engineT, cargo_subtype) {
     3: set_Korail_1st_VVVF_3X1K_engineT;
     4: set_Korail_1st_VVVF_5000_engineT;
     set_Korail_1st_VVVF_3X1K_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10Car_engineH, cargo_subtype) {
+    1: set_Korail_1st_VVVF_3000_Old_engineH;
+    set_Korail_1st_VVVF_3000_New_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10Car_panto_wagon, cargo_subtype) {
+    1: set_Korail_1st_VVVF_3000_Old_panto_wagon;
+    set_Korail_1st_VVVF_3000_New_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10Car_wagon, cargo_subtype) {
+    1: set_Korail_1st_VVVF_3000_Old_wagon;
+    set_Korail_1st_VVVF_3000_New_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10Car_engineT, cargo_subtype) {
+    1: set_Korail_1st_VVVF_3000_Old_engineT;
+    set_Korail_1st_VVVF_3000_New_engineT;
 }
 
 // 편성그래픽
@@ -157,6 +183,19 @@ switch (FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_GTO_10car, position_in_vehid_chain
     sw_Korail_1st_VVVF_GTO_10Car_engineH; //default
     }
 
+switch (FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10car, position_in_vehid_chain % 10) {
+    1:sw_Korail_1st_VVVF_3000_10Car_panto_wagon;
+    2:sw_Korail_1st_VVVF_3000_10Car_panto_wagon;
+    3:sw_Korail_1st_VVVF_3000_10Car_wagon;
+    4:sw_Korail_1st_VVVF_3000_10Car_panto_wagon;
+    5:sw_Korail_1st_VVVF_3000_10Car_wagon;
+    6:sw_Korail_1st_VVVF_3000_10Car_wagon;
+    7:sw_Korail_1st_VVVF_3000_10Car_panto_wagon;
+    8:sw_Korail_1st_VVVF_3000_10Car_panto_wagon;
+    9:sw_Korail_1st_VVVF_3000_10Car_engineT;
+    sw_Korail_1st_VVVF_3000_10Car_engineH; //default
+    }
+
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Korail_1st_VVVF_IGBT_4car, extra_callback_info1) {
     1..3: Korail_1st_VVVF_IGBT_4car;
@@ -188,6 +227,11 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Korail_1st_VVVF_GTO_10car, extra_callb
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
+switch (FEAT_TRAINS, SELF, sw_articulated_Korail_1st_VVVF_3000_10car, extra_callback_info1) {
+    1..9: Korail_1st_VVVF_3000_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_wagon_attach, vehicle_type_id) {
     Korail_1st_VVVF_IGBT_4car:     return CB_RESULT_ATTACH_ALLOW;
     Korail_1st_VVVF_GTO_4car:      return CB_RESULT_ATTACH_ALLOW;
@@ -198,6 +242,11 @@ switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_wagon_attach, vehicle_type_id) {
     return string(STR_ERROR_NO_ATTACH);
 }
 
+switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_attach, vehicle_type_id) {
+    Korail_1st_VVVF_3000_10Car:     return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}
+
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_IGBT_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTKStart.wav");
     return CB_RESULT_NO_SOUND;
@@ -205,5 +254,10 @@ switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_IGBT_sound, extra_callback_info1) {
 
 switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_GTO_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAGTOKStrart.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/MITSUBISHIGTOKstart.wav");
     return CB_RESULT_NO_SOUND;
     }

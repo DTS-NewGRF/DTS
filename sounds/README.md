@@ -1,8 +1,12 @@
 # 열차 사운드 적용열차목록
 ## 열차 출발음
+### ALSTOMGTOstart.wav
+- 서울교통공사 4000호대 2세대 GTO
+
 ### DAWONSYSIGBTstart.wav
 - 비츠로, 비츠로 DD
 - 한국철도공사 3세대 VVVF전동차 2차분
+- 서울교통공사 4000호대 1세대_IGBT
 
 ### DCMOTER1start.wav
 - 한큐전철 6000형, 6300형
@@ -34,6 +38,9 @@
 
 ### MITSUBISHIGTO1start.wav
 - 니시테츠 6050형
+
+### MITSUBISHIGTOKstart.wav
+- 서울교통공사 1000호대, 서울교통공사 4000호대 1세대 GTO, 한국철도공사 3000호대
 
 ### TOSHIBAGTOJStart.wav
 - 한큐 8000형
@@ -68,7 +75,7 @@
 - 신칸센 500계 8량
 
 ### TOSHIBASicStart.wav
-- 니시체트 9000형
+- 니시테츠 9000형
 
 ### TOSHIBAStart.wav
 - ITX-새마을 DD, ITX-초월, TTX
@@ -82,6 +89,9 @@
 ### WOOJINMITSUBISHIIGBTstart.wav
 - 우진산전 수소연료전지동차
 - 한국철도공사 5세대 VVVF전동차
+
+### WOOJINTOSHIBAIGBTstart.wav
+- 서울교통공사 4000호대 2세대 IGBT
 
 ## 터널진입음
 ### DELhorn.wav

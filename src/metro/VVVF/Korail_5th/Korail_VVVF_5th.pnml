@@ -2,10 +2,10 @@
 YTRO 100
 --------------------------------------------------------------------*/
 // Graphics
-#include "Korail_VVVF_graphic.pnml"
+#include "Korail_VVVF_5th_graphic.pnml"
 
 // Switch
-#include "Korail_VVVF_switch.pnml"
+#include "Korail_VVVF_5th_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 10량

@@ -2,45 +2,157 @@
 YTRO 100
 --------------------------------------------------------------------*/
 // Graphics
-#include "Korail_VVVF_graphic.pnml"
+#include "Korail_VVVF_4th_graphic.pnml"
 
 // Switch
-#include "Korail_VVVF_switch.pnml"
+#include "Korail_VVVF_4th_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_3rd_VVVF, 2219){
+item(FEAT_TRAINS, Korail_4th_VVVF, 2183){
     property {
-        name:                           string(STR_Group_Korail_3rd_VVVF_NAME);
+        name:                           string(STR_Group_Korail_4th_VVVF_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        power:                          1600 kW;
+        power:                          1680 kW;
         }
 
     graphics {
-        purchase:                       sw_Korail_3rd_VVVF_purchase;
+        purchase:                       sw_Korail_4th_VVVF_G1_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 2량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail_392000_2Car, 2139){
+    property {
+        name:                           string(STR_Korail_392000_2Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2023, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail_4th_VVVF;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          1680 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 100;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Korail_392000_2car;
+        articulated_part:               sw_articulated_Korail_392000_2car;
+        purchase:                       sw_Korail_392000_purchase;
+        speed:                          Metro_Speed_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_Korail_4th_VVVF_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_4th_VVVF);
+        sound_effect:                   sw_Korail_392000_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 4량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_3rd_VVVF_ST_4car, 2222){
+item(FEAT_TRAINS, Korail_392000_4Car, 2140){
     property {
-        name:                           string(STR_Korail_3rd_VVVF_ST_4Car_NAME);
+        name:                           string(STR_Korail_392000_4Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2005, 1, 1);
+        introduction_date:              date(2023, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_3rd_VVVF;
+        variant_group:                  Korail_4th_VVVF;
         
         //spec
         speed:                          120km/h;
-        power:                          1600 kW;
+        power:                          1680 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 100;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Korail_392000_4car;
+        articulated_part:               sw_articulated_Korail_392000_4car;
+        purchase:                       sw_Korail_4th_VVVF_G1_purchase;
+        speed:                          Metro_Speed_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_Korail_4th_VVVF_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_4th_VVVF);
+        sound_effect:                   sw_Korail_392000_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 4량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail_4th_VVVF_G1_4Car, 2030){
+    property {
+        name:                           string(STR_Korail_4th_VVVF_G1_4Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2018, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail_4th_VVVF;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          1680 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -68,32 +180,31 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_ST_4car, 2222){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_ST_4car;
-        articulated_part:               sw_articulated_Korail_3rd_VVVF_ST_4car;
-        purchase:                       sw_Korail_3rd_VVVF_purchase;
+        default:                        sw_Korail_4th_VVVF_G1_4car;
+        articulated_part:               sw_articulated_Korail_4th_VVVF_G1_4car;
+        purchase:                       sw_Korail_4th_VVVF_G1_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_3rd_VVVF_wagon_attach;
-        cargo_subtype_text:             sw_Korail_3rd_VVVF_4car_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_3rd_VVVF);
-        sound_effect:                   sw_Korail_3rd_VVVF_G1_sound;
+        can_attach_wagon:               sw_Korail_4th_VVVF_wagon_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_4th_VVVF);
+        sound_effect:                   sw_Korail_4th_VVVF_G1_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 4량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_3rd_VVVF_G2_4car, 2223){
+item(FEAT_TRAINS, Korail_4th_VVVF_G2_G3_4Car, 2124){
     property {
-        name:                           string(STR_Korail_3rd_VVVF_G2_4Car_NAME);
+        name:                           string(STR_Korail_4th_VVVF_G2_G3_4Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2021, 1, 1);
+        introduction_date:              date(2019, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_3rd_VVVF;
+        variant_group:                  Korail_4th_VVVF;
         
         //spec
         speed:                          120km/h;
@@ -109,7 +220,7 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_G2_4car, 2223){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 117;
+        cargo_capacity:                 122;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -125,35 +236,37 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_G2_4car, 2223){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_G2_4car;
-        articulated_part:               sw_articulated_Korail_3rd_VVVF_G2_4car;
-        purchase:                       sw_Korail_3rd_VVVF_G2_purchase;
+        default:                        sw_Korail_4th_VVVF_G2_G3_4car;
+        articulated_part:               sw_articulated_Korail_4th_VVVF_G2_G3_4car;
+        purchase:                       sw_Korail_4th_VVVF_G2_purchase;
         speed:                          Metro_Speed_Train;
+        cargo_capacity:                 sw_Korail_4th_VVVF_G2_G3_4car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_3rd_VVVF_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_3rd_VVVF);
-        sound_effect:                   sw_Korail_3rd_VVVF_G2_sound;
+        can_attach_wagon:               sw_Korail_4th_VVVF_wagon_attach;
+        cargo_subtype_text:             sw_Korail_4th_VVVF_G2_G3_4Car_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_4th_VVVF);
+        sound_effect:                   sw_Korail_4th_VVVF_G2_G3_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_3rd_VVVF_6car, 2224){
+item(FEAT_TRAINS, Korail_4th_VVVF_G2_G3_6Car, 2217){
     property {
-        name:                           string(STR_Korail_3rd_VVVF_6Car_NAME);
+        name:                           string(STR_Korail_4th_VVVF_G2_G3_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2005, 1, 1);
+        introduction_date:              date(2019, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_3rd_VVVF;
+        variant_group:                  Korail_4th_VVVF;
         
         //spec
         speed:                          120km/h;
-        power:                          2400 kW;
+        power:                          3360 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -165,7 +278,7 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_6car, 2224){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 125;
+        cargo_capacity:                 122;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -181,93 +294,37 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_6car, 2224){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_6car;
-        articulated_part:               sw_articulated_Korail_3rd_VVVF_6car;
-        purchase:                       sw_Korail_3rd_VVVF_purchase;
+        default:                        sw_Korail_4th_VVVF_G2_G3_6car;
+        articulated_part:               sw_articulated_Korail_4th_VVVF_G2_G3_6car;
+        purchase:                       sw_Korail_4th_VVVF_G2_purchase;
         speed:                          Metro_Speed_Train;
+        cargo_capacity:                 sw_Korail_4th_VVVF_G2_G3_6car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_3rd_VVVF_wagon_attach;
-        cargo_subtype_text:             sw_Korail_3rd_VVVF_6car_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_3rd_VVVF);
-        sound_effect:                   sw_Korail_3rd_VVVF_G1_sound;
-        }
-        }
-
-/*--------------------------------------------------------------------
-열차정보 8량
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_3rd_VVVF_8car, 2225){
-    property {
-        name:                           string(STR_Korail_3rd_VVVF_8Car_NAME);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2005, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_3rd_VVVF;
-        
-        //spec
-        speed:                          120km/h;
-        power:                          3200 kW;
-        weight:                         20 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 127;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
-        extra_weight_per_wagon:         35 ton;
-        }
-
-    graphics {
-        default:                        sw_Korail_3rd_VVVF_8car;
-        articulated_part:               sw_articulated_Korail_3rd_VVVF_8car;
-        purchase:                       sw_Korail_3rd_VVVF_purchase;
-        speed:                          Metro_Speed_Train;
-        loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_3rd_VVVF_wagon_attach;
-        cargo_subtype_text:             sw_Korail_3rd_VVVF_8car_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_3rd_VVVF);
-        sound_effect:                   sw_Korail_3rd_VVVF_G1_sound;
+        can_attach_wagon:               sw_Korail_4th_VVVF_wagon_attach;
+        cargo_subtype_text:             sw_Korail_4th_VVVF_G2_G3_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_4th_VVVF);
+        sound_effect:                   sw_Korail_4th_VVVF_G2_G3_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_3rd_VVVF_10car, 2226){
+item(FEAT_TRAINS, Korail_4th_VVVF_G2_G3_10Car, 2218){
     property {
-        name:                           string(STR_Korail_3rd_VVVF_10Car_NAME);
+        name:                           string(STR_Korail_4th_VVVF_G2_G3_10Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2005, 1, 1);
+        introduction_date:              date(2019, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_3rd_VVVF;
+        variant_group:                  Korail_4th_VVVF;
         
         //spec
         speed:                          120km/h;
-        power:                          4000 kW;
+        power:                          4200 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -279,7 +336,7 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_10car, 2226){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 127;
+        cargo_capacity:                 122;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -295,16 +352,17 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_10car, 2226){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_10car;
-        articulated_part:               sw_articulated_Korail_3rd_VVVF_10car;
-        purchase:                       sw_Korail_3rd_VVVF_purchase;
+        default:                        sw_Korail_4th_VVVF_G2_G3_10car;
+        articulated_part:               sw_articulated_Korail_4th_VVVF_G2_G3_10car;
+        purchase:                       sw_Korail_4th_VVVF_G2_purchase;
         speed:                          Metro_Speed_Train;
+        cargo_capacity:                 sw_Korail_4th_VVVF_G2_G3_10car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_3rd_VVVF_wagon_attach;
-        cargo_subtype_text:             sw_Korail_3rd_VVVF_10car_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_3rd_VVVF);
-        sound_effect:                   sw_Korail_3rd_VVVF_G1_sound;
+        can_attach_wagon:               sw_Korail_4th_VVVF_wagon_attach;
+        cargo_subtype_text:             sw_Korail_4th_VVVF_G2_G3_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_4th_VVVF);
+        sound_effect:                   sw_Korail_4th_VVVF_G2_G3_sound;
         }
         }
