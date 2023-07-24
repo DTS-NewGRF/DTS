@@ -49,8 +49,8 @@ railtypetable {
 #include "src_Virtual/train_list.pnml"
 #include "src_World/train_list.pnml"
 
-// Load Waypoint
-#include "src/waypoint/waypoint.pnml"
+// Load Objects
+#include "src/Objects/Objects.pnml"
 
 //disabe_train
 if (Chinese) {
