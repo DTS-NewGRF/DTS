@@ -275,6 +275,9 @@ STR_FLAT_2F_NAME                                     :[DTS] Flat Car - American
 STR_KMetro_Pass_NAME                                 :[DTS] Korean Metro Passenger Car
 STR_EMU_Pass_NAME                                    :[DTS] EMU carriage-type passenger car
 
+# waypoint's name
+STR_OBJ_BUFFER_DWAY                                  :[DTS] Buffers
+
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                     :Metro Train Speed Variable
 STR_PARAM_Metro_SPEED_Train_DESC                     :Adjust the speed of the Metro-speed train (Default:121km/h)
