@@ -1,0 +1,33 @@
+name: "[오브젝트변경] 오브젝트변경"
+description: DTS의 오브젝트 그래픽을 바꾸고 싶으십니까?
+title: "[오브젝트 변경]"
+labels: Edit Graphic
+body:
+  - type: markdown
+    attributes:
+      value: |
+        변경사항을 추가해주셔서 감사합니다!
+  - type: dropdown
+    attributes:
+      label: 오브젝트 선택
+      description: 오브젝트를 선택해주세요.
+      options:
+        - '[DTS] 차막이'        
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 변경 스프라이트
+      description: 변경될 스프라이트를 올려주세요.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 설명
+      description: 설명사항을 적어주세요.
+  - type: textarea
+    attributes:
+      label: 적용내용
+      description: 변경될 사항을 적어주세요.
+    validations:
+      required: true
