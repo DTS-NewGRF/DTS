@@ -25,6 +25,11 @@ switch(FEAT_TRAINS, SELF, sw_Korail_4th_VVVF_G2_G3_4Car_panto_wagon, cargo_subty
     set_Korail_4th_VVVF_G2_panto_wagon_SI1;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Korail_4th_VVVF_G2_G3_4Car_only_panto_wagon, cargo_subtype) {
+    1: set_Korail_4th_VVVF_G3_wagon_only_4car;      // 2차분
+    set_Korail_4th_VVVF_G2_wagon_only_4car;
+}
+
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_VVVF_G2_G3_4Car_engineT, cargo_subtype) {
     1: set_Korail_4th_VVVF_G3_engineT;      // 2차분
     set_Korail_4th_VVVF_G2_engineT;
@@ -108,7 +113,7 @@ switch (FEAT_TRAINS, SELF, sw_Korail_4th_VVVF_G1_4car, position_in_vehid_chain %
     }
 
 switch (FEAT_TRAINS, SELF, sw_Korail_4th_VVVF_G2_G3_4car, position_in_vehid_chain % 4) {
-    1:sw_Korail_4th_VVVF_G2_G3_4Car_panto_wagon;
+    1:sw_Korail_4th_VVVF_G2_G3_4Car_only_panto_wagon;
     2:sw_Korail_4th_VVVF_G2_G3_4Car_panto_wagon;
     3:sw_Korail_4th_VVVF_G2_G3_4Car_engineT;
     sw_Korail_4th_VVVF_G2_G3_4Car_engineH; //default

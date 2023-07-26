@@ -78,6 +78,8 @@ sort(FEAT_TRAINS, [
     Nishitetsu_9000,                   //2187
     Nishitetsu_9000_2Car,              //2104
     Nishitetsu_9000_3Car,              //2113
+    Hankyu_1000_8Car,                  //2263
+    Hankyu_1300_8Car,                  //2264
     Hankyu_6000,                       //2188
     Hankyu_6000_2Car,                  //2169
     Hankyu_6000_3Car,                  //2170

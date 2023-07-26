@@ -21,7 +21,7 @@ spriteset(set_Korail_392000_2engineH, "src/metro/VVVF/Korail_4th/Korail_392000.p
 }
 
 spriteset(set_Korail_392000_4engineH, "src/metro/VVVF/Korail_4th/Korail_392000.png"){
-    engine(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_Korail_392000_wagon, "src/metro/VVVF/Korail_4th/Korail_392000.png"){
@@ -40,7 +40,7 @@ spriteset(set_Korail_4th_VVVF_G1_engineH, "src/metro/VVVF/Korail_4th/Korail_Gene
 }
 
 spriteset(set_Korail_4th_VVVF_G1_wagon_A, "src/metro/VVVF/Korail_4th/Korail_Generation_1.png"){
-    engine(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_Korail_4th_VVVF_G1_wagon_B, "src/metro/VVVF/Korail_4th/Korail_Generation_1.png"){
@@ -59,23 +59,27 @@ spriteset(set_Korail_4th_VVVF_G2_engineH, "src/metro/VVVF/Korail_4th/Korail_Gene
 }
 
 spriteset(set_Korail_4th_VVVF_G2_wagon, "src/metro/VVVF/Korail_4th/Korail_Generation_2.png"){
-    engine(80, 27)
+    wagon_1F_F(80, 27)
 }
 
-spriteset(set_Korail_4th_VVVF_G2_panto_wagon_SI1, "src/metro/VVVF/Korail_4th/Korail_Generation_2.png"){
+spriteset(set_Korail_4th_VVVF_G2_wagon_only_4car, "src/metro/VVVF/Korail_4th/Korail_Generation_2.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Korail_4th_VVVF_G2_panto_wagon_SI2, "src/metro/VVVF/Korail_4th/Korail_Generation_2.png"){
+spriteset(set_Korail_4th_VVVF_G2_panto_wagon_SI1, "src/metro/VVVF/Korail_4th/Korail_Generation_2.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_Korail_4th_VVVF_G2_panto_wagon_DOB, "src/metro/VVVF/Korail_4th/Korail_Generation_2.png"){
+spriteset(set_Korail_4th_VVVF_G2_panto_wagon_SI2, "src/metro/VVVF/Korail_4th/Korail_Generation_2.png"){
     wagon_1F_F(80, 108)
 }
 
+spriteset(set_Korail_4th_VVVF_G2_panto_wagon_DOB, "src/metro/VVVF/Korail_4th/Korail_Generation_2.png"){
+    wagon_1F_F(80, 135)
+}
+
 spriteset(set_Korail_4th_VVVF_G2_engineT, "src/metro/VVVF/Korail_4th/Korail_Generation_2.png"){
-    engine(80, 135)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------
@@ -86,11 +90,11 @@ spriteset(set_Korail_4th_VVVF_G3_engineH, "src/metro/VVVF/Korail_4th/Korail_Gene
 }
 
 spriteset(set_Korail_4th_VVVF_G3_wagon, "src/metro/VVVF/Korail_4th/Korail_Generation_3.png"){
-    engine(80, 27)
+    wagon_1F_F(80, 27)
 }
 
 spriteset(set_Korail_4th_VVVF_G3_wagon_only_4car, "src/metro/VVVF/Korail_4th/Korail_Generation_3.png"){
-    engine(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_Korail_4th_VVVF_G3_panto_wagon_SI1, "src/metro/VVVF/Korail_4th/Korail_Generation_3.png"){

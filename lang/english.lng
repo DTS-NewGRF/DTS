@@ -231,6 +231,8 @@ STR_Nishitetsu_8000_6Car_NAME                        :[DTS] Nishitetsu 8000 6Car
 STR_Group_Nishitetsu_9000_NAME                       :[DTS] Nishitetsu 9000
 STR_Nishitetsu_9000_2Car_NAME                        :[DTS] Nishitetsu 9000 2Car
 STR_Nishitetsu_9000_3Car_NAME                        :[DTS] Nishitetsu 9000 3Car
+STR_Hankyu_1000_8Car_NAME                            :[DTS] Hankyu New 1000
+STR_Hankyu_1300_8Car_NAME                            :[DTS] Hankyu New 1300
 STR_Group_Hankyu_6000_NAME                           :[DTS] Hankyu 6000
 STR_Hankyu_6000_2Car_NAME                            :[DTS] Hankyu 6000 2Car
 STR_Hankyu_6000_3Car_NAME                            :[DTS] Hankyu 6000 3Car
@@ -276,7 +278,9 @@ STR_KMetro_Pass_NAME                                 :[DTS] Korean Metro Passeng
 STR_EMU_Pass_NAME                                    :[DTS] EMU carriage-type passenger car
 
 # waypoint's name
-STR_OBJ_BUFFER_DWAY                                  :[DTS] Buffers
+STR_OBJ_BUFFER                                       :[DTS] Buffers
+STR_OBJ_BUFFER_Concrete                              :[DTS] Concrete Buffers
+STR_OBJ_BUFFER_pebble                                :[DTS] pebble Buffers
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                     :Metro Train Speed Variable
@@ -420,6 +424,8 @@ STR_REFIT_ADDITIONAL_Nishitetsu_6000                 :{BLACK}Combined train {GRE
 STR_REFIT_ADDITIONAL_Nishitetsu_7000                 :{BLACK}Combined train {GREEN}Nishitetsu 6000, Nishitetsu 7000
 STR_REFIT_ADDITIONAL_Nishitetsu_8000                 :{BLACK}Combined train {GREEN}Nishitetsu 8000
 STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}Combined train {GREEN}Nishitetsu 9000
+STR_REFIT_ADDITIONAL_Hankyu_1000                     :{BLACK}Combined train {GREEN}Nishitetsu New 1000
+STR_REFIT_ADDITIONAL_Hankyu_1300                     :{BLACK}Combined train {GREEN}Nishitetsu New 1300
 STR_REFIT_ADDITIONAL_Hankyu_6000                     :{BLACK}Combined train {GREEN}Hankyu 6000
 STR_REFIT_ADDITIONAL_Hankyu_6300                     :{BLACK}Combined train {RED}Unavailable
 STR_REFIT_ADDITIONAL_Hankyu_8000                     :{BLACK}Combined train {GREEN}Hankyu 8000, 8300
@@ -690,6 +696,7 @@ STR_REFIT_LIVERY_21MPassenger_Car                    : 21Passenger_Car
 STR_REFIT_LIVERY_22MPassenger_Car                    : 22Passenger_Car
 STR_REFIT_LIVERY_23MPassenger_Car                    : 23Passenger_Car
 STR_REFIT_LIVERY_24MPassenger_Car                    : 24Passenger_Car
+STR_REFIT_LIVERY_25MPassenger_Car                    : 25Passenger_Car
 STR_REFIT_LIVERY_1SPassenger_Car                     : 1Passenger_Car
 STR_REFIT_LIVERY_1SPassenger_Car_S                   : 1Passenger_Car Special
 STR_REFIT_LIVERY_2SPassenger_Car                     : 2Passenger_Car

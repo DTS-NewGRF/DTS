@@ -564,6 +564,10 @@ spriteset(set_Korea_MTrain_24wagon, "src\wagon\SPassenger_wagon\MSPassenger_wago
     wagon_1F_F(80, 621)
 }
 
+spriteset(set_Korea_MTrain_25wagon, "src\wagon\SPassenger_wagon\MSPassenger_wagon.png") {
+    wagon_1F_F(80, 648)
+}
+
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/

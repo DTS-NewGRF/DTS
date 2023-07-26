@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_1000_purchase, "src_Japanese/metro/Hankyu/1X00_series/1000_series/Hankyu_1000.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. 한큐전철 1000형
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_1000_engineH, "src_Japanese/metro/Hankyu/1X00_series/1000_series/Hankyu_1000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Hankyu_1000_wagon, "src_Japanese/metro/Hankyu/1X00_series/1000_series/Hankyu_1000.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Hankyu_1000_panto_wagon, "src_Japanese/metro/Hankyu/1X00_series/1000_series/Hankyu_1000.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Hankyu_1000_engineT, "src_Japanese/metro/Hankyu/1X00_series/1000_series/Hankyu_1000.png"){
+    engine(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Hankyu_1000_purchase, cargo_subtype) {
+    set_Hankyu_1000_purchase;
+}

@@ -70,6 +70,7 @@
 ### TOSHIBAIGBTPMSMstart.wav
 - HYEL-15, 100, 150, 200, 220, 300, 400
 - NKX, HMX, Glory 600
+- 한큐전철 신 1000형
 
 ### TOSHIBAIGBTS500start.wav
 - 신칸센 500계 8량
@@ -82,6 +83,9 @@
 
 ### TOYODENKIGTOStart.wav
 - 한큐 8300형
+
+### TOYODENKIIGBT2start.wav
+- 한큐 신1300형
 
 ### TOYODENKIIGBTStart.wav
 - 한큐 9300형

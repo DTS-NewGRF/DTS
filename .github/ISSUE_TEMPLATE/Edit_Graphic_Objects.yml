@@ -12,7 +12,8 @@ body:
       label: 오브젝트 선택
       description: 오브젝트를 선택해주세요.
       options:
-        - '[DTS] 차막이'        
+        - '[DTS] 콘크리트 차막이'
+        - '[DTS] 자갈 차막이'
     validations:
       required: true
   - type: textarea

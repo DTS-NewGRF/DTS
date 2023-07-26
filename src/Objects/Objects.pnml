@@ -1,85 +1,20 @@
 /*--------------------------------------------------------------------
-Graphics
+오브젝트
 --------------------------------------------------------------------*/
-spriteset(set_BUFFERS, "src/Objects/Objects.png"){
-    [0,     0,    64,    32,    -15,  -23]
-    [69,    0,    64,    32,    -32,  -21]
-    [138,   0,    64,    32,    -31,  -21]
-    [207,   0,    64,    32,    -32,  -21]
-}
+// Graphics
+#include "Objects_graphic.pnml"
 
-spritelayout sply_end_of_rail_SW {
-    ground {
-        sprite: GROUNDSPRITE_NORMAL;
-    }
-    building {
-        sprite: set_BUFFERS(0);
-        xextent: 1;
-        yextent: 3;
-        zextent: 12;
-        xoffset: 15; // from NE edge
-        yoffset: 7;  // from NW edge
-        zoffset: 0;
-    }
-}
-spritelayout sply_end_of_rail_NW {
-    ground {
-        sprite: GROUNDSPRITE_NORMAL;
-    }
-    building {
-        sprite: set_BUFFERS(1);
-        xextent: 5;
-        yextent: 5;
-        zextent: 12;
-        xoffset: 10; // from NE edge
-        yoffset: 10; // from NW edge
-        zoffset: 0;
-    }
-}
-spritelayout sply_end_of_rail_NE {
-    ground {
-        sprite: GROUNDSPRITE_NORMAL;
-    }
-    building {
-        sprite: set_BUFFERS(2);
-        xextent: 5;
-        yextent: 5;
-        zextent: 12;
-        xoffset: 10; // from NE edge
-        yoffset: 10; // from NW edge
-        zoffset: 0;
-    }
-}
-spritelayout sply_end_of_rail_SE {
-    ground {
-        sprite: GROUNDSPRITE_NORMAL;
-    }
-    building {
-        sprite: set_BUFFERS(3);
-        xextent: 5;
-        yextent: 5;
-        zextent: 12;
-        xoffset: 10; // from NE edge
-        yoffset: 10; // from NW edge
-        zoffset: 0;
-    }
-}
-
-switch(FEAT_OBJECTS, SELF, sw_buffer, view) {
-    1: sply_end_of_rail_SW;
-    2: sply_end_of_rail_NW;
-    3: sply_end_of_rail_NE;
-    sply_end_of_rail_SE;
-}
+// Switch
+#include "Objects_switch.pnml"
 
 /*--------------------------------------------------------------------
-경유지
+오브젝트
 --------------------------------------------------------------------*/
-item(FEAT_OBJECTS, DTS_waypoint) {
+item(FEAT_OBJECTS, DTS_Buffer_Concrete, 1000) {
     property {
         class:                  "DWAP";
-        classname:              string(STR_OBJ_BUFFER_DWAY);
-        name:                   string(STR_OBJ_BUFFER_DWAY);
+        classname:              string(STR_OBJ_BUFFER);
+        name:                   string(STR_OBJ_BUFFER_Concrete);
         climates_available:     ALL_CLIMATES;
         size:                   [1,1];
         build_cost_multiplier:  1;
@@ -91,7 +26,28 @@ item(FEAT_OBJECTS, DTS_waypoint) {
         num_views:              4;
     }
     graphics {
-        default: sw_buffer;
+        default: sw_buffer_Concrete;
+        tile_check: CB_RESULT_LOCATION_ALLOW;
+    }
+}
+
+item(FEAT_OBJECTS, DTS_Buffer_Pebble, 1001) {
+    property {
+        class:                  "DWAP";
+        classname:              string(STR_OBJ_BUFFER);
+        name:                   string(STR_OBJ_BUFFER_pebble);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  1;
+        remove_cost_multiplier: 1;
+        introduction_date:      date(1971,1,1);
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_REMOVE_IS_INCOME, OBJ_FLAG_ALLOW_BRIDGE, OBJ_FLAG_ONLY_INGAME);
+        height:                 1;
+        num_views:              4;
+    }
+    graphics {
+        default: sw_buffer_pebble;
         tile_check: CB_RESULT_LOCATION_ALLOW;
     }
 }
