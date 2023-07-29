@@ -1,0 +1,74 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Wide_Range_GEC_chopper_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Seoulmetro_Wide_Rheostatic);
+    return string(STR_REFIT_LIVERY_Seoulmetro_Wide_NoRheostatic);
+}
+
+// 10량
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_engineH, cargo_subtype) {
+    1: set_Seoulmetro_Wide_Range_GEC_chopper_Rheostatic_engineH;
+    set_Seoulmetro_Wide_Range_GEC_chopper_NoRheostatic_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_wagon, cargo_subtype) {
+    1: set_Seoulmetro_Wide_Range_GEC_chopper_Rheostatic_wagon;
+    set_Seoulmetro_Wide_Range_GEC_chopper_NoRheostatic_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_panto_wagon, cargo_subtype) {
+    1: set_Seoulmetro_Wide_Range_GEC_chopper_Rheostatic_panto_wagon;
+    set_Seoulmetro_Wide_Range_GEC_chopper_NoRheostatic_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_engineT, cargo_subtype) {
+    1: set_Seoulmetro_Wide_Range_GEC_chopper_Rheostatic_engineT;
+    set_Seoulmetro_Wide_Range_GEC_chopper_NoRheostatic_engineT;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Seoulmetro_Wide_Range_GECC_chopper_6Car, position_in_vehid_chain % 6) {
+    1:set_Seoulmetro_Wide_Range_GEC_chopper_NoRheostatic_wagon;
+    2:set_Seoulmetro_Wide_Range_GEC_chopper_NoRheostatic_panto_wagon;
+    3:set_Seoulmetro_Wide_Range_GEC_chopper_NoRheostatic_wagon;
+    4:set_Seoulmetro_Wide_Range_GEC_chopper_NoRheostatic_panto_wagon;
+    5:set_Seoulmetro_Wide_Range_GEC_chopper_NoRheostatic_engineT;
+    set_Seoulmetro_Wide_Range_GEC_chopper_NoRheostatic_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Seoulmetro_Wide_Range_GEC_chopper_10Car, position_in_vehid_chain % 10) {
+    1:sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_wagon;
+    2:sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_panto_wagon;
+    3:sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_wagon;
+    4:sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_wagon;
+    5:sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_wagon;
+    6:sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_panto_wagon;
+    7:sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_wagon;
+    8:sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_panto_wagon;
+    9:sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_engineT;
+    sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_engineH; //default
+    }
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_Wide_Range_GEC_chopper_6Car, extra_callback_info1) {
+    1..5: Seoulmetro_Wide_Range_GEC_chopper_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_Wide_Range_GEC_chopper_10Car, extra_callback_info1) {
+    1..9: Seoulmetro_Wide_Range_GEC_chopper_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, swSeoulmetro_Wide_Range_GEC_chopper_attach, vehicle_type_id) {
+    Seoulmetro_Wide_Range_GEC_chopper_6Car:   return CB_RESULT_ATTACH_ALLOW;
+    Seoulmetro_Wide_Range_GEC_chopper_10Car:  return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Wide_Range_GEC_chopper_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/GECCHOPPERstart.wav");
+    return CB_RESULT_NO_SOUND;
+    }

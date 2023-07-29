@@ -1,0 +1,51 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_2000_GEC_chopper_purchase, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+미개조
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_engineH, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_NoRheostatic.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_wagon, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_NoRheostatic.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_panto_wagon, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_NoRheostatic.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_engineT, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_NoRheostatic.png"){
+    engine(80, 81)
+}
+
+/*--------------------------------------------------------------------
+개조
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_engineH, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_wagon, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_panto_wagon, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_engineT, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
+    engine(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_GEC_chopper_purchase, cargo_subtype) {
+    set_Seoulmetro_2000_GEC_chopper_purchase;
+}

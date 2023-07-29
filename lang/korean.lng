@@ -2,749 +2,778 @@
 ##gender m f
 
 # GRF name and description
-STR_GRF_NAME_WITH_VER                                :파생형 열차 세트 {VERSION}
-STR_GRF_DESC                                         :파생형 열차 세트 입니다
-STR_GRF_URL                                          :https://github.com/DTS-NewGRF/DTS/releases
+STR_GRF_NAME_WITH_VER                                  :파생형 열차 세트 {VERSION}
+STR_GRF_DESC                                           :파생형 열차 세트 입니다
+STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS/releases
 
 # locomotive's name
-STR_AREX_6Car_NAME                                   :[DTS/6량] AREX (공항철도)
-STR_Group_MEL_150_NAME                               :[DTS] MEL-150
-STR_MEL_150_4Car_NAME                                :[DTS/4량] MEL-150
-STR_MEL_150_8Car_NAME                                :[DTS/8량] MEL-150
-STR_MEL_150_10Car_NAME                               :[DTS/10량] MEL-150
-STR_MEL_150_12Car_NAME                               :[DTS/12량] MEL-150
-STR_Group_CL_150_NAME                                :[DTS] CL-150
-STR_CL_150_4Car_NAME                                 :[DTS/4량] CL-150
-STR_CL_150_6Car_NAME                                 :[DTS/6량] CL-150
-STR_CL_150_8Car_NAME                                 :[DTS/8량] CL-150
-STR_CL_180_8Car_NAME                                 :[DTS/8량] CL-180
-STR_Group_CTX_NAME                                   :[DTS] CTX
-STR_CTX_F_10Car_NAME                                 :[DTS/10량] CTX 화물전용
-STR_CTX_P_10Car_NAME                                 :[DTS/10량] CTX 승객전용
-STR_DEL7600_NAME                                     :[DTS/단량] DEL7600
-STR_E8600_NAME                                       :[DTS/단량] 8600호대 전기기관차
-STR_Group_EMU150_NAME                                :[DTS] 비츠로
-STR_EMU150_4Car_NAME                                 :[DTS/4량] 비츠로
-STR_EMU150_6Car_NAME                                 :[DTS/6량] 비츠로
-STR_EMU150_8Car_NAME                                 :[DTS/8량] 비츠로
-STR_EMU150_DD_6Car_NAME                              :[DTS/6량] 비츠로 DD
-STR_EMU260_6Car_NAME                                 :[DTS/6량] EMU-260
-STR_EMU260_DD_6Car_NAME                              :[DTS/6량] EMU-260 DD
-STR_EMU320_8Car_NAME                                 :[DTS/8량] EMU-320
-STR_EMU320_DD_8Car_NAME                              :[DTS/8량] EMU-320 DD
-STR_GT26CW_NAME                                      :[DTS/단량] 7X00호대 디젤기관차
-STR_GTX_8Car_NAME                                    :[DTS/8량] GTX
-STR_Group_HEMU_430X_NAME                             :[DTS] HEMU-430X
-STR_HEMU_430X_6Car_NAME                              :[DTS/6량] HEMU-430X
-STR_HEMU_430X_8Car_NAME                              :[DTS/8량] HEMU-430X
-STR_Group_HSR_350X_NAME                              :[DTS] HSR-350X
-STR_HSR_350X_7Car_NAME                               :[DTS/7량] HSR-350X
-STR_HSR_350X_14Car_NAME                              :[DTS/14량] HSR-350X
-STR_ICE_CW_8Car_NAME                                 :[DTS/8량] ITX-초월
-STR_ITX_SM2_6Car_NAME                                :[DTS/6량] ITX-새마을 DD
-STR_KTX_SC_10Car_NAME                                :[DTS/10량] KTX-산천
-STR_KTX_SC2_10Car_NAME                               :[DTS/10량] KTX-산천 DD
-STR_NRT2_4Car_NAME                                   :[DTS/4량] 누리로 DD
-STR_Group_H2_WJ_NAME                                 :[DTS] 우진산전 수소연료전지동차
-STR_H2_WJ_2Car_NAME                                  :[DTS/2량] 우진산전 수소연료전지동차
-STR_H2_WJ_4Car_NAME                                  :[DTS/4량] 우진산전 수소연료전지동차
-STR_Travel_8500_NAME                                 :[DTS/단량] 8500호대 전기기관차
-STR_NEL_8200_NAME                                    :[DTS/단량] 8200호대 전기기관차
-STR_TTX_6Car_NAME                                    :[DTS/6량] TTX
-STR_VHST_600X_8Car_NAME                              :[DTS/8량] VHST-600X
-STR_MSB_Speeder_NAME                                 :[DTS/단량] MSB 모터카
-STR_CRH1_8Car_NAME                                   :[DTS/8량] CRH1A
-STR_CRH1E_16Car_NAME                                 :[DTS/16량] CRH1E
-STR_CRH1A_A_8Car_NAME                                :[DTS/8량] CRH1A-A
-STR_CRH2_8Car_NAME                                   :[DTS/8량] CRH2A
-STR_CRH2_16Car_NAME                                  :[DTS/16량] CRH2B
-STR_CRH2C_8Car_NAME                                  :[DTS/8량] CRH2C
-STR_CRH3_8Car_NAME                                   :[DTS/8량] CRH3C
-STR_CRH380A_8Car_NAME                                :[DTS/8량] CRH380A
-STR_CRH380A_16Car_NAME                               :[DTS/16량] CRH380AL
-STR_CRH380AJ_8Car_NAME                               :[DTS/8량] CRH380AJ
-STR_CRH380B_8Car_NAME                                :[DTS/8량] CRH380B
-STR_CRH380B_16Car_NAME                               :[DTS/16량] CRH380BL
-STR_CRH380C_16Car_NAME                               :[DTS/16량] CRH380CL
-STR_Group_CRH380D_NAME                               :[DTS] CRH380D
-STR_CRH380D_8Car_NAME                                :[DTS/8량] CRH380D
-STR_CRH380D_16Car_NAME                               :[DTS/16량] CRH380D
-STR_Group_CR400AF_NAME                               :[DTS] CR400AF
-STR_CR400AF_8Car_NAME                                :[DTS/8량] CR400AF
-STR_CR400AF_16Car_NAME                               :[DTS/16량] CR400AF
-STR_CR400AF_17Car_NAME                               :[DTS/17량] CR400AF
-STR_Group_CR400AF_Z_NAME                             :[DTS] CR400AF-Z
-STR_CR400AF_Z_8Car_NAME                              :[DTS/8량] CR400AF-Z
-STR_CR400AF_Z_17Car_NAME                             :[DTS/17량] CR400AF-Z
-STR_Group_CR400BF_NAME                               :[DTS] CR400BF
-STR_CR400BF_8Car_NAME                                :[DTS/8량] CR400BF
-STR_CR400BF_16Car_NAME                               :[DTS/16량] CR400BF
-STR_CR400BF_17Car_NAME                               :[DTS/17량] CR400BF
-STR_CR400BF_C_8Car_NAME                              :[DTS/8량] CR400BF-C
-STR_Group_CR400BF_Z_NAME                             :[DTS] CR400BF-Z
-STR_CR400BF_Z_8Car_NAME                              :[DTS/8량] CR400BF-Z
-STR_CR400BF_Z_17Car_NAME                             :[DTS/17량] CR400BF-Z
-STR_HXD3C_NAME                                       :[DTS/단량] HXD3C
-STR_NJ2_NAME                                         :[DTS/단량] NJ2
-STR_AGV_11Car_NAME                                   :[DTS/11량] AGV (이탈로)
-STR_BB15000_NAME                                     :[DTS/단량] SNCF BB15000
-STR_Eurostar_E300_20Car_NAME                         :[DTS/20량] 유로스타 E300
-STR_Eurostar_E320_16Car_NAME                         :[DTS/16량] 유로스타 E320
-STR_ICE1_14Car_NAME                                  :[DTS/14량] ICE1
-STR_ICE2_8Car_NAME                                   :[DTS/8량] ICE2
-STR_ICE3_8Car_NAME                                   :[DTS/8량] ICE3
-STR_ICE3V_8Car_NAME                                  :[DTS/8량] ICE3 (벨라로 D)
-STR_Group_ICE4_NAME                                  :[DTS] ICE4
-STR_ICE4_7Car_NAME                                   :[DTS/7량] ICE4
-STR_ICE4_12Car_NAME                                  :[DTS/12량] ICE4
-STR_Renfe_S_100_10Car_NAME                           :[DTS/10량] 렌페 AVE S-100
-STR_Renfe_S_102_14Car_NAME                           :[DTS/14량] 렌페 AVE S-102
-STR_Renfe_S_103_8Car_NAME                            :[DTS/8량] 렌페 AVE S-103
-STR_Renfe_S_130_13Car_NAME                           :[DTS/13량] 렌페 S-130
-STR_TGV_Sud_Est_10Car_NAME                           :[DTS/10량] TGV 쉬드-에스트
-STR_TGV_A_12Car_NAME                                 :[DTS/12량] TGV 아틀랑티크
-STR_TGV_R_10Car_NAME                                 :[DTS/10량] TGV 레조
-STR_TGV_Reseau_Duplex_10Car_NAME                     :[DTS/10량] TGV 레조 듀플렉스
-STR_TGV_La_Poste_10Car_NAME                          :[DTS/10량] TGV 라포스트
-STR_TGV_Duplex_10Car_NAME                            :[DTS/10량] TGV 듀플렉스
-STR_TGV_Pos_10Car_NAME                               :[DTS/10량] TGV 포스
-STR_TGV_M_10Car_NAME                                 :[DTS/10량] TGV M
-STR_Kse2_8Car_NAME                                   :[DTS/8량] 케이세이 AE형 2세대
-STR_Group_Shinkansen_0_NAME                          :[DTS] 신칸센 0계
-STR_Shinkansen_0_12Car_NAME                          :[DTS/12량] 신칸센 0계
-STR_Shinkansen_0_16Car_NAME                          :[DTS/16량] 신칸센 0계
-STR_Group_Shinkansen_500_NAME                        :[DTS] 신칸센 500계
-STR_Shinkansen_500_8Car_NAME                         :[DTS/8량] 신칸센 500계
-STR_Shinkansen_500_16Car_NAME                        :[DTS/16량] 신칸센 500계
-STR_Group_Shinkansen_700_NAME                        :[DTS] 신칸센 700계
-STR_Shinkansen_700_8Car_NAME                         :[DTS/8량] 신칸센 700계 레일스타
-STR_Shinkansen_700_16Car_NAME                        :[DTS/16량] 신칸센 700계
-STR_Shinkansen_800_6Car_NAME                         :[DTS/6량] 신칸센 800계
-STR_Shinkansen_923_7Car_NAME                         :[DTS/7량] 신칸센 923형 (닥터 옐로우)
-STR_Shinkansen_E2_10Car_NAME                         :[DTS/10량] 신칸센 E2계
-STR_Shinkansen_E5_H5_10Car_NAME                      :[DTS/10량] 신칸센 E5·H5계
-STR_Shinkansen_E6_7Car_NAME                          :[DTS/7량] 신칸센 E6계
-STR_Shinkansen_E7_W7_12Car_NAME                      :[DTS/12량] 신칸센 E7·W7계
-STR_Shinkansen_E8_7Car_NAME                          :[DTS/7량] 신칸센 E8계
-STR_Group_Shinkansen_N700_NAME                       :[DTS] 신칸센 N700계
-STR_Shinkansen_N700_8Car_NAME                        :[DTS/8량] 신칸센 N700계 큐슈
-STR_Shinkansen_N700_16Car_NAME                       :[DTS/16량] 신칸센 N700계
-STR_Group_Shinkansen_N700S_NAME                      :[DTS] 신칸센 N700S계
-STR_Shinkansen_N700S_6Car_NAME                       :[DTS/6량] 신칸센 N700S계 니시큐슈
-STR_Shinkansen_N700S_16Car_NAME                      :[DTS/16량] 신칸센 N700S계
-STR_HYEL_15_NAME                                     :[DTS/단량] HYEL-15
-STR_HYEL_100_NAME                                    :[DTS/단량] HYEL-100
-STR_HYEL_150_NAME                                    :[DTS/단량] HYEL-150
-STR_Group_HYEL_200_NAME                              :[DTS] HYEL-200
-STR_HYEL_200_4Car_NAME                               :[DTS/4량] HYEL-200
-STR_HYEL_200_6Car_NAME                               :[DTS/6량] HYEL-200
-STR_HYEL_220_6Car_NAME                               :[DTS/6량] HYEL-220
-STR_HYEL_300_8Car_NAME                               :[DTS/8량] HYEL-300
-STR_HYEL_400_8Car_NAME                               :[DTS/8량] HYEL-400
-STR_DFX_10Car_NAME                                   :[DTS/10량] DFX
-STR_NHSRCL_E5_10Car_NAME                             :[DTS/10량] NHSRCL E5
-STR_Group_NSW_TrainLink_D_NAME                       :[DTS] NSW TrainLink D
-STR_NSW_TrainLink_D_4Car_NAME                        :[DTS/4량] NSW TrainLink D
-STR_NSW_TrainLink_D_6Car_NAME                        :[DTS/6량] NSW TrainLink D
-STR_THSR_700T_12Car_NAME                             :[DTS/12량] 타이완 고속철도 700T형
-STR_Al_Boraq_10Car_NAME                              :[DTS/10량] 알 보라크
-STR_Talgo_350_SRO_14Car_NAME                         :[DTS/14량] 탈고 350 SRO (하라마인 고속철도)
-STR_Avelia_Liberty_11Car_NAME                        :[DTS/11량] 아벨리아 리버티
-STR_Glory_600_8Car_NAME                              :[DTS/8량] Glory 600
-STR_HMX_8Car_NAME                                    :[DTS/8량] HMX
-STR_NKX_8Car_NAME                                    :[DTS/8량] NKX
+STR_AREX_6Car_NAME                                     :[DTS/6량] AREX (공항철도)
+STR_Group_MEL_150_NAME                                 :[DTS] MEL-150
+STR_MEL_150_4Car_NAME                                  :[DTS/4량] MEL-150
+STR_MEL_150_8Car_NAME                                  :[DTS/8량] MEL-150
+STR_MEL_150_10Car_NAME                                 :[DTS/10량] MEL-150
+STR_MEL_150_12Car_NAME                                 :[DTS/12량] MEL-150
+STR_Group_CL_150_NAME                                  :[DTS] CL-150
+STR_CL_150_4Car_NAME                                   :[DTS/4량] CL-150
+STR_CL_150_6Car_NAME                                   :[DTS/6량] CL-150
+STR_CL_150_8Car_NAME                                   :[DTS/8량] CL-150
+STR_CL_180_8Car_NAME                                   :[DTS/8량] CL-180
+STR_Group_CTX_NAME                                     :[DTS] CTX
+STR_CTX_F_10Car_NAME                                   :[DTS/10량] CTX 화물전용
+STR_CTX_P_10Car_NAME                                   :[DTS/10량] CTX 승객전용
+STR_DEL7600_NAME                                       :[DTS/단량] DEL7600
+STR_Group_E8600_NAME                                   :[DTS] 8600호대 전기기관차
+STR_E8600_NAME                                         :[DTS/단량] 8600호대 전기기관차
+STR_E8600_2Car_NAME                                    :[DTS/2량] 8600호대 전기기관차
+STR_E8600_3Car_NAME                                    :[DTS/3량] 8600호대 전기기관차
+STR_E8600_4Car_NAME                                    :[DTS/4량] 8600호대 전기기관차
+STR_Group_EMU150_NAME                                  :[DTS] 비츠로
+STR_EMU150_4Car_NAME                                   :[DTS/4량] 비츠로
+STR_EMU150_6Car_NAME                                   :[DTS/6량] 비츠로
+STR_EMU150_8Car_NAME                                   :[DTS/8량] 비츠로
+STR_EMU150_DD_6Car_NAME                                :[DTS/6량] 비츠로 DD
+STR_EMU260_6Car_NAME                                   :[DTS/6량] EMU-260
+STR_EMU260_DD_6Car_NAME                                :[DTS/6량] EMU-260 DD
+STR_EMU320_8Car_NAME                                   :[DTS/8량] EMU-320
+STR_EMU320_DD_8Car_NAME                                :[DTS/8량] EMU-320 DD
+STR_GT26CW_NAME                                        :[DTS/단량] 7X00호대 디젤기관차
+STR_GTX_8Car_NAME                                      :[DTS/8량] GTX
+STR_Group_HEMU_430X_NAME                               :[DTS] HEMU-430X
+STR_HEMU_430X_6Car_NAME                                :[DTS/6량] HEMU-430X
+STR_HEMU_430X_8Car_NAME                                :[DTS/8량] HEMU-430X
+STR_Group_HSR_350X_NAME                                :[DTS] HSR-350X
+STR_HSR_350X_7Car_NAME                                 :[DTS/7량] HSR-350X
+STR_HSR_350X_14Car_NAME                                :[DTS/14량] HSR-350X
+STR_ICE_CW_8Car_NAME                                   :[DTS/8량] ITX-초월
+STR_ITX_SM2_6Car_NAME                                  :[DTS/6량] ITX-새마을 DD
+STR_KTX_SC_10Car_NAME                                  :[DTS/10량] KTX-산천
+STR_KTX_SC2_10Car_NAME                                 :[DTS/10량] KTX-산천 DD
+STR_NRT2_4Car_NAME                                     :[DTS/4량] 누리로 DD
+STR_Group_H2_WJ_NAME                                   :[DTS] 우진산전 수소연료전지동차
+STR_H2_WJ_2Car_NAME                                    :[DTS/2량] 우진산전 수소연료전지동차
+STR_H2_WJ_4Car_NAME                                    :[DTS/4량] 우진산전 수소연료전지동차
+STR_Travel_8500_NAME                                   :[DTS/단량] 8500호대 전기기관차
+STR_NEL_8200_NAME                                      :[DTS/단량] 8200호대 전기기관차
+STR_TTX_6Car_NAME                                      :[DTS/6량] TTX
+STR_VHST_600X_8Car_NAME                                :[DTS/8량] VHST-600X
+STR_MSB_Speeder_NAME                                   :[DTS/단량] MSB 모터카
+STR_CRH1_8Car_NAME                                     :[DTS/8량] CRH1A
+STR_CRH1E_16Car_NAME                                   :[DTS/16량] CRH1E
+STR_CRH1A_A_8Car_NAME                                  :[DTS/8량] CRH1A-A
+STR_CRH2_8Car_NAME                                     :[DTS/8량] CRH2A
+STR_CRH2_16Car_NAME                                    :[DTS/16량] CRH2B
+STR_CRH2C_8Car_NAME                                    :[DTS/8량] CRH2C
+STR_CRH3_8Car_NAME                                     :[DTS/8량] CRH3C
+STR_CRH380A_8Car_NAME                                  :[DTS/8량] CRH380A
+STR_CRH380A_16Car_NAME                                 :[DTS/16량] CRH380AL
+STR_CRH380AJ_8Car_NAME                                 :[DTS/8량] CRH380AJ
+STR_CRH380B_8Car_NAME                                  :[DTS/8량] CRH380B
+STR_CRH380B_16Car_NAME                                 :[DTS/16량] CRH380BL
+STR_CRH380C_16Car_NAME                                 :[DTS/16량] CRH380CL
+STR_Group_CRH380D_NAME                                 :[DTS] CRH380D
+STR_CRH380D_8Car_NAME                                  :[DTS/8량] CRH380D
+STR_CRH380D_16Car_NAME                                 :[DTS/16량] CRH380D
+STR_Group_CR400AF_NAME                                 :[DTS] CR400AF
+STR_CR400AF_8Car_NAME                                  :[DTS/8량] CR400AF
+STR_CR400AF_16Car_NAME                                 :[DTS/16량] CR400AF
+STR_CR400AF_17Car_NAME                                 :[DTS/17량] CR400AF
+STR_Group_CR400AF_Z_NAME                               :[DTS] CR400AF-Z
+STR_CR400AF_Z_8Car_NAME                                :[DTS/8량] CR400AF-Z
+STR_CR400AF_Z_17Car_NAME                               :[DTS/17량] CR400AF-Z
+STR_Group_CR400BF_NAME                                 :[DTS] CR400BF
+STR_CR400BF_8Car_NAME                                  :[DTS/8량] CR400BF
+STR_CR400BF_16Car_NAME                                 :[DTS/16량] CR400BF
+STR_CR400BF_17Car_NAME                                 :[DTS/17량] CR400BF
+STR_CR400BF_C_8Car_NAME                                :[DTS/8량] CR400BF-C
+STR_Group_CR400BF_Z_NAME                               :[DTS] CR400BF-Z
+STR_CR400BF_Z_8Car_NAME                                :[DTS/8량] CR400BF-Z
+STR_CR400BF_Z_17Car_NAME                               :[DTS/17량] CR400BF-Z
+STR_HXD3C_NAME                                         :[DTS/단량] HXD3C
+STR_NJ2_NAME                                           :[DTS/단량] NJ2
+STR_AGV_11Car_NAME                                     :[DTS/11량] AGV (이탈로)
+STR_BB15000_NAME                                       :[DTS/단량] SNCF BB15000
+STR_Eurostar_E300_20Car_NAME                           :[DTS/20량] 유로스타 E300
+STR_Eurostar_E320_16Car_NAME                           :[DTS/16량] 유로스타 E320
+STR_ICE1_14Car_NAME                                    :[DTS/14량] ICE1
+STR_ICE2_8Car_NAME                                     :[DTS/8량] ICE2
+STR_ICE3_8Car_NAME                                     :[DTS/8량] ICE3
+STR_ICE3V_8Car_NAME                                    :[DTS/8량] ICE3 (벨라로 D)
+STR_Group_ICE4_NAME                                    :[DTS] ICE4
+STR_ICE4_7Car_NAME                                     :[DTS/7량] ICE4
+STR_ICE4_12Car_NAME                                    :[DTS/12량] ICE4
+STR_Renfe_S_100_10Car_NAME                             :[DTS/10량] 렌페 AVE S-100
+STR_Renfe_S_102_14Car_NAME                             :[DTS/14량] 렌페 AVE S-102
+STR_Renfe_S_103_8Car_NAME                              :[DTS/8량] 렌페 AVE S-103
+STR_Renfe_S_130_13Car_NAME                             :[DTS/13량] 렌페 S-130
+STR_TGV_Sud_Est_10Car_NAME                             :[DTS/10량] TGV 쉬드-에스트
+STR_TGV_A_12Car_NAME                                   :[DTS/12량] TGV 아틀랑티크
+STR_TGV_R_10Car_NAME                                   :[DTS/10량] TGV 레조
+STR_TGV_Reseau_Duplex_10Car_NAME                       :[DTS/10량] TGV 레조 듀플렉스
+STR_TGV_La_Poste_10Car_NAME                            :[DTS/10량] TGV 라포스트
+STR_TGV_Duplex_10Car_NAME                              :[DTS/10량] TGV 듀플렉스
+STR_TGV_Pos_10Car_NAME                                 :[DTS/10량] TGV 포스
+STR_TGV_M_10Car_NAME                                   :[DTS/10량] TGV M
+STR_Kse2_8Car_NAME                                     :[DTS/8량] 케이세이 AE형 2세대
+STR_Group_Shinkansen_0_NAME                            :[DTS] 신칸센 0계
+STR_Shinkansen_0_12Car_NAME                            :[DTS/12량] 신칸센 0계
+STR_Shinkansen_0_16Car_NAME                            :[DTS/16량] 신칸센 0계
+STR_Group_Shinkansen_500_NAME                          :[DTS] 신칸센 500계
+STR_Shinkansen_500_8Car_NAME                           :[DTS/8량] 신칸센 500계
+STR_Shinkansen_500_16Car_NAME                          :[DTS/16량] 신칸센 500계
+STR_Group_Shinkansen_700_NAME                          :[DTS] 신칸센 700계
+STR_Shinkansen_700_8Car_NAME                           :[DTS/8량] 신칸센 700계 레일스타
+STR_Shinkansen_700_16Car_NAME                          :[DTS/16량] 신칸센 700계
+STR_Shinkansen_800_6Car_NAME                           :[DTS/6량] 신칸센 800계
+STR_Shinkansen_923_7Car_NAME                           :[DTS/7량] 신칸센 923형 (닥터 옐로우)
+STR_Shinkansen_E2_10Car_NAME                           :[DTS/10량] 신칸센 E2계
+STR_Shinkansen_E5_H5_10Car_NAME                        :[DTS/10량] 신칸센 E5·H5계
+STR_Shinkansen_E6_7Car_NAME                            :[DTS/7량] 신칸센 E6계
+STR_Shinkansen_E7_W7_12Car_NAME                        :[DTS/12량] 신칸센 E7·W7계
+STR_Shinkansen_E8_7Car_NAME                            :[DTS/7량] 신칸센 E8계
+STR_Group_Shinkansen_N700_NAME                         :[DTS] 신칸센 N700계
+STR_Shinkansen_N700_8Car_NAME                          :[DTS/8량] 신칸센 N700계 큐슈
+STR_Shinkansen_N700_16Car_NAME                         :[DTS/16량] 신칸센 N700계
+STR_Group_Shinkansen_N700S_NAME                        :[DTS] 신칸센 N700S계
+STR_Shinkansen_N700S_6Car_NAME                         :[DTS/6량] 신칸센 N700S계 니시큐슈
+STR_Shinkansen_N700S_16Car_NAME                        :[DTS/16량] 신칸센 N700S계
+STR_HYEL_15_NAME                                       :[DTS/단량] HYEL-15
+STR_HYEL_100_NAME                                      :[DTS/단량] HYEL-100
+STR_HYEL_150_NAME                                      :[DTS/단량] HYEL-150
+STR_Group_HYEL_200_NAME                                :[DTS] HYEL-200
+STR_HYEL_200_4Car_NAME                                 :[DTS/4량] HYEL-200
+STR_HYEL_200_6Car_NAME                                 :[DTS/6량] HYEL-200
+STR_HYEL_220_6Car_NAME                                 :[DTS/6량] HYEL-220
+STR_HYEL_300_8Car_NAME                                 :[DTS/8량] HYEL-300
+STR_HYEL_400_8Car_NAME                                 :[DTS/8량] HYEL-400
+STR_DFX_10Car_NAME                                     :[DTS/10량] DFX
+STR_NHSRCL_E5_10Car_NAME                               :[DTS/10량] NHSRCL E5
+STR_Group_NSW_TrainLink_D_NAME                         :[DTS] NSW TrainLink D
+STR_NSW_TrainLink_D_4Car_NAME                          :[DTS/4량] NSW TrainLink D
+STR_NSW_TrainLink_D_6Car_NAME                          :[DTS/6량] NSW TrainLink D
+STR_THSR_700T_12Car_NAME                               :[DTS/12량] 타이완 고속철도 700T형
+STR_Al_Boraq_10Car_NAME                                :[DTS/10량] 알 보라크
+STR_Talgo_350_SRO_14Car_NAME                           :[DTS/14량] 탈고 350 SRO (하라마인 고속철도)
+STR_Avelia_Liberty_11Car_NAME                          :[DTS/11량] 아벨리아 리버티
+STR_Glory_600_8Car_NAME                                :[DTS/8량] Glory 600
+STR_HMX_8Car_NAME                                      :[DTS/8량] HMX
+STR_NKX_8Car_NAME                                      :[DTS/8량] NKX
 
 # Metro's name
-STR_Standard_Metro_4Car_NAME                         :[DTS/4량] 한국형 표준전동차
-STR_AUTS_6Car_NAME                                   :[DTS/6량] 차세대전동차
-STR_Group_Korail_1st_VVVF_NAME                       :[DTS] 한국철도공사 1세대 VVVF 전동차
-STR_Korail_1st_VVVF_319K_4Car_IGBT_NAME              :[DTS/4량] 한국철도공사 1세대 319K IGBT
-STR_Korail_1st_VVVF_319K_4Car_GTO_NAME               :[DTS/4량] 한국철도공사 1세대 319K GTO
-STR_Korail_1st_VVVF_6Car_IGBT_NAME                   :[DTS/6량] 한국철도공사 1세대 3X1K
-STR_Korail_1st_VVVF_6Car_GTO_NAME                    :[DTS/6량] 한국철도공사 1세대 3X1K, 2030
-STR_Korail_1st_VVVF_10Car_IGBT_NAME                  :[DTS/10량] 한국철도공사 1세대 3X1K
-STR_Korail_1st_VVVF_10Car_GTO_NAME                   :[DTS/10량] 한국철도공사 1세대 3X1K, 2030, 5000
-STR_Korail_1st_VVVF_3000_10Car_NAME                  :[DTS/10량] 한국철도공사 1세대 3000
-STR_Group_Seoulmetro_1st_VVVF_NAME                   :[DTS] 서울교통공사 1세대 1000, 4000호대
-STR_Seoulmetro_1st_VVVF_6Car_NAME                    :[DTS/6량] 서울교통공사 1세대 전동차
-STR_Seoulmetro_1st_VVVF_GTO_10Car_NAME               :[DTS/10량] 서울교통공사 1세대 전동차 GTO
-STR_Seoulmetro_1st_VVVF_IGBT_10Car_NAME              :[DTS/10량] 서울교통공사 1세대 전동차 IGBT
-STR_Group_Korail_2nd_VVVF_NAME                       :[DTS] 한국철도공사 2세대 VVVF 전동차
-STR_Korail_2nd_VVVF_6Car_IGBT_NAME                   :[DTS/6량] 한국철도공사 2세대 IGBT
-STR_Korail_2nd_VVVF_6Car_GTO_NAME                    :[DTS/6량] 한국철도공사 2세대 GTO
-STR_Korail_2nd_VVVF_10Car_IGBT_NAME                  :[DTS/10량] 한국철도공사 2세대 IGBT
-STR_Korail_2nd_VVVF_10Car_GTO_NAME                   :[DTS/10량] 한국철도공사 2세대 GTO
-STR_Group_Seoulmetro_2nd_VVVF_NAME                   :[DTS] 서울교통공사 2세대 4000호대
-STR_Seoulmetro_2nd_VVVF_GTO_10Car_NAME               :[DTS/10량] 서울교통공사 2세대 전동차 GTO
-STR_Seoulmetro_2nd_VVVF_IGBT_10Car_NAME              :[DTS/10량] 서울교통공사 2세대 전동차 IGBT
-STR_Group_Korail_3rd_VVVF_NAME                       :[DTS] 한국철도공사 3세대 VVVF 전동차
-STR_Korail_3rd_VVVF_ST_4Car_NAME                     :[DTS/4량] 한국철도공사 3세대 1차 도입분
-STR_Korail_3rd_VVVF_G2_4Car_NAME                     :[DTS/4량] 한국철도공사 3세대 2차 도입분
-STR_Korail_3rd_VVVF_6Car_NAME                        :[DTS/6량] 한국철도공사 3세대 전동차
-STR_Korail_3rd_VVVF_8Car_NAME                        :[DTS/8량] 한국철도공사 3세대 전동차
-STR_Korail_3rd_VVVF_10Car_NAME                       :[DTS/10량] 한국철도공사 3세대 전동차
-STR_Group_Korail_4th_VVVF_NAME                       :[DTS] 한국철도공사 4세대 VVVF 전동차
-STR_Korail_392000_2Car_NAME                          :[DTS/2량] 한국철도공사 392000호대 전동차
-STR_Korail_392000_4Car_NAME                          :[DTS/4량] 한국철도공사 392000호대 전동차
-STR_Korail_4th_VVVF_G1_4Car_NAME                     :[DTS/4량] 한국철도공사 4세대 초기도입분
-STR_Korail_4th_VVVF_G2_G3_4Car_NAME                  :[DTS/4량] 한국철도공사 4세대 1·2차 도입분
-STR_Korail_4th_VVVF_G2_G3_6Car_NAME                  :[DTS/6량] 한국철도공사 4세대 1·2차 도입분
-STR_Korail_4th_VVVF_G2_G3_10Car_NAME                 :[DTS/10량] 한국철도공사 4세대 1·2차 도입분
-STR_Group_Korail_5th_VVVF_NAME                       :[DTS] 한국철도공사 5세대 VVVF 전동차
-STR_Korail_5th_VVVF_10Car_NAME                       :[DTS/10량] 한국철도공사 5세대 VVVF 전동차
-STR_Group_Rheostatic_Line1_EMU_NAME                  :[DTS] 수도권 1호선 저항제어 전동차 [초기저항]
-STR_Rheostatic_Line1_4Car_NAME                       :[DTS/4량] 수도권 1호선 저항제어 전동차 [초기저항]
-STR_Rheostatic_Line1_6Car_NAME                       :[DTS/6량] 수도권 1호선 저항제어 전동차 [초기저항]
-STR_Rheostatic_Line1_8Car_NAME                       :[DTS/8량] 수도권 1호선 저항제어 전동차 [초기저항]
-STR_Rheostatic_Line1_10Car_NAME                      :[DTS/10량] 수도권 1호선 저항제어 전동차 [초기저항]
-STR_Group_Rheostatic_Line1_Second_NAME               :[DTS] 수도권 1호선 저항제어 전동차 [중기저항]
-STR_Rheostatic_Line1_Second_4Car_NAME                :[DTS/4량] 수도권 1호선 저항제어 전동차 [중기저항]
-STR_Rheostatic_Line1_Second_6Car_NAME                :[DTS/6량] 수도권 1호선 저항제어 전동차 [중기저항]
-STR_Rheostatic_Line1_Second_8Car_NAME                :[DTS/8량] 수도권 1호선 저항제어 전동차 [중기저항]
-STR_Rheostatic_Line1_Second_10Car_NAME               :[DTS/10량] 수도권 1호선 저항제어 전동차 [중기저항]
-STR_Rheostatic_Line1_Third_10Car_NAME                :[DTS/10량] 수도권 1호선 저항제어 전동차 [신조저항]
-STR_Rheostatic_Line1_Rheostatic_10Car_NAME           :[DTS/10량] 수도권 1호선 저항제어 전동차 [개조저항]
-STR_MTR_AD_Tranz_CAF_A_8Car_NAME                     :[DTS/8량] 홍콩 MTR AD Tranz CAF A형
-STR_MTR_AC_Cammall_8Car_NAME                         :[DTS/8량] 홍콩 MTR 메트로카멜 교류형 전동차
-STR_MTR_DC_Cammall_8Car_NAME                         :[DTS/8량] 홍콩 MTR 메트로카멜 직류형 전동차
-STR_MTR_CNR_Changchun_8Car_NAME                      :[DTS/8량] 홍콩 MTR CNR 창춘 전동차
-STR_MTR_CRRC_8Car_NAME                               :[DTS/8량] 홍콩 MTR CRRC 전동차
-STR_MTR_Hyundai_Rotem_Mitsubishi_8Car_NAME           :[DTS/8량] 홍콩 MTR 현대로템 미쓰비시 전동차
-STR_MTR_Hyundai_Rotem_R_8Car_NAME                    :[DTS/8량] 홍콩 MTR 현대로템 R형 전동차
-STR_MTR_IKK_SP_1900_8Car_NAME                        :[DTS/8량] 홍콩 MTR IKK SP 1900
-STR_Nishitetsu_1000_4Car_NAME                        :[DTS/4량] 니시테츠 1000형
-STR_Nishitetsu_2000_6Car_NAME                        :[DTS/6량] 니시테츠 2000형
-STR_Group_Nishitetsu_3000_NAME                       :[DTS] 니시테츠 3000형
-STR_Nishitetsu_3000_2Car_NAME                        :[DTS/2량] 니시테츠 3000형
-STR_Nishitetsu_3000_3Car_NAME                        :[DTS/3량] 니시테츠 3000형
-STR_Nishitetsu_3000_5Car_NAME                        :[DTS/5량] 니시테츠 3000형
-STR_Group_Nishitetsu_5000_NAME                       :[DTS] 니시테츠 5000형
-STR_Nishitetsu_5000_3Car_NAME                        :[DTS/3량] 니시테츠 5000형
-STR_Nishitetsu_5000_4Car_NAME                        :[DTS/4량] 니시테츠 5000형
-STR_Group_Nishitetsu_6000_NAME                       :[DTS] 니시테츠 6000형
-STR_Nishitetsu_6000_3Car_NAME                        :[DTS/3량] 니시테츠 6000형
-STR_Nishitetsu_6000_4Car_NAME                        :[DTS/4량] 니시테츠 6000형
-STR_Nishitetsu_6050_3Car_NAME                        :[DTS/3량] 니시테츠 6050형
-STR_Nishitetsu_6050_4Car_NAME                        :[DTS/4량] 니시테츠 6050형
-STR_Nishitetsu_7000_2Car_NAME                        :[DTS/2량] 니시테츠 7000형
-STR_Nishitetsu_8000_6Car_NAME                        :[DTS/6량] 니시테츠 8000형
-STR_Group_Nishitetsu_9000_NAME                       :[DTS] 니시테츠 9000형
-STR_Nishitetsu_9000_2Car_NAME                        :[DTS/2량] 니시테츠 9000형
-STR_Nishitetsu_9000_3Car_NAME                        :[DTS/3량] 니시테츠 9000형
-STR_Hankyu_1000_8Car_NAME                            :[DTS/8량] 한큐전철 신1000형
-STR_Hankyu_1300_8Car_NAME                            :[DTS/8량] 한큐전철 신1300형
-STR_Group_Hankyu_6000_NAME                           :[DTS] 한큐전철 6000형
-STR_Hankyu_6000_2Car_NAME                            :[DTS/2량] 한큐전철 6000형
-STR_Hankyu_6000_3Car_NAME                            :[DTS/3량] 한큐전철 6000형
-STR_Hankyu_6000_4Car_NAME                            :[DTS/4량] 한큐전철 6000형
-STR_Hankyu_6000_8Car_NAME                            :[DTS/8량] 한큐전철 6000형
-STR_Group_Hankyu_6300_NAME                           :[DTS] 한큐전철 6300형
-STR_Hankyu_6300_4Car_NAME                            :[DTS/4량] 한큐전철 6300형
-STR_Hankyu_6300_8Car_NAME                            :[DTS/8량] 한큐전철 6300형
-STR_Group_Hankyu_8000_NAME                           :[DTS] 한큐전철 8000형
-STR_Hankyu_8000_2Car_NAME                            :[DTS/2량] 한큐전철 8000형
-STR_Hankyu_8000_8Car_NAME                            :[DTS/8량] 한큐전철 8000형
-STR_Group_Hankyu_8300_NAME                           :[DTS] 한큐전철 8300형
-STR_Hankyu_8300_2Car_NAME                            :[DTS/2량] 한큐전철 8300형
-STR_Hankyu_8300_8Car_NAME                            :[DTS/8량] 한큐전철 8300형
-STR_Hankyu_9000_8Car_NAME                            :[DTS/8량] 한큐전철 9000형
-STR_Hankyu_9300_8Car_NAME                            :[DTS/8량] 한큐전철 9300형
+STR_Standard_Metro_4Car_NAME                           :[DTS/4량] 한국형 표준전동차
+STR_AUTS_6Car_NAME                                     :[DTS/6량] 차세대전동차
+STR_Group_Korail_1st_VVVF_NAME                         :[DTS] 한국철도공사 1세대 VVVF 전동차
+STR_Korail_1st_VVVF_319K_4Car_IGBT_NAME                :[DTS/4량] 한국철도공사 1세대 319K IGBT
+STR_Korail_1st_VVVF_319K_4Car_GTO_NAME                 :[DTS/4량] 한국철도공사 1세대 319K GTO
+STR_Korail_1st_VVVF_6Car_IGBT_NAME                     :[DTS/6량] 한국철도공사 1세대 3X1K
+STR_Korail_1st_VVVF_6Car_GTO_NAME                      :[DTS/6량] 한국철도공사 1세대 3X1K, 2030
+STR_Korail_1st_VVVF_10Car_IGBT_NAME                    :[DTS/10량] 한국철도공사 1세대 3X1K
+STR_Korail_1st_VVVF_10Car_GTO_NAME                     :[DTS/10량] 한국철도공사 1세대 3X1K, 2030, 5000
+STR_Korail_1st_VVVF_3000_10Car_NAME                    :[DTS/10량] 한국철도공사 1세대 3000
+STR_Group_Seoulmetro_1st_VVVF_NAME                     :[DTS] 서울교통공사 1세대 1000, 4000호대
+STR_Seoulmetro_1st_VVVF_6Car_NAME                      :[DTS/6량] 서울교통공사 1세대 전동차
+STR_Seoulmetro_1st_VVVF_GTO_10Car_NAME                 :[DTS/10량] 서울교통공사 1세대 전동차 GTO
+STR_Seoulmetro_1st_VVVF_IGBT_10Car_NAME                :[DTS/10량] 서울교통공사 1세대 전동차 IGBT
+STR_Group_Korail_2nd_VVVF_NAME                         :[DTS] 한국철도공사 2세대 VVVF 전동차
+STR_Korail_2nd_VVVF_6Car_IGBT_NAME                     :[DTS/6량] 한국철도공사 2세대 IGBT
+STR_Korail_2nd_VVVF_6Car_GTO_NAME                      :[DTS/6량] 한국철도공사 2세대 GTO
+STR_Korail_2nd_VVVF_10Car_IGBT_NAME                    :[DTS/10량] 한국철도공사 2세대 IGBT
+STR_Korail_2nd_VVVF_10Car_GTO_NAME                     :[DTS/10량] 한국철도공사 2세대 GTO
+STR_Group_Seoulmetro_2nd_VVVF_NAME                     :[DTS] 서울교통공사 2세대 4000호대
+STR_Seoulmetro_2nd_VVVF_GTO_10Car_NAME                 :[DTS/10량] 서울교통공사 2세대 전동차 GTO
+STR_Seoulmetro_2nd_VVVF_IGBT_10Car_NAME                :[DTS/10량] 서울교통공사 2세대 전동차 IGBT
+STR_Group_Korail_3rd_VVVF_NAME                         :[DTS] 한국철도공사 3세대 VVVF 전동차
+STR_Korail_3rd_VVVF_ST_4Car_NAME                       :[DTS/4량] 한국철도공사 3세대 1차 도입분
+STR_Korail_3rd_VVVF_G2_4Car_NAME                       :[DTS/4량] 한국철도공사 3세대 2차 도입분
+STR_Korail_3rd_VVVF_6Car_NAME                          :[DTS/6량] 한국철도공사 3세대 전동차
+STR_Korail_3rd_VVVF_8Car_NAME                          :[DTS/8량] 한국철도공사 3세대 전동차
+STR_Korail_3rd_VVVF_10Car_NAME                         :[DTS/10량] 한국철도공사 3세대 전동차
+STR_Group_Korail_4th_VVVF_NAME                         :[DTS] 한국철도공사 4세대 VVVF 전동차
+STR_Korail_392000_2Car_NAME                            :[DTS/2량] 한국철도공사 392000호대 전동차
+STR_Korail_392000_4Car_NAME                            :[DTS/4량] 한국철도공사 392000호대 전동차
+STR_Korail_4th_VVVF_G1_4Car_NAME                       :[DTS/4량] 한국철도공사 4세대 초기도입분
+STR_Korail_4th_VVVF_G2_G3_4Car_NAME                    :[DTS/4량] 한국철도공사 4세대 1·2차 도입분
+STR_Korail_4th_VVVF_G2_G3_6Car_NAME                    :[DTS/6량] 한국철도공사 4세대 1·2차 도입분
+STR_Korail_4th_VVVF_G2_G3_10Car_NAME                   :[DTS/10량] 한국철도공사 4세대 1·2차 도입분
+STR_Group_Korail_5th_VVVF_NAME                         :[DTS] 한국철도공사 5세대 VVVF 전동차
+STR_Korail_5th_VVVF_10Car_NAME                         :[DTS/10량] 한국철도공사 5세대 VVVF 전동차
+STR_Group_Rheostatic_Line1_EMU_NAME                    :[DTS] 수도권 1호선 저항제어 전동차 [초기저항]
+STR_Rheostatic_Line1_4Car_NAME                         :[DTS/4량] 수도권 1호선 저항제어 전동차 [초기저항]
+STR_Rheostatic_Line1_6Car_NAME                         :[DTS/6량] 수도권 1호선 저항제어 전동차 [초기저항]
+STR_Rheostatic_Line1_8Car_NAME                         :[DTS/8량] 수도권 1호선 저항제어 전동차 [초기저항]
+STR_Rheostatic_Line1_10Car_NAME                        :[DTS/10량] 수도권 1호선 저항제어 전동차 [초기저항]
+STR_Group_Rheostatic_Line1_Second_NAME                 :[DTS] 수도권 1호선 저항제어 전동차 [중기저항]
+STR_Rheostatic_Line1_Second_4Car_NAME                  :[DTS/4량] 수도권 1호선 저항제어 전동차 [중기저항]
+STR_Rheostatic_Line1_Second_6Car_NAME                  :[DTS/6량] 수도권 1호선 저항제어 전동차 [중기저항]
+STR_Rheostatic_Line1_Second_8Car_NAME                  :[DTS/8량] 수도권 1호선 저항제어 전동차 [중기저항]
+STR_Rheostatic_Line1_Second_10Car_NAME                 :[DTS/10량] 수도권 1호선 저항제어 전동차 [중기저항]
+STR_Rheostatic_Line1_Third_10Car_NAME                  :[DTS/10량] 수도권 1호선 저항제어 전동차 [신조저항]
+STR_Rheostatic_Line1_Rheostatic_10Car_NAME             :[DTS/10량] 수도권 1호선 저항제어 전동차 [개조저항]
+STR_Group_Seoulmetro_2000_Rheostatic_NAME              :[DTS] 서울교통공사 2000호대 저항제어 전동차
+STR_Seoulmetro_2000_Rheostatic_4Car_NAME               :[DTS/4량] 서울교통공사 2000호대 저항제어 전동차
+STR_Seoulmetro_2000_Rheostatic_6Car_NAME               :[DTS/6량] 서울교통공사 2000호대 저항제어 전동차
+STR_Seoulmetro_2000_Rheostatic_10Car_NAME              :[DTS/10량] 서울교통공사 2000호대 저항제어 전동차
+STR_Group_Seoulmetro_2000_MELCO_chopper_NAME           :[DTS] 서울교통공사 2000호대 멜코초퍼
+STR_Seoulmetro_2000_MELCO_chopper_4Car_NAME            :[DTS/4량] 서울교통공사 2000호대 멜코초퍼
+STR_Seoulmetro_2000_MELCO_chopper_6Car_NAME            :[DTS/6량] 서울교통공사 2000호대 멜코초퍼
+STR_Seoulmetro_2000_MELCO_chopper_10Car_NAME           :[DTS/10량] 서울교통공사 2000호대 멜코초퍼
+STR_Group_Seoulmetro_2000_GEC_chopper_NAME             :[DTS] 서울교통공사 2000호대 GEC초퍼
+STR_Seoulmetro_2000_GEC_chopper_6Car_NAME              :[DTS/6량] 서울교통공사 2000호대 GEC초퍼
+STR_Seoulmetro_2000_GEC_chopper_10Car_NAME             :[DTS/10량] 서울교통공사 2000호대 GEC초퍼
+STR_Group_Seoulmetro_Wide_Range_GEC_chopper_NAME       :[DTS] 서울교통공사 광폭형 GEC초퍼
+STR_Seoulmetro_Wide_Range_GEC_chopper_6Car_NAME        :[DTS/6량] 서울교통공사 광폭형 GEC초퍼
+STR_Seoulmetro_Wide_Range_GEC_chopper_10Car_NAME       :[DTS/10량] 서울교통공사 광폭형 GEC초퍼
+STR_MTR_AD_Tranz_CAF_A_8Car_NAME                       :[DTS/8량] 홍콩 MTR AD Tranz CAF A형
+STR_MTR_AC_Cammall_8Car_NAME                           :[DTS/8량] 홍콩 MTR 메트로카멜 교류형 전동차
+STR_MTR_DC_Cammall_8Car_NAME                           :[DTS/8량] 홍콩 MTR 메트로카멜 직류형 전동차
+STR_MTR_CNR_Changchun_8Car_NAME                        :[DTS/8량] 홍콩 MTR CNR 창춘 전동차
+STR_MTR_CRRC_8Car_NAME                                 :[DTS/8량] 홍콩 MTR CRRC 전동차
+STR_MTR_Hyundai_Rotem_Mitsubishi_8Car_NAME             :[DTS/8량] 홍콩 MTR 현대로템 미쓰비시 전동차
+STR_MTR_Hyundai_Rotem_R_8Car_NAME                      :[DTS/8량] 홍콩 MTR 현대로템 R형 전동차
+STR_MTR_IKK_SP_1900_8Car_NAME                          :[DTS/8량] 홍콩 MTR IKK SP 1900
+STR_Nishitetsu_1000_4Car_NAME                          :[DTS/4량] 니시테츠 1000형
+STR_Nishitetsu_2000_6Car_NAME                          :[DTS/6량] 니시테츠 2000형
+STR_Group_Nishitetsu_3000_NAME                         :[DTS] 니시테츠 3000형
+STR_Nishitetsu_3000_2Car_NAME                          :[DTS/2량] 니시테츠 3000형
+STR_Nishitetsu_3000_3Car_NAME                          :[DTS/3량] 니시테츠 3000형
+STR_Nishitetsu_3000_5Car_NAME                          :[DTS/5량] 니시테츠 3000형
+STR_Group_Nishitetsu_5000_NAME                         :[DTS] 니시테츠 5000형
+STR_Nishitetsu_5000_3Car_NAME                          :[DTS/3량] 니시테츠 5000형
+STR_Nishitetsu_5000_4Car_NAME                          :[DTS/4량] 니시테츠 5000형
+STR_Group_Nishitetsu_6000_NAME                         :[DTS] 니시테츠 6000형
+STR_Nishitetsu_6000_3Car_NAME                          :[DTS/3량] 니시테츠 6000형
+STR_Nishitetsu_6000_4Car_NAME                          :[DTS/4량] 니시테츠 6000형
+STR_Nishitetsu_6050_3Car_NAME                          :[DTS/3량] 니시테츠 6050형
+STR_Nishitetsu_6050_4Car_NAME                          :[DTS/4량] 니시테츠 6050형
+STR_Nishitetsu_7000_2Car_NAME                          :[DTS/2량] 니시테츠 7000형
+STR_Nishitetsu_8000_6Car_NAME                          :[DTS/6량] 니시테츠 8000형
+STR_Group_Nishitetsu_9000_NAME                         :[DTS] 니시테츠 9000형
+STR_Nishitetsu_9000_2Car_NAME                          :[DTS/2량] 니시테츠 9000형
+STR_Nishitetsu_9000_3Car_NAME                          :[DTS/3량] 니시테츠 9000형
+STR_Hankyu_1000_8Car_NAME                              :[DTS/8량] 한큐전철 신1000형
+STR_Hankyu_1300_8Car_NAME                              :[DTS/8량] 한큐전철 신1300형
+STR_Group_Hankyu_6000_NAME                             :[DTS] 한큐전철 6000형
+STR_Hankyu_6000_2Car_NAME                              :[DTS/2량] 한큐전철 6000형
+STR_Hankyu_6000_3Car_NAME                              :[DTS/3량] 한큐전철 6000형
+STR_Hankyu_6000_4Car_NAME                              :[DTS/4량] 한큐전철 6000형
+STR_Hankyu_6000_8Car_NAME                              :[DTS/8량] 한큐전철 6000형
+STR_Group_Hankyu_6300_NAME                             :[DTS] 한큐전철 6300형
+STR_Hankyu_6300_4Car_NAME                              :[DTS/4량] 한큐전철 6300형
+STR_Hankyu_6300_8Car_NAME                              :[DTS/8량] 한큐전철 6300형
+STR_Group_Hankyu_8000_NAME                             :[DTS] 한큐전철 8000형
+STR_Hankyu_8000_2Car_NAME                              :[DTS/2량] 한큐전철 8000형
+STR_Hankyu_8000_8Car_NAME                              :[DTS/8량] 한큐전철 8000형
+STR_Group_Hankyu_8300_NAME                             :[DTS] 한큐전철 8300형
+STR_Hankyu_8300_2Car_NAME                              :[DTS/2량] 한큐전철 8300형
+STR_Hankyu_8300_8Car_NAME                              :[DTS/8량] 한큐전철 8300형
+STR_Hankyu_9000_8Car_NAME                              :[DTS/8량] 한큐전철 9000형
+STR_Hankyu_9300_8Car_NAME                              :[DTS/8량] 한큐전철 9300형
 
 # wagon's name
-STR_Group_Travel_wagon_NAME                          :[DTS] 관광열차
-STR_Eco_Rail_NAME                                    :[DTS/관광객차] 에코레일
-STR_CY_GW_NAME                                       :[DTS/관광객차] 충북영동국악와인
-STR_JA_a_NAME                                        :[DTS/관광객차] 정선아리랑 유람열차
-STR_E_Train_NAME                                     :[DTS/관광객차] E-Train
-STR_Wine_Panax_NAME                                  :[DTS/관광객차] 와인인삼트레인
-STR_Wine_Cinema_NAME                                 :[DTS/관광객차] 와인시네마트레인
-STR_Lady_Bird_NAME                                   :[DTS/관광객차] 레이디버드
-STR_S_Train_New_NAME                                 :[DTS/관광객차] S-Train 신도색
-STR_A_Train_New_NAME                                 :[DTS/관광객차] A-Train 신도색
-STR_G_Train_New_NAME                                 :[DTS/관광객차] G-Train 신도색
-STR_KTS_MSPASS_NAME                                  :[DTS/기관차연결] 한국 무궁화호 객차 차량
-STR_KTS_SSPASS_NAME                                  :[DTS/기관차연결] 한국 새마을호 객차 차량
-STR_Generatar_Car_NAME                               :[DTS/기관차연결] 한국 발전차
-STR_Luggage_Car_NAME                                 :[DTS/기관차연결] 한국 수화물차
-STR_CTS_SPASS_NAME                                   :[DTS/기관차연결] 중국 객차 차량
-STR_CGeneratar_Car_NAME                              :[DTS/기관차연결] 중국 발전차
-STR_CLuggage_Car_NAME                                :[DTS/기관차연결] 중국 수화물차
-STR_ETS_SPASS_NAME                                   :[DTS/기관차연결] 유럽 객차 차량
-STR_VTS_SPASS_NAME                                   :[DTS/기관차연결] 가상 객차 차량
-STR_FLAT_1F_NAME                                     :[DTS/기관차연결] 평판화차
-STR_FLAT_Tank_NAME                                   :[DTS/기관차연결] 평판유조 화차
-STR_FLAT_2F_NAME                                     :[DTS/기관차연결] 평판화차 - 미국형
+STR_Group_Travel_wagon_NAME                            :[DTS] 관광열차
+STR_Eco_Rail_NAME                                      :[DTS/관광객차] 에코레일
+STR_CY_GW_NAME                                         :[DTS/관광객차] 충북영동국악와인
+STR_JA_a_NAME                                          :[DTS/관광객차] 정선아리랑 유람열차
+STR_E_Train_NAME                                       :[DTS/관광객차] E-Train
+STR_Wine_Panax_NAME                                    :[DTS/관광객차] 와인인삼트레인
+STR_Wine_Cinema_NAME                                   :[DTS/관광객차] 와인시네마트레인
+STR_Lady_Bird_NAME                                     :[DTS/관광객차] 레이디버드
+STR_S_Train_New_NAME                                   :[DTS/관광객차] S-Train 신도색
+STR_A_Train_New_NAME                                   :[DTS/관광객차] A-Train 신도색
+STR_G_Train_New_NAME                                   :[DTS/관광객차] G-Train 신도색
+STR_KTS_MSPASS_NAME                                    :[DTS/기관차연결] 한국 무궁화호 객차 차량
+STR_KTS_SSPASS_NAME                                    :[DTS/기관차연결] 한국 새마을호 객차 차량
+STR_Generatar_Car_NAME                                 :[DTS/기관차연결] 한국 발전차
+STR_Luggage_Car_NAME                                   :[DTS/기관차연결] 한국 수화물차
+STR_CTS_SPASS_NAME                                     :[DTS/기관차연결] 중국 객차 차량
+STR_CGeneratar_Car_NAME                                :[DTS/기관차연결] 중국 발전차
+STR_CLuggage_Car_NAME                                  :[DTS/기관차연결] 중국 수화물차
+STR_ETS_SPASS_NAME                                     :[DTS/기관차연결] 유럽 객차 차량
+STR_VTS_SPASS_NAME                                     :[DTS/기관차연결] 가상 객차 차량
+STR_FLAT_1F_NAME                                       :[DTS/기관차연결] 평판화차
+STR_FLAT_Tank_NAME                                     :[DTS/기관차연결] 평판유조 화차
+STR_FLAT_2F_NAME                                       :[DTS/기관차연결] 평판화차 - 미국형
 
 # Object's name
-STR_OBJ_BUFFER                                       :[DTS] 차막이
-STR_OBJ_BUFFER_Concrete                              :[DTS] 콘크리트 차막이
-STR_OBJ_BUFFER_pebble                                :[DTS] 자갈 차막이
+STR_OBJ_BUFFER                                         :[DTS] 차막이
+STR_OBJ_BUFFER_Concrete                                :[DTS] 콘크리트 차막이
+STR_OBJ_BUFFER_pebble                                  :[DTS] 자갈 차막이
 
 # Parameters
-STR_PARAM_Metro_SPEED_Train_NAME                     :지하철 속도변수
-STR_PARAM_Metro_SPEED_Train_DESC                     :지하철의 속도를 조정합니다. (기본:121km/h)
-STR_PARAM_Regular_SPEED_Train_NAME                   :일반열차 속도변수
-STR_PARAM_Regular_SPEED_Train_DESC                   :일반열차의 속도를 조정합니다. (기본:151km/h)
-STR_PARAM_Semi_High_SPEED_Train_NAME                 :준고속열차 속도변수
-STR_PARAM_Semi_High_SPEED_Train_DESC                 :준고속열차의 속도를 조정합니다. (기본:181km/h)
-STR_PARAM_High_SPEED_Train_NAME                      :고속열차 속도변수
-STR_PARAM_High_SPEED_Train_DESC                      :고속열차의 속도를 조정합니다. (기본:331km/h)
-STR_PARAM_High_SPEED_Train_430_NAME                  :고속열차 속도변수 (430km/h 열차속도조절)
-STR_PARAM_High_SPEED_Train_430_DESC                  :고속열차의 속도를 조정합니다. (기본:430km/h)
-STR_PARAM_Chinese_NAME                               :중국형 열차 사용 금지
-STR_PARAM_Chinese_DESC                               :중국형 열차를 사용시 체크하세요. (기본:미사용)
-STR_PARAM_Hong_Kong_NAME                             :홍콩형 열차 사용 금지
-STR_PARAM_Hong_Kong_DESC                             :홍콩형 열차를 사용시 체크하세요. (기본:미사용)
-STR_PARAM_European_NAME                              :유럽형 열차 사용 금지
-STR_PARAM_European_DESC                              :유럽형 열차를 사용시 체크하세요. (기본:미사용)
-STR_PARAM_Japanese_NAME                              :일본형 열차 사용 금지
-STR_PARAM_Japanese_DESC                              :일본형 열차를 사용시 체크하세요. (기본:미사용)
-STR_PARAM_World_NAME                                 :월드형 열차 사용 금지
-STR_PARAM_World_DESC                                 :월드형 열차를 사용시 체크하세요. (기본:미사용)
-STR_PARAM_Maintenance_NAME                           :유지보수차량 사용 금지
-STR_PARAM_Maintenance_DESC                           :유지보수차량 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Metro_SPEED_Train_NAME                       :지하철 속도변수
+STR_PARAM_Metro_SPEED_Train_DESC                       :지하철의 속도를 조정합니다. (기본:121km/h)
+STR_PARAM_Regular_SPEED_Train_NAME                     :일반열차 속도변수
+STR_PARAM_Regular_SPEED_Train_DESC                     :일반열차의 속도를 조정합니다. (기본:151km/h)
+STR_PARAM_Semi_High_SPEED_Train_NAME                   :준고속열차 속도변수
+STR_PARAM_Semi_High_SPEED_Train_DESC                   :준고속열차의 속도를 조정합니다. (기본:181km/h)
+STR_PARAM_High_SPEED_Train_NAME                        :고속열차 속도변수
+STR_PARAM_High_SPEED_Train_DESC                        :고속열차의 속도를 조정합니다. (기본:331km/h)
+STR_PARAM_High_SPEED_Train_430_NAME                    :고속열차 속도변수 (430km/h 열차속도조절)
+STR_PARAM_High_SPEED_Train_430_DESC                    :고속열차의 속도를 조정합니다. (기본:430km/h)
+STR_PARAM_Chinese_NAME                                 :중국형 열차 사용 금지
+STR_PARAM_Chinese_DESC                                 :중국형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Hong_Kong_NAME                               :홍콩형 열차 사용 금지
+STR_PARAM_Hong_Kong_DESC                               :홍콩형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_European_NAME                                :유럽형 열차 사용 금지
+STR_PARAM_European_DESC                                :유럽형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Japanese_NAME                                :일본형 열차 사용 금지
+STR_PARAM_Japanese_DESC                                :일본형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_World_NAME                                   :월드형 열차 사용 금지
+STR_PARAM_World_DESC                                   :월드형 열차를 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Maintenance_NAME                             :유지보수차량 사용 금지
+STR_PARAM_Maintenance_DESC                             :유지보수차량 사용시 체크하세요. (기본:미사용)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
-STR_REFIT_ADDITIONAL_AREX                            :{BLACK}복합가능열차 {GREEN}AREX
-STR_REFIT_ADDITIONAL_MEL_150                         :{BLACK}복합가능열차 {GREEN}MEL-150
-STR_REFIT_ADDITIONAL_CL_150                          :{BLACK}복합가능열차 {GREEN}CL-150, CL-180
-STR_REFIT_ADDITIONAL_CTX                             :{BLACK}복합가능열차 {GREEN}KTX-산천, KTX-산천 DD, CTX
-STR_REFIT_ADDITIONAL_DEL7600                         :{BLACK}복합가능열차 {GREEN}DEL7600
-STR_REFIT_ADDITIONAL_E8600                           :{BLACK}복합가능열차 {GREEN}8600 전기기관차
-STR_REFIT_ADDITIONAL_NEL_8200                        :{BLACK}복합가능열차 {GREEN}8200 전기기관차
-STR_REFIT_ADDITIONAL_EMU150                          :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
-STR_REFIT_ADDITIONAL_EMU150_DD                       :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
-STR_REFIT_ADDITIONAL_EMU260                          :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
-STR_REFIT_ADDITIONAL_EMU260_DD                       :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
-STR_REFIT_ADDITIONAL_EMU320                          :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
-STR_REFIT_ADDITIONAL_EMU320_DD                       :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
-STR_REFIT_ADDITIONAL_GT26CW                          :{BLACK}복합가능열차 {GREEN}GT26CW
-STR_REFIT_ADDITIONAL_GTX                             :{BLACK}복합가능열차 {GREEN}GTX
-STR_REFIT_ADDITIONAL_HEMU_430X                       :{BLACK}복합가능열차 {GREEN}HEMU-430X
-STR_REFIT_ADDITIONAL_HSR_350X                        :{BLACK}복합가능열차 {GREEN}HRS-350X
-STR_REFIT_ADDITIONAL_ITX_CW                          :{BLACK}복합가능열차 {GREEN}ITX-초월
-STR_REFIT_ADDITIONAL_ITX_SM2                         :{BLACK}복합가능열차 {GREEN}ITX-새마을 DD
-STR_REFIT_ADDITIONAL_KTX_SC                          :{BLACK}복합가능열차 {GREEN}KTX-산천, KTX-산천 DD, CTX
-STR_REFIT_ADDITIONAL_KTX_SC2                         :{BLACK}복합가능열차 {GREEN}KTX-산천, KTX-산천 DD, CTX
-STR_REFIT_ADDITIONAL_NRT2                            :{BLACK}복합가능열차 {GREEN}누리로 DD
-STR_REFIT_ADDITIONAL_H2_WJ                           :{BLACK}복합가능열차 {GREEN}H2 WJ
-STR_REFIT_ADDITIONAL_Travel_8500                     :{BLACK}복합가능열차 {GREEN}8500호대 기관차
-STR_REFIT_ADDITIONAL_TTX                             :{BLACK}복합가능열차 {GREEN}TTX
-STR_REFIT_ADDITIONAL_VHST_600X                       :{BLACK}복합가능열차 {GREEN}VHST-600X
-STR_REFIT_ADDITIONAL_Standard_Metro                  :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_AUTS                            :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Korail_1st_VVVF                 :{BLACK}복합가능열차 {GREEN}Korail 1세대 VVVF 전동차
-STR_REFIT_ADDITIONAL_Korail_1st_VVVF_3000            :{BLACK}복합가능열차 {GREEN}Korail 1세대 VVVF 3000호대 전동차
-STR_REFIT_ADDITIONAL_Korail_2nd_VVVF                 :{BLACK}복합가능열차 {GREEN}Korail 2세대 VVVF 전동차
-STR_REFIT_ADDITIONAL_Korail_3rd_VVVF                 :{BLACK}복합가능열차 {GREEN}Korail 3세대 VVVF 전동차
-STR_REFIT_ADDITIONAL_Korail_4th_VVVF                 :{BLACK}복합가능열차 {GREEN}Korail 4세대 VVVF 전동차
-STR_REFIT_ADDITIONAL_Korail_5th_VVVF                 :{BLACK}복합가능열차 {GREEN}Korail 5세대 VVVF 전동차
-STR_REFIT_ADDITIONAL_Seoulmetro_1st                  :{BLACK}복합가능열차 {GREEN}서울교통공사 1세대 VVVF 전동차
-STR_REFIT_ADDITIONAL_Seoulmetro_2nd                  :{BLACK}복합가능열차 {GREEN}서울교통공사 2세대 VVVF 전동차
-STR_REFIT_ADDITIONAL_Rheostatic_Line1                :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [초기저항]
-STR_REFIT_ADDITIONAL_Rheostatic_Line1_Second         :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [중기저항]
-STR_REFIT_ADDITIONAL_Rheostatic_Line1_Third          :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [신조저항]
-STR_REFIT_ADDITIONAL_Rheostatic_Line1_Rheostatic     :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [개조저항]
-STR_REFIT_ADDITIONAL_MSB_Speeder                     :{BLACK}복합가능열차 {GREEN}MSB 모터카
-STR_REFIT_ADDITIONAL_CRH1                            :{BLACK}복합가능열차 {GREEN}CRH1
-STR_REFIT_ADDITIONAL_CRH1E                           :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_CRH1A_A                         :{BLACK}복합가능열차 {GREEN}CRH1A-A
-STR_REFIT_ADDITIONAL_CRH2A                           :{BLACK}복합가능열차 {GREEN}CRH2A
-STR_REFIT_ADDITIONAL_CRH2B                           :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_CRH2C                           :{BLACK}복합가능열차 {GREEN}CRH2C
-STR_REFIT_ADDITIONAL_CRH3                            :{BLACK}복합가능열차 {GREEN}CRH3C
-STR_REFIT_ADDITIONAL_CRH380A                         :{BLACK}복합가능열차 {GREEN}CRH380A
-STR_REFIT_ADDITIONAL_CRH380AL                        :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_CRH380AJ                        :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_CRH380B                         :{BLACK}복합가능열차 {GREEN}CRH380B
-STR_REFIT_ADDITIONAL_CRH380BL                        :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_CRH380C                         :{BLACK}복합가능열차 {RED}불가능
-STR_REFIT_ADDITIONAL_CRH380D                         :{BLACK}복합가능열차 {GREEN}CRH380D
-STR_REFIT_ADDITIONAL_CRH380D_16Car                   :{BLACK}복합가능열차 {RED}불가능
-STR_REFIT_ADDITIONAL_CR400AF                         :{BLACK}복합가능열차 {GREEN}CR400AF, CR400BF
-STR_REFIT_ADDITIONAL_CR400AF_16Car                   :{BLACK}복합가능열차 {RED}불가능
-STR_REFIT_ADDITIONAL_CR400AF_Z                       :{BLACK}복합가능열차 {GREEN}CR400AF-Z·BZ·C
-STR_REFIT_ADDITIONAL_CR400AF_Z_17Car                 :{BLACK}복합가능열차 {RED}불가능
-STR_REFIT_ADDITIONAL_CR400BF                         :{BLACK}복합가능열차 {GREEN}CR400AF, CR400BF
-STR_REFIT_ADDITIONAL_CR400BF_16Car                   :{BLACK}복합가능열차 {RED}불가능
-STR_REFIT_ADDITIONAL_CR400BF_C                       :{BLACK}복합가능열차 {GREEN}CR400BF-C
-STR_REFIT_ADDITIONAL_CR400BF_Z                       :{BLACK}복합가능열차 {GREEN}CR400BF-Z·BZ·GZ
-STR_REFIT_ADDITIONAL_CR400BF_Z_17Car                 :{BLACK}복합가능열차 {RED}불가능
-STR_REFIT_ADDITIONAL_HXD3C                           :{BLACK}복합가능열차 {GREEN}HXD3C
-STR_REFIT_ADDITIONAL_NJ2                             :{BLACK}복합가능열차 {GREEN}NJ2
-STR_REFIT_ADDITIONAL_MTR_AD_Tranz_CAF_A              :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_Cammall_AC                  :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_Cammall_DC                  :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_CNR_Changchun               :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_CRRC                        :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi    :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R             :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                 :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_AGV                             :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_BB15000                         :{BLACK}복합가능열차 {GREEN}BB15000
-STR_REFIT_ADDITIONAL_Eurostar_E300                   :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Eurostar_E320                   :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_ICE1                            :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_ICE2                            :{BLACK}복합가능열차 {GREEN}ICE2
-STR_REFIT_ADDITIONAL_ICE3                            :{BLACK}복합가능열차 {GREEN}ICE3
-STR_REFIT_ADDITIONAL_ICE3V                           :{BLACK}복합가능열차 {GREEN}ICE3 (벨라로 D)
-STR_REFIT_ADDITIONAL_ICE4_7Car                       :{BLACK}복합가능열차 {GREEN}ICE4
-STR_REFIT_ADDITIONAL_ICE4_12Car                      :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Renfe_S_100                     :{BLACK}복합가능열차 {GREEN}렌페 AVE S-100
-STR_REFIT_ADDITIONAL_Renfe_S_102                     :{BLACK}복합가능열차 {GREEN}렌페 AVE S-102
-STR_REFIT_ADDITIONAL_Renfe_S_103                     :{BLACK}복합가능열차 {GREEN}렌페 AVE S-103
-STR_REFIT_ADDITIONAL_Renfe_S_130                     :{BLACK}복합가능열차 {GREEN}렌페 Alvia S-130
-STR_REFIT_ADDITIONAL_TGV_Duplex                      :{BLACK}복합가능열차 {GREEN}TGV
-STR_REFIT_ADDITIONAL_TGV_Sud_Est                     :{BLACK}복합가능열차 {GREEN}TGV
-STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex               :{BLACK}복합가능열차 {GREEN}TGV
-STR_REFIT_ADDITIONAL_TGV_AR                          :{BLACK}복합가능열차 {GREEN}TGV
-STR_REFIT_ADDITIONAL_TGV_La_Poste                    :{BLACK}복합가능열차 {GREEN}TGV
-STR_REFIT_ADDITIONAL_TGV_Pos                         :{BLACK}복합가능열차 {GREEN}TGV
-STR_REFIT_ADDITIONAL_TGV_M                           :{BLACK}복합가능열차 {GREEN}TGV M
-STR_REFIT_ADDITIONAL_Kse2                            :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_0                    :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_500                  :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_700                  :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_800                  :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_923                  :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_E2                   :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_E5_H5                :{BLACK}복합가능열차 {GREEN}E6, E8
-STR_REFIT_ADDITIONAL_Shinkansen_E6                   :{BLACK}복합가능열차 {GREEN}E5, H5
-STR_REFIT_ADDITIONAL_Shinkansen_E7                   :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_E8                   :{BLACK}복합가능열차 {GREEN}E5, H5
-STR_REFIT_ADDITIONAL_Shinkansen_N700                 :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Shinkansen_N700S                :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Nishitetsu_1000                 :{BLACK}복합가능열차 {GREEN}니시테츠 1000
-STR_REFIT_ADDITIONAL_Nishitetsu_2000                 :{BLACK}복합가능열차 {GREEN}니시테츠 2000
-STR_REFIT_ADDITIONAL_Nishitetsu_3000                 :{BLACK}복합가능열차 {GREEN}니시테츠 3000
-STR_REFIT_ADDITIONAL_Nishitetsu_5000                 :{BLACK}복합가능열차 {GREEN}니시테츠 5000
-STR_REFIT_ADDITIONAL_Nishitetsu_6000                 :{BLACK}복합가능열차 {GREEN}니시테츠 6000, 니시테츠 6050, 니시테츠 7000
-STR_REFIT_ADDITIONAL_Nishitetsu_7000                 :{BLACK}복합가능열차 {GREEN}니시테츠 6000, 니시테츠 6050, 니시테츠 7000
-STR_REFIT_ADDITIONAL_Nishitetsu_8000                 :{BLACK}복합가능열차 {GREEN}니시테츠 8000
-STR_REFIT_ADDITIONAL_Nishitetsu_9000                 :{BLACK}복합가능열차 {GREEN}니시테츠 9000
-STR_REFIT_ADDITIONAL_Hankyu_1000                     :{BLACK}복합가능열차 {GREEN}한큐전철 신1000
-STR_REFIT_ADDITIONAL_Hankyu_1300                     :{BLACK}복합가능열차 {GREEN}한큐전철 신1300
-STR_REFIT_ADDITIONAL_Hankyu_6000                     :{BLACK}복합가능열차 {GREEN}한큐전철 6000
-STR_REFIT_ADDITIONAL_Hankyu_6300                     :{BLACK}복합가능열차 {RED}불가능
-STR_REFIT_ADDITIONAL_Hankyu_8000                     :{BLACK}복합가능열차 {GREEN}한큐전철 8000, 8300
-STR_REFIT_ADDITIONAL_Hankyu_8300                     :{BLACK}복합가능열차 {GREEN}한큐전철 8000, 8300
-STR_REFIT_ADDITIONAL_Hankyu_9000                     :{BLACK}복합가능열차 {GREEN}한큐전철 9000
-STR_REFIT_ADDITIONAL_Hankyu_9300                     :{BLACK}복합가능열차 {GREEN}한큐전철 9300
-STR_REFIT_ADDITIONAL_HYEL_15                         :{BLACK}복합가능열차 {GREEN}HYEL-15
-STR_REFIT_ADDITIONAL_HYEL_100                        :{BLACK}복합가능열차 {GREEN}HYEL-100
-STR_REFIT_ADDITIONAL_HYEL_150                        :{BLACK}복합가능열차 {GREEN}HYEL-150
-STR_REFIT_ADDITIONAL_HYEL_200                        :{BLACK}복합가능열차 {GREEN}HYEL-200, HYEL-220
-STR_REFIT_ADDITIONAL_HYEL_220                        :{BLACK}복합가능열차 {GREEN}HYEL-200, HYEL-220
-STR_REFIT_ADDITIONAL_HYEL_300                        :{BLACK}복합가능열차 {RED}불가능
-STR_REFIT_ADDITIONAL_HYEL_400                        :{BLACK}복합가능열차 {GREEN}HYEL-400
-STR_REFIT_ADDITIONAL_DFX                             :{BLACK}복합가능열차 {GREEN}DFX
-STR_REFIT_ADDITIONAL_NHSRCL_E5                       :{BLACK}복합가능열차 {GREEN}NHSRCL E5
-STR_REFIT_ADDITIONAL_NSW_TrainLink_D                 :{BLACK}복합가능열차 {GREEN}NSW TrainLink D
-STR_REFIT_ADDITIONAL_THSR_700T                       :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Al_Boraq                        :{BLACK}복합열차구성 {GREEN}Al Boraq
-STR_REFIT_ADDITIONAL_Talgo_350_SRO                   :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Avelia_Liberty                  :{BLACK}복합열차구성 {RED}불가능
-STR_REFIT_ADDITIONAL_Glory600                        :{BLACK}복합가능열차 {GREEN}Glory-600
-STR_REFIT_ADDITIONAL_HMX                             :{BLACK}복합가능열차 {GREEN}HMX
-STR_REFIT_ADDITIONAL_NKX                             :{BLACK}복합가능열차 {GREEN}NKX
+STR_REFIT_ADDITIONAL_AREX                              :{BLACK}복합가능열차 {GREEN}AREX
+STR_REFIT_ADDITIONAL_MEL_150                           :{BLACK}복합가능열차 {GREEN}MEL-150
+STR_REFIT_ADDITIONAL_CL_150                            :{BLACK}복합가능열차 {GREEN}CL-150, CL-180
+STR_REFIT_ADDITIONAL_CTX                               :{BLACK}복합가능열차 {GREEN}KTX-산천, KTX-산천 DD, CTX
+STR_REFIT_ADDITIONAL_DEL7600                           :{BLACK}복합가능열차 {GREEN}DEL7600
+STR_REFIT_ADDITIONAL_E8600                             :{BLACK}복합가능열차 {GREEN}8600 전기기관차
+STR_REFIT_ADDITIONAL_NEL_8200                          :{BLACK}복합가능열차 {GREEN}8200 전기기관차
+STR_REFIT_ADDITIONAL_EMU150                            :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU150_DD                         :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU260                            :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU260_DD                         :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU320                            :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
+STR_REFIT_ADDITIONAL_EMU320_DD                         :{BLACK}복합가능열차 {GREEN}비츠로, 비츠로 DD, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
+STR_REFIT_ADDITIONAL_GT26CW                            :{BLACK}복합가능열차 {GREEN}GT26CW
+STR_REFIT_ADDITIONAL_GTX                               :{BLACK}복합가능열차 {GREEN}GTX
+STR_REFIT_ADDITIONAL_HEMU_430X                         :{BLACK}복합가능열차 {GREEN}HEMU-430X
+STR_REFIT_ADDITIONAL_HSR_350X                          :{BLACK}복합가능열차 {GREEN}HRS-350X
+STR_REFIT_ADDITIONAL_ITX_CW                            :{BLACK}복합가능열차 {GREEN}ITX-초월
+STR_REFIT_ADDITIONAL_ITX_SM2                           :{BLACK}복합가능열차 {GREEN}ITX-새마을 DD
+STR_REFIT_ADDITIONAL_KTX_SC                            :{BLACK}복합가능열차 {GREEN}KTX-산천, KTX-산천 DD, CTX
+STR_REFIT_ADDITIONAL_KTX_SC2                           :{BLACK}복합가능열차 {GREEN}KTX-산천, KTX-산천 DD, CTX
+STR_REFIT_ADDITIONAL_NRT2                              :{BLACK}복합가능열차 {GREEN}누리로 DD
+STR_REFIT_ADDITIONAL_H2_WJ                             :{BLACK}복합가능열차 {GREEN}H2 WJ
+STR_REFIT_ADDITIONAL_Travel_8500                       :{BLACK}복합가능열차 {GREEN}8500호대 기관차
+STR_REFIT_ADDITIONAL_TTX                               :{BLACK}복합가능열차 {GREEN}TTX
+STR_REFIT_ADDITIONAL_VHST_600X                         :{BLACK}복합가능열차 {GREEN}VHST-600X
+STR_REFIT_ADDITIONAL_Standard_Metro                    :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_AUTS                              :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Korail_1st_VVVF                   :{BLACK}복합가능열차 {GREEN}Korail 1세대 VVVF 전동차
+STR_REFIT_ADDITIONAL_Korail_1st_VVVF_3000              :{BLACK}복합가능열차 {GREEN}Korail 1세대 VVVF 3000호대 전동차
+STR_REFIT_ADDITIONAL_Korail_2nd_VVVF                   :{BLACK}복합가능열차 {GREEN}Korail 2세대 VVVF 전동차
+STR_REFIT_ADDITIONAL_Korail_3rd_VVVF                   :{BLACK}복합가능열차 {GREEN}Korail 3세대 VVVF 전동차
+STR_REFIT_ADDITIONAL_Korail_4th_VVVF                   :{BLACK}복합가능열차 {GREEN}Korail 4세대 VVVF 전동차
+STR_REFIT_ADDITIONAL_Korail_5th_VVVF                   :{BLACK}복합가능열차 {GREEN}Korail 5세대 VVVF 전동차
+STR_REFIT_ADDITIONAL_Seoulmetro_1st                    :{BLACK}복합가능열차 {GREEN}서울교통공사 1세대 VVVF 전동차
+STR_REFIT_ADDITIONAL_Seoulmetro_2nd                    :{BLACK}복합가능열차 {GREEN}서울교통공사 2세대 VVVF 전동차
+STR_REFIT_ADDITIONAL_Rheostatic_Line1                  :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [초기저항]
+STR_REFIT_ADDITIONAL_Rheostatic_Line1_Second           :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [중기저항]
+STR_REFIT_ADDITIONAL_Rheostatic_Line1_Third            :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [신조저항]
+STR_REFIT_ADDITIONAL_Rheostatic_Line1_Rheostatic       :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [개조저항]
+STR_REFIT_ADDITIONAL_Seoulmetro_2000_Rheostatic        :{BLACK}복합가능열차 {GREEN}서울교통공사 2000호대 저항제어 전동차
+STR_REFIT_ADDITIONAL_Seoulmetro_2000_MELCO_chopper     :{BLACK}복합가능열차 {GREEN}서울교통공사 2000호대 멜코초퍼
+STR_REFIT_ADDITIONAL_Seoulmetro_2000_GEC_chopper       :{BLACK}복합가능열차 {GREEN}서울교통공사 2000호대 GEC초퍼
+STR_REFIT_ADDITIONAL_Seoulmetro_Wide_Range_GEC_chopper :{BLACK}복합가능열차 {GREEN}서울교통공사 광폭형 GEC초퍼
+STR_REFIT_ADDITIONAL_MSB_Speeder                       :{BLACK}복합가능열차 {GREEN}MSB 모터카
+STR_REFIT_ADDITIONAL_CRH1                              :{BLACK}복합가능열차 {GREEN}CRH1
+STR_REFIT_ADDITIONAL_CRH1E                             :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_CRH1A_A                           :{BLACK}복합가능열차 {GREEN}CRH1A-A
+STR_REFIT_ADDITIONAL_CRH2A                             :{BLACK}복합가능열차 {GREEN}CRH2A
+STR_REFIT_ADDITIONAL_CRH2B                             :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_CRH2C                             :{BLACK}복합가능열차 {GREEN}CRH2C
+STR_REFIT_ADDITIONAL_CRH3                              :{BLACK}복합가능열차 {GREEN}CRH3C
+STR_REFIT_ADDITIONAL_CRH380A                           :{BLACK}복합가능열차 {GREEN}CRH380A
+STR_REFIT_ADDITIONAL_CRH380AL                          :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_CRH380AJ                          :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_CRH380B                           :{BLACK}복합가능열차 {GREEN}CRH380B
+STR_REFIT_ADDITIONAL_CRH380BL                          :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_CRH380C                           :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_CRH380D                           :{BLACK}복합가능열차 {GREEN}CRH380D
+STR_REFIT_ADDITIONAL_CRH380D_16Car                     :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_CR400AF                           :{BLACK}복합가능열차 {GREEN}CR400AF, CR400BF
+STR_REFIT_ADDITIONAL_CR400AF_16Car                     :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_CR400AF_Z                         :{BLACK}복합가능열차 {GREEN}CR400AF-Z·BZ·C
+STR_REFIT_ADDITIONAL_CR400AF_Z_17Car                   :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_CR400BF                           :{BLACK}복합가능열차 {GREEN}CR400AF, CR400BF
+STR_REFIT_ADDITIONAL_CR400BF_16Car                     :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_CR400BF_C                         :{BLACK}복합가능열차 {GREEN}CR400BF-C
+STR_REFIT_ADDITIONAL_CR400BF_Z                         :{BLACK}복합가능열차 {GREEN}CR400BF-Z·BZ·GZ
+STR_REFIT_ADDITIONAL_CR400BF_Z_17Car                   :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_HXD3C                             :{BLACK}복합가능열차 {GREEN}HXD3C
+STR_REFIT_ADDITIONAL_NJ2                               :{BLACK}복합가능열차 {GREEN}NJ2
+STR_REFIT_ADDITIONAL_MTR_AD_Tranz_CAF_A                :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Cammall_AC                    :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Cammall_DC                    :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_CNR_Changchun                 :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_CRRC                          :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_Mitsubishi      :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R               :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_MTR_IKK_SP_1900                   :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_AGV                               :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_BB15000                           :{BLACK}복합가능열차 {GREEN}BB15000
+STR_REFIT_ADDITIONAL_Eurostar_E300                     :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Eurostar_E320                     :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_ICE1                              :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_ICE2                              :{BLACK}복합가능열차 {GREEN}ICE2
+STR_REFIT_ADDITIONAL_ICE3                              :{BLACK}복합가능열차 {GREEN}ICE3
+STR_REFIT_ADDITIONAL_ICE3V                             :{BLACK}복합가능열차 {GREEN}ICE3 (벨라로 D)
+STR_REFIT_ADDITIONAL_ICE4_7Car                         :{BLACK}복합가능열차 {GREEN}ICE4
+STR_REFIT_ADDITIONAL_ICE4_12Car                        :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Renfe_S_100                       :{BLACK}복합가능열차 {GREEN}렌페 AVE S-100
+STR_REFIT_ADDITIONAL_Renfe_S_102                       :{BLACK}복합가능열차 {GREEN}렌페 AVE S-102
+STR_REFIT_ADDITIONAL_Renfe_S_103                       :{BLACK}복합가능열차 {GREEN}렌페 AVE S-103
+STR_REFIT_ADDITIONAL_Renfe_S_130                       :{BLACK}복합가능열차 {GREEN}렌페 Alvia S-130
+STR_REFIT_ADDITIONAL_TGV_Duplex                        :{BLACK}복합가능열차 {GREEN}TGV
+STR_REFIT_ADDITIONAL_TGV_Sud_Est                       :{BLACK}복합가능열차 {GREEN}TGV
+STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex                 :{BLACK}복합가능열차 {GREEN}TGV
+STR_REFIT_ADDITIONAL_TGV_AR                            :{BLACK}복합가능열차 {GREEN}TGV
+STR_REFIT_ADDITIONAL_TGV_La_Poste                      :{BLACK}복합가능열차 {GREEN}TGV
+STR_REFIT_ADDITIONAL_TGV_Pos                           :{BLACK}복합가능열차 {GREEN}TGV
+STR_REFIT_ADDITIONAL_TGV_M                             :{BLACK}복합가능열차 {GREEN}TGV M
+STR_REFIT_ADDITIONAL_Kse2                              :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_0                      :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_500                    :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_700                    :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_800                    :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_923                    :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_E2                     :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_E5_H5                  :{BLACK}복합가능열차 {GREEN}E6, E8
+STR_REFIT_ADDITIONAL_Shinkansen_E6                     :{BLACK}복합가능열차 {GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_E7                     :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_E8                     :{BLACK}복합가능열차 {GREEN}E5, H5
+STR_REFIT_ADDITIONAL_Shinkansen_N700                   :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Shinkansen_N700S                  :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Nishitetsu_1000                   :{BLACK}복합가능열차 {GREEN}니시테츠 1000
+STR_REFIT_ADDITIONAL_Nishitetsu_2000                   :{BLACK}복합가능열차 {GREEN}니시테츠 2000
+STR_REFIT_ADDITIONAL_Nishitetsu_3000                   :{BLACK}복합가능열차 {GREEN}니시테츠 3000
+STR_REFIT_ADDITIONAL_Nishitetsu_5000                   :{BLACK}복합가능열차 {GREEN}니시테츠 5000
+STR_REFIT_ADDITIONAL_Nishitetsu_6000                   :{BLACK}복합가능열차 {GREEN}니시테츠 6000, 니시테츠 6050, 니시테츠 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_7000                   :{BLACK}복합가능열차 {GREEN}니시테츠 6000, 니시테츠 6050, 니시테츠 7000
+STR_REFIT_ADDITIONAL_Nishitetsu_8000                   :{BLACK}복합가능열차 {GREEN}니시테츠 8000
+STR_REFIT_ADDITIONAL_Nishitetsu_9000                   :{BLACK}복합가능열차 {GREEN}니시테츠 9000
+STR_REFIT_ADDITIONAL_Hankyu_1000                       :{BLACK}복합가능열차 {GREEN}한큐전철 신1000
+STR_REFIT_ADDITIONAL_Hankyu_1300                       :{BLACK}복합가능열차 {GREEN}한큐전철 신1300
+STR_REFIT_ADDITIONAL_Hankyu_6000                       :{BLACK}복합가능열차 {GREEN}한큐전철 6000
+STR_REFIT_ADDITIONAL_Hankyu_6300                       :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_Hankyu_8000                       :{BLACK}복합가능열차 {GREEN}한큐전철 8000, 8300
+STR_REFIT_ADDITIONAL_Hankyu_8300                       :{BLACK}복합가능열차 {GREEN}한큐전철 8000, 8300
+STR_REFIT_ADDITIONAL_Hankyu_9000                       :{BLACK}복합가능열차 {GREEN}한큐전철 9000
+STR_REFIT_ADDITIONAL_Hankyu_9300                       :{BLACK}복합가능열차 {GREEN}한큐전철 9300
+STR_REFIT_ADDITIONAL_HYEL_15                           :{BLACK}복합가능열차 {GREEN}HYEL-15
+STR_REFIT_ADDITIONAL_HYEL_100                          :{BLACK}복합가능열차 {GREEN}HYEL-100
+STR_REFIT_ADDITIONAL_HYEL_150                          :{BLACK}복합가능열차 {GREEN}HYEL-150
+STR_REFIT_ADDITIONAL_HYEL_200                          :{BLACK}복합가능열차 {GREEN}HYEL-200, HYEL-220
+STR_REFIT_ADDITIONAL_HYEL_220                          :{BLACK}복합가능열차 {GREEN}HYEL-200, HYEL-220
+STR_REFIT_ADDITIONAL_HYEL_300                          :{BLACK}복합가능열차 {RED}불가능
+STR_REFIT_ADDITIONAL_HYEL_400                          :{BLACK}복합가능열차 {GREEN}HYEL-400
+STR_REFIT_ADDITIONAL_DFX                               :{BLACK}복합가능열차 {GREEN}DFX
+STR_REFIT_ADDITIONAL_NHSRCL_E5                         :{BLACK}복합가능열차 {GREEN}NHSRCL E5
+STR_REFIT_ADDITIONAL_NSW_TrainLink_D                   :{BLACK}복합가능열차 {GREEN}NSW TrainLink D
+STR_REFIT_ADDITIONAL_THSR_700T                         :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Al_Boraq                          :{BLACK}복합열차구성 {GREEN}Al Boraq
+STR_REFIT_ADDITIONAL_Talgo_350_SRO                     :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Avelia_Liberty                    :{BLACK}복합열차구성 {RED}불가능
+STR_REFIT_ADDITIONAL_Glory600                          :{BLACK}복합가능열차 {GREEN}Glory-600
+STR_REFIT_ADDITIONAL_HMX                               :{BLACK}복합가능열차 {GREEN}HMX
+STR_REFIT_ADDITIONAL_NKX                               :{BLACK}복합가능열차 {GREEN}NKX
 
-STR_REFIT_train_configuration_Eco_Rail_Passenger     :{BLACK}열차구성: {GREEN}[관광열차] 에코레일 객차
-STR_REFIT_train_configuration_CY_GW_Passenger        :{BLACK}열차구성: {GREEN}[관광열차] 충북국악와인 객차
-STR_REFIT_train_configuration_JA_a_Passenger         :{BLACK}열차구성: {GREEN}[관광열차] 정선아리랑 유람열차
-STR_REFIT_train_configuration_E_Train_Passenger      :{BLACK}열차구성: {GREEN}[관광열차] E-Train
-STR_REFIT_train_configuration_Wine_Panax_Passenger   :{BLACK}열차구성: {GREEN}[관광열차] 와인인삼트레인
-STR_REFIT_train_configuration_Wine_Cinema_Passenger  :{BLACK}열차구성: {GREEN}[관광열차] 와인세네마트레인
-STR_REFIT_train_configuration_Lady_Bird_Passenger    :{BLACK}열차구성: {GREEN}[관광열차] 레이디버드
-STR_REFIT_train_configuration_S_Train_New_Passenger  :{BLACK}열차구성: {GREEN}[관광열차] S-Train 신도색
-STR_REFIT_train_configuration_A_Train_New_Passenger  :{BLACK}열차구성: {GREEN}[관광열차] A-Train 신도색
-STR_REFIT_train_configuration_G_Train_New_Passenger  :{BLACK}열차구성: {GREEN}[관광열차] G-Train 신도색
-STR_REFIT_train_configuration_MSPassenger            :{BLACK}열차구성: {GREEN}[기관차연결] 한국형 무궁화호 객차
-STR_REFIT_train_configuration_SSPassenger            :{BLACK}열차구성: {GREEN}[기관차연결] 한국형 새마을호 객차
-STR_REFIT_train_configuration_Generatar              :{BLACK}열차구성: {GREEN}[기관차연결] 한국형 발전차
-STR_REFIT_train_configuration_Luggage                :{BLACK}열차구성: {GREEN}[기관차열차] 한국형 수화물차
-STR_REFIT_train_configuration_CSPassenger            :{BLACK}열차구성: {GREEN}[기관차열차] 중국 객차
-STR_REFIT_train_configuration_CGeneratar             :{BLACK}열차구성: {GREEN}[기관차열차] 중국 발전차
-STR_REFIT_train_configuration_CLuggage               :{BLACK}열차구성: {GREEN}[기관차열차] 중국 수화물차
-STR_REFIT_train_configuration_ESPassenger            :{BLACK}열차구성: {GREEN}[기관차열차] 유럽 객차
-STR_REFIT_train_configuration_TGV_Poste              :{BLACK}열차구성: {GREEN}TGV 라포스트
-STR_REFIT_train_configuration_2F                     :{BLACK}열차구성: {GREEN}[기관차열차] 2층 객차
-STR_REFIT_train_configuration_Coach                  :{BLACK}열차구성: {GREEN}객차형 승객 차량용
-STR_REFIT_train_configuration_Coach_Last             :{BLACK}열차구성: {GREEN}객차형 승객 차량용
+STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}열차구성 {GREEN}[관광열차] 에코레일 객차
+STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}열차구성 {GREEN}[관광열차] 충북국악와인 객차
+STR_REFIT_train_configuration_JA_a_Passenger           :{BLACK}열차구성 {GREEN}[관광열차] 정선아리랑 유람열차
+STR_REFIT_train_configuration_E_Train_Passenger        :{BLACK}열차구성 {GREEN}[관광열차] E-Train
+STR_REFIT_train_configuration_Wine_Panax_Passenger     :{BLACK}열차구성 {GREEN}[관광열차] 와인인삼트레인
+STR_REFIT_train_configuration_Wine_Cinema_Passenger    :{BLACK}열차구성 {GREEN}[관광열차] 와인세네마트레인
+STR_REFIT_train_configuration_Lady_Bird_Passenger      :{BLACK}열차구성 {GREEN}[관광열차] 레이디버드
+STR_REFIT_train_configuration_S_Train_New_Passenger    :{BLACK}열차구성 {GREEN}[관광열차] S-Train 신도색
+STR_REFIT_train_configuration_A_Train_New_Passenger    :{BLACK}열차구성 {GREEN}[관광열차] A-Train 신도색
+STR_REFIT_train_configuration_G_Train_New_Passenger    :{BLACK}열차구성 {GREEN}[관광열차] G-Train 신도색
+STR_REFIT_train_configuration_MSPassenger              :{BLACK}열차구성 {GREEN}[기관차연결] 한국형 무궁화호 객차
+STR_REFIT_train_configuration_SSPassenger              :{BLACK}열차구성 {GREEN}[기관차연결] 한국형 새마을호 객차
+STR_REFIT_train_configuration_Generatar                :{BLACK}열차구성 {GREEN}[기관차연결] 한국형 발전차
+STR_REFIT_train_configuration_Luggage                  :{BLACK}열차구성 {GREEN}[기관차열차] 한국형 수화물차
+STR_REFIT_train_configuration_CSPassenger              :{BLACK}열차구성 {GREEN}[기관차열차] 중국 객차
+STR_REFIT_train_configuration_CGeneratar               :{BLACK}열차구성 {GREEN}[기관차열차] 중국 발전차
+STR_REFIT_train_configuration_CLuggage                 :{BLACK}열차구성 {GREEN}[기관차열차] 중국 수화물차
+STR_REFIT_train_configuration_ESPassenger              :{BLACK}열차구성 {GREEN}[기관차열차] 유럽 객차
+STR_REFIT_train_configuration_TGV_Poste                :{BLACK}열차구성 {GREEN}TGV 라포스트
+STR_REFIT_train_configuration_2F                       :{BLACK}열차구성 {GREEN}[기관차열차] 2층 객차
+STR_REFIT_train_configuration_Coach                    :{BLACK}열차구성 {GREEN}객차형 승객 차량용
+STR_REFIT_train_configuration_Coach_Last               :{BLACK}열차구성 {GREEN}객차형 승객 차량용
 
 # Liveries locomotive
-STR_REFIT_LIVERY_Bicheuro                            : 비츠로
-STR_REFIT_LIVERY_BicheuroA                           : 비츠로 A
-STR_REFIT_LIVERY_BicheuroB                           : 비츠로 B
-STR_REFIT_LIVERY_GTX                                 : GTX
-STR_REFIT_LIVERY_Bicheuro_DD                         : 비츠로 DD
-STR_REFIT_LIVERY_BicheuroA_DD                        : 비츠로 DD A
-STR_REFIT_LIVERY_BicheuroB_DD                        : 비츠로 DD B
-STR_REFIT_LIVERY_NRT2_Old_C                          : 누리로 DD 구도색 회사색상
-STR_REFIT_LIVERY_NRT2_New_C                          : 누리로 DD 신도색 회사색상
-STR_REFIT_LIVERY_NRT2_Old_OT                         : 누리로 DD O-train 도색
-STR_REFIT_LIVERY_NRT2_New_ITX                        : 누리로 DD ITX 도색
-STR_REFIT_LIVERY_ITX_SM2_C                           : ITX-새마을 회사색상
-STR_REFIT_LIVERY_EMU260W                             : EMU-250 시안 2안
-STR_REFIT_LIVERY_EMU260BK                            : EMU-250 시안 3안
-STR_REFIT_LIVERY_EMU260MD                            : HEMU-250 시안
-STR_REFIT_LIVERY_EMU260SM1                           : EMU-260 새마을 초기 도색
-STR_REFIT_LIVERY_EMU260SM2                           : EMU-260 새마을 중기 도색
-STR_REFIT_LIVERY_EMU260SM3                           : EMU-260 새마을 후기 도색
-STR_REFIT_LIVERY_EMU320_CC                           : EMU-320 회사색상
-STR_REFIT_LIVERY_EMU320_BK                           : EMU-320 시안
-STR_REFIT_LIVERY_EMU320_SRT                          : EMU-320 SRT 시안 1안
-STR_REFIT_LIVERY_EMU320_SRT2                         : EMU-320 SRT 컨셉
-STR_REFIT_LIVERY_EMU320_ICE                          : EMU-320 ICE
-STR_REFIT_LIVERY_EMU320_Euro                         : EMU-320 Euro
-STR_REFIT_LIVERY_EMU320_THRS                         : EMU-320 THRS
-STR_REFIT_LIVERY_EMU320_JR                           : EMU-320 JR
-STR_REFIT_LIVERY_EMU320_DD_CC                        : EMU-320 DD 회사 색상
-STR_REFIT_LIVERY_EMU320_DD_BK                        : EMU-320 DD 검정 도색
-STR_REFIT_LIVERY_GT26CW                              : 현도색 객화겸용
-STR_REFIT_LIVERY_GT26CW_A                            : 구도색
-STR_REFIT_LIVERY_GT26CW_B                            : 초기도색 화물
-STR_REFIT_LIVERY_GT26CW_C                            : 초기도색 여객
-STR_REFIT_LIVERY_GT26CW_D                            : 현도색 화물
-STR_REFIT_LIVERY_GT26CW_CY_GW                        : 충북영동국악와인
-STR_REFIT_LIVERY_GT26CW_LB                           : 레이디버드
-STR_REFIT_LIVERY_GT26CW_ST                           : S-Train
-STR_REFIT_LIVERY_GT26CW_G                            : G-Train
-STR_REFIT_LIVERY_KTX_HN_B                            : KTX-산천 호남고속선 시안 2안
-STR_REFIT_LIVERY_KTX_HN_Y                            : KTX-산천 호남고속선 시안 3안
-STR_REFIT_LIVERY_KTX_GG_B                            : KTX-산천 경강선 시안 1안
-STR_REFIT_LIVERY_KTX_GG_W                            : KTX-산천 경강선 컨셉
-STR_REFIT_LIVERY_Travel_8500                         : 기본도색
-STR_REFIT_LIVERY_Travel_8500_A_train                 : A-Train
-STR_REFIT_LIVERY_Travel_8500_A_train_New             : A-Train 신도색
-STR_REFIT_LIVERY_Travel_8500_G_train                 : G-Train
-STR_REFIT_LIVERY_Travel_8500_G_train_New             : G-Train 신도색
-STR_REFIT_LIVERY_Travel_8500_S_train                 : S-Train
-STR_REFIT_LIVERY_Travel_8500_V_train                 : V-Train
-STR_REFIT_LIVERY_Travel_8500_Haerang_train           : Haerang
-STR_REFIT_LIVERY_Travel_8500_Wine_train              : Wine
-STR_REFIT_LIVERY_CRH380A                             : CRH380A
-STR_REFIT_LIVERY_Vibrant_Express                     : 바이브런트 익스프레스
-STR_REFIT_LIVERY_CR400BF_C                           : 일반 도색
-STR_REFIT_LIVERY_CR400BF_C_O                         : 2022 베이징동계올림픽 도색
-STR_REFIT_LIVERY_BB15000_Orginal                     : 기본도색
-STR_REFIT_LIVERY_BB15000_Korail                      : Korail
-STR_REFIT_LIVERY_BB15000_En_Voyagee                  : En Voyagee
-STR_REFIT_LIVERY_Eurostar_E300_Old                   : 유로스타 구도색
-STR_REFIT_LIVERY_Eurostar_E300_New                   : 유로스타 신도색
-STR_REFIT_LIVERY_TGV_Duplex                          : TGV 듀플렉스 블루 & 그레이 도색
-STR_REFIT_LIVERY_TGV_LYAIR_Duplex                    : TGV 듀플렉스 리리아·카밀론 도색
-STR_REFIT_LIVERY_TGV_OUIGO_Duplex                    : TGV 듀플렉스 위고 도색
-STR_REFIT_LIVERY_TGV_Reseau_Duplex                   : TGV 레조 듀플렉스 블루 & 그레이 도색
-STR_REFIT_LIVERY_TGV_Reseau_LYAIR_Duplex             : TGV 레조 듀플렉스 리리아·카밀론 도색
-STR_REFIT_LIVERY_TGV_Sud_Est_original                : TGV 쉬드-에스트 오렌지 도색
-STR_REFIT_LIVERY_TGV_Sud_Est_blue                    : TGV 쉬드-에스트 블루 & 그레이 도색
-STR_REFIT_LIVERY_TGV_Sud_Est_new                     : TGV 쉬드-에스트 카밀론 도색
-STR_REFIT_LIVERY_TGV_A_blue                          : TGV 아틀랑티크 블루 & 그레이 도색
-STR_REFIT_LIVERY_TGV_A_blueLacroix                   : TGV 아틀랑티크 블루 & 그레이 라크루아 도색
-STR_REFIT_LIVERY_TGV_A_carmillon                     : TGV 아틀랑티크 카밀론 도색
-STR_REFIT_LIVERY_TGV_R_blue                          : TGV 레조 블루 & 그레이 도색
-STR_REFIT_LIVERY_TGV_R_blueLacroix                   : TGV 레조 블루 & 그레이 라크루아 도색
-STR_REFIT_LIVERY_TGV_R_carmillon                     : TGV 레조 카밀론 도색
-STR_REFIT_LIVERY_TGV_POS                             : TGV 포스 블루 & 그레이 도색
-STR_REFIT_LIVERY_TGV_LYAIR                           : TGV 포스 리리아 도색
-STR_REFIT_LIVERY_TGV_THALYS                          : TGV PBKA 탈리스 도색
-STR_REFIT_LIVERY_TGV_Carmillon                       : TGV 포스 카밀론 도색
-STR_REFIT_LIVERY_Renfe_S_100_old                     : 초기 도색
-STR_REFIT_LIVERY_Renfe_S_100_new                     : 리뉴얼 도색
-STR_REFIT_LIVERY_Renfe_S_130_Alvia                   : Alvia
-STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob               : Aprosiyob
-STR_REFIT_LIVERY_ICE2_red                            : 레드 도색
-STR_REFIT_LIVERY_ICE2_green                          : 그린 도색
-STR_REFIT_LIVERY_ICE3_red                            : ICE 3 레드 도색
-STR_REFIT_LIVERY_ICE3_green                          : ICE 3 그린 도색
-STR_REFIT_LIVERY_ICE3M_red                           : ICE 3M 레드 도색
-STR_REFIT_LIVERY_ICE3M_green                         : ICE 3M 그린 도색
-STR_REFIT_LIVERY_ICE3M_Blue                          : ICE 3M 유로파 도색
-STR_REFIT_LIVERY_ICE3V_red                           : 레드 도색
-STR_REFIT_LIVERY_ICE3V_green                         : 그린 도색
-STR_REFIT_LIVERY_ICE4_red                            : 레드 도색
-STR_REFIT_LIVERY_ICE4_green                          : 그린 도색
-STR_REFIT_LIVERY_Shinkansen_0                        : 오리지널
-STR_REFIT_LIVERY_Shinkansen_0_renewal                : 리뉴얼
-STR_REFIT_LIVERY_Shinkansen_E2_Pink                  : E2계 - 분홍
-STR_REFIT_LIVERY_Shinkansen_E2_Red                   : E2계 - 빨강
-STR_REFIT_LIVERY_Shinkansen_E5                       : 신칸센 E5계
-STR_REFIT_LIVERY_Shinkansen_H5                       : 신칸센 H5계
-STR_REFIT_LIVERY_HYEL_100                            : 기본도색
-STR_REFIT_LIVERY_HYEL_100_CI                         : 한국철도공사 CI
-STR_REFIT_LIVERY_HYEL_150                            : HYEL-150
-STR_REFIT_LIVERY_HYEL_150_SB                         : HYEL-150 바다도색
+STR_REFIT_LIVERY_Bicheuro                              : 비츠로
+STR_REFIT_LIVERY_BicheuroA                             : 비츠로 A
+STR_REFIT_LIVERY_BicheuroB                             : 비츠로 B
+STR_REFIT_LIVERY_GTX                                   : GTX
+STR_REFIT_LIVERY_Bicheuro_DD                           : 비츠로 DD
+STR_REFIT_LIVERY_BicheuroA_DD                          : 비츠로 DD A
+STR_REFIT_LIVERY_BicheuroB_DD                          : 비츠로 DD B
+STR_REFIT_LIVERY_NRT2_Old_C                            : 누리로 DD 구도색 회사색상
+STR_REFIT_LIVERY_NRT2_New_C                            : 누리로 DD 신도색 회사색상
+STR_REFIT_LIVERY_NRT2_Old_OT                           : 누리로 DD O-train 도색
+STR_REFIT_LIVERY_NRT2_New_ITX                          : 누리로 DD ITX 도색
+STR_REFIT_LIVERY_ITX_SM2_C                             : ITX-새마을 회사색상
+STR_REFIT_LIVERY_EMU260W                               : EMU-250 시안 2안
+STR_REFIT_LIVERY_EMU260BK                              : EMU-250 시안 3안
+STR_REFIT_LIVERY_EMU260MD                              : HEMU-250 시안
+STR_REFIT_LIVERY_EMU260SM1                             : EMU-260 새마을 초기 도색
+STR_REFIT_LIVERY_EMU260SM2                             : EMU-260 새마을 중기 도색
+STR_REFIT_LIVERY_EMU260SM3                             : EMU-260 새마을 후기 도색
+STR_REFIT_LIVERY_EMU320_CC                             : EMU-320 회사색상
+STR_REFIT_LIVERY_EMU320_BK                             : EMU-320 시안
+STR_REFIT_LIVERY_EMU320_SRT                            : EMU-320 SRT 시안 1안
+STR_REFIT_LIVERY_EMU320_SRT2                           : EMU-320 SRT 컨셉
+STR_REFIT_LIVERY_EMU320_ICE                            : EMU-320 ICE
+STR_REFIT_LIVERY_EMU320_Euro                           : EMU-320 Euro
+STR_REFIT_LIVERY_EMU320_THRS                           : EMU-320 THRS
+STR_REFIT_LIVERY_EMU320_JR                             : EMU-320 JR
+STR_REFIT_LIVERY_EMU320_DD_CC                          : EMU-320 DD 회사 색상
+STR_REFIT_LIVERY_EMU320_DD_BK                          : EMU-320 DD 검정 도색
+STR_REFIT_LIVERY_GT26CW                                : 현도색 객화겸용
+STR_REFIT_LIVERY_GT26CW_A                              : 구도색
+STR_REFIT_LIVERY_GT26CW_B                              : 초기도색 화물
+STR_REFIT_LIVERY_GT26CW_C                              : 초기도색 여객
+STR_REFIT_LIVERY_GT26CW_D                              : 현도색 화물
+STR_REFIT_LIVERY_GT26CW_CY_GW                          : 충북영동국악와인
+STR_REFIT_LIVERY_GT26CW_LB                             : 레이디버드
+STR_REFIT_LIVERY_GT26CW_ST                             : S-Train
+STR_REFIT_LIVERY_GT26CW_G                              : G-Train
+STR_REFIT_LIVERY_KTX_HN_B                              : KTX-산천 호남고속선 시안 2안
+STR_REFIT_LIVERY_KTX_HN_Y                              : KTX-산천 호남고속선 시안 3안
+STR_REFIT_LIVERY_KTX_GG_B                              : KTX-산천 경강선 시안 1안
+STR_REFIT_LIVERY_KTX_GG_W                              : KTX-산천 경강선 컨셉
+STR_REFIT_LIVERY_Travel_8500                           : 기본도색
+STR_REFIT_LIVERY_Travel_8500_A_train                   : A-Train
+STR_REFIT_LIVERY_Travel_8500_A_train_New               : A-Train 신도색
+STR_REFIT_LIVERY_Travel_8500_G_train                   : G-Train
+STR_REFIT_LIVERY_Travel_8500_G_train_New               : G-Train 신도색
+STR_REFIT_LIVERY_Travel_8500_S_train                   : S-Train
+STR_REFIT_LIVERY_Travel_8500_V_train                   : V-Train
+STR_REFIT_LIVERY_Travel_8500_Haerang_train             : Haerang
+STR_REFIT_LIVERY_Travel_8500_Wine_train                : Wine
+STR_REFIT_LIVERY_CRH380A                               : CRH380A
+STR_REFIT_LIVERY_Vibrant_Express                       : 바이브런트 익스프레스
+STR_REFIT_LIVERY_CR400BF_C                             : 일반 도색
+STR_REFIT_LIVERY_CR400BF_C_O                           : 2022 베이징동계올림픽 도색
+STR_REFIT_LIVERY_BB15000_Orginal                       : 기본도색
+STR_REFIT_LIVERY_BB15000_Korail                        : Korail
+STR_REFIT_LIVERY_BB15000_En_Voyagee                    : En Voyagee
+STR_REFIT_LIVERY_Eurostar_E300_Old                     : 유로스타 구도색
+STR_REFIT_LIVERY_Eurostar_E300_New                     : 유로스타 신도색
+STR_REFIT_LIVERY_TGV_Duplex                            : TGV 듀플렉스 블루 & 그레이 도색
+STR_REFIT_LIVERY_TGV_LYAIR_Duplex                      : TGV 듀플렉스 리리아·카밀론 도색
+STR_REFIT_LIVERY_TGV_OUIGO_Duplex                      : TGV 듀플렉스 위고 도색
+STR_REFIT_LIVERY_TGV_Reseau_Duplex                     : TGV 레조 듀플렉스 블루 & 그레이 도색
+STR_REFIT_LIVERY_TGV_Reseau_LYAIR_Duplex               : TGV 레조 듀플렉스 리리아·카밀론 도색
+STR_REFIT_LIVERY_TGV_Sud_Est_original                  : TGV 쉬드-에스트 오렌지 도색
+STR_REFIT_LIVERY_TGV_Sud_Est_blue                      : TGV 쉬드-에스트 블루 & 그레이 도색
+STR_REFIT_LIVERY_TGV_Sud_Est_new                       : TGV 쉬드-에스트 카밀론 도색
+STR_REFIT_LIVERY_TGV_A_blue                            : TGV 아틀랑티크 블루 & 그레이 도색
+STR_REFIT_LIVERY_TGV_A_blueLacroix                     : TGV 아틀랑티크 블루 & 그레이 라크루아 도색
+STR_REFIT_LIVERY_TGV_A_carmillon                       : TGV 아틀랑티크 카밀론 도색
+STR_REFIT_LIVERY_TGV_R_blue                            : TGV 레조 블루 & 그레이 도색
+STR_REFIT_LIVERY_TGV_R_blueLacroix                     : TGV 레조 블루 & 그레이 라크루아 도색
+STR_REFIT_LIVERY_TGV_R_carmillon                       : TGV 레조 카밀론 도색
+STR_REFIT_LIVERY_TGV_POS                               : TGV 포스 블루 & 그레이 도색
+STR_REFIT_LIVERY_TGV_LYAIR                             : TGV 포스 리리아 도색
+STR_REFIT_LIVERY_TGV_THALYS                            : TGV PBKA 탈리스 도색
+STR_REFIT_LIVERY_TGV_Carmillon                         : TGV 포스 카밀론 도색
+STR_REFIT_LIVERY_Renfe_S_100_old                       : 초기 도색
+STR_REFIT_LIVERY_Renfe_S_100_new                       : 리뉴얼 도색
+STR_REFIT_LIVERY_Renfe_S_130_Alvia                     : Alvia
+STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob                 : Aprosiyob
+STR_REFIT_LIVERY_ICE2_red                              : 레드 도색
+STR_REFIT_LIVERY_ICE2_green                            : 그린 도색
+STR_REFIT_LIVERY_ICE3_red                              : ICE 3 레드 도색
+STR_REFIT_LIVERY_ICE3_green                            : ICE 3 그린 도색
+STR_REFIT_LIVERY_ICE3M_red                             : ICE 3M 레드 도색
+STR_REFIT_LIVERY_ICE3M_green                           : ICE 3M 그린 도색
+STR_REFIT_LIVERY_ICE3M_Blue                            : ICE 3M 유로파 도색
+STR_REFIT_LIVERY_ICE3V_red                             : 레드 도색
+STR_REFIT_LIVERY_ICE3V_green                           : 그린 도색
+STR_REFIT_LIVERY_ICE4_red                              : 레드 도색
+STR_REFIT_LIVERY_ICE4_green                            : 그린 도색
+STR_REFIT_LIVERY_Shinkansen_0                          : 오리지널
+STR_REFIT_LIVERY_Shinkansen_0_renewal                  : 리뉴얼
+STR_REFIT_LIVERY_Shinkansen_E2_Pink                    : E2계 - 분홍
+STR_REFIT_LIVERY_Shinkansen_E2_Red                     : E2계 - 빨강
+STR_REFIT_LIVERY_Shinkansen_E5                         : 신칸센 E5계
+STR_REFIT_LIVERY_Shinkansen_H5                         : 신칸센 H5계
+STR_REFIT_LIVERY_HYEL_100                              : 기본도색
+STR_REFIT_LIVERY_HYEL_100_CI                           : 한국철도공사 CI
+STR_REFIT_LIVERY_HYEL_150                              : HYEL-150
+STR_REFIT_LIVERY_HYEL_150_SB                           : HYEL-150 바다도색
 
 # Liveries metro
-STR_REFIT_LIVERY_AUTS                                : AUTS
-STR_REFIT_LIVERY_Standard_Metro_Long_Seat            : 한국 표준형 지하철 롱 시트
-STR_REFIT_LIVERY_Standard_Metro_Cross_Seat           : 한국 표준형 지하철 크로스 시트
-STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_A              : 코레일 1세대 3X1K
-STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_B              : 코레일 1세대 3X1K 부수객차 편성
-STR_REFIT_LIVERY_Korail_1st_VVVF_2030                : 코레일 1세대 2030
-STR_REFIT_LIVERY_Korail_1st_VVVF_5000_A              : 코레일 1세대 5000
-STR_REFIT_LIVERY_Korail_1st_VVVF_5000_B              : 코레일 1세대 5000 부수객차 편성
-STR_REFIT_LIVERY_Korail_1st_VVVF_3000_Old            : 코레일 1세대 3000 구도색
-STR_REFIT_LIVERY_Korail_1st_VVVF_3000_New            : 코레일 1세대 3000 신도색
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_1000_A          : 서울교통공사 1세대 VVVF 1000호대
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_1000_B          : 서울교통공사 1세대 VVVF 1000호대 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_4000            : 서울교통공사 1세대 VVVF 4000호대
-STR_REFIT_LIVERY_Korail_2nd_VVVF_311K                : 코레일 2세대 311K
-STR_REFIT_LIVERY_Korail_2nd_VVVF_341K                : 코레일 2세대 341K
-STR_REFIT_LIVERY_Korail_2nd_VVVF_2030                : 코레일 2세대 2030
-STR_REFIT_LIVERY_Korail_2nd_VVVF_5000                : 코레일 2세대 5000
-STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_DOB              : 코레일 3세대 VVVF ST 더블암
-STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_331K_DOB         : 코레일 3세대 VVVF ST 더블암 331K
-STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_SI               : 코레일 3세대 VVVF ST 싱글암
-STR_REFIT_LIVERY_Korail_3rd_VVVF_G2                  : 코레일 3세대 VVVF 2차분
-STR_REFIT_LIVERY_Korail_3rd_VVVF_AL_311K             : 코레일 3세대 VVVF AL 311K
-STR_REFIT_LIVERY_Korail_3rd_VVVF_AL_331K             : 코레일 3세대 VVVF AL 331K
-STR_REFIT_LIVERY_Korail_3rd_VVVF_AL_361K_A           : 코레일 3세대 VVVF AL 361K 출입문 도색
-STR_REFIT_LIVERY_Korail_3rd_VVVF_AL_361K_B           : 코레일 3세대 VVVF AL 361K 줄무늬 도색
-STR_REFIT_LIVERY_Korail_3rd_VVVF_Bike                : 코레일 3세대 VVVF 자전거 도색
-STR_REFIT_LIVERY_Korail_3rd_VVVF_Civil_complaint_365 : 코레일 3세대 VVVF 민원전철365 도색
-STR_REFIT_LIVERY_Korail_4th_VVVF_G2_SI1              : 코레일 4세대 VVVF 1차분 싱글암1개
-STR_REFIT_LIVERY_Korail_4th_VVVF_G2_SI2              : 코레일 4세대 VVVF 1차분 싱글암2개
-STR_REFIT_LIVERY_Korail_4th_VVVF_G2_DOB              : 코레일 4세대 VVVF 1차분 더블암
-STR_REFIT_LIVERY_Korail_4th_VVVF_G3_SI1              : 코레일 4세대 VVVF 2차분 싱글암1개
-STR_REFIT_LIVERY_Korail_4th_VVVF_G3_SI2              : 코레일 4세대 VVVF 2차분 싱글암2개
-STR_REFIT_LIVERY_Korail_4th_VVVF_G3_DOB              : 코레일 4세대 VVVF 2차분 더블암
-STR_REFIT_LIVERY_Line1_K1000_Initial                 : 초기저항 철도청 초기도색 [비냉방]
-STR_REFIT_LIVERY_Line1_K1000_Initial_Aircon_A        : 초기저항 철도청 초기도색 [냉방개조]
-STR_REFIT_LIVERY_Line1_K1000_Initial_Aircon_B        : 초기저항 철도청 초기도색 [냉방개조] 중기저항객차 편성
-STR_REFIT_LIVERY_Line1_K1000_Old_A                   : 초기저항 철도청 구도색
-STR_REFIT_LIVERY_Line1_K1000_Old_B                   : 초기저항 철도청 구도색 중기저항객차 편성
-STR_REFIT_LIVERY_Line1_S1000                         : 초기저항 서울지하철공사 도색 [비냉방]
-STR_REFIT_LIVERY_Line1_S1000_Aircon                  : 초기저항 서울지하철공사 도색 [냉방개조]
-STR_REFIT_LIVERY_Line1_Initial_1_A                   : 중기저항 초기형 초기도색
-STR_REFIT_LIVERY_Line1_Initial_1_B                   : 중기저항 초기형 초기도색 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Line1_Old_1_A                       : 중기저항 초기형 구도색
-STR_REFIT_LIVERY_Line1_Old_1_B                       : 중기저항 초기형 구도색 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Line1_Old_1_C                       : 중기저항 초기형 구도색 (전차량 동력객차)
-STR_REFIT_LIVERY_Line1_Old_1_D                       : 중기저항 초기형 구도색 (초기저항 동력객차 편성 시) A
-STR_REFIT_LIVERY_Line1_Old_1_E                       : 중기저항 초기형 구도색 (초기저항 동력객차 편성 시) B
-STR_REFIT_LIVERY_Line1_New_1_A                       : 중기저항 초기형 신도색
-STR_REFIT_LIVERY_Line1_New_1_B                       : 중기저항 초기형 신도색 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Line1_New_1_C                       : 중기저항 초기형 신도색 (전차량 동력객차)
-STR_REFIT_LIVERY_Line1_New_1_D                       : 중기저항 초기형 신도색 (초기저항 동력객차 편성 시) A
-STR_REFIT_LIVERY_Line1_New_1_E                       : 중기저항 초기형 신도색 (초기저항 동력객차 편성 시) B
-STR_REFIT_LIVERY_Line1_Initial_2_A                   : 중기저항 후기형 초기도색
-STR_REFIT_LIVERY_Line1_Initial_2_B                   : 중기저항 후기형 초기도색 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Line1_Old_2_A                       : 중기저항 후기형 구도색
-STR_REFIT_LIVERY_Line1_Old_2_B                       : 중기저항 후기형 구도색 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Line1_New_2_A                       : 중기저항 후기형 신도색
-STR_REFIT_LIVERY_Line1_New_2_B                       : 중기저항 후기형 신도색 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Line1_Third_Old_A                   : 신조저항 구도색
-STR_REFIT_LIVERY_Line1_Third_Old_B                   : 신조저항 구도색 (무동력객차 편성)
-STR_REFIT_LIVERY_Line1_Third_New                     : 신조저항 신도색
-STR_REFIT_LIVERY_Line1_Rheostatic_K1000_A            : 코레일 개조저항 A
-STR_REFIT_LIVERY_Line1_Rheostatic_K1000_B            : 코레일 개조저항 B
-STR_REFIT_LIVERY_Line1_Rheostatic_S1000              : 서울교통공사 개조저항
-STR_REFIT_LIVERY_Line1_Rheostatic_S1000_1011F        : 서울교통공사 개조저항 1011F
-STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express  : MTR AD Tranz CAF A Type Airport Express
-STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung       : MTR AD Tranz CAF A Type Tung Chung
-STR_REFIT_LIVERY_MTR_DC_Cammall                      : MTR 메트로카멜 직류형 미개조형
-STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding             : MTR 메트로카멜 직류형 개조형
-STR_REFIT_LIVERY_MTR_DC_Cammall_Disney               : MTR 메트로카멜 직류형 디즈니선
-STR_REFIT_LIVERY_MTR_CNR_Changchun                   : MTR CNR 창춘 전동차
-STR_REFIT_LIVERY_MTR_CNR_Changchun_South_Island      : MTR CNR 창춘 남부섬선
-STR_REFIT_LIVERY_MTR_CRRC_Changchun                  : MTR CRRC 창춘 전동차
-STR_REFIT_LIVERY_MTR_CRRC_Sipang                     : MTR CRRC 쓰팡 전동차
-STR_REFIT_LIVERY_Nishitetsu_1000_Normal              : 니시테츠 1000형 일반도색
-STR_REFIT_LIVERY_Nishitetsu_1000_Normal_Aircon       : 니시테츠 1000형 냉방개조
-STR_REFIT_LIVERY_Nishitetsu_1000_Original            : 니시테츠 1000형 초기도색
-STR_REFIT_LIVERY_Nishitetsu_1000_Express             : 니시테츠 1000형 특급도색
-STR_REFIT_LIVERY_Nishitetsu_1000_Last_Run            : 니시테츠 1000형 특별도색
-STR_REFIT_LIVERY_Nishitetsu_2000_Normal              : 니시테츠 2000형 일반도색
-STR_REFIT_LIVERY_Nishitetsu_2000_Express             : 니시테츠 2000형 특급도색
-STR_REFIT_LIVERY_Nishitetsu_5000_MG                  : 니시테츠 5000형 전동발전기
-STR_REFIT_LIVERY_Nishitetsu_5000_SIV                 : 니시테츠 5000형 정지형 인버터
-STR_REFIT_LIVERY_Nishitetsu_7000                     : 니시테츠 7000형
-STR_REFIT_LIVERY_Nishitetsu_7050                     : 니시테츠 7050형
-STR_REFIT_LIVERY_Hankyu_8000_Long_Seat               : 한큐 8000형 롱 시트
-STR_REFIT_LIVERY_Hankyu_8000_Cross_Seat              : 한큐 8000형 크로스 시트
-STR_REFIT_LIVERY_Hankyu_8300_Long_Seat               : 한큐 8300형 롱 시트
-STR_REFIT_LIVERY_Hankyu_8300_Cross_Seat              : 한큐 8300형 크로스 시트
+STR_REFIT_LIVERY_AUTS                                  : AUTS
+STR_REFIT_LIVERY_Standard_Metro_Long_Seat              : 한국 표준형 지하철 롱 시트
+STR_REFIT_LIVERY_Standard_Metro_Cross_Seat             : 한국 표준형 지하철 크로스 시트
+STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_A                : 코레일 1세대 3X1K
+STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_B                : 코레일 1세대 3X1K 부수객차 편성
+STR_REFIT_LIVERY_Korail_1st_VVVF_2030                  : 코레일 1세대 2030
+STR_REFIT_LIVERY_Korail_1st_VVVF_5000_A                : 코레일 1세대 5000
+STR_REFIT_LIVERY_Korail_1st_VVVF_5000_B                : 코레일 1세대 5000 부수객차 편성
+STR_REFIT_LIVERY_Korail_1st_VVVF_3000_Old              : 코레일 1세대 3000 구도색
+STR_REFIT_LIVERY_Korail_1st_VVVF_3000_New              : 코레일 1세대 3000 신도색
+STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_1000_A            : 서울교통공사 1세대 VVVF 1000호대
+STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_1000_B            : 서울교통공사 1세대 VVVF 1000호대 (초기저항 부수객차 편성)
+STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_4000              : 서울교통공사 1세대 VVVF 4000호대
+STR_REFIT_LIVERY_Korail_2nd_VVVF_311K                  : 코레일 2세대 311K
+STR_REFIT_LIVERY_Korail_2nd_VVVF_341K                  : 코레일 2세대 341K
+STR_REFIT_LIVERY_Korail_2nd_VVVF_2030                  : 코레일 2세대 2030
+STR_REFIT_LIVERY_Korail_2nd_VVVF_5000                  : 코레일 2세대 5000
+STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_DOB                : 코레일 3세대 VVVF ST 더블암
+STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_331K_DOB           : 코레일 3세대 VVVF ST 더블암 331K
+STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_SI                 : 코레일 3세대 VVVF ST 싱글암
+STR_REFIT_LIVERY_Korail_3rd_VVVF_G2                    : 코레일 3세대 VVVF 2차분
+STR_REFIT_LIVERY_Korail_3rd_VVVF_AL_311K               : 코레일 3세대 VVVF AL 311K
+STR_REFIT_LIVERY_Korail_3rd_VVVF_AL_331K               : 코레일 3세대 VVVF AL 331K
+STR_REFIT_LIVERY_Korail_3rd_VVVF_AL_361K_A             : 코레일 3세대 VVVF AL 361K 출입문 도색
+STR_REFIT_LIVERY_Korail_3rd_VVVF_AL_361K_B             : 코레일 3세대 VVVF AL 361K 줄무늬 도색
+STR_REFIT_LIVERY_Korail_3rd_VVVF_Bike                  : 코레일 3세대 VVVF 자전거 도색
+STR_REFIT_LIVERY_Korail_3rd_VVVF_Civil_complaint_365   : 코레일 3세대 VVVF 민원전철365 도색
+STR_REFIT_LIVERY_Korail_4th_VVVF_G2_SI1                : 코레일 4세대 VVVF 1차분 싱글암1개
+STR_REFIT_LIVERY_Korail_4th_VVVF_G2_SI2                : 코레일 4세대 VVVF 1차분 싱글암2개
+STR_REFIT_LIVERY_Korail_4th_VVVF_G2_DOB                : 코레일 4세대 VVVF 1차분 더블암
+STR_REFIT_LIVERY_Korail_4th_VVVF_G3_SI1                : 코레일 4세대 VVVF 2차분 싱글암1개
+STR_REFIT_LIVERY_Korail_4th_VVVF_G3_SI2                : 코레일 4세대 VVVF 2차분 싱글암2개
+STR_REFIT_LIVERY_Korail_4th_VVVF_G3_DOB                : 코레일 4세대 VVVF 2차분 더블암
+STR_REFIT_LIVERY_Line1_K1000_Initial                   : 초기저항 철도청 초기도색 [비냉방]
+STR_REFIT_LIVERY_Line1_K1000_Initial_Aircon_A          : 초기저항 철도청 초기도색 [냉방개조]
+STR_REFIT_LIVERY_Line1_K1000_Initial_Aircon_B          : 초기저항 철도청 초기도색 [냉방개조] 중기저항객차 편성
+STR_REFIT_LIVERY_Line1_K1000_Old_A                     : 초기저항 철도청 구도색
+STR_REFIT_LIVERY_Line1_K1000_Old_B                     : 초기저항 철도청 구도색 중기저항객차 편성
+STR_REFIT_LIVERY_Line1_S1000                           : 초기저항 서울지하철공사 도색 [비냉방]
+STR_REFIT_LIVERY_Line1_S1000_Aircon                    : 초기저항 서울지하철공사 도색 [냉방개조]
+STR_REFIT_LIVERY_Line1_Initial_1_A                     : 중기저항 초기형 초기도색
+STR_REFIT_LIVERY_Line1_Initial_1_B                     : 중기저항 초기형 초기도색 (초기저항 부수객차 편성)
+STR_REFIT_LIVERY_Line1_Old_1_A                         : 중기저항 초기형 구도색
+STR_REFIT_LIVERY_Line1_Old_1_B                         : 중기저항 초기형 구도색 (초기저항 부수객차 편성)
+STR_REFIT_LIVERY_Line1_Old_1_C                         : 중기저항 초기형 구도색 (전차량 동력객차)
+STR_REFIT_LIVERY_Line1_Old_1_D                         : 중기저항 초기형 구도색 (초기저항 동력객차 편성 시) A
+STR_REFIT_LIVERY_Line1_Old_1_E                         : 중기저항 초기형 구도색 (초기저항 동력객차 편성 시) B
+STR_REFIT_LIVERY_Line1_New_1_A                         : 중기저항 초기형 신도색
+STR_REFIT_LIVERY_Line1_New_1_B                         : 중기저항 초기형 신도색 (초기저항 부수객차 편성)
+STR_REFIT_LIVERY_Line1_New_1_C                         : 중기저항 초기형 신도색 (전차량 동력객차)
+STR_REFIT_LIVERY_Line1_New_1_D                         : 중기저항 초기형 신도색 (초기저항 동력객차 편성 시) A
+STR_REFIT_LIVERY_Line1_New_1_E                         : 중기저항 초기형 신도색 (초기저항 동력객차 편성 시) B
+STR_REFIT_LIVERY_Line1_Initial_2_A                     : 중기저항 후기형 초기도색
+STR_REFIT_LIVERY_Line1_Initial_2_B                     : 중기저항 후기형 초기도색 (초기저항 부수객차 편성)
+STR_REFIT_LIVERY_Line1_Old_2_A                         : 중기저항 후기형 구도색
+STR_REFIT_LIVERY_Line1_Old_2_B                         : 중기저항 후기형 구도색 (초기저항 부수객차 편성)
+STR_REFIT_LIVERY_Line1_New_2_A                         : 중기저항 후기형 신도색
+STR_REFIT_LIVERY_Line1_New_2_B                         : 중기저항 후기형 신도색 (초기저항 부수객차 편성)
+STR_REFIT_LIVERY_Line1_Third_Old_A                     : 신조저항 구도색
+STR_REFIT_LIVERY_Line1_Third_Old_B                     : 신조저항 구도색 (무동력객차 편성)
+STR_REFIT_LIVERY_Line1_Third_New                       : 신조저항 신도색
+STR_REFIT_LIVERY_Line1_Rheostatic_K1000_A              : 코레일 개조저항 A
+STR_REFIT_LIVERY_Line1_Rheostatic_K1000_B              : 코레일 개조저항 B
+STR_REFIT_LIVERY_Line1_Rheostatic_S1000                : 서울교통공사 개조저항
+STR_REFIT_LIVERY_Line1_Rheostatic_S1000_1011F          : 서울교통공사 개조저항 1011F
+STR_REFIT_LIVERY_Seoulmetro_2000_NoRheostatic          : 미개조
+STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic            : 개조
+STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic_A          : 개조
+STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic_B          : 개조 (정사각형 출입문)
+STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic_C          : 개조 (GEC초퍼 무동력 객차)
+STR_REFIT_LIVERY_Seoulmetro_Wide_NoRheostatic          : 미개조 (2000,3000,4000)
+STR_REFIT_LIVERY_Seoulmetro_Wide_Rheostatic            : 개조 (3000)
+STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express    : MTR AD Tranz CAF A Type Airport Express
+STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung         : MTR AD Tranz CAF A Type Tung Chung
+STR_REFIT_LIVERY_MTR_DC_Cammall                        : MTR 메트로카멜 직류형 미개조형
+STR_REFIT_LIVERY_MTR_DC_Cammall_Remoding               : MTR 메트로카멜 직류형 개조형
+STR_REFIT_LIVERY_MTR_DC_Cammall_Disney                 : MTR 메트로카멜 직류형 디즈니선
+STR_REFIT_LIVERY_MTR_CNR_Changchun                     : MTR CNR 창춘 전동차
+STR_REFIT_LIVERY_MTR_CNR_Changchun_South_Island        : MTR CNR 창춘 남부섬선
+STR_REFIT_LIVERY_MTR_CRRC_Changchun                    : MTR CRRC 창춘 전동차
+STR_REFIT_LIVERY_MTR_CRRC_Sipang                       : MTR CRRC 쓰팡 전동차
+STR_REFIT_LIVERY_Nishitetsu_1000_Normal                : 니시테츠 1000형 일반도색
+STR_REFIT_LIVERY_Nishitetsu_1000_Normal_Aircon         : 니시테츠 1000형 냉방개조
+STR_REFIT_LIVERY_Nishitetsu_1000_Original              : 니시테츠 1000형 초기도색
+STR_REFIT_LIVERY_Nishitetsu_1000_Express               : 니시테츠 1000형 특급도색
+STR_REFIT_LIVERY_Nishitetsu_1000_Last_Run              : 니시테츠 1000형 특별도색
+STR_REFIT_LIVERY_Nishitetsu_2000_Normal                : 니시테츠 2000형 일반도색
+STR_REFIT_LIVERY_Nishitetsu_2000_Express               : 니시테츠 2000형 특급도색
+STR_REFIT_LIVERY_Nishitetsu_5000_MG                    : 니시테츠 5000형 전동발전기
+STR_REFIT_LIVERY_Nishitetsu_5000_SIV                   : 니시테츠 5000형 정지형 인버터
+STR_REFIT_LIVERY_Nishitetsu_7000                       : 니시테츠 7000형
+STR_REFIT_LIVERY_Nishitetsu_7050                       : 니시테츠 7050형
+STR_REFIT_LIVERY_Hankyu_8000_Long_Seat                 : 한큐 8000형 롱 시트
+STR_REFIT_LIVERY_Hankyu_8000_Cross_Seat                : 한큐 8000형 크로스 시트
+STR_REFIT_LIVERY_Hankyu_8300_Long_Seat                 : 한큐 8300형 롱 시트
+STR_REFIT_LIVERY_Hankyu_8300_Cross_Seat                : 한큐 8300형 크로스 시트
 
 # Liveries wagon
-STR_REFIT_LIVERY_JA_a_Old_Passenger_Car              : 정선아리랑 유람열차 구도색
-STR_REFIT_LIVERY_JA_a_New_Passenger_Car              : 정선아리랑 유람열차 신도색
-STR_REFIT_LIVERY_1MPassenger_Car                     : 일반실 우등객차
-STR_REFIT_LIVERY_2MPassenger_Car                     : 일반실 구도색 수동문
-STR_REFIT_LIVERY_3MPassenger_Car                     : 일반실 구도색 자동문
-STR_REFIT_LIVERY_4MPassenger_Car                     : 일반실 신도색
-STR_REFIT_LIVERY_5MPassenger_Car                     : 일반실 리미트객차 구도색
-STR_REFIT_LIVERY_6MPassenger_Car                     : 일반실 리미트객차 신도색
-STR_REFIT_LIVERY_7MPassenger_Car                     : 일반실 격하특실 구도색
-STR_REFIT_LIVERY_8MPassenger_Car                     : 일반실 격하특실 신도색
-STR_REFIT_LIVERY_9MPassenger_Car                     : 일반실 해태특실 신도색
-STR_REFIT_LIVERY_10MPassenger_Car                    : 특실 한진특실 구도색
-STR_REFIT_LIVERY_11MPassenger_Car                    : 특실 해태특실 구도색
-STR_REFIT_LIVERY_12MPassenger_Car                    : 특실 해태특실 신도색
-STR_REFIT_LIVERY_13MPassenger_Car                    : 특실 격하특실 신도색
-STR_REFIT_LIVERY_14MPassenger_Car                    : 식당차 우등객차
-STR_REFIT_LIVERY_15MPassenger_Car                    : 식당차 구도색
-STR_REFIT_LIVERY_16MPassenger_Car                    : 식당차 리미트객차 구도색
-STR_REFIT_LIVERY_17MPassenger_Car                    : 식당차 격하특실 구도색, 신도색
-STR_REFIT_LIVERY_18MPassenger_Car                    : 카페객차 신도색
-STR_REFIT_LIVERY_19MPassenger_Car                    : 카페객차 리미트객차 구도색
-STR_REFIT_LIVERY_20MPassenger_Car                    : 카페객차 리미트객차 신도색
-STR_REFIT_LIVERY_21MPassenger_Car                    : 침대객차 초기도색
-STR_REFIT_LIVERY_22MPassenger_Car                    : 침대객차 구도색 수동문
-STR_REFIT_LIVERY_23MPassenger_Car                    : 침대객차 구도색 자동문
-STR_REFIT_LIVERY_24MPassenger_Car                    : 침대객차 리미트객차 구도색
-STR_REFIT_LIVERY_25MPassenger_Car                    : 침대객차 리미트객차 신도색
-STR_REFIT_LIVERY_1SPassenger_Car                     : 일반실 관광호
-STR_REFIT_LIVERY_1SPassenger_Car_S                   : 일반실 관광호 특실
-STR_REFIT_LIVERY_2SPassenger_Car                     : 일반실 유선형 객차 초기 도색
-STR_REFIT_LIVERY_2SPassenger_Car_S                   : 일반실 유선형 객차 초기 도색 특실
-STR_REFIT_LIVERY_3SPassenger_Car                     : 일반실 장대형 객차 초기 도색
-STR_REFIT_LIVERY_3SPassenger_Car_S                   : 일반실 장대형 객차 초기 도색 특실
-STR_REFIT_LIVERY_4SPassenger_Car                     : 일반실 유선형, 장대형 객차 구도색
-STR_REFIT_LIVERY_5SPassenger_Car                     : 일반실 유선형, 장대형 객차 신도색
-STR_REFIT_LIVERY_6SPassenger_Car                     : 무궁화 격상 일반실
-STR_REFIT_LIVERY_7SPassenger_Car                     : 특실 유선형, 장대형 구도색
-STR_REFIT_LIVERY_8SPassenger_Car                     : 특실 유선형, 장대형 신도색
-STR_REFIT_LIVERY_9SPassenger_Car                     : 식당차 관광호 객차
-STR_REFIT_LIVERY_10SPassenger_Car                    : 반식반객 관광호 전망객차
-STR_REFIT_LIVERY_11SPassenger_Car                    : 식당차 유선형 초기도색
-STR_REFIT_LIVERY_12SPassenger_Car                    : 식당차 장대형 초기도색
-STR_REFIT_LIVERY_13SPassenger_Car                    : 식당차 유선형, 장대형 구도색·신도색
-STR_REFIT_LIVERY_14SPassenger_Car                    : 카페객차 유선형, 장대형
-STR_REFIT_LIVERY_Eco_Rail_Generatar_Car              : 발전차
-STR_REFIT_LIVERY_CY_GW_Generatar_Car                 : 충북영동국악와인
-STR_REFIT_LIVERY_JA_a_Old_Generatar_Car              : 정선아리랑 유람열차 구도색
-STR_REFIT_LIVERY_JA_a_New_Generatar_Car              : 정선아리랑 유람열차 신도색
-STR_REFIT_LIVERY_Lady_Bird_Generatar_Car             : 레이디 버드
-STR_REFIT_LIVERY_S_Train_New_Generatar_Car           : S-Train
-STR_REFIT_LIVERY_A_Train_New_Generatar_Car           : A-Train
-STR_REFIT_LIVERY_G_Train_New_Generatar_Car           : G-Train
-STR_REFIT_LIVERY_Eco_Rail_Luggage_Car                : 에코레일
-STR_REFIT_LIVERY_CY_GW_Luggage_Car                   : 충북영동국악와인
-STR_REFIT_LIVERY_SWagon_1F_Red                       : 25형 1층 빨강 도색
-STR_REFIT_LIVERY_SWagon_1F_Green                     : 25형 1층 녹색 도색
-STR_REFIT_LIVERY_Swagon_1F_White                     : 25형 1층 흰색 도색
-STR_REFIT_LIVERY_Swagon_2F                           : 25형 2층
-STR_REFIT_LIVERY_Swagon_Bed_3nd                      : 25형 3등석 침대차량
-STR_REFIT_LIVERY_Swagon_Bed_2nd                      : 25형 2등석 침대차량
-STR_REFIT_LIVERY_Swagon_Bed_1nd                      : 25형 1등석 침대차량
-STR_REFIT_LIVERY_Generatar_Car_White                 : 발전차 흰색도색
-STR_REFIT_LIVERY_Generatar_Car_Green                 : 발전차 녹색도색
-STR_REFIT_LIVERY_Luggage_Car_Red                     : 수화물차 빨강도색
-STR_REFIT_LIVERY_Luggage_Car_Green                   : 수화물차 녹색도색
-STR_REFIT_LIVERY_Luggage_Car_WhiteA                  : 수화물차 흰색도색 A
-STR_REFIT_LIVERY_Luggage_Car_WhiteB                  : 수화물차 흰색도색 B
-STR_REFIT_LIVERY_Original_1nd_Passenger_Car          : 1등석
-STR_REFIT_LIVERY_Original_2nd_Passenger_Car          : 2등석
-STR_REFIT_LIVERY_Original_Bar_Passenger_Car          : 식당칸
-STR_REFIT_LIVERY_Original_HF_Passenger_Car           : 1/2 1,2등석
-STR_REFIT_LIVERY_Coach_2F_BR                         : 기본 도색
-STR_REFIT_LIVERY_Coach_2F_Taegeuk                    : 태극 도색
-STR_REFIT_LIVERY_FlatCC                              : 평판화차 회사색상
-STR_REFIT_LIVERY_FlatPCC                             : 평판화차 패기형 회사색상
-STR_REFIT_LIVERY_FlatP2CC                            : 평판화차 패기형 2CC
+STR_REFIT_LIVERY_JA_a_Old_Passenger_Car                : 정선아리랑 유람열차 구도색
+STR_REFIT_LIVERY_JA_a_New_Passenger_Car                : 정선아리랑 유람열차 신도색
+STR_REFIT_LIVERY_1MPassenger_Car                       : 일반실 우등객차
+STR_REFIT_LIVERY_2MPassenger_Car                       : 일반실 구도색 수동문
+STR_REFIT_LIVERY_3MPassenger_Car                       : 일반실 구도색 자동문
+STR_REFIT_LIVERY_4MPassenger_Car                       : 일반실 신도색
+STR_REFIT_LIVERY_5MPassenger_Car                       : 일반실 리미트객차 구도색
+STR_REFIT_LIVERY_6MPassenger_Car                       : 일반실 리미트객차 신도색
+STR_REFIT_LIVERY_7MPassenger_Car                       : 일반실 격하특실 구도색
+STR_REFIT_LIVERY_8MPassenger_Car                       : 일반실 격하특실 신도색
+STR_REFIT_LIVERY_9MPassenger_Car                       : 일반실 해태특실 신도색
+STR_REFIT_LIVERY_10MPassenger_Car                      : 특실 한진특실 구도색
+STR_REFIT_LIVERY_11MPassenger_Car                      : 특실 해태특실 구도색
+STR_REFIT_LIVERY_12MPassenger_Car                      : 특실 해태특실 신도색
+STR_REFIT_LIVERY_13MPassenger_Car                      : 특실 격하특실 신도색
+STR_REFIT_LIVERY_14MPassenger_Car                      : 식당차 우등객차
+STR_REFIT_LIVERY_15MPassenger_Car                      : 식당차 구도색
+STR_REFIT_LIVERY_16MPassenger_Car                      : 식당차 리미트객차 구도색
+STR_REFIT_LIVERY_17MPassenger_Car                      : 식당차 격하특실 구도색, 신도색
+STR_REFIT_LIVERY_18MPassenger_Car                      : 카페객차 신도색
+STR_REFIT_LIVERY_19MPassenger_Car                      : 카페객차 리미트객차 구도색
+STR_REFIT_LIVERY_20MPassenger_Car                      : 카페객차 리미트객차 신도색
+STR_REFIT_LIVERY_21MPassenger_Car                      : 침대객차 초기도색
+STR_REFIT_LIVERY_22MPassenger_Car                      : 침대객차 구도색 수동문
+STR_REFIT_LIVERY_23MPassenger_Car                      : 침대객차 구도색 자동문
+STR_REFIT_LIVERY_24MPassenger_Car                      : 침대객차 리미트객차 구도색
+STR_REFIT_LIVERY_25MPassenger_Car                      : 침대객차 리미트객차 신도색
+STR_REFIT_LIVERY_1SPassenger_Car                       : 일반실 관광호
+STR_REFIT_LIVERY_1SPassenger_Car_S                     : 일반실 관광호 특실
+STR_REFIT_LIVERY_2SPassenger_Car                       : 일반실 유선형 객차 초기 도색
+STR_REFIT_LIVERY_2SPassenger_Car_S                     : 일반실 유선형 객차 초기 도색 특실
+STR_REFIT_LIVERY_3SPassenger_Car                       : 일반실 장대형 객차 초기 도색
+STR_REFIT_LIVERY_3SPassenger_Car_S                     : 일반실 장대형 객차 초기 도색 특실
+STR_REFIT_LIVERY_4SPassenger_Car                       : 일반실 유선형, 장대형 객차 구도색
+STR_REFIT_LIVERY_5SPassenger_Car                       : 일반실 유선형, 장대형 객차 신도색
+STR_REFIT_LIVERY_6SPassenger_Car                       : 무궁화 격상 일반실
+STR_REFIT_LIVERY_7SPassenger_Car                       : 특실 유선형, 장대형 구도색
+STR_REFIT_LIVERY_8SPassenger_Car                       : 특실 유선형, 장대형 신도색
+STR_REFIT_LIVERY_9SPassenger_Car                       : 식당차 관광호 객차
+STR_REFIT_LIVERY_10SPassenger_Car                      : 반식반객 관광호 전망객차
+STR_REFIT_LIVERY_11SPassenger_Car                      : 식당차 유선형 초기도색
+STR_REFIT_LIVERY_12SPassenger_Car                      : 식당차 장대형 초기도색
+STR_REFIT_LIVERY_13SPassenger_Car                      : 식당차 유선형, 장대형 구도색·신도색
+STR_REFIT_LIVERY_14SPassenger_Car                      : 카페객차 유선형, 장대형
+STR_REFIT_LIVERY_Eco_Rail_Generatar_Car                : 발전차
+STR_REFIT_LIVERY_CY_GW_Generatar_Car                   : 충북영동국악와인
+STR_REFIT_LIVERY_JA_a_Old_Generatar_Car                : 정선아리랑 유람열차 구도색
+STR_REFIT_LIVERY_JA_a_New_Generatar_Car                : 정선아리랑 유람열차 신도색
+STR_REFIT_LIVERY_Lady_Bird_Generatar_Car               : 레이디 버드
+STR_REFIT_LIVERY_S_Train_New_Generatar_Car             : S-Train
+STR_REFIT_LIVERY_A_Train_New_Generatar_Car             : A-Train
+STR_REFIT_LIVERY_G_Train_New_Generatar_Car             : G-Train
+STR_REFIT_LIVERY_Eco_Rail_Luggage_Car                  : 에코레일
+STR_REFIT_LIVERY_CY_GW_Luggage_Car                     : 충북영동국악와인
+STR_REFIT_LIVERY_SWagon_1F_Red                         : 25형 1층 빨강 도색
+STR_REFIT_LIVERY_SWagon_1F_Green                       : 25형 1층 녹색 도색
+STR_REFIT_LIVERY_Swagon_1F_White                       : 25형 1층 흰색 도색
+STR_REFIT_LIVERY_Swagon_2F                             : 25형 2층
+STR_REFIT_LIVERY_Swagon_Bed_3nd                        : 25형 3등석 침대차량
+STR_REFIT_LIVERY_Swagon_Bed_2nd                        : 25형 2등석 침대차량
+STR_REFIT_LIVERY_Swagon_Bed_1nd                        : 25형 1등석 침대차량
+STR_REFIT_LIVERY_Generatar_Car_White                   : 발전차 흰색도색
+STR_REFIT_LIVERY_Generatar_Car_Green                   : 발전차 녹색도색
+STR_REFIT_LIVERY_Luggage_Car_Red                       : 수화물차 빨강도색
+STR_REFIT_LIVERY_Luggage_Car_Green                     : 수화물차 녹색도색
+STR_REFIT_LIVERY_Luggage_Car_WhiteA                    : 수화물차 흰색도색 A
+STR_REFIT_LIVERY_Luggage_Car_WhiteB                    : 수화물차 흰색도색 B
+STR_REFIT_LIVERY_Original_1nd_Passenger_Car            : 1등석
+STR_REFIT_LIVERY_Original_2nd_Passenger_Car            : 2등석
+STR_REFIT_LIVERY_Original_Bar_Passenger_Car            : 식당칸
+STR_REFIT_LIVERY_Original_HF_Passenger_Car             : 1/2 1,2등석
+STR_REFIT_LIVERY_Coach_2F_BR                           : 기본 도색
+STR_REFIT_LIVERY_Coach_2F_Taegeuk                      : 태극 도색
+STR_REFIT_LIVERY_FlatCC                                : 평판화차 회사색상
+STR_REFIT_LIVERY_FlatPCC                               : 평판화차 패기형 회사색상
+STR_REFIT_LIVERY_FlatP2CC                              : 평판화차 패기형 2CC
 
 # Errors
-STR_ERROR_NO_ATTACH                                  : 여기에 이 차량을 붙일 수 없습니다
-STR_ERROR_NOT_ENOUGH_LENGTH3                         : 열차 길이가 너무 짧습니다. 최소한 3량 이상을 연결해야 합니다.
-STR_ERROR_NOT_ENOUGH_LENGTH6                         : 열차 길이가 너무 짧습니다. 최소한 6량 이상을 연결해야 합니다.
+STR_ERROR_NO_ATTACH                                    : 여기에 이 차량을 붙일 수 없습니다
+STR_ERROR_NOT_ENOUGH_LENGTH3                           : 열차 길이가 너무 짧습니다. 최소한 3량 이상을 연결해야 합니다.
+STR_ERROR_NOT_ENOUGH_LENGTH6                           : 열차 길이가 너무 짧습니다. 최소한 6량 이상을 연결해야 합니다.

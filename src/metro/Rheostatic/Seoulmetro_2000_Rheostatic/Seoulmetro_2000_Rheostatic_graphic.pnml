@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_2000_Rheostatic_purchase, "src/metro/Rheostatic/Seoulmetro_2000_Rheostatic/Seoulmetro_2000_Rheostatic.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+미개조
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_2000_NoRheostatic_engineH, "src/metro/Rheostatic/Seoulmetro_2000_Rheostatic/Seoulmetro_2000_NoRheostatic.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Seoulmetro_2000_NoRheostatic_panto_wagon, "src/metro/Rheostatic/Seoulmetro_2000_Rheostatic/Seoulmetro_2000_NoRheostatic.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Seoulmetro_2000_NoRheostatic_wagon, "src/metro/Rheostatic/Seoulmetro_2000_Rheostatic/Seoulmetro_2000_NoRheostatic.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Seoulmetro_2000_NoRheostatic_engineT, "src/metro/Rheostatic/Seoulmetro_2000_Rheostatic/Seoulmetro_2000_NoRheostatic.png"){
+    engine(80, 81)
+}
+
+/*--------------------------------------------------------------------
+개조
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_2000_Rheostatic_engineH_A, "src/metro/Rheostatic/Seoulmetro_2000_Rheostatic/Seoulmetro_2000_Rheostatic.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Seoulmetro_2000_Rheostatic_engineH_B, "src/metro/Rheostatic/Seoulmetro_2000_Rheostatic/Seoulmetro_2000_Rheostatic.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Seoulmetro_2000_Rheostatic_panto_wagon, "src/metro/Rheostatic/Seoulmetro_2000_Rheostatic/Seoulmetro_2000_Rheostatic.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Seoulmetro_2000_Rheostatic_wagon_TA, "src/metro/Rheostatic/Seoulmetro_2000_Rheostatic/Seoulmetro_2000_Rheostatic.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Seoulmetro_2000_Rheostatic_wagon_TB, "src/metro/Rheostatic/Seoulmetro_2000_Rheostatic/Seoulmetro_2000_Rheostatic.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Seoulmetro_2000_Rheostatic_engineT_A, "src/metro/Rheostatic/Seoulmetro_2000_Rheostatic/Seoulmetro_2000_Rheostatic.png"){
+    engine(80, 135)
+}
+
+spriteset(set_Seoulmetro_2000_Rheostatic_engineT_B, "src/metro/Rheostatic/Seoulmetro_2000_Rheostatic/Seoulmetro_2000_Rheostatic.png"){
+    engine(80, 162)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_purchase, cargo_subtype) {
+    set_Seoulmetro_2000_Rheostatic_purchase;
+}

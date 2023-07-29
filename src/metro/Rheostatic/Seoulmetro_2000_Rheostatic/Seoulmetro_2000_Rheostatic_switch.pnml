@@ -1,0 +1,125 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic);
+    return string(STR_REFIT_LIVERY_Seoulmetro_2000_NoRheostatic);
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_6Car_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic_A);
+    2: return string(STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic_B);
+    3: return string(STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic_C);
+    return string(STR_REFIT_LIVERY_Seoulmetro_2000_NoRheostatic);
+}
+
+// 4량
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_4Car_engineH, cargo_subtype) {
+    1: set_Seoulmetro_2000_Rheostatic_engineH_A;
+    set_Seoulmetro_2000_NoRheostatic_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_4Car_panto_wagon, cargo_subtype) {
+    1: set_Seoulmetro_2000_Rheostatic_panto_wagon;
+    set_Seoulmetro_2000_NoRheostatic_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_4Car_engineT, cargo_subtype) {
+    1: set_Seoulmetro_2000_Rheostatic_engineT_A;
+    set_Seoulmetro_2000_NoRheostatic_engineT;
+}
+
+// 6량
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_6Car_engineH, cargo_subtype) {
+    1: set_Seoulmetro_2000_Rheostatic_engineH_A;
+    2: set_Seoulmetro_2000_Rheostatic_engineH_B;
+    3: set_Seoulmetro_2000_Rheostatic_engineH_A;
+    set_Seoulmetro_2000_NoRheostatic_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_6Car_panto_wagon, cargo_subtype) {
+    1: set_Seoulmetro_2000_Rheostatic_panto_wagon;
+    2: set_Seoulmetro_2000_Rheostatic_panto_wagon;
+    3: set_Seoulmetro_2000_Rheostatic_panto_wagon;
+    set_Seoulmetro_2000_NoRheostatic_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_6Car_3wagon, cargo_subtype) {
+    1: set_Seoulmetro_2000_Rheostatic_wagon_TA;
+    2: set_Seoulmetro_2000_Rheostatic_wagon_TA;
+    3: set_Seoulmetro_2000_Rheostatic_wagon_TB;
+    set_Seoulmetro_2000_NoRheostatic_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_6Car_4wagon, cargo_subtype) {
+    1: set_Seoulmetro_2000_Rheostatic_wagon_TA;
+    2: set_Seoulmetro_2000_Rheostatic_wagon_TA;
+    3: set_Seoulmetro_2000_Rheostatic_wagon_TB;
+    set_Seoulmetro_2000_NoRheostatic_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_6Car_engineT, cargo_subtype) {
+    1: set_Seoulmetro_2000_Rheostatic_engineT_A;
+    2: set_Seoulmetro_2000_Rheostatic_engineT_B;
+    3: set_Seoulmetro_2000_Rheostatic_engineT_A;
+    set_Seoulmetro_2000_NoRheostatic_engineT;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_4Car, position_in_vehid_chain % 4) {
+    1:sw_Seoulmetro_2000_Rheostatic_4Car_panto_wagon;
+    2:sw_Seoulmetro_2000_Rheostatic_4Car_panto_wagon;
+    3:sw_Seoulmetro_2000_Rheostatic_4Car_engineT;
+    sw_Seoulmetro_2000_Rheostatic_4Car_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_6Car, position_in_vehid_chain % 10) {
+    1:sw_Seoulmetro_2000_Rheostatic_6Car_panto_wagon;
+    2:sw_Seoulmetro_2000_Rheostatic_6Car_3wagon;
+    3:sw_Seoulmetro_2000_Rheostatic_6Car_4wagon;
+    4:sw_Seoulmetro_2000_Rheostatic_6Car_panto_wagon;
+    5:sw_Seoulmetro_2000_Rheostatic_6Car_engineT;
+    sw_Seoulmetro_2000_Rheostatic_6Car_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_10Car, position_in_vehid_chain % 10) {
+    1:set_Seoulmetro_2000_NoRheostatic_panto_wagon;
+    2:set_Seoulmetro_2000_NoRheostatic_wagon;
+    3:set_Seoulmetro_2000_NoRheostatic_wagon;
+    4:set_Seoulmetro_2000_NoRheostatic_panto_wagon;
+    5:set_Seoulmetro_2000_NoRheostatic_wagon;
+    6:set_Seoulmetro_2000_NoRheostatic_panto_wagon;
+    7:set_Seoulmetro_2000_NoRheostatic_wagon;
+    8:set_Seoulmetro_2000_NoRheostatic_panto_wagon;
+    9:set_Seoulmetro_2000_NoRheostatic_engineT;
+    set_Seoulmetro_2000_NoRheostatic_engineH; //default
+    }
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_2000_Rheostatic_4Car, extra_callback_info1) {
+    1..3: Seoulmetro_2000_Rheostatic_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_2000_Rheostatic_6Car, extra_callback_info1) {
+    1..5: Seoulmetro_2000_Rheostatic_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_2000_Rheostatic_10Car, extra_callback_info1) {
+    1..9: Seoulmetro_2000_Rheostatic_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_attach, vehicle_type_id) {
+    Seoulmetro_2000_Rheostatic_4Car:   return CB_RESULT_ATTACH_ALLOW;
+    Seoulmetro_2000_Rheostatic_6Car:   return CB_RESULT_ATTACH_ALLOW;
+    Seoulmetro_2000_Rheostatic_10Car:  return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DCMOTER2start.wav");
+    return CB_RESULT_NO_SOUND;
+    }

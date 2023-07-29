@@ -5,8 +5,20 @@ spriteset(set_E8600_purchase, "src/locomotive/E8600/E8600.png"){
     tmpl_single_purchase(0, 0)
 }
 
-spriteset(set_E8600_engine, "src/locomotive/E8600/E8600.png"){
+spriteset(set_E8600_engine_A, "src/locomotive/E8600/E8600.png"){
     engine(80, 0)
+}
+
+spriteset(set_E8600_engine_B, "src/locomotive/E8600/E8600.png"){
+    engine(80, 27)
+}
+
+spriteset(set_E8600_engine_C, "src/locomotive/E8600/E8600.png"){
+    engine(80, 54)
+}
+
+spriteset(set_E8600_engine_D, "src/locomotive/E8600/E8600.png"){
+    engine(80, 81)
 }
 
 /*--------------------------------------------------------------------

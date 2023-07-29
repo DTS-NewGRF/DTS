@@ -11,12 +11,19 @@
 ### DCMOTER1start.wav
 - 한큐전철 6000형, 6300형
 
+### DCMOTER2start.wav
+- 서울교통공사 2000호대 저항제어 전동차
+
 ### DCMOTERBASICstart.wav
 - 니시테츠 1000, 2000, 5000, 6000, 8000형
 - 수도권 1호선 저항제어 전동차 [초기, 중기]
 
 ### FEL8500Start.wav
 - 8500호대 전기기관차
+
+### GECCHOPPERstart.wav
+- 서울교통공사 2000호대 GEC초퍼 전동차
+- 서울교통공사 광폭형 초퍼 전동차
 
 ### GT26CWDieselStart.wav
 - 7X00호대 디젤기관차
@@ -35,6 +42,9 @@
 
 ### KTXSCstart.wav
 - KTX-산천, KTX-산천 DD, CTX
+
+### MITSUBISHICHOPPER1start.wav
+- 서울교통공사 2000호대 멜코초퍼 전동차
 
 ### MITSUBISHIGTO1start.wav
 - 니시테츠 6050형
