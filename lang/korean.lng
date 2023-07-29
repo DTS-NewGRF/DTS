@@ -297,6 +297,7 @@ STR_FLAT_2F_NAME                                       :[DTS/기관차연결] �
 STR_OBJ_BUFFER                                         :[DTS] 차막이
 STR_OBJ_BUFFER_Concrete                                :[DTS] 콘크리트 차막이
 STR_OBJ_BUFFER_pebble                                  :[DTS] 자갈 차막이
+STR_OBJ_BUFFER_signboard                               :[DTS] 표지판 차막이
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :지하철 속도변수

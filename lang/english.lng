@@ -299,6 +299,7 @@ STR_EMU_Pass_NAME                                      :[DTS] EMU carriage-type 
 STR_OBJ_BUFFER                                         :[DTS] Buffers
 STR_OBJ_BUFFER_Concrete                                :[DTS] Concrete Buffers
 STR_OBJ_BUFFER_pebble                                  :[DTS] pebble Buffers
+STR_OBJ_BUFFER_signboard                               :[DTS] Train stopper Gravel track with signboard
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :Metro Train Speed Variable
