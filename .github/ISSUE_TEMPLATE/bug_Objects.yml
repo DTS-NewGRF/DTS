@@ -14,6 +14,7 @@ body:
       options:
         - '[DTS] 콘크리트 차막이'
         - '[DTS] 자갈 차막이'
+        - '[DTS] 표지판 차막이'
     validations:
       required: true
   - type: textarea
