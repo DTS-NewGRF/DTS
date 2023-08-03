@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+오브젝트
+--------------------------------------------------------------------*/
+// Graphics
+#include "Buffer_Concrete_graphic.pnml"
+
+// Switch
+#include "Buffer_Concrete_switch.pnml"
+
+/*--------------------------------------------------------------------
+오브젝트
+--------------------------------------------------------------------*/
+item(FEAT_OBJECTS, DTS_Buffer_Concrete, 1000) {
+    property {
+        class:                  "DWAP";
+        classname:              string(STR_OBJ_BUFFER);
+        name:                   string(STR_OBJ_BUFFER_Concrete);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  1;
+        remove_cost_multiplier: 1;
+        introduction_date:      date(1971,1,1);
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_REMOVE_IS_INCOME, OBJ_FLAG_ALLOW_BRIDGE, OBJ_FLAG_ONLY_INGAME);
+        height:                 1;
+        num_views:              4;
+    }
+    graphics {
+        default: sw_buffer_Concrete;
+        tile_check: CB_RESULT_LOCATION_ALLOW;
+    }
+}

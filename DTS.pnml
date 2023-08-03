@@ -10,8 +10,8 @@ grf {
     name :                             string(STR_GRF_NAME_WITH_VER);
     desc :                             string(STR_GRF_DESC);
     url :                              string(STR_GRF_URL);
-    version :                          20230729;
-    min_compatible_version :           20230630;
+    version :                          20230803;
+    min_compatible_version :           20230730;
 	
 	// Parameters 매개변수
     #include "src/parameter.pnml"
@@ -50,7 +50,7 @@ railtypetable {
 #include "src_World/train_list.pnml"
 
 // Load Objects
-#include "src/Objects/Objects.pnml"
+#include "src/Objects_list.pnml"
 
 //disabe_train
 if (Chinese) {
