@@ -298,6 +298,9 @@ STR_OBJ_BUFFER                                         :[DTS] 차막이
 STR_OBJ_BUFFER_Concrete                                :[DTS] 콘크리트 차막이
 STR_OBJ_BUFFER_pebble                                  :[DTS] 자갈 차막이
 STR_OBJ_BUFFER_signboard                               :[DTS] 표지판 차막이
+STR_OBJ_Building                                       :[DTS] 건물
+STR_OBJ_Building_Store_CU                              :[DTS] 역전 CU 편의점
+STR_OBJ_Building_Store_GS25                            :[DTS] 역전 GS25 편의점
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :지하철 속도변수

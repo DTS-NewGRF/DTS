@@ -1,0 +1,12 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Building_Store_CU, "src/Objects/Building_Store_CU/Building_Store_CU.png"){
+    [0,     0,    64,    38,    -15,  -29]
+    [69,    0,    64,    38,    -32,  -27]
+}
+
+alternative_sprites(set_Building_Store_CU, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Objects/Building_Store_CU/Building_Store_CU_32bpp.png") {
+    [0,     0,    64,    38,    -15,  -29]
+    [69,    0,    64,    38,    -32,  -27]
+}

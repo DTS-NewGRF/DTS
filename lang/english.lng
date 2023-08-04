@@ -300,6 +300,9 @@ STR_OBJ_BUFFER                                         :[DTS] Buffers
 STR_OBJ_BUFFER_Concrete                                :[DTS] Concrete Buffers
 STR_OBJ_BUFFER_pebble                                  :[DTS] pebble Buffers
 STR_OBJ_BUFFER_signboard                               :[DTS] Train stopper Gravel track with signboard
+STR_OBJ_Building                                       :[DTS] Building
+STR_OBJ_Building_Store_CU                              :[DTS] CU Convenience store
+STR_OBJ_Building_Store_GS25                            :[DTS] GS25 Convenience store
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :Metro Train Speed Variable

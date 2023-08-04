@@ -2,3 +2,7 @@
 #include "Objects/Buffer_Concrete/Buffer_Concrete.pnml"
 #include "Objects/Buffer_Pebble/Buffer_Pebble.pnml"
 #include "Objects/Buffer_Signboard/Buffer_Signboard.pnml"
+
+// Building
+#include "Objects/Building_Store_CU/Building_Store_CU.pnml"
+#include "Objects/Building_Store_GS25/Building_Store_GS25.pnml"
