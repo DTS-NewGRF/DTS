@@ -40,6 +40,9 @@
 ### HYUNDAIROTEMIGBTIPM1Kstart.wav
 - 한국철도공사 392000호대 전동차, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
 
+### HYUNDAIROTEMIGBTIPM1start.wav
+- 서울교통공사 2000호대 1·2세대 3VF, 서울교통공사 3000호대 1세대 3VF 전동차
+
 ### KTXSCstart.wav
 - KTX-산천, KTX-산천 DD, CTX
 

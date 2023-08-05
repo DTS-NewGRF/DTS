@@ -17,6 +17,7 @@ body:
         - '[DTS] 표지판 차막이'
         - '[DTS] 역전 CU 편의점'
         - '[DTS] 역전 GS25 편의점'
+        - '[DTS] 역전 스토리웨이 편의점'
     validations:
       required: true
   - type: textarea

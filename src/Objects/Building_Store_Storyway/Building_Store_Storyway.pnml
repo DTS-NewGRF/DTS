@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+오브젝트
+--------------------------------------------------------------------*/
+// Graphics
+#include "Building_Store_Storyway_graphic.pnml"
+
+// Switch
+#include "Building_Store_Storyway_switch.pnml"
+
+/*--------------------------------------------------------------------
+오브젝트
+--------------------------------------------------------------------*/
+item(FEAT_OBJECTS, DTS_Building_Store_Storyway, 1005) {
+    property {
+        class:                  "DBUD";
+        classname:              string(STR_OBJ_Building);
+        name:                   string(STR_OBJ_Building_Store_Storyway);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  1;
+        remove_cost_multiplier: 1;
+        introduction_date:      date(1990,1,1);
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_REMOVE_IS_INCOME, OBJ_FLAG_ALLOW_BRIDGE, OBJ_FLAG_ONLY_INGAME);
+        height:                 1;
+        num_views:              2;
+    }
+    graphics {
+        default: sw_Building_Store_Storyway;
+        tile_check: CB_RESULT_LOCATION_ALLOW;
+    }
+}

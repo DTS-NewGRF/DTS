@@ -6,3 +6,4 @@
 // Building
 #include "Objects/Building_Store_CU/Building_Store_CU.pnml"
 #include "Objects/Building_Store_GS25/Building_Store_GS25.pnml"
+#include "Objects/Building_Store_Storyway/Building_Store_Storyway.pnml"

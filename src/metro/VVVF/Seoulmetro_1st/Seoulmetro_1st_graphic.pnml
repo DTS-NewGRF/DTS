@@ -1,7 +1,11 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Seoulmetro_1st_purchase, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1000.png"){
+spriteset(set_Seoulmetro_1st_purchase, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_1000.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Seoulmetro_1st_2000_purchase, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_2000.png"){
     tmpl_purchase(0, 0)
 }
 
@@ -12,24 +16,62 @@ spriteset(set_Seoulmetro_1st_4000_purchase, "src/metro/VVVF/Seoulmetro_1st/Seoul
 /*--------------------------------------------------------------------
 서울교통공사 1000호대
 --------------------------------------------------------------------*/
-spriteset(set_Seoulmetro_1000_engineH, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1000.png"){
+spriteset(set_Seoulmetro_1000_engineH, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_1000.png"){
     engine(80, 0)
 }
 
-spriteset(set_Seoulmetro_1000_panto_wagon, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1000.png"){
+spriteset(set_Seoulmetro_1000_panto_wagon, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_1000.png"){
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_Seoulmetro_1000_wagon, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1000.png"){
+spriteset(set_Seoulmetro_1000_wagon, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_1000.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Seoulmetro_1000_wagon_T2, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1000.png"){
+spriteset(set_Seoulmetro_1000_wagon_T2, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_1000.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_Seoulmetro_1000_engineT, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1000.png"){
+spriteset(set_Seoulmetro_1000_engineT, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_1000.png"){
     engine(80, 108)
+}
+
+/*--------------------------------------------------------------------
+서울교통공사 2000호대
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_2000_engineH, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_2000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Seoulmetro_2000_wagon, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_2000.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Seoulmetro_2000_panto_wagon, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_2000.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Seoulmetro_2000_engineT, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_2000.png"){
+    engine(80, 81)
+}
+
+/*--------------------------------------------------------------------
+서울교통공사 3000호대
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_3000_engineH, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_3000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Seoulmetro_3000_wagon, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_3000.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Seoulmetro_3000_panto_wagon, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_3000.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Seoulmetro_3000_engineT, "src/metro/VVVF/Seoulmetro_1st/Seoulmetro_1st_3000.png"){
+    engine(80, 81)
 }
 
 /*--------------------------------------------------------------------
@@ -56,6 +98,10 @@ spriteset(set_Seoulmetro_1st_4000_engineT, "src/metro/VVVF/Seoulmetro_1st/Seoulm
 -------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_purchase, cargo_subtype) {
     set_Seoulmetro_1st_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_2000_purchase, cargo_subtype) {
+    set_Seoulmetro_1st_2000_purchase;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_4000_purchase, cargo_subtype) {

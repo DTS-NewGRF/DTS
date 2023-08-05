@@ -170,17 +170,23 @@ STR_Korail_1st_VVVF_10Car_IGBT_NAME                    :[DTS] Korail 1st 3X1K 10
 STR_Korail_1st_VVVF_10Car_GTO_NAME                     :[DTS] Korail 1st 3X1K, 2030, 5000 10Car
 STR_Korail_1st_VVVF_3000_10Car_NAME                    :[DTS] Korail 1st 3000
 STR_Group_Seoulmetro_1st_VVVF_NAME                     :[DTS] Seoulmetro 1st VVVF
-STR_Seoulmetro_1st_VVVF_6Car_NAME                      :[DTS] Seoulmetro 1st VVVF
-STR_Seoulmetro_1st_VVVF_GTO_10Car_NAME                 :[DTS] Seoulmetro 1st VVVF GTO
-STR_Seoulmetro_1st_VVVF_IGBT_10Car_NAME                :[DTS] Seoulmetro 1st VVVF IGBT
+STR_Seoulmetro_1st_VVVF_4Car_NAME                      :[DTS] Seoulmetro 1st VVVF 4Car
+STR_Seoulmetro_1st_VVVF_2000_6Car_NAME                 :[DTS] Seoulmetro 1st VVVF 6Car
+STR_Seoulmetro_1st_VVVF_4000_6Car_NAME                 :[DTS] Seoulmetro 1st VVVF 6Car
+STR_Seoulmetro_1st_VVVF_GTO_10Car_NAME                 :[DTS] Seoulmetro 1st VVVF GTO 10Car
+STR_Seoulmetro_1st_VVVF_10Car_NAME                     :[DTS] Seoulmetro 1st VVVF 10Car
+STR_Seoulmetro_1st_VVVF_IGBT_10Car_NAME                :[DTS] Seoulmetro 1st VVVF IGBT 10Car
 STR_Group_Korail_2nd_VVVF_NAME                         :[DTS] Korail 2nd VVVF
 STR_Korail_2nd_VVVF_6Car_IGBT_NAME                     :[DTS] Korail 2nd 6Car IGBT
 STR_Korail_2nd_VVVF_6Car_GTO_NAME                      :[DTS] Korail 2nd 6Car GTO
 STR_Korail_2nd_VVVF_10Car_IGBT_NAME                    :[DTS] Korail 2nd 10Car IGBT
 STR_Korail_2nd_VVVF_10Car_GTO_NAME                     :[DTS] Korail 2nd 10Car GTO
 STR_Group_Seoulmetro_2nd_VVVF_NAME                     :[DTS] Seoulmetro 2nd VVVF
-STR_Seoulmetro_2nd_VVVF_GTO_10Car_NAME                 :[DTS] Seoulmetro 2nd VVVF GTO
-STR_Seoulmetro_2nd_VVVF_IGBT_10Car_NAME                :[DTS] Seoulmetro 2nd VVVF IGBT
+STR_Seoulmetro_2nd_VVVF_4Car_NAME                      :[DTS] Seoulmetro 2nd 2000 4Car
+STR_Seoulmetro_2nd_VVVF_6Car_NAME                      :[DTS] Seoulmetro 2nd 2000 6Car
+STR_Seoulmetro_2nd_VVVF_10Car_NAME                     :[DTS] Seoulmetro 2nd 2000 10Car
+STR_Seoulmetro_2nd_VVVF_GTO_10Car_NAME                 :[DTS] Seoulmetro 2nd VVVF GTO 10Car
+STR_Seoulmetro_2nd_VVVF_IGBT_10Car_NAME                :[DTS] Seoulmetro 2nd VVVF IGBT 10Car
 STR_Group_Korail_3rd_VVVF_NAME                         :[DTS] Korail 3rd VVVF
 STR_Korail_3rd_VVVF_ST_4Car_NAME                       :[DTS] Korail 3rd Generation 1nd 4car
 STR_Korail_3rd_VVVF_G2_4Car_NAME                       :[DTS] Korail 3rd Generation 2nd 4car
@@ -303,6 +309,7 @@ STR_OBJ_BUFFER_signboard                               :[DTS] Train stopper Grav
 STR_OBJ_Building                                       :[DTS] Building
 STR_OBJ_Building_Store_CU                              :[DTS] CU Convenience store
 STR_OBJ_Building_Store_GS25                            :[DTS] GS25 Convenience store
+STR_OBJ_Building_Store_Storyway                        :[DTS] Storyway Convenience store
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :Metro Train Speed Variable
@@ -618,10 +625,14 @@ STR_REFIT_LIVERY_Korail_1st_VVVF_3000_New              : Korail 1st 3000 New
 STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_1000_A            : Seoulmetro 1st VVVF 1000 A
 STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_1000_B            : Seoulmetro 1st VVVF 1000 B
 STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_4000              : Seoulmetro 1st VVVF 4000
+STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_2000              : Seoulmetro 1st VVVF 2000
+STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_3000              : Seoulmetro 1st VVVF 3000
 STR_REFIT_LIVERY_Korail_2nd_VVVF_311K                  : Korail 2nd 311K
 STR_REFIT_LIVERY_Korail_2nd_VVVF_341K                  : Korail 2nd 341K
 STR_REFIT_LIVERY_Korail_2nd_VVVF_2030                  : Korail 2nd 2030
 STR_REFIT_LIVERY_Korail_2nd_VVVF_5000                  : Korail 2nd 5000
+STR_REFIT_LIVERY_Seoulmetro_2nd_VVVF_2000_A            : Seoulmetro 2nd VVVF 2000 A
+STR_REFIT_LIVERY_Seoulmetro_2nd_VVVF_2000_B            : Seoulmetro 2nd VVVF 2000 B
 STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_DOB                : Korail 3rd VVVF ST DOB
 STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_331K_DOB           : Korail 3rd VVVF ST DOB 331K
 STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_SI                 : Korail 3rd VVVF ST SI
