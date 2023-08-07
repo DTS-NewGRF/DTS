@@ -238,7 +238,7 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_8car, 2225){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_8car;
+        default:                        sw_Korail_3rd_VVVF_8car_reversed;
         articulated_part:               sw_articulated_Korail_3rd_VVVF_8car;
         purchase:                       sw_Korail_3rd_VVVF_purchase;
         speed:                          Metro_Speed_Train;

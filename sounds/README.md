@@ -7,6 +7,7 @@
 - 비츠로, 비츠로 DD
 - 한국철도공사 3세대 VVVF전동차 2차분
 - 서울교통공사 4000호대 1세대_IGBT
+- 서울교통공사 2000호대 3세대, 5세대 전동차
 
 ### DCMOTER1start.wav
 - 한큐전철 6000형, 6300형
@@ -33,12 +34,15 @@
 
 ### HYNDAIROTEMIGBTIPM2start.wav
 - MEL-150
+- 서울교통공사 2000호대 4세대 VVVF 전동차
 
 ### HYNDAIROTEMStart.wav
 - 한국형 표준전동차
 
 ### HYUNDAIROTEMIGBTIPM1Kstart.wav
-- 한국철도공사 392000호대 전동차, EMU-260, EMU-260 DD, EMU-320, EMU-320 DD
+- 한국철도공사 392000호대 전동차,
+- EMU-260, EMU-260 DD, EMU-320, EMU-320 DD, HEMU-430X
+- 서울교통공사 4000호대 3세대 VVVF 전동차
 
 ### HYUNDAIROTEMIGBTIPM1start.wav
 - 서울교통공사 2000호대 1·2세대 3VF, 서울교통공사 3000호대 1세대 3VF 전동차

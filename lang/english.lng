@@ -193,6 +193,10 @@ STR_Korail_3rd_VVVF_G2_4Car_NAME                       :[DTS] Korail 3rd Generat
 STR_Korail_3rd_VVVF_6Car_NAME                          :[DTS] Korail 3rd VVVF 6car
 STR_Korail_3rd_VVVF_8Car_NAME                          :[DTS] Korail 3rd VVVF 8car
 STR_Korail_3rd_VVVF_10Car_NAME                         :[DTS] Korail 3rd VVVF 10car
+STR_Group_Seoulmetro_3rd_VVVF_NAME                     :[DTS] Seoulmetro 3rd VVVF
+STR_Seoulmetro_3rd_VVVF_6Car_NAME                      :[DTS] Seoulmetro 3rd 2000 6Car (= 5th VVVF)
+STR_Seoulmetro_3rd_VVVF_2000_10Car_NAME                :[DTS] Seoulmetro 3rd 2000 10Car (= 5th VVVF)
+STR_Seoulmetro_3rd_VVVF_4000_10Car_NAME                :[DTS] Seoulmetro 3rd 4000 10Car
 STR_Group_Korail_4th_VVVF_NAME                         :[DTS] Korail 4th VVVF
 STR_Korail_392000_2Car_NAME                            :[DTS] Korail 392000 2Car
 STR_Korail_392000_4Car_NAME                            :[DTS] Korail 392000 4Car
@@ -200,6 +204,7 @@ STR_Korail_4th_VVVF_G1_4Car_NAME                       :[DTS] Korail 4th VVVF 4C
 STR_Korail_4th_VVVF_G2_G3_4Car_NAME                    :[DTS] Korail 4th VVVF Generation 1nd, 2nd 4Car
 STR_Korail_4th_VVVF_G2_G3_6Car_NAME                    :[DTS] Korail 4th VVVF Generation 1nd, 2nd 6Car
 STR_Korail_4th_VVVF_G2_G3_10Car_NAME                   :[DTS] Korail 4th VVVF Generation 1nd, 2nd 10Car
+STR_Seoulmetro_4th_VVVF_10Car_NAME                     :[DTS] Seoulmetro 4th 2000 10Car
 STR_Group_Korail_5th_VVVF_NAME                         :[DTS] Korail 5th VVVF
 STR_Korail_5th_VVVF_10Car_NAME                         :[DTS] Korail 5th VVVF 10Car
 STR_Group_Rheostatic_Line1_EMU_NAME                    :[DTS] Line1 Rheostatic EMU
@@ -372,6 +377,9 @@ STR_REFIT_ADDITIONAL_Korail_4th_VVVF                   :{BLACK}Combined train {G
 STR_REFIT_ADDITIONAL_Korail_5th_VVVF                   :{BLACK}Combined train {GREEN}Korail 5th VVVF
 STR_REFIT_ADDITIONAL_Seoulmetro_1st                    :{BLACK}Combined train {GREEN}Seoulmetro 1st VVVF
 STR_REFIT_ADDITIONAL_Seoulmetro_2nd                    :{BLACK}Combined train {GREEN}Seoulmetro 2nd VVVF
+STR_REFIT_ADDITIONAL_Seoulmetro_3rd_2000               :{BLACK}Combined train {GREEN}Seoulmetro 3rd VVVF 2000 (= 5th VVVF)
+STR_REFIT_ADDITIONAL_Seoulmetro_3rd_4000               :{BLACK}Combined train {GREEN}Seoulmetro 3rd VVVF 4000
+STR_REFIT_ADDITIONAL_Seoulmetro_4th                    :{BLACK}Combined train {GREEN}Seoulmetro 4th VVVF
 STR_REFIT_ADDITIONAL_Rheostatic_Line1                  :{BLACK}Combined train {GREEN}Line1 Rheostatic EMU
 STR_REFIT_ADDITIONAL_Rheostatic_Line1_Second           :{BLACK}Combined train {GREEN}Line1 Rheostatic EMU Second
 STR_REFIT_ADDITIONAL_Rheostatic_Line1_Third            :{BLACK}Combined train {GREEN}Line1 Rheostatic EMU Third

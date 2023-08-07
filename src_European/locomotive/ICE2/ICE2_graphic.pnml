@@ -12,16 +12,32 @@ spriteset(set_ICE2_R_engineH, "src_European/locomotive/ICE2/ICE2_R.png"){
     ICEengine(80, 0)
 }
 
+spriteset(set_ICE2_R_engineH_r, "src_European/locomotive/ICE2/ICE2_R.png"){
+    ICEengine_r(80, 0)
+}
+
 spriteset(set_ICE2_R_wagon, "src_European/locomotive/ICE2/ICE2_R.png") {
-    ICEwagon_1F(80, 30)
+    ICEwagon_1F_F(80, 30)
+}
+
+spriteset(set_ICE2_R_wagon_r, "src_European/locomotive/ICE2/ICE2_R.png") {
+    ICEwagon_1F_F_r(80, 30)
 }
 
 spriteset(set_ICE2_R_wagon_bar, "src_European/locomotive/ICE2/ICE2_R.png"){
-    ICEwagon_bar(80, 60)
+    ICEwagon_1F_F(80, 60)
+}
+
+spriteset(set_ICE2_R_wagon_bar_r, "src_European/locomotive/ICE2/ICE2_R.png"){
+    ICEwagon_1F_F_r(80, 60)
 }
 
 spriteset(set_ICE2_R_engineT, "src_European/locomotive/ICE2/ICE2_R.png"){
     ICEengine(80, 90)
+}
+
+spriteset(set_ICE2_R_engineT_r, "src_European/locomotive/ICE2/ICE2_R.png"){
+    ICEengine_r(80, 90)
 }
 
 /*--------------------------------------------------------------------
@@ -31,16 +47,32 @@ spriteset(set_ICE2_G_engineH, "src_European/locomotive/ICE2/ICE2_G.png"){
     ICEengine(80, 0)
 }
 
+spriteset(set_ICE2_G_engineH_r, "src_European/locomotive/ICE2/ICE2_G.png"){
+    ICEengine_r(80, 0)
+}
+
 spriteset(set_ICE2_G_wagon, "src_European/locomotive/ICE2/ICE2_G.png") {
-    ICEwagon_1F(80, 30)
+    ICEwagon_1F_F(80, 30)
+}
+
+spriteset(set_ICE2_G_wagon_r, "src_European/locomotive/ICE2/ICE2_G.png") {
+    ICEwagon_1F_F_r(80, 30)
 }
 
 spriteset(set_ICE2_G_wagon_bar, "src_European/locomotive/ICE2/ICE2_G.png"){
-    ICEwagon_bar(80, 60)
+    ICEwagon_1F_F(80, 60)
+}
+
+spriteset(set_ICE2_G_wagon_bar_r, "src_European/locomotive/ICE2/ICE2_G.png"){
+    ICEwagon_1F_F_r(80, 60)
 }
 
 spriteset(set_ICE2_G_engineT, "src_European/locomotive/ICE2/ICE2_G.png"){
     ICEengine(80, 90)
+}
+
+spriteset(set_ICE2_G_engineT_r, "src_European/locomotive/ICE2/ICE2_G.png"){
+    ICEengine_r(80, 90)
 }
 
 /*--------------------------------------------------------------------

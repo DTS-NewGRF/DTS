@@ -2,11 +2,11 @@
 1. HYEL_15
 --------------------------------------------------------------------*/
 spriteset(set_HYEL_15_purchase, "src_Virtual/locomotive/HYEL/HYEL_15/HYEL_15.png"){
-	tmpl_single_purchase(0, 0)
+    tmpl_single_purchase(0, 0)
 }
 
 spriteset(set_HYEL_15_engine, "src_Virtual/locomotive/HYEL/HYEL_15/HYEL_15.png"){
-	engine(80, 0)
+    engine(80, 0)
 }
 
 /*--------------------------------------------------------------------

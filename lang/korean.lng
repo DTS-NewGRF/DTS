@@ -193,6 +193,10 @@ STR_Korail_3rd_VVVF_G2_4Car_NAME                       :[DTS/4량] 한국철도�
 STR_Korail_3rd_VVVF_6Car_NAME                          :[DTS/6량] 한국철도공사 3세대 전동차
 STR_Korail_3rd_VVVF_8Car_NAME                          :[DTS/8량] 한국철도공사 3세대 전동차
 STR_Korail_3rd_VVVF_10Car_NAME                         :[DTS/10량] 한국철도공사 3세대 전동차
+STR_Group_Seoulmetro_3rd_VVVF_NAME                     :[DTS] 서울교통공사 3세대 VVVF 전동차
+STR_Seoulmetro_3rd_VVVF_6Car_NAME                      :[DTS/6량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
+STR_Seoulmetro_3rd_VVVF_2000_10Car_NAME                :[DTS/10량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
+STR_Seoulmetro_3rd_VVVF_4000_10Car_NAME                :[DTS/10량] 서울교통공사 3세대 4000호대 전동차
 STR_Group_Korail_4th_VVVF_NAME                         :[DTS] 한국철도공사 4세대 VVVF 전동차
 STR_Korail_392000_2Car_NAME                            :[DTS/2량] 한국철도공사 392000호대 전동차
 STR_Korail_392000_4Car_NAME                            :[DTS/4량] 한국철도공사 392000호대 전동차
@@ -200,6 +204,7 @@ STR_Korail_4th_VVVF_G1_4Car_NAME                       :[DTS/4량] 한국철도�
 STR_Korail_4th_VVVF_G2_G3_4Car_NAME                    :[DTS/4량] 한국철도공사 4세대 1·2차 도입분
 STR_Korail_4th_VVVF_G2_G3_6Car_NAME                    :[DTS/6량] 한국철도공사 4세대 1·2차 도입분
 STR_Korail_4th_VVVF_G2_G3_10Car_NAME                   :[DTS/10량] 한국철도공사 4세대 1·2차 도입분
+STR_Seoulmetro_4th_VVVF_10Car_NAME                     :[DTS/10량] 서울교통공사 4세대 2000호대 전동차
 STR_Group_Korail_5th_VVVF_NAME                         :[DTS] 한국철도공사 5세대 VVVF 전동차
 STR_Korail_5th_VVVF_10Car_NAME                         :[DTS/10량] 한국철도공사 5세대 VVVF 전동차
 STR_Group_Rheostatic_Line1_EMU_NAME                    :[DTS] 수도권 1호선 저항제어 전동차 [초기저항]
@@ -370,6 +375,9 @@ STR_REFIT_ADDITIONAL_Korail_4th_VVVF                   :{BLACK}복합가능열�
 STR_REFIT_ADDITIONAL_Korail_5th_VVVF                   :{BLACK}복합가능열차 {GREEN}Korail 5세대 VVVF 전동차
 STR_REFIT_ADDITIONAL_Seoulmetro_1st                    :{BLACK}복합가능열차 {GREEN}서울교통공사 1세대 VVVF 전동차
 STR_REFIT_ADDITIONAL_Seoulmetro_2nd                    :{BLACK}복합가능열차 {GREEN}서울교통공사 2세대 VVVF 전동차
+STR_REFIT_ADDITIONAL_Seoulmetro_3rd_2000               :{BLACK}복합가능열차 {GREEN}서울교통공사 3세대 VVVF 2000호대 전동차 (5세대 동일)
+STR_REFIT_ADDITIONAL_Seoulmetro_3rd_4000               :{BLACK}복합가능열차 {GREEN}서울교통공사 3세대 VVVF 4000호대 전동차
+STR_REFIT_ADDITIONAL_Seoulmetro_4th                    :{BLACK}복합가능열차 {GREEN}서울교통공사 4세대 VVVF 전동차
 STR_REFIT_ADDITIONAL_Rheostatic_Line1                  :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [초기저항]
 STR_REFIT_ADDITIONAL_Rheostatic_Line1_Second           :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [중기저항]
 STR_REFIT_ADDITIONAL_Rheostatic_Line1_Third            :{BLACK}복합가능열차 {GREEN}수도권 1호선 저항제어 전동차 [신조저항]

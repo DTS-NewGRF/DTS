@@ -37,6 +37,10 @@ sort(FEAT_TRAINS, [
     Korail_3rd_VVVF_6car,                    //2224
     Korail_3rd_VVVF_8car,                    //2225
     Korail_3rd_VVVF_10car,                   //2226
+    Seoulmetro_3rd_VVVF,                     //2289
+    Seoulmetro_3rd_VVVF_6Car,                //2290
+    Seoulmetro_3rd_VVVF_2000_10Car,          //2291
+    Seoulmetro_3rd_VVVF_4000_10Car,          //2292
     Korail_4th_VVVF,                         //2183
     Korail_392000_2Car,                      //2139
     Korail_4th_VVVF_G1_4Car,                 //2030
@@ -44,6 +48,7 @@ sort(FEAT_TRAINS, [
     Korail_4th_VVVF_G2_G3_4Car,              //2124
     Korail_4th_VVVF_G2_G3_6Car,              //2217
     Korail_4th_VVVF_G2_G3_10Car,             //2218
+    Seoulmetro_4th_VVVF_10Car,               //2293
     Korail_5th_VVVF_10Car,                   //2239
     Rheostatic_Line1,                        //2240
     Rheostatic_Line1_4Car,                   //2241

@@ -16,13 +16,26 @@ spriteset(set_HYEL_300_engineH, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.p
     engine(80, 0)
 }
 
+spriteset(set_HYEL_300_engineH_r, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png"){
+    engine_r(80, 0)
+}
+
 spriteset(set_HYEL_300_wagon, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png") {
     wagon_1F_F(80, 27)
+}
+
+spriteset(set_HYEL_300_wagon_r, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png") {
+    wagon_1F_F_r(80, 27)
 }
 
 spriteset(set_HYEL_300_wagon_tail, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png"){
     wagon_1F_F(80, 54)
 }
+
+spriteset(set_HYEL_300_wagon_tail_r, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png"){
+    wagon_1F_F_r(80, 54)
+}
+
 
 /*--------------------------------------------------------------------
 HYEL 300 32bpp
@@ -31,12 +44,24 @@ alternative_sprites(set_HYEL_300_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "s
     engine(80, 0)
 }
 
+alternative_sprites(set_HYEL_300_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300_32bpp.png"){
+    engine_r(80, 0)
+}
+
 alternative_sprites(set_HYEL_300_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300_32bpp.png") {
     wagon_1F_F(80, 27)
 }
 
+alternative_sprites(set_HYEL_300_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300_32bpp.png") {
+    wagon_1F_F_r(80, 27)
+}
+
 alternative_sprites(set_HYEL_300_wagon_tail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300_32bpp.png"){
     wagon_1F_F(80, 54)
+}
+
+alternative_sprites(set_HYEL_300_wagon_tail_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300_32bpp.png"){
+    wagon_1F_F_r(80, 54)
 }
 
 /*--------------------------------------------------------------------

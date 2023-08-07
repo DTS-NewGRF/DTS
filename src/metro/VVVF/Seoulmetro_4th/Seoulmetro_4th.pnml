@@ -1,40 +1,39 @@
 /*--------------------------------------------------------------------
-GT26CW
+YTRO 100
 --------------------------------------------------------------------*/
 // Graphics
-#include "HYEL_300_graphic.pnml"
+#include "Seoulmetro_4th_graphic.pnml"
 
 // Switch
-#include "HYEL_300_switch.pnml"
+#include "Seoulmetro_4th_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보
+열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HYEL_300_8Car, 2110){
+item(FEAT_TRAINS, Seoulmetro_4th_VVVF_10Car, 2293){
     property {
-        name:                           string(STR_HYEL_300_8Car_NAME);
+        name:                           string(STR_Seoulmetro_4th_VVVF_10Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2030, 1, 1);
-        track_type:                     RAIL;
-        engine_class:                   ENGINE_CLASS_DIESEL;
+        introduction_date:              date(2019, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          260km/h;
-        power:                          8000 kW;
-        weight:                         30 ton;
+        speed:                          120km/h;
+        power:                          4200 kW;
+        weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
-        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 1;
+        cargo_capacity:                 121;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -45,20 +44,20 @@ item(FEAT_TRAINS, HYEL_300_8Car, 2110){
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
-        
+
     graphics {
-        default:                        sw_HYEL_300_8car_reversed;
-        articulated_part:               sw_articulated_HYEL_300_8car;
-        purchase:                       sw_HYEL_300_purchase;
-        cargo_capacity:                 140;
-        cost_factor:                    10;
+        default:                        sw_Seoulmetro_4th_VVVF_2000_10car;
+        articulated_part:               sw_articulated_Seoulmetro_4th_VVVF_2000_10car;
+        purchase:                       sw_Seoulmetro_4th_2000_purchase;
+        speed:                          Metro_Speed_Train;
         loading_speed:                  25;
+        cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_HYEL_300_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_HYEL_300);
-        sound_effect:                   sw_HYEL_300_sound;
+        can_attach_wagon:               sw_Seoulmetro_4th_VVVF_2000_attach;
+        additional_text:                string(STR_REFIT_ADDITIONAL_Seoulmetro_4th);
+        sound_effect:                   sw_Seoulmetro_4th_VVVF_2000_sound;
         }
         }
