@@ -40,12 +40,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_CRH380B_16car, extra_callback_info1) {
     1..15: CRH380B_16Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_CRH380B_8Car_wagon_attach, vehicle_type_id) {
-    CRH380B_8Car:            return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}
-
-switch(FEAT_TRAINS, SELF, sw_CRH380B_16Car_wagon_attach, vehicle_type_id) {
-    return string(STR_ERROR_NO_ATTACH);
-}

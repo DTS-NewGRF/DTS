@@ -41,11 +41,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_NRT2_4car, extra_callback_info1) {
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch(FEAT_TRAINS, SELF, sw_NRT2_wagon_attach, vehicle_type_id) {
-    NRT2_4Car:               return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}
-
 switch(FEAT_TRAINS, SELF, sw_HITACHI_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/HITACHIStart.wav");
     return CB_RESULT_NO_SOUND;

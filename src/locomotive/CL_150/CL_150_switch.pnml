@@ -59,14 +59,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_CL_180_8car, extra_callback_info1) {
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch(FEAT_TRAINS, SELF, sw_CL_150_wagon_attach, vehicle_type_id) {
-    CL_150_4Car:             return CB_RESULT_ATTACH_ALLOW;
-    CL_150_6Car:             return CB_RESULT_ATTACH_ALLOW;
-    CL_150_8Car:             return CB_RESULT_ATTACH_ALLOW;
-    CL_180_8Car:             return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}
-
 switch(FEAT_TRAINS, SELF, sw_CL_150_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/WOOJINMITSUBISHIIGBTstart.wav");
     return CB_RESULT_NO_SOUND;

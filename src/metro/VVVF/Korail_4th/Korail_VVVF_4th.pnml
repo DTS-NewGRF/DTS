@@ -75,8 +75,6 @@ item(FEAT_TRAINS, Korail_392000_2Car, 2139){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_4th_VVVF_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_4th_VVVF);
         sound_effect:                   sw_Korail_392000_sound;
         }
         }
@@ -131,8 +129,6 @@ item(FEAT_TRAINS, Korail_392000_4Car, 2140){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_4th_VVVF_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_4th_VVVF);
         sound_effect:                   sw_Korail_392000_sound;
         }
         }
@@ -187,8 +183,6 @@ item(FEAT_TRAINS, Korail_4th_VVVF_G1_4Car, 2030){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_4th_VVVF_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_4th_VVVF);
         sound_effect:                   sw_Korail_4th_VVVF_G1_sound;
         }
         }
@@ -244,9 +238,7 @@ item(FEAT_TRAINS, Korail_4th_VVVF_G2_G3_4Car, 2124){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_4th_VVVF_wagon_attach;
         cargo_subtype_text:             sw_Korail_4th_VVVF_G2_G3_4Car_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_4th_VVVF);
         sound_effect:                   sw_Korail_4th_VVVF_G2_G3_sound;
         }
         }
@@ -302,9 +294,7 @@ item(FEAT_TRAINS, Korail_4th_VVVF_G2_G3_6Car, 2217){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_4th_VVVF_wagon_attach;
         cargo_subtype_text:             sw_Korail_4th_VVVF_G2_G3_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_4th_VVVF);
         sound_effect:                   sw_Korail_4th_VVVF_G2_G3_sound;
         }
         }
@@ -360,9 +350,7 @@ item(FEAT_TRAINS, Korail_4th_VVVF_G2_G3_10Car, 2218){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_4th_VVVF_wagon_attach;
         cargo_subtype_text:             sw_Korail_4th_VVVF_G2_G3_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_4th_VVVF);
         sound_effect:                   sw_Korail_4th_VVVF_G2_G3_sound;
         }
         }

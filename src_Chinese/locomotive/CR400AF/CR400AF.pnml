@@ -74,8 +74,6 @@ item(FEAT_TRAINS, CR400AF_8Car, 2045){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_CR400AF_8Car_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_CR400AF);
         }
         }
 
@@ -128,8 +126,6 @@ item(FEAT_TRAINS, CR400AF_16Car, 2148){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_CR400AF_16Car_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_CR400AF_16Car);
         }
         }
 
@@ -183,7 +179,5 @@ item(FEAT_TRAINS, CR400AF_17Car, 2149){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_CR400AF_16Car_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_CR400AF_16Car);
         }
         }

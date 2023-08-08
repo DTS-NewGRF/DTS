@@ -75,8 +75,6 @@ item(FEAT_TRAINS, Nishitetsu_9000_2Car, 2104){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Nishitetsu_9000_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Nishitetsu_9000);
         sound_effect:                   sw_Nishitetsu_9000_sound;
         }
         }
@@ -131,8 +129,6 @@ item(FEAT_TRAINS, Nishitetsu_9000_3Car, 2113){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Nishitetsu_9000_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Nishitetsu_9000);
         sound_effect:                   sw_Nishitetsu_9000_sound;
         }
         }

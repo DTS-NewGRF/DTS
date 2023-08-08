@@ -23,12 +23,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_H2_WJ_4car, extra_callback_info1) {
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch(FEAT_TRAINS, SELF, sw_H2_WJ_wagon_attach, vehicle_type_id) {
-    H2_WJ_2Car:              return CB_RESULT_ATTACH_ALLOW;
-    H2_WJ_4Car:              return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}
-
 switch(FEAT_TRAINS, SELF, sw_H2_WJ_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/WOOJINMITSUBISHIIGBTstart.wav");
     return CB_RESULT_NO_SOUND;

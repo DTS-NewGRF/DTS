@@ -65,13 +65,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_CR400BF_17car, extra_callback_info1) {
     1..16: CR400BF_17Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_CR400BF_8Car_wagon_attach, vehicle_type_id) {
-    CR400AF_8Car:            return CB_RESULT_ATTACH_ALLOW;
-    CR400BF_8Car:            return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}
-
-switch(FEAT_TRAINS, SELF, sw_CR400BF_16Car_wagon_attach, vehicle_type_id) {
-    return string(STR_ERROR_NO_ATTACH);
-}

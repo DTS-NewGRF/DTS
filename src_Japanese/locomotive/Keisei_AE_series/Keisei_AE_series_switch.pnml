@@ -16,7 +16,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Kse2_8car, extra_callback_info1) {
     1..7: Keisei_AE_series_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_Kse2_wagon_attach, vehicle_type_id) {
-    return string(STR_ERROR_NO_ATTACH);
-}

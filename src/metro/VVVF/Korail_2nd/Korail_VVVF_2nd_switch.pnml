@@ -128,14 +128,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Korail_2nd_VVVF_GTO_10car, extra_callb
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_wagon_attach, vehicle_type_id) {
-    Korail_2nd_VVVF_IGBT_6car:     return CB_RESULT_ATTACH_ALLOW;
-    Korail_2nd_VVVF_GTO_6car:      return CB_RESULT_ATTACH_ALLOW;
-    Korail_2nd_VVVF_IGBT_10car:    return CB_RESULT_ATTACH_ALLOW;
-    Korail_2nd_VVVF_GTO_10car:     return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}
-
 switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTKStart.wav");
     return CB_RESULT_NO_SOUND;

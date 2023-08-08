@@ -18,8 +18,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_DFX_10car, extra_callback_info1) {
     1..9: DFX_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_DFX_wagon_attach, vehicle_type_id) {
-    DFX_10Car:               return CB_RESULT_ATTACH_ALLOW;
-   return string(STR_ERROR_NO_ATTACH);
-}

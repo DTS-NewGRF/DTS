@@ -14,7 +14,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_AUTS_6car, extra_callback_info1) {
     1..5: AUTS_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_AUTS_wagon_attach, vehicle_type_id) {
-    return string(STR_ERROR_NO_ATTACH);
-}

@@ -18,8 +18,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_TGV_La_Poste_10car, extra_callback_inf
     1..9: TGV_La_Poste_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_TGV_La_Poste_wagon_attach, vehicle_type_id) {
-    TGV_La_Poste_10Car:      return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}

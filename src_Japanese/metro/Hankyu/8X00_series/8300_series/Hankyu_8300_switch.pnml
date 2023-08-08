@@ -42,11 +42,6 @@ switch(FEAT_TRAINS, SELF, sw_Hankyu_8300_8car_capacity_in_custom, cargo_subtype)
        140;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Hankyu_8300_attach, vehicle_type_id) {
-    Hankyu_8300_2Car:        return CB_RESULT_ATTACH_ALLOW;
-    Hankyu_8300_8Car:        return CB_RESULT_ATTACH_ALLOW;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Hankyu_8300_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOYODENKIGTOStart.wav");
     return CB_RESULT_NO_SOUND;

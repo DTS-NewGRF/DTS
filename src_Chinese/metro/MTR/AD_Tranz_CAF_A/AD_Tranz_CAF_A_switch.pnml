@@ -41,7 +41,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_MTR_AD_Tranz_CAF_A_8car, extra_callbac
     1..7: AD_Tranz_CAF_A_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_MTR_AD_Tranz_CAF_A_wagon_attach, vehicle_type_id) {
-    return string(STR_ERROR_NO_ATTACH);
-}

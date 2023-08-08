@@ -54,7 +54,5 @@ item(FEAT_TRAINS, Shinkansen_923_7Car, 2096){
         purchase:                       sw_Shinkansen_923_purchase;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Shinkansen_923_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Shinkansen_923);
         }
         }

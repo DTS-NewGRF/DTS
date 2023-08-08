@@ -76,8 +76,6 @@ item(FEAT_TRAINS, NSW_TrainLink_D_4Car, 2117){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_NSW_TrainLink_D_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_NSW_TrainLink_D);
         }
         }
 
@@ -132,7 +130,5 @@ item(FEAT_TRAINS, NSW_TrainLink_D_6Car, 2142){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_NSW_TrainLink_D_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_NSW_TrainLink_D);
         }
         }

@@ -16,8 +16,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_CRH1_8car, extra_callback_info1) {
     1..7: CRH1_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_CRH1_wagon_attach, vehicle_type_id) {
-    CRH1_8Car:               return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}

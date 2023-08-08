@@ -75,8 +75,6 @@ item(FEAT_TRAINS, CL_150_4Car, 2173){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_CL_150_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_CL_150);
         sound_effect:                   sw_CL_150_sound;
         }
         }
@@ -131,8 +129,6 @@ item(FEAT_TRAINS, CL_150_6Car, 2174){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_CL_150_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_CL_150);
         sound_effect:                   sw_CL_150_sound;
         }
         }
@@ -187,8 +183,6 @@ item(FEAT_TRAINS, CL_150_8Car, 2175){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_CL_150_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_CL_150);
         sound_effect:                   sw_CL_150_sound;
         }
         }
@@ -243,8 +237,6 @@ item(FEAT_TRAINS, CL_180_8Car, 2176){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_CL_150_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_CL_150);
         sound_effect:                   sw_CL_150_sound;
         }
         }

@@ -46,7 +46,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_MTR_DC_Cammall_8car, extra_callback_in
     1..7: MTR_DC_Cammall_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_MTR_DC_Cammall_wagon_attach, vehicle_type_id) {
-    return string(STR_ERROR_NO_ATTACH);
-}

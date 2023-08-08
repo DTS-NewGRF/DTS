@@ -94,17 +94,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_EMU320_8car, extra_callback_info1) {
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch(FEAT_TRAINS, SELF, sw_EMU320_wagon_attach, vehicle_type_id) {
-    EMU150_6Car:             return CB_RESULT_ATTACH_ALLOW;
-    EMU150_8Car:             return CB_RESULT_ATTACH_ALLOW;
-    EMU150_DD_6Car:          return CB_RESULT_ATTACH_ALLOW;
-    EMU260_6Car:             return CB_RESULT_ATTACH_ALLOW;
-    EMU260_DD_6Car:          return CB_RESULT_ATTACH_ALLOW;
-    EMU320_8Car:             return CB_RESULT_ATTACH_ALLOW;
-    EMU320_DD_8Car:          return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}
-
 switch(FEAT_TRAINS, SELF, sw_EMU320_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM1Kstart.wav");
     return CB_RESULT_NO_SOUND;

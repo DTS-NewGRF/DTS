@@ -75,8 +75,6 @@ item(FEAT_TRAINS, Seoulmetro_1st_VVVF_4Car, 2283){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Seoulmetro_1st_VVVF_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Seoulmetro_1st);
         sound_effect:                   sw_Seoulmetro_1st_VVVF_2000_3000_sound;
         }
         }
@@ -131,8 +129,6 @@ item(FEAT_TRAINS, Seoulmetro_1st_VVVF_2000_6Car, 2284){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Seoulmetro_1st_VVVF_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Seoulmetro_1st);
         sound_effect:                   sw_Seoulmetro_1st_VVVF_2000_3000_sound;
         }
         }
@@ -187,8 +183,6 @@ item(FEAT_TRAINS, Seoulmetro_1st_VVVF_4000_6Car, 2256){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Seoulmetro_1st_VVVF_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Seoulmetro_1st);
         sound_effect:                   sw_Seoulmetro_1st_VVVF_GTO_sound;
         }
         }
@@ -243,9 +237,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_VVVF_GTO_10Car, 2257){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Seoulmetro_1st_VVVF_attach;
         cargo_subtype_text:             sw_Seoulmetro_1st_VVVF_GTO_10car_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Seoulmetro_1st);
         sound_effect:                   sw_Seoulmetro_1st_VVVF_GTO_sound;
         }
         }
@@ -300,8 +292,6 @@ item(FEAT_TRAINS, Seoulmetro_1st_VVVF_IGBT_10Car, 2258){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Seoulmetro_1st_VVVF_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Seoulmetro_1st);
         sound_effect:                   sw_Seoulmetro_1st_VVVF_IGBT_sound;
         }
         }
@@ -356,9 +346,7 @@ item(FEAT_TRAINS, Seoulmetro_1st_VVVF_10Car, 2285){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Seoulmetro_1st_VVVF_attach;
         cargo_subtype_text:             sw_Seoulmetro_1st_VVVF_2000_3000_10car_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Seoulmetro_1st);
         sound_effect:                   sw_Seoulmetro_1st_VVVF_2000_3000_sound;
         }
         }

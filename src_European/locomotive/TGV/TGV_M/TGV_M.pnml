@@ -56,7 +56,5 @@ item(FEAT_TRAINS, TGV_M_10Car, 2082){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_TGV_M_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_TGV_M);
         }
         }

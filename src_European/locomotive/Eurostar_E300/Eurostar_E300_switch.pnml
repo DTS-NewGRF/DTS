@@ -63,7 +63,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Eurostar_E300_20car, extra_callback_in
     1..19: Eurostar_E300_20Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_Eurostar_E300_wagon_attach, vehicle_type_id) {
-    return string(STR_ERROR_NO_ATTACH);
-}

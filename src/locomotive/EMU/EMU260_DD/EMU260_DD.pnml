@@ -55,8 +55,6 @@ item(FEAT_TRAINS, EMU260_DD_6Car, 2021){
         articulated_part:               sw_articulated_EMU260_DD_6car;
         purchase:                       sw_EMU260_DD_purchase;
         loading_speed:                  25;
-        can_attach_wagon:               sw_EMU260_DD_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_EMU260_DD);
         sound_effect:                   sw_EMU260_DD_sound;
         }
         }

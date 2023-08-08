@@ -48,6 +48,5 @@ item(FEAT_TRAINS, FLAT_2F, 2114){
 	graphics {
         default:                        sw_FLAT_2F_CAR_wagon;
         purchase:                       sw_FLAT_2F_purchase;
-        can_attach_wagon:               sw_Flat_2F_wagon_attach;
         }
         }

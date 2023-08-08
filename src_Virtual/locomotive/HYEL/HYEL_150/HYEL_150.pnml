@@ -56,7 +56,6 @@ item(FEAT_TRAINS, HYEL_150, 2141){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_HYEL_150_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_HYEL_150);
         sound_effect:                   sw_HYEL_150_sound;
         }
         }

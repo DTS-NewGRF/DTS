@@ -18,8 +18,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Al_Boraq_10car, extra_callback_info1) 
     1..9: Al_Boraq_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_Al_Boraq_wagon_attach, vehicle_type_id) {
-    Al_Boraq_10Car:          return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}

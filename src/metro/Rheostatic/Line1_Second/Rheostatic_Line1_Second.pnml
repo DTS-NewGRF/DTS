@@ -75,8 +75,6 @@ item(FEAT_TRAINS, Rheostatic_Line1_Second_4Car, 2249){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Rheostatic_Line1_Second_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Rheostatic_Line1_Second);
         sound_effect:                   sw_Rheostatic_Line1_Second_sound;
         }
         }
@@ -131,8 +129,6 @@ item(FEAT_TRAINS, Rheostatic_Line1_Second_6Car, 2250){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Rheostatic_Line1_Second_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Rheostatic_Line1_Second);
         sound_effect:                   sw_Rheostatic_Line1_Second_sound;
         }
         }
@@ -187,8 +183,6 @@ item(FEAT_TRAINS, Rheostatic_Line1_Second_8Car, 2251){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Rheostatic_Line1_Second_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Rheostatic_Line1_Second);
         sound_effect:                   sw_Rheostatic_Line1_Second_sound;
         }
         }
@@ -243,9 +237,7 @@ item(FEAT_TRAINS, Rheostatic_Line1_Second_10Car, 2252){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Rheostatic_Line1_Second_attach;
         cargo_subtype_text:             sw_Rheostatic_Line1_Second_10car_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Rheostatic_Line1_Second);
         sound_effect:                   sw_Rheostatic_Line1_Second_sound;
         }
         }

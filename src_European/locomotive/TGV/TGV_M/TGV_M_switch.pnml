@@ -18,8 +18,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_TGV_M_10car, extra_callback_info1) {
     1..9: TGV_M_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_attach, vehicle_type_id) {
-    TGV_M_10Car:             return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}

@@ -74,8 +74,6 @@ item(FEAT_TRAINS, Shinkansen_700_16Car, 2087){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Shinkansen_700_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Shinkansen_700);
         }
         }
 
@@ -128,8 +126,6 @@ item(FEAT_TRAINS, Shinkansen_700_8Car, 2143){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Shinkansen_700_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Shinkansen_700);
         }
         }
 

@@ -76,8 +76,6 @@ item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_4car, 2228){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_1st_VVVF_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_1st_VVVF);
         sound_effect:                   sw_Korail_1st_VVVF_IGBT_sound;
         }
         }
@@ -132,8 +130,6 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_4car, 2229){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_1st_VVVF_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_1st_VVVF);
         sound_effect:                   sw_Korail_1st_VVVF_GTO_sound;
         }
         }
@@ -181,15 +177,13 @@ item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_6car, 2230){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_IGBT_6car;
+        default:                        sw_Korail_1st_VVVF_IGBT_6car_reversed;
         articulated_part:               sw_articulated_Korail_1st_VVVF_IGBT_6car;
         purchase:                       sw_Korail_1st_VVVF_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_1st_VVVF_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_1st_VVVF);
         sound_effect:                   sw_Korail_1st_VVVF_IGBT_sound;
         }
         }
@@ -237,16 +231,14 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_6car, 2231){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_GTO_6car;
+        default:                        sw_Korail_1st_VVVF_GTO_6car_reversed;
         articulated_part:               sw_articulated_Korail_1st_VVVF_GTO_6car;
         purchase:                       sw_Korail_1st_VVVF_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_1st_VVVF_wagon_attach;
         cargo_subtype_text:             sw_Korail_1st_VVVF_6car_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_1st_VVVF);
         sound_effect:                   sw_Korail_1st_VVVF_GTO_sound;
         }
         }
@@ -294,16 +286,14 @@ item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_10car, 2232){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_IGBT_10car;
+        default:                        sw_Korail_1st_VVVF_IGBT_10car_reversed;
         articulated_part:               sw_articulated_Korail_1st_VVVF_IGBT_10car;
         purchase:                       sw_Korail_1st_VVVF_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_1st_VVVF_wagon_attach;
         cargo_subtype_text:             sw_Korail_1st_VVVF_IGBT_10car_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_1st_VVVF);
         sound_effect:                   sw_Korail_1st_VVVF_IGBT_sound;
         }
         }
@@ -351,16 +341,14 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_10car, 2233){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_GTO_10car;
+        default:                        sw_Korail_1st_VVVF_GTO_10car_reversed;
         articulated_part:               sw_articulated_Korail_1st_VVVF_GTO_10car;
         purchase:                       sw_Korail_1st_VVVF_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_1st_VVVF_wagon_attach;
         cargo_subtype_text:             sw_Korail_1st_VVVF_GTO_10car_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_1st_VVVF);
         sound_effect:                   sw_Korail_1st_VVVF_GTO_sound;
         }
         }
@@ -415,9 +403,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_3000_10Car, 2259){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Korail_1st_VVVF_3000_attach;
         cargo_subtype_text:             sw_Korail_1st_VVVF_3000_10car_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Korail_1st_VVVF_3000);
         sound_effect:                   sw_Korail_1st_VVVF_3000_sound;
         }
         }

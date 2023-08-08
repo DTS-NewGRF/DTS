@@ -17,11 +17,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_400_8car, extra_callback_info1) {
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch(FEAT_TRAINS, SELF, sw_HYEL_400_wagon_attach, vehicle_type_id) {
-    HYEL_400_8Car:           return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}
-
 switch(FEAT_TRAINS, SELF, sw_HYEL_400_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTPMSMstart.wav");
     return CB_RESULT_NO_SOUND;

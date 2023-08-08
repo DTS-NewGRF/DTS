@@ -22,7 +22,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Talgo_350_SRO_14car, extra_callback_in
     1..13: Talgo_350_SRO_14Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_Talgo_350_SRO_wagon_attach, vehicle_type_id) {
-    return string(STR_ERROR_NO_ATTACH);
-}

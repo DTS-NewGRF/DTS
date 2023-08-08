@@ -58,9 +58,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_E5_H5_10car, extra_callback
     1..9: Shinkansen_E5_H5_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_wagon_attach, vehicle_type_id) {
-    Shinkansen_E6_7Car:     return CB_RESULT_ATTACH_ALLOW;
-    Shinkansen_E8_7Car:     return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}

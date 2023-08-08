@@ -37,9 +37,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_14car, extra_callback_info1) 
     1..13: HSR_350X_14Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_HSR_350X_wagon_attach, vehicle_type_id) {
-    HSR_350X_7Car:           return CB_RESULT_ATTACH_ALLOW;
-    HSR_350X_14Car:          return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}

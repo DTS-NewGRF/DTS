@@ -16,7 +16,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_MTR_Hyundai_Rotem_R_8car, extra_callba
     1..7: Hyundai_Rotem_R_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_MTR_Hyundai_Rotem_R_wagon_attach, vehicle_type_id) {
-    return string(STR_ERROR_NO_ATTACH);
-}

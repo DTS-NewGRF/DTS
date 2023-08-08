@@ -296,14 +296,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Rheostatic_Line1_Second_10car, extra_c
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_attach, vehicle_type_id) {
-    Rheostatic_Line1_Second_4Car:   return CB_RESULT_ATTACH_ALLOW;
-    Rheostatic_Line1_Second_6Car:   return CB_RESULT_ATTACH_ALLOW;
-    Rheostatic_Line1_Second_8Car:   return CB_RESULT_ATTACH_ALLOW;
-    Rheostatic_Line1_Second_10Car:  return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}
-
 switch(FEAT_TRAINS, SELF, sw_Rheostatic_Line1_Second_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/DCMOTERBASICstart.wav");
     return CB_RESULT_NO_SOUND;

@@ -56,7 +56,5 @@ item(FEAT_TRAINS, Hyundai_Rotem_R_8Car, 2058){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_MTR_Hyundai_Rotem_R_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_MTR_Hyundai_Rotem_R);
         }
         }

@@ -55,10 +55,8 @@ item(FEAT_TRAINS, EMU320_DD_8Car, 2023){
         speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
-        running_cost_factor:            150;              
-        can_attach_wagon:               sw_EMU320_DD_wagon_attach;
+        running_cost_factor:            150;
         cargo_subtype_text:             sw_EMU320_DD_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_EMU320_DD);
         sound_effect:                   sw_EMU320_DD_sound;
         }
         }

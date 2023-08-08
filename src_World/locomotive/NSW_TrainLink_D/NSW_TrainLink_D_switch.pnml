@@ -26,9 +26,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_NSW_TrainLink_D_6car, extra_callback_i
     1..5: NSW_TrainLink_D_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_NSW_TrainLink_D_wagon_attach, vehicle_type_id) {
-    NSW_TrainLink_D_4Car:    return CB_RESULT_ATTACH_ALLOW;
-    NSW_TrainLink_D_6Car:    return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}

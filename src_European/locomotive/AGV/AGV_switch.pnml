@@ -19,7 +19,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_AGV_11car, extra_callback_info1) {
     1..10: AGV_11Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_AGV_wagon_attach, vehicle_type_id) {
-    return string(STR_ERROR_NO_ATTACH);
-}

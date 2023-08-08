@@ -54,6 +54,5 @@ item(FEAT_TRAINS, NJ2, 2051){
         speed:                          Regular_Speed_Train;
         cost_factor:                    10;
         running_cost_factor:            150;
-        additional_text:                string(STR_REFIT_ADDITIONAL_NJ2);
         }
         }

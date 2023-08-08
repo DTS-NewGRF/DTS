@@ -20,7 +20,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_THSR_700T_12car, extra_callback_info1)
     1..11: THSR_700T_12Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_THSR_700T_wagon_attach, vehicle_type_id) {
-    return string(STR_ERROR_NO_ATTACH);
-}

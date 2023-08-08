@@ -56,7 +56,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Renfe_S_130_13car, extra_callback_info
     1..12: Renfe_S_130_13Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-switch(FEAT_TRAINS, SELF, sw_Renfe_S_130_wagon_attach, vehicle_type_id) {
-    return string(STR_ERROR_NO_ATTACH);
-}

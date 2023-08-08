@@ -22,8 +22,3 @@ switch(FEAT_TRAINS, SELF, sw_FLAT_2F_CAR_wagon, random_bits % 15) {
     17: sg_FLAT_2F_CAR_4053ft_09_wagon;
     set_FLAT_2F_CAR_empty_wagon;
 }
-
-switch(FEAT_TRAINS, SELF, sw_Flat_2F_wagon_attach, vehicle_type_id) {
-    FLAT_2F:    return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}

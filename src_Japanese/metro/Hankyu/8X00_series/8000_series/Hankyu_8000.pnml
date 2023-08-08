@@ -76,9 +76,7 @@ item(FEAT_TRAINS, Hankyu_8000_2Car, 2212){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Hankyu_8000_attach;
         cargo_subtype_text:             sw_Hankyu_8000_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Hankyu_8000);
         sound_effect:                   sw_Hankyu_8000_sound;
         }
         }
@@ -134,9 +132,7 @@ item(FEAT_TRAINS, Hankyu_8000_8Car, 2213){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_Hankyu_8000_attach;
         cargo_subtype_text:             sw_Hankyu_8000_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Hankyu_8000);
         sound_effect:                   sw_Hankyu_8000_sound;
         }
         }

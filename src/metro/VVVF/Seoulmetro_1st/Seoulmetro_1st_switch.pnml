@@ -160,16 +160,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_1st_VVVF_2000_3000_10car, e
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_attach, vehicle_type_id) {
-    Seoulmetro_1st_VVVF_4Car:       return CB_RESULT_ATTACH_ALLOW;
-    Seoulmetro_1st_VVVF_2000_6Car:  return CB_RESULT_ATTACH_ALLOW;
-    Seoulmetro_1st_VVVF_4000_6Car:  return CB_RESULT_ATTACH_ALLOW;
-    Seoulmetro_1st_VVVF_GTO_10Car:  return CB_RESULT_ATTACH_ALLOW;
-    Seoulmetro_1st_VVVF_10Car:      return CB_RESULT_ATTACH_ALLOW;
-    Seoulmetro_1st_VVVF_IGBT_10Car: return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}
-
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_GTO_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/MITSUBISHIGTOKstart.wav");
     return CB_RESULT_NO_SOUND;

@@ -171,16 +171,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Korail_4th_VVVF_G2_G3_10car, extra_cal
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch(FEAT_TRAINS, SELF, sw_Korail_4th_VVVF_wagon_attach, vehicle_type_id) {
-    Korail_392000_2Car:          return CB_RESULT_ATTACH_ALLOW;
-    Korail_392000_4Car:          return CB_RESULT_ATTACH_ALLOW;
-    Korail_4th_VVVF_G1_4Car:     return CB_RESULT_ATTACH_ALLOW;
-    Korail_4th_VVVF_G2_G3_4Car:  return CB_RESULT_ATTACH_ALLOW;
-    Korail_4th_VVVF_G2_G3_6Car:  return CB_RESULT_ATTACH_ALLOW;
-    Korail_4th_VVVF_G2_G3_10Car: return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}
-
 switch(FEAT_TRAINS, SELF, sw_Korail_392000_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM1Kstart.wav");
     return CB_RESULT_NO_SOUND;

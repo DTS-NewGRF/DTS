@@ -37,14 +37,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_CTX_P_10car, extra_callback_info1) {
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch(FEAT_TRAINS, SELF, sw_CTX_FC_wagon_attach, vehicle_type_id) {
-    CTX_F_10Car:             return CB_RESULT_ATTACH_ALLOW;
-    CTX_P_10Car:             return CB_RESULT_ATTACH_ALLOW;
-    KTX_SC_10Car:            return CB_RESULT_ATTACH_ALLOW;
-    KTX_SC2_10Car:           return CB_RESULT_ATTACH_ALLOW;
-    return string(STR_ERROR_NO_ATTACH);
-}
-
 switch(FEAT_TRAINS, SELF, sw_CTX_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/KTXSCstart.wav");
     return CB_RESULT_NO_SOUND;
