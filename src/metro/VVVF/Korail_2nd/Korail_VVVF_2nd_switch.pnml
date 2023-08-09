@@ -34,6 +34,26 @@ switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_engineT, cargo_subtype) {
     set_Korail_2nd_VVVF_311K_351K_engineT;
 }
 
+// 10량 IGBT 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_engineH_r, cargo_subtype) {
+    1: set_Korail_2nd_VVVF_341K_engineH_r;
+    set_Korail_2nd_VVVF_311K_351K_engineH_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_wagon_r, cargo_subtype) {
+    1: set_Korail_2nd_VVVF_341K_wagon_r; 
+    set_Korail_2nd_VVVF_311K_351K_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_panto_wagon_r, cargo_subtype) {
+    1: set_Korail_2nd_VVVF_341K_panto_wagon_r;
+    set_Korail_2nd_VVVF_311K_351K_panto_wagon_r;
+}
+switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_engineT_r, cargo_subtype) {
+    1: set_Korail_2nd_VVVF_341K_engineT_r;
+    set_Korail_2nd_VVVF_311K_351K_engineT_r;
+}
+
 // 10량 GTO
 switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_engineH, cargo_subtype) {
     1: set_Korail_2nd_VVVF_341K_engineH;
@@ -62,6 +82,34 @@ switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_engineT, cargo_subtype) {
     set_Korail_2nd_VVVF_311K_351K_engineT;
 }
 
+// 10량 GTO 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_engineH_r, cargo_subtype) {
+    1: set_Korail_2nd_VVVF_341K_engineH_r;
+    2: set_Korail_2nd_VVVF_2030_engineH_r;
+    3: set_Korail_2nd_VVVF_5000_engineH_r;
+    set_Korail_2nd_VVVF_311K_351K_engineH_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_wagon_r, cargo_subtype) {
+    1: set_Korail_2nd_VVVF_341K_wagon_r;
+    2: set_Korail_2nd_VVVF_2030_wagon_r;
+    3: set_Korail_2nd_VVVF_5000_wagon_r; 
+    set_Korail_2nd_VVVF_311K_351K_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_panto_wagon_r, cargo_subtype) {
+    1: set_Korail_2nd_VVVF_341K_panto_wagon_r;
+    2: set_Korail_2nd_VVVF_2030_panto_wagon_r;
+    3: set_Korail_2nd_VVVF_5000_panto_wagon_r;
+    set_Korail_2nd_VVVF_311K_351K_panto_wagon_r;
+}
+switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_engineT_r, cargo_subtype) {
+    1: set_Korail_2nd_VVVF_341K_engineT_r;
+    2: set_Korail_2nd_VVVF_2030_engineT_r;
+    3: set_Korail_2nd_VVVF_5000_engineT_r;
+    set_Korail_2nd_VVVF_311K_351K_engineT_r;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_6car, position_in_vehid_chain % 6) {
     1:set_Korail_2nd_VVVF_311K_351K_wagon;
@@ -72,6 +120,25 @@ switch (FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_6car, position_in_vehid_chain
     set_Korail_2nd_VVVF_311K_351K_engineH; //default
     }
 
+switch (FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_6car_r, position_in_vehid_chain % 6) {
+    1:set_Korail_2nd_VVVF_311K_351K_panto_wagon_r;
+    2:set_Korail_2nd_VVVF_311K_351K_wagon_r;
+    3:set_Korail_2nd_VVVF_311K_351K_panto_wagon_r;
+    4:set_Korail_2nd_VVVF_311K_351K_wagon_r;
+    5:set_Korail_2nd_VVVF_311K_351K_engineH_r;
+    set_Korail_2nd_VVVF_311K_351K_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_6car_flipped, vehicle_is_flipped){
+    0: sw_Korail_2nd_VVVF_IGBT_6car;
+    sw_Korail_2nd_VVVF_IGBT_6car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Korail_2nd_VVVF_IGBT_6car_reversed, vehicle_is_reversed){
+    0: sw_Korail_2nd_VVVF_IGBT_6car_r;
+    sw_Korail_2nd_VVVF_IGBT_6car_flipped;
+}
+
 switch (FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_6car, position_in_vehid_chain % 6) {
     1:set_Korail_2nd_VVVF_311K_351K_wagon;
     2:set_Korail_2nd_VVVF_311K_351K_panto_wagon;
@@ -80,6 +147,25 @@ switch (FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_6car, position_in_vehid_chain 
     5:set_Korail_2nd_VVVF_311K_351K_engineT;
     set_Korail_2nd_VVVF_311K_351K_engineH; //default
     }
+
+switch (FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_6car_r, position_in_vehid_chain % 6) {
+    1:set_Korail_2nd_VVVF_311K_351K_panto_wagon_r;
+    2:set_Korail_2nd_VVVF_311K_351K_wagon_r;
+    3:set_Korail_2nd_VVVF_311K_351K_panto_wagon_r;
+    4:set_Korail_2nd_VVVF_311K_351K_wagon_r;
+    5:set_Korail_2nd_VVVF_311K_351K_engineH_r;
+    set_Korail_2nd_VVVF_311K_351K_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_6car_flipped, vehicle_is_flipped){
+    0: sw_Korail_2nd_VVVF_GTO_6car;
+    sw_Korail_2nd_VVVF_GTO_6car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Korail_2nd_VVVF_GTO_6car_reversed, vehicle_is_reversed){
+    0: sw_Korail_2nd_VVVF_GTO_6car_r;
+    sw_Korail_2nd_VVVF_GTO_6car_flipped;
+}
 
 switch (FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_10car, position_in_vehid_chain % 10) {
     1:sw_Korail_2nd_VVVF_IGBT_wagon;
@@ -94,6 +180,29 @@ switch (FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_10car, position_in_vehid_chai
     sw_Korail_2nd_VVVF_IGBT_engineH; //default
     }
 
+switch (FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_10car_r, position_in_vehid_chain % 10) {
+    1:sw_Korail_2nd_VVVF_IGBT_panto_wagon_r;
+    2:sw_Korail_2nd_VVVF_IGBT_wagon_r;
+    3:sw_Korail_2nd_VVVF_IGBT_wagon_r;
+    4:sw_Korail_2nd_VVVF_IGBT_wagon_r;
+    5:sw_Korail_2nd_VVVF_IGBT_panto_wagon_r;
+    6:sw_Korail_2nd_VVVF_IGBT_wagon_r;
+    7:sw_Korail_2nd_VVVF_IGBT_panto_wagon_r;
+    8:sw_Korail_2nd_VVVF_IGBT_wagon_r;
+    9:sw_Korail_2nd_VVVF_IGBT_engineH_r;
+    sw_Korail_2nd_VVVF_IGBT_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_IGBT_10car_flipped, vehicle_is_flipped){
+    0: sw_Korail_2nd_VVVF_IGBT_10car;
+    sw_Korail_2nd_VVVF_IGBT_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Korail_2nd_VVVF_IGBT_10car_reversed, vehicle_is_reversed){
+    0: sw_Korail_2nd_VVVF_IGBT_10car_r;
+    sw_Korail_2nd_VVVF_IGBT_10car_flipped;
+}
+
 switch (FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_10car, position_in_vehid_chain % 10) {
     1:sw_Korail_2nd_VVVF_GTO_wagon;
     2:sw_Korail_2nd_VVVF_GTO_panto_wagon;
@@ -106,6 +215,29 @@ switch (FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_10car, position_in_vehid_chain
     9:sw_Korail_2nd_VVVF_GTO_engineT;
     sw_Korail_2nd_VVVF_GTO_engineH; //default
     }
+
+switch (FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_10car_r, position_in_vehid_chain % 10) {
+    1:sw_Korail_2nd_VVVF_GTO_panto_wagon_r;
+    2:sw_Korail_2nd_VVVF_GTO_wagon_r;
+    3:sw_Korail_2nd_VVVF_GTO_wagon_r;
+    4:sw_Korail_2nd_VVVF_GTO_wagon_r;
+    5:sw_Korail_2nd_VVVF_GTO_panto_wagon_r;
+    6:sw_Korail_2nd_VVVF_GTO_wagon_r;
+    7:sw_Korail_2nd_VVVF_GTO_panto_wagon_r;
+    8:sw_Korail_2nd_VVVF_GTO_wagon_r;
+    9:sw_Korail_2nd_VVVF_GTO_engineH_r;
+    sw_Korail_2nd_VVVF_GTO_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_GTO_10car_flipped, vehicle_is_flipped){
+    0: sw_Korail_2nd_VVVF_GTO_10car;
+    sw_Korail_2nd_VVVF_GTO_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Korail_2nd_VVVF_GTO_10car_reversed, vehicle_is_reversed){
+    0: sw_Korail_2nd_VVVF_GTO_10car_r;
+    sw_Korail_2nd_VVVF_GTO_10car_flipped;
+}
 
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Korail_2nd_VVVF_IGBT_6car, extra_callback_info1) {

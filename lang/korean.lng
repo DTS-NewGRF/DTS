@@ -317,6 +317,8 @@ STR_OBJ_Building                                       :[DTS] 건물
 STR_OBJ_Building_Store_CU                              :[DTS] 역전 CU 편의점
 STR_OBJ_Building_Store_GS25                            :[DTS] 역전 GS25 편의점
 STR_OBJ_Building_Store_Storyway                        :[DTS] 역전 스토리웨이 편의점
+STR_OBJ_Flag                                           :[DTS] 깃발
+STR_OBJ_Flag_Korea                                     :[DTS] 태극기 표지판
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :지하철 속도변수

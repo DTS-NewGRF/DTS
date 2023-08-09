@@ -68,7 +68,7 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_ST_4car, 2222){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_ST_4car;
+        default:                        sw_Korail_3rd_VVVF_ST_4car_reversed;
         articulated_part:               sw_articulated_Korail_3rd_VVVF_ST_4car;
         purchase:                       sw_Korail_3rd_VVVF_purchase;
         speed:                          Metro_Speed_Train;
@@ -177,7 +177,7 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_6car, 2224){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_6car;
+        default:                        sw_Korail_3rd_VVVF_6car_reversed;
         articulated_part:               sw_articulated_Korail_3rd_VVVF_6car;
         purchase:                       sw_Korail_3rd_VVVF_purchase;
         speed:                          Metro_Speed_Train;
@@ -287,7 +287,7 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_10car, 2226){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_10car;
+        default:                        sw_Korail_3rd_VVVF_10car_reversed;
         articulated_part:               sw_articulated_Korail_3rd_VVVF_10car;
         purchase:                       sw_Korail_3rd_VVVF_purchase;
         speed:                          Metro_Speed_Train;

@@ -18,6 +18,7 @@ body:
         - '[DTS] 역전 CU 편의점'
         - '[DTS] 역전 GS25 편의점'
         - '[DTS] 역전 스토리웨이 편의점'
+        - '[DTS] 태극기'
     validations:
       required: true
   - type: textarea

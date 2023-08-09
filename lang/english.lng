@@ -319,6 +319,8 @@ STR_OBJ_Building                                       :[DTS] Building
 STR_OBJ_Building_Store_CU                              :[DTS] CU Convenience store
 STR_OBJ_Building_Store_GS25                            :[DTS] GS25 Convenience store
 STR_OBJ_Building_Store_Storyway                        :[DTS] Storyway Convenience store
+STR_OBJ_Flag                                           :[DTS] Flag Signboard
+STR_OBJ_Flag_Korea                                     :[DTS] Korea Flag Signboard
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :Metro Train Speed Variable
