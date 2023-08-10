@@ -33,7 +33,7 @@ spriteset(set_ICE2_R_wagon_bar_r, "src_European/locomotive/ICE2/ICE2_R.png"){
 }
 
 spriteset(set_ICE2_R_engineT_r, "src_European/locomotive/ICE2/ICE2_R.png"){
-    ICEengine_r(80, 120)
+    ICEengine(80, 120)
 }
 
 spriteset(set_ICE2_R_engineT, "src_European/locomotive/ICE2/ICE2_R.png"){
@@ -48,7 +48,7 @@ spriteset(set_ICE2_G_engineH, "src_European/locomotive/ICE2/ICE2_G.png"){
 }
 
 spriteset(set_ICE2_G_engineH_r, "src_European/locomotive/ICE2/ICE2_G.png"){
-    ICEengine_r(80, 30)
+    ICEengine(80, 30)
 }
 
 spriteset(set_ICE2_G_wagon, "src_European/locomotive/ICE2/ICE2_G.png") {
@@ -68,7 +68,7 @@ spriteset(set_ICE2_G_wagon_bar_r, "src_European/locomotive/ICE2/ICE2_G.png"){
 }
 
 spriteset(set_ICE2_G_engineT_r, "src_European/locomotive/ICE2/ICE2_G.png"){
-    ICEengine_r(80, 120)
+    ICEengine(80, 120)
 }
 
 spriteset(set_ICE2_G_engineT, "src_European/locomotive/ICE2/ICE2_G.png"){
