@@ -24,6 +24,29 @@ switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_VVVF_2000_10car, position_in_vehid_
     set_Seoulmetro_4th_2000_engineH; //default
     }
 
+switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_VVVF_2000_10car_r, position_in_vehid_chain % 10) {
+    1:set_Seoulmetro_4th_2000_panto_wagon_r;
+    2:set_Seoulmetro_4th_2000_wagon_r;
+    3:set_Seoulmetro_4th_2000_wagon_r;
+    4:set_Seoulmetro_4th_2000_wagon_r;
+    5:set_Seoulmetro_4th_2000_panto_wagon_r;
+    6:set_Seoulmetro_4th_2000_wagon_r;
+    7:set_Seoulmetro_4th_2000_panto_wagon_r;
+    8:set_Seoulmetro_4th_2000_wagon_r;
+    9:set_Seoulmetro_4th_2000_engineH_r;
+    set_Seoulmetro_4th_2000_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_VVVF_2000_10car_flipped, vehicle_is_flipped){
+    0: sw_Seoulmetro_4th_VVVF_2000_10car;
+    sw_Seoulmetro_4th_VVVF_2000_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_4th_VVVF_2000_10car_reversed, vehicle_is_reversed){
+    0: sw_Seoulmetro_4th_VVVF_2000_10car_r;
+    sw_Seoulmetro_4th_VVVF_2000_10car_flipped;
+}
+
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_VVVF_4000_10car, position_in_vehid_chain % 10) {
     1:set_Seoulmetro_4th_4000_wagon;
     2:set_Seoulmetro_4th_4000_panto_wagon;
@@ -37,7 +60,7 @@ switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_VVVF_4000_10car, position_in_vehid_
     set_Seoulmetro_4th_4000_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_sw_Seoulmetro_4th_VVVF_4000_10car_r, position_in_vehid_chain % 10) {
+switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_VVVF_4000_10car_r, position_in_vehid_chain % 10) {
     1:set_Seoulmetro_4th_4000_panto_wagon_r;
     2:set_Seoulmetro_4th_4000_wagon_r;
     3:set_Seoulmetro_4th_4000_wagon_r;
@@ -56,7 +79,7 @@ switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_VVVF_4000_10car_flipped, vehicle_is_
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_4th_VVVF_4000_10car_reversed, vehicle_is_reversed){
-    0: sw_sw_Seoulmetro_4th_VVVF_4000_10car_r;
+    0: sw_Seoulmetro_4th_VVVF_4000_10car_r;
     sw_Seoulmetro_4th_VVVF_4000_10car_flipped;
 }
 

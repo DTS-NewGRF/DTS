@@ -96,6 +96,29 @@ switch (FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_10Car, position_in_vehi
     set_Seoulmetro_2000_NoRheostatic_engineH; //default
     }
 
+switch (FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_10Car_r, position_in_vehid_chain % 10) {
+    1:set_Seoulmetro_2000_NoRheostatic_panto_wagon_r;
+    2:set_Seoulmetro_2000_NoRheostatic_wagon_r;
+    3:set_Seoulmetro_2000_NoRheostatic_panto_wagon_r;
+    4:set_Seoulmetro_2000_NoRheostatic_wagon_r;
+    5:set_Seoulmetro_2000_NoRheostatic_panto_wagon_r;
+    6:set_Seoulmetro_2000_NoRheostatic_wagon_r;
+    7:set_Seoulmetro_2000_NoRheostatic_wagon_r;
+    8:set_Seoulmetro_2000_NoRheostatic_panto_wagon_r;
+    9:set_Seoulmetro_2000_NoRheostatic_engineH_r;
+    set_Seoulmetro_2000_NoRheostatic_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2000_Rheostatic_10Car_flipped, vehicle_is_flipped){
+    0: sw_Seoulmetro_2000_Rheostatic_10Car;
+    sw_Seoulmetro_2000_Rheostatic_10Car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_2000_Rheostatic_10Car_reversed, vehicle_is_reversed){
+    0: sw_Seoulmetro_2000_Rheostatic_10Car_r;
+    sw_Seoulmetro_2000_Rheostatic_10Car_flipped;
+}
+
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_2000_Rheostatic_4Car, extra_callback_info1) {
     1..3: Seoulmetro_2000_Rheostatic_4Car;

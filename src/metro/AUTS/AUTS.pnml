@@ -49,12 +49,13 @@ item(FEAT_TRAINS, AUTS_6Car, 2007){
         }
 
 	graphics {
-        default:                        sw_AUTS_6car;
+        default:                        sw_AUTS_6car_reversed;
         articulated_part:               sw_articulated_AUTS_6car;
         purchase:                       sw_AUTS_purchase;
         speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        sound_effect:                   sw_AUTS_sound;
         }
         }

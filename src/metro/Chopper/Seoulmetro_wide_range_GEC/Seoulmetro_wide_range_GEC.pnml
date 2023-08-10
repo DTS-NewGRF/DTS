@@ -68,7 +68,7 @@ item(FEAT_TRAINS, Seoulmetro_Wide_Range_GEC_chopper_6Car, 2277){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_Wide_Range_GECC_chopper_6Car;
+        default:                        sw_Seoulmetro_Wide_Range_GECC_chopper_6Car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_Wide_Range_GEC_chopper_6Car;
         purchase:                       sw_Seoulmetro_Wide_Range_GEC_chopper_purchase;
         speed:                          Metro_Speed_Train;
@@ -122,7 +122,7 @@ item(FEAT_TRAINS, Seoulmetro_Wide_Range_GEC_chopper_10Car, 2278){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_Wide_Range_GEC_chopper_10Car;
+        default:                        sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_Wide_Range_GEC_chopper_10Car;
         purchase:                       sw_Seoulmetro_Wide_Range_GEC_chopper_purchase;
         speed:                          Metro_Speed_Train;

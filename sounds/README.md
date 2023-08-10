@@ -51,6 +51,9 @@
 ### HYUNDAIROTEMIGBTIPM1start.wav
 - 서울교통공사 2000호대 1·2세대 3VF, 서울교통공사 3000호대 1세대 3VF 전동차
 
+### HYUNDAIROTEMPMSMstart.wav
+- AUTS(차세대전동차)
+
 ### KTXSCstart.wav
 - KTX-산천, KTX-산천 DD, CTX
 

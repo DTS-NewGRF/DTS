@@ -68,7 +68,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_4Car, 2286){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_4car;
+        default:                        sw_Seoulmetro_2nd_VVVF_4car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_4car;
         purchase:                       sw_Seoulmetro_2nd_2000_purchase;
         speed:                          Metro_Speed_Train;
@@ -122,7 +122,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_6Car, 2287){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_6car;
+        default:                        sw_Seoulmetro_2nd_VVVF_6car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_6car;
         purchase:                       sw_Seoulmetro_2nd_2000_purchase;
         speed:                          Metro_Speed_Train;
@@ -176,7 +176,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_2000_10Car, 2288){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_2000_10car;
+        default:                        sw_Seoulmetro_2nd_VVVF_2000_10car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_2000_10car;
         purchase:                       sw_Seoulmetro_2nd_2000_purchase;
         speed:                          Metro_Speed_Train;
@@ -285,7 +285,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_GTO_10Car, 2261){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_GTO_10car;
+        default:                        sw_Seoulmetro_2nd_VVVF_GTO_10car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_GTO_10car;
         purchase:                       sw_Seoulmetro_2nd_purchase;
         speed:                          Metro_Speed_Train;
@@ -339,7 +339,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_IGBT_10Car, 2262){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_IGBT_10car;
+        default:                        sw_Seoulmetro_2nd_VVVF_IGBT_10car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_IGBT_10car;
         purchase:                       sw_Seoulmetro_2nd_purchase;
         speed:                          Metro_Speed_Train;

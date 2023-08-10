@@ -12,20 +12,40 @@ spriteset(set_MEL_150_engineH, "src/locomotive/MEL_150/MEL_150.png"){
     engine(80, 0)
 }
 
-spriteset(set_MEL_150_panto_wagon, "src/locomotive/MEL_150/MEL_150.png") {
-    wagon_1F_F(80, 27)
+spriteset(set_MEL_150_engineH_r, "src/locomotive/MEL_150/MEL_150.png"){
+    engine(80, 27)
 }
 
-spriteset(set_MEL_150_1F_wagon, "src/locomotive/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_panto_wagon, "src/locomotive/MEL_150/MEL_150.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_MEL_150_2F_wagon, "src/locomotive/MEL_150/MEL_150.png") {
+spriteset(set_MEL_150_panto_wagon_r, "src/locomotive/MEL_150/MEL_150.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_MEL_150_1F_wagon, "src/locomotive/MEL_150/MEL_150.png") {
     wagon_1F_F(80, 81)
 }
 
+spriteset(set_MEL_150_1F_wagon_r, "src/locomotive/MEL_150/MEL_150.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_MEL_150_2F_wagon, "src/locomotive/MEL_150/MEL_150.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_MEL_150_2F_wagon_r, "src/locomotive/MEL_150/MEL_150.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_MEL_150_engineT_r, "src/locomotive/MEL_150/MEL_150.png"){
+    engine(80, 135)
+}
+
 spriteset(set_MEL_150_engineT, "src/locomotive/MEL_150/MEL_150.png"){
-    engine(80, 108)
+    engine(80, 162)
 }
 
 /*--------------------------------------------------------------------

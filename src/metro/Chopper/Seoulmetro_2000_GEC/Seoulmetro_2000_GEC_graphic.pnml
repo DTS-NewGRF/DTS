@@ -12,16 +12,32 @@ spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_engineH, "src/metro/Chopp
     engine(80, 0)
 }
 
-spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_wagon, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_NoRheostatic.png"){
-    wagon_1F_F(80, 27)
+spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_engineH_r, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_NoRheostatic.png"){
+    engine(80, 27)
 }
 
-spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_panto_wagon, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_NoRheostatic.png"){
+spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_wagon, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_NoRheostatic.png"){
     wagon_1F_F(80, 54)
 }
 
+spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_wagon_r, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_NoRheostatic.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_panto_wagon, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_NoRheostatic.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_panto_wagon_r, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_NoRheostatic.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_engineT_r, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_NoRheostatic.png"){
+    engine(80, 108)
+}
+
 spriteset(set_Seoulmetro_2000_GEC_chopper_NoRheostatic_engineT, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_NoRheostatic.png"){
-    engine(80, 81)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------
@@ -31,16 +47,32 @@ spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_engineH, "src/metro/Chopper
     engine(80, 0)
 }
 
-spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_wagon, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
-    wagon_1F_F(80, 27)
+spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_engineH_r, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
+    engine(80, 27)
 }
 
-spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_panto_wagon, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
+spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_wagon, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
     wagon_1F_F(80, 54)
 }
 
+spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_wagon_r, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_panto_wagon, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_panto_wagon_r, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_engineT_r, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
+    engine(80, 108)
+}
+
 spriteset(set_Seoulmetro_2000_GEC_chopper_Rheostatic_engineT, "src/metro/Chopper/Seoulmetro_2000_GEC/Seoulmetro_2000_GEC_Rheostatic.png"){
-    engine(80, 81)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------

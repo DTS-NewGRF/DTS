@@ -178,7 +178,7 @@ item(FEAT_TRAINS, Seoulmetro_2000_Rheostatic_10Car, 2268){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2000_Rheostatic_10Car;
+        default:                        sw_Seoulmetro_2000_Rheostatic_10Car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_2000_Rheostatic_10Car;
         purchase:                       sw_Seoulmetro_2000_Rheostatic_purchase;
         speed:                          Metro_Speed_Train;

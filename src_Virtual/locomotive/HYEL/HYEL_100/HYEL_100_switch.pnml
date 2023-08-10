@@ -3,12 +3,14 @@
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_HYEL_100_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_HYEL_100_CI);        // CI
+    2: return string(STR_REFIT_LIVERY_HYEL_100_original);  // 오리지널
     return string(STR_REFIT_LIVERY_HYEL_100);
 }
 
 switch(FEAT_TRAINS, SELF, sw_HYEL_100_engine, cargo_subtype) {
     1: set_HYEL_100_CI_engine;        // CI
-    set_HYEL_100_engine;
+    2: set_HYEL_100_engine;        // CI
+    set_HYEL_100_H2_engine;
 }
 
 switch(FEAT_TRAINS, SELF, sw_HYEL_100_sound, extra_callback_info1) {

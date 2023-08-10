@@ -49,7 +49,7 @@ item(FEAT_TRAINS, Rheostatic_Line1_Third_10Car, 2253){
         }
 
     graphics {
-        default:                        sw_Rheostatic_Line1_Third_10car;
+        default:                        sw_Rheostatic_Line1_Third_10car_reversed;
         articulated_part:               sw_articulated_Rheostatic_Line1_Third_10car;
         purchase:                       sw_Rheostatic_Line1_Third_purchase;
         speed:                          Metro_Speed_Train;

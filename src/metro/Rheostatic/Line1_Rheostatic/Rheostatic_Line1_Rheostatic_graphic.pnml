@@ -12,24 +12,48 @@ spriteset(set_Rheostatic_K1000_engineH_TC1A, "src/metro/Rheostatic/Line1_Rheosta
     engine(80, 0)
 }
 
-spriteset(set_Rheostatic_K1000_engineH_TC1B, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+spriteset(set_Rheostatic_K1000_engineH_TC1A_r, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
     engine(80, 27)
 }
 
-spriteset(set_Rheostatic_K1000_wagon, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+spriteset(set_Rheostatic_K1000_engineH_TC1B, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
     engine(80, 54)
 }
 
+spriteset(set_Rheostatic_K1000_engineH_TC1B_r, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+    engine(80, 81)
+}
+
+spriteset(set_Rheostatic_K1000_wagon, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Rheostatic_K1000_wagon_r, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+    wagon_1F_F_r(80, 108)
+}
+
 spriteset(set_Rheostatic_K1000_panto_wagon, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
-    wagon_1F_F(80, 81)
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Rheostatic_K1000_panto_wagon_r, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_Rheostatic_K1000_engineT_TC2A_r, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+    engine(80, 162)
 }
 
 spriteset(set_Rheostatic_K1000_engineT_TC2A, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
-    engine(80, 108)
+    engine(80, 189)
+}
+
+spriteset(set_Rheostatic_K1000_engineT_TC2B_r, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
+    engine(80, 216)
 }
 
 spriteset(set_Rheostatic_K1000_engineT_TC2B, "src/metro/Rheostatic/Line1_Rheostatic/K1000.png"){
-    engine(80, 135)
+    engine(80, 243)
 }
 
 /*--------------------------------------------------------------------
@@ -39,28 +63,56 @@ spriteset(set_Rheostatic_S1000_engineH, "src/metro/Rheostatic/Line1_Rheostatic/S
     engine(80, 0)
 }
 
-spriteset(set_Rheostatic_S1000_wagon_MA_T, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+spriteset(set_Rheostatic_S1000_engineH_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
     engine(80, 27)
 }
 
-spriteset(set_Rheostatic_S1000_panto_wagon_A, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    engine(80, 54)
+spriteset(set_Rheostatic_S1000_wagon_MA_T, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    wagon_1F_F(80, 54)
 }
 
-spriteset(set_Rheostatic_S1000_wagon_MB, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+spriteset(set_Rheostatic_S1000_wagon_MA_T_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Rheostatic_S1000_panto_wagon_A, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
     wagon_1F_F(80, 81)
 }
 
+spriteset(set_Rheostatic_S1000_panto_wagon_A_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Rheostatic_S1000_wagon_MB, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Rheostatic_S1000_wagon_MB_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    wagon_1F_F_r(80, 108)
+}
+
 spriteset(set_Rheostatic_S1000_panto_wagon_B, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    engine(80, 108)
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Rheostatic_S1000_panto_wagon_B_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_Rheostatic_S1000_engineT_TCA_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    engine(80, 162)
 }
 
 spriteset(set_Rheostatic_S1000_engineT_TCA, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    engine(80, 135)
+    engine(80, 189)
+}
+
+spriteset(set_Rheostatic_S1000_engineT_TCB_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
+    engine(80, 216)
 }
 
 spriteset(set_Rheostatic_S1000_engineT_TCB, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    engine(80, 162)
+    engine(80, 243)
 }
 
 /*--------------------------------------------------------------------

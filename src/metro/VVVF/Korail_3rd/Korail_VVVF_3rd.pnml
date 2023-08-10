@@ -123,7 +123,7 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_G2_4car, 2223){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_G2_4car;
+        default:                        sw_Korail_3rd_VVVF_G2_4car_reversed;
         articulated_part:               sw_articulated_Korail_3rd_VVVF_G2_4car;
         purchase:                       sw_Korail_3rd_VVVF_G2_purchase;
         speed:                          Metro_Speed_Train;

@@ -121,7 +121,7 @@ item(FEAT_TRAINS, Seoulmetro_4th_VVVF_2000_10Car, 2293){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_4th_VVVF_2000_10car;
+        default:                        sw_Seoulmetro_4th_VVVF_2000_10car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_4th_VVVF_2000_10car;
         purchase:                       sw_Seoulmetro_4th_2000_purchase;
         speed:                          Metro_Speed_Train;

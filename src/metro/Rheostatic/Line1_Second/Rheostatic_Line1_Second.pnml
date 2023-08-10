@@ -68,7 +68,7 @@ item(FEAT_TRAINS, Rheostatic_Line1_Second_4Car, 2249){
         }
 
     graphics {
-        default:                        sw_Rheostatic_Line1_Second_4car;
+        default:                        sw_Rheostatic_Line1_Second_4car_reversed;
         articulated_part:               sw_articulated_Rheostatic_Line1_Second_4car;
         purchase:                       sw_Rheostatic_Line1_Second_Initial_purchase;
         speed:                          Metro_Speed_Train;
@@ -122,7 +122,7 @@ item(FEAT_TRAINS, Rheostatic_Line1_Second_6Car, 2250){
         }
 
     graphics {
-        default:                        sw_Rheostatic_Line1_Second_6car;
+        default:                        sw_Rheostatic_Line1_Second_6car_reversed;
         articulated_part:               sw_articulated_Rheostatic_Line1_Second_6car;
         purchase:                       sw_Rheostatic_Line1_Second_Initial_purchase;
         speed:                          Metro_Speed_Train;
@@ -176,7 +176,7 @@ item(FEAT_TRAINS, Rheostatic_Line1_Second_8Car, 2251){
         }
 
     graphics {
-        default:                        sw_Rheostatic_Line1_Second_8car;
+        default:                        sw_Rheostatic_Line1_Second_8car_reversed;
         articulated_part:               sw_articulated_Rheostatic_Line1_Second_8car;
         purchase:                       sw_Rheostatic_Line1_Second_Initial_purchase;
         speed:                          Metro_Speed_Train;
@@ -230,7 +230,7 @@ item(FEAT_TRAINS, Rheostatic_Line1_Second_10Car, 2252){
         }
 
     graphics {
-        default:                        sw_Rheostatic_Line1_Second_10car;
+        default:                        sw_Rheostatic_Line1_Second_10car_reversed;
         articulated_part:               sw_articulated_Rheostatic_Line1_Second_10car;
         purchase:                       sw_Rheostatic_Line1_Second_purchase;
         speed:                          Metro_Speed_Train;

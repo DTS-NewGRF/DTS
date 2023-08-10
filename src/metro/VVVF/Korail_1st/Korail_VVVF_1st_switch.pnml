@@ -222,6 +222,27 @@ switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10Car_engineT, cargo_subtype) 
     set_Korail_1st_VVVF_3000_New_engineT;
 }
 
+// 10량 3000호대 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10Car_engineH_r, cargo_subtype) {
+    1: set_Korail_1st_VVVF_3000_Old_engineH_r;
+    set_Korail_1st_VVVF_3000_New_engineH_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10Car_panto_wagon_r, cargo_subtype) {
+    1: set_Korail_1st_VVVF_3000_Old_panto_wagon_r;
+    set_Korail_1st_VVVF_3000_New_panto_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10Car_wagon_r, cargo_subtype) {
+    1: set_Korail_1st_VVVF_3000_Old_wagon_r;
+    set_Korail_1st_VVVF_3000_New_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10Car_engineT_r, cargo_subtype) {
+    1: set_Korail_1st_VVVF_3000_Old_engineT_r;
+    set_Korail_1st_VVVF_3000_New_engineT_r;
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_4car, position_in_vehid_chain % 4) {
     1:set_Korail_1st_VVVF_319K_panto_wagon;
@@ -370,6 +391,29 @@ switch (FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10car, position_in_vehid_chai
     9:sw_Korail_1st_VVVF_3000_10Car_engineT;
     sw_Korail_1st_VVVF_3000_10Car_engineH; //default
     }
+
+switch (FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10car_r, position_in_vehid_chain % 10) {
+    1:sw_Korail_1st_VVVF_3000_10Car_panto_wagon_r;
+    2:sw_Korail_1st_VVVF_3000_10Car_panto_wagon_r;
+    3:sw_Korail_1st_VVVF_3000_10Car_wagon_r;
+    4:sw_Korail_1st_VVVF_3000_10Car_wagon_r;
+    5:sw_Korail_1st_VVVF_3000_10Car_panto_wagon_r;
+    6:sw_Korail_1st_VVVF_3000_10Car_wagon_r;
+    7:sw_Korail_1st_VVVF_3000_10Car_panto_wagon_r;
+    8:sw_Korail_1st_VVVF_3000_10Car_panto_wagon_r;
+    9:sw_Korail_1st_VVVF_3000_10Car_engineH_r;
+    sw_Korail_1st_VVVF_3000_10Car_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_3000_10car_flipped, vehicle_is_flipped){
+    0: sw_Korail_1st_VVVF_3000_10car;
+    sw_Korail_1st_VVVF_3000_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Korail_1st_VVVF_3000_10car_reversed, vehicle_is_reversed){
+    0: sw_Korail_1st_VVVF_3000_10car_r;
+    sw_Korail_1st_VVVF_3000_10car_flipped;
+}
 
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Korail_1st_VVVF_IGBT_4car, extra_callback_info1) {

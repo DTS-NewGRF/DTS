@@ -176,7 +176,7 @@ item(FEAT_TRAINS, Korail_4th_VVVF_G1_4Car, 2030){
         }
 
     graphics {
-        default:                        sw_Korail_4th_VVVF_G1_4car;
+        default:                        sw_Korail_4th_VVVF_G1_4car_reversed;
         articulated_part:               sw_articulated_Korail_4th_VVVF_G1_4car;
         purchase:                       sw_Korail_4th_VVVF_G1_purchase;
         speed:                          Metro_Speed_Train;
@@ -230,7 +230,7 @@ item(FEAT_TRAINS, Korail_4th_VVVF_G2_G3_4Car, 2124){
         }
 
     graphics {
-        default:                        sw_Korail_4th_VVVF_G2_G3_4car;
+        default:                        sw_Korail_4th_VVVF_G2_G3_4car_reversed;
         articulated_part:               sw_articulated_Korail_4th_VVVF_G2_G3_4car;
         purchase:                       sw_Korail_4th_VVVF_G2_purchase;
         speed:                          Metro_Speed_Train;
@@ -286,7 +286,7 @@ item(FEAT_TRAINS, Korail_4th_VVVF_G2_G3_6Car, 2217){
         }
 
     graphics {
-        default:                        sw_Korail_4th_VVVF_G2_G3_6car;
+        default:                        sw_Korail_4th_VVVF_G2_G3_6car_reversed;
         articulated_part:               sw_articulated_Korail_4th_VVVF_G2_G3_6car;
         purchase:                       sw_Korail_4th_VVVF_G2_purchase;
         speed:                          Metro_Speed_Train;
@@ -342,7 +342,7 @@ item(FEAT_TRAINS, Korail_4th_VVVF_G2_G3_10Car, 2218){
         }
 
     graphics {
-        default:                        sw_Korail_4th_VVVF_G2_G3_10car;
+        default:                        sw_Korail_4th_VVVF_G2_G3_10car_reversed;
         articulated_part:               sw_articulated_Korail_4th_VVVF_G2_G3_10car;
         purchase:                       sw_Korail_4th_VVVF_G2_purchase;
         speed:                          Metro_Speed_Train;

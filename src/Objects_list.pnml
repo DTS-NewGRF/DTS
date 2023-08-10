@@ -10,3 +10,6 @@
 
 // Flag
 #include "Objects/Flag_Korea/Flag_Korea.pnml"
+
+// Pavement
+#include "Objects/Pavement/Pavement.pnml"

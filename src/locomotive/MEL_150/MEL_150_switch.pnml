@@ -8,6 +8,23 @@ switch (FEAT_TRAINS, SELF, sw_MEL_150_4car, position_in_vehid_chain % 4) {
     set_MEL_150_engineH; //default
     }
 
+switch (FEAT_TRAINS, SELF, sw_MEL_150_4car_r, position_in_vehid_chain % 4) {
+    1:set_MEL_150_panto_wagon_r;
+    2:set_MEL_150_panto_wagon_r;
+    3:set_MEL_150_engineH_r;
+    set_MEL_150_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_MEL_150_4car_flipped, vehicle_is_flipped){
+    0: sw_MEL_150_4car;
+    sw_MEL_150_4car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_MEL_150_4car_reversed, vehicle_is_reversed){
+    0: sw_MEL_150_4car_r;
+    sw_MEL_150_4car_flipped;
+}
+
 switch (FEAT_TRAINS, SELF, sw_MEL_150_8car, position_in_vehid_chain % 8) {
     1:set_MEL_150_1F_wagon;
     2:set_MEL_150_panto_wagon;
@@ -18,6 +35,27 @@ switch (FEAT_TRAINS, SELF, sw_MEL_150_8car, position_in_vehid_chain % 8) {
     7:set_MEL_150_engineT;
     set_MEL_150_engineH; //default
     }
+
+switch (FEAT_TRAINS, SELF, sw_MEL_150_8car_r, position_in_vehid_chain % 8) {
+    1:set_MEL_150_1F_wagon_r;
+    2:set_MEL_150_panto_wagon_r;
+    3:set_MEL_150_1F_wagon_r;
+    4:set_MEL_150_1F_wagon_r;
+    5:set_MEL_150_panto_wagon_r;
+    6:set_MEL_150_1F_wagon_r;
+    7:set_MEL_150_engineH_r;
+    set_MEL_150_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_MEL_150_8car_flipped, vehicle_is_flipped){
+    0: sw_MEL_150_8car;
+    sw_MEL_150_8car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_MEL_150_8car_reversed, vehicle_is_reversed){
+    0: sw_MEL_150_8car_r;
+    sw_MEL_150_8car_flipped;
+}
 
 switch (FEAT_TRAINS, SELF, sw_MEL_150_10car, position_in_vehid_chain % 10) {
     1:set_MEL_150_panto_wagon;
@@ -31,6 +69,29 @@ switch (FEAT_TRAINS, SELF, sw_MEL_150_10car, position_in_vehid_chain % 10) {
     9:set_MEL_150_engineT;
     set_MEL_150_engineH; //default
     }
+
+switch (FEAT_TRAINS, SELF, sw_MEL_150_10car_r, position_in_vehid_chain % 10) {
+    1:set_MEL_150_1F_wagon_r;
+    2:set_MEL_150_panto_wagon_r;
+    3:set_MEL_150_1F_wagon_r;
+    4:set_MEL_150_panto_wagon_r;
+    5:set_MEL_150_1F_wagon_r;
+    6:set_MEL_150_1F_wagon_r;
+    7:set_MEL_150_1F_wagon_r;
+    8:set_MEL_150_panto_wagon_r;
+    9:set_MEL_150_engineH_r;
+    set_MEL_150_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_MEL_150_10car_flipped, vehicle_is_flipped){
+    0: sw_MEL_150_10car;
+    sw_MEL_150_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_MEL_150_10car_reversed, vehicle_is_reversed){
+    0: sw_MEL_150_10car_r;
+    sw_MEL_150_10car_flipped;
+}
 
 switch (FEAT_TRAINS, SELF, sw_MEL_150_12car, position_in_vehid_chain % 12) {
     1:set_MEL_150_panto_wagon;
@@ -46,6 +107,31 @@ switch (FEAT_TRAINS, SELF, sw_MEL_150_12car, position_in_vehid_chain % 12) {
     11:set_MEL_150_engineT;
     set_MEL_150_engineH; //default
     }
+
+switch (FEAT_TRAINS, SELF, sw_MEL_150_12car_r, position_in_vehid_chain % 12) {
+    1:set_MEL_150_1F_wagon_r;
+    2:set_MEL_150_panto_wagon_r;
+    3:set_MEL_150_1F_wagon_r;
+    4:set_MEL_150_1F_wagon_r;
+    5:set_MEL_150_2F_wagon_r;
+    6:set_MEL_150_2F_wagon_r;
+    7:set_MEL_150_1F_wagon_r;
+    8:set_MEL_150_panto_wagon_r;
+    9:set_MEL_150_1F_wagon_r;
+    10:set_MEL_150_panto_wagon_r;
+    11:set_MEL_150_engineH_r;
+    set_MEL_150_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_MEL_150_12car_flipped, vehicle_is_flipped){
+    0: sw_MEL_150_12car;
+    sw_MEL_150_12car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_MEL_150_12car_reversed, vehicle_is_reversed){
+    0: sw_MEL_150_12car_r;
+    sw_MEL_150_12car_flipped;
+}
 
 switch (FEAT_TRAINS, SELF, sw_articulated_MEL_150_4car, extra_callback_info1) {
     1..3: MEL_150_4Car;

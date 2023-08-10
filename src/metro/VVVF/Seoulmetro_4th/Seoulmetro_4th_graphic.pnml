@@ -16,16 +16,32 @@ spriteset(set_Seoulmetro_4th_2000_engineH, "src/metro/VVVF/Seoulmetro_4th/Seoulm
     engine(80, 0)
 }
 
-spriteset(set_Seoulmetro_4th_2000_wagon, "src/metro/VVVF/Seoulmetro_4th/Seoulmetro_4th_2000.png"){
-    wagon_1F_F(80, 27)
+spriteset(set_Seoulmetro_4th_2000_engineH_r, "src/metro/VVVF/Seoulmetro_4th/Seoulmetro_4th_2000.png"){
+    engine(80, 27)
 }
 
-spriteset(set_Seoulmetro_4th_2000_panto_wagon, "src/metro/VVVF/Seoulmetro_4th/Seoulmetro_4th_2000.png"){
+spriteset(set_Seoulmetro_4th_2000_wagon, "src/metro/VVVF/Seoulmetro_4th/Seoulmetro_4th_2000.png"){
     wagon_1F_F(80, 54)
 }
 
+spriteset(set_Seoulmetro_4th_2000_wagon_r, "src/metro/VVVF/Seoulmetro_4th/Seoulmetro_4th_2000.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Seoulmetro_4th_2000_panto_wagon, "src/metro/VVVF/Seoulmetro_4th/Seoulmetro_4th_2000.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Seoulmetro_4th_2000_panto_wagon_r, "src/metro/VVVF/Seoulmetro_4th/Seoulmetro_4th_2000.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Seoulmetro_4th_2000_engineT_r, "src/metro/VVVF/Seoulmetro_4th/Seoulmetro_4th_2000.png"){
+    engine(80, 108)
+}
+
 spriteset(set_Seoulmetro_4th_2000_engineT, "src/metro/VVVF/Seoulmetro_4th/Seoulmetro_4th_2000.png"){
-    engine(80, 81)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------

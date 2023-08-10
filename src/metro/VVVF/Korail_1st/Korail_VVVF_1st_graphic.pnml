@@ -156,16 +156,32 @@ spriteset(set_Korail_1st_VVVF_3000_Old_engineH, "src/metro/VVVF/Korail_1st/Korai
     engine(80, 0)
 }
 
-spriteset(set_Korail_1st_VVVF_3000_Old_panto_wagon, "src/metro/VVVF/Korail_1st/Korail_3000_Old.png"){
-    wagon_1F_F(80, 27)
+spriteset(set_Korail_1st_VVVF_3000_Old_engineH_r, "src/metro/VVVF/Korail_1st/Korail_3000_Old.png"){
+    engine(80, 27)
 }
 
-spriteset(set_Korail_1st_VVVF_3000_Old_wagon, "src/metro/VVVF/Korail_1st/Korail_3000_Old.png"){
+spriteset(set_Korail_1st_VVVF_3000_Old_panto_wagon, "src/metro/VVVF/Korail_1st/Korail_3000_Old.png"){
     wagon_1F_F(80, 54)
 }
 
+spriteset(set_Korail_1st_VVVF_3000_Old_panto_wagon_r, "src/metro/VVVF/Korail_1st/Korail_3000_Old.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_1st_VVVF_3000_Old_wagon, "src/metro/VVVF/Korail_1st/Korail_3000_Old.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_1st_VVVF_3000_Old_wagon_r, "src/metro/VVVF/Korail_1st/Korail_3000_Old.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_1st_VVVF_3000_Old_engineT_r, "src/metro/VVVF/Korail_1st/Korail_3000_Old.png"){
+    engine(80, 108)
+}
+
 spriteset(set_Korail_1st_VVVF_3000_Old_engineT, "src/metro/VVVF/Korail_1st/Korail_3000_Old.png"){
-    engine(80, 81)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------
@@ -175,16 +191,32 @@ spriteset(set_Korail_1st_VVVF_3000_New_engineH, "src/metro/VVVF/Korail_1st/Korai
     engine(80, 0)
 }
 
-spriteset(set_Korail_1st_VVVF_3000_New_panto_wagon, "src/metro/VVVF/Korail_1st/Korail_3000_New.png"){
-    wagon_1F_F(80, 27)
+spriteset(set_Korail_1st_VVVF_3000_New_engineH_r, "src/metro/VVVF/Korail_1st/Korail_3000_New.png"){
+    engine(80, 27)
 }
 
-spriteset(set_Korail_1st_VVVF_3000_New_wagon, "src/metro/VVVF/Korail_1st/Korail_3000_New.png"){
+spriteset(set_Korail_1st_VVVF_3000_New_panto_wagon, "src/metro/VVVF/Korail_1st/Korail_3000_New.png"){
     wagon_1F_F(80, 54)
 }
 
+spriteset(set_Korail_1st_VVVF_3000_New_panto_wagon_r, "src/metro/VVVF/Korail_1st/Korail_3000_New.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_1st_VVVF_3000_New_wagon, "src/metro/VVVF/Korail_1st/Korail_3000_New.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_1st_VVVF_3000_New_wagon_r, "src/metro/VVVF/Korail_1st/Korail_3000_New.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_1st_VVVF_3000_New_engineT_r, "src/metro/VVVF/Korail_1st/Korail_3000_New.png"){
+    engine(80, 108)
+}
+
 spriteset(set_Korail_1st_VVVF_3000_New_engineT, "src/metro/VVVF/Korail_1st/Korail_3000_New.png"){
-    engine(80, 81)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------

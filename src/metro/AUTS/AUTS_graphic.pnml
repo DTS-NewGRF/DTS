@@ -12,16 +12,32 @@ spriteset(set_AUTS_engineH, "src/metro/AUTS/AUTS.png"){
     engine(80, 0)
 }
 
-spriteset(set_AUTS_panto_wagon, "src\metro\AUTS\AUTS.png") {
-    wagon_1F_F(80, 27)
+spriteset(set_AUTS_engineH_r, "src/metro/AUTS/AUTS.png"){
+    engine(80, 27)
 }
 
-spriteset(set_AUTS_wagon, "src\metro\AUTS\AUTS.png") {
+spriteset(set_AUTS_panto_wagon, "src\metro\AUTS\AUTS.png") {
     wagon_1F_F(80, 54)
 }
 
+spriteset(set_AUTS_panto_wagon_r, "src\metro\AUTS\AUTS.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_AUTS_wagon, "src\metro\AUTS\AUTS.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_AUTS_wagon_r, "src\metro\AUTS\AUTS.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_AUTS_engineT_r, "src/metro/AUTS/AUTS.png"){
+    engine(80, 108)
+}
+
 spriteset(set_AUTS_engineT, "src/metro/AUTS/AUTS.png"){
-    engine(80, 81)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------

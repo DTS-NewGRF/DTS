@@ -319,6 +319,7 @@ STR_OBJ_Building_Store_GS25                            :[DTS] 역전 GS25 편의
 STR_OBJ_Building_Store_Storyway                        :[DTS] 역전 스토리웨이 편의점
 STR_OBJ_Flag                                           :[DTS] 깃발
 STR_OBJ_Flag_Korea                                     :[DTS] 태극기 표지판
+STR_OBJ_Pavement                                       :[DTS] 보도블럭
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :지하철 속도변수
@@ -467,8 +468,9 @@ STR_REFIT_LIVERY_Shinkansen_E2_Pink                    : E2계 - 분홍
 STR_REFIT_LIVERY_Shinkansen_E2_Red                     : E2계 - 빨강
 STR_REFIT_LIVERY_Shinkansen_E5                         : 신칸센 E5계
 STR_REFIT_LIVERY_Shinkansen_H5                         : 신칸센 H5계
-STR_REFIT_LIVERY_HYEL_100                              : 기본도색
+STR_REFIT_LIVERY_HYEL_100                              : 수소열차
 STR_REFIT_LIVERY_HYEL_100_CI                           : 한국철도공사 CI
+STR_REFIT_LIVERY_HYEL_100_original                     : 오리지널
 STR_REFIT_LIVERY_HYEL_150                              : HYEL-150
 STR_REFIT_LIVERY_HYEL_150_SB                           : HYEL-150 바다도색
 

@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 1. HYEL_100
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_100_purchase, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.png"){
+spriteset(set_HYEL_100_purchase, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_H2.png"){
     tmpl_single_purchase(0, 0)
 }
 
@@ -13,6 +13,13 @@ spriteset(set_HYEL_100_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100.pn
 2. HYEL_100_CI
 --------------------------------------------------------------------*/
 spriteset(set_HYEL_100_CI_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_CI.png"){
+    engine(80, 0)
+}
+
+/*--------------------------------------------------------------------
+2. HYEL_100_H2
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_100_H2_engine, "src_Virtual/locomotive/HYEL/HYEL_100/HYEL_100_H2.png"){
     engine(80, 0)
 }
 
