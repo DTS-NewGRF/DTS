@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+switch
+--------------------------------------------------------------------*/
+spritelayout set_Building_Korean_Traditional_House01_0 {
+    ground {
+        sprite: GROUNDSPRITE_NORMAL;
+    }
+    building {
+        sprite: set_Building_Korean_Traditional_House01(0);
+        xextent: 1;
+        yextent: 3;
+        zextent: 12;
+        xoffset: 15; // from NE edge
+        yoffset: 7;  // from NW edge
+        zoffset: 0;
+    }
+}
+
+spritelayout set_Building_Korean_Traditional_House02_0 {
+    ground {
+        sprite: GROUNDSPRITE_NORMAL;
+    }
+    building {
+        sprite: set_Building_Korean_Traditional_House02(0);
+        xextent: 1;
+        yextent: 3;
+        zextent: 12;
+        xoffset: 15; // from NE edge
+        yoffset: 7;  // from NW edge
+        zoffset: 0;
+    }
+}

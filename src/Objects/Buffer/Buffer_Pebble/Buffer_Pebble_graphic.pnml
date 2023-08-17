@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Buffer_Pebble, "src/Objects/Buffer_Pebble/Buffer_Pebble.png"){
+spriteset(set_Buffer_Pebble, "src/Objects/Buffer/Buffer_Pebble/Buffer_Pebble.png"){
     [0,     0,    50,    25,     -9,  -19]
     [55,    0,    50,    25,    -23,  -17]
     [110,   0,    50,    26,    -25,  -19]

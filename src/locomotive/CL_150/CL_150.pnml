@@ -68,7 +68,7 @@ item(FEAT_TRAINS, CL_150_4Car, 2173){
         }
 
     graphics {
-        default:                        sw_CL_150_4car;
+        default:                        sw_CL_150_4car_reversed;
         articulated_part:               sw_articulated_CL_150_4car;
         purchase:                       sw_CL_150_purchase;
         speed:                          Regular_Speed_Train;
@@ -122,7 +122,7 @@ item(FEAT_TRAINS, CL_150_6Car, 2174){
         }
 
     graphics {
-        default:                        sw_CL_150_6car;
+        default:                        sw_CL_150_6car_reversed;
         articulated_part:               sw_articulated_CL_150_6car;
         purchase:                       sw_CL_150_purchase;
         speed:                          Regular_Speed_Train;
@@ -176,7 +176,7 @@ item(FEAT_TRAINS, CL_150_8Car, 2175){
         }
 
     graphics {
-        default:                        sw_CL_150_8car;
+        default:                        sw_CL_150_8car_reversed;
         articulated_part:               sw_articulated_CL_150_8car;
         purchase:                       sw_CL_150_purchase;
         speed:                          Regular_Speed_Train;
@@ -230,7 +230,7 @@ item(FEAT_TRAINS, CL_180_8Car, 2176){
         }
 
     graphics {
-        default:                        sw_CL_180_8car;
+        default:                        sw_CL_180_8car_reversed;
         articulated_part:               sw_articulated_CL_180_8car;
         purchase:                       sw_CL_150_purchase;
         speed:                          Semi_High_SPEED_Train;

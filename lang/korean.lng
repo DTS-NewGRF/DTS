@@ -21,6 +21,7 @@ STR_CL_180_8Car_NAME                                   :[DTS/8량] CL-180
 STR_Group_CTX_NAME                                     :[DTS] CTX
 STR_CTX_F_10Car_NAME                                   :[DTS/10량] CTX 화물전용
 STR_CTX_P_10Car_NAME                                   :[DTS/10량] CTX 승객전용
+STR_DEL7000_NAME                                       :[DTS/단량] DEL7000
 STR_DEL7600_NAME                                       :[DTS/단량] DEL7600
 STR_Group_E8600_NAME                                   :[DTS] 8600호대 전기기관차
 STR_E8600_NAME                                         :[DTS/단량] 8600호대 전기기관차
@@ -53,6 +54,7 @@ STR_Group_H2_WJ_NAME                                   :[DTS] 우진산전 수�
 STR_H2_WJ_2Car_NAME                                    :[DTS/2량] 우진산전 수소연료전지동차
 STR_H2_WJ_4Car_NAME                                    :[DTS/4량] 우진산전 수소연료전지동차
 STR_Travel_8500_NAME                                   :[DTS/단량] 8500호대 전기기관차
+STR_NEL_8100_NAME                                      :[DTS/단량] 8100호대 전기기관차
 STR_NEL_8200_NAME                                      :[DTS/단량] 8200호대 전기기관차
 STR_TTX_6Car_NAME                                      :[DTS/6량] TTX
 STR_VHST_600X_8Car_NAME                                :[DTS/8량] VHST-600X
@@ -317,9 +319,11 @@ STR_OBJ_Building                                       :[DTS] 건물
 STR_OBJ_Building_Store_CU                              :[DTS] 역전 CU 편의점
 STR_OBJ_Building_Store_GS25                            :[DTS] 역전 GS25 편의점
 STR_OBJ_Building_Store_Storyway                        :[DTS] 역전 스토리웨이 편의점
+STR_OBJ_Building_Korean_Traditional_House              :[DTS] 한국 전통가옥
 STR_OBJ_Flag                                           :[DTS] 깃발
 STR_OBJ_Flag_Korea                                     :[DTS] 태극기 표지판
 STR_OBJ_Pavement                                       :[DTS] 보도블럭
+STR_OBJ_Fountain                                       :[DTS] 분수대
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :지하철 속도변수
@@ -377,6 +381,9 @@ STR_REFIT_LIVERY_GTX                                   : GTX
 STR_REFIT_LIVERY_Bicheuro_DD                           : 비츠로 DD
 STR_REFIT_LIVERY_BicheuroA_DD                          : 비츠로 DD A
 STR_REFIT_LIVERY_BicheuroB_DD                          : 비츠로 DD B
+STR_REFIT_LIVERY_DEL7000_A                             : 한국철도공사 CI
+STR_REFIT_LIVERY_DEL7000_B                             : 철도청 구도색
+STR_REFIT_LIVERY_DEL7000_C                             : 철도청 초기도색
 STR_REFIT_LIVERY_DEL7600                               : 기본도색
 STR_REFIT_LIVERY_DEL7600_A_Train                       : A-Train
 STR_REFIT_LIVERY_NRT2_Old_C                            : 누리로 DD 구도색 회사색상
@@ -413,6 +420,8 @@ STR_REFIT_LIVERY_KTX_HN_B                              : KTX-산천 호남고속
 STR_REFIT_LIVERY_KTX_HN_Y                              : KTX-산천 호남고속선 시안 3안
 STR_REFIT_LIVERY_KTX_GG_B                              : KTX-산천 경강선 시안 1안
 STR_REFIT_LIVERY_KTX_GG_W                              : KTX-산천 경강선 컨셉
+STR_REFIT_LIVERY_NEL_8100_A                            : 구도색
+STR_REFIT_LIVERY_NEL_8100_B                            : 신도색
 STR_REFIT_LIVERY_Travel_8500                           : 기본도색
 STR_REFIT_LIVERY_Travel_8500_A_train                   : A-Train
 STR_REFIT_LIVERY_Travel_8500_A_train_New               : A-Train 신도색

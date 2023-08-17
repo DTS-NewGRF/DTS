@@ -12,14 +12,9 @@ body:
       label: 오브젝트 선택
       description: 오브젝트를 선택해주세요.
       options:
-        - '[DTS] 콘크리트 차막이'
-        - '[DTS] 자갈 차막이'
-        - '[DTS] 표지판 차막이'
-        - '[DTS] 역전 CU 편의점'
-        - '[DTS] 역전 GS25 편의점'
-        - '[DTS] 역전 스토리웨이 편의점'
-        - '[DTS] 태극기'
-        - '[DTS] 보도블럭'
+        - '[DTS] 차막이'
+        - '[DTS] 건물'
+        - '[DTS] 기타'
     validations:
       required: true
   - type: textarea

@@ -12,24 +12,48 @@ spriteset(set_CL_150_engineH, "src/locomotive/CL_150/CL_150.png"){
     engine(80, 0)
 }
 
-spriteset(set_CL_150_wagon_A, "src/locomotive/CL_150/CL_150.png") {
-    wagon_1F_F(80, 27)
+spriteset(set_CL_150_engineH_r, "src/locomotive/CL_150/CL_150.png"){
+    engine(80, 27)
 }
 
-spriteset(set_CL_150_panto_wagon, "src/locomotive/CL_150/CL_150.png") {
+spriteset(set_CL_150_wagon_M, "src/locomotive/CL_150/CL_150.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_CL_150_wagon_B, "src/locomotive/CL_150/CL_150.png") {
+spriteset(set_CL_150_wagon_M_r, "src/locomotive/CL_150/CL_150.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_CL_150_panto_wagon_M1, "src/locomotive/CL_150/CL_150.png") {
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_CL_150_panto_wagon_r, "src/locomotive/CL_150/CL_150.png") {
+spriteset(set_CL_150_panto_wagon_M1_r, "src/locomotive/CL_150/CL_150.png") {
     wagon_1F_F(80, 108)
 }
 
+spriteset(set_CL_150_wagon_T, "src/locomotive/CL_150/CL_150.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_CL_150_wagon_T_r, "src/locomotive/CL_150/CL_150.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_CL_150_panto_wagon_M2, "src/locomotive/CL_150/CL_150.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_CL_150_panto_wagon_M2_r, "src/locomotive/CL_150/CL_150.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_CL_150_engineT_r, "src/locomotive/CL_150/CL_150.png"){
+    engine(80, 216)
+}
+
 spriteset(set_CL_150_engineT, "src/locomotive/CL_150/CL_150.png"){
-    engine(80, 135)
+    engine(80, 243)
 }
 
 /*--------------------------------------------------------------------

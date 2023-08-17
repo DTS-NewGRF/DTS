@@ -23,6 +23,9 @@
 - 니시테츠 1000, 2000, 5000, 6000, 8000형
 - 수도권 1호선 저항제어 전동차 [초기, 중기]
 
+### DEL7000start.wav
+- 7000호대 디젤기관차
+
 ### DEL7600start.wav
 - 7600호대 디젤전기기관차
 
@@ -75,6 +78,9 @@
 ### TOSHIBAGTOKStrart.wav
 - 한국철도공사 1세대 VVVF전동차
 - 한국철도공사 2세대 VVVF전동차
+
+### SIEMENSGTO2locostart.wav
+- 8100호대 전기 기관차
 
 ### SIEMENSGTOlocostart.wav
 - 8200호대 전기 기관차

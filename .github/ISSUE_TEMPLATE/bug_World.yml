@@ -12,9 +12,7 @@ body:
       label: 월드형 열차 선택
       description: 월드형 열차에 해당하면 선택해주세요.
       options:
-        - '[DTS] NSW TrainLink D (그룹)'
-        - '[DTS/4량] NSW TrainLink D'
-        - '[DTS/6량] NSW TrainLink D'
+        - '[DTS] NSW TrainLink D'
         - '[DTS/10량] NHSRCL E5'
         - '[DTS/12량] 타이완 고속철도 700T형'
         - '[DTS/10량] 알 보라크'

@@ -1,28 +1,28 @@
 /*--------------------------------------------------------------------
-KTX-SC2
+DEL7000
 --------------------------------------------------------------------*/
 // Graphics
-#include "KTX_SC2_graphic.pnml"
+#include "DEL7000_graphic.pnml"
 
 // Switch
-#include "KTX_SC2_switch.pnml"
+#include "DEL7000_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, KTX_SC2_10Car, 2025){
+item(FEAT_TRAINS, DEL7000, 2298){
     property {
-        name:                           string(STR_KTX_SC2_10Car_NAME);
+        name:                           string(STR_DEL7000_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2017, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        introduction_date:              date(1986, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          362km/h;
-        power:                          10000 kW;
-        weight:                         40 ton;
+        speed:                          151km/h;
+        power:                          5034 kW;
+        weight:                         132 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -33,7 +33,7 @@ item(FEAT_TRAINS, KTX_SC2_10Car, 2025){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 116;
+        cargo_capacity:                 1;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -44,18 +44,18 @@ item(FEAT_TRAINS, KTX_SC2_10Car, 2025){
         running_cost_base:              RUNNING_COST_DIESEL;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
         }
-
+        
     graphics {
-        default:                        sw_KTX_SC2_10car_reversed;
-        articulated_part:               sw_articulated_KTX_SC2_10car;
-        purchase:                       sw_KTX_SC2_purchase;
-        speed:                          High_Speed_Train;
-        loading_speed:                  25;
+        default:                        sw_DEL7000_engine;
+        purchase:                       sw_DEL7000_purchase;
+        speed:                          Regular_Speed_Train;
+        cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_KTX_SC2_sound;
+        cargo_subtype_text:             sw_DEL7000_cargo_subtype_text;
+        sound_effect:                   sw_DEL7000_sound;
         }
         }

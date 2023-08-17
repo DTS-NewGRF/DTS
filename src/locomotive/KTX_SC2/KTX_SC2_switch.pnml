@@ -2,17 +2,40 @@
 스위치
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_KTX_SC2_10car, position_in_vehid_chain % 10) {
-    1:set_KTX_SC2_wagon_start;
-    2:set_KTX_SC2_wagon_A;
-    3:set_KTX_SC2_special_wagon;
-    4:set_KTX_SC2_wagon_A;
-    5:set_KTX_SC2_wagon_B;
-    6:set_KTX_SC2_wagon_B;
-    7:set_KTX_SC2_wagon_B;
-    8:set_KTX_SC2_wagon_end;
+    1:set_KTX_SC2_wagon_T1;
+    2:set_KTX_SC2_wagon_T2;
+    3:set_KTX_SC2_wagon_T3;
+    4:set_KTX_SC2_wagon_T2;
+    5:set_KTX_SC2_wagon_T4;
+    6:set_KTX_SC2_wagon_T4;
+    7:set_KTX_SC2_wagon_T4;
+    8:set_KTX_SC2_wagon_T5;
     9:set_KTX_SC2_engineT;
     set_KTX_SC2_engineH; //default
     }
+
+switch (FEAT_TRAINS, SELF, sw_KTX_SC2_10car_r, position_in_vehid_chain % 10) {
+    1:set_KTX_SC2_wagon_T5_r;
+    2:set_KTX_SC2_wagon_T4_r;
+    3:set_KTX_SC2_wagon_T4_r;
+    4:set_KTX_SC2_wagon_T4_r;
+    5:set_KTX_SC2_wagon_T2_r;
+    6:set_KTX_SC2_wagon_T3_r;
+    7:set_KTX_SC2_wagon_T2_r;
+    8:set_KTX_SC2_wagon_T1_r;
+    9:set_KTX_SC2_engineH_r;
+    set_KTX_SC2_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC2_10car_flipped, vehicle_is_flipped){
+    0: sw_KTX_SC2_10car;
+    sw_KTX_SC2_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_KTX_SC2_10car_reversed, vehicle_is_reversed){
+    0: sw_KTX_SC2_10car_r;
+    sw_KTX_SC2_10car_flipped;
+}
 
 switch (FEAT_TRAINS, SELF, sw_articulated_KTX_SC2_10car, extra_callback_info1) {
     1..9: KTX_SC2_10Car;

@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_NEL_8100_purchase, "src/locomotive/NEL_8100/NEL_8100.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_NEL_8100_engine_A, "src/locomotive/NEL_8100/NEL_8100.png"){
+    engine(80, 0)
+}
+
+spriteset(set_NEL_8100_engine_B, "src/locomotive/NEL_8100/NEL_8100.png"){
+    engine(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_NEL_8100_purchase, cargo_subtype) {
+	set_NEL_8100_purchase;
+}

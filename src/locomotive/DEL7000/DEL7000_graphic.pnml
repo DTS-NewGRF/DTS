@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_DEL7000_purchase, "src/locomotive/DEL7000/DEL7000.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_DEL7000_engine_A, "src/locomotive/DEL7000/DEL7000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_DEL7000_engine_B, "src/locomotive/DEL7000/DEL7000.png"){
+    engine(80, 27)
+}
+
+spriteset(set_DEL7000_engine_C, "src/locomotive/DEL7000/DEL7000.png"){
+    engine(80, 54)
+}
+
+/*-------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_DEL7000_purchase, cargo_subtype) {
+	set_DEL7000_purchase;
+}

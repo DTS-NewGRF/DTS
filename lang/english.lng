@@ -21,6 +21,7 @@ STR_CL_180_8Car_NAME                                   :[DTS] CL-180 8Car
 STR_Group_CTX_NAME                                     :[DTS] CTX
 STR_CTX_F_10Car_NAME                                   :[DTS] CTX Freight 10Car
 STR_CTX_P_10Car_NAME                                   :[DTS] CTX Passenger 10Car
+STR_DEL7000_NAME                                       :[DTS] DEL7000
 STR_DEL7600_NAME                                       :[DTS] DEL7600
 STR_Group_E8600_NAME                                   :[DTS] E8600
 STR_E8600_NAME                                         :[DTS] E8600 1Car
@@ -53,6 +54,7 @@ STR_Group_H2_WJ_NAME                                   :[DTS] H2 by WOOJIN
 STR_H2_WJ_2Car_NAME                                    :[DTS] H2 by WOOJIN 2Car
 STR_H2_WJ_4Car_NAME                                    :[DTS] H2 by WOOJIN 4Car
 STR_Travel_8500_NAME                                   :[DTS] Travel 8500
+STR_NEL_8100_NAME                                      :[DTS] NEL 8100
 STR_NEL_8200_NAME                                      :[DTS] NEL 8200
 STR_TTX_6Car_NAME                                      :[DTS] TTX 8Car
 STR_VHST_600X_8Car_NAME                                :[DTS] VHST-600X 8Car
@@ -319,9 +321,11 @@ STR_OBJ_Building                                       :[DTS] Building
 STR_OBJ_Building_Store_CU                              :[DTS] CU Convenience store
 STR_OBJ_Building_Store_GS25                            :[DTS] GS25 Convenience store
 STR_OBJ_Building_Store_Storyway                        :[DTS] Storyway Convenience store
+STR_OBJ_Building_Korean_Traditional_House              :[DTS] Korean Traditional House
 STR_OBJ_Flag                                           :[DTS] Flag Signboard
 STR_OBJ_Flag_Korea                                     :[DTS] Korea Flag Signboard
 STR_OBJ_Pavement                                       :[DTS] Pavement
+STR_OBJ_Fountain                                       :[DTS] Fountain
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :Metro Train Speed Variable
@@ -379,6 +383,9 @@ STR_REFIT_LIVERY_GTX                                   : GTX
 STR_REFIT_LIVERY_Bicheuro_DD                           : Bicheuro DD
 STR_REFIT_LIVERY_BicheuroA_DD                          : Bicheuro DD A
 STR_REFIT_LIVERY_BicheuroB_DD                          : Bicheuro DD B
+STR_REFIT_LIVERY_DEL7000_A                             : DEL7000_A
+STR_REFIT_LIVERY_DEL7000_B                             : DEL7000_B
+STR_REFIT_LIVERY_DEL7000_C                             : DEL7000_C
 STR_REFIT_LIVERY_DEL7600                               : Orginal
 STR_REFIT_LIVERY_DEL7600_A_Train                       : A-Train
 STR_REFIT_LIVERY_NRT2_Old_C                            : Nuriro DD Old Company Color
@@ -415,6 +422,8 @@ STR_REFIT_LIVERY_KTX_HN_B                              : KTX-Honam Sky blue Live
 STR_REFIT_LIVERY_KTX_HN_Y                              : KTX-Honam Yellow Livery
 STR_REFIT_LIVERY_KTX_GG_B                              : KTX-Gyeonggang Blue Livery
 STR_REFIT_LIVERY_KTX_GG_W                              : KTX-Gyeonggang White Livery
+STR_REFIT_LIVERY_NEL_8100_A                            : NEL 8100 A
+STR_REFIT_LIVERY_NEL_8100_B                            : NEL 8100 B
 STR_REFIT_LIVERY_Travel_8500                           : Orginal
 STR_REFIT_LIVERY_Travel_8500_A_train                   : A-Train
 STR_REFIT_LIVERY_Travel_8500_A_train_New               : A-Train New Color
