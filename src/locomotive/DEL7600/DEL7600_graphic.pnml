@@ -9,6 +9,10 @@ spriteset(set_DEL7600_engine, "src/locomotive/DEL7600/DEL7600.png"){
     engine(80, 0)
 }
 
+spriteset(set_DEL7600_A_Train_engine, "src/locomotive/DEL7600/DEL7600_A_Train.png"){
+    engine(80, 0)
+}
+
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/

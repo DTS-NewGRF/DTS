@@ -49,11 +49,13 @@ item(FEAT_TRAINS, DEL7600, 2015){
         }
         
     graphics {
-        default:                        set_DEL7600_engine;
+        default:                        sw_DEL7600_engine;
         purchase:                       sw_DEL7600_purchase;
         speed:                          Regular_Speed_Train;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;
+        cargo_subtype_text:             sw_DEL7600_cargo_subtype_text;
+        sound_effect:                   sw_DEL7600_sound;
         }
         }

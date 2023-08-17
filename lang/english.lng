@@ -379,6 +379,8 @@ STR_REFIT_LIVERY_GTX                                   : GTX
 STR_REFIT_LIVERY_Bicheuro_DD                           : Bicheuro DD
 STR_REFIT_LIVERY_BicheuroA_DD                          : Bicheuro DD A
 STR_REFIT_LIVERY_BicheuroB_DD                          : Bicheuro DD B
+STR_REFIT_LIVERY_DEL7600                               : Orginal
+STR_REFIT_LIVERY_DEL7600_A_Train                       : A-Train
 STR_REFIT_LIVERY_NRT2_Old_C                            : Nuriro DD Old Company Color
 STR_REFIT_LIVERY_NRT2_New_C                            : Nuriro DD New Company Color
 STR_REFIT_LIVERY_NRT2_Old_OT                           : Nuriro DD O-train Livery

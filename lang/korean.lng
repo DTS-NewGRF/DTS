@@ -377,6 +377,8 @@ STR_REFIT_LIVERY_GTX                                   : GTX
 STR_REFIT_LIVERY_Bicheuro_DD                           : 비츠로 DD
 STR_REFIT_LIVERY_BicheuroA_DD                          : 비츠로 DD A
 STR_REFIT_LIVERY_BicheuroB_DD                          : 비츠로 DD B
+STR_REFIT_LIVERY_DEL7600                               : 기본도색
+STR_REFIT_LIVERY_DEL7600_A_Train                       : A-Train
 STR_REFIT_LIVERY_NRT2_Old_C                            : 누리로 DD 구도색 회사색상
 STR_REFIT_LIVERY_NRT2_New_C                            : 누리로 DD 신도색 회사색상
 STR_REFIT_LIVERY_NRT2_Old_OT                           : 누리로 DD O-train 도색
