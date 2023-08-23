@@ -1,5 +1,8 @@
 # 열차 사운드 적용열차목록
 ## 열차 출발음
+### ABBGTOstart.wav
+- 서울교통공사 5000호대 1,2세대
+
 ### ALSTOMGTOstart.wav
 - 서울교통공사 4000호대 2세대 GTO
 
@@ -45,6 +48,8 @@
 ### HYNDAIROTEMIGBTIPM2start.wav
 - MEL-150
 - 서울교통공사 2000호대 4세대 VVVF 전동차
+- 서울교통공사 5000호대 3세대 VVVF 전동차
+
 
 ### HYNDAIROTEMStart.wav
 - 한국형 표준전동차

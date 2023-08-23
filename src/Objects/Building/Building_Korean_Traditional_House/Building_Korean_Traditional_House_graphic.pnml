@@ -16,3 +16,35 @@ spriteset(set_Building_Korean_Traditional_House02, "src/Objects/Building/Buildin
 alternative_sprites(set_Building_Korean_Traditional_House02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Objects/Building/Building_Korean_Traditional_House/Building_Korean_Traditional_House02_32bpp.png") {
     [0,     0,    64,    50,    -15,  -41]
 }
+
+spriteset(set_Building_Korean_Traditional_House03, "src/Objects/Building/Building_Korean_Traditional_House/Building_Korean_Traditional_House.png"){
+    [0,     0,    64,    50,    -15,  -41]
+}
+
+alternative_sprites(set_Building_Korean_Traditional_House03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Objects/Building/Building_Korean_Traditional_House/Building_Korean_Traditional_House03_32bpp.png") {
+    [0,     0,    64,    50,    -15,  -41]
+}
+
+spriteset(set_Building_Korean_Traditional_House04, "src/Objects/Building/Building_Korean_Traditional_House/Building_Korean_Traditional_House.png"){
+    [0,     0,    64,    50,    -15,  -41]
+}
+
+alternative_sprites(set_Building_Korean_Traditional_House04, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Objects/Building/Building_Korean_Traditional_House/Building_Korean_Traditional_House04_32bpp.png") {
+    [0,     0,    64,    50,    -15,  -41]
+}
+
+spriteset(set_Building_Korean_Traditional_House05, "src/Objects/Building/Building_Korean_Traditional_House/Building_Korean_Traditional_House.png"){
+    [0,     0,    64,    50,    -15,  -41]
+}
+
+alternative_sprites(set_Building_Korean_Traditional_House05, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Objects/Building/Building_Korean_Traditional_House/Building_Korean_Traditional_House05_32bpp.png") {
+    [0,     0,    64,    50,    -15,  -41]
+}
+
+spriteset(set_Building_Korean_Traditional_House06, "src/Objects/Building/Building_Korean_Traditional_House/Building_Korean_Traditional_House.png"){
+    [0,     0,    64,    50,    -15,  -41]
+}
+
+alternative_sprites(set_Building_Korean_Traditional_House06, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Objects/Building/Building_Korean_Traditional_House/Building_Korean_Traditional_House06_32bpp.png") {
+    [0,     0,    64,    50,    -15,  -41]
+}

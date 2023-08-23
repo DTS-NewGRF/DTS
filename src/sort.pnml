@@ -17,6 +17,7 @@ sort(FEAT_TRAINS, [
     Seoulmetro_1st_VVVF_4Car,                //2283
     Seoulmetro_1st_VVVF_2000_6Car,           //2284
     Seoulmetro_1st_VVVF_4000_6Car,           //2256
+    Seoulmetro_1st_VVVF_5000_8Car,           //2300
     Seoulmetro_1st_VVVF_GTO_10Car,           //2257
     Seoulmetro_1st_VVVF_10Car,               //2285
     Seoulmetro_1st_VVVF_IGBT_10Car,          //2258
@@ -40,6 +41,7 @@ sort(FEAT_TRAINS, [
     Korail_3rd_VVVF_10car,                   //2226
     Seoulmetro_3rd_VVVF,                     //2289
     Seoulmetro_3rd_VVVF_6Car,                //2290
+    Seoulmetro_3rd_VVVF_5000_8Car,           //2301
     Seoulmetro_3rd_VVVF_2000_10Car,          //2291
     Seoulmetro_3rd_VVVF_4000_10Car,          //2292
     Korail_4th_VVVF,                         //2183

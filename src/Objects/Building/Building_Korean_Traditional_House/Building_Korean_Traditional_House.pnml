@@ -51,3 +51,87 @@ item(FEAT_OBJECTS, DTS_Korean_Traditional_House02, 1018) {
         tile_check: CB_RESULT_LOCATION_ALLOW;
     }
 }
+
+item(FEAT_OBJECTS, DTS_Korean_Traditional_House03, 1019) {
+    property {
+        class:                  "DBUD";
+        classname:              string(STR_OBJ_Building);
+        name:                   string(STR_OBJ_Building_Korean_Traditional_House);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  1;
+        remove_cost_multiplier: 1;
+        introduction_date:      date(1900,1,1);
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_REMOVE_IS_INCOME, OBJ_FLAG_ALLOW_BRIDGE, OBJ_FLAG_ONLY_INGAME);
+        height:                 1;
+        num_views:              1;
+    }
+    graphics {
+        default: set_Building_Korean_Traditional_House03_0;
+        tile_check: CB_RESULT_LOCATION_ALLOW;
+    }
+}
+
+item(FEAT_OBJECTS, DTS_Korean_Traditional_House04, 1020) {
+    property {
+        class:                  "DBUD";
+        classname:              string(STR_OBJ_Building);
+        name:                   string(STR_OBJ_Building_Korean_Traditional_House);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  1;
+        remove_cost_multiplier: 1;
+        introduction_date:      date(1900,1,1);
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_REMOVE_IS_INCOME, OBJ_FLAG_ALLOW_BRIDGE, OBJ_FLAG_ONLY_INGAME);
+        height:                 1;
+        num_views:              1;
+    }
+    graphics {
+        default: set_Building_Korean_Traditional_House04_0;
+        tile_check: CB_RESULT_LOCATION_ALLOW;
+    }
+}
+
+item(FEAT_OBJECTS, DTS_Korean_Traditional_House05, 1021) {
+    property {
+        class:                  "DBUD";
+        classname:              string(STR_OBJ_Building);
+        name:                   string(STR_OBJ_Building_Korean_Traditional_House);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  1;
+        remove_cost_multiplier: 1;
+        introduction_date:      date(1900,1,1);
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_REMOVE_IS_INCOME, OBJ_FLAG_ALLOW_BRIDGE, OBJ_FLAG_ONLY_INGAME);
+        height:                 1;
+        num_views:              1;
+    }
+    graphics {
+        default: set_Building_Korean_Traditional_House05_0;
+        tile_check: CB_RESULT_LOCATION_ALLOW;
+    }
+}
+
+item(FEAT_OBJECTS, DTS_Korean_Traditional_House06, 1022) {
+    property {
+        class:                  "DBUD";
+        classname:              string(STR_OBJ_Building);
+        name:                   string(STR_OBJ_Building_Korean_Traditional_House);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  1;
+        remove_cost_multiplier: 1;
+        introduction_date:      date(1900,1,1);
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_REMOVE_IS_INCOME, OBJ_FLAG_ALLOW_BRIDGE, OBJ_FLAG_ONLY_INGAME);
+        height:                 1;
+        num_views:              1;
+    }
+    graphics {
+        default: set_Building_Korean_Traditional_House06_0;
+        tile_check: CB_RESULT_LOCATION_ALLOW;
+    }
+}
