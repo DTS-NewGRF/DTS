@@ -49,7 +49,7 @@ item(FEAT_TRAINS, Shinkansen_E5_H5_10Car, 2092){
         }
         
     graphics {
-        default:                        sw_Shinkansen_E5_H5_10car;
+        default:                        sw_Shinkansen_E5_H5_10car_reversed;
         articulated_part:               sw_articulated_Shinkansen_E5_H5_10car;
         purchase:                       sw_Shinkansen_E5_H5_purchase;
         speed:                          High_Speed_Train;

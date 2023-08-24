@@ -11,19 +11,19 @@ switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_engineH, cargo_subtype) {
     set_Shinkansen_E5_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_engineT, cargo_subtype) {
-    1: set_Shinkansen_H5_engineT;   // H5
-    set_Shinkansen_E5_engineT;
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_engineH_r, cargo_subtype) {
+    1: set_Shinkansen_H5_engineH_r;   // H5
+    set_Shinkansen_E5_engineH_r;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_panto_wagon_cargo_subtype, cargo_subtype) {
-    1: set_Shinkansen_H5_panto_wagon; // H5
-    set_Shinkansen_E5_panto_wagon;
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_panto_wagon_A_r_cargo_subtype, cargo_subtype) {
+    1: set_Shinkansen_H5_panto_wagon_A_r; // H5
+    set_Shinkansen_E5_panto_wagon_A_r;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_panto_wagon_r_cargo_subtype, cargo_subtype) {
-    1: set_Shinkansen_H5_panto_wagon_r; // H5
-    set_Shinkansen_E5_panto_wagon_r;
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_panto_wagon_A_cargo_subtype, cargo_subtype) {
+    1: set_Shinkansen_H5_panto_wagon_A; // H5
+    set_Shinkansen_E5_panto_wagon_A;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_wagon, cargo_subtype) {
@@ -31,9 +31,39 @@ switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_wagon, cargo_subtype) {
     set_Shinkansen_E5_wagon;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_wagon_r, cargo_subtype) {
+    1: set_Shinkansen_H5_wagon_r;   // H5
+    set_Shinkansen_E5_wagon_r;
+}
+
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_green_wagon_cargo_subtype, cargo_subtype) {
     1: set_Shinkansen_H5_green_wagon; // H5
     set_Shinkansen_E5_green_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_green_wagon_r_cargo_subtype, cargo_subtype) {
+    1: set_Shinkansen_H5_green_wagon_r; // H5
+    set_Shinkansen_E5_green_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_panto_wagon_B_r_cargo_subtype, cargo_subtype) {
+    1: set_Shinkansen_H5_panto_wagon_B_r; // H5
+    set_Shinkansen_E5_panto_wagon_B_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_panto_wagon_B_cargo_subtype, cargo_subtype) {
+    1: set_Shinkansen_H5_panto_wagon_B; // H5
+    set_Shinkansen_E5_panto_wagon_B;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_engineT_r, cargo_subtype) {
+    1: set_Shinkansen_H5_engineT_r;   // H5
+    set_Shinkansen_E5_engineT_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_engineT, cargo_subtype) {
+    1: set_Shinkansen_H5_engineT;   // H5
+    set_Shinkansen_E5_engineT;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_wagon_capacity_in_custom, (position_in_consist_from_end)) {
@@ -43,16 +73,39 @@ switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_wagon_capacity_in_custom, (positio
 
 switch (FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_10car, position_in_vehid_chain % 10) {
     1:sw_Shinkansen_E5_H5_wagon;
-    2:sw_Shinkansen_E5_H5_panto_wagon_cargo_subtype;
+    2:sw_Shinkansen_E5_H5_panto_wagon_A_cargo_subtype;
     3:sw_Shinkansen_E5_H5_wagon;
     4:sw_Shinkansen_E5_H5_wagon;
     5:sw_Shinkansen_E5_H5_wagon;
-    6:sw_Shinkansen_E5_H5_panto_wagon_r_cargo_subtype;
+    6:sw_Shinkansen_E5_H5_panto_wagon_B_cargo_subtype;
     7:sw_Shinkansen_E5_H5_green_wagon_cargo_subtype;
     8:sw_Shinkansen_E5_H5_wagon;
     9:sw_Shinkansen_E5_H5_engineT;
     sw_Shinkansen_E5_H5_engineH; //default
     }
+
+switch (FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_10car_r, position_in_vehid_chain % 10) {
+    1:sw_Shinkansen_E5_H5_wagon_r;
+    2:sw_Shinkansen_E5_H5_green_wagon_r_cargo_subtype;
+    3:sw_Shinkansen_E5_H5_panto_wagon_B_r_cargo_subtype;
+    4:sw_Shinkansen_E5_H5_wagon_r;
+    5:sw_Shinkansen_E5_H5_wagon_r;
+    6:sw_Shinkansen_E5_H5_wagon_r;
+    7:sw_Shinkansen_E5_H5_panto_wagon_A_r_cargo_subtype;
+    8:sw_Shinkansen_E5_H5_wagon_r;
+    9:sw_Shinkansen_E5_H5_engineH_r;
+    sw_Shinkansen_E5_H5_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_E5_H5_10car_flipped, vehicle_is_flipped){
+    0: sw_Shinkansen_E5_H5_10car_r;
+    sw_Shinkansen_E5_H5_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Shinkansen_E5_H5_10car_reversed, vehicle_is_reversed){
+    0: sw_Shinkansen_E5_H5_10car;
+    sw_Shinkansen_E5_H5_10car_flipped;
+}
 
 switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_E5_H5_10car, extra_callback_info1) {
     1..9: Shinkansen_E5_H5_10Car;
