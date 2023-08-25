@@ -128,8 +128,12 @@ STR_Shinkansen_700_16Car_NAME                          :[DTS] Shinkansen 700 16C
 STR_Shinkansen_800_6Car_NAME                           :[DTS] Shinkansen 800 6Car
 STR_Shinkansen_923_7Car_NAME                           :[DTS] Shinkansen 923 7Car
 STR_Shinkansen_E2_10Car_NAME                           :[DTS] Shinkansen E2 10Car
+STR_Group_Shinkansen_E5_H5_NAME                        :[DTS] Shinkansen E5·H5
 STR_Shinkansen_E5_H5_10Car_NAME                        :[DTS] Shinkansen E5·H5 10Car
+STR_Shinkansen_E5_H5_E6_17Car_NAME                     :[DTS] Shinkansen E5·H5+E6 17Car
+STR_Group_Shinkansen_E6_NAME                           :[DTS] Shinkansen E6
 STR_Shinkansen_E6_7Car_NAME                            :[DTS] Shinkansen E6 7Car
+STR_Shinkansen_E6_E5_H5_17Car_NAME                     :[DTS] Shinkansen E6+E5·H5 17Car
 STR_Shinkansen_E7_W7_12Car_NAME                        :[DTS] Shinkansen E7·W7 12Car
 STR_Shinkansen_E8_7Car_NAME                            :[DTS] Shinkansen E8 7Car
 STR_Group_Shinkansen_N700_NAME                         :[DTS] Shinkansen N700

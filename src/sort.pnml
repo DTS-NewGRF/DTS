@@ -258,8 +258,12 @@ sort(FEAT_TRAINS, [
     Shinkansen_N700_S,                       //2204
     Shinkansen_N700_S_6Car,                  //2090
     Shinkansen_N700_S_16Car,                 //2156
+    Shinkansen_E5_H5,                        //2304
     Shinkansen_E5_H5_10Car,                  //2092
+    Shinkansen_E5_H5_E6_17Car,               //2305
+    Shinkansen_E6,                           //2306
     Shinkansen_E6_7Car,                      //2093
+    Shinkansen_E6_E5_H5_17Car,               //2307
     Shinkansen_E8_7Car,                      //2095
     NHSRCL_E5_10Car,                         //2116
     THSR_700T_12Car,                         //2118

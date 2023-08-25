@@ -8,6 +8,24 @@
 #include "Shinkansen_E5_H5_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Shinkansen_E5_H5, 2304){
+    property {
+        name:                           string(STR_Group_Shinkansen_E5_H5_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          9960 kW;
+        }
+
+    graphics {
+        purchase:                       sw_Shinkansen_E5_H5_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Shinkansen_E5_H5_10Car, 2092){
@@ -18,6 +36,7 @@ item(FEAT_TRAINS, Shinkansen_E5_H5_10Car, 2092){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Shinkansen_E5_H5;
         
         //spec
         speed:                          320km/h;
@@ -59,3 +78,58 @@ item(FEAT_TRAINS, Shinkansen_E5_H5_10Car, 2092){
         cargo_subtype_text:             sw_Shinkansen_E5_H5_cargo_subtype_text;
         }
         }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Shinkansen_E5_H5_E6_17Car, 2305){
+    property {
+        name:                           string(STR_Shinkansen_E5_H5_E6_17Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2011, 3, 5);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Shinkansen_E5_H5;
+        
+        //spec
+        speed:                          320km/h;
+        power:                          9960 kW;
+        weight:                         45 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 64;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_Shinkansen_E5_H5_17car_reversed;
+        articulated_part:               sw_articulated_Shinkansen_E5_H5_17car;
+        purchase:                       sw_Shinkansen_E5_H5_purchase;
+        speed:                          High_Speed_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Shinkansen_E5_H5_cargo_subtype_text;
+        }
+        }
+
