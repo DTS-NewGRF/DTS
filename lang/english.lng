@@ -28,11 +28,11 @@ STR_E8600_NAME                                         :[DTS] E8600 1Car
 STR_E8600_2Car_NAME                                    :[DTS] E8600 2Car
 STR_E8600_3Car_NAME                                    :[DTS] E8600 3Car
 STR_E8600_4Car_NAME                                    :[DTS] E8600 4Car
-STR_Group_EMU150_NAME                                  :[DTS] Bicheuro
-STR_EMU150_4Car_NAME                                   :[DTS] Bicheuro 4Car
-STR_EMU150_6Car_NAME                                   :[DTS] Bicheuro 6Car
-STR_EMU150_8Car_NAME                                   :[DTS] Bicheuro 8Car
-STR_EMU150_DD_6Car_NAME                                :[DTS] Bicheuro DD 6Car
+STR_Group_EMU150_NAME                                  :[DTS] ITX-Maum
+STR_EMU150_4Car_NAME                                   :[DTS] ITX-Maum 4Car
+STR_EMU150_6Car_NAME                                   :[DTS] ITX-Maum 6Car
+STR_EMU150_8Car_NAME                                   :[DTS] ITX-Maum 8Car
+STR_EMU150_DD_6Car_NAME                                :[DTS] ITX-Maum DD 6Car
 STR_EMU260_6Car_NAME                                   :[DTS] EMU-260 6Car
 STR_EMU260_DD_6Car_NAME                                :[DTS] EMU-260 DD 6Car
 STR_EMU320_8Car_NAME                                   :[DTS] EMU-320 8Car
@@ -211,10 +211,12 @@ STR_Korail_4th_VVVF_G2_G3_6Car_NAME                    :[DTS] Korail 4th VVVF Ge
 STR_Korail_4th_VVVF_G2_G3_10Car_NAME                   :[DTS] Korail 4th VVVF Generation 1nd, 2nd 10Car
 STR_Group_Seoulmetro_4th_VVVF_NAME                     :[DTS] Seoulmetro 4th VVVF
 STR_Seoulmetro_4th_VVVF_4Car_NAME                      :[DTS] Seoulmetro 4th 2000 4Car
+STR_Seoulmetro_4th_VVVF_5000_8Car_NAME                 :[DTS] Seoulmetro 4th 5000 8Car
 STR_Seoulmetro_4th_VVVF_2000_10Car_NAME                :[DTS] Seoulmetro 4th 2000 10Car
 STR_Seoulmetro_4th_VVVF_4000_10Car_NAME                :[DTS] Seoulmetro 4th 4000 10Car
 STR_Group_Korail_5th_VVVF_NAME                         :[DTS] Korail 5th VVVF
 STR_Korail_5th_VVVF_10Car_NAME                         :[DTS] Korail 5th VVVF 10Car
+STR_Seoulmetro_5th_VVVF_7000_8Car_NAME                 :[DTS] Seoulmetro 5th 7000 8Car
 STR_Group_Rheostatic_Line1_EMU_NAME                    :[DTS] Line1 Rheostatic EMU
 STR_Rheostatic_Line1_4Car_NAME                         :[DTS] Line1 Rheostatic EMU 4Car
 STR_Rheostatic_Line1_6Car_NAME                         :[DTS] Line1 Rheostatic EMU 6Car

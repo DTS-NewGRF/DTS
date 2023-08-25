@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_5th_7000_purchase, "src/metro/VVVF/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+서울교통공사 7000호대
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_5th_7000_engineH, "src/metro/VVVF/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Seoulmetro_5th_7000_engineH_r, "src/metro/VVVF/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Seoulmetro_5th_7000_wagon_2_4_5D_6, "src/metro/VVVF/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Seoulmetro_5th_7000_wagon_2D_4D_5_6D, "src/metro/VVVF/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Seoulmetro_5th_7000_wagon_3D_7D, "src/metro/VVVF/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Seoulmetro_5th_7000_wagon_3_7, "src/metro/VVVF/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Seoulmetro_5th_7000_engineT_r, "src/metro/VVVF/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
+    engine(80, 162)
+}
+
+spriteset(set_Seoulmetro_5th_7000_engineT, "src/metro/VVVF/Seoulmetro_5th/Seoulmetro_5th_7000.png"){
+    engine(80, 189)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_5th_7000_purchase, cargo_subtype) {
+    set_Seoulmetro_5th_7000_purchase;
+}

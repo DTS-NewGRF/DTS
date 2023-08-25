@@ -1,0 +1,79 @@
+/*--------------------------------------------------------------------
+서울교통공사 5세대
+--------------------------------------------------------------------*/
+// Graphics
+#include "Seoulmetro_5th_graphic.pnml"
+
+// Switch
+#include "Seoulmetro_5th_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+
+item(FEAT_TRAINS, Seoulmetro_4th_VVVF, 2294){
+    property {
+        name:                           string(STR_Group_Seoulmetro_4th_VVVF_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          1680 kW;
+        }
+
+    graphics {
+        purchase:                       sw_Seoulmetro_4th_2000_purchase;
+        }
+        }
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+열차정보 8량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Seoulmetro_5th_VVVF_7000_8Car, 2303){
+    property {
+        name:                           string(STR_Seoulmetro_5th_VVVF_7000_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2021, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          3360 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 124;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Seoulmetro_5th_VVVF_7000_8car_reversed;
+        articulated_part:               sw_articulated_sw_Seoulmetro_5th_VVVF_7000_8car;
+        purchase:                       sw_Seoulmetro_5th_7000_purchase;
+        speed:                          Metro_Speed_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_Seoulmetro_5th_VVVF_7000_sound;
+        }
+        }

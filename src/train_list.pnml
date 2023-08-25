@@ -59,6 +59,7 @@
 #include "metro/VVVF/Seoulmetro_2nd/Seoulmetro_2nd.pnml"
 #include "metro/VVVF/Seoulmetro_3rd/Seoulmetro_3rd.pnml"
 #include "metro/VVVF/Seoulmetro_4th/Seoulmetro_4th.pnml"
+#include "metro/VVVF/Seoulmetro_5th/Seoulmetro_5th.pnml"
 
 // Sorting
 #include "sort.pnml"
