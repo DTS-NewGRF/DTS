@@ -17,7 +17,11 @@ sort(FEAT_TRAINS, [
     Seoulmetro_1st_VVVF_4Car,                //2283
     Seoulmetro_1st_VVVF_2000_6Car,           //2284
     Seoulmetro_1st_VVVF_4000_6Car,           //2256
-    Seoulmetro_1st_VVVF_5000_8Car,           //2300
+    Seoulmetro_1st_VVVF_7000_6Car,           //2308
+    Seoulmetro_1st_VVVF_5000_GTO_8Car,       //2300
+    Seoulmetro_1st_VVVF_5000_IGBT_8Car,      //2311
+    Seoulmetro_1st_VVVF_6000_8Car,           //2310
+    Seoulmetro_1st_VVVF_7000_8Car,           //2309
     Seoulmetro_1st_VVVF_GTO_10Car,           //2257
     Seoulmetro_1st_VVVF_10Car,               //2285
     Seoulmetro_1st_VVVF_IGBT_10Car,          //2258
@@ -29,6 +33,8 @@ sort(FEAT_TRAINS, [
     Seoulmetro_2nd_VVVF,                     //2260
     Seoulmetro_2nd_VVVF_4Car,                //2286
     Seoulmetro_2nd_VVVF_6Car,                //2287
+    Seoulmetro_2nd_VVVF_7000_6Car,           //2312
+    Seoulmetro_2nd_VVVF_7000_8Car,           //2313
     Seoulmetro_2nd_VVVF_2000_10Car,          //2288
     Seoulmetro_2nd_VVVF_3000_10Car,          //2296
     Seoulmetro_2nd_VVVF_GTO_10Car,           //2261
@@ -41,7 +47,9 @@ sort(FEAT_TRAINS, [
     Korail_3rd_VVVF_10car,                   //2226
     Seoulmetro_3rd_VVVF,                     //2289
     Seoulmetro_3rd_VVVF_6Car,                //2290
+    Seoulmetro_3rd_VVVF_8000_6Car,           //2316
     Seoulmetro_3rd_VVVF_5000_8Car,           //2301
+    Seoulmetro_3rd_VVVF_7000_8Car,           //2314
     Seoulmetro_3rd_VVVF_2000_10Car,          //2291
     Seoulmetro_3rd_VVVF_4000_10Car,          //2292
     Korail_4th_VVVF,                         //2183
@@ -54,6 +62,7 @@ sort(FEAT_TRAINS, [
     Seoulmetro_4th_VVVF,                     //2294
     Seoulmetro_4th_VVVF_4Car,                //2295
     Seoulmetro_4th_VVVF_5000_8Car,           //2302
+    Seoulmetro_4th_VVVF_7000_8Car,           //2315
     Seoulmetro_4th_VVVF_2000_10Car,          //2293
     Seoulmetro_4th_VVVF_4000_10Car,          //2297
     Korail_5th_VVVF_10Car,                   //2239

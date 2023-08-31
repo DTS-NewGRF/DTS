@@ -179,7 +179,11 @@ STR_Group_Seoulmetro_1st_VVVF_NAME                     :[DTS] Seoulmetro 1st VVV
 STR_Seoulmetro_1st_VVVF_4Car_NAME                      :[DTS] Seoulmetro 1st VVVF 4Car
 STR_Seoulmetro_1st_VVVF_2000_6Car_NAME                 :[DTS] Seoulmetro 1st VVVF 6Car
 STR_Seoulmetro_1st_VVVF_4000_6Car_NAME                 :[DTS] Seoulmetro 1st VVVF 6Car
-STR_Seoulmetro_1st_VVVF_5000_8Car_NAME                 :[DTS] Seoulmetro 1st VVVF 8Car
+STR_Seoulmetro_1st_VVVF_7000_6Car_NAME                 :[DTS] Seoulmetro 1st VVVF 6Car
+STR_Seoulmetro_1st_VVVF_5000_GTO_8Car_NAME             :[DTS] Seoulmetro 1st VVVF GTO 8Car
+STR_Seoulmetro_1st_VVVF_5000_IGBT_8Car_NAME            :[DTS] Seoulmetro 1st VVVF IGBT 8Car
+STR_Seoulmetro_1st_VVVF_6000_8Car_NAME                 :[DTS] Seoulmetro 1st VVVF 8Car
+STR_Seoulmetro_1st_VVVF_7000_8Car_NAME                 :[DTS] Seoulmetro 1st VVVF 8Car
 STR_Seoulmetro_1st_VVVF_GTO_10Car_NAME                 :[DTS] Seoulmetro 1st VVVF GTO 10Car
 STR_Seoulmetro_1st_VVVF_10Car_NAME                     :[DTS] Seoulmetro 1st VVVF 10Car
 STR_Seoulmetro_1st_VVVF_IGBT_10Car_NAME                :[DTS] Seoulmetro 1st VVVF IGBT 10Car
@@ -191,6 +195,8 @@ STR_Korail_2nd_VVVF_10Car_GTO_NAME                     :[DTS] Korail 2nd 10Car G
 STR_Group_Seoulmetro_2nd_VVVF_NAME                     :[DTS] Seoulmetro 2nd VVVF
 STR_Seoulmetro_2nd_VVVF_4Car_NAME                      :[DTS] Seoulmetro 2nd 2000 4Car
 STR_Seoulmetro_2nd_VVVF_6Car_NAME                      :[DTS] Seoulmetro 2nd 2000 6Car
+STR_Seoulmetro_2nd_VVVF_7000_6Car_NAME                 :[DTS] Seoulmetro 2nd 7000 6Car
+STR_Seoulmetro_2nd_VVVF_7000_8Car_NAME                 :[DTS] Seoulmetro 2nd 7000 8Car
 STR_Seoulmetro_2nd_VVVF_2000_10Car_NAME                :[DTS] Seoulmetro 2nd 2000 10Car
 STR_Seoulmetro_2nd_VVVF_3000_10Car_NAME                :[DTS] Seoulmetro 2nd 3000 10Car
 STR_Seoulmetro_2nd_VVVF_GTO_10Car_NAME                 :[DTS] Seoulmetro 2nd VVVF GTO 10Car
@@ -203,7 +209,9 @@ STR_Korail_3rd_VVVF_8Car_NAME                          :[DTS] Korail 3rd VVVF 8c
 STR_Korail_3rd_VVVF_10Car_NAME                         :[DTS] Korail 3rd VVVF 10car
 STR_Group_Seoulmetro_3rd_VVVF_NAME                     :[DTS] Seoulmetro 3rd VVVF
 STR_Seoulmetro_3rd_VVVF_6Car_NAME                      :[DTS] Seoulmetro 3rd 2000 6Car (= 5th VVVF)
+STR_Seoulmetro_3rd_VVVF_8000_6Car_NAME                 :[DTS] Seoulmetro 3rd 8000 6Car
 STR_Seoulmetro_3rd_VVVF_5000_8Car_NAME                 :[DTS] Seoulmetro 3rd 5000 8Car
+STR_Seoulmetro_3rd_VVVF_7000_8Car_NAME                 :[DTS] Seoulmetro 3rd 7000 8Car
 STR_Seoulmetro_3rd_VVVF_2000_10Car_NAME                :[DTS] Seoulmetro 3rd 2000 10Car (= 5th VVVF)
 STR_Seoulmetro_3rd_VVVF_4000_10Car_NAME                :[DTS] Seoulmetro 3rd 4000 10Car
 STR_Group_Korail_4th_VVVF_NAME                         :[DTS] Korail 4th VVVF
@@ -216,6 +224,7 @@ STR_Korail_4th_VVVF_G2_G3_10Car_NAME                   :[DTS] Korail 4th VVVF Ge
 STR_Group_Seoulmetro_4th_VVVF_NAME                     :[DTS] Seoulmetro 4th VVVF
 STR_Seoulmetro_4th_VVVF_4Car_NAME                      :[DTS] Seoulmetro 4th 2000 4Car
 STR_Seoulmetro_4th_VVVF_5000_8Car_NAME                 :[DTS] Seoulmetro 4th 5000 8Car
+STR_Seoulmetro_4th_VVVF_7000_8Car_NAME                 :[DTS] Seoulmetro 4th 7000 8Car
 STR_Seoulmetro_4th_VVVF_2000_10Car_NAME                :[DTS] Seoulmetro 4th 2000 10Car
 STR_Seoulmetro_4th_VVVF_4000_10Car_NAME                :[DTS] Seoulmetro 4th 4000 10Car
 STR_Group_Korail_5th_VVVF_NAME                         :[DTS] Korail 5th VVVF
@@ -511,6 +520,8 @@ STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_1000_B            : Seoulmetro 1st VVVF 100
 STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_4000              : Seoulmetro 1st VVVF 4000
 STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_2000              : Seoulmetro 1st VVVF 2000
 STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_3000              : Seoulmetro 1st VVVF 3000
+STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_7000_A            : Seoulmetro 1st VVVF 7000 A
+STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_7000_B            : Seoulmetro 1st VVVF 7000 B
 STR_REFIT_LIVERY_Korail_2nd_VVVF_311K                  : Korail 2nd 311K
 STR_REFIT_LIVERY_Korail_2nd_VVVF_341K                  : Korail 2nd 341K
 STR_REFIT_LIVERY_Korail_2nd_VVVF_2030                  : Korail 2nd 2030

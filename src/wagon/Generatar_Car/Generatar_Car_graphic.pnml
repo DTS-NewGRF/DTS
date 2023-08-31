@@ -10,27 +10,27 @@ spriteset(set_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
 }
 
 spriteset(set_CY_GW_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
-    wagon_1F_F_mini_7(80, 25)
+    wagon_1F_F_mini_7(80, 27)
 }
 
 spriteset(set_JA_A_Old_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
-    wagon_1F_F_mini_7(80, 50)
+    wagon_1F_F_mini_7(80, 54)
 }
 
 spriteset(set_JA_A_New_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
-    wagon_1F_F_mini_7(80, 75)
+    wagon_1F_F_mini_7(80, 81)
 }
 
 spriteset(set_Lady_Bird_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
-    wagon_1F_F_mini_6(80, 100)
+    wagon_1F_F_mini_6(80, 108)
 }
 
 spriteset(set_S_Train_New_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
-    wagon_1F_F_mini_7(80, 124)
+    wagon_1F_F_mini_7(80, 135)
 }
 
 spriteset(set_A_Train_New_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
-    wagon_1F_F_mini_7(80, 149)
+    wagon_1F_F_mini_7(80, 162)
 }
 
 alternative_sprites(set_A_Train_New_Generatar_Car, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\Generatar_Car\Generatar_Car_32bpp.png"){
@@ -38,11 +38,11 @@ alternative_sprites(set_A_Train_New_Generatar_Car, ZOOM_LEVEL_NORMAL, BIT_DEPTH_
 }
 
 spriteset(set_G_Train_New_Generatar_Car, "src\wagon\Generatar_Car\Generatar_Car.png") {
-    wagon_1F_F_mini_7(80, 174)
+    wagon_1F_F_mini_7(80, 189)
 }
 
 alternative_sprites(set_G_Train_New_Generatar_Car, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\Generatar_Car\Generatar_Car_32bpp.png"){
-    wagon_1F_F_mini_7(80, 25)
+    wagon_1F_F_mini_7(80, 27)
 }
 
 /*--------------------------------------------------------------------

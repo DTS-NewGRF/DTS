@@ -5,6 +5,7 @@
 
 ### ALSTOMGTOstart.wav
 - 서울교통공사 4000호대 2세대 GTO
+- 서울교통공사 7000, 8000호대
 
 ### DAWONSYSIGBT2start.wav
 - 서울교통공사 4000호대 4세대 VVVF 전동차
@@ -12,9 +13,12 @@
 ### DAWONSYSIGBTstart.wav
 - 비츠로, 비츠로 DD
 - 한국철도공사 3세대 VVVF전동차 2차분
-- 서울교통공사 4000호대 1세대_IGBT
-- 서울교통공사 3000호대 2세대
 - 서울교통공사 2000호대 3세대, 5세대 전동차
+- 서울교통공사 3000호대 2세대
+- 서울교통공사 4000호대 1세대_IGBT
+- 서울교통공사 5000호대 1세대_IGBT
+- 서울교통공사 7000호대 3세대 VVVF전동차
+- 서울교통공사 7000호대 4세대 VVVF전동차
 
 ### DCMOTER1start.wav
 - 한큐전철 6000형, 6300형
@@ -50,7 +54,6 @@
 - 서울교통공사 2000호대 4세대 VVVF 전동차
 - 서울교통공사 5000호대 3세대 VVVF 전동차
 
-
 ### HYNDAIROTEMStart.wav
 - 한국형 표준전동차
 
@@ -76,6 +79,9 @@
 
 ### MITSUBISHIGTOKstart.wav
 - 서울교통공사 1000호대, 서울교통공사 4000호대 1세대 GTO, 한국철도공사 3000호대
+
+### MITSUBISHIigbtstart.wav
+- 서울교통공사 6000호대
 
 ### TOSHIBAGTOJStart.wav
 - 한큐 8000형
@@ -104,12 +110,14 @@
 - 한국철도공사 2세대 VVVF전동차
 - 한국철도공사 3세대 VVVF전동차 1차분
 - 한국철도공사 4세대 VVVF전동차 초기도입분
+- 서울교통공사 2세대 7000, 8000호대 VVVF 전동차
 
 ### TOSHIBAIGBTPMSMstart.wav
 - HYEL-15, 100, 150, 200, 220, 300, 400
 - NKX, HMX, Glory 600
 - 한큐전철 신 1000형
 - 서울교통공사 4세대 5000형
+- 서울교통공사 3세대 8000호대 VVVF 전동차
 
 ### TOSHIBAIGBTS500start.wav
 - 신칸센 500계 8량
