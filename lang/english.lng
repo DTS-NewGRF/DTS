@@ -418,8 +418,11 @@ STR_REFIT_LIVERY_EMU260SM2                             : EMU-260 Saemaeul Second
 STR_REFIT_LIVERY_EMU260SM3                             : EMU-260 Saemaeul Third Livery
 STR_REFIT_LIVERY_EMU320_CC                             : EMU-320 Company Colour
 STR_REFIT_LIVERY_EMU320_BK                             : EMU-320 Black Livery
-STR_REFIT_LIVERY_EMU320_SRT                            : EMU-320 SRT
-STR_REFIT_LIVERY_EMU320_SRT2                           : EMU-320 SRT2
+STR_REFIT_LIVERY_EMU320_SRT_A                          : EMU-320 SRT_A
+STR_REFIT_LIVERY_EMU320_SRT_B                          : EMU-320 SRT_B
+STR_REFIT_LIVERY_EMU320_SRT_C                          : EMU-320 SRT_C
+STR_REFIT_LIVERY_EMU320_SRT_D                          : EMU-320 SRT_D
+STR_REFIT_LIVERY_EMU320_SRT_E                          : EMU-320 SRT_E
 STR_REFIT_LIVERY_EMU320_ICE                            : EMU-320 ICE
 STR_REFIT_LIVERY_EMU320_Euro                           : EMU-320 Euro
 STR_REFIT_LIVERY_EMU320_THRS                           : EMU-320 THRS
