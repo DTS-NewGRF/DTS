@@ -393,6 +393,9 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}train configurati
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}train configuration {GREEN}Coach 2F Passenger vehicles
 
 # Liveries
+STR_REFIT_LIVERY_ITX_Maum_4                            : ITX-마음 4량
+STR_REFIT_LIVERY_ITX_Maum_6                            : ITX-마음 6량
+STR_REFIT_LIVERY_ITX_Maum_8                            : ITX-마음 8량
 STR_REFIT_LIVERY_Bicheuro                              : Bicheuro
 STR_REFIT_LIVERY_BicheuroA                             : Bicheuro A
 STR_REFIT_LIVERY_BicheuroB                             : Bicheuro B
@@ -664,7 +667,8 @@ STR_REFIT_LIVERY_Lady_Bird_Generatar_Car               : Lady Bird
 STR_REFIT_LIVERY_S_Train_New_Generatar_Car             : S-Train
 STR_REFIT_LIVERY_A_Train_New_Generatar_Car             : A-Train
 STR_REFIT_LIVERY_G_Train_New_Generatar_Car             : G-Train
-STR_REFIT_LIVERY_Eco_Rail_Luggage_Car                  : Eco Rail Luggage Car
+STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_A                : Eco Rail Luggage Car A
+STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_B                : Eco Rail Luggage Car B
 STR_REFIT_LIVERY_CY_GW_Luggage_Car                     : Chungbuk Yeongdong Gugak & Wine Luggage Car
 STR_REFIT_LIVERY_SWagon_1F_Red                         : 25 Type 1F Red Color Car
 STR_REFIT_LIVERY_SWagon_1F_Green                       : 25 Type 1F Green Color Car

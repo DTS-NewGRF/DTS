@@ -51,7 +51,7 @@ item(FEAT_TRAINS, EMU260_6Car, 2020){
         }
         
     graphics {
-        default:                        sw_EMU260_6car;
+        default:                        sw_EMU260_6car_reversed;
         articulated_part:               sw_articulated_EMU260_6car;
         purchase:                       sw_EMU260_purchase;
         loading_speed:                  25;

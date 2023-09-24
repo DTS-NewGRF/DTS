@@ -391,6 +391,9 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}열차구성 {GRE
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}열차구성 {GREEN}객차형 승객 차량용
 
 # Liveries locomotive
+STR_REFIT_LIVERY_ITX_Maum_4                            : ITX-마음 4량
+STR_REFIT_LIVERY_ITX_Maum_6                            : ITX-마음 6량
+STR_REFIT_LIVERY_ITX_Maum_8                            : ITX-마음 8량
 STR_REFIT_LIVERY_Bicheuro                              : 비츠로
 STR_REFIT_LIVERY_BicheuroA                             : 비츠로 A
 STR_REFIT_LIVERY_BicheuroB                             : 비츠로 B
@@ -662,7 +665,8 @@ STR_REFIT_LIVERY_Lady_Bird_Generatar_Car               : 레이디 버드
 STR_REFIT_LIVERY_S_Train_New_Generatar_Car             : S-Train
 STR_REFIT_LIVERY_A_Train_New_Generatar_Car             : A-Train
 STR_REFIT_LIVERY_G_Train_New_Generatar_Car             : G-Train
-STR_REFIT_LIVERY_Eco_Rail_Luggage_Car                  : 에코레일
+STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_A                : 에코레일 A
+STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_B                : 에코레일 B
 STR_REFIT_LIVERY_CY_GW_Luggage_Car                     : 충북영동국악와인
 STR_REFIT_LIVERY_SWagon_1F_Red                         : 25형 1층 빨강 도색
 STR_REFIT_LIVERY_SWagon_1F_Green                       : 25형 1층 녹색 도색

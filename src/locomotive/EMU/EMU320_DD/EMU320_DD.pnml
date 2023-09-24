@@ -49,7 +49,7 @@ item(FEAT_TRAINS, EMU320_DD_8Car, 2023){
         }
 
 	graphics {
-        default:                        sw_EMU320_DD_8car;
+        default:                        sw_EMU320_DD_8car_reversed;
         articulated_part:               sw_articulated_EMU320_DD_8car;
         purchase:                       sw_EMU320_DD_purchase;
         speed:                          High_Speed_Train;

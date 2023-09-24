@@ -44,6 +44,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_EMU150_8car, extra_callback_info1) {
     }
 
 switch(FEAT_TRAINS, SELF, sw_EMU150_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/DAWONSYSIGBTstart.wav");
+    SOUND_EVENT_START: sound("sounds/DAWONSYSIGBT2start.wav");
     return CB_RESULT_NO_SOUND;
     }
