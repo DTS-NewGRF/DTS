@@ -124,6 +124,7 @@
 
 ### TOSHIBASicStart.wav
 - 니시테츠 9000형
+- GTX
 
 ### TOSHIBAStart.wav
 - ITX-새마을 DD, ITX-초월, TTX

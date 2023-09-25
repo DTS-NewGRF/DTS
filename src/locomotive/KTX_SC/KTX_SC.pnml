@@ -49,10 +49,11 @@ item(FEAT_TRAINS, KTX_SC_10Car, 2024){
         }
 
 	graphics {
-        default:                        sw_KTX_SC_10car;
+        default:                        sw_KTX_SC_10car_reversed;
         articulated_part:               sw_articulated_KTX_SC_10car;
         purchase:                       sw_KTX_SC_purchase;
         speed:                          High_Speed_Train;
+        length:                         sw_KTX_SC_wagon_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

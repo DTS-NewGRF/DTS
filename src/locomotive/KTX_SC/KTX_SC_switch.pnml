@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+//도색명
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_KTX_HN_Y); // KTX-호남 노랑도색
     2: return string(STR_REFIT_LIVERY_KTX_GG_B); // KTX-경강 파랑도색
@@ -8,11 +9,54 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_cargo_subtype_text, cargo_subtype) {
     return string(STR_REFIT_LIVERY_KTX_HN_B);    // KTX-호남 하늘도색
 }
 
+// 10량
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_engineH, cargo_subtype) {
     1: set_KTX_HN_Y_engineH; // KTX-호남 노랑도색
     2: set_KTX_GG_B_engineH; // KTX-경강 파랑도색
     3: set_KTX_GG_W_engineH; // KTX-경강 흰색도색
     set_KTX_HN_B_engineH;     // KTX-호남 하늘도색
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_T1, cargo_subtype) {
+    1: set_KTX_HN_Y_wagon_T1; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_wagon_T1; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T1; // KTX-경강 흰색도색
+    set_KTX_HN_B_wagon_T1;    // KTX-호남 하늘도색
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_T2, cargo_subtype) {
+    1: set_KTX_HN_Y_wagon_T2; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_wagon_T2; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T2; // KTX-경강 흰색도색
+    set_KTX_HN_B_wagon_T2;    // KTX-호남 하늘도색
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_T3, cargo_subtype) {
+    1: set_KTX_HN_Y_wagon_T3; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_wagon_T3; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T3; // KTX-경강 흰색도색
+    set_KTX_HN_B_wagon_T3;    // KTX-호남 하늘도색
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_T4, cargo_subtype) {
+    1: set_KTX_HN_Y_wagon_T4; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_wagon_T4; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T4; // KTX-경강 흰색도색
+    set_KTX_HN_B_wagon_T4;    // KTX-호남 하늘도색
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_T5, cargo_subtype) {
+    1: set_KTX_HN_Y_wagon_T5; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_wagon_T5; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T5; // KTX-경강 흰색도색
+    set_KTX_HN_B_wagon_T5;    // KTX-호남 하늘도색
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_T6, cargo_subtype) {
+    1: set_KTX_HN_Y_wagon_T6; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_wagon_T6; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T6; // KTX-경강 흰색도색
+    set_KTX_HN_B_wagon_T6;    // KTX-호남 하늘도색
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_engineT, cargo_subtype) {
@@ -22,51 +66,117 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_engineT, cargo_subtype) {
     set_KTX_HN_B_engineT;     // KTX-호남 하늘도색
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_start, cargo_subtype) {
-    1: set_KTX_HN_Y_wagon_start; // KTX-호남 노랑도색
-    2: set_KTX_GG_B_wagon_start; // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_start; // KTX-경강 흰색도색
-    set_KTX_HN_B_wagon_start;    // KTX-호남 하늘도색
+// 10량 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_engineH_r, cargo_subtype) {
+    1: set_KTX_HN_Y_engineH_r; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_engineH_r; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_engineH_r; // KTX-경강 흰색도색
+    set_KTX_HN_B_engineH_r;    // KTX-호남 하늘도색
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_A, cargo_subtype) {
-    1: set_KTX_HN_Y_wagon_A; // KTX-호남 노랑도색
-    2: set_KTX_GG_B_wagon_A; // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_A; // KTX-경강 흰색도색
-    set_KTX_HN_B_wagon_A;    // KTX-호남 하늘도색
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_T1_r, cargo_subtype) {
+    1: set_KTX_HN_Y_wagon_T1_r; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_wagon_T1_r; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T1_r; // KTX-경강 흰색도색
+    set_KTX_HN_B_wagon_T1_r;    // KTX-호남 하늘도색
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_B, cargo_subtype) {
-    1: set_KTX_HN_Y_wagon_B; // KTX-호남 노랑도색
-    2: set_KTX_GG_B_wagon_B; // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_B; // KTX-경강 흰색도색
-    set_KTX_HN_B_wagon_B;    // KTX-호남 하늘도색
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_T2_r, cargo_subtype) {
+    1: set_KTX_HN_Y_wagon_T2_r; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_wagon_T2_r; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T2_r; // KTX-경강 흰색도색
+    set_KTX_HN_B_wagon_T2_r;    // KTX-호남 하늘도색
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_end, cargo_subtype) {
-    1: set_KTX_HN_Y_wagon_end; // KTX-호남 노랑도색
-    2: set_KTX_GG_B_wagon_end; // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_end; // KTX-경강 흰색도색
-    set_KTX_HN_B_wagon_end;    // KTX-호남 하늘도색
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_T3_r, cargo_subtype) {
+    1: set_KTX_HN_Y_wagon_T3_r; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_wagon_T3_r; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T3_r; // KTX-경강 흰색도색
+    set_KTX_HN_B_wagon_T3_r;    // KTX-호남 하늘도색
 }
 
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_T4_r, cargo_subtype) {
+    1: set_KTX_HN_Y_wagon_T4_r; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_wagon_T4_r; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T4_r; // KTX-경강 흰색도색
+    set_KTX_HN_B_wagon_T4_r;    // KTX-호남 하늘도색
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_T5_r, cargo_subtype) {
+    1: set_KTX_HN_Y_wagon_T5_r; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_wagon_T5_r; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T5_r; // KTX-경강 흰색도색
+    set_KTX_HN_B_wagon_T5_r;    // KTX-호남 하늘도색
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_T6_r, cargo_subtype) {
+    1: set_KTX_HN_Y_wagon_T6_r; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_wagon_T6_r; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T6_r; // KTX-경강 흰색도색
+    set_KTX_HN_B_wagon_T6_r;    // KTX-호남 하늘도색
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_engineT_r, cargo_subtype) {
+    1: set_KTX_HN_Y_engineT_r; // KTX-호남 노랑도색
+    2: set_KTX_GG_B_engineT_r; // KTX-경강 파랑도색
+    3: set_KTX_GG_W_engineT_r; // KTX-경강 흰색도색
+    set_KTX_HN_B_engineT_r;    // KTX-호남 하늘도색
+}
+
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_KTX_SC_10car, position_in_vehid_chain % 10) {
-    1:sw_KTX_SC_wagon_start;
-    2:sw_KTX_SC_wagon_A;
-    3:sw_KTX_SC_wagon_A;
-    4:sw_KTX_SC_wagon_A;
-    5:sw_KTX_SC_wagon_B;
-    6:sw_KTX_SC_wagon_B;
-    7:sw_KTX_SC_wagon_B;
-    8:sw_KTX_SC_wagon_end;
+    1:sw_KTX_SC_wagon_T1;
+    2:sw_KTX_SC_wagon_T2;
+    3:sw_KTX_SC_wagon_T3;
+    4:sw_KTX_SC_wagon_T4;
+    5:sw_KTX_SC_wagon_T5;
+    6:sw_KTX_SC_wagon_T5;
+    7:sw_KTX_SC_wagon_T4;
+    8:sw_KTX_SC_wagon_T6;
     9:sw_KTX_SC_engineT;
     sw_KTX_SC_engineH; //default
     }
+
+switch (FEAT_TRAINS, SELF, sw_KTX_SC_10car_r, position_in_vehid_chain % 10) {
+    1:sw_KTX_SC_wagon_T6_r;
+    2:sw_KTX_SC_wagon_T4_r;
+    3:sw_KTX_SC_wagon_T5_r;
+    4:sw_KTX_SC_wagon_T5_r;
+    5:sw_KTX_SC_wagon_T4_r;
+    6:sw_KTX_SC_wagon_T3_r;
+    7:sw_KTX_SC_wagon_T2_r;
+    8:sw_KTX_SC_wagon_T1_r;
+    9:sw_KTX_SC_engineH_r;
+    sw_KTX_SC_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_10car_flipped, vehicle_is_flipped){
+    0: sw_KTX_SC_10car_r;
+    sw_KTX_SC_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_KTX_SC_10car_reversed, vehicle_is_reversed){
+    0: sw_KTX_SC_10car;
+    sw_KTX_SC_10car_flipped;
+}
 
 switch (FEAT_TRAINS, SELF, sw_articulated_KTX_SC_10car, extra_callback_info1) {
     1..9: KTX_SC_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_length_in_custom, position_in_vehid_chain % 10) {
+    1: 8;
+    2: 7;
+    3: 7;
+    4: 7;
+    5: 7;
+    6: 7;
+    7: 7;
+    8: 8;
+    9: 8;
+    8; //default;
+}
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/KTXSCstart.wav");

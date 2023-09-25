@@ -56,5 +56,6 @@ item(FEAT_TRAINS, GTX_8Car, 2017){
         purchase:                       sw_GTX_purchase;
         speed:                          Semi_High_SPEED_Train;
         loading_speed:                  25;
+        sound_effect:                   sw_GTX_sound;
         }
         }
