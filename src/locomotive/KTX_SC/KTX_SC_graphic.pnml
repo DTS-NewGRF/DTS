@@ -167,11 +167,11 @@ spriteset(set_KTX_GG_B_wagon_T2_r, "src/locomotive/KTX_SC/KTX_GG_B.png") {
 }
 
 spriteset(set_KTX_GG_B_wagon_T3, "src/locomotive/KTX_SC/KTX_GG_B.png") {
-    wagon_1F_F_mini_7_KTX_SC(80, 81)
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
 }
 
 spriteset(set_KTX_GG_B_wagon_T3_r, "src/locomotive/KTX_SC/KTX_GG_B.png") {
-    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
 }
 
 spriteset(set_KTX_GG_B_wagon_T4, "src/locomotive/KTX_SC/KTX_GG_B.png") {
@@ -234,11 +234,11 @@ spriteset(set_KTX_GG_W_wagon_T2_r, "src/locomotive/KTX_SC/KTX_GG_W.png") {
 }
 
 spriteset(set_KTX_GG_W_wagon_T3, "src/locomotive/KTX_SC/KTX_GG_W.png") {
-    wagon_1F_F_mini_7_KTX_SC(80, 81)
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
 }
 
 spriteset(set_KTX_GG_W_wagon_T3_r, "src/locomotive/KTX_SC/KTX_GG_W.png") {
-    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
 }
 
 spriteset(set_KTX_GG_W_wagon_T4, "src/locomotive/KTX_SC/KTX_GG_W.png") {
