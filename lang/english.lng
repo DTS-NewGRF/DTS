@@ -441,8 +441,11 @@ STR_REFIT_LIVERY_GT26CW_CY_GW                          : Chungbuk Yeongdong Guga
 STR_REFIT_LIVERY_GT26CW_LB                             : Lady Bird
 STR_REFIT_LIVERY_GT26CW_ST                             : S-Train
 STR_REFIT_LIVERY_GT26CW_G                              : G-Train
-STR_REFIT_LIVERY_KTX_HN_B                              : KTX-Honam Sky blue Livery
-STR_REFIT_LIVERY_KTX_HN_Y                              : KTX-Honam Yellow Livery
+STR_REFIT_LIVERY_KTX_SC_A1                             : KTX-Sancheon Atype 1
+STR_REFIT_LIVERY_KTX_SC_A2                             : KTX-Sancheon Atype 2
+STR_REFIT_LIVERY_KTX_SC_SRT                            : SRT
+STR_REFIT_LIVERY_KTX_HN_B                              : KTX-Sancheon 120000 1
+STR_REFIT_LIVERY_KTX_HN_Y                              : KTX-Sancheon 120000 2
 STR_REFIT_LIVERY_KTX_GG_B                              : KTX-Gyeonggang Blue Livery
 STR_REFIT_LIVERY_KTX_GG_W                              : KTX-Gyeonggang White Livery
 STR_REFIT_LIVERY_NEL_8100_A                            : NEL 8100 A
