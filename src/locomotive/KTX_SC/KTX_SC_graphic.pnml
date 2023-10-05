@@ -5,8 +5,12 @@ spriteset(set_KTX_SC_purchase, "src/locomotive/KTX_SC/KTX_SC_A1.png"){
     tmpl_purchase(0, 0)
 }
 
+spriteset(set_KTX_SC_B_purchase, "src/locomotive/KTX_SC/KTX_SC_B1.png"){
+    tmpl_purchase(0, 0)
+}
+
 /*--------------------------------------------------------------------
-1. KTX-산천 A타입 초도분 Livery
+KTX-산천 A타입 초도분 Livery
 --------------------------------------------------------------------*/
 spriteset(set_KTX_SC_A1_engineH, "src/locomotive/KTX_SC/KTX_SC_A1.png"){
     engine(80, 0)
@@ -89,7 +93,7 @@ spriteset(set_KTX_SC_A1_engine_PCMD, "src/locomotive/KTX_SC/KTX_SC_A1.png"){
 }
 
 /*--------------------------------------------------------------------
-2. KTX-산천 A타입 후기분 Livery
+KTX-산천 A타입 후기분 Livery
 --------------------------------------------------------------------*/
 spriteset(set_KTX_SC_A2_engineH, "src/locomotive/KTX_SC/KTX_SC_A2.png"){
     engine(80, 0)
@@ -172,7 +176,7 @@ spriteset(set_KTX_SC_A2_engine_PCMD, "src/locomotive/KTX_SC/KTX_SC_A2.png"){
 }
 
 /*--------------------------------------------------------------------
-3. SRT Livery
+SRT Livery
 --------------------------------------------------------------------*/
 spriteset(set_KTX_SC_SRT_engineH, "src/locomotive/KTX_SC/KTX_SC_SRT.png"){
     engine(80, 0)
@@ -239,7 +243,7 @@ spriteset(set_KTX_SC_SRT_engineT, "src/locomotive/KTX_SC/KTX_SC_SRT.png"){
 }
 
 /*--------------------------------------------------------------------
-1. KTX-Honam Sky blue Livery
+KTX-Honam Sky blue Livery
 --------------------------------------------------------------------*/
 spriteset(set_KTX_HN_B_engineH, "src/locomotive/KTX_SC/KTX_HN_B.png"){
     engine(80, 0)
@@ -306,7 +310,7 @@ spriteset(set_KTX_HN_B_engineT, "src/locomotive/KTX_SC/KTX_HN_B.png"){
 }
 
 /*--------------------------------------------------------------------
-2. KTX-Honam Yellow Livery
+KTX-Honam Yellow Livery
 --------------------------------------------------------------------*/
 spriteset(set_KTX_HN_Y_engineH, "src/locomotive/KTX_SC/KTX_HN_Y.png"){
     engine(80, 0)
@@ -373,7 +377,7 @@ spriteset(set_KTX_HN_Y_engineT, "src/locomotive/KTX_SC/KTX_HN_Y.png"){
 }
 
 /*--------------------------------------------------------------------
-3. KTX-Gyeonggang Blue Livery
+KTX-Gyeonggang Blue Livery
 --------------------------------------------------------------------*/
 spriteset(set_KTX_GG_B_engineH, "src/locomotive/KTX_SC/KTX_GG_B.png"){
     engine(80, 0)
@@ -440,7 +444,7 @@ spriteset(set_KTX_GG_B_engineT, "src/locomotive/KTX_SC/KTX_GG_B.png"){
 }
 
 /*--------------------------------------------------------------------
-4. KTX-Gyeonggang White Livery
+KTX-Gyeonggang White Livery
 --------------------------------------------------------------------*/
 spriteset(set_KTX_GG_W_engineH, "src/locomotive/KTX_SC/KTX_GG_W.png"){
     engine(80, 0)
@@ -507,8 +511,162 @@ spriteset(set_KTX_GG_W_engineT, "src/locomotive/KTX_SC/KTX_GG_W.png"){
 }
 
 /*--------------------------------------------------------------------
+KTX-산천 B타입 Livery
+--------------------------------------------------------------------*/
+spriteset(set_KTX_SC_B1_engineH, "src/locomotive/KTX_SC/KTX_SC_B1.png"){
+    engine(80, 0)
+}
+
+spriteset(set_KTX_SC_B1_engineH_r, "src/locomotive/KTX_SC/KTX_SC_B1.png"){
+    engine(80, 27)
+}
+
+spriteset(set_KTX_SC_B1_wagon_T1, "src/locomotive/KTX_SC/KTX_SC_B1.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_KTX_SC_B1_wagon_T1_r, "src/locomotive/KTX_SC/KTX_SC_B1.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_KTX_SC_B1_wagon_T2, "src/locomotive/KTX_SC/KTX_SC_B1.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_KTX_SC_B1_wagon_T2_r, "src/locomotive/KTX_SC/KTX_SC_B1.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_KTX_SC_B1_wagon_T3, "src/locomotive/KTX_SC/KTX_SC_B1.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_KTX_SC_B1_wagon_T3_r, "src/locomotive/KTX_SC/KTX_SC_B1.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_KTX_SC_B1_wagon_T4, "src/locomotive/KTX_SC/KTX_SC_B1.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_KTX_SC_B1_wagon_T4_r, "src/locomotive/KTX_SC/KTX_SC_B1.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_KTX_SC_B1_wagon_T5, "src/locomotive/KTX_SC/KTX_SC_B1.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_KTX_SC_B1_wagon_T5_r, "src/locomotive/KTX_SC/KTX_SC_B1.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_KTX_SC_B1_wagon_T6, "src/locomotive/KTX_SC/KTX_SC_B1.png"){
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_KTX_SC_B1_wagon_T6_r, "src/locomotive/KTX_SC/KTX_SC_B1.png"){
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_KTX_SC_B1_engineT_r, "src/locomotive/KTX_SC/KTX_SC_B1.png"){
+    engine(80, 216)
+}
+
+spriteset(set_KTX_SC_B1_engineT, "src/locomotive/KTX_SC/KTX_SC_B1.png"){
+    engine(80, 243)
+}
+
+spriteset(set_KTX_SC_B1_engine_PCM, "src/locomotive/KTX_SC/KTX_SC_B1.png"){
+    engine(80, 270)
+}
+
+spriteset(set_KTX_SC_B1_engine_PCMD, "src/locomotive/KTX_SC/KTX_SC_B1.png"){
+    engine(80, 297)
+}
+
+/*--------------------------------------------------------------------
+KTX-산천 B타입 평창올림픽 Livery
+--------------------------------------------------------------------*/
+spriteset(set_KTX_SC_B2_engineH, "src/locomotive/KTX_SC/KTX_SC_B2.png"){
+    engine(80, 0)
+}
+
+spriteset(set_KTX_SC_B2_engineH_r, "src/locomotive/KTX_SC/KTX_SC_B2.png"){
+    engine(80, 27)
+}
+
+spriteset(set_KTX_SC_B2_wagon_T1, "src/locomotive/KTX_SC/KTX_SC_B2.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_KTX_SC_B2_wagon_T1_r, "src/locomotive/KTX_SC/KTX_SC_B2.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_KTX_SC_B2_wagon_T2, "src/locomotive/KTX_SC/KTX_SC_B2.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_KTX_SC_B2_wagon_T2_r, "src/locomotive/KTX_SC/KTX_SC_B2.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_KTX_SC_B2_wagon_T3, "src/locomotive/KTX_SC/KTX_SC_B2.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_KTX_SC_B2_wagon_T3_r, "src/locomotive/KTX_SC/KTX_SC_B2.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_KTX_SC_B2_wagon_T4, "src/locomotive/KTX_SC/KTX_SC_B2.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_KTX_SC_B2_wagon_T4_r, "src/locomotive/KTX_SC/KTX_SC_B2.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_KTX_SC_B2_wagon_T5, "src/locomotive/KTX_SC/KTX_SC_B2.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_KTX_SC_B2_wagon_T5_r, "src/locomotive/KTX_SC/KTX_SC_B2.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_KTX_SC_B2_wagon_T6, "src/locomotive/KTX_SC/KTX_SC_B2.png"){
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_KTX_SC_B2_wagon_T6_r, "src/locomotive/KTX_SC/KTX_SC_B2.png"){
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_KTX_SC_B2_engineT_r, "src/locomotive/KTX_SC/KTX_SC_B2.png"){
+    engine(80, 216)
+}
+
+spriteset(set_KTX_SC_B2_engineT, "src/locomotive/KTX_SC/KTX_SC_B2.png"){
+    engine(80, 243)
+}
+
+spriteset(set_KTX_SC_B2_engine_PCM, "src/locomotive/KTX_SC/KTX_SC_B2.png"){
+    engine(80, 270)
+}
+
+spriteset(set_KTX_SC_B2_engine_PCMD, "src/locomotive/KTX_SC/KTX_SC_B2.png"){
+    engine(80, 297)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_purchase, cargo_subtype) {
     set_KTX_SC_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_purchase, cargo_subtype) {
+    set_KTX_SC_B_purchase;
 }

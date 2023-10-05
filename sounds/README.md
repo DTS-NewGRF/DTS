@@ -68,6 +68,12 @@
 ### HYUNDAIROTEMPMSMstart.wav
 - AUTS(차세대전동차)
 
+### KTXSC140000start.wav
+- KTX-산천 B타입
+
+### KTXSCABstart.wav
+- KTX-산천 중련
+
 ### KTXSCstart.wav
 - KTX-산천, KTX-산천 DD, CTX
 
@@ -89,6 +95,9 @@
 ### TOSHIBAGTOKStrart.wav
 - 한국철도공사 1세대 VVVF전동차
 - 한국철도공사 2세대 VVVF전동차
+
+### RotemIGCTstart.wav
+- HSR-350X
 
 ### SIEMENSGTO2locostart.wav
 - 8100호대 전기 기관차

@@ -6,10 +6,30 @@ switch (FEAT_TRAINS, SELF, sw_HSR_350X_7car, position_in_vehid_chain % 7) {
     2:set_HSR_350X_wagon_TT2;
     3:set_HSR_350X_wagon_TT3;
     4:set_HSR_350X_wagon_TT4;
-    5:set_HSR_350X_wagon_TM1_r;
+    5:set_HSR_350X_wagon_TM5;
     6:set_HSR_350X_engineT;
     set_HSR_350X_engineH; //default
     }
+
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_7car_r, position_in_vehid_chain % 7) {
+    1:set_HSR_350X_wagon_TM5_r;
+    2:set_HSR_350X_wagon_TT4_r;
+    3:set_HSR_350X_wagon_TT3_r;
+    4:set_HSR_350X_wagon_TT2_r;
+    5:set_HSR_350X_wagon_TM1_r;
+    6:set_HSR_350X_engineH_r;
+    set_HSR_350X_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_HSR_350X_7car_flipped, vehicle_is_flipped){
+    0: sw_HSR_350X_7car_r;
+    sw_HSR_350X_7car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_HSR_350X_7car_reversed, vehicle_is_reversed){
+    0: sw_HSR_350X_7car;
+    sw_HSR_350X_7car_flipped;
+}
 
 switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_7car, extra_callback_info1) {
     1..6: HSR_350X_7Car;
@@ -23,7 +43,7 @@ switch (FEAT_TRAINS, SELF, sw_HSR_350X_14car, position_in_vehid_chain % 14) {
     4:set_HSR_350X_wagon_TT3;
     5:set_HSR_350X_wagon_TT3;
     6:set_HSR_350X_wagon_TM5;
-    7:set_HSR_350X_wagon_TM5_r;
+    7:set_HSR_350X_wagon_TM5D;
     8:set_HSR_350X_wagon_TT4;
     9:set_HSR_350X_wagon_TT4;
     10:set_HSR_350X_wagon_TT4;
@@ -33,7 +53,66 @@ switch (FEAT_TRAINS, SELF, sw_HSR_350X_14car, position_in_vehid_chain % 14) {
     set_HSR_350X_engineH; //default
     }
 
+switch (FEAT_TRAINS, SELF, sw_HSR_350X_14car_r, position_in_vehid_chain % 14) {
+    1:set_HSR_350X_wagon_TM5_r;
+    2:set_HSR_350X_wagon_TT4_r;
+    3:set_HSR_350X_wagon_TT4_r;
+    4:set_HSR_350X_wagon_TT4_r;
+    5:set_HSR_350X_wagon_TT4_r;
+    6:set_HSR_350X_wagon_TM5D_r;
+    7:set_HSR_350X_wagon_TM5_r;
+    8:set_HSR_350X_wagon_TT3_r;
+    9:set_HSR_350X_wagon_TT3_r;
+    10:set_HSR_350X_wagon_TT3_r;
+    11:set_HSR_350X_wagon_TT2_r;
+    12:set_HSR_350X_wagon_TM1_r;
+    13:set_HSR_350X_engineH_r;
+    set_HSR_350X_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_HSR_350X_14car_flipped, vehicle_is_flipped){
+    0: sw_HSR_350X_14car_r;
+    sw_HSR_350X_14car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_HSR_350X_14car_reversed, vehicle_is_reversed){
+    0: sw_HSR_350X_14car;
+    sw_HSR_350X_14car_flipped;
+}
+
 switch (FEAT_TRAINS, SELF, sw_articulated_HSR_350X_14car, extra_callback_info1) {
     1..13: HSR_350X_14Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_HSR_350X_7car_length_in_custom, position_in_vehid_chain % 7) {
+    1: 8;
+    2: 7;
+    3: 7;
+    4: 7;
+    5: 8;
+    6: 8;
+    8; //default;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HSR_350X_14car_length_in_custom, position_in_vehid_chain % 14) {
+    1: 8;
+    2: 7;
+    3: 7;
+    4: 7;
+    5: 7;
+    6: 8;
+    7: 8;
+    8: 7;
+    9: 7;
+    10: 7;
+    11: 7;
+    12: 8;
+    13: 8;
+    8; //default;
+}
+
+switch(FEAT_TRAINS, SELF, sw_HSR_350X_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/RotemIGCTstart.wav");
+    return CB_RESULT_NO_SOUND;
     }

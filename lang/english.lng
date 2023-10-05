@@ -47,7 +47,10 @@ STR_HSR_350X_7Car_NAME                                 :[DTS] HSR-350X 7Car
 STR_HSR_350X_14Car_NAME                                :[DTS] HSR-350X 14Car
 STR_ICE_CW_8Car_NAME                                   :[DTS] ITX-Chowol 8Car
 STR_ITX_SM2_6Car_NAME                                  :[DTS] ITX-Saemaeul DD 6Car
+STR_Group_KTX_SC_NAME                                  :[DTS] KTX-Sancheon
 STR_KTX_SC_10Car_NAME                                  :[DTS] KTX-Sancheon 10Car
+STR_KTX_SC_B_10Car_NAME                                :[DTS] KTX-Sancheon Btype 10Car
+STR_KTX_SC_20Car_NAME                                  :[DTS] KTX-Sancheon 20Car
 STR_KTX_SC2_10Car_NAME                                 :[DTS] KTX-Sancheon DD 10Car
 STR_NRT2_4Car_NAME                                     :[DTS] Nuriro DD 4Car
 STR_Group_H2_WJ_NAME                                   :[DTS] H2 by WOOJIN
@@ -443,11 +446,23 @@ STR_REFIT_LIVERY_GT26CW_ST                             : S-Train
 STR_REFIT_LIVERY_GT26CW_G                              : G-Train
 STR_REFIT_LIVERY_KTX_SC_A1                             : KTX-Sancheon Atype 1
 STR_REFIT_LIVERY_KTX_SC_A2                             : KTX-Sancheon Atype 2
+STR_REFIT_LIVERY_KTX_SC_B1                             : KTX-Sancheon Btype 1
+STR_REFIT_LIVERY_KTX_SC_B2                             : KTX-Sancheon Btype 2
 STR_REFIT_LIVERY_KTX_SC_SRT                            : SRT
 STR_REFIT_LIVERY_KTX_HN_B                              : KTX-Sancheon 120000 1
 STR_REFIT_LIVERY_KTX_HN_Y                              : KTX-Sancheon 120000 2
 STR_REFIT_LIVERY_KTX_GG_B                              : KTX-Gyeonggang Blue Livery
 STR_REFIT_LIVERY_KTX_GG_W                              : KTX-Gyeonggang White Livery
+STR_REFIT_LIVERY_KTX_SC_A1A2                           : KTX-Sancheon A1+A2
+STR_REFIT_LIVERY_KTX_SC_A1B1                           : KTX-Sancheon A1+B1
+STR_REFIT_LIVERY_KTX_SC_A1B2                           : KTX-Sancheon A1+B2
+STR_REFIT_LIVERY_KTX_SC_A2A1                           : KTX-Sancheon A2+A1
+STR_REFIT_LIVERY_KTX_SC_A2B1                           : KTX-Sancheon A2+B1
+STR_REFIT_LIVERY_KTX_SC_A2B2                           : KTX-Sancheon A2+B2
+STR_REFIT_LIVERY_KTX_SC_B1A1                           : KTX-Sancheon B1+A1
+STR_REFIT_LIVERY_KTX_SC_B1A2                           : KTX-Sancheon B1+A2
+STR_REFIT_LIVERY_KTX_SC_B2A1                           : KTX-Sancheon B2+A1
+STR_REFIT_LIVERY_KTX_SC_B2A2                           : KTX-Sancheon B2+A2
 STR_REFIT_LIVERY_NEL_8100_A                            : NEL 8100 A
 STR_REFIT_LIVERY_NEL_8100_B                            : NEL 8100 B
 STR_REFIT_LIVERY_Travel_8500                           : Orginal

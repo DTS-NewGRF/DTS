@@ -222,7 +222,10 @@ sort(FEAT_TRAINS, [
     //고속열차 331
     EMU320_8Car,                             //2022
     EMU320_DD_8Car,                          //2023
+    KTX_SC,                                  //2317
     KTX_SC_10Car,                            //2024
+    KTX_SC_B_10Car,                          //2318
+    KTX_SC_20Car,                            //2319
     KTX_SC2_10Car,                           //2025
     CTX,                                     //2199
     CTX_F_10Car,                             //2026

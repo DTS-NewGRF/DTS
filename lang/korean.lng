@@ -47,7 +47,10 @@ STR_HSR_350X_7Car_NAME                                 :[DTS/7량] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[DTS/14량] HSR-350X
 STR_ICE_CW_8Car_NAME                                   :[DTS/8량] ITX-초월
 STR_ITX_SM2_6Car_NAME                                  :[DTS/6량] ITX-새마을 DD
-STR_KTX_SC_10Car_NAME                                  :[DTS/10량] KTX-산천
+STR_Group_KTX_SC_NAME                                  :[DTS] KTX-산천
+STR_KTX_SC_10Car_NAME                                  :[DTS/10량] KTX-산천 A타입
+STR_KTX_SC_B_10Car_NAME                                :[DTS/10량] KTX-산천 B타입
+STR_KTX_SC_20Car_NAME                                  :[DTS/20량] KTX-산천 중련
 STR_KTX_SC2_10Car_NAME                                 :[DTS/10량] KTX-산천 DD
 STR_NRT2_4Car_NAME                                     :[DTS/4량] 누리로 DD
 STR_Group_H2_WJ_NAME                                   :[DTS] 우진산전 수소연료전지동차
@@ -441,11 +444,23 @@ STR_REFIT_LIVERY_GT26CW_ST                             : S-Train
 STR_REFIT_LIVERY_GT26CW_G                              : G-Train
 STR_REFIT_LIVERY_KTX_SC_A1                             : KTX-산천 A타입 초도분
 STR_REFIT_LIVERY_KTX_SC_A2                             : KTX-산천 A타입 후기분
+STR_REFIT_LIVERY_KTX_SC_B1                             : KTX-산천 B타입
+STR_REFIT_LIVERY_KTX_SC_B2                             : KTX-산천 B타입 2018 평창올림픽 도색
 STR_REFIT_LIVERY_KTX_SC_SRT                            : SRT
 STR_REFIT_LIVERY_KTX_HN_B                              : KTX-산천 120000호대 시안 2안
 STR_REFIT_LIVERY_KTX_HN_Y                              : KTX-산천 120000호대 시안 3안
 STR_REFIT_LIVERY_KTX_GG_B                              : KTX-산천 경강선 시안 1안
 STR_REFIT_LIVERY_KTX_GG_W                              : KTX-산천 경강선 컨셉
+STR_REFIT_LIVERY_KTX_SC_A1A2                           : KTX-산천 A1+A2
+STR_REFIT_LIVERY_KTX_SC_A1B1                           : KTX-산천 A1+B1
+STR_REFIT_LIVERY_KTX_SC_A1B2                           : KTX-산천 A1+B2
+STR_REFIT_LIVERY_KTX_SC_A2A1                           : KTX-산천 A2+A1
+STR_REFIT_LIVERY_KTX_SC_A2B1                           : KTX-산천 A2+B1
+STR_REFIT_LIVERY_KTX_SC_A2B2                           : KTX-산천 A2+B2
+STR_REFIT_LIVERY_KTX_SC_B1A1                           : KTX-산천 B1+A1
+STR_REFIT_LIVERY_KTX_SC_B1A2                           : KTX-산천 B1+A2
+STR_REFIT_LIVERY_KTX_SC_B2A1                           : KTX-산천 B2+A1
+STR_REFIT_LIVERY_KTX_SC_B2A2                           : KTX-산천 B2+A2
 STR_REFIT_LIVERY_NEL_8100_A                            : 구도색
 STR_REFIT_LIVERY_NEL_8100_B                            : 신도색
 STR_REFIT_LIVERY_Travel_8500                           : 기본도색

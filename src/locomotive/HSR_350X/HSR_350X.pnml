@@ -68,13 +68,15 @@ item(FEAT_TRAINS, HSR_350X_7Car, 2027){
         }
 
 	graphics {
-        default:                        sw_HSR_350X_7car;
+        default:                        sw_HSR_350X_7car_reversed;
         articulated_part:               sw_articulated_HSR_350X_7car;
         purchase:                       sw_HSR_350X_purchase;
         speed:                          High_Speed_Train;
+        length:                         sw_HSR_350X_7car_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        sound_effect:                   sw_HSR_350X_sound;
         }
         }
 
@@ -121,12 +123,14 @@ item(FEAT_TRAINS, HSR_350X_14Car, 2005){
         }
 
 	graphics {
-        default:                        sw_HSR_350X_14car;
+        default:                        sw_HSR_350X_14car_reversed;
         articulated_part:               sw_articulated_HSR_350X_14car;
         purchase:                       sw_HSR_350X_purchase;
         speed:                          High_Speed_Train;
+        length:                         sw_HSR_350X_14car_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        sound_effect:                   sw_HSR_350X_sound;
         }
         }

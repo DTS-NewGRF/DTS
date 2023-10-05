@@ -12,6 +12,24 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_cargo_subtype_text, cargo_subtype) {
     return string(STR_REFIT_LIVERY_KTX_SC_A1);     // KTX-산천 A타입 초기분
 }
 
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_KTX_SC_B2);  // KTX-산천 B타입 평창올림픽
+    return string(STR_REFIT_LIVERY_KTX_SC_B1);     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_KTX_SC_A1B1);  // KTX-산천 A1+B1
+    2: return string(STR_REFIT_LIVERY_KTX_SC_A1B2);  // KTX-산천 A1+B2
+    3: return string(STR_REFIT_LIVERY_KTX_SC_A2A1);  // KTX-산천 A2+A1
+    4: return string(STR_REFIT_LIVERY_KTX_SC_A2B1);  // KTX-산천 A2+B1
+    5: return string(STR_REFIT_LIVERY_KTX_SC_A2B2);  // KTX-산천 A2+B2
+    6: return string(STR_REFIT_LIVERY_KTX_SC_B1A1);  // KTX-산천 B1+A1
+    7: return string(STR_REFIT_LIVERY_KTX_SC_B1A2);  // KTX-산천 B1+A2
+    8: return string(STR_REFIT_LIVERY_KTX_SC_B2A1);  // KTX-산천 B2+A1
+    9: return string(STR_REFIT_LIVERY_KTX_SC_B2A2);  // KTX-산천 B2+A2
+    return string(STR_REFIT_LIVERY_KTX_SC_A1A2);     // KTX-산천 A1+A2
+}
+
 // 10량
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_engineH, cargo_subtype) {
     1: set_KTX_SC_A2_engineH;  // KTX-산천 A타입 후기분
@@ -214,6 +232,630 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_engineT_r, cargo_subtype) {
     set_KTX_SC_A1_engineT_r;     // KTX-산천 A타입 초기분
 }
 
+// 10량 B타입
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_engineH, cargo_subtype) {
+    1: set_KTX_SC_B2_engineH;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_engineH;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_1, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T1;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T1;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_2, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T2;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T2;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_3, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T3;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T3;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_4, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T4;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T4;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_5, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T5;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T5;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_6, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T5;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T5;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_7, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T4;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T4;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_8, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T6;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T6;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_engineT, cargo_subtype) {
+    1: set_KTX_SC_B2_engineT;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_engineT;     // KTX-산천 B타입
+}
+
+// 10량 B타입 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_engineH_r, cargo_subtype) {
+    1: set_KTX_SC_B2_engineH_r;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_engineH_r;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_1_r, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T1_r;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T1_r;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_2_r, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T2_r;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T2_r;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_3_r, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T3_r;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T3_r;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_4_r, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T4_r;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_5_r, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T5_r;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_6_r, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T5_r;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_7_r, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T4_r;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_8_r, cargo_subtype) {
+    1: set_KTX_SC_B2_wagon_T6_r;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_wagon_T6_r;     // KTX-산천 B타입
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_engineT_r, cargo_subtype) {
+    1: set_KTX_SC_B2_engineT_r;  // KTX-산천 B타입 평창올림픽
+    set_KTX_SC_B1_engineT_r;     // KTX-산천 B타입
+}
+
+// 20량
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_engineH, cargo_subtype) {
+    1: set_KTX_SC_A1_engineH;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_engineH;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_engineH;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_engineH;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_engineH;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_engineH;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_engineH;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_engineH;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_engineH;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_engineH;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_2, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T1;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T1;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T1;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T1;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T1;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T1;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T1;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T1;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T1;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T1;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_3, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T2;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T2;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T2;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T2;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T2;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T2;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T2;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T2;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T2;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T2;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_4, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T3;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T3;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T3;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T3;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T3;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T3;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T3;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T3;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T3;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T3;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_5, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T4;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T4;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T4;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T4;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T4;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T4;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T4;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T4;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T4;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T4;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_6, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T5;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T5;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T5;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T5;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T5;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T5;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T5;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T5;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T5;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T5;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_7, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T5;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T5;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T5;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T5;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T5;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T5;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T5;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T5;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T5;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T5;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_8, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T6;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T6;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T6;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T6;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T6;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T4;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T4;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T4;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T4;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T6;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_9, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T7;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T7;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T7;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T7;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T7;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T6;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T6;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T6;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T6;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T7;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_10, cargo_subtype) {
+    1: set_KTX_SC_A1_engineT;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_engineT;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_engineT;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_engineT;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_engineT;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_engineT;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_engineT;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_engineT;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_engineT;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_engineT;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_PCM, cargo_subtype) {
+    1: set_KTX_SC_B1_engine_PCM;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_engine_PCM;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_engine_PCM;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_engine_PCM;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_engine_PCM;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_engine_PCM;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_engine_PCM;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_engine_PCM;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_engine_PCM;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_engine_PCM;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_12, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T1;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T1;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T1;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T1;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T1;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T1;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T1;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T1;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T1;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T1;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_13, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T2;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T2;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T2;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T2;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T2;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T2;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T2;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T2;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T2;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T2;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_14, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T3;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T3;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T3;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T3;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T3;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T3;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T3;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T3;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T3;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T3;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_15, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T4;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T4;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T4;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T4;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T4;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T4;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T4;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T4;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T4;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T4;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_16, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T5;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T5;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T5;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T5;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T5;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T5;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T5;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T5;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T5;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T5;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_17, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T5;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T5;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T5;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T5;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T5;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T5;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T5;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T5;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T5;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T5;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_18, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T4;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T4;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T6;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T4;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T4;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T6;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T6;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T6;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T6;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T6;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_19, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T6;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T6;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T7;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T6;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T6;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T7;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T7;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T7;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T7;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T7;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_engineT, cargo_subtype) {
+    1: set_KTX_SC_B1_engineT;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_engineT;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_engineT;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_engineT;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_engineT;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_engineT;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_engineT;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_engineT;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_engineT;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_engineT;     // KTX-산천 A1+A2
+}
+
+// 20량 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_engineH_r, cargo_subtype) {
+    1: set_KTX_SC_A1_engineH_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_engineH_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_engineH_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_engineH_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_engineH_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_engineH_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_engineH_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_engineH_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_engineH_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_engineH_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_2_r, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T1_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T1_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T1_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T1_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T1_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T1_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T1_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T1_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T1_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T1_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_3_r, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T2_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T2_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T2_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T2_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T2_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T2_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T2_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T2_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T2_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T2_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_4_r, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T3_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T3_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T3_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T3_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T3_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T3_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T3_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T3_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T3_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T3_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_5_r, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T4_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T4_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T4_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T4_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T4_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T4_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T4_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T4_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_6_r, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T5_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T5_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T5_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_7_r, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T5_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T5_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T5_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_8_r, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T6_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T6_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T6_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T6_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T6_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T4_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T4_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T6_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_9_r, cargo_subtype) {
+    1: set_KTX_SC_A1_wagon_T7_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_wagon_T7_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_wagon_T7_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_wagon_T7_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_wagon_T7_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_wagon_T6_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_wagon_T6_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_wagon_T6_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_wagon_T6_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_wagon_T7_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_PCMD, cargo_subtype) {
+    1: set_KTX_SC_A1_engine_PCMD;  // KTX-산천 A1+B1
+    2: set_KTX_SC_A1_engine_PCMD;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A2_engine_PCMD;  // KTX-산천 A2+A1
+    4: set_KTX_SC_A2_engine_PCMD;  // KTX-산천 A2+B1
+    5: set_KTX_SC_A2_engine_PCMD;  // KTX-산천 A2+B2
+    6: set_KTX_SC_B1_engine_PCMD;  // KTX-산천 B1+A1
+    7: set_KTX_SC_B1_engine_PCMD;  // KTX-산천 B1+A2
+    8: set_KTX_SC_B2_engine_PCMD;  // KTX-산천 B2+A1
+    9: set_KTX_SC_B2_engine_PCMD;  // KTX-산천 B2+A2
+    set_KTX_SC_A1_engine_PCMD;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_11_r, cargo_subtype) {
+    1: set_KTX_SC_B1_engineH_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_engineH_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_engineH_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_engineH_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_engineH_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_engineH_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_engineH_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_engineH_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_engineH_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_engineH_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_12_r, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T1_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T1_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T1_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T1_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T1_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T1_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T1_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T1_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T1_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T1_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_13_r, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T2_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T2_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T2_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T2_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T2_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T2_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T2_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T2_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T2_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T2_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_14_r, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T3_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T3_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T3_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T3_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T3_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T3_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T3_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T3_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T3_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T3_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_15_r, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T4_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T4_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T4_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T4_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T4_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T4_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T4_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T4_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_16_r, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T5_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T5_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T5_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_17_r, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T5_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T5_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T5_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_18_r, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T4_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T6_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T4_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T6_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T6_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T6_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T6_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T6_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_wagon_19_r, cargo_subtype) {
+    1: set_KTX_SC_B1_wagon_T6_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_wagon_T6_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_wagon_T7_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_wagon_T6_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_wagon_T6_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_wagon_T7_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_wagon_T7_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_wagon_T7_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_wagon_T7_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_wagon_T7_r;     // KTX-산천 A1+A2
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_engineT_r, cargo_subtype) {
+    1: set_KTX_SC_B1_engineT_r;  // KTX-산천 A1+B1
+    2: set_KTX_SC_B2_engineT_r;  // KTX-산천 A1+B2
+    3: set_KTX_SC_A1_engineT_r;  // KTX-산천 A2+A1
+    4: set_KTX_SC_B1_engineT_r;  // KTX-산천 A2+B1
+    5: set_KTX_SC_B2_engineT_r;  // KTX-산천 A2+B2
+    6: set_KTX_SC_A1_engineT_r;  // KTX-산천 B1+A1
+    7: set_KTX_SC_A2_engineT_r;  // KTX-산천 B1+A2
+    8: set_KTX_SC_A1_engineT_r;  // KTX-산천 B2+A1
+    9: set_KTX_SC_A2_engineT_r;  // KTX-산천 B2+A2
+    set_KTX_SC_A2_engineT_r;     // KTX-산천 A1+A2
+}
+
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_KTX_SC_10car, position_in_vehid_chain % 10) {
     1:sw_KTX_SC_wagon_1;
@@ -279,7 +921,157 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_capacity_in_custom, cargo_subtype) {
        38;
 }
 
+// 편성그래픽 B타입
+switch (FEAT_TRAINS, SELF, sw_KTX_SC_B_10car, position_in_vehid_chain % 10) {
+    1:sw_KTX_SC_B_wagon_1;
+    2:sw_KTX_SC_B_wagon_2;
+    3:sw_KTX_SC_B_wagon_3;
+    4:sw_KTX_SC_B_wagon_4;
+    5:sw_KTX_SC_B_wagon_5;
+    6:sw_KTX_SC_B_wagon_6;
+    7:sw_KTX_SC_B_wagon_7;
+    8:sw_KTX_SC_B_wagon_8;
+    9:sw_KTX_SC_B_engineT;
+    sw_KTX_SC_B_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_KTX_SC_B_10car_r, position_in_vehid_chain % 10) {
+    1:sw_KTX_SC_B_wagon_8_r;
+    2:sw_KTX_SC_B_wagon_7_r;
+    3:sw_KTX_SC_B_wagon_6_r;
+    4:sw_KTX_SC_B_wagon_5_r;
+    5:sw_KTX_SC_B_wagon_4_r;
+    6:sw_KTX_SC_B_wagon_3_r;
+    7:sw_KTX_SC_B_wagon_2_r;
+    8:sw_KTX_SC_B_wagon_1_r;
+    9:sw_KTX_SC_B_engineH_r;
+    sw_KTX_SC_B_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_10car_flipped, vehicle_is_flipped){
+    0: sw_KTX_SC_B_10car_r;
+    sw_KTX_SC_B_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_KTX_SC_B_10car_reversed, vehicle_is_reversed){
+    0: sw_KTX_SC_B_10car;
+    sw_KTX_SC_B_10car_flipped;
+}
+
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_SC_B_10car, extra_callback_info1) {
+    1..9: KTX_SC_B_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_wagon_length_in_custom, position_in_vehid_chain % 10) {
+    1: 8;
+    2: 7;
+    3: 7;
+    4: 7;
+    5: 7;
+    6: 7;
+    7: 7;
+    8: 8;
+    9: 8;
+    8; //default;
+}
+
+// 편성그래픽 중련 20Car
+switch (FEAT_TRAINS, SELF, sw_KTX_SC_20car, position_in_vehid_chain % 20) {
+    1:sw_KTX_SC_20Car_wagon_2;
+    2:sw_KTX_SC_20Car_wagon_3;
+    3:sw_KTX_SC_20Car_wagon_4;
+    4:sw_KTX_SC_20Car_wagon_5;
+    5:sw_KTX_SC_20Car_wagon_6;
+    6:sw_KTX_SC_20Car_wagon_7;
+    7:sw_KTX_SC_20Car_wagon_8;
+    8:sw_KTX_SC_20Car_wagon_9;
+    9:sw_KTX_SC_20Car_wagon_10;
+    10:sw_KTX_SC_20Car_PCM;
+    11:sw_KTX_SC_20Car_wagon_12;
+    12:sw_KTX_SC_20Car_wagon_13;
+    13:sw_KTX_SC_20Car_wagon_14;
+    14:sw_KTX_SC_20Car_wagon_15;
+    15:sw_KTX_SC_20Car_wagon_16;
+    16:sw_KTX_SC_20Car_wagon_17;
+    17:sw_KTX_SC_20Car_wagon_18;
+    18:sw_KTX_SC_20Car_wagon_19;
+    19:sw_KTX_SC_20Car_engineT;
+    sw_KTX_SC_20Car_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_KTX_SC_20car_r, position_in_vehid_chain % 20) {
+    1:sw_KTX_SC_20Car_wagon_19_r;
+    2:sw_KTX_SC_20Car_wagon_18_r;
+    3:sw_KTX_SC_20Car_wagon_17_r;
+    4:sw_KTX_SC_20Car_wagon_16_r;
+    5:sw_KTX_SC_20Car_wagon_15_r;
+    6:sw_KTX_SC_20Car_wagon_14_r;
+    7:sw_KTX_SC_20Car_wagon_13_r;
+    8:sw_KTX_SC_20Car_wagon_12_r;
+    9:sw_KTX_SC_20Car_wagon_11_r;
+    10:sw_KTX_SC_20Car_PCMD;
+    11:sw_KTX_SC_20Car_wagon_9_r;
+    12:sw_KTX_SC_20Car_wagon_8_r;
+    13:sw_KTX_SC_20Car_wagon_7_r;
+    14:sw_KTX_SC_20Car_wagon_6_r;
+    15:sw_KTX_SC_20Car_wagon_5_r;
+    16:sw_KTX_SC_20Car_wagon_4_r;
+    17:sw_KTX_SC_20Car_wagon_3_r;
+    18:sw_KTX_SC_20Car_wagon_2_r;
+    19:sw_KTX_SC_20Car_engineH_r;
+    sw_KTX_SC_20Car_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20car_flipped, vehicle_is_flipped){
+    0: sw_KTX_SC_20car_r;
+    sw_KTX_SC_20car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_KTX_SC_20car_reversed, vehicle_is_reversed){
+    0: sw_KTX_SC_20car;
+    sw_KTX_SC_20car_flipped;
+}
+
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_SC_20car, extra_callback_info1) {
+    1..19: KTX_SC_20Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_20Car_length_in_custom, position_in_vehid_chain % 20) {
+    1: 8;
+    2: 7;
+    3: 7;
+    4: 7;
+    5: 7;
+    6: 7;
+    7: 7;
+    8: 8;
+    9: 8;
+    10: 8;
+    11: 8;
+    12: 7;
+    13: 7;
+    14: 7;
+    15: 7;
+    16: 7;
+    17: 7;
+    18: 8;
+    19: 8;
+    8; //default;
+}
+
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/KTXSCstart.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/KTXSC140000start.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/KTXSCABstart.wav");
     return CB_RESULT_NO_SOUND;
     }
