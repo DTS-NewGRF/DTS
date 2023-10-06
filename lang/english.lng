@@ -50,7 +50,8 @@ STR_ITX_SM2_6Car_NAME                                  :[DTS] ITX-Saemaeul DD 6C
 STR_Group_KTX_SC_NAME                                  :[DTS] KTX-Sancheon
 STR_KTX_SC_10Car_NAME                                  :[DTS] KTX-Sancheon 10Car
 STR_KTX_SC_B_10Car_NAME                                :[DTS] KTX-Sancheon Btype 10Car
-STR_KTX_SC_20Car_NAME                                  :[DTS] KTX-Sancheon 20Car
+STR_KTX_SC_A_20Car_NAME                                :[DTS] KTX-Sancheon Atype 20Car
+STR_KTX_SC_AB_20Car_NAME                               :[DTS] KTX-Sancheon ABtype 20Car
 STR_KTX_SC2_10Car_NAME                                 :[DTS] KTX-Sancheon DD 10Car
 STR_NRT2_4Car_NAME                                     :[DTS] Nuriro DD 4Car
 STR_Group_H2_WJ_NAME                                   :[DTS] H2 by WOOJIN

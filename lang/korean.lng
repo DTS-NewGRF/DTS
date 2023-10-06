@@ -50,7 +50,8 @@ STR_ITX_SM2_6Car_NAME                                  :[DTS/6량] ITX-새마을
 STR_Group_KTX_SC_NAME                                  :[DTS] KTX-산천
 STR_KTX_SC_10Car_NAME                                  :[DTS/10량] KTX-산천 A타입
 STR_KTX_SC_B_10Car_NAME                                :[DTS/10량] KTX-산천 B타입
-STR_KTX_SC_20Car_NAME                                  :[DTS/20량] KTX-산천 중련
+STR_KTX_SC_A_20Car_NAME                                :[DTS/20량] KTX-산천 A타입 중련
+STR_KTX_SC_AB_20Car_NAME                               :[DTS/20량] KTX-산천 A+B타입 중련
 STR_KTX_SC2_10Car_NAME                                 :[DTS/10량] KTX-산천 DD
 STR_NRT2_4Car_NAME                                     :[DTS/4량] 누리로 DD
 STR_Group_H2_WJ_NAME                                   :[DTS] 우진산전 수소연료전지동차
