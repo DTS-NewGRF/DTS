@@ -47,12 +47,16 @@ STR_HSR_350X_7Car_NAME                                 :[DTS/7량] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[DTS/14량] HSR-350X
 STR_ICE_CW_8Car_NAME                                   :[DTS/8량] ITX-초월
 STR_ITX_SM2_6Car_NAME                                  :[DTS/6량] ITX-새마을 DD
+STR_KTX_1_20Car_NAME                                   :[DTS/20량] KTX-1
 STR_Group_KTX_SC_NAME                                  :[DTS] KTX-산천
-STR_KTX_SC_10Car_NAME                                  :[DTS/10량] KTX-산천 A타입
+STR_KTX_SC_10Car_NAME                                  :[DTS/10량] KTX-산천 A타입, SRT
 STR_KTX_SC_B_10Car_NAME                                :[DTS/10량] KTX-산천 B타입
 STR_KTX_SC_A_20Car_NAME                                :[DTS/20량] KTX-산천 A타입 중련
 STR_KTX_SC_AB_20Car_NAME                               :[DTS/20량] KTX-산천 A+B타입 중련
 STR_KTX_SC2_10Car_NAME                                 :[DTS/10량] KTX-산천 DD
+STR_Group_Nuriro_NAME                                  :[DTS] 한국철도공사 200000호대 전동차 (누리로)
+STR_Nuriro_4Car_NAME                                   :[DTS/4량] 한국철도공사 200000호대 전동차 (누리로)
+STR_Nuriro_8Car_NAME                                   :[DTS/8량] 한국철도공사 200000호대 전동차 (누리로)
 STR_NRT2_4Car_NAME                                     :[DTS/4량] 누리로 DD
 STR_Group_H2_WJ_NAME                                   :[DTS] 우진산전 수소연료전지동차
 STR_H2_WJ_2Car_NAME                                    :[DTS/2량] 우진산전 수소연료전지동차
@@ -164,6 +168,7 @@ STR_THSR_700T_12Car_NAME                               :[DTS/12량] 타이완 �
 STR_Al_Boraq_10Car_NAME                                :[DTS/10량] 알 보라크
 STR_Talgo_350_SRO_14Car_NAME                           :[DTS/14량] 탈고 350 SRO (하라마인 고속철도)
 STR_Avelia_Liberty_11Car_NAME                          :[DTS/11량] 아벨리아 리버티
+STR_Glory_430_10Car_NAME                               :[DTS/10량] Glory 430
 STR_Glory_600_8Car_NAME                                :[DTS/8량] Glory 600
 STR_HMX_8Car_NAME                                      :[DTS/8량] HMX
 STR_NKX_8Car_NAME                                      :[DTS/8량] NKX
@@ -410,6 +415,20 @@ STR_REFIT_LIVERY_DEL7000_B                             : 철도청 구도색
 STR_REFIT_LIVERY_DEL7000_C                             : 철도청 초기도색
 STR_REFIT_LIVERY_DEL7600                               : 기본도색
 STR_REFIT_LIVERY_DEL7600_A_Train                       : A-Train
+STR_REFIT_LIVERY_Nuriro_Old                            : 누리로 구도색
+STR_REFIT_LIVERY_Nuriro_New                            : 누리로 신도색
+STR_REFIT_LIVERY_Nuriro_A                              : 누리로 한류관광
+STR_REFIT_LIVERY_Nuriro_B                              : 누리로 순천향대 강의실
+STR_REFIT_LIVERY_Nuriro_AB                             : 누리로 구도색+신도색
+STR_REFIT_LIVERY_Nuriro_AC                             : 누리로 구도색+한류관광
+STR_REFIT_LIVERY_Nuriro_AD                             : 누리로 구도색+순천향대
+STR_REFIT_LIVERY_Nuriro_BA                             : 누리로 신도색+구도색
+STR_REFIT_LIVERY_Nuriro_BC                             : 누리로 신도색+한류관광
+STR_REFIT_LIVERY_Nuriro_BD                             : 누리로 신도색+순천향대
+STR_REFIT_LIVERY_Nuriro_CA                             : 누리로 한류관광+구도색
+STR_REFIT_LIVERY_Nuriro_CB                             : 누리로 한류관광+신도색
+STR_REFIT_LIVERY_Nuriro_DA                             : 누리로 순천향대+구도색
+STR_REFIT_LIVERY_Nuriro_DB                             : 누리로 순천향대+신도색
 STR_REFIT_LIVERY_NRT2_Old_C                            : 누리로 DD 구도색 회사색상
 STR_REFIT_LIVERY_NRT2_New_C                            : 누리로 DD 신도색 회사색상
 STR_REFIT_LIVERY_NRT2_Old_OT                           : 누리로 DD O-train 도색
@@ -443,25 +462,35 @@ STR_REFIT_LIVERY_GT26CW_CY_GW                          : 충북영동국악와�
 STR_REFIT_LIVERY_GT26CW_LB                             : 레이디버드
 STR_REFIT_LIVERY_GT26CW_ST                             : S-Train
 STR_REFIT_LIVERY_GT26CW_G                              : G-Train
+STR_REFIT_LIVERY_KTX_1_A                               : KTX-1 특실 3량
+STR_REFIT_LIVERY_KTX_1_B                               : KTX-1 특실 4량
+STR_REFIT_LIVERY_KTX_1_C                               : KTX-1 영화시네마
 STR_REFIT_LIVERY_KTX_SC_A1                             : KTX-산천 A타입 초도분
 STR_REFIT_LIVERY_KTX_SC_A2                             : KTX-산천 A타입 후기분
 STR_REFIT_LIVERY_KTX_SC_B1                             : KTX-산천 B타입
 STR_REFIT_LIVERY_KTX_SC_B2                             : KTX-산천 B타입 2018 평창올림픽 도색
-STR_REFIT_LIVERY_KTX_SC_SRT                            : SRT
+STR_REFIT_LIVERY_KTX_SC_SRT                            : KTX-산천 120000호대 시안 1안
 STR_REFIT_LIVERY_KTX_HN_B                              : KTX-산천 120000호대 시안 2안
 STR_REFIT_LIVERY_KTX_HN_Y                              : KTX-산천 120000호대 시안 3안
+STR_REFIT_LIVERY_KTX_SC_2cc                            : SRT 2cc
 STR_REFIT_LIVERY_KTX_GG_B                              : KTX-산천 경강선 시안 1안
 STR_REFIT_LIVERY_KTX_GG_W                              : KTX-산천 경강선 컨셉
 STR_REFIT_LIVERY_KTX_SC_A1A2                           : KTX-산천 A1+A2
+STR_REFIT_LIVERY_KTX_SC_A1SRT                          : KTX-산천 A1+SRT
 STR_REFIT_LIVERY_KTX_SC_A1B1                           : KTX-산천 A1+B1
 STR_REFIT_LIVERY_KTX_SC_A1B2                           : KTX-산천 A1+B2
 STR_REFIT_LIVERY_KTX_SC_A2A1                           : KTX-산천 A2+A1
+STR_REFIT_LIVERY_KTX_SC_A2SRT                          : KTX-산천 A2+SRT
 STR_REFIT_LIVERY_KTX_SC_A2B1                           : KTX-산천 A2+B1
 STR_REFIT_LIVERY_KTX_SC_A2B2                           : KTX-산천 A2+B2
 STR_REFIT_LIVERY_KTX_SC_B1A1                           : KTX-산천 B1+A1
 STR_REFIT_LIVERY_KTX_SC_B1A2                           : KTX-산천 B1+A2
+STR_REFIT_LIVERY_KTX_SC_B1SRT                          : KTX-산천 B1+SRT
 STR_REFIT_LIVERY_KTX_SC_B2A1                           : KTX-산천 B2+A1
 STR_REFIT_LIVERY_KTX_SC_B2A2                           : KTX-산천 B2+A2
+STR_REFIT_LIVERY_KTX_SC_SRTA1                          : SRT+KTX-산천 A1
+STR_REFIT_LIVERY_KTX_SC_SRTA2                          : SRT+KTX-산천 A2
+STR_REFIT_LIVERY_KTX_SC_SRTB1                          : SRT+KTX-산천 B1
 STR_REFIT_LIVERY_NEL_8100_A                            : 구도색
 STR_REFIT_LIVERY_NEL_8100_B                            : 신도색
 STR_REFIT_LIVERY_Travel_8500                           : 기본도색

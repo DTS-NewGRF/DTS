@@ -47,6 +47,7 @@
 - 7X00호대 디젤기관차
 
 ### HITACHIStart.wav
+- 누리로
 - 누리로 DD
 
 ### HYNDAIROTEMIGBTIPM2start.wav
@@ -88,6 +89,9 @@
 
 ### MITSUBISHIigbtstart.wav
 - 서울교통공사 6000호대
+
+### TGV_Kstart.wav
+- KTX-1
 
 ### TOSHIBAGTOJStart.wav
 - 한큐 8000형

@@ -47,12 +47,16 @@ STR_HSR_350X_7Car_NAME                                 :[DTS] HSR-350X 7Car
 STR_HSR_350X_14Car_NAME                                :[DTS] HSR-350X 14Car
 STR_ICE_CW_8Car_NAME                                   :[DTS] ITX-Chowol 8Car
 STR_ITX_SM2_6Car_NAME                                  :[DTS] ITX-Saemaeul DD 6Car
+STR_KTX_1_20Car_NAME                                   :[DTS] TGV-K 20Car
 STR_Group_KTX_SC_NAME                                  :[DTS] KTX-Sancheon
-STR_KTX_SC_10Car_NAME                                  :[DTS] KTX-Sancheon 10Car
+STR_KTX_SC_10Car_NAME                                  :[DTS] KTX-Sancheon Atype, , SRT 10Car
 STR_KTX_SC_B_10Car_NAME                                :[DTS] KTX-Sancheon Btype 10Car
 STR_KTX_SC_A_20Car_NAME                                :[DTS] KTX-Sancheon Atype 20Car
 STR_KTX_SC_AB_20Car_NAME                               :[DTS] KTX-Sancheon ABtype 20Car
 STR_KTX_SC2_10Car_NAME                                 :[DTS] KTX-Sancheon DD 10Car
+STR_Group_Nuriro_NAME                                  :[DTS] Korail 200000 series EMU (NURIRO)
+STR_Nuriro_4Car_NAME                                   :[DTS] Korail 200000 series EMU (NURIRO) 4Car
+STR_Nuriro_8Car_NAME                                   :[DTS] Korail 200000 series EMU (NURIRO) 8Car
 STR_NRT2_4Car_NAME                                     :[DTS] Nuriro DD 4Car
 STR_Group_H2_WJ_NAME                                   :[DTS] H2 by WOOJIN
 STR_H2_WJ_2Car_NAME                                    :[DTS] H2 by WOOJIN 2Car
@@ -164,6 +168,7 @@ STR_THSR_700T_12Car_NAME                               :[DTS] THSR 700T 12Car
 STR_Al_Boraq_10Car_NAME                                :[DTS] Al-Boraq 10Car
 STR_Talgo_350_SRO_14Car_NAME                           :[DTS] Talgo 350 SRO 14Car
 STR_Avelia_Liberty_11Car_NAME                          :[DTS] Avelia Liberty 11Car
+STR_Glory_430_10Car_NAME                               :[DTS] Glory 430 10Car
 STR_Glory_600_8Car_NAME                                :[DTS] Glory 600 8Car
 STR_HMX_8Car_NAME                                      :[DTS] HMX 8Car
 STR_NKX_8Car_NAME                                      :[DTS] NKX 8Car
@@ -397,9 +402,9 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}train configurati
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}train configuration {GREEN}Coach 2F Passenger vehicles
 
 # Liveries
-STR_REFIT_LIVERY_ITX_Maum_4                            : ITX-마음 4량
-STR_REFIT_LIVERY_ITX_Maum_6                            : ITX-마음 6량
-STR_REFIT_LIVERY_ITX_Maum_8                            : ITX-마음 8량
+STR_REFIT_LIVERY_ITX_Maum_4                            : ITX-Maum 4Car
+STR_REFIT_LIVERY_ITX_Maum_6                            : ITX-Maum 6Car
+STR_REFIT_LIVERY_ITX_Maum_8                            : ITX-Maum 8Car
 STR_REFIT_LIVERY_Bicheuro                              : Bicheuro
 STR_REFIT_LIVERY_BicheuroA                             : Bicheuro A
 STR_REFIT_LIVERY_BicheuroB                             : Bicheuro B
@@ -412,6 +417,20 @@ STR_REFIT_LIVERY_DEL7000_B                             : DEL7000_B
 STR_REFIT_LIVERY_DEL7000_C                             : DEL7000_C
 STR_REFIT_LIVERY_DEL7600                               : Orginal
 STR_REFIT_LIVERY_DEL7600_A_Train                       : A-Train
+STR_REFIT_LIVERY_Nuriro_Old                            : Nuriro Old
+STR_REFIT_LIVERY_Nuriro_New                            : Nuriro New
+STR_REFIT_LIVERY_Nuriro_A                              : Nuriro A
+STR_REFIT_LIVERY_Nuriro_B                              : Nuriro B
+STR_REFIT_LIVERY_Nuriro_AB                             : Nuriro Old+New
+STR_REFIT_LIVERY_Nuriro_AC                             : Nuriro Old+Raping A
+STR_REFIT_LIVERY_Nuriro_AD                             : Nuriro Old+Raping B
+STR_REFIT_LIVERY_Nuriro_BA                             : Nuriro New+Old
+STR_REFIT_LIVERY_Nuriro_BC                             : Nuriro New+Raping A
+STR_REFIT_LIVERY_Nuriro_BD                             : Nuriro New+Raping B
+STR_REFIT_LIVERY_Nuriro_CA                             : Nuriro Raping A+Old
+STR_REFIT_LIVERY_Nuriro_CB                             : Nuriro Raping A+New
+STR_REFIT_LIVERY_Nuriro_DA                             : Nuriro Raping B+Old
+STR_REFIT_LIVERY_Nuriro_DB                             : Nuriro Raping B+New
 STR_REFIT_LIVERY_NRT2_Old_C                            : Nuriro DD Old Company Color
 STR_REFIT_LIVERY_NRT2_New_C                            : Nuriro DD New Company Color
 STR_REFIT_LIVERY_NRT2_Old_OT                           : Nuriro DD O-train Livery
@@ -445,25 +464,35 @@ STR_REFIT_LIVERY_GT26CW_CY_GW                          : Chungbuk Yeongdong Guga
 STR_REFIT_LIVERY_GT26CW_LB                             : Lady Bird
 STR_REFIT_LIVERY_GT26CW_ST                             : S-Train
 STR_REFIT_LIVERY_GT26CW_G                              : G-Train
+STR_REFIT_LIVERY_KTX_1_A                               : KTX-1 A
+STR_REFIT_LIVERY_KTX_1_B                               : KTX-1 B
+STR_REFIT_LIVERY_KTX_1_C                               : KTX-1 C
 STR_REFIT_LIVERY_KTX_SC_A1                             : KTX-Sancheon Atype 1
 STR_REFIT_LIVERY_KTX_SC_A2                             : KTX-Sancheon Atype 2
 STR_REFIT_LIVERY_KTX_SC_B1                             : KTX-Sancheon Btype 1
 STR_REFIT_LIVERY_KTX_SC_B2                             : KTX-Sancheon Btype 2
-STR_REFIT_LIVERY_KTX_SC_SRT                            : SRT
-STR_REFIT_LIVERY_KTX_HN_B                              : KTX-Sancheon 120000 1
-STR_REFIT_LIVERY_KTX_HN_Y                              : KTX-Sancheon 120000 2
+STR_REFIT_LIVERY_KTX_SC_SRT                            : KTX-Sancheon 120000 1
+STR_REFIT_LIVERY_KTX_HN_B                              : KTX-Sancheon 120000 2
+STR_REFIT_LIVERY_KTX_HN_Y                              : KTX-Sancheon 120000 3
+STR_REFIT_LIVERY_KTX_SC_2cc                            : SRT 2cc
 STR_REFIT_LIVERY_KTX_GG_B                              : KTX-Gyeonggang Blue Livery
 STR_REFIT_LIVERY_KTX_GG_W                              : KTX-Gyeonggang White Livery
 STR_REFIT_LIVERY_KTX_SC_A1A2                           : KTX-Sancheon A1+A2
+STR_REFIT_LIVERY_KTX_SC_A1SRT                          : KTX-Sancheon A1+SRT
 STR_REFIT_LIVERY_KTX_SC_A1B1                           : KTX-Sancheon A1+B1
 STR_REFIT_LIVERY_KTX_SC_A1B2                           : KTX-Sancheon A1+B2
 STR_REFIT_LIVERY_KTX_SC_A2A1                           : KTX-Sancheon A2+A1
+STR_REFIT_LIVERY_KTX_SC_A2SRT                          : KTX-Sancheon A2+SRT
 STR_REFIT_LIVERY_KTX_SC_A2B1                           : KTX-Sancheon A2+B1
 STR_REFIT_LIVERY_KTX_SC_A2B2                           : KTX-Sancheon A2+B2
 STR_REFIT_LIVERY_KTX_SC_B1A1                           : KTX-Sancheon B1+A1
 STR_REFIT_LIVERY_KTX_SC_B1A2                           : KTX-Sancheon B1+A2
+STR_REFIT_LIVERY_KTX_SC_B1SRT                          : KTX-Sancheon B1+SRT
 STR_REFIT_LIVERY_KTX_SC_B2A1                           : KTX-Sancheon B2+A1
 STR_REFIT_LIVERY_KTX_SC_B2A2                           : KTX-Sancheon B2+A2
+STR_REFIT_LIVERY_KTX_SC_SRTA1                          : SRT+KTX-Sancheon A1
+STR_REFIT_LIVERY_KTX_SC_SRTA2                          : SRT+KTX-Sancheon A2
+STR_REFIT_LIVERY_KTX_SC_SRTB1                          : SRT+KTX-Sancheon B1
 STR_REFIT_LIVERY_NEL_8100_A                            : NEL 8100 A
 STR_REFIT_LIVERY_NEL_8100_B                            : NEL 8100 B
 STR_REFIT_LIVERY_Travel_8500                           : Orginal

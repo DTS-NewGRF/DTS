@@ -161,6 +161,9 @@ sort(FEAT_TRAINS, [
     EMU150_6Car,                             //2010
     EMU150_8Car,                             //2131
     EMU150_DD_6Car,                          //2011
+    Nuriro,                                  //2323
+    Nuriro_4Car,                             //2324
+    Nuriro_8Car,                             //2325
     NRT2_4Car,                               //2012
     ITX_SM2_6Car,                            //2013
     GT26CW,                                  //2014
@@ -222,6 +225,7 @@ sort(FEAT_TRAINS, [
     //고속열차 331
     EMU320_8Car,                             //2022
     EMU320_DD_8Car,                          //2023
+    KTX_1_20Car,                             //2322
     KTX_SC,                                  //2317
     KTX_SC_10Car,                            //2024
     KTX_SC_B_10Car,                          //2318
@@ -288,6 +292,7 @@ sort(FEAT_TRAINS, [
     HEMU_430X,                               //2205
     HEMU_430X_6Car,                          //2028
     HEMU_430X_8Car,                          //2127
+    Glory_430_10Car,                         //2321
     CR400AF,                                 //2206
     CR400AF_8Car,                            //2045
     CR400AF_16Car,                           //2148

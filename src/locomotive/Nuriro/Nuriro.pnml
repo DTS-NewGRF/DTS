@@ -1,0 +1,136 @@
+/*--------------------------------------------------------------------
+EMU
+--------------------------------------------------------------------*/
+// Graphics
+#include "Nuriro_graphic.pnml"
+
+// Switch
+#include "Nuriro_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Nuriro, 2323){
+    property {
+        name:                           string(STR_Group_Nuriro_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2000 kW;
+        }
+
+    graphics {
+        purchase:                       sw_Nuriro_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 4량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Nuriro_4Car, 2324){
+    property {
+        name:                           string(STR_Nuriro_4Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2008, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Nuriro;
+        
+        //spec
+        speed:                          151km/h;
+        power:                          2000 kW;
+        weight:                         136 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 66;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_Nuriro_4Car_reversed;
+        articulated_part:               sw_articulated_Nuriro_4Car;
+        purchase:                       sw_Nuriro_purchase;
+        speed:                          Regular_Speed_Train;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Nuriro_cargo_subtype_text;
+        sound_effect:                   sw_Nuriro_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 8량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Nuriro_8Car, 2325){
+    property {
+        name:                           string(STR_Nuriro_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2008, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Nuriro;
+        
+        //spec
+        speed:                          165km/h;
+        power:                          1000 kW;
+        weight:                         45 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 66;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_Nuriro_8Car_reversed;
+        articulated_part:               sw_articulated_Nuriro_8Car;
+        purchase:                       sw_Nuriro_purchase;
+        speed:                          Regular_Speed_Train;
+        cargo_subtype_text:             sw_Nuriro_Duble_cargo_subtype_text;
+        loading_speed:                  25;
+        sound_effect:                   sw_Nuriro_sound;
+        }
+        }

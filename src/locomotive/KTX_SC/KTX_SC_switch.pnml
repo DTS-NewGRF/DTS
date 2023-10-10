@@ -6,9 +6,10 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_KTX_SC_A2);  // KTX-산천 A타입 후기분
     2: return string(STR_REFIT_LIVERY_KTX_GG_B);   // KTX-경강 파랑도색
     3: return string(STR_REFIT_LIVERY_KTX_GG_W);   // KTX-경강 흰색도색
-    4: return string(STR_REFIT_LIVERY_KTX_SC_SRT); // SRT
+    4: return string(STR_REFIT_LIVERY_KTX_SC_SRT); // KTX-산천 120000호대 시안 1안
     5: return string(STR_REFIT_LIVERY_KTX_HN_B);   // KTX-산천 120000호대 시안 2안
     6: return string(STR_REFIT_LIVERY_KTX_HN_Y);   // KTX-산천 120000호대 시안 3안
+    7: return string(STR_REFIT_LIVERY_KTX_SC_2cc); // SRT 2cc
     return string(STR_REFIT_LIVERY_KTX_SC_A1);     // KTX-산천 A타입 초기분
 }
 
@@ -19,6 +20,10 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_cargo_subtype_text, cargo_subtype) {
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_KTX_SC_A2A1);  // KTX-산천 A2+A1
+    2: return string(STR_REFIT_LIVERY_KTX_SC_A1SRT); // KTX-산천 A1+SRT
+    3: return string(STR_REFIT_LIVERY_KTX_SC_A2SRT); // KTX-산천 A2+SRT
+    4: return string(STR_REFIT_LIVERY_KTX_SC_SRTA1); // SRT+KTX-산천 A1
+    5: return string(STR_REFIT_LIVERY_KTX_SC_SRTA2); // SRT+KTX-산천 A2
     return string(STR_REFIT_LIVERY_KTX_SC_A1A2);     // KTX-산천 A1+A2
 }
 
@@ -30,209 +35,231 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_cargo_subtype_text, cargo_subtype) 
     5: return string(STR_REFIT_LIVERY_KTX_SC_B1A2);  // KTX-산천 B1+A2
     6: return string(STR_REFIT_LIVERY_KTX_SC_B2A1);  // KTX-산천 B2+A1
     7: return string(STR_REFIT_LIVERY_KTX_SC_B2A2);  // KTX-산천 B2+A2
+    8: return string(STR_REFIT_LIVERY_KTX_SC_B1SRT); // KTX-산천 B1+SRT
+    9: return string(STR_REFIT_LIVERY_KTX_SC_SRTB1); // SRT+KTX-산천 B1
     return string(STR_REFIT_LIVERY_KTX_SC_A1B1);     // KTX-산천 A1+B1
 }
 
 // 10량
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_engineH, cargo_subtype) {
-    1: set_KTX_SC_A2_engineH;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_engineH;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_engineH;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_engineH; // SRT
-    5: set_KTX_HN_B_engineH;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_engineH;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_engineH;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_engineH;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_engineH;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_engineH;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_engineH;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_engineH;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_engineH;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_engineH; // SRT 2cc
+    set_KTX_SC_A1_engineH;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_1, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T1;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T1;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T1;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T1; // SRT
-    5: set_KTX_HN_B_wagon_T1;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T1;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T1;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T1;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T1;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T1;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T1;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T1;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T1;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T1; // SRT 2cc
+    set_KTX_SC_A1_wagon_T1;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_2, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T2;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T2;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T2;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T2; // SRT
-    5: set_KTX_HN_B_wagon_T2;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T2;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T2;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T2;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T2;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T2;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T2;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T2;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T2;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T2; // SRT 2cc
+    set_KTX_SC_A1_wagon_T2;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_3, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T3;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T3;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T3;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T3; // SRT
-    5: set_KTX_HN_B_wagon_T3;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T3;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T3;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T3;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T3;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T3;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T3;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T3;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T3;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T3; // SRT 2cc
+    set_KTX_SC_A1_wagon_T3;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_4, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T4;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T4;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T4;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T4; // SRT
-    5: set_KTX_HN_B_wagon_T4;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T4;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T4;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T4;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T4;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T4;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T4;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T4;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T4;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T4; // SRT 2cc
+    set_KTX_SC_A1_wagon_T4;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_5, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T5;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T5;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T5;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T5; // SRT
-    5: set_KTX_HN_B_wagon_T5;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T5;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T5;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T5;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T5;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T5;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T5;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T5;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T5;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T5; // SRT 2cc
+    set_KTX_SC_A1_wagon_T5;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_6, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T5;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T5;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T5;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T5; // SRT
-    5: set_KTX_HN_B_wagon_T5;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T5;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T5;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T5;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T5;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T5;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T5;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T5;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T5;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T5; // SRT 2cc
+    set_KTX_SC_A1_wagon_T5;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_7, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T6;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T4;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T4;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T4; // SRT
-    5: set_KTX_HN_B_wagon_T4;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T4;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T6;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T6;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T4;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T4;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T4;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T4;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T4;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T4; // SRT 2cc
+    set_KTX_SC_A1_wagon_T6;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_8, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T7;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T6;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T6;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T6; // SRT
-    5: set_KTX_HN_B_wagon_T6;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T6;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T7;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T7;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T6;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T6;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T6;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T6;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T6;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T6; // SRT 2cc
+    set_KTX_SC_A1_wagon_T7;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_engineT, cargo_subtype) {
-    1: set_KTX_SC_A2_engineT;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_engineT;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_engineT;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_engineT; // SRT
-    5: set_KTX_HN_B_engineT;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_engineT;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_engineT;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_engineT;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_engineT;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_engineT;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_engineT;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_engineT;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_engineT;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_engineT; // SRT 2cc
+    set_KTX_SC_A1_engineT;         // KTX-산천 A타입 초기분
 }
 
 // 10량 뒤집힘
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_engineH_r, cargo_subtype) {
-    1: set_KTX_SC_A2_engineH_r;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_engineH_r;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_engineH_r;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_engineH_r; // SRT
-    5: set_KTX_HN_B_engineH_r;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_engineH_r;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_engineH_r;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_engineH_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_engineH_r;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_engineH_r;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_engineH_r;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_engineH_r;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_engineH_r;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_engineH_r; // SRT 2cc
+    set_KTX_SC_A1_engineH_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_1_r, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T1_r;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T1_r;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T1_r;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T1_r; // SRT
-    5: set_KTX_HN_B_wagon_T1_r;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T1_r;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T1_r;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T1_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T1_r;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T1_r;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T1_r;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T1_r;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T1_r;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T1_r; // SRT 2cc
+    set_KTX_SC_A1_wagon_T1_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_2_r, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T2_r;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T2_r;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T2_r;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T2_r; // SRT
-    5: set_KTX_HN_B_wagon_T2_r;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T2_r;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T2_r;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T2_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T2_r;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T2_r;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T2_r;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T2_r;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T2_r;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T2_r; // SRT 2cc
+    set_KTX_SC_A1_wagon_T2_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_3_r, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T3_r;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T3_r;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T3_r;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T3_r; // SRT
-    5: set_KTX_HN_B_wagon_T3_r;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T3_r;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T3_r;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T3_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T3_r;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T3_r;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T3_r;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T3_r;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T3_r;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T3_r; // SRT 2cc
+    set_KTX_SC_A1_wagon_T3_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_4_r, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T4_r;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T4_r;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T4_r;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T4_r; // SRT
-    5: set_KTX_HN_B_wagon_T4_r;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T4_r;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T4_r;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T4_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T4_r;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T4_r;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T4_r;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T4_r;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T4_r;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T4_r; // SRT 2cc
+    set_KTX_SC_A1_wagon_T4_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_5_r, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T5_r;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T5_r;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T5_r; // SRT
-    5: set_KTX_HN_B_wagon_T5_r;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T5_r;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T5_r;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T5_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T5_r;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T5_r;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T5_r;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T5_r;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T5_r;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T5_r; // SRT 2cc
+    set_KTX_SC_A1_wagon_T5_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_6_r, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T5_r;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T5_r;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T5_r; // SRT
-    5: set_KTX_HN_B_wagon_T5_r;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T5_r;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T5_r;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T5_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T5_r;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T5_r;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T5_r;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T5_r;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T5_r;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T5_r; // SRT 2cc
+    set_KTX_SC_A1_wagon_T5_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_7_r, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T6_r;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T4_r;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T4_r;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T4_r; // SRT
-    5: set_KTX_HN_B_wagon_T4_r;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T4_r;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T6_r;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T6_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T4_r;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T4_r;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T4_r;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T4_r;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T4_r;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T4_r; // SRT 2cc
+    set_KTX_SC_A1_wagon_T6_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_wagon_8_r, cargo_subtype) {
-    1: set_KTX_SC_A2_wagon_T7_r;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_wagon_T6_r;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_wagon_T6_r;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_wagon_T6_r; // SRT
-    5: set_KTX_HN_B_wagon_T6_r;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_wagon_T6_r;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_wagon_T7_r;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_wagon_T7_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_wagon_T6_r;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_wagon_T6_r;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_wagon_T6_r;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_wagon_T6_r;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_wagon_T6_r;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_wagon_T6_r; // SRT 2cc
+    set_KTX_SC_A1_wagon_T7_r;         // KTX-산천 A타입 초기분
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_engineT_r, cargo_subtype) {
-    1: set_KTX_SC_A2_engineT_r;  // KTX-산천 A타입 후기분
-    2: set_KTX_GG_B_engineT_r;   // KTX-경강 파랑도색
-    3: set_KTX_GG_W_engineT_r;   // KTX-경강 흰색도색
-    4: set_KTX_SC_SRT_engineT_r; // SRT
-    5: set_KTX_HN_B_engineT_r;   // KTX-산천 120000호대 시안 2안
-    6: set_KTX_HN_Y_engineT_r;   // KTX-산천 120000호대 시안 3안
-    set_KTX_SC_A1_engineT_r;     // KTX-산천 A타입 초기분
+    1: set_KTX_SC_A2_engineT_r;      // KTX-산천 A타입 후기분
+    2: set_KTX_GG_B_engineT_r;       // KTX-경강 파랑도색
+    3: set_KTX_GG_W_engineT_r;       // KTX-경강 흰색도색
+    4: set_KTX_SC_SRT_engineT_r;     // KTX-산천 120000호대 시안 1안
+    5: set_KTX_HN_B_engineT_r;       // KTX-산천 120000호대 시안 2안
+    6: set_KTX_HN_Y_engineT_r;       // KTX-산천 120000호대 시안 3안
+    7: set_KTX_SC_SRT_2cc_engineT_r; // SRT 2cc
+    set_KTX_SC_A1_engineT_r;         // KTX-산천 A타입 초기분
 }
 
 // 10량 B타입
@@ -340,202 +367,362 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_B_engineT_r, cargo_subtype) {
 // 20량 A1+A2
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_engineH, cargo_subtype) {
     1: set_KTX_SC_A2_engineH;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_engineH;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_engineH;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_engineH; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_engineH; // SRT+KTX-산천 A2   
     set_KTX_SC_A1_engineH;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_2, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T1;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T1;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T1;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T1; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T1; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T1;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_3, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T2;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T2;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T2;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T2; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T2; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T2;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_4, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T3;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T3;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T3;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T3; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T3; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T3;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_5, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T4;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T4;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T4;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T4; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T4; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T4;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_6, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T5;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T5;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T5;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T5; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T5; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T5;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_7, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T5;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T5;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T5;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T5; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T5; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T5;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_8, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T6;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T6;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T6;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T4; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T4; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T6;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_9, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T7;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T7;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T7;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T6; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T6; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T7;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_10, cargo_subtype) {
     1: set_KTX_SC_A2_engineT;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_engineT;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_engineT;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_engineT; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_engineT; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_engineT;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_PCM, cargo_subtype) {
     1: set_KTX_SC_A1_engine_PCM;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_engine_PCM; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_engine_PCM; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_engine_PCM;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_engine_PCM;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_engine_PCM;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_12, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T1;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T1; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T1; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T1;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T1;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T1;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_13, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T2;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T2; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T2; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T2;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T2;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T2;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_14, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T3;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T3; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T3; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T3;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T3;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T3;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_15, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T4;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T4; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T4; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T4;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T4;  // SRT+KTX-산천 A2  
     set_KTX_SC_A2_wagon_T4;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_16, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T5;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T5; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T5; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T5;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T5;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T5;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_17, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T5;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T5; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T5; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T5;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T5;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T5;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_18, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T6;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T4; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T4; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T6;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T6;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T6;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_19, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T7;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T6; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T6; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T7;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T7;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T7;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_engineT, cargo_subtype) {
     1: set_KTX_SC_A1_engineT;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_engineT; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_engineT; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_engineT;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_engineT;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_engineT;     // KTX-산천 A1+A2
 }
 
 // 20량 뒤집힘 A1+A2
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_engineH_r, cargo_subtype) {
     1: set_KTX_SC_A2_engineH_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_engineH_r;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_engineH_r;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_engineH_r; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_engineH_r; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_engineH_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_2_r, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T1_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T1_r;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T1_r;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T1_r; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T1_r; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T1_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_3_r, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T2_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T2_r;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T2_r;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T2_r; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T2_r; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T2_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_4_r, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T3_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T3_r;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T3_r;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T3_r; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T3_r; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T3_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_5_r, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T4_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T4_r;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T4_r;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T4_r; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T4_r; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T4_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_6_r, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T5_r; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T5_r; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T5_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_7_r, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T5_r; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T5_r; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T5_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_8_r, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T6_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T6_r;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T6_r;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T4_r; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T4_r; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T6_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_9_r, cargo_subtype) {
     1: set_KTX_SC_A2_wagon_T7_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_wagon_T7_r;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_wagon_T7_r;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_wagon_T6_r; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_wagon_T6_r; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_wagon_T7_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_A_SC_20Car_PCMD, cargo_subtype) {
     1: set_KTX_SC_A2_engine_PCMD;  // KTX-산천 A2+A1
+    2: set_KTX_SC_A1_engine_PCMD;  // KTX-산천 A1+SRT
+    3: set_KTX_SC_A2_engine_PCMD;  // KTX-산천 A2+SRT
+    4: set_KTX_SC_SRT_engine_PCMD; // SRT+KTX-산천 A1
+    5: set_KTX_SC_SRT_engine_PCMD; // SRT+KTX-산천 A2 
     set_KTX_SC_A1_engine_PCMD;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_11_r, cargo_subtype) {
     1: set_KTX_SC_A1_engineH_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_engineH_r; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_engineH_r; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_engineH_r;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_engineH_r;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_engineH_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_12_r, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T1_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T1_r; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T1_r; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T1_r;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T1_r;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T1_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_13_r, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T2_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T2_r; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T2_r; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T2_r;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T2_r;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T2_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_14_r, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T3_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T3_r; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T3_r; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T3_r;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T3_r;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T3_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_15_r, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T4_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T4_r; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T4_r; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T4_r;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T4_r;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T4_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_16_r, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T5_r; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T5_r; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T5_r;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T5_r;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T5_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_17_r, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T5_r; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T5_r; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T5_r;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T5_r;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T5_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_18_r, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T6_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T4_r; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T4_r; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T6_r;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T6_r;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T6_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_wagon_19_r, cargo_subtype) {
     1: set_KTX_SC_A1_wagon_T7_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_wagon_T6_r; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_wagon_T6_r; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_wagon_T7_r;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_wagon_T7_r;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_wagon_T7_r;     // KTX-산천 A1+A2
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_A_20Car_engineT_r, cargo_subtype) {
     1: set_KTX_SC_A1_engineT_r;  // KTX-산천 A2+A1
+    2: set_KTX_SC_SRT_engineT_r; // KTX-산천 A1+SRT
+    3: set_KTX_SC_SRT_engineT_r; // KTX-산천 A2+SRT
+    4: set_KTX_SC_A1_engineT_r;  // SRT+KTX-산천 A1
+    5: set_KTX_SC_A2_engineT_r;  // SRT+KTX-산천 A2 
     set_KTX_SC_A2_engineT_r;     // KTX-산천 A1+A2
 }
 
@@ -548,6 +735,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_engineH, cargo_subtype) {
     5: set_KTX_SC_B1_engineH;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_engineH;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_engineH;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_engineH;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_engineH; // SRT+KTX-산천 B1
     set_KTX_SC_A1_engineH;     // KTX-산천 A1+B1
 }
 
@@ -559,6 +748,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_2, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T1;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T1;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T1;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T1;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T1; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T1;     // KTX-산천 A1+B1
 }
 
@@ -570,6 +761,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_3, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T2;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T2;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T2;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T2;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T2; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T2;     // KTX-산천 A1+B1
 }
 
@@ -581,6 +774,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_4, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T3;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T3;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T3;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T3;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T3; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T3;     // KTX-산천 A1+B1
 }
 
@@ -592,6 +787,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_5, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T4;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T4;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T4;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T4;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T4; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T4;     // KTX-산천 A1+B1
 }
 
@@ -603,6 +800,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_6, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T5;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T5;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T5;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T5;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T5; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T5;     // KTX-산천 A1+B1
 }
 
@@ -614,6 +813,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_7, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T5;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T5;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T5;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T5;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T5; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T5;     // KTX-산천 A1+B1
 }
 
@@ -625,6 +826,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_8, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T4;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T4;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T4;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T4;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T4; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T6;     // KTX-산천 A1+B1
 }
 
@@ -636,6 +839,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_9, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T6;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T6;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T6;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T6;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T6; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T7;     // KTX-산천 A1+B1
 }
 
@@ -647,6 +852,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_10, cargo_subtype) {
     5: set_KTX_SC_B1_engineT;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_engineT;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_engineT;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_engineT;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_engineT; // SRT+KTX-산천 B1
     set_KTX_SC_A1_engineT;     // KTX-산천 A1+B1
 }
 
@@ -658,6 +865,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_PCM, cargo_subtype) {
     5: set_KTX_SC_A2_engine_PCM;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_engine_PCM;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_engine_PCM;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_engine_PCM; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_engine_PCM;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_engine_PCM;     // KTX-산천 A1+B1
 }
 
@@ -669,6 +878,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_12, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T1;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T1;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T1;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T1; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T1;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T1;     // KTX-산천 A1+B1
 }
 
@@ -680,6 +891,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_13, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T2;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T2;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T2;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T2; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T2;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T2;     // KTX-산천 A1+B1
 }
 
@@ -691,6 +904,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_14, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T3;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T3;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T3;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T3; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T3;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T3;     // KTX-산천 A1+B1
 }
 
@@ -702,6 +917,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_15, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T4;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T4;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T4;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T4; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T4;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T4;     // KTX-산천 A1+B1
 }
 
@@ -713,6 +930,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_16, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T5;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T5;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T5;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T5; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T5;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T5;     // KTX-산천 A1+B1
 }
 
@@ -724,6 +943,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_17, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T5;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T5;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T5;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T5; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T5;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T5;     // KTX-산천 A1+B1
 }
 
@@ -735,6 +956,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_18, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T6;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T6;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T6;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T4; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T4;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T4;     // KTX-산천 A1+B1
 }
 
@@ -746,6 +969,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_19, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T7;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T7;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T7;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T6; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T6;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T6;     // KTX-산천 A1+B1
 }
 
@@ -757,6 +982,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_engineT, cargo_subtype) {
     5: set_KTX_SC_A2_engineT;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_engineT;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_engineT;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_engineT; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_engineT;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_engineT;     // KTX-산천 A1+B1
 }
 
@@ -769,6 +996,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_engineH_r, cargo_subtype) {
     5: set_KTX_SC_B1_engineH_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_engineH_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_engineH_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_engineH_r;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_engineH_r; // SRT+KTX-산천 B1
     set_KTX_SC_A1_engineH_r;     // KTX-산천 A1+B1
 }
 
@@ -780,6 +1009,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_2_r, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T1_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T1_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T1_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T1_r;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T1_r; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T1_r;     // KTX-산천 A1+B1
 }
 
@@ -791,6 +1022,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_3_r, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T2_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T2_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T2_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T2_r;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T2_r; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T2_r;     // KTX-산천 A1+B1
 }
 
@@ -802,6 +1035,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_4_r, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T3_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T3_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T3_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T3_r;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T3_r; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T3_r;     // KTX-산천 A1+B1
 }
 
@@ -813,6 +1048,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_5_r, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T4_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T4_r;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T4_r; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T4_r;     // KTX-산천 A1+B1
 }
 
@@ -824,6 +1061,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_6_r, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T5_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T5_r;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T5_r; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T5_r;     // KTX-산천 A1+B1
 }
 
@@ -835,6 +1074,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_7_r, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T5_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T5_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T5_r;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T5_r; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T5_r;     // KTX-산천 A1+B1
 }
 
@@ -846,6 +1087,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_8_r, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T4_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T4_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T4_r;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T4_r; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T6_r;     // KTX-산천 A1+B1
 }
 
@@ -857,6 +1100,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_9_r, cargo_subtype) {
     5: set_KTX_SC_B1_wagon_T6_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_wagon_T6_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_wagon_T6_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_wagon_T6_r;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_wagon_T6_r; // SRT+KTX-산천 B1
     set_KTX_SC_A1_wagon_T7_r;     // KTX-산천 A1+B1
 }
 
@@ -868,6 +1113,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_PCMD, cargo_subtype) {
     5: set_KTX_SC_B1_engine_PCMD;  // KTX-산천 B1+A2
     6: set_KTX_SC_B2_engine_PCMD;  // KTX-산천 B2+A1
     7: set_KTX_SC_B2_engine_PCMD;  // KTX-산천 B2+A2
+    8: set_KTX_SC_B1_engine_PCMD;  // KTX-산천 B1+SRT
+    9: set_KTX_SC_SRT_engine_PCMD; // SRT+KTX-산천 B1
     set_KTX_SC_A1_engine_PCMD;     // KTX-산천 A1+B1
 }
 
@@ -879,6 +1126,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_11_r, cargo_subtype) {
     5: set_KTX_SC_A2_engineH_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_engineH_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_engineH_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_engineH_r; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_engineH_r;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_engineH_r;     // KTX-산천 A1+B1
 }
 
@@ -890,6 +1139,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_12_r, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T1_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T1_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T1_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T1_r; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T1_r;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T1_r;     // KTX-산천 A1+B1
 }
 
@@ -901,6 +1152,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_13_r, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T2_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T2_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T2_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T2_r; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T2_r;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T2_r;     // KTX-산천 A1+B1
 }
 
@@ -912,6 +1165,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_14_r, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T3_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T3_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T3_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T3_r; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T3_r;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T3_r;     // KTX-산천 A1+B1
 }
 
@@ -923,6 +1178,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_15_r, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T4_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T4_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T4_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T4_r; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T4_r;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T4_r;     // KTX-산천 A1+B1
 }
 
@@ -934,6 +1191,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_16_r, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T5_r; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T5_r;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T5_r;     // KTX-산천 A1+B1
 }
 
@@ -945,6 +1204,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_17_r, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T5_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T5_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T5_r; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T5_r;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T5_r;     // KTX-산천 A1+B1
 }
 
@@ -956,6 +1217,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_18_r, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T6_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T6_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T6_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T4_r; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T4_r;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T4_r;     // KTX-산천 A1+B1
 }
 
@@ -967,6 +1230,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_wagon_19_r, cargo_subtype) {
     5: set_KTX_SC_A2_wagon_T7_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_wagon_T7_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_wagon_T7_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_wagon_T6_r; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_wagon_T6_r;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_wagon_T6_r;     // KTX-산천 A1+B1
 }
 
@@ -978,6 +1243,8 @@ switch(FEAT_TRAINS, SELF, sw_KTX_SC_AB_20Car_engineT_r, cargo_subtype) {
     5: set_KTX_SC_A2_engineT_r;  // KTX-산천 B1+A2
     6: set_KTX_SC_A1_engineT_r;  // KTX-산천 B2+A1
     7: set_KTX_SC_A2_engineT_r;  // KTX-산천 B2+A2
+    8: set_KTX_SC_SRT_engineT_r; // KTX-산천 B1+SRT
+    9: set_KTX_SC_B1_engineT_r;  // SRT+KTX-산천 B1
     set_KTX_SC_B1_engineT_r;     // KTX-산천 A1+B1
 }
 

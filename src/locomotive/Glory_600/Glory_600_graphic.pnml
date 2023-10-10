@@ -9,8 +9,12 @@ alternative_sprites(set_Glory_600_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, 
     tmpl_purchase(0, 0)
 }
 
+spriteset(set_Glory_430_purchase, "src/locomotive/Glory_600/Glory_600.png"){
+    tmpl_purchase(0, 0)
+}
+
 /*--------------------------------------------------------------------
-1. Glory 600
+Glory 600
 --------------------------------------------------------------------*/
 spriteset(set_Glory_600_engineH, "src/locomotive/Glory_600/Glory_600.png"){
     engine(80, 0)
@@ -25,7 +29,7 @@ spriteset(set_Glory_600_engineT, "src/locomotive/Glory_600/Glory_600.png"){
 }
 
 /*--------------------------------------------------------------------
-1-1. Glory 600 32bpp
+Glory 600 32bpp
 --------------------------------------------------------------------*/
 alternative_sprites(set_Glory_600_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory_600/Glory_600_32bpp.png"){
     engine(80, 0)
@@ -40,8 +44,27 @@ alternative_sprites(set_Glory_600_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "
 }
 
 /*--------------------------------------------------------------------
+Glory 430
+--------------------------------------------------------------------*/
+spriteset(set_Glory_430_engineH, "src/locomotive/Glory_600/Glory_600.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Glory_430_wagon, "src/locomotive/Glory_600/Glory_600.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Glory_430_engineT, "src/locomotive/Glory_600/Glory_600.png"){
+    engine(80, 54)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Glory_600_purchase, cargo_subtype) {
-	set_Glory_600_purchase;
+    set_Glory_600_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Glory_430_purchase, cargo_subtype) {
+    set_Glory_430_purchase;
 }

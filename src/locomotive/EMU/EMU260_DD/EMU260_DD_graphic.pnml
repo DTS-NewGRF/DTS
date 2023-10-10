@@ -53,45 +53,45 @@ spriteset(set_EMU260_DD_engineT, "src/locomotive/EMU/EMU260_DD/EMU260_DD.png"){
 }
 
 /*--------------------------------------------------------------------
-EMU260_DD 32bpp
+EMU260_DD 32bpp + 2cc
 --------------------------------------------------------------------*/
-alternative_sprites(set_EMU260_DD_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png"){
+alternative_sprites(set_EMU260_DD_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png", "src/locomotive/EMU/EMU260_DD/EMU260_DD_2CC.png"){
     engine(80, 0)
 }
 
-alternative_sprites(set_EMU260_DD_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png"){
+alternative_sprites(set_EMU260_DD_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png", "src/locomotive/EMU/EMU260_DD/EMU260_DD_2CC.png"){
     engine(80, 27)
 }
 
-alternative_sprites(set_EMU260_DD_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png"){
+alternative_sprites(set_EMU260_DD_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png", "src/locomotive/EMU/EMU260_DD/EMU260_DD_2CC.png"){
     wagon_1F_F(80, 54)
 }
 
-alternative_sprites(set_EMU260_DD_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png"){
+alternative_sprites(set_EMU260_DD_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png", "src/locomotive/EMU/EMU260_DD/EMU260_DD_2CC.png"){
     wagon_1F_F(80, 81)
 }
 
-alternative_sprites(set_EMU260_DD_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png") {
+alternative_sprites(set_EMU260_DD_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png", "src/locomotive/EMU/EMU260_DD/EMU260_DD_2CC.png") {
     wagon_1F_F(80, 108)
 }
 
-alternative_sprites(set_EMU260_DD_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png") {
+alternative_sprites(set_EMU260_DD_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png", "src/locomotive/EMU/EMU260_DD/EMU260_DD_2CC.png") {
     wagon_1F_F_r(80, 108)
 }
 
-alternative_sprites(set_EMU260_DD_wagon_M3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png"){
+alternative_sprites(set_EMU260_DD_wagon_M3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png", "src/locomotive/EMU/EMU260_DD/EMU260_DD_2CC.png"){
     wagon_1F_F(80, 135)
 }
 
-alternative_sprites(set_EMU260_DD_wagon_M3_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png"){
+alternative_sprites(set_EMU260_DD_wagon_M3_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png", "src/locomotive/EMU/EMU260_DD/EMU260_DD_2CC.png"){
     wagon_1F_F(80, 162)
 }
 
-alternative_sprites(set_EMU260_DD_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png"){
+alternative_sprites(set_EMU260_DD_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png", "src/locomotive/EMU/EMU260_DD/EMU260_DD_2CC.png"){
     engine(80, 189)
 }
 
-alternative_sprites(set_EMU260_DD_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png"){
+alternative_sprites(set_EMU260_DD_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/EMU/EMU260_DD/EMU260_DD_32bpp.png", "src/locomotive/EMU/EMU260_DD/EMU260_DD_2CC.png"){
     engine(80, 216)
 }
 

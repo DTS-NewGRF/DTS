@@ -242,6 +242,81 @@ spriteset(set_KTX_SC_SRT_engineT, "src/locomotive/KTX_SC/KTX_SC_SRT.png"){
     engine(80, 243)
 }
 
+spriteset(set_KTX_SC_SRT_engine_PCM, "src/locomotive/KTX_SC/KTX_SC_SRT.png"){
+    engine(80, 270)
+}
+
+spriteset(set_KTX_SC_SRT_engine_PCMD, "src/locomotive/KTX_SC/KTX_SC_SRT.png"){
+    engine(80, 297)
+}
+
+/*--------------------------------------------------------------------
+SRT 2cc
+--------------------------------------------------------------------*/
+spriteset(set_KTX_SC_SRT_2cc_engineH, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png"){
+    engine(80, 0)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_engineH_r, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png"){
+    engine(80, 27)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_wagon_T1, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_wagon_T1_r, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_wagon_T2, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_wagon_T2_r, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_wagon_T3, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_wagon_T3_r, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_wagon_T4, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_wagon_T4_r, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_wagon_T5, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_wagon_T5_r, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_wagon_T6, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png"){
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_wagon_T6_r, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png"){
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_engineT_r, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png"){
+    engine(80, 216)
+}
+
+spriteset(set_KTX_SC_SRT_2cc_engineT, "src/locomotive/KTX_SC/KTX_SC_SRT_2cc.png"){
+    engine(80, 243)
+}
+
 /*--------------------------------------------------------------------
 KTX-Honam Sky blue Livery
 --------------------------------------------------------------------*/
