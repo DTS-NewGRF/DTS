@@ -46,6 +46,9 @@ STR_Group_HSR_350X_NAME                                :[DTS] HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[DTS/7량] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[DTS/14량] HSR-350X
 STR_ICE_CW_8Car_NAME                                   :[DTS/8량] ITX-초월
+STR_Group_ITX_SM_NAME                                  :[DTS] ITX-새마을
+STR_ITX_SM_6Car_NAME                                   :[DTS/6량] ITX-새마을
+STR_ITX_SM_8Car_NAME                                   :[DTS/8량] ITX-새마을
 STR_ITX_SM2_6Car_NAME                                  :[DTS/6량] ITX-새마을 DD
 STR_KTX_1_20Car_NAME                                   :[DTS/20량] KTX-1
 STR_Group_KTX_SC_NAME                                  :[DTS] KTX-산천
@@ -440,6 +443,7 @@ STR_REFIT_LIVERY_EMU260MD                              : HEMU-250 시안
 STR_REFIT_LIVERY_EMU260SM1                             : EMU-260 새마을 초기 도색
 STR_REFIT_LIVERY_EMU260SM2                             : EMU-260 새마을 중기 도색
 STR_REFIT_LIVERY_EMU260SM3                             : EMU-260 새마을 후기 도색
+STR_REFIT_LIVERY_EMU260                                : EMU-260
 STR_REFIT_LIVERY_EMU320_CC                             : EMU-320 회사색상
 STR_REFIT_LIVERY_EMU320_BK                             : EMU-320 시안
 STR_REFIT_LIVERY_EMU320_SRT_A                          : EMU-320 SRT 시안 1안
@@ -453,6 +457,7 @@ STR_REFIT_LIVERY_EMU320_THRS                           : EMU-320 THRS
 STR_REFIT_LIVERY_EMU320_JR                             : EMU-320 JR
 STR_REFIT_LIVERY_EMU320_DD_CC                          : EMU-320 DD 회사 색상
 STR_REFIT_LIVERY_EMU320_DD_BK                          : EMU-320 DD 검정 도색
+STR_REFIT_LIVERY_EMU320                                : EMU-320
 STR_REFIT_LIVERY_GT26CW                                : 현도색 객화겸용
 STR_REFIT_LIVERY_GT26CW_A                              : 구도색
 STR_REFIT_LIVERY_GT26CW_B                              : 초기도색 화물

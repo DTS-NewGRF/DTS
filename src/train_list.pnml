@@ -25,6 +25,7 @@
 #include "locomotive/HEMU_430X/HEMU_430X.pnml"
 #include "locomotive/HSR_350X/HSR_350X.pnml"
 #include "locomotive/ITX_CW/ITX_CW.pnml"
+#include "locomotive/ITX_SM/ITX_SM.pnml"
 #include "locomotive/ITX_SM2/ITX_SM2.pnml"
 #include "locomotive/KTX_1/KTX_1.pnml"
 #include "locomotive/KTX_SC/KTX_SC.pnml"

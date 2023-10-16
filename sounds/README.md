@@ -138,6 +138,7 @@
 ### TOSHIBASicStart.wav
 - 니시테츠 9000형
 - GTX
+- 우진산전 수소연료전지동차
 
 ### TOSHIBAStart.wav
 - ITX-새마을 DD, ITX-초월, TTX
@@ -152,7 +153,6 @@
 - 한큐 9300형
 
 ### WOOJINMITSUBISHIIGBTstart.wav
-- 우진산전 수소연료전지동차
 - 한국철도공사 5세대 VVVF전동차
 
 ### WOOJINTOSHIBAIGBTstart.wav

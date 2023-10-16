@@ -1,0 +1,72 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_ITX_SM_purchase, "src/locomotive/ITX_SM/ITX_SM.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+ITX-SM
+--------------------------------------------------------------------*/
+spriteset(set_ITX_SM_engineH, "src/locomotive/ITX_SM/ITX_SM.png"){
+    engine(80, 0)
+}
+
+spriteset(set_ITX_SM_engineH_r, "src/locomotive/ITX_SM/ITX_SM.png"){
+    engine(80, 27)
+}
+
+spriteset(set_ITX_SM_panto_wagon_M1, "src/locomotive/ITX_SM/ITX_SM.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_ITX_SM_panto_wagon_M1_r, "src/locomotive/ITX_SM/ITX_SM.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_ITX_SM_wagon_M, "src/locomotive/ITX_SM/ITX_SM.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_ITX_SM_wagon_M_r, "src/locomotive/ITX_SM/ITX_SM.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_ITX_SM_wagon_TM, "src/locomotive/ITX_SM/ITX_SM.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_ITX_SM_wagon_TM_r, "src/locomotive/ITX_SM/ITX_SM.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_ITX_SM_wagon_DUP, "src/locomotive/ITX_SM/ITX_SM.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_ITX_SM_wagon_DUP_r, "src/locomotive/ITX_SM/ITX_SM.png") {
+    wagon_1F_F_r(80, 162)
+}
+
+spriteset(set_ITX_SM_panto_wagon_M2, "src/locomotive/ITX_SM/ITX_SM.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_ITX_SM_panto_wagon_M2_r, "src/locomotive/ITX_SM/ITX_SM.png") {
+    wagon_1F_F(80, 216)
+}
+
+spriteset(set_ITX_SM_engineT_r, "src/locomotive/ITX_SM/ITX_SM.png"){
+    engine(80, 243)
+}
+
+spriteset(set_ITX_SM_engineT, "src/locomotive/ITX_SM/ITX_SM.png"){
+    engine(80, 270)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_ITX_SM_purchase, cargo_subtype) {
+    set_ITX_SM_purchase;
+}

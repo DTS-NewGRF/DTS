@@ -165,6 +165,9 @@ sort(FEAT_TRAINS, [
     Nuriro_4Car,                             //2324
     Nuriro_8Car,                             //2325
     NRT2_4Car,                               //2012
+    ITX_SM,                                  //2326
+    ITX_SM_6Car,                             //2327
+    ITX_SM_8Car,                             //2328
     ITX_SM2_6Car,                            //2013
     GT26CW,                                  //2014
     DEL7000,                                 //2298
