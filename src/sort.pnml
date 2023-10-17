@@ -322,14 +322,18 @@ sort(FEAT_TRAINS, [
 
     //객차
     Travel_wagon,                            //2210
+    Eco_Rail,                                //2329
     Eco_Rail_Passenger_Car,                  //2157
+    Eco_Rail_Passenger_5Car,                 //2330
     CY_GW_Passenger_Car,                     //2001
     JA_A_Passenger_Car,                      //2158
     E_Train_Passenger_Car,                   //2159
     Wine_Panax_Passenger_Car,                //2160
     Wine_Cinema_Passenger_Car,               //2161
     Lady_Bird_Passenger_Car,                 //2162
-    S_Train_New_Passenger_Car,               //2163
+    S_Train,                                 //2331
+    S_Train_New_4Car,                        //2332
+    S_Train_New_5Car,                        //2163
     A_Train_New_Passenger_Car,               //2164
     G_Train_New_Passenger_Car,               //2002
     Coach_2F,                                //2106

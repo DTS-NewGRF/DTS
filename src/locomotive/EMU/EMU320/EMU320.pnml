@@ -33,7 +33,7 @@ item(FEAT_TRAINS, EMU320_8Car, 2022){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 58;
+        cargo_capacity:                 65;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];

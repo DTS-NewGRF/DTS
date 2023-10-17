@@ -316,28 +316,32 @@ STR_Hankyu_9300_8Car_NAME                              :[DTS/8량] 한큐전철 
 
 # wagon's name
 STR_Group_Travel_wagon_NAME                            :[DTS] 관광열차
-STR_Eco_Rail_NAME                                      :[DTS/관광객차] 에코레일
-STR_CY_GW_NAME                                         :[DTS/관광객차] 충북영동국악와인
-STR_JA_a_NAME                                          :[DTS/관광객차] 정선아리랑 유람열차
-STR_E_Train_NAME                                       :[DTS/관광객차] E-Train
-STR_Wine_Panax_NAME                                    :[DTS/관광객차] 와인인삼트레인
-STR_Wine_Cinema_NAME                                   :[DTS/관광객차] 와인시네마트레인
-STR_Lady_Bird_NAME                                     :[DTS/관광객차] 레이디버드
-STR_S_Train_New_NAME                                   :[DTS/관광객차] S-Train 신도색
-STR_A_Train_New_NAME                                   :[DTS/관광객차] A-Train 신도색
-STR_G_Train_New_NAME                                   :[DTS/관광객차] G-Train 신도색
-STR_KTS_MSPASS_NAME                                    :[DTS/기관차연결] 한국 무궁화호 객차 차량
-STR_KTS_SSPASS_NAME                                    :[DTS/기관차연결] 한국 새마을호 객차 차량
-STR_Generatar_Car_NAME                                 :[DTS/기관차연결] 한국 발전차
-STR_Luggage_Car_NAME                                   :[DTS/기관차연결] 한국 수화물차
-STR_CTS_SPASS_NAME                                     :[DTS/기관차연결] 중국 객차 차량
-STR_CGeneratar_Car_NAME                                :[DTS/기관차연결] 중국 발전차
-STR_CLuggage_Car_NAME                                  :[DTS/기관차연결] 중국 수화물차
-STR_ETS_SPASS_NAME                                     :[DTS/기관차연결] 유럽 객차 차량
-STR_VTS_SPASS_NAME                                     :[DTS/기관차연결] 가상 객차 차량
-STR_FLAT_1F_NAME                                       :[DTS/기관차연결] 평판화차
-STR_FLAT_Tank_NAME                                     :[DTS/기관차연결] 평판유조 화차
-STR_FLAT_2F_NAME                                       :[DTS/기관차연결] 평판화차 - 미국형
+STR_Group_Eco_Rail_NAME                                :[DTS] 에코레일
+STR_Eco_Rail_NAME                                      :[DTS/1량] 에코레일 1Car
+STR_Eco_Rail_5Car_NAME                                 :[DTS/5량] 에코레일 5Car
+STR_CY_GW_NAME                                         :[DTS/6량] 충북영동국악와인
+STR_JA_a_NAME                                          :[DTS/단량] 정선아리랑 유람열차
+STR_E_Train_NAME                                       :[DTS/9량] E-Train
+STR_Wine_Panax_NAME                                    :[DTS/7량] 와인인삼트레인
+STR_Wine_Cinema_NAME                                   :[DTS/6량] 와인시네마트레인
+STR_Lady_Bird_NAME                                     :[DTS/9량] 레이디버드
+STR_Group_S_Train_NAME                                 :[DTS] S-Trian
+STR_S_Train_4Car_NAME                                  :[DTS/4량] S-Train 신도색
+STR_S_Train_5Car_NAME                                  :[DTS/5량] S-Train 신도색
+STR_A_Train_New_NAME                                   :[DTS/4량] A-Train 신도색
+STR_G_Train_New_NAME                                   :[DTS/5량] G-Train 신도색
+STR_KTS_MSPASS_NAME                                    :[DTS/객차] 한국 무궁화호 객차 차량
+STR_KTS_SSPASS_NAME                                    :[DTS/객차] 한국 새마을호 객차 차량
+STR_Generatar_Car_NAME                                 :[DTS/발전차] 한국 발전차
+STR_Luggage_Car_NAME                                   :[DTS/수화물차] 한국 수화물차
+STR_CTS_SPASS_NAME                                     :[DTS/객차] 중국 객차 차량
+STR_CGeneratar_Car_NAME                                :[DTS/발전차] 중국 발전차
+STR_CLuggage_Car_NAME                                  :[DTS/수화물차] 중국 수화물차
+STR_ETS_SPASS_NAME                                     :[DTS/객차] 유럽 객차 차량
+STR_VTS_SPASS_NAME                                     :[DTS/객차] 가상 객차 차량
+STR_FLAT_1F_NAME                                       :[DTS/화차] 평판화차
+STR_FLAT_Tank_NAME                                     :[DTS/화차] 평판유조 화차
+STR_FLAT_2F_NAME                                       :[DTS/화차] 평판화차 - 미국형
 
 # Object's name
 STR_OBJ_BUFFER                                         :[DTS] 차막이

@@ -50,7 +50,23 @@ switch(FEAT_TRAINS, SELF, sw_MSPassenger_cargo_subtype_text, cargo_subtype) {
 }
 
 /*--------------------------------------------------------------------
-1. 충북영동국악와인 열차
+에코레일 열차
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_Eco_Rail_5Car, position_in_vehid_chain % 5) {
+    1:set_Eco_Rail_wagon_A;
+    2:set_Eco_Rail_wagon_C;
+    3:set_Eco_Rail_wagon_A;
+    4:set_Eco_Rail_wagon_B;
+    set_Eco_Rail_wagon_A; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Eco_Rail_5Car, extra_callback_info1) {
+    1..4: Eco_Rail_Passenger_5Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+/*--------------------------------------------------------------------
+충북영동국악와인 열차
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_CY_GW_wagon, position_in_vehid_chain % 6) {
     1:set_CY_GW_2wagon;
@@ -61,13 +77,13 @@ switch (FEAT_TRAINS, SELF, sw_CY_GW_wagon, position_in_vehid_chain % 6) {
     set_CY_GW_1wagon; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_sw_CY_GW_6car, extra_callback_info1) {
+switch (FEAT_TRAINS, SELF, sw_articulated_CY_GW_6car, extra_callback_info1) {
     1..5: CY_GW_Passenger_Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 /*--------------------------------------------------------------------
-2. 정선아리랑 유랑열차
+정선아리랑 유랑열차
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_JA_a_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_JA_a_New_Passenger_Car);    // 정선아리랑 유람열차 신도색
@@ -80,7 +96,7 @@ switch(FEAT_TRAINS, SELF, sw_JA_A_wagon, cargo_subtype) {
 }
 
 /*--------------------------------------------------------------------
-3. E-Trian
+E-Trian
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_E_Train_wagon, position_in_vehid_chain % 9) {
     1:set_EDUCATION_2wagon;
@@ -94,13 +110,13 @@ switch (FEAT_TRAINS, SELF, sw_E_Train_wagon, position_in_vehid_chain % 9) {
     set_EDUCATION_1wagon; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_sw_E_Train_9car, extra_callback_info1) {
+switch (FEAT_TRAINS, SELF, sw_articulated_E_Train_9car, extra_callback_info1) {
     1..8: E_Train_Passenger_Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 /*--------------------------------------------------------------------
-4. 와인인삼트레인
+와인인삼트레인
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_wine_Panax_wagon, position_in_vehid_chain % 7) {
     1:set_wine_Panax_2wagon;
@@ -112,13 +128,13 @@ switch (FEAT_TRAINS, SELF, sw_wine_Panax_wagon, position_in_vehid_chain % 7) {
     set_wine_Panax_1wagon; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_sw_wine_Panax_7car, extra_callback_info1) {
+switch (FEAT_TRAINS, SELF, sw_articulated_wine_Panax_7car, extra_callback_info1) {
     1..6: Wine_Panax_Passenger_Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 /*--------------------------------------------------------------------
-5. 와인시네마트레인
+와인시네마트레인
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_wine_cinema_wagon, position_in_vehid_chain % 6) {
     1:set_wine_cinema_2wagon;
@@ -129,13 +145,13 @@ switch (FEAT_TRAINS, SELF, sw_wine_cinema_wagon, position_in_vehid_chain % 6) {
     set_wine_cinema_1wagon; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_sw_wine_cinema_6car, extra_callback_info1) {
+switch (FEAT_TRAINS, SELF, sw_articulated_wine_cinema_6car, extra_callback_info1) {
     1..5: Wine_Cinema_Passenger_Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 /*--------------------------------------------------------------------
-6. 레이디 버드
+레이디 버드
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_Lady_Bird_wagon, position_in_vehid_chain % 9) {
     1:set_Lady_Bird_2wagon;
@@ -149,15 +165,27 @@ switch (FEAT_TRAINS, SELF, sw_Lady_Bird_wagon, position_in_vehid_chain % 9) {
     set_Lady_Bird_1wagon; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_sw_Lady_Bird_9car, extra_callback_info1) {
+switch (FEAT_TRAINS, SELF, sw_articulated_Lady_Bird_9car, extra_callback_info1) {
     1..8: Lady_Bird_Passenger_Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 /*--------------------------------------------------------------------
-7. S-Trian New
+S-Trian New
 --------------------------------------------------------------------*/
-switch (FEAT_TRAINS, SELF, sw_S_Train_New_wagon, position_in_vehid_chain % 5) {
+switch (FEAT_TRAINS, SELF, sw_S_Train_New_4car, position_in_vehid_chain % 4) {
+    1:set_S_Train_New_2wagon;
+    2:set_S_Train_New_3wagon;
+    3:set_S_Train_New_4wagon;
+    set_S_Train_New_1wagon; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_S_Train_New_4car, extra_callback_info1) {
+    1..3: S_Train_New_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_S_Train_New_5car, position_in_vehid_chain % 5) {
     1:set_S_Train_New_2wagon;
     2:set_S_Train_New_3wagon;
     3:set_S_Train_New_4wagon;
@@ -165,13 +193,13 @@ switch (FEAT_TRAINS, SELF, sw_S_Train_New_wagon, position_in_vehid_chain % 5) {
     set_S_Train_New_1wagon; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_sw_S_Train_New_5car, extra_callback_info1) {
-    1..4: S_Train_New_Passenger_Car;
+switch (FEAT_TRAINS, SELF, sw_articulated_S_Train_New_5car, extra_callback_info1) {
+    1..4: S_Train_New_5Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 /*--------------------------------------------------------------------
-8. A-Trian New
+A-Trian New
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_A_Train_New_wagon, position_in_vehid_chain % 4) {
     1:set_A_Train_New_2wagon;
@@ -180,13 +208,13 @@ switch (FEAT_TRAINS, SELF, sw_A_Train_New_wagon, position_in_vehid_chain % 4) {
     set_A_Train_New_1wagon; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_sw_A_Train_New_4car, extra_callback_info1) {
+switch (FEAT_TRAINS, SELF, sw_articulated_A_Train_New_4car, extra_callback_info1) {
     1..3: A_Train_New_Passenger_Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 /*--------------------------------------------------------------------
-9. G-Trian New
+G-Trian New
 --------------------------------------------------------------------*/
 switch (FEAT_TRAINS, SELF, sw_G_Train_New_wagon, position_in_vehid_chain % 5) {
     1:set_G_Train_New_2wagon;
@@ -196,7 +224,7 @@ switch (FEAT_TRAINS, SELF, sw_G_Train_New_wagon, position_in_vehid_chain % 5) {
     set_G_Train_New_1wagon; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_sw_G_Train_New_5car, extra_callback_info1) {
+switch (FEAT_TRAINS, SELF, sw_articulated_G_Train_New_5car, extra_callback_info1) {
     1..4: G_Train_New_Passenger_Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }

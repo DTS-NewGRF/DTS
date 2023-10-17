@@ -316,13 +316,18 @@ STR_Hankyu_9300_8Car_NAME                              :[DTS] Hankyu 9300 8Car
 
 # wagon's name
 STR_Group_Travel_wagon_NAME                            :[DTS] Travel Train
-STR_Eco_Rail_NAME                                      :[DTS] Eco Rail Passenger Car
+STR_Group_Eco_Rail_NAME                                :[DTS] Eco Rail Passenger Car
+STR_Eco_Rail_NAME                                      :[DTS] Eco Rail Passenger Car 1Car
+STR_Eco_Rail_5Car_NAME                                 :[DTS] Eco Rail Passenger Car 5Car
 STR_CY_GW_NAME                                         :[DTS] Chungbuk Yeongdong Gugak & Wine Passenger Car
 STR_JA_a_NAME                                          :[DTS] Jeongseon Arirang Passenger Car
 STR_E_Train_NAME                                       :[DTS] E-Train Passenger Car
 STR_Wine_Panax_NAME                                    :[DTS] Wine Panax Passenger Car
 STR_Wine_Cinema_NAME                                   :[DTS] Wine Cinema Passenger Car
 STR_Lady_Bird_NAME                                     :[DTS] Lady Bird Passenger Car
+STR_Group_S_Train_NAME                                 :[DTS] S-Trian
+STR_S_Train_4Car_NAME                                  :[DTS] S-Train Passenger 4Car
+STR_S_Train_5Car_NAME                                  :[DTS] S-Train Passenger 5Car
 STR_S_Train_New_NAME                                   :[DTS] S-Train Passenger Car
 STR_A_Train_New_NAME                                   :[DTS] A-Train Passenger Car
 STR_G_Train_New_NAME                                   :[DTS] G-Train Passenger Car
