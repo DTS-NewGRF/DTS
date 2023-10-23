@@ -767,3 +767,282 @@ item (FEAT_TRAINS, G_Train_New_Passenger_Car, 2002){
         additional_text:                string(STR_REFIT_train_configuration_G_Train_New_Passenger);
         }
     }
+
+/*--------------------------------------------------------------------
+PEX
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, PEX, 2333){
+    property {
+        name:                           string(STR_Group_PEX_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       sw_PEX_wagon_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 6량
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, PEX_6Car, 2334){
+    property {
+        name:                           string(STR_PEX_6Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2022, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 70;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_PEX_6Car_reversed;
+        articulated_part:               sw_articulated_PEX_6Car;
+        purchase:                       sw_PEX_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        cargo_subtype_text:             sw_PEX_6Car_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_PEX);
+        }
+    }
+
+/*--------------------------------------------------------------------
+열차정보 8량
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, PEX_8Car, 2335){
+    property {
+        name:                           string(STR_PEX_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2022, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 70;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_PEX_8Car_reversed;
+        articulated_part:               sw_articulated_PEX_8Car;
+        purchase:                       sw_PEX_wagon_purchase;
+        cargo_capacity:                 sw_PEX_8Car_capacity_in_custom;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        cargo_subtype_text:             sw_PEX_8Car_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_PEX);
+        }
+    }
+
+/*--------------------------------------------------------------------
+열차정보 10량
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, PEX_10Car, 2336){
+    property {
+        name:                           string(STR_PEX_10Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2022, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 70;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_PEX_10Car_reversed;
+        articulated_part:               sw_articulated_PEX_10Car;
+        purchase:                       sw_PEX_wagon_purchase;
+        cargo_capacity:                 sw_PEX_10Car_capacity_in_custom;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        cargo_subtype_text:             sw_PEX_10Car_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_PEX);
+        }
+    }
+
+/*--------------------------------------------------------------------
+열차정보 14량
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, PEX_14Car, 2337){
+    property {
+        name:                           string(STR_PEX_14Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2022, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 70;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_PEX_14Car_reversed;
+        articulated_part:               sw_articulated_PEX_14Car;
+        purchase:                       sw_PEX_wagon_purchase;
+        cargo_capacity:                 sw_PEX_14Car_capacity_in_custom;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        cargo_subtype_text:             sw_PEX_14Car_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_PEX);
+        }
+    }
+
+/*--------------------------------------------------------------------
+열차정보 18량
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, PEX_18Car, 2338){
+    property {
+        name:                           string(STR_PEX_18Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2022, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 70;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_PEX_18Car_reversed;
+        articulated_part:               sw_articulated_PEX_18Car;
+        purchase:                       sw_PEX_wagon_purchase;
+        cargo_capacity:                 sw_PEX_18Car_capacity_in_custom;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        cargo_subtype_text:             sw_PEX_18Car_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_PEX);
+        }
+    }

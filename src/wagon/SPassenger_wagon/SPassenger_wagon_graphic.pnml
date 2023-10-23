@@ -9,6 +9,10 @@ spriteset(set_MSPassenger_wagon_purchase, "src\wagon\SPassenger_wagon\MSPassenge
     tmpl_wagon_purchase(0, 0)
 }
 
+spriteset(set_PEX_wagon_purchase, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
 /*--------------------------------------------------------------------
 1. 에코레일
 --------------------------------------------------------------------*/
@@ -577,6 +581,81 @@ spriteset(set_Korea_MTrain_25wagon, "src\wagon\SPassenger_wagon\MSPassenger_wago
 }
 
 /*--------------------------------------------------------------------
+PEX
+--------------------------------------------------------------------*/
+spriteset(set_PEX_wagon_NA, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_PEX_wagon_NA_r, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F_r(80, 0)
+}
+
+spriteset(set_PEX_wagon_NB, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_PEX_wagon_NB_r, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F_r(80, 27)
+}
+
+spriteset(set_PEX_wagon_NC, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_PEX_wagon_NC_r, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_PEX_wagon_SN, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_PEX_wagon_SN_r, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_PEX_wagon_DA, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_PEX_wagon_DA_r, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_PEX_wagon_DB, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_PEX_wagon_DB_r, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_PEX_wagon_B, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_PEX_wagon_B_r, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F_r(80, 162)
+}
+
+spriteset(set_PEX_wagon_S, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_PEX_wagon_S_r, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_PEX_wagon_P, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F_mini_7(80, 189)
+}
+
+spriteset(set_PEX_wagon_P_r, "src\wagon\SPassenger_wagon\PEX_Passenger_wagon.png") {
+    wagon_1F_F_r_mini_7(80, 189)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_SSPassenger_wagon_purchase, cargo_subtype) {
@@ -585,4 +664,8 @@ switch(FEAT_TRAINS, SELF, sw_SSPassenger_wagon_purchase, cargo_subtype) {
 
 switch(FEAT_TRAINS, SELF, sw_MSPassenger_wagon_purchase, cargo_subtype) {
     set_MSPassenger_wagon_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_wagon_purchase, cargo_subtype) {
+    set_PEX_wagon_purchase;
 }

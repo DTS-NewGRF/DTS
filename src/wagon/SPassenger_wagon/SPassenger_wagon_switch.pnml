@@ -1,54 +1,6 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_SSPassenger_cargo_subtype_text, cargo_subtype) {
-     1: return string(STR_REFIT_LIVERY_1SPassenger_Car_S);  // 일반실 관광호 특실
-     2: return string(STR_REFIT_LIVERY_2SPassenger_Car);    // 일반실 유선형 객차 초기 도색
-     3: return string(STR_REFIT_LIVERY_2SPassenger_Car_S);  // 일반실 유선형 객차 초기 도색 특실
-     4: return string(STR_REFIT_LIVERY_3SPassenger_Car);    // 일반실 장대형 객차 초기 도색
-     5: return string(STR_REFIT_LIVERY_3SPassenger_Car_S);  // 일반실 장대형 객차 초기 도색 특실
-     6: return string(STR_REFIT_LIVERY_4SPassenger_Car);    // 일반실 유선형, 장대형 객차 구도색
-     7: return string(STR_REFIT_LIVERY_5SPassenger_Car);    // 일반실 유선형, 장대형 객차 신도색
-     8: return string(STR_REFIT_LIVERY_6SPassenger_Car);    // 무궁화 격상 일반실
-     9: return string(STR_REFIT_LIVERY_7SPassenger_Car);    // 특실 유선형, 장대형 구도색
-    10: return string(STR_REFIT_LIVERY_8SPassenger_Car);    // 특실 유선형, 장대형 신도색
-    11: return string(STR_REFIT_LIVERY_9SPassenger_Car);    // 식당차 관광호 객차
-    12: return string(STR_REFIT_LIVERY_10SPassenger_Car);   // 반식반객 관광호 전망객차
-    13: return string(STR_REFIT_LIVERY_11SPassenger_Car);   // 식당차 유선형 초기도색
-    14: return string(STR_REFIT_LIVERY_12SPassenger_Car);   // 식당차 장대형 초기도색
-    15: return string(STR_REFIT_LIVERY_13SPassenger_Car);   // 식당차 유선형, 장대형 구도색·신도색
-    16: return string(STR_REFIT_LIVERY_14SPassenger_Car);   // 카페객차 유선형, 장대형
-    return string(STR_REFIT_LIVERY_1SPassenger_Car);
-}
-
-switch(FEAT_TRAINS, SELF, sw_MSPassenger_cargo_subtype_text, cargo_subtype) {
-     1: return string(STR_REFIT_LIVERY_2MPassenger_Car);     // 일반실 구도색 수동문
-     2: return string(STR_REFIT_LIVERY_3MPassenger_Car);     // 일반실 구도색 자동문
-     3: return string(STR_REFIT_LIVERY_4MPassenger_Car);     // 일반실 신도색
-     4: return string(STR_REFIT_LIVERY_5MPassenger_Car);     // 일반실 리미트객차 구도색
-     5: return string(STR_REFIT_LIVERY_6MPassenger_Car);     // 일반실 리미트객차 신도색
-     6: return string(STR_REFIT_LIVERY_7MPassenger_Car);     // 일반실 격하특실 구도색
-     7: return string(STR_REFIT_LIVERY_8MPassenger_Car);     // 일반실 격하특실 신도색
-     8: return string(STR_REFIT_LIVERY_9MPassenger_Car);     // 일반실 해태특실 신도색
-     9: return string(STR_REFIT_LIVERY_10MPassenger_Car);    // 특실 한진특실 구도색
-    10: return string(STR_REFIT_LIVERY_11MPassenger_Car);    // 특실 해태특실 구도색
-    11: return string(STR_REFIT_LIVERY_12MPassenger_Car);    // 특실 해태특실 신도색
-    12: return string(STR_REFIT_LIVERY_13MPassenger_Car);    // 특실 격하특실 신도색
-    13: return string(STR_REFIT_LIVERY_14MPassenger_Car);    // 식당차 우등객차
-    14: return string(STR_REFIT_LIVERY_15MPassenger_Car);    // 식당차 구도색
-    15: return string(STR_REFIT_LIVERY_16MPassenger_Car);    // 식당차 리미트객차 구도색
-    16: return string(STR_REFIT_LIVERY_17MPassenger_Car);    // 식당차 격하특실 구도색, 신도색
-    17: return string(STR_REFIT_LIVERY_18MPassenger_Car);    // 카페객차 신도색
-    18: return string(STR_REFIT_LIVERY_19MPassenger_Car);    // 카페객차 리미트객차 구도색
-    19: return string(STR_REFIT_LIVERY_20MPassenger_Car);    // 카페객차 리미트객차 신도색
-    20: return string(STR_REFIT_LIVERY_21MPassenger_Car);    // 침대객차 초기도색
-    21: return string(STR_REFIT_LIVERY_22MPassenger_Car);    // 침대객차 구도색 수동문
-    22: return string(STR_REFIT_LIVERY_23MPassenger_Car);    // 침대객차 구도색 자동문
-    23: return string(STR_REFIT_LIVERY_24MPassenger_Car);    // 침대객차 리미트객차 구도색
-    24: return string(STR_REFIT_LIVERY_25MPassenger_Car);    // 침대객차 리미트객차 신도색
-    return string(STR_REFIT_LIVERY_1MPassenger_Car);
-}
-
 /*--------------------------------------------------------------------
 에코레일 열차
 --------------------------------------------------------------------*/
@@ -230,8 +182,30 @@ switch (FEAT_TRAINS, SELF, sw_articulated_G_Train_New_5car, extra_callback_info1
     }
 
 /*--------------------------------------------------------------------
-한국형 새마을 객차 랜덤
+한국형 새마을 객차
 --------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_SSPassenger_cargo_subtype_text, cargo_subtype) {
+     1: return string(STR_REFIT_LIVERY_1SPassenger_Car_S);  // 일반실 관광호 특실
+     2: return string(STR_REFIT_LIVERY_2SPassenger_Car);    // 일반실 유선형 객차 초기 도색
+     3: return string(STR_REFIT_LIVERY_2SPassenger_Car_S);  // 일반실 유선형 객차 초기 도색 특실
+     4: return string(STR_REFIT_LIVERY_3SPassenger_Car);    // 일반실 장대형 객차 초기 도색
+     5: return string(STR_REFIT_LIVERY_3SPassenger_Car_S);  // 일반실 장대형 객차 초기 도색 특실
+     6: return string(STR_REFIT_LIVERY_4SPassenger_Car);    // 일반실 유선형, 장대형 객차 구도색
+     7: return string(STR_REFIT_LIVERY_5SPassenger_Car);    // 일반실 유선형, 장대형 객차 신도색
+     8: return string(STR_REFIT_LIVERY_6SPassenger_Car);    // 무궁화 격상 일반실
+     9: return string(STR_REFIT_LIVERY_7SPassenger_Car);    // 특실 유선형, 장대형 구도색
+    10: return string(STR_REFIT_LIVERY_8SPassenger_Car);    // 특실 유선형, 장대형 신도색
+    11: return string(STR_REFIT_LIVERY_9SPassenger_Car);    // 식당차 관광호 객차
+    12: return string(STR_REFIT_LIVERY_10SPassenger_Car);   // 반식반객 관광호 전망객차
+    13: return string(STR_REFIT_LIVERY_11SPassenger_Car);   // 식당차 유선형 초기도색
+    14: return string(STR_REFIT_LIVERY_12SPassenger_Car);   // 식당차 장대형 초기도색
+    15: return string(STR_REFIT_LIVERY_13SPassenger_Car);   // 식당차 유선형, 장대형 구도색·신도색
+    16: return string(STR_REFIT_LIVERY_14SPassenger_Car);   // 카페객차 유선형, 장대형
+    return string(STR_REFIT_LIVERY_1SPassenger_Car);
+}
+
+//객차별 랜덤세팅
 switch(FEAT_TRAINS, SELF, sw_Korea_STrain_2wagon, random_bits % 2) {
      0: set_Korea_STrain_2wagon_A;
      1: set_Korea_STrain_2wagon_B;
@@ -262,9 +236,7 @@ switch(FEAT_TRAINS, SELF, sw_Korea_STrain_6wagon, random_bits % 2) {
     set_Korea_STrain_6wagon_A;
 }
 
-/*--------------------------------------------------------------------
-한국형 새마을 객차
---------------------------------------------------------------------*/
+//도색별 열차
 switch(FEAT_TRAINS, SELF, sw_SSPassenger_wagon, cargo_subtype) {
      1: set_Korea_STrain_1wagon;   // 일반실 관광호 특실
      2: sw_Korea_STrain_2wagon;    // 일반실 유선형 객차 초기 도색
@@ -285,6 +257,7 @@ switch(FEAT_TRAINS, SELF, sw_SSPassenger_wagon, cargo_subtype) {
     set_Korea_STrain_1wagon;
 }
 
+//수송량
 switch(FEAT_TRAINS, SELF, sw_SSPassenger_wagon_capacity_in_custom, cargo_subtype) {
      1: return 48;
      2: return 64;
@@ -306,8 +279,38 @@ switch(FEAT_TRAINS, SELF, sw_SSPassenger_wagon_capacity_in_custom, cargo_subtype
 }
 
 /*--------------------------------------------------------------------
-한국형 무궁화 객차 랜덤
+한국형 무궁화 객차
 --------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_MSPassenger_cargo_subtype_text, cargo_subtype) {
+     1: return string(STR_REFIT_LIVERY_2MPassenger_Car);     // 일반실 구도색 수동문
+     2: return string(STR_REFIT_LIVERY_3MPassenger_Car);     // 일반실 구도색 자동문
+     3: return string(STR_REFIT_LIVERY_4MPassenger_Car);     // 일반실 신도색
+     4: return string(STR_REFIT_LIVERY_5MPassenger_Car);     // 일반실 리미트객차 구도색
+     5: return string(STR_REFIT_LIVERY_6MPassenger_Car);     // 일반실 리미트객차 신도색
+     6: return string(STR_REFIT_LIVERY_7MPassenger_Car);     // 일반실 격하특실 구도색
+     7: return string(STR_REFIT_LIVERY_8MPassenger_Car);     // 일반실 격하특실 신도색
+     8: return string(STR_REFIT_LIVERY_9MPassenger_Car);     // 일반실 해태특실 신도색
+     9: return string(STR_REFIT_LIVERY_10MPassenger_Car);    // 특실 한진특실 구도색
+    10: return string(STR_REFIT_LIVERY_11MPassenger_Car);    // 특실 해태특실 구도색
+    11: return string(STR_REFIT_LIVERY_12MPassenger_Car);    // 특실 해태특실 신도색
+    12: return string(STR_REFIT_LIVERY_13MPassenger_Car);    // 특실 격하특실 신도색
+    13: return string(STR_REFIT_LIVERY_14MPassenger_Car);    // 식당차 우등객차
+    14: return string(STR_REFIT_LIVERY_15MPassenger_Car);    // 식당차 구도색
+    15: return string(STR_REFIT_LIVERY_16MPassenger_Car);    // 식당차 리미트객차 구도색
+    16: return string(STR_REFIT_LIVERY_17MPassenger_Car);    // 식당차 격하특실 구도색, 신도색
+    17: return string(STR_REFIT_LIVERY_18MPassenger_Car);    // 카페객차 신도색
+    18: return string(STR_REFIT_LIVERY_19MPassenger_Car);    // 카페객차 리미트객차 구도색
+    19: return string(STR_REFIT_LIVERY_20MPassenger_Car);    // 카페객차 리미트객차 신도색
+    20: return string(STR_REFIT_LIVERY_21MPassenger_Car);    // 침대객차 초기도색
+    21: return string(STR_REFIT_LIVERY_22MPassenger_Car);    // 침대객차 구도색 수동문
+    22: return string(STR_REFIT_LIVERY_23MPassenger_Car);    // 침대객차 구도색 자동문
+    23: return string(STR_REFIT_LIVERY_24MPassenger_Car);    // 침대객차 리미트객차 구도색
+    24: return string(STR_REFIT_LIVERY_25MPassenger_Car);    // 침대객차 리미트객차 신도색
+    return string(STR_REFIT_LIVERY_1MPassenger_Car);
+}
+
+//열차 랜덤세팅
 switch(FEAT_TRAINS, SELF, sw_Korea_MTrain_1wagon, random_bits % 2) {
      0: set_Korea_MTrain_1wagon_A;
      1: set_Korea_MTrain_1wagon_B;
@@ -356,9 +359,7 @@ switch(FEAT_TRAINS, SELF, sw_Korea_MTrain_8wagon, random_bits % 2) {
     set_Korea_MTrain_8wagon_A;
 }
 
-/*--------------------------------------------------------------------
-한국형 무궁화 객차
---------------------------------------------------------------------*/
+//열차
 switch(FEAT_TRAINS, SELF, sw_MSPassenger_wagon, cargo_subtype) {
      1: sw_Korea_MTrain_2wagon;     // 일반실 구도색 수동문
      2: sw_Korea_MTrain_3wagon;     // 일반실 구도색 자동문
@@ -414,3 +415,1710 @@ switch(FEAT_TRAINS, SELF, sw_MSPassenger_wagon_capacity_in_custom, cargo_subtype
     24: return 28;
        90;
 }
+
+/*--------------------------------------------------------------------
+PEX
+--------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_PEX_6Car_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_PEX_NB_Car);
+    2: return string(STR_REFIT_LIVERY_PEX_NC_Car);
+    return string(STR_REFIT_LIVERY_PEX_NA_Car);
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_cargo_subtype_text, cargo_subtype) {
+     1: return string(STR_REFIT_LIVERY_PEX_NB_Car);
+     2: return string(STR_REFIT_LIVERY_PEX_NC_Car);
+     3: return string(STR_REFIT_LIVERY_PEX_SNA_Car);  //단층 특실A
+     4: return string(STR_REFIT_LIVERY_PEX_SNB_Car);  //단층 특실B
+     5: return string(STR_REFIT_LIVERY_PEX_SNC_Car);  //단층 특실C
+     6: return string(STR_REFIT_LIVERY_PEX_NNA_Car);  //심야 A
+     7: return string(STR_REFIT_LIVERY_PEX_NNB_Car);  //심야 B
+     8: return string(STR_REFIT_LIVERY_PEX_NNC_Car);  //심야 C
+     9: return string(STR_REFIT_LIVERY_PEX_SNNA_Car); //심야 특실A
+    10: return string(STR_REFIT_LIVERY_PEX_SNNB_Car); //심야 특실B
+    11: return string(STR_REFIT_LIVERY_PEX_SNNC_Car); //심야 특실C
+    return string(STR_REFIT_LIVERY_PEX_NA_Car);
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_cargo_subtype_text, cargo_subtype) {
+     1: return string(STR_REFIT_LIVERY_PEX_NB_Car);
+     2: return string(STR_REFIT_LIVERY_PEX_NC_Car);
+     3: return string(STR_REFIT_LIVERY_PEX_SNA_Car);
+     4: return string(STR_REFIT_LIVERY_PEX_SNB_Car);
+     5: return string(STR_REFIT_LIVERY_PEX_SNC_Car);
+     6: return string(STR_REFIT_LIVERY_PEX_NDNA_Car);
+     7: return string(STR_REFIT_LIVERY_PEX_NDNB_Car);
+     8: return string(STR_REFIT_LIVERY_PEX_NDNC_Car);
+     9: return string(STR_REFIT_LIVERY_PEX_SNDNA_Car);
+    10: return string(STR_REFIT_LIVERY_PEX_SNDNB_Car);
+    11: return string(STR_REFIT_LIVERY_PEX_SNDNC_Car);
+    12: return string(STR_REFIT_LIVERY_PEX_NNA_Car);
+    13: return string(STR_REFIT_LIVERY_PEX_NNB_Car);
+    14: return string(STR_REFIT_LIVERY_PEX_NNC_Car);
+    15: return string(STR_REFIT_LIVERY_PEX_SNNA_Car);
+    16: return string(STR_REFIT_LIVERY_PEX_SNNB_Car);
+    17: return string(STR_REFIT_LIVERY_PEX_SNNC_Car);
+    18: return string(STR_REFIT_LIVERY_PEX_DA_Car);
+    19: return string(STR_REFIT_LIVERY_PEX_DB_Car);
+    20: return string(STR_REFIT_LIVERY_PEX_S_Car);
+    return string(STR_REFIT_LIVERY_PEX_NA_Car);
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_cargo_subtype_text, cargo_subtype) {
+     1: return string(STR_REFIT_LIVERY_PEX_NB_Car);
+     2: return string(STR_REFIT_LIVERY_PEX_NC_Car);
+     3: return string(STR_REFIT_LIVERY_PEX_SNA_Car);
+     4: return string(STR_REFIT_LIVERY_PEX_SNB_Car);
+     5: return string(STR_REFIT_LIVERY_PEX_SNC_Car);
+     6: return string(STR_REFIT_LIVERY_PEX_NDNA_Car);
+     7: return string(STR_REFIT_LIVERY_PEX_NDNB_Car);
+     8: return string(STR_REFIT_LIVERY_PEX_NDNC_Car);
+     9: return string(STR_REFIT_LIVERY_PEX_SNDNA_Car);
+    10: return string(STR_REFIT_LIVERY_PEX_SNDNB_Car);
+    11: return string(STR_REFIT_LIVERY_PEX_SNDNC_Car);
+    12: return string(STR_REFIT_LIVERY_PEX_NNA_Car);
+    13: return string(STR_REFIT_LIVERY_PEX_NNB_Car);
+    14: return string(STR_REFIT_LIVERY_PEX_NNC_Car);
+    15: return string(STR_REFIT_LIVERY_PEX_S_Car);
+    return string(STR_REFIT_LIVERY_PEX_NA_Car);
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_18Car_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_PEX_NB_Car);
+    2: return string(STR_REFIT_LIVERY_PEX_NC_Car);
+    3: return string(STR_REFIT_LIVERY_PEX_SNA_Car);
+    4: return string(STR_REFIT_LIVERY_PEX_SNB_Car);
+    5: return string(STR_REFIT_LIVERY_PEX_SNC_Car);
+    return string(STR_REFIT_LIVERY_PEX_NA_Car);
+}
+
+//6량
+switch(FEAT_TRAINS, SELF, sw_PEX_N_wagon, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_N_wagon_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+    set_PEX_wagon_NA_r;
+}
+
+//6량 편성
+switch (FEAT_TRAINS, SELF, sw_PEX_6Car, position_in_vehid_chain % 6) {
+    1:sw_PEX_N_wagon;
+    2:set_PEX_wagon_NA;
+    3:set_PEX_wagon_B;
+    4:sw_PEX_N_wagon;
+    5:set_PEX_wagon_NA;
+    set_PEX_wagon_NA; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_PEX_6Car_r, position_in_vehid_chain % 6) {
+    1:sw_PEX_N_wagon_r;
+    2:set_PEX_wagon_B_r;
+    3:set_PEX_wagon_NA_r;
+    4:sw_PEX_N_wagon_r;
+    5:set_PEX_wagon_NA_r;
+    set_PEX_wagon_NA_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_PEX_6Car_flipped, vehicle_is_flipped){
+    0: sw_PEX_6Car_r;
+    sw_PEX_6Car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_PEX_6Car_reversed, vehicle_is_reversed){
+    0: sw_PEX_6Car;
+    sw_PEX_6Car_flipped;
+}
+
+switch (FEAT_TRAINS, SELF, sw_articulated_PEX_6Car, extra_callback_info1) {
+    1..5: PEX_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+//8량
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon1, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_SN; //단층 특실A
+     4: set_PEX_wagon_SN; //단층 특실B
+     5: set_PEX_wagon_SN; //단층 특실C
+     6: set_PEX_wagon_NA; //심야 A
+     7: set_PEX_wagon_NA; //심야 B
+     8: set_PEX_wagon_NA; //심야 C
+     9: set_PEX_wagon_SN; //심야 특실A
+    10: set_PEX_wagon_SN; //심야 특실B
+    11: set_PEX_wagon_SN; //심야 특실C
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon2, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+     6: set_PEX_wagon_NA; //심야 A
+     7: set_PEX_wagon_NB; //심야 B
+     8: set_PEX_wagon_NC; //심야 C
+     9: set_PEX_wagon_NA; //심야 특실A
+    10: set_PEX_wagon_NA; //심야 특실B
+    11: set_PEX_wagon_NA; //심야 특실C
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon3, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NB; //단층 특실B
+     5: set_PEX_wagon_NC; //단층 특실C
+     6: set_PEX_wagon_B;  //심야 A
+     7: set_PEX_wagon_B;  //심야 B
+     8: set_PEX_wagon_B;  //심야 C
+     9: set_PEX_wagon_B;  //심야 특실A
+    10: set_PEX_wagon_B;  //심야 특실B
+    11: set_PEX_wagon_B;  //심야 특실C
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon4, cargo_subtype) {
+     1: set_PEX_wagon_B;
+     2: set_PEX_wagon_B;
+     3: set_PEX_wagon_B; //단층 특실A
+     4: set_PEX_wagon_B; //단층 특실B
+     5: set_PEX_wagon_B; //단층 특실C
+     6: set_PEX_wagon_NA; //심야 A
+     7: set_PEX_wagon_NA; //심야 B
+     8: set_PEX_wagon_NA; //심야 C
+     9: set_PEX_wagon_NA; //심야 특실A
+    10: set_PEX_wagon_NB; //심야 특실B
+    11: set_PEX_wagon_NC; //심야 특실C
+    set_PEX_wagon_B;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon5, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+     6: set_PEX_wagon_NA; //심야 A
+     7: set_PEX_wagon_NB; //심야 B
+     8: set_PEX_wagon_NC; //심야 C
+     9: set_PEX_wagon_NA; //심야 특실A
+    10: set_PEX_wagon_NA; //심야 특실B
+    11: set_PEX_wagon_NA; //심야 특실C
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon6, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NB; //단층 특실B
+     5: set_PEX_wagon_NC; //단층 특실C
+     6: set_PEX_wagon_NA; //심야 A
+     7: set_PEX_wagon_NA; //심야 B
+     8: set_PEX_wagon_NA; //심야 C
+     9: set_PEX_wagon_NA; //심야 특실A
+    10: set_PEX_wagon_NB; //심야 특실B
+    11: set_PEX_wagon_NC; //심야 특실C
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon7, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+     6: set_PEX_wagon_NA; //심야 A
+     7: set_PEX_wagon_NB; //심야 B
+     8: set_PEX_wagon_NC; //심야 C
+     9: set_PEX_wagon_NA; //심야 특실A
+    10: set_PEX_wagon_NA; //심야 특실B
+    11: set_PEX_wagon_NA; //심야 특실C
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon8, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NB; //단층 특실B
+     5: set_PEX_wagon_NC; //단층 특실C
+     6: set_PEX_wagon_S;  //심야 A
+     7: set_PEX_wagon_S;  //심야 B
+     8: set_PEX_wagon_S;  //심야 C
+     9: set_PEX_wagon_S;  //심야 특실A
+    10: set_PEX_wagon_S;  //심야 특실B
+    11: set_PEX_wagon_S;  //심야 특실C
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon1_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_SN_r; //단층 특실A
+     4: set_PEX_wagon_SN_r; //단층 특실B
+     5: set_PEX_wagon_SN_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //심야 A
+     7: set_PEX_wagon_NA_r; //심야 B
+     8: set_PEX_wagon_NA_r; //심야 C
+     9: set_PEX_wagon_SN_r; //심야 특실A
+    10: set_PEX_wagon_SN_r; //심야 특실B
+    11: set_PEX_wagon_SN_r; //심야 특실C
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon2_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //심야 A
+     7: set_PEX_wagon_NB_r; //심야 B
+     8: set_PEX_wagon_NC_r; //심야 C
+     9: set_PEX_wagon_NA_r; //심야 특실A
+    10: set_PEX_wagon_NA_r; //심야 특실B
+    11: set_PEX_wagon_NA_r; //심야 특실C
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon3_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NB_r; //단층 특실B
+     5: set_PEX_wagon_NC_r; //단층 특실C
+     6: set_PEX_wagon_B_r;  //심야 A
+     7: set_PEX_wagon_B_r;  //심야 B
+     8: set_PEX_wagon_B_r;  //심야 C
+     9: set_PEX_wagon_B_r;  //심야 특실A
+    10: set_PEX_wagon_B_r;  //심야 특실B
+    11: set_PEX_wagon_B_r;  //심야 특실C
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon4_r, cargo_subtype) {
+     1: set_PEX_wagon_B_r;
+     2: set_PEX_wagon_B_r;
+     3: set_PEX_wagon_B_r; //단층 특실A
+     4: set_PEX_wagon_B_r; //단층 특실B
+     5: set_PEX_wagon_B_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //심야 A
+     7: set_PEX_wagon_NA_r; //심야 B
+     8: set_PEX_wagon_NA_r; //심야 C
+     9: set_PEX_wagon_NA_r; //심야 특실A
+    10: set_PEX_wagon_NB_r; //심야 특실B
+    11: set_PEX_wagon_NC_r; //심야 특실C
+    set_PEX_wagon_B_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon5_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //심야 A
+     7: set_PEX_wagon_NB_r; //심야 B
+     8: set_PEX_wagon_NC_r; //심야 C
+     9: set_PEX_wagon_NA_r; //심야 특실A
+    10: set_PEX_wagon_NA_r; //심야 특실B
+    11: set_PEX_wagon_NA_r; //심야 특실C
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon6_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NB_r; //단층 특실B
+     5: set_PEX_wagon_NC_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //심야 A
+     7: set_PEX_wagon_NA_r; //심야 B
+     8: set_PEX_wagon_NA_r; //심야 C
+     9: set_PEX_wagon_NA_r; //심야 특실A
+    10: set_PEX_wagon_NB_r; //심야 특실B
+    11: set_PEX_wagon_NC_r; //심야 특실C
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon7_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //심야 A
+     7: set_PEX_wagon_NB_r; //심야 B
+     8: set_PEX_wagon_NC_r; //심야 C
+     9: set_PEX_wagon_NA_r; //심야 특실A
+    10: set_PEX_wagon_NA_r; //심야 특실B
+    11: set_PEX_wagon_NA_r; //심야 특실C
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_wagon8_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NB_r; //단층 특실B
+     5: set_PEX_wagon_NC_r; //단층 특실C
+     6: set_PEX_wagon_S_r;  //심야 A
+     7: set_PEX_wagon_S_r;  //심야 B
+     8: set_PEX_wagon_S_r;  //심야 C
+     9: set_PEX_wagon_S_r;  //심야 특실A
+    10: set_PEX_wagon_S_r;  //심야 특실B
+    11: set_PEX_wagon_S_r;  //심야 특실C
+    set_PEX_wagon_NA_r;
+}
+
+//8량 편성
+switch (FEAT_TRAINS, SELF, sw_PEX_8Car, position_in_vehid_chain % 8) {
+    1:sw_PEX_8Car_wagon2;
+    2:sw_PEX_8Car_wagon3;
+    3:sw_PEX_8Car_wagon4;
+    4:sw_PEX_8Car_wagon5;
+    5:sw_PEX_8Car_wagon6;
+    6:sw_PEX_8Car_wagon7;
+    7:sw_PEX_8Car_wagon8;
+    sw_PEX_8Car_wagon1; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_PEX_8Car_r, position_in_vehid_chain % 8) {
+    1:sw_PEX_8Car_wagon7_r;
+    2:sw_PEX_8Car_wagon6_r;
+    3:sw_PEX_8Car_wagon5_r;
+    4:sw_PEX_8Car_wagon4_r;
+    5:sw_PEX_8Car_wagon3_r;
+    6:sw_PEX_8Car_wagon2_r;
+    7:sw_PEX_8Car_wagon1_r;
+    sw_PEX_8Car_wagon8_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_flipped, vehicle_is_flipped){
+    0: sw_PEX_8Car_r;
+    sw_PEX_8Car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_PEX_8Car_reversed, vehicle_is_reversed){
+    0: sw_PEX_8Car;
+    sw_PEX_8Car_flipped;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_8Car_capacity_in_custom, cargo_subtype) {
+     1: return 70;
+     2: return 70;
+     3: return 69;
+     4: return 69;
+     5: return 69;
+     6: return 64;
+     7: return 64;
+     8: return 64;
+     9: return 63;
+    10: return 63;
+    11: return 63;
+       70;
+}
+
+switch (FEAT_TRAINS, SELF, sw_articulated_PEX_8Car, extra_callback_info1) {
+    1..7: PEX_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+//10량
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon1, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_SN; //단층 특실A
+     4: set_PEX_wagon_SN; //단층 특실B
+     5: set_PEX_wagon_SN; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NA; //복합 B
+     8: set_PEX_wagon_NA; //복합 C
+     9: set_PEX_wagon_SN; //복합 특실A
+    10: set_PEX_wagon_SN; //복합 특실B
+    11: set_PEX_wagon_SN; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NA; //심야 B
+    14: set_PEX_wagon_NA; //심야 C
+    15: set_PEX_wagon_SN; //심야 특실A
+    16: set_PEX_wagon_SN; //심야 특실B
+    17: set_PEX_wagon_SN; //심야 특실C
+    18: set_PEX_wagon_DA; //2층형 DA
+    19: set_PEX_wagon_DA; //2층형 DB
+    20: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon2, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NB; //복합 B
+     8: set_PEX_wagon_NC; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NA; //복합 특실B
+    11: set_PEX_wagon_NA; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NB; //심야 B
+    14: set_PEX_wagon_NC; //심야 C
+    15: set_PEX_wagon_NA; //심야 특실A
+    16: set_PEX_wagon_NA; //심야 특실B
+    17: set_PEX_wagon_NA; //심야 특실C
+    18: set_PEX_wagon_DA; //2층형 DA
+    19: set_PEX_wagon_DB; //2층형 DB
+    20: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon3, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NB; //단층 특실B
+     5: set_PEX_wagon_NC; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NA; //복합 B
+     8: set_PEX_wagon_NA; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NB; //복합 특실B
+    11: set_PEX_wagon_NC; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NA; //심야 B
+    14: set_PEX_wagon_NA; //심야 C
+    15: set_PEX_wagon_NA; //심야 특실A
+    16: set_PEX_wagon_NB; //심야 특실B
+    17: set_PEX_wagon_NC; //심야 특실C
+    18: set_PEX_wagon_DA; //2층형 DA
+    19: set_PEX_wagon_DA; //2층형 DB
+    20: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon4, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NB; //복합 B
+     8: set_PEX_wagon_NC; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NA; //복합 특실B
+    11: set_PEX_wagon_NA; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NB; //심야 B
+    14: set_PEX_wagon_NC; //심야 C
+    15: set_PEX_wagon_NA; //심야 특실A
+    16: set_PEX_wagon_NA; //심야 특실B
+    17: set_PEX_wagon_NA; //심야 특실C
+    18: set_PEX_wagon_DA; //2층형 DA
+    19: set_PEX_wagon_DB; //2층형 DB
+    20: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon5, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NB; //단층 특실B
+     5: set_PEX_wagon_NC; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NA; //복합 B
+     8: set_PEX_wagon_NA; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NB; //복합 특실B
+    11: set_PEX_wagon_NC; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NA; //심야 B
+    14: set_PEX_wagon_NA; //심야 C
+    15: set_PEX_wagon_NA; //심야 특실A
+    16: set_PEX_wagon_NB; //심야 특실B
+    17: set_PEX_wagon_NC; //심야 특실C
+    18: set_PEX_wagon_DA; //2층형 DA
+    19: set_PEX_wagon_DA; //2층형 DB
+    20: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon6, cargo_subtype) {
+     1: set_PEX_wagon_B;
+     2: set_PEX_wagon_B;
+     3: set_PEX_wagon_B; //단층 특실A
+     4: set_PEX_wagon_B; //단층 특실B
+     5: set_PEX_wagon_B; //단층 특실C
+     6: set_PEX_wagon_B; //복합 A
+     7: set_PEX_wagon_B; //복합 B
+     8: set_PEX_wagon_B; //복합 C
+     9: set_PEX_wagon_B; //복합 특실A
+    10: set_PEX_wagon_B; //복합 특실B
+    11: set_PEX_wagon_B; //복합 특실C
+    12: set_PEX_wagon_B; //심야 A
+    13: set_PEX_wagon_B; //심야 B
+    14: set_PEX_wagon_B; //심야 C
+    15: set_PEX_wagon_B; //심야 특실A
+    16: set_PEX_wagon_B; //심야 특실B
+    17: set_PEX_wagon_B; //심야 특실C
+    18: set_PEX_wagon_B; //2층형 DA
+    19: set_PEX_wagon_B; //2층형 DB
+    20: set_PEX_wagon_B; //침대관광
+    set_PEX_wagon_B;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon7, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NB; //복합 B
+     8: set_PEX_wagon_NC; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NA; //복합 특실B
+    11: set_PEX_wagon_NA; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NB; //심야 B
+    14: set_PEX_wagon_NC; //심야 C
+    15: set_PEX_wagon_NA; //심야 특실A
+    16: set_PEX_wagon_NA; //심야 특실B
+    17: set_PEX_wagon_NA; //심야 특실C
+    18: set_PEX_wagon_DA; //2층형 DA
+    19: set_PEX_wagon_DB; //2층형 DB
+    20: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon8, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NB; //단층 특실B
+     5: set_PEX_wagon_NC; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NA; //복합 B
+     8: set_PEX_wagon_NA; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NB; //복합 특실B
+    11: set_PEX_wagon_NC; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NA; //심야 B
+    14: set_PEX_wagon_NA; //심야 C
+    15: set_PEX_wagon_NA; //심야 특실A
+    16: set_PEX_wagon_NB; //심야 특실B
+    17: set_PEX_wagon_NC; //심야 특실C
+    18: set_PEX_wagon_DA; //2층형 DA
+    19: set_PEX_wagon_DA; //2층형 DB
+    20: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon9, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NB; //복합 B
+     8: set_PEX_wagon_NC; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NA; //복합 특실B
+    11: set_PEX_wagon_NA; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NB; //심야 B
+    14: set_PEX_wagon_NC; //심야 C
+    15: set_PEX_wagon_NA; //심야 특실A
+    16: set_PEX_wagon_NA; //심야 특실B
+    17: set_PEX_wagon_NA; //심야 특실C
+    18: set_PEX_wagon_DA; //2층형 DA
+    19: set_PEX_wagon_DB; //2층형 DB
+    20: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon10, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NB; //단층 특실B
+     5: set_PEX_wagon_NC; //단층 특실C
+     6: set_PEX_wagon_DB; //복합 A
+     7: set_PEX_wagon_DB; //복합 B
+     8: set_PEX_wagon_DB; //복합 C
+     9: set_PEX_wagon_DB; //복합 특실A
+    10: set_PEX_wagon_DB; //복합 특실B
+    11: set_PEX_wagon_DB; //복합 특실C
+    12: set_PEX_wagon_S;  //심야 A
+    13: set_PEX_wagon_S;  //심야 B
+    14: set_PEX_wagon_S;  //심야 C
+    15: set_PEX_wagon_S;  //심야 특실A
+    16: set_PEX_wagon_S;  //심야 특실B
+    17: set_PEX_wagon_S;  //심야 특실C
+    18: set_PEX_wagon_DA; //2층형 DA
+    19: set_PEX_wagon_DA; //2층형 DB
+    20: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon1_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_SN_r; //단층 특실A
+     4: set_PEX_wagon_SN_r; //단층 특실B
+     5: set_PEX_wagon_SN_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NA_r; //복합 B
+     8: set_PEX_wagon_NA_r; //복합 C
+     9: set_PEX_wagon_SN_r; //복합 특실A
+    10: set_PEX_wagon_SN_r; //복합 특실B
+    11: set_PEX_wagon_SN_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NA_r; //심야 B
+    14: set_PEX_wagon_NA_r; //심야 C
+    15: set_PEX_wagon_SN_r; //심야 특실A
+    16: set_PEX_wagon_SN_r; //심야 특실B
+    17: set_PEX_wagon_SN_r; //심야 특실C
+    18: set_PEX_wagon_DA_r; //2층형 DA
+    19: set_PEX_wagon_DA_r; //2층형 DB
+    20: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon2_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NB_r; //복합 B
+     8: set_PEX_wagon_NC_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NA_r; //복합 특실B
+    11: set_PEX_wagon_NA_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NB_r; //심야 B
+    14: set_PEX_wagon_NC_r; //심야 C
+    15: set_PEX_wagon_NA_r; //심야 특실A
+    16: set_PEX_wagon_NA_r; //심야 특실B
+    17: set_PEX_wagon_NA_r; //심야 특실C
+    18: set_PEX_wagon_DA_r; //2층형 DA
+    19: set_PEX_wagon_DB_r; //2층형 DB
+    20: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon3_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NB_r; //단층 특실B
+     5: set_PEX_wagon_NC_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NA_r; //복합 B
+     8: set_PEX_wagon_NA_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NB_r; //복합 특실B
+    11: set_PEX_wagon_NC_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NA_r; //심야 B
+    14: set_PEX_wagon_NA_r; //심야 C
+    15: set_PEX_wagon_NA_r; //심야 특실A
+    16: set_PEX_wagon_NB_r; //심야 특실B
+    17: set_PEX_wagon_NC_r; //심야 특실C
+    18: set_PEX_wagon_DA_r; //2층형 DA
+    19: set_PEX_wagon_DA_r; //2층형 DB
+    20: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon4_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NB_r; //복합 B
+     8: set_PEX_wagon_NC_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NA_r; //복합 특실B
+    11: set_PEX_wagon_NA_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NB_r; //심야 B
+    14: set_PEX_wagon_NC_r; //심야 C
+    15: set_PEX_wagon_NA_r; //심야 특실A
+    16: set_PEX_wagon_NA_r; //심야 특실B
+    17: set_PEX_wagon_NA_r; //심야 특실C
+    18: set_PEX_wagon_DA_r; //2층형 DA
+    19: set_PEX_wagon_DB_r; //2층형 DB
+    20: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon5_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NB_r; //단층 특실B
+     5: set_PEX_wagon_NC_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NA_r; //복합 B
+     8: set_PEX_wagon_NA_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NB_r; //복합 특실B
+    11: set_PEX_wagon_NC_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NA_r; //심야 B
+    14: set_PEX_wagon_NA_r; //심야 C
+    15: set_PEX_wagon_NA_r; //심야 특실A
+    16: set_PEX_wagon_NB_r; //심야 특실B
+    17: set_PEX_wagon_NC_r; //심야 특실C
+    18: set_PEX_wagon_DA_r; //2층형 DA
+    19: set_PEX_wagon_DA_r; //2층형 DB
+    20: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon6_r, cargo_subtype) {
+     1: set_PEX_wagon_B_r;
+     2: set_PEX_wagon_B_r;
+     3: set_PEX_wagon_B_r; //단층 특실A
+     4: set_PEX_wagon_B_r; //단층 특실B
+     5: set_PEX_wagon_B_r; //단층 특실C
+     6: set_PEX_wagon_B_r; //복합 A
+     7: set_PEX_wagon_B_r; //복합 B
+     8: set_PEX_wagon_B_r; //복합 C
+     9: set_PEX_wagon_B_r; //복합 특실A
+    10: set_PEX_wagon_B_r; //복합 특실B
+    11: set_PEX_wagon_B_r; //복합 특실C
+    12: set_PEX_wagon_B_r; //심야 A
+    13: set_PEX_wagon_B_r; //심야 B
+    14: set_PEX_wagon_B_r; //심야 C
+    15: set_PEX_wagon_B_r; //심야 특실A
+    16: set_PEX_wagon_B_r; //심야 특실B
+    17: set_PEX_wagon_B_r; //심야 특실C
+    18: set_PEX_wagon_B_r; //2층형 DA
+    19: set_PEX_wagon_B_r; //2층형 DB
+    20: set_PEX_wagon_B_r;  //침대관광
+    set_PEX_wagon_B_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon7_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NB_r; //복합 B
+     8: set_PEX_wagon_NC_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NA_r; //복합 특실B
+    11: set_PEX_wagon_NA_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NB_r; //심야 B
+    14: set_PEX_wagon_NC_r; //심야 C
+    15: set_PEX_wagon_NA_r; //심야 특실A
+    16: set_PEX_wagon_NA_r; //심야 특실B
+    17: set_PEX_wagon_NA_r; //심야 특실C
+    18: set_PEX_wagon_DA_r; //2층형 DA
+    19: set_PEX_wagon_DB_r; //2층형 DB
+    20: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon8_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NB_r; //단층 특실B
+     5: set_PEX_wagon_NC_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NA_r; //복합 B
+     8: set_PEX_wagon_NA_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NB_r; //복합 특실B
+    11: set_PEX_wagon_NC_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NA_r; //심야 B
+    14: set_PEX_wagon_NA_r; //심야 C
+    15: set_PEX_wagon_NA_r; //심야 특실A
+    16: set_PEX_wagon_NB_r; //심야 특실B
+    17: set_PEX_wagon_NC_r; //심야 특실C
+    18: set_PEX_wagon_DA_r; //2층형 DA
+    19: set_PEX_wagon_DA_r; //2층형 DB
+    20: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon9_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NB_r; //복합 B
+     8: set_PEX_wagon_NC_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NA_r; //복합 특실B
+    11: set_PEX_wagon_NA_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NB_r; //심야 B
+    14: set_PEX_wagon_NC_r; //심야 C
+    15: set_PEX_wagon_NA_r; //심야 특실A
+    16: set_PEX_wagon_NA_r; //심야 특실B
+    17: set_PEX_wagon_NA_r; //심야 특실C
+    18: set_PEX_wagon_DA_r; //2층형 DA
+    19: set_PEX_wagon_DB_r; //2층형 DB
+    20: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_wagon10_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NB_r; //단층 특실B
+     5: set_PEX_wagon_NC_r; //단층 특실C
+     6: set_PEX_wagon_DB_r; //복합 A
+     7: set_PEX_wagon_DB_r; //복합 B
+     8: set_PEX_wagon_DB_r; //복합 C
+     9: set_PEX_wagon_DB_r; //복합 특실A
+    10: set_PEX_wagon_DB_r; //복합 특실B
+    11: set_PEX_wagon_DB_r; //복합 특실C
+    12: set_PEX_wagon_S_r;  //심야 A
+    13: set_PEX_wagon_S_r;  //심야 B
+    14: set_PEX_wagon_S_r;  //심야 C
+    15: set_PEX_wagon_S_r;  //심야 특실A
+    16: set_PEX_wagon_S_r;  //심야 특실B
+    17: set_PEX_wagon_S_r;  //심야 특실C
+    18: set_PEX_wagon_DA_r; //2층형 DA
+    19: set_PEX_wagon_DA_r; //2층형 DB
+    20: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+//10량 편성
+switch (FEAT_TRAINS, SELF, sw_PEX_10Car, position_in_vehid_chain % 10) {
+    1:sw_PEX_10Car_wagon2;
+    2:sw_PEX_10Car_wagon3;
+    3:sw_PEX_10Car_wagon4;
+    4:sw_PEX_10Car_wagon5;
+    5:sw_PEX_10Car_wagon6;
+    6:sw_PEX_10Car_wagon7;
+    7:sw_PEX_10Car_wagon8;
+    8:sw_PEX_10Car_wagon9;
+    9:sw_PEX_10Car_wagon10;
+    sw_PEX_10Car_wagon1; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_PEX_10Car_r, position_in_vehid_chain % 10) {
+    1:sw_PEX_10Car_wagon9_r;
+    2:sw_PEX_10Car_wagon8_r;
+    3:sw_PEX_10Car_wagon7_r;
+    4:sw_PEX_10Car_wagon6_r;
+    5:sw_PEX_10Car_wagon5_r;
+    6:sw_PEX_10Car_wagon4_r;
+    7:sw_PEX_10Car_wagon3_r;
+    8:sw_PEX_10Car_wagon2_r;
+    9:sw_PEX_10Car_wagon1_r;
+    sw_PEX_10Car_wagon10_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_flipped, vehicle_is_flipped){
+    0: sw_PEX_10Car_r;
+    sw_PEX_10Car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_PEX_10Car_reversed, vehicle_is_reversed){
+    0: sw_PEX_10Car;
+    sw_PEX_10Car_flipped;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_10Car_capacity_in_custom, cargo_subtype) {
+     1: return 70;
+     2: return 70;
+     3: return 69;
+     4: return 69;
+     5: return 69;
+     6: return 84;
+     7: return 84;
+     8: return 84;
+     9: return 76;
+    10: return 76;
+    11: return 76;
+    12: return 65;
+    13: return 65;
+    14: return 65;
+    15: return 65;
+    16: return 65;
+    17: return 65;
+    18: return 131;
+    19: return 131;
+    20: return 27;
+       70;
+}
+
+switch (FEAT_TRAINS, SELF, sw_articulated_PEX_10Car, extra_callback_info1) {
+    1..9: PEX_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+//14량
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon1, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_SN; //단층 특실A
+     4: set_PEX_wagon_SN; //단층 특실B
+     5: set_PEX_wagon_SN; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NA; //복합 B
+     8: set_PEX_wagon_NA; //복합 C
+     9: set_PEX_wagon_SN; //복합 특실A
+    10: set_PEX_wagon_SN; //복합 특실B
+    11: set_PEX_wagon_SN; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NA; //심야 B
+    14: set_PEX_wagon_NA; //심야 C
+    15: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon2, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_SN; //단층 특실A
+     4: set_PEX_wagon_SN; //단층 특실B
+     5: set_PEX_wagon_SN; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NB; //복합 B
+     8: set_PEX_wagon_NC; //복합 C
+     9: set_PEX_wagon_SN; //복합 특실A
+    10: set_PEX_wagon_SN; //복합 특실B
+    11: set_PEX_wagon_SN; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NB; //심야 B
+    14: set_PEX_wagon_NC; //심야 C
+    15: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon3, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NA; //복합 B
+     8: set_PEX_wagon_NA; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NA; //복합 특실B
+    11: set_PEX_wagon_NA; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NA; //심야 B
+    14: set_PEX_wagon_NA; //심야 C
+    15: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon4, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NB; //단층 특실B
+     5: set_PEX_wagon_NC; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NB; //복합 B
+     8: set_PEX_wagon_NC; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NB; //복합 특실B
+    11: set_PEX_wagon_NC; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NB; //심야 B
+    14: set_PEX_wagon_NC; //심야 C
+    15: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon5, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NA; //복합 B
+     8: set_PEX_wagon_NA; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NA; //복합 특실B
+    11: set_PEX_wagon_NA; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NA; //심야 B
+    14: set_PEX_wagon_NA; //심야 C
+    15: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon6, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NB; //단층 특실B
+     5: set_PEX_wagon_NC; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NB; //복합 B
+     8: set_PEX_wagon_NC; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NB; //복합 특실B
+    11: set_PEX_wagon_NC; //복합 특실C
+    12: set_PEX_wagon_NA; //심야 A
+    13: set_PEX_wagon_NB; //심야 B
+    14: set_PEX_wagon_NC; //심야 C
+    15: set_PEX_wagon_S; //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon7, cargo_subtype) {
+     1: set_PEX_wagon_B;
+     2: set_PEX_wagon_B;
+     3: set_PEX_wagon_B; //단층 특실A
+     4: set_PEX_wagon_B; //단층 특실B
+     5: set_PEX_wagon_B; //단층 특실C
+     6: set_PEX_wagon_B; //복합 A
+     7: set_PEX_wagon_B; //복합 B
+     8: set_PEX_wagon_B; //복합 C
+     9: set_PEX_wagon_B; //복합 특실A
+    10: set_PEX_wagon_B; //복합 특실B
+    11: set_PEX_wagon_B; //복합 특실C
+    12: set_PEX_wagon_B; //심야 A
+    13: set_PEX_wagon_B; //심야 B
+    14: set_PEX_wagon_B; //심야 C
+    15: set_PEX_wagon_B;  //침대관광
+    set_PEX_wagon_B;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon8, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NA; //복합 B
+     8: set_PEX_wagon_NA; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NA; //복합 특실B
+    11: set_PEX_wagon_NA; //복합 특실C
+    12: set_PEX_wagon_DA; //심야 A
+    13: set_PEX_wagon_DA; //심야 B
+    14: set_PEX_wagon_DA; //심야 C
+    15: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon9, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NB; //단층 특실B
+     5: set_PEX_wagon_NC; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NB; //복합 B
+     8: set_PEX_wagon_NC; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NB; //복합 특실B
+    11: set_PEX_wagon_NC; //복합 특실C
+    12: set_PEX_wagon_DA; //심야 A
+    13: set_PEX_wagon_DA; //심야 B
+    14: set_PEX_wagon_DA; //심야 C
+    15: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon10, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+     6: set_PEX_wagon_NA; //복합 A
+     7: set_PEX_wagon_NA; //복합 B
+     8: set_PEX_wagon_NA; //복합 C
+     9: set_PEX_wagon_NA; //복합 특실A
+    10: set_PEX_wagon_NA; //복합 특실B
+    11: set_PEX_wagon_NA; //복합 특실C
+    12: set_PEX_wagon_DA; //심야 A
+    13: set_PEX_wagon_DA; //심야 B
+    14: set_PEX_wagon_DA; //심야 C
+    15: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon11, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NB; //단층 특실B
+     5: set_PEX_wagon_NC; //단층 특실C
+     6: set_PEX_wagon_DA; //복합 A
+     7: set_PEX_wagon_DA; //복합 B
+     8: set_PEX_wagon_DA; //복합 C
+     9: set_PEX_wagon_DA; //복합 특실A
+    10: set_PEX_wagon_DA; //복합 특실B
+    11: set_PEX_wagon_DA; //복합 특실C
+    12: set_PEX_wagon_S;  //심야 A
+    13: set_PEX_wagon_S;  //심야 B
+    14: set_PEX_wagon_S;  //심야 C
+    15: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon12, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+     6: set_PEX_wagon_DA; //복합 A
+     7: set_PEX_wagon_DA; //복합 B
+     8: set_PEX_wagon_DA; //복합 C
+     9: set_PEX_wagon_DA; //복합 특실A
+    10: set_PEX_wagon_DA; //복합 특실B
+    11: set_PEX_wagon_DA; //복합 특실C
+    12: set_PEX_wagon_S;  //심야 A
+    13: set_PEX_wagon_S;  //심야 B
+    14: set_PEX_wagon_S;  //심야 C
+    15: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon13, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NB; //단층 특실B
+     5: set_PEX_wagon_NC; //단층 특실C
+     6: set_PEX_wagon_DA; //복합 A
+     7: set_PEX_wagon_DA; //복합 B
+     8: set_PEX_wagon_DA; //복합 C
+     9: set_PEX_wagon_DA; //복합 특실A
+    10: set_PEX_wagon_DA; //복합 특실B
+    11: set_PEX_wagon_DA; //복합 특실C
+    12: set_PEX_wagon_S;  //심야 A
+    13: set_PEX_wagon_S;  //심야 B
+    14: set_PEX_wagon_S;  //심야 C
+    15: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon14, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+     6: set_PEX_wagon_DA; //복합 A
+     7: set_PEX_wagon_DA; //복합 B
+     8: set_PEX_wagon_DA; //복합 C
+     9: set_PEX_wagon_DA; //복합 특실A
+    10: set_PEX_wagon_DA; //복합 특실B
+    11: set_PEX_wagon_DA; //복합 특실C
+    12: set_PEX_wagon_S;  //심야 A
+    13: set_PEX_wagon_S;  //심야 B
+    14: set_PEX_wagon_S;  //심야 C
+    15: set_PEX_wagon_S;  //침대관광
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon1_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_SN_r; //단층 특실A
+     4: set_PEX_wagon_SN_r; //단층 특실B
+     5: set_PEX_wagon_SN_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NA_r; //복합 B
+     8: set_PEX_wagon_NA_r; //복합 C
+     9: set_PEX_wagon_SN_r; //복합 특실A
+    10: set_PEX_wagon_SN_r; //복합 특실B
+    11: set_PEX_wagon_SN_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NA_r; //심야 B
+    14: set_PEX_wagon_NA_r; //심야 C
+    15: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon2_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_SN_r; //단층 특실A
+     4: set_PEX_wagon_SN_r; //단층 특실B
+     5: set_PEX_wagon_SN_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NB_r; //복합 B
+     8: set_PEX_wagon_NC_r; //복합 C
+     9: set_PEX_wagon_SN_r; //복합 특실A
+    10: set_PEX_wagon_SN_r; //복합 특실B
+    11: set_PEX_wagon_SN_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NB_r; //심야 B
+    14: set_PEX_wagon_NC_r; //심야 C
+    15: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon3_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NA_r; //복합 B
+     8: set_PEX_wagon_NA_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NA_r; //복합 특실B
+    11: set_PEX_wagon_NA_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NA_r; //심야 B
+    14: set_PEX_wagon_NA_r; //심야 C
+    15: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon4_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NB_r; //단층 특실B
+     5: set_PEX_wagon_NC_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NB_r; //복합 B
+     8: set_PEX_wagon_NC_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NB_r; //복합 특실B
+    11: set_PEX_wagon_NC_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NB_r; //심야 B
+    14: set_PEX_wagon_NC_r; //심야 C
+    15: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon5_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NA_r; //복합 B
+     8: set_PEX_wagon_NA_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NA_r; //복합 특실B
+    11: set_PEX_wagon_NA_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NA_r; //심야 B
+    14: set_PEX_wagon_NA_r; //심야 C
+    15: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon6_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NB_r; //단층 특실B
+     5: set_PEX_wagon_NC_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NB_r; //복합 B
+     8: set_PEX_wagon_NC_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NB_r; //복합 특실B
+    11: set_PEX_wagon_NC_r; //복합 특실C
+    12: set_PEX_wagon_NA_r; //심야 A
+    13: set_PEX_wagon_NB_r; //심야 B
+    14: set_PEX_wagon_NC_r; //심야 C
+    15: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon7_r, cargo_subtype) {
+     1: set_PEX_wagon_B_r;
+     2: set_PEX_wagon_B_r;
+     3: set_PEX_wagon_B_r; //단층 특실A
+     4: set_PEX_wagon_B_r; //단층 특실B
+     5: set_PEX_wagon_B_r; //단층 특실C
+     6: set_PEX_wagon_B_r; //복합 A
+     7: set_PEX_wagon_B_r; //복합 B
+     8: set_PEX_wagon_B_r; //복합 C
+     9: set_PEX_wagon_B_r; //복합 특실A
+    10: set_PEX_wagon_B_r; //복합 특실B
+    11: set_PEX_wagon_B_r; //복합 특실C
+    12: set_PEX_wagon_B_r; //심야 A
+    13: set_PEX_wagon_B_r; //심야 B
+    14: set_PEX_wagon_B_r; //심야 C
+    15: set_PEX_wagon_B_r;  //침대관광
+    set_PEX_wagon_B_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon8_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NA_r; //복합 B
+     8: set_PEX_wagon_NA_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NA_r; //복합 특실B
+    11: set_PEX_wagon_NA_r; //복합 특실C
+    12: set_PEX_wagon_DA_r; //심야 A
+    13: set_PEX_wagon_DA_r; //심야 B
+    14: set_PEX_wagon_DA_r; //심야 C
+    15: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon9_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NB_r; //단층 특실B
+     5: set_PEX_wagon_NC_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NB_r; //복합 B
+     8: set_PEX_wagon_NC_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NB_r; //복합 특실B
+    11: set_PEX_wagon_NC_r; //복합 특실C
+    12: set_PEX_wagon_DA_r; //심야 A
+    13: set_PEX_wagon_DA_r; //심야 B
+    14: set_PEX_wagon_DA_r; //심야 C
+    15: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon10_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+     6: set_PEX_wagon_NA_r; //복합 A
+     7: set_PEX_wagon_NA_r; //복합 B
+     8: set_PEX_wagon_NA_r; //복합 C
+     9: set_PEX_wagon_NA_r; //복합 특실A
+    10: set_PEX_wagon_NA_r; //복합 특실B
+    11: set_PEX_wagon_NA_r; //복합 특실C
+    12: set_PEX_wagon_DA_r; //심야 A
+    13: set_PEX_wagon_DA_r; //심야 B
+    14: set_PEX_wagon_DA_r; //심야 C
+    15: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon11_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NB_r; //단층 특실B
+     5: set_PEX_wagon_NC_r; //단층 특실C
+     6: set_PEX_wagon_DA_r; //복합 A
+     7: set_PEX_wagon_DA_r; //복합 B
+     8: set_PEX_wagon_DA_r; //복합 C
+     9: set_PEX_wagon_DA_r; //복합 특실A
+    10: set_PEX_wagon_DA_r; //복합 특실B
+    11: set_PEX_wagon_DA_r; //복합 특실C
+    12: set_PEX_wagon_S_r;  //심야 A
+    13: set_PEX_wagon_S_r;  //심야 B
+    14: set_PEX_wagon_S_r;  //심야 C
+    15: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon12_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+     6: set_PEX_wagon_DA_r; //복합 A
+     7: set_PEX_wagon_DA_r; //복합 B
+     8: set_PEX_wagon_DA_r; //복합 C
+     9: set_PEX_wagon_DA_r; //복합 특실A
+    10: set_PEX_wagon_DA_r; //복합 특실B
+    11: set_PEX_wagon_DA_r; //복합 특실C
+    12: set_PEX_wagon_S_r;  //심야 A
+    13: set_PEX_wagon_S_r;  //심야 B
+    14: set_PEX_wagon_S_r;  //심야 C
+    15: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon13_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NB_r; //단층 특실B
+     5: set_PEX_wagon_NC_r; //단층 특실C
+     6: set_PEX_wagon_DA_r; //복합 A
+     7: set_PEX_wagon_DA_r; //복합 B
+     8: set_PEX_wagon_DA_r; //복합 C
+     9: set_PEX_wagon_DA_r; //복합 특실A
+    10: set_PEX_wagon_DA_r; //복합 특실B
+    11: set_PEX_wagon_DA_r; //복합 특실C
+    12: set_PEX_wagon_S_r;  //심야 A
+    13: set_PEX_wagon_S_r;  //심야 B
+    14: set_PEX_wagon_S_r;  //심야 C
+    15: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_wagon14_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+     6: set_PEX_wagon_DA_r; //복합 A
+     7: set_PEX_wagon_DA_r; //복합 B
+     8: set_PEX_wagon_DA_r; //복합 C
+     9: set_PEX_wagon_DA_r; //복합 특실A
+    10: set_PEX_wagon_DA_r; //복합 특실B
+    11: set_PEX_wagon_DA_r; //복합 특실C
+    12: set_PEX_wagon_S_r;  //심야 A
+    13: set_PEX_wagon_S_r;  //심야 B
+    14: set_PEX_wagon_S_r;  //심야 C
+    15: set_PEX_wagon_S_r;  //침대관광
+    set_PEX_wagon_NA_r;
+}
+
+//14량 편성
+switch (FEAT_TRAINS, SELF, sw_PEX_14Car, position_in_vehid_chain % 14) {
+     1:sw_PEX_14Car_wagon2;
+     2:sw_PEX_14Car_wagon3;
+     3:sw_PEX_14Car_wagon4;
+     4:sw_PEX_14Car_wagon5;
+     5:sw_PEX_14Car_wagon6;
+     6:sw_PEX_14Car_wagon7;
+     7:sw_PEX_14Car_wagon8;
+     8:sw_PEX_14Car_wagon9;
+     9:sw_PEX_14Car_wagon10;
+    10:sw_PEX_14Car_wagon11;
+    11:sw_PEX_14Car_wagon12;
+    12:sw_PEX_14Car_wagon13;
+    13:sw_PEX_14Car_wagon14;
+    sw_PEX_14Car_wagon1; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_PEX_14Car_r, position_in_vehid_chain % 14) {
+     1:sw_PEX_14Car_wagon13_r;
+     2:sw_PEX_14Car_wagon12_r;
+     3:sw_PEX_14Car_wagon11_r;
+     4:sw_PEX_14Car_wagon10_r;
+     5:sw_PEX_14Car_wagon9_r;
+     6:sw_PEX_14Car_wagon8_r;
+     7:sw_PEX_14Car_wagon7_r;
+     8:sw_PEX_14Car_wagon6_r;
+     9:sw_PEX_14Car_wagon5_r;
+    10:sw_PEX_14Car_wagon4_r;
+    11:sw_PEX_14Car_wagon3_r;
+    12:sw_PEX_14Car_wagon2_r;
+    13:sw_PEX_14Car_wagon1_r;
+    sw_PEX_14Car_wagon14_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_flipped, vehicle_is_flipped){
+    0: sw_PEX_14Car_r;
+    sw_PEX_14Car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_PEX_14Car_reversed, vehicle_is_reversed){
+    0: sw_PEX_14Car;
+    sw_PEX_14Car_flipped;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_14Car_capacity_in_custom, cargo_subtype) {
+     1: return 70;
+     2: return 70;
+     3: return 70;
+     4: return 70;
+     5: return 70;
+     6: return 90;
+     7: return 90;
+     8: return 90;
+     9: return 89;
+    10: return 89;
+    11: return 89;
+    12: return 68;
+    13: return 68;
+    14: return 68;
+    15: return 26;
+       70;
+}
+
+switch (FEAT_TRAINS, SELF, sw_articulated_PEX_14Car, extra_callback_info1) {
+    1..13: PEX_14Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+//18량
+switch(FEAT_TRAINS, SELF, sw_PEX_18Car_SNAwagon, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_SN; //단층 특실A
+     4: set_PEX_wagon_SN; //단층 특실B
+     5: set_PEX_wagon_SN; //단층 특실C
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_18Car_SNABCwagon, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_SN; //단층 특실A
+     4: set_PEX_wagon_SN; //단층 특실B
+     5: set_PEX_wagon_SN; //단층 특실C
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_18Car_ABCwagon, cargo_subtype) {
+     1: set_PEX_wagon_NB;
+     2: set_PEX_wagon_NC;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NA; //단층 특실B
+     5: set_PEX_wagon_NA; //단층 특실C
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_18Car_SABCwagon, cargo_subtype) {
+     1: set_PEX_wagon_NA;
+     2: set_PEX_wagon_NA;
+     3: set_PEX_wagon_NA; //단층 특실A
+     4: set_PEX_wagon_NB; //단층 특실B
+     5: set_PEX_wagon_NC; //단층 특실C
+    set_PEX_wagon_NA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_18Car_SNAwagon_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_SN; //단층 특실A
+     4: set_PEX_wagon_SN; //단층 특실B
+     5: set_PEX_wagon_SN; //단층 특실C
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_18Car_SNABCwagon_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_SN; //단층 특실A
+     4: set_PEX_wagon_SN; //단층 특실B
+     5: set_PEX_wagon_SN; //단층 특실C
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_18Car_ABCwagon_r, cargo_subtype) {
+     1: set_PEX_wagon_NB_r;
+     2: set_PEX_wagon_NC_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NA_r; //단층 특실B
+     5: set_PEX_wagon_NA_r; //단층 특실C
+    set_PEX_wagon_NA_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_18Car_SABCwagon_r, cargo_subtype) {
+     1: set_PEX_wagon_NA_r;
+     2: set_PEX_wagon_NA_r;
+     3: set_PEX_wagon_NA_r; //단층 특실A
+     4: set_PEX_wagon_NB_r; //단층 특실B
+     5: set_PEX_wagon_NC_r; //단층 특실C
+    set_PEX_wagon_NA_r;
+}
+
+//18량 편성
+switch (FEAT_TRAINS, SELF, sw_PEX_18Car, position_in_vehid_chain % 18) {
+     1:sw_PEX_18Car_SNABCwagon;
+     2:sw_PEX_18Car_SNAwagon;
+     3:sw_PEX_18Car_ABCwagon;
+     4:sw_PEX_18Car_SABCwagon;
+     5:sw_PEX_18Car_ABCwagon;
+     6:sw_PEX_18Car_SABCwagon;
+     7:sw_PEX_18Car_ABCwagon;
+     8:set_PEX_wagon_B;
+     9:set_PEX_wagon_B;
+    10:sw_PEX_18Car_SABCwagon;
+    11:sw_PEX_18Car_ABCwagon;
+    12:sw_PEX_18Car_SABCwagon;
+    13:sw_PEX_18Car_ABCwagon;
+    14:sw_PEX_18Car_SABCwagon;
+    15:sw_PEX_18Car_ABCwagon;
+    16:sw_PEX_18Car_SABCwagon;
+    17:sw_PEX_18Car_ABCwagon;
+    sw_PEX_18Car_SNAwagon; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_PEX_18Car_r, position_in_vehid_chain % 18) {
+     1:sw_PEX_18Car_SABCwagon_r;
+     2:sw_PEX_18Car_ABCwagon_r;
+     3:sw_PEX_18Car_SABCwagon_r;
+     4:sw_PEX_18Car_ABCwagon_r;
+     5:sw_PEX_18Car_SABCwagon_r;
+     6:sw_PEX_18Car_ABCwagon_r;
+     7:sw_PEX_18Car_SABCwagon_r;
+     8:set_PEX_wagon_B_r;
+     9:set_PEX_wagon_B_r;
+    10:sw_PEX_18Car_ABCwagon_r;
+    11:sw_PEX_18Car_SABCwagon_r;
+    12:sw_PEX_18Car_ABCwagon_r;
+    13:sw_PEX_18Car_SABCwagon_r;
+    14:sw_PEX_18Car_ABCwagon_r;
+    15:sw_PEX_18Car_SNAwagon_r;
+    16:sw_PEX_18Car_SNABCwagon_r;
+    17:sw_PEX_18Car_SNAwagon_r;
+    sw_PEX_18Car_ABCwagon_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_PEX_18Car_flipped, vehicle_is_flipped){
+    0: sw_PEX_18Car_r;
+    sw_PEX_18Car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_PEX_18Car_reversed, vehicle_is_reversed){
+    0: sw_PEX_18Car;
+    sw_PEX_18Car_flipped;
+}
+
+switch(FEAT_TRAINS, SELF, sw_PEX_18Car_capacity_in_custom, cargo_subtype) {
+     1: return 70;
+     2: return 70;
+     3: return 69;
+     4: return 69;
+     5: return 69;
+       70;
+}
+
+switch (FEAT_TRAINS, SELF, sw_articulated_PEX_18Car, extra_callback_info1) {
+    1..17: PEX_18Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

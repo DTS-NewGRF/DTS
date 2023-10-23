@@ -333,6 +333,12 @@ STR_A_Train_New_NAME                                   :[DTS] A-Train Passenger 
 STR_G_Train_New_NAME                                   :[DTS] G-Train Passenger Car
 STR_KTS_MSPASS_NAME                                    :[DTS] Korea Mugunhwa passenger car
 STR_KTS_SSPASS_NAME                                    :[DTS] Korea Saemaeul passenger car
+STR_Group_PEX_NAME                                     :[DTS] PEX (Premium EXpress)
+STR_PEX_6Car_NAME                                      :[DTS] PEX 6Car
+STR_PEX_8Car_NAME                                      :[DTS] PEX 8Car
+STR_PEX_10Car_NAME                                     :[DTS] PEX 10Car
+STR_PEX_14Car_NAME                                     :[DTS] PEX 14Car
+STR_PEX_18Car_NAME                                     :[DTS] PEX 18Car
 STR_Generatar_Car_NAME                                 :[DTS] Generatar Car
 STR_Luggage_Car_NAME                                   :[DTS] Luggage Car
 STR_CTS_SPASS_NAME                                     :[DTS] Chinese carriage-type passenger car
@@ -398,6 +404,7 @@ STR_REFIT_train_configuration_A_Train_New_Passenger    :{BLACK}train configurati
 STR_REFIT_train_configuration_G_Train_New_Passenger    :{BLACK}train configuration {GREEN}G-Train Passenger Car
 STR_REFIT_train_configuration_MSPassenger              :{BLACK}train configuration {GREEN}Korea Mugunhwa Passenger vehicles
 STR_REFIT_train_configuration_SSPassenger              :{BLACK}train configuration {GREEN}Korea Saemaeul Passenger vehicles
+STR_REFIT_train_configuration_PEX                      :{BLACK}train configuration {GREEN}PEX
 STR_REFIT_train_configuration_Generatar                :{BLACK}train configuration {GREEN}Generatar vehicles
 STR_REFIT_train_configuration_Luggage                  :{BLACK}train configuration {GREEN}Luggage vehicles
 STR_REFIT_train_configuration_CSPassenger              :{BLACK}train configuration {GREEN}Chinese carriage-type Passenger vehicles
@@ -717,6 +724,27 @@ STR_REFIT_LIVERY_11SPassenger_Car                      : 11Passenger_Car
 STR_REFIT_LIVERY_12SPassenger_Car                      : 12Passenger_Car
 STR_REFIT_LIVERY_13SPassenger_Car                      : 13Passenger_Car
 STR_REFIT_LIVERY_14SPassenger_Car                      : 14Passenger_Car
+STR_REFIT_LIVERY_PEX_NA_Car                            : PEX NA type
+STR_REFIT_LIVERY_PEX_NB_Car                            : PEX NB type
+STR_REFIT_LIVERY_PEX_NC_Car                            : PEX NC type
+STR_REFIT_LIVERY_PEX_SNA_Car                           : PEX Special A type
+STR_REFIT_LIVERY_PEX_SNB_Car                           : PEX Special B type
+STR_REFIT_LIVERY_PEX_SNC_Car                           : PEX Special C type
+STR_REFIT_LIVERY_PEX_NDNA_Car                          : PEX complex A type
+STR_REFIT_LIVERY_PEX_NDNB_Car                          : PEX complex B type
+STR_REFIT_LIVERY_PEX_NDNC_Car                          : PEX complex C type
+STR_REFIT_LIVERY_PEX_SNDNA_Car                         : PEX complex Special A type
+STR_REFIT_LIVERY_PEX_SNDNB_Car                         : PEX complex Special B type
+STR_REFIT_LIVERY_PEX_SNDNC_Car                         : PEX complex Special C type
+STR_REFIT_LIVERY_PEX_NNA_Car                           : PEX Night NA type
+STR_REFIT_LIVERY_PEX_NNB_Car                           : PEX Night NB type
+STR_REFIT_LIVERY_PEX_NNC_Car                           : PEX Night NC type
+STR_REFIT_LIVERY_PEX_SNNA_Car                          : PEX Night Special NA type
+STR_REFIT_LIVERY_PEX_SNNB_Car                          : PEX Night Special NB type
+STR_REFIT_LIVERY_PEX_SNNC_Car                          : PEX Night Special NC type
+STR_REFIT_LIVERY_PEX_DA_Car                            : PEX Dupble A type
+STR_REFIT_LIVERY_PEX_DB_Car                            : PEX Dupble B type
+STR_REFIT_LIVERY_PEX_S_Car                             : PEX Travel type
 STR_REFIT_LIVERY_Eco_Rail_Generatar_Car                : Generatar Car
 STR_REFIT_LIVERY_CY_GW_Generatar_Car                   : Chungbuk Yeongdong Gugak & Wine Generatar Car
 STR_REFIT_LIVERY_JA_a_Old_Generatar_Car                : Jeongseon Arirang Old Color

@@ -339,6 +339,12 @@ sort(FEAT_TRAINS, [
     Coach_2F,                                //2106
     KTS_MSPassenger_Car,                     //2245
     KTS_SSPassenger_Car,                     //2132
+    PEX,                                     //2333
+    PEX_6Car,                                //2334
+    PEX_8Car,                                //2335
+    PEX_10Car,                               //2336
+    PEX_14Car,                               //2337
+    PEX_18Car,                               //2338
     CTS_SPassenger_Car,                      //2031
     ETS_SPassenger_Car,                      //2061
     Generatar_Car,                           //2003
