@@ -333,11 +333,11 @@ STR_G_Train_New_NAME                                   :[DTS/5량] G-Train 신�
 STR_KTS_MSPASS_NAME                                    :[DTS/객차] 한국 무궁화호 객차 차량
 STR_KTS_SSPASS_NAME                                    :[DTS/객차] 한국 새마을호 객차 차량
 STR_Group_PEX_NAME                                     :[DTS] PEX (Premium EXpress)
-STR_PEX_6Car_NAME                                      :[DTS/6량] PEX
-STR_PEX_8Car_NAME                                      :[DTS/8량] PEX
-STR_PEX_10Car_NAME                                     :[DTS/10량] PEX
-STR_PEX_14Car_NAME                                     :[DTS/14량] PEX
-STR_PEX_18Car_NAME                                     :[DTS/18량] PEX
+STR_PEX_N_NAME                                         :[DTS] PEX 1층 차량
+STR_PEX_SN_NAME                                        :[DTS] PEX 특실 차량
+STR_PEX_D_NAME                                         :[DTS] PEX 2층 차량
+STR_PEX_B_NAME                                         :[DTS] PEX 식당칸
+STR_PEX_S_NAME                                         :[DTS] PEX 침대칸
 STR_Generatar_Car_NAME                                 :[DTS/발전차] 한국 발전차
 STR_Luggage_Car_NAME                                   :[DTS/수화물차] 한국 수화물차
 STR_CTS_SPASS_NAME                                     :[DTS/객차] 중국 객차 차량
@@ -721,27 +721,6 @@ STR_REFIT_LIVERY_11SPassenger_Car                      : 식당차 유선형 초
 STR_REFIT_LIVERY_12SPassenger_Car                      : 식당차 장대형 초기도색
 STR_REFIT_LIVERY_13SPassenger_Car                      : 식당차 유선형, 장대형 구도색·신도색
 STR_REFIT_LIVERY_14SPassenger_Car                      : 카페객차 유선형, 장대형
-STR_REFIT_LIVERY_PEX_NA_Car                            : PEX 1층형 A도색
-STR_REFIT_LIVERY_PEX_NB_Car                            : PEX 1층형 B도색
-STR_REFIT_LIVERY_PEX_NC_Car                            : PEX 1층형 C도색
-STR_REFIT_LIVERY_PEX_SNA_Car                           : PEX 1층형 특실 A도색
-STR_REFIT_LIVERY_PEX_SNB_Car                           : PEX 1층형 특실 B도색
-STR_REFIT_LIVERY_PEX_SNC_Car                           : PEX 1층형 특실 C도색
-STR_REFIT_LIVERY_PEX_NDNA_Car                          : PEX 복합형 A도색
-STR_REFIT_LIVERY_PEX_NDNB_Car                          : PEX 복합형 B도색
-STR_REFIT_LIVERY_PEX_NDNC_Car                          : PEX 복합형 C도색
-STR_REFIT_LIVERY_PEX_SNDNA_Car                         : PEX 복합형 특실 A도색
-STR_REFIT_LIVERY_PEX_SNDNB_Car                         : PEX 복합형 특실 B도색
-STR_REFIT_LIVERY_PEX_SNDNC_Car                         : PEX 복합형 특실 C도색
-STR_REFIT_LIVERY_PEX_NNA_Car                           : PEX 심야형 A도색
-STR_REFIT_LIVERY_PEX_NNB_Car                           : PEX 심야형 B도색
-STR_REFIT_LIVERY_PEX_NNC_Car                           : PEX 심야형 C도색
-STR_REFIT_LIVERY_PEX_SNNA_Car                          : PEX 심야형 특실 A도색
-STR_REFIT_LIVERY_PEX_SNNB_Car                          : PEX 심야형 특실 B도색
-STR_REFIT_LIVERY_PEX_SNNC_Car                          : PEX 심야형 특실 C도색
-STR_REFIT_LIVERY_PEX_DA_Car                            : PEX 2층형 A도색
-STR_REFIT_LIVERY_PEX_DB_Car                            : PEX 2층형 B도색
-STR_REFIT_LIVERY_PEX_S_Car                             : PEX 침대관광
 STR_REFIT_LIVERY_Eco_Rail_Generatar_Car                : 발전차
 STR_REFIT_LIVERY_CY_GW_Generatar_Car                   : 충북영동국악와인
 STR_REFIT_LIVERY_JA_a_Old_Generatar_Car                : 정선아리랑 유람열차 구도색

@@ -784,16 +784,16 @@ item(FEAT_TRAINS, PEX, 2333){
         }
 
     graphics {
-        purchase:                       sw_PEX_wagon_purchase;
+        purchase:                       sw_PEX_N_wagon_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
-열차정보 6량
+열차정보 1층 차량
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_6Car, 2334){
+item (FEAT_TRAINS, PEX_N, 2334){
     property {
-        name:                           string(STR_PEX_6Car_NAME);
+        name:                           string(STR_PEX_N_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2022, 1, 1);
         track_type:                     RAIL;
@@ -812,7 +812,7 @@ item (FEAT_TRAINS, PEX_6Car, 2334){
         reliability_decay:              0;
 
         //Cargo
-        cargo_capacity:                 70;
+        cargo_capacity:                 72;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -828,23 +828,21 @@ item (FEAT_TRAINS, PEX_6Car, 2334){
     }
 
     graphics {
-        default:                        sw_PEX_6Car_reversed;
-        articulated_part:               sw_articulated_PEX_6Car;
-        purchase:                       sw_PEX_wagon_purchase;
+        default:                        sw_PEX_N_wagon;
+        purchase:                       sw_PEX_N_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_PEX_6Car_cargo_subtype_text;
         additional_text:                string(STR_REFIT_train_configuration_PEX);
         }
     }
 
 /*--------------------------------------------------------------------
-열차정보 8량
+열차정보 특실차량
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_8Car, 2335){
+item (FEAT_TRAINS, PEX_SN, 2335){
     property {
-        name:                           string(STR_PEX_8Car_NAME);
+        name:                           string(STR_PEX_SN_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2022, 1, 1);
         track_type:                     RAIL;
@@ -863,7 +861,7 @@ item (FEAT_TRAINS, PEX_8Car, 2335){
         reliability_decay:              0;
 
         //Cargo
-        cargo_capacity:                 70;
+        cargo_capacity:                 68;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -879,24 +877,21 @@ item (FEAT_TRAINS, PEX_8Car, 2335){
     }
 
     graphics {
-        default:                        sw_PEX_8Car_reversed;
-        articulated_part:               sw_articulated_PEX_8Car;
-        purchase:                       sw_PEX_wagon_purchase;
-        cargo_capacity:                 sw_PEX_8Car_capacity_in_custom;
+        default:                        set_PEX_wagon_SN;
+        purchase:                       sw_PEX_SN_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_PEX_8Car_cargo_subtype_text;
         additional_text:                string(STR_REFIT_train_configuration_PEX);
         }
     }
 
 /*--------------------------------------------------------------------
-열차정보 10량
+열차정보 2층
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_10Car, 2336){
+item (FEAT_TRAINS, PEX_D, 2336){
     property {
-        name:                           string(STR_PEX_10Car_NAME);
+        name:                           string(STR_PEX_D_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2022, 1, 1);
         track_type:                     RAIL;
@@ -915,7 +910,7 @@ item (FEAT_TRAINS, PEX_10Car, 2336){
         reliability_decay:              0;
 
         //Cargo
-        cargo_capacity:                 70;
+        cargo_capacity:                 140;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -931,24 +926,21 @@ item (FEAT_TRAINS, PEX_10Car, 2336){
     }
 
     graphics {
-        default:                        sw_PEX_10Car_reversed;
-        articulated_part:               sw_articulated_PEX_10Car;
-        purchase:                       sw_PEX_wagon_purchase;
-        cargo_capacity:                 sw_PEX_10Car_capacity_in_custom;
+        default:                        sw_PEX_D_wagon;
+        purchase:                       sw_PEX_D_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_PEX_10Car_cargo_subtype_text;
         additional_text:                string(STR_REFIT_train_configuration_PEX);
         }
     }
 
 /*--------------------------------------------------------------------
-열차정보 14량
+열차정보 식당칸
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_14Car, 2337){
+item (FEAT_TRAINS, PEX_B, 2337){
     property {
-        name:                           string(STR_PEX_14Car_NAME);
+        name:                           string(STR_PEX_B_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2022, 1, 1);
         track_type:                     RAIL;
@@ -967,7 +959,7 @@ item (FEAT_TRAINS, PEX_14Car, 2337){
         reliability_decay:              0;
 
         //Cargo
-        cargo_capacity:                 70;
+        cargo_capacity:                 50;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -983,24 +975,21 @@ item (FEAT_TRAINS, PEX_14Car, 2337){
     }
 
     graphics {
-        default:                        sw_PEX_14Car_reversed;
-        articulated_part:               sw_articulated_PEX_14Car;
-        purchase:                       sw_PEX_wagon_purchase;
-        cargo_capacity:                 sw_PEX_14Car_capacity_in_custom;
+        default:                        set_PEX_wagon_B;
+        purchase:                       sw_PEX_B_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_PEX_14Car_cargo_subtype_text;
         additional_text:                string(STR_REFIT_train_configuration_PEX);
         }
     }
 
 /*--------------------------------------------------------------------
-열차정보 18량
+열차정보 침대칸
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_18Car, 2338){
+item (FEAT_TRAINS, PEX_S, 2338){
     property {
-        name:                           string(STR_PEX_18Car_NAME);
+        name:                           string(STR_PEX_S_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2022, 1, 1);
         track_type:                     RAIL;
@@ -1019,7 +1008,7 @@ item (FEAT_TRAINS, PEX_18Car, 2338){
         reliability_decay:              0;
 
         //Cargo
-        cargo_capacity:                 70;
+        cargo_capacity:                 24;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -1035,14 +1024,11 @@ item (FEAT_TRAINS, PEX_18Car, 2338){
     }
 
     graphics {
-        default:                        sw_PEX_18Car_reversed;
-        articulated_part:               sw_articulated_PEX_18Car;
-        purchase:                       sw_PEX_wagon_purchase;
-        cargo_capacity:                 sw_PEX_18Car_capacity_in_custom;
+        default:                        set_PEX_wagon_S;
+        purchase:                       sw_PEX_S_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_PEX_18Car_cargo_subtype_text;
         additional_text:                string(STR_REFIT_train_configuration_PEX);
         }
     }
