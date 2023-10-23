@@ -629,6 +629,10 @@ spriteset(set_PEX_wagon_DB, "src\wagon\SPassenger_wagon\PEX\PEX_D_wagon.png") {
     wagon_1F_F(80, 27)
 }
 
+spriteset(set_PEX_wagon_DC, "src_Virtual\wagon\Coach_2F_wagon\Coach_2F_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
 spriteset(set_PEX_B_wagon_purchase, "src\wagon\SPassenger_wagon\PEX\PEX_B_wagon.png"){
     tmpl_wagon_purchase(0, 0)
 }

@@ -427,7 +427,8 @@ switch(FEAT_TRAINS, SELF, sw_PEX_N_wagon, random_bits % 3) {
 }
 
 //D객차 랜덤
-switch(FEAT_TRAINS, SELF, sw_PEX_D_wagon, random_bits % 2) {
+switch(FEAT_TRAINS, SELF, sw_PEX_D_wagon, random_bits % 3) {
     1: set_PEX_wagon_DB;
+    2: set_PEX_wagon_DC;
     set_PEX_wagon_DA;
 }
