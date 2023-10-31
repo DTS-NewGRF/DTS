@@ -366,10 +366,12 @@ STR_OBJ_Fountain                                       :[DTS] 분수대
 
 # Waypoint's name
 STR_Waypoint                                           :[DTS] 미사용 승강장
-STR_Waypoint_Nousestation_HighA                        :[DTS] 미사용 승강장 (고상홈A)
-STR_Waypoint_Nousestation_HighA_Start                  :[DTS] 미사용 승강장끝 (고상홈A)
-STR_Waypoint_Nousestation_HighB                        :[DTS] 미사용 승강장 (고상홈B)
-STR_Waypoint_Nousestation_HighB_Start                  :[DTS] 미사용 승강장끝 (고상홈B)
+STR_Waypoint_Nousestation_HighA                        :[DTS] 미사용 고상홈A
+STR_Waypoint_Nousestation_HighB                        :[DTS] 미사용 고상홈B
+STR_Waypoint_Nousestation_HighA_RA                     :[DTS] 미사용 고상홈A + 지붕A
+STR_Waypoint_Nousestation_HighB_RA                     :[DTS] 미사용 고상홈B + 지붕A
+STR_Waypoint_Nousestation_HighA_RB                     :[DTS] 미사용 고상홈A + 지붕B
+STR_Waypoint_Nousestation_HighB_RB                     :[DTS] 미사용 고상홈B + 지붕B
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :지하철 속도변수

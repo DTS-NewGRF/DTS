@@ -10,23 +10,8 @@
 /*--------------------------------------------------------------------
 오브젝트
 --------------------------------------------------------------------*/
-//고상홈 승강장A 시작
-item(FEAT_STATIONS, Waypoint_HightStaion_A_Start, 2000) {
-    property {
-        class:                  "WAYP";
-        classname:              string(STR_Waypoint);
-        name:                   string(STR_Waypoint_Nousestation_HighA_Start);
-        draw_pylon_tiles:       0;
-    }
-    
-    graphics {
-        sprite_layouts: [set_waypoint_Hight_Start_AX(0), set_waypoint_Hight_Start_AY(0)];
-        purchase: set_Platforms_waypoint_HightA;
-    }
-}
-
 //고상홈 승강장A
-item(FEAT_STATIONS, Waypoint_HightStaion_A, 2001) {
+item(FEAT_STATIONS, Waypoint_HightStaion_A, 2000) {
     property {
         class:                  "WAYP";
         classname:              string(STR_Waypoint);
@@ -35,28 +20,14 @@ item(FEAT_STATIONS, Waypoint_HightStaion_A, 2001) {
     }
     
     graphics {
-        sprite_layouts: [set_waypoint_Hight_AX(0), set_waypoint_Hight_AY(0)];
-        purchase: set_Platforms_waypoint_HightA;
-    }
-}
-
-//고상홈 승강장B 시작
-item(FEAT_STATIONS, Waypoint_HightStaion_B_Start, 2002) {
-    property {
-        class:                  "WAYP";
-        classname:              string(STR_Waypoint);
-        name:                   string(STR_Waypoint_Nousestation_HighB_Start);
-        draw_pylon_tiles:       0;
-    }
-    
-    graphics {
-        sprite_layouts: [set_waypoint_Hight_Start_BX(0), set_waypoint_Hight_Start_BY(0)];
-        purchase: set_Platforms_waypoint_HightB;
+        sprite_layouts: [set_Platforms_waypoint_HighA_X(0), set_Platforms_waypoint_HighA_Y(0)];
+        purchase: set_Platforms_waypoint_HighA;
+        
     }
 }
 
 //고상홈 승강장B
-item(FEAT_STATIONS, Waypoint_HightStaion_B, 2003) {
+item(FEAT_STATIONS, Waypoint_HightStaion_B, 2001) {
     property {
         class:                  "WAYP";
         classname:              string(STR_Waypoint);
@@ -65,7 +36,69 @@ item(FEAT_STATIONS, Waypoint_HightStaion_B, 2003) {
     }
     
     graphics {
-        sprite_layouts: [set_waypoint_Hight_BX(0), set_waypoint_Hight_BY(0)];
-        purchase: set_Platforms_waypoint_HightB;
+        sprite_layouts: [set_Platforms_waypoint_HighB_X(0), set_Platforms_waypoint_HighB_Y(0)];
+        purchase: set_Platforms_waypoint_HighB;
+        
+    }
+}
+
+//고상홈 승강장A + 지붕A
+item(FEAT_STATIONS, Waypoint_HightStaion_A_RA, 2002) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint);
+        name:                   string(STR_Waypoint_Nousestation_HighA_RA);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Platforms_waypoint_HighA_RAX(0), set_Platforms_waypoint_HighA_RAY(0)];
+        purchase: set_Platforms_waypoint_HighA_RA;
+    }
+}
+
+//고상홈 승강장B + 지붕A
+item(FEAT_STATIONS, Waypoint_HightStaion_B_RA, 2003) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint);
+        name:                   string(STR_Waypoint_Nousestation_HighB_RA);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Platforms_waypoint_HighB_RAX(0), set_Platforms_waypoint_HighB_RAY(0)];
+        purchase: set_Platforms_waypoint_HighB_RA;
+    }
+}
+
+//고상홈 승강장A + 지붕B
+item(FEAT_STATIONS, Waypoint_HightStaion_A_RB, 2004) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint);
+        name:                   string(STR_Waypoint_Nousestation_HighA_RB);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Platforms_waypoint_HighA_RBX(0), set_Platforms_waypoint_HighA_RBY(0)];
+        purchase: set_Platforms_waypoint_HighA_RB;
+    }
+}
+
+
+//고상홈 승강장B + 지붕B
+item(FEAT_STATIONS, Waypoint_HightStaion_B_RB, 2005) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint);
+        name:                   string(STR_Waypoint_Nousestation_HighB_RB);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Platforms_waypoint_HighB_RBX(0), set_Platforms_waypoint_HighB_RBY(0)];
+        purchase: set_Platforms_waypoint_HighB_RB;
     }
 }

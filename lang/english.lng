@@ -369,10 +369,12 @@ STR_OBJ_Fountain                                       :[DTS] Fountain
 
 # Waypoint's name
 STR_Waypoint                                           :[DTS] NoUse Station
-STR_Waypoint_Nousestation_HighA                        :[DTS] NoUse Station (Highplatform A)
-STR_Waypoint_Nousestation_HighA_Start                  :[DTS] NoUse Station End (Highplatform A)
-STR_Waypoint_Nousestation_HighB                        :[DTS] NoUse Station (Highplatform A)
-STR_Waypoint_Nousestation_HighB_Start                  :[DTS] NoUse Station End (Highplatform A)
+STR_Waypoint_Nousestation_HighA                        :[DTS] NoUse High Station A
+STR_Waypoint_Nousestation_HighB                        :[DTS] NoUse High Station B
+STR_Waypoint_Nousestation_HighA_RA                     :[DTS] NoUse High Station A + Roof A
+STR_Waypoint_Nousestation_HighB_RA                     :[DTS] NoUse High Station B + Roof A
+STR_Waypoint_Nousestation_HighA_RB                     :[DTS] NoUse High Station A + Roof B
+STR_Waypoint_Nousestation_HighB_RB                     :[DTS] NoUse High Station B + Roof B
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :Metro Train Speed Variable
