@@ -364,6 +364,13 @@ STR_OBJ_Flag_Korea                                     :[DTS] 태극기 표지�
 STR_OBJ_Pavement                                       :[DTS] 보도블럭
 STR_OBJ_Fountain                                       :[DTS] 분수대
 
+# Waypoint's name
+STR_Waypoint                                           :[DTS] 미사용 승강장
+STR_Waypoint_Nousestation_HighA                        :[DTS] 미사용 승강장 (고상홈A)
+STR_Waypoint_Nousestation_HighA_Start                  :[DTS] 미사용 승강장끝 (고상홈A)
+STR_Waypoint_Nousestation_HighB                        :[DTS] 미사용 승강장 (고상홈B)
+STR_Waypoint_Nousestation_HighB_Start                  :[DTS] 미사용 승강장끝 (고상홈B)
+
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :지하철 속도변수
 STR_PARAM_Metro_SPEED_Train_DESC                       :지하철의 속도를 조정합니다. (기본:121km/h)

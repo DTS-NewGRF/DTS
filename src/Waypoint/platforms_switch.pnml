@@ -1,0 +1,94 @@
+/*--------------------------------------------------------------------
+switch
+--------------------------------------------------------------------*/
+//미사용 고상홈 승강장A 시작
+spritelayout set_waypoint_Hight_Start_AX(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Platforms_waypoint_HightA_Start(0); // second sprite in active spriteset
+        zextent: 0;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_waypoint_Hight_Start_AY(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Platforms_waypoint_HightA_Start(1); // second sprite in active spriteset
+        zextent: 0;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+//미사용 고상홈 승강장 A
+spritelayout set_waypoint_Hight_AX(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Platforms_waypoint_HightA(0); // second sprite in active spriteset
+        zextent: 0;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_waypoint_Hight_AY(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Platforms_waypoint_HightA(1); // second sprite in active spriteset
+        zextent: 0;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+//미사용 고상홈 승강장B 시작
+spritelayout set_waypoint_Hight_Start_BX(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Platforms_waypoint_HightB_Start(0); // second sprite in active spriteset
+        zextent: 0;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_waypoint_Hight_Start_BY(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Platforms_waypoint_HightB_Start(1); // second sprite in active spriteset
+        zextent: 0;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+//미사용 고상홈 승강장 B
+spritelayout set_waypoint_Hight_BX(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Platforms_waypoint_HightB(0); // second sprite in active spriteset
+        zextent: 0;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_waypoint_Hight_BY(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Platforms_waypoint_HightB(1); // second sprite in active spriteset
+        zextent: 0;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}

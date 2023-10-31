@@ -354,4 +354,10 @@ sort(FEAT_TRAINS, [
     FLAT_1F,                                 //2129
     FLAT_2F,                                 //2114
     FLAT_TANK,                               //2130
+
+    //경유지
+    Waypoint_HightStaion_A_Start,            //2000
+    Waypoint_HightStaion_A,                  //2001
+    Waypoint_HightStaion_B_Start,            //2002
+    Waypoint_HightStaion_B,                  //2003
     ]);

@@ -352,7 +352,7 @@ STR_FLAT_2F_NAME                                       :[DTS] Flat Car - America
 STR_KMetro_Pass_NAME                                   :[DTS] Korean Metro Passenger Car
 STR_EMU_Pass_NAME                                      :[DTS] EMU carriage-type passenger car
 
-# waypoint's name
+# Object's name
 STR_OBJ_BUFFER                                         :[DTS] Buffers
 STR_OBJ_BUFFER_Concrete                                :[DTS] Concrete Buffers
 STR_OBJ_BUFFER_pebble                                  :[DTS] pebble Buffers
@@ -366,6 +366,13 @@ STR_OBJ_Flag                                           :[DTS] Flag Signboard
 STR_OBJ_Flag_Korea                                     :[DTS] Korea Flag Signboard
 STR_OBJ_Pavement                                       :[DTS] Pavement
 STR_OBJ_Fountain                                       :[DTS] Fountain
+
+# Waypoint's name
+STR_Waypoint                                           :[DTS] NoUse Station
+STR_Waypoint_Nousestation_HighA                        :[DTS] NoUse Station (Highplatform A)
+STR_Waypoint_Nousestation_HighA_Start                  :[DTS] NoUse Station End (Highplatform A)
+STR_Waypoint_Nousestation_HighB                        :[DTS] NoUse Station (Highplatform A)
+STR_Waypoint_Nousestation_HighB_Start                  :[DTS] NoUse Station End (Highplatform A)
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :Metro Train Speed Variable
