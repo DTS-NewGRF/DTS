@@ -368,10 +368,16 @@ STR_OBJ_Fountain                                       :[DTS] 분수대
 STR_Waypoint                                           :[DTS] 미사용 승강장
 STR_Waypoint_Nousestation_HighA                        :[DTS] 미사용 고상홈A
 STR_Waypoint_Nousestation_HighB                        :[DTS] 미사용 고상홈B
-STR_Waypoint_Nousestation_HighA_RA                     :[DTS] 미사용 고상홈A + 지붕A
-STR_Waypoint_Nousestation_HighB_RA                     :[DTS] 미사용 고상홈B + 지붕A
-STR_Waypoint_Nousestation_HighA_RB                     :[DTS] 미사용 고상홈A + 지붕B
-STR_Waypoint_Nousestation_HighB_RB                     :[DTS] 미사용 고상홈B + 지붕B
+STR_Waypoint_Nousestation_LowA                         :[DTS] 미사용 저상홈A
+STR_Waypoint_Nousestation_LowB                         :[DTS] 미사용 저상홈B
+STR_Waypoint_Nousestation_ALowA                        :[DTS] 미사용 아스팔트 저상홈A
+STR_Waypoint_Nousestation_ALowB                        :[DTS] 미사용 아스팔트 저상홈B
+STR_Waypoint_Nousestation_HighA_Snow                   :[DTS] 미사용 고상홈A 아한대
+STR_Waypoint_Nousestation_HighB_Snow                   :[DTS] 미사용 고상홈B 아한대
+STR_Waypoint_Nousestation_LowA_Snow                    :[DTS] 미사용 저상홈A 아한대
+STR_Waypoint_Nousestation_LowB_Snow                    :[DTS] 미사용 저상홈B 아한대
+STR_Waypoint_Nousestation_ALowA_Snow                   :[DTS] 미사용 아스팔트 저상홈A 아한대
+STR_Waypoint_Nousestation_ALowB_Snow                   :[DTS] 미사용 아스팔트 저상홈B 아한대
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :지하철 속도변수

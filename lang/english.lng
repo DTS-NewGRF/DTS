@@ -371,10 +371,16 @@ STR_OBJ_Fountain                                       :[DTS] Fountain
 STR_Waypoint                                           :[DTS] NoUse Station
 STR_Waypoint_Nousestation_HighA                        :[DTS] NoUse High Station A
 STR_Waypoint_Nousestation_HighB                        :[DTS] NoUse High Station B
-STR_Waypoint_Nousestation_HighA_RA                     :[DTS] NoUse High Station A + Roof A
-STR_Waypoint_Nousestation_HighB_RA                     :[DTS] NoUse High Station B + Roof A
-STR_Waypoint_Nousestation_HighA_RB                     :[DTS] NoUse High Station A + Roof B
-STR_Waypoint_Nousestation_HighB_RB                     :[DTS] NoUse High Station B + Roof B
+STR_Waypoint_Nousestation_LowA                         :[DTS] NoUse Low Station A
+STR_Waypoint_Nousestation_LowB                         :[DTS] NoUse Low Station B
+STR_Waypoint_Nousestation_ALowA                        :[DTS] NoUse Low Asphalt Station A
+STR_Waypoint_Nousestation_ALowB                        :[DTS] NoUse Low Asphalt Station B
+STR_Waypoint_Nousestation_HighA_Snow                   :[DTS] NoUse High Snow Station A
+STR_Waypoint_Nousestation_HighB_Snow                   :[DTS] NoUse High Snow Station B
+STR_Waypoint_Nousestation_LowA_Snow                    :[DTS] NoUse Low Snow Station A
+STR_Waypoint_Nousestation_LowB_Snow                    :[DTS] NoUse Low Snow Station B
+STR_Waypoint_Nousestation_ALowA_Snow                   :[DTS] NoUse Low Asphalt Snow Station A
+STR_Waypoint_Nousestation_ALowB_Snow                   :[DTS] NoUse Low Asphalt Snow Station B
 
 # Parameters
 STR_PARAM_Metro_SPEED_Train_NAME                       :Metro Train Speed Variable

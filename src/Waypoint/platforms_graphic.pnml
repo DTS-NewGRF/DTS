@@ -2,31 +2,61 @@
 Graphics
 --------------------------------------------------------------------*/
 spriteset(set_Platforms_waypoint_HighA, "src/Waypoint/platforms.png"){
-    [0,     0,    44,    24,    -31,   -4]
-    [0,    45,    44,    24,    -11,   -3]
+    [0,      0,    44,    24,    -31,   -4]
+    [50,     0,    44,    24,    -11,   -3]
 }
 
 spriteset(set_Platforms_waypoint_HighB, "src/Waypoint/platforms.png"){
-    [0,    90,    44,    24,    -11,    6]
-    [0,   135,    44,    24,    -31,    7]
+    [100,    0,    44,    22,    -11,    6]
+    [150,    0,    44,    22,    -31,    7]
 }
 
-spriteset(set_Platforms_waypoint_HighA_RA, "src/Waypoint/platforms.png"){
-    [49,   0,    44,    36,    -31,  -16]
-    [49,   45,   44,    36,    -11,  -16]
+spriteset(set_Platforms_waypoint_LowA, "src/Waypoint/platforms.png"){
+    [0,     29,    44,    22,    -31,   -1]
+    [50,    29,    44,    22,    -11,   -1]
 }
 
-spriteset(set_Platforms_waypoint_HighB_RA, "src/Waypoint/platforms.png"){
-    [49,   90,    44,    39,    -11,   -9]
-    [49,  135,    44,    39,    -31,   -8]
+spriteset(set_Platforms_waypoint_LowB, "src/Waypoint/platforms.png"){
+    [100,   29,    44,    22,    -11,    9]
+    [150,   29,    44,    22,    -31,    9]
 }
 
-spriteset(set_Platforms_waypoint_HighA_RB, "src/Waypoint/platforms.png"){
-    [98,   0,    44,    40,    -31,  -20]
-    [98,  45,    44,    40,    -11,  -19]
+spriteset(set_Platforms_waypoint_ALowA, "src/Waypoint/platforms.png"){
+    [0,     56,    44,    22,    -31,   -1]
+    [50,    56,    44,    22,    -11,   -1]
 }
 
-spriteset(set_Platforms_waypoint_HighB_RB, "src/Waypoint/platforms.png"){
-    [98,  90,    44,    40,    -11,   -10]
-    [98, 135,    44,    40,    -31,    -9]
+spriteset(set_Platforms_waypoint_ALowB, "src/Waypoint/platforms.png"){
+    [100,   56,    44,    22,    -11,    9]
+    [150,   56,    44,    22,    -31,    9]
+}
+
+spriteset(set_Platforms_waypoint_HighA_Snow, "src/Waypoint/platforms.png"){
+    [0,     83,    44,    24,    -31,   -4]
+    [50,    83,    44,    24,    -11,   -3]
+}
+
+spriteset(set_Platforms_waypoint_HighB_Snow, "src/Waypoint/platforms.png"){
+    [100,   83,    44,    24,    -11,    6]
+    [150,   83,    44,    24,    -31,    7]
+}
+
+spriteset(set_Platforms_waypoint_LowA_Snow, "src/Waypoint/platforms.png"){
+    [0,    112,    44,    22,    -31,   -1]
+    [50,   112,    44,    22,    -11,   -1]
+}
+
+spriteset(set_Platforms_waypoint_LowB_Snow, "src/Waypoint/platforms.png"){
+    [100,  112,    44,    22,    -11,    9]
+    [150,  112,    44,    22,    -31,    9]
+}
+
+spriteset(set_Platforms_waypoint_ALowA_Snow, "src/Waypoint/platforms.png"){
+    [0,    139,    44,    22,    -31,   -1]
+    [50,   139,    44,    22,    -11,   -1]
+}
+
+spriteset(set_Platforms_waypoint_ALowB_Snow, "src/Waypoint/platforms.png"){
+    [100,  139,    44,    22,    -11,    9]
+    [150,  139,    44,    22,    -31,    9]
 }

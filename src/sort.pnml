@@ -356,10 +356,16 @@ sort(FEAT_TRAINS, [
     FLAT_TANK,                               //2130
 
     //경유지
-    Waypoint_HightStaion_A,                  //2000
-    Waypoint_HightStaion_B,                  //2001
-    Waypoint_HightStaion_A_RA,               //2002
-    Waypoint_HightStaion_B_RA,               //2003
-    Waypoint_HightStaion_A_RB,               //2004
-    Waypoint_HightStaion_B_RB,               //2005
+    Waypoint_Hight_Staion_A,                 //2000
+    Waypoint_Hight_Staion_B,                 //2001
+    Waypoint_Low_Staion_A,                   //2002
+    Waypoint_Low_Staion_B,                   //2003
+    Waypoint_ALow_Staion_A,                  //2004
+    Waypoint_ALowt_Staion_B,                 //2005
+    Waypoint_Hight_Snow_Staion_A,            //2006
+    Waypoint_Hight_Snow_Staion_B,            //2007
+    Waypoint_Low_Snow_Staion_A,              //2008
+    Waypoint_Low_Snow_Staion_B,              //2009
+    Waypoint_ALow_Snow_Staion_A,             //2010
+    Waypoint_ALow_Snow_Staion_B,             //2011
     ]);

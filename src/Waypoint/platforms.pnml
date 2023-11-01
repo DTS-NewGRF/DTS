@@ -11,7 +11,7 @@
 오브젝트
 --------------------------------------------------------------------*/
 //고상홈 승강장A
-item(FEAT_STATIONS, Waypoint_HightStaion_A, 2000) {
+item(FEAT_STATIONS, Waypoint_Hight_Staion_A, 2000) {
     property {
         class:                  "WAYP";
         classname:              string(STR_Waypoint);
@@ -27,7 +27,7 @@ item(FEAT_STATIONS, Waypoint_HightStaion_A, 2000) {
 }
 
 //고상홈 승강장B
-item(FEAT_STATIONS, Waypoint_HightStaion_B, 2001) {
+item(FEAT_STATIONS, Waypoint_Hight_Staion_B, 2001) {
     property {
         class:                  "WAYP";
         classname:              string(STR_Waypoint);
@@ -42,63 +42,162 @@ item(FEAT_STATIONS, Waypoint_HightStaion_B, 2001) {
     }
 }
 
-//고상홈 승강장A + 지붕A
-item(FEAT_STATIONS, Waypoint_HightStaion_A_RA, 2002) {
+//저상홈 승강장A
+item(FEAT_STATIONS, Waypoint_Low_Staion_A, 2002) {
     property {
         class:                  "WAYP";
         classname:              string(STR_Waypoint);
-        name:                   string(STR_Waypoint_Nousestation_HighA_RA);
+        name:                   string(STR_Waypoint_Nousestation_LowA);
         draw_pylon_tiles:       0;
     }
     
     graphics {
-        sprite_layouts: [set_Platforms_waypoint_HighA_RAX(0), set_Platforms_waypoint_HighA_RAY(0)];
-        purchase: set_Platforms_waypoint_HighA_RA;
+        sprite_layouts: [set_Platforms_waypoint_LowA_X(0), set_Platforms_waypoint_LowA_Y(0)];
+        purchase: set_Platforms_waypoint_LowA;
+        
     }
 }
 
-//고상홈 승강장B + 지붕A
-item(FEAT_STATIONS, Waypoint_HightStaion_B_RA, 2003) {
+//저상홈 승강장B
+item(FEAT_STATIONS, Waypoint_Low_Staion_B, 2003) {
     property {
         class:                  "WAYP";
         classname:              string(STR_Waypoint);
-        name:                   string(STR_Waypoint_Nousestation_HighB_RA);
+        name:                   string(STR_Waypoint_Nousestation_LowB);
         draw_pylon_tiles:       0;
     }
     
     graphics {
-        sprite_layouts: [set_Platforms_waypoint_HighB_RAX(0), set_Platforms_waypoint_HighB_RAY(0)];
-        purchase: set_Platforms_waypoint_HighB_RA;
+        sprite_layouts: [set_Platforms_waypoint_LOWB_X(0), set_Platforms_waypoint_LowB_Y(0)];
+        purchase: set_Platforms_waypoint_LowB;
+        
     }
 }
 
-//고상홈 승강장A + 지붕B
-item(FEAT_STATIONS, Waypoint_HightStaion_A_RB, 2004) {
+//아스팔트 저상홈 승강장A
+item(FEAT_STATIONS, Waypoint_ALow_Staion_A, 2004) {
     property {
         class:                  "WAYP";
         classname:              string(STR_Waypoint);
-        name:                   string(STR_Waypoint_Nousestation_HighA_RB);
+        name:                   string(STR_Waypoint_Nousestation_ALowA);
         draw_pylon_tiles:       0;
     }
     
     graphics {
-        sprite_layouts: [set_Platforms_waypoint_HighA_RBX(0), set_Platforms_waypoint_HighA_RBY(0)];
-        purchase: set_Platforms_waypoint_HighA_RB;
+        sprite_layouts: [set_Platforms_waypoint_ALowA_X(0), set_Platforms_waypoint_ALowA_Y(0)];
+        purchase: set_Platforms_waypoint_ALowA;
+        
     }
 }
 
-
-//고상홈 승강장B + 지붕B
-item(FEAT_STATIONS, Waypoint_HightStaion_B_RB, 2005) {
+//아스팔트 저상홈 승강장B
+item(FEAT_STATIONS, Waypoint_ALowt_Staion_B, 2005) {
     property {
         class:                  "WAYP";
         classname:              string(STR_Waypoint);
-        name:                   string(STR_Waypoint_Nousestation_HighB_RB);
+        name:                   string(STR_Waypoint_Nousestation_ALowB);
         draw_pylon_tiles:       0;
     }
     
     graphics {
-        sprite_layouts: [set_Platforms_waypoint_HighB_RBX(0), set_Platforms_waypoint_HighB_RBY(0)];
-        purchase: set_Platforms_waypoint_HighB_RB;
+        sprite_layouts: [set_Platforms_waypoint_ALowB_X(0), set_Platforms_waypoint_ALowB_Y(0)];
+        purchase: set_Platforms_waypoint_ALowB;
+        
+    }
+}
+
+//고상홈 승강장A 아한대
+item(FEAT_STATIONS, Waypoint_Hight_Snow_Staion_A, 2006) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint);
+        name:                   string(STR_Waypoint_Nousestation_HighA_Snow);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Platforms_waypoint_HighA_Snow_X(0), set_Platforms_waypoint_HighA_Snow_Y(0)];
+        purchase: set_Platforms_waypoint_HighA_Snow;
+        
+    }
+}
+
+//고상홈 승강장B 아한대
+item(FEAT_STATIONS, Waypoint_Hight_Snow_Staion_B, 2007) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint);
+        name:                   string(STR_Waypoint_Nousestation_HighB_Snow);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Platforms_waypoint_HighB_Snow_X(0), set_Platforms_waypoint_HighB_Snow_Y(0)];
+        purchase: set_Platforms_waypoint_HighB_Snow;
+        
+    }
+}
+
+//저상홈 승강장A 아한대
+item(FEAT_STATIONS, Waypoint_Low_Snow_Staion_A, 2008) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint);
+        name:                   string(STR_Waypoint_Nousestation_LowA_Snow);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Platforms_waypoint_LowA_Snow_X(0), set_Platforms_waypoint_LowA_Snow_Y(0)];
+        purchase: set_Platforms_waypoint_LowA_Snow;
+        
+    }
+}
+
+//저상홈 승강장B 아한대
+item(FEAT_STATIONS, Waypoint_Low_Snow_Staion_B, 2009) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint);
+        name:                   string(STR_Waypoint_Nousestation_LowB_Snow);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Platforms_waypoint_LOWB_Snow_X(0), set_Platforms_waypoint_LowB_Snow_Y(0)];
+        purchase: set_Platforms_waypoint_LowB_Snow;
+        
+    }
+}
+
+//아스팔트 저상홈 승강장A 아한대
+item(FEAT_STATIONS, Waypoint_ALow_Snow_Staion_A, 2010) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint);
+        name:                   string(STR_Waypoint_Nousestation_ALowA_Snow);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Platforms_waypoint_ALowA_Snow_X(0), set_Platforms_waypoint_ALowA_Snow_Y(0)];
+        purchase: set_Platforms_waypoint_ALowA_Snow;
+        
+    }
+}
+
+//아스팔트 저상홈 승강장B 아한대
+item(FEAT_STATIONS, Waypoint_ALow_Snow_Staion_B, 2011) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint);
+        name:                   string(STR_Waypoint_Nousestation_ALowB_Snow);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Platforms_waypoint_ALowB_Snow_X(0), set_Platforms_waypoint_ALowB_Snow_Y(0)];
+        purchase: set_Platforms_waypoint_ALowB_Snow;
+        
     }
 }

@@ -49,106 +49,242 @@ spritelayout set_Platforms_waypoint_HighB_Y(a) {
     }
 }
 
-//미사용 고상홈 승강장A + 지붕A
-spritelayout set_Platforms_waypoint_HighA_RAX(a) {
+//미사용 저상홈 승강장A
+spritelayout set_Platforms_waypoint_LowA_X(a) {
     ground {
         sprite: GROUNDSPRITE_RAIL_X;
     }
     building {
-        sprite: set_Platforms_waypoint_HighA_RA(0); // second sprite in active spriteset
+        sprite: set_Platforms_waypoint_LowA(0); // second sprite in active spriteset
         zextent: 1;
         yextent: 1;
-        recolour_mode: RECOLOUR_REMAP;
-        palette:       PALETTE_USE_DEFAULT;
+        recolour_mode: RECOLOUR_NONE;
     }
 }
 
-spritelayout set_Platforms_waypoint_HighA_RAY(a) {
+spritelayout set_Platforms_waypoint_LowA_Y(a) {
     ground {
         sprite: GROUNDSPRITE_RAIL_Y;
     }
     building {
-        sprite: set_Platforms_waypoint_HighA_RA(1); // second sprite in active spriteset
+        sprite: set_Platforms_waypoint_LowA(1); // second sprite in active spriteset
         zextent: 1;
         yextent: 1;
-        recolour_mode: RECOLOUR_REMAP;
-        palette:       PALETTE_USE_DEFAULT;
+        recolour_mode: RECOLOUR_NONE;
     }
 }
 
-//미사용 고상홈 승강장B + 지붕A
-spritelayout set_Platforms_waypoint_HighB_RAX(a) {
+//미사용 저상홈 승강장B
+spritelayout set_Platforms_waypoint_LOWB_X(a) {
     ground {
         sprite: GROUNDSPRITE_RAIL_X;
     }
     building {
-        sprite: set_Platforms_waypoint_HighB_RA(0); // second sprite in active spriteset
+        sprite: set_Platforms_waypoint_LowB(0); // second sprite in active spriteset
         zextent: 36;
-        recolour_mode: RECOLOUR_REMAP;
-        palette:       PALETTE_USE_DEFAULT;
+        recolour_mode: RECOLOUR_NONE;
     }
 }
 
-spritelayout set_Platforms_waypoint_HighB_RAY(a) {
+spritelayout set_Platforms_waypoint_LowB_Y(a) {
     ground {
         sprite: GROUNDSPRITE_RAIL_Y;
     }
     building {
-        sprite: set_Platforms_waypoint_HighB_RA(1); // second sprite in active spriteset
+        sprite: set_Platforms_waypoint_LowB(1); // second sprite in active spriteset
         zextent: 36;
-        recolour_mode: RECOLOUR_REMAP;
-        palette:       PALETTE_USE_DEFAULT;
+        recolour_mode: RECOLOUR_NONE;
     }
 }
 
-//미사용 고상홈 승강장A + 지붕B
-spritelayout set_Platforms_waypoint_HighA_RBX(a) {
+//미사용 아스팔트 저상홈 승강장A
+spritelayout set_Platforms_waypoint_ALowA_X(a) {
     ground {
         sprite: GROUNDSPRITE_RAIL_X;
     }
     building {
-        sprite: set_Platforms_waypoint_HighA_RB(0); // second sprite in active spriteset
+        sprite: set_Platforms_waypoint_ALowA(0); // second sprite in active spriteset
         zextent: 1;
         yextent: 1;
-        recolour_mode: RECOLOUR_REMAP;
-        palette:       PALETTE_USE_DEFAULT;
+        recolour_mode: RECOLOUR_NONE;
     }
 }
 
-spritelayout set_Platforms_waypoint_HighA_RBY(a) {
+spritelayout set_Platforms_waypoint_ALowA_Y(a) {
     ground {
         sprite: GROUNDSPRITE_RAIL_Y;
     }
     building {
-        sprite: set_Platforms_waypoint_HighA_RB(1); // second sprite in active spriteset
+        sprite: set_Platforms_waypoint_ALowA(1); // second sprite in active spriteset
         zextent: 1;
         yextent: 1;
-        recolour_mode: RECOLOUR_REMAP;
-        palette:       PALETTE_USE_DEFAULT;
+        recolour_mode: RECOLOUR_NONE;
     }
 }
 
-//미사용 고상홈 승강장B + 지붕B
-spritelayout set_Platforms_waypoint_HighB_RBX(a) {
+//미사용 아스팔트 저상홈 승강장B
+spritelayout set_Platforms_waypoint_ALowB_X(a) {
     ground {
         sprite: GROUNDSPRITE_RAIL_X;
     }
     building {
-        sprite: set_Platforms_waypoint_HighB_RB(0); // second sprite in active spriteset
+        sprite: set_Platforms_waypoint_ALowB(0); // second sprite in active spriteset
         zextent: 36;
-        recolour_mode: RECOLOUR_REMAP;
-        palette:       PALETTE_USE_DEFAULT;
+        recolour_mode: RECOLOUR_NONE;
     }
 }
 
-spritelayout set_Platforms_waypoint_HighB_RBY(a) {
+spritelayout set_Platforms_waypoint_ALowB_Y(a) {
     ground {
         sprite: GROUNDSPRITE_RAIL_Y;
     }
     building {
-        sprite: set_Platforms_waypoint_HighB_RB(1); // second sprite in active spriteset
+        sprite: set_Platforms_waypoint_ALowB(1); // second sprite in active spriteset
         zextent: 36;
-        recolour_mode: RECOLOUR_REMAP;
-        palette:       PALETTE_USE_DEFAULT;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+//미사용 고상홈 승강장A 아한대
+spritelayout set_Platforms_waypoint_HighA_Snow_X(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Platforms_waypoint_HighA_Snow(0); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_Platforms_waypoint_HighA_Snow_Y(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Platforms_waypoint_HighA_Snow(1); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+//미사용 고상홈 승강장B 아한대
+spritelayout set_Platforms_waypoint_HighB_Snow_X(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Platforms_waypoint_HighB_Snow(0); // second sprite in active spriteset
+        zextent: 36;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_Platforms_waypoint_HighB_Snow_Y(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Platforms_waypoint_HighB_Snow(1); // second sprite in active spriteset
+        zextent: 36;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+//미사용 저상홈 승강장A 아한대
+spritelayout set_Platforms_waypoint_LowA_Snow_X(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Platforms_waypoint_LowA_Snow(0); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_Platforms_waypoint_LowA_Snow_Y(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Platforms_waypoint_LowA_Snow(1); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+//미사용 저상홈 승강장B 아한대
+spritelayout set_Platforms_waypoint_LOWB_Snow_X(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Platforms_waypoint_LowB_Snow(0);
+        zextent: 36;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_Platforms_waypoint_LowB_Snow_Y(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Platforms_waypoint_LowB_Snow(1);
+        zextent: 36;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+//미사용 아스팔트 저상홈 승강장A 아한대
+spritelayout set_Platforms_waypoint_ALowA_Snow_X(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Platforms_waypoint_ALowA_Snow(0);
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_Platforms_waypoint_ALowA_Snow_Y(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Platforms_waypoint_ALowA_Snow(1);
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+//미사용 아스팔트 저상홈 승강장B 아한대
+spritelayout set_Platforms_waypoint_ALowB_Snow_X(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Platforms_waypoint_ALowB_Snow(0);
+        zextent: 36;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_Platforms_waypoint_ALowB_Snow_Y(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Platforms_waypoint_ALowB_Snow(1);
+        zextent: 36;
+        recolour_mode: RECOLOUR_NONE;
     }
 }
