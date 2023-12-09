@@ -145,7 +145,9 @@ sort(FEAT_TRAINS, [
     H2_WJ_4Car,                              //2060
 
     //일반열차
-    APEX20005_6Car,                          //2009
+    APEX_1000_1st_6Car,                      //2340
+    APEX_2000_1st_6Car,                      //2339
+    APEX_2000_4th_6Car,                      //2009
     MEL_150,                                 //2191
     MEL_150_4Car,                            //2136
     MEL_150_8Car,                            //2165
@@ -311,7 +313,10 @@ sort(FEAT_TRAINS, [
     CR400BF_Z,                               //2209
     CR400BF_Z_8Car,                          //2049
     CR400BF_Z_17Car,                         //2153
+    HYEL_400,                                //2341
     HYEL_400_8Car,                           //2111
+    HYEL_400_10Car,                          //2342
+    HYEL_400_16Car,                          //2343
 
     //고속열차 600
     VHST_600X_8Car,                          //2029

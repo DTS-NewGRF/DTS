@@ -50,18 +50,21 @@
 - 누리로
 - 누리로 DD
 
-### HYNDAIROTEMIGBTIPM2start.wav
+### HYUNDAIROTEMIGBTIPM2start.wav
 - MEL-150
 - 서울교통공사 2000호대 4세대 VVVF 전동차
 - 서울교통공사 5000호대 3세대 VVVF 전동차
 
-### HYNDAIROTEMStart.wav
+### HYUNDAIROTEMStart.wav
 - 한국형 표준전동차
 
 ### HYUNDAIROTEMIGBTIPM1Kstart.wav
 - 한국철도공사 392000호대 전동차,
 - EMU-260, EMU-260 DD, EMU-320, EMU-320 DD, HEMU-430X
 - 서울교통공사 4000호대 3세대 VVVF 전동차
+- 공항철도 1000호대 1세대
+- 공항철도 2000호대 1세대
+- 공항철도 2000호대 4세대
 
 ### HYUNDAIROTEMIGBTIPM1start.wav
 - 서울교통공사 2000호대 1·2세대 3VF, 서울교통공사 3000호대 1세대 3VF 전동차
@@ -90,16 +93,6 @@
 ### MITSUBISHIigbtstart.wav
 - 서울교통공사 6000호대
 
-### TGV_Kstart.wav
-- KTX-1
-
-### TOSHIBAGTOJStart.wav
-- 한큐 8000형
-
-### TOSHIBAGTOKStrart.wav
-- 한국철도공사 1세대 VVVF전동차
-- 한국철도공사 2세대 VVVF전동차
-
 ### RotemIGCTstart.wav
 - HSR-350X
 
@@ -109,11 +102,24 @@
 ### SIEMENSGTOlocostart.wav
 - 8200호대 전기 기관차
 
-### TOSHIBAGTOS500start.wav
+### TGV_Kstart.wav
+- KTX-1
+
+### TOSHIBAGTOJ2start.wav
 - 신칸센 500계 16량
+
+### TOSHIBAGTOJStart.wav
+- 한큐 8000형
+
+### TOSHIBAGTOKStrart.wav
+- 한국철도공사 1세대 VVVF전동차
+- 한국철도공사 2세대 VVVF전동차
 
 ### TOSHIBAIGBTJ2start.wav
 - 니시테츠 9000형
+
+### TOSHIBAIGBTJ3start.wav
+- 신칸센 500계 8량
 
 ### TOSHIBAIGBTJstart.wav
 - 니시테츠 3000형, 7000, 7050형
@@ -131,9 +137,6 @@
 - 한큐전철 신 1000형
 - 서울교통공사 4세대 5000형
 - 서울교통공사 3세대 8000호대 VVVF 전동차
-
-### TOSHIBAIGBTS500start.wav
-- 신칸센 500계 8량
 
 ### TOSHIBASicStart.wav
 - 니시테츠 9000형

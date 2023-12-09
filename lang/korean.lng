@@ -7,7 +7,9 @@ STR_GRF_DESC                                           :파생형 열차 세트 
 STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS/releases
 
 # locomotive's name
-STR_AREX_6Car_NAME                                     :[DTS/6량] AREX (공항철도)
+STR_AREX_1000_1st_6Car_NAME                            :[DTS/6량] 공항철도 1000호대 1세대 전동차
+STR_AREX_2000_1st_6Car_NAME                            :[DTS/6량] 공항철도 2000호대 1세대 전동차
+STR_AREX_2000_4th_6Car_NAME                            :[DTS/6량] 공항철도 2000호대 4세대 전동차
 STR_Group_MEL_150_NAME                                 :[DTS] MEL-150
 STR_MEL_150_4Car_NAME                                  :[DTS/4량] MEL-150
 STR_MEL_150_8Car_NAME                                  :[DTS/8량] MEL-150
@@ -161,7 +163,10 @@ STR_HYEL_200_4Car_NAME                                 :[DTS/4량] HYEL-200
 STR_HYEL_200_6Car_NAME                                 :[DTS/6량] HYEL-200
 STR_HYEL_220_6Car_NAME                                 :[DTS/6량] HYEL-220
 STR_HYEL_300_8Car_NAME                                 :[DTS/8량] HYEL-300
+STR_Group_HYEL_400_NAME                                :[DTS] HYEL-400
 STR_HYEL_400_8Car_NAME                                 :[DTS/8량] HYEL-400
+STR_HYEL_400_10Car_NAME                                :[DTS/10량] HYEL-400
+STR_HYEL_400_16Car_NAME                                :[DTS/16량] HYEL-400
 STR_DFX_10Car_NAME                                     :[DTS/10량] DFX
 STR_NHSRCL_E5_10Car_NAME                               :[DTS/10량] NHSRCL E5
 STR_Group_NSW_TrainLink_D_NAME                         :[DTS] NSW TrainLink D
@@ -359,6 +364,11 @@ STR_OBJ_Building_Store_CU                              :[DTS] 역전 CU 편의�
 STR_OBJ_Building_Store_GS25                            :[DTS] 역전 GS25 편의점
 STR_OBJ_Building_Store_Storyway                        :[DTS] 역전 스토리웨이 편의점
 STR_OBJ_Building_Korean_Traditional_House              :[DTS] 한국 전통가옥
+STR_OBJ_Building_Train_Deport                          :[DTS] 차량기지
+STR_OBJ_Building_Train_Deport02                        :[DTS] 차량기지 회사색상
+STR_OBJ_Building_Train_Deport03                        :[DTS] 다윈시스 차량기지
+STR_OBJ_Building_Train_Deport04                        :[DTS] 현대로템 차량기지
+STR_OBJ_Building_Train_Deport05                        :[DTS] 우진산전 차량기지
 STR_OBJ_Flag                                           :[DTS] 깃발
 STR_OBJ_Flag_Korea                                     :[DTS] 태극기 표지판
 STR_OBJ_Pavement                                       :[DTS] 보도블럭
@@ -429,6 +439,8 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}열차구성 {GRE
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}열차구성 {GREEN}객차형 승객 차량용
 
 # Liveries locomotive
+STR_REFIT_LIVERY_AREX_1000_Old                         : 구도색
+STR_REFIT_LIVERY_AREX_1000_New                         : 신도색
 STR_REFIT_LIVERY_ITX_Maum_4                            : ITX-마음 4량
 STR_REFIT_LIVERY_ITX_Maum_6                            : ITX-마음 6량
 STR_REFIT_LIVERY_ITX_Maum_8                            : ITX-마음 8량

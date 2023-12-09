@@ -260,7 +260,7 @@ switch (FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_IGBT_6car, position_in_vehid_chain
     set_Korail_1st_VVVF_3X1K_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_sw_Korail_1st_VVVF_IGBT_6car_r, position_in_vehid_chain % 6) {
+switch (FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_IGBT_6car_r, position_in_vehid_chain % 6) {
     1:set_Korail_1st_VVVF_3X1K_panto_wagon_r;
     2:set_Korail_1st_VVVF_3X1K_wagon_r;
     3:set_Korail_1st_VVVF_3X1K_panto_wagon_r;
@@ -275,7 +275,7 @@ switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_IGBT_6car_flipped, vehicle_is_flipp
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Korail_1st_VVVF_IGBT_6car_reversed, vehicle_is_reversed){
-    0: sw_sw_Korail_1st_VVVF_IGBT_6car_r;
+    0: sw_Korail_1st_VVVF_IGBT_6car_r;
     sw_Korail_1st_VVVF_IGBT_6car_flipped;
 }
 
@@ -288,7 +288,7 @@ switch (FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_GTO_6car, position_in_vehid_chain 
     sw_Korail_1st_VVVF_6Car_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_sw_Korail_1st_VVVF_GTO_6car_r, position_in_vehid_chain % 6) {
+switch (FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_GTO_6car_r, position_in_vehid_chain % 6) {
     1:sw_Korail_1st_VVVF_6Car_panto_wagon_r;
     2:sw_Korail_1st_VVVF_6Car_wagon_r;
     3:sw_Korail_1st_VVVF_6Car_panto_wagon_r;
@@ -303,7 +303,7 @@ switch(FEAT_TRAINS, SELF, sw_Korail_1st_VVVF_GTO_6car_flipped, vehicle_is_flippe
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Korail_1st_VVVF_GTO_6car_reversed, vehicle_is_reversed){
-    0: sw_sw_Korail_1st_VVVF_GTO_6car_r;
+    0: sw_Korail_1st_VVVF_GTO_6car_r;
     sw_Korail_1st_VVVF_GTO_6car_flipped;
 }
 

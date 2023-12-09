@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_AREX_2000_1st_purchase, "src/locomotive/AREX/AREX_2000_1st/AREX_2000_1st.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+APEX2000 1세대
+--------------------------------------------------------------------*/
+spriteset(set_AREX_2000_1st_engineH, "src/locomotive/AREX/AREX_2000_1st/AREX_2000_1st.png"){
+    engine(80, 0)
+}
+
+spriteset(set_AREX_2000_1st_engineH_r, "src/locomotive/AREX/AREX_2000_1st/AREX_2000_1st.png"){
+    engine(80, 27)
+}
+
+spriteset(set_AREX_2000_1st_wagon, "src/locomotive/AREX/AREX_2000_1st/AREX_2000_1st.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_AREX_2000_1st_panto_wagon, "src/locomotive/AREX/AREX_2000_1st/AREX_2000_1st.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_AREX_2000_1st_engineT_r, "src/locomotive/AREX/AREX_2000_1st/AREX_2000_1st.png"){
+    engine(80, 108)
+}
+
+spriteset(set_AREX_2000_1st_engineT, "src/locomotive/AREX/AREX_2000_1st/AREX_2000_1st.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_AREX_2000_1st_purchase, cargo_subtype) {
+    set_AREX_2000_1st_purchase;
+}

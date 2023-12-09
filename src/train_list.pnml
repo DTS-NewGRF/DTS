@@ -6,7 +6,9 @@
 #include "wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.pnml"
 
 //locomotive
-#include "locomotive/AREX/AREX.pnml"
+#include "locomotive/AREX/AREX_1000_1st/AREX_1000_1st.pnml"
+#include "locomotive/AREX/AREX_2000_1st/AREX_2000_1st.pnml"
+#include "locomotive/AREX/AREX_2000_4th/AREX_2000_4th.pnml"
 #include "locomotive/MEL_150/MEL_150.pnml"
 #include "locomotive/CL_150/CL_150.pnml"
 #include "locomotive/CTX/CTX.pnml"

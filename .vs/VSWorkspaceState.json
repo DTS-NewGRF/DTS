@@ -1,12 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\lang",
+    "\\sounds",
     "\\src",
-    "\\src\\Objects",
-    "\\src\\Objects\\Buffer",
-    "\\src\\Objects\\Buffer\\Buffer_Concrete",
-    "\\src\\Waypoint"
+    "\\src\\metro",
+    "\\src\\metro\\VVVF",
+    "\\src\\metro\\VVVF\\Seoulmetro_3rd",
+    "\\src\\Waypoint",
+    "\\src_Japanese",
+    "\\src_Japanese\\locomotive",
+    "\\src_Japanese\\locomotive\\Shinkansen_500"
   ],
   "PreviewInSolutionExplorer": false
 }

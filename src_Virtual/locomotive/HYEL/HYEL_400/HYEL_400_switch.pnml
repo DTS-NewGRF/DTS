@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 8량
 switch (FEAT_TRAINS, SELF, sw_HYEL_400_8car, position_in_vehid_chain % 8) {
     1:set_HYEL_400_wagon1;
     2:set_HYEL_400_wagon2;
@@ -12,8 +13,125 @@ switch (FEAT_TRAINS, SELF, sw_HYEL_400_8car, position_in_vehid_chain % 8) {
     set_HYEL_400_engineH; //default
     }
 
+switch (FEAT_TRAINS, SELF, sw_HYEL_400_8car_r, position_in_vehid_chain % 8) {
+    1:set_HYEL_400_wagon5;
+    2:set_HYEL_400_wagon4;
+    3:set_HYEL_400_wagon3;
+    4:set_HYEL_400_wagon3;
+    5:set_HYEL_400_wagon2;
+    6:set_HYEL_400_wagon1;
+    7:set_HYEL_400_engineH_r;
+    set_HYEL_400_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_400_8car_flipped, vehicle_is_flipped){
+    0: sw_HYEL_400_8car_r;
+    sw_HYEL_400_8car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_HYEL_400_8car_reversed, vehicle_is_reversed){
+    0: sw_HYEL_400_8car;
+    sw_HYEL_400_8car_flipped;
+}
+
+// 10량
+switch (FEAT_TRAINS, SELF, sw_HYEL_400_10car, position_in_vehid_chain % 10) {
+    1:set_HYEL_400_wagon1;
+    2:set_HYEL_400_wagon2;
+    3:set_HYEL_400_wagon3;
+    4:set_HYEL_400_wagon3;
+    5:set_HYEL_400_wagon3;
+    6:set_HYEL_400_wagon3;
+    7:set_HYEL_400_wagon4;
+    8:set_HYEL_400_wagon5;
+    9:set_HYEL_400_engineT;
+    set_HYEL_400_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_HYEL_400_10car_r, position_in_vehid_chain % 10) {
+    1:set_HYEL_400_wagon5;
+    2:set_HYEL_400_wagon4;
+    3:set_HYEL_400_wagon3;
+    4:set_HYEL_400_wagon3;
+    5:set_HYEL_400_wagon3;
+    6:set_HYEL_400_wagon3;
+    7:set_HYEL_400_wagon2;
+    8:set_HYEL_400_wagon1;
+    9:set_HYEL_400_engineH_r;
+    set_HYEL_400_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_400_10car_flipped, vehicle_is_flipped){
+    0: sw_HYEL_400_10car_r;
+    sw_HYEL_400_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_HYEL_400_10car_reversed, vehicle_is_reversed){
+    0: sw_HYEL_400_10car;
+    sw_HYEL_400_10car_flipped;
+}
+
+// 16량
+switch (FEAT_TRAINS, SELF, sw_HYEL_400_16car, position_in_vehid_chain % 16) {
+    1:set_HYEL_400_wagon1;
+    2:set_HYEL_400_wagon2;
+    3:set_HYEL_400_wagon3;
+    4:set_HYEL_400_wagon3;
+    5:set_HYEL_400_wagon3;
+    6:set_HYEL_400_wagon3;
+    7:set_HYEL_400_wagon3;
+    8:set_HYEL_400_wagon3;
+    9:set_HYEL_400_wagon3;
+    10:set_HYEL_400_wagon3;
+    11:set_HYEL_400_wagon3;
+    12:set_HYEL_400_wagon3;
+    13:set_HYEL_400_wagon4;
+    14:set_HYEL_400_wagon5;
+    15:set_HYEL_400_engineT;
+    set_HYEL_400_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_HYEL_400_16car_r, position_in_vehid_chain % 16) {
+    1:set_HYEL_400_wagon5;
+    2:set_HYEL_400_wagon4;
+    3:set_HYEL_400_wagon3;
+    4:set_HYEL_400_wagon3;
+    5:set_HYEL_400_wagon3;
+    6:set_HYEL_400_wagon3;
+    7:set_HYEL_400_wagon3;
+    8:set_HYEL_400_wagon3;
+    9:set_HYEL_400_wagon3;
+    10:set_HYEL_400_wagon3;
+    11:set_HYEL_400_wagon3;
+    12:set_HYEL_400_wagon3;
+    13:set_HYEL_400_wagon2;
+    14:set_HYEL_400_wagon1;
+    15:set_HYEL_400_engineH_r;
+    set_HYEL_400_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_400_16car_flipped, vehicle_is_flipped){
+    0: sw_HYEL_400_16car_r;
+    sw_HYEL_400_16car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_HYEL_400_16car_reversed, vehicle_is_reversed){
+    0: sw_HYEL_400_16car;
+    sw_HYEL_400_16car_flipped;
+}
+
 switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_400_8car, extra_callback_info1) {
     1..7: HYEL_400_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_400_10car, extra_callback_info1) {
+    1..9: HYEL_400_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_400_16car, extra_callback_info1) {
+    1..15: HYEL_400_16Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 

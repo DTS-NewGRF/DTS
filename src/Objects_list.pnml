@@ -8,6 +8,7 @@
 #include "Objects/Building/Building_Store_GS25/Building_Store_GS25.pnml"
 #include "Objects/Building/Building_Store_Storyway/Building_Store_Storyway.pnml"
 #include "Objects/Building/Building_Korean_Traditional_House/Building_Korean_Traditional_House.pnml"
+#include "Objects/Building/Building_TrainDeport/Building_TrainDeport.pnml"
 
 // Flag
 #include "Objects/Flag_Korea/Flag_Korea.pnml"

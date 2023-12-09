@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_AREX_2000_4th_6car, position_in_vehid_chain % 6) {
+    1:set_AREX_2000_4th_panto_wagon;
+    2:set_AREX_2000_4th_wagon;
+    3:set_AREX_2000_4th_wagon;
+    4:set_AREX_2000_4th_panto_wagon_r;
+    5:set_AREX_2000_4th_engineT;
+    set_AREX_2000_4th_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_AREX_2000_4th_6car, extra_callback_info1) {
+    1..5: APEX_2000_4th_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_AREX_2000_4th_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM1Kstart.wav");
+    return CB_RESULT_NO_SOUND;
+    }

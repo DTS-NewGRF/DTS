@@ -7,7 +7,9 @@ STR_GRF_DESC                                           :Derivative Train Set
 STR_GRF_URL                                            :https://github.com/MEGB-NewGRF/VirtualTrainSet
 
 # locomotive's name
-STR_AREX_6Car_NAME                                     :[DTS] AREX series 2000 EMU5 6Car
+STR_AREX_1000_1st_6Car_NAME                            :[DTS] AREX series 1000 1st 6Car
+STR_AREX_2000_1st_6Car_NAME                            :[DTS] AREX series 2000 1st 6Car
+STR_AREX_2000_4th_6Car_NAME                            :[DTS] AREX series 2000 4th 6Car
 STR_Group_MEL_150_NAME                                 :[DTS] MEL-150
 STR_MEL_150_4Car_NAME                                  :[DTS] MEL-150 4Car
 STR_MEL_150_8Car_NAME                                  :[DTS] MEL-150 8Car
@@ -161,7 +163,10 @@ STR_HYEL_200_4Car_NAME                                 :[DTS] HYEL-200 4Car
 STR_HYEL_200_6Car_NAME                                 :[DTS] HYEL-200 6Car
 STR_HYEL_220_6Car_NAME                                 :[DTS] HYEL-220 6Car
 STR_HYEL_300_8Car_NAME                                 :[DTS] HYEL-300 8Car
+STR_Group_HYEL_400_NAME                                :[DTS] HYEL-400
 STR_HYEL_400_8Car_NAME                                 :[DTS] HYEL-400 8Car
+STR_HYEL_400_10Car_NAME                                :[DTS] HYEL-400 10Car
+STR_HYEL_400_16Car_NAME                                :[DTS] HYEL-400 16Car
 STR_DFX_10Car_NAME                                     :[DTS] DFX 10Car
 STR_NHSRCL_E5_10Car_NAME                               :[DTS] NHSRCL E5
 STR_Group_NSW_TrainLink_D_NAME                         :[DTS] NSW TrainLink D
@@ -362,6 +367,11 @@ STR_OBJ_Building_Store_CU                              :[DTS] CU Convenience sto
 STR_OBJ_Building_Store_GS25                            :[DTS] GS25 Convenience store
 STR_OBJ_Building_Store_Storyway                        :[DTS] Storyway Convenience store
 STR_OBJ_Building_Korean_Traditional_House              :[DTS] Korean Traditional House
+STR_OBJ_Building_Train_Deport                          :[DTS] Vehicle Depot
+STR_OBJ_Building_Train_Deport02                        :[DTS] Vehicle Depot02
+STR_OBJ_Building_Train_Deport03                        :[DTS] Vehicle Depot03
+STR_OBJ_Building_Train_Deport04                        :[DTS] Vehicle Depot04
+STR_OBJ_Building_Train_Deport05                        :[DTS] Vehicle Depot05
 STR_OBJ_Flag                                           :[DTS] Flag Signboard
 STR_OBJ_Flag_Korea                                     :[DTS] Korea Flag Signboard
 STR_OBJ_Pavement                                       :[DTS] Pavement
@@ -432,6 +442,8 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}train configurati
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}train configuration {GREEN}Coach 2F Passenger vehicles
 
 # Liveries
+STR_REFIT_LIVERY_AREX_1000_Old                         : Old
+STR_REFIT_LIVERY_AREX_1000_New                         : New
 STR_REFIT_LIVERY_ITX_Maum_4                            : ITX-Maum 4Car
 STR_REFIT_LIVERY_ITX_Maum_6                            : ITX-Maum 6Car
 STR_REFIT_LIVERY_ITX_Maum_8                            : ITX-Maum 8Car
