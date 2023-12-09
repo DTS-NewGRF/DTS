@@ -54,7 +54,7 @@ item(FEAT_TRAINS, APEX_1000_1st_6Car, 2340){
         default:                        sw_AREX_1000_1st_6car_reversed;
         articulated_part:               sw_articulated_AREX_1000_1st_6car;
         purchase:                       sw_AREX_1000_1st_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          Metro_Speed_Train;
         loading_speed:                  25;
         cargo_subtype_text:             sw_AREX_1000_1st_cargo_subtype_text;
         sound_effect:                   sw_AREX_1000_1st_sound;
