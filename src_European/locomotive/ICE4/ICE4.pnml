@@ -71,6 +71,7 @@ item(FEAT_TRAINS, ICE4_7Car, 2071){
         default:                        sw_ICE4_7car;
         articulated_part:               sw_articulated_ICE4_7car;
         purchase:                       sw_ICE4_purchase;
+        speed:                          sw_ICE4_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -124,6 +125,7 @@ item(FEAT_TRAINS, ICE4_12Car, 2123){
         default:                        sw_ICE4_12car;
         articulated_part:               sw_articulated_ICE4_12car;
         purchase:                       sw_ICE4_purchase;
+        speed:                          sw_ICE4_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

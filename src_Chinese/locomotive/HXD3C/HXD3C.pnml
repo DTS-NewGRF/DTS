@@ -51,7 +51,7 @@ item(FEAT_TRAINS, HXD3C, 2050){
 	graphics {
         default:                        set_HXD3C_engine;
         purchase:                       sw_HXD3C_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_HXD3C_speed;
         cost_factor:                    10;
         running_cost_factor:            150;
         }

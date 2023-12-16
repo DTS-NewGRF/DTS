@@ -71,7 +71,7 @@ item(FEAT_TRAINS, HSR_350X_7Car, 2027){
         default:                        sw_HSR_350X_7car_reversed;
         articulated_part:               sw_articulated_HSR_350X_7car;
         purchase:                       sw_HSR_350X_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_HSR_350X_speed;
         length:                         sw_HSR_350X_7car_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, HSR_350X_14Car, 2005){
         default:                        sw_HSR_350X_14car_reversed;
         articulated_part:               sw_articulated_HSR_350X_14car;
         purchase:                       sw_HSR_350X_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_HSR_350X_speed;
         length:                         sw_HSR_350X_14car_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;

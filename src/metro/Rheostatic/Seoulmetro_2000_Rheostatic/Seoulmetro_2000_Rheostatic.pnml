@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Seoulmetro_2000_Rheostatic_4Car, 2266){
         default:                        sw_Seoulmetro_2000_Rheostatic_4Car;
         articulated_part:               sw_articulated_Seoulmetro_2000_Rheostatic_4Car;
         purchase:                       sw_Seoulmetro_2000_Rheostatic_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Seoulmetro_2000_Rheostatic_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, Seoulmetro_2000_Rheostatic_6Car, 2267){
         default:                        sw_Seoulmetro_2000_Rheostatic_6Car;
         articulated_part:               sw_articulated_Seoulmetro_2000_Rheostatic_6Car;
         purchase:                       sw_Seoulmetro_2000_Rheostatic_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Seoulmetro_2000_Rheostatic_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -181,7 +181,7 @@ item(FEAT_TRAINS, Seoulmetro_2000_Rheostatic_10Car, 2268){
         default:                        sw_Seoulmetro_2000_Rheostatic_10Car_reversed;
         articulated_part:               sw_articulated_Seoulmetro_2000_Rheostatic_10Car;
         purchase:                       sw_Seoulmetro_2000_Rheostatic_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Seoulmetro_2000_Rheostatic_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

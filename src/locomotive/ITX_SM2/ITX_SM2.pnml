@@ -52,7 +52,7 @@ item(FEAT_TRAINS, ITX_SM2_6Car, 2013){
         default:                        sw_ITX_SM2_6car;
         articulated_part:               sw_articulated_ITX_SM2_6car;
         purchase:                       sw_ITX_SM2_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_ITX_SM2_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

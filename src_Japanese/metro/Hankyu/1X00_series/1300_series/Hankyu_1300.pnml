@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Hankyu_1300_8Car, 2264){
         default:                        sw_Hankyu_1300_8car;
         articulated_part:               sw_articulated_Hankyu_1300_8car;
         purchase:                       sw_Hankyu_1300_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Hankyu_1300_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

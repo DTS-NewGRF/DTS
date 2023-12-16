@@ -52,7 +52,7 @@ item(FEAT_TRAINS, CRH380B_8Car, 2041){
         default:                        sw_CRH380B_8car;
         articulated_part:               sw_articulated_CRH380B_8car;
         purchase:                       sw_CRH380B_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_CRH380B_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -104,7 +104,7 @@ item(FEAT_TRAINS, CRH380B_16Car, 2146){
         default:                        sw_CRH380B_16car;
         articulated_part:               sw_articulated_CRH380B_16car;
         purchase:                       sw_CRH380B_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_CRH380B_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

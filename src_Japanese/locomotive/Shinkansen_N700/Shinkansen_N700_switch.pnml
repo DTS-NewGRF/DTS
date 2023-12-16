@@ -40,3 +40,9 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_N700_16car, extra_callback_
     1..15: Shinkansen_N700_16Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
+
+// 속도변수
+switch(FEAT_TRAINS, SELF, sw_Shinkansen_N700_speed, Use_max_virtual_speed) {
+    1: return High_Speed_Train;
+    return 300;
+    }

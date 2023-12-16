@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\sounds",
+    "\\.github",
+    "\\.github\\ISSUE_TEMPLATE",
     "\\src",
-    "\\src\\metro",
-    "\\src\\metro\\VVVF",
-    "\\src\\metro\\VVVF\\Seoulmetro_3rd",
-    "\\src\\Waypoint",
-    "\\src_Japanese",
-    "\\src_Japanese\\locomotive",
-    "\\src_Japanese\\locomotive\\Shinkansen_500"
+    "\\src\\locomotive",
+    "\\src\\locomotive\\AREX",
+    "\\src\\locomotive\\AREX\\AREX_2000_1st",
+    "\\src_Virtual",
+    "\\src_Virtual\\locomotive",
+    "\\src_Virtual\\locomotive\\HYEL",
+    "\\src_Virtual\\locomotive\\HYEL\\HYEL_400"
   ],
   "PreviewInSolutionExplorer": false
 }

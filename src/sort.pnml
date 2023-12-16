@@ -153,6 +153,10 @@ sort(FEAT_TRAINS, [
     MEL_150_8Car,                            //2165
     MEL_150_10Car,                           //2137
     MEL_150_12Car,                           //2138
+    CDC,                                     //2344
+    CDC_3Car,                                //2345
+    CDC_4Car,                                //2346
+    CDC_5Car,                                //2347
     CL_150,                                  //2192
     CL_150_4Car,                             //2173
     CL_150_6Car,                             //2174
@@ -176,6 +180,9 @@ sort(FEAT_TRAINS, [
     DEL7600,                                 //2015
     NEL_8100,                                //2299
     NEL_8200,                                //2177
+    RDC,                                     //2348
+    RDC_3Car,                                //2349
+    RDC_4Car,                                //2350
     Travel_8500,                             //2016
     E8600,                                   //2279
     E8600_1Car,                              //2128

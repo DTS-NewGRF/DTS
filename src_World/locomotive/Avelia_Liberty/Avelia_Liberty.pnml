@@ -20,7 +20,7 @@ item(FEAT_TRAINS, Avelia_Liberty_11Car, 2122){
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          301km/h;
+        speed:                          260km/h;
         power:                          8000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
@@ -52,7 +52,6 @@ item(FEAT_TRAINS, Avelia_Liberty_11Car, 2122){
         default:                        sw_Avelia_Liberty_11car;
         articulated_part:               sw_articulated_Avelia_Liberty_11car;
         purchase:                       sw_Avelia_Liberty_purchase;
-        speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

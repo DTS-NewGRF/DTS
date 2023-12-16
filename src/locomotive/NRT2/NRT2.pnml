@@ -52,7 +52,7 @@ item(FEAT_TRAINS, NRT2_4Car, 2012){
         default:                        sw_NRT2_4car;
         articulated_part:               sw_articulated_NRT2_4car;
         purchase:                       sw_NRT2_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_NRT2_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

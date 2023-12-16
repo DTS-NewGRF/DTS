@@ -19,3 +19,9 @@ switch(FEAT_TRAINS, SELF, sw_TTX_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAStart.wav");
     return CB_RESULT_NO_SOUND;
     }
+
+// 속도변수
+switch(FEAT_TRAINS, SELF, sw_TTX_speed, Use_max_virtual_speed) {
+    1: return Semi_High_SPEED_Train;
+    return 180;
+    }

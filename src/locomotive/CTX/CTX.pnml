@@ -71,7 +71,7 @@ item(FEAT_TRAINS, CTX_F_10Car, 2026){
         default:                        sw_CTX_F_10car;
         articulated_part:               sw_articulated_CTX_F_10car;
         purchase:                       sw_CTX_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_CTX_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, CTX_P_10Car, 2125){
         default:                        sw_CTX_P_10car;
         articulated_part:               sw_articulated_CTX_P_10car;
         purchase:                       sw_CTX_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_CTX_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

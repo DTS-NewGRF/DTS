@@ -20,7 +20,7 @@ item(FEAT_TRAINS, CRH380AJ_8Car, 2044){
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          600km/h;
+        speed:                          350km/h;
         power:                          20000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;        
@@ -52,6 +52,7 @@ item(FEAT_TRAINS, CRH380AJ_8Car, 2044){
         default:                        sw_CRH380AJ_8car;
         articulated_part:               sw_articulated_CRH380AJ_8car;
         purchase:                       sw_CRH380AJ_purchase;
+        speed:                          sw_CRH380AJ_speed;
         cost_factor:                    10;
         running_cost_factor:            150;
         }

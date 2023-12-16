@@ -70,7 +70,7 @@ item(FEAT_TRAINS, HEMU_430X_6Car, 2028){
         default:                        sw_HEMU_430_6car;
         articulated_part:               sw_articulated_HEMU_430_6car;
         purchase:                       sw_HEMU_430X_purchase;
-        speed:                          High_Speed_Train_430;
+        speed:                          sw_HEMU_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -123,7 +123,7 @@ item(FEAT_TRAINS, HEMU_430X_8Car, 2127){
         default:                        sw_HEMU_430_8car;
         articulated_part:               sw_articulated_HEMU_430_8car;
         purchase:                       sw_HEMU_430X_purchase;
-        speed:                          High_Speed_Train_430;
+        speed:                          sw_HEMU_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

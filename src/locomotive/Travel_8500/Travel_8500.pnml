@@ -51,7 +51,7 @@ item(FEAT_TRAINS, Travel_8500, 2016){
     graphics {
         default:                        sw_Travel_8500_engine;
         purchase:                       sw_Travel_8500_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_Travel_8500_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -20,7 +20,7 @@ item(FEAT_TRAINS, TGV_Sud_Est_10Car, 2078){
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          300km/h;
+        speed:                          270km/h;
         power:                          6800 kW;
         weight:                         38 ton;
         tractive_effort_coefficient:    0.3;
@@ -52,7 +52,6 @@ item(FEAT_TRAINS, TGV_Sud_Est_10Car, 2078){
         default:                        sw_TGV_Sud_Est_10car;
         articulated_part:               sw_articulated_TGV_Sud_Est_10car;
         purchase:                       sw_TGV_Sud_Est_Orange_purchase;
-        speed:                          High_Speed_Train;
         cargo_subtype_text:             sw_TGV_Sud_Est_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;

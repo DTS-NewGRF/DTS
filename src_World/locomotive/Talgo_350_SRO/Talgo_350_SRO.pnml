@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Talgo_350_SRO_14Car, 2121){
         default:                        sw_Talgo_350_SRO_14car;
         articulated_part:               sw_articulated_Talgo_350_SRO_14car;
         purchase:                       sw_Talgo_350_SRO_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_Talgo_350_SRO_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

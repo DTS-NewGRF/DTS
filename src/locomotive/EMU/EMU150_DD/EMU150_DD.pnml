@@ -54,7 +54,7 @@ item(FEAT_TRAINS, EMU150_DD_6Car, 2011){
         default:                        sw_EMU150_DD_6car;
         articulated_part:               sw_articulated_EMU150_DD_6car;
         purchase:                       sw_EMU150_DD_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_EMU150_DD_speed;
         loading_speed:                  25;
         sound_effect:                   sw_EMU150_DD_sound;
         }

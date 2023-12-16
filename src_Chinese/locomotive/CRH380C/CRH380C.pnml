@@ -52,7 +52,7 @@ item(FEAT_TRAINS, CRH380C_16Car, 2042){
         default:                        sw_CRH380C_16car;
         articulated_part:               sw_articulated_CRH380C_16car;
         purchase:                       sw_CRH380C_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_CRH380C_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -72,7 +72,7 @@ item(FEAT_TRAINS, H2_WJ_2Car, 2008){
         default:                        sw_H2_WJ_2car;
         articulated_part:               sw_articulated_H2_WJ_2car;
         purchase:                       sw_H2_WJ_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_H2_WJ_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -127,7 +127,7 @@ item(FEAT_TRAINS, H2_WJ_4Car, 2060){
         default:                        sw_H2_WJ_4car;
         articulated_part:               sw_articulated_H2_WJ_4car;
         purchase:                       sw_H2_WJ_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_H2_WJ_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

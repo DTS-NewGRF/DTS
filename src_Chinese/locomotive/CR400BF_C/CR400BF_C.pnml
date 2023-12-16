@@ -20,7 +20,7 @@ item(FEAT_TRAINS, CR400BF_C_8Car, 2048){
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          420km/h;
+        speed:                          350km/h;
         power:                          20000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, CR400BF_C_8Car, 2048){
         default:                        sw_CR400BF_C_8car;
         articulated_part:               sw_articulated_CR400BF_C_8car;
         purchase:                       sw_CR400BF_C_purchase;
-        speed:                          High_Speed_Train_430;
+        speed:                          sw_CR400BF_C_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

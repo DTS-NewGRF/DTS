@@ -52,7 +52,7 @@ item(FEAT_TRAINS, TTX_6Car, 2019){
         default:                        sw_TTX_6car;
         articulated_part:               sw_articulated_TTX_6car;
         purchase:                       sw_TTX_purchase;
-        speed:                          Semi_High_SPEED_Train;
+        speed:                          sw_TTX_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

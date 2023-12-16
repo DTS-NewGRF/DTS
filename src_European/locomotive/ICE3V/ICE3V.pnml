@@ -52,7 +52,7 @@ item(FEAT_TRAINS, ICE3V_8Car, 2070){
         default:                        sw_ICE3V_8car;
         articulated_part:               sw_articulated_ICE3V_8car;
         purchase:                       sw_ICE3V_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_ICE3V_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

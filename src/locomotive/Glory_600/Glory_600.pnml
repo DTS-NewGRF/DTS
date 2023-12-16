@@ -106,7 +106,7 @@ item(FEAT_TRAINS, Glory_430_10Car, 2321){
         default:                        sw_Glory_430_10car;
         articulated_part:               sw_articulated_Glory_430_10car;
         purchase:                       sw_Glory_430_purchase;
-        speed:                          High_Speed_Train_430;
+        speed:                          sw_Glory_430_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

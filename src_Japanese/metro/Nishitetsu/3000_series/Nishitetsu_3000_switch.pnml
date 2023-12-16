@@ -39,3 +39,9 @@ switch(FEAT_TRAINS, SELF, sw_Nishitetsu_3000_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTJstart.wav");
     return CB_RESULT_NO_SOUND;
     }
+
+// 속도변수
+switch(FEAT_TRAINS, SELF, sw_Nishitetsu_3000_speed, Use_max_virtual_speed) {
+    1: return Metro_Speed_Train;
+    return 110;
+    }

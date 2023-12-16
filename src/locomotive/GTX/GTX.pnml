@@ -54,7 +54,7 @@ item(FEAT_TRAINS, GTX_8Car, 2017){
         default:                        sw_GTX_8car;
         articulated_part:               sw_articulated_GTX_8car;
         purchase:                       sw_GTX_purchase;
-        speed:                          Semi_High_SPEED_Train;
+        speed:                          sw_GTX_speed;
         loading_speed:                  25;
         sound_effect:                   sw_GTX_sound;
         }

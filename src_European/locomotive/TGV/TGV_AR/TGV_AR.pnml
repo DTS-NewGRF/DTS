@@ -20,7 +20,7 @@ item(FEAT_TRAINS, TGV_A_12Car, 2080){
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          320km/h;
+        speed:                          270km/h;
         power:                          10400 kW;
         weight:                         37 ton;
         tractive_effort_coefficient:    0.3;
@@ -52,7 +52,6 @@ item(FEAT_TRAINS, TGV_A_12Car, 2080){
         default:                        sw_TGV_A_wagon_12car;
         articulated_part:               sw_articulated_TGV_A_wagon_12car;
         purchase:                       sw_TGV_AR_purchase;
-        speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -105,7 +104,7 @@ item(FEAT_TRAINS, TGV_R_10Car, 2154){
         default:                        sw_TGV_R_wagon_10car;
         articulated_part:               sw_articulated_TGV_R_wagon_10car;
         purchase:                       sw_TGV_AR_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_TGV_R_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

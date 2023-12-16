@@ -39,7 +39,7 @@ item(FEAT_TRAINS, CR400AF_8Car, 2045){
         variant_group:                  CR400AF;
         
         //spec
-        speed:                          420km/h;
+        speed:                          350km/h;
         power:                          20000 kW;
         weight:                         60 ton;
         tractive_effort_coefficient:    0.3;
@@ -70,7 +70,7 @@ item(FEAT_TRAINS, CR400AF_8Car, 2045){
         default:                        sw_CR400AF_8car;
         articulated_part:               sw_articulated_CR400AF_8car;
         purchase:                       sw_CR400AF_purchase;
-        speed:                          High_Speed_Train_430;
+        speed:                          sw_CR400AF_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -91,7 +91,7 @@ item(FEAT_TRAINS, CR400AF_16Car, 2148){
         variant_group:                  CR400AF;
         
         //spec
-        speed:                          420km/h;
+        speed:                          350km/h;
         power:                          20000 kW;
         weight:                         60 ton;
         tractive_effort_coefficient:    0.3;
@@ -122,7 +122,7 @@ item(FEAT_TRAINS, CR400AF_16Car, 2148){
         default:                        sw_CR400AF_16car;
         articulated_part:               sw_articulated_CR400AF_16car;
         purchase:                       sw_CR400AF_purchase;
-        speed:                          High_Speed_Train_430;
+        speed:                          sw_CR400AF_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -143,7 +143,7 @@ item(FEAT_TRAINS, CR400AF_17Car, 2149){
         variant_group:                  CR400AF;
         
         //spec
-        speed:                          420km/h;
+        speed:                          350km/h;
         power:                          20000 kW;
         weight:                         60 ton;
         tractive_effort_coefficient:    0.3;
@@ -175,7 +175,7 @@ item(FEAT_TRAINS, CR400AF_17Car, 2149){
         default:                        sw_CR400AF_17car;
         articulated_part:               sw_articulated_CR400AF_17car;
         purchase:                       sw_CR400AF_purchase;
-        speed:                          High_Speed_Train_430;
+        speed:                          sw_CR400AF_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

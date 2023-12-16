@@ -52,7 +52,7 @@ item(FEAT_TRAINS, AGV_11Car, 2063){
         default:                        sw_AGV_11car;
         articulated_part:               sw_articulated_AGV_11car;
         purchase:                       sw_AGV_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_AGV_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

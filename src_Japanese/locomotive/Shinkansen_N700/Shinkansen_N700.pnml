@@ -39,7 +39,7 @@ item(FEAT_TRAINS, Shinkansen_N700_8Car, 2089){
         variant_group:                  Shinkansen_N700;
         
         //spec
-        speed:                          300km/h;
+        speed:                          260km/h;
         power:                          17080 kW;
         weight:                         44 ton;
         tractive_effort_coefficient:    0.3;
@@ -71,7 +71,6 @@ item(FEAT_TRAINS, Shinkansen_N700_8Car, 2089){
         default:                        sw_Shinkansen_N700_8car;
         articulated_part:               sw_articulated_Shinkansen_N700_8car;
         purchase:                       sw_Shinkansen_N700_Sanyo_Kyushu_purchase;
-        speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -124,7 +123,7 @@ item(FEAT_TRAINS, Shinkansen_N700_16Car, 2155){
         default:                        sw_Shinkansen_N700_16car;
         articulated_part:               sw_articulated_Shinkansen_N700_16car;
         purchase:                       sw_Shinkansen_N700_Tokaido_Sanyo_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_Shinkansen_N700_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

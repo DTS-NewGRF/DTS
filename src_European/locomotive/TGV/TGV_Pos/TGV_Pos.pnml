@@ -52,7 +52,7 @@ item(FEAT_TRAINS, TGV_Pos_10Car, 2077){
         default:                        sw_TGV_Pos_10car;
         articulated_part:               sw_articulated_TGV_Pos_10car;
         purchase:                       sw_TGV_POS_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_TGV_Pos_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

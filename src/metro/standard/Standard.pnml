@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Standard_Metro_4Car, 2006){
         default:                        sw_Standard_Metro_4car;
         articulated_part:               sw_articulated_Standard_Metro_4car;
         purchase:                       sw_Standard_Metro_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Standard_Metro_speed;
         cargo_capacity:                 sw_Standard_Metro_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;

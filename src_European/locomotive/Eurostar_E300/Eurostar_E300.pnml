@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Eurostar_E300_20Car, 2065){
         default:                        sw_Eurostar_E300_20car;
         articulated_part:               sw_articulated_Eurostar_E300_20car;
         purchase:                       sw_Eurostar_E300_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_Eurostar_E300_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

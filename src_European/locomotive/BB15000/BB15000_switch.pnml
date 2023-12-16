@@ -12,3 +12,9 @@ switch(FEAT_TRAINS, SELF, sw_BB15000_engine, cargo_subtype) {
     2: set_BB15000_EN_Voyagee_engine; // EN Voyagee
     set_BB15000_engine;
 }
+
+// 속도변수
+switch(FEAT_TRAINS, SELF, sw_BB15000_speed, Use_max_virtual_speed) {
+    1: return Regular_Speed_Train;
+    return 160;
+    }

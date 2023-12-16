@@ -71,7 +71,7 @@ item(FEAT_TRAINS, KTX_SC_10Car, 2024){
         default:                        sw_KTX_SC_10car_reversed;
         articulated_part:               sw_articulated_KTX_SC_10car;
         purchase:                       sw_KTX_SC_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_KTX_SC_speed;
         length:                         sw_KTX_SC_wagon_length_in_custom;
         cargo_capacity:                 sw_KTX_SC_capacity_in_custom;
         loading_speed:                  25;
@@ -128,7 +128,7 @@ item(FEAT_TRAINS, KTX_SC_B_10Car, 2318){
         default:                        sw_KTX_SC_B_10car_reversed;
         articulated_part:               sw_articulated_KTX_SC_B_10car;
         purchase:                       sw_KTX_SC_B_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_KTX_SC_speed;
         length:                         sw_KTX_SC_B_wagon_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -184,7 +184,7 @@ item(FEAT_TRAINS, KTX_SC_A_20Car, 2319){
         default:                        sw_KTX_SC_A_20car_reversed;
         articulated_part:               sw_articulated_KTX_SC_A_20car;
         purchase:                       sw_KTX_SC_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_KTX_SC_speed;
         length:                         sw_KTX_SC_A_20Car_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -240,7 +240,7 @@ item(FEAT_TRAINS, KTX_SC_AB_20Car, 2320){
         default:                        sw_KTX_SC_AB_20car_reversed;
         articulated_part:               sw_articulated_KTX_SC_AB_20car;
         purchase:                       sw_KTX_SC_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_KTX_SC_speed;
         length:                         sw_KTX_SC_AB_20Car_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;

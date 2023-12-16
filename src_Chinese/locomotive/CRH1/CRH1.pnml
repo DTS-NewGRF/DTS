@@ -52,6 +52,7 @@ item(FEAT_TRAINS, CRH1_8Car, 2034){
         default:                        sw_CRH1_8car;
         articulated_part:               sw_articulated_CRH1_8car;
         purchase:                       sw_CRH1_purchase;
+        speed:                          sw_CRH1_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

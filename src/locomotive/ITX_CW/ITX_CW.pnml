@@ -52,7 +52,7 @@ item(FEAT_TRAINS, ITX_CW_8Car, 2018){
         default:                        sw_ITX_CW_8car;
         articulated_part:               sw_articulated_ITX_CW_8car;
         purchase:                       sw_ITX_CW_purchase;
-        speed:                          Semi_High_SPEED_Train;
+        speed:                          sw_ITX_CW_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

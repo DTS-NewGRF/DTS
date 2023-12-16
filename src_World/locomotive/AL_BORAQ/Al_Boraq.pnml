@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Al_Boraq_10Car, 2120){
         default:                        sw_Al_Boraq_10car;
         articulated_part:               sw_articulated_Al_Boraq_10car;
         purchase:                       sw_Al_Boraq_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_Al_Boraq_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

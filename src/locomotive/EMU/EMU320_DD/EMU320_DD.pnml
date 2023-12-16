@@ -52,7 +52,7 @@ item(FEAT_TRAINS, EMU320_DD_8Car, 2023){
         default:                        sw_EMU320_DD_8car_reversed;
         articulated_part:               sw_articulated_EMU320_DD_8car;
         purchase:                       sw_EMU320_DD_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_EMU320_DD_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

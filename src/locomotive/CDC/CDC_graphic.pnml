@@ -1,0 +1,148 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_CDC_purchase, "src/locomotive/CDC/CDC_Old.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+CDC Old
+--------------------------------------------------------------------*/
+spriteset(set_CDC_Old_engineH, "src/locomotive/CDC/CDC_Old.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CDC_Old_engineH_r, "src/locomotive/CDC/CDC_Old.png"){
+    engine(80, 27)
+}
+
+spriteset(set_CDC_Old_wagon, "src/locomotive/CDC/CDC_Old.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CDC_Old_wagon_r, "src/locomotive/CDC/CDC_Old.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_CDC_Old_engineT_r, "src/locomotive/CDC/CDC_Old.png"){
+    engine(80, 81)
+}
+
+spriteset(set_CDC_Old_engineT, "src/locomotive/CDC/CDC_Old.png"){
+    engine(80, 108)
+}
+
+/*--------------------------------------------------------------------
+CDC New
+--------------------------------------------------------------------*/
+spriteset(set_CDC_New_engineH, "src/locomotive/CDC/CDC_New.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CDC_New_engineH_r, "src/locomotive/CDC/CDC_New.png"){
+    engine(80, 27)
+}
+
+spriteset(set_CDC_New_wagon, "src/locomotive/CDC/CDC_New.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CDC_New_wagon_r, "src/locomotive/CDC/CDC_New.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_CDC_New_engineT_r, "src/locomotive/CDC/CDC_New.png"){
+    engine(80, 81)
+}
+
+spriteset(set_CDC_New_engineT, "src/locomotive/CDC/CDC_New.png"){
+    engine(80, 108)
+}
+
+/*--------------------------------------------------------------------
+CDC_Flower_Garden
+--------------------------------------------------------------------*/
+spriteset(set_CDC_Flower_Garden_engineH, "src/locomotive/CDC/CDC_Flower_Garden.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CDC_Flower_Garden_engineH_r, "src/locomotive/CDC/CDC_Flower_Garden.png"){
+    engine(80, 27)
+}
+
+spriteset(set_CDC_Flower_Garden_wagon, "src/locomotive/CDC/CDC_Flower_Garden.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CDC_Flower_Garden_wagon_r, "src/locomotive/CDC/CDC_Flower_Garden.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_CDC_Flower_Garden_engineT_r, "src/locomotive/CDC/CDC_Flower_Garden.png"){
+    engine(80, 81)
+}
+
+spriteset(set_CDC_Flower_Garden_engineT, "src/locomotive/CDC/CDC_Flower_Garden.png"){
+    engine(80, 108)
+}
+
+/*--------------------------------------------------------------------
+CDC_Beach
+--------------------------------------------------------------------*/
+spriteset(set_CDC_Beach_engineH, "src/locomotive/CDC/CDC_Beach.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CDC_Beach_engineH_r, "src/locomotive/CDC/CDC_Beach.png"){
+    engine(80, 27)
+}
+
+spriteset(set_CDC_Beach_wagon, "src/locomotive/CDC/CDC_Beach.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CDC_Beach_wagon_r, "src/locomotive/CDC/CDC_Beach.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_CDC_Beach_engineT_r, "src/locomotive/CDC/CDC_Beach.png"){
+    engine(80, 81)
+}
+
+spriteset(set_CDC_Beach_engineT, "src/locomotive/CDC/CDC_Beach.png"){
+    engine(80, 108)
+}
+
+/*--------------------------------------------------------------------
+CDC_Baekje_Crown
+--------------------------------------------------------------------*/
+spriteset(set_CDC_Baekje_Crown_engineH, "src/locomotive/CDC/CDC_Baekje_Crown.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CDC_Baekje_Crown_engineH_r, "src/locomotive/CDC/CDC_Baekje_Crown.png"){
+    engine(80, 27)
+}
+
+spriteset(set_CDC_Baekje_Crown_wagon, "src/locomotive/CDC/CDC_Baekje_Crown.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CDC_Baekje_Crown_wagon_r, "src/locomotive/CDC/CDC_Baekje_Crown.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_CDC_Baekje_Crown_engineT_r, "src/locomotive/CDC/CDC_Baekje_Crown.png"){
+    engine(80, 81)
+}
+
+spriteset(set_CDC_Baekje_Crown_engineT, "src/locomotive/CDC/CDC_Baekje_Crown.png"){
+    engine(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CDC_purchase, cargo_subtype) {
+    set_CDC_purchase;
+}

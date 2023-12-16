@@ -41,3 +41,14 @@ switch (FEAT_TRAINS, SELF, sw_articulated_MTR_CRRC_8car, extra_callback_info1) {
     1..7: MTR_CRRC_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
+
+// 속도변수
+switch(FEAT_TRAINS, SELF, sw_MTR_CRRC_speed, cargo_subtype) {
+    1: return 80;
+       130;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Parameter_MTR_CRRC_speed, Use_max_virtual_speed) {
+    1: return Metro_Speed_Train;
+    return sw_MTR_CRRC_speed;
+    }

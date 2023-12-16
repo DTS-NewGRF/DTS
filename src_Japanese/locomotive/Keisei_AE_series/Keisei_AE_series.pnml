@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Keisei_AE_series_8Car, 2084){
         default:                        sw_Kse2_8car;
         articulated_part:               sw_articulated_Kse2_8car;
         purchase:                       sw_Kse2_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_Kse2_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

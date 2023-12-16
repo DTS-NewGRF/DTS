@@ -53,7 +53,7 @@ item(FEAT_TRAINS, NKX_8Car, 2135){
         default:                        sw_NKX_8car;
         articulated_part:               sw_articulated_NKX_8car;
         purchase:                       sw_NKX_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_NKX_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

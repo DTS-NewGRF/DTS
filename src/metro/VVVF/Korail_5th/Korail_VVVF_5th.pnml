@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Korail_5th_VVVF_10Car, 2239){
         default:                        sw_Korail_5th_VVVF_10car_reversed;
         articulated_part:               sw_articulated_Korail_5th_VVVF_10car;
         purchase:                       sw_Korail_5th_VVVF_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Korail_5th_VVVF_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

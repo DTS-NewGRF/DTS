@@ -20,7 +20,7 @@ item(FEAT_TRAINS, Shinkansen_E7_W7_12Car, 2094){
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          260km/h;
+        speed:                          275km/h;
         power:                          12000 kW;
         weight:                         45 ton;
         tractive_effort_coefficient:    0.3;

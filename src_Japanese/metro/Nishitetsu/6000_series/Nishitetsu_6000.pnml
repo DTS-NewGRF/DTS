@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Nishitetsu_6000_3Car, 2101){
         default:                        sw_Nishitetsu_6000_3car;
         articulated_part:               sw_articulated_Nishitetsu_6000_3car;
         purchase:                       sw_Nishitetsu_6000_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Nishitetsu_6000_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Nishitetsu_6000_4Car, 2119){
         default:                        sw_Nishitetsu_6000_4car;
         articulated_part:               sw_articulated_Nishitetsu_6000_4car;
         purchase:                       sw_Nishitetsu_6000_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Nishitetsu_6000_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -179,7 +179,7 @@ item(FEAT_TRAINS, Nishitetsu_6050_3Car, 2181){
         default:                        sw_Nishitetsu_6050_3car;
         articulated_part:               sw_articulated_Nishitetsu_6050_3car;
         purchase:                       sw_Nishitetsu_6050_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Nishitetsu_6000_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -233,7 +233,7 @@ item(FEAT_TRAINS, Nishitetsu_6050_4Car, 2182){
         default:                        sw_Nishitetsu_6050_4car;
         articulated_part:               sw_articulated_Nishitetsu_6050_4car;
         purchase:                       sw_Nishitetsu_6050_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Nishitetsu_6000_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -1,0 +1,191 @@
+/*--------------------------------------------------------------------
+CDC
+--------------------------------------------------------------------*/
+// Graphics
+#include "CDC_graphic.pnml"
+
+// Switch
+#include "CDC_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CDC, 2344){
+    property {
+        name:                           string(STR_Group_CDC_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          1044 kW;
+        }
+
+    graphics {
+        purchase:                       sw_CDC_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 3량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CDC_3Car, 2345){
+    property {
+        name:                           string(STR_CDC_3Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1996, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CDC;
+        
+        //spec
+        speed:                          121km/h;
+        power:                          1044 kW;
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 84;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_CDC_3car_reversed;
+        articulated_part:               sw_articulated_CDC_3car;
+        purchase:                       sw_CDC_purchase;
+        speed:                          sw_CDC_speed;
+        cargo_subtype_text:             sw_CDC_cargo_subtype_text;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_CDC_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 4량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CDC_4Car, 2346){
+    property {
+        name:                           string(STR_CDC_4Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1996, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CDC;
+        
+        //spec
+        speed:                          121km/h;
+        power:                          1566 kW;
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 86;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_CDC_4car_reversed;
+        articulated_part:               sw_articulated_CDC_4car;
+        purchase:                       sw_CDC_purchase;
+        speed:                          sw_CDC_speed;
+        cargo_subtype_text:             sw_CDC_cargo_subtype_text;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_CDC_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 5량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, CDC_5Car, 2347){
+    property {
+        name:                           string(STR_CDC_5Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1996, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  CDC;
+        
+        //spec
+        speed:                          121km/h;
+        power:                          2088 kW;
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 143;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+	graphics {
+        default:                        sw_CDC_5car_reversed;
+        articulated_part:               sw_articulated_CDC_5car;
+        purchase:                       sw_CDC_purchase;
+        speed:                          sw_CDC_speed;
+        cargo_subtype_text:             sw_CDC_5car_cargo_subtype_text;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_CDC_sound;
+        }
+        }

@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Nishitetsu_5000_3Car, 2100){
         default:                        sw_Nishitetsu_5000_3car;
         articulated_part:               sw_articulated_Nishitetsu_5000_3car;
         purchase:                       sw_Nishitetsu_5000_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Nishitetsu_4000_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, Nishitetsu_5000_4Car, 2107){
         default:                        sw_Nishitetsu_5000_4car;
         articulated_part:               sw_articulated_Nishitetsu_5000_4car;
         purchase:                       sw_Nishitetsu_5000_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Nishitetsu_4000_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

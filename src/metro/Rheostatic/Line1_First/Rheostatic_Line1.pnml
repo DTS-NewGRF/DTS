@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Rheostatic_Line1_4Car, 3001){
         default:                        sw_Rheostatic_Line1_4car_reversed;
         articulated_part:               sw_articulated_Rheostatic_Line1_4car;
         purchase:                       sw_Korail_K1000_Initial_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Rheostatic_Line1_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Rheostatic_Line1_6Car, 3002){
         default:                        sw_Rheostatic_Line1_6car_reversed;
         articulated_part:               sw_articulated_Rheostatic_Line1_6car;
         purchase:                       sw_Korail_K1000_Initial_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Rheostatic_Line1_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -180,7 +180,7 @@ item(FEAT_TRAINS, Rheostatic_Line1_8Car, 3003){
         default:                        sw_Rheostatic_Line1_8car_reversed;
         articulated_part:               sw_articulated_Rheostatic_Line1_8car;
         purchase:                       sw_Korail_K1000_Initial_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Rheostatic_Line1_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -234,7 +234,7 @@ item(FEAT_TRAINS, Rheostatic_Line1_10Car, 3004){
         default:                        sw_Rheostatic_Line1_10car_reversed;
         articulated_part:               sw_articulated_Rheostatic_Line1_10car;
         purchase:                       sw_Rheostatic_Line1_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Rheostatic_Line1_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

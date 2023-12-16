@@ -70,7 +70,7 @@ item(FEAT_TRAINS, E8600_1Car, 2128){
     graphics {
         default:                        set_E8600_engine_A;
         purchase:                       sw_E8600_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_E8600_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -123,7 +123,7 @@ item(FEAT_TRAINS, E8600_2Car, 2280){
         default:                        sw_E8600_2Car;
         articulated_part:               sw_articulated_E8600_2Car;
         purchase:                       sw_E8600_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_E8600_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -176,7 +176,7 @@ item(FEAT_TRAINS, E8600_3Car, 2281){
         default:                        sw_E8600_3Car;
         articulated_part:               sw_articulated_E8600_3Car;
         purchase:                       sw_E8600_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_E8600_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

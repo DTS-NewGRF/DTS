@@ -51,7 +51,7 @@ item(FEAT_TRAINS, NJ2, 2051){
 	graphics {
         default:                        set_NJ2_engine;
         purchase:                       sw_NJ2_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_NJ2_speed;
         cost_factor:                    10;
         running_cost_factor:            150;
         }

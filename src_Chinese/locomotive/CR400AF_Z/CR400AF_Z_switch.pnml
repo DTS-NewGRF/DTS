@@ -41,3 +41,9 @@ switch (FEAT_TRAINS, SELF, sw_articulated_CR400AF_Z_17car, extra_callback_info1)
     1..16: CR400AF_Z_17Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
+
+// 속도변수
+switch(FEAT_TRAINS, SELF, sw_CR400AF_Z_speed, Use_max_virtual_speed) {
+    1: return High_Speed_Train;
+    return 350;
+    }

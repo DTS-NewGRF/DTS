@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Hyundai_Rotem_Mitsubishi_8Car, 2057){
         default:                        sw_MTR_Hyundai_Rotem_Mitsubishi_8car;
         articulated_part:               sw_articulated_MTR_Hyundai_Rotem_Mitsubishi_8car;
         purchase:                       sw_MTR_Hyundai_Rotem_Mitsubishi_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_MTR_Hyundai_Rotem_Mitsubishi_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

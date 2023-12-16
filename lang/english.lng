@@ -15,6 +15,10 @@ STR_MEL_150_4Car_NAME                                  :[DTS] MEL-150 4Car
 STR_MEL_150_8Car_NAME                                  :[DTS] MEL-150 8Car
 STR_MEL_150_10Car_NAME                                 :[DTS] MEL-150 10Car
 STR_MEL_150_12Car_NAME                                 :[DTS] MEL-150 12Car
+STR_Group_CDC_NAME                                     :[DTS] CDC Diesel Car
+STR_CDC_3Car_NAME                                      :[DTS] CDC Diesel Car 3Car
+STR_CDC_4Car_NAME                                      :[DTS] CDC Diesel Car 4Car
+STR_CDC_5Car_NAME                                      :[DTS] CDC Diesel Car 5Car
 STR_Group_CL_150_NAME                                  :[DTS] CL-150
 STR_CL_150_4Car_NAME                                   :[DTS] CL-150 4Car
 STR_CL_150_6Car_NAME                                   :[DTS] CL-150 6Car
@@ -69,6 +73,9 @@ STR_H2_WJ_4Car_NAME                                    :[DTS] H2 by WOOJIN 4Car
 STR_Travel_8500_NAME                                   :[DTS] Travel 8500
 STR_NEL_8100_NAME                                      :[DTS] NEL 8100
 STR_NEL_8200_NAME                                      :[DTS] NEL 8200
+STR_Group_RDC_NAME                                     :[DTS] RDC Diesel Car
+STR_RDC_3Car_NAME                                      :[DTS] RDC Diesel Car 3Car
+STR_RDC_4Car_NAME                                      :[DTS] RDC Diesel Car 4Car
 STR_TTX_6Car_NAME                                      :[DTS] TTX 8Car
 STR_VHST_600X_8Car_NAME                                :[DTS] VHST-600X 8Car
 STR_MSB_Speeder_NAME                                   :[DTS] MSB Speeder
@@ -393,16 +400,20 @@ STR_Waypoint_Nousestation_ALowA_Snow                   :[DTS] NoUse Low Asphalt 
 STR_Waypoint_Nousestation_ALowB_Snow                   :[DTS] NoUse Low Asphalt Snow Station B
 
 # Parameters
-STR_PARAM_Metro_SPEED_Train_NAME                       :Metro Train Speed Variable
-STR_PARAM_Metro_SPEED_Train_DESC                       :Adjust the speed of the Metro-speed train (Default:121km/h)
-STR_PARAM_Regular_SPEED_Train_NAME                     :Regular Train Speed Variable
-STR_PARAM_Regular_SPEED_Train_DESC                     :Adjust the speed of the Regular-speed train (Default:151km/h)
-STR_PARAM_Semi_High_SPEED_Train_NAME                   :Semi High Speed Train Speed variable
-STR_PARAM_Semi_High_SPEED_Train_DESC                   :Adjust the speed of the Semi High Speed Train (Default:181km/h)
-STR_PARAM_High_SPEED_Train_NAME                        :High Speed Train Speed
-STR_PARAM_High_SPEED_Train_DESC                        :Adjust the speed of the high-speed train (Default:331km/h)
-STR_PARAM_High_SPEED_Train_430_NAME                    :High Speed Train Speed (430km/h train speed control)
-STR_PARAM_High_SPEED_Train_430_DESC                    :Adjust the speed of the high-speed train (Default:430km/h)
+STR_PARAM_max_virtual_speed_NAME                       :Virtual speed
+STR_PARAM_max_virtual_speed_DESC                       :Please check Virtual Speed. (Default: noVirtual speed)
+STR_PARAM_Metro_SPEED_Train_NAME                       :Metro Train Virtual Speed Variable
+STR_PARAM_Metro_SPEED_Train_DESC                       :Adjust the Virtual speed of the Metro-speed train (Default:121km/h)
+STR_PARAM_Regular_SPEED_Train_NAME                     :Regular Train Virtual speed Variable
+STR_PARAM_Regular_SPEED_Train_DESC                     :Adjust the Virtual speed of the Regular-speed train (Default:151km/h)
+STR_PARAM_Semi_High_SPEED_Train_NAME                   :Semi High Virtual speed Train Speed variable
+STR_PARAM_Semi_High_SPEED_Train_DESC                   :Adjust the Virtual speed of the Semi High Speed Train (Default:181km/h)
+STR_PARAM_High_SPEED_Train_NAME                        :High Virtual speed Train
+STR_PARAM_High_SPEED_Train_DESC                        :Adjust the Virtual speed of the high-speed train (Default:331km/h)
+STR_PARAM_High_SPEED_Train_430_NAME                    :High Virtual speed Train (430km/h train speed control)
+STR_PARAM_High_SPEED_Train_430_DESC                    :Adjust the Virtual speed of the high-speed train (Default:430km/h)
+STR_PARAM_High_SPEED_Train_Test_NAME                   :Test High Virtual speed Train
+STR_PARAM_High_SPEED_Train_Test_DESC                   :Adjust the Virtual speed of the Test high-speed train (Default:600km/h)
 STR_PARAM_Chinese_NAME                                 :No Chinese trains allowed.
 STR_PARAM_Chinese_DESC                                 :Please check when using Chinese trains. (Default: unused)
 STR_PARAM_Hong_Kong_NAME                               :No Hong Kong trains allowed.
@@ -442,6 +453,11 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}train configurati
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}train configuration {GREEN}Coach 2F Passenger vehicles
 
 # Liveries
+STR_REFIT_LIVERY_CDC_Old                               : Old
+STR_REFIT_LIVERY_CDC_New                               : New
+STR_REFIT_LIVERY_CDC_Flower_Garden                     : Flower Garde
+STR_REFIT_LIVERY_CDC_Beach                             : Beach
+STR_REFIT_LIVERY_CDC_Baekje_Crown                      : Baekje Crown
 STR_REFIT_LIVERY_AREX_1000_Old                         : Old
 STR_REFIT_LIVERY_AREX_1000_New                         : New
 STR_REFIT_LIVERY_ITX_Maum_4                            : ITX-Maum 4Car
@@ -539,6 +555,10 @@ STR_REFIT_LIVERY_KTX_SC_SRTA2                          : SRT+KTX-Sancheon A2
 STR_REFIT_LIVERY_KTX_SC_SRTB1                          : SRT+KTX-Sancheon B1
 STR_REFIT_LIVERY_NEL_8100_A                            : NEL 8100 A
 STR_REFIT_LIVERY_NEL_8100_B                            : NEL 8100 B
+STR_REFIT_LIVERY_RDC                                   : RDC
+STR_REFIT_LIVERY_RDC_Cafe_A                            : RDC Cafe Car A
+STR_REFIT_LIVERY_RDC_Cafe_B                            : RDC Cafe Car B
+STR_REFIT_LIVERY_RDC_Cafe_C                            : RDC Cafe Car C
 STR_REFIT_LIVERY_Travel_8500                           : Orginal
 STR_REFIT_LIVERY_Travel_8500_A_train                   : A-Train
 STR_REFIT_LIVERY_Travel_8500_A_train_New               : A-Train New Color

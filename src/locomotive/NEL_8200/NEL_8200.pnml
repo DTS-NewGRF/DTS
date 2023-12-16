@@ -51,7 +51,7 @@ item(FEAT_TRAINS, NEL_8200, 2177){
     graphics {
         default:                        set_NEL_8200_engine;
         purchase:                       sw_NEL_8200_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_NEL_8200_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

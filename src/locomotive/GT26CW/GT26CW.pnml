@@ -51,7 +51,7 @@ item(FEAT_TRAINS, GT26CW, 2014){
     graphics {
         default:                        sw_GT26CW_engine;
         purchase:                       sw_GT26CW_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_GT26CW_speed;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

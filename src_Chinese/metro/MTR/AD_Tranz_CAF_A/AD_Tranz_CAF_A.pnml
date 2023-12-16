@@ -52,7 +52,7 @@ item(FEAT_TRAINS, AD_Tranz_CAF_A_8Car, 2052){
         default:                        sw_MTR_AD_Tranz_CAF_A_8car;
         articulated_part:               sw_articulated_MTR_AD_Tranz_CAF_A_8car;
         purchase:                       sw_AD_Tranz_CAF_A_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_MTR_AD_Tranz_CAF_A_speed;
         loading_speed:                  25;
         cost_factor:					10;
         running_cost_factor:            150;

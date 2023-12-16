@@ -20,7 +20,7 @@ item(FEAT_TRAINS, TGV_La_Poste_10Car, 2081){
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          362km/h;
+        speed:                          270km/h;
         power:                          8000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
@@ -52,7 +52,6 @@ item(FEAT_TRAINS, TGV_La_Poste_10Car, 2081){
         default:                        sw_TGV_La_Poste_10car;
         articulated_part:               sw_articulated_TGV_La_Poste_10car;
         purchase:                       sw_TGV_La_Poste_purchase;
-        speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

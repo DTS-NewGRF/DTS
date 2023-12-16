@@ -71,3 +71,9 @@ switch(FEAT_TRAINS, SELF, sw_ICE4_wagon_7Car_attach, vehicle_type_id) {
     ICE4_7Car:               return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }
+
+// 속도변수
+switch(FEAT_TRAINS, SELF, sw_ICE4_speed, Use_max_virtual_speed) {
+    1: return Semi_High_SPEED_Train;
+    return 250;
+    }

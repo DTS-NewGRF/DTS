@@ -2,6 +2,16 @@
 매개변수
 --------------------------------------------------------------------*/
 param {
+        Use_max_virtual_speed {
+            type: bool;
+            name: string(STR_PARAM_max_virtual_speed_NAME);
+            desc: string(STR_PARAM_max_virtual_speed_DESC);
+            bit:  1;
+            def_value: 0;
+            }
+    }
+
+param {
         Metro_Speed_Train {
             type: int;
             name: string(STR_PARAM_Metro_SPEED_Train_NAME);
@@ -53,6 +63,17 @@ param {
             min_value: 430;
             max_value: 597;
             def_value: 430;
+            }
+    }
+
+param {
+        High_Speed_Train_Test {
+            type: int;
+            name: string(STR_PARAM_High_SPEED_Train_Test_NAME);
+            desc: string(STR_PARAM_High_SPEED_Train_Test_DESC);
+            min_value: 285;
+            max_value: 597;
+            def_value: 597;
             }
     }
 

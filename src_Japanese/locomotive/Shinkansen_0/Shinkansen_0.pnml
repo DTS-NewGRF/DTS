@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Shinkansen_0_12Car, 2085){
         default:                        sw_Shinkansen_0_12car;
         articulated_part:               sw_articulated_Shinkansen_0_12car;
         purchase:                       sw_Shinkansen_0_purchase;
-        speed:                          Semi_High_SPEED_Train;
+        speed:                          sw_Shinkansen_0_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Shinkansen_0_16Car, 2126){
         default:                        sw_Shinkansen_0_16car;
         articulated_part:               sw_articulated_Shinkansen_0_16car;
         purchase:                       sw_Shinkansen_0_purchase;
-        speed:                          Semi_High_SPEED_Train;
+        speed:                          sw_Shinkansen_0_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

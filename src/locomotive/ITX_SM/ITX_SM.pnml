@@ -71,7 +71,7 @@ item(FEAT_TRAINS, ITX_SM_6Car, 2327){
         default:                        sw_ITX_SM_6car_reversed;
         articulated_part:               sw_articulated_ITX_SM_6car;
         purchase:                       sw_ITX_SM_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_ITX_SM_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, ITX_SM_8Car, 2328){
         default:                        sw_ITX_SM_8car_reversed;
         articulated_part:               sw_articulated_ITX_SM_8car;
         purchase:                       sw_ITX_SM_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_ITX_SM_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

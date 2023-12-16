@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Renfe_S_103_8Car, 2074){
         default:                        sw_Renfe_S_103_8car;
         articulated_part:               sw_articulated_Renfe_S_103_8car;
         purchase:                       sw_Renfe_S_103_purchase;
-        speed:                          High_Speed_Train;
+        speed:                          sw_Renfe_S_103_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

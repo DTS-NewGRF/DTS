@@ -52,7 +52,7 @@ item(FEAT_TRAINS, IKK_SP_1900_8Car, 2059){
         default:                        sw_MTR_IKK_SP_1900_8car;
         articulated_part:               sw_articulated_MTR_IKK_SP_1900_8car;
         purchase:                       sw_MTR_IKK_SP_1900_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_MTR_IKK_SP_1900_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -73,7 +73,7 @@ item(FEAT_TRAINS, EMU150_6Car, 2010){
         default:                        sw_EMU150_6car;
         articulated_part:               sw_articulated_EMU150_6car;
         purchase:                       sw_EMU150_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_EMU150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_EMU150_sound;
         }
@@ -127,7 +127,7 @@ item(FEAT_TRAINS, EMU150_8Car, 2131){
         default:                        sw_EMU150_8car;
         articulated_part:               sw_articulated_EMU150_8car;
         purchase:                       sw_EMU150_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_EMU150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_EMU150_sound;
         }
@@ -181,7 +181,7 @@ item(FEAT_TRAINS, EMU150_4Car, 2166){
         default:                        sw_EMU150_4car;
         articulated_part:               sw_articulated_EMU150_4car;
         purchase:                       sw_EMU150_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_EMU150_speed;
         loading_speed:                  25;
         sound_effect:                   sw_EMU150_sound;
         }

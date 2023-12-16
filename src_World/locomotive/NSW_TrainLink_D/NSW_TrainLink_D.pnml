@@ -72,7 +72,7 @@ item(FEAT_TRAINS, NSW_TrainLink_D_4Car, 2117){
         default:                        sw_NSW_TrainLink_D_4car;
         articulated_part:               sw_articulated_NSW_TrainLink_D_4car;
         purchase:                       sw_NSW_TrainLink_D_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_NSW_TrainLink_D_speed;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, NSW_TrainLink_D_6Car, 2142){
         default:                        sw_NSW_TrainLink_D_6car;
         articulated_part:               sw_articulated_NSW_TrainLink_D_6car;
         purchase:                       sw_NSW_TrainLink_D_purchase;
-        speed:                          Regular_Speed_Train;
+        speed:                          sw_NSW_TrainLink_D_speed;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;

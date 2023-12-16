@@ -7,6 +7,10 @@
 - 서울교통공사 4000호대 2세대 GTO
 - 서울교통공사 7000, 8000호대
 
+### Cummins_DMU_start.wav
+- CDC
+- RDC
+
 ### DAWONSYSIGBT2start.wav
 - 서울교통공사 4000호대 4세대 VVVF 전동차
 - ITX-마음, ITX-마음 DD

@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Hankyu_8000_2Car, 2212){
         default:                        sw_Hankyu_8000_2car;
         articulated_part:               sw_articulated_Hankyu_8000_2car;
         purchase:                       sw_Hankyu_8000_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Hankyu_8000_speed;
         cargo_capacity:                 sw_Hankyu_8000_2car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -127,7 +127,7 @@ item(FEAT_TRAINS, Hankyu_8000_8Car, 2213){
         default:                        sw_Hankyu_8000_8car;
         articulated_part:               sw_articulated_Hankyu_8000_8car;
         purchase:                       sw_Hankyu_8000_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Hankyu_8000_speed;
         cargo_capacity:                 sw_Hankyu_8000_8car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;

@@ -70,7 +70,7 @@ item(FEAT_TRAINS, Seoulmetro_5th_VVVF_7000_8Car, 2303){
         default:                        sw_Seoulmetro_5th_VVVF_7000_8car_reversed;
         articulated_part:               sw_articulated_sw_Seoulmetro_5th_VVVF_7000_8car;
         purchase:                       sw_Seoulmetro_5th_7000_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Seoulmetro_5th_VVVF_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

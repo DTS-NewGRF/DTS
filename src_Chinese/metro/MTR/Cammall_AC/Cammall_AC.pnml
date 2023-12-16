@@ -52,7 +52,7 @@ item(FEAT_TRAINS, MTR_AC_Cammall_8Car, 2053){
         default:                        sw_MTR_AC_Cammall_8car;
         articulated_part:               sw_articulated_MTR_AC_Cammall_8car;
         purchase:                       sw_MTR_AC_Cammall_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_MTR_AC_Cammall_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

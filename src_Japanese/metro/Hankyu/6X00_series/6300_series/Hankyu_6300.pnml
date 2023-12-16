@@ -71,7 +71,7 @@ item(FEAT_TRAINS, Hankyu_6300_4Car, 2179){
         default:                        sw_Hankyu_6300_4car;
         articulated_part:               sw_articulated_Hankyu_6300_4car;
         purchase:                       sw_Hankyu_6300_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Hankyu_6300_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Hankyu_6300_8Car, 2180){
         default:                        sw_Hankyu_6300_8car;
         articulated_part:               sw_articulated_Hankyu_6300_8car;
         purchase:                       sw_Hankyu_6300_purchase;
-        speed:                          Metro_Speed_Train;
+        speed:                          sw_Hankyu_6300_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
