@@ -72,7 +72,8 @@ item(FEAT_TRAINS, CDC_3Car, 2345){
         articulated_part:               sw_articulated_CDC_3car;
         purchase:                       sw_CDC_purchase;
         speed:                          sw_CDC_speed;
-        cargo_subtype_text:             sw_CDC_cargo_subtype_text;
+        cargo_subtype_text:             sw_CDC_3Car_cargo_subtype_text;
+        cargo_capacity:                 sw_CDC_3car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -127,7 +128,8 @@ item(FEAT_TRAINS, CDC_4Car, 2346){
         articulated_part:               sw_articulated_CDC_4car;
         purchase:                       sw_CDC_purchase;
         speed:                          sw_CDC_speed;
-        cargo_subtype_text:             sw_CDC_cargo_subtype_text;
+        cargo_subtype_text:             sw_CDC_4Car_cargo_subtype_text;
+        cargo_capacity:                 sw_CDC_4car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

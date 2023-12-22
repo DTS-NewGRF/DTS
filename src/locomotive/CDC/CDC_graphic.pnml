@@ -141,6 +141,68 @@ spriteset(set_CDC_Baekje_Crown_engineT, "src/locomotive/CDC/CDC_Baekje_Crown.png
 }
 
 /*--------------------------------------------------------------------
+CDC_Sea_Old
+--------------------------------------------------------------------*/
+spriteset(set_CDC_Sea_Old_engineH, "src/locomotive/CDC/CDC_Sea_Old.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CDC_Sea_Old_engineH_r, "src/locomotive/CDC/CDC_Sea_Old.png"){
+    engine(80, 27)
+}
+
+spriteset(set_CDC_Sea_Old_wagon, "src/locomotive/CDC/CDC_Sea_Old.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CDC_Sea_Old_wagon_r, "src/locomotive/CDC/CDC_Sea_Old.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_CDC_Sea_Old_engineT_r, "src/locomotive/CDC/CDC_Sea_Old.png"){
+    engine(80, 81)
+}
+
+spriteset(set_CDC_Sea_Old_engineT, "src/locomotive/CDC/CDC_Sea_Old.png"){
+    engine(80, 108)
+}
+
+/*--------------------------------------------------------------------
+CDC_Sea_New
+--------------------------------------------------------------------*/
+spriteset(set_CDC_Sea_New_engineH, "src/locomotive/CDC/CDC_Sea_New.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CDC_Sea_New_engineH_r, "src/locomotive/CDC/CDC_Sea_New.png"){
+    engine(80, 27)
+}
+
+spriteset(set_CDC_Sea_New_wagon_M1, "src/locomotive/CDC/CDC_Sea_New.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CDC_Sea_New_wagon_M1_r, "src/locomotive/CDC/CDC_Sea_New.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_CDC_Sea_New_wagon_M2, "src/locomotive/CDC/CDC_Sea_New.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_CDC_Sea_New_wagon_M2_r, "src/locomotive/CDC/CDC_Sea_New.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_CDC_Sea_New_engineT_r, "src/locomotive/CDC/CDC_Sea_New.png"){
+    engine(80, 108)
+}
+
+spriteset(set_CDC_Sea_New_engineT, "src/locomotive/CDC/CDC_Sea_New.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_CDC_purchase, cargo_subtype) {

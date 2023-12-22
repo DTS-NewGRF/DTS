@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github",
-    "\\.github\\ISSUE_TEMPLATE",
     "\\src",
     "\\src\\locomotive",
-    "\\src\\locomotive\\AREX",
-    "\\src\\locomotive\\AREX\\AREX_2000_1st",
-    "\\src_Virtual",
-    "\\src_Virtual\\locomotive",
-    "\\src_Virtual\\locomotive\\HYEL",
-    "\\src_Virtual\\locomotive\\HYEL\\HYEL_400"
+    "\\src\\locomotive\\CDC",
+    "\\src\\locomotive\\KTX_1",
+    "\\src_Chinese\\metro",
+    "\\src_Chinese\\metro\\MTR",
+    "\\src_Chinese\\metro\\MTR\\Cammall_DC",
+    "\\src_Japanese\\locomotive",
+    "\\src_Japanese\\locomotive\\Shinkansen_923"
   ],
+  "SelectedNode": "\\src\\locomotive\\CDC\\CDC_Sea_New.png",
   "PreviewInSolutionExplorer": false
 }

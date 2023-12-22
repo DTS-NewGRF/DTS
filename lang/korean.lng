@@ -455,6 +455,8 @@ STR_REFIT_LIVERY_CDC_New                               : 신도색
 STR_REFIT_LIVERY_CDC_Flower_Garden                     : 꽃동산 도색
 STR_REFIT_LIVERY_CDC_Beach                             : 해변 도색
 STR_REFIT_LIVERY_CDC_Baekje_Crown                      : 백제왕관 도색
+STR_REFIT_LIVERY_CDC_Sea_Old                           : 바다열차 구도색
+STR_REFIT_LIVERY_CDC_Sea_New                           : 바다열차 신도색
 STR_REFIT_LIVERY_AREX_1000_Old                         : 구도색
 STR_REFIT_LIVERY_AREX_1000_New                         : 신도색
 STR_REFIT_LIVERY_ITX_Maum_4                            : ITX-마음 4량
