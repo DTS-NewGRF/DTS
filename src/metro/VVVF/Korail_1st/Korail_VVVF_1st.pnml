@@ -29,9 +29,9 @@ item(FEAT_TRAINS, Korail_1st_VVVF, 2227){
 /*--------------------------------------------------------------------
 열차정보 4량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_4car, 2228){
+item(FEAT_TRAINS, Korail_1st_VVVF_4car, 2228){
     property {
-        name:                           string(STR_Korail_1st_VVVF_319K_4Car_IGBT_NAME);
+        name:                           string(STR_Korail_1st_VVVF_4Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2016, 1, 1);
         track_type:                     ELRL;
@@ -70,13 +70,14 @@ item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_4car, 2228){
 
     graphics {
         default:                        sw_Korail_1st_VVVF_4car;
-        articulated_part:               sw_articulated_Korail_1st_VVVF_IGBT_4car;
+        articulated_part:               sw_articulated_Korail_1st_VVVF_4car;
         purchase:                       sw_Korail_1st_VVVF_319K_purchase;
         speed:                          sw_Korail_1st_VVVF_speed;
+        cargo_subtype_text:             sw_Korail_1st_VVVF_4car_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Korail_1st_VVVF_IGBT_sound;
+        sound_effect:                   sw_Korail_1st_VVVF_4Car_sound;
         }
         }
 
@@ -85,7 +86,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_4car, 2228){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_1st_VVVF_GTO_4car, 2229){
     property {
-        name:                           string(STR_Korail_1st_VVVF_319K_4Car_GTO_NAME);
+        name:                           string(STR_To_Be_Deleted_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2011, 1, 1);
         track_type:                     ELRL;
@@ -137,9 +138,9 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_4car, 2229){
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_6car, 2230){
+item(FEAT_TRAINS, Korail_1st_VVVF_6car, 2230){
     property {
-        name:                           string(STR_Korail_1st_VVVF_6Car_IGBT_NAME);
+        name:                           string(STR_Korail_1st_VVVF_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2003, 1, 1);
         track_type:                     ELRL;
@@ -177,14 +178,15 @@ item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_6car, 2230){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_IGBT_6car_reversed;
-        articulated_part:               sw_articulated_Korail_1st_VVVF_IGBT_6car;
+        default:                        sw_Korail_1st_VVVF_6car_reversed;
+        articulated_part:               sw_articulated_Korail_1st_VVVF_6car;
         purchase:                       sw_Korail_1st_VVVF_purchase;
         speed:                          sw_Korail_1st_VVVF_speed;
+        cargo_subtype_text:             sw_Korail_1st_VVVF_6car_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Korail_1st_VVVF_IGBT_sound;
+        sound_effect:                   sw_Korail_1st_VVVF_6Car_sound;
         }
         }
 
@@ -193,7 +195,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_6car, 2230){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_1st_VVVF_GTO_6car, 2231){
     property {
-        name:                           string(STR_Korail_1st_VVVF_6Car_GTO_NAME);
+        name:                           string(STR_To_Be_Deleted_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2003, 1, 1);
         track_type:                     ELRL;
@@ -231,24 +233,24 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_6car, 2231){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_GTO_6car_reversed;
+        default:                        sw_Korail_1st_VVVF_6car_reversed;
         articulated_part:               sw_articulated_Korail_1st_VVVF_GTO_6car;
         purchase:                       sw_Korail_1st_VVVF_purchase;
         speed:                          sw_Korail_1st_VVVF_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Korail_1st_VVVF_6car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_1st_VVVF_GTO_sound;
+        cargo_subtype_text:             sw_Korail_1st_VVVF_6car_Deleted;
+        sound_effect:                   sw_Korail_1st_VVVF_6Car_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_10car, 2232){
+item(FEAT_TRAINS, Korail_1st_VVVF_10car, 2232){
     property {
-        name:                           string(STR_Korail_1st_VVVF_10Car_IGBT_NAME);
+        name:                           string(STR_Korail_1st_VVVF_10Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1993, 1, 1);
         track_type:                     ELRL;
@@ -286,15 +288,15 @@ item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_10car, 2232){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_IGBT_10car_reversed;
-        articulated_part:               sw_articulated_Korail_1st_VVVF_IGBT_10car;
+        default:                        sw_Korail_1st_VVVF_10car_reversed;
+        articulated_part:               sw_articulated_Korail_1st_VVVF_10car;
         purchase:                       sw_Korail_1st_VVVF_purchase;
         speed:                          sw_Korail_1st_VVVF_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Korail_1st_VVVF_IGBT_10car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_1st_VVVF_IGBT_sound;
+        cargo_subtype_text:             sw_Korail_1st_VVVF_10car_cargo_subtype_text;
+        sound_effect:                   sw_Korail_1st_VVVF_10Car_sound;
         }
         }
 
@@ -303,7 +305,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_IGBT_10car, 2232){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_1st_VVVF_GTO_10car, 2233){
     property {
-        name:                           string(STR_Korail_1st_VVVF_10Car_GTO_NAME);
+        name:                           string(STR_To_Be_Deleted_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1993, 1, 1);
         track_type:                     ELRL;
@@ -358,7 +360,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_10car, 2233){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_1st_VVVF_3000_10Car, 2259){
     property {
-        name:                           string(STR_Korail_1st_VVVF_3000_10Car_NAME);
+        name:                           string(STR_To_Be_Deleted_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1993, 1, 1);
         track_type:                     ELRL;

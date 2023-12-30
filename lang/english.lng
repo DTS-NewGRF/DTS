@@ -7,6 +7,7 @@ STR_GRF_DESC                                           :Derivative Train Set
 STR_GRF_URL                                            :https://github.com/MEGB-NewGRF/VirtualTrainSet
 
 # locomotive's name
+STR_To_Be_Deleted_NAME                                 :[2024.2] To Be Deleted
 STR_AREX_1000_1st_6Car_NAME                            :[DTS] AREX series 1000 1st 6Car
 STR_AREX_2000_1st_6Car_NAME                            :[DTS] AREX series 2000 1st 6Car
 STR_AREX_2000_4th_6Car_NAME                            :[DTS] AREX series 2000 4th 6Car
@@ -58,9 +59,9 @@ STR_ITX_SM_8Car_NAME                                   :[DTS] ITX-Saemaeul 8Car
 STR_ITX_SM2_6Car_NAME                                  :[DTS] ITX-Saemaeul DD 6Car
 STR_KTX_1_20Car_NAME                                   :[DTS] TGV-K 20Car
 STR_Group_KTX_SC_NAME                                  :[DTS] KTX-Sancheon
-STR_KTX_SC_10Car_NAME                                  :[DTS] KTX-Sancheon Atype, , SRT 10Car
+STR_KTX_SC_10Car_NAME                                  :[DTS] KTX-Sancheon 10Car, SRT 10Car
 STR_KTX_SC_B_10Car_NAME                                :[DTS] KTX-Sancheon Btype 10Car
-STR_KTX_SC_A_20Car_NAME                                :[DTS] KTX-Sancheon Atype 20Car
+STR_KTX_SC_20Car_NAME                                  :[DTS] KTX-Sancheon 20Car
 STR_KTX_SC_AB_20Car_NAME                               :[DTS] KTX-Sancheon ABtype 20Car
 STR_KTX_SC2_10Car_NAME                                 :[DTS] KTX-Sancheon DD 10Car
 STR_Group_Nuriro_NAME                                  :[DTS] Korail 200000 series EMU (NURIRO)
@@ -192,11 +193,11 @@ STR_NKX_8Car_NAME                                      :[DTS] NKX 8Car
 STR_Standard_Metro_4Car_NAME                           :[DTS] Standard Metro 4Car
 STR_AUTS_6Car_NAME                                     :[DTS] AUTS 6Car
 STR_Group_Korail_1st_VVVF_NAME                         :[DTS] Korail 1st VVVF 
-STR_Korail_1st_VVVF_319K_4Car_IGBT_NAME                :[DTS] Korail 1st 319K 4Car IGBT
+STR_Korail_1st_VVVF_4Car_NAME                          :[DTS] Korail 1st 4Car
 STR_Korail_1st_VVVF_319K_4Car_GTO_NAME                 :[DTS] Korail 1st 319K 4Car GTO
 STR_Korail_1st_VVVF_6Car_IGBT_NAME                     :[DTS] Korail 1st 3X1K 6Car
-STR_Korail_1st_VVVF_6Car_GTO_NAME                      :[DTS] Korail 1st 3X1K, 2030 6Car
-STR_Korail_1st_VVVF_10Car_IGBT_NAME                    :[DTS] Korail 1st 3X1K 10Car
+STR_Korail_1st_VVVF_6Car_NAME                          :[DTS] Korail 1st 6Car
+STR_Korail_1st_VVVF_10Car_NAME                         :[DTS] Korail 1st 10Car
 STR_Korail_1st_VVVF_10Car_GTO_NAME                     :[DTS] Korail 1st 3X1K, 2030, 5000 10Car
 STR_Korail_1st_VVVF_3000_10Car_NAME                    :[DTS] Korail 1st 3000
 STR_Group_Seoulmetro_1st_VVVF_NAME                     :[DTS] Seoulmetro 1st VVVF
@@ -204,17 +205,17 @@ STR_Seoulmetro_1st_VVVF_4Car_NAME                      :[DTS] Seoulmetro 1st VVV
 STR_Seoulmetro_1st_VVVF_2000_6Car_NAME                 :[DTS] Seoulmetro 1st VVVF 6Car
 STR_Seoulmetro_1st_VVVF_4000_6Car_NAME                 :[DTS] Seoulmetro 1st VVVF 6Car
 STR_Seoulmetro_1st_VVVF_7000_6Car_NAME                 :[DTS] Seoulmetro 1st VVVF 6Car
-STR_Seoulmetro_1st_VVVF_5000_GTO_8Car_NAME             :[DTS] Seoulmetro 1st VVVF GTO 8Car
+STR_Seoulmetro_1st_VVVF_5000_8Car_NAME                 :[DTS] Seoulmetro 1st VVVF 8Car
 STR_Seoulmetro_1st_VVVF_5000_IGBT_8Car_NAME            :[DTS] Seoulmetro 1st VVVF IGBT 8Car
 STR_Seoulmetro_1st_VVVF_6000_8Car_NAME                 :[DTS] Seoulmetro 1st VVVF 8Car
 STR_Seoulmetro_1st_VVVF_7000_8Car_NAME                 :[DTS] Seoulmetro 1st VVVF 8Car
-STR_Seoulmetro_1st_VVVF_GTO_10Car_NAME                 :[DTS] Seoulmetro 1st VVVF GTO 10Car
-STR_Seoulmetro_1st_VVVF_10Car_NAME                     :[DTS] Seoulmetro 1st VVVF 10Car
+STR_Seoulmetro_1st_VVVF_1000_4000_10Car_NAME           :[DTS] Seoulmetro 1st VVVF 1000, 4000 10Car
+STR_Seoulmetro_1st_VVVF_2000_3000_10Car_NAME           :[DTS] Seoulmetro 1st VVVF 2000, 3000 10Car
 STR_Seoulmetro_1st_VVVF_IGBT_10Car_NAME                :[DTS] Seoulmetro 1st VVVF IGBT 10Car
 STR_Group_Korail_2nd_VVVF_NAME                         :[DTS] Korail 2nd VVVF
-STR_Korail_2nd_VVVF_6Car_IGBT_NAME                     :[DTS] Korail 2nd 6Car IGBT
+STR_Korail_2nd_VVVF_6Car_NAME                          :[DTS] Korail 2nd 6Car
 STR_Korail_2nd_VVVF_6Car_GTO_NAME                      :[DTS] Korail 2nd 6Car GTO
-STR_Korail_2nd_VVVF_10Car_IGBT_NAME                    :[DTS] Korail 2nd 10Car IGBT
+STR_Korail_2nd_VVVF_10Car_NAME                         :[DTS] Korail 2nd 10Car
 STR_Korail_2nd_VVVF_10Car_GTO_NAME                     :[DTS] Korail 2nd 10Car GTO
 STR_Group_Seoulmetro_2nd_VVVF_NAME                     :[DTS] Seoulmetro 2nd VVVF
 STR_Seoulmetro_2nd_VVVF_4Car_NAME                      :[DTS] Seoulmetro 2nd 2000 4Car
@@ -223,7 +224,7 @@ STR_Seoulmetro_2nd_VVVF_7000_6Car_NAME                 :[DTS] Seoulmetro 2nd 700
 STR_Seoulmetro_2nd_VVVF_7000_8Car_NAME                 :[DTS] Seoulmetro 2nd 7000 8Car
 STR_Seoulmetro_2nd_VVVF_2000_10Car_NAME                :[DTS] Seoulmetro 2nd 2000 10Car
 STR_Seoulmetro_2nd_VVVF_3000_10Car_NAME                :[DTS] Seoulmetro 2nd 3000 10Car
-STR_Seoulmetro_2nd_VVVF_GTO_10Car_NAME                 :[DTS] Seoulmetro 2nd VVVF GTO 10Car
+STR_Seoulmetro_2nd_VVVF_10Car_NAME                     :[DTS] Seoulmetro 2nd VVVF 10Car
 STR_Seoulmetro_2nd_VVVF_IGBT_10Car_NAME                :[DTS] Seoulmetro 2nd VVVF IGBT 10Car
 STR_Group_Korail_3rd_VVVF_NAME                         :[DTS] Korail 3rd VVVF
 STR_Korail_3rd_VVVF_ST_4Car_NAME                       :[DTS] Korail 3rd Generation 1nd 4car
@@ -453,6 +454,7 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}train configurati
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}train configuration {GREEN}Coach 2F Passenger vehicles
 
 # Liveries
+STR_REFIT_LIVERY_To_Be_Deleted                         : To Be Deleted 2024.2.
 STR_REFIT_LIVERY_CDC_Old                               : Old
 STR_REFIT_LIVERY_CDC_New                               : New
 STR_REFIT_LIVERY_CDC_Flower_Garden                     : Flower Garde
@@ -460,6 +462,7 @@ STR_REFIT_LIVERY_CDC_Beach                             : Beach
 STR_REFIT_LIVERY_CDC_Baekje_Crown                      : Baekje Crown
 STR_REFIT_LIVERY_CDC_Sea_Old                           : Sea Old
 STR_REFIT_LIVERY_CDC_Sea_New                           : Sea New
+STR_REFIT_LIVERY_CDC_DMZ                               : DMZ-Train
 STR_REFIT_LIVERY_AREX_1000_Old                         : Old
 STR_REFIT_LIVERY_AREX_1000_New                         : New
 STR_REFIT_LIVERY_ITX_Maum_4                            : ITX-Maum 4Car
@@ -561,6 +564,7 @@ STR_REFIT_LIVERY_RDC                                   : RDC
 STR_REFIT_LIVERY_RDC_Cafe_A                            : RDC Cafe Car A
 STR_REFIT_LIVERY_RDC_Cafe_B                            : RDC Cafe Car B
 STR_REFIT_LIVERY_RDC_Cafe_C                            : RDC Cafe Car C
+STR_REFIT_LIVERY_RDC_PY                                : RDC Pohang Yeongdeok
 STR_REFIT_LIVERY_Travel_8500                           : Orginal
 STR_REFIT_LIVERY_Travel_8500_A_train                   : A-Train
 STR_REFIT_LIVERY_Travel_8500_A_train_New               : A-Train New Color
@@ -628,8 +632,14 @@ STR_REFIT_LIVERY_HYEL_150_SB                           : HYEL-150 Sea Livery
 STR_REFIT_LIVERY_AUTS                                  : AUTS
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat              : Standard MetroLong Long Seat
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat             : Standard MetroLong Cross Seat
-STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_A                : Korail 1st 3X1K A
-STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_B                : Korail 1st 3X1K B
+STR_REFIT_LIVERY_Korail_1st_VVVF_IGBT                  : Korail 1st IGBT
+STR_REFIT_LIVERY_Korail_1st_VVVF_GTO                   : Korail 1st GTO
+STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_IGBT             : Korail 1st 3X1K IGBT
+STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_GTO              : Korail 1st 3X1K GTO
+STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_A_IGBT           : Korail 1st 3X1K A IGBT
+STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_A_GTO            : Korail 1st 3X1K A GTO
+STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_B_IGBT           : Korail 1st 3X1K B IGBT
+STR_REFIT_LIVERY_Korail_1st_VVVF_3X1K_B_GTO            : Korail 1st 3X1K B GTO
 STR_REFIT_LIVERY_Korail_1st_VVVF_2030                  : Korail 1st 2030
 STR_REFIT_LIVERY_Korail_1st_VVVF_5000_A                : Korail 1st 5000 A
 STR_REFIT_LIVERY_Korail_1st_VVVF_5000_B                : Korail 1st 5000 B
@@ -637,13 +647,22 @@ STR_REFIT_LIVERY_Korail_1st_VVVF_3000_Old              : Korail 1st 3000 Old
 STR_REFIT_LIVERY_Korail_1st_VVVF_3000_New              : Korail 1st 3000 New
 STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_1000_A            : Seoulmetro 1st VVVF 1000 A
 STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_1000_B            : Seoulmetro 1st VVVF 1000 B
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_4000              : Seoulmetro 1st VVVF 4000
+STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_4000_IGBT         : Seoulmetro 1st VVVF 4000 IGBT
+STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_4000_GTO          : Seoulmetro 1st VVVF 4000 GTO
+STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_5000_IGBT         : Seoulmetro 1st VVVF 5000 IGBT
+STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_5000_GTO          : Seoulmetro 1st VVVF 5000 GTO
 STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_2000              : Seoulmetro 1st VVVF 2000
 STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_3000              : Seoulmetro 1st VVVF 3000
 STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_7000_A            : Seoulmetro 1st VVVF 7000 A
 STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_7000_B            : Seoulmetro 1st VVVF 7000 B
-STR_REFIT_LIVERY_Korail_2nd_VVVF_311K                  : Korail 2nd 311K
-STR_REFIT_LIVERY_Korail_2nd_VVVF_341K                  : Korail 2nd 341K
+STR_REFIT_LIVERY_Seoulmetro_2nd_VVVF_IGBT              : Seoulmetro 2nd VVVF 4000 IGBT
+STR_REFIT_LIVERY_Seoulmetro_2nd_VVVF_GTO               : Seoulmetro 2nd VVVF 4000 GTO
+STR_REFIT_LIVERY_Korail_2nd_VVVF_IGBT                  : Korail 2nd IGBT
+STR_REFIT_LIVERY_Korail_2nd_VVVF_GTO                   : Korail 2nd GTO
+STR_REFIT_LIVERY_Korail_2nd_VVVF_311K_IGBT             : Korail 2nd 311K IGBT
+STR_REFIT_LIVERY_Korail_2nd_VVVF_341K_IGBT             : Korail 2nd 341K IGBT
+STR_REFIT_LIVERY_Korail_2nd_VVVF_311K_GTO              : Korail 2nd 311K GTO
+STR_REFIT_LIVERY_Korail_2nd_VVVF_341K_GTO              : Korail 2nd 341K GTO
 STR_REFIT_LIVERY_Korail_2nd_VVVF_2030                  : Korail 2nd 2030
 STR_REFIT_LIVERY_Korail_2nd_VVVF_5000                  : Korail 2nd 5000
 STR_REFIT_LIVERY_Seoulmetro_2nd_VVVF_2000_A            : Seoulmetro 2nd VVVF 2000 A
@@ -664,6 +683,8 @@ STR_REFIT_LIVERY_Korail_4th_VVVF_G2_DOB                : Korail 4th VVVF Generat
 STR_REFIT_LIVERY_Korail_4th_VVVF_G3_SI1                : Korail 4th VVVF Generation 2 SI1
 STR_REFIT_LIVERY_Korail_4th_VVVF_G3_SI2                : Korail 4th VVVF Generation 2 SI2
 STR_REFIT_LIVERY_Korail_4th_VVVF_G3_DOB                : Korail 4th VVVF Generation 2 DOB
+STR_REFIT_LIVERY_Korail_5th_VVVF_Nomal                 : Korail 4th VVVF Nomal
+STR_REFIT_LIVERY_Korail_5th_VVVF_Update_software       : Korail 4th VVVF Update software
 STR_REFIT_LIVERY_Line1_K1000_Initial                   : First EMU KNR 1st livery
 STR_REFIT_LIVERY_Line1_K1000_Initial_Aircon_A          : First EMU KNR 1st livery Aircon A
 STR_REFIT_LIVERY_Line1_K1000_Initial_Aircon_B          : First EMU KNR 1st livery Aircon B

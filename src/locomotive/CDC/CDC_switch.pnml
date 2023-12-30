@@ -7,6 +7,7 @@ switch(FEAT_TRAINS, SELF, sw_CDC_3Car_cargo_subtype_text, cargo_subtype) {
     2: return string(STR_REFIT_LIVERY_CDC_Flower_Garden); // 꽃동산 도색
     3: return string(STR_REFIT_LIVERY_CDC_Baekje_Crown);  // 백제왕관 도색
     4: return string(STR_REFIT_LIVERY_CDC_Sea_Old);       // 바다열차 구도색
+    5: return string(STR_REFIT_LIVERY_CDC_DMZ);           // DMZ
     return string(STR_REFIT_LIVERY_CDC_Old);
 }
 
@@ -32,6 +33,7 @@ switch(FEAT_TRAINS, SELF, sw_CDC_3Car_engineH, cargo_subtype) {
     2: set_CDC_Flower_Garden_engineH; // 꽃동산 도색
     3: set_CDC_Baekje_Crown_engineH;  // 백제왕관 도색
     4: set_CDC_Sea_Old_engineH;       // 바다열차 구도색
+    5: set_CDC_DMZ_engineH;           // DMZ
     set_CDC_Old_engineH;
 }
 
@@ -40,6 +42,7 @@ switch(FEAT_TRAINS, SELF, sw_CDC_3Car_wagon, cargo_subtype) {
     2: set_CDC_Flower_Garden_wagon; // 꽃동산 도색
     3: set_CDC_Baekje_Crown_wagon;  // 백제왕관 도색
     4: set_CDC_Sea_Old_wagon;       // 바다열차 구도색
+    5: set_CDC_DMZ_wagon;           // DMZ
     set_CDC_Old_wagon;
 }
 
@@ -48,6 +51,7 @@ switch(FEAT_TRAINS, SELF, sw_CDC_3Car_engineT, cargo_subtype) {
     2: set_CDC_Flower_Garden_engineT; // 꽃동산 도색
     3: set_CDC_Baekje_Crown_engineT;  // 백제왕관 도색
     4: set_CDC_Sea_Old_engineT;       // 바다열차 구도색
+    5: set_CDC_DMZ_engineT;           // DMZ
     set_CDC_Old_engineT;
 }
 
@@ -56,7 +60,8 @@ switch(FEAT_TRAINS, SELF, sw_CDC_3Car_engineH_r, cargo_subtype) {
     1: set_CDC_New_engineH_r;
     2: set_CDC_Flower_Garden_engineH_r; // 꽃동산 도색
     3: set_CDC_Baekje_Crown_engineH_r;  // 백제왕관 도색
-    4: set_CDC_Sea_Old_engineH_r;   // 바다열차 구도색
+    4: set_CDC_Sea_Old_engineH_r;       // 바다열차 구도색
+    5: set_CDC_DMZ_engineH_r;           // DMZ
     set_CDC_Old_engineH_r;
 }
 
@@ -65,6 +70,7 @@ switch(FEAT_TRAINS, SELF, sw_CDC_3Car_wagon_r, cargo_subtype) {
     2: set_CDC_Flower_Garden_wagon_r; // 꽃동산 도색
     3: set_CDC_Baekje_Crown_wagon_r;  // 백제왕관 도색
     4: set_CDC_Sea_Old_wagon_r;       // 바다열차 구도색
+    5: set_CDC_DMZ_wagon_r;           // DMZ
     set_CDC_Old_wagon_r;
 }
 
@@ -73,6 +79,7 @@ switch(FEAT_TRAINS, SELF, sw_CDC_3Car_engineT_r, cargo_subtype) {
     2: set_CDC_Flower_Garden_engineT_r; // 꽃동산 도색
     3: set_CDC_Baekje_Crown_engineT_r;  // 백제왕관 도색
     4: set_CDC_Sea_Old_engineT_r;       // 바다열차 구도색
+    5: set_CDC_DMZ_engineT_r;           // DMZ
     set_CDC_Old_engineT_r;
 }
 

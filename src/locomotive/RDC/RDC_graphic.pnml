@@ -57,6 +57,33 @@ spriteset(set_RDC_engineT, "src/locomotive/RDC/RDC.png"){
 }
 
 /*--------------------------------------------------------------------
+RDC_Pohang Yeongdeok
+--------------------------------------------------------------------*/
+spriteset(set_RDC_PY_engineH, "src/locomotive/RDC/RDC_Pohang_Yeongdeok.png"){
+    engine(80, 0)
+}
+
+spriteset(set_RDC_PY_engineH_r, "src/locomotive/RDC/RDC_Pohang_Yeongdeok.png"){
+    engine(80, 27)
+}
+
+spriteset(set_RDC_PY_wagon, "src/locomotive/RDC/RDC_Pohang_Yeongdeok.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_RDC_PY_wagon_r, "src/locomotive/RDC/RDC_Pohang_Yeongdeok.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_RDC_PY_engineT_r, "src/locomotive/RDC/RDC_Pohang_Yeongdeok.png"){
+    engine(80, 81)
+}
+
+spriteset(set_RDC_PY_engineT, "src/locomotive/RDC/RDC_Pohang_Yeongdeok.png"){
+    engine(80, 108)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_RDC_purchase, cargo_subtype) {

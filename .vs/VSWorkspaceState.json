@@ -3,14 +3,14 @@
     "",
     "\\src",
     "\\src\\locomotive",
-    "\\src\\locomotive\\CDC",
-    "\\src\\locomotive\\KTX_1",
-    "\\src_Chinese\\metro",
-    "\\src_Chinese\\metro\\MTR",
-    "\\src_Chinese\\metro\\MTR\\Cammall_DC",
-    "\\src_Japanese\\locomotive",
-    "\\src_Japanese\\locomotive\\Shinkansen_923"
+    "\\src\\locomotive\\KTX_SC",
+    "\\src\\metro",
+    "\\src\\metro\\VVVF",
+    "\\src\\metro\\VVVF\\Korail_1st",
+    "\\src\\metro\\VVVF\\Korail_2nd",
+    "\\src\\metro\\VVVF\\Korail_3rd",
+    "\\src\\metro\\VVVF\\Korail_4th"
   ],
-  "SelectedNode": "\\src\\locomotive\\CDC\\CDC_Sea_New.png",
+  "SelectedNode": "\\src\\metro\\VVVF\\Korail_1st\\Korail_VVVF_1st_switch.pnml",
   "PreviewInSolutionExplorer": false
 }

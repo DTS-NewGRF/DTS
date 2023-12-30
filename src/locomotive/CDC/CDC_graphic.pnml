@@ -203,6 +203,33 @@ spriteset(set_CDC_Sea_New_engineT, "src/locomotive/CDC/CDC_Sea_New.png"){
 }
 
 /*--------------------------------------------------------------------
+CDC_DMZ
+--------------------------------------------------------------------*/
+spriteset(set_CDC_DMZ_engineH, "src/locomotive/CDC/CDC_DMZ.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CDC_DMZ_engineH_r, "src/locomotive/CDC/CDC_DMZ.png"){
+    engine(80, 27)
+}
+
+spriteset(set_CDC_DMZ_wagon, "src/locomotive/CDC/CDC_DMZ.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CDC_DMZ_wagon_r, "src/locomotive/CDC/CDC_DMZ.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_CDC_DMZ_engineT_r, "src/locomotive/CDC/CDC_DMZ.png"){
+    engine(80, 81)
+}
+
+spriteset(set_CDC_DMZ_engineT, "src/locomotive/CDC/CDC_DMZ.png"){
+    engine(80, 108)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_CDC_purchase, cargo_subtype) {

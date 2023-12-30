@@ -53,6 +53,7 @@ item(FEAT_TRAINS, Korail_5th_VVVF_10Car, 2239){
         articulated_part:               sw_articulated_Korail_5th_VVVF_10car;
         purchase:                       sw_Korail_5th_VVVF_purchase;
         speed:                          sw_Korail_5th_VVVF_speed;
+        cargo_subtype_text:             sw_Korail_5th_VVVF_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

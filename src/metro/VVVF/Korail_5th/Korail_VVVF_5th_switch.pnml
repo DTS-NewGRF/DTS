@@ -1,6 +1,12 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_Korail_5th_VVVF_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Korail_5th_VVVF_Update_software);
+    return string(STR_REFIT_LIVERY_Korail_5th_VVVF_Nomal);
+}
+
 switch (FEAT_TRAINS, SELF, sw_Korail_5th_VVVF_10car, position_in_vehid_chain % 10) {
     1:set_Korail_5th_VVVF_wagon;
     2:set_Korail_5th_VVVF_panto_wagon;
@@ -42,10 +48,20 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Korail_5th_VVVF_10car, extra_callback_
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch(FEAT_TRAINS, SELF, sw_Korail_5th_VVVF_sound, extra_callback_info1) {
+switch(FEAT_TRAINS, SELF, sw_Korail_5th_VVVF1_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/WOOJINMITSUBISHIIGBTstart.wav");
     return CB_RESULT_NO_SOUND;
     }
+    
+switch(FEAT_TRAINS, SELF, sw_Korail_5th_VVVF2_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/WOOJINMITSUBISHIIGBT2start.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Korail_5th_VVVF_sound, cargo_subtype) {
+    1: sw_Korail_5th_VVVF2_sound;
+    sw_Korail_5th_VVVF1_sound;
+}
 
 // 속도변수
 switch(FEAT_TRAINS, SELF, sw_Korail_5th_VVVF_speed, Use_max_virtual_speed) {

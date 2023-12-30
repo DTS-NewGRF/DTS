@@ -353,9 +353,9 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_3000_10Car, 2296){
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_GTO_10Car, 2261){
+item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_10Car, 2261){
     property {
-        name:                           string(STR_Seoulmetro_2nd_VVVF_GTO_10Car_NAME);
+        name:                           string(STR_Seoulmetro_2nd_VVVF_10Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1994, 1, 1);
         track_type:                     ELRL;
@@ -393,14 +393,15 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_GTO_10Car, 2261){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_GTO_10car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_GTO_10car;
+        default:                        sw_Seoulmetro_2nd_VVVF_10car_reversed;
+        articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_10car;
         purchase:                       sw_Seoulmetro_2nd_purchase;
         speed:                          sw_Seoulmetro_2nd_VVVF_speed;
+        cargo_subtype_text:             sw_Seoulmetro_2nd_VVVF_4000_10car_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_VVVF_GTO_sound;
+        sound_effect:                   sw_Seoulmetro_2nd_VVVF_sound;
         }
         }
 
@@ -409,7 +410,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_GTO_10Car, 2261){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_IGBT_10Car, 2262){
     property {
-        name:                           string(STR_Seoulmetro_2nd_VVVF_IGBT_10Car_NAME);
+        name:                           string(STR_To_Be_Deleted_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1994, 1, 1);
         track_type:                     ELRL;
