@@ -563,7 +563,7 @@ switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_IGBT_sound, extra_callback_info
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_1000_4000_sound, cargo_subtype) {
     1: sw_Seoulmetro_1st_VVVF_GTO_sound;
     2: sw_Seoulmetro_1st_VVVF_GTO_sound;
-    2: sw_Seoulmetro_1st_VVVF_IGBT_sound;
+    3: sw_Seoulmetro_1st_VVVF_IGBT_sound;
     sw_Seoulmetro_1st_VVVF_GTO_sound;
 }
 

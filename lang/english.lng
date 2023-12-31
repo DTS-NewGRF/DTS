@@ -2,9 +2,9 @@
 
 
 # GRF name and description
-STR_GRF_NAME_WITH_VER                                  :Derivative Train Set {VERSION}
-STR_GRF_DESC                                           :Derivative Train Set
-STR_GRF_URL                                            :https://github.com/MEGB-NewGRF/VirtualTrainSet
+STR_GRF_NAME_WITH_VER                                  :Diversity Train Set {VERSION}
+STR_GRF_DESC                                           :Diversity Train Set
+STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS/releases
 
 # locomotive's name
 STR_To_Be_Deleted_NAME                                 :[2024.2] To Be Deleted

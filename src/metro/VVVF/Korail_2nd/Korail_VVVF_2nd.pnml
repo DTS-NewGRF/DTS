@@ -185,7 +185,7 @@ item(FEAT_TRAINS, Korail_2nd_VVVF_10car, 2237){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Korail_2nd_VVVF_10Car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_2nd_VVVF_sound;
+        sound_effect:                   sw_Korail_2nd_VVVF_10Car_sound;
         }
         }
 
