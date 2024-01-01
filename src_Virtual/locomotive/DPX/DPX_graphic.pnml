@@ -28,11 +28,27 @@ spriteset(set_DPX_wagon_01_r, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_01_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_01_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_01_r_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_01_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_01_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_01_r_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_01_r_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_01_r_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
@@ -44,11 +60,27 @@ spriteset(set_DPX_wagon_02_r, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_02_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_02_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_02_r_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_02_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_02_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_02_r_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_02_r_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_02_r_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
@@ -60,11 +92,27 @@ spriteset(set_DPX_wagon_03_r, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_03_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_03_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_03_r_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_03_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_03_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_03_r_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_03_r_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_03_r_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
@@ -76,11 +124,27 @@ spriteset(set_DPX_wagon_04_r, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_04_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_04_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_04_r_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_04_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_04_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_04_r_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_04_r_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_04_r_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
@@ -92,11 +156,27 @@ spriteset(set_DPX_wagon_05_r, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_05_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_05_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_05_r_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_05_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_05_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_05_r_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_05_r_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_05_r_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
@@ -108,11 +188,27 @@ spriteset(set_DPX_wagon_06_r, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_06_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_06_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_06_r_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_06_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_06_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_06_r_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_06_r_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_06_r_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
@@ -124,11 +220,27 @@ spriteset(set_DPX_wagon_07_r, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_07_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_07_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_07_r_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_07_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_07_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_07_r_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_07_r_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_07_r_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
@@ -140,11 +252,27 @@ spriteset(set_DPX_wagon_08_r, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_08_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_08_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_08_r_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_08_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_08_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_08_r_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_08_r_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_08_r_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
@@ -156,11 +284,27 @@ spriteset(set_DPX_wagon_09_r, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_09_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_09_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_09_r_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_09_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_09_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_09_r_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_09_r_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_09_r_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
@@ -172,11 +316,27 @@ spriteset(set_DPX_wagon_10_r, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_10_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_10_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_10_r_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_10_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_10_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_10_r_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_10_r_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_10_r_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
@@ -188,11 +348,27 @@ spriteset(set_DPX_wagon_11_r, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_11_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_11_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_11_r_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_11_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_11_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_11_r_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_11_r_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_11_r_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
@@ -204,11 +380,27 @@ spriteset(set_DPX_wagon_12_r, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_12_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_12_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_DPX_wagon_12_r_loaded, "src_Virtual/locomotive/DPX/DPX.png"){
+spriteset(set_DPX_wagon_12_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_12_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_12_r_loading01, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_12_r_loading02, "src_Virtual/locomotive/DPX/DPX.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DPX_wagon_12_r_loading03, "src_Virtual/locomotive/DPX/DPX.png"){
     wagon_1F_F(80, 54)
 }
 
@@ -239,12 +431,28 @@ alternative_sprites(set_DPX_wagon_01_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     wagon_1F_F_r(80, 54)
 }
 
-alternative_sprites(set_DPX_wagon_01_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F(80, 54)
+alternative_sprites(set_DPX_wagon_01_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(289, 54)
 }
 
-alternative_sprites(set_DPX_wagon_01_r_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F_r(80, 54)
+alternative_sprites(set_DPX_wagon_01_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(506, 54)
+}
+
+alternative_sprites(set_DPX_wagon_01_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(723, 54)
+}
+
+alternative_sprites(set_DPX_wagon_01_r_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(289, 54)
+}
+
+alternative_sprites(set_DPX_wagon_01_r_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(506, 54)
+}
+
+alternative_sprites(set_DPX_wagon_01_r_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(723, 54)
 }
 
 alternative_sprites(set_DPX_wagon_02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
@@ -255,12 +463,28 @@ alternative_sprites(set_DPX_wagon_02_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     wagon_1F_F_r(80, 81)
 }
 
-alternative_sprites(set_DPX_wagon_02_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F(80, 81)
+alternative_sprites(set_DPX_wagon_02_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(289, 81)
 }
 
-alternative_sprites(set_DPX_wagon_02_r_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F_r(80, 81)
+alternative_sprites(set_DPX_wagon_02_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(506, 81)
+}
+
+alternative_sprites(set_DPX_wagon_02_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(723, 81)
+}
+
+alternative_sprites(set_DPX_wagon_02_r_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(289, 81)
+}
+
+alternative_sprites(set_DPX_wagon_02_r_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(506, 81)
+}
+
+alternative_sprites(set_DPX_wagon_02_r_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(723, 81)
 }
 
 alternative_sprites(set_DPX_wagon_03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
@@ -271,12 +495,28 @@ alternative_sprites(set_DPX_wagon_03_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     wagon_1F_F_r(80, 108)
 }
 
-alternative_sprites(set_DPX_wagon_03_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F(80, 108)
+alternative_sprites(set_DPX_wagon_03_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(289, 108)
 }
 
-alternative_sprites(set_DPX_wagon_03_r_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F_r(80, 108)
+alternative_sprites(set_DPX_wagon_03_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(506, 108)
+}
+
+alternative_sprites(set_DPX_wagon_03_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(723, 108)
+}
+
+alternative_sprites(set_DPX_wagon_03_r_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(289, 108)
+}
+
+alternative_sprites(set_DPX_wagon_03_r_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(506, 108)
+}
+
+alternative_sprites(set_DPX_wagon_03_r_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(723, 108)
 }
 
 alternative_sprites(set_DPX_wagon_04, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
@@ -287,12 +527,28 @@ alternative_sprites(set_DPX_wagon_04_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     wagon_1F_F_r(80, 135)
 }
 
-alternative_sprites(set_DPX_wagon_04_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F(80, 135)
+alternative_sprites(set_DPX_wagon_04_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(289, 135)
 }
 
-alternative_sprites(set_DPX_wagon_04_r_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F_r(80, 135)
+alternative_sprites(set_DPX_wagon_04_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(506, 135)
+}
+
+alternative_sprites(set_DPX_wagon_04_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(723, 135)
+}
+
+alternative_sprites(set_DPX_wagon_04_r_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(289, 135)
+}
+
+alternative_sprites(set_DPX_wagon_04_r_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(506, 135)
+}
+
+alternative_sprites(set_DPX_wagon_04_r_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(723, 135)
 }
 
 alternative_sprites(set_DPX_wagon_05, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
@@ -303,12 +559,28 @@ alternative_sprites(set_DPX_wagon_05_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     wagon_1F_F_r(80, 162)
 }
 
-alternative_sprites(set_DPX_wagon_05_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F(80, 162)
+alternative_sprites(set_DPX_wagon_05_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(289, 162)
 }
 
-alternative_sprites(set_DPX_wagon_05_r_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F_r(80, 162)
+alternative_sprites(set_DPX_wagon_05_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(506, 162)
+}
+
+alternative_sprites(set_DPX_wagon_05_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(723, 162)
+}
+
+alternative_sprites(set_DPX_wagon_05_r_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(289, 162)
+}
+
+alternative_sprites(set_DPX_wagon_05_r_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(506, 162)
+}
+
+alternative_sprites(set_DPX_wagon_05_r_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(723, 162)
 }
 
 alternative_sprites(set_DPX_wagon_06, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
@@ -319,12 +591,28 @@ alternative_sprites(set_DPX_wagon_06_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     wagon_1F_F_r(80, 189)
 }
 
-alternative_sprites(set_DPX_wagon_06_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F(80, 189)
+alternative_sprites(set_DPX_wagon_06_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(289, 189)
 }
 
-alternative_sprites(set_DPX_wagon_06_r_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F_r(80, 189)
+alternative_sprites(set_DPX_wagon_06_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(506, 189)
+}
+
+alternative_sprites(set_DPX_wagon_06_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(723, 189)
+}
+
+alternative_sprites(set_DPX_wagon_06_r_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(289, 189)
+}
+
+alternative_sprites(set_DPX_wagon_06_r_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(506, 189)
+}
+
+alternative_sprites(set_DPX_wagon_06_r_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(723, 189)
 }
 
 alternative_sprites(set_DPX_wagon_07, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
@@ -335,12 +623,28 @@ alternative_sprites(set_DPX_wagon_07_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     wagon_1F_F_r(80, 216)
 }
 
-alternative_sprites(set_DPX_wagon_07_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F(80, 216)
+alternative_sprites(set_DPX_wagon_07_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(289, 216)
 }
 
-alternative_sprites(set_DPX_wagon_07_r_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F_r(80, 216)
+alternative_sprites(set_DPX_wagon_07_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(506, 216)
+}
+
+alternative_sprites(set_DPX_wagon_07_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(723, 216)
+}
+
+alternative_sprites(set_DPX_wagon_07_r_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(289, 216)
+}
+
+alternative_sprites(set_DPX_wagon_07_r_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(506, 216)
+}
+
+alternative_sprites(set_DPX_wagon_07_r_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(723, 216)
 }
 
 alternative_sprites(set_DPX_wagon_08, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
@@ -351,12 +655,28 @@ alternative_sprites(set_DPX_wagon_08_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     wagon_1F_F_r(80, 243)
 }
 
-alternative_sprites(set_DPX_wagon_08_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F(80, 243)
+alternative_sprites(set_DPX_wagon_08_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(289, 243)
 }
 
-alternative_sprites(set_DPX_wagon_08_r_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F_r(80, 243)
+alternative_sprites(set_DPX_wagon_08_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(506, 243)
+}
+
+alternative_sprites(set_DPX_wagon_08_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(723, 243)
+}
+
+alternative_sprites(set_DPX_wagon_08_r_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(289, 243)
+}
+
+alternative_sprites(set_DPX_wagon_08_r_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(506, 243)
+}
+
+alternative_sprites(set_DPX_wagon_08_r_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(723, 243)
 }
 
 alternative_sprites(set_DPX_wagon_09, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
@@ -367,12 +687,28 @@ alternative_sprites(set_DPX_wagon_09_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     wagon_1F_F_r(80, 270)
 }
 
-alternative_sprites(set_DPX_wagon_09_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F(80, 270)
+alternative_sprites(set_DPX_wagon_09_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(289, 270)
 }
 
-alternative_sprites(set_DPX_wagon_09_r_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F_r(80, 270)
+alternative_sprites(set_DPX_wagon_09_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(506, 270)
+}
+
+alternative_sprites(set_DPX_wagon_09_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(723, 270)
+}
+
+alternative_sprites(set_DPX_wagon_09_r_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(289, 270)
+}
+
+alternative_sprites(set_DPX_wagon_09_r_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(506, 270)
+}
+
+alternative_sprites(set_DPX_wagon_09_r_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(723, 270)
 }
 
 alternative_sprites(set_DPX_wagon_10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
@@ -383,12 +719,28 @@ alternative_sprites(set_DPX_wagon_10_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     wagon_1F_F_r(80, 297)
 }
 
-alternative_sprites(set_DPX_wagon_10_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F(80, 297)
+alternative_sprites(set_DPX_wagon_10_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(289, 297)
 }
 
-alternative_sprites(set_DPX_wagon_10_r_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F_r(80, 297)
+alternative_sprites(set_DPX_wagon_10_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(506, 297)
+}
+
+alternative_sprites(set_DPX_wagon_10_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(723, 297)
+}
+
+alternative_sprites(set_DPX_wagon_10_r_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(289, 297)
+}
+
+alternative_sprites(set_DPX_wagon_10_r_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(506, 297)
+}
+
+alternative_sprites(set_DPX_wagon_10_r_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(723, 297)
 }
 
 alternative_sprites(set_DPX_wagon_11, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
@@ -399,12 +751,28 @@ alternative_sprites(set_DPX_wagon_11_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     wagon_1F_F_r(80, 324)
 }
 
-alternative_sprites(set_DPX_wagon_11_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F(80, 324)
+alternative_sprites(set_DPX_wagon_11_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(289, 324)
 }
 
-alternative_sprites(set_DPX_wagon_11_r_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F_r(80, 324)
+alternative_sprites(set_DPX_wagon_11_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(506, 324)
+}
+
+alternative_sprites(set_DPX_wagon_11_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(723, 324)
+}
+
+alternative_sprites(set_DPX_wagon_11_r_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(289, 324)
+}
+
+alternative_sprites(set_DPX_wagon_11_r_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(506, 324)
+}
+
+alternative_sprites(set_DPX_wagon_11_r_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(723, 324)
 }
 
 alternative_sprites(set_DPX_wagon_12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
@@ -415,12 +783,28 @@ alternative_sprites(set_DPX_wagon_12_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src
     wagon_1F_F_r(80, 351)
 }
 
-alternative_sprites(set_DPX_wagon_12_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F(80, 351)
+alternative_sprites(set_DPX_wagon_12_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(289, 351)
 }
 
-alternative_sprites(set_DPX_wagon_12_r_loaded, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
-    DPX_loaded_wagon_1F_F_r(80, 351)
+alternative_sprites(set_DPX_wagon_12_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(506, 351)
+}
+
+alternative_sprites(set_DPX_wagon_12_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F(723, 351)
+}
+
+alternative_sprites(set_DPX_wagon_12_r_loading01, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(289, 351)
+}
+
+alternative_sprites(set_DPX_wagon_12_r_loading02, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(506, 351)
+}
+
+alternative_sprites(set_DPX_wagon_12_r_loading03, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
+    DPX_loaded_wagon_1F_F_r(723, 351)
 }
 
 alternative_sprites(set_DPX_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/DPX/DPX_32bpp.png"){
@@ -437,264 +821,288 @@ alternative_sprites(set_DPX_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Vi
 spritegroup sg_DPX_wagon_01 {
     loading: [
         set_DPX_wagon_01,
-        set_DPX_wagon_01_loaded
+        set_DPX_wagon_01_loading01,
+        set_DPX_wagon_01_loading02,
+        set_DPX_wagon_01_loading03
     ];
     loaded: [
-        set_DPX_wagon_01,
-        set_DPX_wagon_01_loaded
+        set_DPX_wagon_01
     ];
 }
 
 spritegroup sg_DPX_wagon_01_r {
     loading: [
         set_DPX_wagon_01_r,
-        set_DPX_wagon_01_r_loaded
+        set_DPX_wagon_01_r_loading01,
+        set_DPX_wagon_01_r_loading02,
+        set_DPX_wagon_01_r_loading03
     ];
     loaded: [
-        set_DPX_wagon_01_r,
-        set_DPX_wagon_01_r_loaded
+        set_DPX_wagon_01_r
     ];
 }
 
 spritegroup sg_DPX_wagon_02 {
     loading: [
         set_DPX_wagon_02,
-        set_DPX_wagon_02_loaded
+        set_DPX_wagon_02_loading01,
+        set_DPX_wagon_02_loading02,
+        set_DPX_wagon_02_loading03
     ];
     loaded: [
-        set_DPX_wagon_02,
-        set_DPX_wagon_02_loaded
+        set_DPX_wagon_02
     ];
 }
 
 spritegroup sg_DPX_wagon_02_r {
     loading: [
         set_DPX_wagon_02_r,
-        set_DPX_wagon_02_r_loaded
+        set_DPX_wagon_02_r_loading01,
+        set_DPX_wagon_02_r_loading02,
+        set_DPX_wagon_02_r_loading03
     ];
     loaded: [
-        set_DPX_wagon_02_r,
-        set_DPX_wagon_02_r_loaded
+        set_DPX_wagon_02_r
     ];
 }
 
 spritegroup sg_DPX_wagon_03 {
     loading: [
         set_DPX_wagon_03,
-        set_DPX_wagon_03_loaded
+        set_DPX_wagon_03_loading01,
+        set_DPX_wagon_03_loading02,
+        set_DPX_wagon_03_loading03
     ];
     loaded: [
-        set_DPX_wagon_03,
-        set_DPX_wagon_03_loaded
+        set_DPX_wagon_03
     ];
 }
 
 spritegroup sg_DPX_wagon_03_r {
     loading: [
         set_DPX_wagon_03_r,
-        set_DPX_wagon_03_r_loaded
+        set_DPX_wagon_03_r_loading01,
+        set_DPX_wagon_03_r_loading02,
+        set_DPX_wagon_03_r_loading03
     ];
     loaded: [
-        set_DPX_wagon_03_r,
-        set_DPX_wagon_03_r_loaded
+        set_DPX_wagon_03_r
     ];
 }
 
 spritegroup sg_DPX_wagon_04 {
     loading: [
         set_DPX_wagon_04,
-        set_DPX_wagon_04_loaded
+        set_DPX_wagon_04_loading01,
+        set_DPX_wagon_04_loading02,
+        set_DPX_wagon_04_loading03
     ];
     loaded: [
-        set_DPX_wagon_04,
-        set_DPX_wagon_04_loaded
+        set_DPX_wagon_04
     ];
 }
 
 spritegroup sg_DPX_wagon_04_r {
     loading: [
         set_DPX_wagon_04_r,
-        set_DPX_wagon_04_r_loaded
+        set_DPX_wagon_04_r_loading01,
+        set_DPX_wagon_04_r_loading02,
+        set_DPX_wagon_04_r_loading03
     ];
     loaded: [
-        set_DPX_wagon_04_r,
-        set_DPX_wagon_04_r_loaded
+        set_DPX_wagon_04_r
     ];
 }
 
 spritegroup sg_DPX_wagon_05 {
     loading: [
         set_DPX_wagon_05,
-        set_DPX_wagon_05_loaded
+        set_DPX_wagon_05_loading01,
+        set_DPX_wagon_05_loading02,
+        set_DPX_wagon_05_loading03
     ];
     loaded: [
-        set_DPX_wagon_05,
-        set_DPX_wagon_05_loaded
+        set_DPX_wagon_05
     ];
 }
 
 spritegroup sg_DPX_wagon_05_r {
     loading: [
         set_DPX_wagon_05_r,
-        set_DPX_wagon_05_r_loaded
+        set_DPX_wagon_05_r_loading01,
+        set_DPX_wagon_05_r_loading02,
+        set_DPX_wagon_05_r_loading03
     ];
     loaded: [
-        set_DPX_wagon_05_r,
-        set_DPX_wagon_05_r_loaded
+        set_DPX_wagon_05_r
     ];
 }
 
 spritegroup sg_DPX_wagon_06 {
     loading: [
         set_DPX_wagon_06,
-        set_DPX_wagon_06_loaded
+        set_DPX_wagon_06_loading01,
+        set_DPX_wagon_06_loading02,
+        set_DPX_wagon_06_loading03
     ];
     loaded: [
-        set_DPX_wagon_06,
-        set_DPX_wagon_06_loaded
+        set_DPX_wagon_06
     ];
 }
 
 spritegroup sg_DPX_wagon_06_r {
     loading: [
         set_DPX_wagon_06_r,
-        set_DPX_wagon_06_r_loaded
+        set_DPX_wagon_06_r_loading01,
+        set_DPX_wagon_06_r_loading02,
+        set_DPX_wagon_06_r_loading03
     ];
     loaded: [
-        set_DPX_wagon_06_r,
-        set_DPX_wagon_06_r_loaded
+        set_DPX_wagon_06_r
     ];
 }
 
 spritegroup sg_DPX_wagon_07 {
     loading: [
         set_DPX_wagon_07,
-        set_DPX_wagon_07_loaded
+        set_DPX_wagon_07_loading01,
+        set_DPX_wagon_07_loading02,
+        set_DPX_wagon_07_loading03
     ];
     loaded: [
-        set_DPX_wagon_07,
-        set_DPX_wagon_07_loaded
+        set_DPX_wagon_07
     ];
 }
 
 spritegroup sg_DPX_wagon_07_r {
     loading: [
         set_DPX_wagon_07_r,
-        set_DPX_wagon_07_r_loaded
+        set_DPX_wagon_07_r_loading01,
+        set_DPX_wagon_07_r_loading02,
+        set_DPX_wagon_07_r_loading03
     ];
     loaded: [
-        set_DPX_wagon_07_r,
-        set_DPX_wagon_07_r_loaded
+        set_DPX_wagon_07_r
     ];
 }
 
 spritegroup sg_DPX_wagon_08 {
     loading: [
         set_DPX_wagon_08,
-        set_DPX_wagon_08_loaded
+        set_DPX_wagon_08_loading01,
+        set_DPX_wagon_08_loading02,
+        set_DPX_wagon_08_loading03
     ];
     loaded: [
-        set_DPX_wagon_08,
-        set_DPX_wagon_08_loaded
+        set_DPX_wagon_08
     ];
 }
 
 spritegroup sg_DPX_wagon_08_r {
     loading: [
         set_DPX_wagon_08_r,
-        set_DPX_wagon_08_r_loaded
+        set_DPX_wagon_08_r_loading01,
+        set_DPX_wagon_08_r_loading02,
+        set_DPX_wagon_08_r_loading03
     ];
     loaded: [
-        set_DPX_wagon_08_r,
-        set_DPX_wagon_08_r_loaded
+        set_DPX_wagon_08_r
     ];
 }
 
 spritegroup sg_DPX_wagon_09 {
     loading: [
         set_DPX_wagon_09,
-        set_DPX_wagon_09_loaded
+        set_DPX_wagon_09_loading01,
+        set_DPX_wagon_09_loading02,
+        set_DPX_wagon_09_loading03
     ];
     loaded: [
-        set_DPX_wagon_09,
-        set_DPX_wagon_09_loaded
+        set_DPX_wagon_09
     ];
 }
 
 spritegroup sg_DPX_wagon_09_r {
     loading: [
         set_DPX_wagon_09_r,
-        set_DPX_wagon_09_r_loaded
+        set_DPX_wagon_09_r_loading01,
+        set_DPX_wagon_09_r_loading02,
+        set_DPX_wagon_09_r_loading03
     ];
     loaded: [
-        set_DPX_wagon_09_r,
-        set_DPX_wagon_09_r_loaded
+        set_DPX_wagon_09_r
     ];
 }
 
 spritegroup sg_DPX_wagon_10 {
     loading: [
         set_DPX_wagon_10,
-        set_DPX_wagon_10_loaded
+        set_DPX_wagon_10_loading01,
+        set_DPX_wagon_10_loading02,
+        set_DPX_wagon_10_loading03
     ];
     loaded: [
-        set_DPX_wagon_10,
-        set_DPX_wagon_10_loaded
+        set_DPX_wagon_10
     ];
 }
 
 spritegroup sg_DPX_wagon_10_r {
     loading: [
         set_DPX_wagon_10_r,
-        set_DPX_wagon_10_r_loaded
+        set_DPX_wagon_10_r_loading01,
+        set_DPX_wagon_10_r_loading02,
+        set_DPX_wagon_10_r_loading03
     ];
     loaded: [
-        set_DPX_wagon_10_r,
-        set_DPX_wagon_10_r_loaded
+        set_DPX_wagon_10_r
     ];
 }
 
 spritegroup sg_DPX_wagon_11 {
     loading: [
         set_DPX_wagon_11,
-        set_DPX_wagon_11_loaded
+        set_DPX_wagon_11_loading01,
+        set_DPX_wagon_11_loading02,
+        set_DPX_wagon_11_loading03
     ];
     loaded: [
-        set_DPX_wagon_11,
-        set_DPX_wagon_11_loaded
+        set_DPX_wagon_11
     ];
 }
 
 spritegroup sg_DPX_wagon_11_r {
     loading: [
         set_DPX_wagon_11_r,
-        set_DPX_wagon_11_r_loaded
+        set_DPX_wagon_11_r_loading01,
+        set_DPX_wagon_11_r_loading02,
+        set_DPX_wagon_11_r_loading03
     ];
     loaded: [
-        set_DPX_wagon_11_r,
-        set_DPX_wagon_11_r_loaded
+        set_DPX_wagon_11_r
     ];
 }
 
 spritegroup sg_DPX_wagon_12 {
     loading: [
         set_DPX_wagon_12,
-        set_DPX_wagon_12_loaded
+        set_DPX_wagon_12_loading01,
+        set_DPX_wagon_12_loading02,
+        set_DPX_wagon_12_loading03
     ];
     loaded: [
-        set_DPX_wagon_12,
-        set_DPX_wagon_12_loaded
+        set_DPX_wagon_12
     ];
 }
 
 spritegroup sg_DPX_wagon_12_r {
     loading: [
         set_DPX_wagon_12_r,
-        set_DPX_wagon_12_r_loaded
+        set_DPX_wagon_12_r_loading01,
+        set_DPX_wagon_12_r_loading02,
+        set_DPX_wagon_12_r_loading03
     ];
     loaded: [
-        set_DPX_wagon_12_r,
-        set_DPX_wagon_12_r_loaded
+        set_DPX_wagon_12_r
     ];
 }
 
