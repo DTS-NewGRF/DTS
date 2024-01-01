@@ -1,0 +1,51 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_DPX_14car, position_in_vehid_chain % 14) {
+     1:sg_DPX_wagon_01;
+     2:sg_DPX_wagon_02;
+     3:sg_DPX_wagon_03;
+     4:sg_DPX_wagon_04;
+     5:sg_DPX_wagon_05;
+     6:sg_DPX_wagon_06;
+     7:sg_DPX_wagon_07;
+     8:sg_DPX_wagon_08;
+     9:sg_DPX_wagon_09;
+    10:sg_DPX_wagon_10;
+    11:sg_DPX_wagon_11;
+    12:sg_DPX_wagon_12;
+    13:set_DPX_engineT;
+    set_DPX_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_DPX_14car_r, position_in_vehid_chain % 14) {
+     1:sg_DPX_wagon_12_r;
+     2:sg_DPX_wagon_11_r;
+     3:sg_DPX_wagon_10_r;
+     4:sg_DPX_wagon_09_r;
+     5:sg_DPX_wagon_08_r;
+     6:sg_DPX_wagon_07_r;
+     7:sg_DPX_wagon_06_r;
+     8:sg_DPX_wagon_05_r;
+     9:sg_DPX_wagon_04_r;
+    10:sg_DPX_wagon_03_r;
+    11:sg_DPX_wagon_02_r;
+    12:sg_DPX_wagon_01_r;
+    13:set_DPX_engineH_r;
+    set_DPX_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_DPX_14car_flipped, vehicle_is_flipped){
+    0: sw_DPX_14car_r;
+    sw_DPX_14car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_DPX_14car_reversed, vehicle_is_reversed){
+    0: sw_DPX_14car;
+    sw_DPX_14car_flipped;
+}
+
+switch (FEAT_TRAINS, SELF, sw_articulated_DPX_14car, extra_callback_info1) {
+    1..13: DPX_14Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

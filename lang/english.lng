@@ -176,6 +176,7 @@ STR_HYEL_400_8Car_NAME                                 :[DTS] HYEL-400 8Car
 STR_HYEL_400_10Car_NAME                                :[DTS] HYEL-400 10Car
 STR_HYEL_400_16Car_NAME                                :[DTS] HYEL-400 16Car
 STR_DFX_10Car_NAME                                     :[DTS] DFX 10Car
+STR_DPX_14Car_NAME                                     :[DTS] DPX 14Car
 STR_NHSRCL_E5_10Car_NAME                               :[DTS] NHSRCL E5
 STR_Group_NSW_TrainLink_D_NAME                         :[DTS] NSW TrainLink D
 STR_NSW_TrainLink_D_4Car_NAME                          :[DTS] NSW TrainLink D 4Car

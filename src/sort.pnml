@@ -331,6 +331,7 @@ sort(FEAT_TRAINS, [
     CRH380AJ_8Car,                           //2044
     Shinkansen_923_7Car,                     //2096
     DFX_10Car,                               //2112
+    DPX_14Car,                               //2351
 
     //객차
     Travel_wagon,                            //2210

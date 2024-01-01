@@ -10,3 +10,4 @@
 #include "locomotive/HYEL/HYEL_300/HYEL_300.pnml"
 #include "locomotive/HYEL/HYEL_400/HYEL_400.pnml"
 #include "locomotive/DFX/DFX.pnml"
+#include "locomotive/DPX/DPX.pnml"

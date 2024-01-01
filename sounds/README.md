@@ -163,7 +163,8 @@
 - 한국철도공사 5세대 VVVF전동차
 
 ### WOOJINMITSUBISHIIGBT2start.wav
-- 한국철도공사 5세대 VVVF전동차
+- 한국철도공사 5세대 VVVF전동차 소프트웨어 개선
+- CL-150, CL-180
 
 ### WOOJINTOSHIBAIGBTstart.wav
 - 서울교통공사 4000호대 2세대 IGBT
