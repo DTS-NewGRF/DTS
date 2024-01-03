@@ -40,6 +40,10 @@ STR_EMU150_4Car_NAME                                   :[DTS] ITX-Maum 4Car
 STR_EMU150_6Car_NAME                                   :[DTS] ITX-Maum 6Car
 STR_EMU150_8Car_NAME                                   :[DTS] ITX-Maum 8Car
 STR_EMU150_DD_6Car_NAME                                :[DTS] ITX-Maum DD 6Car
+STR_Group_ITX_CheongChun_NAME                          :[DTS] ITX-CheongChun
+STR_ITX_CheongChun_6Car_NAME                           :[DTS] ITX-CheongChun 6Car
+STR_ITX_CheongChun_8Car_NAME                           :[DTS] ITX-CheongChun 8Car
+STR_ITX_CheongChun_10Car_NAME                          :[DTS] ITX-CheongChun 10Car
 STR_EMU260_6Car_NAME                                   :[DTS] EMU-260 6Car
 STR_EMU260_DD_6Car_NAME                                :[DTS] EMU-260 DD 6Car
 STR_EMU320_8Car_NAME                                   :[DTS] EMU-320 8Car
@@ -472,6 +476,8 @@ STR_REFIT_LIVERY_ITX_Maum_8                            : ITX-Maum 8Car
 STR_REFIT_LIVERY_Bicheuro                              : Bicheuro
 STR_REFIT_LIVERY_BicheuroA                             : Bicheuro A
 STR_REFIT_LIVERY_BicheuroB                             : Bicheuro B
+STR_REFIT_LIVERY_ITX_CheongChun_A                      : ITX-CheongChun A
+STR_REFIT_LIVERY_ITX_CheongChun_B                      : ITX-CheongChun B
 STR_REFIT_LIVERY_GTX                                   : GTX
 STR_REFIT_LIVERY_Bicheuro_DD                           : Bicheuro DD
 STR_REFIT_LIVERY_BicheuroA_DD                          : Bicheuro DD A
@@ -565,7 +571,8 @@ STR_REFIT_LIVERY_RDC                                   : RDC
 STR_REFIT_LIVERY_RDC_Cafe_A                            : RDC Cafe Car A
 STR_REFIT_LIVERY_RDC_Cafe_B                            : RDC Cafe Car B
 STR_REFIT_LIVERY_RDC_Cafe_C                            : RDC Cafe Car C
-STR_REFIT_LIVERY_RDC_PY                                : RDC Pohang Yeongdeok
+STR_REFIT_LIVERY_RDC_PY                                : RDC Pohang Yeongdeok A type
+STR_REFIT_LIVERY_RDC_PY2                               : RDC Pohang Yeongdeok B type
 STR_REFIT_LIVERY_Travel_8500                           : Orginal
 STR_REFIT_LIVERY_Travel_8500_A_train                   : A-Train
 STR_REFIT_LIVERY_Travel_8500_A_train_New               : A-Train New Color

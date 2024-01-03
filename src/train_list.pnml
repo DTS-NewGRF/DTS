@@ -18,6 +18,7 @@
 #include "locomotive/E8600/E8600.pnml"
 #include "locomotive/EMU/EMU150/EMU150.pnml"
 #include "locomotive/EMU/EMU150_DD/EMU150_DD.pnml"
+#include "locomotive/ITX_CheongChun/ITX_CheongChun.pnml"
 #include "locomotive/EMU/EMU260/EMU260.pnml"
 #include "locomotive/EMU/EMU260_DD/EMU260_DD.pnml"
 #include "locomotive/EMU/EMU320/EMU320.pnml"

@@ -51,6 +51,7 @@ body:
         - '[DTS/6량] HYEL-220'
         - '[DTS/8량] NKX'
         - '[DTS/8량] GTX'
+        - '[DTS] ITX-청춘'
         - '[DTS/8량] ITX-초월'
         - '[DTS/6량] TTX'
         - '[DTS/6량] EMU-260'
@@ -69,6 +70,7 @@ body:
         - '[DTS/8량] VHST-600X'
         - '[DTS/8량] Glory 600'
         - '[DTS/10량] DFX'
+        - '[DTS/14량] DPX'
     validations:
       required: true
   - type: textarea

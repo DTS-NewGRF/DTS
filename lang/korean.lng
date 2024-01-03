@@ -40,6 +40,10 @@ STR_EMU150_4Car_NAME                                   :[DTS/4량] ITX-마음
 STR_EMU150_6Car_NAME                                   :[DTS/6량] ITX-마음
 STR_EMU150_8Car_NAME                                   :[DTS/8량] ITX-마음
 STR_EMU150_DD_6Car_NAME                                :[DTS/6량] ITX-마음 DD
+STR_Group_ITX_CheongChun_NAME                          :[DTS] ITX-청춘
+STR_ITX_CheongChun_6Car_NAME                           :[DTS/6량] ITX-청춘
+STR_ITX_CheongChun_8Car_NAME                           :[DTS/8량] ITX-청춘
+STR_ITX_CheongChun_10Car_NAME                          :[DTS/10량] ITX-청춘
 STR_EMU260_6Car_NAME                                   :[DTS/6량] EMU-260
 STR_EMU260_DD_6Car_NAME                                :[DTS/6량] EMU-260 DD
 STR_EMU320_8Car_NAME                                   :[DTS/8량] EMU-320
@@ -469,6 +473,8 @@ STR_REFIT_LIVERY_ITX_Maum_8                            : ITX-마음 8량
 STR_REFIT_LIVERY_Bicheuro                              : 비츠로
 STR_REFIT_LIVERY_BicheuroA                             : 비츠로 A
 STR_REFIT_LIVERY_BicheuroB                             : 비츠로 B
+STR_REFIT_LIVERY_ITX_CheongChun_A                      : ITX-청춘
+STR_REFIT_LIVERY_ITX_CheongChun_B                      : ITX-청춘 용 랩핑
 STR_REFIT_LIVERY_GTX                                   : GTX
 STR_REFIT_LIVERY_Bicheuro_DD                           : 비츠로 DD
 STR_REFIT_LIVERY_BicheuroA_DD                          : 비츠로 DD A
@@ -562,7 +568,8 @@ STR_REFIT_LIVERY_RDC                                   : 일반실
 STR_REFIT_LIVERY_RDC_Cafe_A                            : 카페객차 편성 A
 STR_REFIT_LIVERY_RDC_Cafe_B                            : 카페객차 편성 B
 STR_REFIT_LIVERY_RDC_Cafe_C                            : 카페객차 편성 C
-STR_REFIT_LIVERY_RDC_PY                                : 포항영덕랩핑
+STR_REFIT_LIVERY_RDC_PY                                : 포항영덕랩핑 A
+STR_REFIT_LIVERY_RDC_PY2                               : 포항영덕랩핑 B
 STR_REFIT_LIVERY_Travel_8500                           : 기본도색
 STR_REFIT_LIVERY_Travel_8500_A_train                   : A-Train
 STR_REFIT_LIVERY_Travel_8500_A_train_New               : A-Train 신도색

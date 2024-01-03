@@ -5,6 +5,7 @@
 switch(FEAT_TRAINS, SELF, sw_RDC_3Car_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_RDC_Cafe_A);
     2: return string(STR_REFIT_LIVERY_RDC_PY);
+    3: return string(STR_REFIT_LIVERY_RDC_PY2);
     return string(STR_REFIT_LIVERY_RDC);
 }
 
@@ -19,18 +20,21 @@ switch(FEAT_TRAINS, SELF, sw_CDC_4car_cargo_subtype_text, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_RDC_engineH, cargo_subtype) {
     1: set_RDC_engineH;
     2: set_RDC_PY_engineH;
+    3: set_RDC_PY2_engineH;
     set_RDC_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_RDC_wagon, cargo_subtype) {
     1: set_RDC_wagon_M1Cafe;
     2: set_RDC_PY_wagon;
+    3: set_RDC_PY2_wagon;
     set_RDC_wagon_M1;
 }
 
 switch(FEAT_TRAINS, SELF, sw_RDC_engineT, cargo_subtype) {
     1: set_RDC_engineT;
     2: set_RDC_PY_engineT;
+    3: set_RDC_PY2_engineT;
     set_RDC_engineT;
 }
 
@@ -38,18 +42,21 @@ switch(FEAT_TRAINS, SELF, sw_RDC_engineT, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_RDC_engineH_r, cargo_subtype) {
     1: set_RDC_engineH_r;
     2: set_RDC_PY_engineH_r;
+    3: set_RDC_PY2_engineH_r;
     set_RDC_engineH_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_RDC_wagon_r, cargo_subtype) {
     1: set_RDC_wagon_M1Cafe_r;
     2: set_RDC_PY_wagon_r;
+    3: set_RDC_PY2_wagon_r;
     set_RDC_wagon_M1_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_RDC_engineT_r, cargo_subtype) {
     1: set_RDC_engineT_r;
     2: set_RDC_PY_engineT_r;
+    3: set_RDC_PY2_engineT_r;
     set_RDC_engineT_r;
 }
 
