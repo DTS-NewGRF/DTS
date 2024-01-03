@@ -94,8 +94,8 @@ item(FEAT_TRAINS, ITX_CheongChun_8Car, 2354){
         variant_group:                  ITX_CheongChun;
         
         //spec
-        speed:                          165km/h;
-        power:                          1000 kW;
+        speed:                          181km/h;
+        power:                          4000 kW;
         weight:                         45 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -107,7 +107,7 @@ item(FEAT_TRAINS, ITX_CheongChun_8Car, 2354){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 98;
+        cargo_capacity:                 42;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -149,8 +149,8 @@ item(FEAT_TRAINS, ITX_CheongChun_10Car, 2355){
         variant_group:                  ITX_CheongChun;
         
         //spec
-        speed:                          165km/h;
-        power:                          1000 kW;
+        speed:                          181km/h;
+        power:                          5000 kW;
         weight:                         45 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -162,7 +162,7 @@ item(FEAT_TRAINS, ITX_CheongChun_10Car, 2355){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 98;
+        cargo_capacity:                 40;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
