@@ -30,6 +30,14 @@ STR_CTX_F_10Car_NAME                                   :[DTS] CTX Freight 10Car
 STR_CTX_P_10Car_NAME                                   :[DTS] CTX Passenger 10Car
 STR_DEL7000_NAME                                       :[DTS] DEL7000
 STR_DEL7600_NAME                                       :[DTS] DEL7600
+STR_Group_DHC_PP_NAME                                  :[DTS] DHC PP Diesel Car
+STR_DHC_PP_4Car_NAME                                   :[DTS] DHC PP Diesel 4Car
+STR_DHC_PP_5Car_NAME                                   :[DTS] DHC PP Diesel 5Car
+STR_DHC_PP_6Car_NAME                                   :[DTS] DHC PP Diesel 6Car
+STR_DHC_PP_7Car_NAME                                   :[DTS] DHC PP Diesel 7Car
+STR_DHC_PP_8Car_NAME                                   :[DTS] DHC PP Diesel 8Car
+STR_DHC_PP_14Car_NAME                                  :[DTS] DHC PP Diesel 14Car
+STR_DHC_PP_16Car_NAME                                  :[DTS] DHC PP Diesel 16Car
 STR_Group_E8600_NAME                                   :[DTS] E8600
 STR_E8600_NAME                                         :[DTS] E8600 1Car
 STR_E8600_2Car_NAME                                    :[DTS] E8600 2Car
@@ -487,10 +495,29 @@ STR_REFIT_LIVERY_DEL7000_B                             : DEL7000_B
 STR_REFIT_LIVERY_DEL7000_C                             : DEL7000_C
 STR_REFIT_LIVERY_DEL7600                               : Orginal
 STR_REFIT_LIVERY_DEL7600_A_Train                       : A-Train
+STR_REFIT_LIVERY_DHC_FF                                : DHC PP First First
+STR_REFIT_LIVERY_DHC_FL_A                              : DHC PP First Last A
+STR_REFIT_LIVERY_DHC_FL_B                              : DHC PP First Last B
+STR_REFIT_LIVERY_DHC_FLS                               : DHC PP First Last Special Car
+STR_REFIT_LIVERY_DHC_OF                                : DHC PP Old First
+STR_REFIT_LIVERY_DHC_OL_A                              : DHC PP Old Last A
+STR_REFIT_LIVERY_DHC_OL_B                              : DHC PP Old Last B
+STR_REFIT_LIVERY_DHC_OL_C                              : DHC PP Old Last C
+STR_REFIT_LIVERY_DHC_OLS                               : DHC PP Old Last Special Car
+STR_REFIT_LIVERY_DHC_New_A                             : DHC PP New A
+STR_REFIT_LIVERY_DHC_New_B                             : DHC PP New B
+STR_REFIT_LIVERY_DHC_New_C                             : DHC PP New C
+STR_REFIT_LIVERY_DHC_New_Cafe_A                        : DHC PP New Cafe A
+STR_REFIT_LIVERY_DHC_New_Cafe_B                        : DHC PP New Cafe B
+STR_REFIT_LIVERY_DHC_New_Cafe_C                        : DHC PP New Cafe C
+STR_REFIT_LIVERY_DHC_ON                                : DHC PP Old+New
+STR_REFIT_LIVERY_DHC_NO                                : DHC PP New+Old
 STR_REFIT_LIVERY_Nuriro_Old                            : Nuriro Old
 STR_REFIT_LIVERY_Nuriro_New                            : Nuriro New
 STR_REFIT_LIVERY_Nuriro_A                              : Nuriro A
 STR_REFIT_LIVERY_Nuriro_B                              : Nuriro B
+STR_REFIT_LIVERY_Nuriro_O                              : Nuriro O-Train
+STR_REFIT_LIVERY_Nuriro_DS                             : Nuriro Donghae Santa
 STR_REFIT_LIVERY_Nuriro_AB                             : Nuriro Old+New
 STR_REFIT_LIVERY_Nuriro_AC                             : Nuriro Old+Raping A
 STR_REFIT_LIVERY_Nuriro_AD                             : Nuriro Old+Raping B

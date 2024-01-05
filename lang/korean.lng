@@ -30,6 +30,14 @@ STR_CTX_F_10Car_NAME                                   :[DTS/10량] CTX 화물�
 STR_CTX_P_10Car_NAME                                   :[DTS/10량] CTX 승객전용
 STR_DEL7000_NAME                                       :[DTS/단량] DEL7000
 STR_DEL7600_NAME                                       :[DTS/단량] DEL7600
+STR_Group_DHC_PP_NAME                                  :[DTS] DHC PP 디젤동차
+STR_DHC_PP_4Car_NAME                                   :[DTS/4량] DHC PP 디젤동차
+STR_DHC_PP_5Car_NAME                                   :[DTS/5량] DHC PP 디젤동차
+STR_DHC_PP_6Car_NAME                                   :[DTS/6량] DHC PP 디젤동차
+STR_DHC_PP_7Car_NAME                                   :[DTS/7량] DHC PP 디젤동차
+STR_DHC_PP_8Car_NAME                                   :[DTS/8량] DHC PP 디젤동차
+STR_DHC_PP_14Car_NAME                                  :[DTS/14량] DHC PP 디젤동차
+STR_DHC_PP_16Car_NAME                                  :[DTS/16량] DHC PP 디젤동차
 STR_Group_E8600_NAME                                   :[DTS] 8600호대 전기기관차
 STR_E8600_NAME                                         :[DTS/단량] 8600호대 전기기관차
 STR_E8600_2Car_NAME                                    :[DTS/2량] 8600호대 전기기관차
@@ -484,10 +492,29 @@ STR_REFIT_LIVERY_DEL7000_B                             : 철도청 구도색
 STR_REFIT_LIVERY_DEL7000_C                             : 철도청 초기도색
 STR_REFIT_LIVERY_DEL7600                               : 기본도색
 STR_REFIT_LIVERY_DEL7600_A_Train                       : A-Train
+STR_REFIT_LIVERY_DHC_FF                                : DHC PP 초기도색 초기형
+STR_REFIT_LIVERY_DHC_FL_A                              : DHC PP 초기도색 후기형 A
+STR_REFIT_LIVERY_DHC_FL_B                              : DHC PP 초기도색 후기형 B
+STR_REFIT_LIVERY_DHC_FLS                               : DHC PP 초기도색 후기형 특실편성
+STR_REFIT_LIVERY_DHC_OF                                : DHC PP 구도색 초기형
+STR_REFIT_LIVERY_DHC_OL_A                              : DHC PP 구도색 후기형 A
+STR_REFIT_LIVERY_DHC_OL_B                              : DHC PP 구도색 후기형 B
+STR_REFIT_LIVERY_DHC_OL_C                              : DHC PP 구도색 후기형 C
+STR_REFIT_LIVERY_DHC_OLS                               : DHC PP 구도색 후기형 특실편성
+STR_REFIT_LIVERY_DHC_New_A                             : DHC PP 신도색 A
+STR_REFIT_LIVERY_DHC_New_B                             : DHC PP 신도색 B
+STR_REFIT_LIVERY_DHC_New_C                             : DHC PP 신도색 C
+STR_REFIT_LIVERY_DHC_New_Cafe_A                        : DHC PP 신도색 카페편성 A
+STR_REFIT_LIVERY_DHC_New_Cafe_B                        : DHC PP 신도색 카페편성 B
+STR_REFIT_LIVERY_DHC_New_Cafe_C                        : DHC PP 신도색 카페편성 C
+STR_REFIT_LIVERY_DHC_ON                                : DHC PP 구도색+신도색
+STR_REFIT_LIVERY_DHC_NO                                : DHC PP 신도색+구도색
 STR_REFIT_LIVERY_Nuriro_Old                            : 누리로 구도색
 STR_REFIT_LIVERY_Nuriro_New                            : 누리로 신도색
 STR_REFIT_LIVERY_Nuriro_A                              : 누리로 한류관광
 STR_REFIT_LIVERY_Nuriro_B                              : 누리로 순천향대 강의실
+STR_REFIT_LIVERY_Nuriro_O                              : 누리로 O-Train
+STR_REFIT_LIVERY_Nuriro_DS                             : 누리로 동해산타
 STR_REFIT_LIVERY_Nuriro_AB                             : 누리로 구도색+신도색
 STR_REFIT_LIVERY_Nuriro_AC                             : 누리로 구도색+한류관광
 STR_REFIT_LIVERY_Nuriro_AD                             : 누리로 구도색+순천향대

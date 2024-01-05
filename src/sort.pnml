@@ -178,6 +178,14 @@ sort(FEAT_TRAINS, [
     GT26CW,                                  //2014
     DEL7000,                                 //2298
     DEL7600,                                 //2015
+    DHC_PP,                                  //2356
+    DHC_PP_4Car,                             //2357
+    DHC_PP_5Car,                             //2358
+    DHC_PP_6Car,                             //2359
+    DHC_PP_7Car,                             //2360
+    DHC_PP_8Car,                             //2361
+    DHC_PP_14Car,                            //2362
+    DHC_PP_16Car,                            //2363
     NEL_8100,                                //2299
     NEL_8200,                                //2177
     RDC,                                     //2348

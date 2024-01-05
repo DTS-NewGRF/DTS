@@ -127,7 +127,7 @@ item(FEAT_TRAINS, RDC_4Car, 2350){
         articulated_part:               sw_articulated_RDC_4car;
         purchase:                       sw_RDC_purchase;
         speed:                          sw_RDC_speed;
-        cargo_subtype_text:             sw_CDC_4car_cargo_subtype_text;
+        cargo_subtype_text:             sw_RDC_4car_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

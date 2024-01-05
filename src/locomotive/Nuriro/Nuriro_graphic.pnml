@@ -178,6 +178,76 @@ spriteset(set_Nuriro_B_engineT_MCMD, "src/locomotive/Nuriro/Nuriro_B.png"){
 }
 
 /*--------------------------------------------------------------------
+Nuriro_O_Train
+--------------------------------------------------------------------*/
+spriteset(set_Nuriro_O_engineH, "src/locomotive/Nuriro/Nuriro_O.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Nuriro_O_engineH_r, "src/locomotive/Nuriro/Nuriro_O.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Nuriro_O_panto_wagon, "src/locomotive/Nuriro/Nuriro_O.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Nuriro_O_panto_wagon_r, "src/locomotive/Nuriro/Nuriro_O.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Nuriro_O_wagon, "src/locomotive/Nuriro/Nuriro_O.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Nuriro_O_wagon_r, "src/locomotive/Nuriro/Nuriro_O.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_Nuriro_O_engineT_r, "src/locomotive/Nuriro/Nuriro_O.png"){
+    engine(80, 135)
+}
+
+spriteset(set_Nuriro_O_engineT, "src/locomotive/Nuriro/Nuriro_O.png"){
+    engine(80, 162)
+}
+
+/*--------------------------------------------------------------------
+Nuriro_Donghae_Santa
+--------------------------------------------------------------------*/
+spriteset(set_Nuriro_DS_engineH, "src/locomotive/Nuriro/Nuriro_DS.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Nuriro_DS_engineH_r, "src/locomotive/Nuriro/Nuriro_DS.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Nuriro_DS_panto_wagon, "src/locomotive/Nuriro/Nuriro_DS.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Nuriro_DS_panto_wagon_r, "src/locomotive/Nuriro/Nuriro_DS.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Nuriro_DS_wagon, "src/locomotive/Nuriro/Nuriro_DS.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Nuriro_DS_wagon_r, "src/locomotive/Nuriro/Nuriro_DS.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_Nuriro_DS_engineT_r, "src/locomotive/Nuriro/Nuriro_DS.png"){
+    engine(80, 135)
+}
+
+spriteset(set_Nuriro_DS_engineT, "src/locomotive/Nuriro/Nuriro_DS.png"){
+    engine(80, 162)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Nuriro_purchase, cargo_subtype) {

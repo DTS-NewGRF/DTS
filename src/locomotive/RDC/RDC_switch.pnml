@@ -9,7 +9,7 @@ switch(FEAT_TRAINS, SELF, sw_RDC_3Car_cargo_subtype_text, cargo_subtype) {
     return string(STR_REFIT_LIVERY_RDC);
 }
 
-switch(FEAT_TRAINS, SELF, sw_CDC_4car_cargo_subtype_text, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_RDC_4car_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_RDC_Cafe_A);
     2: return string(STR_REFIT_LIVERY_RDC_Cafe_B);
     3: return string(STR_REFIT_LIVERY_RDC_Cafe_C);

@@ -15,6 +15,7 @@
 #include "locomotive/CTX/CTX.pnml"
 #include "locomotive/DEL7000/DEL7000.pnml"
 #include "locomotive/DEL7600/DEL7600.pnml"
+#include "locomotive/DHC_PP/DHC_PP.pnml"
 #include "locomotive/E8600/E8600.pnml"
 #include "locomotive/EMU/EMU150/EMU150.pnml"
 #include "locomotive/EMU/EMU150_DD/EMU150_DD.pnml"

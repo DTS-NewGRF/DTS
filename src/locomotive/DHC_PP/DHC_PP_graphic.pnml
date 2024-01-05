@@ -1,0 +1,435 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_DHC_PP_purchase, "src/locomotive/DHC_PP/DHC_PP_New.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+pp 초기도색 초기형 DHC_PP_FF
+--------------------------------------------------------------------*/
+spriteset(set_DHC_PP_FF_engineH, "src/locomotive/DHC_PP/DHC_PP_FF.png"){
+    engine(80, 0)
+}
+
+spriteset(set_DHC_PP_FF_engineH_r, "src/locomotive/DHC_PP/DHC_PP_FF.png"){
+    engine(80, 27)
+}
+
+spriteset(set_DHC_PP_FF_wagon_A, "src/locomotive/DHC_PP/DHC_PP_FF.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DHC_PP_FF_wagon_A_r, "src/locomotive/DHC_PP/DHC_PP_FF.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_DHC_PP_FF_wagon_B, "src/locomotive/DHC_PP/DHC_PP_FF.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_DHC_PP_FF_wagon_B_r, "src/locomotive/DHC_PP/DHC_PP_FF.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_DHC_PP_FF_wagon_F, "src/locomotive/DHC_PP/DHC_PP_FF.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_DHC_PP_FF_wagon_F_r, "src/locomotive/DHC_PP/DHC_PP_FF.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_DHC_PP_FF_wagon_TR, "src/locomotive/DHC_PP/DHC_PP_FF.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_DHC_PP_FF_wagon_TR_r, "src/locomotive/DHC_PP/DHC_PP_FF.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_DHC_PP_FF_engineT_r, "src/locomotive/DHC_PP/DHC_PP_FF.png"){
+    engine(80, 162)
+}
+
+spriteset(set_DHC_PP_FF_engineT, "src/locomotive/DHC_PP/DHC_PP_FF.png"){
+    engine(80, 189)
+}
+
+/*--------------------------------------------------------------------
+pp 초기도색 후기형 DHC_PP_FL
+--------------------------------------------------------------------*/
+spriteset(set_DHC_PP_FL_engineH, "src/locomotive/DHC_PP/DHC_PP_FL.png"){
+    engine(80, 0)
+}
+
+spriteset(set_DHC_PP_FL_engineH_r, "src/locomotive/DHC_PP/DHC_PP_FL.png"){
+    engine(80, 27)
+}
+
+spriteset(set_DHC_PP_FL_wagon_A, "src/locomotive/DHC_PP/DHC_PP_FL.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DHC_PP_FL_wagon_A_r, "src/locomotive/DHC_PP/DHC_PP_FL.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_DHC_PP_FL_wagon_B, "src/locomotive/DHC_PP/DHC_PP_FL.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_DHC_PP_FL_wagon_B_r, "src/locomotive/DHC_PP/DHC_PP_FL.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_DHC_PP_FL_wagon_C, "src/locomotive/DHC_PP/DHC_PP_FL.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_DHC_PP_FL_wagon_C_r, "src/locomotive/DHC_PP/DHC_PP_FL.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_DHC_PP_FL_wagon_F, "src/locomotive/DHC_PP/DHC_PP_FL.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_DHC_PP_FL_wagon_F_r, "src/locomotive/DHC_PP/DHC_PP_FL.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_DHC_PP_FL_wagon_TR, "src/locomotive/DHC_PP/DHC_PP_FL.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_DHC_PP_FL_wagon_TR_r, "src/locomotive/DHC_PP/DHC_PP_FL.png") {
+    wagon_1F_F_r(80, 162)
+}
+
+spriteset(set_DHC_PP_FL_wagon_S, "src/locomotive/DHC_PP/DHC_PP_FL.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_DHC_PP_FL_wagon_S_r, "src/locomotive/DHC_PP/DHC_PP_FL.png") {
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_DHC_PP_FL_engineT_r, "src/locomotive/DHC_PP/DHC_PP_FL.png"){
+    engine(80, 216)
+}
+
+spriteset(set_DHC_PP_FL_engineT, "src/locomotive/DHC_PP/DHC_PP_FL.png"){
+    engine(80, 243)
+}
+
+/*--------------------------------------------------------------------
+pp 구도색 초기형 DHC_PP_OF
+--------------------------------------------------------------------*/
+spriteset(set_DHC_PP_OF_engineH, "src/locomotive/DHC_PP/DHC_PP_OF.png"){
+    engine(80, 0)
+}
+
+spriteset(set_DHC_PP_OF_engineH_r, "src/locomotive/DHC_PP/DHC_PP_OF.png"){
+    engine(80, 27)
+}
+
+spriteset(set_DHC_PP_OF_wagon_A, "src/locomotive/DHC_PP/DHC_PP_OF.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DHC_PP_OF_wagon_A_r, "src/locomotive/DHC_PP/DHC_PP_OF.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_DHC_PP_OF_wagon_B, "src/locomotive/DHC_PP/DHC_PP_OF.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_DHC_PP_OF_wagon_B_r, "src/locomotive/DHC_PP/DHC_PP_OF.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_DHC_PP_OF_wagon_F, "src/locomotive/DHC_PP/DHC_PP_OF.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_DHC_PP_OF_wagon_F_r, "src/locomotive/DHC_PP/DHC_PP_OF.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_DHC_PP_OF_wagon_TR, "src/locomotive/DHC_PP/DHC_PP_OF.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_DHC_PP_OF_wagon_TR_r, "src/locomotive/DHC_PP/DHC_PP_OF.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_DHC_PP_OF_engineT_r, "src/locomotive/DHC_PP/DHC_PP_OF.png"){
+    engine(80, 162)
+}
+
+spriteset(set_DHC_PP_OF_engineT, "src/locomotive/DHC_PP/DHC_PP_OF.png"){
+    engine(80, 189)
+}
+
+spriteset(set_DHC_PP_OF_engineT_PMCD, "src/locomotive/DHC_PP/DHC_PP_OF.png"){
+    engine(80, 216)
+}
+
+/*--------------------------------------------------------------------
+pp 구도색 초기형 DHC_PP_OL
+--------------------------------------------------------------------*/
+spriteset(set_DHC_PP_OL_engineH, "src/locomotive/DHC_PP/DHC_PP_OL.png"){
+    engine(80, 0)
+}
+
+spriteset(set_DHC_PP_OL_engineH_r, "src/locomotive/DHC_PP/DHC_PP_OL.png"){
+    engine(80, 27)
+}
+
+spriteset(set_DHC_PP_OL_wagon_A, "src/locomotive/DHC_PP/DHC_PP_OL.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DHC_PP_OL_wagon_A_r, "src/locomotive/DHC_PP/DHC_PP_OL.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_DHC_PP_OL_wagon_B, "src/locomotive/DHC_PP/DHC_PP_OL.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_DHC_PP_OL_wagon_B_r, "src/locomotive/DHC_PP/DHC_PP_OL.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_DHC_PP_OL_wagon_C, "src/locomotive/DHC_PP/DHC_PP_OL.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_DHC_PP_OL_wagon_C_r, "src/locomotive/DHC_PP/DHC_PP_OL.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_DHC_PP_OL_wagon_F, "src/locomotive/DHC_PP/DHC_PP_OL.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_DHC_PP_OL_wagon_F_r, "src/locomotive/DHC_PP/DHC_PP_OL.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_DHC_PP_OL_wagon_TR, "src/locomotive/DHC_PP/DHC_PP_OL.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_DHC_PP_OL_wagon_TR_r, "src/locomotive/DHC_PP/DHC_PP_OL.png") {
+    wagon_1F_F_r(80, 162)
+}
+
+spriteset(set_DHC_PP_OL_wagon_S, "src/locomotive/DHC_PP/DHC_PP_OL.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_DHC_PP_OL_wagon_S_r, "src/locomotive/DHC_PP/DHC_PP_OL.png") {
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_DHC_PP_OL_engineT_r, "src/locomotive/DHC_PP/DHC_PP_OL.png"){
+    engine(80, 216)
+}
+
+spriteset(set_DHC_PP_OL_engineT, "src/locomotive/DHC_PP/DHC_PP_OL.png"){
+    engine(80, 243)
+}
+
+spriteset(set_DHC_PP_OL_engineT_PMCD, "src/locomotive/DHC_PP/DHC_PP_OL.png"){
+    engine(80, 270)
+}
+
+/*--------------------------------------------------------------------
+pp 구도색 초기형 DHC_PP_New
+--------------------------------------------------------------------*/
+spriteset(set_DHC_PP_New_engineH, "src/locomotive/DHC_PP/DHC_PP_New.png"){
+    engine(80, 0)
+}
+
+spriteset(set_DHC_PP_New_engineH_r, "src/locomotive/DHC_PP/DHC_PP_New.png"){
+    engine(80, 27)
+}
+
+spriteset(set_DHC_PP_New_wagon_A, "src/locomotive/DHC_PP/DHC_PP_New.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DHC_PP_New_wagon_A_r, "src/locomotive/DHC_PP/DHC_PP_New.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_DHC_PP_New_wagon_B, "src/locomotive/DHC_PP/DHC_PP_New.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_DHC_PP_New_wagon_B_r, "src/locomotive/DHC_PP/DHC_PP_New.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_DHC_PP_New_wagon_C, "src/locomotive/DHC_PP/DHC_PP_New.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_DHC_PP_New_wagon_C_r, "src/locomotive/DHC_PP/DHC_PP_New.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_DHC_PP_New_wagon_F, "src/locomotive/DHC_PP/DHC_PP_New.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_DHC_PP_New_wagon_F_r, "src/locomotive/DHC_PP/DHC_PP_New.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_DHC_PP_New_wagon_S, "src/locomotive/DHC_PP/DHC_PP_New.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_DHC_PP_New_wagon_S_r, "src/locomotive/DHC_PP/DHC_PP_New.png") {
+    wagon_1F_F_r(80, 162)
+}
+
+spriteset(set_DHC_PP_New_wagon_SCafe, "src/locomotive/DHC_PP/DHC_PP_New.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_DHC_PP_New_wagon_SCafe_r, "src/locomotive/DHC_PP/DHC_PP_New.png") {
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_DHC_PP_New_engineT_r, "src/locomotive/DHC_PP/DHC_PP_New.png"){
+    engine(80, 216)
+}
+
+spriteset(set_DHC_PP_New_engineT, "src/locomotive/DHC_PP/DHC_PP_New.png"){
+    engine(80, 243)
+}
+
+spriteset(set_DHC_PP_New_engineT_PMCD, "src/locomotive/DHC_PP/DHC_PP_New.png"){
+    engine(80, 270)
+}
+
+/*--------------------------------------------------------------------
+pp 구도색+신도색 DHC_PP_ON
+--------------------------------------------------------------------*/
+spriteset(set_DHC_PP_ON_engineH_N, "src/locomotive/DHC_PP/DHC_PP_ON.png"){
+    engine(80, 0)
+}
+
+spriteset(set_DHC_PP_ON_engineH_N_r, "src/locomotive/DHC_PP/DHC_PP_ON.png"){
+    engine(80, 27)
+}
+
+spriteset(set_DHC_PP_ON_wagon_NB, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_DHC_PP_ON_wagon_NB_r, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_DHC_PP_ON_wagon_NC, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_DHC_PP_ON_wagon_NC_r, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_DHC_PP_ON_wagon_NF, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_DHC_PP_ON_wagon_NF_r, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_DHC_PP_ON_wagon_NS, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_DHC_PP_ON_wagon_NS_r, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_DHC_PP_ON_engineT_N_r, "src/locomotive/DHC_PP/DHC_PP_ON.png"){
+    engine(80, 162)
+}
+
+spriteset(set_DHC_PP_ON_engineT_N, "src/locomotive/DHC_PP/DHC_PP_OF.png"){
+    engine(80, 189)
+}
+
+spriteset(set_DHC_PP_ON_engineT_NPMCD, "src/locomotive/DHC_PP/DHC_PP_OF.png"){
+    engine(80, 216)
+}
+
+spriteset(set_DHC_PP_ON_engineH_O, "src/locomotive/DHC_PP/DHC_PP_ON.png"){
+    engine(80, 243)
+}
+
+spriteset(set_DHC_PP_ON_engineH_O_r, "src/locomotive/DHC_PP/DHC_PP_ON.png"){
+    engine(80, 270)
+}
+
+spriteset(set_DHC_PP_ON_wagon_OB, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F(80, 297)
+}
+
+spriteset(set_DHC_PP_ON_wagon_OB_r, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F_r(80, 297)
+}
+
+spriteset(set_DHC_PP_ON_wagon_OC, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F(80, 324)
+}
+
+spriteset(set_DHC_PP_ON_wagon_OC_r, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F_r(80, 324)
+}
+
+spriteset(set_DHC_PP_ON_wagon_OF, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F(80, 351)
+}
+
+spriteset(set_DHC_PP_ON_wagon_OF_r, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F_r(80, 351)
+}
+
+spriteset(set_DHC_PP_ON_wagon_OS, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F(80, 378)
+}
+
+spriteset(set_DHC_PP_ON_wagon_OS_r, "src/locomotive/DHC_PP/DHC_PP_ON.png") {
+    wagon_1F_F_r(80, 378)
+}
+
+spriteset(set_DHC_PP_ON_engineT_O_r, "src/locomotive/DHC_PP/DHC_PP_ON.png"){
+    engine(80, 405)
+}
+
+spriteset(set_DHC_PP_ON_engineT_O, "src/locomotive/DHC_PP/DHC_PP_ON.png"){
+    engine(80, 432)
+}
+
+spriteset(set_DHC_PP_ON_engineT_OPMCD, "src/locomotive/DHC_PP/DHC_PP_ON.png"){
+    engine(80, 459)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_DHC_PP_purchase, cargo_subtype) {
+    set_DHC_PP_purchase;
+}

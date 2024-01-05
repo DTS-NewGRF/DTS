@@ -1,0 +1,421 @@
+/*--------------------------------------------------------------------
+DHC_PP
+--------------------------------------------------------------------*/
+// Graphics
+#include "DHC_PP_graphic.pnml"
+
+// Switch
+#include "DHC_PP_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DHC_PP, 2356){
+    property {
+        name:                           string(STR_Group_DHC_PP_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2955 kW;
+        }
+
+    graphics {
+        purchase:                       sw_DHC_PP_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 4량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DHC_PP_4Car, 2357){
+    property {
+        name:                           string(STR_DHC_PP_4Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1994, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DHC_PP;
+        
+        //spec
+        speed:                          151km/h;
+        power:                          2955 kW;
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 42;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DHC_PP_4Car_reversed;
+        articulated_part:               sw_articulated_DHC_PP_4car;
+        purchase:                       sw_DHC_PP_purchase;
+        speed:                          sw_DHC_PP_speed;
+        cargo_subtype_text:             sw_DHC_PP_4Car_cargo_subtype_text;
+        cargo_capacity:                 sw_DHC_PP_4Car_capacity_in_custom;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_DHC_PP_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 5량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DHC_PP_5Car, 2358){
+    property {
+        name:                           string(STR_DHC_PP_5Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1987, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DHC_PP;
+        
+        //spec
+        speed:                          151km/h;
+        power:                          2276 kW;
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 44;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DHC_PP_5Car_reversed;
+        articulated_part:               sw_articulated_DHC_PP_5car;
+        purchase:                       sw_DHC_PP_purchase;
+        speed:                          sw_DHC_PP_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_DHC_PP_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 6량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DHC_PP_6Car, 2359){
+    property {
+        name:                           string(STR_DHC_PP_6Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1988, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DHC_PP;
+        
+        //spec
+        speed:                          151km/h;
+        power:                          2955 kW;
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 42;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DHC_PP_6Car_reversed;
+        articulated_part:               sw_articulated_DHC_PP_6car;
+        purchase:                       sw_DHC_PP_purchase;
+        speed:                          sw_DHC_PP_speed;
+        power:                          sw_DHC_PP_6Car_power_in_custom;
+        cargo_subtype_text:             sw_DHC_PP_6Car_cargo_subtype_text;
+        cargo_capacity:                 sw_DHC_PP_6Car_capacity_in_custom;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_DHC_PP_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 7량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DHC_PP_7Car, 2360){
+    property {
+        name:                           string(STR_DHC_PP_7Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1988, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DHC_PP;
+        
+        //spec
+        speed:                          151km/h;
+        power:                          2955 kW;
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DHC_PP_7Car_reversed;
+        articulated_part:               sw_articulated_DHC_PP_7car;
+        purchase:                       sw_DHC_PP_purchase;
+        speed:                          sw_DHC_PP_speed;
+        cargo_subtype_text:             sw_DHC_PP_7Car_cargo_subtype_text;
+        cargo_capacity:                 sw_DHC_PP_7Car_capacity_in_custom;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_DHC_PP_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 8량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DHC_PP_8Car, 2361){
+    property {
+        name:                           string(STR_DHC_PP_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1988, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DHC_PP;
+        
+        //spec
+        speed:                          151km/h;
+        power:                          2955 kW;
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DHC_PP_8Car_reversed;
+        articulated_part:               sw_articulated_DHC_PP_8car;
+        purchase:                       sw_DHC_PP_purchase;
+        speed:                          sw_DHC_PP_speed;
+        cargo_subtype_text:             sw_DHC_PP_8Car_cargo_subtype_text;
+        cargo_capacity:                 sw_DHC_PP_8Car_capacity_in_custom;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_DHC_PP_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 14량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DHC_PP_14Car, 2362){
+    property {
+        name:                           string(STR_DHC_PP_14Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1994, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DHC_PP;
+        
+        //spec
+        speed:                          151km/h;
+        power:                          2955 kW;
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 48;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DHC_PP_14Car_reversed;
+        articulated_part:               sw_articulated_DHC_PP_14car;
+        purchase:                       sw_DHC_PP_purchase;
+        speed:                          sw_DHC_PP_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_DHC_PP_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 16량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, DHC_PP_16Car, 2363){
+    property {
+        name:                           string(STR_DHC_PP_16Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2003, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DHC_PP;
+        
+        //spec
+        speed:                          151km/h;
+        power:                          2955 kW;
+        weight:                         50 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 48;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_DHC_PP_16Car_reversed;
+        articulated_part:               sw_articulated_DHC_PP_16car;
+        purchase:                       sw_DHC_PP_purchase;
+        speed:                          sw_DHC_PP_speed;
+        cargo_subtype_text:             sw_DHC_PP_16Car_cargo_subtype_text;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_DHC_PP_sound;
+        }
+        }

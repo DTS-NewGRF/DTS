@@ -97,6 +97,9 @@
 ### MITSUBISHIigbtstart.wav
 - 서울교통공사 6000호대
 
+### MTU396TCstart.wav
+- DHC PP 새마을호
+
 ### RotemIGCTstart.wav
 - HSR-350X
 
