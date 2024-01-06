@@ -367,11 +367,11 @@ spriteset(set_DHC_PP_ON_engineT_N_r, "src/locomotive/DHC_PP/DHC_PP_ON.png"){
     engine(80, 162)
 }
 
-spriteset(set_DHC_PP_ON_engineT_N, "src/locomotive/DHC_PP/DHC_PP_OF.png"){
+spriteset(set_DHC_PP_ON_engineT_N, "src/locomotive/DHC_PP/DHC_PP_ON.png"){
     engine(80, 189)
 }
 
-spriteset(set_DHC_PP_ON_engineT_NPMCD, "src/locomotive/DHC_PP/DHC_PP_OF.png"){
+spriteset(set_DHC_PP_ON_engineT_NPMCD, "src/locomotive/DHC_PP/DHC_PP_ON.png"){
     engine(80, 216)
 }
 
