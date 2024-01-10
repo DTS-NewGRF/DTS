@@ -1,7 +1,11 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_AREX_1000_1st_purchase, "src/locomotive/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
+spriteset(set_AREX_1000_New_1st_purchase, "src/locomotive/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_AREX_1000_Old_1st_purchase, "src/locomotive/AREX/AREX_1000_1st/AREX_1000_1st_Old.png"){
     tmpl_purchase(0, 0)
 }
 
@@ -62,6 +66,15 @@ spriteset(set_AREX_1000_1st_New_engineT, "src/locomotive/AREX/AREX_1000_1st/AREX
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_purchase, cargo_subtype) {
-    set_AREX_1000_1st_purchase;
+switch(FEAT_TRAINS, SELF, sw_AREX_1000_New_1st_purchase, cargo_subtype) {
+    set_AREX_1000_New_1st_purchase;
 }
+
+switch(FEAT_TRAINS, SELF, sw_AREX_1000_Old_1st_purchase, cargo_subtype) {
+    set_AREX_1000_Old_1st_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_purchase, current_year) {
+    0..2008: sw_AREX_1000_Old_1st_purchase;
+    sw_AREX_1000_New_1st_purchase;
+    }
