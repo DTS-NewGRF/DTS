@@ -220,6 +220,17 @@ spriteset(set_Korail_1st_VVVF_3000_New_engineT, "src/metro/VVVF/Korail_1st/Korai
 }
 
 /*--------------------------------------------------------------------
+[2024.2] 삭제예정.
+--------------------------------------------------------------------*/
+spriteset(set_Korail_1st_VVVF_Delete_A, "Deleted_Train_Image.png"){
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Korail_1st_VVVF_Delete_B, "Deleted_Train_Image.png"){
+    wagon_1F_F(80, 27)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Group_Korail_1st_VVVF_purchase, 1) {

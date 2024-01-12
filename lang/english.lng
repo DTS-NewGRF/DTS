@@ -42,6 +42,9 @@ STR_E8600_3Car_NAME                                    :[DTS/3Car] E8600
 STR_E8600_4Car_NAME                                    :[DTS/4Car] E8600
 STR_EMU320_8Car_NAME                                   :[DTS/8Car] EMU-320
 STR_EMU320_DD_8Car_NAME                                :[DTS/8Car] EMU-320 DD
+STR_FEL_8500_NAME                                      :[DTS] FEL 8500
+STR_Glory_430_10Car_NAME                               :[DTS/10Car] Glory 430
+STR_Glory_600_8Car_NAME                                :[DTS/8Car] Glory 600
 STR_GT26CW_NAME                                        :[DTS] GT26CW
 STR_GTX_8Car_NAME                                      :[DTS/8Car] GTX
 STR_Group_H2_WJ_NAME                                   :[DTS] H2 by WOOJIN
@@ -50,6 +53,7 @@ STR_H2_WJ_4Car_NAME                                    :[DTS/4Car] H2 by WOOJIN
 STR_Group_HEMU_430X_NAME                               :[DTS] HEMU-430X
 STR_HEMU_430X_6Car_NAME                                :[DTS/6Car] HEMU-430X
 STR_HEMU_430X_8Car_NAME                                :[DTS/8Car] HEMU-430X
+STR_HMX_8Car_NAME                                      :[DTS/8Car] HMX
 STR_Group_HSR_350X_NAME                                :[DTS] HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[DTS/7Car] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[DTS/14Car] HSR-350X
@@ -82,6 +86,7 @@ STR_MEL_150_12Car_NAME                                 :[DTS/12Car] MEL-150
 STR_MSB_Speeder_NAME                                   :[DTS] MSB Speeder
 STR_NEL_8100_NAME                                      :[DTS] NEL 8100
 STR_NEL_8200_NAME                                      :[DTS] NEL 8200
+STR_NKX_8Car_NAME                                      :[DTS/8Car] NKX
 STR_Group_Nuriro_NAME                                  :[DTS] Korail 200000 series EMU (NURIRO)
 STR_Nuriro_4Car_NAME                                   :[DTS/4Car] Korail 200000 series EMU (NURIRO)
 STR_Nuriro_8Car_NAME                                   :[DTS/8Car] Korail 200000 series EMU (NURIRO)
@@ -89,7 +94,6 @@ STR_Nuriro_DD_4Car_NAME                                :[DTS] Nuriro DD 4Car
 STR_Group_RDC_NAME                                     :[DTS] RDC Diesel
 STR_RDC_3Car_NAME                                      :[DTS/3Car] RDC Diesel
 STR_RDC_4Car_NAME                                      :[DTS/4Car] RDC Diesel
-STR_Travel_8500_NAME                                   :[DTS] Travel 8500
 STR_TTX_6Car_NAME                                      :[DTS/6Car] TTX
 STR_VHST_600X_8Car_NAME                                :[DTS/8Car] VHST-600X
 
@@ -113,237 +117,241 @@ STR_CR400BF_Z_17Car_NAME                               :[DTS/17Car] CR400BF-Z
 STR_CRH1_8Car_NAME                                     :[DTS/8Car] CRH1A
 STR_CRH1A_A_8Car_NAME                                  :[DTS/8Car] CRH1A-A
 STR_CRH1E_16Car_NAME                                   :[DTS/16Car] CRH1E
-
-STR_CRH2_8Car_NAME                                     :[DTS] CRH2A 8Car
-STR_CRH2_16Car_NAME                                    :[DTS] CRH2B 16Car
-STR_CRH2C_8Car_NAME                                    :[DTS] CRH2C 8Car
-STR_CRH3_8Car_NAME                                     :[DTS] CRH3C 8Car
-STR_CRH380A_8Car_NAME                                  :[DTS] CRH380A 8Car
-STR_CRH380A_16Car_NAME                                 :[DTS] CRH380AL 16Car
-
-STR_CRH380B_8Car_NAME                                  :[DTS] CRH380B 8Car
-STR_CRH380B_16Car_NAME                                 :[DTS] CRH380B 16Car
-STR_CRH380C_16Car_NAME                                 :[DTS] CRH380CL 16Car
+STR_CRH2_8Car_NAME                                     :[DTS/8Car] CRH2A
+STR_CRH2_16Car_NAME                                    :[DTS/16Car] CRH2B
+STR_CRH2C_8Car_NAME                                    :[DTS/8Car] CRH2C
+STR_CRH3_8Car_NAME                                     :[DTS/8Car] CRH3C
+STR_CRH380A_8Car_NAME                                  :[DTS/8Car] CRH380A
+STR_CRH380A_16Car_NAME                                 :[DTS/16Car] CRH380AL
+STR_CRH380B_8Car_NAME                                  :[DTS/8Car] CRH380B
+STR_CRH380B_16Car_NAME                                 :[DTS/16Car] CRH380B
+STR_CRH380C_16Car_NAME                                 :[DTS/16Car] CRH380CL
 STR_Group_CRH380D_NAME                                 :[DTS] CRH380D
-STR_CRH380D_8Car_NAME                                  :[DTS] CRH380D 8Car
-STR_CRH380D_16Car_NAME                                 :[DTS] CRH380D 16Car
-
+STR_CRH380D_8Car_NAME                                  :[DTS/8Car] CRH380D
+STR_CRH380D_16Car_NAME                                 :[DTS/16Car] CRH380D
 STR_HXD3C_NAME                                         :[DTS] HXD3C
 STR_NJ2_NAME                                           :[DTS] NJ2
-STR_AGV_11Car_NAME                                     :[DTS] AGV (.italo) 11Car
+
+# European / locomotive's name
+STR_AGV_11Car_NAME                                     :[DTS/11Car] AGV (.italo)
 STR_BB15000_NAME                                       :[DTS] SNCF BB15000
-STR_Eurostar_E300_20Car_NAME                           :[DTS] Eurostar E300 20Car
-STR_Eurostar_E320_16Car_NAME                           :[DTS] Eurostar E320 16Car
-STR_ICE1_14Car_NAME                                    :[DTS] ICE1 14Car
-STR_ICE2_8Car_NAME                                     :[DTS] ICE2 8Car
-STR_ICE3_8Car_NAME                                     :[DTS] ICE3 8Car
-STR_ICE3V_8Car_NAME                                    :[DTS] ICE3 (Velaro D) 8Car
+STR_Eurostar_E300_20Car_NAME                           :[DTS/20Car] Eurostar E300
+STR_Eurostar_E320_16Car_NAME                           :[DTS/16Car] Eurostar E320
+STR_ICE1_14Car_NAME                                    :[DTS/14Car] ICE1
+STR_ICE2_8Car_NAME                                     :[DTS/8Car] ICE2
+STR_ICE3_8Car_NAME                                     :[DTS/8Car] ICE3
+STR_ICE3V_8Car_NAME                                    :[DTS/8Car] ICE3 (Velaro D)
 STR_Group_ICE4_NAME                                    :[DTS] ICE4
-STR_ICE4_7Car_NAME                                     :[DTS] ICE4 7Car
-STR_ICE4_12Car_NAME                                    :[DTS] ICE4 12Car
-STR_Renfe_S_100_10Car_NAME                             :[DTS] Renfe AVE S-100 10Car
-STR_Renfe_S_102_14Car_NAME                             :[DTS] Renfe AVE S-102 14Car
-STR_Renfe_S_103_8Car_NAME                              :[DTS] Renfe AVE S-103 8Car
-STR_Renfe_S_130_13Car_NAME                             :[DTS] Renfe S-130 13Car
-STR_TGV_Sud_Est_10Car_NAME                             :[DTS] TGV Sud-Est 10Car
-STR_TGV_A_12Car_NAME                                   :[DTS] TGV Atlantique 12Car
-STR_TGV_R_10Car_NAME                                   :[DTS] TGV Reseau 10Car
-STR_TGV_Reseau_Duplex_10Car_NAME                       :[DTS] TGV Reseau Duplex 10Car
-STR_TGV_La_Poste_10Car_NAME                            :[DTS] TGV La Poste 10Car
-STR_TGV_Duplex_10Car_NAME                              :[DTS] TGV Duplex 10Car
-STR_TGV_Pos_10Car_NAME                                 :[DTS] TGV Pos 10Car
-STR_TGV_M_10Car_NAME                                   :[DTS] TGV M 10Car
-STR_Kse2_8Car_NAME                                     :[DTS] Keisei AE series 8Car
+STR_ICE4_7Car_NAME                                     :[DTS/7Car] ICE4
+STR_ICE4_12Car_NAME                                    :[DTS/12Car] ICE4
+STR_Renfe_S_100_10Car_NAME                             :[DTS/10Car] Renfe AVE S-100
+STR_Renfe_S_102_14Car_NAME                             :[DTS/14Car] Renfe AVE S-102
+STR_Renfe_S_103_8Car_NAME                              :[DTS/8Car] Renfe AVE S-103
+STR_Renfe_S_130_13Car_NAME                             :[DTS/13Car] Renfe S-130
+STR_TGV_A_12Car_NAME                                   :[DTS/12Car] TGV Atlantique
+STR_TGV_Duplex_10Car_NAME                              :[DTS/10Car] TGV Duplex
+STR_TGV_La_Poste_10Car_NAME                            :[DTS/10Car] TGV La Poste
+STR_TGV_M_10Car_NAME                                   :[DTS/10Car] TGV M
+STR_TGV_R_10Car_NAME                                   :[DTS/10Car] TGV Reseau
+STR_TGV_Pos_10Car_NAME                                 :[DTS/10Car] TGV Pos
+STR_TGV_Reseau_Duplex_10Car_NAME                       :[DTS/10Car] TGV Reseau Duplex
+STR_TGV_Sud_Est_10Car_NAME                             :[DTS/10Car] TGV Sud-Est
+
+# Japanese / locomotive's name
+STR_Kse2_8Car_NAME                                     :[DTS/8Car] Keisei AE series
 STR_Group_Shinkansen_0_NAME                            :[DTS] Shinkansen 0
-STR_Shinkansen_0_12Car_NAME                            :[DTS] Shinkansen 0 12Car
-STR_Shinkansen_0_16Car_NAME                            :[DTS] Shinkansen 0 16Car
+STR_Shinkansen_0_12Car_NAME                            :[DTS/12Car] Shinkansen 0
+STR_Shinkansen_0_16Car_NAME                            :[DTS/16Car] Shinkansen 0
 STR_Group_Shinkansen_500_NAME                          :[DTS] Shinkansen 500
-STR_Shinkansen_500_8Car_NAME                           :[DTS] Shinkansen 500 8Car
-STR_Shinkansen_500_16Car_NAME                          :[DTS] Shinkansen 500 16Car
+STR_Shinkansen_500_8Car_NAME                           :[DTS/8Car] Shinkansen 500
+STR_Shinkansen_500_16Car_NAME                          :[DTS/16Car] Shinkansen 500
 STR_Group_Shinkansen_700_NAME                          :[DTS] Shinkansen 700
-STR_Shinkansen_700_8Car_NAME                           :[DTS] Shinkansen 700 8Car
-STR_Shinkansen_700_16Car_NAME                          :[DTS] Shinkansen 700 16Car
-STR_Shinkansen_800_6Car_NAME                           :[DTS] Shinkansen 800 6Car
-STR_Shinkansen_923_7Car_NAME                           :[DTS] Shinkansen 923 7Car
-STR_Shinkansen_E2_10Car_NAME                           :[DTS] Shinkansen E2 10Car
+STR_Shinkansen_700_8Car_NAME                           :[DTS/8Car] Shinkansen 700
+STR_Shinkansen_700_16Car_NAME                          :[DTS/16Car] Shinkansen 700
+STR_Shinkansen_800_6Car_NAME                           :[DTS/6Car] Shinkansen 800
+STR_Shinkansen_923_7Car_NAME                           :[DTS/7Car] Shinkansen 923
+STR_Shinkansen_E2_10Car_NAME                           :[DTS/10Car] Shinkansen E2
 STR_Group_Shinkansen_E5_H5_NAME                        :[DTS] Shinkansen E5·H5
-STR_Shinkansen_E5_H5_10Car_NAME                        :[DTS] Shinkansen E5·H5 10Car
-STR_Shinkansen_E5_H5_E6_17Car_NAME                     :[DTS] Shinkansen E5·H5+E6 17Car
+STR_Shinkansen_E5_H5_10Car_NAME                        :[DTS/10Car] Shinkansen E5·H5
+STR_Shinkansen_E5_H5_E6_17Car_NAME                     :[DTS/17Car] Shinkansen E5·H5+E6
 STR_Group_Shinkansen_E6_NAME                           :[DTS] Shinkansen E6
-STR_Shinkansen_E6_7Car_NAME                            :[DTS] Shinkansen E6 7Car
-STR_Shinkansen_E6_E5_H5_17Car_NAME                     :[DTS] Shinkansen E6+E5·H5 17Car
-STR_Shinkansen_E7_W7_12Car_NAME                        :[DTS] Shinkansen E7·W7 12Car
-STR_Shinkansen_E8_7Car_NAME                            :[DTS] Shinkansen E8 7Car
+STR_Shinkansen_E6_7Car_NAME                            :[DTS/7Car] Shinkansen E6
+STR_Shinkansen_E6_E5_H5_17Car_NAME                     :[DTS/17Car] Shinkansen E6+E5·H5
+STR_Shinkansen_E7_W7_12Car_NAME                        :[DTS/12Car] Shinkansen E7·W7
+STR_Shinkansen_E8_7Car_NAME                            :[DTS/7Car] Shinkansen E8
 STR_Group_Shinkansen_N700_NAME                         :[DTS] Shinkansen N700
-STR_Shinkansen_N700_8Car_NAME                          :[DTS] Shinkansen N700 8Car Sanyo-Kyushu Shinkansen
-STR_Shinkansen_N700_16Car_NAME                         :[DTS] Shinkansen N700 16Car
+STR_Shinkansen_N700_8Car_NAME                          :[DTS/8Car] Shinkansen N700 Sanyo-Kyushu Shinkansen
+STR_Shinkansen_N700_16Car_NAME                         :[DTS/16Car] Shinkansen N700
 STR_Group_Shinkansen_N700S_NAME                        :[DTS] Shinkansen N700S
-STR_Shinkansen_N700S_6Car_NAME                         :[DTS] Shinkansen N700S 6Car Nishikyushu Shinkansen
-STR_Shinkansen_N700S_16Car_NAME                        :[DTS] Shinkansen N700S 16Car
+STR_Shinkansen_N700S_6Car_NAME                         :[DTS/6Car] Shinkansen N700S Nishikyushu Shinkansen
+STR_Shinkansen_N700S_16Car_NAME                        :[DTS/16Car] Shinkansen N700S
+
+# Virtual / locomotive's name
+STR_DFX_10Car_NAME                                     :[DTS/10Car] DFX
+STR_DPX_14Car_NAME                                     :[DTS/14Car] DPX
 STR_HYEL_15_NAME                                       :[DTS] HYEL-15
 STR_HYEL_100_NAME                                      :[DTS] HYEL-100
 STR_HYEL_150_NAME                                      :[DTS] HYEL-150
 STR_Group_HYEL_200_NAME                                :[DTS] HYEL-200
-STR_HYEL_200_4Car_NAME                                 :[DTS] HYEL-200 4Car
-STR_HYEL_200_6Car_NAME                                 :[DTS] HYEL-200 6Car
-STR_HYEL_220_6Car_NAME                                 :[DTS] HYEL-220 6Car
-STR_HYEL_300_8Car_NAME                                 :[DTS] HYEL-300 8Car
+STR_HYEL_200_4Car_NAME                                 :[DTS/4Car] HYEL-200
+STR_HYEL_200_6Car_NAME                                 :[DTS/6Car] HYEL-200
+STR_HYEL_220_6Car_NAME                                 :[DTS/6Car] HYEL-220
+STR_HYEL_300_8Car_NAME                                 :[DTS/8Car] HYEL-300
 STR_Group_HYEL_400_NAME                                :[DTS] HYEL-400
-STR_HYEL_400_8Car_NAME                                 :[DTS] HYEL-400 8Car
-STR_HYEL_400_10Car_NAME                                :[DTS] HYEL-400 10Car
-STR_HYEL_400_16Car_NAME                                :[DTS] HYEL-400 16Car
-STR_DFX_10Car_NAME                                     :[DTS] DFX 10Car
-STR_DPX_14Car_NAME                                     :[DTS] DPX 14Car
-STR_NHSRCL_E5_10Car_NAME                               :[DTS] NHSRCL E5
-STR_Group_NSW_TrainLink_D_NAME                         :[DTS] NSW TrainLink D
-STR_NSW_TrainLink_D_4Car_NAME                          :[DTS] NSW TrainLink D 4Car
-STR_NSW_TrainLink_D_6Car_NAME                          :[DTS] NSW TrainLink D 6Car
-STR_THSR_700T_12Car_NAME                               :[DTS] THSR 700T 12Car
-STR_Al_Boraq_10Car_NAME                                :[DTS] Al-Boraq 10Car
-STR_Talgo_350_SRO_14Car_NAME                           :[DTS] Talgo 350 SRO 14Car
-STR_Avelia_Liberty_11Car_NAME                          :[DTS] Avelia Liberty 11Car
-STR_Glory_430_10Car_NAME                               :[DTS] Glory 430 10Car
-STR_Glory_600_8Car_NAME                                :[DTS] Glory 600 8Car
-STR_HMX_8Car_NAME                                      :[DTS] HMX 8Car
-STR_NKX_8Car_NAME                                      :[DTS] NKX 8Car
+STR_HYEL_400_8Car_NAME                                 :[DTS/8Car] HYEL-400
+STR_HYEL_400_10Car_NAME                                :[DTS/10Car] HYEL-400
+STR_HYEL_400_16Car_NAME                                :[DTS/16Car] HYEL-400
 
-# Metro's name
-STR_Standard_Metro_4Car_NAME                           :[DTS] Standard Metro 4Car
-STR_AUTS_6Car_NAME                                     :[DTS] AUTS 6Car
+# World / locomotive's name
+STR_Al_Boraq_10Car_NAME                                :[DTS/10Car] Al-Boraq
+STR_Avelia_Liberty_11Car_NAME                          :[DTS/11Car] Avelia Liberty
+STR_NHSRCL_E5_10Car_NAME                               :[DTS/10Car] NHSRCL E5
+STR_Group_NSW_TrainLink_D_NAME                         :[DTS] NSW TrainLink D
+STR_NSW_TrainLink_D_4Car_NAME                          :[DTS/4Car] NSW TrainLink D
+STR_NSW_TrainLink_D_6Car_NAME                          :[DTS/6Car] NSW TrainLink D
+STR_Talgo_350_SRO_14Car_NAME                           :[DTS/14Car] Talgo 350 SRO
+STR_THSR_700T_12Car_NAME                               :[DTS/12Car] THSR 700T
+
+# Korea / Metro's name
+STR_AUTS_6Car_NAME                                     :[DTS/6Car] AUTS
 STR_Group_Korail_1st_VVVF_NAME                         :[DTS] Korail 1st VVVF 
-STR_Korail_1st_VVVF_4Car_NAME                          :[DTS] Korail 1st 4Car
-STR_Korail_1st_VVVF_319K_4Car_GTO_NAME                 :[DTS] Korail 1st 319K 4Car GTO
-STR_Korail_1st_VVVF_6Car_IGBT_NAME                     :[DTS] Korail 1st 3X1K 6Car
-STR_Korail_1st_VVVF_6Car_NAME                          :[DTS] Korail 1st 6Car
-STR_Korail_1st_VVVF_10Car_NAME                         :[DTS] Korail 1st 10Car
-STR_Korail_1st_VVVF_10Car_GTO_NAME                     :[DTS] Korail 1st 3X1K, 2030, 5000 10Car
-STR_Korail_1st_VVVF_3000_10Car_NAME                    :[DTS] Korail 1st 3000
-STR_Group_Seoulmetro_1st_VVVF_NAME                     :[DTS] Seoulmetro 1st VVVF
-STR_Seoulmetro_1st_VVVF_4Car_NAME                      :[DTS] Seoulmetro 1st VVVF 4Car
-STR_Seoulmetro_1st_VVVF_2000_6Car_NAME                 :[DTS] Seoulmetro 1st VVVF 6Car
-STR_Seoulmetro_1st_VVVF_4000_6Car_NAME                 :[DTS] Seoulmetro 1st VVVF 6Car
-STR_Seoulmetro_1st_VVVF_7000_6Car_NAME                 :[DTS] Seoulmetro 1st VVVF 6Car
-STR_Seoulmetro_1st_VVVF_5000_8Car_NAME                 :[DTS] Seoulmetro 1st VVVF 8Car
-STR_Seoulmetro_1st_VVVF_5000_IGBT_8Car_NAME            :[DTS] Seoulmetro 1st VVVF IGBT 8Car
-STR_Seoulmetro_1st_VVVF_6000_8Car_NAME                 :[DTS] Seoulmetro 1st VVVF 8Car
-STR_Seoulmetro_1st_VVVF_7000_8Car_NAME                 :[DTS] Seoulmetro 1st VVVF 8Car
-STR_Seoulmetro_1st_VVVF_1000_4000_10Car_NAME           :[DTS] Seoulmetro 1st VVVF 1000, 4000 10Car
-STR_Seoulmetro_1st_VVVF_2000_3000_10Car_NAME           :[DTS] Seoulmetro 1st VVVF 2000, 3000 10Car
-STR_Seoulmetro_1st_VVVF_IGBT_10Car_NAME                :[DTS] Seoulmetro 1st VVVF IGBT 10Car
+STR_Korail_1st_VVVF_4Car_NAME                          :[DTS/4Car] Korail 1st
+STR_Korail_1st_VVVF_319K_4Car_GTO_NAME                 :[DTS/4Car] Korail 1st 319K GTO
+STR_Korail_1st_VVVF_6Car_IGBT_NAME                     :[DTS/6Car] Korail 1st 3X1K
+STR_Korail_1st_VVVF_6Car_NAME                          :[DTS/6Car] Korail 1st
+STR_Korail_1st_VVVF_10Car_NAME                         :[DTS/10Car] Korail 1st
+STR_Korail_1st_VVVF_10Car_GTO_NAME                     :[DTS/10Car] Korail 1st 3X1K, 2030, 5000
+STR_Korail_1st_VVVF_3000_10Car_NAME                    :[DTS/10Car] Korail 1st 3000
 STR_Group_Korail_2nd_VVVF_NAME                         :[DTS] Korail 2nd VVVF
-STR_Korail_2nd_VVVF_6Car_NAME                          :[DTS] Korail 2nd 6Car
-STR_Korail_2nd_VVVF_6Car_GTO_NAME                      :[DTS] Korail 2nd 6Car GTO
-STR_Korail_2nd_VVVF_10Car_NAME                         :[DTS] Korail 2nd 10Car
-STR_Korail_2nd_VVVF_10Car_GTO_NAME                     :[DTS] Korail 2nd 10Car GTO
-STR_Group_Seoulmetro_2nd_VVVF_NAME                     :[DTS] Seoulmetro 2nd VVVF
-STR_Seoulmetro_2nd_VVVF_4Car_NAME                      :[DTS] Seoulmetro 2nd 2000 4Car
-STR_Seoulmetro_2nd_VVVF_6Car_NAME                      :[DTS] Seoulmetro 2nd 2000 6Car
-STR_Seoulmetro_2nd_VVVF_7000_6Car_NAME                 :[DTS] Seoulmetro 2nd 7000 6Car
-STR_Seoulmetro_2nd_VVVF_7000_8Car_NAME                 :[DTS] Seoulmetro 2nd 7000 8Car
-STR_Seoulmetro_2nd_VVVF_2000_10Car_NAME                :[DTS] Seoulmetro 2nd 2000 10Car
-STR_Seoulmetro_2nd_VVVF_3000_10Car_NAME                :[DTS] Seoulmetro 2nd 3000 10Car
-STR_Seoulmetro_2nd_VVVF_10Car_NAME                     :[DTS] Seoulmetro 2nd VVVF 10Car
-STR_Seoulmetro_2nd_VVVF_IGBT_10Car_NAME                :[DTS] Seoulmetro 2nd VVVF IGBT 10Car
+STR_Korail_2nd_VVVF_6Car_NAME                          :[DTS/6Car] Korail 2nd
+STR_Korail_2nd_VVVF_6Car_GTO_NAME                      :[DTS/6Car] Korail 2nd GTO
+STR_Korail_2nd_VVVF_10Car_NAME                         :[DTS/10Car] Korail 2nd
+STR_Korail_2nd_VVVF_10Car_GTO_NAME                     :[DTS/10Car] Korail 2nd GTO
 STR_Group_Korail_3rd_VVVF_NAME                         :[DTS] Korail 3rd VVVF
-STR_Korail_3rd_VVVF_ST_4Car_NAME                       :[DTS] Korail 3rd Generation 1nd 4car
-STR_Korail_3rd_VVVF_G2_4Car_NAME                       :[DTS] Korail 3rd Generation 2nd 4car
-STR_Korail_3rd_VVVF_6Car_NAME                          :[DTS] Korail 3rd VVVF 6car
-STR_Korail_3rd_VVVF_8Car_NAME                          :[DTS] Korail 3rd VVVF 8car
-STR_Korail_3rd_VVVF_10Car_NAME                         :[DTS] Korail 3rd VVVF 10car
-STR_Group_Seoulmetro_3rd_VVVF_NAME                     :[DTS] Seoulmetro 3rd VVVF
-STR_Seoulmetro_3rd_VVVF_6Car_NAME                      :[DTS] Seoulmetro 3rd 2000 6Car (= 5th VVVF)
-STR_Seoulmetro_3rd_VVVF_8000_6Car_NAME                 :[DTS] Seoulmetro 3rd 8000 6Car
-STR_Seoulmetro_3rd_VVVF_5000_8Car_NAME                 :[DTS] Seoulmetro 3rd 5000 8Car
-STR_Seoulmetro_3rd_VVVF_7000_8Car_NAME                 :[DTS] Seoulmetro 3rd 7000 8Car
-STR_Seoulmetro_3rd_VVVF_2000_10Car_NAME                :[DTS] Seoulmetro 3rd 2000 10Car (= 5th VVVF)
-STR_Seoulmetro_3rd_VVVF_4000_10Car_NAME                :[DTS] Seoulmetro 3rd 4000 10Car
+STR_Korail_3rd_VVVF_ST_4Car_NAME                       :[DTS/4car] Korail 3rd Generation 1nd
+STR_Korail_3rd_VVVF_G2_4Car_NAME                       :[DTS/4car] Korail 3rd Generation 2nd
+STR_Korail_3rd_VVVF_6Car_NAME                          :[DTS/6car] Korail 3rd VVVF
+STR_Korail_3rd_VVVF_8Car_NAME                          :[DTS/8car] Korail 3rd VVVF
+STR_Korail_3rd_VVVF_10Car_NAME                         :[DTS/10car] Korail 3rd VVVF
 STR_Group_Korail_4th_VVVF_NAME                         :[DTS] Korail 4th VVVF
-STR_Korail_392000_2Car_NAME                            :[DTS] Korail 392000 2Car
-STR_Korail_392000_4Car_NAME                            :[DTS] Korail 392000 4Car
-STR_Korail_4th_VVVF_G1_4Car_NAME                       :[DTS] Korail 4th VVVF 4Car
-STR_Korail_4th_VVVF_G2_G3_4Car_NAME                    :[DTS] Korail 4th VVVF Generation 1nd, 2nd 4Car
-STR_Korail_4th_VVVF_G2_G3_6Car_NAME                    :[DTS] Korail 4th VVVF Generation 1nd, 2nd 6Car
-STR_Korail_4th_VVVF_G2_G3_10Car_NAME                   :[DTS] Korail 4th VVVF Generation 1nd, 2nd 10Car
-STR_Group_Seoulmetro_4th_VVVF_NAME                     :[DTS] Seoulmetro 4th VVVF
-STR_Seoulmetro_4th_VVVF_4Car_NAME                      :[DTS] Seoulmetro 4th 2000 4Car
-STR_Seoulmetro_4th_VVVF_5000_8Car_NAME                 :[DTS] Seoulmetro 4th 5000 8Car
-STR_Seoulmetro_4th_VVVF_7000_8Car_NAME                 :[DTS] Seoulmetro 4th 7000 8Car
-STR_Seoulmetro_4th_VVVF_2000_10Car_NAME                :[DTS] Seoulmetro 4th 2000 10Car
-STR_Seoulmetro_4th_VVVF_4000_10Car_NAME                :[DTS] Seoulmetro 4th 4000 10Car
-STR_Group_Korail_5th_VVVF_NAME                         :[DTS] Korail 5th VVVF
-STR_Korail_5th_VVVF_10Car_NAME                         :[DTS] Korail 5th VVVF 10Car
-STR_Seoulmetro_5th_VVVF_7000_8Car_NAME                 :[DTS] Seoulmetro 5th 7000 8Car
+STR_Korail_392000_2Car_NAME                            :[DTS/2Car] Korail 392000
+STR_Korail_392000_4Car_NAME                            :[DTS/4Car] Korail 392000
+STR_Korail_4th_VVVF_G1_4Car_NAME                       :[DTS/4Car] Korail 4th VVVF
+STR_Korail_4th_VVVF_G2_G3_4Car_NAME                    :[DTS/4Car] Korail 4th VVVF Generation 1nd, 2nd
+STR_Korail_4th_VVVF_G2_G3_6Car_NAME                    :[DTS/6Car] Korail 4th VVVF Generation 1nd, 2nd
+STR_Korail_4th_VVVF_G2_G3_10Car_NAME                   :[DTS/10Car] Korail 4th VVVF Generation 1nd, 2nd
+STR_Korail_5th_VVVF_10Car_NAME                         :[DTS/10Car] Korail 5th VVVF
 STR_Group_Rheostatic_Line1_EMU_NAME                    :[DTS] Line1 Rheostatic EMU
-STR_Rheostatic_Line1_4Car_NAME                         :[DTS] Line1 Rheostatic EMU 4Car
-STR_Rheostatic_Line1_6Car_NAME                         :[DTS] Line1 Rheostatic EMU 6Car
-STR_Rheostatic_Line1_8Car_NAME                         :[DTS] Line1 Rheostatic EMU 8Car
-STR_Rheostatic_Line1_10Car_NAME                        :[DTS] Line1 Rheostatic EMU 10Car
+STR_Rheostatic_Line1_4Car_NAME                         :[DTS/4Car] Line1 Rheostatic EMU
+STR_Rheostatic_Line1_6Car_NAME                         :[DTS/6Car] Line1 Rheostatic EMU
+STR_Rheostatic_Line1_8Car_NAME                         :[DTS/8Car] Line1 Rheostatic EMU
+STR_Rheostatic_Line1_10Car_NAME                        :[DTS/10Car] Line1 Rheostatic EMU
 STR_Group_Rheostatic_Line1_Second_NAME                 :[DTS] Line1 Rheostatic EMU [Second]
-STR_Rheostatic_Line1_Second_4Car_NAME                  :[DTS] Line1 Rheostatic EMU [Second] 4Car
-STR_Rheostatic_Line1_Second_6Car_NAME                  :[DTS] Line1 Rheostatic EMU [Second] 6Car
-STR_Rheostatic_Line1_Second_8Car_NAME                  :[DTS] Line1 Rheostatic EMU [Second] 8Car
-STR_Rheostatic_Line1_Second_10Car_NAME                 :[DTS] Line1 Rheostatic EMU [Second] 10Car
-STR_Rheostatic_Line1_Third_10Car_NAME                  :[DTS] Line1 Rheostatic EMU [Third] 10Car
-STR_Rheostatic_Line1_Rheostatic_10Car_NAME             :[DTS] Line1 Rheostatic EMU [Rheostatic] 10Car
+STR_Rheostatic_Line1_Second_4Car_NAME                  :[DTS/4Car] Line1 Rheostatic EMU [Second]
+STR_Rheostatic_Line1_Second_6Car_NAME                  :[DTS/6Car] Line1 Rheostatic EMU [Second]
+STR_Rheostatic_Line1_Second_8Car_NAME                  :[DTS/8Car] Line1 Rheostatic EMU [Second]
+STR_Rheostatic_Line1_Second_10Car_NAME                 :[DTS/10Car] Line1 Rheostatic EMU [Second]
+STR_Rheostatic_Line1_Third_10Car_NAME                  :[DTS/10Car] Line1 Rheostatic EMU [Third]
+STR_Rheostatic_Line1_Rheostatic_10Car_NAME             :[DTS/10Car] Line1 Rheostatic EMU [Rheostatic]
+STR_Group_Seoulmetro_1st_VVVF_NAME                     :[DTS] Seoulmetro 1st VVVF
+STR_Seoulmetro_1st_VVVF_4Car_NAME                      :[DTS/4Car] Seoulmetro 1st VVVF
+STR_Seoulmetro_1st_VVVF_2000_6Car_NAME                 :[DTS/6Car] Seoulmetro 1st VVVF
+STR_Seoulmetro_1st_VVVF_4000_6Car_NAME                 :[DTS/6Car] Seoulmetro 1st VVVF
+STR_Seoulmetro_1st_VVVF_7000_6Car_NAME                 :[DTS/6Car] Seoulmetro 1st VVVF
+STR_Seoulmetro_1st_VVVF_5000_8Car_NAME                 :[DTS/8Car] Seoulmetro 1st VVVF
+STR_Seoulmetro_1st_VVVF_5000_IGBT_8Car_NAME            :[DTS/8Car] Seoulmetro 1st VVVF IGBT
+STR_Seoulmetro_1st_VVVF_6000_8Car_NAME                 :[DTS/8Car] Seoulmetro 1st VVVF
+STR_Seoulmetro_1st_VVVF_7000_8Car_NAME                 :[DTS/8Car] Seoulmetro 1st VVVF
+STR_Seoulmetro_1st_VVVF_1000_4000_10Car_NAME           :[DTS/10Car] Seoulmetro 1st VVVF 1000, 4000
+STR_Seoulmetro_1st_VVVF_2000_3000_10Car_NAME           :[DTS/10Car] Seoulmetro 1st VVVF 2000, 3000
+STR_Seoulmetro_1st_VVVF_IGBT_10Car_NAME                :[DTS/10Car] Seoulmetro 1st VVVF IGBT
+STR_Group_Seoulmetro_2nd_VVVF_NAME                     :[DTS] Seoulmetro 2nd VVVF
+STR_Seoulmetro_2nd_VVVF_4Car_NAME                      :[DTS/4Car] Seoulmetro 2nd 2000
+STR_Seoulmetro_2nd_VVVF_6Car_NAME                      :[DTS/6Car] Seoulmetro 2nd 2000
+STR_Seoulmetro_2nd_VVVF_7000_6Car_NAME                 :[DTS/6Car] Seoulmetro 2nd 7000
+STR_Seoulmetro_2nd_VVVF_7000_8Car_NAME                 :[DTS/8Car] Seoulmetro 2nd 7000
+STR_Seoulmetro_2nd_VVVF_2000_10Car_NAME                :[DTS/10Car] Seoulmetro 2nd 2000
+STR_Seoulmetro_2nd_VVVF_3000_10Car_NAME                :[DTS/10Car] Seoulmetro 2nd 3000
+STR_Seoulmetro_2nd_VVVF_10Car_NAME                     :[DTS/10Car] Seoulmetro 2nd VVVF
+STR_Seoulmetro_2nd_VVVF_IGBT_10Car_NAME                :[DTS/10Car] Seoulmetro 2nd VVVF IGBT
+STR_Group_Seoulmetro_3rd_VVVF_NAME                     :[DTS] Seoulmetro 3rd VVVF
+STR_Seoulmetro_3rd_VVVF_6Car_NAME                      :[DTS/6Car] Seoulmetro 3rd 2000 (= 5th VVVF)
+STR_Seoulmetro_3rd_VVVF_8000_6Car_NAME                 :[DTS/6Car] Seoulmetro 3rd 8000
+STR_Seoulmetro_3rd_VVVF_5000_8Car_NAME                 :[DTS/8Car] Seoulmetro 3rd 5000
+STR_Seoulmetro_3rd_VVVF_7000_8Car_NAME                 :[DTS/8Car] Seoulmetro 3rd 7000
+STR_Seoulmetro_3rd_VVVF_2000_10Car_NAME                :[DTS/10Car] Seoulmetro 3rd 2000 (= 5th VVVF)
+STR_Seoulmetro_3rd_VVVF_4000_10Car_NAME                :[DTS/10Car] Seoulmetro 3rd 4000
+STR_Group_Seoulmetro_4th_VVVF_NAME                     :[DTS] Seoulmetro 4th VVVF
+STR_Seoulmetro_4th_VVVF_4Car_NAME                      :[DTS/4Car] Seoulmetro 4th 2000
+STR_Seoulmetro_4th_VVVF_5000_8Car_NAME                 :[DTS/8Car] Seoulmetro 4th 5000
+STR_Seoulmetro_4th_VVVF_7000_8Car_NAME                 :[DTS/8Car] Seoulmetro 4th 7000
+STR_Seoulmetro_4th_VVVF_2000_10Car_NAME                :[DTS/10Car] Seoulmetro 4th 2000
+STR_Seoulmetro_4th_VVVF_4000_10Car_NAME                :[DTS/10Car] Seoulmetro 4th 4000
+STR_Seoulmetro_5th_VVVF_7000_8Car_NAME                 :[DTS/8Car] Seoulmetro 5th 7000
 STR_Group_Seoulmetro_2000_Rheostatic_NAME              :[DTS] Seoulmetro 2000 Rheostatic EMU
-STR_Seoulmetro_2000_Rheostatic_4Car_NAME               :[DTS] Seoulmetro 2000 Rheostatic EMU 4Car
-STR_Seoulmetro_2000_Rheostatic_6Car_NAME               :[DTS] Seoulmetro 2000 Rheostatic EMU 6Car
-STR_Seoulmetro_2000_Rheostatic_10Car_NAME              :[DTS] Seoulmetro 2000 Rheostatic EMU 10Car
+STR_Seoulmetro_2000_Rheostatic_4Car_NAME               :[DTS/4Car] Seoulmetro 2000 Rheostatic EMU
+STR_Seoulmetro_2000_Rheostatic_6Car_NAME               :[DTS/6Car] Seoulmetro 2000 Rheostatic EMU
+STR_Seoulmetro_2000_Rheostatic_10Car_NAME              :[DTS/10Car] Seoulmetro 2000 Rheostatic EMU
 STR_Group_Seoulmetro_2000_MELCO_chopper_NAME           :[DTS] Seoulmetro 2000 MELCO chopper
-STR_Seoulmetro_2000_MELCO_chopper_4Car_NAME            :[DTS] Seoulmetro 2000 MELCO chopper 4Car
-STR_Seoulmetro_2000_MELCO_chopper_6Car_NAME            :[DTS] Seoulmetro 2000 MELCO chopper 6Car
-STR_Seoulmetro_2000_MELCO_chopper_10Car_NAME           :[DTS] Seoulmetro 2000 MELCO chopper 10Car
+STR_Seoulmetro_2000_MELCO_chopper_4Car_NAME            :[DTS/4Car] Seoulmetro 2000 MELCO chopper
+STR_Seoulmetro_2000_MELCO_chopper_6Car_NAME            :[DTS/6Car] Seoulmetro 2000 MELCO chopper
+STR_Seoulmetro_2000_MELCO_chopper_10Car_NAME           :[DTS/10Car] Seoulmetro 2000 MELCO chopper
 STR_Group_Seoulmetro_2000_GEC_chopper_NAME             :[DTS] Seoulmetro 2000 GEC chopper
-STR_Seoulmetro_2000_GEC_chopper_6Car_NAME              :[DTS] Seoulmetro 2000 GEC chopper 6Car
-STR_Seoulmetro_2000_GEC_chopper_10Car_NAME             :[DTS] Seoulmetro 2000 GEC chopper 10Car
+STR_Seoulmetro_2000_GEC_chopper_6Car_NAME              :[DTS/6Car] Seoulmetro 2000 GEC chopper
+STR_Seoulmetro_2000_GEC_chopper_10Car_NAME             :[DTS/10Car] Seoulmetro 2000 GEC chopper
 STR_Group_Seoulmetro_Wide_Range_GEC_chopper_NAME       :[DTS] Seoulmetro wide range GEC Chopper EMU
-STR_Seoulmetro_Wide_Range_GEC_chopper_6Car_NAME        :[DTS] Seoulmetro wide range GEC Chopper EMU 6Car
-STR_Seoulmetro_Wide_Range_GEC_chopper_10Car_NAME       :[DTS] Seoulmetro wide range GEC Chopper EMU 10Car
-STR_MTR_AD_Tranz_CAF_A_8Car_NAME                       :[DTS] MTR AD Tranz CAF A Type 8Car
-STR_MTR_AC_Cammall_8Car_NAME                           :[DTS] MTR Cammall AC Train 8Car
-STR_MTR_DC_Cammall_8Car_NAME                           :[DTS] MTR Cammall DC Train 8Car
-STR_MTR_CNR_Changchun_8Car_NAME                        :[DTS] MTR CNR Changchun Trian 8Car
-STR_MTR_CRRC_8Car_NAME                                 :[DTS] MTR CRRC Trian 8Car
-STR_MTR_Hyundai_Rotem_Mitsubishi_8Car_NAME             :[DTS] MTR Hyundai Rotem Mitsubishi Trian 8Car
-STR_MTR_Hyundai_Rotem_R_8Car_NAME                      :[DTS] MTR Hyundai Rotem R Type Train 8Car
-STR_MTR_IKK_SP_1900_8Car_NAME                          :[DTS] MTR IKK SP 1900 8Car
-STR_Nishitetsu_1000_4Car_NAME                          :[DTS] Nishitetsu 1000 4Car
-STR_Nishitetsu_2000_6Car_NAME                          :[DTS] Nishitetsu 2000 6Car
-STR_Group_Nishitetsu_3000_NAME                         :[DTS] Nishitetsu 3000
-STR_Nishitetsu_3000_2Car_NAME                          :[DTS] Nishitetsu 3000 2Car
-STR_Nishitetsu_3000_3Car_NAME                          :[DTS] Nishitetsu 3000 3Car
-STR_Nishitetsu_3000_5Car_NAME                          :[DTS] Nishitetsu 3000 5Car
-STR_Group_Nishitetsu_5000_NAME                         :[DTS] Nishitetsu 5000
-STR_Nishitetsu_5000_3Car_NAME                          :[DTS] Nishitetsu 5000 3Car
-STR_Nishitetsu_5000_4Car_NAME                          :[DTS] Nishitetsu 5000 4Car
-STR_Group_Nishitetsu_6000_NAME                         :[DTS] Nishitetsu 6000
-STR_Nishitetsu_6000_3Car_NAME                          :[DTS] Nishitetsu 6000 3Car
-STR_Nishitetsu_6000_4Car_NAME                          :[DTS] Nishitetsu 6000 4Car
-STR_Nishitetsu_6050_3Car_NAME                          :[DTS] Nishitetsu 6050 3Car
-STR_Nishitetsu_6050_4Car_NAME                          :[DTS] Nishitetsu 6050 4Car
-STR_Nishitetsu_7000_2Car_NAME                          :[DTS] Nishitetsu 7000 2Car
-STR_Nishitetsu_8000_6Car_NAME                          :[DTS] Nishitetsu 8000 6Car
-STR_Group_Nishitetsu_9000_NAME                         :[DTS] Nishitetsu 9000
-STR_Nishitetsu_9000_2Car_NAME                          :[DTS] Nishitetsu 9000 2Car
-STR_Nishitetsu_9000_3Car_NAME                          :[DTS] Nishitetsu 9000 3Car
-STR_Hankyu_1000_8Car_NAME                              :[DTS] Hankyu New 1000
-STR_Hankyu_1300_8Car_NAME                              :[DTS] Hankyu New 1300
+STR_Seoulmetro_Wide_Range_GEC_chopper_6Car_NAME        :[DTS/6Car] Seoulmetro wide range GEC Chopper EMU
+STR_Seoulmetro_Wide_Range_GEC_chopper_10Car_NAME       :[DTS/10Car] Seoulmetro wide range GEC Chopper EMU
+STR_Standard_Metro_4Car_NAME                           :[DTS/4Car] Standard Metro
+
+# Hong Kong / Metro's name
+STR_MTR_AC_Cammall_8Car_NAME                           :[DTS/8Car] MTR Cammall AC Train
+STR_MTR_AD_Tranz_CAF_A_8Car_NAME                       :[DTS/8Car] MTR AD Tranz CAF A Type
+STR_MTR_CNR_Changchun_8Car_NAME                        :[DTS/8Car] MTR CNR Changchun Trian
+STR_MTR_CRRC_8Car_NAME                                 :[DTS/8Car] MTR CRRC Trian
+STR_MTR_DC_Cammall_8Car_NAME                           :[DTS/8Car] MTR Cammall DC Train
+STR_MTR_Hyundai_Rotem_Mitsubishi_8Car_NAME             :[DTS/8Car] MTR Hyundai Rotem Mitsubishi Trian
+STR_MTR_Hyundai_Rotem_R_8Car_NAME                      :[DTS/8Car] MTR Hyundai Rotem R Type Train
+STR_MTR_IKK_SP_1900_8Car_NAME                          :[DTS/8Car] MTR IKK SP 1900
+
+# Japanese / Metro's name
+STR_Hankyu_1000_8Car_NAME                              :[DTS/8Car] Hankyu New 1000
+STR_Hankyu_1300_8Car_NAME                              :[DTS/8Car] Hankyu New 1300
 STR_Group_Hankyu_6000_NAME                             :[DTS] Hankyu 6000
-STR_Hankyu_6000_2Car_NAME                              :[DTS] Hankyu 6000 2Car
-STR_Hankyu_6000_3Car_NAME                              :[DTS] Hankyu 6000 3Car
-STR_Hankyu_6000_4Car_NAME                              :[DTS] Hankyu 6000 4Car
-STR_Hankyu_6000_8Car_NAME                              :[DTS] Hankyu 6000 8Car
+STR_Hankyu_6000_2Car_NAME                              :[DTS/2Car] Hankyu 6000
+STR_Hankyu_6000_3Car_NAME                              :[DTS/3Car] Hankyu 6000
+STR_Hankyu_6000_4Car_NAME                              :[DTS/4Car] Hankyu 6000
+STR_Hankyu_6000_8Car_NAME                              :[DTS/8Car] Hankyu 6000
 STR_Group_Hankyu_6300_NAME                             :[DTS] Hankyu 6300
-STR_Hankyu_6300_4Car_NAME                              :[DTS] Hankyu 6300 4Car
-STR_Hankyu_6300_8Car_NAME                              :[DTS] Hankyu 6300 8Car
+STR_Hankyu_6300_4Car_NAME                              :[DTS/4Car] Hankyu 6300
+STR_Hankyu_6300_8Car_NAME                              :[DTS/8Car] Hankyu 6300
 STR_Group_Hankyu_8000_NAME                             :[DTS] Hankyu 8000
-STR_Hankyu_8000_2Car_NAME                              :[DTS] Hankyu 8000 2Car
-STR_Hankyu_8000_8Car_NAME                              :[DTS] Hankyu 8000 8Car
+STR_Hankyu_8000_2Car_NAME                              :[DTS/2Car] Hankyu 8000
+STR_Hankyu_8000_8Car_NAME                              :[DTS/8Car] Hankyu 8000
 STR_Group_Hankyu_8300_NAME                             :[DTS] Hankyu 8300
-STR_Hankyu_8300_2Car_NAME                              :[DTS] Hankyu 8300 2Car
-STR_Hankyu_8300_8Car_NAME                              :[DTS] Hankyu 8300 8Car
-STR_Hankyu_9000_8Car_NAME                              :[DTS] Hankyu 9000 8Car
-STR_Hankyu_9300_8Car_NAME                              :[DTS] Hankyu 9300 8Car
+STR_Hankyu_8300_2Car_NAME                              :[DTS/2Car] Hankyu 8300
+STR_Hankyu_8300_8Car_NAME                              :[DTS/8Car] Hankyu 8300
+STR_Hankyu_9000_8Car_NAME                              :[DTS/8Car] Hankyu 9000
+STR_Hankyu_9300_8Car_NAME                              :[DTS/8Car] Hankyu 9300
+STR_Nishitetsu_1000_4Car_NAME                          :[DTS/4Car] Nishitetsu 1000
+STR_Nishitetsu_2000_6Car_NAME                          :[DTS/6Car] Nishitetsu 2000
+STR_Group_Nishitetsu_3000_NAME                         :[DTS] Nishitetsu 3000
+STR_Nishitetsu_3000_2Car_NAME                          :[DTS/2Car] Nishitetsu 3000
+STR_Nishitetsu_3000_3Car_NAME                          :[DTS/3Car] Nishitetsu 3000
+STR_Nishitetsu_3000_5Car_NAME                          :[DTS/5Car] Nishitetsu 3000
+STR_Group_Nishitetsu_5000_NAME                         :[DTS] Nishitetsu 5000
+STR_Nishitetsu_5000_3Car_NAME                          :[DTS/3Car] Nishitetsu 5000
+STR_Nishitetsu_5000_4Car_NAME                          :[DTS/4Car] Nishitetsu 5000
+STR_Group_Nishitetsu_6000_NAME                         :[DTS] Nishitetsu 6000
+STR_Nishitetsu_6000_3Car_NAME                          :[DTS/3Car] Nishitetsu 6000
+STR_Nishitetsu_6000_4Car_NAME                          :[DTS/4Car] Nishitetsu 6000
+STR_Nishitetsu_6050_3Car_NAME                          :[DTS/3Car] Nishitetsu 6050
+STR_Nishitetsu_6050_4Car_NAME                          :[DTS/4Car] Nishitetsu 6050
+STR_Nishitetsu_7000_2Car_NAME                          :[DTS/2Car] Nishitetsu 7000
+STR_Nishitetsu_8000_6Car_NAME                          :[DTS/6Car] Nishitetsu 8000
+STR_Group_Nishitetsu_9000_NAME                         :[DTS] Nishitetsu 9000
+STR_Nishitetsu_9000_2Car_NAME                          :[DTS/2Car] Nishitetsu 9000
+STR_Nishitetsu_9000_3Car_NAME                          :[DTS/3Car] Nishitetsu 9000
 
 # wagon's name
 STR_Group_Travel_wagon_NAME                            :[DTS] Travel Train
@@ -388,20 +396,20 @@ STR_OBJ_BUFFER                                         :[DTS] Buffers
 STR_OBJ_BUFFER_Concrete                                :[DTS] Concrete Buffers
 STR_OBJ_BUFFER_pebble                                  :[DTS] pebble Buffers
 STR_OBJ_BUFFER_signboard                               :[DTS] Train stopper Gravel track with signboard
-STR_OBJ_Building                                       :[DTS] Building
-STR_OBJ_Building_Store_CU                              :[DTS] CU Convenience store
-STR_OBJ_Building_Store_GS25                            :[DTS] GS25 Convenience store
-STR_OBJ_Building_Store_Storyway                        :[DTS] Storyway Convenience store
-STR_OBJ_Building_Korean_Traditional_House              :[DTS] Korean Traditional House
-STR_OBJ_Building_Train_Deport                          :[DTS] Vehicle Depot
-STR_OBJ_Building_Train_Deport02                        :[DTS] Vehicle Depot02
-STR_OBJ_Building_Train_Deport03                        :[DTS] Vehicle Depot03
-STR_OBJ_Building_Train_Deport04                        :[DTS] Vehicle Depot04
-STR_OBJ_Building_Train_Deport05                        :[DTS] Vehicle Depot05
-STR_OBJ_Flag                                           :[DTS] Flag Signboard
-STR_OBJ_Flag_Korea                                     :[DTS] Korea Flag Signboard
-STR_OBJ_Pavement                                       :[DTS] Pavement
-STR_OBJ_Fountain                                       :[DTS] Fountain
+STR_OBJ_Building                                       :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
+STR_OBJ_Building_Store_CU                              :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
+STR_OBJ_Building_Store_GS25                            :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
+STR_OBJ_Building_Store_Storyway                        :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
+STR_OBJ_Building_Korean_Traditional_House              :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
+STR_OBJ_Building_Train_Deport                          :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
+STR_OBJ_Building_Train_Deport02                        :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
+STR_OBJ_Building_Train_Deport03                        :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
+STR_OBJ_Building_Train_Deport04                        :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
+STR_OBJ_Building_Train_Deport05                        :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
+STR_OBJ_Flag                                           :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
+STR_OBJ_Flag_Korea                                     :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
+STR_OBJ_Pavement                                       :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
+STR_OBJ_Fountain                                       :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
 
 # Waypoint's name
 STR_Waypoint                                           :[DTS] NoUse Station

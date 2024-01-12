@@ -314,6 +314,17 @@ spriteset(set_Seoulmetro_1st_7000_N_engineT, "src/metro/VVVF/Seoulmetro_1st/Seou
 }
 
 /*--------------------------------------------------------------------
+[2024.2] 삭제예정.
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_1st_Delete_A, "Deleted_Train_Image.png"){
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Seoulmetro_1st_Delete_B, "Deleted_Train_Image.png"){
+    wagon_1F_F(80, 27)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_purchase, cargo_subtype) {

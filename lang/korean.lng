@@ -42,6 +42,9 @@ STR_E8600_3Car_NAME                                    :[DTS/3량] 8600호대 �
 STR_E8600_4Car_NAME                                    :[DTS/4량] 8600호대 전기기관차
 STR_EMU320_8Car_NAME                                   :[DTS/8량] EMU-320
 STR_EMU320_DD_8Car_NAME                                :[DTS/8량] EMU-320 DD
+STR_FEL_8500_NAME                                      :[DTS/단량] 8500호대 전기기관차
+STR_Glory_430_10Car_NAME                               :[DTS/10량] Glory 430
+STR_Glory_600_8Car_NAME                                :[DTS/8량] Glory 600
 STR_GT26CW_NAME                                        :[DTS/단량] 7X00호대 디젤기관차
 STR_GTX_8Car_NAME                                      :[DTS/8량] GTX
 STR_Group_H2_WJ_NAME                                   :[DTS] 우진산전 수소연료전지동차
@@ -50,6 +53,7 @@ STR_H2_WJ_4Car_NAME                                    :[DTS/4량] 우진산전 
 STR_Group_HEMU_430X_NAME                               :[DTS] HEMU-430X
 STR_HEMU_430X_6Car_NAME                                :[DTS/6량] HEMU-430X
 STR_HEMU_430X_8Car_NAME                                :[DTS/8량] HEMU-430X
+STR_HMX_8Car_NAME                                      :[DTS/8량] HMX
 STR_Group_HSR_350X_NAME                                :[DTS] HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[DTS/7량] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[DTS/14량] HSR-350X
@@ -82,6 +86,7 @@ STR_MEL_150_12Car_NAME                                 :[DTS/12량] MEL-150
 STR_MSB_Speeder_NAME                                   :[DTS/단량] MSB 모터카
 STR_NEL_8100_NAME                                      :[DTS/단량] 8100호대 전기기관차
 STR_NEL_8200_NAME                                      :[DTS/단량] 8200호대 전기기관차
+STR_NKX_8Car_NAME                                      :[DTS/8량] NKX
 STR_Group_Nuriro_NAME                                  :[DTS] 한국철도공사 200000호대 전동차 (누리로)
 STR_Nuriro_4Car_NAME                                   :[DTS/4량] 한국철도공사 200000호대 전동차 (누리로)
 STR_Nuriro_8Car_NAME                                   :[DTS/8량] 한국철도공사 200000호대 전동차 (누리로)
@@ -89,7 +94,6 @@ STR_Nuriro_DD_4Car_NAME                                :[DTS/4량] 누리로 DD
 STR_Group_RDC_NAME                                     :[DTS] RDC 디젤동차
 STR_RDC_3Car_NAME                                      :[DTS/3량] RDC 디젤동차
 STR_RDC_4Car_NAME                                      :[DTS/4량] RDC 디젤동차
-STR_Travel_8500_NAME                                   :[DTS/단량] 8500호대 전기기관차
 STR_TTX_6Car_NAME                                      :[DTS/6량] TTX
 STR_VHST_600X_8Car_NAME                                :[DTS/8량] VHST-600X
 
@@ -113,23 +117,22 @@ STR_CR400BF_Z_17Car_NAME                               :[DTS/17량] CR400BF-Z
 STR_CRH1_8Car_NAME                                     :[DTS/8량] CRH1A
 STR_CRH1A_A_8Car_NAME                                  :[DTS/8량] CRH1A-A
 STR_CRH1E_16Car_NAME                                   :[DTS/16량] CRH1E
-
 STR_CRH2_8Car_NAME                                     :[DTS/8량] CRH2A
 STR_CRH2_16Car_NAME                                    :[DTS/16량] CRH2B
 STR_CRH2C_8Car_NAME                                    :[DTS/8량] CRH2C
 STR_CRH3_8Car_NAME                                     :[DTS/8량] CRH3C
 STR_CRH380A_8Car_NAME                                  :[DTS/8량] CRH380A
 STR_CRH380A_16Car_NAME                                 :[DTS/16량] CRH380AL
-
 STR_CRH380B_8Car_NAME                                  :[DTS/8량] CRH380B
 STR_CRH380B_16Car_NAME                                 :[DTS/16량] CRH380BL
 STR_CRH380C_16Car_NAME                                 :[DTS/16량] CRH380CL
 STR_Group_CRH380D_NAME                                 :[DTS] CRH380D
 STR_CRH380D_8Car_NAME                                  :[DTS/8량] CRH380D
 STR_CRH380D_16Car_NAME                                 :[DTS/16량] CRH380D
-
 STR_HXD3C_NAME                                         :[DTS/단량] HXD3C
 STR_NJ2_NAME                                           :[DTS/단량] NJ2
+
+# European / locomotive's name
 STR_AGV_11Car_NAME                                     :[DTS/11량] AGV (이탈로)
 STR_BB15000_NAME                                       :[DTS/단량] SNCF BB15000
 STR_Eurostar_E300_20Car_NAME                           :[DTS/20량] 유로스타 E300
@@ -145,14 +148,16 @@ STR_Renfe_S_100_10Car_NAME                             :[DTS/10량] 렌페 AVE S
 STR_Renfe_S_102_14Car_NAME                             :[DTS/14량] 렌페 AVE S-102
 STR_Renfe_S_103_8Car_NAME                              :[DTS/8량] 렌페 AVE S-103
 STR_Renfe_S_130_13Car_NAME                             :[DTS/13량] 렌페 S-130
-STR_TGV_Sud_Est_10Car_NAME                             :[DTS/10량] TGV 쉬드-에스트
 STR_TGV_A_12Car_NAME                                   :[DTS/12량] TGV 아틀랑티크
-STR_TGV_R_10Car_NAME                                   :[DTS/10량] TGV 레조
-STR_TGV_Reseau_Duplex_10Car_NAME                       :[DTS/10량] TGV 레조 듀플렉스
-STR_TGV_La_Poste_10Car_NAME                            :[DTS/10량] TGV 라포스트
 STR_TGV_Duplex_10Car_NAME                              :[DTS/10량] TGV 듀플렉스
-STR_TGV_Pos_10Car_NAME                                 :[DTS/10량] TGV 포스
+STR_TGV_La_Poste_10Car_NAME                            :[DTS/10량] TGV 라포스트
 STR_TGV_M_10Car_NAME                                   :[DTS/10량] TGV M
+STR_TGV_R_10Car_NAME                                   :[DTS/10량] TGV 레조
+STR_TGV_Pos_10Car_NAME                                 :[DTS/10량] TGV 포스
+STR_TGV_Reseau_Duplex_10Car_NAME                       :[DTS/10량] TGV 레조 듀플렉스
+STR_TGV_Sud_Est_10Car_NAME                             :[DTS/10량] TGV 쉬드-에스트
+
+# Japanese / locomotive's name
 STR_Kse2_8Car_NAME                                     :[DTS/8량] 케이세이 AE형 2세대
 STR_Group_Shinkansen_0_NAME                            :[DTS] 신칸센 0계
 STR_Shinkansen_0_12Car_NAME                            :[DTS/12량] 신칸센 0계
@@ -180,6 +185,10 @@ STR_Shinkansen_N700_16Car_NAME                         :[DTS/16량] 신칸센 N7
 STR_Group_Shinkansen_N700S_NAME                        :[DTS] 신칸센 N700S계
 STR_Shinkansen_N700S_6Car_NAME                         :[DTS/6량] 신칸센 N700S계 니시큐슈
 STR_Shinkansen_N700S_16Car_NAME                        :[DTS/16량] 신칸센 N700S계
+
+# Virtual / locomotive's name
+STR_DFX_10Car_NAME                                     :[DTS/10량] DFX
+STR_DPX_14Car_NAME                                     :[DTS/14량] DPX
 STR_HYEL_15_NAME                                       :[DTS/단량] HYEL-15
 STR_HYEL_100_NAME                                      :[DTS/단량] HYEL-100
 STR_HYEL_150_NAME                                      :[DTS/단량] HYEL-150
@@ -192,23 +201,18 @@ STR_Group_HYEL_400_NAME                                :[DTS] HYEL-400
 STR_HYEL_400_8Car_NAME                                 :[DTS/8량] HYEL-400
 STR_HYEL_400_10Car_NAME                                :[DTS/10량] HYEL-400
 STR_HYEL_400_16Car_NAME                                :[DTS/16량] HYEL-400
-STR_DFX_10Car_NAME                                     :[DTS/10량] DFX
-STR_DPX_14Car_NAME                                     :[DTS/14량] DPX
+
+# World / locomotive's name
+STR_Al_Boraq_10Car_NAME                                :[DTS/10량] 알 보라크
+STR_Avelia_Liberty_11Car_NAME                          :[DTS/11량] 아벨리아 리버티
 STR_NHSRCL_E5_10Car_NAME                               :[DTS/10량] NHSRCL E5
 STR_Group_NSW_TrainLink_D_NAME                         :[DTS] NSW TrainLink D
 STR_NSW_TrainLink_D_4Car_NAME                          :[DTS/4량] NSW TrainLink D
 STR_NSW_TrainLink_D_6Car_NAME                          :[DTS/6량] NSW TrainLink D
 STR_THSR_700T_12Car_NAME                               :[DTS/12량] 타이완 고속철도 700T형
-STR_Al_Boraq_10Car_NAME                                :[DTS/10량] 알 보라크
 STR_Talgo_350_SRO_14Car_NAME                           :[DTS/14량] 탈고 350 SRO (하라마인 고속철도)
-STR_Avelia_Liberty_11Car_NAME                          :[DTS/11량] 아벨리아 리버티
-STR_Glory_430_10Car_NAME                               :[DTS/10량] Glory 430
-STR_Glory_600_8Car_NAME                                :[DTS/8량] Glory 600
-STR_HMX_8Car_NAME                                      :[DTS/8량] HMX
-STR_NKX_8Car_NAME                                      :[DTS/8량] NKX
 
-# Metro's name
-STR_Standard_Metro_4Car_NAME                           :[DTS/4량] 한국형 표준전동차
+# Korea / Metro's name
 STR_AUTS_6Car_NAME                                     :[DTS/6량] 차세대전동차
 STR_Group_Korail_1st_VVVF_NAME                         :[DTS] 한국철도공사 1세대 VVVF 전동차
 STR_Korail_1st_VVVF_4Car_NAME                          :[DTS/4량] 한국철도공사 1세대
@@ -218,45 +222,17 @@ STR_Korail_1st_VVVF_6Car_NAME                          :[DTS/6량] 한국철도�
 STR_Korail_1st_VVVF_10Car_NAME                         :[DTS/10량] 한국철도공사 1세대
 STR_Korail_1st_VVVF_10Car_GTO_NAME                     :[DTS/10량] 한국철도공사 1세대 3X1K, 2030, 5000
 STR_Korail_1st_VVVF_3000_10Car_NAME                    :[DTS/10량] 한국철도공사 1세대 3000
-STR_Group_Seoulmetro_1st_VVVF_NAME                     :[DTS] 서울교통공사 1세대 전동차
-STR_Seoulmetro_1st_VVVF_4Car_NAME                      :[DTS/4량] 서울교통공사 1세대 2000호대 전동차
-STR_Seoulmetro_1st_VVVF_2000_6Car_NAME                 :[DTS/6량] 서울교통공사 1세대 2000호대 전동차
-STR_Seoulmetro_1st_VVVF_4000_6Car_NAME                 :[DTS/6량] 서울교통공사 1세대 4000호대 전동차
-STR_Seoulmetro_1st_VVVF_7000_6Car_NAME                 :[DTS/6량] 서울교통공사 1세대 7000 & 8000호대 전동차
-STR_Seoulmetro_1st_VVVF_5000_8Car_NAME                 :[DTS/8량] 서울교통공사 1세대 5000호대 전동차
-STR_Seoulmetro_1st_VVVF_5000_IGBT_8Car_NAME            :[DTS/8량] 서울교통공사 1세대 5000호대 전동차 IGBT
-STR_Seoulmetro_1st_VVVF_6000_8Car_NAME                 :[DTS/8량] 서울교통공사 1세대 6000호대 전동차
-STR_Seoulmetro_1st_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 1세대 7000 & 8000호대 전동차
-STR_Seoulmetro_1st_VVVF_1000_4000_10Car_NAME           :[DTS/10량] 서울교통공사 1세대 1000, 4000호대 전동차
-STR_Seoulmetro_1st_VVVF_2000_3000_10Car_NAME           :[DTS/10량] 서울교통공사 1세대 2000, 3000호대 전동차
-STR_Seoulmetro_1st_VVVF_IGBT_10Car_NAME                :[DTS/10량] 서울교통공사 1세대 4000호대 전동차 IGBT
 STR_Group_Korail_2nd_VVVF_NAME                         :[DTS] 한국철도공사 2세대 VVVF 전동차
 STR_Korail_2nd_VVVF_6Car_NAME                          :[DTS/6량] 한국철도공사 2세대
 STR_Korail_2nd_VVVF_6Car_GTO_NAME                      :[DTS/6량] 한국철도공사 2세대 GTO
 STR_Korail_2nd_VVVF_10Car_NAME                         :[DTS/10량] 한국철도공사 2세대
 STR_Korail_2nd_VVVF_10Car_GTO_NAME                     :[DTS/10량] 한국철도공사 2세대 GTO
-STR_Group_Seoulmetro_2nd_VVVF_NAME                     :[DTS] 서울교통공사 2세대 VVVF 전동차
-STR_Seoulmetro_2nd_VVVF_4Car_NAME                      :[DTS/4량] 서울교통공사 2세대 2000호대 전동차
-STR_Seoulmetro_2nd_VVVF_6Car_NAME                      :[DTS/6량] 서울교통공사 2세대 2000호대 전동차
-STR_Seoulmetro_2nd_VVVF_7000_6Car_NAME                 :[DTS/6량] 서울교통공사 2세대 7000 & 8000호대 전동차
-STR_Seoulmetro_2nd_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 2세대 7000 & 8000호대 전동차
-STR_Seoulmetro_2nd_VVVF_2000_10Car_NAME                :[DTS/10량] 서울교통공사 2세대 2000호대 전동차
-STR_Seoulmetro_2nd_VVVF_3000_10Car_NAME                :[DTS/10량] 서울교통공사 2세대 3000호대 전동차
-STR_Seoulmetro_2nd_VVVF_10Car_NAME                     :[DTS/10량] 서울교통공사 2세대 4000호대 전동차
-STR_Seoulmetro_2nd_VVVF_IGBT_10Car_NAME                :[DTS/10량] 서울교통공사 2세대 4000호대 전동차 IGBT
 STR_Group_Korail_3rd_VVVF_NAME                         :[DTS] 한국철도공사 3세대 VVVF 전동차
 STR_Korail_3rd_VVVF_ST_4Car_NAME                       :[DTS/4량] 한국철도공사 3세대 1차 도입분
 STR_Korail_3rd_VVVF_G2_4Car_NAME                       :[DTS/4량] 한국철도공사 3세대 2차 도입분
 STR_Korail_3rd_VVVF_6Car_NAME                          :[DTS/6량] 한국철도공사 3세대 전동차
 STR_Korail_3rd_VVVF_8Car_NAME                          :[DTS/8량] 한국철도공사 3세대 전동차
 STR_Korail_3rd_VVVF_10Car_NAME                         :[DTS/10량] 한국철도공사 3세대 전동차
-STR_Group_Seoulmetro_3rd_VVVF_NAME                     :[DTS] 서울교통공사 3세대 VVVF 전동차
-STR_Seoulmetro_3rd_VVVF_6Car_NAME                      :[DTS/6량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
-STR_Seoulmetro_3rd_VVVF_8000_6Car_NAME                 :[DTS/6량] 서울교통공사 3세대 8000호대 전동차
-STR_Seoulmetro_3rd_VVVF_5000_8Car_NAME                 :[DTS/8량] 서울교통공사 3세대 5000호대 전동차
-STR_Seoulmetro_3rd_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 3세대 7000호대 전동차
-STR_Seoulmetro_3rd_VVVF_2000_10Car_NAME                :[DTS/10량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
-STR_Seoulmetro_3rd_VVVF_4000_10Car_NAME                :[DTS/10량] 서울교통공사 3세대 4000호대 전동차
 STR_Group_Korail_4th_VVVF_NAME                         :[DTS] 한국철도공사 4세대 VVVF 전동차
 STR_Korail_392000_2Car_NAME                            :[DTS/2량] 한국철도공사 392000호대 전동차
 STR_Korail_392000_4Car_NAME                            :[DTS/4량] 한국철도공사 392000호대 전동차
@@ -264,15 +240,7 @@ STR_Korail_4th_VVVF_G1_4Car_NAME                       :[DTS/4량] 한국철도�
 STR_Korail_4th_VVVF_G2_G3_4Car_NAME                    :[DTS/4량] 한국철도공사 4세대 1·2차 도입분
 STR_Korail_4th_VVVF_G2_G3_6Car_NAME                    :[DTS/6량] 한국철도공사 4세대 1·2차 도입분
 STR_Korail_4th_VVVF_G2_G3_10Car_NAME                   :[DTS/10량] 한국철도공사 4세대 1·2차 도입분
-STR_Group_Seoulmetro_4th_VVVF_NAME                     :[DTS] 서울교통공사 4세대 VVVF 전동차
-STR_Seoulmetro_4th_VVVF_4Car_NAME                      :[DTS/4량] 서울교통공사 4세대 2000호대 전동차
-STR_Seoulmetro_4th_VVVF_5000_8Car_NAME                 :[DTS/8량] 서울교통공사 4세대 5000호대 전동차
-STR_Seoulmetro_4th_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 4세대 7000호대 전동차
-STR_Seoulmetro_4th_VVVF_2000_10Car_NAME                :[DTS/10량] 서울교통공사 4세대 2000호대 전동차
-STR_Seoulmetro_4th_VVVF_4000_10Car_NAME                :[DTS/10량] 서울교통공사 4세대 4000호대 전동차
-STR_Group_Korail_5th_VVVF_NAME                         :[DTS] 한국철도공사 5세대 VVVF 전동차
 STR_Korail_5th_VVVF_10Car_NAME                         :[DTS/10량] 한국철도공사 5세대 VVVF 전동차
-STR_Seoulmetro_5th_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 5세대 7000호대 전동차
 STR_Group_Rheostatic_Line1_EMU_NAME                    :[DTS] 수도권 1호선 저항제어 전동차 [초기저항]
 STR_Rheostatic_Line1_4Car_NAME                         :[DTS/4량] 수도권 1호선 저항제어 전동차 [초기저항]
 STR_Rheostatic_Line1_6Car_NAME                         :[DTS/6량] 수도권 1호선 저항제어 전동차 [초기저항]
@@ -285,6 +253,41 @@ STR_Rheostatic_Line1_Second_8Car_NAME                  :[DTS/8량] 수도권 1�
 STR_Rheostatic_Line1_Second_10Car_NAME                 :[DTS/10량] 수도권 1호선 저항제어 전동차 [중기저항]
 STR_Rheostatic_Line1_Third_10Car_NAME                  :[DTS/10량] 수도권 1호선 저항제어 전동차 [신조저항]
 STR_Rheostatic_Line1_Rheostatic_10Car_NAME             :[DTS/10량] 수도권 1호선 저항제어 전동차 [개조저항]
+STR_Group_Seoulmetro_1st_VVVF_NAME                     :[DTS] 서울교통공사 1세대 전동차
+STR_Seoulmetro_1st_VVVF_4Car_NAME                      :[DTS/4량] 서울교통공사 1세대 2000호대 전동차
+STR_Seoulmetro_1st_VVVF_2000_6Car_NAME                 :[DTS/6량] 서울교통공사 1세대 2000호대 전동차
+STR_Seoulmetro_1st_VVVF_4000_6Car_NAME                 :[DTS/6량] 서울교통공사 1세대 4000호대 전동차
+STR_Seoulmetro_1st_VVVF_7000_6Car_NAME                 :[DTS/6량] 서울교통공사 1세대 7000 & 8000호대 전동차
+STR_Seoulmetro_1st_VVVF_5000_8Car_NAME                 :[DTS/8량] 서울교통공사 1세대 5000호대 전동차
+STR_Seoulmetro_1st_VVVF_5000_IGBT_8Car_NAME            :[DTS/8량] 서울교통공사 1세대 5000호대 전동차 IGBT
+STR_Seoulmetro_1st_VVVF_6000_8Car_NAME                 :[DTS/8량] 서울교통공사 1세대 6000호대 전동차
+STR_Seoulmetro_1st_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 1세대 7000 & 8000호대 전동차
+STR_Seoulmetro_1st_VVVF_1000_4000_10Car_NAME           :[DTS/10량] 서울교통공사 1세대 1000, 4000호대 전동차
+STR_Seoulmetro_1st_VVVF_2000_3000_10Car_NAME           :[DTS/10량] 서울교통공사 1세대 2000, 3000호대 전동차
+STR_Seoulmetro_1st_VVVF_IGBT_10Car_NAME                :[DTS/10량] 서울교통공사 1세대 4000호대 전동차 IGBT
+STR_Group_Seoulmetro_2nd_VVVF_NAME                     :[DTS] 서울교통공사 2세대 VVVF 전동차
+STR_Seoulmetro_2nd_VVVF_4Car_NAME                      :[DTS/4량] 서울교통공사 2세대 2000호대 전동차
+STR_Seoulmetro_2nd_VVVF_6Car_NAME                      :[DTS/6량] 서울교통공사 2세대 2000호대 전동차
+STR_Seoulmetro_2nd_VVVF_7000_6Car_NAME                 :[DTS/6량] 서울교통공사 2세대 7000 & 8000호대 전동차
+STR_Seoulmetro_2nd_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 2세대 7000 & 8000호대 전동차
+STR_Seoulmetro_2nd_VVVF_2000_10Car_NAME                :[DTS/10량] 서울교통공사 2세대 2000호대 전동차
+STR_Seoulmetro_2nd_VVVF_3000_10Car_NAME                :[DTS/10량] 서울교통공사 2세대 3000호대 전동차
+STR_Seoulmetro_2nd_VVVF_10Car_NAME                     :[DTS/10량] 서울교통공사 2세대 4000호대 전동차
+STR_Seoulmetro_2nd_VVVF_IGBT_10Car_NAME                :[DTS/10량] 서울교통공사 2세대 4000호대 전동차 IGBT
+STR_Group_Seoulmetro_3rd_VVVF_NAME                     :[DTS] 서울교통공사 3세대 VVVF 전동차
+STR_Seoulmetro_3rd_VVVF_6Car_NAME                      :[DTS/6량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
+STR_Seoulmetro_3rd_VVVF_8000_6Car_NAME                 :[DTS/6량] 서울교통공사 3세대 8000호대 전동차
+STR_Seoulmetro_3rd_VVVF_5000_8Car_NAME                 :[DTS/8량] 서울교통공사 3세대 5000호대 전동차
+STR_Seoulmetro_3rd_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 3세대 7000호대 전동차
+STR_Seoulmetro_3rd_VVVF_2000_10Car_NAME                :[DTS/10량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
+STR_Seoulmetro_3rd_VVVF_4000_10Car_NAME                :[DTS/10량] 서울교통공사 3세대 4000호대 전동차
+STR_Group_Seoulmetro_4th_VVVF_NAME                     :[DTS] 서울교통공사 4세대 VVVF 전동차
+STR_Seoulmetro_4th_VVVF_4Car_NAME                      :[DTS/4량] 서울교통공사 4세대 2000호대 전동차
+STR_Seoulmetro_4th_VVVF_5000_8Car_NAME                 :[DTS/8량] 서울교통공사 4세대 5000호대 전동차
+STR_Seoulmetro_4th_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 4세대 7000호대 전동차
+STR_Seoulmetro_4th_VVVF_2000_10Car_NAME                :[DTS/10량] 서울교통공사 4세대 2000호대 전동차
+STR_Seoulmetro_4th_VVVF_4000_10Car_NAME                :[DTS/10량] 서울교통공사 4세대 4000호대 전동차
+STR_Seoulmetro_5th_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 5세대 7000호대 전동차
 STR_Group_Seoulmetro_2000_Rheostatic_NAME              :[DTS] 서울교통공사 2000호대 저항제어 전동차
 STR_Seoulmetro_2000_Rheostatic_4Car_NAME               :[DTS/4량] 서울교통공사 2000호대 저항제어 전동차
 STR_Seoulmetro_2000_Rheostatic_6Car_NAME               :[DTS/6량] 서울교통공사 2000호대 저항제어 전동차
@@ -299,14 +302,37 @@ STR_Seoulmetro_2000_GEC_chopper_10Car_NAME             :[DTS/10량] 서울교통
 STR_Group_Seoulmetro_Wide_Range_GEC_chopper_NAME       :[DTS] 서울교통공사 광폭형 GEC초퍼
 STR_Seoulmetro_Wide_Range_GEC_chopper_6Car_NAME        :[DTS/6량] 서울교통공사 광폭형 GEC초퍼
 STR_Seoulmetro_Wide_Range_GEC_chopper_10Car_NAME       :[DTS/10량] 서울교통공사 광폭형 GEC초퍼
-STR_MTR_AD_Tranz_CAF_A_8Car_NAME                       :[DTS/8량] 홍콩 MTR AD Tranz CAF A형
+STR_Standard_Metro_4Car_NAME                           :[DTS/4량] 한국형 표준전동차
+
+# Hong Kong / Metro's name
 STR_MTR_AC_Cammall_8Car_NAME                           :[DTS/8량] 홍콩 MTR 메트로카멜 교류형 전동차
-STR_MTR_DC_Cammall_8Car_NAME                           :[DTS/8량] 홍콩 MTR 메트로카멜 직류형 전동차
+STR_MTR_AD_Tranz_CAF_A_8Car_NAME                       :[DTS/8량] 홍콩 MTR AD Tranz CAF A형
 STR_MTR_CNR_Changchun_8Car_NAME                        :[DTS/8량] 홍콩 MTR CNR 창춘 전동차
 STR_MTR_CRRC_8Car_NAME                                 :[DTS/8량] 홍콩 MTR CRRC 전동차
+STR_MTR_DC_Cammall_8Car_NAME                           :[DTS/8량] 홍콩 MTR 메트로카멜 직류형 전동차
 STR_MTR_Hyundai_Rotem_Mitsubishi_8Car_NAME             :[DTS/8량] 홍콩 MTR 현대로템 미쓰비시 전동차
 STR_MTR_Hyundai_Rotem_R_8Car_NAME                      :[DTS/8량] 홍콩 MTR 현대로템 R형 전동차
 STR_MTR_IKK_SP_1900_8Car_NAME                          :[DTS/8량] 홍콩 MTR IKK SP 1900
+
+# Japanese / Metro's name
+STR_Hankyu_1000_8Car_NAME                              :[DTS/8량] 한큐전철 신1000형
+STR_Hankyu_1300_8Car_NAME                              :[DTS/8량] 한큐전철 신1300형
+STR_Group_Hankyu_6000_NAME                             :[DTS] 한큐전철 6000형
+STR_Hankyu_6000_2Car_NAME                              :[DTS/2량] 한큐전철 6000형
+STR_Hankyu_6000_3Car_NAME                              :[DTS/3량] 한큐전철 6000형
+STR_Hankyu_6000_4Car_NAME                              :[DTS/4량] 한큐전철 6000형
+STR_Hankyu_6000_8Car_NAME                              :[DTS/8량] 한큐전철 6000형
+STR_Group_Hankyu_6300_NAME                             :[DTS] 한큐전철 6300형
+STR_Hankyu_6300_4Car_NAME                              :[DTS/4량] 한큐전철 6300형
+STR_Hankyu_6300_8Car_NAME                              :[DTS/8량] 한큐전철 6300형
+STR_Group_Hankyu_8000_NAME                             :[DTS] 한큐전철 8000형
+STR_Hankyu_8000_2Car_NAME                              :[DTS/2량] 한큐전철 8000형
+STR_Hankyu_8000_8Car_NAME                              :[DTS/8량] 한큐전철 8000형
+STR_Group_Hankyu_8300_NAME                             :[DTS] 한큐전철 8300형
+STR_Hankyu_8300_2Car_NAME                              :[DTS/2량] 한큐전철 8300형
+STR_Hankyu_8300_8Car_NAME                              :[DTS/8량] 한큐전철 8300형
+STR_Hankyu_9000_8Car_NAME                              :[DTS/8량] 한큐전철 9000형
+STR_Hankyu_9300_8Car_NAME                              :[DTS/8량] 한큐전철 9300형
 STR_Nishitetsu_1000_4Car_NAME                          :[DTS/4량] 니시테츠 1000형
 STR_Nishitetsu_2000_6Car_NAME                          :[DTS/6량] 니시테츠 2000형
 STR_Group_Nishitetsu_3000_NAME                         :[DTS] 니시테츠 3000형
@@ -326,24 +352,6 @@ STR_Nishitetsu_8000_6Car_NAME                          :[DTS/6량] 니시테츠 
 STR_Group_Nishitetsu_9000_NAME                         :[DTS] 니시테츠 9000형
 STR_Nishitetsu_9000_2Car_NAME                          :[DTS/2량] 니시테츠 9000형
 STR_Nishitetsu_9000_3Car_NAME                          :[DTS/3량] 니시테츠 9000형
-STR_Hankyu_1000_8Car_NAME                              :[DTS/8량] 한큐전철 신1000형
-STR_Hankyu_1300_8Car_NAME                              :[DTS/8량] 한큐전철 신1300형
-STR_Group_Hankyu_6000_NAME                             :[DTS] 한큐전철 6000형
-STR_Hankyu_6000_2Car_NAME                              :[DTS/2량] 한큐전철 6000형
-STR_Hankyu_6000_3Car_NAME                              :[DTS/3량] 한큐전철 6000형
-STR_Hankyu_6000_4Car_NAME                              :[DTS/4량] 한큐전철 6000형
-STR_Hankyu_6000_8Car_NAME                              :[DTS/8량] 한큐전철 6000형
-STR_Group_Hankyu_6300_NAME                             :[DTS] 한큐전철 6300형
-STR_Hankyu_6300_4Car_NAME                              :[DTS/4량] 한큐전철 6300형
-STR_Hankyu_6300_8Car_NAME                              :[DTS/8량] 한큐전철 6300형
-STR_Group_Hankyu_8000_NAME                             :[DTS] 한큐전철 8000형
-STR_Hankyu_8000_2Car_NAME                              :[DTS/2량] 한큐전철 8000형
-STR_Hankyu_8000_8Car_NAME                              :[DTS/8량] 한큐전철 8000형
-STR_Group_Hankyu_8300_NAME                             :[DTS] 한큐전철 8300형
-STR_Hankyu_8300_2Car_NAME                              :[DTS/2량] 한큐전철 8300형
-STR_Hankyu_8300_8Car_NAME                              :[DTS/8량] 한큐전철 8300형
-STR_Hankyu_9000_8Car_NAME                              :[DTS/8량] 한큐전철 9000형
-STR_Hankyu_9300_8Car_NAME                              :[DTS/8량] 한큐전철 9300형
 
 # wagon's name
 STR_Group_Travel_wagon_NAME                            :[DTS] 관광열차
@@ -385,20 +393,20 @@ STR_OBJ_BUFFER                                         :[DTS] 차막이
 STR_OBJ_BUFFER_Concrete                                :[DTS] 콘크리트 차막이
 STR_OBJ_BUFFER_pebble                                  :[DTS] 자갈 차막이
 STR_OBJ_BUFFER_signboard                               :[DTS] 표지판 차막이
-STR_OBJ_Building                                       :[DTS] 건물
-STR_OBJ_Building_Store_CU                              :[DTS] 역전 CU 편의점
-STR_OBJ_Building_Store_GS25                            :[DTS] 역전 GS25 편의점
-STR_OBJ_Building_Store_Storyway                        :[DTS] 역전 스토리웨이 편의점
-STR_OBJ_Building_Korean_Traditional_House              :[DTS] 한국 전통가옥
-STR_OBJ_Building_Train_Deport                          :[DTS] 차량기지
-STR_OBJ_Building_Train_Deport02                        :[DTS] 차량기지 회사색상
-STR_OBJ_Building_Train_Deport03                        :[DTS] 다윈시스 차량기지
-STR_OBJ_Building_Train_Deport04                        :[DTS] 현대로템 차량기지
-STR_OBJ_Building_Train_Deport05                        :[DTS] 우진산전 차량기지
-STR_OBJ_Flag                                           :[DTS] 깃발
-STR_OBJ_Flag_Korea                                     :[DTS] 태극기 표지판
-STR_OBJ_Pavement                                       :[DTS] 보도블럭
-STR_OBJ_Fountain                                       :[DTS] 분수대
+STR_OBJ_Building                                       :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Store_CU                              :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Store_GS25                            :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Store_Storyway                        :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Korean_Traditional_House              :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Train_Deport                          :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Train_Deport02                        :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Train_Deport03                        :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Train_Deport04                        :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Train_Deport05                        :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Flag                                           :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Flag_Korea                                     :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Pavement                                       :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Fountain                                       :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
 
 # Waypoint's name
 STR_Waypoint                                           :[DTS] 미사용 승강장

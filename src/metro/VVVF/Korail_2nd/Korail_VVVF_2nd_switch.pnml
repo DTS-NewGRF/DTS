@@ -331,3 +331,26 @@ switch(FEAT_TRAINS, SELF, sw_Korail_2nd_VVVF_speed, Use_max_virtual_speed) {
     1: return Metro_Speed_Train;
     return 110;
     }
+
+// 삭제이미지 [2024.2]
+switch (FEAT_TRAINS, SELF, sw_Korail_2nd_Delete_6car, position_in_vehid_chain % 6) {
+    1:set_Korail_2nd_VVVF_Delete_B;
+    2:set_Korail_2nd_VVVF_Delete_B;
+    3:set_Korail_2nd_VVVF_Delete_B;
+    4:set_Korail_2nd_VVVF_Delete_B;
+    5:set_Korail_2nd_VVVF_Delete_B;
+    set_Korail_2nd_VVVF_Delete_A; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Korail_2nd_Delete_10car, position_in_vehid_chain % 10) {
+    1:set_Korail_2nd_VVVF_Delete_B;
+    2:set_Korail_2nd_VVVF_Delete_B;
+    3:set_Korail_2nd_VVVF_Delete_B;
+    4:set_Korail_2nd_VVVF_Delete_B;
+    5:set_Korail_2nd_VVVF_Delete_B;
+    6:set_Korail_2nd_VVVF_Delete_B;
+    7:set_Korail_2nd_VVVF_Delete_B;
+    8:set_Korail_2nd_VVVF_Delete_B;
+    9:set_Korail_2nd_VVVF_Delete_B;
+    set_Korail_2nd_VVVF_Delete_A; //default
+    }

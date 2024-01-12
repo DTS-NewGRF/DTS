@@ -81,12 +81,12 @@ item(FEAT_TRAINS, Korail_2nd_VVVF_6car, 2235){
         }
 
 /*--------------------------------------------------------------------
-열차정보 6량
+[2024.2] 삭제예정
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_2nd_VVVF_GTO_6car, 2236){
     property {
         name:                           string(STR_To_Be_Deleted_NAME);
-        climates_available:             ALL_CLIMATES;
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(1999, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -107,7 +107,7 @@ item(FEAT_TRAINS, Korail_2nd_VVVF_GTO_6car, 2236){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 125;
+        cargo_capacity:                 0;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -123,7 +123,7 @@ item(FEAT_TRAINS, Korail_2nd_VVVF_GTO_6car, 2236){
         }
 
     graphics {
-        default:                        sw_Korail_2nd_VVVF_GTO_6car_reversed;
+        default:                        sw_Korail_2nd_Delete_6car;
         articulated_part:               sw_articulated_Korail_2nd_VVVF_GTO_6car;
         purchase:                       sw_Korail_2nd_VVVF_purchase;
         speed:                          sw_Korail_2nd_VVVF_speed;
@@ -190,12 +190,12 @@ item(FEAT_TRAINS, Korail_2nd_VVVF_10car, 2237){
         }
 
 /*--------------------------------------------------------------------
-열차정보 10량
+[2024.2] 삭제예정
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_2nd_VVVF_GTO_10car, 2238){
     property {
         name:                           string(STR_To_Be_Deleted_NAME);
-        climates_available:             ALL_CLIMATES;
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(1999, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -216,7 +216,7 @@ item(FEAT_TRAINS, Korail_2nd_VVVF_GTO_10car, 2238){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 127;
+        cargo_capacity:                 0;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -232,7 +232,7 @@ item(FEAT_TRAINS, Korail_2nd_VVVF_GTO_10car, 2238){
         }
 
     graphics {
-        default:                        sw_Korail_2nd_VVVF_GTO_10car_reversed;
+        default:                        sw_Korail_2nd_Delete_10car;
         articulated_part:               sw_articulated_Korail_2nd_VVVF_GTO_10car;
         purchase:                       sw_Korail_2nd_VVVF_purchase;
         speed:                          sw_Korail_2nd_VVVF_speed;

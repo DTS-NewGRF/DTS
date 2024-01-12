@@ -83,12 +83,12 @@ item(FEAT_TRAINS, KTX_SC_10Car, 2024){
         }
 
 /*--------------------------------------------------------------------
-열차정보
+[2024.2] 삭제예정
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_SC_B_10Car, 2318){
     property {
         name:                           string(STR_To_Be_Deleted_NAME);
-        climates_available:             ALL_CLIMATES;
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2016, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -109,7 +109,7 @@ item(FEAT_TRAINS, KTX_SC_B_10Car, 2318){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 41;
+        cargo_capacity:                 0;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, KTX_SC_B_10Car, 2318){
         }
 
 	graphics {
-        default:                        sw_KTX_SC_B_10car_reversed;
+        default:                        sw_KTX_SC_Delete_10Car;
         articulated_part:               sw_articulated_KTX_SC_B_10car;
         purchase:                       sw_KTX_SC_B_purchase;
         speed:                          sw_KTX_SC_speed;
@@ -133,7 +133,6 @@ item(FEAT_TRAINS, KTX_SC_B_10Car, 2318){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_KTX_SC_B_cargo_subtype_text;
         sound_effect:                   sw_KTX_SC_B_sound;
         }
         }
@@ -195,12 +194,12 @@ item(FEAT_TRAINS, KTX_SC_20Car, 2319){
         }
 
 /*--------------------------------------------------------------------
-열차정보
+[2024.2] 삭제예정
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_SC_AB_20Car, 2320){
     property {
         name:                           string(STR_To_Be_Deleted_NAME);
-        climates_available:             ALL_CLIMATES;
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2016, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -221,7 +220,7 @@ item(FEAT_TRAINS, KTX_SC_AB_20Car, 2320){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 40;
+        cargo_capacity:                 0;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -237,7 +236,7 @@ item(FEAT_TRAINS, KTX_SC_AB_20Car, 2320){
         }
 
 	graphics {
-        default:                        sw_KTX_SC_AB_20car_reversed;
+        default:                        sw_KTX_SC_Delete_20Car;
         articulated_part:               sw_articulated_KTX_SC_AB_20car;
         purchase:                       sw_KTX_SC_purchase;
         speed:                          sw_KTX_SC_speed;

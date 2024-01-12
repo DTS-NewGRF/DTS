@@ -406,12 +406,12 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_10Car, 2261){
         }
 
 /*--------------------------------------------------------------------
-열차정보 10량
+[2024.2] 삭제예정
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_IGBT_10Car, 2262){
     property {
         name:                           string(STR_To_Be_Deleted_NAME);
-        climates_available:             ALL_CLIMATES;
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(1994, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -432,7 +432,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_IGBT_10Car, 2262){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 127;
+        cargo_capacity:                 0;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -448,7 +448,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_IGBT_10Car, 2262){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_IGBT_10car_reversed;
+        default:                        sw_Seoulmetro_2nd_Delete_10car;
         articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_IGBT_10car;
         purchase:                       sw_Seoulmetro_2nd_purchase;
         speed:                          sw_Seoulmetro_2nd_VVVF_speed;

@@ -736,6 +736,17 @@ spriteset(set_KTX_SC_B2_engine_PCMD, "src/locomotive/KTX_SC/KTX_SC_B2.png"){
 }
 
 /*--------------------------------------------------------------------
+KTX-산천 삭제 이미지.
+--------------------------------------------------------------------*/
+spriteset(set_KTX_SC_Delete_A, "Deleted_Train_Image.png"){
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_KTX_SC_Delete_B, "Deleted_Train_Image.png"){
+    wagon_1F_F(80, 27)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_KTX_SC_purchase, cargo_subtype) {

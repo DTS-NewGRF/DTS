@@ -82,12 +82,12 @@ item(FEAT_TRAINS, Korail_1st_VVVF_4car, 2228){
         }
 
 /*--------------------------------------------------------------------
-열차정보 4량
+[2024.2] 삭제예정
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_1st_VVVF_GTO_4car, 2229){
     property {
         name:                           string(STR_To_Be_Deleted_NAME);
-        climates_available:             ALL_CLIMATES;
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2011, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -108,7 +108,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_4car, 2229){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 122;
+        cargo_capacity:                 0;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -124,7 +124,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_4car, 2229){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_4car;
+        default:                        sw_Korail_1st_VVVF_Delete_4car;
         articulated_part:               sw_articulated_Korail_1st_VVVF_GTO_4car;
         purchase:                       sw_Korail_1st_VVVF_319K_purchase;
         speed:                          sw_Korail_1st_VVVF_speed;
@@ -191,12 +191,12 @@ item(FEAT_TRAINS, Korail_1st_VVVF_6car, 2230){
         }
 
 /*--------------------------------------------------------------------
-열차정보 6량
+[2024.2] 삭제예정
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_1st_VVVF_GTO_6car, 2231){
     property {
         name:                           string(STR_To_Be_Deleted_NAME);
-        climates_available:             ALL_CLIMATES;
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(2003, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -217,7 +217,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_6car, 2231){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 125;
+        cargo_capacity:                 0;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -233,7 +233,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_6car, 2231){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_6car_reversed;
+        default:                        sw_Korail_1st_VVVF_Delete_6car;
         articulated_part:               sw_articulated_Korail_1st_VVVF_GTO_6car;
         purchase:                       sw_Korail_1st_VVVF_purchase;
         speed:                          sw_Korail_1st_VVVF_speed;
@@ -301,12 +301,12 @@ item(FEAT_TRAINS, Korail_1st_VVVF_10car, 2232){
         }
 
 /*--------------------------------------------------------------------
-열차정보 10량
+[2024.2] 삭제예정
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_1st_VVVF_GTO_10car, 2233){
     property {
         name:                           string(STR_To_Be_Deleted_NAME);
-        climates_available:             ALL_CLIMATES;
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(1993, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -327,7 +327,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_10car, 2233){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 127;
+        cargo_capacity:                 0;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -343,7 +343,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_10car, 2233){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_GTO_10car_reversed;
+        default:                        sw_Korail_1st_VVVF_Delete_10car;
         articulated_part:               sw_articulated_Korail_1st_VVVF_GTO_10car;
         purchase:                       sw_Korail_1st_VVVF_purchase;
         speed:                          sw_Korail_1st_VVVF_speed;
@@ -356,12 +356,12 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_10car, 2233){
         }
 
 /*--------------------------------------------------------------------
-열차정보 10량
+[2024.2] 삭제예정
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Korail_1st_VVVF_3000_10Car, 2259){
     property {
         name:                           string(STR_To_Be_Deleted_NAME);
-        climates_available:             ALL_CLIMATES;
+        climates_available:             NO_CLIMATE;
         introduction_date:              date(1993, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -382,7 +382,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_3000_10Car, 2259){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 127;
+        cargo_capacity:                 0;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -398,7 +398,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_3000_10Car, 2259){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_3000_10car_reversed;
+        default:                        sw_Korail_1st_VVVF_Delete_10car;
         articulated_part:               sw_articulated_Korail_1st_VVVF_3000_10car;
         purchase:                       sw_Korail_1st_VVVF_3000_purchase;
         speed:                          sw_Korail_1st_VVVF_speed;
