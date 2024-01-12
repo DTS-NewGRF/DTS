@@ -12,7 +12,7 @@ EMU
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, EMU150_DD_6Car, 2011){
     property {
-        name:                           string(STR_EMU150_DD_6Car_NAME);
+        name:                           string(STR_ITX_Maum_DD_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;

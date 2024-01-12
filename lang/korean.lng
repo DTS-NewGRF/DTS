@@ -6,16 +6,13 @@ STR_GRF_NAME_WITH_VER                                  :다양성 열차 세트 
 STR_GRF_DESC                                           :다양성 열차 세트 입니다
 STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS/releases
 
-# locomotive's name
+# Deleted / locomotive's name
 STR_To_Be_Deleted_NAME                                 :[2024.2] 삭제예정
+
+# Korea / locomotive's name
 STR_AREX_1000_1st_6Car_NAME                            :[DTS/6량] 공항철도 1000호대 1세대 전동차
 STR_AREX_2000_1st_6Car_NAME                            :[DTS/6량] 공항철도 2000호대 1세대 전동차
 STR_AREX_2000_4th_6Car_NAME                            :[DTS/6량] 공항철도 2000호대 4세대 전동차
-STR_Group_MEL_150_NAME                                 :[DTS] MEL-150
-STR_MEL_150_4Car_NAME                                  :[DTS/4량] MEL-150
-STR_MEL_150_8Car_NAME                                  :[DTS/8량] MEL-150
-STR_MEL_150_10Car_NAME                                 :[DTS/10량] MEL-150
-STR_MEL_150_12Car_NAME                                 :[DTS/12량] MEL-150
 STR_Group_CDC_NAME                                     :[DTS] CDC 디젤동차
 STR_CDC_3Car_NAME                                      :[DTS/3량] CDC 디젤동차
 STR_CDC_4Car_NAME                                      :[DTS/4량] CDC 디젤동차
@@ -43,71 +40,61 @@ STR_E8600_NAME                                         :[DTS/단량] 8600호대 
 STR_E8600_2Car_NAME                                    :[DTS/2량] 8600호대 전기기관차
 STR_E8600_3Car_NAME                                    :[DTS/3량] 8600호대 전기기관차
 STR_E8600_4Car_NAME                                    :[DTS/4량] 8600호대 전기기관차
-STR_Group_EMU150_NAME                                  :[DTS] ITX-마음
-STR_EMU150_4Car_NAME                                   :[DTS/4량] ITX-마음
-STR_EMU150_6Car_NAME                                   :[DTS/6량] ITX-마음
-STR_EMU150_8Car_NAME                                   :[DTS/8량] ITX-마음
-STR_EMU150_DD_6Car_NAME                                :[DTS/6량] ITX-마음 DD
-STR_Group_ITX_CheongChun_NAME                          :[DTS] ITX-청춘
-STR_ITX_CheongChun_6Car_NAME                           :[DTS/6량] ITX-청춘
-STR_ITX_CheongChun_8Car_NAME                           :[DTS/8량] ITX-청춘
-STR_ITX_CheongChun_10Car_NAME                          :[DTS/10량] ITX-청춘
-STR_EMU260_6Car_NAME                                   :[DTS/6량] EMU-260
-STR_EMU260_DD_6Car_NAME                                :[DTS/6량] EMU-260 DD
 STR_EMU320_8Car_NAME                                   :[DTS/8량] EMU-320
 STR_EMU320_DD_8Car_NAME                                :[DTS/8량] EMU-320 DD
 STR_GT26CW_NAME                                        :[DTS/단량] 7X00호대 디젤기관차
 STR_GTX_8Car_NAME                                      :[DTS/8량] GTX
+STR_Group_H2_WJ_NAME                                   :[DTS] 우진산전 수소연료전지동차
+STR_H2_WJ_2Car_NAME                                    :[DTS/2량] 우진산전 수소연료전지동차
+STR_H2_WJ_4Car_NAME                                    :[DTS/4량] 우진산전 수소연료전지동차
 STR_Group_HEMU_430X_NAME                               :[DTS] HEMU-430X
 STR_HEMU_430X_6Car_NAME                                :[DTS/6량] HEMU-430X
 STR_HEMU_430X_8Car_NAME                                :[DTS/8량] HEMU-430X
 STR_Group_HSR_350X_NAME                                :[DTS] HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[DTS/7량] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[DTS/14량] HSR-350X
-STR_ICE_CW_8Car_NAME                                   :[DTS/8량] ITX-초월
-STR_Group_ITX_SM_NAME                                  :[DTS] ITX-새마을
-STR_ITX_SM_6Car_NAME                                   :[DTS/6량] ITX-새마을
-STR_ITX_SM_8Car_NAME                                   :[DTS/8량] ITX-새마을
-STR_ITX_SM2_6Car_NAME                                  :[DTS/6량] ITX-새마을 DD
+STR_Group_ITX_CheongChun_NAME                          :[DTS] ITX-청춘
+STR_ITX_CheongChun_6Car_NAME                           :[DTS/6량] ITX-청춘
+STR_ITX_CheongChun_8Car_NAME                           :[DTS/8량] ITX-청춘
+STR_ITX_CheongChun_10Car_NAME                          :[DTS/10량] ITX-청춘
+STR_ITX_Chowol_8Car_NAME                               :[DTS/8량] ITX-초월
+STR_Group_ITX_Maum_NAME                                :[DTS] ITX-마음
+STR_ITX_Maum_4Car_NAME                                 :[DTS/4량] ITX-마음
+STR_ITX_Maum_6Car_NAME                                 :[DTS/6량] ITX-마음
+STR_ITX_Maum_8Car_NAME                                 :[DTS/8량] ITX-마음
+STR_ITX_Maum_DD_6Car_NAME                              :[DTS/6량] ITX-마음 DD
+STR_Group_ITX_Saemaeul_NAME                            :[DTS] ITX-새마을
+STR_ITX_Saemaeul_6Car_NAME                             :[DTS/6량] ITX-새마을
+STR_ITX_Saemaeul_8Car_NAME                             :[DTS/8량] ITX-새마을
+STR_ITX_Saemaeul_DD_6Car_NAME                          :[DTS/6량] ITX-새마을 DD
 STR_KTX_1_20Car_NAME                                   :[DTS/20량] KTX-1
-STR_Group_KTX_SC_NAME                                  :[DTS] KTX-산천
-STR_KTX_SC_10Car_NAME                                  :[DTS/10량] KTX-산천, SRT
-STR_KTX_SC_B_10Car_NAME                                :[DTS/10량] KTX-산천 B타입
-STR_KTX_SC_20Car_NAME                                  :[DTS/20량] KTX-산천 중련
-STR_KTX_SC_AB_20Car_NAME                               :[DTS/20량] KTX-산천 A+B타입 중련
-STR_KTX_SC2_10Car_NAME                                 :[DTS/10량] KTX-산천 DD
+STR_KTX_Eum_6Car_NAME                                  :[DTS/6량] KTX-이음
+STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6량] KTX-이음 DD
+STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-산천
+STR_KTX_Sancheon_10Car_NAME                            :[DTS/10량] KTX-산천, SRT
+STR_KTX_Sancheon_20Car_NAME                            :[DTS/20량] KTX-산천 중련
+STR_KTX_Sancheon_DD_10Car_NAME                         :[DTS/10량] KTX-산천 DD
+STR_Group_MEL_150_NAME                                 :[DTS] MEL-150
+STR_MEL_150_4Car_NAME                                  :[DTS/4량] MEL-150
+STR_MEL_150_8Car_NAME                                  :[DTS/8량] MEL-150
+STR_MEL_150_10Car_NAME                                 :[DTS/10량] MEL-150
+STR_MEL_150_12Car_NAME                                 :[DTS/12량] MEL-150
+STR_MSB_Speeder_NAME                                   :[DTS/단량] MSB 모터카
+STR_NEL_8100_NAME                                      :[DTS/단량] 8100호대 전기기관차
+STR_NEL_8200_NAME                                      :[DTS/단량] 8200호대 전기기관차
 STR_Group_Nuriro_NAME                                  :[DTS] 한국철도공사 200000호대 전동차 (누리로)
 STR_Nuriro_4Car_NAME                                   :[DTS/4량] 한국철도공사 200000호대 전동차 (누리로)
 STR_Nuriro_8Car_NAME                                   :[DTS/8량] 한국철도공사 200000호대 전동차 (누리로)
-STR_NRT2_4Car_NAME                                     :[DTS/4량] 누리로 DD
-STR_Group_H2_WJ_NAME                                   :[DTS] 우진산전 수소연료전지동차
-STR_H2_WJ_2Car_NAME                                    :[DTS/2량] 우진산전 수소연료전지동차
-STR_H2_WJ_4Car_NAME                                    :[DTS/4량] 우진산전 수소연료전지동차
-STR_Travel_8500_NAME                                   :[DTS/단량] 8500호대 전기기관차
-STR_NEL_8100_NAME                                      :[DTS/단량] 8100호대 전기기관차
-STR_NEL_8200_NAME                                      :[DTS/단량] 8200호대 전기기관차
+STR_Nuriro_DD_4Car_NAME                                :[DTS/4량] 누리로 DD
 STR_Group_RDC_NAME                                     :[DTS] RDC 디젤동차
 STR_RDC_3Car_NAME                                      :[DTS/3량] RDC 디젤동차
 STR_RDC_4Car_NAME                                      :[DTS/4량] RDC 디젤동차
+STR_Travel_8500_NAME                                   :[DTS/단량] 8500호대 전기기관차
 STR_TTX_6Car_NAME                                      :[DTS/6량] TTX
 STR_VHST_600X_8Car_NAME                                :[DTS/8량] VHST-600X
-STR_MSB_Speeder_NAME                                   :[DTS/단량] MSB 모터카
-STR_CRH1_8Car_NAME                                     :[DTS/8량] CRH1A
-STR_CRH1E_16Car_NAME                                   :[DTS/16량] CRH1E
-STR_CRH1A_A_8Car_NAME                                  :[DTS/8량] CRH1A-A
-STR_CRH2_8Car_NAME                                     :[DTS/8량] CRH2A
-STR_CRH2_16Car_NAME                                    :[DTS/16량] CRH2B
-STR_CRH2C_8Car_NAME                                    :[DTS/8량] CRH2C
-STR_CRH3_8Car_NAME                                     :[DTS/8량] CRH3C
-STR_CRH380A_8Car_NAME                                  :[DTS/8량] CRH380A
-STR_CRH380A_16Car_NAME                                 :[DTS/16량] CRH380AL
+
+# Chinese / locomotive's name
 STR_CRH380AJ_8Car_NAME                                 :[DTS/8량] CRH380AJ
-STR_CRH380B_8Car_NAME                                  :[DTS/8량] CRH380B
-STR_CRH380B_16Car_NAME                                 :[DTS/16량] CRH380BL
-STR_CRH380C_16Car_NAME                                 :[DTS/16량] CRH380CL
-STR_Group_CRH380D_NAME                                 :[DTS] CRH380D
-STR_CRH380D_8Car_NAME                                  :[DTS/8량] CRH380D
-STR_CRH380D_16Car_NAME                                 :[DTS/16량] CRH380D
 STR_Group_CR400AF_NAME                                 :[DTS] CR400AF
 STR_CR400AF_8Car_NAME                                  :[DTS/8량] CR400AF
 STR_CR400AF_16Car_NAME                                 :[DTS/16량] CR400AF
@@ -123,6 +110,24 @@ STR_CR400BF_C_8Car_NAME                                :[DTS/8량] CR400BF-C
 STR_Group_CR400BF_Z_NAME                               :[DTS] CR400BF-Z
 STR_CR400BF_Z_8Car_NAME                                :[DTS/8량] CR400BF-Z
 STR_CR400BF_Z_17Car_NAME                               :[DTS/17량] CR400BF-Z
+STR_CRH1_8Car_NAME                                     :[DTS/8량] CRH1A
+STR_CRH1A_A_8Car_NAME                                  :[DTS/8량] CRH1A-A
+STR_CRH1E_16Car_NAME                                   :[DTS/16량] CRH1E
+
+STR_CRH2_8Car_NAME                                     :[DTS/8량] CRH2A
+STR_CRH2_16Car_NAME                                    :[DTS/16량] CRH2B
+STR_CRH2C_8Car_NAME                                    :[DTS/8량] CRH2C
+STR_CRH3_8Car_NAME                                     :[DTS/8량] CRH3C
+STR_CRH380A_8Car_NAME                                  :[DTS/8량] CRH380A
+STR_CRH380A_16Car_NAME                                 :[DTS/16량] CRH380AL
+
+STR_CRH380B_8Car_NAME                                  :[DTS/8량] CRH380B
+STR_CRH380B_16Car_NAME                                 :[DTS/16량] CRH380BL
+STR_CRH380C_16Car_NAME                                 :[DTS/16량] CRH380CL
+STR_Group_CRH380D_NAME                                 :[DTS] CRH380D
+STR_CRH380D_8Car_NAME                                  :[DTS/8량] CRH380D
+STR_CRH380D_16Car_NAME                                 :[DTS/16량] CRH380D
+
 STR_HXD3C_NAME                                         :[DTS/단량] HXD3C
 STR_NJ2_NAME                                           :[DTS/단량] NJ2
 STR_AGV_11Car_NAME                                     :[DTS/11량] AGV (이탈로)
@@ -784,6 +789,8 @@ STR_REFIT_LIVERY_Hankyu_8300_Cross_Seat                : 한큐 8300형 크로�
 # Liveries wagon
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car                : 정선아리랑 유람열차 구도색
 STR_REFIT_LIVERY_JA_a_New_Passenger_Car                : 정선아리랑 유람열차 신도색
+STR_REFIT_LIVERY_E_Train_Old_Passenger_Car             : E-Train 구도색
+STR_REFIT_LIVERY_E_Train_New_Passenger_Car             : E-Train 신도색
 STR_REFIT_LIVERY_1MPassenger_Car                       : 일반실 우등객차
 STR_REFIT_LIVERY_2MPassenger_Car                       : 일반실 구도색 수동문
 STR_REFIT_LIVERY_3MPassenger_Car                       : 일반실 구도색 자동문

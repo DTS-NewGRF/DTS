@@ -50,16 +50,67 @@ switch(FEAT_TRAINS, SELF, sw_JA_A_wagon, cargo_subtype) {
 /*--------------------------------------------------------------------
 E-Trian
 --------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_E_Train_wagon_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_E_Train_Old_Passenger_Car);
+    return string(STR_REFIT_LIVERY_E_Train_New_Passenger_Car);
+}
+
+switch(FEAT_TRAINS, SELF, sw_EDUCATION_1wagon, cargo_subtype) {
+    1: set_EDUCATION_1wagon;
+    set_EDUCATION_New_1wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EDUCATION_2wagon, cargo_subtype) {
+    1: set_EDUCATION_2wagon;
+    set_EDUCATION_New_2wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EDUCATION_3wagon, cargo_subtype) {
+    1: set_EDUCATION_3wagon;
+    set_EDUCATION_New_3wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EDUCATION_4wagon, cargo_subtype) {
+    1: set_EDUCATION_4wagon;
+    set_EDUCATION_New_4wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EDUCATION_5wagon, cargo_subtype) {
+    1: set_EDUCATION_5wagon;
+    set_EDUCATION_New_5wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EDUCATION_6wagon, cargo_subtype) {
+    1: set_EDUCATION_6wagon;
+    set_EDUCATION_New_6wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EDUCATION_7wagon, cargo_subtype) {
+    1: set_EDUCATION_7wagon;
+    set_EDUCATION_New_7wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EDUCATION_8wagon, cargo_subtype) {
+    1: set_EDUCATION_8wagon;
+    set_EDUCATION_New_8wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_EDUCATION_9wagon, cargo_subtype) {
+    1: set_EDUCATION_9wagon;
+    set_EDUCATION_New_9wagon;
+}
+
 switch (FEAT_TRAINS, SELF, sw_E_Train_wagon, position_in_vehid_chain % 9) {
-    1:set_EDUCATION_2wagon;
-    2:set_EDUCATION_3wagon;
-    3:set_EDUCATION_4wagon;
-    4:set_EDUCATION_5wagon;
-    5:set_EDUCATION_6wagon;
-    6:set_EDUCATION_7wagon;
-    7:set_EDUCATION_8wagon;
-    8:set_EDUCATION_9wagon;
-    set_EDUCATION_1wagon; //default
+    1:sw_EDUCATION_2wagon;
+    2:sw_EDUCATION_3wagon;
+    3:sw_EDUCATION_4wagon;
+    4:sw_EDUCATION_5wagon;
+    5:sw_EDUCATION_6wagon;
+    6:sw_EDUCATION_7wagon;
+    7:sw_EDUCATION_8wagon;
+    8:sw_EDUCATION_9wagon;
+    sw_EDUCATION_1wagon; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_E_Train_9car, extra_callback_info1) {

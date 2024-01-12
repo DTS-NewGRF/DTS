@@ -6,123 +6,128 @@ STR_GRF_NAME_WITH_VER                                  :Diversity Train Set {VER
 STR_GRF_DESC                                           :Diversity Train Set
 STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS/releases
 
-# locomotive's name
+# Deleted / locomotive's name
 STR_To_Be_Deleted_NAME                                 :[2024.2] To Be Deleted
-STR_AREX_1000_1st_6Car_NAME                            :[DTS] AREX series 1000 1st 6Car
-STR_AREX_2000_1st_6Car_NAME                            :[DTS] AREX series 2000 1st 6Car
-STR_AREX_2000_4th_6Car_NAME                            :[DTS] AREX series 2000 4th 6Car
-STR_Group_MEL_150_NAME                                 :[DTS] MEL-150
-STR_MEL_150_4Car_NAME                                  :[DTS] MEL-150 4Car
-STR_MEL_150_8Car_NAME                                  :[DTS] MEL-150 8Car
-STR_MEL_150_10Car_NAME                                 :[DTS] MEL-150 10Car
-STR_MEL_150_12Car_NAME                                 :[DTS] MEL-150 12Car
-STR_Group_CDC_NAME                                     :[DTS] CDC Diesel Car
-STR_CDC_3Car_NAME                                      :[DTS] CDC Diesel Car 3Car
-STR_CDC_4Car_NAME                                      :[DTS] CDC Diesel Car 4Car
-STR_CDC_5Car_NAME                                      :[DTS] CDC Diesel Car 5Car
+
+# Korea / locomotive's name
+STR_AREX_1000_1st_6Car_NAME                            :[DTS/6Car] AREX series 1000 1st
+STR_AREX_2000_1st_6Car_NAME                            :[DTS/6Car] AREX series 2000 1st
+STR_AREX_2000_4th_6Car_NAME                            :[DTS/6Car] AREX series 2000 4th
+STR_Group_CDC_NAME                                     :[DTS] CDC Diesel
+STR_CDC_3Car_NAME                                      :[DTS/3Car] CDC Diesel
+STR_CDC_4Car_NAME                                      :[DTS/4Car] CDC Diesel
+STR_CDC_5Car_NAME                                      :[DTS/5Car] CDC Diesel
 STR_Group_CL_150_NAME                                  :[DTS] CL-150
-STR_CL_150_4Car_NAME                                   :[DTS] CL-150 4Car
-STR_CL_150_6Car_NAME                                   :[DTS] CL-150 6Car
-STR_CL_150_8Car_NAME                                   :[DTS] CL-150 8Car
-STR_CL_180_8Car_NAME                                   :[DTS] CL-180 8Car
+STR_CL_150_4Car_NAME                                   :[DTS/4Car] CL-150
+STR_CL_150_6Car_NAME                                   :[DTS/6Car] CL-150
+STR_CL_150_8Car_NAME                                   :[DTS/8Car] CL-150
+STR_CL_180_8Car_NAME                                   :[DTS/8Car] CL-180
 STR_Group_CTX_NAME                                     :[DTS] CTX
-STR_CTX_F_10Car_NAME                                   :[DTS] CTX Freight 10Car
-STR_CTX_P_10Car_NAME                                   :[DTS] CTX Passenger 10Car
+STR_CTX_F_10Car_NAME                                   :[DTS/10Car] CTX Freight
+STR_CTX_P_10Car_NAME                                   :[DTS/10Car] CTX Passenger
 STR_DEL7000_NAME                                       :[DTS] DEL7000
 STR_DEL7600_NAME                                       :[DTS] DEL7600
-STR_Group_DHC_PP_NAME                                  :[DTS] DHC PP Diesel Car
-STR_DHC_PP_4Car_NAME                                   :[DTS] DHC PP Diesel 4Car
-STR_DHC_PP_5Car_NAME                                   :[DTS] DHC PP Diesel 5Car
-STR_DHC_PP_6Car_NAME                                   :[DTS] DHC PP Diesel 6Car
-STR_DHC_PP_7Car_NAME                                   :[DTS] DHC PP Diesel 7Car
-STR_DHC_PP_8Car_NAME                                   :[DTS] DHC PP Diesel 8Car
-STR_DHC_PP_14Car_NAME                                  :[DTS] DHC PP Diesel 14Car
-STR_DHC_PP_16Car_NAME                                  :[DTS] DHC PP Diesel 16Car
+STR_Group_DHC_PP_NAME                                  :[DTS] DHC PP Diesel
+STR_DHC_PP_4Car_NAME                                   :[DTS/4Car] DHC PP Diesel
+STR_DHC_PP_5Car_NAME                                   :[DTS/5Car] DHC PP Diesel
+STR_DHC_PP_6Car_NAME                                   :[DTS/6Car] DHC PP Diesel
+STR_DHC_PP_7Car_NAME                                   :[DTS/7Car] DHC PP Diesel
+STR_DHC_PP_8Car_NAME                                   :[DTS/8Car] DHC PP Diesel
+STR_DHC_PP_14Car_NAME                                  :[DTS/14Car] DHC PP Diesel
+STR_DHC_PP_16Car_NAME                                  :[DTS/16Car] DHC PP Diesel
 STR_Group_E8600_NAME                                   :[DTS] E8600
-STR_E8600_NAME                                         :[DTS] E8600 1Car
-STR_E8600_2Car_NAME                                    :[DTS] E8600 2Car
-STR_E8600_3Car_NAME                                    :[DTS] E8600 3Car
-STR_E8600_4Car_NAME                                    :[DTS] E8600 4Car
-STR_Group_EMU150_NAME                                  :[DTS] ITX-Maum
-STR_EMU150_4Car_NAME                                   :[DTS] ITX-Maum 4Car
-STR_EMU150_6Car_NAME                                   :[DTS] ITX-Maum 6Car
-STR_EMU150_8Car_NAME                                   :[DTS] ITX-Maum 8Car
-STR_EMU150_DD_6Car_NAME                                :[DTS] ITX-Maum DD 6Car
-STR_Group_ITX_CheongChun_NAME                          :[DTS] ITX-CheongChun
-STR_ITX_CheongChun_6Car_NAME                           :[DTS] ITX-CheongChun 6Car
-STR_ITX_CheongChun_8Car_NAME                           :[DTS] ITX-CheongChun 8Car
-STR_ITX_CheongChun_10Car_NAME                          :[DTS] ITX-CheongChun 10Car
-STR_EMU260_6Car_NAME                                   :[DTS] EMU-260 6Car
-STR_EMU260_DD_6Car_NAME                                :[DTS] EMU-260 DD 6Car
-STR_EMU320_8Car_NAME                                   :[DTS] EMU-320 8Car
-STR_EMU320_DD_8Car_NAME                                :[DTS] EMU-320 DD 8Car
+STR_E8600_NAME                                         :[DTS/1Car] E8600
+STR_E8600_2Car_NAME                                    :[DTS/2Car] E8600
+STR_E8600_3Car_NAME                                    :[DTS/3Car] E8600
+STR_E8600_4Car_NAME                                    :[DTS/4Car] E8600
+STR_EMU320_8Car_NAME                                   :[DTS/8Car] EMU-320
+STR_EMU320_DD_8Car_NAME                                :[DTS/8Car] EMU-320 DD
 STR_GT26CW_NAME                                        :[DTS] GT26CW
-STR_GTX_8Car_NAME                                      :[DTS] GTX 8Car
-STR_Group_HEMU_430X_NAME                               :[DTS] HEMU-430X
-STR_HEMU_430X_6Car_NAME                                :[DTS] HEMU-430X 6Car
-STR_HEMU_430X_8Car_NAME                                :[DTS] HEMU-430X 8Car
-STR_Group_HSR_350X_NAME                                :[DTS] HSR-350X
-STR_HSR_350X_7Car_NAME                                 :[DTS] HSR-350X 7Car
-STR_HSR_350X_14Car_NAME                                :[DTS] HSR-350X 14Car
-STR_ICE_CW_8Car_NAME                                   :[DTS] ITX-Chowol 8Car
-STR_Group_ITX_SM_NAME                                  :[DTS] ITX-Saemaeul
-STR_ITX_SM_6Car_NAME                                   :[DTS] ITX-Saemaeul 6Car
-STR_ITX_SM_8Car_NAME                                   :[DTS] ITX-Saemaeul 8Car
-STR_ITX_SM2_6Car_NAME                                  :[DTS] ITX-Saemaeul DD 6Car
-STR_KTX_1_20Car_NAME                                   :[DTS] TGV-K 20Car
-STR_Group_KTX_SC_NAME                                  :[DTS] KTX-Sancheon
-STR_KTX_SC_10Car_NAME                                  :[DTS] KTX-Sancheon 10Car, SRT 10Car
-STR_KTX_SC_B_10Car_NAME                                :[DTS] KTX-Sancheon Btype 10Car
-STR_KTX_SC_20Car_NAME                                  :[DTS] KTX-Sancheon 20Car
-STR_KTX_SC_AB_20Car_NAME                               :[DTS] KTX-Sancheon ABtype 20Car
-STR_KTX_SC2_10Car_NAME                                 :[DTS] KTX-Sancheon DD 10Car
-STR_Group_Nuriro_NAME                                  :[DTS] Korail 200000 series EMU (NURIRO)
-STR_Nuriro_4Car_NAME                                   :[DTS] Korail 200000 series EMU (NURIRO) 4Car
-STR_Nuriro_8Car_NAME                                   :[DTS] Korail 200000 series EMU (NURIRO) 8Car
-STR_NRT2_4Car_NAME                                     :[DTS] Nuriro DD 4Car
+STR_GTX_8Car_NAME                                      :[DTS/8Car] GTX
 STR_Group_H2_WJ_NAME                                   :[DTS] H2 by WOOJIN
-STR_H2_WJ_2Car_NAME                                    :[DTS] H2 by WOOJIN 2Car
-STR_H2_WJ_4Car_NAME                                    :[DTS] H2 by WOOJIN 4Car
-STR_Travel_8500_NAME                                   :[DTS] Travel 8500
+STR_H2_WJ_2Car_NAME                                    :[DTS/2Car] H2 by WOOJIN
+STR_H2_WJ_4Car_NAME                                    :[DTS/4Car] H2 by WOOJIN
+STR_Group_HEMU_430X_NAME                               :[DTS] HEMU-430X
+STR_HEMU_430X_6Car_NAME                                :[DTS/6Car] HEMU-430X
+STR_HEMU_430X_8Car_NAME                                :[DTS/8Car] HEMU-430X
+STR_Group_HSR_350X_NAME                                :[DTS] HSR-350X
+STR_HSR_350X_7Car_NAME                                 :[DTS/7Car] HSR-350X
+STR_HSR_350X_14Car_NAME                                :[DTS/14Car] HSR-350X
+STR_Group_ITX_CheongChun_NAME                          :[DTS] ITX-CheongChun
+STR_ITX_CheongChun_6Car_NAME                           :[DTS/6Car] ITX-CheongChun
+STR_ITX_CheongChun_8Car_NAME                           :[DTS/8Car] ITX-CheongChun
+STR_ITX_CheongChun_10Car_NAME                          :[DTS/10Car] ITX-CheongChun
+STR_ITX_Chowol_8Car_NAME                               :[DTS/8Car] ITX-Chowol
+STR_Group_ITX_Maum_NAME                                :[DTS] ITX-Maum
+STR_ITX_Maum_4Car_NAME                                 :[DTS/4Car] ITX-Maum
+STR_ITX_Maum_6Car_NAME                                 :[DTS/6Car] ITX-Maum
+STR_ITX_Maum_8Car_NAME                                 :[DTS/8Car] ITX-Maum
+STR_ITX_Maum_DD_6Car_NAME                              :[DTS/6Car] ITX-Maum DD
+STR_Group_ITX_Saemaeul_NAME                            :[DTS] ITX-Saemaeul
+STR_ITX_Saemaeul_6Car_NAME                             :[DTS/6Car] ITX-Saemaeul
+STR_ITX_Saemaeul_8Car_NAME                             :[DTS/8Car] ITX-Saemaeul
+STR_ITX_Saemaeul_DD_6Car_NAME                          :[DTS/6Car] ITX-Saemaeul DD
+STR_KTX_1_20Car_NAME                                   :[DTS/20Car] TGV-K
+STR_KTX_Eum_6Car_NAME                                  :[DTS/6Car] KTX-EUM
+STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6Car] KTX-EUM DD
+STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-Sancheon
+STR_KTX_Sancheon_10Car_NAME                            :[DTS/10Car] KTX-Sancheon, SRT
+STR_KTX_Sancheon_20Car_NAME                            :[DTS/20Car] KTX-Sancheon
+STR_KTX_Sancheon_DD_10Car_NAME                         :[DTS/10Car] KTX-Sancheon DD
+STR_Group_MEL_150_NAME                                 :[DTS] MEL-150
+STR_MEL_150_4Car_NAME                                  :[DTS/4Car] MEL-150
+STR_MEL_150_8Car_NAME                                  :[DTS/8Car] MEL-150
+STR_MEL_150_10Car_NAME                                 :[DTS/10Car] MEL-150
+STR_MEL_150_12Car_NAME                                 :[DTS/12Car] MEL-150
+STR_MSB_Speeder_NAME                                   :[DTS] MSB Speeder
 STR_NEL_8100_NAME                                      :[DTS] NEL 8100
 STR_NEL_8200_NAME                                      :[DTS] NEL 8200
-STR_Group_RDC_NAME                                     :[DTS] RDC Diesel Car
-STR_RDC_3Car_NAME                                      :[DTS] RDC Diesel Car 3Car
-STR_RDC_4Car_NAME                                      :[DTS] RDC Diesel Car 4Car
-STR_TTX_6Car_NAME                                      :[DTS] TTX 8Car
-STR_VHST_600X_8Car_NAME                                :[DTS] VHST-600X 8Car
-STR_MSB_Speeder_NAME                                   :[DTS] MSB Speeder
-STR_CRH1_8Car_NAME                                     :[DTS] CRH1A 8Car
-STR_CRH1E_16Car_NAME                                   :[DTS] CRH1E 16Car
-STR_CRH1A_A_8Car_NAME                                  :[DTS] CRH1A-A 8Car
+STR_Group_Nuriro_NAME                                  :[DTS] Korail 200000 series EMU (NURIRO)
+STR_Nuriro_4Car_NAME                                   :[DTS/4Car] Korail 200000 series EMU (NURIRO)
+STR_Nuriro_8Car_NAME                                   :[DTS/8Car] Korail 200000 series EMU (NURIRO)
+STR_Nuriro_DD_4Car_NAME                                :[DTS] Nuriro DD 4Car
+STR_Group_RDC_NAME                                     :[DTS] RDC Diesel
+STR_RDC_3Car_NAME                                      :[DTS/3Car] RDC Diesel
+STR_RDC_4Car_NAME                                      :[DTS/4Car] RDC Diesel
+STR_Travel_8500_NAME                                   :[DTS] Travel 8500
+STR_TTX_6Car_NAME                                      :[DTS/6Car] TTX
+STR_VHST_600X_8Car_NAME                                :[DTS/8Car] VHST-600X
+
+# Chinese / locomotive's name
+STR_CRH380AJ_8Car_NAME                                 :[DTS/8Car] CRH380AJ
+STR_Group_CR400AF_NAME                                 :[DTS] CR400AF
+STR_CR400AF_8Car_NAME                                  :[DTS/8Car] CR400AF
+STR_CR400AF_16Car_NAME                                 :[DTS/16Car] CR400AF
+STR_CR400AF_17Car_NAME                                 :[DTS/17Car] CR400AF
+STR_Group_CR400AF_Z_NAME                               :[DTS] CR400AF-Z
+STR_CR400AF_Z_8Car_NAME                                :[DTS/8Car] CR400AF-Z
+STR_CR400AF_Z_17Car_NAME                               :[DTS/17Car] CR400AF-Z
+STR_Group_CR400BF_NAME                                 :[DTS] CR400BF
+STR_CR400BF_8Car_NAME                                  :[DTS/8Car] CR400BF
+STR_CR400BF_16Car_NAME                                 :[DTS/16Car] CR400BF
+STR_CR400BF_17Car_NAME                                 :[DTS/17Car] CR400BF
+STR_CR400BF_C_8Car_NAME                                :[DTS/8Car] CR400BF-C
+STR_Group_CR400BF_Z_NAME                               :[DTS] CR400BF-Z
+STR_CR400BF_Z_8Car_NAME                                :[DTS/8Car] CR400BF-Z
+STR_CR400BF_Z_17Car_NAME                               :[DTS/17Car] CR400BF-Z
+STR_CRH1_8Car_NAME                                     :[DTS/8Car] CRH1A
+STR_CRH1A_A_8Car_NAME                                  :[DTS/8Car] CRH1A-A
+STR_CRH1E_16Car_NAME                                   :[DTS/16Car] CRH1E
+
 STR_CRH2_8Car_NAME                                     :[DTS] CRH2A 8Car
 STR_CRH2_16Car_NAME                                    :[DTS] CRH2B 16Car
 STR_CRH2C_8Car_NAME                                    :[DTS] CRH2C 8Car
 STR_CRH3_8Car_NAME                                     :[DTS] CRH3C 8Car
 STR_CRH380A_8Car_NAME                                  :[DTS] CRH380A 8Car
 STR_CRH380A_16Car_NAME                                 :[DTS] CRH380AL 16Car
-STR_CRH380AJ_8Car_NAME                                 :[DTS] CRH380AJ 8Car
+
 STR_CRH380B_8Car_NAME                                  :[DTS] CRH380B 8Car
 STR_CRH380B_16Car_NAME                                 :[DTS] CRH380B 16Car
 STR_CRH380C_16Car_NAME                                 :[DTS] CRH380CL 16Car
 STR_Group_CRH380D_NAME                                 :[DTS] CRH380D
 STR_CRH380D_8Car_NAME                                  :[DTS] CRH380D 8Car
 STR_CRH380D_16Car_NAME                                 :[DTS] CRH380D 16Car
-STR_Group_CR400AF_NAME                                 :[DTS] CR400AF
-STR_CR400AF_8Car_NAME                                  :[DTS] CR400AF 8Car
-STR_CR400AF_16Car_NAME                                 :[DTS] CR400AF 16Car
-STR_CR400AF_17Car_NAME                                 :[DTS] CR400AF 17Car
-STR_Group_CR400AF_Z_NAME                               :[DTS] CR400AF-Z
-STR_CR400AF_Z_8Car_NAME                                :[DTS] CR400AF-Z 8Car
-STR_CR400AF_Z_17Car_NAME                               :[DTS] CR400AF-Z 17Car
-STR_Group_CR400BF_NAME                                 :[DTS] CR400BF
-STR_CR400BF_8Car_NAME                                  :[DTS] CR400BF 8Car
-STR_CR400BF_16Car_NAME                                 :[DTS] CR400BF 16Car
-STR_CR400BF_17Car_NAME                                 :[DTS] CR400BF 17Car
-STR_CR400BF_C_8Car_NAME                                :[DTS] CR400BF-C 8Car
-STR_Group_CR400BF_Z_NAME                               :[DTS] CR400BF-Z
-STR_CR400BF_Z_8Car_NAME                                :[DTS] CR400BF-Z 8Car
-STR_CR400BF_Z_17Car_NAME                               :[DTS] CR400BF-Z 17Car
+
 STR_HXD3C_NAME                                         :[DTS] HXD3C
 STR_NJ2_NAME                                           :[DTS] NJ2
 STR_AGV_11Car_NAME                                     :[DTS] AGV (.italo) 11Car
@@ -787,6 +792,8 @@ STR_REFIT_LIVERY_Hankyu_8300_Cross_Seat                : Hankyu 8300 Cross Seat
 # Liveries wagon
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car                : Jeongseon Arirang Old Color
 STR_REFIT_LIVERY_JA_a_New_Passenger_Car                : Jeongseon Arirang New Color
+STR_REFIT_LIVERY_E_Train_Old_Passenger_Car             : E-Train Old
+STR_REFIT_LIVERY_E_Train_New_Passenger_Car             : E-Train New
 STR_REFIT_LIVERY_1MPassenger_Car                       : 1Passenger_Car
 STR_REFIT_LIVERY_2MPassenger_Car                       : 2Passenger_Car
 STR_REFIT_LIVERY_3MPassenger_Car                       : 3Passenger_Car

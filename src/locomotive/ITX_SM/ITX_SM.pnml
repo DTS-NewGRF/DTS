@@ -12,7 +12,7 @@ ITX-SC2
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ITX_SM, 2326){
     property {
-        name:                           string(STR_Group_ITX_SM_NAME);
+        name:                           string(STR_Group_ITX_Saemaeul_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -30,7 +30,7 @@ item(FEAT_TRAINS, ITX_SM, 2326){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ITX_SM_6Car, 2327){
     property {
-        name:                           string(STR_ITX_SM_6Car_NAME);
+        name:                           string(STR_ITX_Saemaeul_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2013, 1, 1);
         track_type:                     ELRL;
@@ -84,7 +84,7 @@ item(FEAT_TRAINS, ITX_SM_6Car, 2327){
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ITX_SM_8Car, 2328){
     property {
-        name:                           string(STR_ITX_SM_8Car_NAME);
+        name:                           string(STR_ITX_Saemaeul_8Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2013, 1, 1);
         track_type:                     ELRL;

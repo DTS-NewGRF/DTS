@@ -12,7 +12,7 @@ ITX-SC2
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ITX_SM2_6Car, 2013){
     property {
-        name:                           string(STR_ITX_SM2_6Car_NAME);
+        name:                           string(STR_ITX_Saemaeul_DD_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
