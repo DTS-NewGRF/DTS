@@ -1,14 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_HMX_purchase, "src/locomotive/HMX/HMX.png"){
-    tmpl_purchase(0, 0)
-}
-
-alternative_sprites(set_HMX_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HMX/HMX_32bpp.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
 1. HMX
 --------------------------------------------------------------------*/
@@ -42,6 +34,15 @@ alternative_sprites(set_HMX_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/lo
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_HMX_purchase, "src/locomotive/HMX/HMX.png"){
+    tmpl_purchase(0, 0)
+}
+
+alternative_sprites(set_HMX_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HMX/HMX_32bpp.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_HMX_purchase, cargo_subtype) {
     set_HMX_purchase;
 }

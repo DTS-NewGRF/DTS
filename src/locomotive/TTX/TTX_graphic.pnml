@@ -1,12 +1,8 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_TTX_purchase, "src/locomotive/TTX/TTX.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
-ITX-초월
+TTX
 --------------------------------------------------------------------*/
 spriteset(set_TTX_engineH, "src/locomotive/TTX/TTX.png"){
     engine(80, 0)
@@ -27,6 +23,11 @@ spriteset(set_TTX_engineT, "src/locomotive/TTX/TTX.png"){
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_TTX_purchase, "src/locomotive/TTX/TTX.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_TTX_purchase, cargo_subtype) {
     set_TTX_purchase;
 }

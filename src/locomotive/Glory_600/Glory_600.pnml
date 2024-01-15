@@ -8,6 +8,24 @@ Glory 600
 #include "Glory_600_switch.pnml"
 
 /*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Glory_600, 2369){
+    property {
+        name:                           string(STR_Group_Glory_600_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          20000 kW;
+        }
+
+    graphics {
+        purchase:                       sw_Glory_600_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Glory_600_8Car, 2133){
@@ -18,6 +36,7 @@ item(FEAT_TRAINS, Glory_600_8Car, 2133){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Glory_600;
         
         //spec
         speed:                          600km/h;
@@ -63,17 +82,18 @@ item(FEAT_TRAINS, Glory_600_8Car, 2133){
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Glory_430_10Car, 2321){
+item(FEAT_TRAINS, Glory_600_16Car, 2370){
     property {
-        name:                           string(STR_Glory_430_10Car_NAME);
+        name:                           string(STR_Glory_600_16Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2020, 1, 1);
+        introduction_date:              date(2030, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Glory_600;
         
         //spec
-        speed:                          430km/h;
+        speed:                          600km/h;
         power:                          20000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
@@ -103,10 +123,9 @@ item(FEAT_TRAINS, Glory_430_10Car, 2321){
         }
         
     graphics {
-        default:                        sw_Glory_430_10car;
-        articulated_part:               sw_articulated_Glory_430_10car;
-        purchase:                       sw_Glory_430_purchase;
-        speed:                          sw_Glory_430_speed;
+        default:                        sw_Glory_600_16car;
+        articulated_part:               sw_articulated_Glory_600_16car;
+        purchase:                       sw_Glory_600_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_CTX_purchase, "src/locomotive/CTX/CTX_FC_R.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
 Freight Car
 --------------------------------------------------------------------*/
@@ -58,6 +54,11 @@ spriteset(set_CTX_HC_R_engineT, "src/locomotive/CTX/CTX_HC_R.png"){
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_CTX_purchase, "src/locomotive/CTX/CTX_FC_R.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_CTX_purchase, cargo_subtype) {
     set_CTX_purchase;
 }

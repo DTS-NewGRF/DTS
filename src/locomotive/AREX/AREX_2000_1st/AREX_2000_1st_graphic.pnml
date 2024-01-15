@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_AREX_2000_1st_purchase, "src/locomotive/AREX/AREX_2000_1st/AREX_2000_1st.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
 APEX2000 1세대
 --------------------------------------------------------------------*/
@@ -35,6 +31,11 @@ spriteset(set_AREX_2000_1st_engineT, "src/locomotive/AREX/AREX_2000_1st/AREX_200
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_AREX_2000_1st_purchase, "src/locomotive/AREX/AREX_2000_1st/AREX_2000_1st.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_AREX_2000_1st_purchase, cargo_subtype) {
     set_AREX_2000_1st_purchase;
 }

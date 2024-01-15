@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_GT26CW_purchase, "src/locomotive/GT26CW/GT26CW.png"){
-    tmpl_single_purchase(0, 0)
-}
-
 spriteset(set_GT26CW_engine, "src/locomotive/GT26CW/GT26CW.png"){
     engine(80, 0)
 }
@@ -44,6 +40,43 @@ spriteset(set_GT26CW_G_engine, "src/locomotive/GT26CW/GT26CW.png"){
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_GT26CW_purchase, cargo_subtype) {
-	set_GT26CW_purchase;
+// 구매차량 그래픽
+spriteset(set_GT26CW_New_purchase, "src/locomotive/GT26CW/GT26CW.png"){
+    tmpl_single_purchase(0, 0)
 }
+
+spriteset(set_GT26CW_A_purchase, "src/locomotive/GT26CW/GT26CW.png"){
+    tmpl_single_purchase(0, 27)
+}
+
+spriteset(set_GT26CW_B_purchase, "src/locomotive/GT26CW/GT26CW.png"){
+    tmpl_single_purchase(0, 54)
+}
+
+spriteset(set_GT26CW_C_purchase, "src/locomotive/GT26CW/GT26CW.png"){
+    tmpl_single_purchase(0, 81)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_GT26CW_New_purchase, cargo_subtype) {
+    set_GT26CW_New_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_A_purchase, cargo_subtype) {
+    set_GT26CW_A_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_B_purchase, cargo_subtype) {
+    set_GT26CW_B_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_C_purchase, cargo_subtype) {
+    set_GT26CW_C_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_purchase, current_year) {
+    0..1985: sw_GT26CW_B_purchase;
+    1986..1993: sw_GT26CW_C_purchase;
+    1994..2004: sw_GT26CW_A_purchase;
+    sw_GT26CW_New_purchase;
+    }

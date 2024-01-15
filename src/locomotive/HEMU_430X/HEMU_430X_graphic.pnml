@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_HEMU_430X_purchase, "src/locomotive/HEMU_430X/HEMU_430X.png"){
-    tmpl_purchase(0, 0)
-}
-
 spriteset(set_HEMU_430X_engineH, "src/locomotive/HEMU_430X/HEMU_430X.png"){
     engine(80, 0)
 }
@@ -40,6 +36,11 @@ spriteset(set_HEMU_430X_engineT, "src/locomotive/HEMU_430X/HEMU_430X.png"){
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_HEMU_430X_purchase, "src/locomotive/HEMU_430X/HEMU_430X.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_HEMU_430X_purchase, cargo_subtype) {
     set_HEMU_430X_purchase;
 }

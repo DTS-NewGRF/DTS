@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_ITX_CheongChun_purchase, "src/locomotive/ITX_CheongChun/ITX_CheongChun.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
 ITX_CheongChun
 --------------------------------------------------------------------*/
@@ -110,6 +106,11 @@ spriteset(set_ITX_CheongChun_D_engineT, "src/locomotive/ITX_CheongChun/ITX_Cheon
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_ITX_CheongChun_purchase, "src/locomotive/ITX_CheongChun/ITX_CheongChun.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_ITX_CheongChun_purchase, cargo_subtype) {
     set_ITX_CheongChun_purchase;
 }

@@ -128,7 +128,7 @@ item(FEAT_TRAINS, DHC_PP_5Car, 2358){
     graphics {
         default:                        sw_DHC_PP_5Car_reversed;
         articulated_part:               sw_articulated_DHC_PP_5car;
-        purchase:                       sw_DHC_PP_purchase;
+        purchase:                       sw_DHC_PP_FF_purchase;
         speed:                          sw_DHC_PP_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -298,7 +298,7 @@ item(FEAT_TRAINS, DHC_PP_8Car, 2361){
     graphics {
         default:                        sw_DHC_PP_8Car_reversed;
         articulated_part:               sw_articulated_DHC_PP_8car;
-        purchase:                       sw_DHC_PP_purchase;
+        purchase:                       sw_DHC_PP_8Car_purchase;
         speed:                          sw_DHC_PP_speed;
         cargo_subtype_text:             sw_DHC_PP_8Car_cargo_subtype_text;
         cargo_capacity:                 sw_DHC_PP_8Car_capacity_in_custom;
@@ -355,7 +355,7 @@ item(FEAT_TRAINS, DHC_PP_14Car, 2362){
     graphics {
         default:                        sw_DHC_PP_14Car_reversed;
         articulated_part:               sw_articulated_DHC_PP_14car;
-        purchase:                       sw_DHC_PP_purchase;
+        purchase:                       sw_DHC_PP_OL_purchase;
         speed:                          sw_DHC_PP_speed;
         loading_speed:                  25;
         cost_factor:                    10;

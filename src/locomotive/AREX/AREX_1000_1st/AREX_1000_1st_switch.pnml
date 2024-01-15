@@ -7,15 +7,15 @@ switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_2006_cargo_subtype_text, cargo_subtyp
     return CB_RESULT_NO_TEXT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_2009_cargo_subtype_text, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_2020_cargo_subtype_text, cargo_subtype) {
     0: return string(STR_REFIT_LIVERY_AREX_1000_Old);
     1: return string(STR_REFIT_LIVERY_AREX_1000_New);
     return CB_RESULT_NO_TEXT;
 }
 
 switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_cargo_subtype_text, current_year) {
-    0..2008: sw_AREX_1000_1st_2006_cargo_subtype_text;
-    sw_AREX_1000_1st_2009_cargo_subtype_text;
+    0..2019: sw_AREX_1000_1st_2006_cargo_subtype_text;
+    sw_AREX_1000_1st_2020_cargo_subtype_text;
     }
 
 // 6량

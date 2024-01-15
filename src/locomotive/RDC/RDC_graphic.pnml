@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_RDC_purchase, "src/locomotive/RDC/RDC.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
 RDC
 --------------------------------------------------------------------*/
@@ -111,8 +107,118 @@ spriteset(set_RDC_PY2_engineT, "src/locomotive/RDC/RDC_Pohang_Yeongdeok2.png"){
 }
 
 /*--------------------------------------------------------------------
+RDC_RDC_Gyeongbuk Old
+--------------------------------------------------------------------*/
+spriteset(set_RDC_Gyeongbuk_engineH, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
+    engine(80, 0)
+}
+
+spriteset(set_RDC_Gyeongbuk_engineH_r, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
+    engine(80, 27)
+}
+
+spriteset(set_RDC_Gyeongbuk_wagon_M1, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_RDC_Gyeongbuk_wagon_M1_r, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_RDC_Gyeongbuk_wagon_M2, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_RDC_Gyeongbuk_wagon_M2_r, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_RDC_Gyeongbuk_engineT_r, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
+    engine(80, 108)
+}
+
+spriteset(set_RDC_Gyeongbuk_engineT, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+RDC_RDC_Gyeongbuk New
+--------------------------------------------------------------------*/
+spriteset(set_RDC_Gyeongbuk_New_engineH, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
+    engine(80, 0)
+}
+
+spriteset(set_RDC_Gyeongbuk_New_engineH_r, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
+    engine(80, 27)
+}
+
+spriteset(set_RDC_Gyeongbuk_New_wagon_M1, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_RDC_Gyeongbuk_New_wagon_M1_r, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_RDC_Gyeongbuk_New_wagon_M2, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_RDC_Gyeongbuk_New_wagon_M2_r, "src/locomotive/RDC/RDC_Gyeongbuk.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_RDC_Gyeongbuk_New_engineT_r, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
+    engine(80, 108)
+}
+
+spriteset(set_RDC_Gyeongbuk_New_engineT, "src/locomotive/RDC/RDC_Gyeongbuk.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+RDC_RDC_Gyeongbuk New 32bpp
+--------------------------------------------------------------------*/
+alternative_sprites(set_RDC_Gyeongbuk_New_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png"){
+    engine(80, 0)
+}
+
+alternative_sprites(set_RDC_Gyeongbuk_New_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png"){
+    engine(80, 27)
+}
+
+alternative_sprites(set_RDC_Gyeongbuk_New_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png") {
+    wagon_1F_F(80, 54)
+}
+
+alternative_sprites(set_RDC_Gyeongbuk_New_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+alternative_sprites(set_RDC_Gyeongbuk_New_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png") {
+    wagon_1F_F(80, 81)
+}
+
+alternative_sprites(set_RDC_Gyeongbuk_New_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+alternative_sprites(set_RDC_Gyeongbuk_New_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png"){
+    engine(80, 108)
+}
+
+alternative_sprites(set_RDC_Gyeongbuk_New_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/RDC/RDC_Gyeongbuk_New_32bpp.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_RDC_purchase, "src/locomotive/RDC/RDC.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_RDC_purchase, cargo_subtype) {
     set_RDC_purchase;
 }

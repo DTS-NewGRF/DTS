@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_AREX_2000_4th_purchase, "src/locomotive/AREX/AREX_2000_4th/AREX_2000_4th.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
 APEX20005 회사색상
 --------------------------------------------------------------------*/
@@ -31,6 +27,11 @@ spriteset(set_AREX_2000_4th_engineT, "src/locomotive/AREX/AREX_2000_4th/AREX_200
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_AREX_2000_4th_purchase, "src/locomotive/AREX/AREX_2000_4th/AREX_2000_4th.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_AREX_2000_4th_purchase, cargo_subtype) {
     set_AREX_2000_4th_purchase;
 }

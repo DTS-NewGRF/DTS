@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+ITX_Maum
+--------------------------------------------------------------------*/
+spriteset(set_ITX_Maum_engineH, "src/locomotive/ITX_Maum/ITX_Maum.png"){
+    engine(80, 0)
+}
+
+spriteset(set_ITX_Maum_panto_wagon_A, "src/locomotive/ITX_Maum/ITX_Maum.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_ITX_Maum_1F_wagon, "src/locomotive/ITX_Maum/ITX_Maum.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_ITX_Maum_2F_wagon, "src/locomotive/ITX_Maum/ITX_Maum.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_ITX_Maum_panto_wagon_B, "src/locomotive/ITX_Maum/ITX_Maum.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_ITX_Maum_engineT, "src/locomotive/ITX_Maum/ITX_Maum.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_ITX_Maum_purchase, "src/locomotive/ITX_Maum/ITX_Maum.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_purchase, cargo_subtype) {
+    set_ITX_Maum_purchase;
+}

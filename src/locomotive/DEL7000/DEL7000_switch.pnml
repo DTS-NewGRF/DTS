@@ -4,7 +4,7 @@
 switch(FEAT_TRAINS, SELF, sw_DEL7000_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_DEL7000_B);
     2: return string(STR_REFIT_LIVERY_DEL7000_C);
-    return string(STR_REFIT_LIVERY_DEL7000_A);    // 
+    return string(STR_REFIT_LIVERY_DEL7000_A);
 }
 
 switch(FEAT_TRAINS, SELF, sw_DEL7000_engine, cargo_subtype) {

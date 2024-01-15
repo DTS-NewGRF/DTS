@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Nuriro_purchase, "src/locomotive/Nuriro/Nuriro_Old.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
 Nuriro_Old
 --------------------------------------------------------------------*/
@@ -250,6 +246,11 @@ spriteset(set_Nuriro_DS_engineT, "src/locomotive/Nuriro/Nuriro_DS.png"){
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Nuriro_purchase, "src/locomotive/Nuriro/Nuriro_Old.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_Nuriro_purchase, cargo_subtype) {
     set_Nuriro_purchase;
 }

@@ -1,14 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_AREX_1000_New_1st_purchase, "src/locomotive/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
-    tmpl_purchase(0, 0)
-}
-
-spriteset(set_AREX_1000_Old_1st_purchase, "src/locomotive/AREX/AREX_1000_1st/AREX_1000_1st_Old.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
 APEX1000 1세대 구도색
 --------------------------------------------------------------------*/
@@ -66,6 +58,16 @@ spriteset(set_AREX_1000_1st_New_engineT, "src/locomotive/AREX/AREX_1000_1st/AREX
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_AREX_1000_New_1st_purchase, "src/locomotive/AREX/AREX_1000_1st/AREX_1000_1st_New.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_AREX_1000_Old_1st_purchase, "src/locomotive/AREX/AREX_1000_1st/AREX_1000_1st_Old.png"){
+    tmpl_purchase(0, 0)
+}
+
+// 구매차량 등장년도
 switch(FEAT_TRAINS, SELF, sw_AREX_1000_New_1st_purchase, cargo_subtype) {
     set_AREX_1000_New_1st_purchase;
 }
@@ -75,6 +77,6 @@ switch(FEAT_TRAINS, SELF, sw_AREX_1000_Old_1st_purchase, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_AREX_1000_1st_purchase, current_year) {
-    0..2008: sw_AREX_1000_Old_1st_purchase;
+    0..2019: sw_AREX_1000_Old_1st_purchase;
     sw_AREX_1000_New_1st_purchase;
     }

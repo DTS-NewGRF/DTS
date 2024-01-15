@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_MSB_Speeder_purchase, "src/locomotive/MSB_Speeder/MSB_Speeder.png"){
-    tmpl_purchase(0, 0)
-}
-
 spriteset(set_MSB_Speeder_engine, "src/locomotive/MSB_Speeder/MSB_Speeder.png"){
     engine_4length(80, 0)
 }
@@ -16,6 +12,11 @@ alternative_sprites(set_MSB_Speeder_engine, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_MSB_Speeder_purchase, "src/locomotive/MSB_Speeder/MSB_Speeder.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_MSB_Speeder_purchase, cargo_subtype) {
     set_MSB_Speeder_purchase;
 }

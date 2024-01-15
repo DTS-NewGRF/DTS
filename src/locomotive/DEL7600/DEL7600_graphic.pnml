@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_DEL7600_purchase, "src/locomotive/DEL7600/DEL7600.png"){
-    tmpl_single_purchase(0, 0)
-}
-
 spriteset(set_DEL7600_engine, "src/locomotive/DEL7600/DEL7600.png"){
     engine(80, 0)
 }
@@ -16,6 +12,11 @@ spriteset(set_DEL7600_A_Train_engine, "src/locomotive/DEL7600/DEL7600_A_Train.pn
 /*-------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_DEL7600_purchase, "src/locomotive/DEL7600/DEL7600.png"){
+    tmpl_single_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_DEL7600_purchase, cargo_subtype) {
 	set_DEL7600_purchase;
 }

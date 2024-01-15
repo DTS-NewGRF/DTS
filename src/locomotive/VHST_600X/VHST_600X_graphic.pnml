@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_VHST_600X_purchase, "src/locomotive/VHST_600X/VHST_600X.png"){
-    tmpl_purchase(0, 0)
-}
-
 spriteset(set_VHST_600X_engineH, "src/locomotive/VHST_600X/VHST_600X.png"){
     engine(80, 0)
 }
@@ -20,6 +16,11 @@ spriteset(set_VHST_600X_engineT, "src/locomotive/VHST_600X/VHST_600X.png"){
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_VHST_600X_purchase, "src/locomotive/VHST_600X/VHST_600X.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_VHST_600X_purchase, cargo_subtype) {
     set_VHST_600X_purchase;
 }

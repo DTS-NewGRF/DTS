@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_CDC_purchase, "src/locomotive/CDC/CDC_Old.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
 CDC Old
 --------------------------------------------------------------------*/
@@ -232,6 +228,25 @@ spriteset(set_CDC_DMZ_engineT, "src/locomotive/CDC/CDC_DMZ.png"){
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_CDC_purchase, cargo_subtype) {
-    set_CDC_purchase;
+// 구매차량 그래픽
+spriteset(set_CDC_Old_purchase, "src/locomotive/CDC/CDC_Old.png"){
+    tmpl_purchase(0, 0)
 }
+
+spriteset(set_CDC_New_purchase, "src/locomotive/CDC/CDC_New.png"){
+    tmpl_purchase(0, 0)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_CDC_Old_purchase, cargo_subtype) {
+    set_CDC_Old_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CDC_New_purchase, cargo_subtype) {
+    set_CDC_New_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CDC_purchase, current_year) {
+    0..2004: sw_CDC_Old_purchase;
+    sw_CDC_New_purchase;
+    }

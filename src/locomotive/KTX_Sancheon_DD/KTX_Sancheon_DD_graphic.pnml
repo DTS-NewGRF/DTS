@@ -1,0 +1,73 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+KTX_Sancheon_DD
+--------------------------------------------------------------------*/
+spriteset(set_KTX_Sancheon_DD_engineH, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
+    engine(80, 0)
+}
+
+spriteset(set_KTX_Sancheon_DD_engineH_r, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
+    engine(80, 27)
+}
+
+spriteset(set_KTX_Sancheon_DD_wagon_T1, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_KTX_Sancheon_DD_wagon_T1_r, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_KTX_Sancheon_DD_wagon_T2, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_KTX_Sancheon_DD_wagon_T2_r, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_KTX_Sancheon_DD_wagon_T3, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_KTX_Sancheon_DD_wagon_T3_r, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_KTX_Sancheon_DD_wagon_T4, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_KTX_Sancheon_DD_wagon_T4_r, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_KTX_Sancheon_DD_wagon_T5, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_KTX_Sancheon_DD_wagon_T5_r, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
+    wagon_1F_F_r(80, 162)
+}
+
+spriteset(set_KTX_Sancheon_DD_engineT_r, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
+    engine(80, 189)
+}
+
+spriteset(set_KTX_Sancheon_DD_engineT, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
+    engine(80, 216)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_KTX_Sancheon_DD_purchase, "src/locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_DD_purchase, cargo_subtype) {
+    set_KTX_Sancheon_DD_purchase;
+}
