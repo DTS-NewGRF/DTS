@@ -36,6 +36,7 @@ switch (FEAT_TRAINS, SELF, sw_articulated_AREX_2000_1st_6car, extra_callback_inf
 
 switch(FEAT_TRAINS, SELF, sw_AREX_2000_1st_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM1Kstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 

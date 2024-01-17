@@ -49,11 +49,13 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Nishitetsu_6050_4car, extra_callback_i
 
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6000_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/DCMOTERBASICstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Nishitetsu_6050_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/MITSUBISHIGTO1start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 

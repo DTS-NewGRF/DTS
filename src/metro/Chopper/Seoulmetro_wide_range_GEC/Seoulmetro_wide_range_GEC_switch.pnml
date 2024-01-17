@@ -127,6 +127,7 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_Wide_Range_GEC_chopper_10Ca
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_Wide_Range_GEC_chopper_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/GECCHOPPERstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 

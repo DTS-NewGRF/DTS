@@ -229,26 +229,31 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_3rd_VVVF_4000_10car, extra_
     
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_VVVF_2000_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/DAWONSYSIGBTstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_VVVF_4000_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM1Kstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_VVVF_5000_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_VVVF_7000_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/DAWONSYSIGBTstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_3rd_VVVF_8000_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTPMSMstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
     

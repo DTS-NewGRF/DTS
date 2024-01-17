@@ -33,6 +33,7 @@ switch (FEAT_TRAINS, SELF, sw_articulated_HEMU_430_8car, extra_callback_info1) {
     
 switch(FEAT_TRAINS, SELF, sw_HEMU_430_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM1Kstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 

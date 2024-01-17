@@ -614,11 +614,13 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_1st_VVVF_2000_3000_10car, e
 // 사운드
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_GTO_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/MITSUBISHIGTOKstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_IGBT_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/DAWONSYSIGBTstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
@@ -631,16 +633,19 @@ switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_1000_4000_sound, cargo_subtype)
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_2000_3000_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM1start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_5000_GTO_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/ABBGTOstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_5000_IGBT_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/DAWONSYSIGBTstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
@@ -651,11 +656,13 @@ switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_5000_sound, cargo_subtype) {
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_6000_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/MITSUBISHIigbtstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1st_VVVF_7000_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/ALSTOMGTOstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 

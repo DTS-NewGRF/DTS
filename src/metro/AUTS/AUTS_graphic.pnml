@@ -1,12 +1,8 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_AUTS_purchase, "src/metro/AUTS/AUTS.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
-1. AUTS
+AUTS
 --------------------------------------------------------------------*/
 spriteset(set_AUTS_engineH, "src/metro/AUTS/AUTS.png"){
     engine(80, 0)
@@ -43,6 +39,11 @@ spriteset(set_AUTS_engineT, "src/metro/AUTS/AUTS.png"){
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_AUTS_purchase, "src/metro/AUTS/AUTS.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_AUTS_purchase, cargo_subtype) {
     set_AUTS_purchase;
 }

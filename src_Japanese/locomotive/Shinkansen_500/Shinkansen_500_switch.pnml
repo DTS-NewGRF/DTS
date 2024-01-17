@@ -43,11 +43,13 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_500_16car, extra_callback_i
 
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_16Car_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAGTOJ2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_500_8Car_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTJ3start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 

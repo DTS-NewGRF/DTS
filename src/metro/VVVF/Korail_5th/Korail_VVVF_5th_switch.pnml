@@ -50,11 +50,13 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Korail_5th_VVVF_10car, extra_callback_
 
 switch(FEAT_TRAINS, SELF, sw_Korail_5th_VVVF1_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/WOOJINMITSUBISHIIGBTstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
     
 switch(FEAT_TRAINS, SELF, sw_Korail_5th_VVVF2_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/WOOJINMITSUBISHIIGBT2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 

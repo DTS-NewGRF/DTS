@@ -1210,16 +1210,19 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_20Car_length_in_custom, position_in_ve
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_A_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/KTXSCstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_B_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/KTXSC140000start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Sancheon_AB_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/KTXSCABstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
 
