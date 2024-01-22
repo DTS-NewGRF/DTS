@@ -1,5 +1,5 @@
-name: "[버그사항] 기본형 "
-description: DTS에 기본형 열차중에서 버그사항을 찾으셨습니까?
+name: "[버그사항]"
+description: DTS에 버그사항을 찾으셨습니까?
 title: "[버그]"
 labels: "bug"
 body:

@@ -7,7 +7,7 @@ STR_GRF_DESC                                           :다양성 열차 세트 
 STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS/releases
 
 # Deleted / locomotive's name
-STR_To_Be_Deleted_NAME                                 :[2024.2] 삭제예정
+STR_To_Be_Deleted_NAME                                 :[2024.2] {RED}삭제예정
 
 # Korea / locomotive's name
 STR_AREX_1000_1st_6Car_NAME                            :[DTS/6량] 공항철도 1000호대 1세대 전동차
@@ -402,20 +402,20 @@ STR_OBJ_BUFFER                                         :[DTS] 차막이
 STR_OBJ_BUFFER_Concrete                                :[DTS] 콘크리트 차막이
 STR_OBJ_BUFFER_pebble                                  :[DTS] 자갈 차막이
 STR_OBJ_BUFFER_signboard                               :[DTS] 표지판 차막이
-STR_OBJ_Building                                       :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Store_CU                              :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Store_GS25                            :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Store_Storyway                        :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Korean_Traditional_House              :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Train_Deport                          :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Train_Deport02                        :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Train_Deport03                        :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Train_Deport04                        :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Train_Deport05                        :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Flag                                           :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Flag_Korea                                     :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Pavement                                       :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Fountain                                       :[일정미정] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building                                       :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Store_CU                              :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Store_GS25                            :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Store_Storyway                        :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Korean_Traditional_House              :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Train_Deport                          :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Train_Deport02                        :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Train_Deport03                        :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Train_Deport04                        :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Building_Train_Deport05                        :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Flag                                           :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Flag_Korea                                     :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Pavement                                       :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
+STR_OBJ_Fountain                                       :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
 
 # Waypoint's name
 STR_Waypoint                                           :[DTS] 미사용 승강장
@@ -460,7 +460,7 @@ STR_PARAM_World_DESC                                   :월드형 열차를 사�
 STR_PARAM_Maintenance_NAME                             :유지보수차량 사용 금지
 STR_PARAM_Maintenance_DESC                             :유지보수차량 사용시 체크하세요. (기본:미사용)
 
-# Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
+# Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 {RED}(RED)
 STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}열차구성 {GREEN}[관광열차] 에코레일 객차
 STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}열차구성 {GREEN}[관광열차] 충북국악와인 객차
 STR_REFIT_train_configuration_JA_a_Passenger           :{BLACK}열차구성 {GREEN}[관광열차] 정선아리랑 유람열차

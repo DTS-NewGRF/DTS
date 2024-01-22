@@ -13,8 +13,8 @@
 item(FEAT_OBJECTS, DTS_Building_Store_CU, 1003) {
     property {
         class:                  "DBUD";
-        classname:              string(STR_OBJ_Building);
-        name:                   string(STR_OBJ_Building_Store_CU);
+        classname:              string(STR_To_Be_Deleted_NAME);
+        name:                   string(STR_To_Be_Deleted_NAME);
         climates_available:     ALL_CLIMATES;
         size:                   [1,1];
         build_cost_multiplier:  1;
