@@ -2,17 +2,17 @@
 Seoulmetro 2000 GEC chopper
 --------------------------------------------------------------------*/
 // Graphics
-#include "Seoulmetro_2000_GEC_graphic.pnml"
+#include "GEC_graphic.pnml"
 
 // Switch
-#include "Seoulmetro_2000_GEC_switch.pnml"
+#include "GEC_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2000_GEC_chopper, 2273){
+item(FEAT_TRAINS, Chopper_GEC, 2273){
     property {
-        name:                           string(STR_Group_Seoulmetro_2000_GEC_chopper_NAME);
+        name:                           string(STR_Group_GEC_chopper_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -21,22 +21,22 @@ item(FEAT_TRAINS, Seoulmetro_2000_GEC_chopper, 2273){
         }
 
     graphics {
-        purchase:                       sw_Seoulmetro_2000_GEC_chopper_purchase;
+        purchase:                       sw_Chopper_GEC_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2000_GEC_chopper_6Car, 2274){
+item(FEAT_TRAINS, Chopper_GEC_6Car, 2274){
     property {
-        name:                           string(STR_Seoulmetro_2000_GEC_chopper_6Car_NAME);
+        name:                           string(STR_GEC_chopper_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1983, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_2000_GEC_chopper;
+        variant_group:                  Chopper_GEC;
         
         //spec
         speed:                          120km/h;
@@ -68,29 +68,29 @@ item(FEAT_TRAINS, Seoulmetro_2000_GEC_chopper_6Car, 2274){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2000_GEC_chopper_6Car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_2000_GEC_chopper_6Car;
-        purchase:                       sw_Seoulmetro_2000_GEC_chopper_purchase;
-        speed:                          sw_Seoulmetro_2000_GEC_chopper_speed;
+        default:                        sw_Chopper_GEC_6Car_reversed;
+        articulated_part:               sw_articulated_Chopper_GEC_6Car;
+        purchase:                       sw_Chopper_GEC_purchase;
+        speed:                          sw_Chopper_GEC_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2000_GEC_chopper_sound;
+        sound_effect:                   sw_Chopper_GEC_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2000_GEC_chopper_10Car, 2275){
+item(FEAT_TRAINS, Chopper_GEC_10Car, 2275){
     property {
-        name:                           string(STR_Seoulmetro_2000_GEC_chopper_10Car_NAME);
+        name:                           string(STR_GEC_chopper_10Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1993, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_2000_GEC_chopper;
+        variant_group:                  Chopper_GEC;
         
         //spec
         speed:                          120km/h;
@@ -122,14 +122,14 @@ item(FEAT_TRAINS, Seoulmetro_2000_GEC_chopper_10Car, 2275){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2000_GEC_chopper_10Car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_2000_GEC_chopper_10Car;
-        purchase:                       sw_Seoulmetro_2000_GEC_chopper_purchase;
-        speed:                          sw_Seoulmetro_2000_GEC_chopper_speed;
+        default:                        sw_Chopper_GEC_10Car_reversed;
+        articulated_part:               sw_articulated_Chopper_GEC_10Car;
+        purchase:                       sw_Chopper_GEC_purchase;
+        speed:                          sw_Chopper_GEC_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Seoulmetro_2000_GEC_chopper_cargo_subtype_text;
-        sound_effect:                   sw_Seoulmetro_2000_GEC_chopper_sound;
+        cargo_subtype_text:             sw_Chopper_GEC_cargo_subtype_text;
+        sound_effect:                   sw_Chopper_GEC_sound;
         }
         }

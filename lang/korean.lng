@@ -220,6 +220,9 @@ STR_Talgo_350_SRO_14Car_NAME                           :[DTS/14량] 탈고 350 S
 
 # Korea / Metro's name
 STR_AUTS_6Car_NAME                                     :[DTS/6량] 차세대전동차
+STR_Group_GEC_chopper_NAME                             :[DTS] 서울교통공사 2000호대 GEC초퍼
+STR_GEC_chopper_6Car_NAME                              :[DTS/6량] 서울교통공사 2000호대 GEC초퍼
+STR_GEC_chopper_10Car_NAME                             :[DTS/10량] 서울교통공사 2000호대 GEC초퍼
 STR_Group_Korail_1st_VVVF_NAME                         :[DTS] 한국철도공사 1세대 VVVF 전동차
 STR_Korail_1st_VVVF_4Car_NAME                          :[DTS/4량] 한국철도공사 1세대
 STR_Korail_1st_VVVF_319K_4Car_GTO_NAME                 :[DTS/4량] 한국철도공사 1세대 319K GTO
@@ -305,9 +308,6 @@ STR_Group_Seoulmetro_2000_MELCO_chopper_NAME           :[DTS] 서울교통공사
 STR_Seoulmetro_2000_MELCO_chopper_4Car_NAME            :[DTS/4량] 서울교통공사 2000호대 멜코초퍼
 STR_Seoulmetro_2000_MELCO_chopper_6Car_NAME            :[DTS/6량] 서울교통공사 2000호대 멜코초퍼
 STR_Seoulmetro_2000_MELCO_chopper_10Car_NAME           :[DTS/10량] 서울교통공사 2000호대 멜코초퍼
-STR_Group_Seoulmetro_2000_GEC_chopper_NAME             :[DTS] 서울교통공사 2000호대 GEC초퍼
-STR_Seoulmetro_2000_GEC_chopper_6Car_NAME              :[DTS/6량] 서울교통공사 2000호대 GEC초퍼
-STR_Seoulmetro_2000_GEC_chopper_10Car_NAME             :[DTS/10량] 서울교통공사 2000호대 GEC초퍼
 STR_Group_Seoulmetro_Wide_Range_GEC_chopper_NAME       :[DTS] 서울교통공사 광폭형 GEC초퍼
 STR_Seoulmetro_Wide_Range_GEC_chopper_6Car_NAME        :[DTS/6량] 서울교통공사 광폭형 GEC초퍼
 STR_Seoulmetro_Wide_Range_GEC_chopper_10Car_NAME       :[DTS/10량] 서울교통공사 광폭형 GEC초퍼
@@ -681,6 +681,8 @@ STR_REFIT_LIVERY_HYEL_150_SB                           : HYEL-150 바다도색
 
 # Liveries metro
 STR_REFIT_LIVERY_AUTS                                  : AUTS
+STR_REFIT_LIVERY_Chopper_GEC_NoRheostatic              : 미개조
+STR_REFIT_LIVERY_Chopper_GEC_Rheostatic                : 개조
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat              : 한국 표준형 지하철 롱 시트
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat             : 한국 표준형 지하철 크로스 시트
 STR_REFIT_LIVERY_Korail_1st_VVVF_IGBT                  : 코레일 1세대 IGBT

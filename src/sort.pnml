@@ -3,8 +3,11 @@
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
     //지하철
-    Standard_Metro_4Car,                     //2006
     AUTS_6Car,                               //2007
+    Chopper_GEC,                             //2273
+    Chopper_GEC_6Car,                        //2274
+    Chopper_GEC_10Car,                       //2275
+    Standard_Metro_4Car,                     //2006    
     Korail_1st_VVVF,                         //2227
     Korail_1st_VVVF_4car,                    //2228
     Korail_1st_VVVF_GTO_4car,                //2229
@@ -90,9 +93,6 @@ sort(FEAT_TRAINS, [
     Seoulmetro_2000_MELCO_chopper_4Car,      //2270
     Seoulmetro_2000_MELCO_chopper_6Car,      //2271
     Seoulmetro_2000_MELCO_chopper_10Car,     //2272
-    Seoulmetro_2000_GEC_chopper,             //2273
-    Seoulmetro_2000_GEC_chopper_6Car,        //2274
-    Seoulmetro_2000_GEC_chopper_10Car,       //2275
     Seoulmetro_Wide_Range_GEC_chopper,       //2276
     Seoulmetro_Wide_Range_GEC_chopper_6Car,  //2277
     Seoulmetro_Wide_Range_GEC_chopper_10Car, //2278

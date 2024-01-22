@@ -4,6 +4,10 @@ Graphics
 /*--------------------------------------------------------------------
 1. 에코레일
 --------------------------------------------------------------------*/
+spriteset(set_Travel_purchase, "src\wagon\SPassenger_wagon\Travel_wagon\Travel_Group.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
 spriteset(set_Eco_Rail_wagon_purchase, "src\wagon\SPassenger_wagon\Travel_wagon\Eco_Rail_wagon.png"){
     tmpl_wagon_purchase(0, 0)
 }

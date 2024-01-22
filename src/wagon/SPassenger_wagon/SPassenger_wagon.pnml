@@ -123,7 +123,7 @@ item(FEAT_TRAINS, Travel_wagon, 2210){
         }
 
     graphics {
-        purchase:                       set_Eco_Rail_wagon_purchase;
+        purchase:                       set_Travel_purchase;
         }
         }
 
