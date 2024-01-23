@@ -89,11 +89,11 @@ sort(FEAT_TRAINS, [
     Seoulmetro_4th_VVVF_4000_10Car,          //2297
     Korail_5th_VVVF_10Car,                   //2239
     Seoulmetro_5th_VVVF_7000_8Car,           //2303
-    Rheostatic_Line1,                        //2240
-    Rheostatic_Line1_4Car,                   //2241
-    Rheostatic_Line1_6Car,                   //2242
-    Rheostatic_Line1_8Car,                   //2243
-    Rheostatic_Line1_10Car,                  //2244
+    Rheostatic_Line1,                        //3000
+    Rheostatic_Line1_4Car,                   //3001
+    Rheostatic_Line1_6Car,                   //3002
+    Rheostatic_Line1_8Car,                   //3003
+    Rheostatic_Line1_10Car,                  //3004
     Rheostatic_Line1_Second,                 //2248
     Rheostatic_Line1_Second_4Car,            //2249
     Rheostatic_Line1_Second_6Car,            //2250
