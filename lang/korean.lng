@@ -220,6 +220,7 @@ STR_Talgo_350_SRO_14Car_NAME                           :[DTS/14량] 탈고 350 S
 
 # Korea / Metro's name
 STR_AUTS_6Car_NAME                                     :[DTS/6량] 차세대전동차
+STR_Group_Seoulmetro_NAME                              :[DTS] 서울교통공사 전동차
 STR_Group_GEC_chopper_NAME                             :[DTS] 서울교통공사 2000호대 GEC초퍼
 STR_GEC_chopper_6Car_NAME                              :[DTS/6량] 서울교통공사 2000호대 GEC초퍼
 STR_GEC_chopper_10Car_NAME                             :[DTS/10량] 서울교통공사 2000호대 GEC초퍼

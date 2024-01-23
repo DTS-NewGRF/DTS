@@ -220,6 +220,7 @@ STR_THSR_700T_12Car_NAME                               :[DTS/12Car] THSR 700T
 
 # Korea / Metro's name
 STR_AUTS_6Car_NAME                                     :[DTS/6Car] AUTS
+STR_Group_Seoulmetro_NAME                              :[DTS] Seoulmetro Metro
 STR_Group_GEC_chopper_NAME                             :[DTS] Seoulmetro 2000 GEC chopper
 STR_GEC_chopper_6Car_NAME                              :[DTS/6Car] Seoulmetro 2000 GEC chopper
 STR_GEC_chopper_10Car_NAME                             :[DTS/10Car] Seoulmetro 2000 GEC chopper

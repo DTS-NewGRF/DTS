@@ -51,7 +51,7 @@
 
 //Metro
 #include "metro/AUTS/AUTS.pnml"
-#include "metro/Chopper/GEC/GEC.pnml"
+#include "metro/Seoulmetro/Seoulmetro.pnml"
 #include "metro/Chopper/Seoulmetro_2000_MELCO/Seoulmetro_2000_MELCO.pnml"
 #include "metro/Chopper/Seoulmetro_wide_range_GEC/Seoulmetro_wide_range_GEC.pnml"
 #include "metro/Rheostatic/Line1_First/Rheostatic_Line1.pnml"

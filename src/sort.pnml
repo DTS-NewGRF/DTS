@@ -4,6 +4,7 @@
 sort(FEAT_TRAINS, [
     //지하철
     AUTS_6Car,                               //2007
+    Seoulmetro,                              //2373
     Chopper_GEC,                             //2273
     Chopper_GEC_6Car,                        //2274
     Chopper_GEC_10Car,                       //2275

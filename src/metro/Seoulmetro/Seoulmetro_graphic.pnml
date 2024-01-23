@@ -1,0 +1,89 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽 8bpp
+spriteset(set_Seoulmetro_1974_purchase, "src/metro/Seoulmetro/Chopper/GEC/GEC_Rheostatic.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_Seoulmetro_1984_purchase, "src/metro/Seoulmetro/Chopper/GEC/GEC_Rheostatic.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_Seoulmetro_1994_purchase, "src/metro/Seoulmetro/Chopper/GEC/GEC_Rheostatic.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_Seoulmetro_2005_purchase, "src/metro/Seoulmetro/Chopper/GEC/GEC_Rheostatic.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_Seoulmetro_2012_purchase, "src/metro/Seoulmetro/Chopper/GEC/GEC_Rheostatic.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_Seoulmetro_2018_purchase, "src/metro/Seoulmetro/Chopper/GEC/GEC_Rheostatic.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+// 구매차량 그래픽 32bpp
+alternative_sprites(set_Seoulmetro_1974_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Seoulmetro/Seoulmetro_1974.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+alternative_sprites(set_Seoulmetro_1984_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Seoulmetro/Seoulmetro_1984.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+alternative_sprites(set_Seoulmetro_1994_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Seoulmetro/Seoulmetro_1994.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+alternative_sprites(set_Seoulmetro_2005_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Seoulmetro/Seoulmetro_2005.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+alternative_sprites(set_Seoulmetro_2012_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Seoulmetro/Seoulmetro_2012.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+alternative_sprites(set_Seoulmetro_2018_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Seoulmetro/Seoulmetro_2018.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1974_purchase, cargo_subtype) {
+    set_Seoulmetro_1974_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1984_purchase, cargo_subtype) {
+    set_Seoulmetro_1984_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_1994_purchase, cargo_subtype) {
+    set_Seoulmetro_1994_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2005_purchase, cargo_subtype) {
+    set_Seoulmetro_2005_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2012_purchase, cargo_subtype) {
+    set_Seoulmetro_2012_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2018_purchase, cargo_subtype) {
+    set_Seoulmetro_2018_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_purchase, current_year) {
+    0..1982: sw_Seoulmetro_1974_purchase;
+    1983..1992: sw_Seoulmetro_1984_purchase;
+    1993..2003: sw_Seoulmetro_1994_purchase;
+    2004..2010: sw_Seoulmetro_2005_purchase;
+    2011..2017: sw_Seoulmetro_2012_purchase;
+    sw_Seoulmetro_2018_purchase;
+    }

@@ -8,7 +8,7 @@ Seoulmetro 2000 GEC chopper
 #include "GEC_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보 그룹
+열차정보 그룹 Chopper
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, Chopper_GEC, 2273){
     property {
@@ -18,6 +18,7 @@ item(FEAT_TRAINS, Chopper_GEC, 2273){
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         power:                          2592 kW;
+        variant_group:                  Seoulmetro;
         }
 
     graphics {
