@@ -80,10 +80,10 @@ switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2018_purchase, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_purchase, current_year) {
-    0..1982: sw_Seoulmetro_1974_purchase;
-    1983..1992: sw_Seoulmetro_1984_purchase;
-    1993..2003: sw_Seoulmetro_1994_purchase;
-    2004..2010: sw_Seoulmetro_2005_purchase;
-    2011..2017: sw_Seoulmetro_2012_purchase;
+    0..1983: sw_Seoulmetro_1974_purchase;
+    1984..1993: sw_Seoulmetro_1984_purchase;
+    1994..2004: sw_Seoulmetro_1994_purchase;
+    2005..2011: sw_Seoulmetro_2005_purchase;
+    2012..2017: sw_Seoulmetro_2012_purchase;
     sw_Seoulmetro_2018_purchase;
     }

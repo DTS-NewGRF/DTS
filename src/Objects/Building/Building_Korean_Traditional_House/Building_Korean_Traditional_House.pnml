@@ -13,8 +13,8 @@
 item(FEAT_OBJECTS, DTS_Korean_Traditional_House01, 1017) {
     property {
         class:                  "DBUD";
-        classname:              string(STR_To_Be_Deleted_NAME);
-        name:                   string(STR_To_Be_Deleted_NAME);
+        classname:              string(STR_To_Be_Deleted_202403_NAME);
+        name:                   string(STR_To_Be_Deleted_202403_NAME);
         climates_available:     ALL_CLIMATES;
         size:                   [1,1];
         build_cost_multiplier:  1;
@@ -34,8 +34,8 @@ item(FEAT_OBJECTS, DTS_Korean_Traditional_House01, 1017) {
 item(FEAT_OBJECTS, DTS_Korean_Traditional_House02, 1018) {
     property {
         class:                  "DBUD";
-        classname:              string(STR_To_Be_Deleted_NAME);
-        name:                   string(STR_To_Be_Deleted_NAME);
+        classname:              string(STR_To_Be_Deleted_202403_NAME);
+        name:                   string(STR_To_Be_Deleted_202403_NAME);
         climates_available:     ALL_CLIMATES;
         size:                   [1,1];
         build_cost_multiplier:  1;
@@ -55,8 +55,8 @@ item(FEAT_OBJECTS, DTS_Korean_Traditional_House02, 1018) {
 item(FEAT_OBJECTS, DTS_Korean_Traditional_House03, 1019) {
     property {
         class:                  "DBUD";
-        classname:              string(STR_To_Be_Deleted_NAME);
-        name:                   string(STR_To_Be_Deleted_NAME);
+        classname:              string(STR_To_Be_Deleted_202403_NAME);
+        name:                   string(STR_To_Be_Deleted_202403_NAME);
         climates_available:     ALL_CLIMATES;
         size:                   [1,1];
         build_cost_multiplier:  1;
@@ -76,8 +76,8 @@ item(FEAT_OBJECTS, DTS_Korean_Traditional_House03, 1019) {
 item(FEAT_OBJECTS, DTS_Korean_Traditional_House04, 1020) {
     property {
         class:                  "DBUD";
-        classname:              string(STR_To_Be_Deleted_NAME);
-        name:                   string(STR_To_Be_Deleted_NAME);
+        classname:              string(STR_To_Be_Deleted_202403_NAME);
+        name:                   string(STR_To_Be_Deleted_202403_NAME);
         climates_available:     ALL_CLIMATES;
         size:                   [1,1];
         build_cost_multiplier:  1;
@@ -97,8 +97,8 @@ item(FEAT_OBJECTS, DTS_Korean_Traditional_House04, 1020) {
 item(FEAT_OBJECTS, DTS_Korean_Traditional_House05, 1021) {
     property {
         class:                  "DBUD";
-        classname:              string(STR_To_Be_Deleted_NAME);
-        name:                   string(STR_To_Be_Deleted_NAME);
+        classname:              string(STR_To_Be_Deleted_202403_NAME);
+        name:                   string(STR_To_Be_Deleted_202403_NAME);
         climates_available:     ALL_CLIMATES;
         size:                   [1,1];
         build_cost_multiplier:  1;
@@ -118,8 +118,8 @@ item(FEAT_OBJECTS, DTS_Korean_Traditional_House05, 1021) {
 item(FEAT_OBJECTS, DTS_Korean_Traditional_House06, 1022) {
     property {
         class:                  "DBUD";
-        classname:              string(STR_To_Be_Deleted_NAME);
-        name:                   string(STR_To_Be_Deleted_NAME);
+        classname:              string(STR_To_Be_Deleted_202403_NAME);
+        name:                   string(STR_To_Be_Deleted_202403_NAME);
         climates_available:     ALL_CLIMATES;
         size:                   [1,1];
         build_cost_multiplier:  1;
@@ -139,8 +139,8 @@ item(FEAT_OBJECTS, DTS_Korean_Traditional_House06, 1022) {
 item(FEAT_OBJECTS, DTS_Korean_Traditional_House07, 1023) {
     property {
         class:                  "DBUD";
-        classname:              string(STR_To_Be_Deleted_NAME);
-        name:                   string(STR_To_Be_Deleted_NAME);
+        classname:              string(STR_To_Be_Deleted_202403_NAME);
+        name:                   string(STR_To_Be_Deleted_202403_NAME);
         climates_available:     ALL_CLIMATES;
         size:                   [1,1];
         build_cost_multiplier:  1;
@@ -160,8 +160,8 @@ item(FEAT_OBJECTS, DTS_Korean_Traditional_House07, 1023) {
 item(FEAT_OBJECTS, DTS_Korean_Traditional_House08, 1024) {
     property {
         class:                  "DBUD";
-        classname:              string(STR_To_Be_Deleted_NAME);
-        name:                   string(STR_To_Be_Deleted_NAME);
+        classname:              string(STR_To_Be_Deleted_202403_NAME);
+        name:                   string(STR_To_Be_Deleted_202403_NAME);
         climates_available:     ALL_CLIMATES;
         size:                   [1,1];
         build_cost_multiplier:  1;
@@ -181,8 +181,8 @@ item(FEAT_OBJECTS, DTS_Korean_Traditional_House08, 1024) {
 item(FEAT_OBJECTS, DTS_Korean_Traditional_House09, 1025) {
     property {
         class:                  "DBUD";
-        classname:              string(STR_To_Be_Deleted_NAME);
-        name:                   string(STR_To_Be_Deleted_NAME);
+        classname:              string(STR_To_Be_Deleted_202403_NAME);
+        name:                   string(STR_To_Be_Deleted_202403_NAME);
         climates_available:     ALL_CLIMATES;
         size:                   [1,1];
         build_cost_multiplier:  1;
@@ -202,8 +202,8 @@ item(FEAT_OBJECTS, DTS_Korean_Traditional_House09, 1025) {
 item(FEAT_OBJECTS, DTS_Korean_Traditional_House10, 1026) {
     property {
         class:                  "DBUD";
-        classname:              string(STR_To_Be_Deleted_NAME);
-        name:                   string(STR_To_Be_Deleted_NAME);
+        classname:              string(STR_To_Be_Deleted_202403_NAME);
+        name:                   string(STR_To_Be_Deleted_202403_NAME);
         climates_available:     ALL_CLIMATES;
         size:                   [1,1];
         build_cost_multiplier:  1;

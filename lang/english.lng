@@ -8,6 +8,7 @@ STR_GRF_URL                                            :https://github.com/DTS-N
 
 # Deleted / locomotive's name
 STR_To_Be_Deleted_NAME                                 :[2024.2] {RED} To Be Deleted
+STR_To_Be_Deleted_202403_NAME                          :[2024.3] {RED} To Be Deleted
 
 # Korea / locomotive's name
 STR_AREX_1000_1st_6Car_NAME                            :[DTS/6Car] AREX series 1000 1st
@@ -231,6 +232,10 @@ STR_Chopper_MELCO_10Car_NAME                           :[DTS/10Car] Seoulmetro 2
 STR_Group_Chopper_Wide_Range_GEC_NAME                  :[DTS] Seoulmetro Wide Range GEC Chopper
 STR_Chopper_Wide_Range_GEC_6Car_NAME                   :[DTS/6Car] Seoulmetro Wide Range GEC Chopper
 STR_Chopper_Wide_Range_GEC_10Car_NAME                  :[DTS/10Car] Seoulmetro Wide Range GEC Chopper
+STR_Group_Seoulmetro_First_1000_NAME                   :[DTS] Seoulmetro Rheostatic [First]
+STR_Seoulmetro_First_1000_6Car_NAME                    :[DTS/6Car] Seoulmetro Rheostatic [First]
+STR_Seoulmetro_First_1000_10Car_NAME                   :[DTS/10Car] Seoulmetro Rheostatic [First]
+STR_Seoulmetro_Rheostatic_10Car_NAME                   :[DTS/10Car] Seoulmetro Rheostatic [Rheostatic]
 STR_Group_Rheostatic_2000_NAME                         :[DTS] Rheostatic 2000
 STR_Rheostatic_2000_4Car_NAME                          :[DTS/4Car] Rheostatic 2000
 STR_Rheostatic_2000_6Car_NAME                          :[DTS/6Car] Rheostatic 2000
@@ -491,6 +496,7 @@ STR_REFIT_train_configuration_Coach_Last               :{BLACK}train configurati
 
 # Deleted / Liveries
 STR_REFIT_LIVERY_To_Be_Deleted                         : To Be Deleted 2024.2
+STR_REFIT_LIVERY_To_Be_Deleted_202403                  : To Be Deleted 2024.3
 
 # Korea / Liveries locomotive
 STR_REFIT_LIVERY_AREX_1000_Old                         : Old
@@ -691,6 +697,10 @@ STR_REFIT_LIVERY_Chopper_MELCO_NoRheostatic            : NoRheostatic
 STR_REFIT_LIVERY_Chopper_MELCO_Rheostatic              : Rheostatic
 STR_REFIT_LIVERY_Chopper_Wide_Range_GEC_NoRheostatic   : NoRheostatic (2000,3000,4000)
 STR_REFIT_LIVERY_Chopper_Wide_Range_GEC_Rheostatic     : Rheostatic (3000)
+STR_REFIT_LIVERY_Seoulmetro_First_S1000                : NoAircon
+STR_REFIT_LIVERY_Seoulmetro_First_Aircon               : Aircon
+STR_REFIT_LIVERY_Seoulmetro_Rheostatic_S1000           : Rheostatic livery
+STR_REFIT_LIVERY_Seoulmetro_Rheostatic_1011F           : Rheostatic 1011F livery
 STR_REFIT_LIVERY_Rheostatic_2000_NoRheostatic          : NoRheostatic
 STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic            : Rheostatic
 STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic_A          : Rheostatic A

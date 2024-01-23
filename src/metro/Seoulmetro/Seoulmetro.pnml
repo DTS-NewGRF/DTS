@@ -28,4 +28,6 @@ item(FEAT_TRAINS, Seoulmetro, 2373){
 #include "Chopper/GEC/GEC.pnml"
 #include "Chopper/MELCO/MELCO.pnml"
 #include "Chopper/Wide_Range_GEC/Wide_Range_GEC.pnml"
+#include "Rheostatic/Rheostatic_1000/Seoulmetro_First/Seoulmetro_First.pnml"
+#include "Rheostatic/Rheostatic_1000/Seoulmetro_Rheostatic/Seoulmetro_Rheostatic.pnml"
 #include "Rheostatic/Rheostatic_2000/Rheostatic_2000.pnml"

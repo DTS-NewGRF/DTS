@@ -13,8 +13,8 @@
 item(FEAT_OBJECTS, DTS_Fountain, 1016) {
     property {
         class:                  "DFOU";
-        classname:              string(STR_To_Be_Deleted_NAME);
-        name:                   string(STR_To_Be_Deleted_NAME);
+        classname:              string(STR_To_Be_Deleted_202403_NAME);
+        name:                   string(STR_To_Be_Deleted_202403_NAME);
         climates_available:     ALL_CLIMATES;
         size:                   [1,1];
         build_cost_multiplier:  1;

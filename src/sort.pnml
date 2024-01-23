@@ -15,6 +15,10 @@ sort(FEAT_TRAINS, [
     Chopper_Wide_Range_GEC,                  //2276
     Chopper_Wide_Range_GEC_6Car,             //2277
     Chopper_Wide_Range_GEC_10Car,            //2278
+    Seoulmetro_First_1000,                   //2374
+    Seoulmetro_First_1000_6Car,              //2375
+    Seoulmetro_First_1000_10Car,             //2376
+    Seoulmetro_Rheostatic_10Car,             //2377
     Rheostatic_2000,                         //2265
     Rheostatic_2000_4Car,                    //2266
     Rheostatic_2000_6Car,                    //2267

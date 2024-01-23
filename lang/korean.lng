@@ -8,6 +8,7 @@ STR_GRF_URL                                            :https://github.com/DTS-N
 
 # Deleted / locomotive's name
 STR_To_Be_Deleted_NAME                                 :[2024.2] {RED}삭제예정
+STR_To_Be_Deleted_202403_NAME                          :[2024.3] {RED}삭제예정
 
 # Korea / locomotive's name
 STR_AREX_1000_1st_6Car_NAME                            :[DTS/6량] 공항철도 1000호대 1세대 전동차
@@ -231,6 +232,10 @@ STR_Chopper_MELCO_10Car_NAME                           :[DTS/10량] 서울교통
 STR_Group_Chopper_Wide_Range_GEC_NAME                  :[DTS] 서울교통공사 광폭형 GEC초퍼
 STR_Chopper_Wide_Range_GEC_6Car_NAME                   :[DTS/6량] 서울교통공사 광폭형 GEC초퍼
 STR_Chopper_Wide_Range_GEC_10Car_NAME                  :[DTS/10량] 서울교통공사 광폭형 GEC초퍼
+STR_Group_Seoulmetro_First_1000_NAME                   :[DTS] 서울교통공사 저항제어 전동차 [초기저항]
+STR_Seoulmetro_First_1000_6Car_NAME                    :[DTS/6량] 서울교통공사 저항제어 전동차 [초기저항]
+STR_Seoulmetro_First_1000_10Car_NAME                   :[DTS/10량] 서울교통공사 저항제어 전동차 [초기저항]
+STR_Seoulmetro_Rheostatic_10Car_NAME                   :[DTS/10량] 서울교통공사 저항제어 전동차 [개조저항]
 STR_Group_Rheostatic_2000_NAME                         :[DTS] 서울교통공사 2000호대 저항제어 전동차
 STR_Rheostatic_2000_4Car_NAME                          :[DTS/4량] 서울교통공사 2000호대 저항제어 전동차
 STR_Rheostatic_2000_6Car_NAME                          :[DTS/6량] 서울교통공사 2000호대 저항제어 전동차
@@ -487,7 +492,8 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}열차구성 {GRE
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}열차구성 {GREEN}객차형 승객 차량용
 
 # Deleted / Liveries locomotive
-STR_REFIT_LIVERY_To_Be_Deleted                         : 2월 삭제예정
+STR_REFIT_LIVERY_To_Be_Deleted                         : 2024년 2월 삭제예정
+STR_REFIT_LIVERY_To_Be_Deleted_202403                  : 2024년 3월 삭제예정
 
 # Korea / Liveries locomotive
 STR_REFIT_LIVERY_AREX_1000_Old                         : 구도색
@@ -688,6 +694,10 @@ STR_REFIT_LIVERY_Chopper_MELCO_NoRheostatic            : 미개조
 STR_REFIT_LIVERY_Chopper_MELCO_Rheostatic              : 개조
 STR_REFIT_LIVERY_Chopper_Wide_Range_GEC_NoRheostatic   : 미개조 (2000,3000,4000)
 STR_REFIT_LIVERY_Chopper_Wide_Range_GEC_Rheostatic     : 개조 (3000)
+STR_REFIT_LIVERY_Seoulmetro_First_S1000                : 비냉방
+STR_REFIT_LIVERY_Seoulmetro_First_Aircon               : 냉방
+STR_REFIT_LIVERY_Seoulmetro_Rheostatic_S1000           : 개조저항
+STR_REFIT_LIVERY_Seoulmetro_Rheostatic_1011F           : 1011F
 STR_REFIT_LIVERY_Rheostatic_2000_NoRheostatic          : 미개조
 STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic            : 개조
 STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic_A          : 개조

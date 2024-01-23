@@ -147,73 +147,14 @@ spriteset(set_Korail_K1000_Old_engineT, "src/metro/Rheostatic/Line1_First/Korail
 }
 
 /*--------------------------------------------------------------------
-초기저항 서울지하철공사 도색 [비냉방]
+초기저항 서울지하철공사 도색 삭제 이미지.
 --------------------------------------------------------------------*/
-spriteset(set_S1000_engineH, "src/metro/Rheostatic/Line1_First/S1000.png"){
-    engine(80, 0)
+spriteset(set_S1000_Delete_A, "Deleted_Train_Image.png"){
+    wagon_1F_F(80, 0)
 }
 
-spriteset(set_S1000_engineH_r, "src/metro/Rheostatic/Line1_First/S1000.png"){
-    engine(80, 27)
-}
-
-spriteset(set_S1000_wagon, "src/metro/Rheostatic/Line1_First/S1000.png"){
-    wagon_1F_F(80, 54)
-}
-
-spriteset(set_S1000_wagon_r, "src/metro/Rheostatic/Line1_First/S1000.png"){
-    wagon_1F_F_r(80, 54)
-}
-
-spriteset(set_S1000_panto_wagon, "src/metro/Rheostatic/Line1_First/S1000.png"){
-    wagon_1F_F(80, 81)
-}
-
-spriteset(set_S1000_panto_wagon_r, "src/metro/Rheostatic/Line1_First/S1000.png"){
-    wagon_1F_F_r(80, 81)
-}
-
-spriteset(set_S1000_engineT_r, "src/metro/Rheostatic/Line1_First/S1000.png"){
-    engine(80, 108)
-}
-
-spriteset(set_S1000_engineT, "src/metro/Rheostatic/Line1_First/S1000.png"){
-    engine(80, 135)
-}
-
-/*--------------------------------------------------------------------
-초기저항 서울지하철공사 도색 [냉방개조]
---------------------------------------------------------------------*/
-spriteset(set_S1000_Aircon_engineH, "src/metro/Rheostatic/Line1_First/S1000_Aircon.png"){
-    engine(80, 0)
-}
-
-spriteset(set_S1000_Aircon_engineH_r, "src/metro/Rheostatic/Line1_First/S1000_Aircon.png"){
-    engine(80, 27)
-}
-
-spriteset(set_S1000_Aircon_M_wagon, "src/metro/Rheostatic/Line1_First/S1000_Aircon.png"){
-    wagon_1F_F(80, 54)
-}
-
-spriteset(set_S1000_Aircon_M_wagon_r, "src/metro/Rheostatic/Line1_First/S1000_Aircon.png"){
-    wagon_1F_F_r(80, 54)
-}
-
-spriteset(set_S1000_Aircon_M_panto_wagon, "src/metro/Rheostatic/Line1_First/S1000_Aircon.png"){
-    wagon_1F_F(80, 81)
-}
-
-spriteset(set_S1000_Aircon_M_panto_wagon_r, "src/metro/Rheostatic/Line1_First/S1000_Aircon.png"){
-    wagon_1F_F_r(80, 81)
-}
-
-spriteset(set_S1000_Aircon_engineT_r, "src/metro/Rheostatic/Line1_First/S1000_Aircon.png"){
-    engine(80, 108)
-}
-
-spriteset(set_S1000_Aircon_engineT, "src/metro/Rheostatic/Line1_First/S1000_Aircon.png"){
-    engine(80, 135)
+spriteset(set_S1000_Delete_B, "Deleted_Train_Image.png"){
+    wagon_1F_F(80, 27)
 }
 
 /*--------------------------------------------------------------------

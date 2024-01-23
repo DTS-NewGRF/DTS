@@ -57,62 +57,14 @@ spriteset(set_Rheostatic_K1000_engineT_TC2B, "src/metro/Rheostatic/Line1_Rheosta
 }
 
 /*--------------------------------------------------------------------
-S1000
+개조저항 서울지하철공사 도색 삭제 이미지.
 --------------------------------------------------------------------*/
-spriteset(set_Rheostatic_S1000_engineH, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    engine(80, 0)
+spriteset(set_RS1000_Delete_A, "Deleted_Train_Image.png"){
+    wagon_1F_F(80, 0)
 }
 
-spriteset(set_Rheostatic_S1000_engineH_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    engine(80, 27)
-}
-
-spriteset(set_Rheostatic_S1000_wagon_MA_T, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    wagon_1F_F(80, 54)
-}
-
-spriteset(set_Rheostatic_S1000_wagon_MA_T_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    wagon_1F_F_r(80, 54)
-}
-
-spriteset(set_Rheostatic_S1000_panto_wagon_A, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    wagon_1F_F(80, 81)
-}
-
-spriteset(set_Rheostatic_S1000_panto_wagon_A_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    wagon_1F_F_r(80, 81)
-}
-
-spriteset(set_Rheostatic_S1000_wagon_MB, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    wagon_1F_F(80, 108)
-}
-
-spriteset(set_Rheostatic_S1000_wagon_MB_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    wagon_1F_F_r(80, 108)
-}
-
-spriteset(set_Rheostatic_S1000_panto_wagon_B, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    wagon_1F_F(80, 135)
-}
-
-spriteset(set_Rheostatic_S1000_panto_wagon_B_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    wagon_1F_F_r(80, 135)
-}
-
-spriteset(set_Rheostatic_S1000_engineT_TCA_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    engine(80, 162)
-}
-
-spriteset(set_Rheostatic_S1000_engineT_TCA, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    engine(80, 189)
-}
-
-spriteset(set_Rheostatic_S1000_engineT_TCB_r, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    engine(80, 216)
-}
-
-spriteset(set_Rheostatic_S1000_engineT_TCB, "src/metro/Rheostatic/Line1_Rheostatic/S1000.png"){
-    engine(80, 243)
+spriteset(set_RS1000_Delete_B, "Deleted_Train_Image.png"){
+    wagon_1F_F(80, 27)
 }
 
 /*--------------------------------------------------------------------
