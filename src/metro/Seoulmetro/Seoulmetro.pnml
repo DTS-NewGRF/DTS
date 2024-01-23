@@ -26,3 +26,6 @@ item(FEAT_TRAINS, Seoulmetro, 2373){
 열차 리스트
 --------------------------------------------------------------------*/
 #include "Chopper/GEC/GEC.pnml"
+#include "Chopper/MELCO/MELCO.pnml"
+#include "Chopper/Wide_Range_GEC/Wide_Range_GEC.pnml"
+#include "Rheostatic/Rheostatic_2000/Rheostatic_2000.pnml"

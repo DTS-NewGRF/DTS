@@ -221,9 +221,20 @@ STR_Talgo_350_SRO_14Car_NAME                           :[DTS/14량] 탈고 350 S
 # Korea / Metro's name
 STR_AUTS_6Car_NAME                                     :[DTS/6량] 차세대전동차
 STR_Group_Seoulmetro_NAME                              :[DTS] 서울교통공사 전동차
-STR_Group_GEC_chopper_NAME                             :[DTS] 서울교통공사 2000호대 GEC초퍼
-STR_GEC_chopper_6Car_NAME                              :[DTS/6량] 서울교통공사 2000호대 GEC초퍼
-STR_GEC_chopper_10Car_NAME                             :[DTS/10량] 서울교통공사 2000호대 GEC초퍼
+STR_Group_Chopper_GEC_NAME                             :[DTS] 서울교통공사 2000호대 GEC초퍼
+STR_Chopper_GEC_6Car_NAME                              :[DTS/6량] 서울교통공사 2000호대 GEC초퍼
+STR_Chopper_GEC_10Car_NAME                             :[DTS/10량] 서울교통공사 2000호대 GEC초퍼
+STR_Group_Chopper_MELCO_NAME                           :[DTS] 서울교통공사 2000호대 멜코초퍼
+STR_Chopper_MELCO_4Car_NAME                            :[DTS/4량] 서울교통공사 2000호대 멜코초퍼
+STR_Chopper_MELCO_6Car_NAME                            :[DTS/6량] 서울교통공사 2000호대 멜코초퍼
+STR_Chopper_MELCO_10Car_NAME                           :[DTS/10량] 서울교통공사 2000호대 멜코초퍼
+STR_Group_Chopper_Wide_Range_GEC_NAME                  :[DTS] 서울교통공사 광폭형 GEC초퍼
+STR_Chopper_Wide_Range_GEC_6Car_NAME                   :[DTS/6량] 서울교통공사 광폭형 GEC초퍼
+STR_Chopper_Wide_Range_GEC_10Car_NAME                  :[DTS/10량] 서울교통공사 광폭형 GEC초퍼
+STR_Group_Rheostatic_2000_NAME                         :[DTS] 서울교통공사 2000호대 저항제어 전동차
+STR_Rheostatic_2000_4Car_NAME                          :[DTS/4량] 서울교통공사 2000호대 저항제어 전동차
+STR_Rheostatic_2000_6Car_NAME                          :[DTS/6량] 서울교통공사 2000호대 저항제어 전동차
+STR_Rheostatic_2000_10Car_NAME                         :[DTS/10량] 서울교통공사 2000호대 저항제어 전동차
 STR_Group_Korail_1st_VVVF_NAME                         :[DTS] 한국철도공사 1세대 VVVF 전동차
 STR_Korail_1st_VVVF_4Car_NAME                          :[DTS/4량] 한국철도공사 1세대
 STR_Korail_1st_VVVF_319K_4Car_GTO_NAME                 :[DTS/4량] 한국철도공사 1세대 319K GTO
@@ -301,17 +312,6 @@ STR_Seoulmetro_4th_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통�
 STR_Seoulmetro_4th_VVVF_2000_10Car_NAME                :[DTS/10량] 서울교통공사 4세대 2000호대 전동차
 STR_Seoulmetro_4th_VVVF_4000_10Car_NAME                :[DTS/10량] 서울교통공사 4세대 4000호대 전동차
 STR_Seoulmetro_5th_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 5세대 7000호대 전동차
-STR_Group_Seoulmetro_2000_Rheostatic_NAME              :[DTS] 서울교통공사 2000호대 저항제어 전동차
-STR_Seoulmetro_2000_Rheostatic_4Car_NAME               :[DTS/4량] 서울교통공사 2000호대 저항제어 전동차
-STR_Seoulmetro_2000_Rheostatic_6Car_NAME               :[DTS/6량] 서울교통공사 2000호대 저항제어 전동차
-STR_Seoulmetro_2000_Rheostatic_10Car_NAME              :[DTS/10량] 서울교통공사 2000호대 저항제어 전동차
-STR_Group_Seoulmetro_2000_MELCO_chopper_NAME           :[DTS] 서울교통공사 2000호대 멜코초퍼
-STR_Seoulmetro_2000_MELCO_chopper_4Car_NAME            :[DTS/4량] 서울교통공사 2000호대 멜코초퍼
-STR_Seoulmetro_2000_MELCO_chopper_6Car_NAME            :[DTS/6량] 서울교통공사 2000호대 멜코초퍼
-STR_Seoulmetro_2000_MELCO_chopper_10Car_NAME           :[DTS/10량] 서울교통공사 2000호대 멜코초퍼
-STR_Group_Seoulmetro_Wide_Range_GEC_chopper_NAME       :[DTS] 서울교통공사 광폭형 GEC초퍼
-STR_Seoulmetro_Wide_Range_GEC_chopper_6Car_NAME        :[DTS/6량] 서울교통공사 광폭형 GEC초퍼
-STR_Seoulmetro_Wide_Range_GEC_chopper_10Car_NAME       :[DTS/10량] 서울교통공사 광폭형 GEC초퍼
 STR_Standard_Metro_4Car_NAME                           :[DTS/4량] 한국형 표준전동차
 
 # Hong Kong / Metro's name
@@ -684,6 +684,15 @@ STR_REFIT_LIVERY_HYEL_150_SB                           : HYEL-150 바다도색
 STR_REFIT_LIVERY_AUTS                                  : AUTS
 STR_REFIT_LIVERY_Chopper_GEC_NoRheostatic              : 미개조
 STR_REFIT_LIVERY_Chopper_GEC_Rheostatic                : 개조
+STR_REFIT_LIVERY_Chopper_MELCO_NoRheostatic            : 미개조
+STR_REFIT_LIVERY_Chopper_MELCO_Rheostatic              : 개조
+STR_REFIT_LIVERY_Chopper_Wide_Range_GEC_NoRheostatic   : 미개조 (2000,3000,4000)
+STR_REFIT_LIVERY_Chopper_Wide_Range_GEC_Rheostatic     : 개조 (3000)
+STR_REFIT_LIVERY_Rheostatic_2000_NoRheostatic          : 미개조
+STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic            : 개조
+STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic_A          : 개조
+STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic_B          : 개조 (정사각형 출입문)
+STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic_C          : 개조 (GEC초퍼 무동력 객차)
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat              : 한국 표준형 지하철 롱 시트
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat             : 한국 표준형 지하철 크로스 시트
 STR_REFIT_LIVERY_Korail_1st_VVVF_IGBT                  : 코레일 1세대 IGBT
@@ -771,13 +780,6 @@ STR_REFIT_LIVERY_Line1_Rheostatic_K1000_A              : 코레일 개조저항 
 STR_REFIT_LIVERY_Line1_Rheostatic_K1000_B              : 코레일 개조저항 B
 STR_REFIT_LIVERY_Line1_Rheostatic_S1000                : 서울교통공사 개조저항
 STR_REFIT_LIVERY_Line1_Rheostatic_S1000_1011F          : 서울교통공사 개조저항 1011F
-STR_REFIT_LIVERY_Seoulmetro_2000_NoRheostatic          : 미개조
-STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic            : 개조
-STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic_A          : 개조
-STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic_B          : 개조 (정사각형 출입문)
-STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic_C          : 개조 (GEC초퍼 무동력 객차)
-STR_REFIT_LIVERY_Seoulmetro_Wide_NoRheostatic          : 미개조 (2000,3000,4000)
-STR_REFIT_LIVERY_Seoulmetro_Wide_Rheostatic            : 개조 (3000)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express    : MTR AD Tranz CAF A Type Airport Express
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung         : MTR AD Tranz CAF A Type Tung Chung
 STR_REFIT_LIVERY_MTR_DC_Cammall                        : MTR 메트로카멜 직류형 미개조형

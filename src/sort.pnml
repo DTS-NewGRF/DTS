@@ -8,7 +8,18 @@ sort(FEAT_TRAINS, [
     Chopper_GEC,                             //2273
     Chopper_GEC_6Car,                        //2274
     Chopper_GEC_10Car,                       //2275
-    Standard_Metro_4Car,                     //2006    
+    Chopper_MELCO,                           //2269
+    Chopper_MELCO_4Car,                      //2270
+    Chopper_MELCO_6Car,                      //2271
+    Chopper_MELCO_10Car,                     //2272
+    Chopper_Wide_Range_GEC,                  //2276
+    Chopper_Wide_Range_GEC_6Car,             //2277
+    Chopper_Wide_Range_GEC_10Car,            //2278
+    Rheostatic_2000,                         //2265
+    Rheostatic_2000_4Car,                    //2266
+    Rheostatic_2000_6Car,                    //2267
+    Rheostatic_2000_10Car,                   //2268
+    Standard_Metro_4Car,                     //2006
     Korail_1st_VVVF,                         //2227
     Korail_1st_VVVF_4car,                    //2228
     Korail_1st_VVVF_GTO_4car,                //2229
@@ -86,17 +97,6 @@ sort(FEAT_TRAINS, [
     Rheostatic_Line1_Second_10Car,           //2252
     Rheostatic_Line1_Third_10Car,            //2253
     Rheostatic_Line1_Rheostatic_10Car,       //2254
-    Seoulmetro_2000_Rheostatic,              //2265
-    Seoulmetro_2000_Rheostatic_4Car,         //2266
-    Seoulmetro_2000_Rheostatic_6Car,         //2267
-    Seoulmetro_2000_Rheostatic_10Car,        //2268
-    Seoulmetro_2000_MELCO_chopper,           //2269
-    Seoulmetro_2000_MELCO_chopper_4Car,      //2270
-    Seoulmetro_2000_MELCO_chopper_6Car,      //2271
-    Seoulmetro_2000_MELCO_chopper_10Car,     //2272
-    Seoulmetro_Wide_Range_GEC_chopper,       //2276
-    Seoulmetro_Wide_Range_GEC_chopper_6Car,  //2277
-    Seoulmetro_Wide_Range_GEC_chopper_10Car, //2278
     AD_Tranz_CAF_A_8Car,                     //2052
     MTR_AC_Cammall_8Car,                     //2053
     MTR_DC_Cammall_8Car,                     //2054

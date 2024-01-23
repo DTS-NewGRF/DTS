@@ -1,46 +1,47 @@
 /*--------------------------------------------------------------------
-Seoulmetro 2000 Rheostatic
+Chopper MELCO
 --------------------------------------------------------------------*/
 // Graphics
-#include "Seoulmetro_2000_Rheostatic_graphic.pnml"
+#include "MELCO_graphic.pnml"
 
 // Switch
-#include "Seoulmetro_2000_Rheostatic_switch.pnml"
+#include "MELCO_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2000_Rheostatic, 2265){
+item(FEAT_TRAINS, Chopper_MELCO, 2269){
     property {
-        name:                           string(STR_Group_Seoulmetro_2000_Rheostatic_NAME);
+        name:                           string(STR_Group_Chopper_MELCO_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        power:                          1800 kW;
+        power:                          2400 kW;
+        variant_group:                  Seoulmetro;
         }
 
     graphics {
-        purchase:                       sw_Seoulmetro_2000_Rheostatic_purchase;
+        purchase:                       sw_Chopper_MELCO_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 4량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2000_Rheostatic_4Car, 2266){
+item(FEAT_TRAINS, Chopper_MELCO_4Car, 2270){
     property {
-        name:                           string(STR_Seoulmetro_2000_Rheostatic_4Car_NAME);
+        name:                           string(STR_Chopper_MELCO_4Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1980, 1, 1);
+        introduction_date:              date(1983, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_2000_Rheostatic;
+        variant_group:                  Chopper_MELCO;
         
         //spec
         speed:                          120km/h;
-        power:                          1800 kW;
+        power:                          2400 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -68,34 +69,33 @@ item(FEAT_TRAINS, Seoulmetro_2000_Rheostatic_4Car, 2266){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2000_Rheostatic_4Car;
-        articulated_part:               sw_articulated_Seoulmetro_2000_Rheostatic_4Car;
-        purchase:                       sw_Seoulmetro_2000_Rheostatic_purchase;
-        speed:                          sw_Seoulmetro_2000_Rheostatic_speed;
+        default:                        sw_Chopper_MELCO_4Car_reversed;
+        articulated_part:               sw_articulated_Chopper_MELCO_4Car;
+        purchase:                       sw_Chopper_MELCO_purchase;
+        speed:                          sw_Chopper_MELCO_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Seoulmetro_2000_Rheostatic_cargo_subtype_text;
-        sound_effect:                   sw_Seoulmetro_2000_Rheostatic_sound;
+        sound_effect:                   sw_Chopper_MELCO_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2000_Rheostatic_6Car, 2267){
+item(FEAT_TRAINS, Chopper_MELCO_6Car, 2271){
     property {
-        name:                           string(STR_Seoulmetro_2000_Rheostatic_6Car_NAME);
+        name:                           string(STR_Chopper_MELCO_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1986, 1, 1);
+        introduction_date:              date(1983, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_2000_Rheostatic;
+        variant_group:                  Chopper_MELCO;
         
         //spec
         speed:                          120km/h;
-        power:                          1800 kW;
+        power:                          2400 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -123,30 +123,29 @@ item(FEAT_TRAINS, Seoulmetro_2000_Rheostatic_6Car, 2267){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2000_Rheostatic_6Car;
-        articulated_part:               sw_articulated_Seoulmetro_2000_Rheostatic_6Car;
-        purchase:                       sw_Seoulmetro_2000_Rheostatic_purchase;
-        speed:                          sw_Seoulmetro_2000_Rheostatic_speed;
+        default:                        sw_Chopper_MELCO_6Car_reversed;
+        articulated_part:               sw_articulated_Chopper_MELCO_6Car;
+        purchase:                       sw_Chopper_MELCO_purchase;
+        speed:                          sw_Chopper_MELCO_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Seoulmetro_2000_Rheostatic_6Car_cargo_subtype_text;
-        sound_effect:                   sw_Seoulmetro_2000_Rheostatic_sound;
+        sound_effect:                   sw_Chopper_MELCO_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2000_Rheostatic_10Car, 2268){
+item(FEAT_TRAINS, Chopper_MELCO_10Car, 2272){
     property {
-        name:                           string(STR_Seoulmetro_2000_Rheostatic_10Car_NAME);
+        name:                           string(STR_Chopper_MELCO_10Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1993, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_2000_Rheostatic;
+        variant_group:                  Chopper_MELCO;
         
         //spec
         speed:                          120km/h;
@@ -178,13 +177,14 @@ item(FEAT_TRAINS, Seoulmetro_2000_Rheostatic_10Car, 2268){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2000_Rheostatic_10Car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_2000_Rheostatic_10Car;
-        purchase:                       sw_Seoulmetro_2000_Rheostatic_purchase;
-        speed:                          sw_Seoulmetro_2000_Rheostatic_speed;
+        default:                        sw_Chopper_MELCO_10Car_reversed;
+        articulated_part:               sw_articulated_Chopper_MELCO_10Car;
+        purchase:                       sw_Chopper_MELCO_purchase;
+        speed:                          sw_Chopper_MELCO_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2000_Rheostatic_sound;
+        cargo_subtype_text:             sw_Chopper_MELCO_cargo_subtype_text;
+        sound_effect:                   sw_Chopper_MELCO_sound;
         }
         }

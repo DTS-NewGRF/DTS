@@ -221,9 +221,20 @@ STR_THSR_700T_12Car_NAME                               :[DTS/12Car] THSR 700T
 # Korea / Metro's name
 STR_AUTS_6Car_NAME                                     :[DTS/6Car] AUTS
 STR_Group_Seoulmetro_NAME                              :[DTS] Seoulmetro Metro
-STR_Group_GEC_chopper_NAME                             :[DTS] Seoulmetro 2000 GEC chopper
-STR_GEC_chopper_6Car_NAME                              :[DTS/6Car] Seoulmetro 2000 GEC chopper
-STR_GEC_chopper_10Car_NAME                             :[DTS/10Car] Seoulmetro 2000 GEC chopper
+STR_Group_Chopper_GEC_NAME                             :[DTS] Seoulmetro 2000 GEC chopper
+STR_Chopper_GEC_6Car_NAME                              :[DTS/6Car] Seoulmetro 2000 GEC chopper
+STR_Chopper_GEC_10Car_NAME                             :[DTS/10Car] Seoulmetro 2000 GEC chopper
+STR_Group_Chopper_MELCO_NAME                           :[DTS] Seoulmetro 2000 MELCO chopper
+STR_Chopper_MELCO_4Car_NAME                            :[DTS/4Car] Seoulmetro 2000 MELCO chopper
+STR_Chopper_MELCO_6Car_NAME                            :[DTS/6Car] Seoulmetro 2000 MELCO chopper
+STR_Chopper_MELCO_10Car_NAME                           :[DTS/10Car] Seoulmetro 2000 MELCO chopper
+STR_Group_Chopper_Wide_Range_GEC_NAME                  :[DTS] Seoulmetro Wide Range GEC Chopper
+STR_Chopper_Wide_Range_GEC_6Car_NAME                   :[DTS/6Car] Seoulmetro Wide Range GEC Chopper
+STR_Chopper_Wide_Range_GEC_10Car_NAME                  :[DTS/10Car] Seoulmetro Wide Range GEC Chopper
+STR_Group_Rheostatic_2000_NAME                         :[DTS] Rheostatic 2000
+STR_Rheostatic_2000_4Car_NAME                          :[DTS/4Car] Rheostatic 2000
+STR_Rheostatic_2000_6Car_NAME                          :[DTS/6Car] Rheostatic 2000
+STR_Rheostatic_2000_10Car_NAME                         :[DTS/10Car] Rheostatic 2000
 STR_Group_Korail_1st_VVVF_NAME                         :[DTS] Korail 1st VVVF 
 STR_Korail_1st_VVVF_4Car_NAME                          :[DTS/4Car] Korail 1st
 STR_Korail_1st_VVVF_319K_4Car_GTO_NAME                 :[DTS/4Car] Korail 1st 319K GTO
@@ -301,17 +312,6 @@ STR_Seoulmetro_4th_VVVF_7000_8Car_NAME                 :[DTS/8Car] Seoulmetro 4t
 STR_Seoulmetro_4th_VVVF_2000_10Car_NAME                :[DTS/10Car] Seoulmetro 4th 2000
 STR_Seoulmetro_4th_VVVF_4000_10Car_NAME                :[DTS/10Car] Seoulmetro 4th 4000
 STR_Seoulmetro_5th_VVVF_7000_8Car_NAME                 :[DTS/8Car] Seoulmetro 5th 7000
-STR_Group_Seoulmetro_2000_Rheostatic_NAME              :[DTS] Seoulmetro 2000 Rheostatic EMU
-STR_Seoulmetro_2000_Rheostatic_4Car_NAME               :[DTS/4Car] Seoulmetro 2000 Rheostatic EMU
-STR_Seoulmetro_2000_Rheostatic_6Car_NAME               :[DTS/6Car] Seoulmetro 2000 Rheostatic EMU
-STR_Seoulmetro_2000_Rheostatic_10Car_NAME              :[DTS/10Car] Seoulmetro 2000 Rheostatic EMU
-STR_Group_Seoulmetro_2000_MELCO_chopper_NAME           :[DTS] Seoulmetro 2000 MELCO chopper
-STR_Seoulmetro_2000_MELCO_chopper_4Car_NAME            :[DTS/4Car] Seoulmetro 2000 MELCO chopper
-STR_Seoulmetro_2000_MELCO_chopper_6Car_NAME            :[DTS/6Car] Seoulmetro 2000 MELCO chopper
-STR_Seoulmetro_2000_MELCO_chopper_10Car_NAME           :[DTS/10Car] Seoulmetro 2000 MELCO chopper
-STR_Group_Seoulmetro_Wide_Range_GEC_chopper_NAME       :[DTS] Seoulmetro wide range GEC Chopper EMU
-STR_Seoulmetro_Wide_Range_GEC_chopper_6Car_NAME        :[DTS/6Car] Seoulmetro wide range GEC Chopper EMU
-STR_Seoulmetro_Wide_Range_GEC_chopper_10Car_NAME       :[DTS/10Car] Seoulmetro wide range GEC Chopper EMU
 STR_Standard_Metro_4Car_NAME                           :[DTS/4Car] Standard Metro
 
 # Hong Kong / Metro's name
@@ -687,6 +687,15 @@ STR_REFIT_LIVERY_HYEL_150_SB                           : HYEL-150 Sea Livery
 STR_REFIT_LIVERY_AUTS                                  : AUTS
 STR_REFIT_LIVERY_Chopper_GEC_NoRheostatic              : NoRheostatic
 STR_REFIT_LIVERY_Chopper_GEC_Rheostatic                : Rheostatic
+STR_REFIT_LIVERY_Chopper_MELCO_NoRheostatic            : NoRheostatic
+STR_REFIT_LIVERY_Chopper_MELCO_Rheostatic              : Rheostatic
+STR_REFIT_LIVERY_Chopper_Wide_Range_GEC_NoRheostatic   : NoRheostatic (2000,3000,4000)
+STR_REFIT_LIVERY_Chopper_Wide_Range_GEC_Rheostatic     : Rheostatic (3000)
+STR_REFIT_LIVERY_Rheostatic_2000_NoRheostatic          : NoRheostatic
+STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic            : Rheostatic
+STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic_A          : Rheostatic A
+STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic_B          : Rheostatic B
+STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic_C          : Rheostatic C
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat              : Standard MetroLong Long Seat
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat             : Standard MetroLong Cross Seat
 STR_REFIT_LIVERY_Korail_1st_VVVF_IGBT                  : Korail 1st IGBT
@@ -774,13 +783,6 @@ STR_REFIT_LIVERY_Line1_Rheostatic_K1000_A              : Korail Rheostatic EMU A
 STR_REFIT_LIVERY_Line1_Rheostatic_K1000_B              : Korail Rheostatic EMU B
 STR_REFIT_LIVERY_Line1_Rheostatic_S1000                : Seoul metro Rheostatic EMU livery
 STR_REFIT_LIVERY_Line1_Rheostatic_S1000_1011F          : Seoul metro Rheostatic EMU livery 1011F
-STR_REFIT_LIVERY_Seoulmetro_2000_NoRheostatic          : NoRheostatic
-STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic            : Rheostatic
-STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic_A          : Rheostatic A
-STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic_B          : Rheostatic B
-STR_REFIT_LIVERY_Seoulmetro_2000_Rheostatic_C          : Rheostatic C
-STR_REFIT_LIVERY_Seoulmetro_Wide_NoRheostatic          : NoRheostatic (2000,3000,4000)
-STR_REFIT_LIVERY_Seoulmetro_Wide_Rheostatic            : Rheostatic (3000)
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Airport_Express    : MTR AD Tranz CAF A Type Airport Express
 STR_REFIT_LIVERY_MTR_AD_Tranz_CAF_A_Tung_Chung         : MTR AD Tranz CAF A Type Tung Chung
 STR_REFIT_LIVERY_MTR_DC_Cammall                        : MTR Cammall DC Type no remoding Car

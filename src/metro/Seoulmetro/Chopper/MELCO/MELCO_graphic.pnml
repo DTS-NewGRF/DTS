@@ -1,0 +1,84 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+미개조
+--------------------------------------------------------------------*/
+spriteset(set_Chopper_MELCO_NoRheostatic_engineH, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_NoRheostatic.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Chopper_MELCO_NoRheostatic_engineH_r, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_NoRheostatic.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Chopper_MELCO_NoRheostatic_panto_wagon, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_NoRheostatic.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Chopper_MELCO_NoRheostatic_panto_wagon_r, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_NoRheostatic.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Chopper_MELCO_NoRheostatic_wagon, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_NoRheostatic.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Chopper_MELCO_NoRheostatic_wagon_r, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_NoRheostatic.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Chopper_MELCO_NoRheostatic_engineT_r, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_NoRheostatic.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Chopper_MELCO_NoRheostatic_engineT, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_NoRheostatic.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+개조
+--------------------------------------------------------------------*/
+spriteset(set_Chopper_MELCO_Rheostatic_engineH, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_Rheostatic.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Chopper_MELCO_Rheostatic_engineH_r, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_Rheostatic.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Chopper_MELCO_Rheostatic_panto_wagon, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_Rheostatic.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Chopper_MELCO_Rheostatic_panto_wagon_r, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_Rheostatic.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Chopper_MELCO_Rheostatic_wagon, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_Rheostatic.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Chopper_MELCO_Rheostatic_wagon_r, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_Rheostatic.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Chopper_MELCO_Rheostatic_engineT_r, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_Rheostatic.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Chopper_MELCO_Rheostatic_engineT, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_Rheostatic.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Chopper_MELCO_purchase, "src/metro/Seoulmetro/Chopper/MELCO/MELCO_Rheostatic.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Chopper_MELCO_purchase, cargo_subtype) {
+    set_Chopper_MELCO_purchase;
+}

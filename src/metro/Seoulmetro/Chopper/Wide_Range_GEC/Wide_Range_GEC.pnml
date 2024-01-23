@@ -1,42 +1,43 @@
 /*--------------------------------------------------------------------
-Seoulmetro_wide_range_GEC_graphic
+Wide_Range_GEC_graphic
 --------------------------------------------------------------------*/
 // Graphics
-#include "Seoulmetro_wide_range_GEC_graphic.pnml"
+#include "Wide_Range_GEC_graphic.pnml"
 
 // Switch
-#include "Seoulmetro_wide_range_GEC_switch.pnml"
+#include "Wide_Range_GEC_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_Wide_Range_GEC_chopper, 2276){
+item(FEAT_TRAINS, Chopper_Wide_Range_GEC, 2276){
     property {
-        name:                           string(STR_Group_Seoulmetro_Wide_Range_GEC_chopper_NAME);
+        name:                           string(STR_Group_Chopper_Wide_Range_GEC_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         power:                          2592 kW;
+        variant_group:                  Seoulmetro;
         }
 
     graphics {
-        purchase:                       sw_Seoulmetro_Wide_Range_GEC_chopper_purchase;
+        purchase:                       sw_Chopper_Wide_Range_GEC_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_Wide_Range_GEC_chopper_6Car, 2277){
+item(FEAT_TRAINS, Chopper_Wide_Range_GEC_6Car, 2277){
     property {
-        name:                           string(STR_Seoulmetro_Wide_Range_GEC_chopper_6Car_NAME);
+        name:                           string(STR_Chopper_Wide_Range_GEC_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1984, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_Wide_Range_GEC_chopper;
+        variant_group:                  Chopper_Wide_Range_GEC;
         
         //spec
         speed:                          120km/h;
@@ -68,29 +69,29 @@ item(FEAT_TRAINS, Seoulmetro_Wide_Range_GEC_chopper_6Car, 2277){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_Wide_Range_GECC_chopper_6Car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_Wide_Range_GEC_chopper_6Car;
-        purchase:                       sw_Seoulmetro_Wide_Range_GEC_chopper_purchase;
-        speed:                          sw_Seoulmetro_Wide_Range_GEC_chopper_speed;
+        default:                        sw_Chopper_Wide_Range_GEC_6Car_reversed;
+        articulated_part:               sw_articulated_Chopper_Wide_Range_GEC_6Car;
+        purchase:                       sw_Chopper_Wide_Range_GEC_purchase;
+        speed:                          sw_Chopper_Wide_Range_GEC_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_Wide_Range_GEC_chopper_sound;
+        sound_effect:                   sw_Chopper_Wide_Range_GEC_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_Wide_Range_GEC_chopper_10Car, 2278){
+item(FEAT_TRAINS, Chopper_Wide_Range_GEC_10Car, 2278){
     property {
-        name:                           string(STR_Seoulmetro_Wide_Range_GEC_chopper_10Car_NAME);
+        name:                           string(STR_Chopper_Wide_Range_GEC_10Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1990, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_Wide_Range_GEC_chopper;
+        variant_group:                  Chopper_Wide_Range_GEC;
         
         //spec
         speed:                          120km/h;
@@ -122,14 +123,14 @@ item(FEAT_TRAINS, Seoulmetro_Wide_Range_GEC_chopper_10Car, 2278){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_Wide_Range_GEC_chopper_10Car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_Wide_Range_GEC_chopper_10Car;
-        purchase:                       sw_Seoulmetro_Wide_Range_GEC_chopper_purchase;
-        speed:                          sw_Seoulmetro_Wide_Range_GEC_chopper_speed;
+        default:                        sw_Chopper_Wide_Range_GEC_10Car_reversed;
+        articulated_part:               sw_articulated_Chopper_Wide_Range_GEC_10Car;
+        purchase:                       sw_Chopper_Wide_Range_GEC_purchase;
+        speed:                          sw_Chopper_Wide_Range_GEC_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Seoulmetro_Wide_Range_GEC_chopper_cargo_subtype_text;
-        sound_effect:                   sw_Seoulmetro_Wide_Range_GEC_chopper_sound;
+        cargo_subtype_text:             sw_Chopper_Wide_Range_GEC_cargo_subtype_text;
+        sound_effect:                   sw_Chopper_Wide_Range_GEC_sound;
         }
         }
