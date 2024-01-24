@@ -62,9 +62,6 @@
 #include "metro/VVVF/Korail_3rd/Korail_VVVF_3rd.pnml"
 #include "metro/VVVF/Korail_4th/Korail_VVVF_4th.pnml"
 #include "metro/VVVF/Korail_5th/Korail_VVVF_5th.pnml"
-#include "metro/VVVF/Seoulmetro_1st/Seoulmetro_1st.pnml"
-#include "metro/VVVF/Seoulmetro_2nd/Seoulmetro_2nd.pnml"
-#include "metro/VVVF/Seoulmetro_3rd/Seoulmetro_3rd.pnml"
 #include "metro/VVVF/Seoulmetro_4th/Seoulmetro_4th.pnml"
 #include "metro/VVVF/Seoulmetro_5th/Seoulmetro_5th.pnml"
 

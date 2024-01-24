@@ -31,3 +31,6 @@ item(FEAT_TRAINS, Seoulmetro, 2373){
 #include "Rheostatic/Rheostatic_1000/Seoulmetro_First/Seoulmetro_First.pnml"
 #include "Rheostatic/Rheostatic_1000/Seoulmetro_Rheostatic/Seoulmetro_Rheostatic.pnml"
 #include "Rheostatic/Rheostatic_2000/Rheostatic_2000.pnml"
+#include "Seoulmetro_1st/Seoulmetro_1st.pnml"
+#include "Seoulmetro_2nd/Seoulmetro_2nd.pnml"
+#include "Seoulmetro_3rd/Seoulmetro_3rd.pnml"

@@ -240,6 +240,42 @@ STR_Group_Rheostatic_2000_NAME                         :[DTS] 서울교통공사
 STR_Rheostatic_2000_4Car_NAME                          :[DTS/4량] 서울교통공사 2000호대 저항제어 전동차
 STR_Rheostatic_2000_6Car_NAME                          :[DTS/6량] 서울교통공사 2000호대 저항제어 전동차
 STR_Rheostatic_2000_10Car_NAME                         :[DTS/10량] 서울교통공사 2000호대 저항제어 전동차
+STR_Group_Seoulmetro_1st_NAME                          :[DTS] 서울교통공사 1세대 전동차
+STR_Seoulmetro_1st_4Car_NAME                           :[DTS/4량] 서울교통공사 1세대 2000호대 전동차
+STR_Seoulmetro_1st_9000_4Car_NAME                      :[DTS/4량] 서울교통공사 1세대 9000호대 전동차
+STR_Seoulmetro_1st_2000_6Car_NAME                      :[DTS/6량] 서울교통공사 1세대 2000호대 전동차
+STR_Seoulmetro_1st_4000_6Car_NAME                      :[DTS/6량] 서울교통공사 1세대 4000호대 전동차
+STR_Seoulmetro_1st_8000_6Car_NAME                      :[DTS/6량] 서울교통공사 1세대 8000호대 전동차
+STR_Seoulmetro_1st_9000_6Car_NAME                      :[DTS/6량] 서울교통공사 1세대 9000호대 전동차
+STR_Seoulmetro_1st_5000_8Car_NAME                      :[DTS/8량] 서울교통공사 1세대 5000호대 전동차
+STR_Seoulmetro_1st_6000_8Car_NAME                      :[DTS/8량] 서울교통공사 1세대 6000호대 전동차
+STR_Seoulmetro_1st_7000_8Car_NAME                      :[DTS/8량] 서울교통공사 1세대 7000 & 8000호대 전동차
+STR_Seoulmetro_1st_1000_4000_10Car_NAME                :[DTS/10량] 서울교통공사 1세대 1000, 4000호대 전동차
+STR_Seoulmetro_1st_2000_3000_10Car_NAME                :[DTS/10량] 서울교통공사 1세대 2000, 3000호대 전동차
+STR_Group_Seoulmetro_2nd_NAME                          :[DTS] 서울교통공사 2세대 전동차
+STR_Seoulmetro_2nd_4Car_NAME                           :[DTS/4량] 서울교통공사 2세대 2000호대 전동차
+STR_Seoulmetro_2nd_6Car_NAME                           :[DTS/6량] 서울교통공사 2세대 2000호대 전동차
+STR_Seoulmetro_2nd_7000_6Car_NAME                      :[DTS/6량] 서울교통공사 2세대 7000 & 8000호대 전동차
+STR_Seoulmetro_2nd_7000_8Car_NAME                      :[DTS/8량] 서울교통공사 2세대 7000 & 8000호대 전동차
+STR_Seoulmetro_2nd_2000_10Car_NAME                     :[DTS/10량] 서울교통공사 2세대 2000호대 전동차
+STR_Seoulmetro_2nd_3000_10Car_NAME                     :[DTS/10량] 서울교통공사 2세대 3000호대 전동차
+STR_Seoulmetro_2nd_10Car_NAME                          :[DTS/10량] 서울교통공사 2세대 4000호대 전동차
+STR_Group_Seoulmetro_3rd_NAME                          :[DTS] 서울교통공사 3세대 전동차
+STR_Seoulmetro_3rd_6Car_NAME                           :[DTS/6량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
+STR_Seoulmetro_3rd_8000_6Car_NAME                      :[DTS/6량] 서울교통공사 3세대 8000호대 전동차
+STR_Seoulmetro_3rd_5000_8Car_NAME                      :[DTS/8량] 서울교통공사 3세대 5000호대 전동차
+STR_Seoulmetro_3rd_7000_8Car_NAME                      :[DTS/8량] 서울교통공사 3세대 7000호대 전동차
+STR_Seoulmetro_3rd_2000_10Car_NAME                     :[DTS/10량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
+STR_Seoulmetro_3rd_4000_10Car_NAME                     :[DTS/10량] 서울교통공사 3세대 4000호대 전동차
+STR_Group_Seoulmetro_4th_VVVF_NAME                     :[DTS] 서울교통공사 4세대 VVVF 전동차
+STR_Seoulmetro_4th_VVVF_4Car_NAME                      :[DTS/4량] 서울교통공사 4세대 2000호대 전동차
+STR_Seoulmetro_4th_VVVF_6Car_NAME                      :[DTS/6량] 서울교통공사 4세대 9000호대 전동차
+STR_Seoulmetro_4th_VVVF_5000_8Car_NAME                 :[DTS/8량] 서울교통공사 4세대 5000호대 전동차
+STR_Seoulmetro_4th_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 4세대 7000호대 전동차
+STR_Seoulmetro_4th_VVVF_2000_10Car_NAME                :[DTS/10량] 서울교통공사 4세대 2000호대 전동차
+STR_Seoulmetro_4th_VVVF_4000_10Car_NAME                :[DTS/10량] 서울교통공사 4세대 4000호대 전동차
+STR_Seoulmetro_5th_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 5세대 7000호대 전동차
+STR_Standard_Metro_4Car_NAME                           :[DTS/4량] 한국형 표준전동차
 STR_Group_Korail_1st_VVVF_NAME                         :[DTS] 한국철도공사 1세대 VVVF 전동차
 STR_Korail_1st_VVVF_4Car_NAME                          :[DTS/4량] 한국철도공사 1세대
 STR_Korail_1st_VVVF_319K_4Car_GTO_NAME                 :[DTS/4량] 한국철도공사 1세대 319K GTO
@@ -279,45 +315,6 @@ STR_Rheostatic_Line1_Second_8Car_NAME                  :[DTS/8량] 수도권 1�
 STR_Rheostatic_Line1_Second_10Car_NAME                 :[DTS/10량] 수도권 1호선 저항제어 전동차 [중기저항]
 STR_Rheostatic_Line1_Third_10Car_NAME                  :[DTS/10량] 수도권 1호선 저항제어 전동차 [신조저항]
 STR_Rheostatic_Line1_Rheostatic_10Car_NAME             :[DTS/10량] 수도권 1호선 저항제어 전동차 [개조저항]
-STR_Group_Seoulmetro_1st_VVVF_NAME                     :[DTS] 서울교통공사 1세대 전동차
-STR_Seoulmetro_1st_VVVF_4Car_NAME                      :[DTS/4량] 서울교통공사 1세대 2000호대 전동차
-STR_Seoulmetro_1st_VVVF_9000_4Car_NAME                 :[DTS/4량] 서울교통공사 1세대 9000호대 전동차
-STR_Seoulmetro_1st_VVVF_2000_6Car_NAME                 :[DTS/6량] 서울교통공사 1세대 2000호대 전동차
-STR_Seoulmetro_1st_VVVF_4000_6Car_NAME                 :[DTS/6량] 서울교통공사 1세대 4000호대 전동차
-STR_Seoulmetro_1st_VVVF_7000_6Car_NAME                 :[DTS/6량] 서울교통공사 1세대 7000 & 8000호대 전동차
-STR_Seoulmetro_1st_VVVF_9000_6Car_NAME                 :[DTS/6량] 서울교통공사 1세대 9000호대 전동차
-STR_Seoulmetro_1st_VVVF_5000_8Car_NAME                 :[DTS/8량] 서울교통공사 1세대 5000호대 전동차
-STR_Seoulmetro_1st_VVVF_5000_IGBT_8Car_NAME            :[DTS/8량] 서울교통공사 1세대 5000호대 전동차 IGBT
-STR_Seoulmetro_1st_VVVF_6000_8Car_NAME                 :[DTS/8량] 서울교통공사 1세대 6000호대 전동차
-STR_Seoulmetro_1st_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 1세대 7000 & 8000호대 전동차
-STR_Seoulmetro_1st_VVVF_1000_4000_10Car_NAME           :[DTS/10량] 서울교통공사 1세대 1000, 4000호대 전동차
-STR_Seoulmetro_1st_VVVF_2000_3000_10Car_NAME           :[DTS/10량] 서울교통공사 1세대 2000, 3000호대 전동차
-STR_Seoulmetro_1st_VVVF_IGBT_10Car_NAME                :[DTS/10량] 서울교통공사 1세대 4000호대 전동차 IGBT
-STR_Group_Seoulmetro_2nd_VVVF_NAME                     :[DTS] 서울교통공사 2세대 VVVF 전동차
-STR_Seoulmetro_2nd_VVVF_4Car_NAME                      :[DTS/4량] 서울교통공사 2세대 2000호대 전동차
-STR_Seoulmetro_2nd_VVVF_6Car_NAME                      :[DTS/6량] 서울교통공사 2세대 2000호대 전동차
-STR_Seoulmetro_2nd_VVVF_7000_6Car_NAME                 :[DTS/6량] 서울교통공사 2세대 7000 & 8000호대 전동차
-STR_Seoulmetro_2nd_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 2세대 7000 & 8000호대 전동차
-STR_Seoulmetro_2nd_VVVF_2000_10Car_NAME                :[DTS/10량] 서울교통공사 2세대 2000호대 전동차
-STR_Seoulmetro_2nd_VVVF_3000_10Car_NAME                :[DTS/10량] 서울교통공사 2세대 3000호대 전동차
-STR_Seoulmetro_2nd_VVVF_10Car_NAME                     :[DTS/10량] 서울교통공사 2세대 4000호대 전동차
-STR_Seoulmetro_2nd_VVVF_IGBT_10Car_NAME                :[DTS/10량] 서울교통공사 2세대 4000호대 전동차 IGBT
-STR_Group_Seoulmetro_3rd_VVVF_NAME                     :[DTS] 서울교통공사 3세대 VVVF 전동차
-STR_Seoulmetro_3rd_VVVF_6Car_NAME                      :[DTS/6량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
-STR_Seoulmetro_3rd_VVVF_8000_6Car_NAME                 :[DTS/6량] 서울교통공사 3세대 8000호대 전동차
-STR_Seoulmetro_3rd_VVVF_5000_8Car_NAME                 :[DTS/8량] 서울교통공사 3세대 5000호대 전동차
-STR_Seoulmetro_3rd_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 3세대 7000호대 전동차
-STR_Seoulmetro_3rd_VVVF_2000_10Car_NAME                :[DTS/10량] 서울교통공사 3세대 2000호대 전동차 (5세대 동일)
-STR_Seoulmetro_3rd_VVVF_4000_10Car_NAME                :[DTS/10량] 서울교통공사 3세대 4000호대 전동차
-STR_Group_Seoulmetro_4th_VVVF_NAME                     :[DTS] 서울교통공사 4세대 VVVF 전동차
-STR_Seoulmetro_4th_VVVF_4Car_NAME                      :[DTS/4량] 서울교통공사 4세대 2000호대 전동차
-STR_Seoulmetro_4th_VVVF_6Car_NAME                      :[DTS/6량] 서울교통공사 4세대 9000호대 전동차
-STR_Seoulmetro_4th_VVVF_5000_8Car_NAME                 :[DTS/8량] 서울교통공사 4세대 5000호대 전동차
-STR_Seoulmetro_4th_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 4세대 7000호대 전동차
-STR_Seoulmetro_4th_VVVF_2000_10Car_NAME                :[DTS/10량] 서울교통공사 4세대 2000호대 전동차
-STR_Seoulmetro_4th_VVVF_4000_10Car_NAME                :[DTS/10량] 서울교통공사 4세대 4000호대 전동차
-STR_Seoulmetro_5th_VVVF_7000_8Car_NAME                 :[DTS/8량] 서울교통공사 5세대 7000호대 전동차
-STR_Standard_Metro_4Car_NAME                           :[DTS/4량] 한국형 표준전동차
 
 # Hong Kong / Metro's name
 STR_MTR_AC_Cammall_8Car_NAME                           :[DTS/8량] 홍콩 MTR 메트로카멜 교류형 전동차
@@ -703,6 +700,20 @@ STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic            : 개조
 STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic_A          : 개조
 STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic_B          : 개조 (정사각형 출입문)
 STR_REFIT_LIVERY_Rheostatic_2000_Rheostatic_C          : 개조 (GEC초퍼 무동력 객차)
+STR_REFIT_LIVERY_Seoulmetro_1st_1000_A                 : 서울교통공사 1세대 1000호대
+STR_REFIT_LIVERY_Seoulmetro_1st_1000_B                 : 서울교통공사 1세대 1000호대 (초기저항 부수객차 편성)
+STR_REFIT_LIVERY_Seoulmetro_1st_2000                   : 서울교통공사 1세대 2000호대
+STR_REFIT_LIVERY_Seoulmetro_1st_3000                   : 서울교통공사 1세대 3000호대
+STR_REFIT_LIVERY_Seoulmetro_1st_4000_IGBT              : 서울교통공사 1세대 4000호대 IGBT
+STR_REFIT_LIVERY_Seoulmetro_1st_4000_GTO               : 서울교통공사 1세대 4000호대 GTO
+STR_REFIT_LIVERY_Seoulmetro_1st_5000_IGBT              : 서울교통공사 1세대 5000호대 IGBT
+STR_REFIT_LIVERY_Seoulmetro_1st_5000_GTO               : 서울교통공사 1세대 5000호대 GTO
+STR_REFIT_LIVERY_Seoulmetro_1st_8000_A                 : 서울교통공사 1세대 8000호대 초기도색
+STR_REFIT_LIVERY_Seoulmetro_1st_8000_B                 : 서울교통공사 1세대 8000호대 현도색
+STR_REFIT_LIVERY_Seoulmetro_2nd_2000_A                 : 서울교통공사 2세대 2000호대
+STR_REFIT_LIVERY_Seoulmetro_2nd_2000_B                 : 서울교통공사 2세대 2000호대 초퍼부수객차
+STR_REFIT_LIVERY_Seoulmetro_2nd_IGBT                   : 서울교통공사 2세대 4000호대 IGBT
+STR_REFIT_LIVERY_Seoulmetro_2nd_GTO                    : 서울교통공사 2세대 4000호대 GTO
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat              : 한국 표준형 지하철 롱 시트
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat             : 한국 표준형 지하철 크로스 시트
 STR_REFIT_LIVERY_Korail_1st_VVVF_IGBT                  : 코레일 1세대 IGBT
@@ -718,18 +729,6 @@ STR_REFIT_LIVERY_Korail_1st_VVVF_5000_A                : 코레일 1세대 5000
 STR_REFIT_LIVERY_Korail_1st_VVVF_5000_B                : 코레일 1세대 5000 부수객차 편성
 STR_REFIT_LIVERY_Korail_1st_VVVF_3000_Old              : 코레일 1세대 3000 구도색
 STR_REFIT_LIVERY_Korail_1st_VVVF_3000_New              : 코레일 1세대 3000 신도색
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_1000_A            : 서울교통공사 1세대 VVVF 1000호대
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_1000_B            : 서울교통공사 1세대 VVVF 1000호대 (초기저항 부수객차 편성)
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_4000_IGBT         : 서울교통공사 1세대 VVVF 4000호대 IGBT
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_4000_GTO          : 서울교통공사 1세대 VVVF 4000호대 GTO
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_5000_IGBT         : 서울교통공사 1세대 VVVF 5000호대 IGBT
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_5000_GTO          : 서울교통공사 1세대 VVVF 5000호대 GTO
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_2000              : 서울교통공사 1세대 VVVF 2000호대
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_3000              : 서울교통공사 1세대 VVVF 3000호대
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_7000_A            : 서울교통공사 1세대 VVVF 7000호대 초기도색
-STR_REFIT_LIVERY_Seoulmetro_1st_VVVF_7000_B            : 서울교통공사 1세대 VVVF 7000호대 현도색
-STR_REFIT_LIVERY_Seoulmetro_2nd_VVVF_IGBT              : 서울교통공사 2세대 VVVF 4000호대 IGBT
-STR_REFIT_LIVERY_Seoulmetro_2nd_VVVF_GTO               : 서울교통공사 2세대 VVVF 4000호대 GTO
 STR_REFIT_LIVERY_Korail_2nd_VVVF_IGBT                  : 코레일 2세대 IGBT
 STR_REFIT_LIVERY_Korail_2nd_VVVF_GTO                   : 코레일 2세대 GTO
 STR_REFIT_LIVERY_Korail_2nd_VVVF_311K_IGBT             : 코레일 2세대 311K IGBT
@@ -738,8 +737,6 @@ STR_REFIT_LIVERY_Korail_2nd_VVVF_311K_GTO              : 코레일 2세대 311K 
 STR_REFIT_LIVERY_Korail_2nd_VVVF_341K_GTO              : 코레일 2세대 341K GTO
 STR_REFIT_LIVERY_Korail_2nd_VVVF_2030                  : 코레일 2세대 2030
 STR_REFIT_LIVERY_Korail_2nd_VVVF_5000                  : 코레일 2세대 5000
-STR_REFIT_LIVERY_Seoulmetro_2nd_VVVF_2000_A            : 서울교통공사 2세대 VVVF 2000호대
-STR_REFIT_LIVERY_Seoulmetro_2nd_VVVF_2000_B            : 서울교통공사 2세대 VVVF 2000호대 초퍼부수객차
 STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_DOB                : 코레일 3세대 VVVF ST 더블암
 STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_331K_DOB           : 코레일 3세대 VVVF ST 더블암 331K
 STR_REFIT_LIVERY_Korail_3rd_VVVF_ST_SI                 : 코레일 3세대 VVVF ST 싱글암

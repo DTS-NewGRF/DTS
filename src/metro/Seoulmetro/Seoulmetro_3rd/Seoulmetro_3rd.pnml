@@ -2,95 +2,42 @@
 YTRO 100
 --------------------------------------------------------------------*/
 // Graphics
-#include "Seoulmetro_2nd_graphic.pnml"
+#include "Seoulmetro_3rd_graphic.pnml"
 
 // Switch
-#include "Seoulmetro_2nd_switch.pnml"
+#include "Seoulmetro_3rd_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2nd_VVVF, 2260){
+item(FEAT_TRAINS, Seoulmetro_3rd, 2289){
     property {
-        name:                           string(STR_Group_Seoulmetro_2nd_VVVF_NAME);
+        name:                           string(STR_Group_Seoulmetro_3rd_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        power:                          4000 kW;
+        power:                          2520 kW;
+        variant_group:                  Seoulmetro;
         }
 
     graphics {
-        purchase:                       sw_Seoulmetro_2nd_purchase;
-        }
-        }
-
-/*--------------------------------------------------------------------
-열차정보 4량
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_4Car, 2286){
-    property {
-        name:                           string(STR_Seoulmetro_2nd_VVVF_4Car_NAME);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2005, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_2nd_VVVF;
-        
-        //spec
-        speed:                          120km/h;
-        power:                          1680 kW;
-        weight:                         20 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 122;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
-        extra_weight_per_wagon:         35 ton;
-        }
-
-    graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_4car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_4car;
-        purchase:                       sw_Seoulmetro_2nd_2000_purchase;
-        speed:                          sw_Seoulmetro_2nd_VVVF_speed;
-        loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_VVVF_2000_sound;
+        purchase:                       sw_Seoulmetro_3rd_2000_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_6Car, 2287){
+item(FEAT_TRAINS, Seoulmetro_3rd_6Car, 2290){
     property {
-        name:                           string(STR_Seoulmetro_2nd_VVVF_6Car_NAME);
+        name:                           string(STR_Seoulmetro_3rd_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2005, 1, 1);
+        introduction_date:              date(2022, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_2nd_VVVF;
+        variant_group:                  Seoulmetro_3rd;
         
         //spec
         speed:                          120km/h;
@@ -106,7 +53,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_6Car, 2287){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 125;
+        cargo_capacity:                 119;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -122,33 +69,33 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_6Car, 2287){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_6car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_6car;
-        purchase:                       sw_Seoulmetro_2nd_2000_purchase;
-        speed:                          sw_Seoulmetro_2nd_VVVF_speed;
+        default:                        sw_Seoulmetro_3rd_6car_reversed;
+        articulated_part:               sw_articulated_Seoulmetro_3rd_6car;
+        purchase:                       sw_Seoulmetro_3rd_2000_purchase;
+        speed:                          sw_Seoulmetro_3rd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_VVVF_2000_sound;
+        sound_effect:                   sw_Seoulmetro_3rd_2000_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_7000_6Car, 2312){
+item(FEAT_TRAINS, Seoulmetro_3rd_8000_6Car, 2316){
     property {
-        name:                           string(STR_Seoulmetro_2nd_VVVF_7000_6Car_NAME);
+        name:                           string(STR_Seoulmetro_3rd_8000_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1999, 1, 1);
+        introduction_date:              date(2023, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_2nd_VVVF;
+        variant_group:                  Seoulmetro_3rd;
         
         //spec
         speed:                          120km/h;
-        power:                          2400 kW;
+        power:                          2520 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -160,7 +107,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_7000_6Car, 2312){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 125;
+        cargo_capacity:                 119;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -176,33 +123,33 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_7000_6Car, 2312){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_7000_6car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_7000_6car;
-        purchase:                       sw_Seoulmetro_2nd_7000_purchase;
-        speed:                          sw_Seoulmetro_2nd_VVVF_speed;
+        default:                        sw_Seoulmetro_3rd_8000_6car_reversed;
+        articulated_part:               sw_articulated_Seoulmetro_3rd_8000_6car;
+        purchase:                       sw_Seoulmetro_3rd_8000_purchase;
+        speed:                          sw_Seoulmetro_3rd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_VVVF_7000_sound;
+        sound_effect:                   sw_Seoulmetro_3rd_8000_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 8량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_7000_8Car, 2313){
+item(FEAT_TRAINS, Seoulmetro_3rd_5000_8Car, 2301){
     property {
-        name:                           string(STR_Seoulmetro_2nd_VVVF_7000_8Car_NAME);
+        name:                           string(STR_Seoulmetro_3rd_5000_8Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1999, 1, 1);
+        introduction_date:              date(2018, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_2nd_VVVF;
+        variant_group:                  Seoulmetro_3rd;
         
         //spec
         speed:                          120km/h;
-        power:                          3200 kW;
+        power:                          3360 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -230,33 +177,33 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_7000_8Car, 2313){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_7000_8car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_7000_8car;
-        purchase:                       sw_Seoulmetro_2nd_7000_purchase;
-        speed:                          sw_Seoulmetro_2nd_VVVF_speed;
+        default:                        sw_Seoulmetro_3rd_5000_8car_reversed;
+        articulated_part:               sw_articulated_Seoulmetro_3rd_5000_8car;
+        purchase:                       sw_Seoulmetro_3rd_5000_purchase;
+        speed:                          sw_Seoulmetro_3rd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_VVVF_7000_sound;
+        sound_effect:                   sw_Seoulmetro_3rd_5000_sound;
         }
         }
 
 /*--------------------------------------------------------------------
-열차정보 10량
+열차정보 8량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_2000_10Car, 2288){
+item(FEAT_TRAINS, Seoulmetro_3rd_7000_8Car, 2314){
     property {
-        name:                           string(STR_Seoulmetro_2nd_VVVF_2000_10Car_NAME);
+        name:                           string(STR_Seoulmetro_3rd_7000_8Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2005, 1, 1);
+        introduction_date:              date(2010, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_2nd_VVVF;
+        variant_group:                  Seoulmetro_3rd;
         
         //spec
         speed:                          120km/h;
-        power:                          4200 kW;
+        power:                          3360 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -268,7 +215,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_2000_10Car, 2288){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 127;
+        cargo_capacity:                 126;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -284,30 +231,29 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_2000_10Car, 2288){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_2000_10car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_2000_10car;
-        purchase:                       sw_Seoulmetro_2nd_2000_purchase;
-        speed:                          sw_Seoulmetro_2nd_VVVF_speed;
+        default:                        sw_Seoulmetro_3rd_7000_8car_reversed;
+        articulated_part:               sw_articulated_Seoulmetro_3rd_7000_8car;
+        purchase:                       sw_Seoulmetro_3rd_7000_purchase;
+        speed:                          sw_Seoulmetro_3rd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Seoulmetro_2nd_VVVF_2000_10car_cargo_subtype_text;
-        sound_effect:                   sw_Seoulmetro_2nd_VVVF_2000_sound;
+        sound_effect:                   sw_Seoulmetro_3rd_7000_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_3000_10Car, 2296){
+item(FEAT_TRAINS, Seoulmetro_3rd_2000_10Car, 2291){
     property {
-        name:                           string(STR_Seoulmetro_2nd_VVVF_3000_10Car_NAME);
+        name:                           string(STR_Seoulmetro_3rd_2000_10Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2021, 1, 1);
+        introduction_date:              date(2017, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_2nd_VVVF;
+        variant_group:                  Seoulmetro_3rd;
         
         //spec
         speed:                          120km/h;
@@ -339,33 +285,33 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_3000_10Car, 2296){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_3000_10car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_3000_10car;
-        purchase:                       sw_Seoulmetro_2nd_3000_purchase;
-        speed:                          sw_Seoulmetro_2nd_VVVF_speed;
+        default:                        sw_Seoulmetro_3rd_2000_10car_reversed;
+        articulated_part:               sw_articulated_Seoulmetro_3rd_2000_10car;
+        purchase:                       sw_Seoulmetro_3rd_2000_purchase;
+        speed:                          sw_Seoulmetro_3rd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_VVVF_3000_sound;
+        sound_effect:                   sw_Seoulmetro_3rd_2000_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_10Car, 2261){
+item(FEAT_TRAINS, Seoulmetro_3rd_4000_10Car, 2292){
     property {
-        name:                           string(STR_Seoulmetro_2nd_VVVF_10Car_NAME);
+        name:                           string(STR_Seoulmetro_3rd_4000_10Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1994, 1, 1);
+        introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_2nd_VVVF;
+        variant_group:                  Seoulmetro_3rd;
         
         //spec
         speed:                          120km/h;
-        power:                          4000 kW;
+        power:                          4200 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -377,7 +323,7 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_10Car, 2261){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 127;
+        cargo_capacity:                 121;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -393,68 +339,13 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_10Car, 2261){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_VVVF_10car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_10car;
-        purchase:                       sw_Seoulmetro_2nd_purchase;
-        speed:                          sw_Seoulmetro_2nd_VVVF_speed;
-        cargo_subtype_text:             sw_Seoulmetro_2nd_VVVF_4000_10car_cargo_subtype_text;
+        default:                        sw_Seoulmetro_3rd_4000_10car_reversed;
+        articulated_part:               sw_articulated_Seoulmetro_3rd_4000_10car;
+        purchase:                       sw_Seoulmetro_3rd_4000_purchase;
+        speed:                          sw_Seoulmetro_3rd_4000_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_VVVF_sound;
-        }
-        }
-
-/*--------------------------------------------------------------------
-[2024.2] 삭제예정
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_IGBT_10Car, 2262){
-    property {
-        name:                           string(STR_To_Be_Deleted_NAME);
-        climates_available:             NO_CLIMATE;
-        introduction_date:              date(1994, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Seoulmetro_2nd_VVVF;
-        
-        //spec
-        speed:                          120km/h;
-        power:                          4000 kW;
-        weight:                         20 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 0;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
-        extra_weight_per_wagon:         35 ton;
-        }
-
-    graphics {
-        default:                        sw_Seoulmetro_2nd_Delete_10car;
-        articulated_part:               sw_articulated_Seoulmetro_2nd_VVVF_IGBT_10car;
-        purchase:                       sw_Seoulmetro_2nd_purchase;
-        speed:                          sw_Seoulmetro_2nd_VVVF_speed;
-        loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_VVVF_IGBT_sound;
+        sound_effect:                   sw_Seoulmetro_3rd_4000_sound;
         }
         }
