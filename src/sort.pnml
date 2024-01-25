@@ -4,6 +4,18 @@
 sort(FEAT_TRAINS, [
     //지하철
     AUTS_6Car,                               //2007
+    Korail,                                  //2240
+    Korail_First,                            //3000
+    Korail_First_4Car,                       //3001
+    Korail_First_6Car,                       //3002
+    Korail_First_8Car,                       //3003
+    Korail_First_10Car,                      //3004
+    Korail_Second,                           //2248
+    Korail_Second_4Car,                      //2249
+    Korail_Second_6Car,                      //2250
+    Korail_Second_8Car,                      //2251
+    Korail_Second_10Car,                     //2252
+    Korail_Rheostatic_10Car,                 //2254
     Seoulmetro,                              //2373
     Chopper_GEC,                             //2273
     Chopper_GEC_6Car,                        //2274
@@ -15,14 +27,14 @@ sort(FEAT_TRAINS, [
     Chopper_Wide_Range_GEC,                  //2276
     Chopper_Wide_Range_GEC_6Car,             //2277
     Chopper_Wide_Range_GEC_10Car,            //2278
-    Seoulmetro_First_1000,                   //2374
-    Seoulmetro_First_1000_6Car,              //2375
-    Seoulmetro_First_1000_10Car,             //2376
+    Seoulmetro_First_S1000,                  //2374
+    Seoulmetro_First_S1000_6Car,             //2375
+    Seoulmetro_First_S1000_10Car,            //2376
     Seoulmetro_Rheostatic_10Car,             //2377
-    Rheostatic_2000,                         //2265
-    Rheostatic_2000_4Car,                    //2266
-    Rheostatic_2000_6Car,                    //2267
-    Rheostatic_2000_10Car,                   //2268
+    Rheostatic_S2000,                        //2265
+    Rheostatic_S2000_4Car,                   //2266
+    Rheostatic_S2000_6Car,                   //2267
+    Rheostatic_S2000_10Car,                  //2268
     Seoulmetro_1st,                          //2255
     Seoulmetro_1st_4Car,                     //2283
     Seoulmetro_1st_9000_4Car,                //2364
@@ -53,6 +65,14 @@ sort(FEAT_TRAINS, [
     Seoulmetro_3rd_7000_8Car,                //2314
     Seoulmetro_3rd_2000_10Car,               //2291
     Seoulmetro_3rd_4000_10Car,               //2292
+    Seoulmetro_4th,                          //2294
+    Seoulmetro_4th_4Car,                     //2295
+    Seoulmetro_4th_6Car,                     //2366
+    Seoulmetro_4th_5000_8Car,                //2302
+    Seoulmetro_4th_7000_8Car,                //2315
+    Seoulmetro_4th_2000_10Car,               //2293
+    Seoulmetro_4th_4000_10Car,               //2297
+    Seoulmetro_5th_7000_8Car,                //2303
     Standard_Metro_4Car,                     //2006
     Korail_1st_VVVF,                         //2227
     Korail_1st_VVVF_4car,                    //2228
@@ -80,27 +100,9 @@ sort(FEAT_TRAINS, [
     Korail_4th_VVVF_G2_G3_4Car,              //2124
     Korail_4th_VVVF_G2_G3_6Car,              //2217
     Korail_4th_VVVF_G2_G3_10Car,             //2218
-    Seoulmetro_4th_VVVF,                     //2294
-    Seoulmetro_4th_VVVF_4Car,                //2295
-    Seoulmetro_4th_VVVF_6Car,                //2366
-    Seoulmetro_4th_VVVF_5000_8Car,           //2302
-    Seoulmetro_4th_VVVF_7000_8Car,           //2315
-    Seoulmetro_4th_VVVF_2000_10Car,          //2293
-    Seoulmetro_4th_VVVF_4000_10Car,          //2297
     Korail_5th_VVVF_10Car,                   //2239
-    Seoulmetro_5th_VVVF_7000_8Car,           //2303
-    Rheostatic_Line1,                        //3000
-    Rheostatic_Line1_4Car,                   //3001
-    Rheostatic_Line1_6Car,                   //3002
-    Rheostatic_Line1_8Car,                   //3003
-    Rheostatic_Line1_10Car,                  //3004
-    Rheostatic_Line1_Second,                 //2248
-    Rheostatic_Line1_Second_4Car,            //2249
-    Rheostatic_Line1_Second_6Car,            //2250
-    Rheostatic_Line1_Second_8Car,            //2251
-    Rheostatic_Line1_Second_10Car,           //2252
+    
     Rheostatic_Line1_Third_10Car,            //2253
-    Rheostatic_Line1_Rheostatic_10Car,       //2254
     AD_Tranz_CAF_A_8Car,                     //2052
     MTR_AC_Cammall_8Car,                     //2053
     MTR_DC_Cammall_8Car,                     //2054

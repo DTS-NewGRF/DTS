@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------------
+한국철도공사
+--------------------------------------------------------------------*/
+// Graphics
+#include "Korail_graphic.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹 한국철도공사
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail, 2240){
+    property {
+        name:                           string(STR_Group_Korail_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2592 kW;
+        }
+
+    graphics {
+        purchase:                       sw_Korail_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차 리스트
+--------------------------------------------------------------------*/
+#include "Rheostatic/Korail_First/Korail_First.pnml"
+#include "Rheostatic/Korail_Rheostatic/Korail_Rheostatic.pnml"
+#include "Rheostatic/Korail_Second/Korail_Second.pnml"

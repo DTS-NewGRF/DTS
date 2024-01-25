@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽 8bpp
+spriteset(set_Korail_1963_purchase, "src/metro/Seoulmetro/Chopper/GEC/GEC_Rheostatic.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_Korail_1994_purchase, "src/metro/Seoulmetro/Chopper/GEC/GEC_Rheostatic.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_Korail_2003_purchase, "src/metro/Seoulmetro/Chopper/GEC/GEC_Rheostatic.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+// 구매차량 그래픽 32bpp
+alternative_sprites(set_Korail_1963_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_1963.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+alternative_sprites(set_Korail_1994_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_1994.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+alternative_sprites(set_Korail_2003_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_2003.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Korail_1963_purchase, cargo_subtype) {
+    set_Korail_1963_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_1994_purchase, cargo_subtype) {
+    set_Korail_1994_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_2003_purchase, cargo_subtype) {
+    set_Korail_2003_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_purchase, current_year) {
+    0..1993: sw_Korail_1963_purchase;
+    1994..2002: sw_Korail_1994_purchase;
+    sw_Korail_2003_purchase;
+    }

@@ -1,0 +1,320 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+중기저항 초기형 초기도색
+--------------------------------------------------------------------*/
+spriteset(set_Korail_Second_Initial_1_engineH, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_Second_Initial_1_engineH_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_Second_Initial_1_wagon_MA, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_Second_Initial_1_wagon_MA_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_Second_Initial_1_panto_wagon, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_Second_Initial_1_panto_wagon_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_Second_Initial_1_wagon_T, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Korail_Second_Initial_1_wagon_T_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_Korail_Second_Initial_1_engineT_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
+    engine(80, 135)
+}
+
+spriteset(set_Korail_Second_Initial_1_engineT, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
+    engine(80, 162)
+}
+
+/*--------------------------------------------------------------------
+중기저항 초기형 구도색
+--------------------------------------------------------------------*/
+spriteset(set_Korail_Second_Old_1_engineH, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_Second_Old_1_engineH_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_Second_Old_1_wagon_MA, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_Second_Old_1_wagon_MA_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_Second_Old_1_panto_wagon_A, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_Second_Old_1_panto_wagon_A_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_Second_Old_1_wagon_MB, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Korail_Second_Old_1_wagon_MB_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_Korail_Second_Old_1_panto_wagon_B, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Korail_Second_Old_1_panto_wagon_B_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_Korail_Second_Old_1_engineT_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    engine(80, 162)
+}
+
+spriteset(set_Korail_Second_Old_1_engineT, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_1.png"){
+    engine(80, 189)
+}
+
+/*--------------------------------------------------------------------
+중기저항 초기형 신도색
+--------------------------------------------------------------------*/
+spriteset(set_Korail_Second_New_1_engineH, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_Second_New_1_engineH_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_Second_New_1_wagon_MA, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_Second_New_1_wagon_MA_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_Second_New_1_panto_wagon_A, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_Second_New_1_panto_wagon_A_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_Second_New_1_wagon_MB, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Korail_Second_New_1_wagon_MB_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_Korail_Second_New_1_panto_wagon_B, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Korail_Second_New_1_panto_wagon_B_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_Korail_Second_New_1_engineT_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    engine(80, 162)
+}
+
+spriteset(set_Korail_Second_New_1_engineT, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_1.png"){
+    engine(80, 189)
+}
+
+/*--------------------------------------------------------------------
+중기저항 후기형 초기도색
+--------------------------------------------------------------------*/
+spriteset(set_Korail_Second_Initial_2_engineH, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_Second_Initial_2_engineH_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_Second_Initial_2_wagon_M, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_Second_Initial_2_wagon_M_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_Second_Initial_2_panto_wagon, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_Second_Initial_2_panto_wagon_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_Second_Initial_2_wagon_TA, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Korail_Second_Initial_2_wagon_TA_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_Korail_Second_Initial_2_wagon_TB, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Korail_Second_Initial_2_wagon_TB_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_Korail_Second_Initial_2_engineT_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    engine(80, 162)
+}
+
+spriteset(set_Korail_Second_Initial_2_engineT, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_2.png"){
+    engine(80, 189)
+}
+
+/*--------------------------------------------------------------------
+중기저항 후기형 구도색
+--------------------------------------------------------------------*/
+spriteset(set_Korail_Second_Old_2_engineH, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_Second_Old_2_engineH_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_Second_Old_2_wagon_M, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_Second_Old_2_wagon_M_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_Second_Old_2_panto_wagon, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_Second_Old_2_panto_wagon_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_Second_Old_2_wagon_TA, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Korail_Second_Old_2_wagon_TA_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_Korail_Second_Old_2_wagon_TB, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Korail_Second_Old_2_wagon_TB_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_Korail_Second_Old_2_engineT_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    engine(80, 162)
+}
+
+spriteset(set_Korail_Second_Old_2_engineT, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Old_2.png"){
+    engine(80, 189)
+}
+
+/*--------------------------------------------------------------------
+중기저항 후기형 신도색
+--------------------------------------------------------------------*/
+spriteset(set_Korail_Second_New_2_engineH, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_Second_New_2_engineH_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_Second_New_2_wagon_M, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_Second_New_2_wagon_M_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_Second_New_2_panto_wagon, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_Second_New_2_panto_wagon_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_Second_New_2_wagon_TA, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Korail_Second_New_2_wagon_TA_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_Korail_Second_New_2_wagon_TB, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Korail_Second_New_2_wagon_TB_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_Korail_Second_New_2_engineT_r, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    engine(80, 162)
+}
+
+spriteset(set_Korail_Second_New_2_engineT, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    engine(80, 189)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Korail_Second_Initial_purchase, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_Initial_1.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Korail_Second_purchase, "src/metro/Korail/Rheostatic/Korail_Second/Korail_Second_New_2.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_Second_Initial_purchase, cargo_subtype) {
+    set_Korail_Second_Initial_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_Second_purchase, cargo_subtype) {
+    set_Korail_Second_purchase;
+}

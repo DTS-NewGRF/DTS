@@ -1,0 +1,76 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+K1000
+--------------------------------------------------------------------*/
+spriteset(set_Korail_Rheostatic_K1000_engineH_TC1A, "src/metro/Korail/Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_Rheostatic_K1000_engineH_TC1A_r, "src/metro/Korail/Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_Rheostatic_K1000_engineH_TC1B, "src/metro/Korail/Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
+    engine(80, 54)
+}
+
+spriteset(set_Korail_Rheostatic_K1000_engineH_TC1B_r, "src/metro/Korail/Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
+    engine(80, 81)
+}
+
+spriteset(set_Korail_Rheostatic_K1000_wagon, "src/metro/Korail/Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Korail_Rheostatic_K1000_wagon_r, "src/metro/Korail/Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_Korail_Rheostatic_K1000_panto_wagon, "src/metro/Korail/Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Korail_Rheostatic_K1000_panto_wagon_r, "src/metro/Korail/Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_Korail_Rheostatic_K1000_engineT_TC2A_r, "src/metro/Korail/Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
+    engine(80, 162)
+}
+
+spriteset(set_Korail_Rheostatic_K1000_engineT_TC2A, "src/metro/Korail/Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
+    engine(80, 189)
+}
+
+spriteset(set_Korail_Rheostatic_K1000_engineT_TC2B_r, "src/metro/Korail/Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
+    engine(80, 216)
+}
+
+spriteset(set_Korail_Rheostatic_K1000_engineT_TC2B, "src/metro/Korail/Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
+    engine(80, 243)
+}
+
+/*--------------------------------------------------------------------
+개조저항 서울지하철공사 도색 삭제 이미지.
+--------------------------------------------------------------------*/
+spriteset(set_RS1000_Delete_A, "Deleted_Train_Image.png"){
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_RS1000_Delete_B, "Deleted_Train_Image.png"){
+    wagon_1F_F(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Korail_Rheostatic_purchase, "src/metro/Korail/Rheostatic/Korail_Rheostatic/Korail_Rheostatic_K1000.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_purchase, cargo_subtype) {
+    set_Korail_Rheostatic_purchase;
+}
