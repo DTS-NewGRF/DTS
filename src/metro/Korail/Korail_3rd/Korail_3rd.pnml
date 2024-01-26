@@ -2,41 +2,42 @@
 YTRO 100
 --------------------------------------------------------------------*/
 // Graphics
-#include "Korail_VVVF_3rd_graphic.pnml"
+#include "Korail_3rd_graphic.pnml"
 
 // Switch
-#include "Korail_VVVF_3rd_switch.pnml"
+#include "Korail_3rd_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_3rd_VVVF, 2219){
+item(FEAT_TRAINS, Korail_3rd, 2219){
     property {
-        name:                           string(STR_Group_Korail_3rd_VVVF_NAME);
+        name:                           string(STR_Group_Korail_3rd_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         power:                          1600 kW;
+        variant_group:                  Korail;
         }
 
     graphics {
-        purchase:                       sw_Korail_3rd_VVVF_purchase;
+        purchase:                       sw_Korail_3rd_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 4량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_3rd_VVVF_ST_4car, 2222){
+item(FEAT_TRAINS, Korail_3rd_ST_4car, 2222){
     property {
-        name:                           string(STR_Korail_3rd_VVVF_ST_4Car_NAME);
+        name:                           string(STR_Korail_3rd_ST_4Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2005, 1, 1);
+        introduction_date:              date(2011, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_3rd_VVVF;
+        variant_group:                  Korail_3rd;
         
         //spec
         speed:                          120km/h;
@@ -68,30 +69,30 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_ST_4car, 2222){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_ST_4car_reversed;
-        articulated_part:               sw_articulated_Korail_3rd_VVVF_ST_4car;
-        purchase:                       sw_Korail_3rd_VVVF_purchase;
-        speed:                          sw_Korail_3rd_VVVF_speed;
+        default:                        sw_Korail_3rd_ST_4car_reversed;
+        articulated_part:               sw_articulated_Korail_3rd_ST_4car;
+        purchase:                       sw_Korail_3rd_purchase;
+        speed:                          sw_Korail_3rd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Korail_3rd_VVVF_4car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_3rd_VVVF_G1_sound;
+        cargo_subtype_text:             sw_Korail_3rd_4car_cargo_subtype_text;
+        sound_effect:                   sw_Korail_3rd_G1_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 4량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_3rd_VVVF_G2_4car, 2223){
+item(FEAT_TRAINS, Korail_3rd_G2_4car, 2223){
     property {
-        name:                           string(STR_Korail_3rd_VVVF_G2_4Car_NAME);
+        name:                           string(STR_Korail_3rd_G2_4Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2021, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_3rd_VVVF;
+        variant_group:                  Korail_3rd;
         
         //spec
         speed:                          120km/h;
@@ -123,29 +124,29 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_G2_4car, 2223){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_G2_4car_reversed;
-        articulated_part:               sw_articulated_Korail_3rd_VVVF_G2_4car;
-        purchase:                       sw_Korail_3rd_VVVF_G2_purchase;
-        speed:                          sw_Korail_3rd_VVVF_speed;
+        default:                        sw_Korail_3rd_G2_4car_reversed;
+        articulated_part:               sw_articulated_Korail_3rd_G2_4car;
+        purchase:                       sw_Korail_3rd_G2_purchase;
+        speed:                          sw_Korail_3rd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Korail_3rd_VVVF_G2_sound;
+        sound_effect:                   sw_Korail_3rd_G2_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_3rd_VVVF_6car, 2224){
+item(FEAT_TRAINS, Korail_3rd_6car, 2224){
     property {
-        name:                           string(STR_Korail_3rd_VVVF_6Car_NAME);
+        name:                           string(STR_Korail_3rd_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2005, 1, 1);
+        introduction_date:              date(2011, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_3rd_VVVF;
+        variant_group:                  Korail_3rd;
         
         //spec
         speed:                          120km/h;
@@ -177,30 +178,30 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_6car, 2224){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_6car_reversed;
-        articulated_part:               sw_articulated_Korail_3rd_VVVF_6car;
-        purchase:                       sw_Korail_3rd_VVVF_purchase;
-        speed:                          sw_Korail_3rd_VVVF_speed;
+        default:                        sw_Korail_3rd_6car_reversed;
+        articulated_part:               sw_articulated_Korail_3rd_6car;
+        purchase:                       sw_Korail_3rd_purchase;
+        speed:                          sw_Korail_3rd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Korail_3rd_VVVF_6car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_3rd_VVVF_G1_sound;
+        cargo_subtype_text:             sw_Korail_3rd_6car_cargo_subtype_text;
+        sound_effect:                   sw_Korail_3rd_G1_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 8량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_3rd_VVVF_8car, 2225){
+item(FEAT_TRAINS, Korail_3rd_8car, 2225){
     property {
-        name:                           string(STR_Korail_3rd_VVVF_8Car_NAME);
+        name:                           string(STR_Korail_3rd_8Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2005, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_3rd_VVVF;
+        variant_group:                  Korail_3rd;
         
         //spec
         speed:                          120km/h;
@@ -232,30 +233,30 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_8car, 2225){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_8car_reversed;
-        articulated_part:               sw_articulated_Korail_3rd_VVVF_8car;
-        purchase:                       sw_Korail_3rd_VVVF_purchase;
-        speed:                          sw_Korail_3rd_VVVF_speed;
+        default:                        sw_Korail_3rd_8car_reversed;
+        articulated_part:               sw_articulated_Korail_3rd_8car;
+        purchase:                       sw_Korail_3rd_purchase;
+        speed:                          sw_Korail_3rd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Korail_3rd_VVVF_8car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_3rd_VVVF_G1_sound;
+        cargo_subtype_text:             sw_Korail_3rd_8car_cargo_subtype_text;
+        sound_effect:                   sw_Korail_3rd_G1_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_3rd_VVVF_10car, 2226){
+item(FEAT_TRAINS, Korail_3rd_10car, 2226){
     property {
-        name:                           string(STR_Korail_3rd_VVVF_10Car_NAME);
+        name:                           string(STR_Korail_3rd_10Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2005, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_3rd_VVVF;
+        variant_group:                  Korail_3rd;
         
         //spec
         speed:                          120km/h;
@@ -287,14 +288,14 @@ item(FEAT_TRAINS, Korail_3rd_VVVF_10car, 2226){
         }
 
     graphics {
-        default:                        sw_Korail_3rd_VVVF_10car_reversed;
-        articulated_part:               sw_articulated_Korail_3rd_VVVF_10car;
-        purchase:                       sw_Korail_3rd_VVVF_purchase;
-        speed:                          sw_Korail_3rd_VVVF_speed;
+        default:                        sw_Korail_3rd_10car_reversed;
+        articulated_part:               sw_articulated_Korail_3rd_10car;
+        purchase:                       sw_Korail_3rd_purchase;
+        speed:                          sw_Korail_3rd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Korail_3rd_VVVF_10car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_3rd_VVVF_G1_sound;
+        cargo_subtype_text:             sw_Korail_3rd_10car_cargo_subtype_text;
+        sound_effect:                   sw_Korail_3rd_G1_sound;
         }
         }

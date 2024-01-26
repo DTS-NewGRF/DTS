@@ -2,42 +2,43 @@
 YTRO 100
 --------------------------------------------------------------------*/
 // Graphics
-#include "Korail_VVVF_1st_graphic.pnml"
+#include "Korail_1st_graphic.pnml"
 
 // Switch
-#include "Korail_VVVF_1st_switch.pnml"
+#include "Korail_1st_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_1st_VVVF, 2227){
+item(FEAT_TRAINS, Korail_1st, 2227){
     property {
-        name:                           string(STR_Group_Korail_1st_VVVF_NAME);
+        name:                           string(STR_Group_Korail_1st_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
         power:                          1600 kW;
+        variant_group:                  Korail;
         }
 
     graphics {
-        purchase:                       sw_Group_Korail_1st_VVVF_purchase;
+        purchase:                       sw_Korail_1st_10Car_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 4량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_1st_VVVF_4car, 2228){
+item(FEAT_TRAINS, Korail_1st_4car, 2228){
     property {
-        name:                           string(STR_Korail_1st_VVVF_4Car_NAME);
+        name:                           string(STR_Korail_1st_4Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2016, 1, 1);
+        introduction_date:              date(2011, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_1st_VVVF;
+        variant_group:                  Korail_1st;
         
         //spec
         speed:                          120km/h;
@@ -69,84 +70,30 @@ item(FEAT_TRAINS, Korail_1st_VVVF_4car, 2228){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_4car;
-        articulated_part:               sw_articulated_Korail_1st_VVVF_4car;
-        purchase:                       sw_Korail_1st_VVVF_319K_purchase;
-        speed:                          sw_Korail_1st_VVVF_speed;
-        cargo_subtype_text:             sw_Korail_1st_VVVF_4car_cargo_subtype_text;
+        default:                        sw_Korail_1st_4car;
+        articulated_part:               sw_articulated_Korail_1st_4car;
+        purchase:                       sw_Korail_1st_319K_purchase;
+        speed:                          sw_Korail_1st_speed;
+        cargo_subtype_text:             sw_Korail_1st_4car_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Korail_1st_VVVF_4Car_sound;
-        }
-        }
-
-/*--------------------------------------------------------------------
-[2024.2] 삭제예정
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_1st_VVVF_GTO_4car, 2229){
-    property {
-        name:                           string(STR_To_Be_Deleted_NAME);
-        climates_available:             NO_CLIMATE;
-        introduction_date:              date(2011, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_1st_VVVF;
-        
-        //spec
-        speed:                          120km/h;
-        power:                          1600 kW;
-        weight:                         20 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 0;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
-        extra_weight_per_wagon:         35 ton;
-        }
-
-    graphics {
-        default:                        sw_Korail_1st_VVVF_Delete_4car;
-        articulated_part:               sw_articulated_Korail_1st_VVVF_GTO_4car;
-        purchase:                       sw_Korail_1st_VVVF_319K_purchase;
-        speed:                          sw_Korail_1st_VVVF_speed;
-        loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        sound_effect:                   sw_Korail_1st_VVVF_GTO_sound;
+        sound_effect:                   sw_Korail_1st_4Car_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_1st_VVVF_6car, 2230){
+item(FEAT_TRAINS, Korail_1st_6car, 2230){
     property {
-        name:                           string(STR_Korail_1st_VVVF_6Car_NAME);
+        name:                           string(STR_Korail_1st_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2003, 1, 1);
+        introduction_date:              date(1993, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_1st_VVVF;
+        variant_group:                  Korail_1st;
         
         //spec
         speed:                          120km/h;
@@ -178,85 +125,30 @@ item(FEAT_TRAINS, Korail_1st_VVVF_6car, 2230){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_6car_reversed;
-        articulated_part:               sw_articulated_Korail_1st_VVVF_6car;
-        purchase:                       sw_Korail_1st_VVVF_purchase;
-        speed:                          sw_Korail_1st_VVVF_speed;
-        cargo_subtype_text:             sw_Korail_1st_VVVF_6car_cargo_subtype_text;
+        default:                        sw_Korail_1st_6car_reversed;
+        articulated_part:               sw_articulated_Korail_1st_6car;
+        purchase:                       sw_Korail_1st_6Car_purchase;
+        speed:                          sw_Korail_1st_speed;
+        cargo_subtype_text:             sw_Korail_1st_6car_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Korail_1st_VVVF_6Car_sound;
-        }
-        }
-
-/*--------------------------------------------------------------------
-[2024.2] 삭제예정
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_1st_VVVF_GTO_6car, 2231){
-    property {
-        name:                           string(STR_To_Be_Deleted_NAME);
-        climates_available:             NO_CLIMATE;
-        introduction_date:              date(2003, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_1st_VVVF;
-        
-        //spec
-        speed:                          120km/h;
-        power:                          2400 kW;
-        weight:                         20 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 0;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
-        extra_weight_per_wagon:         35 ton;
-        }
-
-    graphics {
-        default:                        sw_Korail_1st_VVVF_Delete_6car;
-        articulated_part:               sw_articulated_Korail_1st_VVVF_GTO_6car;
-        purchase:                       sw_Korail_1st_VVVF_purchase;
-        speed:                          sw_Korail_1st_VVVF_speed;
-        loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        cargo_subtype_text:             sw_Korail_1st_VVVF_6car_Deleted;
-        sound_effect:                   sw_Korail_1st_VVVF_6Car_sound;
+        sound_effect:                   sw_Korail_1st_6Car_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_1st_VVVF_10car, 2232){
+item(FEAT_TRAINS, Korail_1st_10car, 2232){
     property {
-        name:                           string(STR_Korail_1st_VVVF_10Car_NAME);
+        name:                           string(STR_Korail_1st_10Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1993, 1, 1);
+        introduction_date:              date(1995, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_1st_VVVF;
+        variant_group:                  Korail_1st;
         
         //spec
         speed:                          120km/h;
@@ -288,15 +180,15 @@ item(FEAT_TRAINS, Korail_1st_VVVF_10car, 2232){
         }
 
     graphics {
-        default:                        sw_Korail_1st_VVVF_10car_reversed;
-        articulated_part:               sw_articulated_Korail_1st_VVVF_10car;
-        purchase:                       sw_Korail_1st_VVVF_purchase;
-        speed:                          sw_Korail_1st_VVVF_speed;
+        default:                        sw_Korail_1st_10car_reversed;
+        articulated_part:               sw_articulated_Korail_1st_10car;
+        purchase:                       sw_Korail_1st_10Car_purchase;
+        speed:                          sw_Korail_1st_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Korail_1st_VVVF_10car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_1st_VVVF_10Car_sound;
+        cargo_subtype_text:             sw_Korail_1st_10car_cargo_subtype_text;
+        sound_effect:                   sw_Korail_1st_10Car_sound;
         }
         }
 
@@ -311,7 +203,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_10car, 2233){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_1st_VVVF;
+        variant_group:                  Korail_1st;
         
         //spec
         speed:                          120km/h;
@@ -345,13 +237,11 @@ item(FEAT_TRAINS, Korail_1st_VVVF_GTO_10car, 2233){
     graphics {
         default:                        sw_Korail_1st_VVVF_Delete_10car;
         articulated_part:               sw_articulated_Korail_1st_VVVF_GTO_10car;
-        purchase:                       sw_Korail_1st_VVVF_purchase;
-        speed:                          sw_Korail_1st_VVVF_speed;
+        purchase:                       sw_Korail_1st_10Car_purchase;
+        speed:                          sw_Korail_1st_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Korail_1st_VVVF_GTO_10car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_1st_VVVF_GTO_sound;
         }
         }
 
@@ -366,7 +256,7 @@ item(FEAT_TRAINS, Korail_1st_VVVF_3000_10Car, 2259){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Korail_1st_VVVF;
+        variant_group:                  Korail_1st;
         
         //spec
         speed:                          120km/h;
@@ -400,12 +290,116 @@ item(FEAT_TRAINS, Korail_1st_VVVF_3000_10Car, 2259){
     graphics {
         default:                        sw_Korail_1st_VVVF_Delete_10car;
         articulated_part:               sw_articulated_Korail_1st_VVVF_3000_10car;
-        purchase:                       sw_Korail_1st_VVVF_3000_purchase;
-        speed:                          sw_Korail_1st_VVVF_speed;
+        purchase:                       sw_Korail_1st_10Car_purchase;
+        speed:                          sw_Korail_1st_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Korail_1st_VVVF_3000_10car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_1st_VVVF_3000_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+[2024.2] 삭제예정
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail_1st_VVVF_GTO_4car, 2229){
+    property {
+        name:                           string(STR_To_Be_Deleted_NAME);
+        climates_available:             NO_CLIMATE;
+        introduction_date:              date(2011, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail_1st;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          1600 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 0;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Korail_1st_VVVF_Delete_4car;
+        articulated_part:               sw_articulated_Korail_1st_VVVF_GTO_4car;
+        purchase:                       sw_Korail_1st_319K_purchase;
+        speed:                          sw_Korail_1st_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        }
+        }
+
+/*--------------------------------------------------------------------
+[2024.2] 삭제예정
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail_1st_VVVF_GTO_6car, 2231){
+    property {
+        name:                           string(STR_To_Be_Deleted_NAME);
+        climates_available:             NO_CLIMATE;
+        introduction_date:              date(2003, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail_1st;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          2400 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 0;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Korail_1st_VVVF_Delete_6car;
+        articulated_part:               sw_articulated_Korail_1st_VVVF_GTO_6car;
+        purchase:                       sw_Korail_1st_6Car_purchase;
+        speed:                          sw_Korail_1st_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
         }
         }

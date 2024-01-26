@@ -25,6 +25,12 @@ item(FEAT_TRAINS, Korail, 2240){
 /*--------------------------------------------------------------------
 열차 리스트
 --------------------------------------------------------------------*/
+#include "Korail_1st/Korail_1st.pnml"
+#include "Korail_2nd/Korail_2nd.pnml"
+#include "Korail_3rd/Korail_3rd.pnml"
+#include "Korail_4th/Korail_4th.pnml"
+#include "Korail_5th/Korail_5th.pnml"
 #include "Rheostatic/Korail_First/Korail_First.pnml"
 #include "Rheostatic/Korail_Rheostatic/Korail_Rheostatic.pnml"
 #include "Rheostatic/Korail_Second/Korail_Second.pnml"
+#include "Rheostatic/Korail_Third/Korail_Third.pnml"

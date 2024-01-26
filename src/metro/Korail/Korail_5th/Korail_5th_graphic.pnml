@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+Korail_5세대 전동차
+--------------------------------------------------------------------*/
+spriteset(set_Korail_5th_engineH, "src/metro/Korail/Korail_5th/Korail_5th_312K.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_5th_engineH_r, "src/metro/Korail/Korail_5th/Korail_5th_312K.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_5th_wagon, "src/metro/Korail/Korail_5th/Korail_5th_312K.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_5th_panto_wagon, "src/metro/Korail/Korail_5th/Korail_5th_312K.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_5th_engineT_r, "src/metro/Korail/Korail_5th/Korail_5th_312K.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Korail_5th_engineT, "src/metro/Korail/Korail_5th/Korail_5th_312K.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Korail_5th_purchase, "src/metro/Korail/Korail_5th/Korail_5th_312K.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_5th_purchase, cargo_subtype) {
+    set_Korail_5th_purchase;
+}

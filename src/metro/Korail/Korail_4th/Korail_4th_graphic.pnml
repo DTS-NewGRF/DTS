@@ -1,0 +1,208 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+Korail_392000
+--------------------------------------------------------------------*/
+spriteset(set_Korail_392000_2engineH, "src/metro/Korail/Korail_4th/Korail_4th_392000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_392000_4engineH, "src/metro/Korail/Korail_4th/Korail_4th_392000.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Korail_392000_wagon, "src/metro/Korail/Korail_4th/Korail_4th_392000.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_392000_engineT, "src/metro/Korail/Korail_4th/Korail_4th_392000.png"){
+    engine(80, 81)
+}
+
+/*--------------------------------------------------------------------
+Korail 4th 초기도입분
+--------------------------------------------------------------------*/
+spriteset(set_Korail_4th_G1_engineH, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_4th_G1_engineH_r, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_4th_G1_wagon_A, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_4th_G1_wagon_A_r, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_4th_G1_wagon_B, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_4th_G1_wagon_B_r, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_4th_G1_engineT_r, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Korail_4th_G1_engineT, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+Korail 4th 2차 도입분
+--------------------------------------------------------------------*/
+spriteset(set_Korail_4th_G2_engineH, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_4th_G2_engineH_r, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_4th_G2_wagon, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_4th_G2_wagon_r, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_4th_G2_wagon_only_4car, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_4th_G2_wagon_only_4car_r, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_4th_G2_panto_wagon_SI1, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Korail_4th_G2_panto_wagon_SI1_r, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_Korail_4th_G2_panto_wagon_SI2, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Korail_4th_G2_panto_wagon_SI2_r, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_Korail_4th_G2_panto_wagon_DOB, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Korail_4th_G2_panto_wagon_DOB_r, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    wagon_1F_F_r(80, 162)
+}
+
+spriteset(set_Korail_4th_G2_engineT_r, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    engine(80, 189)
+}
+
+spriteset(set_Korail_4th_G2_engineT, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    engine(80, 216)
+}
+
+/*--------------------------------------------------------------------
+Korail 4th 3차 도입분
+--------------------------------------------------------------------*/
+spriteset(set_Korail_4th_G3_engineH, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_4th_G3_engineH_r, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_4th_G3_wagon, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_4th_G3_wagon_r, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_4th_G3_wagon_only_4car, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_4th_G3_wagon_only_4car_r, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_4th_G3_panto_wagon_SI1, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Korail_4th_G3_panto_wagon_SI1_r, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_Korail_4th_G3_panto_wagon_SI2, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Korail_4th_G3_panto_wagon_SI2_r, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_Korail_4th_G3_panto_wagon_DOB, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Korail_4th_G3_panto_wagon_DOB_r, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    wagon_1F_F_r(80, 162)
+}
+
+spriteset(set_Korail_4th_G3_engineT_r, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    engine(80, 189)
+}
+
+spriteset(set_Korail_4th_G3_engineT, "src/metro/Korail/Korail_4th/Korail_4th_G3.png"){
+    engine(80, 216)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Korail_392000_purchase, "src/metro/Korail/Korail_4th/Korail_4th_392000.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Korail_4th_G1_purchase, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Korail_4th_G2_purchase, "src/metro/Korail/Korail_4th/Korail_4th_G2.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_392000_purchase, cargo_subtype) {
+    set_Korail_392000_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw__Korail_4th_G1_purchase, cargo_subtype) {
+    set_Korail_4th_G1_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Korail_4th_G2_purchase, cargo_subtype) {
+    set_Korail_4th_G2_purchase;
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Korail_4th_purchase, current_year) {
+    0..2020: sw__Korail_4th_G1_purchase;
+    sw_Korail_4th_G2_purchase;
+    }

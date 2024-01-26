@@ -2,22 +2,23 @@
 YTRO 100
 --------------------------------------------------------------------*/
 // Graphics
-#include "Rheostatic_Line1_Third_graphic.pnml"
+#include "Korail_Third_graphic.pnml"
 
 // Switch
-#include "Rheostatic_Line1_Third_switch.pnml"
+#include "Korail_Third_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Rheostatic_Line1_Third_10Car, 2253){
+item(FEAT_TRAINS, Korail_Third_10Car, 2253){
     property {
-        name:                           string(STR_Rheostatic_Line1_Third_10Car_NAME);
+        name:                           string(STR_Korail_Third_10Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1986, 1, 1);
+        introduction_date:              date(1994, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail;
         
         //spec
         speed:                          120km/h;
@@ -49,14 +50,14 @@ item(FEAT_TRAINS, Rheostatic_Line1_Third_10Car, 2253){
         }
 
     graphics {
-        default:                        sw_Rheostatic_Line1_Third_10car_reversed;
-        articulated_part:               sw_articulated_Rheostatic_Line1_Third_10car;
-        purchase:                       sw_Rheostatic_Line1_Third_purchase;
-        speed:                          sw_Rheostatic_Line1_Third_speed;
+        default:                        sw_Korail_Third_10car_reversed;
+        articulated_part:               sw_articulated_Korail_Third_10car;
+        purchase:                       sw_Korail_Third_purchase;
+        speed:                          sw_Korail_Third_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Rheostatic_Line1_Third_10car_cargo_subtype_text;
-        sound_effect:                   sw_Rheostatic_Line1_Third_sound;
+        cargo_subtype_text:             sw_Korail_Third_cargo_subtype_text;
+        sound_effect:                   sw_Korail_Third_sound;
         }
         }

@@ -33,7 +33,7 @@ item(FEAT_TRAINS, Korail_Second_4Car, 2249){
     property {
         name:                           string(STR_Korail_Second_4Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1978, 1, 1);
+        introduction_date:              date(1986, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -87,7 +87,7 @@ item(FEAT_TRAINS, Korail_Second_6Car, 2250){
     property {
         name:                           string(STR_Korail_Second_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1974, 1, 1);
+        introduction_date:              date(1986, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -141,7 +141,7 @@ item(FEAT_TRAINS, Korail_Second_8Car, 2251){
     property {
         name:                           string(STR_Korail_Second_8Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1981, 1, 1);
+        introduction_date:              date(1986, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;

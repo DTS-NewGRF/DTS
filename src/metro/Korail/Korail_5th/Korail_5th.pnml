@@ -2,22 +2,23 @@
 YTRO 100
 --------------------------------------------------------------------*/
 // Graphics
-#include "Korail_VVVF_5th_graphic.pnml"
+#include "Korail_5th_graphic.pnml"
 
 // Switch
-#include "Korail_VVVF_5th_switch.pnml"
+#include "Korail_5th_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Korail_5th_VVVF_10Car, 2239){
+item(FEAT_TRAINS, Korail_5th_10Car, 2239){
     property {
-        name:                           string(STR_Korail_5th_VVVF_10Car_NAME);
+        name:                           string(STR_Korail_5th_10Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2022, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail;
         
         //spec
         speed:                          120km/h;
@@ -49,14 +50,14 @@ item(FEAT_TRAINS, Korail_5th_VVVF_10Car, 2239){
         }
 
     graphics {
-        default:                        sw_Korail_5th_VVVF_10car_reversed;
-        articulated_part:               sw_articulated_Korail_5th_VVVF_10car;
-        purchase:                       sw_Korail_5th_VVVF_purchase;
-        speed:                          sw_Korail_5th_VVVF_speed;
-        cargo_subtype_text:             sw_Korail_5th_VVVF_cargo_subtype_text;
+        default:                        sw_Korail_5th_10car_reversed;
+        articulated_part:               sw_articulated_Korail_5th_10car;
+        purchase:                       sw_Korail_5th_purchase;
+        speed:                          sw_Korail_5th_speed;
+        cargo_subtype_text:             sw_Korail_5th_cargo_subtype_text;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Korail_5th_VVVF_sound;
+        sound_effect:                   sw_Korail_5th_sound;
         }
         }

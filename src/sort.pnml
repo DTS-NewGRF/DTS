@@ -5,6 +5,27 @@ sort(FEAT_TRAINS, [
     //지하철
     AUTS_6Car,                               //2007
     Korail,                                  //2240
+    Korail_1st,                              //2227
+    Korail_1st_4car,                         //2228
+    Korail_1st_6car,                         //2230
+    Korail_1st_10car,                        //2232
+    Korail_2nd,                              //2234
+    Korail_2nd_6car,                         //2235
+    Korail_2nd_10car,                        //2237
+    Korail_3rd,                              //2219
+    Korail_3rd_ST_4car,                      //2222
+    Korail_3rd_G2_4car,                      //2223
+    Korail_3rd_6car,                         //2224
+    Korail_3rd_8car,                         //2225
+    Korail_3rd_10car,                        //2226
+    Korail_4th,                              //2183
+    Korail_392000_2Car,                      //2139
+    Korail_4th_G1_4Car,                      //2030
+    Korail_392000_4Car,                      //2140
+    Korail_4th_4Car,                         //2124
+    Korail_4th_6Car,                         //2217
+    Korail_4th_10Car,                        //2218
+    Korail_5th_10Car,                        //2239
     Korail_First,                            //3000
     Korail_First_4Car,                       //3001
     Korail_First_6Car,                       //3002
@@ -15,6 +36,7 @@ sort(FEAT_TRAINS, [
     Korail_Second_6Car,                      //2250
     Korail_Second_8Car,                      //2251
     Korail_Second_10Car,                     //2252
+    Korail_Third_10Car,                      //2253
     Korail_Rheostatic_10Car,                 //2254
     Seoulmetro,                              //2373
     Chopper_GEC,                             //2273
@@ -52,7 +74,7 @@ sort(FEAT_TRAINS, [
     Seoulmetro_2nd,                          //2260
     Seoulmetro_2nd_4Car,                     //2286
     Seoulmetro_2nd_6Car,                     //2287
-    Seoulmetro_2nd_7000_6Car,                //2312
+    Seoulmetro_2nd_8000_6Car,                //2312
     Seoulmetro_2nd_7000_8Car,                //2313
     Seoulmetro_2nd_2000_10Car,               //2288
     Seoulmetro_2nd_3000_10Car,               //2296
@@ -74,35 +96,6 @@ sort(FEAT_TRAINS, [
     Seoulmetro_4th_4000_10Car,               //2297
     Seoulmetro_5th_7000_8Car,                //2303
     Standard_Metro_4Car,                     //2006
-    Korail_1st_VVVF,                         //2227
-    Korail_1st_VVVF_4car,                    //2228
-    Korail_1st_VVVF_GTO_4car,                //2229
-    Korail_1st_VVVF_6car,                    //2230
-    Korail_1st_VVVF_GTO_6car,                //2231
-    Korail_1st_VVVF_10car,                   //2232
-    Korail_1st_VVVF_GTO_10car,               //2233
-    Korail_1st_VVVF_3000_10Car,              //2259
-    Korail_2nd_VVVF,                         //2234
-    Korail_2nd_VVVF_6car,                    //2235
-    Korail_2nd_VVVF_GTO_6car,                //2236
-    Korail_2nd_VVVF_10car,                   //2237
-    Korail_2nd_VVVF_GTO_10car,               //2238
-    Korail_3rd_VVVF,                         //2219
-    Korail_3rd_VVVF_ST_4car,                 //2222
-    Korail_3rd_VVVF_G2_4car,                 //2223
-    Korail_3rd_VVVF_6car,                    //2224
-    Korail_3rd_VVVF_8car,                    //2225
-    Korail_3rd_VVVF_10car,                   //2226
-    Korail_4th_VVVF,                         //2183
-    Korail_392000_2Car,                      //2139
-    Korail_4th_VVVF_G1_4Car,                 //2030
-    Korail_392000_4Car,                      //2140
-    Korail_4th_VVVF_G2_G3_4Car,              //2124
-    Korail_4th_VVVF_G2_G3_6Car,              //2217
-    Korail_4th_VVVF_G2_G3_10Car,             //2218
-    Korail_5th_VVVF_10Car,                   //2239
-    
-    Rheostatic_Line1_Third_10Car,            //2253
     AD_Tranz_CAF_A_8Car,                     //2052
     MTR_AC_Cammall_8Car,                     //2053
     MTR_DC_Cammall_8Car,                     //2054

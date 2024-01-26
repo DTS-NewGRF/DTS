@@ -1,0 +1,72 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_Korail_5th_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Korail_5th_Update_software);
+    return string(STR_REFIT_LIVERY_Korail_5th_Nomal);
+}
+
+switch (FEAT_TRAINS, SELF, sw_Korail_5th_10car, position_in_vehid_chain % 10) {
+    1:set_Korail_5th_wagon;
+    2:set_Korail_5th_panto_wagon;
+    3:set_Korail_5th_wagon;
+    4:set_Korail_5th_panto_wagon;
+    5:set_Korail_5th_wagon;
+    6:set_Korail_5th_wagon;
+    7:set_Korail_5th_wagon;
+    8:set_Korail_5th_panto_wagon;
+    9:set_Korail_5th_engineT;
+    set_Korail_5th_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Korail_5th_10car_r, position_in_vehid_chain % 10) {
+    1:set_Korail_5th_panto_wagon;
+    2:set_Korail_5th_wagon;
+    3:set_Korail_5th_wagon;
+    4:set_Korail_5th_wagon;
+    5:set_Korail_5th_panto_wagon;
+    6:set_Korail_5th_wagon;
+    7:set_Korail_5th_panto_wagon;
+    8:set_Korail_5th_wagon;
+    9:set_Korail_5th_engineH_r;
+    set_Korail_5th_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Korail_5th_10car_flipped, vehicle_is_flipped){
+    0: sw_Korail_5th_10car;
+    sw_Korail_5th_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Korail_5th_10car_reversed, vehicle_is_reversed){
+    0: sw_Korail_5th_10car_r;
+    sw_Korail_5th_10car_flipped;
+}
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Korail_5th_10car, extra_callback_info1) {
+    1..9: Korail_5th_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Korail_5th_F1_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/WOOJINMITSUBISHIIGBTstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+    
+switch(FEAT_TRAINS, SELF, sw_Korail_5th_F2_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/WOOJINMITSUBISHIIGBT2start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Korail_5th_sound, cargo_subtype) {
+    1: sw_Korail_5th_F2_sound;
+    sw_Korail_5th_F1_sound;
+}
+
+// 속도변수
+switch(FEAT_TRAINS, SELF, sw_Korail_5th_speed, Use_max_virtual_speed) {
+    1: return Metro_Speed_Train;
+    return 110;
+    }

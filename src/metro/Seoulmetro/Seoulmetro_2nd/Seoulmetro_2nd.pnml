@@ -137,9 +137,9 @@ item(FEAT_TRAINS, Seoulmetro_2nd_6Car, 2287){
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Seoulmetro_2nd_7000_6Car, 2312){
+item(FEAT_TRAINS, Seoulmetro_2nd_8000_6Car, 2312){
     property {
-        name:                           string(STR_Seoulmetro_2nd_7000_6Car_NAME);
+        name:                           string(STR_Seoulmetro_2nd_8000_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1999, 1, 1);
         track_type:                     ELRL;
@@ -177,8 +177,8 @@ item(FEAT_TRAINS, Seoulmetro_2nd_7000_6Car, 2312){
         }
 
     graphics {
-        default:                        sw_Seoulmetro_2nd_7000_6car_reversed;
-        articulated_part:               sw_articulated_Seoulmetro_2nd_7000_6car;
+        default:                        sw_Seoulmetro_2nd_8000_6car_reversed;
+        articulated_part:               sw_articulated_Seoulmetro_2nd_8000_6car;
         purchase:                       sw_Seoulmetro_2nd_7000_purchase;
         speed:                          sw_Seoulmetro_2nd_speed;
         loading_speed:                  25;
@@ -456,6 +456,5 @@ item(FEAT_TRAINS, Seoulmetro_2nd_VVVF_IGBT_10Car, 2262){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Seoulmetro_2nd_IGBT_sound;
         }
         }
