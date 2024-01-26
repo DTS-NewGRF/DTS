@@ -1,3 +1,4 @@
+![DTS_board](https://github.com/DTS-NewGRF/DTS/assets/55119879/1d585536-cb4e-4e32-8de7-77a44d9386a8)
 # Diversity Train Set 다양성 열차세트 /DTS
 **다양성 열차세트**는 <br>
 약 2016년에 [YST set](https://github.com/evepoi/YST)에서 최초로 시작했다.<br>
