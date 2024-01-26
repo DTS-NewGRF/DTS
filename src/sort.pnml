@@ -95,6 +95,7 @@ sort(FEAT_TRAINS, [
     Seoulmetro_4th_2000_10Car,               //2293
     Seoulmetro_4th_4000_10Car,               //2297
     Seoulmetro_5th_7000_8Car,                //2303
+    Shinbundang_6Car,                        //2241
     Standard_Metro_4Car,                     //2006
     AD_Tranz_CAF_A_8Car,                     //2052
     MTR_AC_Cammall_8Car,                     //2053
