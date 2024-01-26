@@ -620,7 +620,6 @@ STR_REFIT_LIVERY_Nuriro_DD_Old_C                       : Nuriro DD Old Company C
 STR_REFIT_LIVERY_Nuriro_DD_New_C                       : Nuriro DD New Company Color
 STR_REFIT_LIVERY_Nuriro_DD_Old_OT                      : Nuriro DD O-train Livery
 STR_REFIT_LIVERY_Nuriro_DD_New_ITX                     : Nuriro DD ITX Livery
-
 STR_REFIT_LIVERY_RDC                                   : RDC
 STR_REFIT_LIVERY_RDC_Cafe_A                            : RDC Cafe Car A
 STR_REFIT_LIVERY_RDC_Cafe_B                            : RDC Cafe Car B
@@ -629,6 +628,7 @@ STR_REFIT_LIVERY_RDC_PY                                : RDC Pohang Yeongdeok A 
 STR_REFIT_LIVERY_RDC_PY2                               : RDC Pohang Yeongdeok B type
 STR_REFIT_LIVERY_RDC_Gyeongbuk_Old                     : RDC Gyeongbuk Old
 STR_REFIT_LIVERY_RDC_Gyeongbuk_New                     : RDC Gyeongbuk New
+STR_REFIT_LIVERY_RDC_Gyeongbuk_Nadri                   : RDC Gyeongbuk Nadri
 STR_REFIT_LIVERY_CRH380A                               : CRH380A
 STR_REFIT_LIVERY_Vibrant_Express                       : Vibrant Express
 STR_REFIT_LIVERY_CR400BF_C                             : Golden Phoenix Livery

@@ -15,6 +15,7 @@ switch(FEAT_TRAINS, SELF, sw_RDC_4car_cargo_subtype_text, cargo_subtype) {
     3: return string(STR_REFIT_LIVERY_RDC_Cafe_C);
     4: return string(STR_REFIT_LIVERY_RDC_Gyeongbuk_Old);
     5: return string(STR_REFIT_LIVERY_RDC_Gyeongbuk_New);
+    6: return string(STR_REFIT_LIVERY_RDC_Gyeongbuk_Nadri);
     return string(STR_REFIT_LIVERY_RDC);
 }
 
@@ -69,24 +70,27 @@ switch(FEAT_TRAINS, SELF, sw_RDC_4car_engineH, cargo_subtype) {
     3: set_RDC_engineH;
     4: set_RDC_Gyeongbuk_engineH;
     5: set_RDC_Gyeongbuk_New_engineH;
+    6: set_RDC_Gyeongbuk_Nadri_engineH;
     set_RDC_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_CDC_4car_wagon_M2, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_RDC_4car_wagon_M1, cargo_subtype) {
     1: set_RDC_wagon_M2;
     2: set_RDC_wagon_M2;
     3: set_RDC_wagon_M2Cafe;
     4: set_RDC_Gyeongbuk_wagon_M1;
     5: set_RDC_Gyeongbuk_New_wagon_M1;
+    6: set_RDC_Gyeongbuk_Nadri_wagon_M1;
     set_RDC_wagon_M2;
 }
 
-switch(FEAT_TRAINS, SELF, sw_CDC_4car_wagon_M1, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_RDC_4car_wagon_M2, cargo_subtype) {
     1: set_RDC_wagon_M1Cafe;
     2: set_RDC_wagon_M2Cafe;
     3: set_RDC_wagon_M1Cafe;
     4: set_RDC_Gyeongbuk_wagon_M2;
     5: set_RDC_Gyeongbuk_New_wagon_M2;
+    6: set_RDC_Gyeongbuk_Nadri_wagon_M2;
     set_RDC_wagon_M1;
 }
 
@@ -96,6 +100,7 @@ switch(FEAT_TRAINS, SELF, sw_RDC_4car_engineT, cargo_subtype) {
     3: set_RDC_engineT;
     4: set_RDC_Gyeongbuk_engineT;
     5: set_RDC_Gyeongbuk_New_engineT;
+    6: set_RDC_Gyeongbuk_Nadri_engineT;
     set_RDC_engineT;
 }
 
@@ -106,24 +111,27 @@ switch(FEAT_TRAINS, SELF, sw_RDC_4car_engineH_r, cargo_subtype) {
     3: set_RDC_engineH_r;
     4: set_RDC_Gyeongbuk_engineH_r;
     5: set_RDC_Gyeongbuk_New_engineH_r;
+    6: set_RDC_Gyeongbuk_Nadri_engineH_r;
     set_RDC_engineH_r;
 }
 
-switch(FEAT_TRAINS, SELF, sw_CDC_4car_wagon_M2_r, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_RDC_4car_wagon_M1_r, cargo_subtype) {
     1: set_RDC_wagon_M2_r;
     2: set_RDC_wagon_M2_r;
     3: set_RDC_wagon_M2Cafe_r;
     4: set_RDC_Gyeongbuk_wagon_M1_r;
     5: set_RDC_Gyeongbuk_New_wagon_M1_r;
+    6: set_RDC_Gyeongbuk_Nadri_wagon_M1_r;
     set_RDC_wagon_M2_r;
 }
 
-switch(FEAT_TRAINS, SELF, sw_CDC_4car_wagon_M1_r, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_RDC_4car_wagon_M2_r, cargo_subtype) {
     1: set_RDC_wagon_M1Cafe_r;
     2: set_RDC_wagon_M2Cafe_r;
     3: set_RDC_wagon_M1Cafe_r;
     4: set_RDC_Gyeongbuk_wagon_M2_r;
     5: set_RDC_Gyeongbuk_New_wagon_M2_r;
+    6: set_RDC_Gyeongbuk_Nadri_wagon_M2_r;
     set_RDC_wagon_M1_r;
 }
 
@@ -133,6 +141,7 @@ switch(FEAT_TRAINS, SELF, sw_RDC_4car_engineT_r, cargo_subtype) {
     3: set_RDC_engineT_r;
     4: set_RDC_Gyeongbuk_engineT_r;
     5: set_RDC_Gyeongbuk_New_engineT_r;
+    6: set_RDC_Gyeongbuk_Nadri_engineT_r;
     set_RDC_engineT_r;
 }
 
@@ -162,15 +171,15 @@ switch(FEAT_TRAINS, PARENT, sw_RDC_3car_reversed, vehicle_is_reversed){
 
 // 4량
 switch (FEAT_TRAINS, SELF, sw_RDC_4car, position_in_vehid_chain % 4) {
-    1:sw_CDC_4car_wagon_M2;
-    2:sw_CDC_4car_wagon_M1;
+    1:sw_RDC_4car_wagon_M1;
+    2:sw_RDC_4car_wagon_M2;
     3:sw_RDC_4car_engineT;
     sw_RDC_4car_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_RDC_4car_r, position_in_vehid_chain % 4) {
-    1:sw_CDC_4car_wagon_M1_r;
-    2:sw_CDC_4car_wagon_M2_r;
+    1:sw_RDC_4car_wagon_M2_r;
+    2:sw_RDC_4car_wagon_M1_r;
     3:sw_RDC_4car_engineH_r;
     sw_RDC_4car_engineT_r; //default
     }

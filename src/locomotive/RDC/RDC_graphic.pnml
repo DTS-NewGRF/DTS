@@ -212,6 +212,41 @@ alternative_sprites(set_RDC_Gyeongbuk_New_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_
 }
 
 /*--------------------------------------------------------------------
+RDC_Gyeongbuk Nadri
+--------------------------------------------------------------------*/
+spriteset(set_RDC_Gyeongbuk_Nadri_engineH, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png"){
+    engine(80, 0)
+}
+
+spriteset(set_RDC_Gyeongbuk_Nadri_engineH_r, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png"){
+    engine(80, 27)
+}
+
+spriteset(set_RDC_Gyeongbuk_Nadri_wagon_M1, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_RDC_Gyeongbuk_Nadri_wagon_M1_r, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_RDC_Gyeongbuk_Nadri_wagon_M2, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_RDC_Gyeongbuk_Nadri_wagon_M2_r, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_RDC_Gyeongbuk_Nadri_engineT_r, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png"){
+    engine(80, 108)
+}
+
+spriteset(set_RDC_Gyeongbuk_Nadri_engineT, "src/locomotive/RDC/RDC_Gyeongbuk_Nadri.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 // 구매차량 그래픽

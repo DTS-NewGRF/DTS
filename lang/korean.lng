@@ -616,7 +616,6 @@ STR_REFIT_LIVERY_Nuriro_DD_Old_C                       : 누리로 DD 구도색 
 STR_REFIT_LIVERY_Nuriro_DD_New_C                       : 누리로 DD 신도색 회사색상
 STR_REFIT_LIVERY_Nuriro_DD_Old_OT                      : 누리로 DD O-train 도색
 STR_REFIT_LIVERY_Nuriro_DD_New_ITX                     : 누리로 DD ITX 도색
-
 STR_REFIT_LIVERY_RDC                                   : 일반실
 STR_REFIT_LIVERY_RDC_Cafe_A                            : 카페객차 편성 A
 STR_REFIT_LIVERY_RDC_Cafe_B                            : 카페객차 편성 B
@@ -625,6 +624,7 @@ STR_REFIT_LIVERY_RDC_PY                                : 포항영덕랩핑 A
 STR_REFIT_LIVERY_RDC_PY2                               : 포항영덕랩핑 B
 STR_REFIT_LIVERY_RDC_Gyeongbuk_Old                     : 경북관광순환테마 구도색
 STR_REFIT_LIVERY_RDC_Gyeongbuk_New                     : 경북관광순환테마 신도색
+STR_REFIT_LIVERY_RDC_Gyeongbuk_Nadri                   : 경북나드리
 STR_REFIT_LIVERY_CRH380A                               : CRH380A
 STR_REFIT_LIVERY_Vibrant_Express                       : 바이브런트 익스프레스
 STR_REFIT_LIVERY_CR400BF_C                             : 일반 도색
