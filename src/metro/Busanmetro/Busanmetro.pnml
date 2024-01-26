@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------------
+부산교통공사
+--------------------------------------------------------------------*/
+// Graphics
+#include "Busanmetro_graphic.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹 부산교통공사
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Busanmetro, 2242){
+    property {
+        name:                           string(STR_Group_Busanmetro_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2592 kW;
+        }
+
+    graphics {
+        purchase:                       set_Busanmetro_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차 리스트
+--------------------------------------------------------------------*/
+#include "Busanmetro_1000/Busanmetro_1st_1000/Busanmetro_1st_1000.pnml"
+#include "Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000.pnml"
+#include "Busanmetro_1000/Busanmetro_3rd_1000/Busanmetro_3rd_1000.pnml"

@@ -221,6 +221,12 @@ STR_Talgo_350_SRO_14Car_NAME                           :[DTS/14량] 탈고 350 S
 
 # Korea / Metro's name
 STR_AUTS_6Car_NAME                                     :[DTS/6량] 차세대전동차
+STR_Group_Busanmetro_NAME                              :[DTS] 부산교통공사 전동차
+STR_Group_Busanmetro_1st_1000_NAME                     :[DTS] 부산교통공사 1세대 1000호대 전동차
+STR_Busanmetro_1st_1000_6Car_NAME                      :[DTS/6량] 부산교통공사 1세대 1000호대 전동차
+STR_Busanmetro_1st_1000_8Car_NAME                      :[DTS/8량] 부산교통공사 1세대 1000호대 전동차
+STR_Busanmetro_2nd_1000_8Car_NAME                      :[DTS/8량] 부산교통공사 2세대 1000호대 전동차
+STR_Busanmetro_3rd_1000_8Car_NAME                      :[DTS/8량] 부산교통공사 3세대 1000호대 전동차
 STR_Group_Korail_NAME                                  :[DTS] 한국철도공사 통근형 전동차
 STR_Group_Korail_1st_NAME                              :[DTS] 한국철도공사 1세대 전동차
 STR_Korail_1st_4Car_NAME                               :[DTS/4량] 한국철도공사 1세대
@@ -681,6 +687,11 @@ STR_REFIT_LIVERY_HYEL_150_SB                           : HYEL-150 바다도색
 
 # Liveries metro
 STR_REFIT_LIVERY_AUTS                                  : AUTS
+STR_REFIT_LIVERY_Busanmetro_1st_1000_Chopper           : 초퍼
+STR_REFIT_LIVERY_Busanmetro_1st_1000_VVVF              : VVVF
+STR_REFIT_LIVERY_Busanmetro_2nd_1000_G1                : 1차분
+STR_REFIT_LIVERY_Busanmetro_2nd_1000_G2                : 2차분
+STR_REFIT_LIVERY_Busanmetro_2nd_1000_G3                : 3차분
 STR_REFIT_LIVERY_Korail_1st_IGBT                       : IGBT
 STR_REFIT_LIVERY_Korail_1st_GTO                        : GTO
 STR_REFIT_LIVERY_Korail_1st_3X1K_IGBT                  : 3X1K IGBT

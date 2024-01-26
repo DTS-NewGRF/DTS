@@ -221,6 +221,12 @@ STR_THSR_700T_12Car_NAME                               :[DTS/12Car] THSR 700T
 
 # Korea / Metro's name
 STR_AUTS_6Car_NAME                                     :[DTS/6Car] AUTS
+STR_Group_Busanmetro_NAME                              :[DTS] Busan Metro
+STR_Group_Busanmetro_1st_1000_NAME                     :[DTS] Busanmetro 1st 1000
+STR_Busanmetro_1st_1000_6Car_NAME                      :[DTS/6량] Busanmetro 1st 1000
+STR_Busanmetro_1st_1000_8Car_NAME                      :[DTS/8량] Busanmetro 1st 1000
+STR_Busanmetro_2nd_1000_8Car_NAME                      :[DTS/8량] Busanmetro 2nd 1000
+STR_Busanmetro_3rd_1000_8Car_NAME                      :[DTS/8량] Busanmetro 3rd 1000
 STR_Group_Korail_NAME                                  :[DTS] Korail Metro
 STR_Group_Korail_1st_NAME                              :[DTS] Korail 1st 
 STR_Korail_1st_4Car_NAME                               :[DTS/4Car] Korail 1st
@@ -255,7 +261,7 @@ STR_Korail_Second_8Car_NAME                            :[DTS/8Car] Korail Rheost
 STR_Korail_Second_10Car_NAME                           :[DTS/10Car] Korail Rheostatic [Second]
 STR_Korail_Third_10Car_NAME                            :[DTS/10Car] Korail Rheostatic [Third]
 STR_Korail_Rheostatic_10Car_NAME                       :[DTS/10Car] Korail Rheostatic [Rheostatic]
-STR_Group_Seoulmetro_NAME                              :[DTS] Seoulmetro Metro
+STR_Group_Seoulmetro_NAME                              :[DTS] Seoul Metro
 STR_Group_Chopper_GEC_NAME                             :[DTS] Seoulmetro 2000 GEC chopper
 STR_Chopper_GEC_6Car_NAME                              :[DTS/6Car] Seoulmetro 2000 GEC chopper
 STR_Chopper_GEC_10Car_NAME                             :[DTS/10Car] Seoulmetro 2000 GEC chopper
@@ -685,6 +691,11 @@ STR_REFIT_LIVERY_HYEL_150_SB                           : HYEL-150 Sea Livery
 
 # Liveries metro
 STR_REFIT_LIVERY_AUTS                                  : AUTS
+STR_REFIT_LIVERY_Busanmetro_1st_1000_Chopper           : Chopper
+STR_REFIT_LIVERY_Busanmetro_1st_1000_VVVF              : VVVF
+STR_REFIT_LIVERY_Busanmetro_2nd_1000_G1                : 1st
+STR_REFIT_LIVERY_Busanmetro_2nd_1000_G2                : 2nd
+STR_REFIT_LIVERY_Busanmetro_2nd_1000_G3                : 3rd
 STR_REFIT_LIVERY_Korail_1st_IGBT                       : IGBT
 STR_REFIT_LIVERY_Korail_1st_GTO                        : GTO
 STR_REFIT_LIVERY_Korail_1st_3X1K_IGBT                  : 3X1K IGBT

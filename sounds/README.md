@@ -70,6 +70,8 @@
 - 공항철도 2000호대 1세대
 - 공항철도 2000호대 4세대
 - 신분당선
+- 부산교통공사 1000호대 1세대
+- 부산교통공사 1000호대 2세대 1차분
 
 ### HYUNDAIROTEMIGBTIPM1start.wav
 - 서울교통공사 2000호대 1·2세대 3VF
@@ -115,6 +117,9 @@
 ### TGV_Kstart.wav
 - KTX-1
 
+### Thyristor_Chopper_Start.wav
+- 부산교통공사 1세대 1000호대
+
 ### TOSHIBAGTOJ2start.wav
 - 신칸센 500계 16량
 
@@ -147,6 +152,8 @@
 - 한큐전철 신 1000형
 - 서울교통공사 4세대 5000형
 - 서울교통공사 3세대 8000호대 VVVF 전동차
+- 부산교통공사 2세대 1000호대 2,3차분
+- 부산교통공사 3세대 1000호대
 
 ### TOSHIBASicStart.wav
 - 니시테츠 9000형
@@ -165,24 +172,36 @@
 ### TOYODENKIIGBTStart.wav
 - 한큐 9300형
 
-### WOOJINMITSUBISHIIGBTstart.wav
+### WOOJIN_IGBT_1start.wav
+- 서울교통공사 4000호대 2세대 IGBT
+
+### WOOJIN_IGBT_2start.wav
 - 한국철도공사 5세대 VVVF전동차
 
 ### WOOJINMITSUBISHIIGBT2start.wav
 - 한국철도공사 5세대 VVVF전동차 소프트웨어 개선
 - CL-150, CL-180
 
-### WOOJINTOSHIBAIGBTstart.wav
-- 서울교통공사 4000호대 2세대 IGBT
-
 ## 터널진입음
 ### DELhorn.wav
 - 7X00호대 디젤기관차
 
 ## 정지사운드
+### COMMINS_DMU_Idle.wav
+- CDC, RDC
+
+### DEL7000Idle.wav
+- 7000호대 디젤기관차
+
 ### GT26CWDIESELIdle.wav
 - 7X00호대 디젤기관차
 
+### MTU386TCIdle.wav
+- DHC PP 디젤동차
+
 ## 수익사운드
+### BTC_DOOR_CLOSE.wav
+- 부산교통공사 1000호대 1세대
+
 ### osfx_20.wav
 - 사운드 적용한 모든 차량 적용.

@@ -1,0 +1,15 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽 8bpp
+spriteset(set_Busanmetro_purchase, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_1st_1000/Busanmetro_1st_1000.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+// 구매차량 그래픽 32bpp
+alternative_sprites(set_Busanmetro_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Busanmetro/Busanmetro.png"){
+    tmpl_single_purchase(0, 0)
+}

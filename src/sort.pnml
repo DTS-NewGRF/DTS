@@ -4,6 +4,12 @@
 sort(FEAT_TRAINS, [
     //지하철
     AUTS_6Car,                               //2007
+    Busanmetro,                              //2242
+    Busanmetro_1st_1000,                     //2243
+    Busanmetro_1st_1000_6Car,                //2244
+    Busanmetro_1st_1000_8Car,                //2378
+    Busanmetro_2st_1000_8Car,                //2379
+    Busanmetro_3rd_1000_8Car,                //2380
     Korail,                                  //2240
     Korail_1st,                              //2227
     Korail_1st_4car,                         //2228

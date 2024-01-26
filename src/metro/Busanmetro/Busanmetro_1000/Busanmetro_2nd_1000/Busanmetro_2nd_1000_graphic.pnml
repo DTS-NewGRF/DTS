@@ -1,0 +1,84 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+부산교통공사 1000호대 1,2차분
+--------------------------------------------------------------------*/
+spriteset(set_Busanmetro_2nd_1000_G1_engineH, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G1_engineH_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G1_panto_wagon, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G1_panto_wagon_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G1_wagon, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G1_wagon_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G1_engineT_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G1_engineT, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+부산교통공사 1000호대 3차분
+--------------------------------------------------------------------*/
+spriteset(set_Busanmetro_2nd_1000_G2_engineH, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G2_engineH_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G2_panto_wagon, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G2_panto_wagon_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G2_wagon, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G2_wagon_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G2_engineT_r, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Busanmetro_2nd_1000_G2_engineT, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G2.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Busanmetro_2nd_1000_purchase, "src/metro/Busanmetro/Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000_G1.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Busanmetro_2nd_1000_purchase, cargo_subtype) {
+    set_Busanmetro_2nd_1000_purchase;
+}

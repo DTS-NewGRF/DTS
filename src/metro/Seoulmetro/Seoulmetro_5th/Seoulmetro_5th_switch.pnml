@@ -37,7 +37,7 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_5th_7000_8car_reversed, vehicle_is_rev
 }
 
 // 편성량
-switch (FEAT_TRAINS, SELF, sw_articulated_sw_Seoulmetro_5th_7000_8car, extra_callback_info1) {
+switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_5th_7000_8car, extra_callback_info1) {
     1..7: Seoulmetro_5th_7000_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
