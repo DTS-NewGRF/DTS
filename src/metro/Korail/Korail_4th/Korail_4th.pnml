@@ -125,7 +125,7 @@ item(FEAT_TRAINS, Korail_392000_4Car, 2140){
     graphics {
         default:                        sw_Korail_392000_4car;
         articulated_part:               sw_articulated_Korail_392000_4car;
-        purchase:                       sw__Korail_4th_G1_purchase;
+        purchase:                       sw_Korail_392000_purchase;
         speed:                          sw_Korail_4th_speed;
         loading_speed:                  25;
         cost_factor:                    10;
@@ -179,7 +179,7 @@ item(FEAT_TRAINS, Korail_4th_G1_4Car, 2030){
     graphics {
         default:                        sw_Korail_4th_G1_4car_reversed;
         articulated_part:               sw_articulated_Korail_4th_G1_4car;
-        purchase:                       sw__Korail_4th_G1_purchase;
+        purchase:                       sw_Korail_4th_G1_purchase;
         speed:                          sw_Korail_4th_speed;
         loading_speed:                  25;
         cost_factor:                    10;

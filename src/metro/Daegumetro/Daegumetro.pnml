@@ -1,15 +1,15 @@
 /*--------------------------------------------------------------------
-부산교통공사
+대구교통공사
 --------------------------------------------------------------------*/
 // Graphics
-#include "Busanmetro_graphic.pnml"
+#include "Daegumetro_graphic.pnml"
 
 /*--------------------------------------------------------------------
-열차정보 그룹 부산교통공사
+열차정보 그룹 대구교통공사
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Busanmetro, 2242){
+item(FEAT_TRAINS, Daegumetro, 2383){
     property {
-        name:                           string(STR_Group_Busanmetro_NAME);
+        name:                           string(STR_Group_Daegumetro_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -18,15 +18,12 @@ item(FEAT_TRAINS, Busanmetro, 2242){
         }
 
     graphics {
-        purchase:                       set_Busanmetro_purchase;
+        purchase:                       sw_Daegumetro_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
 열차 리스트
 --------------------------------------------------------------------*/
-#include "Busanmetro_1000/Busanmetro_1st_1000/Busanmetro_1st_1000.pnml"
-#include "Busanmetro_1000/Busanmetro_2nd_1000/Busanmetro_2nd_1000.pnml"
-#include "Busanmetro_1000/Busanmetro_3rd_1000/Busanmetro_3rd_1000.pnml"
-#include "Busanmetro_2000/Busanmetro_2000.pnml"
-#include "Busanmetro_3000/Busanmetro_3000.pnml"
+#include "Daegumetro_1000/Daegumetro_1000.pnml"
+#include "Daegumetro_2000/Daegumetro_2000.pnml"

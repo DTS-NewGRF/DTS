@@ -227,6 +227,11 @@ STR_Busanmetro_1st_1000_6Car_NAME                      :[DTS/6량] 부산교통�
 STR_Busanmetro_1st_1000_8Car_NAME                      :[DTS/8량] 부산교통공사 1세대 1000호대 전동차
 STR_Busanmetro_2nd_1000_8Car_NAME                      :[DTS/8량] 부산교통공사 2세대 1000호대 전동차
 STR_Busanmetro_3rd_1000_8Car_NAME                      :[DTS/8량] 부산교통공사 3세대 1000호대 전동차
+STR_Busanmetro_2000_6Car_NAME                          :[DTS/6량] 부산교통공사 2000호대 전동차
+STR_Busanmetro_3000_4Car_NAME                          :[DTS/4량] 부산교통공사 3000호대 전동차
+STR_Group_Daegumetro_NAME                              :[DTS] 대구교통공사 전동차
+STR_Daegumetro_1000_6Car_NAME                          :[DTS/6량] 대구교통공사 1000호대 전동차
+STR_Daegumetro_2000_6Car_NAME                          :[DTS/6량] 대구교통공사 2000호대 전동차
 STR_Group_Korail_NAME                                  :[DTS] 한국철도공사 통근형 전동차
 STR_Group_Korail_1st_NAME                              :[DTS] 한국철도공사 1세대 전동차
 STR_Korail_1st_4Car_NAME                               :[DTS/4량] 한국철도공사 1세대
@@ -692,6 +697,11 @@ STR_REFIT_LIVERY_Busanmetro_1st_1000_VVVF              : VVVF
 STR_REFIT_LIVERY_Busanmetro_2nd_1000_G1                : 1차분
 STR_REFIT_LIVERY_Busanmetro_2nd_1000_G2                : 2차분
 STR_REFIT_LIVERY_Busanmetro_2nd_1000_G3                : 3차분
+STR_REFIT_LIVERY_Busanmetro_2000_GTO                   : GTO
+STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
+STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
+STR_REFIT_LIVERY_Daegumetro_1000_GTO                   : GTO
+STR_REFIT_LIVERY_Daegumetro_1000_IGBT                  : IGBT
 STR_REFIT_LIVERY_Korail_1st_IGBT                       : IGBT
 STR_REFIT_LIVERY_Korail_1st_GTO                        : GTO
 STR_REFIT_LIVERY_Korail_1st_3X1K_IGBT                  : 3X1K IGBT

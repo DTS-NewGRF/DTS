@@ -1,5 +1,5 @@
 # Diversity Train Set 다양성 열차세트 /DTS
-![DTS_board](https://github.com/DTS-NewGRF/DTS/assets/55119879/1d585536-cb4e-4e32-8de7-77a44d9386a8)
+![DTS_board](https://github.com/DTS-NewGRF/DTS/blob/minengallery/docs/DTS_board.png)
 **다양성 열차세트**는 <br>
 약 2016년에 [YST set](https://github.com/evepoi/YST)에서 최초로 시작했다.<br>
 2022년 4월 2일 YST에서 열차들이 나라별도 분리된 <br>
@@ -27,6 +27,9 @@
 - [신분당선] 1,2,3세대
 - [RDC] 경북나드리 도색 
 - [부산교통공사] 1000호대 1,2,3세대
+- [부산교통공사] 2000, 3000호대
+- [대구교통공사] 그룹화 전용디자인
+- [대구교통공사] 1000, 2000호대
 
 [변경]
 - [한국 지하철] 열차 정렬 재정비 / 세부사항 인게임에서 확인.

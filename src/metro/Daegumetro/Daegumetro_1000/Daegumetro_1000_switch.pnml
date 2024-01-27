@@ -1,0 +1,67 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_Daegumetro_1000_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_Daegumetro_1000_IGBT);
+    return string(STR_REFIT_LIVERY_Daegumetro_1000_GTO);
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Daegumetro_1000_6car, position_in_vehid_chain % 6) {
+    1:set_Daegumetro_1000_wagon;
+    2:set_Daegumetro_1000_panto_wagon;
+    3:set_Daegumetro_1000_wagon;
+    4:set_Daegumetro_1000_panto_wagon;
+    5:set_Daegumetro_1000_engineT;
+    set_Daegumetro_1000_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Daegumetro_1000_6car_r, position_in_vehid_chain % 6) {
+    1:set_Daegumetro_1000_panto_wagon_r;
+    2:set_Daegumetro_1000_wagon_r;
+    3:set_Daegumetro_1000_panto_wagon_r;
+    4:set_Daegumetro_1000_wagon_r;
+    5:set_Daegumetro_1000_engineH_r;
+    set_Daegumetro_1000_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Daegumetro_1000_6car_flipped, vehicle_is_flipped){
+    0: sw_Daegumetro_1000_6car;
+    sw_Daegumetro_1000_6car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Daegumetro_1000_6car_reversed, vehicle_is_reversed){
+    0: sw_Daegumetro_1000_6car_r;
+    sw_Daegumetro_1000_6car_flipped;
+}
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_Daegumetro_1000_6car, extra_callback_info1) {
+    1..5: Daegumetro_1000_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+// 사운드
+switch(FEAT_TRAINS, SELF, sw_Daegumetro_1000_GTO_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/SIEMENSGTOstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Daegumetro_1000_IGBT_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/DAWONSYSIGBTstart.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Daegumetro_1000_sound, cargo_subtype) {
+    1: sw_Daegumetro_1000_IGBT_sound;
+    sw_Daegumetro_1000_GTO_sound;
+}
+
+// 속도변수
+switch(FEAT_TRAINS, SELF, sw_Daegumetro_1000_speed, Use_max_virtual_speed) {
+    1: return Metro_Speed_Train;
+    return 100;
+    }

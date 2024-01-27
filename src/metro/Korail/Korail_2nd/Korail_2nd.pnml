@@ -88,7 +88,7 @@ item(FEAT_TRAINS, Korail_2nd_10car, 2237){
     property {
         name:                           string(STR_Korail_2nd_10Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2003, 1, 1);
+        introduction_date:              date(1999, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;

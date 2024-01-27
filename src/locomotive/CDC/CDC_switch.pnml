@@ -307,7 +307,6 @@ switch(FEAT_TRAINS, SELF, sw_CDC_4car_capacity_in_custom, cargo_subtype) {
 // 사운드
 switch(FEAT_TRAINS, SELF, sw_CDC_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/Cummins_DMU_start.wav");
-    SOUND_EVENT_STOPPED: sound("sounds/COMMINS_DMU_Idle.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }

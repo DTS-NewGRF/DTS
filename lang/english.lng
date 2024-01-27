@@ -223,10 +223,15 @@ STR_THSR_700T_12Car_NAME                               :[DTS/12Car] THSR 700T
 STR_AUTS_6Car_NAME                                     :[DTS/6Car] AUTS
 STR_Group_Busanmetro_NAME                              :[DTS] Busan Metro
 STR_Group_Busanmetro_1st_1000_NAME                     :[DTS] Busanmetro 1st 1000
-STR_Busanmetro_1st_1000_6Car_NAME                      :[DTS/6량] Busanmetro 1st 1000
-STR_Busanmetro_1st_1000_8Car_NAME                      :[DTS/8량] Busanmetro 1st 1000
-STR_Busanmetro_2nd_1000_8Car_NAME                      :[DTS/8량] Busanmetro 2nd 1000
-STR_Busanmetro_3rd_1000_8Car_NAME                      :[DTS/8량] Busanmetro 3rd 1000
+STR_Busanmetro_1st_1000_6Car_NAME                      :[DTS/6car] Busanmetro 1st 1000
+STR_Busanmetro_1st_1000_8Car_NAME                      :[DTS/8car] Busanmetro 1st 1000
+STR_Busanmetro_2nd_1000_8Car_NAME                      :[DTS/8car] Busanmetro 2nd 1000
+STR_Busanmetro_3rd_1000_8Car_NAME                      :[DTS/8car] Busanmetro 3rd 1000
+STR_Busanmetro_2000_6Car_NAME                          :[DTS/6car] Busanmetro 2000
+STR_Busanmetro_3000_4Car_NAME                          :[DTS/4car] Busanmetro 3000
+STR_Group_Daegumetro_NAME                              :[DTS] Daegu Metro
+STR_Daegumetro_1000_6Car_NAME                          :[DTS/6car] Daegumetro 1000
+STR_Daegumetro_2000_6Car_NAME                          :[DTS/6car] Daegumetro 2000
 STR_Group_Korail_NAME                                  :[DTS] Korail Metro
 STR_Group_Korail_1st_NAME                              :[DTS] Korail 1st 
 STR_Korail_1st_4Car_NAME                               :[DTS/4Car] Korail 1st
@@ -696,6 +701,11 @@ STR_REFIT_LIVERY_Busanmetro_1st_1000_VVVF              : VVVF
 STR_REFIT_LIVERY_Busanmetro_2nd_1000_G1                : 1st
 STR_REFIT_LIVERY_Busanmetro_2nd_1000_G2                : 2nd
 STR_REFIT_LIVERY_Busanmetro_2nd_1000_G3                : 3rd
+STR_REFIT_LIVERY_Busanmetro_2000_GTO                   : GTO
+STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
+STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
+STR_REFIT_LIVERY_Daegumetro_1000_GTO                   : GTO
+STR_REFIT_LIVERY_Daegumetro_1000_IGBT                  : IGBT
 STR_REFIT_LIVERY_Korail_1st_IGBT                       : IGBT
 STR_REFIT_LIVERY_Korail_1st_GTO                        : GTO
 STR_REFIT_LIVERY_Korail_1st_3X1K_IGBT                  : 3X1K IGBT

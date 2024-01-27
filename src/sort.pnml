@@ -10,6 +10,11 @@ sort(FEAT_TRAINS, [
     Busanmetro_1st_1000_8Car,                //2378
     Busanmetro_2st_1000_8Car,                //2379
     Busanmetro_3rd_1000_8Car,                //2380
+    Busanmetro_2000_6Car,                    //2381
+    Busanmetro_3000_4Car,                    //2382
+    Daegumetro,                              //2383
+    Daegumetro_1000_6Car,                    //2384
+    Daegumetro_2000_6Car,                    //2385
     Korail,                                  //2240
     Korail_1st,                              //2227
     Korail_1st_4car,                         //2228

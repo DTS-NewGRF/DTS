@@ -1,0 +1,37 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽 8bpp
+spriteset(set_Daegumetro_1995_purchase, "src/metro/Daegumetro/Daegumetro_1000/Daegumetro_1000.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_Daegumetro_2008_purchase, "src/metro/Daegumetro/Daegumetro_1000/Daegumetro_1000.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+// 구매차량 그래픽 32bpp
+alternative_sprites(set_Daegumetro_1995_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Daegumetro/Daegumetro_1995.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+alternative_sprites(set_Daegumetro_2008_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Daegumetro/Daegumetro_2008.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Daegumetro_1995_purchase, cargo_subtype) {
+    set_Daegumetro_1995_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Daegumetro_2008_purchase, cargo_subtype) {
+    set_Daegumetro_2008_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Daegumetro_purchase, current_year) {
+    0..2007: sw_Daegumetro_1995_purchase;
+    sw_Daegumetro_2008_purchase;
+    }

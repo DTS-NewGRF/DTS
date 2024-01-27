@@ -6,6 +6,7 @@
 ### ALSTOMGTOstart.wav
 - 서울교통공사 4000호대 2세대 GTO
 - 서울교통공사 7000, 8000호대
+- 부산교통공사 2000호대
 
 ### Cummins_DMU_start.wav
 - CDC
@@ -23,6 +24,8 @@
 - 서울교통공사 5000호대 1세대_IGBT
 - 서울교통공사 7000호대 3세대 VVVF전동차
 - 서울교통공사 7000호대 4세대 VVVF전동차
+- 부산교통공사 2000호대
+- 대구교통공사 1000호대
 
 ### DCMOTER1start.wav
 - 한큐전철 6000형, 6300형
@@ -72,6 +75,8 @@
 - 신분당선
 - 부산교통공사 1000호대 1세대
 - 부산교통공사 1000호대 2세대 1차분
+- 부산교통공사 3000호대
+- 대구교통공사 2000호대
 
 ### HYUNDAIROTEMIGBTIPM1start.wav
 - 서울교통공사 2000호대 1·2세대 3VF
@@ -113,6 +118,9 @@
 
 ### SIEMENSGTOlocostart.wav
 - 8200호대 전기 기관차
+
+### SIEMENSGTOstart.wav
+- 대구교통공사 1000호대
 
 ### TGV_Kstart.wav
 - KTX-1
@@ -177,6 +185,7 @@
 
 ### WOOJIN_IGBT_2start.wav
 - 한국철도공사 5세대 VVVF전동차
+- 부산교통공사 2000호대
 
 ### WOOJINMITSUBISHIIGBT2start.wav
 - 한국철도공사 5세대 VVVF전동차 소프트웨어 개선
@@ -188,7 +197,7 @@
 
 ## 정지사운드
 ### COMMINS_DMU_Idle.wav
-- CDC, RDC
+- CDC, RDC / 적용 보류
 
 ### DEL7000Idle.wav
 - 7000호대 디젤기관차
@@ -197,7 +206,7 @@
 - 7X00호대 디젤기관차
 
 ### MTU386TCIdle.wav
-- DHC PP 디젤동차
+- DHC PP 디젤동차 / 적용 보류
 
 ## 수익사운드
 ### BTC_DOOR_CLOSE.wav
