@@ -1,0 +1,15 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_Eco_Rail_5Car, position_in_vehid_chain % 5) {
+    1:set_Eco_Rail_wagon_A;
+    2:set_Eco_Rail_wagon_C;
+    3:set_Eco_Rail_wagon_A;
+    4:set_Eco_Rail_wagon_B;
+    set_Eco_Rail_wagon_A; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Eco_Rail_5Car, extra_callback_info1) {
+    1..4: Eco_Rail_Passenger_5Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

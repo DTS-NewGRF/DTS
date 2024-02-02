@@ -232,6 +232,9 @@ STR_Busanmetro_3000_4Car_NAME                          :[DTS/4car] Busanmetro 30
 STR_Group_Daegumetro_NAME                              :[DTS] Daegu Metro
 STR_Daegumetro_1000_6Car_NAME                          :[DTS/6car] Daegumetro 1000
 STR_Daegumetro_2000_6Car_NAME                          :[DTS/6car] Daegumetro 2000
+STR_Group_Incheonmetro_NAME                            :[DTS] Incheon Metro
+STR_Incheonmetro_1st_8Car_NAME                         :[DTS/8량] Incheonmetro 1st
+STR_Incheonmetro_2nd_8Car_NAME                         :[DTS/8량] Incheonmetro 2nd
 STR_Group_Korail_NAME                                  :[DTS] Korail Metro
 STR_Group_Korail_1st_NAME                              :[DTS] Korail 1st 
 STR_Korail_1st_4Car_NAME                               :[DTS/4Car] Korail 1st
@@ -390,7 +393,8 @@ STR_S_Train_5Car_NAME                                  :[DTS] S-Train Passenger 
 STR_S_Train_New_NAME                                   :[DTS] S-Train Passenger Car
 STR_A_Train_New_NAME                                   :[DTS] A-Train Passenger Car
 STR_G_Train_New_NAME                                   :[DTS] G-Train Passenger Car
-STR_KTS_MSPASS_NAME                                    :[DTS] Korea Mugunhwa passenger car
+STR_KTS_MSPASS_2cc_NAME                                :[DTS] Korea Mugunhwa 2cc passenger car
+STR_KTS_Mugunhwa_Real_Normal_NAME                      :[DTS] Korea Mugunhwa passenger car
 STR_KTS_SSPASS_NAME                                    :[DTS] Korea Saemaeul passenger car
 STR_Group_PEX_NAME                                     :[DTS] PEX (Premium EXpress)
 STR_PEX_N_NAME                                         :[DTS] PEX 1F Car
@@ -485,7 +489,8 @@ STR_REFIT_train_configuration_Lady_Bird_Passenger      :{BLACK}train configurati
 STR_REFIT_train_configuration_S_Train_New_Passenger    :{BLACK}train configuration {GREEN}S-Train Passenger Car
 STR_REFIT_train_configuration_A_Train_New_Passenger    :{BLACK}train configuration {GREEN}A-Train Passenger Car
 STR_REFIT_train_configuration_G_Train_New_Passenger    :{BLACK}train configuration {GREEN}G-Train Passenger Car
-STR_REFIT_train_configuration_MSPassenger              :{BLACK}train configuration {GREEN}Korea Mugunhwa Passenger vehicles
+STR_REFIT_train_configuration_Mugunghwa_Real_Normal    :{BLACK}train configuration {GREEN}Korea Mugunhwa Passenger vehicles
+STR_REFIT_train_configuration_MSPassenger              :{BLACK}train configuration {GREEN}Korea Mugunhwa 2cc Passenger vehicles
 STR_REFIT_train_configuration_SSPassenger              :{BLACK}train configuration {GREEN}Korea Saemaeul Passenger vehicles
 STR_REFIT_train_configuration_PEX                      :{BLACK}train configuration {GREEN}PEX
 STR_REFIT_train_configuration_Generatar                :{BLACK}train configuration {GREEN}Generatar vehicles
@@ -706,6 +711,9 @@ STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
 STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
 STR_REFIT_LIVERY_Daegumetro_1000_GTO                   : GTO
 STR_REFIT_LIVERY_Daegumetro_1000_IGBT                  : IGBT
+STR_REFIT_LIVERY_Incheonmetro_1st_Old_IGBT_1lv         : Old IGBT 1lv
+STR_REFIT_LIVERY_Incheonmetro_1st_Old_IGBT_2lv         : Old IGBT 2lv
+STR_REFIT_LIVERY_Incheonmetro_1st_New                  : New
 STR_REFIT_LIVERY_Korail_1st_IGBT                       : IGBT
 STR_REFIT_LIVERY_Korail_1st_GTO                        : GTO
 STR_REFIT_LIVERY_Korail_1st_3X1K_IGBT                  : 3X1K IGBT
@@ -833,10 +841,6 @@ STR_REFIT_LIVERY_Hankyu_8300_Long_Seat                 : Hankyu 8300 Long Seat
 STR_REFIT_LIVERY_Hankyu_8300_Cross_Seat                : Hankyu 8300 Cross Seat
 
 # Liveries wagon
-STR_REFIT_LIVERY_JA_a_Old_Passenger_Car                : Jeongseon Arirang Old Color
-STR_REFIT_LIVERY_JA_a_New_Passenger_Car                : Jeongseon Arirang New Color
-STR_REFIT_LIVERY_E_Train_Old_Passenger_Car             : E-Train Old
-STR_REFIT_LIVERY_E_Train_New_Passenger_Car             : E-Train New
 STR_REFIT_LIVERY_1MPassenger_Car                       : 1Passenger_Car
 STR_REFIT_LIVERY_2MPassenger_Car                       : 2Passenger_Car
 STR_REFIT_LIVERY_3MPassenger_Car                       : 3Passenger_Car
@@ -862,6 +866,30 @@ STR_REFIT_LIVERY_22MPassenger_Car                      : 22Passenger_Car
 STR_REFIT_LIVERY_23MPassenger_Car                      : 23Passenger_Car
 STR_REFIT_LIVERY_24MPassenger_Car                      : 24Passenger_Car
 STR_REFIT_LIVERY_25MPassenger_Car                      : 25Passenger_Car
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG1              : Superiority car Green regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG2              : Superiority car Green studio
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I1               : Early livery regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I2               : Early livery studio
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N1               : Long length Old livery regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N2               : Long length Old livery studio
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N3               : long length Old livery studio (Wheelchair seat)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O1               : Old livery regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O2               : Old livery studio
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O3               : Old livery regular class (Auto door)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O4               : Old livery studio (Auto door)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L1               : Rimiteu Old livery regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L2               : Rimiteu Old livery studio (Wheelchair seat)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN1              : Long length New livery regular class 1
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN2              : Long length New livery studio 1
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN3              : Long length New livery regular class 2
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN4              : Long length New livery studio 2
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN5              : Long length New livery studio (Wheelchair seat)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN6              : Refurbished Long length New livery studio
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SA               : Saemaul downgrade A type
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SB               : Saemaul downgrade B type
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN1              : Rimiteu New livery regular class
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN2              : Rimiteu New livery studio (Wheelchair seat)
+
 STR_REFIT_LIVERY_1SPassenger_Car                       : 1Passenger_Car
 STR_REFIT_LIVERY_1SPassenger_Car_S                     : 1Passenger_Car Special
 STR_REFIT_LIVERY_2SPassenger_Car                       : 2Passenger_Car
@@ -879,6 +907,10 @@ STR_REFIT_LIVERY_11SPassenger_Car                      : 11Passenger_Car
 STR_REFIT_LIVERY_12SPassenger_Car                      : 12Passenger_Car
 STR_REFIT_LIVERY_13SPassenger_Car                      : 13Passenger_Car
 STR_REFIT_LIVERY_14SPassenger_Car                      : 14Passenger_Car
+STR_REFIT_LIVERY_E_Train_Old_Passenger_Car             : E-Train Old
+STR_REFIT_LIVERY_E_Train_New_Passenger_Car             : E-Train New
+STR_REFIT_LIVERY_JA_a_Old_Passenger_Car                : Jeongseon Arirang Old Color
+STR_REFIT_LIVERY_JA_a_New_Passenger_Car                : Jeongseon Arirang New Color
 STR_REFIT_LIVERY_Eco_Rail_Generatar_Car                : Generatar Car
 STR_REFIT_LIVERY_CY_GW_Generatar_Car                   : Chungbuk Yeongdong Gugak & Wine Generatar Car
 STR_REFIT_LIVERY_JA_a_Old_Generatar_Car                : Jeongseon Arirang Old Color

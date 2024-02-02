@@ -1,0 +1,49 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+인천교통공사 2세대
+--------------------------------------------------------------------*/
+spriteset(set_Incheonmetro_2nd_engineH, "src/metro/Incheonmetro/Incheonmetro_2nd/Incheonmetro_2nd.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Incheonmetro_2nd_engineH_r, "src/metro/Incheonmetro/Incheonmetro_2nd/Incheonmetro_2nd.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Incheonmetro_2nd_panto_wagon, "src/metro/Incheonmetro/Incheonmetro_2nd/Incheonmetro_2nd.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Incheonmetro_2nd_panto_wagon_r, "src/metro/Incheonmetro/Incheonmetro_2nd/Incheonmetro_2nd.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Incheonmetro_2nd_wagon, "src/metro/Incheonmetro/Incheonmetro_2nd/Incheonmetro_2nd.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Incheonmetro_2nd_wagon_r, "src/metro/Incheonmetro/Incheonmetro_2nd/Incheonmetro_2nd.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Incheonmetro_2nd_engineT_r, "src/metro/Incheonmetro/Incheonmetro_2nd/Incheonmetro_2nd.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Incheonmetro_2nd_engineT, "src/metro/Incheonmetro/Incheonmetro_2nd/Incheonmetro_2nd.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Incheonmetro_2nd_purchase, "src/metro/Incheonmetro/Incheonmetro_2nd/Incheonmetro_2nd.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2nd_purchase, cargo_subtype) {
+    set_Incheonmetro_2nd_purchase;
+}

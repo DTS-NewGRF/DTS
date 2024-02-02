@@ -1,0 +1,156 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Mugunhwa_Real_Normal_MG1, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_MG2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_I1, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_I2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_N1, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_N2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_N3, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_O1, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_O2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 216)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_O3, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 243)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_O4, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 270)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_L1, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 297)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_L2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 324)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_NN1, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 351)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_NN2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 378)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_NN3, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 405)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_NN4, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 432)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_NN5, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 459)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_NN6, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 486)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_SA, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 513)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_SB, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 540)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_LN1, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 567)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_LN2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png") {
+    wagon_1F_F(80, 594)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Mugunhwa_Real_Normal_1977_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_1980_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png"){
+    tmpl_wagon_purchase(0, 54)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_1994_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png"){
+    tmpl_wagon_purchase(0, 108)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_2000_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png"){
+    tmpl_wagon_purchase(0, 297)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_2006_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png"){
+    tmpl_wagon_purchase(0, 351)
+}
+
+spriteset(set_Mugunhwa_Real_Normal_2011_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.png"){
+    tmpl_wagon_purchase(0, 567)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_1977_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Normal_1977_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_1980_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Normal_1980_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_1994_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Normal_1994_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_2000_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Normal_2000_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_2006_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Normal_2006_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_2011_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Normal_2011_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal, current_year) {
+    0..1979: sw_Mugunhwa_Real_Normal_1977_purchase;
+    1980..1993: sw_Mugunhwa_Real_Normal_1980_purchase;
+    1994..1999: sw_Mugunhwa_Real_Normal_1994_purchase;
+    2000..2005: sw_Mugunhwa_Real_Normal_2000_purchase;
+    2006..2010: sw_Mugunhwa_Real_Normal_2006_purchase;
+    sw_Mugunhwa_Real_Normal_2011_purchase;
+    }

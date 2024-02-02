@@ -232,6 +232,9 @@ STR_Busanmetro_3000_4Car_NAME                          :[DTS/4량] 부산교통�
 STR_Group_Daegumetro_NAME                              :[DTS] 대구교통공사 전동차
 STR_Daegumetro_1000_6Car_NAME                          :[DTS/6량] 대구교통공사 1000호대 전동차
 STR_Daegumetro_2000_6Car_NAME                          :[DTS/6량] 대구교통공사 2000호대 전동차
+STR_Group_Incheonmetro_NAME                            :[DTS] 인천교통공사 전동차
+STR_Incheonmetro_1st_8Car_NAME                         :[DTS/8량] 인천교통공사 1세대 전동차
+STR_Incheonmetro_2nd_8Car_NAME                         :[DTS/8량] 인천교통공사 2세대 전동차
 STR_Group_Korail_NAME                                  :[DTS] 한국철도공사 통근형 전동차
 STR_Group_Korail_1st_NAME                              :[DTS] 한국철도공사 1세대 전동차
 STR_Korail_1st_4Car_NAME                               :[DTS/4량] 한국철도공사 1세대
@@ -388,7 +391,8 @@ STR_S_Train_4Car_NAME                                  :[DTS/4량] S-Train 신�
 STR_S_Train_5Car_NAME                                  :[DTS/5량] S-Train 신도색
 STR_A_Train_New_NAME                                   :[DTS/4량] A-Train 신도색
 STR_G_Train_New_NAME                                   :[DTS/5량] G-Train 신도색
-STR_KTS_MSPASS_NAME                                    :[DTS/객차] 한국 무궁화호 객차 차량
+STR_KTS_MSPASS_2cc_NAME                                :[DTS/객차] 한국 무궁화호 2cc 객차 차량
+STR_KTS_Mugunhwa_Real_Normal_NAME                      :[DTS/객차] 한국 무궁화호 객차 차량
 STR_KTS_SSPASS_NAME                                    :[DTS/객차] 한국 새마을호 객차 차량
 STR_Group_PEX_NAME                                     :[DTS] PEX (Premium EXpress)
 STR_PEX_N_NAME                                         :[DTS] PEX 1층 차량
@@ -481,7 +485,8 @@ STR_REFIT_train_configuration_Lady_Bird_Passenger      :{BLACK}열차구성 {GRE
 STR_REFIT_train_configuration_S_Train_New_Passenger    :{BLACK}열차구성 {GREEN}[관광열차] S-Train 신도색
 STR_REFIT_train_configuration_A_Train_New_Passenger    :{BLACK}열차구성 {GREEN}[관광열차] A-Train 신도색
 STR_REFIT_train_configuration_G_Train_New_Passenger    :{BLACK}열차구성 {GREEN}[관광열차] G-Train 신도색
-STR_REFIT_train_configuration_MSPassenger              :{BLACK}열차구성 {GREEN}[기관차연결] 한국형 무궁화호 객차
+STR_REFIT_train_configuration_Mugunghwa_Real_Normal    :{BLACK}열차구성 {GREEN}[기관차연결] 한국형 무궁화호 객차 / 년도와 실제 열차에 맞추어 적용됩니다.
+STR_REFIT_train_configuration_MSPassenger              :{BLACK}열차구성 {GREEN}[기관차연결] 한국형 무궁화호 2cc 객차
 STR_REFIT_train_configuration_SSPassenger              :{BLACK}열차구성 {GREEN}[기관차연결] 한국형 새마을호 객차
 STR_REFIT_train_configuration_PEX                      :{BLACK}열차구성 {GREEN}[기관차연결] PEX
 STR_REFIT_train_configuration_Generatar                :{BLACK}열차구성 {GREEN}[기관차연결] 한국형 발전차
@@ -702,6 +707,9 @@ STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
 STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
 STR_REFIT_LIVERY_Daegumetro_1000_GTO                   : GTO
 STR_REFIT_LIVERY_Daegumetro_1000_IGBT                  : IGBT
+STR_REFIT_LIVERY_Incheonmetro_1st_Old_IGBT_1lv         : 구도색 IGBT 1lv
+STR_REFIT_LIVERY_Incheonmetro_1st_Old_IGBT_2lv         : 구도색 IGBT 2lv
+STR_REFIT_LIVERY_Incheonmetro_1st_New                  : 신도색
 STR_REFIT_LIVERY_Korail_1st_IGBT                       : IGBT
 STR_REFIT_LIVERY_Korail_1st_GTO                        : GTO
 STR_REFIT_LIVERY_Korail_1st_3X1K_IGBT                  : 3X1K IGBT
@@ -829,10 +837,6 @@ STR_REFIT_LIVERY_Hankyu_8300_Long_Seat                 : 한큐 8300형 롱 시�
 STR_REFIT_LIVERY_Hankyu_8300_Cross_Seat                : 한큐 8300형 크로스 시트
 
 # Liveries wagon
-STR_REFIT_LIVERY_JA_a_Old_Passenger_Car                : 정선아리랑 유람열차 구도색
-STR_REFIT_LIVERY_JA_a_New_Passenger_Car                : 정선아리랑 유람열차 신도색
-STR_REFIT_LIVERY_E_Train_Old_Passenger_Car             : E-Train 구도색
-STR_REFIT_LIVERY_E_Train_New_Passenger_Car             : E-Train 신도색
 STR_REFIT_LIVERY_1MPassenger_Car                       : 일반실 우등객차
 STR_REFIT_LIVERY_2MPassenger_Car                       : 일반실 구도색 수동문
 STR_REFIT_LIVERY_3MPassenger_Car                       : 일반실 구도색 자동문
@@ -858,6 +862,30 @@ STR_REFIT_LIVERY_22MPassenger_Car                      : 침대객차 구도색 
 STR_REFIT_LIVERY_23MPassenger_Car                      : 침대객차 구도색 자동문
 STR_REFIT_LIVERY_24MPassenger_Car                      : 침대객차 리미트객차 구도색
 STR_REFIT_LIVERY_25MPassenger_Car                      : 침대객차 리미트객차 신도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG1              : 우등객차 녹색 일반실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_MG2              : 우등객차 녹색 방송실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I1               : 초기도색 일반실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_I2               : 초기도색 방송실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N1               : 장대형객차 구도색 일반실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N2               : 장대형객차 구도색 방송실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_N3               : 장대형객차 구도색 방송실 (휠체어석)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O1               : 직각객차 일반실 (수동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O2               : 직각객차 방송실 (수동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O3               : 직각객차 일반실 (자동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_O4               : 직각객차 방송실 (자동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L1               : 리미트객차 구도색 일반실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_L2               : 리미트객차 구도색 방송실 (휠체어석)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN1              : 장대형 신도색 일반실 1
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN2              : 장대형 신도색 방송실 1
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN3              : 장대형 신도색 일반실 2
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN4              : 장대형 신도색 방송실 2
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN5              : 장대형 신도색 방송실 (휠체어석)
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_NN6              : 장대형 신도색 방송실 개조
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SA               : 새마을호 격하 유선형 신도색 A형
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SB               : 새마을호 격하 유선형 신도색 B형
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN1              : 리미트객차 신도색 일반실
+STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN2              : 리미트객차 신도색 방송실 (휠체어석)
+
 STR_REFIT_LIVERY_1SPassenger_Car                       : 일반실 관광호
 STR_REFIT_LIVERY_1SPassenger_Car_S                     : 일반실 관광호 특실
 STR_REFIT_LIVERY_2SPassenger_Car                       : 일반실 유선형 객차 초기 도색
@@ -875,8 +903,11 @@ STR_REFIT_LIVERY_11SPassenger_Car                      : 식당차 유선형 초
 STR_REFIT_LIVERY_12SPassenger_Car                      : 식당차 장대형 초기도색
 STR_REFIT_LIVERY_13SPassenger_Car                      : 식당차 유선형, 장대형 구도색·신도색
 STR_REFIT_LIVERY_14SPassenger_Car                      : 카페객차 유선형, 장대형
+STR_REFIT_LIVERY_E_Train_Old_Passenger_Car             : E-Train 구도색
+STR_REFIT_LIVERY_E_Train_New_Passenger_Car             : E-Train 신도색
+STR_REFIT_LIVERY_JA_a_Old_Passenger_Car                : 정선아리랑 유람열차 구도색
+STR_REFIT_LIVERY_JA_a_New_Passenger_Car                : 정선아리랑 유람열차 신도색
 STR_REFIT_LIVERY_Eco_Rail_Generatar_Car                : 발전차
-STR_REFIT_LIVERY_CY_GW_Generatar_Car                   : 충북영동국악와인
 STR_REFIT_LIVERY_JA_a_Old_Generatar_Car                : 정선아리랑 유람열차 구도색
 STR_REFIT_LIVERY_JA_a_New_Generatar_Car                : 정선아리랑 유람열차 신도색
 STR_REFIT_LIVERY_Lady_Bird_Generatar_Car               : 레이디 버드

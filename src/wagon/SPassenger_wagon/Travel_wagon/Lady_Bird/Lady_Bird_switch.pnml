@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_Lady_Bird_wagon, position_in_vehid_chain % 9) {
+    1:set_Lady_Bird_2wagon;
+    2:set_Lady_Bird_3wagon;
+    3:set_Lady_Bird_4wagon;
+    4:set_Lady_Bird_5wagon;
+    5:set_Lady_Bird_6wagon;
+    6:set_Lady_Bird_7wagon;
+    7:set_Lady_Bird_8wagon;
+    8:set_Lady_Bird_9wagon;
+    set_Lady_Bird_1wagon; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Lady_Bird_9car, extra_callback_info1) {
+    1..8: Lady_Bird_Passenger_Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

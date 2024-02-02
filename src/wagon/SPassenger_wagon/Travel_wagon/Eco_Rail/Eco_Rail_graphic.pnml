@@ -1,0 +1,22 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Eco_Rail_wagon_A, "src/wagon/SPassenger_wagon/Travel_wagon/Eco_Rail/Eco_Rail_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Eco_Rail_wagon_B, "src/wagon/SPassenger_wagon/Travel_wagon/Eco_Rail/Eco_Rail_wagon.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Eco_Rail_wagon_C, "src/wagon/SPassenger_wagon/Travel_wagon/Eco_Rail/Eco_Rail_wagon.png") {
+    wagon_1F_F(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Eco_Rail_wagon_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/Eco_Rail/Eco_Rail_wagon.png"){
+    tmpl_wagon_purchase(0, 0)
+}

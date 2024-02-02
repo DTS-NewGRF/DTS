@@ -1,0 +1,12 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_JA_a_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_JA_a_New_Passenger_Car);    // 정선아리랑 유람열차 신도색
+    return string(STR_REFIT_LIVERY_JA_a_Old_Passenger_Car);
+}
+
+switch(FEAT_TRAINS, SELF, sw_JA_A_wagon, cargo_subtype) {
+    1: set_JA_A_New_wagon;   // 정선아리랑 유람열차 신도색
+    set_JA_A_Old_wagon;     // G-Train New
+}

@@ -1,0 +1,15 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_G_Train_New_wagon, position_in_vehid_chain % 5) {
+    1:set_G_Train_New_2wagon;
+    2:set_G_Train_New_3wagon;
+    3:set_G_Train_New_4wagon;
+    4:set_G_Train_New_4wagon;
+    set_G_Train_New_1wagon; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_G_Train_New_5car, extra_callback_info1) {
+    1..4: G_Train_New_Passenger_Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

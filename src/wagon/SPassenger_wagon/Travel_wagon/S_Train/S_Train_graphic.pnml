@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+8. S-Train 신도색
+--------------------------------------------------------------------*/
+spriteset(set_S_Train_New_1wagon, "src/wagon/SPassenger_wagon/Travel_wagon/S_Train/S_Train.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_S_Train_New_2wagon, "src/wagon/SPassenger_wagon/Travel_wagon/S_Train/S_Train.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_S_Train_New_3wagon, "src/wagon/SPassenger_wagon/Travel_wagon/S_Train/S_Train.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_S_Train_New_4wagon, "src/wagon/SPassenger_wagon/Travel_wagon/S_Train/S_Train.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_S_Train_New_5wagon, "src/wagon/SPassenger_wagon/Travel_wagon/S_Train/S_Train.png") {
+    wagon_1F_F(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_S_Train_New_wagon_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/S_Train/S_Train.png"){
+    tmpl_wagon_purchase(0, 0)
+}

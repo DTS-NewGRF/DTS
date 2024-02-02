@@ -1,0 +1,52 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+A-Train 신도색
+--------------------------------------------------------------------*/
+spriteset(set_A_Train_New_1wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_A_Train_New_2wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_A_Train_New_3wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_A_Train_New_4wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train.png") {
+    wagon_1F_F(80, 81)
+}
+
+/*--------------------------------------------------------------------
+A-Train 신도색 32bpp
+--------------------------------------------------------------------*/
+alternative_sprites(set_A_Train_New_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_32bpp.png") {
+    wagon_1F_F(80, 0)
+}
+
+alternative_sprites(set_A_Train_New_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_32bpp.png") {
+    wagon_1F_F(80, 27)
+}
+
+alternative_sprites(set_A_Train_New_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_32bpp.png") {
+    wagon_1F_F(80, 54)
+}
+
+alternative_sprites(set_A_Train_New_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_32bpp.png") {
+    wagon_1F_F(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_A_Train_New_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+alternative_sprites(set_A_Train_New_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_32bpp.png") {
+    tmpl_wagon_purchase(0, 0)
+}

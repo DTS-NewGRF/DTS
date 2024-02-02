@@ -53,6 +53,7 @@
 #include "metro/AUTS/AUTS.pnml"
 #include "metro/Busanmetro/Busanmetro.pnml"
 #include "metro/Daegumetro/Daegumetro.pnml"
+#include "metro/Incheonmetro/Incheonmetro.pnml"
 #include "metro/Korail/Korail.pnml"
 #include "metro/Seoulmetro/Seoulmetro.pnml"
 #include "metro/Shinbundang/Shinbundang.pnml"

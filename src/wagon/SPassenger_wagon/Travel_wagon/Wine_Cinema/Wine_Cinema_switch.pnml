@@ -1,0 +1,16 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_wine_cinema_wagon, position_in_vehid_chain % 6) {
+    1:set_wine_cinema_2wagon;
+    2:set_wine_cinema_3wagon;
+    3:set_wine_cinema_4wagon;
+    4:set_wine_cinema_5wagon;
+    5:set_wine_cinema_6wagon;
+    set_wine_cinema_1wagon; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_wine_cinema_6car, extra_callback_info1) {
+    1..5: Wine_Cinema_Passenger_Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

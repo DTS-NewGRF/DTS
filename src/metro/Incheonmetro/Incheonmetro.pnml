@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------------
+인천교통공사
+--------------------------------------------------------------------*/
+// Graphics
+#include "Incheonmetro_graphic.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹 인천교통공사
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Incheonmetro, 2386){
+    property {
+        name:                           string(STR_Group_Incheonmetro_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2592 kW;
+        }
+
+    graphics {
+        purchase:                       sw_Incheonmetro_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차 리스트
+--------------------------------------------------------------------*/
+#include "Incheonmetro_1st/Incheonmetro_1st.pnml"
+#include "Incheonmetro_2nd/Incheonmetro_2nd.pnml"

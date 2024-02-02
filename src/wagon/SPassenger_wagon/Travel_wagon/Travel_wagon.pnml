@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------------
+관광열차
+--------------------------------------------------------------------*/
+// Graphics
+#include "Travel_wagon_graphic.pnml"
+
+/*--------------------------------------------------------------------
+관광열차
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Travel_wagon, 2210){
+    property {
+        name:                           string(STR_Group_Travel_wagon_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       set_Travel_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차 리스트
+--------------------------------------------------------------------*/
+#include "A_Train/A_Train.pnml"
+#include "CY_GW/CY_GW.pnml"
+#include "E_Train/E_Train.pnml"
+#include "Eco_Rail/Eco_Rail.pnml"
+#include "G_Train/G_Train.pnml"
+#include "Jeongseon_Arirang/Jeongseon_Arirang.pnml"
+#include "Lady_Bird/Lady_Bird.pnml"
+#include "S_Train/S_Train.pnml"
+#include "Wine_Cinema/Wine_Cinema.pnml"
+#include "Wine_Panax/Wine_Panax.pnml"

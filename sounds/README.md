@@ -3,6 +3,9 @@
 ### ABBGTOstart.wav
 - 서울교통공사 5000호대 1,2세대
 
+### ALSTOM_IGBT_Start.wav
+- 인천교통공사 1세대 1GBT 1lv
+
 ### ALSTOMGTOstart.wav
 - 서울교통공사 4000호대 2세대 GTO
 - 서울교통공사 7000, 8000호대
@@ -82,6 +85,7 @@
 - 서울교통공사 2000호대 1·2세대 3VF
 - 서울교통공사 3000호대 1세대 3VF 전동차
 - 서울교통공사 9000호대 1~4세대 전동차
+- 인천교통공사 2세대
 
 ### HYUNDAIROTEMPMSMstart.wav
 - AUTS(차세대전동차)
@@ -182,6 +186,7 @@
 
 ### WOOJIN_IGBT_1start.wav
 - 서울교통공사 4000호대 2세대 IGBT
+- 인천교통공사 1세대 1GBT 2lv
 
 ### WOOJIN_IGBT_2start.wav
 - 한국철도공사 5세대 VVVF전동차
