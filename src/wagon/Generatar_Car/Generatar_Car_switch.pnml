@@ -2,13 +2,21 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Generatar_wagon_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_CY_GW_Generatar_Car);       // 충북영동국악와인열차
-    2: return string(STR_REFIT_LIVERY_JA_a_Old_Generatar_Car);    // 정선아리랑 유람열차 구도색
-    3: return string(STR_REFIT_LIVERY_JA_a_New_Generatar_Car);    // 정선아리랑 유람열차 신도색
-    4: return string(STR_REFIT_LIVERY_Lady_Bird_Generatar_Car);   // 레이디 버드
-    5: return string(STR_REFIT_LIVERY_S_Train_New_Generatar_Car); // S-Train New
-    6: return string(STR_REFIT_LIVERY_A_Train_New_Generatar_Car); // A-Train New
-    7: return string(STR_REFIT_LIVERY_G_Train_New_Generatar_Car); // G-Train New
+     1: return string(STR_REFIT_LIVERY_CY_GW_Generatar_Car);       // 충북영동국악와인열차
+     2: return string(STR_REFIT_LIVERY_JA_a_Old_Generatar_Car);    // 정선아리랑 유람열차 구도색
+     3: return string(STR_REFIT_LIVERY_JA_a_New_Generatar_Car);    // 정선아리랑 유람열차 신도색
+     4: return string(STR_REFIT_LIVERY_Lady_Bird_Generatar_Car);   // 레이디 버드
+     5: return string(STR_REFIT_LIVERY_S_Train_New_Generatar_Car); // S-Train New
+     6: return string(STR_REFIT_LIVERY_A_Train_New_Generatar_Car); // A-Train New
+     7: return string(STR_REFIT_LIVERY_G_Train_New_Generatar_Car); // G-Train New
+     8: return string(STR_REFIT_LIVERY_S1_Generatar_Car);          // 전망형 발전차 초기도색
+     9: return string(STR_REFIT_LIVERY_L1_Generatar_Car);          // 장대형 구형 발전차 초기도색
+    10: return string(STR_REFIT_LIVERY_T1_Generatar_Car);          // 구형 발전차 초기도색
+    11: return string(STR_REFIT_LIVERY_S2_Generatar_Car);          // 전망형 발전차
+    12: return string(STR_REFIT_LIVERY_L2_Generatar_Car);          // 장대형 구형 발전차
+    13: return string(STR_REFIT_LIVERY_T2_Generatar_Car);          // 구형 발전차
+    14: return string(STR_REFIT_LIVERY_ST_Generatar_Car);          // 유선형 발전차 새마을호 도색
+    15: return string(STR_REFIT_LIVERY_HJ_Generatar_Car);          // 유선형 발전차
     return string(STR_REFIT_LIVERY_Eco_Rail_Generatar_Car);
 }
 
@@ -20,11 +28,23 @@ switch(FEAT_TRAINS, SELF, sw_Generatar_wagon, cargo_subtype) {
     5: set_S_Train_New_Generatar_Car; // S-Train New
     6: set_A_Train_New_Generatar_Car; // A-Train New
     7: set_G_Train_New_Generatar_Car; // G-Train New
+    8: set_S1_Generatar_Car;          // 전망형 발전차 초기도색
+    9: set_L1_Generatar_Car;          // 장대형 구형 발전차 초기도색
+    10: set_T1_Generatar_Car;         // 구형 발전차 초기도색
+    11: set_S2_Generatar_Car;         // 전망형 발전차
+    12: set_L2_Generatar_Car;         // 장대형 구형 발전차
+    13: set_T2_Generatar_Car;         // 구형 발전차
+    14: set_ST_Generatar_Car;         // 유선형 발전차 새마을호 도색
+    15: set_HJ_Generatar_Car;         // 유선형 발전차
     set_Generatar_Car;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Generatar_wagon_length_in_custom, cargo_subtype) {
-    4: return 6;
+     4: return 6;
+     8: return 6;
+    10: return 6;
+    11: return 6;
+    13: return 6;
        7;
 }
 

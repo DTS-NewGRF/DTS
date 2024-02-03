@@ -1,0 +1,117 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1977_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1980_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1);
+    1: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1987_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1);
+    1: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1);
+    2: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1991_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1);
+    1: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1);
+    2: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI);
+    3: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MF);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1993_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1);
+     1: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1);
+     2: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI);
+     3: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MF);
+     4: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMA);
+     5: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMB);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1994_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1);
+     1: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1);
+     2: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI);
+     3: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MF);
+     4: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMA);
+     5: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMB);
+     6: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_ONF);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1995_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1);
+     1: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1);
+     2: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI);
+     3: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MF);
+     4: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMA);
+     5: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMB);
+     6: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_ONF);
+     7: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMI);
+     8: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSI);
+     9: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMF);
+    10: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSA);
+    11: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSB);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1998_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1);
+     1: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1);
+     2: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI);
+     3: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MF);
+     4: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMA);
+     5: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMB);
+     6: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_ONF);
+     7: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMI);
+     8: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSI);
+     9: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMF);
+    10: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSA);
+    11: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSB);
+    12: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHF);
+    13: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHFM);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_2007_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1);
+     1: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1);
+     2: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI);
+     3: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_MF);
+     4: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMA);
+     5: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMB);
+     6: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_ONF);
+     7: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMI);
+     8: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSI);
+     9: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMF);
+    10: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSA);
+    11: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSB);
+    12: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHF);
+    13: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHFM);
+    14: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_NHF);
+    15: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSB);
+    16: return string(STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSC);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_cargo_subtype_text, current_year) {
+    0..1979: sw_Mugunhwa_Real_Special_1977_cargo_subtype_text;
+    1980..1986: sw_Mugunhwa_Real_Special_1980_cargo_subtype_text;
+    1987..1990: sw_Mugunhwa_Real_Special_1987_cargo_subtype_text;
+    1991..1992: sw_Mugunhwa_Real_Special_1991_cargo_subtype_text;
+    1993: sw_Mugunhwa_Real_Special_1993_cargo_subtype_text;
+    1994: sw_Mugunhwa_Real_Special_1994_cargo_subtype_text;
+    1995..1997: sw_Mugunhwa_Real_Special_1995_cargo_subtype_text;
+    1998..2006: sw_Mugunhwa_Real_Special_1998_cargo_subtype_text;
+    sw_Mugunhwa_Real_Special_2007_cargo_subtype_text;
+    }

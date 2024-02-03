@@ -17,6 +17,10 @@ spriteset(set_CY_GW_Luggage_Car, "src\wagon\Luggage_Car\Luggage_Car.png") {
     wagon_1F_F(80, 54)
 }
 
+spriteset(set_Express_Post_Luggage_Car, "src\wagon\Luggage_Car\Luggage_Car.png") {
+    wagon_1F_F(80, 81)
+}
+
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/

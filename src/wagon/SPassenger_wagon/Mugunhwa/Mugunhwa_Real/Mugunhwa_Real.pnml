@@ -2,3 +2,5 @@
 무궁화호 객차 리스트
 --------------------------------------------------------------------*/
 #include "Mugunhwa_Real_Normal/Mugunhwa_Real_Normal.pnml"
+#include "Mugunhwa_Real_Service/Mugunhwa_Real_Service.pnml"
+#include "Mugunhwa_Real_Special/Mugunhwa_Real_Special.pnml"

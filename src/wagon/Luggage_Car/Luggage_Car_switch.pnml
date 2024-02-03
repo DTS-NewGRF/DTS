@@ -2,13 +2,15 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Luggage_wagon_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_CY_GW_Luggage_Car);      // 충북영동국악와인열차
-    2: return string(STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_B); // 에코레일 B
+    1: return string(STR_REFIT_LIVERY_CY_GW_Luggage_Car);        // 충북영동국악와인열차
+    2: return string(STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_B);   // 에코레일 B
+    3: return string(STR_REFIT_LIVERY_Express_Post_Luggage_Car); // 우체국특급
     return string(STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_A);
 }
 
 switch(FEAT_TRAINS, SELF, sw_Luggage_wagon, cargo_subtype) {
-    1: set_CY_GW_Luggage_Car;      // 충북영동국악와인열차
-    2: set_Eco_Rail_Luggage_Car_B; // 에코레일 B
+    1: set_CY_GW_Luggage_Car;        // 충북영동국악와인열차
+    2: set_Eco_Rail_Luggage_Car_B;   // 에코레일 B
+    3: set_Express_Post_Luggage_Car; // 에코레일 B
     set_Eco_Rail_Luggage_Car_A;
 }

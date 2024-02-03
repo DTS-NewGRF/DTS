@@ -1,0 +1,194 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Mugunhwa_Real_Service_SPR1, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Mugunhwa_Real_Service_SPC1, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Mugunhwa_Real_Service_SPR2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Mugunhwa_Real_Service_SPC2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Mugunhwa_Real_Service_SDF1, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Mugunhwa_Real_Service_FS1, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Mugunhwa_Real_Service_SDF2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Mugunhwa_Real_Service_FS2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_Mugunhwa_Real_Service_SDFS, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 216)
+}
+
+spriteset(set_Mugunhwa_Real_Service_OSP1, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 243)
+}
+
+spriteset(set_Mugunhwa_Real_Service_OSP2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 270)
+}
+
+spriteset(set_Mugunhwa_Real_Service_OPG, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 297)
+}
+
+spriteset(set_Mugunhwa_Real_Service_ROSP1, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 324)
+}
+
+spriteset(set_Mugunhwa_Real_Service_ROSP2, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 351)
+}
+
+spriteset(set_Mugunhwa_Real_Service_WAD, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 378)
+}
+
+spriteset(set_Mugunhwa_Real_Service_CAFE, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 405)
+}
+
+spriteset(set_Mugunhwa_Real_Service_PC, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 432)
+}
+
+spriteset(set_Mugunhwa_Real_Service_PG, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 459)
+}
+
+spriteset(set_Mugunhwa_Real_Service_CP, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 486)
+}
+
+spriteset(set_Mugunhwa_Real_Service_RF, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 513)
+}
+
+spriteset(set_Mugunhwa_Real_Service_ORS, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 540)
+}
+
+spriteset(set_Mugunhwa_Real_Service_SDC, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 567)
+}
+
+spriteset(set_Mugunhwa_Real_Service_NPG, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 594)
+}
+
+spriteset(set_Mugunhwa_Real_Service_NCAFE, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 621)
+}
+
+spriteset(set_Mugunhwa_Real_Service_NNC, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 648)
+}
+
+spriteset(set_Mugunhwa_Real_Service_ORC, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 675)
+}
+
+spriteset(set_Mugunhwa_Real_Service_NRC, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 702)
+}
+
+spriteset(set_Mugunhwa_Real_Service_NRS, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png") {
+    wagon_1F_F(80, 729)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Mugunhwa_Real_Service_1977_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_Mugunhwa_Real_Service_1980_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
+    tmpl_wagon_purchase(0, 54)
+}
+
+spriteset(set_Mugunhwa_Real_Service_1981_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
+    tmpl_wagon_purchase(0, 108)
+}
+
+spriteset(set_Mugunhwa_Real_Service_1995_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
+    tmpl_wagon_purchase(0, 162)
+}
+
+spriteset(set_Mugunhwa_Real_Service_2001_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
+    tmpl_wagon_purchase(0, 513)
+}
+
+spriteset(set_Mugunhwa_Real_Service_2005_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
+    tmpl_wagon_purchase(0, 594)
+}
+
+spriteset(set_Mugunhwa_Real_Service_2007_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
+    tmpl_wagon_purchase(0, 648)
+}
+
+spriteset(set_Mugunhwa_Real_Service_2011_purchase, "src/wagon/SPassenger_wagon/Mugunhwa/Mugunhwa_Real/Mugunhwa_Real_Service/Mugunhwa_Real_Service.png"){
+    tmpl_wagon_purchase(0, 648)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1977_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Service_1977_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1980_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Service_1980_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1981_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Service_1981_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1995_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Service_1995_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2001_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Service_2001_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2005_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Service_2005_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2007_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Service_2007_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2011_purchase, cargo_subtype) {
+    set_Mugunhwa_Real_Service_2011_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service, current_year) {
+    0..1979: sw_Mugunhwa_Real_Service_1977_purchase;
+    1980: sw_Mugunhwa_Real_Service_1980_purchase;
+    1981..1994: sw_Mugunhwa_Real_Service_1981_purchase;
+    1995..2000: sw_Mugunhwa_Real_Service_1995_purchase;
+    2001..2004: sw_Mugunhwa_Real_Service_2001_purchase;
+    2005..2006: sw_Mugunhwa_Real_Service_2005_purchase;
+    2007..2010: sw_Mugunhwa_Real_Service_2007_purchase;
+    sw_Mugunhwa_Real_Service_2011_purchase;
+    }

@@ -394,7 +394,9 @@ STR_S_Train_New_NAME                                   :[DTS] S-Train Passenger 
 STR_A_Train_New_NAME                                   :[DTS] A-Train Passenger Car
 STR_G_Train_New_NAME                                   :[DTS] G-Train Passenger Car
 STR_KTS_MSPASS_2cc_NAME                                :[DTS] Korea Mugunhwa 2cc passenger car
-STR_KTS_Mugunhwa_Real_Normal_NAME                      :[DTS] Korea Mugunhwa passenger car
+STR_KTS_Mugunhwa_Real_Normal_NAME                      :[DTS] Korea Mugunhwa Normal passenger car
+STR_KTS_Mugunhwa_Real_Service_NAME                     :[DTS] Korea Mugunhwa Service passenger car
+STR_KTS_Mugunhwa_Real_Special_NAME                     :[DTS] Korea Mugunhwa Special passenger car
 STR_KTS_SSPASS_NAME                                    :[DTS] Korea Saemaeul passenger car
 STR_Group_PEX_NAME                                     :[DTS] PEX (Premium EXpress)
 STR_PEX_N_NAME                                         :[DTS] PEX 1F Car
@@ -489,7 +491,7 @@ STR_REFIT_train_configuration_Lady_Bird_Passenger      :{BLACK}train configurati
 STR_REFIT_train_configuration_S_Train_New_Passenger    :{BLACK}train configuration {GREEN}S-Train Passenger Car
 STR_REFIT_train_configuration_A_Train_New_Passenger    :{BLACK}train configuration {GREEN}A-Train Passenger Car
 STR_REFIT_train_configuration_G_Train_New_Passenger    :{BLACK}train configuration {GREEN}G-Train Passenger Car
-STR_REFIT_train_configuration_Mugunghwa_Real_Normal    :{BLACK}train configuration {GREEN}Korea Mugunhwa Passenger vehicles
+STR_REFIT_train_configuration_Mugunghwa_Real           :{BLACK}train configuration {GREEN}Korea Mugunhwa Passenger vehicles
 STR_REFIT_train_configuration_MSPassenger              :{BLACK}train configuration {GREEN}Korea Mugunhwa 2cc Passenger vehicles
 STR_REFIT_train_configuration_SSPassenger              :{BLACK}train configuration {GREEN}Korea Saemaeul Passenger vehicles
 STR_REFIT_train_configuration_PEX                      :{BLACK}train configuration {GREEN}PEX
@@ -889,7 +891,51 @@ STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SA               : Saemaul downgrade A typ
 STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SB               : Saemaul downgrade B type
 STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN1              : Rimiteu New livery regular class
 STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN2              : Rimiteu New livery studio (Wheelchair seat)
-
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR1            : Superiority Roomette sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC1            : Superiority Compartment sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR2            : Early livery Roomette sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC2            : Early livery Compartment sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF1            : Early livery Saemaul downgrade Half-restaurant, room
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS1             : Early livery Half-restaurant, room
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF2            : Saemaul downgrade Half-restaurant, room
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS2             : Half-restaurant, room
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDFS            : Refurbished Saemaul outlook car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP1            : Roomette sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP2            : Refurbished Compartment sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OPG             : Old livery playroom Half-restaurant, room
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP1           : Roomette sleeping car (Auto door)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP2           : Refurbished Compartment sleeping car (Auto door)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_WAD             : Wedding hall car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_CAFE            : Old livery Cafe car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_PC              : PC room car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_PG              : The game of go room car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_CP              : Cultural promotion car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_RF              : Rimiteu restaurant car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORS             : Old livery Rimiteu sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDC             : Summer Universiade DAEGU 2003
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NPG             : New livery playroom Half-restaurant, room
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NCAFE           : New livery Cafe car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NNC             : Long length Cafe car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORC             : Old livery Rimiteu Cafe car	
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRC             : New livery Rimiteu Cafe car
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRS             : New livery Rimiteu sleeping car
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1             : Superiority car Red
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1              : Early livery
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI              : Early Saemaul downgrade Early livery
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_MF              : Daewoo Early livery
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMA             : Early livery Stream lined A type
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMB             : Early livery Stream lined B type
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_ONF             : Hanjin
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMI             : Old livery
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSI             : Early Saemaul downgrade Old livery
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMF             : Daewoo
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSA             : Old livery Stream lined A type
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSB             : Old livery Stream lined B type
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHF             : Old livery Haetae
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHFM            : Old livery Haetae family room
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_NHF             : New livery Haetae
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSB             : Long length Saemaul downgrade B type
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSC             : Long length Saemaul downgrade C type
 STR_REFIT_LIVERY_1SPassenger_Car                       : 1Passenger_Car
 STR_REFIT_LIVERY_1SPassenger_Car_S                     : 1Passenger_Car Special
 STR_REFIT_LIVERY_2SPassenger_Car                       : 2Passenger_Car
@@ -919,9 +965,18 @@ STR_REFIT_LIVERY_Lady_Bird_Generatar_Car               : Lady Bird
 STR_REFIT_LIVERY_S_Train_New_Generatar_Car             : S-Train
 STR_REFIT_LIVERY_A_Train_New_Generatar_Car             : A-Train
 STR_REFIT_LIVERY_G_Train_New_Generatar_Car             : G-Train
+STR_REFIT_LIVERY_S1_Generatar_Car                      : Early livery Overview car
+STR_REFIT_LIVERY_L1_Generatar_Car                      : Early livery Long length Old car
+STR_REFIT_LIVERY_T1_Generatar_Car                      : Early livery Old car
+STR_REFIT_LIVERY_S2_Generatar_Car                      : Overview car
+STR_REFIT_LIVERY_L2_Generatar_Car                      : Long length Old car
+STR_REFIT_LIVERY_T2_Generatar_Car                      : Old car
+STR_REFIT_LIVERY_ST_Generatar_Car                      : Saemaul Early livery Stream lined car
+STR_REFIT_LIVERY_HJ_Generatar_Car                      : Stream lined car
 STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_A                : Eco Rail Luggage Car A
 STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_B                : Eco Rail Luggage Car B
 STR_REFIT_LIVERY_CY_GW_Luggage_Car                     : Chungbuk Yeongdong Gugak & Wine Luggage Car
+STR_REFIT_LIVERY_Express_Post_Luggage_Car              : Express Post
 STR_REFIT_LIVERY_SWagon_1F_Red                         : 25 Type 1F Red Color Car
 STR_REFIT_LIVERY_SWagon_1F_Green                       : 25 Type 1F Green Color Car
 STR_REFIT_LIVERY_Swagon_1F_White                       : 25 Type 1F White Color Car

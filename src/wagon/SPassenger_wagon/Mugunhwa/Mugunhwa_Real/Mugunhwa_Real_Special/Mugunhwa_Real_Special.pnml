@@ -2,17 +2,17 @@
 객차형 승객 차량
 --------------------------------------------------------------------*/
 // Graphics
-#include "Mugunhwa_Real_Normal_graphic.pnml"
+#include "Mugunhwa_Real_Special_graphic.pnml"
 
 // Switch
-#include "Mugunhwa_Real_Normal_switch.pnml"
+#include "Mugunhwa_Real_Special_switch.pnml"
 
 /*--------------------------------------------------------------------
 한국형 무궁화호 승객 차량
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, Mugunhwa_Real_Normal, 2389){
+item (FEAT_TRAINS, Mugunhwa_Real_Special, 2390){
     property {
-        name:                           string(STR_KTS_Mugunhwa_Real_Normal_NAME);
+        name:                           string(STR_KTS_Mugunhwa_Real_Special_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1977, 1, 1);
         track_type:                     RAIL;
@@ -20,6 +20,7 @@ item (FEAT_TRAINS, Mugunhwa_Real_Normal, 2389){
         variant_group:                  KTS_MSPassenger_Car;
 
         //spec
+        speed:                          150km/h;
         power:                          0 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
@@ -31,7 +32,7 @@ item (FEAT_TRAINS, Mugunhwa_Real_Normal, 2389){
         reliability_decay:              0;
 
         //Cargo
-        cargo_capacity:                 72;
+        cargo_capacity:                 56;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -47,14 +48,13 @@ item (FEAT_TRAINS, Mugunhwa_Real_Normal, 2389){
     }
 
     graphics {
-        default:                        sw_Mugunhwa_Real_Normal_wagon;
-        purchase:                       sw_Mugunhwa_Real_Normal;
-        cargo_capacity:                 sw_Mugunhwa_Real_Normal_capacity_in_custom;
-        speed:                          sw_Mugunhwa_Real_Normal_speed;
+        default:                        sw_Mugunhwa_Real_Special_wagon;
+        purchase:                       sw_Mugunhwa_Real_Special;
+        cargo_capacity:                 sw_Mugunhwa_Real_Special_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_Mugunhwa_Real_Normal_cargo_subtype_text;
+        cargo_subtype_text:             sw_Mugunhwa_Real_Special_cargo_subtype_text;
         additional_text:                string(STR_REFIT_train_configuration_Mugunghwa_Real);
         }
     }

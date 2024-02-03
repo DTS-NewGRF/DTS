@@ -390,6 +390,8 @@ sort(FEAT_TRAINS, [
     Coach_2F,                                //2106
     KTS_MSPassenger_Car,                     //2245
     Mugunhwa_Real_Normal,                    //2389
+    Mugunhwa_Real_Special,                   //2390
+    Mugunhwa_Real_Service,                   //2391
     KTS_SSPassenger_Car,                     //2132
     PEX,                                     //2333
     PEX_N,                                   //2334

@@ -392,7 +392,9 @@ STR_S_Train_5Car_NAME                                  :[DTS/5량] S-Train 신�
 STR_A_Train_New_NAME                                   :[DTS/4량] A-Train 신도색
 STR_G_Train_New_NAME                                   :[DTS/5량] G-Train 신도색
 STR_KTS_MSPASS_2cc_NAME                                :[DTS/객차] 한국 무궁화호 2cc 객차 차량
-STR_KTS_Mugunhwa_Real_Normal_NAME                      :[DTS/객차] 한국 무궁화호 객차 차량
+STR_KTS_Mugunhwa_Real_Normal_NAME                      :[DTS/객차] 한국 무궁화호 일반실 객차 차량
+STR_KTS_Mugunhwa_Real_Service_NAME                     :[DTS/객차] 한국 무궁화호 서비스/침대 객차 차량
+STR_KTS_Mugunhwa_Real_Special_NAME                     :[DTS/객차] 한국 무궁화호 특실 객차 차량
 STR_KTS_SSPASS_NAME                                    :[DTS/객차] 한국 새마을호 객차 차량
 STR_Group_PEX_NAME                                     :[DTS] PEX (Premium EXpress)
 STR_PEX_N_NAME                                         :[DTS] PEX 1층 차량
@@ -485,7 +487,7 @@ STR_REFIT_train_configuration_Lady_Bird_Passenger      :{BLACK}열차구성 {GRE
 STR_REFIT_train_configuration_S_Train_New_Passenger    :{BLACK}열차구성 {GREEN}[관광열차] S-Train 신도색
 STR_REFIT_train_configuration_A_Train_New_Passenger    :{BLACK}열차구성 {GREEN}[관광열차] A-Train 신도색
 STR_REFIT_train_configuration_G_Train_New_Passenger    :{BLACK}열차구성 {GREEN}[관광열차] G-Train 신도색
-STR_REFIT_train_configuration_Mugunghwa_Real_Normal    :{BLACK}열차구성 {GREEN}[기관차연결] 한국형 무궁화호 객차 / 년도와 실제 열차에 맞추어 적용됩니다.
+STR_REFIT_train_configuration_Mugunghwa_Real           :{BLACK}열차구성 {GREEN}[기관차연결] 한국형 무궁화호 객차 / 년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_MSPassenger              :{BLACK}열차구성 {GREEN}[기관차연결] 한국형 무궁화호 2cc 객차
 STR_REFIT_train_configuration_SSPassenger              :{BLACK}열차구성 {GREEN}[기관차연결] 한국형 새마을호 객차
 STR_REFIT_train_configuration_PEX                      :{BLACK}열차구성 {GREEN}[기관차연결] PEX
@@ -885,7 +887,51 @@ STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SA               : 새마을호 격하 유
 STR_REFIT_LIVERY_Mugunhwa_Real_Normal_SB               : 새마을호 격하 유선형 신도색 B형
 STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN1              : 리미트객차 신도색 일반실
 STR_REFIT_LIVERY_Mugunhwa_Real_Normal_LN2              : 리미트객차 신도색 방송실 (휠체어석)
-
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR1            : 우등열차 일반 침대객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC1            : 우등열차 별실 침대객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPR2            : 일반 침대객차 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SPC2            : 별실 침대객차 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF1            : 새마을호 격하 반식반객 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS1             : 반식반객 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDF2            : 새마을호 격하 반식반객
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_FS2             : 반식반객
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDFS            : 새마을호 전망실 개조 반식반객
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP1            : 일반 침대객차 (수동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OSP2            : 별실 침대객차 개조 (수동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_OPG             : 놀이방 반식반객 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP1           : 일반 침대객차 (자동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ROSP2           : 별실 침대객차 개조 (자동문)
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_WAD             : 예식장객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_CAFE            : 카페객차 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_PC              : PC방 객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_PG              : 바둑객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_CP              : 문화홍보객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_RF              : 리미트객차 식당차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORS             : 리미트객차 구도색 침대차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_SDC             : 2003년 대구 하계 유니버시아드 객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NPG             : 놀이방 반식반객 신도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NCAFE           : 카페객차 신도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NNC             : 장대형 카페객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_ORC             : 리미트객차 구도색 카페객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRC             : 리미트객차 신도색 카페객차
+STR_REFIT_LIVERY_Mugunhwa_Real_Service_NRS             : 리미트객차 신도색 침대차
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_MR1             : 우등객차 적색 특실
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_M1              : 직각객차 특실 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_SI              : 초기 새마을호 격하 특실 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_MF              : 대우중공업 특실 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMA             : 유선형 새마을호 객차 A타입 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_SMB             : 유선형 새마을호 객차 B타입 초기도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_ONF             : 한진중공업 특실
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMI             : 직각객차 특실 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSI             : 초기 새마을호 격하 특실 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OMF             : 대우중공업 특실
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSA             : 유선형 새마을호 객차 A타입 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OSB             : 유선형 새마을호 객차 B타입 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHF             : 해태특실 구도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHFM            : 해태특실 구도색 가족실
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_NHF             : 해태특실 신도색
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSB             : 장대형 새마을호 격하 B타입
+STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSC             : 장대형 새마을호 격하 C타입
 STR_REFIT_LIVERY_1SPassenger_Car                       : 일반실 관광호
 STR_REFIT_LIVERY_1SPassenger_Car_S                     : 일반실 관광호 특실
 STR_REFIT_LIVERY_2SPassenger_Car                       : 일반실 유선형 객차 초기 도색
@@ -908,15 +954,25 @@ STR_REFIT_LIVERY_E_Train_New_Passenger_Car             : E-Train 신도색
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car                : 정선아리랑 유람열차 구도색
 STR_REFIT_LIVERY_JA_a_New_Passenger_Car                : 정선아리랑 유람열차 신도색
 STR_REFIT_LIVERY_Eco_Rail_Generatar_Car                : 발전차
+STR_REFIT_LIVERY_CY_GW_Generatar_Car                   : 충북영동국악와인
 STR_REFIT_LIVERY_JA_a_Old_Generatar_Car                : 정선아리랑 유람열차 구도색
 STR_REFIT_LIVERY_JA_a_New_Generatar_Car                : 정선아리랑 유람열차 신도색
 STR_REFIT_LIVERY_Lady_Bird_Generatar_Car               : 레이디 버드
 STR_REFIT_LIVERY_S_Train_New_Generatar_Car             : S-Train
 STR_REFIT_LIVERY_A_Train_New_Generatar_Car             : A-Train
 STR_REFIT_LIVERY_G_Train_New_Generatar_Car             : G-Train
+STR_REFIT_LIVERY_S1_Generatar_Car                      : 전망형 발전차 초기도색
+STR_REFIT_LIVERY_L1_Generatar_Car                      : 장대형 구형 발전차 초기도색
+STR_REFIT_LIVERY_T1_Generatar_Car                      : 구형 발전차 초기도색
+STR_REFIT_LIVERY_S2_Generatar_Car                      : 전망형 발전차
+STR_REFIT_LIVERY_L2_Generatar_Car                      : 장대형 구형 발전차
+STR_REFIT_LIVERY_T2_Generatar_Car                      : 구형 발전차
+STR_REFIT_LIVERY_ST_Generatar_Car                      : 유선형 발전차 새마을호 도색
+STR_REFIT_LIVERY_HJ_Generatar_Car                      : 유선형 발전차
 STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_A                : 에코레일 A
 STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_B                : 에코레일 B
 STR_REFIT_LIVERY_CY_GW_Luggage_Car                     : 충북영동국악와인
+STR_REFIT_LIVERY_Express_Post_Luggage_Car              : 당일특급 우편
 STR_REFIT_LIVERY_SWagon_1F_Red                         : 25형 1층 빨강 도색
 STR_REFIT_LIVERY_SWagon_1F_Green                       : 25형 1층 녹색 도색
 STR_REFIT_LIVERY_Swagon_1F_White                       : 25형 1층 흰색 도색

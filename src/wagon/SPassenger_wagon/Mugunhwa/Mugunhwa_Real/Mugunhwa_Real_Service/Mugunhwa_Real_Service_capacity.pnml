@@ -1,0 +1,199 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//수송량
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1977_capacity_in_custom, cargo_subtype) {
+   28;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1980_capacity_in_custom, cargo_subtype) {
+   28;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1981_capacity_in_custom, cargo_subtype) {
+   4: return 50;
+   5: return 50;
+   28;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1995_capacity_in_custom, cargo_subtype) {
+    4: return 50;
+    5: return 50;
+    6: return 50;
+    7: return 50;
+    8: return 50;
+   28;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1996_capacity_in_custom, cargo_subtype) {
+    4: return 50;
+    5: return 50;
+    6: return 50;
+    7: return 50;
+    8: return 50;
+   11: return 50;
+   28;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1999_capacity_in_custom, cargo_subtype) {
+    4: return 50;
+    5: return 50;
+    6: return 50;
+    7: return 50;
+    8: return 50;
+   11: return 50;
+   14: return 50;
+   15: return 50;
+   16: return 50;
+   17: return 50;
+   28;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2000_capacity_in_custom, cargo_subtype) {
+    4: return 50;
+    5: return 50;
+    6: return 50;
+    7: return 50;
+    8: return 50;
+   11: return 50;
+   14: return 50;
+   15: return 50;
+   16: return 50;
+   17: return 50;
+   18: return 50;
+   28;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2001_capacity_in_custom, cargo_subtype) {
+    4: return 50;
+    5: return 50;
+    6: return 50;
+    7: return 50;
+    8: return 50;
+   11: return 50;
+   14: return 50;
+   15: return 50;
+   16: return 50;
+   17: return 50;
+   18: return 50;
+   19: return 50;
+   28;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2003_capacity_in_custom, cargo_subtype) {
+    4: return 50;
+    5: return 50;
+    6: return 50;
+    7: return 50;
+    8: return 50;
+   11: return 50;
+   14: return 50;
+   15: return 50;
+   16: return 50;
+   17: return 50;
+   18: return 50;
+   19: return 50;
+   21: return 50;
+   28;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2005_capacity_in_custom, cargo_subtype) {
+    4: return 50;
+    5: return 50;
+    6: return 50;
+    7: return 50;
+    8: return 50;
+   11: return 50;
+   14: return 50;
+   15: return 50;
+   16: return 50;
+   17: return 50;
+   18: return 50;
+   19: return 50;
+   21: return 50;
+   22: return 50;
+   23: return 50;
+   28;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2007_capacity_in_custom, cargo_subtype) {
+    4: return 50;
+    5: return 50;
+    6: return 50;
+    7: return 50;
+    8: return 50;
+   11: return 50;
+   14: return 50;
+   15: return 50;
+   16: return 50;
+   17: return 50;
+   18: return 50;
+   19: return 50;
+   21: return 50;
+   22: return 50;
+   23: return 50;
+   24: return 50;
+   25: return 50;
+   28;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2011_capacity_in_custom, cargo_subtype) {
+    4: return 50;
+    5: return 50;
+    6: return 50;
+    7: return 50;
+    8: return 50;
+   11: return 50;
+   14: return 50;
+   15: return 50;
+   16: return 50;
+   17: return 50;
+   18: return 50;
+   19: return 50;
+   21: return 50;
+   22: return 50;
+   23: return 50;
+   24: return 50;
+   25: return 50;
+   26: return 50;
+   28;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2014_capacity_in_custom, cargo_subtype) {
+    4: return 50;
+    5: return 50;
+    6: return 50;
+    7: return 50;
+    8: return 50;
+   11: return 50;
+   14: return 50;
+   15: return 50;
+   16: return 50;
+   17: return 50;
+   18: return 50;
+   19: return 50;
+   21: return 50;
+   22: return 50;
+   23: return 50;
+   24: return 50;
+   25: return 50;
+   26: return 50;
+   28;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_capacity_in_custom, current_year) {
+    0..1979: sw_Mugunhwa_Real_Service_1977_capacity_in_custom;
+    1980: sw_Mugunhwa_Real_Service_1980_capacity_in_custom;
+    1981..1994: sw_Mugunhwa_Real_Service_1981_capacity_in_custom;
+    1995: sw_Mugunhwa_Real_Service_1995_capacity_in_custom;
+    1996..1998: sw_Mugunhwa_Real_Service_1996_capacity_in_custom;
+    1999: sw_Mugunhwa_Real_Service_1999_capacity_in_custom;
+    2000: sw_Mugunhwa_Real_Service_2000_capacity_in_custom;
+    2001..2002: sw_Mugunhwa_Real_Service_2001_capacity_in_custom;
+    2003..2004: sw_Mugunhwa_Real_Service_2003_capacity_in_custom;
+    2005..2006: sw_Mugunhwa_Real_Service_2005_capacity_in_custom;
+    2007..2010: sw_Mugunhwa_Real_Service_2007_capacity_in_custom;
+    2011..2013: sw_Mugunhwa_Real_Service_2011_capacity_in_custom;
+    sw_Mugunhwa_Real_Service_2014_capacity_in_custom;
+    }
+    
