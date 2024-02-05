@@ -16,80 +16,81 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1980_speed, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1981_speed, cargo_subtype) {
    1: return 150;
    3: return 150;
-   4: return 150;
+   120;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1986_speed, cargo_subtype) {
+   1: return 150;
+   3: return 150;
+   5: return 150;
+   120;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1993_speed, cargo_subtype) {
+   1: return 150;
+   3: return 150;
+   5: return 150;
+   6: return 150;
    120;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1995_speed, cargo_subtype) {
     1: return 150;
     3: return 150;
-    4: return 150;
+    5: return 150;
     6: return 150;
     7: return 150;
     8: return 150;
-   10: return 150;
+    9: return 150;
+   11: return 150;
    120;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1996_speed, cargo_subtype) {
     1: return 150;
     3: return 150;
-    4: return 150;
+    5: return 150;
     6: return 150;
     7: return 150;
     8: return 150;
-   10: return 150;
+    9: return 150;
    11: return 150;
+   12: return 150;
    13: return 150;
+   15: return 150;
    120;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_1999_speed, cargo_subtype) {
     1: return 150;
     3: return 150;
-    4: return 150;
+    5: return 150;
     6: return 150;
     7: return 150;
     8: return 150;
-   10: return 150;
+    9: return 150;
    11: return 150;
+   12: return 150;
    13: return 150;
-   14: return 150;
    15: return 150;
    16: return 150;
    17: return 150;
+   18: return 150;
+   19: return 150;
    120;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2000_speed, cargo_subtype) {
     1: return 150;
     3: return 150;
-    4: return 150;
+    5: return 150;
     6: return 150;
     7: return 150;
     8: return 150;
-   10: return 150;
+    9: return 150;
    11: return 150;
+   12: return 150;
    13: return 150;
-   14: return 150;
-   15: return 150;
-   16: return 150;
-   17: return 150;
-   18: return 150;
-   120;
-}
-
-switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2001_speed, cargo_subtype) {
-    1: return 150;
-    3: return 150;
-    4: return 150;
-    6: return 150;
-    7: return 150;
-    8: return 150;
-   10: return 150;
-   11: return 150;
-   13: return 150;
-   14: return 150;
    15: return 150;
    16: return 150;
    17: return 150;
@@ -99,17 +100,17 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2001_speed, cargo_subtype) {
    120;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2003_speed, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2001_speed, cargo_subtype) {
     1: return 150;
     3: return 150;
-    4: return 150;
+    5: return 150;
     6: return 150;
     7: return 150;
     8: return 150;
-   10: return 150;
+    9: return 150;
    11: return 150;
+   12: return 150;
    13: return 150;
-   14: return 150;
    15: return 150;
    16: return 150;
    17: return 150;
@@ -117,20 +118,21 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2003_speed, cargo_subtype) {
    19: return 150;
    20: return 150;
    21: return 150;
+   22: return 150;
    120;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2005_speed, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2003_speed, cargo_subtype) {
     1: return 150;
     3: return 150;
-    4: return 150;
+    5: return 150;
     6: return 150;
     7: return 150;
     8: return 150;
-   10: return 150;
+    9: return 150;
    11: return 150;
+   12: return 150;
    13: return 150;
-   14: return 150;
    15: return 150;
    16: return 150;
    17: return 150;
@@ -143,17 +145,17 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2005_speed, cargo_subtype) {
    120;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2007_speed, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2005_speed, cargo_subtype) {
     1: return 150;
     3: return 150;
-    4: return 150;
+    5: return 150;
     6: return 150;
     7: return 150;
     8: return 150;
-   10: return 150;
+    9: return 150;
    11: return 150;
+   12: return 150;
    13: return 150;
-   14: return 150;
    15: return 150;
    16: return 150;
    17: return 150;
@@ -168,17 +170,17 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2007_speed, cargo_subtype) {
    120;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2011_speed, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2006_speed, cargo_subtype) {
     1: return 150;
     3: return 150;
-    4: return 150;
+    5: return 150;
     6: return 150;
     7: return 150;
     8: return 150;
-   10: return 150;
+    9: return 150;
    11: return 150;
+   12: return 150;
    13: return 150;
-   14: return 150;
    15: return 150;
    16: return 150;
    17: return 150;
@@ -194,17 +196,17 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2011_speed, cargo_subtype) {
    120;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2014_speed, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2007_speed, cargo_subtype) {
     1: return 150;
     3: return 150;
-    4: return 150;
+    5: return 150;
     6: return 150;
     7: return 150;
     8: return 150;
-   10: return 150;
+    9: return 150;
    11: return 150;
+   12: return 150;
    13: return 150;
-   14: return 150;
    15: return 150;
    16: return 150;
    17: return 150;
@@ -218,20 +220,83 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2014_speed, cargo_subtype) {
    25: return 150;
    26: return 150;
    27: return 150;
+   28: return 150;
+   120;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2011_speed, cargo_subtype) {
+    1: return 150;
+    3: return 150;
+    5: return 150;
+    6: return 150;
+    7: return 150;
+    8: return 150;
+    9: return 150;
+   11: return 150;
+   12: return 150;
+   13: return 150;
+   15: return 150;
+   16: return 150;
+   17: return 150;
+   18: return 150;
+   19: return 150;
+   20: return 150;
+   21: return 150;
+   22: return 150;
+   23: return 150;
+   24: return 150;
+   25: return 150;
+   26: return 150;
+   27: return 150;
+   28: return 150;
+   29: return 150;
+   120;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_2014_speed, cargo_subtype) {
+    1: return 150;
+    3: return 150;
+    5: return 150;
+    6: return 150;
+    7: return 150;
+    8: return 150;
+    9: return 150;
+   11: return 150;
+   12: return 150;
+   13: return 150;
+   15: return 150;
+   16: return 150;
+   17: return 150;
+   18: return 150;
+   19: return 150;
+   20: return 150;
+   21: return 150;
+   22: return 150;
+   23: return 150;
+   24: return 150;
+   25: return 150;
+   26: return 150;
+   27: return 150;
+   28: return 150;
+   29: return 150;
+   30: return 150;
    120;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Service_speed, current_year) {
     0..1979: sw_Mugunhwa_Real_Service_1977_speed;
     1980: sw_Mugunhwa_Real_Service_1980_speed;
-    1981..1994: sw_Mugunhwa_Real_Service_1981_speed;
+    1981..1985: sw_Mugunhwa_Real_Service_1981_speed;
+    1986..1992: sw_Mugunhwa_Real_Service_1986_speed;
+    1993..1994: sw_Mugunhwa_Real_Service_1993_speed;
     1995: sw_Mugunhwa_Real_Service_1995_speed;
     1996..1998: sw_Mugunhwa_Real_Service_1996_speed;
     1999: sw_Mugunhwa_Real_Service_1999_speed;
     2000: sw_Mugunhwa_Real_Service_2000_speed;
     2001..2002: sw_Mugunhwa_Real_Service_2001_speed;
     2003..2004: sw_Mugunhwa_Real_Service_2003_speed;
-    2005..2006: sw_Mugunhwa_Real_Service_2005_speed;
+    2005: sw_Mugunhwa_Real_Service_2005_speed;
+    2006: sw_Mugunhwa_Real_Service_2006_speed;
     2007..2010: sw_Mugunhwa_Real_Service_2007_speed;
     2011..2013: sw_Mugunhwa_Real_Service_2011_speed;
     sw_Mugunhwa_Real_Service_2014_speed;

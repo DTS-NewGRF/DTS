@@ -1,0 +1,11 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+#include "Saemaeul_Real_switch_Year.pnml"
+
+//열차
+#include "Saemaeul_Real_switch_wagon.pnml"
+
+//수송량
+#include "Saemaeul_Real_switch_capacity.pnml"

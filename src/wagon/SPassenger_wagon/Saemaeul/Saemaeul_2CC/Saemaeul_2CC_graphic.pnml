@@ -1,0 +1,90 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Saemaeul_2cc_1wagon, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Saemaeul_2cc_2wagon_A, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Saemaeul_2cc_2wagon_B, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(299, 27)
+}
+
+spriteset(set_Saemaeul_2cc_3wagon_A, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Saemaeul_2cc_3wagon_B, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(299, 54)
+}
+
+spriteset(set_Saemaeul_2cc_4wagon_A, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Saemaeul_2cc_4wagon_B, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(299, 81)
+}
+
+spriteset(set_Saemaeul_2cc_5wagon_A, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Saemaeul_2cc_5wagon_B, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(299, 108)
+}
+
+spriteset(set_Saemaeul_2cc_6wagon_A, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Saemaeul_2cc_6wagon_B, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(299, 135)
+}
+
+spriteset(set_Saemaeul_2cc_7wagon, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Saemaeul_2cc_8wagon, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_Saemaeul_2cc_9wagon, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 216)
+}
+
+spriteset(set_Saemaeul_2cc_10wagon, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 243)
+}
+
+spriteset(set_Saemaeul_2cc_11wagon, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 270)
+}
+
+spriteset(set_Saemaeul_2cc_12wagon, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 297)
+}
+
+spriteset(set_Saemaeul_2cc_13wagon, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 324)
+}
+
+spriteset(set_Saemaeul_2cc_14wagon, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png") {
+    wagon_1F_F(80, 351)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Saemaeul_2cc_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_2CC/Saemaeul_2CC.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_2cc_purchase, cargo_subtype) {
+    set_Saemaeul_2cc_purchase;
+}

@@ -146,7 +146,7 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_2011_purchase, cargo_subtype) 
     set_Mugunhwa_Real_Normal_2011_purchase;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal, current_year) {
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_purchase, current_year) {
     0..1979: sw_Mugunhwa_Real_Normal_1977_purchase;
     1980..1993: sw_Mugunhwa_Real_Normal_1980_purchase;
     1994..1999: sw_Mugunhwa_Real_Normal_1994_purchase;

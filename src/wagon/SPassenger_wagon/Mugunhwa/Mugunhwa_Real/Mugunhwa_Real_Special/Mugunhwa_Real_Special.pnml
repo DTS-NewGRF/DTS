@@ -12,12 +12,12 @@
 --------------------------------------------------------------------*/
 item (FEAT_TRAINS, Mugunhwa_Real_Special, 2390){
     property {
-        name:                           string(STR_KTS_Mugunhwa_Real_Special_NAME);
+        name:                           string(STR_Mugunhwa_Real_Special_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1977, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  KTS_MSPassenger_Car;
+        variant_group:                  Mugunhwa_2cc;
 
         //spec
         speed:                          150km/h;
@@ -49,7 +49,7 @@ item (FEAT_TRAINS, Mugunhwa_Real_Special, 2390){
 
     graphics {
         default:                        sw_Mugunhwa_Real_Special_wagon;
-        purchase:                       sw_Mugunhwa_Real_Special;
+        purchase:                       sw_Mugunhwa_Real_Special_purchase;
         cargo_capacity:                 sw_Mugunhwa_Real_Special_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
