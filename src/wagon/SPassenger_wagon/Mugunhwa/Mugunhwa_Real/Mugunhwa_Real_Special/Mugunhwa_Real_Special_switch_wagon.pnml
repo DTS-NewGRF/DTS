@@ -120,4 +120,3 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_wagon, current_year) {
     1998..2006: sw_Mugunhwa_Real_Special_1998_wagon;
     sw_Mugunhwa_Real_Special_2007_wagon;
     }
-    

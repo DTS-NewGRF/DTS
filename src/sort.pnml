@@ -79,12 +79,10 @@ sort(FEAT_TRAINS, [
     Seoulmetro_1st_8000_6Car,                //2308
     Seoulmetro_1st_9000_6Car,                //2365
     Seoulmetro_1st_5000_8Car,                //2300
-    Seoulmetro_1st_VVVF_5000_IGBT_8Car,      //2311
     Seoulmetro_1st_6000_8Car,                //2310
     Seoulmetro_1st_7000_8Car,                //2309
     Seoulmetro_1st_1000_4000_10Car,          //2257
     Seoulmetro_1st_2000_3000_10Car,          //2285
-    Seoulmetro_1st_VVVF_IGBT_10Car,          //2258
     Seoulmetro_2nd,                          //2260
     Seoulmetro_2nd_4Car,                     //2286
     Seoulmetro_2nd_6Car,                     //2287
@@ -93,7 +91,6 @@ sort(FEAT_TRAINS, [
     Seoulmetro_2nd_2000_10Car,               //2288
     Seoulmetro_2nd_3000_10Car,               //2296
     Seoulmetro_2nd_10Car,                    //2261
-    Seoulmetro_2nd_VVVF_IGBT_10Car,          //2262
     Seoulmetro_3rd,                          //2289
     Seoulmetro_3rd_6Car,                     //2290
     Seoulmetro_3rd_8000_6Car,                //2316
@@ -276,9 +273,7 @@ sort(FEAT_TRAINS, [
     KTX_1_20Car,                             //2322
     KTX_Sancheon,                            //2317
     KTX_Sancheon_10Car,                      //2024
-    KTX_SC_B_10Car,                          //2318
     KTX_Sancheon_20Car,                      //2319
-    KTX_SC_AB_20Car,                         //2320
     KTX_Sancheon_DD_10Car,                   //2025
     CRH2_8Car,                               //2037
     CRH2_16Car,                              //2144
@@ -393,7 +388,8 @@ sort(FEAT_TRAINS, [
     Mugunhwa_Real_Special,                   //2390
     Mugunhwa_Real_Service,                   //2391
     Saemaeul_2cc,                            //2132
-    Saemaeul_Real,                           //2392
+    Saemaeul_Real_Normal_Special,            //2392
+    Saemaeul_Real_Service,                   //2393
     PEX,                                     //2333
     PEX_N,                                   //2334
     PEX_SN,                                  //2335
@@ -402,7 +398,8 @@ sort(FEAT_TRAINS, [
     PEX_S,                                   //2338
     CTS_SPassenger_Car,                      //2031
     ETS_SPassenger_Car,                      //2061
-    Generatar_Car,                           //2003
+    Generatar_2cc,                           //2003
+    Generatar_Real_Stream_lined,             //2394
     CGeneratar_Car,                          //2032
     Luggage_Car,                             //2004
     CLuggage_Car,                            //2033

@@ -321,11 +321,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_2nd_10car, extra_callback_i
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_2nd_VVVF_IGBT_10car, extra_callback_info1) {
-    1..9: Seoulmetro_2nd_VVVF_IGBT_10Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
-
 // 사운드
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_GTO_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/ALSTOMGTOstart.wav");
@@ -366,18 +361,4 @@ switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_7000_sound, extra_callback_info1) {
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_speed, Use_max_virtual_speed) {
     1: return Metro_Speed_Train;
     return 100;
-    }
-
-// 삭제이미지 [2024.2]
-switch (FEAT_TRAINS, SELF, sw_Seoulmetro_2nd_Delete_10car, position_in_vehid_chain % 10) {
-    1:set_Seoulmetro_2nd_Delete_B;
-    2:set_Seoulmetro_2nd_Delete_B;
-    3:set_Seoulmetro_2nd_Delete_B;
-    4:set_Seoulmetro_2nd_Delete_B;
-    5:set_Seoulmetro_2nd_Delete_B;
-    6:set_Seoulmetro_2nd_Delete_B;
-    7:set_Seoulmetro_2nd_Delete_B;
-    8:set_Seoulmetro_2nd_Delete_B;
-    9:set_Seoulmetro_2nd_Delete_B;
-    set_Seoulmetro_2nd_Delete_A; //default
     }

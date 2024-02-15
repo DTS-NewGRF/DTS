@@ -1,0 +1,60 @@
+/*--------------------------------------------------------------------
+YFX
+--------------------------------------------------------------------*/
+// Graphics
+#include "Generatar_Real_Stream_lined_graphic.pnml"
+
+// Switch
+#include "Generatar_Real_Stream_lined_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Generatar_Real_Stream_lined, 2394){
+    property {
+        name:                           string(STR_Generatar_Real_Stream_lined_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1990, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Generatar_2cc;
+        
+        //spec
+        speed:                          150km/h;
+        length:                         7;
+        weight:                         17 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 1;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_NONE;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
+        }
+
+	graphics {
+        default:                        sw_Generatar_Real_Stream_lined_wagon;
+        purchase:                       sw_Generatar_Real_Stream_lined_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        cargo_capacity:                 0;
+        cargo_subtype_text:             sw_Generatar_Real_Stream_lined_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_Generatar_Real);
+        }
+        }

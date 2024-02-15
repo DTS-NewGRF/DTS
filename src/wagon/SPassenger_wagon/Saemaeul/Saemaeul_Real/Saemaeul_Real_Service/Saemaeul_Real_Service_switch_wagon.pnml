@@ -1,0 +1,66 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//객차
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_1969_wagon, cargo_subtype) {
+    1: set_Saemaeul_Real_Service_SP1;
+    set_Saemaeul_Real_Service_SF1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_1986_wagon, cargo_subtype) {
+    1: set_Saemaeul_Real_Service_SP1;
+    2: set_Saemaeul_Real_Service_SF2;
+    3: set_Saemaeul_Real_Service_SP2;
+    set_Saemaeul_Real_Service_SF1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_1990_wagon, cargo_subtype) {
+    1: set_Saemaeul_Real_Service_SP1;
+    2: set_Saemaeul_Real_Service_SF2;
+    3: set_Saemaeul_Real_Service_SP2;
+    4: set_Saemaeul_Real_Service_SF3;
+    set_Saemaeul_Real_Service_SF1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_1995_wagon, cargo_subtype) {
+    1: set_Saemaeul_Real_Service_SP1;
+    2: set_Saemaeul_Real_Service_SF2;
+    3: set_Saemaeul_Real_Service_SP2;
+    4: set_Saemaeul_Real_Service_SF3;
+    5: set_Saemaeul_Real_Service_OSF;
+    6: set_Saemaeul_Real_Service_OSP;
+    set_Saemaeul_Real_Service_SF1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_2006_wagon, cargo_subtype) {
+    1: set_Saemaeul_Real_Service_SP1;
+    2: set_Saemaeul_Real_Service_SF2;
+    3: set_Saemaeul_Real_Service_SP2;
+    4: set_Saemaeul_Real_Service_SF3;
+    5: set_Saemaeul_Real_Service_OSF;
+    6: set_Saemaeul_Real_Service_OSP;
+    7: set_Saemaeul_Real_Service_NSF;
+    set_Saemaeul_Real_Service_SF1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_2007_wagon, cargo_subtype) {
+    1: set_Saemaeul_Real_Service_SP1;
+    2: set_Saemaeul_Real_Service_SF2;
+    3: set_Saemaeul_Real_Service_SP2;
+    4: set_Saemaeul_Real_Service_SF3;
+    5: set_Saemaeul_Real_Service_OSF;
+    6: set_Saemaeul_Real_Service_OSP;
+    7: set_Saemaeul_Real_Service_NSF;
+    8: set_Saemaeul_Real_Service_NSC;
+    set_Saemaeul_Real_Service_SF1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_wagon, current_year) {
+    0..1985: sw_Saemaeul_Real_Service_1969_wagon;
+    1986..1989: sw_Saemaeul_Real_Service_1986_wagon;
+    1990..1994: sw_Saemaeul_Real_Service_1990_wagon;
+    1995..2005: sw_Saemaeul_Real_Service_1995_wagon;
+    2006: sw_Saemaeul_Real_Service_2006_wagon;
+    sw_Saemaeul_Real_Service_2007_wagon;
+    }
+    

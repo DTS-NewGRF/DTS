@@ -1,0 +1,100 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Saemaeul_Real_Service_SF1, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Saemaeul_Real_Service_SP1, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Saemaeul_Real_Service_SF2, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Saemaeul_Real_Service_SP2, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Saemaeul_Real_Service_SF3, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Saemaeul_Real_Service_OSF, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Saemaeul_Real_Service_OSP, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Saemaeul_Real_Service_NSF, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_Saemaeul_Real_Service_NSC, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png") {
+    wagon_1F_F(80, 216)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Saemaeul_Real_Service_1969_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_Saemaeul_Real_Service_1986_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png"){
+    tmpl_wagon_purchase(0, 54)
+}
+
+spriteset(set_Saemaeul_Real_Service_1990_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png"){
+    tmpl_wagon_purchase(0, 108)
+}
+
+spriteset(set_Saemaeul_Real_Service_1995_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png"){
+    tmpl_wagon_purchase(0, 135)
+}
+
+spriteset(set_Saemaeul_Real_Service_2006_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png"){
+    tmpl_wagon_purchase(0, 189)
+}
+
+spriteset(set_Saemaeul_Real_Service_2007_purchase, "src/wagon/SPassenger_wagon/Saemaeul/Saemaeul_Real/Saemaeul_Real_Service/Saemaeul_Real_Service.png"){
+    tmpl_wagon_purchase(0, 216)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_1969_purchase, cargo_subtype) {
+    set_Saemaeul_Real_Service_1969_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_1986_purchase, cargo_subtype) {
+    set_Saemaeul_Real_Service_1986_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_1990_purchase, cargo_subtype) {
+    set_Saemaeul_Real_Service_1990_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_1995_purchase, cargo_subtype) {
+    set_Saemaeul_Real_Service_1995_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_2006_purchase, cargo_subtype) {
+    set_Saemaeul_Real_Service_2006_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_2007_purchase, cargo_subtype) {
+    set_Saemaeul_Real_Service_2007_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_purchase, current_year) {
+    0..1985: sw_Saemaeul_Real_Service_1969_purchase;
+    1986..1989: sw_Saemaeul_Real_Service_1986_purchase;
+    1990..1994: sw_Saemaeul_Real_Service_1990_purchase;
+    1995..2005: sw_Saemaeul_Real_Service_1995_purchase;
+    2006: sw_Saemaeul_Real_Service_2006_purchase;
+    sw_Saemaeul_Real_Service_2007_purchase;
+    }

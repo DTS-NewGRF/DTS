@@ -1,26 +1,28 @@
 /*--------------------------------------------------------------------
-YFX
+새마을호 일반 & 특실 객차 차량
 --------------------------------------------------------------------*/
 // Graphics
-#include "Generatar_Car_graphic.pnml"
+#include "Saemaeul_Real_Normal_Special_graphic.pnml"
 
 // Switch
-#include "Generatar_Car_switch.pnml"
+#include "Saemaeul_Real_Normal_Special_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보
+한국형 새마을호 승객 차량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Generatar_Car, 2003){
+item (FEAT_TRAINS, Saemaeul_Real_Normal_Special, 2392){
     property {
-        name:                           string(STR_Generatar_Car_NAME);
+        name:                           string(STR_Saemaeul_Real_Normal_Special_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1971, 1, 1);
+        introduction_date:              date(1969, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        
+        variant_group:                  Saemaeul_2cc;
+
         //spec
+        speed:                          150km/h;
         power:                          0 kW;
-        weight:                         17 ton;
+        weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model
@@ -28,32 +30,31 @@ item(FEAT_TRAINS, Generatar_Car, 2003){
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
-        
+
         //Cargo
-        cargo_capacity:                 1;
+        cargo_capacity:                 56;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
         cargo_disallow_refit:           [];
-        
+
         //Costs
         refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_NONE;
-        
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
         //Flags
         misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         20 ton;
-        }
+    }
 
-	graphics {
-        default:                        sw_Generatar_wagon;
-        purchase:                       sw_Generatar_Car_purchase;
-        length:                         sw_Generatar_wagon_length_in_custom;
+    graphics {
+        default:                        sw_Saemaeul_Real_Normal_Special_wagon;
+        purchase:                       sw_Saemaeul_Real_Normal_Special_purchase;
+        cargo_capacity:                 sw_Saemaeul_Real_Normal_Special_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_capacity:                 0;
-        cargo_subtype_text:             sw_Generatar_wagon_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Generatar);
+        cargo_subtype_text:             sw_Saemaeul_Real_Normal_Special_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_Saemaeul_Real);
         }
-        }
+    }

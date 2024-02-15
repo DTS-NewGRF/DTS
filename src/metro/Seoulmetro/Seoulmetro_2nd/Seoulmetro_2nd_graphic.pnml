@@ -150,17 +150,6 @@ spriteset(set_Seoulmetro_2nd_7000_engineT, "src/metro/Seoulmetro/Seoulmetro_2nd/
 }
 
 /*--------------------------------------------------------------------
-[2024.2] 삭제예정.
---------------------------------------------------------------------*/
-spriteset(set_Seoulmetro_2nd_Delete_A, "Deleted_Train_Image.png"){
-    wagon_1F_F(80, 0)
-}
-
-spriteset(set_Seoulmetro_2nd_Delete_B, "Deleted_Train_Image.png"){
-    wagon_1F_F(80, 27)
-}
-
-/*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
 // 구매차량 그래픽

@@ -7,7 +7,6 @@ STR_GRF_DESC                                           :Diversity Train Set
 STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS/releases
 
 # Deleted / locomotive's name
-STR_To_Be_Deleted_NAME                                 :[2024.2] {RED} To Be Deleted
 STR_To_Be_Deleted_202403_NAME                          :[2024.3] {RED} To Be Deleted
 
 # Korea / locomotive's name
@@ -398,14 +397,16 @@ STR_Mugunhwa_Real_Normal_NAME                          :[DTS] Korea Mugunhwa Nor
 STR_Mugunhwa_Real_Service_NAME                         :[DTS] Korea Mugunhwa Service passenger car
 STR_Mugunhwa_Real_Special_NAME                         :[DTS] Korea Mugunhwa Special passenger car
 STR_Saemaeul_2cc_NAME                                  :[DTS] Korea Saemaeul 2cc passenger car
-STR_Saemaeul_Real_NAME                                 :[DTS] Korea Saemaeul Normal&Special passenger car
+STR_Saemaeul_Real_Normal_Special_NAME                  :[DTS] Korea Saemaeul Normal & Special passenger car
+STR_Saemaeul_Real_Service_NAME                         :[DTS] Korea Saemaeul Service passenger car
 STR_Group_PEX_NAME                                     :[DTS] PEX (Premium EXpress)
 STR_PEX_N_NAME                                         :[DTS] PEX 1F Car
 STR_PEX_SN_NAME                                        :[DTS] PEX Special Car
 STR_PEX_D_NAME                                         :[DTS] PEX 2F Car
 STR_PEX_B_NAME                                         :[DTS] PEX Bar Car
 STR_PEX_S_NAME                                         :[DTS] PEX Bad Car
-STR_Generatar_Car_NAME                                 :[DTS] Generatar Car
+STR_Generatar_2cc_NAME                                 :[DTS] Korea Generatar 2cc Car
+STR_Generatar_Real_Stream_lined_NAME                   :[DTS] Korea Stream lined & Long length Generator Car
 STR_Luggage_Car_NAME                                   :[DTS] Luggage Car
 STR_CTS_SPASS_NAME                                     :[DTS] Chinese carriage-type passenger car
 STR_CGeneratar_Car_NAME                                :[DTS] Chinese Generatar Car
@@ -497,7 +498,8 @@ STR_REFIT_train_configuration_Mugunghwa_Real           :{BLACK}train configurati
 STR_REFIT_train_configuration_Saemaeul_2cc             :{BLACK}train configuration {}{GREEN}Korea Saemaeul 2cc Passenger vehicles
 STR_REFIT_train_configuration_Saemaeul_Real            :{BLACK}train configuration {}{GREEN}Korea Saemaeul Passenger vehicles
 STR_REFIT_train_configuration_PEX                      :{BLACK}train configuration {}{GREEN}PEX
-STR_REFIT_train_configuration_Generatar                :{BLACK}train configuration {}{GREEN}Generatar vehicles
+STR_REFIT_train_configuration_Generatar_2cc            :{BLACK}train configuration {}{GREEN}Korea Generatar 2cc vehicles
+STR_REFIT_train_configuration_Generatar_Real           :{BLACK}train configuration {}{GREEN}Korea Generatar vehicles
 STR_REFIT_train_configuration_Luggage                  :{BLACK}train configuration {}{GREEN}Luggage vehicles
 STR_REFIT_train_configuration_CSPassenger              :{BLACK}train configuration {}{GREEN}Chinese carriage-type Passenger vehicles
 STR_REFIT_train_configuration_CGeneratar               :{BLACK}train configuration {}{GREEN}Chinese Generatar vehicles
@@ -509,7 +511,6 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}train configurati
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}train configuration {}{GREEN}Coach 2F Passenger vehicles
 
 # Deleted / Liveries
-STR_REFIT_LIVERY_To_Be_Deleted                         : To Be Deleted 2024.2
 STR_REFIT_LIVERY_To_Be_Deleted_202403                  : To Be Deleted 2024.3
 
 # Korea / Liveries locomotive
@@ -958,46 +959,68 @@ STR_REFIT_LIVERY_Saemaeul_2cc_11wagon                  : Saemaeul 2cc 11wagon
 STR_REFIT_LIVERY_Saemaeul_2cc_12wagon                  : Saemaeul 2cc 12wagon
 STR_REFIT_LIVERY_Saemaeul_2cc_13wagon                  : Saemaeul 2cc 13wagon
 STR_REFIT_LIVERY_Saemaeul_2cc_14wagon                  : Saemaeul 2cc 14wagon
-STR_REFIT_LIVERY_Saemaeul_Real_KN1                     : Kwan kwang Ho regular class
-STR_REFIT_LIVERY_Saemaeul_Real_KN2                     : Kwan kwang Ho studio
-STR_REFIT_LIVERY_Saemaeul_Real_KF                      : Kwan kwang Ho First class
-STR_REFIT_LIVERY_Saemaeul_Real_KSI                     : Saemaul Ho regular class
-STR_REFIT_LIVERY_Saemaeul_Real_SLA1                    : Early livery Stream lined Saemaul A type
-STR_REFIT_LIVERY_Saemaeul_Real_SLB1                    : Early livery Stream lined Saemaul B type
-STR_REFIT_LIVERY_Saemaeul_Real_SLF1                    : Early livery Stream lined Saemaul First class
-STR_REFIT_LIVERY_Saemaeul_Real_SLB2                    : Early livery length Saemaul B type
-STR_REFIT_LIVERY_Saemaeul_Real_SLC                     : Early livery length lined Saemaul C type
-STR_REFIT_LIVERY_Saemaeul_Real_SLF2                    : Early livery length Stream lined Saemaul First class
-STR_REFIT_LIVERY_Saemaeul_Real_OSLA                    : Old livery Stream lined Saemaul A type
-STR_REFIT_LIVERY_Saemaeul_Real_OSLB                    : Old livery Stream lined& length Saemaul B type
-STR_REFIT_LIVERY_Saemaeul_Real_OSLC                    : Old livery length Saemaul C type
-STR_REFIT_LIVERY_Saemaeul_Real_FDSL                    : Stream lined Saemaul First class downgrade regular class
-STR_REFIT_LIVERY_Saemaeul_Real_OSLF                    : Old livery length Saemaul First class
-STR_REFIT_LIVERY_Saemaeul_Real_NSLB                    : New livery length Saemaul B type
-STR_REFIT_LIVERY_Saemaeul_Real_NSLC                    : New livery length Saemaul C type
-STR_REFIT_LIVERY_Saemaeul_Real_NSLF                    : New livery length First class
-STR_REFIT_LIVERY_Saemaeul_Real_LN1                     : Rimiteu upgrade regular class
-STR_REFIT_LIVERY_Saemaeul_Real_LN2                     : Rimiteu upgrade studio (Wheelchair seat)
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KN1      : Kwan kwang Ho regular class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KN2      : Kwan kwang Ho studio
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KF       : Kwan kwang Ho First class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_KSI      : Saemaul Ho regular class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLA1     : Early livery Stream lined Saemaul A type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLB1     : Early livery Stream lined Saemaul B type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLF1     : Early livery Stream lined Saemaul First class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLB2     : Early livery Long length Saemaul B type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLC      : Early livery Long length Saemaul C type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_SLF2     : Early livery Long length Saemaul First class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLA     : Old livery Stream lined Saemaul A type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLB     : Old livery Stream lined&Long length Saemaul B type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLC     : Old livery Long length Saemaul C type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_FDSL     : Stream lined Saemaul First class downgrade regular class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_OSLF     : Old livery Long length Saemaul First class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLB     : New livery Long length Saemaul B type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLC     : New livery Long length Saemaul C type
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_NSLF     : New livery Long length First class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_LN1      : Rimiteu upgrade regular class
+STR_REFIT_LIVERY_Saemaeul_Real_Normal_Special_LN2      : Rimiteu upgrade studio (Wheelchair seat)
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SF1             : Kwan kwang Ho restaurant
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SP1             : Kwan kwang Ho outlook Half-restaurant, room
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SF2             : Early livery Stream lined restaurant
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SP2             : Early livery Stream lined Half-restaurant, room
+STR_REFIT_LIVERY_Saemaeul_Real_Service_SF3             : Early livery Long length restaurant
+STR_REFIT_LIVERY_Saemaeul_Real_Service_OSF             : Old livery Stream lined & Long length restaurant
+STR_REFIT_LIVERY_Saemaeul_Real_Service_OSP             : Old livery Stream lined Half-restaurant, room
+STR_REFIT_LIVERY_Saemaeul_Real_Service_NSF             : New livery restaurant
+STR_REFIT_LIVERY_Saemaeul_Real_Service_NSC             : Cafe car
 STR_REFIT_LIVERY_E_Train_Old_Passenger_Car             : E-Train Old
 STR_REFIT_LIVERY_E_Train_New_Passenger_Car             : E-Train New
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car                : Jeongseon Arirang Old Color
 STR_REFIT_LIVERY_JA_a_New_Passenger_Car                : Jeongseon Arirang New Color
-STR_REFIT_LIVERY_Eco_Rail_Generatar_Car                : Generatar Car
-STR_REFIT_LIVERY_CY_GW_Generatar_Car                   : Chungbuk Yeongdong Gugak & Wine Generatar Car
-STR_REFIT_LIVERY_JA_a_Old_Generatar_Car                : Jeongseon Arirang Old Color
-STR_REFIT_LIVERY_JA_a_New_Generatar_Car                : Jeongseon Arirang New Color
-STR_REFIT_LIVERY_Lady_Bird_Generatar_Car               : Lady Bird
-STR_REFIT_LIVERY_S_Train_New_Generatar_Car             : S-Train
-STR_REFIT_LIVERY_A_Train_New_Generatar_Car             : A-Train
-STR_REFIT_LIVERY_G_Train_New_Generatar_Car             : G-Train
-STR_REFIT_LIVERY_S1_Generatar_Car                      : Early livery Overview car
-STR_REFIT_LIVERY_L1_Generatar_Car                      : Early livery Long length Old car
-STR_REFIT_LIVERY_T1_Generatar_Car                      : Early livery Old car
-STR_REFIT_LIVERY_S2_Generatar_Car                      : Overview car
-STR_REFIT_LIVERY_L2_Generatar_Car                      : Long length Old car
-STR_REFIT_LIVERY_T2_Generatar_Car                      : Old car
-STR_REFIT_LIVERY_ST_Generatar_Car                      : Saemaul Early livery Stream lined car
-STR_REFIT_LIVERY_HJ_Generatar_Car                      : Stream lined car
+STR_REFIT_LIVERY_Generatar_2cc                         : Generatar Car
+STR_REFIT_LIVERY_Generatar_2cc_S1                      : Early livery Overview car
+STR_REFIT_LIVERY_Generatar_2cc_L1                      : Early livery Long length Old car
+STR_REFIT_LIVERY_Generatar_2cc_T1                      : Early livery Old car
+STR_REFIT_LIVERY_Generatar_2cc_S2                      : Overview car
+STR_REFIT_LIVERY_Generatar_2cc_L2                      : Long length Old car
+STR_REFIT_LIVERY_Generatar_2cc_T2                      : Old car
+STR_REFIT_LIVERY_Generatar_2cc_ST                      : Saemaul Early livery Stream lined car
+STR_REFIT_LIVERY_Generatar_2cc_HJ                      : Stream lined car
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS        : Early livery Long length Saemaul
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS        : Early livery Stream lined Saemaul
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS       : Old livery Saemaul ST
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM       : Old livery Mugunghwa ST
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS       : Tongil IR
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS       : Old livery Jeongseon arirang
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS       : New livery Saemaul ST
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM       : New livery Mugunghwa ST
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS       : New livery Mugunghwa IR
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS       : New livery Jeongseon arirang
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_HR        : RAIL CRUISE HAERANG
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_MR        : Paldo Nongshim Experience train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SB        : Old livery S-train BLUE
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SP        : Old livery S-train PINK
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_JA        : Old livery A-train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WG        : Old livery G-train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WN        : Chungbuk Yeongdong Gugak & Wine Train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NS        : New livery S-train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NA        : New livery A-train
+STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NG        : New livery G-train
 STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_A                : Eco Rail Luggage Car A
 STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_B                : Eco Rail Luggage Car B
 STR_REFIT_LIVERY_CY_GW_Luggage_Car                     : Chungbuk Yeongdong Gugak & Wine Luggage Car

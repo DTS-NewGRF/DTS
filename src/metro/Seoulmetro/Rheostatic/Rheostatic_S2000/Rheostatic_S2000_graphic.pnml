@@ -43,28 +43,44 @@ spriteset(set_Rheostatic_S2000_Rheostatic_engineH_A, "src/metro/Seoulmetro/Rheos
     engine(80, 0)
 }
 
-spriteset(set_Rheostatic_S2000_Rheostatic_engineH_B, "src/metro/Seoulmetro/Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
+spriteset(set_Rheostatic_S2000_Rheostatic_engineH_A_r, "src/metro/Seoulmetro/Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
     engine(80, 27)
 }
 
+spriteset(set_Rheostatic_S2000_Rheostatic_engineH_B, "src/metro/Seoulmetro/Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
+    engine(80, 54)
+}
+
+spriteset(set_Rheostatic_S2000_Rheostatic_engineH_B_r, "src/metro/Seoulmetro/Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
+    engine(80, 81)
+}
+
 spriteset(set_Rheostatic_S2000_Rheostatic_panto_wagon, "src/metro/Seoulmetro/Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    wagon_1F_F(80, 54)
-}
-
-spriteset(set_Rheostatic_S2000_Rheostatic_wagon_TA, "src/metro/Seoulmetro/Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    wagon_1F_F(80, 81)
-}
-
-spriteset(set_Rheostatic_S2000_Rheostatic_wagon_TB, "src/metro/Seoulmetro/Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
     wagon_1F_F(80, 108)
 }
 
+spriteset(set_Rheostatic_S2000_Rheostatic_wagon_TA, "src/metro/Seoulmetro/Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Rheostatic_S2000_Rheostatic_wagon_TB, "src/metro/Seoulmetro/Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Rheostatic_S2000_Rheostatic_engineT_A_r, "src/metro/Seoulmetro/Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
+    engine(80, 189)
+}
+
 spriteset(set_Rheostatic_S2000_Rheostatic_engineT_A, "src/metro/Seoulmetro/Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    engine(80, 135)
+    engine(80, 216)
+}
+
+spriteset(set_Rheostatic_S2000_Rheostatic_engineT_B_r, "src/metro/Seoulmetro/Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
+    engine(80, 243)
 }
 
 spriteset(set_Rheostatic_S2000_Rheostatic_engineT_B, "src/metro/Seoulmetro/Rheostatic/Rheostatic_S2000/Rheostatic_S2000_Rheostatic.png"){
-    engine(80, 162)
+    engine(80, 270)
 }
 
 /*--------------------------------------------------------------------

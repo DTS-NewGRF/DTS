@@ -1,0 +1,49 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Generatar_2cc, "src/wagon/Generatar/Generatar_2cc/Generatar_2cc.png") {
+    wagon_1F_F_mini_7(80, 0)
+}
+
+spriteset(set_Generatar_2cc_S1, "src/wagon/Generatar/Generatar_2cc/Generatar_2cc.png") {
+    wagon_1F_F_mini_6(80, 27)
+}
+
+spriteset(set_Generatar_2cc_L1, "src/wagon/Generatar/Generatar_2cc/Generatar_2cc.png") {
+    wagon_1F_F_mini_7(80, 54)
+}
+
+spriteset(set_Generatar_2cc_T1, "src/wagon/Generatar/Generatar_2cc/Generatar_2cc.png") {
+    wagon_1F_F_mini_6(80, 81)
+}
+
+spriteset(set_Generatar_2cc_S2, "src/wagon/Generatar/Generatar_2cc/Generatar_2cc.png") {
+    wagon_1F_F_mini_6(80, 108)
+}
+
+spriteset(set_Generatar_2cc_L2, "src/wagon/Generatar/Generatar_2cc/Generatar_2cc.png") {
+    wagon_1F_F_mini_7(80, 135)
+}
+
+spriteset(set_Generatar_2cc_T2, "src/wagon/Generatar/Generatar_2cc/Generatar_2cc.png") {
+    wagon_1F_F_mini_6(80, 162)
+}
+
+spriteset(set_Generatar_2cc_ST, "src/wagon/Generatar/Generatar_2cc/Generatar_2cc.png") {
+    wagon_1F_F_mini_7(80, 189)
+}
+
+spriteset(set_Generatar_2cc_HJ, "src/wagon/Generatar/Generatar_2cc/Generatar_2cc.png") {
+    wagon_1F_F_mini_7(80, 216)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_Generatar_2cc_purchase, "src/wagon/Generatar/Generatar_2cc/Generatar_2cc.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_2cc_purchase, cargo_subtype) {
+    set_Generatar_2cc_purchase;
+}

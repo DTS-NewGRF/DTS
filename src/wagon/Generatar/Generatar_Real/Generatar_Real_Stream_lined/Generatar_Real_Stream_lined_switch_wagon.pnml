@@ -1,0 +1,230 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//객차
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_1990_wagon, cargo_subtype) {
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_1991_wagon, cargo_subtype) {
+    1: set_Generatar_Real_Stream_lined_SS;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_1996_wagon, cargo_subtype) {
+    1: set_Generatar_Real_Stream_lined_SS;
+    2: set_Generatar_Real_Stream_lined_OLS;
+    3: set_Generatar_Real_Stream_lined_OLM;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_1998_wagon, cargo_subtype) {
+    1: set_Generatar_Real_Stream_lined_SS;
+    2: set_Generatar_Real_Stream_lined_OLS;
+    3: set_Generatar_Real_Stream_lined_OLM;
+    4: set_Generatar_Real_Stream_lined_OSS;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2002_wagon, cargo_subtype) {
+    1: set_Generatar_Real_Stream_lined_SS;
+    2: set_Generatar_Real_Stream_lined_OLS;
+    3: set_Generatar_Real_Stream_lined_OLM;
+    4: set_Generatar_Real_Stream_lined_OSS;
+    5: set_Generatar_Real_Stream_lined_OJS;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2006_wagon, cargo_subtype) {
+    1: set_Generatar_Real_Stream_lined_SS;
+    2: set_Generatar_Real_Stream_lined_OLS;
+    3: set_Generatar_Real_Stream_lined_OLM;
+    4: set_Generatar_Real_Stream_lined_OSS;
+    5: set_Generatar_Real_Stream_lined_OJS;
+    6: set_Generatar_Real_Stream_lined_NLS;
+    7: set_Generatar_Real_Stream_lined_NLM;
+    8: set_Generatar_Real_Stream_lined_NSS;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2007_wagon, cargo_subtype) {
+    1: set_Generatar_Real_Stream_lined_SS;
+    2: set_Generatar_Real_Stream_lined_OLS;
+    3: set_Generatar_Real_Stream_lined_OLM;
+    4: set_Generatar_Real_Stream_lined_OSS;
+    5: set_Generatar_Real_Stream_lined_OJS;
+    6: set_Generatar_Real_Stream_lined_NLS;
+    7: set_Generatar_Real_Stream_lined_NLM;
+    8: set_Generatar_Real_Stream_lined_NSS;
+    9: set_Generatar_Real_Stream_lined_NJS;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2008_wagon, cargo_subtype) {
+     1: set_Generatar_Real_Stream_lined_SS;
+     2: set_Generatar_Real_Stream_lined_OLS;
+     3: set_Generatar_Real_Stream_lined_OLM;
+     4: set_Generatar_Real_Stream_lined_OSS;
+     5: set_Generatar_Real_Stream_lined_OJS;
+     6: set_Generatar_Real_Stream_lined_NLS;
+     7: set_Generatar_Real_Stream_lined_NLM;
+     8: set_Generatar_Real_Stream_lined_NSS;
+     9: set_Generatar_Real_Stream_lined_NJS;
+    10: set_Generatar_Real_Stream_lined_HR;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2009_wagon, cargo_subtype) {
+     1: set_Generatar_Real_Stream_lined_SS;
+     2: set_Generatar_Real_Stream_lined_OLS;
+     3: set_Generatar_Real_Stream_lined_OLM;
+     4: set_Generatar_Real_Stream_lined_OSS;
+     5: set_Generatar_Real_Stream_lined_OJS;
+     6: set_Generatar_Real_Stream_lined_NLS;
+     7: set_Generatar_Real_Stream_lined_NLM;
+     8: set_Generatar_Real_Stream_lined_NSS;
+     9: set_Generatar_Real_Stream_lined_NJS;
+    10: set_Generatar_Real_Stream_lined_HR;
+    11: set_Generatar_Real_Stream_lined_MR;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2013_wagon, cargo_subtype) {
+     1: set_Generatar_Real_Stream_lined_SS;
+     2: set_Generatar_Real_Stream_lined_OLS;
+     3: set_Generatar_Real_Stream_lined_OLM;
+     4: set_Generatar_Real_Stream_lined_OSS;
+     5: set_Generatar_Real_Stream_lined_OJS;
+     6: set_Generatar_Real_Stream_lined_NLS;
+     7: set_Generatar_Real_Stream_lined_NLM;
+     8: set_Generatar_Real_Stream_lined_NSS;
+     9: set_Generatar_Real_Stream_lined_NJS;
+    10: set_Generatar_Real_Stream_lined_HR;
+    11: set_Generatar_Real_Stream_lined_MR;
+    12: set_Generatar_Real_Stream_lined_SB;
+    13: set_Generatar_Real_Stream_lined_SP;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2015_wagon, cargo_subtype) {
+     1: set_Generatar_Real_Stream_lined_SS;
+     2: set_Generatar_Real_Stream_lined_OLS;
+     3: set_Generatar_Real_Stream_lined_OLM;
+     4: set_Generatar_Real_Stream_lined_OSS;
+     5: set_Generatar_Real_Stream_lined_OJS;
+     6: set_Generatar_Real_Stream_lined_NLS;
+     7: set_Generatar_Real_Stream_lined_NLM;
+     8: set_Generatar_Real_Stream_lined_NSS;
+     9: set_Generatar_Real_Stream_lined_NJS;
+    10: set_Generatar_Real_Stream_lined_HR;
+    11: set_Generatar_Real_Stream_lined_MR;
+    12: set_Generatar_Real_Stream_lined_SB;
+    13: set_Generatar_Real_Stream_lined_SP;
+    14: set_Generatar_Real_Stream_lined_JA;
+    15: set_Generatar_Real_Stream_lined_WG;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2018_wagon, cargo_subtype) {
+     1: set_Generatar_Real_Stream_lined_SS;
+     2: set_Generatar_Real_Stream_lined_OLS;
+     3: set_Generatar_Real_Stream_lined_OLM;
+     4: set_Generatar_Real_Stream_lined_OSS;
+     5: set_Generatar_Real_Stream_lined_OJS;
+     6: set_Generatar_Real_Stream_lined_NLS;
+     7: set_Generatar_Real_Stream_lined_NLM;
+     8: set_Generatar_Real_Stream_lined_NSS;
+     9: set_Generatar_Real_Stream_lined_NJS;
+    10: set_Generatar_Real_Stream_lined_HR;
+    11: set_Generatar_Real_Stream_lined_MR;
+    12: set_Generatar_Real_Stream_lined_SB;
+    13: set_Generatar_Real_Stream_lined_SP;
+    14: set_Generatar_Real_Stream_lined_JA;
+    15: set_Generatar_Real_Stream_lined_WG;
+    16: set_Generatar_Real_Stream_lined_WN;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2020_wagon, cargo_subtype) {
+     1: set_Generatar_Real_Stream_lined_SS;
+     2: set_Generatar_Real_Stream_lined_OLS;
+     3: set_Generatar_Real_Stream_lined_OLM;
+     4: set_Generatar_Real_Stream_lined_OSS;
+     5: set_Generatar_Real_Stream_lined_OJS;
+     6: set_Generatar_Real_Stream_lined_NLS;
+     7: set_Generatar_Real_Stream_lined_NLM;
+     8: set_Generatar_Real_Stream_lined_NSS;
+     9: set_Generatar_Real_Stream_lined_NJS;
+    10: set_Generatar_Real_Stream_lined_HR;
+    11: set_Generatar_Real_Stream_lined_MR;
+    12: set_Generatar_Real_Stream_lined_SB;
+    13: set_Generatar_Real_Stream_lined_SP;
+    14: set_Generatar_Real_Stream_lined_JA;
+    15: set_Generatar_Real_Stream_lined_WG;
+    16: set_Generatar_Real_Stream_lined_WN;
+    17: set_Generatar_Real_Stream_lined_NS;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2022_wagon, cargo_subtype) {
+     1: set_Generatar_Real_Stream_lined_SS;
+     2: set_Generatar_Real_Stream_lined_OLS;
+     3: set_Generatar_Real_Stream_lined_OLM;
+     4: set_Generatar_Real_Stream_lined_OSS;
+     5: set_Generatar_Real_Stream_lined_OJS;
+     6: set_Generatar_Real_Stream_lined_NLS;
+     7: set_Generatar_Real_Stream_lined_NLM;
+     8: set_Generatar_Real_Stream_lined_NSS;
+     9: set_Generatar_Real_Stream_lined_NJS;
+    10: set_Generatar_Real_Stream_lined_HR;
+    11: set_Generatar_Real_Stream_lined_MR;
+    12: set_Generatar_Real_Stream_lined_SB;
+    13: set_Generatar_Real_Stream_lined_SP;
+    14: set_Generatar_Real_Stream_lined_JA;
+    15: set_Generatar_Real_Stream_lined_WG;
+    16: set_Generatar_Real_Stream_lined_WN;
+    17: set_Generatar_Real_Stream_lined_NS;
+    18: set_Generatar_Real_Stream_lined_NA;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2023_wagon, cargo_subtype) {
+     1: set_Generatar_Real_Stream_lined_SS;
+     2: set_Generatar_Real_Stream_lined_OLS;
+     3: set_Generatar_Real_Stream_lined_OLM;
+     4: set_Generatar_Real_Stream_lined_OSS;
+     5: set_Generatar_Real_Stream_lined_OJS;
+     6: set_Generatar_Real_Stream_lined_NLS;
+     7: set_Generatar_Real_Stream_lined_NLM;
+     8: set_Generatar_Real_Stream_lined_NSS;
+     9: set_Generatar_Real_Stream_lined_NJS;
+    10: set_Generatar_Real_Stream_lined_HR;
+    11: set_Generatar_Real_Stream_lined_MR;
+    12: set_Generatar_Real_Stream_lined_SB;
+    13: set_Generatar_Real_Stream_lined_SP;
+    14: set_Generatar_Real_Stream_lined_JA;
+    15: set_Generatar_Real_Stream_lined_WG;
+    16: set_Generatar_Real_Stream_lined_WN;
+    17: set_Generatar_Real_Stream_lined_NS;
+    18: set_Generatar_Real_Stream_lined_NA;
+    19: set_Generatar_Real_Stream_lined_NG;
+    set_Generatar_Real_Stream_lined_LS;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_wagon, current_year) {
+    0..1990: sw_Generatar_Real_Stream_lined_1990_wagon;
+    1991..1995: sw_Generatar_Real_Stream_lined_1991_wagon;
+    1996..1997: sw_Generatar_Real_Stream_lined_1996_wagon;
+    1998..2001: sw_Generatar_Real_Stream_lined_1998_wagon;
+    2002..2005: sw_Generatar_Real_Stream_lined_2002_wagon;
+    2006: sw_Generatar_Real_Stream_lined_2006_wagon;
+    2007: sw_Generatar_Real_Stream_lined_2007_wagon;
+    2008: sw_Generatar_Real_Stream_lined_2008_wagon;
+    2009..2012: sw_Generatar_Real_Stream_lined_2009_wagon;
+    2013..2014: sw_Generatar_Real_Stream_lined_2013_wagon;
+    2015..2017: sw_Generatar_Real_Stream_lined_2015_wagon;
+    2018..2019: sw_Generatar_Real_Stream_lined_2018_wagon;
+    2020..2021: sw_Generatar_Real_Stream_lined_2020_wagon;
+    2022: sw_Generatar_Real_Stream_lined_2022_wagon;
+    sw_Generatar_Real_Stream_lined_2023_wagon;
+    }

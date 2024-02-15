@@ -728,17 +728,6 @@ spriteset(set_KTX_Sancheon_B2_engine_PCMD, "src/locomotive/KTX_Sancheon/KTX_Sanc
 }
 
 /*--------------------------------------------------------------------
-KTX-산천 삭제 이미지.
---------------------------------------------------------------------*/
-spriteset(set_KTX_SC_Delete_A, "Deleted_Train_Image.png"){
-    wagon_1F_F(80, 0)
-}
-
-spriteset(set_KTX_SC_Delete_B, "Deleted_Train_Image.png"){
-    wagon_1F_F(80, 27)
-}
-
-/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 // 구매차량 그래픽

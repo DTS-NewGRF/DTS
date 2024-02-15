@@ -1,0 +1,245 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_1990_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_1991_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+    1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_1996_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+    1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+    2: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS);
+    3: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_1998_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+    1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+    2: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS);
+    3: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM);
+    4: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2002_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+    1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+    2: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS);
+    3: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM);
+    4: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS);
+    5: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2006_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+    1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+    2: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS);
+    3: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM);
+    4: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS);
+    5: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS);
+    6: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS);
+    7: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM);
+    8: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2007_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+    1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+    2: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS);
+    3: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM);
+    4: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS);
+    5: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS);
+    6: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS);
+    7: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM);
+    8: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS);
+    9: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2008_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+     1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+     2: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS);
+     3: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM);
+     4: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS);
+     5: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS);
+     6: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS);
+     7: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM);
+     8: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS);
+     9: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS);
+    10: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_HR);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2009_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+     1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+     2: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS);
+     3: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM);
+     4: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS);
+     5: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS);
+     6: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS);
+     7: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM);
+     8: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS);
+     9: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS);
+    10: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_HR);
+    11: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_MR);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2013_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+     1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+     2: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS);
+     3: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM);
+     4: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS);
+     5: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS);
+     6: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS);
+     7: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM);
+     8: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS);
+     9: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS);
+    10: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_HR);
+    11: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_MR);
+    12: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SB);
+    13: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SP);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2015_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+     1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+     2: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS);
+     3: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM);
+     4: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS);
+     5: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS);
+     6: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS);
+     7: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM);
+     8: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS);
+     9: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS);
+    10: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_HR);
+    11: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_MR);
+    12: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SB);
+    13: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SP);
+    14: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_JA);
+    15: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WG);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2018_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+     1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+     2: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS);
+     3: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM);
+     4: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS);
+     5: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS);
+     6: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS);
+     7: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM);
+     8: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS);
+     9: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS);
+    10: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_HR);
+    11: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_MR);
+    12: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SB);
+    13: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SP);
+    14: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_JA);
+    15: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WG);
+    16: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WN);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2020_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+     1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+     2: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS);
+     3: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM);
+     4: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS);
+     5: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS);
+     6: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS);
+     7: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM);
+     8: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS);
+     9: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS);
+    10: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_HR);
+    11: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_MR);
+    12: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SB);
+    13: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SP);
+    14: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_JA);
+    15: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WG);
+    16: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WN);
+    17: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NS);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2022_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+     1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+     2: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS);
+     3: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM);
+     4: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS);
+     5: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS);
+     6: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS);
+     7: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM);
+     8: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS);
+     9: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS);
+    10: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_HR);
+    11: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_MR);
+    12: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SB);
+    13: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SP);
+    14: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_JA);
+    15: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WG);
+    16: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WN);
+    17: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NS);
+    18: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NA);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2023_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS);
+     1: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS);
+     2: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS);
+     3: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLM);
+     4: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OSS);
+     5: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OJS);
+     6: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLS);
+     7: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NLM);
+     8: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NSS);
+     9: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NJS);
+    10: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_HR);
+    11: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_MR);
+    12: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SB);
+    13: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SP);
+    14: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_JA);
+    15: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WG);
+    16: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WN);
+    17: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NS);
+    18: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NA);
+    19: return string(STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NG);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_cargo_subtype_text, current_year) {
+    0..1990: sw_Generatar_Real_Stream_lined_1990_cargo_subtype_text;
+    1991..1995: sw_Generatar_Real_Stream_lined_1991_cargo_subtype_text;
+    1996..1997: sw_Generatar_Real_Stream_lined_1996_cargo_subtype_text;
+    1998..2001: sw_Generatar_Real_Stream_lined_1998_cargo_subtype_text;
+    2002..2005: sw_Generatar_Real_Stream_lined_2002_cargo_subtype_text;
+    2006: sw_Generatar_Real_Stream_lined_2006_cargo_subtype_text;
+    2007: sw_Generatar_Real_Stream_lined_2007_cargo_subtype_text;
+    2008: sw_Generatar_Real_Stream_lined_2008_cargo_subtype_text;
+    2009..2012: sw_Generatar_Real_Stream_lined_2009_cargo_subtype_text;
+    2013..2014: sw_Generatar_Real_Stream_lined_2013_cargo_subtype_text;
+    2015..2017: sw_Generatar_Real_Stream_lined_2015_cargo_subtype_text;
+    2018..2019: sw_Generatar_Real_Stream_lined_2018_cargo_subtype_text;
+    2020..2021: sw_Generatar_Real_Stream_lined_2020_cargo_subtype_text;
+    2022: sw_Generatar_Real_Stream_lined_2022_cargo_subtype_text;
+    sw_Generatar_Real_Stream_lined_2023_cargo_subtype_text;
+    }

@@ -152,14 +152,3 @@ spriteset(set_Korail_2nd_purchase, "src/metro/Korail/Korail_2nd/Korail_2nd_311K_
 switch(FEAT_TRAINS, SELF, sw_Korail_2nd_purchase, cargo_subtype) {
     set_Korail_2nd_purchase;
 }
-
-/*--------------------------------------------------------------------
-[2024.2] 삭제예정.
---------------------------------------------------------------------*/
-spriteset(set_Korail_2nd_VVVF_Delete_A, "Deleted_Train_Image.png"){
-    wagon_1F_F(80, 0)
-}
-
-spriteset(set_Korail_2nd_VVVF_Delete_B, "Deleted_Train_Image.png"){
-    wagon_1F_F(80, 27)
-}

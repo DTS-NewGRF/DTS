@@ -1,0 +1,112 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//객차
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_1969_wagon, cargo_subtype) {
+    1: set_Saemaeul_Real_Normal_Special_KN2;
+    2: set_Saemaeul_Real_Normal_Special_KF;
+    set_Saemaeul_Real_Normal_Special_KN1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_1979_wagon, cargo_subtype) {
+    1: set_Saemaeul_Real_Normal_Special_KN2;
+    2: set_Saemaeul_Real_Normal_Special_KF;
+    3: set_Saemaeul_Real_Normal_Special_KSI;
+    set_Saemaeul_Real_Normal_Special_KN1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_1986_wagon, cargo_subtype) {
+    1: set_Saemaeul_Real_Normal_Special_KN2;
+    2: set_Saemaeul_Real_Normal_Special_KF;
+    3: set_Saemaeul_Real_Normal_Special_KSI;
+    4: set_Saemaeul_Real_Normal_Special_SLA1;
+    5: set_Saemaeul_Real_Normal_Special_SLB1;
+    6: set_Saemaeul_Real_Normal_Special_SLF1;
+    set_Saemaeul_Real_Normal_Special_KN1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_1990_wagon, cargo_subtype) {
+    1: set_Saemaeul_Real_Normal_Special_KN2;
+    2: set_Saemaeul_Real_Normal_Special_KF;
+    3: set_Saemaeul_Real_Normal_Special_KSI;
+    4: set_Saemaeul_Real_Normal_Special_SLA1;
+    5: set_Saemaeul_Real_Normal_Special_SLB1;
+    6: set_Saemaeul_Real_Normal_Special_SLF1;
+    7: set_Saemaeul_Real_Normal_Special_SLB2;
+    8: set_Saemaeul_Real_Normal_Special_SLC;
+    9: set_Saemaeul_Real_Normal_Special_SLF2;
+    set_Saemaeul_Real_Normal_Special_KN1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_1995_wagon, cargo_subtype) {
+     1: set_Saemaeul_Real_Normal_Special_KN2;
+     2: set_Saemaeul_Real_Normal_Special_KF;
+     3: set_Saemaeul_Real_Normal_Special_KSI;
+     4: set_Saemaeul_Real_Normal_Special_SLA1;
+     5: set_Saemaeul_Real_Normal_Special_SLB1;
+     6: set_Saemaeul_Real_Normal_Special_SLF1;
+     7: set_Saemaeul_Real_Normal_Special_SLB2;
+     8: set_Saemaeul_Real_Normal_Special_SLC;
+     9: set_Saemaeul_Real_Normal_Special_SLF2;
+    10: set_Saemaeul_Real_Normal_Special_OSLA;
+    11: set_Saemaeul_Real_Normal_Special_OSLB;
+    12: set_Saemaeul_Real_Normal_Special_OSLC;
+    13: set_Saemaeul_Real_Normal_Special_FDSL;
+    14: set_Saemaeul_Real_Normal_Special_OSLF;
+    set_Saemaeul_Real_Normal_Special_KN1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_2006_wagon, cargo_subtype) {
+     1: set_Saemaeul_Real_Normal_Special_KN2;
+     2: set_Saemaeul_Real_Normal_Special_KF;
+     3: set_Saemaeul_Real_Normal_Special_KSI;
+     4: set_Saemaeul_Real_Normal_Special_SLA1;
+     5: set_Saemaeul_Real_Normal_Special_SLB1;
+     6: set_Saemaeul_Real_Normal_Special_SLF1;
+     7: set_Saemaeul_Real_Normal_Special_SLB2;
+     8: set_Saemaeul_Real_Normal_Special_SLC;
+     9: set_Saemaeul_Real_Normal_Special_SLF2;
+    10: set_Saemaeul_Real_Normal_Special_OSLA;
+    11: set_Saemaeul_Real_Normal_Special_OSLB;
+    12: set_Saemaeul_Real_Normal_Special_OSLC;
+    13: set_Saemaeul_Real_Normal_Special_FDSL;
+    14: set_Saemaeul_Real_Normal_Special_OSLF;
+    15: set_Saemaeul_Real_Normal_Special_NSLB;
+    16: set_Saemaeul_Real_Normal_Special_NSLC;
+    17: set_Saemaeul_Real_Normal_Special_NSLF;
+    set_Saemaeul_Real_Normal_Special_KN1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_2018_wagon, cargo_subtype) {
+     1: set_Saemaeul_Real_Normal_Special_KN2;
+     2: set_Saemaeul_Real_Normal_Special_KF;
+     3: set_Saemaeul_Real_Normal_Special_KSI;
+     4: set_Saemaeul_Real_Normal_Special_SLA1;
+     5: set_Saemaeul_Real_Normal_Special_SLB1;
+     6: set_Saemaeul_Real_Normal_Special_SLF1;
+     7: set_Saemaeul_Real_Normal_Special_SLB2;
+     8: set_Saemaeul_Real_Normal_Special_SLC;
+     9: set_Saemaeul_Real_Normal_Special_SLF2;
+    10: set_Saemaeul_Real_Normal_Special_OSLA;
+    11: set_Saemaeul_Real_Normal_Special_OSLB;
+    12: set_Saemaeul_Real_Normal_Special_OSLC;
+    13: set_Saemaeul_Real_Normal_Special_FDSL;
+    14: set_Saemaeul_Real_Normal_Special_OSLF;
+    15: set_Saemaeul_Real_Normal_Special_NSLB;
+    16: set_Saemaeul_Real_Normal_Special_NSLC;
+    17: set_Saemaeul_Real_Normal_Special_NSLF;
+    18: set_Saemaeul_Real_Normal_Special_LN1;
+    19: set_Saemaeul_Real_Normal_Special_LN2;
+    set_Saemaeul_Real_Normal_Special_KN1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_wagon, current_year) {
+    0..1978: sw_Saemaeul_Real_Normal_Special_1969_wagon;
+    1979..1985: sw_Saemaeul_Real_Normal_Special_1979_wagon;
+    1986..1989: sw_Saemaeul_Real_Normal_Special_1986_wagon;
+    1990..1994: sw_Saemaeul_Real_Normal_Special_1990_wagon;
+    1995..2005: sw_Saemaeul_Real_Normal_Special_1995_wagon;
+    2006..2017: sw_Saemaeul_Real_Normal_Special_2006_wagon;
+    sw_Saemaeul_Real_Normal_Special_2018_wagon;
+    }
+    

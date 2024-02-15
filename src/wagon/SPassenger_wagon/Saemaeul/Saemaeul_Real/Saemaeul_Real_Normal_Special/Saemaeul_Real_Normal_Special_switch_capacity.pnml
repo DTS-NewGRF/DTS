@@ -2,17 +2,17 @@
 스위치
 --------------------------------------------------------------------*/
 //수송량
-switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_1969_capacity_in_custom, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_1969_capacity_in_custom, cargo_subtype) {
     2: return 48;
     56;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_1979_capacity_in_custom, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_1979_capacity_in_custom, cargo_subtype) {
     2: return 48;
     56;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_1986_capacity_in_custom, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_1986_capacity_in_custom, cargo_subtype) {
     2: return 48;
     4: return 68;
     5: return 64;
@@ -20,7 +20,7 @@ switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_1986_capacity_in_custom, cargo_subtyp
     56;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_1990_capacity_in_custom, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_1990_capacity_in_custom, cargo_subtype) {
     2: return 48;
     4: return 68;
     5: return 64;
@@ -31,7 +31,7 @@ switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_1990_capacity_in_custom, cargo_subtyp
     56;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_1995_capacity_in_custom, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_1995_capacity_in_custom, cargo_subtype) {
      2: return 48;
      4: return 68;
      5: return 64;
@@ -47,7 +47,7 @@ switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_1995_capacity_in_custom, cargo_subtyp
     56;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_2006_capacity_in_custom, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_2006_capacity_in_custom, cargo_subtype) {
      2: return 48;
      4: return 68;
      5: return 64;
@@ -66,7 +66,7 @@ switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_2006_capacity_in_custom, cargo_subtyp
     56;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_2018_capacity_in_custom, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_2018_capacity_in_custom, cargo_subtype) {
      2: return 48;
      4: return 68;
      5: return 64;
@@ -87,12 +87,12 @@ switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_2018_capacity_in_custom, cargo_subtyp
     56;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_capacity_in_custom, current_year) {
-    0..1978: sw_Saemaeul_Real_1969_capacity_in_custom;
-    1979..1985: sw_Saemaeul_Real_1979_capacity_in_custom;
-    1986..1989: sw_Saemaeul_Real_1986_capacity_in_custom;
-    1990..1994: sw_Saemaeul_Real_1990_capacity_in_custom;
-    1995..2005: sw_Saemaeul_Real_1995_capacity_in_custom;
-    2006..2017: sw_Saemaeul_Real_2006_capacity_in_custom;
-    sw_Saemaeul_Real_2018_capacity_in_custom;
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_capacity_in_custom, current_year) {
+    0..1978: sw_Saemaeul_Real_Normal_Special_1969_capacity_in_custom;
+    1979..1985: sw_Saemaeul_Real_Normal_Special_1979_capacity_in_custom;
+    1986..1989: sw_Saemaeul_Real_Normal_Special_1986_capacity_in_custom;
+    1990..1994: sw_Saemaeul_Real_Normal_Special_1990_capacity_in_custom;
+    1995..2005: sw_Saemaeul_Real_Normal_Special_1995_capacity_in_custom;
+    2006..2017: sw_Saemaeul_Real_Normal_Special_2006_capacity_in_custom;
+    sw_Saemaeul_Real_Normal_Special_2018_capacity_in_custom;
     }

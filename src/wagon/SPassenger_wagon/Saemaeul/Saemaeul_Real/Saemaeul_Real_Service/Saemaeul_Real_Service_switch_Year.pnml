@@ -1,0 +1,71 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_1969_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF1);
+    1: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SP1);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_1986_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF1);
+    1: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SP1);
+    2: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF2);
+    3: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SP2);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_1990_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF1);
+    1: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SP1);
+    2: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF2);
+    3: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SP2);
+    4: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF3);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_1995_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF1);
+    1: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SP1);
+    2: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF2);
+    3: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SP2);
+    4: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF3);
+    5: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_OSF);
+    6: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_OSP);   
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_2006_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF1);
+    1: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SP1);
+    2: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF2);
+    3: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SP2);
+    4: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF3);
+    5: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_OSF);
+    6: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_OSP);
+    7: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_NSF);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_2007_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF1);
+    1: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SP1);
+    2: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF2);
+    3: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SP2);
+    4: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_SF3);
+    5: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_OSF);
+    6: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_OSP);
+    7: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_NSF);
+    8: return string(STR_REFIT_LIVERY_Saemaeul_Real_Service_NSC);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Service_cargo_subtype_text, current_year) {
+    0..1985: sw_Saemaeul_Real_Service_1969_cargo_subtype_text;
+    1986..1989: sw_Saemaeul_Real_Service_1986_cargo_subtype_text;
+    1990..1994: sw_Saemaeul_Real_Service_1990_cargo_subtype_text;
+    1995..2005: sw_Saemaeul_Real_Service_1995_cargo_subtype_text;
+    2006: sw_Saemaeul_Real_Service_2006_cargo_subtype_text;
+    sw_Saemaeul_Real_Service_2007_cargo_subtype_text;
+    }

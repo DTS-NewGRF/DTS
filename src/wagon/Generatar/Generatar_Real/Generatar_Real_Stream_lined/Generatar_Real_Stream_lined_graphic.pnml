@@ -1,0 +1,126 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Generatar_Real_Stream_lined_LS, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 0)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_SS, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 27)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_OLS, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 54)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_OLM, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 81)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_OSS, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 108)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_OJS, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 135)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_NLS, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 162)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_NLM, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 189)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_NSS, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 216)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_NJS, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 243)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_HR, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 270)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_MR, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 297)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_SB, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 324)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_SP, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 351)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_JA, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 378)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_WG, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 405)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_WN, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 432)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_NS, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 459)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_NA, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 486)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_NG, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
+    wagon_1F_F_mini_7(80, 513)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Generatar_Real_Stream_lined_1990_purchase, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_1991_purchase, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png"){
+    tmpl_wagon_purchase(0, 27)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_1996_purchase, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png"){
+    tmpl_wagon_purchase(0, 54)
+}
+
+spriteset(set_Generatar_Real_Stream_lined_2006_purchase, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png"){
+    tmpl_wagon_purchase(0, 162)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_1990_purchase, cargo_subtype) {
+    set_Generatar_Real_Stream_lined_1990_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_1991_purchase, cargo_subtype) {
+    set_Generatar_Real_Stream_lined_1991_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_1996_purchase, cargo_subtype) {
+    set_Generatar_Real_Stream_lined_1996_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_2006_purchase, cargo_subtype) {
+    set_Generatar_Real_Stream_lined_2006_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_purchase, current_year) {
+    0..1990: sw_Generatar_Real_Stream_lined_1990_purchase;
+    1991..1995: sw_Generatar_Real_Stream_lined_1991_purchase;
+    1996..2005: sw_Generatar_Real_Stream_lined_1996_purchase;
+    sw_Generatar_Real_Stream_lined_2006_purchase;
+    }

@@ -32,7 +32,7 @@ switch(FEAT_TRAINS, SELF, sw_Rheostatic_S2000_4Car_engineT, cargo_subtype) {
 
 // 4량 뒤집힘
 switch(FEAT_TRAINS, SELF, sw_Rheostatic_S2000_4Car_engineH_r, cargo_subtype) {
-    1: set_Rheostatic_S2000_Rheostatic_engineH_A;
+    1: set_Rheostatic_S2000_Rheostatic_engineH_A_r;
     set_Rheostatic_S2000_NoRheostatic_engineH_r;
 }
 
@@ -42,7 +42,7 @@ switch(FEAT_TRAINS, SELF, sw_Rheostatic_S2000_4Car_panto_wagon_r, cargo_subtype)
 }
 
 switch(FEAT_TRAINS, SELF, sw_Rheostatic_S2000_4Car_engineT_r, cargo_subtype) {
-    1: set_Rheostatic_S2000_Rheostatic_engineT_A;
+    1: set_Rheostatic_S2000_Rheostatic_engineT_A_r;
     set_Rheostatic_S2000_NoRheostatic_engineT_r;
 }
 
@@ -84,9 +84,9 @@ switch(FEAT_TRAINS, SELF, sw_Rheostatic_S2000_6Car_engineT, cargo_subtype) {
 
 // 6량 뒤집힘
 switch(FEAT_TRAINS, SELF, sw_Rheostatic_S2000_6Car_engineH_r, cargo_subtype) {
-    1: set_Rheostatic_S2000_Rheostatic_engineH_A;
-    2: set_Rheostatic_S2000_Rheostatic_engineH_B;
-    3: set_Rheostatic_S2000_Rheostatic_engineH_A;
+    1: set_Rheostatic_S2000_Rheostatic_engineH_A_r;
+    2: set_Rheostatic_S2000_Rheostatic_engineH_B_r;
+    3: set_Rheostatic_S2000_Rheostatic_engineH_A_r;
     set_Rheostatic_S2000_NoRheostatic_engineH_r;
 }
 
@@ -112,9 +112,9 @@ switch(FEAT_TRAINS, SELF, sw_Rheostatic_S2000_6Car_4wagon_r, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Rheostatic_S2000_6Car_engineT_r, cargo_subtype) {
-    1: set_Rheostatic_S2000_Rheostatic_engineT_A;
-    2: set_Rheostatic_S2000_Rheostatic_engineT_B;
-    3: set_Rheostatic_S2000_Rheostatic_engineT_A;
+    1: set_Rheostatic_S2000_Rheostatic_engineT_A_r;
+    2: set_Rheostatic_S2000_Rheostatic_engineT_B_r;
+    3: set_Rheostatic_S2000_Rheostatic_engineT_A_r;
     set_Rheostatic_S2000_NoRheostatic_engineT_r;
 }
 
