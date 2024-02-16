@@ -1,0 +1,128 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//객차
+switch(FEAT_TRAINS, SELF, sw_Luggage_Real_1999_wagon, cargo_subtype) {
+    1: set_Luggage_Real_VB;
+    2: set_Luggage_Real_LOM;
+    set_Luggage_Real_VA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Luggage_Real_2005_wagon, cargo_subtype) {
+    1: set_Luggage_Real_VB;
+    2: set_Luggage_Real_LOM;
+    3: set_Luggage_Real_LNM;
+    set_Luggage_Real_VA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Luggage_Real_2007_wagon, cargo_subtype) {
+    1: set_Luggage_Real_VB;
+    2: set_Luggage_Real_LOM;
+    3: set_Luggage_Real_LNM;
+    4: set_Luggage_Real_MTB;
+    set_Luggage_Real_VA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Luggage_Real_2009_wagon, cargo_subtype) {
+    1: set_Luggage_Real_VB;
+    2: set_Luggage_Real_LOM;
+    3: set_Luggage_Real_LNM;
+    4: set_Luggage_Real_MTB;
+    5: set_Luggage_Real_A;
+    6: set_Luggage_Real_B;
+    7: set_Luggage_Real_C;
+    8: set_Luggage_Real_D;
+    set_Luggage_Real_VA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Luggage_Real_2012_wagon, cargo_subtype) {
+     1: set_Luggage_Real_VB;
+     2: set_Luggage_Real_LOM;
+     3: set_Luggage_Real_LNM;
+     4: set_Luggage_Real_MTB;
+     5: set_Luggage_Real_A;
+     6: set_Luggage_Real_B;
+     7: set_Luggage_Real_C;
+     8: set_Luggage_Real_D;
+     9: set_Luggage_Real_OEA;
+    10: set_Luggage_Real_OEB;
+    11: set_Luggage_Real_OEC;
+    12: set_Luggage_Real_OED;
+    set_Luggage_Real_VA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Luggage_Real_2014_wagon, cargo_subtype) {
+     1: set_Luggage_Real_VB;
+     2: set_Luggage_Real_LOM;
+     3: set_Luggage_Real_LNM;
+     4: set_Luggage_Real_MTB;
+     5: set_Luggage_Real_A;
+     6: set_Luggage_Real_B;
+     7: set_Luggage_Real_C;
+     8: set_Luggage_Real_D;
+     9: set_Luggage_Real_OEA;
+    10: set_Luggage_Real_OEB;
+    11: set_Luggage_Real_OEC;
+    12: set_Luggage_Real_OED;
+    13: set_Luggage_Real_OR;
+    14: set_Luggage_Real_YL;
+    15: set_Luggage_Real_PK;
+    16: set_Luggage_Real_GN;
+    set_Luggage_Real_VA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Luggage_Real_2018_wagon, cargo_subtype) {
+     1: set_Luggage_Real_VB;
+     2: set_Luggage_Real_LOM;
+     3: set_Luggage_Real_LNM;
+     4: set_Luggage_Real_MTB;
+     5: set_Luggage_Real_A;
+     6: set_Luggage_Real_B;
+     7: set_Luggage_Real_C;
+     8: set_Luggage_Real_D;
+     9: set_Luggage_Real_OEA;
+    10: set_Luggage_Real_OEB;
+    11: set_Luggage_Real_OEC;
+    12: set_Luggage_Real_OED;
+    13: set_Luggage_Real_OR;
+    14: set_Luggage_Real_YL;
+    15: set_Luggage_Real_PK;
+    16: set_Luggage_Real_GN;
+    17: set_Luggage_Real_MP;
+    set_Luggage_Real_VA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Luggage_Real_2022_wagon, cargo_subtype) {
+     1: set_Luggage_Real_VB;
+     2: set_Luggage_Real_LOM;
+     3: set_Luggage_Real_LNM;
+     4: set_Luggage_Real_MTB;
+     5: set_Luggage_Real_A;
+     6: set_Luggage_Real_B;
+     7: set_Luggage_Real_C;
+     8: set_Luggage_Real_D;
+     9: set_Luggage_Real_OEA;
+    10: set_Luggage_Real_OEB;
+    11: set_Luggage_Real_OEC;
+    12: set_Luggage_Real_OED;
+    13: set_Luggage_Real_OR;
+    14: set_Luggage_Real_YL;
+    15: set_Luggage_Real_PK;
+    16: set_Luggage_Real_GN;
+    17: set_Luggage_Real_MP;
+    18: set_Luggage_Real_EA;
+    19: set_Luggage_Real_EB;
+    20: set_Luggage_Real_WN;
+    set_Luggage_Real_VA;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Luggage_Real_wagon, current_year) {
+    0..2004: sw_Luggage_Real_1999_wagon;
+    2005..2006: sw_Luggage_Real_2005_wagon;
+    2007..2008: sw_Luggage_Real_2007_wagon;
+    2009..2011: sw_Luggage_Real_2009_wagon;
+    2012..2013: sw_Luggage_Real_2012_wagon;
+    2014..2017: sw_Luggage_Real_2014_wagon;
+    2018..2021: sw_Luggage_Real_2018_wagon;
+    sw_Luggage_Real_2022_wagon;
+    }

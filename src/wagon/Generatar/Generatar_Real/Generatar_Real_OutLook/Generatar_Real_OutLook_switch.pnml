@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+#include "Generatar_Real_OutLook_switch_Year.pnml"
+
+//열차
+#include "Generatar_Real_OutLook_switch_wagon.pnml"
+
+//길이
+#include "Generatar_Real_OutLook_switch_length.pnml"
+
+//속도
+#include "Generatar_Real_OutLook_switch_speed.pnml"

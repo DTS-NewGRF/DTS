@@ -2,19 +2,19 @@
 YFX
 --------------------------------------------------------------------*/
 // Graphics
-#include "Luggage_Car_graphic.pnml"
+#include "Luggage_Real_graphic.pnml"
 
 // Switch
-#include "Luggage_Car_switch.pnml"
+#include "Luggage_Real_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Luggage_Car, 2004){
+item(FEAT_TRAINS, Luggage_Real, 2004){
     property {
-        name:                           string(STR_Luggage_Car_NAME);
+        name:                           string(STR_Luggage_Real_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2010, 1, 1);
+        introduction_date:              date(1999, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
@@ -45,12 +45,12 @@ item(FEAT_TRAINS, Luggage_Car, 2004){
         }
 
 	graphics {
-        default:                        sw_Luggage_wagon;
-        purchase:                       sw_Luggage_Car_purchase;
+        default:                        sw_Luggage_Real_wagon;
+        purchase:                       sw_Luggage_Real_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_Luggage_wagon_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Luggage);
+        cargo_subtype_text:             sw_Luggage_Real_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_Luggage_Real);
         }
         }

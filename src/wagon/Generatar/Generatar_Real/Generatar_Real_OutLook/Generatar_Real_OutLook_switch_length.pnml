@@ -1,0 +1,62 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 길이
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1969_length_in_custom, cargo_subtype) {
+    6;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1983_length_in_custom, cargo_subtype) {
+    2: return 7;
+       6;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1984_length_in_custom, cargo_subtype) {
+    2: return 7;
+    3: return 7;
+       6;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1994_length_in_custom, cargo_subtype) {
+    2: return 7;
+    3: return 7;
+    6: return 7;
+       6;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1996_length_in_custom, cargo_subtype) {
+     2: return 7;
+     3: return 7;
+     6: return 7;
+    10: return 7;
+       6;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1997_length_in_custom, cargo_subtype) {
+     2: return 7;
+     3: return 7;
+     6: return 7;
+    10: return 7;
+    14: return 7;
+       6;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_2005_length_in_custom, cargo_subtype) {
+     2: return 7;
+     3: return 7;
+     6: return 7;
+    10: return 7;
+    14: return 7;
+    18: return 7;
+       6;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_length_in_custom, current_year) {
+    0..1982: sw_Generatar_Real_OutLook_1969_length_in_custom;
+    1983: sw_Generatar_Real_OutLook_1983_length_in_custom;
+    1984..1993: sw_Generatar_Real_OutLook_1984_length_in_custom;
+    1994..1995: sw_Generatar_Real_OutLook_1994_length_in_custom;
+    1996: sw_Generatar_Real_OutLook_1996_length_in_custom;
+    1996..2004: sw_Generatar_Real_OutLook_1997_length_in_custom;
+    sw_Generatar_Real_OutLook_2005_length_in_custom;
+    }

@@ -1,0 +1,112 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Luggage_Real_VA, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Luggage_Real_VB, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Luggage_Real_LOM, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Luggage_Real_LNM, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Luggage_Real_MTB, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Luggage_Real_A, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Luggage_Real_B, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Luggage_Real_C, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_Luggage_Real_D, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 216)
+}
+
+spriteset(set_Luggage_Real_OEA, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 243)
+}
+
+spriteset(set_Luggage_Real_OEB, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 270)
+}
+
+spriteset(set_Luggage_Real_OEC, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 297)
+}
+
+spriteset(set_Luggage_Real_OED, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 324)
+}
+
+spriteset(set_Luggage_Real_OR, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 351)
+}
+
+spriteset(set_Luggage_Real_YL, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 378)
+}
+
+spriteset(set_Luggage_Real_PK, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 405)
+}
+
+spriteset(set_Luggage_Real_GN, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 432)
+}
+
+spriteset(set_Luggage_Real_MP, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 459)
+}
+
+spriteset(set_Luggage_Real_EA, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 486)
+}
+
+spriteset(set_Luggage_Real_EB, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 513)
+}
+
+spriteset(set_Luggage_Real_WN, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 540)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Luggage_Real_1999_purchase, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_Luggage_Real_2005_purchase, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png"){
+    tmpl_wagon_purchase(0, 81)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Luggage_Real_1999_purchase, cargo_subtype) {
+    set_Luggage_Real_1999_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Luggage_Real_2005_purchase, cargo_subtype) {
+    set_Luggage_Real_2005_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Luggage_Real_purchase, current_year) {
+    0..2004: sw_Luggage_Real_1999_purchase;
+    sw_Luggage_Real_2005_purchase;
+    }

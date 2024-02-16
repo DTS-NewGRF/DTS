@@ -1,4 +1,5 @@
 /*--------------------------------------------------------------------
 발전차 객차 리스트
 --------------------------------------------------------------------*/
+#include "Generatar_Real_OutLook/Generatar_Real_OutLook.pnml"
 #include "Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.pnml"

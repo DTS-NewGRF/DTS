@@ -1,0 +1,170 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1969_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S1);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1979_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S1);
+    1: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S2);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1983_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S1);
+    1: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S2);
+    2: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_L1);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1984_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S1);
+    1: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S2);
+    2: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_L1);
+    3: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1986_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S1);
+    1: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S2);
+    2: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_L1);
+    3: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1);
+    4: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_T1);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1994_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S1);
+    1: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S2);
+    2: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_L1);
+    3: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1);
+    4: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_T1);
+    5: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TB);
+    6: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB);
+    7: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TOM);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1996_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S1);
+     1: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S2);
+     2: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_L1);
+     3: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1);
+     4: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_T1);
+     5: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TB);
+     6: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB);
+     7: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TOM);
+     8: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_SOM);
+     9: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RSOM);
+    10: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LOM);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1997_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S1);
+     1: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S2);
+     2: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_L1);
+     3: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1);
+     4: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_T1);
+     5: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TB);
+     6: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB);
+     7: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TOM);
+     8: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_SOM);
+     9: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RSOM);
+    10: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LOM);
+    11: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_STG);
+    12: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RSTG);
+    13: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TG);
+    14: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LTG);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_2005_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S1);
+     1: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S2);
+     2: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_L1);
+     3: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1);
+     4: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_T1);
+     5: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TB);
+     6: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB);
+     7: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TOM);
+     8: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_SOM);
+     9: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RSOM);
+    10: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LOM);
+    11: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_STG);
+    12: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RSTG);
+    13: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TG);
+    14: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LTG);
+    15: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_SNM);
+    16: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RSNM);
+    17: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TNM);
+    18: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LNM);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_2006_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S1);
+     1: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S2);
+     2: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_L1);
+     3: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1);
+     4: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_T1);
+     5: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TB);
+     6: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB);
+     7: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TOM);
+     8: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_SOM);
+     9: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RSOM);
+    10: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LOM);
+    11: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_STG);
+    12: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RSTG);
+    13: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TG);
+    14: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LTG);
+    15: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_SNM);
+    16: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RSNM);
+    17: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TNM);
+    18: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LNM);
+    19: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RB);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_2010_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S1);
+     1: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_S2);
+     2: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_L1);
+     3: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1);
+     4: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_T1);
+     5: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TB);
+     6: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB);
+     7: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TOM);
+     8: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_SOM);
+     9: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RSOM);
+    10: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LOM);
+    11: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_STG);
+    12: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RSTG);
+    13: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TG);
+    14: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LTG);
+    15: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_SNM);
+    16: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RSNM);
+    17: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_TNM);
+    18: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_LNM);
+    19: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_RB);
+    20: return string(STR_REFIT_LIVERY_Generatar_Real_OutLook_MC);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_cargo_subtype_text, current_year) {
+    0..1978: sw_Generatar_Real_OutLook_1969_cargo_subtype_text;
+    1979..1982: sw_Generatar_Real_OutLook_1979_cargo_subtype_text;
+    1983: sw_Generatar_Real_OutLook_1983_cargo_subtype_text;
+    1984..1985: sw_Generatar_Real_OutLook_1984_cargo_subtype_text;
+    1986..1993: sw_Generatar_Real_OutLook_1986_cargo_subtype_text;
+    1994..1995: sw_Generatar_Real_OutLook_1994_cargo_subtype_text;
+    1996: sw_Generatar_Real_OutLook_1996_cargo_subtype_text;
+    1996..2004: sw_Generatar_Real_OutLook_1997_cargo_subtype_text;
+    2005: sw_Generatar_Real_OutLook_2005_cargo_subtype_text;
+    2006..2009: sw_Generatar_Real_OutLook_2006_cargo_subtype_text;
+    sw_Generatar_Real_OutLook_2010_cargo_subtype_text;
+    }

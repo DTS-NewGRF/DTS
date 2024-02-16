@@ -231,9 +231,9 @@ STR_Busanmetro_3000_4Car_NAME                          :[DTS/4량] 부산교통�
 STR_Group_Daegumetro_NAME                              :[DTS] 대구교통공사 전동차
 STR_Daegumetro_1000_6Car_NAME                          :[DTS/6량] 대구교통공사 1000호대 전동차
 STR_Daegumetro_2000_6Car_NAME                          :[DTS/6량] 대구교통공사 2000호대 전동차
-STR_Group_Incheonmetro_NAME                            :[New][DTS] 인천교통공사 전동차
-STR_Incheonmetro_1st_8Car_NAME                         :{GREEN}[New]{BLACK}[DTS/8량] 인천교통공사 1세대 전동차
-STR_Incheonmetro_2nd_8Car_NAME                         :{GREEN}[New]{BLACK}[DTS/8량] 인천교통공사 2세대 전동차
+STR_Group_Incheonmetro_NAME                            :[DTS] 인천교통공사 전동차
+STR_Incheonmetro_1st_8Car_NAME                         :[DTS/8량] 인천교통공사 1세대 전동차
+STR_Incheonmetro_2nd_8Car_NAME                         :[DTS/8량] 인천교통공사 2세대 전동차
 STR_Group_Korail_NAME                                  :[DTS] 한국철도공사 통근형 전동차
 STR_Group_Korail_1st_NAME                              :[DTS] 한국철도공사 1세대 전동차
 STR_Korail_1st_4Car_NAME                               :[DTS/4량] 한국철도공사 1세대
@@ -391,21 +391,22 @@ STR_S_Train_5Car_NAME                                  :[DTS/5량] S-Train 신�
 STR_A_Train_New_NAME                                   :[DTS/4량] A-Train 신도색
 STR_G_Train_New_NAME                                   :[DTS/5량] G-Train 신도색
 STR_Mugunhwa_2cc_NAME                                  :[DTS/객차] 한국 무궁화호 2cc 객차 차량
-STR_Mugunhwa_Real_Normal_NAME                          :{GREEN}[New]{BLACK}[DTS/객차] 한국 무궁화호 일반실 객차 차량
-STR_Mugunhwa_Real_Service_NAME                         :{GREEN}[New]{BLACK}[DTS/객차] 한국 무궁화호 서비스/침대 객차 차량
-STR_Mugunhwa_Real_Special_NAME                         :{GREEN}[New]{BLACK}[DTS/객차] 한국 무궁화호 특실 객차 차량
+STR_Mugunhwa_Real_Normal_NAME                          :[DTS/객차] 한국 무궁화호 일반실 객차 차량
+STR_Mugunhwa_Real_Service_NAME                         :[DTS/객차] 한국 무궁화호 서비스/침대 객차 차량
+STR_Mugunhwa_Real_Special_NAME                         :[DTS/객차] 한국 무궁화호 특실 객차 차량
 STR_Saemaeul_2cc_NAME                                  :[DTS/객차] 한국 새마을호 2cc 객차 차량
-STR_Saemaeul_Real_Normal_Special_NAME                  :{GREEN}[New]{BLACK}[DTS/객차] 한국 새마을호 일반실 & 특실 객차 차량
-STR_Saemaeul_Real_Service_NAME                         :{GREEN}[New]{BLACK}[DTS/객차] 한국 새마을호 서비스 객차 차량
+STR_Saemaeul_Real_Normal_Special_NAME                  :[DTS/객차] 한국 새마을호 일반실 & 특실 객차 차량
+STR_Saemaeul_Real_Service_NAME                         :[DTS/객차] 한국 새마을호 서비스 객차 차량
 STR_Group_PEX_NAME                                     :[DTS] PEX (Premium EXpress)
 STR_PEX_N_NAME                                         :[DTS] PEX 1층 차량
 STR_PEX_SN_NAME                                        :[DTS] PEX 특실 차량
 STR_PEX_D_NAME                                         :[DTS] PEX 2층 차량
 STR_PEX_B_NAME                                         :[DTS] PEX 식당칸
 STR_PEX_S_NAME                                         :[DTS] PEX 침대칸
-STR_Generatar_2cc_NAME                                 :{RED}[강제 도색변경]{BLACK}[DTS/발전차] 한국 발전차 2cc
-STR_Generatar_Real_Stream_lined_NAME                   :{GREEN}[New]{BLACK}[DTS/발전차] 한국 유선형, 고속일반 & 고속장대형 발전차
-STR_Luggage_Car_NAME                                   :{GREEN}[New도색]{BLACK}[DTS/수화물차] 한국 수화물차
+STR_Generatar_2cc_NAME                                 :[DTS/발전차] 한국 발전차 2cc
+STR_Generatar_Real_OutLook_NAME                        :[DTS/발전차] 한국 전망형 & 직각형 발전차
+STR_Generatar_Real_Stream_lined_NAME                   :[DTS/발전차] 한국 유선형, 고속일반 & 고속장대형 발전차
+STR_Luggage_Real_NAME                                  :[DTS/수화물차] 한국 수화물차
 STR_CTS_SPASS_NAME                                     :[DTS/객차] 중국 객차 차량
 STR_CGeneratar_Car_NAME                                :[DTS/발전차] 중국 발전차
 STR_CLuggage_Car_NAME                                  :[DTS/수화물차] 중국 수화물차
@@ -496,7 +497,7 @@ STR_REFIT_train_configuration_Saemaeul_Real            :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_PEX                      :{BLACK}열차구성 {}{GREEN}[기관차연결] PEX
 STR_REFIT_train_configuration_Generatar_2cc            :{BLACK}열차구성 {}{GREEN}[기관차연결] 한국형 발전차 2cc
 STR_REFIT_train_configuration_Generatar_Real           :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 발전차{}년도와 실제 열차에 맞추어 적용됩니다.
-STR_REFIT_train_configuration_Luggage                  :{BLACK}열차구성 {}{GREEN}[기관차열차] 한국형 수화물차
+STR_REFIT_train_configuration_Luggage_Real             :{BLACK}열차구성 {}{GREEN}[기관차열차]{}한국형 수화물차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_CSPassenger              :{BLACK}열차구성 {}{GREEN}[기관차열차] 중국 객차
 STR_REFIT_train_configuration_CGeneratar               :{BLACK}열차구성 {}{GREEN}[기관차열차] 중국 발전차
 STR_REFIT_train_configuration_CLuggage                 :{BLACK}열차구성 {}{GREEN}[기관차열차] 중국 수화물차
@@ -997,6 +998,27 @@ STR_REFIT_LIVERY_Generatar_2cc_L2                      : 장대형 구형 발전
 STR_REFIT_LIVERY_Generatar_2cc_T2                      : 구형 발전차
 STR_REFIT_LIVERY_Generatar_2cc_ST                      : 유선형 발전차 새마을호 도색
 STR_REFIT_LIVERY_Generatar_2cc_HJ                      : 유선형 발전차
+STR_REFIT_LIVERY_Generatar_Real_OutLook_S1             : 관광호 전망발전차 1
+STR_REFIT_LIVERY_Generatar_Real_OutLook_S2             : 관광호 전망발전차 2
+STR_REFIT_LIVERY_Generatar_Real_OutLook_L1             : 장대형 발전차 새마을호 초기도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1            : 장대형 발전차 통일호 초기도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_T1             : 저속발전차 통일호 초기도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TB             : 저속발전차 통일호 남색도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB            : 장대형 발전차 통일호 남색도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TOM            : 저속발전차 무궁화호 구도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SOM            : 전망발전차 무궁화호 구도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RSOM           : 전망발전차 개조 무궁화호 구도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LOM            : 장대형 발전차 무궁화호 구도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_STG            : 전망발전차 통일호 녹색도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RSTG           : 전망발전차 개조 통일호 녹색도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TG             : 저속발전차 통일호 녹색도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LTG            : 장대형 발전차 통일호 녹색도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SNM            : 전망발전차 무궁화호 신도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RSNM           : 전망발전차 개조 무궁화호 신도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TNM            : 저속발전차 무궁화호 신도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LNM            : 장대형 발전차 무궁화호 신도색
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RB             : 레이디버드
+STR_REFIT_LIVERY_Generatar_Real_OutLook_MC	           : 통통통 뮤직카페트레인
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS        : 장대형 새마을호 초기도색
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS        : 유선형 새마을호 초기도색
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS       : 새마을호 구도색 ST
@@ -1017,10 +1039,27 @@ STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WN        : 충북영동국악와�
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NS        : 남도해양관광열차 신도색
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NA        : 정선아리랑열차 신도색
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NG        : 서해금빛열차 신도색
-STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_A                : 에코레일 A
-STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_B                : 에코레일 B
-STR_REFIT_LIVERY_CY_GW_Luggage_Car                     : 충북영동국악와인
-STR_REFIT_LIVERY_Express_Post_Luggage_Car              : 당일특급 우편
+STR_REFIT_LIVERY_Luggage_Real_VA                       : 소화물차 A (가상도색)
+STR_REFIT_LIVERY_Luggage_Real_VB                       : 소화물차 B (가상도색)
+STR_REFIT_LIVERY_Luggage_Real_LOM                      : 무궁화호 구도색
+STR_REFIT_LIVERY_Luggage_Real_LNM                      : 무궁화호 신도색
+STR_REFIT_LIVERY_Luggage_Real_MTB                      : 정선MTB열차
+STR_REFIT_LIVERY_Luggage_Real_A                        : 에코레일 초기도색 A
+STR_REFIT_LIVERY_Luggage_Real_B                        : 에코레일 초기도색 B
+STR_REFIT_LIVERY_Luggage_Real_C                        : 에코레일 초기도색 C
+STR_REFIT_LIVERY_Luggage_Real_D                        : 에코레일 초기도색 D
+STR_REFIT_LIVERY_Luggage_Real_OEA                      : 에코레일 4대강 도색 A
+STR_REFIT_LIVERY_Luggage_Real_OEB                      : 에코레일 4대강 도색 B
+STR_REFIT_LIVERY_Luggage_Real_OEC                      : 에코레일 4대강 도색 C
+STR_REFIT_LIVERY_Luggage_Real_OED                      : 에코레일 4대강 도색 D
+STR_REFIT_LIVERY_Luggage_Real_OR                       : 에코레일 구도색 주황
+STR_REFIT_LIVERY_Luggage_Real_YL                       : 에코레일 구도색 노랑
+STR_REFIT_LIVERY_Luggage_Real_PK                       : 에코레일 구도색 분홍
+STR_REFIT_LIVERY_Luggage_Real_GN                       : 에코레일 구도색 녹색
+STR_REFIT_LIVERY_Luggage_Real_MP                       : 우체국 당일특급 도색
+STR_REFIT_LIVERY_Luggage_Real_EA                       : 에코레일 신도색 A
+STR_REFIT_LIVERY_Luggage_Real_EB                       : 에코레일 신도색 B
+STR_REFIT_LIVERY_Luggage_Real_WN                       : 충북영동국악와인열차
 STR_REFIT_LIVERY_SWagon_1F_Red                         : 25형 1층 빨강 도색
 STR_REFIT_LIVERY_SWagon_1F_Green                       : 25형 1층 녹색 도색
 STR_REFIT_LIVERY_Swagon_1F_White                       : 25형 1층 흰색 도색

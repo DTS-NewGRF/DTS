@@ -1,0 +1,66 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//속도
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1969_speed, cargo_subtype) {
+    150;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1986_speed, cargo_subtype) {
+    4: return 120;
+    150;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1994_speed, cargo_subtype) {
+    4: return 120;
+    5: return 120;
+    7: return 120;
+    150;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_1997_speed, cargo_subtype) {
+     4: return 120;
+     5: return 120;
+     7: return 120;
+    13: return 120;
+    150;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_2005_speed, cargo_subtype) {
+     4: return 120;
+     5: return 120;
+     7: return 120;
+    13: return 120;
+    17: return 120;
+    150;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_2006_speed, cargo_subtype) {
+     4: return 120;
+     5: return 120;
+     7: return 120;
+    13: return 120;
+    17: return 120;
+    19: return 120;
+    150;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_2010_speed, cargo_subtype) {
+     4: return 120;
+     5: return 120;
+     7: return 120;
+    13: return 120;
+    17: return 120;
+    20: return 120;
+    150;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_speed, current_year) {
+    0..1985: sw_Generatar_Real_OutLook_1969_speed;
+    1986..1993: sw_Generatar_Real_OutLook_1986_speed;
+    1994..1996: sw_Generatar_Real_OutLook_1994_speed;
+    1997..2004: sw_Generatar_Real_OutLook_1997_speed;
+    2005: sw_Generatar_Real_OutLook_2005_speed;
+    2006..2009: sw_Generatar_Real_OutLook_2006_speed;
+    sw_Generatar_Real_OutLook_2010_speed;
+    }

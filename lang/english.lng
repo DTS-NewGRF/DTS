@@ -406,8 +406,9 @@ STR_PEX_D_NAME                                         :[DTS] PEX 2F Car
 STR_PEX_B_NAME                                         :[DTS] PEX Bar Car
 STR_PEX_S_NAME                                         :[DTS] PEX Bad Car
 STR_Generatar_2cc_NAME                                 :[DTS] Korea Generatar 2cc Car
+STR_Generatar_Real_OutLook_NAME                        :[DTS] Korea Outlook & Right Angle Shape Generator Car
 STR_Generatar_Real_Stream_lined_NAME                   :[DTS] Korea Stream lined & Long length Generator Car
-STR_Luggage_Car_NAME                                   :[DTS] Luggage Car
+STR_Luggage_Real_NAME                                  :[DTS] Luggage Car
 STR_CTS_SPASS_NAME                                     :[DTS] Chinese carriage-type passenger car
 STR_CGeneratar_Car_NAME                                :[DTS] Chinese Generatar Car
 STR_CLuggage_Car_NAME                                  :[DTS] Chinese Luggage Car
@@ -500,7 +501,7 @@ STR_REFIT_train_configuration_Saemaeul_Real            :{BLACK}train configurati
 STR_REFIT_train_configuration_PEX                      :{BLACK}train configuration {}{GREEN}PEX
 STR_REFIT_train_configuration_Generatar_2cc            :{BLACK}train configuration {}{GREEN}Korea Generatar 2cc vehicles
 STR_REFIT_train_configuration_Generatar_Real           :{BLACK}train configuration {}{GREEN}Korea Generatar vehicles
-STR_REFIT_train_configuration_Luggage                  :{BLACK}train configuration {}{GREEN}Luggage vehicles
+STR_REFIT_train_configuration_Luggage_Real             :{BLACK}train configuration {}{GREEN}Korea Luggage vehicles
 STR_REFIT_train_configuration_CSPassenger              :{BLACK}train configuration {}{GREEN}Chinese carriage-type Passenger vehicles
 STR_REFIT_train_configuration_CGeneratar               :{BLACK}train configuration {}{GREEN}Chinese Generatar vehicles
 STR_REFIT_train_configuration_CLuggage                 :{BLACK}train configuration {}{GREEN}Chinese Luggage vehicles
@@ -1001,6 +1002,27 @@ STR_REFIT_LIVERY_Generatar_2cc_L2                      : Long length Old car
 STR_REFIT_LIVERY_Generatar_2cc_T2                      : Old car
 STR_REFIT_LIVERY_Generatar_2cc_ST                      : Saemaul Early livery Stream lined car
 STR_REFIT_LIVERY_Generatar_2cc_HJ                      : Stream lined car
+STR_REFIT_LIVERY_Generatar_Real_OutLook_S1             : Kwan kwang Ho outlook 1
+STR_REFIT_LIVERY_Generatar_Real_OutLook_S2             : Kwan kwang Ho outlook 2
+STR_REFIT_LIVERY_Generatar_Real_OutLook_L1             : Saemaul Early livery Long length
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LT1            : Tongil Early livery Long length
+STR_REFIT_LIVERY_Generatar_Real_OutLook_T1             : Tongil Early livery Low speed
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TB             : Old Tongil dark blue livery Low speed
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LTB            : Old Tongil dark blue livery Long length
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TOM            : Old Mugunghwa livery Low speed
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SOM            : Old Mugunghwa livery outlook
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RSOM           : Old Mugunghwa livery outlook Refurbished
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LOM            : Old Mugunghwa livery Long length
+STR_REFIT_LIVERY_Generatar_Real_OutLook_STG            : Old Tongil green livery outlook
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RSTG           : Old Tongil green livery outlook Refurbished
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TG             : Old Tongil green livery Low speed
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LTG            : Old Tongil green livery Long length
+STR_REFIT_LIVERY_Generatar_Real_OutLook_SNM            : New Mugunghwa livery outlook
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RSNM           : New Mugunghwa livery outlook Refurbished
+STR_REFIT_LIVERY_Generatar_Real_OutLook_TNM            : New Mugunghwa livery Low speed
+STR_REFIT_LIVERY_Generatar_Real_OutLook_LNM            : New Mugunghwa livery Long length
+STR_REFIT_LIVERY_Generatar_Real_OutLook_RB             : Ladybird
+STR_REFIT_LIVERY_Generatar_Real_OutLook_MC             : Tong tong tong Music Cafe train
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_LS        : Early livery Long length Saemaul
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_SS        : Early livery Stream lined Saemaul
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_OLS       : Old livery Saemaul ST
@@ -1021,10 +1043,27 @@ STR_REFIT_LIVERY_Generatar_Real_Stream_lined_WN        : Chungbuk Yeongdong Guga
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NS        : New livery S-train
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NA        : New livery A-train
 STR_REFIT_LIVERY_Generatar_Real_Stream_lined_NG        : New livery G-train
-STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_A                : Eco Rail Luggage Car A
-STR_REFIT_LIVERY_Eco_Rail_Luggage_Car_B                : Eco Rail Luggage Car B
-STR_REFIT_LIVERY_CY_GW_Luggage_Car                     : Chungbuk Yeongdong Gugak & Wine Luggage Car
-STR_REFIT_LIVERY_Express_Post_Luggage_Car              : Express Post
+STR_REFIT_LIVERY_Luggage_Real_VA                       : Virtual A
+STR_REFIT_LIVERY_Luggage_Real_VB                       : Virtual B
+STR_REFIT_LIVERY_Luggage_Real_LOM                      : Mugunghwa Old livery
+STR_REFIT_LIVERY_Luggage_Real_LNM                      : Mugunghwa New livery
+STR_REFIT_LIVERY_Luggage_Real_MTB                      : Jeongseon MTB train
+STR_REFIT_LIVERY_Luggage_Real_A                        : ECO RAIL Early livery A
+STR_REFIT_LIVERY_Luggage_Real_B                        : ECO RAIL Early livery B
+STR_REFIT_LIVERY_Luggage_Real_C                        : ECO RAIL Early livery C
+STR_REFIT_LIVERY_Luggage_Real_D                        : ECO RAIL Early livery D
+STR_REFIT_LIVERY_Luggage_Real_OEA                      : ECO RAIL 4 River livery A
+STR_REFIT_LIVERY_Luggage_Real_OEB                      : ECO RAIL 4 River livery B
+STR_REFIT_LIVERY_Luggage_Real_OEC                      : ECO RAIL 4 River livery C
+STR_REFIT_LIVERY_Luggage_Real_OED                      : ECO RAIL 4 River livery D
+STR_REFIT_LIVERY_Luggage_Real_OR                       : ECO RAIL Old livery Orange
+STR_REFIT_LIVERY_Luggage_Real_YL                       : ECO RAIL Old livery Yellow
+STR_REFIT_LIVERY_Luggage_Real_PK                       : ECO RAIL Old livery Pink
+STR_REFIT_LIVERY_Luggage_Real_GN                       : ECO RAIL Old livery Green
+STR_REFIT_LIVERY_Luggage_Real_MP                       : EXPRESS POST
+STR_REFIT_LIVERY_Luggage_Real_EA                       : ECO RAIL New livery A
+STR_REFIT_LIVERY_Luggage_Real_EB                       : ECO RAIL New livery B
+STR_REFIT_LIVERY_Luggage_Real_WN                       : Chungbuk Yeongdong Gugak & Wine Train
 STR_REFIT_LIVERY_SWagon_1F_Red                         : 25 Type 1F Red Color Car
 STR_REFIT_LIVERY_SWagon_1F_Green                       : 25 Type 1F Green Color Car
 STR_REFIT_LIVERY_Swagon_1F_White                       : 25 Type 1F White Color Car

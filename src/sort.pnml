@@ -399,9 +399,10 @@ sort(FEAT_TRAINS, [
     CTS_SPassenger_Car,                      //2031
     ETS_SPassenger_Car,                      //2061
     Generatar_2cc,                           //2003
+    Generatar_Real_OutLook,                  //2395
     Generatar_Real_Stream_lined,             //2394
     CGeneratar_Car,                          //2032
-    Luggage_Car,                             //2004
+    Luggage_Real,                            //2004
     CLuggage_Car,                            //2033
     FLAT_1F,                                 //2129
     FLAT_2F,                                 //2114
