@@ -49,13 +49,15 @@ item(FEAT_TRAINS, TGV_Pos_10Car, 2077){
         }
 
 	graphics {
-        default:                        sw_TGV_Pos_10car;
-        articulated_part:               sw_articulated_TGV_Pos_10car;
+        default:                        sw_TGV_Pos_10car_reversed;
+        articulated_part:               sw_articulated_TGV_Pos_wagon_10car;
         purchase:                       sw_TGV_POS_purchase;
         speed:                          sw_TGV_Pos_speed;
+        length:                         sw_TGV_Pos_wagon_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_TGV_Pos_cargo_subtype_text;
+        sound_effect:                   sw_TGV_Pos_sound;
         }
         }

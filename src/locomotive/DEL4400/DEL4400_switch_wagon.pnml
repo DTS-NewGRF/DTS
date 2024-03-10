@@ -1,0 +1,24 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//객차
+switch(FEAT_TRAINS, SELF, sw_DEL4400_2001_engine, cargo_subtype) {
+    set_DEL4400_engine_A;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DEL4400_2004_engine, cargo_subtype) {
+    1: set_DEL4400_engine_B;
+    set_DEL4400_engine_A;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DEL4400_2013_engine, cargo_subtype) {
+    1: set_DEL4400_engine_B;
+    2: set_DEL4400_engine_C;
+    set_DEL4400_engine_A;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DEL4400_engine, current_year) {
+    0..2003: sw_DEL4400_2001_engine;
+    2004..2012: sw_DEL4400_2004_engine;
+    sw_DEL4400_2013_engine;
+    }

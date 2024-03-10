@@ -1,0 +1,13 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_V_Train_3Car, position_in_vehid_chain % 3) {
+    1:set_V_Train_2wagon;
+    2:set_V_Train_3wagon;
+    set_V_Train_1wagon; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_V_Train_3Car, extra_callback_info1) {
+    1..2: V_Train_3Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

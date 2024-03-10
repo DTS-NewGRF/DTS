@@ -12,6 +12,7 @@
 #include "locomotive/CDC/CDC.pnml"
 #include "locomotive/CL_150/CL_150.pnml"
 #include "locomotive/CTX/CTX.pnml"
+#include "locomotive/DEL4400/DEL4400.pnml"
 #include "locomotive/DEL7000/DEL7000.pnml"
 #include "locomotive/DEL7600/DEL7600.pnml"
 #include "locomotive/DHC_PP/DHC_PP.pnml"

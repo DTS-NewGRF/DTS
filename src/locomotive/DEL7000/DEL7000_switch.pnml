@@ -1,17 +1,11 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_DEL7000_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_DEL7000_B);
-    2: return string(STR_REFIT_LIVERY_DEL7000_C);
-    return string(STR_REFIT_LIVERY_DEL7000_A);
-}
+//도색
+#include "DEL7000_switch_Year.pnml"
 
-switch(FEAT_TRAINS, SELF, sw_DEL7000_engine, cargo_subtype) {
-    1: set_DEL7000_engine_B;
-    2: set_DEL7000_engine_C;
-    set_DEL7000_engine_A;
-}
+//열차
+#include "DEL7000_switch_wagon.pnml"
 
 switch(FEAT_TRAINS, SELF, sw_DEL7000_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/DEL7000start.wav");

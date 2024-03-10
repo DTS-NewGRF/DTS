@@ -142,6 +142,41 @@ spriteset(set_Seoulmetro_4th_7000_engineT, "src/metro/Seoulmetro/Seoulmetro_4th/
 }
 
 /*--------------------------------------------------------------------
+서울교통공사 8000호대
+--------------------------------------------------------------------*/
+spriteset(set_Seoulmetro_4th_8000_engineH, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_8000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Seoulmetro_4th_8000_engineH_r, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_8000.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Seoulmetro_4th_8000_wagon, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_8000.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Seoulmetro_4th_8000_wagon_r, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_8000.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Seoulmetro_4th_8000_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_8000.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Seoulmetro_4th_8000_panto_wagon_r, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_8000.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Seoulmetro_4th_8000_engineT_r, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_8000.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Seoulmetro_4th_8000_engineT, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_8000.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
 서울교통공사 9000호대
 --------------------------------------------------------------------*/
 spriteset(set_Seoulmetro_4th_9000_engineH, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_9000.png"){
@@ -196,6 +231,10 @@ spriteset(set_Seoulmetro_4th_7000_purchase, "src/metro/Seoulmetro/Seoulmetro_4th
     tmpl_purchase(0, 0)
 }
 
+spriteset(set_Seoulmetro_4th_8000_purchase, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_8000.png"){
+    tmpl_purchase(0, 0)
+}
+
 spriteset(set_Seoulmetro_4th_9000_purchase, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_9000.png"){
     tmpl_purchase(0, 0)
 }
@@ -214,6 +253,10 @@ switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_5000_purchase, cargo_subtype) {
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_7000_purchase, cargo_subtype) {
     set_Seoulmetro_4th_7000_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_8000_purchase, cargo_subtype) {
+    set_Seoulmetro_4th_8000_purchase;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_9000_purchase, cargo_subtype) {

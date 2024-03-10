@@ -1,0 +1,214 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_TGV_R_purchase, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+TGV 레조 블루&그레이
+--------------------------------------------------------------------*/
+spriteset(set_TGV_R_B_engineH, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_R_B_engineH_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png"){
+    engine(80, 27)
+}
+
+spriteset(set_TGV_R_B_wagon_F1, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_R_B_wagon_F1_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_TGV_R_B_wagon_F2, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_TGV_R_B_wagon_F2_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_TGV_R_B_wagon_C, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_R_B_wagon_C_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_R_B_wagon_T1, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_R_B_wagon_T1_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_R_B_wagon_T2, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_TGV_R_B_wagon_T2_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_TGV_R_B_wagon_T3, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png"){
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_TGV_R_B_wagon_T3_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png"){
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_TGV_R_B_engineT_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png"){
+    engine(80, 216)
+}
+
+spriteset(set_TGV_R_B_engineT, "src_European/locomotive/TGV/TGV_R/TGV_R_blue.png"){
+    engine(80, 243)
+}
+
+/*--------------------------------------------------------------------
+TGV 레조 블루&그레이 라크루아
+--------------------------------------------------------------------*/
+spriteset(set_TGV_R_BL_engineH, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_R_BL_engineH_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png"){
+    engine(80, 27)
+}
+
+spriteset(set_TGV_R_BL_wagon_F1, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_R_BL_wagon_F1_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_TGV_R_BL_wagon_F2, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_TGV_R_BL_wagon_F2_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_TGV_R_BL_wagon_C, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_R_BL_wagon_C_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_R_BL_wagon_T1, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_R_BL_wagon_T1_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_R_BL_wagon_T2, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_TGV_R_BL_wagon_T2_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_TGV_R_BL_wagon_T3, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_TGV_R_BL_wagon_T3_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png") {
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_TGV_R_BL_engineT_r, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png"){
+    engine(80, 216)
+}
+
+spriteset(set_TGV_R_BL_engineT, "src_European/locomotive/TGV/TGV_R/TGV_R_blueL.png"){
+    engine(80, 243)
+}
+
+/*--------------------------------------------------------------------
+TGV 레조 카밀론
+--------------------------------------------------------------------*/
+spriteset(set_TGV_R_C_engineH, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_R_C_engineH_r, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png"){
+    engine(80, 27)
+}
+
+spriteset(set_TGV_R_C_wagon_F1, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_R_C_wagon_F1_r, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_TGV_R_C_wagon_F2, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_TGV_R_C_wagon_F2_r, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_TGV_R_C_wagon_C, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_R_C_wagon_C_r, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_R_C_wagon_T1, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_R_C_wagon_T1_r, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_R_C_wagon_T2, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_TGV_R_C_wagon_T2_r, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_TGV_R_C_wagon_T3, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_TGV_R_C_wagon_T3_r, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png") {
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_TGV_R_C_engineT_r, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png"){
+    engine(80, 216)
+}
+
+spriteset(set_TGV_R_C_engineT, "src_European/locomotive/TGV/TGV_R/TGV_R_c.png"){
+    engine(80, 243)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TGV_R_purchase, cargo_subtype) {
+    set_TGV_R_purchase;
+}

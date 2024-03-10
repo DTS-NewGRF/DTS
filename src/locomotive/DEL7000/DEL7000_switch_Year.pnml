@@ -1,0 +1,26 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_DEL7000_1986_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_DEL7000_A);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DEL7000_1996_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_DEL7000_A);
+    1: return string(STR_REFIT_LIVERY_DEL7000_B);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DEL7000_2005_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_DEL7000_A);
+    1: return string(STR_REFIT_LIVERY_DEL7000_B);
+    2: return string(STR_REFIT_LIVERY_DEL7000_C);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DEL7000_cargo_subtype_text, current_year) {
+    0..1995: sw_DEL7000_1986_cargo_subtype_text;
+    1996..2004: sw_DEL7000_1996_cargo_subtype_text;
+    sw_DEL7000_2005_cargo_subtype_text;
+    }

@@ -4,6 +4,38 @@
 // 도색명
 // 10량
 // 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_Seoulmetro_5th_5000_8car, position_in_vehid_chain % 8) {
+    1:set_Seoulmetro_5th_5000_wagon;
+    2:set_Seoulmetro_5th_5000_panto_wagon;
+    3:set_Seoulmetro_5th_5000_wagon;
+    4:set_Seoulmetro_5th_5000_wagon;
+    5:set_Seoulmetro_5th_5000_wagon;
+    6:set_Seoulmetro_5th_5000_panto_wagon;
+    7:set_Seoulmetro_5th_5000_engineT;
+    set_Seoulmetro_5th_5000_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Seoulmetro_5th_5000_8car_r, position_in_vehid_chain % 8) {
+    1:set_Seoulmetro_5th_5000_panto_wagon_r;
+    2:set_Seoulmetro_5th_5000_wagon_r;
+    3:set_Seoulmetro_5th_5000_wagon_r;
+    4:set_Seoulmetro_5th_5000_wagon_r;
+    5:set_Seoulmetro_5th_5000_panto_wagon_r;
+    6:set_Seoulmetro_5th_5000_wagon_r;
+    7:set_Seoulmetro_5th_5000_engineH_r;
+    set_Seoulmetro_5th_5000_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_5th_5000_8car_flipped, vehicle_is_flipped){
+    0: sw_Seoulmetro_5th_5000_8car;
+    sw_Seoulmetro_5th_5000_8car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_5th_5000_8car_reversed, vehicle_is_reversed){
+    0: sw_Seoulmetro_5th_5000_8car_r;
+    sw_Seoulmetro_5th_5000_8car_flipped;
+}
+
 switch (FEAT_TRAINS, SELF, sw_Seoulmetro_5th_7000_8car, position_in_vehid_chain % 8) {
     1:set_Seoulmetro_5th_7000_wagon_2_4_5D_6;
     2:set_Seoulmetro_5th_7000_wagon_3_7;
@@ -36,13 +68,59 @@ switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_5th_7000_8car_reversed, vehicle_is_rev
     sw_Seoulmetro_5th_7000_8car_flipped;
 }
 
+switch (FEAT_TRAINS, SELF, sw_Seoulmetro_5th_4000_10car, position_in_vehid_chain % 10) {
+    1:set_Seoulmetro_5th_4000_wagon;
+    2:set_Seoulmetro_5th_4000_panto_wagon;
+    3:set_Seoulmetro_5th_4000_wagon;
+    4:set_Seoulmetro_5th_4000_panto_wagon;
+    5:set_Seoulmetro_5th_4000_wagon;
+    6:set_Seoulmetro_5th_4000_wagon;
+    7:set_Seoulmetro_5th_4000_wagon;
+    8:set_Seoulmetro_5th_4000_panto_wagon;
+    9:set_Seoulmetro_5th_4000_engineT;
+    set_Seoulmetro_5th_4000_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Seoulmetro_5th_4000_10car_r, position_in_vehid_chain % 10) {
+    1:set_Seoulmetro_5th_4000_panto_wagon_r;
+    2:set_Seoulmetro_5th_4000_wagon_r;
+    3:set_Seoulmetro_5th_4000_wagon_r;
+    4:set_Seoulmetro_5th_4000_wagon_r;
+    5:set_Seoulmetro_5th_4000_panto_wagon_r;
+    6:set_Seoulmetro_5th_4000_wagon_r;
+    7:set_Seoulmetro_5th_4000_panto_wagon_r;
+    8:set_Seoulmetro_5th_4000_wagon_r;
+    9:set_Seoulmetro_5th_4000_engineH_r;
+    set_Seoulmetro_5th_4000_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_5th_4000_10car_flipped, vehicle_is_flipped){
+    0: sw_Seoulmetro_5th_4000_10car;
+    sw_Seoulmetro_5th_4000_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_5th_4000_10car_reversed, vehicle_is_reversed){
+    0: sw_Seoulmetro_5th_4000_10car_r;
+    sw_Seoulmetro_5th_4000_10car_flipped;
+}
+
 // 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_5th_5000_8car, extra_callback_info1) {
+    1..7: Seoulmetro_5th_5000_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
 switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_5th_7000_8car, extra_callback_info1) {
     1..7: Seoulmetro_5th_7000_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch(FEAT_TRAINS, SELF, sw_Seoulmetro_5th_7000_sound, extra_callback_info1) {
+switch (FEAT_TRAINS, SELF, sw_articulated_Seoulmetro_5th_4000_10car, extra_callback_info1) {
+    1..9: Seoulmetro_5th_4000_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Seoulmetro_5th_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTPMSMstart.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;

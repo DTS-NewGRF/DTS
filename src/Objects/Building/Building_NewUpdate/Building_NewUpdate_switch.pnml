@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------------
+switch
+--------------------------------------------------------------------*/
+spritelayout set_Building_New_Update_0 {
+    ground {
+        sprite: GROUNDSPRITE_NORMAL;
+    }
+    building {
+        sprite: set_Building_New_Update(0);
+        xextent: 6;
+        yextent: 3;
+        zextent: 12;
+        xoffset: 15; // from NE edge
+        yoffset: 7;  // from NW edge
+        zoffset: 0;
+    }
+}
+
+switch(FEAT_OBJECTS, SELF, sw_Building_New_Update, view) {
+    set_Building_New_Update_0;
+}

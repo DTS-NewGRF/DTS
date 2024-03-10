@@ -43,7 +43,7 @@ switch(FEAT_TRAINS, SELF, sw_DEL7000_C_purchase, cargo_subtype) {
 
 // 구매차량 등장년도
 switch(FEAT_TRAINS, SELF, sw_DEL7000_purchase, current_year) {
-    0..1993: sw_DEL7000_C_purchase;
-    1994..2004: sw_DEL7000_B_purchase;
-    sw_DEL7000_A_purchase;
+    0..1995: sw_DEL7000_A_purchase;
+    1996..2004: sw_DEL7000_B_purchase;
+    sw_DEL7000_C_purchase;
     }

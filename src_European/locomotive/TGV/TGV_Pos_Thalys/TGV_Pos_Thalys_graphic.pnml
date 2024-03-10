@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_TGV_Pos_Thalys_purchase, "src_European/locomotive/TGV/TGV_Pos_Thalys/TGV_Pos_Thalys.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+TGV Thalys
+--------------------------------------------------------------------*/
+spriteset(set_TGV_Thalys_engineH, "src_European/locomotive/TGV/TGV_Pos_Thalys/TGV_POS_Thalys.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_Thalys_wagon_start, "src_European/locomotive/TGV/TGV_Pos_Thalys/TGV_POS_Thalys.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_TGV_Thalys_wagon_nomal, "src_European/locomotive/TGV/TGV_Pos_Thalys/TGV_POS_Thalys.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_Thalys_wagon_bar, "src_European/locomotive/TGV/TGV_Pos_Thalys/TGV_POS_Thalys.png") {
+    wagon_bar(80, 81)
+}
+
+spriteset(set_TGV_Thalys_wagon_special, "src_European/locomotive/TGV/TGV_Pos_Thalys/TGV_POS_Thalys.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_TGV_Thalys_wagon_end, "src_European/locomotive/TGV/TGV_Pos_Thalys/TGV_POS_Thalys.png"){
+    wagon_start(80, 135)
+}
+
+spriteset(set_TGV_Thalys_engineT, "src_European/locomotive/TGV/TGV_Pos_Thalys/TGV_POS_Thalys.png"){
+    engine(80, 162)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TGV_Pos_Thalys_purchase, cargo_subtype) {
+    set_TGV_Pos_Thalys_purchase;
+}

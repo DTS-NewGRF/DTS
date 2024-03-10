@@ -15,10 +15,14 @@
 #include "locomotive/Renfe/Renfe_S_102/Renfe_S_102.pnml"
 #include "locomotive/Renfe/Renfe_S_103/Renfe_S_103.pnml"
 #include "locomotive/Renfe/Renfe_S_130/Renfe_S_130.pnml"
+#include "locomotive/TGV/TGV_A/TGV_A.pnml"
 #include "locomotive/TGV/TGV_Duplex/TGV_Duplex.pnml"
-#include "locomotive/TGV/TGV_Pos/TGV_Pos.pnml"
-#include "locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est.pnml"
-#include "locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.pnml"
-#include "locomotive/TGV/TGV_AR/TGV_AR.pnml"
 #include "locomotive/TGV/TGV_La_Poste/TGV_La_Poste.pnml"
 #include "locomotive/TGV/TGV_M/TGV_M.pnml"
+#include "locomotive/TGV/TGV_Pos/TGV_Pos.pnml"
+#include "locomotive/TGV/TGV_Pos_Thalys/TGV_Pos_Thalys.pnml"
+#include "locomotive/TGV/TGV_R/TGV_R.pnml"
+#include "locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est.pnml"
+#include "locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.pnml"
+
+

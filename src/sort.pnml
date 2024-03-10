@@ -100,12 +100,16 @@ sort(FEAT_TRAINS, [
     Seoulmetro_3rd_4000_10Car,               //2292
     Seoulmetro_4th,                          //2294
     Seoulmetro_4th_4Car,                     //2295
-    Seoulmetro_4th_6Car,                     //2366
+    Seoulmetro_4th_8000_6Car,                //2400
+    Seoulmetro_4th_9000_6Car,                //2366
     Seoulmetro_4th_5000_8Car,                //2302
     Seoulmetro_4th_7000_8Car,                //2315
     Seoulmetro_4th_2000_10Car,               //2293
     Seoulmetro_4th_4000_10Car,               //2297
+    Seoulmetro_5th,                          //2398
+    Seoulmetro_5th_5000_8Car,                //2401
     Seoulmetro_5th_7000_8Car,                //2303
+    Seoulmetro_5th_4000_10Car,               //2399
     Shinbundang_6Car,                        //2241
     Standard_Metro_4Car,                     //2006
     AD_Tranz_CAF_A_8Car,                     //2052
@@ -172,6 +176,7 @@ sort(FEAT_TRAINS, [
     CL_150_6Car,                             //2174
     CL_150_8Car,                             //2175
     CL_180_8Car,                             //2176
+    DEL4400,                                 //2396
     DEL7000,                                 //2298
     DEL7600,                                 //2015
     DHC_PP,                                  //2356
@@ -297,6 +302,7 @@ sort(FEAT_TRAINS, [
     Renfe_S_103_8Car,                        //2074
     TGV_Duplex_10Car,                        //2076
     TGV_Pos_10Car,                           //2077
+    TGV_Pos_Thalys_10Car,                    //2402
     TGV_Sud_Est_10Car,                       //2078
     TGV_Reseau_Duplex_10Car,                 //2079
     TGV_A_12Car,                             //2080
@@ -368,20 +374,21 @@ sort(FEAT_TRAINS, [
 
     //객차
     Travel_wagon,                            //2210
+    A_Train_New_Passenger_Car,               //2164
+    CY_GW_Passenger_Car,                     //2001
+    E_Train_Passenger_Car,                   //2159
     Eco_Rail,                                //2329
     Eco_Rail_Passenger_Car,                  //2157
     Eco_Rail_Passenger_5Car,                 //2330
-    CY_GW_Passenger_Car,                     //2001
+    G_Train_New_Passenger_Car,               //2002
     JA_A_Passenger_Car,                      //2158
-    E_Train_Passenger_Car,                   //2159
-    Wine_Panax_Passenger_Car,                //2160
-    Wine_Cinema_Passenger_Car,               //2161
     Lady_Bird_Passenger_Car,                 //2162
     S_Train,                                 //2331
     S_Train_New_4Car,                        //2332
     S_Train_New_5Car,                        //2163
-    A_Train_New_Passenger_Car,               //2164
-    G_Train_New_Passenger_Car,               //2002
+    V_Train_3Car,                            //2397
+    Wine_Cinema_Passenger_Car,               //2161
+    Wine_Panax_Passenger_Car,                //2160
     Coach_2F,                                //2106
     Mugunhwa_2cc,                            //2245
     Mugunhwa_Real_Normal,                    //2389

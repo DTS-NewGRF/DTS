@@ -7,22 +7,10 @@ switch(FEAT_TRAINS, SELF, sw_TGV_A_cargo_subtype_text, cargo_subtype) {
     return string(STR_REFIT_LIVERY_TGV_A_blue);
 }
 
-switch(FEAT_TRAINS, SELF, sw_TGV_R_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_TGV_R_blueLacroix);           
-    2: return string(STR_REFIT_LIVERY_TGV_R_carmillon);     
-    return string(STR_REFIT_LIVERY_TGV_R_blue);
-}
-
 switch(FEAT_TRAINS, SELF, sw_TGV_A_engineH, cargo_subtype) {
     1: set_TGV_A_BL_engineH;
     2: set_TGV_A_C_engineH;
     set_TGV_A_B_engineH;
-}
-
-switch(FEAT_TRAINS, SELF, sw_TGV_R_engineH, cargo_subtype) {
-    1: set_TGV_R_BL_engineH;
-    2: set_TGV_R_C_engineH;
-    set_TGV_R_B_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_A_engineT, cargo_subtype) {
@@ -31,22 +19,10 @@ switch(FEAT_TRAINS, SELF, sw_TGV_A_engineT, cargo_subtype) {
     set_TGV_A_B_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_TGV_R_engineT, cargo_subtype) {
-    1: set_TGV_R_BL_engineT;
-    2: set_TGV_R_C_engineT;
-    set_TGV_R_B_engineT;
-}
-
 switch(FEAT_TRAINS, SELF, sw_TGV_A_wagon_start, cargo_subtype) {
     1: set_TGV_A_BL_wagon_start;
     2: set_TGV_A_C_wagon_start;
     set_TGV_A_B_wagon_start;
-}
-
-switch(FEAT_TRAINS, SELF, sw_TGV_R_wagon_start, cargo_subtype) {
-    1: set_TGV_R_BL_wagon_start;
-    2: set_TGV_R_C_wagon_start;
-    set_TGV_R_B_wagon_start;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_A_wagon_special, cargo_subtype) {
@@ -55,22 +31,10 @@ switch(FEAT_TRAINS, SELF, sw_TGV_A_wagon_special, cargo_subtype) {
     set_TGV_A_B_wagon_special;
 }
 
-switch(FEAT_TRAINS, SELF, sw_TGV_R_wagon_special, cargo_subtype) {
-    1: set_TGV_R_BL_wagon_special;
-    2: set_TGV_R_C_wagon_special;
-    set_TGV_R_B_wagon_special;
-}
-
 switch(FEAT_TRAINS, SELF, sw_TGV_A_wagon, cargo_subtype) {
     1: set_TGV_A_BL_wagon_nomal;
     2: set_TGV_A_C_wagon_nomal;
     set_TGV_A_B_wagon_nomal;
-}
-
-switch(FEAT_TRAINS, SELF, sw_TGV_R_wagon, cargo_subtype) {
-    1: set_TGV_R_BL_wagon_nomal;
-    2: set_TGV_R_C_wagon_nomal;
-    set_TGV_R_B_wagon_nomal;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_A_wagon_bar, cargo_subtype) {
@@ -79,24 +43,13 @@ switch(FEAT_TRAINS, SELF, sw_TGV_A_wagon_bar, cargo_subtype) {
     set_TGV_A_B_wagon_bar;
 }
 
-switch(FEAT_TRAINS, SELF, sw_TGV_R_wagon_bar, cargo_subtype) {
-    1: set_TGV_R_BL_wagon_bar;
-    2: set_TGV_R_C_wagon_bar;
-    set_TGV_R_B_wagon_bar;
-}
-
 switch(FEAT_TRAINS, SELF, sw_TGV_A_wagon_end, cargo_subtype) {
     1: set_TGV_A_BL_wagon_end;
     2: set_TGV_A_C_wagon_end;
     set_TGV_A_B_wagon_end;
 }
 
-switch(FEAT_TRAINS, SELF, sw_TGV_R_wagon_end, cargo_subtype) {
-    1: set_TGV_R_BL_wagon_end;
-    2: set_TGV_R_C_wagon_end;
-    set_TGV_R_B_wagon_end;
-}
-
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_TGV_A_wagon_12car, position_in_vehid_chain % 12) {
     1:sw_TGV_A_wagon_start;
     2:sw_TGV_A_wagon;
@@ -112,31 +65,13 @@ switch (FEAT_TRAINS, SELF, sw_TGV_A_wagon_12car, position_in_vehid_chain % 12) {
     sw_TGV_A_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_TGV_R_wagon_10car, position_in_vehid_chain % 10) {
-    1:sw_TGV_R_wagon_start;
-    2:sw_TGV_R_wagon;
-    3:sw_TGV_R_wagon;
-    4:sw_TGV_R_wagon;
-    5:sw_TGV_R_wagon_bar;
-    6:sw_TGV_R_wagon_special;
-    7:sw_TGV_R_wagon_special;
-    8:sw_TGV_R_wagon_end;
-    9:sw_TGV_R_engineT;
-    sw_TGV_R_engineH; //default
-    }
-
 switch (FEAT_TRAINS, SELF, sw_articulated_TGV_A_wagon_12car, extra_callback_info1) {
     1..11: TGV_A_12Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_TGV_R_wagon_10car, extra_callback_info1) {
-    1..9: TGV_R_10Car;
-    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
-    }
-
 // 속도변수
-switch(FEAT_TRAINS, SELF, sw_TGV_R_speed, Use_max_virtual_speed) {
+switch(FEAT_TRAINS, SELF, sw_TGV_A_speed, Use_max_virtual_speed) {
     1: return High_Speed_Train;
     return 320;
     }

@@ -25,6 +25,7 @@ STR_CL_180_8Car_NAME                                   :[DTS/8Car] CL-180
 STR_Group_CTX_NAME                                     :[DTS] CTX
 STR_CTX_F_10Car_NAME                                   :[DTS/10Car] CTX Freight
 STR_CTX_P_10Car_NAME                                   :[DTS/10Car] CTX Passenger
+STR_DEL4400_NAME                                       :[DTS] DEL4400
 STR_DEL7000_NAME                                       :[DTS] DEL7000
 STR_DEL7600_NAME                                       :[DTS] DEL7600
 STR_Group_DHC_PP_NAME                                  :[DTS] DHC PP Diesel
@@ -160,6 +161,7 @@ STR_TGV_La_Poste_10Car_NAME                            :[DTS/10Car] TGV La Poste
 STR_TGV_M_10Car_NAME                                   :[DTS/10Car] TGV M
 STR_TGV_R_10Car_NAME                                   :[DTS/10Car] TGV Reseau
 STR_TGV_Pos_10Car_NAME                                 :[DTS/10Car] TGV Pos
+STR_TGV_Pos_Thalys_10Car_NAME                          :[DTS/10Car] TGV Pos Thalys
 STR_TGV_Reseau_Duplex_10Car_NAME                       :[DTS/10Car] TGV Reseau Duplex
 STR_TGV_Sud_Est_10Car_NAME                             :[DTS/10Car] TGV Sud-Est
 
@@ -317,13 +319,17 @@ STR_Seoulmetro_3rd_2000_10Car_NAME                     :[DTS/10Car] Seoulmetro 3
 STR_Seoulmetro_3rd_4000_10Car_NAME                     :[DTS/10Car] Seoulmetro 3rd 4000
 STR_Group_Seoulmetro_4th_NAME                          :[DTS] Seoulmetro 4th
 STR_Seoulmetro_4th_4Car_NAME                           :[DTS/4Car] Seoulmetro 4th 2000
-STR_Seoulmetro_4th_6Car_NAME                           :[DTS/6Car] Seoulmetro 4th 9000
+STR_Seoulmetro_4th_8000_6Car_NAME                      :[DTS/6Car] Seoulmetro 4th 8000
+STR_Seoulmetro_4th_9000_6Car_NAME                      :[DTS/6Car] Seoulmetro 4th 9000
 STR_Seoulmetro_4th_5000_8Car_NAME                      :[DTS/8Car] Seoulmetro 4th 5000
 STR_Seoulmetro_4th_7000_8Car_NAME                      :[DTS/8Car] Seoulmetro 4th 7000
 STR_Seoulmetro_4th_2000_10Car_NAME                     :[DTS/10Car] Seoulmetro 4th 2000
 STR_Seoulmetro_4th_4000_10Car_NAME                     :[DTS/10Car] Seoulmetro 4th 4000
+STR_Group_Seoulmetro_5th_NAME                          :[DTS] Seoulmetro 5th
+STR_Seoulmetro_5th_5000_8Car_NAME                      :[DTS/8Car] Seoulmetro 5th 5000
 STR_Seoulmetro_5th_7000_8Car_NAME                      :[DTS/8Car] Seoulmetro 5th 7000
-STR_Shinbundang_6Car_NAME                              :[DTS/6량] Shinbundang line D000 series 
+STR_Seoulmetro_5th_4000_10Car_NAME                     :[DTS/10Car] Seoulmetro 5th 4000
+STR_Shinbundang_6Car_NAME                              :[DTS/6Car] Shinbundang line D000 series 
 STR_Standard_Metro_4Car_NAME                           :[DTS/4Car] Standard Metro
 
 # Hong Kong / Metro's name
@@ -377,21 +383,22 @@ STR_Nishitetsu_9000_3Car_NAME                          :[DTS/3Car] Nishitetsu 90
 
 # wagon's name
 STR_Group_Travel_wagon_NAME                            :[DTS] Travel Train
+STR_A_Train_New_NAME                                   :[DTS] A-Train Passenger Car
+STR_CY_GW_NAME                                         :[DTS] Chungbuk Yeongdong Gugak & Wine Passenger Car
+STR_E_Train_NAME                                       :[DTS] E-Train Passenger Car
 STR_Group_Eco_Rail_NAME                                :[DTS] Eco Rail Passenger Car
 STR_Eco_Rail_NAME                                      :[DTS] Eco Rail Passenger Car 1Car
 STR_Eco_Rail_5Car_NAME                                 :[DTS] Eco Rail Passenger Car 5Car
-STR_CY_GW_NAME                                         :[DTS] Chungbuk Yeongdong Gugak & Wine Passenger Car
+STR_G_Train_New_NAME                                   :[DTS] G-Train Passenger Car
 STR_JA_a_NAME                                          :[DTS] Jeongseon Arirang Passenger Car
-STR_E_Train_NAME                                       :[DTS] E-Train Passenger Car
-STR_Wine_Panax_NAME                                    :[DTS] Wine Panax Passenger Car
-STR_Wine_Cinema_NAME                                   :[DTS] Wine Cinema Passenger Car
 STR_Lady_Bird_NAME                                     :[DTS] Lady Bird Passenger Car
 STR_Group_S_Train_NAME                                 :[DTS] S-Trian
 STR_S_Train_4Car_NAME                                  :[DTS] S-Train Passenger 4Car
 STR_S_Train_5Car_NAME                                  :[DTS] S-Train Passenger 5Car
 STR_S_Train_New_NAME                                   :[DTS] S-Train Passenger Car
-STR_A_Train_New_NAME                                   :[DTS] A-Train Passenger Car
-STR_G_Train_New_NAME                                   :[DTS] G-Train Passenger Car
+STR_V_Train_NAME                                       :[DTS] V-Train Passenger Car
+STR_Wine_Cinema_NAME                                   :[DTS] Wine Cinema Passenger Car
+STR_Wine_Panax_NAME                                    :[DTS] Wine Panax Passenger Car
 STR_Mugunhwa_2cc_NAME                                  :[DTS] Korea Mugunhwa 2cc passenger car
 STR_Mugunhwa_Real_Normal_NAME                          :[DTS] Korea Mugunhwa Normal passenger car
 STR_Mugunhwa_Real_Service_NAME                         :[DTS] Korea Mugunhwa Service passenger car
@@ -425,6 +432,7 @@ STR_OBJ_BUFFER                                         :[DTS] Buffers
 STR_OBJ_BUFFER_Concrete                                :[DTS] Concrete Buffers
 STR_OBJ_BUFFER_pebble                                  :[DTS] pebble Buffers
 STR_OBJ_BUFFER_signboard                               :[DTS] Train stopper Gravel track with signboard
+STR_OBJ_Building_New_Update                            :[DTS] New Update
 STR_OBJ_Building                                       :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
 STR_OBJ_Building_Store_CU                              :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
 STR_OBJ_Building_Store_GS25                            :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
@@ -484,16 +492,17 @@ STR_PARAM_Maintenance_NAME                             :No Maintenance trains al
 STR_PARAM_Maintenance_DESC                             :Please check when using Maintenance trains. (Default: unused)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
-STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}train configuration {}{GREEN}Eco Rail Passenger Car
+STR_REFIT_train_configuration_A_Train_New_Passenger    :{BLACK}train configuration {}{GREEN}A-Train Passenger Car
 STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}train configuration {}{GREEN}Chungbuk Yeongdong Gugak & Wine Passenger Car
-STR_REFIT_train_configuration_JA_a_Passenger           :{BLACK}train configuration {}{GREEN}Jeongseon Arirang Passenger Car
 STR_REFIT_train_configuration_E_Train_Passenger        :{BLACK}train configuration {}{GREEN}E-Train Passenger Car
-STR_REFIT_train_configuration_Wine_Panax_Passenger     :{BLACK}train configuration {}{GREEN}Wine Panax Passenger Car
-STR_REFIT_train_configuration_Wine_Cinema_Passenger    :{BLACK}train configuration {}{GREEN}Wine Cinema Passenger Car
+STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}train configuration {}{GREEN}Eco Rail Passenger Car
+STR_REFIT_train_configuration_G_Train_New_Passenger    :{BLACK}train configuration {}{GREEN}G-Train Passenger Car
+STR_REFIT_train_configuration_JA_a_Passenger           :{BLACK}train configuration {}{GREEN}Jeongseon Arirang Passenger Car
 STR_REFIT_train_configuration_Lady_Bird_Passenger      :{BLACK}train configuration {}{GREEN}Lady Bird Passenger Car
 STR_REFIT_train_configuration_S_Train_New_Passenger    :{BLACK}train configuration {}{GREEN}S-Train Passenger Car
-STR_REFIT_train_configuration_A_Train_New_Passenger    :{BLACK}train configuration {}{GREEN}A-Train Passenger Car
-STR_REFIT_train_configuration_G_Train_New_Passenger    :{BLACK}train configuration {}{GREEN}G-Train Passenger Car
+STR_REFIT_train_configuration_V_Train_Passenger        :{BLACK}train configuration {}{GREEN}V-Train Passenger Car
+STR_REFIT_train_configuration_Wine_Cinema_Passenger    :{BLACK}train configuration {}{GREEN}Wine Cinema Passenger Car
+STR_REFIT_train_configuration_Wine_Panax_Passenger     :{BLACK}train configuration {}{GREEN}Wine Panax Passenger Car
 STR_REFIT_train_configuration_Mugunhwa_2cc             :{BLACK}train configuration {}{GREEN}Korea Mugunhwa 2cc Passenger vehicles
 STR_REFIT_train_configuration_Mugunghwa_Real           :{BLACK}train configuration {}{GREEN}Korea Mugunhwa Passenger vehicles
 STR_REFIT_train_configuration_Saemaeul_2cc             :{BLACK}train configuration {}{GREEN}Korea Saemaeul 2cc Passenger vehicles
@@ -525,6 +534,9 @@ STR_REFIT_LIVERY_CDC_Baekje_Crown                      : Baekje Crown
 STR_REFIT_LIVERY_CDC_Sea_Old                           : Sea Old
 STR_REFIT_LIVERY_CDC_Sea_New                           : Sea New
 STR_REFIT_LIVERY_CDC_DMZ                               : DMZ-Train
+STR_REFIT_LIVERY_DEL4400_A                             : Old
+STR_REFIT_LIVERY_DEL4400_B                             : New
+STR_REFIT_LIVERY_DEL4400_C                             : V-Train
 STR_REFIT_LIVERY_DEL7000_A                             : DEL7000_A
 STR_REFIT_LIVERY_DEL7000_B                             : DEL7000_B
 STR_REFIT_LIVERY_DEL7000_C                             : DEL7000_C
@@ -676,7 +688,6 @@ STR_REFIT_LIVERY_TGV_R_blueLacroix                     : TGV Reseau Blue & Grey 
 STR_REFIT_LIVERY_TGV_R_carmillon                       : TGV Reseau Carmillon Livery
 STR_REFIT_LIVERY_TGV_POS                               : TGV POS Blue & Grey Livery
 STR_REFIT_LIVERY_TGV_LYAIR                             : TGV POS Lyria Livery
-STR_REFIT_LIVERY_TGV_THALYS                            : TGV PBKA Thalys Livery
 STR_REFIT_LIVERY_TGV_Carmillon                         : TGV POS Carmillon Livery
 STR_REFIT_LIVERY_Renfe_S_100_old                       : Old Livery
 STR_REFIT_LIVERY_Renfe_S_100_new                       : Renewal Livery
