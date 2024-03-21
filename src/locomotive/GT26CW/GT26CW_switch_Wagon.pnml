@@ -1,0 +1,159 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//객차
+switch(FEAT_TRAINS, SELF, sw_GT26CW_engine_1971, cargo_subtype) {
+    1: set_GT26CW_engine_1971_K;
+    2: set_GT26CW_engine_1971_S;
+    set_GT26CW_engine_1971_F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_engine_1995, cargo_subtype) {
+    1: set_GT26CW_engine_1971_K;
+    2: set_GT26CW_engine_1971_S;
+    3: set_GT26CW_engine_1995;
+    set_GT26CW_engine_1971_F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_engine_2005, cargo_subtype) {
+    1: set_GT26CW_engine_1971_K;
+    2: set_GT26CW_engine_1971_S;
+    3: set_GT26CW_engine_1995;
+    4: set_GT26CW_engine_2005;
+    set_GT26CW_engine_1971_F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_engine_2006, cargo_subtype) {
+    1: set_GT26CW_engine_1971_K;
+    2: set_GT26CW_engine_1971_S;
+    3: set_GT26CW_engine_1995;
+    4: set_GT26CW_engine_2005;
+    5: set_GT26CW_engine_2006;
+    set_GT26CW_engine_1971_F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_engine_2008, cargo_subtype) {
+    1: set_GT26CW_engine_1971_K;
+    2: set_GT26CW_engine_1971_S;
+    3: set_GT26CW_engine_1995;
+    4: set_GT26CW_engine_2005;
+    5: set_GT26CW_engine_2006;
+    6: set_GT26CW_engine_2008;
+    set_GT26CW_engine_1971_F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_engine_2012, cargo_subtype) {
+    1: set_GT26CW_engine_1971_K;
+    2: set_GT26CW_engine_1971_S;
+    3: set_GT26CW_engine_1995;
+    4: set_GT26CW_engine_2005;
+    5: set_GT26CW_engine_2006;
+    6: set_GT26CW_engine_2008;
+    7: set_GT26CW_engine_2012;
+    set_GT26CW_engine_1971_F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_engine_2013, cargo_subtype) {
+    1: set_GT26CW_engine_1971_K;
+    2: set_GT26CW_engine_1971_S;
+    3: set_GT26CW_engine_1995;
+    4: set_GT26CW_engine_2005;
+    5: set_GT26CW_engine_2006;
+    6: set_GT26CW_engine_2008;
+    7: set_GT26CW_engine_2012;
+    8: set_GT26CW_engine_2013;
+    set_GT26CW_engine_1971_F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_engine_2015, cargo_subtype) {
+    1: set_GT26CW_engine_1971_K;
+    2: set_GT26CW_engine_1971_S;
+    3: set_GT26CW_engine_1995;
+    4: set_GT26CW_engine_2005;
+    5: set_GT26CW_engine_2006;
+    6: set_GT26CW_engine_2008;
+    7: set_GT26CW_engine_2012;
+    8: set_GT26CW_engine_2013;
+    9: set_GT26CW_engine_2015;
+    set_GT26CW_engine_1971_F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_engine_2018, cargo_subtype) {
+     1: set_GT26CW_engine_1971_K;
+     2: set_GT26CW_engine_1971_S;
+     3: set_GT26CW_engine_1995;
+     4: set_GT26CW_engine_2005;
+     5: set_GT26CW_engine_2006;
+     6: set_GT26CW_engine_2008;
+     7: set_GT26CW_engine_2012;
+     8: set_GT26CW_engine_2013;
+     9: set_GT26CW_engine_2015;
+    10: set_GT26CW_engine_2018;
+    set_GT26CW_engine_1971_F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_engine_2019, cargo_subtype) {
+     1: set_GT26CW_engine_1971_K;
+     2: set_GT26CW_engine_1971_S;
+     3: set_GT26CW_engine_1995;
+     4: set_GT26CW_engine_2005;
+     5: set_GT26CW_engine_2006;
+     6: set_GT26CW_engine_2008;
+     7: set_GT26CW_engine_2012;
+     8: set_GT26CW_engine_2013;
+     9: set_GT26CW_engine_2015;
+    10: set_GT26CW_engine_2018;
+    11: set_GT26CW_engine_2019_1;
+    12: set_GT26CW_engine_2019_2;
+    set_GT26CW_engine_1971_F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_engine_2020, cargo_subtype) {
+     1: set_GT26CW_engine_1971_K;
+     2: set_GT26CW_engine_1971_S;
+     3: set_GT26CW_engine_1995;
+     4: set_GT26CW_engine_2005;
+     5: set_GT26CW_engine_2006;
+     6: set_GT26CW_engine_2008;
+     7: set_GT26CW_engine_2012;
+     8: set_GT26CW_engine_2013;
+     9: set_GT26CW_engine_2015;
+    10: set_GT26CW_engine_2018;
+    11: set_GT26CW_engine_2019_1;
+    12: set_GT26CW_engine_2019_2;
+    13: set_GT26CW_engine_2020;
+    set_GT26CW_engine_1971_F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_enginee_2023, cargo_subtype) {
+     1: set_GT26CW_engine_1971_K;
+     2: set_GT26CW_engine_1971_S;
+     3: set_GT26CW_engine_1995;
+     4: set_GT26CW_engine_2005;
+     5: set_GT26CW_engine_2006;
+     6: set_GT26CW_engine_2008;
+     7: set_GT26CW_engine_2012;
+     8: set_GT26CW_engine_2013;
+     9: set_GT26CW_engine_2015;
+    10: set_GT26CW_engine_2018;
+    11: set_GT26CW_engine_2019_1;
+    12: set_GT26CW_engine_2019_2;
+    13: set_GT26CW_engine_2020;
+    14: set_GT26CW_engine_2023;
+    set_GT26CW_engine_1971_F;
+}
+
+switch(FEAT_TRAINS, SELF, sw_GT26CW_engine, current_year) {
+    0..1994: sw_GT26CW_engine_1971;
+    1995..2004: sw_GT26CW_engine_1995;
+    2005: sw_GT26CW_engine_2005;
+    2006..2007: sw_GT26CW_engine_2006;
+    2008..2011: sw_GT26CW_engine_2008;
+    2012: sw_GT26CW_engine_2012;
+    2013..2014: sw_GT26CW_engine_2013;
+    2015..2017: sw_GT26CW_engine_2015;
+    2018: sw_GT26CW_engine_2018;
+    2019: sw_GT26CW_engine_2019;
+    2020..2022: sw_GT26CW_engine_2020;
+    sw_GT26CW_enginee_2023;
+    }

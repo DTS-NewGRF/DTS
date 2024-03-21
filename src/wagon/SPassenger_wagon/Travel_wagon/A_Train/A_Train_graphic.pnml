@@ -2,40 +2,59 @@
 Graphics
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
-A-Train 신도색
+A-Train 구도색
 --------------------------------------------------------------------*/
-spriteset(set_A_Train_New_1wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train.png") {
+spriteset(set_A_Train_Old_1wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_Old.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_A_Train_New_2wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train.png") {
+spriteset(set_A_Train_Old_2wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_Old.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_A_Train_New_3wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train.png") {
+spriteset(set_A_Train_Old_3wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_Old.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_A_Train_New_4wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train.png") {
+spriteset(set_A_Train_Old_4wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_Old.png") {
+    wagon_1F_F(80, 81)
+}
+
+/*--------------------------------------------------------------------
+A-Train 신도색
+--------------------------------------------------------------------*/
+spriteset(set_A_Train_New_1wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_A_Train_New_2wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_A_Train_New_3wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_A_Train_New_4wagon, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New.png") {
     wagon_1F_F(80, 81)
 }
 
 /*--------------------------------------------------------------------
 A-Train 신도색 32bpp
 --------------------------------------------------------------------*/
-alternative_sprites(set_A_Train_New_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_32bpp.png") {
+alternative_sprites(set_A_Train_New_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New_32bpp.png") {
     wagon_1F_F(80, 0)
 }
 
-alternative_sprites(set_A_Train_New_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_32bpp.png") {
+alternative_sprites(set_A_Train_New_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New_32bpp.png") {
     wagon_1F_F(80, 27)
 }
 
-alternative_sprites(set_A_Train_New_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_32bpp.png") {
+alternative_sprites(set_A_Train_New_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New_32bpp.png") {
     wagon_1F_F(80, 54)
 }
 
-alternative_sprites(set_A_Train_New_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_32bpp.png") {
+alternative_sprites(set_A_Train_New_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New_32bpp.png") {
     wagon_1F_F(80, 81)
 }
 
@@ -43,10 +62,28 @@ alternative_sprites(set_A_Train_New_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, 
 구매정보
 -------------------------------------------------------------------*/
 // 구매차량 그래픽
-spriteset(set_A_Train_New_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train.png"){
+spriteset(set_A_Train_2015_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_Old.png"){
     tmpl_wagon_purchase(0, 0)
 }
 
-alternative_sprites(set_A_Train_New_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_32bpp.png") {
+spriteset(set_A_Train_2022_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New.png"){
     tmpl_wagon_purchase(0, 0)
 }
+
+alternative_sprites(set_A_Train_2022_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/A_Train/A_train_New_32bpp.png") {
+    tmpl_wagon_purchase(0, 0)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_A_Train_2015_purchase, cargo_subtype) {
+    set_A_Train_2015_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_A_Train_2022_purchase, cargo_subtype) {
+    set_A_Train_2022_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_A_Train_purchase, current_year) {
+    0..2021: sw_A_Train_2015_purchase;
+    sw_A_Train_2022_purchase;
+    }

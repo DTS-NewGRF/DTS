@@ -1,106 +1,190 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_TGV_A_purchase, "src_European/locomotive/TGV/TGV_A/TGV_A_blue.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
-1. TGV 아틀랑티크 블루&그레이
+TGV 아틀랑티크 아틀란틱 블루
 --------------------------------------------------------------------*/
-spriteset(set_TGV_A_B_engineH, "src_European/locomotive/TGV/TGV_A/TGV_A_blue.png"){
+spriteset(set_TGV_A_Atlantic_engineH, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
     engine(80, 0)
 }
 
-spriteset(set_TGV_A_B_wagon_start, "src_European/locomotive/TGV/TGV_A/TGV_A_blue.png"){
-    wagon_start(80, 27)
+spriteset(set_TGV_A_Atlantic_engineH_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    engine(80, 27)
 }
 
-spriteset(set_TGV_A_B_wagon_nomal, "src_European/locomotive/TGV/TGV_A/TGV_A_blue.png") {
+spriteset(set_TGV_A_Atlantic_wagon_F1, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_TGV_A_B_wagon_bar, "src_European/locomotive/TGV/TGV_A/TGV_A_blue.png") {
-    wagon_bar(80, 81)
+spriteset(set_TGV_A_Atlantic_wagon_F1_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    wagon_1F_F_r(80, 54)
 }
 
-spriteset(set_TGV_A_B_wagon_special, "src_European/locomotive/TGV/TGV_A/TGV_A_blue.png") {
-    wagon_1F_F(80, 108)
+spriteset(set_TGV_A_Atlantic_wagon_F2, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
 }
 
-spriteset(set_TGV_A_B_wagon_end, "src_European/locomotive/TGV/TGV_A/TGV_A_blue.png"){
-    wagon_start(80, 135)
+spriteset(set_TGV_A_Atlantic_wagon_F2_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
 }
 
-spriteset(set_TGV_A_B_engineT, "src_European/locomotive/TGV/TGV_A/TGV_A_blue.png"){
-    engine(80, 162)
+spriteset(set_TGV_A_Atlantic_wagon_C, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_A_Atlantic_wagon_C_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_A_Atlantic_wagon_T1, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_A_Atlantic_wagon_T1_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_A_Atlantic_wagon_T2, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_TGV_A_Atlantic_wagon_T2_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    wagon_1F_F_r(80, 162)
+}
+
+spriteset(set_TGV_A_Atlantic_engineT_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    engine(80, 189)
+}
+
+spriteset(set_TGV_A_Atlantic_engineT, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    engine(80, 216)
 }
 
 /*--------------------------------------------------------------------
-2. TGV 아틀랑티크 블루&그레이 라크루아
+TGV 아틀랑티크 라크루아
 --------------------------------------------------------------------*/
-spriteset(set_TGV_A_BL_engineH, "src_European/locomotive/TGV/TGV_A/TGV_A_blueL.png"){
+spriteset(set_TGV_A_Lacroix_engineH, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png"){
     engine(80, 0)
 }
 
-spriteset(set_TGV_A_BL_wagon_start, "src_European/locomotive/TGV/TGV_A/TGV_A_blueL.png"){
-    wagon_start(80, 27)
+spriteset(set_TGV_A_Lacroix_engineH_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png"){
+    engine(80, 27)
 }
 
-spriteset(set_TGV_A_BL_wagon_nomal, "src_European/locomotive/TGV/TGV_A/TGV_A_blueL.png") {
+spriteset(set_TGV_A_Lacroix_wagon_F1, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_TGV_A_BL_wagon_bar, "src_European/locomotive/TGV/TGV_A/TGV_A_blueL.png") {
-    wagon_bar(80, 81)
+spriteset(set_TGV_A_Lacroix_wagon_F1_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png"){
+    wagon_1F_F_r(80, 54)
 }
 
-spriteset(set_TGV_A_BL_wagon_special, "src_European/locomotive/TGV/TGV_A/TGV_A_blueL.png") {
-    wagon_1F_F(80, 108)
+spriteset(set_TGV_A_Lacroix_wagon_F2, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
 }
 
-spriteset(set_TGV_A_BL_wagon_end, "src_European/locomotive/TGV/TGV_A/TGV_A_blueL.png"){
-    wagon_start(80, 135)
+spriteset(set_TGV_A_Lacroix_wagon_F2_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
 }
 
-spriteset(set_TGV_A_BL_engineT, "src_European/locomotive/TGV/TGV_A/TGV_A_blueL.png"){
-    engine(80, 162)
+spriteset(set_TGV_A_Lacroix_wagon_C, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_A_Lacroix_wagon_C_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_A_Lacroix_wagon_T1, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_A_Lacroix_wagon_T1_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_A_Lacroix_wagon_T2, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png"){
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_TGV_A_Lacroix_wagon_T2_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png"){
+    wagon_1F_F_r(80, 162)
+}
+
+spriteset(set_TGV_A_Lacroix_engineT_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png"){
+    engine(80, 189)
+}
+
+spriteset(set_TGV_A_Lacroix_engineT, "src_European/locomotive/TGV/TGV_A/TGV_A_Lacroix.png"){
+    engine(80, 216)
 }
 
 /*--------------------------------------------------------------------
-3. TGV 아틀랑티크 카밀론
+TGV 아틀랑티크 카밀론
 --------------------------------------------------------------------*/
-spriteset(set_TGV_A_C_engineH, "src_European/locomotive/TGV/TGV_A/TGV_A_c.png"){
+spriteset(set_TGV_A_Carmillon_engineH, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
     engine(80, 0)
 }
 
-spriteset(set_TGV_A_C_wagon_start, "src_European/locomotive/TGV/TGV_A/TGV_A_c.png"){
-    wagon_start(80, 27)
+spriteset(set_TGV_A_Carmillon_engineH_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    engine(80, 27)
 }
 
-spriteset(set_TGV_A_C_wagon_nomal, "src_European/locomotive/TGV/TGV_A/TGV_A_c.png") {
+spriteset(set_TGV_A_Carmillon_wagon_F1, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_TGV_A_C_wagon_bar, "src_European/locomotive/TGV/TGV_A/TGV_A_c.png") {
-    wagon_bar(80, 81)
+spriteset(set_TGV_A_Carmillon_wagon_F1_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    wagon_1F_F_r(80, 54)
 }
 
-spriteset(set_TGV_A_C_wagon_special, "src_European/locomotive/TGV/TGV_A/TGV_A_c.png") {
-    wagon_1F_F(80, 108)
+spriteset(set_TGV_A_Carmillon_wagon_F2, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
 }
 
-spriteset(set_TGV_A_C_wagon_end, "src_European/locomotive/TGV/TGV_A/TGV_A_c.png"){
-    wagon_start(80, 135)
+spriteset(set_TGV_A_Carmillon_wagon_F2_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
 }
 
-spriteset(set_TGV_A_C_engineT, "src_European/locomotive/TGV/TGV_A/TGV_A_c.png"){
-    engine(80, 162)
+spriteset(set_TGV_A_Carmillon_wagon_C, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_A_Carmillon_wagon_C_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_A_Carmillon_wagon_T1, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_A_Carmillon_wagon_T1_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_A_Carmillon_wagon_T2, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_TGV_A_Carmillon_wagon_T2_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    wagon_1F_F_r(80, 162)
+}
+
+spriteset(set_TGV_A_Carmillon_engineT_r, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    engine(80, 189)
+}
+
+spriteset(set_TGV_A_Carmillon_engineT, "src_European/locomotive/TGV/TGV_A/TGV_A_Carmillon.png"){
+    engine(80, 216)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_TGV_A_purchase, "src_European/locomotive/TGV/TGV_A/TGV_A_Atlantic.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_TGV_A_purchase, cargo_subtype) {
     set_TGV_A_purchase;
 }

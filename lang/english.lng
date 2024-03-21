@@ -383,7 +383,7 @@ STR_Nishitetsu_9000_3Car_NAME                          :[DTS/3Car] Nishitetsu 90
 
 # wagon's name
 STR_Group_Travel_wagon_NAME                            :[DTS] Travel Train
-STR_A_Train_New_NAME                                   :[DTS] A-Train Passenger Car
+STR_A_Train_NAME                                       :[DTS] A-Train Passenger Car
 STR_CY_GW_NAME                                         :[DTS] Chungbuk Yeongdong Gugak & Wine Passenger Car
 STR_E_Train_NAME                                       :[DTS] E-Train Passenger Car
 STR_Group_Eco_Rail_NAME                                :[DTS] Eco Rail Passenger Car
@@ -432,21 +432,6 @@ STR_OBJ_BUFFER                                         :[DTS] Buffers
 STR_OBJ_BUFFER_Concrete                                :[DTS] Concrete Buffers
 STR_OBJ_BUFFER_pebble                                  :[DTS] pebble Buffers
 STR_OBJ_BUFFER_signboard                               :[DTS] Train stopper Gravel track with signboard
-STR_OBJ_Building_New_Update                            :[DTS] New Update
-STR_OBJ_Building                                       :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
-STR_OBJ_Building_Store_CU                              :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
-STR_OBJ_Building_Store_GS25                            :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
-STR_OBJ_Building_Store_Storyway                        :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
-STR_OBJ_Building_Korean_Traditional_House              :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
-STR_OBJ_Building_Train_Deport                          :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
-STR_OBJ_Building_Train_Deport02                        :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
-STR_OBJ_Building_Train_Deport03                        :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
-STR_OBJ_Building_Train_Deport04                        :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
-STR_OBJ_Building_Train_Deport05                        :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
-STR_OBJ_Flag                                           :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
-STR_OBJ_Flag_Korea                                     :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
-STR_OBJ_Pavement                                       :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
-STR_OBJ_Fountain                                       :[Schedule undetermined] Scheduled for deletion after transfer of DTS object set.
 
 # Waypoint's name
 STR_Waypoint                                           :[DTS] NoUse Station
@@ -492,7 +477,7 @@ STR_PARAM_Maintenance_NAME                             :No Maintenance trains al
 STR_PARAM_Maintenance_DESC                             :Please check when using Maintenance trains. (Default: unused)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
-STR_REFIT_train_configuration_A_Train_New_Passenger    :{BLACK}train configuration {}{GREEN}A-Train Passenger Car
+STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}train configuration {}{GREEN}A-Train Passenger Car
 STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}train configuration {}{GREEN}Chungbuk Yeongdong Gugak & Wine Passenger Car
 STR_REFIT_train_configuration_E_Train_Passenger        :{BLACK}train configuration {}{GREEN}E-Train Passenger Car
 STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}train configuration {}{GREEN}Eco Rail Passenger Car
@@ -541,7 +526,8 @@ STR_REFIT_LIVERY_DEL7000_A                             : DEL7000_A
 STR_REFIT_LIVERY_DEL7000_B                             : DEL7000_B
 STR_REFIT_LIVERY_DEL7000_C                             : DEL7000_C
 STR_REFIT_LIVERY_DEL7600                               : Orginal
-STR_REFIT_LIVERY_DEL7600_A_Train                       : A-Train
+STR_REFIT_LIVERY_DEL7600_Old                           : Old
+STR_REFIT_LIVERY_DEL7600_New                           : New
 STR_REFIT_LIVERY_DHC_FF                                : DHC PP First First
 STR_REFIT_LIVERY_DHC_FL_A                              : DHC PP First Last A
 STR_REFIT_LIVERY_DHC_FL_B                              : DHC PP First Last B
@@ -582,15 +568,21 @@ STR_REFIT_LIVERY_FEL_8500_Haerang_train                : Haerang
 STR_REFIT_LIVERY_FEL_8500_S_train                      : S-Train
 STR_REFIT_LIVERY_FEL_8500_V_train                      : V-Train
 STR_REFIT_LIVERY_FEL_8500_Wine_train                   : Wine
-STR_REFIT_LIVERY_GT26CW                                : Passenger, Freight
-STR_REFIT_LIVERY_GT26CW_A                              : Old Color
-STR_REFIT_LIVERY_GT26CW_B                              : First Freight Color
-STR_REFIT_LIVERY_GT26CW_C                              : First Passenger Color
-STR_REFIT_LIVERY_GT26CW_D                              : now Freight Color
-STR_REFIT_LIVERY_GT26CW_CY_GW                          : Chungbuk Yeongdong Gugak & Wine Train
-STR_REFIT_LIVERY_GT26CW_LB                             : Lady Bird
-STR_REFIT_LIVERY_GT26CW_ST                             : S-Train
-STR_REFIT_LIVERY_GT26CW_G                              : G-Train
+STR_REFIT_LIVERY_GT26CW_1971_F                         : Early livery Cargo
+STR_REFIT_LIVERY_GT26CW_1971_K                         : Kwan kwang Ho
+STR_REFIT_LIVERY_GT26CW_1971_S                         : Early livery Passinger
+STR_REFIT_LIVERY_GT26CW_1995                           : Old livery
+STR_REFIT_LIVERY_GT26CW_2005                           : New livery
+STR_REFIT_LIVERY_GT26CW_2006                           : Ladybird
+STR_REFIT_LIVERY_GT26CW_2008                           : RAIL CRUISE HAERANG
+STR_REFIT_LIVERY_GT26CW_2012                           : New livery Cargo
+STR_REFIT_LIVERY_GT26CW_2013                           : Old livery S-train
+STR_REFIT_LIVERY_GT26CW_2015                           : Old livery G-train
+STR_REFIT_LIVERY_GT26CW_2018                           : Chungbuk Yeongdong Gugak & Wine Train
+STR_REFIT_LIVERY_GT26CW_2019_1                         : ASEAN Korea Train (Gugak & Wine)
+STR_REFIT_LIVERY_GT26CW_2019_2                         : ASEAN Korea Train (KORAIL CI)
+STR_REFIT_LIVERY_GT26CW_2020                           : New livery S-train
+STR_REFIT_LIVERY_GT26CW_2023                           : New livery G-train
 STR_REFIT_LIVERY_ITX_CheongChun_A                      : ITX-CheongChun A
 STR_REFIT_LIVERY_ITX_CheongChun_B                      : ITX-CheongChun B
 STR_REFIT_LIVERY_ITX_Maum_4                            : ITX-Maum 4Car
@@ -672,23 +664,18 @@ STR_REFIT_LIVERY_BB15000_Korail                        : Korail
 STR_REFIT_LIVERY_BB15000_En_Voyagee                    : En Voyagee
 STR_REFIT_LIVERY_Eurostar_E300_Old                     : Eurostar Old Livery
 STR_REFIT_LIVERY_Eurostar_E300_New                     : Eurostar New Livery
-STR_REFIT_LIVERY_TGV_Duplex                            : TGV Duplex Blue & Grey Livery
-STR_REFIT_LIVERY_TGV_LYAIR_Duplex                      : TGV Duplex Lyria & Carmillon Livery
-STR_REFIT_LIVERY_TGV_OUIGO_Duplex                      : TGV Duplex OUIGO Livery
-STR_REFIT_LIVERY_TGV_Reseau_Duplex                     : TGV Reseau Duplex Blue & Grey Livery
-STR_REFIT_LIVERY_TGV_Reseau_LYAIR_Duplex               : TGV Reseau Duplex Lyria & Carmillon Livery
+STR_REFIT_LIVERY_TGV_Atlantic                          : Atlantic Blue
+STR_REFIT_LIVERY_TGV_Atlantic_1st                      : 1st Atlantic Blue
+STR_REFIT_LIVERY_TGV_Atlantic_2nd                      : 2nd Atlantic Blue
+STR_REFIT_LIVERY_TGV_Carmillon                         : Carmillon
+STR_REFIT_LIVERY_TGV_Carmillon_1st                     : 1st Carmillon
+STR_REFIT_LIVERY_TGV_Carmillon_2nd                     : 2nd Carmillon
+STR_REFIT_LIVERY_TGV_Lacroix                           : Lacroix
+STR_REFIT_LIVERY_TGV_Lyair                             : Lyria
+STR_REFIT_LIVERY_TGV_Ouigo                             : Ouigo
 STR_REFIT_LIVERY_TGV_Sud_Est_original                  : TGV Sud-Est Orange Livery
 STR_REFIT_LIVERY_TGV_Sud_Est_blue                      : TGV Sud-Est Blue & Grey Livery
 STR_REFIT_LIVERY_TGV_Sud_Est_new                       : TGV Sud-Est Carmillon Livery
-STR_REFIT_LIVERY_TGV_A_blue                            : TGV Atlantique Blue & Grey Livery
-STR_REFIT_LIVERY_TGV_A_blueLacroix                     : TGV Atlantique Blue & Grey Lacroix Livery
-STR_REFIT_LIVERY_TGV_A_carmillon                       : TGV Atlantique Carmillon Livery
-STR_REFIT_LIVERY_TGV_R_blue                            : TGV Reseau Blue & Grey Livery
-STR_REFIT_LIVERY_TGV_R_blueLacroix                     : TGV Reseau Blue & Grey Lacroix Livery
-STR_REFIT_LIVERY_TGV_R_carmillon                       : TGV Reseau Carmillon Livery
-STR_REFIT_LIVERY_TGV_POS                               : TGV POS Blue & Grey Livery
-STR_REFIT_LIVERY_TGV_LYAIR                             : TGV POS Lyria Livery
-STR_REFIT_LIVERY_TGV_Carmillon                         : TGV POS Carmillon Livery
 STR_REFIT_LIVERY_Renfe_S_100_old                       : Old Livery
 STR_REFIT_LIVERY_Renfe_S_100_new                       : Renewal Livery
 STR_REFIT_LIVERY_Renfe_S_130_Alvia                     : Alvia
@@ -1000,6 +987,8 @@ STR_REFIT_LIVERY_Saemaeul_Real_Service_OSF             : Old livery Stream lined
 STR_REFIT_LIVERY_Saemaeul_Real_Service_OSP             : Old livery Stream lined Half-restaurant, room
 STR_REFIT_LIVERY_Saemaeul_Real_Service_NSF             : New livery restaurant
 STR_REFIT_LIVERY_Saemaeul_Real_Service_NSC             : Cafe car
+STR_REFIT_LIVERY_A_Train_Old                           : Old
+STR_REFIT_LIVERY_A_Train_New                           : New
 STR_REFIT_LIVERY_E_Train_Old_Passenger_Car             : E-Train Old
 STR_REFIT_LIVERY_E_Train_New_Passenger_Car             : E-Train New
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car                : Jeongseon Arirang Old Color

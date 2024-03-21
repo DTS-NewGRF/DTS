@@ -49,13 +49,15 @@ item(FEAT_TRAINS, TGV_Reseau_Duplex_10Car, 2079){
         }
 
 	graphics {
-        default:                        sw_TGV_Reseau_Duplex_10car;
+        default:                        sw_TGV_Reseau_Duplex_10car_reversed;
         articulated_part:               sw_articulated_TGV_Reseau_Duplex_10car;
         purchase:                       sw_TGV_Reseau_Duplex_purchase;
         speed:                          sw_TGV_Reseau_Duplex_speed;
+        length:                         sw_TGV_Reseau_Duplex_wagon_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_TGV_Reseau_Duplex_cargo_subtype_text;
+        sound_effect:                   sw_TGV_Reseau_Duplex_sound;
         }
         }

@@ -1,30 +1,13 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_GT26CW_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_GT26CW_A);     // 구도색
-    2: return string(STR_REFIT_LIVERY_GT26CW_B);     // 초기도색 화물
-    3: return string(STR_REFIT_LIVERY_GT26CW_C);     // 초기도색 여객
-    4: return string(STR_REFIT_LIVERY_GT26CW_D);     // 현도색 화물
-    5: return string(STR_REFIT_LIVERY_GT26CW_CY_GW); // 충북영동국악와인열차
-    6: return string(STR_REFIT_LIVERY_GT26CW_LB);    // 레이디 버드
-    7: return string(STR_REFIT_LIVERY_GT26CW_ST);    // S-train
-    8: return string(STR_REFIT_LIVERY_GT26CW_G);     // G-train
-    return string(STR_REFIT_LIVERY_GT26CW);
-}
+//도색
+#include "GT26CW_switch_Year.pnml"
 
-switch(FEAT_TRAINS, SELF, sw_GT26CW_engine, cargo_subtype) {
-    1: set_GT26CW_engine_A;     // 구도색
-    2: set_GT26CW_engine_B;     // 초기도색 화물
-    3: set_GT26CW_engine_C;     // 초기도색 여객
-    4: set_GT26CW_engine_D;     // 현도색 화물
-    5: set_GT26CW_CY_GW_engine; // 충북영동국악와인열차
-    6: set_GT26CW_LB_engine;    // 레이디 버드
-    7: set_GT26CW_ST_engine;    // S-train
-    8: set_GT26CW_G_engine;     // G-train
-    set_GT26CW_engine; 
-}
+//열차
+#include "GT26CW_switch_Wagon.pnml"
 
+//사운드
 switch(FEAT_TRAINS, SELF, sw_GT26CW_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/GT26CWDieselStart.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");

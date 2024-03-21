@@ -3,9 +3,9 @@
 --------------------------------------------------------------------*/
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_TGV_Pos_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_TGV_LYAIR);
+    1: return string(STR_REFIT_LIVERY_TGV_Lyair);
     2: return string(STR_REFIT_LIVERY_TGV_Carmillon);
-    return string(STR_REFIT_LIVERY_TGV_POS);
+    return string(STR_REFIT_LIVERY_TGV_Atlantic);
 }
 
 // 10량

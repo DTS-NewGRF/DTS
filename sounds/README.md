@@ -132,12 +132,18 @@
 ### TGV_Kstart.wav
 - KTX-1
 - TGV-레조
+- TGV-듀플렉스 1세대
+- TGV-레조 듀플렉스
 
 ### TGV_POS_IGBT_start.wav
 - TGV-Pos
+- TGV-듀플렉스 2세대
 
 ### Thyristor_Chopper_Start.wav
 - 부산교통공사 1세대 1000호대
+
+### Thyristor_drive_start.wav
+- TGV 아틀랑티크
 
 ### TOSHIBAGTOJ2start.wav
 - 신칸센 500계 16량

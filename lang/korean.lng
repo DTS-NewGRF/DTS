@@ -382,7 +382,7 @@ STR_Nishitetsu_9000_3Car_NAME                          :[DTS/3량] 니시테츠 
 
 # wagon's name
 STR_Group_Travel_wagon_NAME                            :[DTS] 관광열차
-STR_A_Train_New_NAME                                   :[DTS/4량] A-Train 신도색
+STR_A_Train_NAME                                       :[DTS/4량] A-Train
 STR_CY_GW_NAME                                         :[DTS/6량] 충북영동국악와인
 STR_E_Train_NAME                                       :[DTS/9량] E-Train
 STR_Group_Eco_Rail_NAME                                :[DTS] 에코레일
@@ -428,21 +428,6 @@ STR_OBJ_BUFFER                                         :[DTS] 차막이
 STR_OBJ_BUFFER_Concrete                                :[DTS] 콘크리트 차막이
 STR_OBJ_BUFFER_pebble                                  :[DTS] 자갈 차막이
 STR_OBJ_BUFFER_signboard                               :[DTS] 표지판 차막이
-STR_OBJ_Building_New_Update                            :[DTS] 신규열차진열장
-STR_OBJ_Building                                       :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Store_CU                              :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Store_GS25                            :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Store_Storyway                        :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Korean_Traditional_House              :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Train_Deport                          :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Train_Deport02                        :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Train_Deport03                        :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Train_Deport04                        :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Building_Train_Deport05                        :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Flag                                           :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Flag_Korea                                     :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Pavement                                       :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
-STR_OBJ_Fountain                                       :[2024.2] DTS 오브젝트셋 이관후 삭제예정.
 
 # Waypoint's name
 STR_Waypoint                                           :[DTS] 미사용 승강장
@@ -488,7 +473,7 @@ STR_PARAM_Maintenance_NAME                             :유지보수차량 사�
 STR_PARAM_Maintenance_DESC                             :유지보수차량 사용시 체크하세요. (기본:미사용)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 {RED}(RED)
-STR_REFIT_train_configuration_A_Train_New_Passenger    :{BLACK}열차구성 {}{GREEN}[관광열차] A-Train 신도색
+STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] A-Train
 STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}열차구성 {}{GREEN}[관광열차] 충북국악와인 객차
 STR_REFIT_train_configuration_E_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] E-Train
 STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}열차구성 {}{GREEN}[관광열차] 에코레일 객차
@@ -537,7 +522,8 @@ STR_REFIT_LIVERY_DEL7000_A                             : 초기도색
 STR_REFIT_LIVERY_DEL7000_B                             : 구도색
 STR_REFIT_LIVERY_DEL7000_C                             : 신도색
 STR_REFIT_LIVERY_DEL7600                               : 기본도색
-STR_REFIT_LIVERY_DEL7600_A_Train                       : A-Train
+STR_REFIT_LIVERY_DEL7600_Old                           : 구도색
+STR_REFIT_LIVERY_DEL7600_New                           : 신도색
 STR_REFIT_LIVERY_DHC_FF                                : DHC PP 초기도색 초기형
 STR_REFIT_LIVERY_DHC_FL_A                              : DHC PP 초기도색 후기형 A
 STR_REFIT_LIVERY_DHC_FL_B                              : DHC PP 초기도색 후기형 B
@@ -578,15 +564,21 @@ STR_REFIT_LIVERY_FEL_8500_Haerang_train                : Haerang
 STR_REFIT_LIVERY_FEL_8500_S_train                      : S-Train
 STR_REFIT_LIVERY_FEL_8500_V_train                      : V-Train
 STR_REFIT_LIVERY_FEL_8500_Wine_train                   : Wine
-STR_REFIT_LIVERY_GT26CW                                : 현도색 객화겸용
-STR_REFIT_LIVERY_GT26CW_A                              : 구도색
-STR_REFIT_LIVERY_GT26CW_B                              : 초기도색 화물
-STR_REFIT_LIVERY_GT26CW_C                              : 초기도색 여객
-STR_REFIT_LIVERY_GT26CW_D                              : 현도색 화물
-STR_REFIT_LIVERY_GT26CW_CY_GW                          : 충북영동국악와인
-STR_REFIT_LIVERY_GT26CW_LB                             : 레이디버드
-STR_REFIT_LIVERY_GT26CW_ST                             : S-Train
-STR_REFIT_LIVERY_GT26CW_G                              : G-Train
+STR_REFIT_LIVERY_GT26CW_1971_F                         : 화물 초기도색
+STR_REFIT_LIVERY_GT26CW_1971_K                         : 관광호
+STR_REFIT_LIVERY_GT26CW_1971_S                         : 여객 초기도색
+STR_REFIT_LIVERY_GT26CW_1995                           : 구도색
+STR_REFIT_LIVERY_GT26CW_2005                           : 신도색
+STR_REFIT_LIVERY_GT26CW_2006                           : 레이디버드
+STR_REFIT_LIVERY_GT26CW_2008                           : 레일크루즈 해랑
+STR_REFIT_LIVERY_GT26CW_2012                           : 화물 신도색
+STR_REFIT_LIVERY_GT26CW_2013                           : 남도해양관광열차 구도색
+STR_REFIT_LIVERY_GT26CW_2015                           : 서해금빛열차 구도색
+STR_REFIT_LIVERY_GT26CW_2018                           : 충북영동국악와인열차
+STR_REFIT_LIVERY_GT26CW_2019_1                         : 한-아세안열차 (국악와인랩핑)
+STR_REFIT_LIVERY_GT26CW_2019_2                         : 한-아세안열차 (한국철도공사 CI)
+STR_REFIT_LIVERY_GT26CW_2020                           : 남도해양관광열차 신도색
+STR_REFIT_LIVERY_GT26CW_2023                           : 서해금빛열차 신도색
 STR_REFIT_LIVERY_ITX_CheongChun_A                      : ITX-청춘
 STR_REFIT_LIVERY_ITX_CheongChun_B                      : ITX-청춘 용 랩핑
 STR_REFIT_LIVERY_ITX_Maum_4                            : ITX-마음 4량
@@ -668,23 +660,18 @@ STR_REFIT_LIVERY_BB15000_Korail                        : Korail
 STR_REFIT_LIVERY_BB15000_En_Voyagee                    : En Voyagee
 STR_REFIT_LIVERY_Eurostar_E300_Old                     : 유로스타 구도색
 STR_REFIT_LIVERY_Eurostar_E300_New                     : 유로스타 신도색
-STR_REFIT_LIVERY_TGV_Duplex                            : TGV 듀플렉스 블루 & 그레이 도색
-STR_REFIT_LIVERY_TGV_LYAIR_Duplex                      : TGV 듀플렉스 리리아·카밀론 도색
-STR_REFIT_LIVERY_TGV_OUIGO_Duplex                      : TGV 듀플렉스 위고 도색
-STR_REFIT_LIVERY_TGV_Reseau_Duplex                     : TGV 레조 듀플렉스 블루 & 그레이 도색
-STR_REFIT_LIVERY_TGV_Reseau_LYAIR_Duplex               : TGV 레조 듀플렉스 리리아·카밀론 도색
+STR_REFIT_LIVERY_TGV_Atlantic                          : 아틀란틱 블루
+STR_REFIT_LIVERY_TGV_Atlantic_1st                      : 1세대 아틀란틱 블루
+STR_REFIT_LIVERY_TGV_Atlantic_2nd                      : 2세대 아틀란틱 블루
+STR_REFIT_LIVERY_TGV_Carmillon                         : 카밀론
+STR_REFIT_LIVERY_TGV_Carmillon_1st                     : 1세대 카밀론
+STR_REFIT_LIVERY_TGV_Carmillon_2nd                     : 2세대 카밀론
+STR_REFIT_LIVERY_TGV_Lacroix                           : 라크루아
+STR_REFIT_LIVERY_TGV_Lyair                             : 리라아
+STR_REFIT_LIVERY_TGV_Ouigo                             : 위고
 STR_REFIT_LIVERY_TGV_Sud_Est_original                  : TGV 쉬드-에스트 오렌지 도색
 STR_REFIT_LIVERY_TGV_Sud_Est_blue                      : TGV 쉬드-에스트 블루 & 그레이 도색
 STR_REFIT_LIVERY_TGV_Sud_Est_new                       : TGV 쉬드-에스트 카밀론 도색
-STR_REFIT_LIVERY_TGV_A_blue                            : TGV 아틀랑티크 블루 & 그레이 도색
-STR_REFIT_LIVERY_TGV_A_blueLacroix                     : TGV 아틀랑티크 블루 & 그레이 라크루아 도색
-STR_REFIT_LIVERY_TGV_A_carmillon                       : TGV 아틀랑티크 카밀론 도색
-STR_REFIT_LIVERY_TGV_R_blue                            : TGV 레조 블루 & 그레이 도색
-STR_REFIT_LIVERY_TGV_R_blueLacroix                     : TGV 레조 블루 & 그레이 라크루아 도색
-STR_REFIT_LIVERY_TGV_R_carmillon                       : TGV 레조 카밀론 도색
-STR_REFIT_LIVERY_TGV_POS                               : TGV 포스 블루 & 그레이 도색
-STR_REFIT_LIVERY_TGV_LYAIR                             : TGV 포스 리리아 도색
-STR_REFIT_LIVERY_TGV_Carmillon                         : TGV 포스 카밀론 도색
 STR_REFIT_LIVERY_Renfe_S_100_old                       : 초기 도색
 STR_REFIT_LIVERY_Renfe_S_100_new                       : 리뉴얼 도색
 STR_REFIT_LIVERY_Renfe_S_130_Alvia                     : Alvia
@@ -996,6 +983,8 @@ STR_REFIT_LIVERY_Saemaeul_Real_Service_OSF             : 새마을호 유선형 
 STR_REFIT_LIVERY_Saemaeul_Real_Service_OSP             : 새마을호 유선형 반식반객 구도색
 STR_REFIT_LIVERY_Saemaeul_Real_Service_NSF             : 새마을호 신도색 식당차
 STR_REFIT_LIVERY_Saemaeul_Real_Service_NSC             : 새마을호 카페객차
+STR_REFIT_LIVERY_A_Train_Old                           : 구도색
+STR_REFIT_LIVERY_A_Train_New                           : 신도색
 STR_REFIT_LIVERY_E_Train_Old_Passenger_Car             : E-Train 구도색
 STR_REFIT_LIVERY_E_Train_New_Passenger_Car             : E-Train 신도색
 STR_REFIT_LIVERY_JA_a_Old_Passenger_Car                : 정선아리랑 유람열차 구도색

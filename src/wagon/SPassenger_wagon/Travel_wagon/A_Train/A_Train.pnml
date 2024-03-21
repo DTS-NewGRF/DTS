@@ -10,11 +10,11 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, A_Train_New_Passenger_Car, 2164){
+item (FEAT_TRAINS, A_Train_Passenger_Car, 2164){
     property {
-        name:                           string(STR_A_Train_New_NAME);
+        name:                           string(STR_A_Train_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2022, 1, 1);
+        introduction_date:              date(2015, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         variant_group:                  Travel_wagon;
@@ -47,12 +47,13 @@ item (FEAT_TRAINS, A_Train_New_Passenger_Car, 2164){
     }
 
     graphics {
-        default:                        sw_A_Train_New_wagon;
-        articulated_part:               sw_articulated_A_Train_New_4car;
-        purchase:                       set_A_Train_New_purchase;
+        default:                        sw_A_Train_wagon;
+        articulated_part:               sw_articulated_A_Train_4car;
+        purchase:                       sw_A_Train_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_A_Train_New_Passenger);
+        cargo_subtype_text:             sw_A_Train_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_A_Train_Passenger);
         }
     }

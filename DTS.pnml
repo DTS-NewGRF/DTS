@@ -10,7 +10,7 @@ grf {
     name :                             string(STR_GRF_NAME_WITH_VER);
     desc :                             string(STR_GRF_DESC);
     url :                              string(STR_GRF_URL);
-    version :                          20240312;
+    version :                          20240321;
     min_compatible_version :           20240201;
 	
 	// Parameters 매개변수
@@ -118,6 +118,7 @@ if (European) {
     disable_item(FEAT_TRAINS, 2075); //Renfe_S_130_13Car
     disable_item(FEAT_TRAINS, 2076); //TGV_Duplex_10Car
     disable_item(FEAT_TRAINS, 2077); //TGV_Pos_10Car
+    disable_item(FEAT_TRAINS, 2402); //TGV_Pos_Thalys_10Car
     disable_item(FEAT_TRAINS, 2078); //TGV_Sud_Est_10Car
     disable_item(FEAT_TRAINS, 2079); //TGV_Reseau_Duplex_10Car
     disable_item(FEAT_TRAINS, 2080); //TGV_A_12Car

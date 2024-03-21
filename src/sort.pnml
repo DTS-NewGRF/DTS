@@ -374,7 +374,7 @@ sort(FEAT_TRAINS, [
 
     //객차
     Travel_wagon,                            //2210
-    A_Train_New_Passenger_Car,               //2164
+    A_Train_Passenger_Car,                   //2164
     CY_GW_Passenger_Car,                     //2001
     E_Train_Passenger_Car,                   //2159
     Eco_Rail,                                //2329

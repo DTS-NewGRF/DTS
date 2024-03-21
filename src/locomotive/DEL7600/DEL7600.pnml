@@ -14,7 +14,7 @@ item(FEAT_TRAINS, DEL7600, 2015){
     property {
         name:                           string(STR_DEL7600_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2014, 1, 1);
+        introduction_date:              date(2013, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;

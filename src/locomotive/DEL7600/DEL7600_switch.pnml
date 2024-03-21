@@ -1,15 +1,52 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_DEL7600_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_DEL7600_A_Train); // A-Train
-    return string(STR_REFIT_LIVERY_DEL7600);    // 
+//도색
+switch(FEAT_TRAINS, SELF, sw_DEL7600_2014_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_DEL7600);
+    return CB_RESULT_NO_TEXT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_DEL7600_engine, cargo_subtype) {
-    1: set_DEL7600_A_Train_engine; // A-Train
+switch(FEAT_TRAINS, SELF, sw_DEL7600_2015_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_DEL7600);
+    1: return string(STR_REFIT_LIVERY_DEL7600_Old);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DEL7600_2022_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_DEL7600);
+    1: return string(STR_REFIT_LIVERY_DEL7600_Old);
+    2: return string(STR_REFIT_LIVERY_DEL7600_New);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DEL7600_cargo_subtype_text, current_year) {
+    0..2014: sw_DEL7600_2014_cargo_subtype_text;
+    2015..2021: sw_DEL7600_2015_cargo_subtype_text;
+    sw_DEL7600_2022_cargo_subtype_text;
+    }
+
+//열차
+switch(FEAT_TRAINS, SELF, sw_DEL7600_2014_engine, cargo_subtype) {
     set_DEL7600_engine;
 }
+
+switch(FEAT_TRAINS, SELF, sw_DEL7600_2015_engine, cargo_subtype) {
+    1: set_DEL7600_A_Train_Old_engine;
+    set_DEL7600_engine;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DEL7600_2022_engine, cargo_subtype) {
+    1: set_DEL7600_A_Train_Old_engine;
+    2: set_DEL7600_A_Train_New_engine;
+    set_DEL7600_engine;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DEL7600_engine, current_year) {
+    0..2014: sw_DEL7600_2014_engine;
+    2015..2021: sw_DEL7600_2015_engine;
+    sw_DEL7600_2022_engine;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_DEL7600_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/DEL7600start.wav");
