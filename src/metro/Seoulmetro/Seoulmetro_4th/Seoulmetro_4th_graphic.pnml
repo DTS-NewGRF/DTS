@@ -227,7 +227,7 @@ spriteset(set_Seoulmetro_4th_5000_purchase, "src/metro/Seoulmetro/Seoulmetro_4th
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_Seoulmetro_4th_7000_purchase, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_5000.png"){
+spriteset(set_Seoulmetro_4th_7000_purchase, "src/metro/Seoulmetro/Seoulmetro_4th/Seoulmetro_4th_7000.png"){
     tmpl_purchase(0, 0)
 }
 
