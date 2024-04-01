@@ -49,12 +49,15 @@ item(FEAT_TRAINS, TGV_Sud_Est_10Car, 2078){
         }
 
 	graphics {
-        default:                        sw_TGV_Sud_Est_10car;
+        default:                        sw_TGV_Sud_Est_10car_reversed;
         articulated_part:               sw_articulated_TGV_Sud_Est_10car;
-        purchase:                       sw_TGV_Sud_Est_Orange_purchase;
-        cargo_subtype_text:             sw_TGV_Sud_Est_cargo_subtype_text;
+        purchase:                       sw_TGV_Sud_Est_purchase;
+        speed:                          sw_TGV_Sud_Est_speed;
+        length:                         sw_TGV_TGV_Sud_Est_wagon_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        cargo_subtype_text:             sw_TGV_Sud_Est_cargo_subtype_text;
+        sound_effect:                   sw_TGV_Sud_Est_sound;
         }
         }

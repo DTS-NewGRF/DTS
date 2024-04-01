@@ -49,11 +49,14 @@ item(FEAT_TRAINS, TGV_La_Poste_10Car, 2081){
         }
 
 	graphics {
-        default:                        sw_TGV_La_Poste_10car;
+        default:                        sw_TGV_La_Poste_10car_reversed;
         articulated_part:               sw_articulated_TGV_La_Poste_10car;
         purchase:                       sw_TGV_La_Poste_purchase;
+        speed:                          sw_TGV_La_Poste_speed;
+        length:                         sw_TGV_La_Poste_wagon_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        sound_effect:                   sw_TGV_La_Poste_sound;
         }
         }

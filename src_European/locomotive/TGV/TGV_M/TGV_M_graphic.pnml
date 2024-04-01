@@ -1,37 +1,281 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_TGV_M_purchase, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
-    tmpl_purchase(0, 0)
-}
-
+/*--------------------------------------------------------------------
+TGV-M
+--------------------------------------------------------------------*/
 spriteset(set_TGV_M_engineH, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
     engine(80, 0)
 }
 
-spriteset(set_TGV_M_wagon_start, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
-    wagon_start(80, 27)
+spriteset(set_TGV_M_engineH_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    engine(80, 27)
 }
 
-spriteset(set_TGV_M_wagon, "src_European/locomotive/TGV/TGV_M/TGV_M.png") {
+spriteset(set_TGV_M_wagon_T1, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_TGV_M_wagon_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png") {
-    wagon_1F_F(80, 81)
+spriteset(set_TGV_M_wagon_T1_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_r(80, 54)
 }
 
-spriteset(set_TGV_M_wagon_end, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
-    wagon_start(80, 108)
+spriteset(set_TGV_M_wagon_T2, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_TGV_M_wagon_T2_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_TGV_M_wagon_T3, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_M_wagon_T3_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_M_wagon_C, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_M_wagon_C_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_M_wagon_T4, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_TGV_M_wagon_T4_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_TGV_M_wagon_T5, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_TGV_M_wagon_T5_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_TGV_M_engineT_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    engine(80, 216)
 }
 
 spriteset(set_TGV_M_engineT, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
-    engine(80, 135)
+    engine(80, 243)
+}
+
+/*--------------------------------------------------------------------
+TGV-M Inoui
+--------------------------------------------------------------------*/
+spriteset(set_TGV_M_Inoui_engineH, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_M_Inoui_engineH_r, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    engine(80, 27)
+}
+
+spriteset(set_TGV_M_Inoui_wagon_T1, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_M_Inoui_wagon_T1_r, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_TGV_M_Inoui_wagon_T2, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_TGV_M_Inoui_wagon_T2_r, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_TGV_M_Inoui_wagon_T3, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_M_Inoui_wagon_T3_r, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_M_Inoui_wagon_C, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_M_Inoui_wagon_C_r, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_M_Inoui_wagon_T4, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_TGV_M_Inoui_wagon_T4_r, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_TGV_M_Inoui_wagon_T5, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_TGV_M_Inoui_wagon_T5_r, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_TGV_M_Inoui_engineT_r, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    engine(80, 216)
+}
+
+spriteset(set_TGV_M_Inoui_engineT, "src_European/locomotive/TGV/TGV_M/TGV_M_Inoui.png"){
+    engine(80, 243)
+}
+
+/*--------------------------------------------------------------------
+TGV-M Rame D'essal
+--------------------------------------------------------------------*/
+spriteset(set_TGV_M_Rame_engineH, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_M_Rame_engineH_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    engine(80, 27)
+}
+
+spriteset(set_TGV_M_Rame_wagon_T1, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_M_Rame_wagon_T1_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_TGV_M_Rame_wagon_T2, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_TGV_M_Rame_wagon_T2_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_TGV_M_Rame_wagon_T3, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_M_Rame_wagon_T3_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_TGV_M_Rame_wagon_C, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_M_Rame_wagon_C_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_TGV_M_Rame_wagon_T4, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_TGV_M_Rame_wagon_T4_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_TGV_M_Rame_wagon_T5, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_TGV_M_Rame_wagon_T5_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_TGV_M_Rame_engineT_r, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    engine(80, 216)
+}
+
+spriteset(set_TGV_M_Rame_engineT, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    engine(80, 243)
+}
+
+/*--------------------------------------------------------------------
+TGV-M Rame D'essal 32bpp
+--------------------------------------------------------------------*/
+alternative_sprites(set_TGV_M_Rame_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    engine(80, 0)
+}
+
+alternative_sprites(set_TGV_M_Rame_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    engine(80, 27)
+}
+
+alternative_sprites(set_TGV_M_Rame_wagon_T1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    wagon_1F_F(80, 54)
+}
+
+alternative_sprites(set_TGV_M_Rame_wagon_T1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+alternative_sprites(set_TGV_M_Rame_wagon_T2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
+}
+
+alternative_sprites(set_TGV_M_Rame_wagon_T2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+alternative_sprites(set_TGV_M_Rame_wagon_T3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+alternative_sprites(set_TGV_M_Rame_wagon_T3_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+alternative_sprites(set_TGV_M_Rame_wagon_C, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+alternative_sprites(set_TGV_M_Rame_wagon_C_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+alternative_sprites(set_TGV_M_Rame_wagon_T4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+alternative_sprites(set_TGV_M_Rame_wagon_T4_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+alternative_sprites(set_TGV_M_Rame_wagon_T5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    wagon_1F_F(80, 189)
+}
+
+alternative_sprites(set_TGV_M_Rame_wagon_T5_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    wagon_1F_F_r(80, 189)
+}
+
+alternative_sprites(set_TGV_M_Rame_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    engine(80, 216)
+}
+
+alternative_sprites(set_TGV_M_Rame_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/TGV_M/TGV_M_Rame_Dessai_32bpp.png"){
+    engine(80, 243)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_TGV_M_purchase, "src_European/locomotive/TGV/TGV_M/TGV_M.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_TGV_M_purchase, cargo_subtype) {
     set_TGV_M_purchase;
 }

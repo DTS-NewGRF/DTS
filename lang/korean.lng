@@ -41,8 +41,6 @@ STR_E8600_NAME                                         :[DTS/단량] 8600호대 
 STR_E8600_2Car_NAME                                    :[DTS/2량] 8600호대 전기기관차
 STR_E8600_3Car_NAME                                    :[DTS/3량] 8600호대 전기기관차
 STR_E8600_4Car_NAME                                    :[DTS/4량] 8600호대 전기기관차
-STR_EMU320_8Car_NAME                                   :[DTS/8량] EMU-320
-STR_EMU320_DD_8Car_NAME                                :[DTS/8량] EMU-320 DD
 STR_FEL_8500_NAME                                      :[DTS/단량] 8500호대 전기기관차
 STR_Group_Glory_430_NAME                               :[DTS] Glory 430
 STR_Glory_430_10Car_NAME                               :[DTS/10량] Glory 430
@@ -77,6 +75,8 @@ STR_ITX_Saemaeul_6Car_NAME                             :[DTS/6량] ITX-새마을
 STR_ITX_Saemaeul_8Car_NAME                             :[DTS/8량] ITX-새마을
 STR_ITX_Saemaeul_DD_6Car_NAME                          :[DTS/6량] ITX-새마을 DD
 STR_KTX_1_20Car_NAME                                   :[DTS/20량] KTX-1
+STR_EMU320_8Car_NAME                                   :[DTS/8량] KTX-청룡
+STR_EMU320_DD_8Car_NAME                                :[DTS/8량] KTX-청룡 DD
 STR_KTX_Eum_6Car_NAME                                  :[DTS/6량] KTX-이음
 STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6량] KTX-이음 DD
 STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-산천
@@ -158,7 +158,7 @@ STR_Renfe_S_130_13Car_NAME                             :[DTS/13량] 렌페 S-130
 STR_TGV_A_12Car_NAME                                   :[DTS/12량] TGV 아틀랑티크
 STR_TGV_Duplex_10Car_NAME                              :[DTS/10량] TGV 듀플렉스
 STR_TGV_La_Poste_10Car_NAME                            :[DTS/10량] TGV 라포스트
-STR_TGV_M_10Car_NAME                                   :[DTS/10량] TGV M
+STR_TGV_M_11Car_NAME                                   :[DTS/11량] TGV M
 STR_TGV_R_10Car_NAME                                   :[DTS/10량] TGV 레조
 STR_TGV_Pos_10Car_NAME                                 :[DTS/10량] TGV 포스
 STR_TGV_Pos_Thalys_10Car_NAME                          :[DTS/10량] TGV 포스 탈리스
@@ -325,6 +325,7 @@ STR_Seoulmetro_4th_7000_8Car_NAME                      :[DTS/8량] 서울교통�
 STR_Seoulmetro_4th_2000_10Car_NAME                     :[DTS/10량] 서울교통공사 4세대 2000호대 전동차
 STR_Seoulmetro_4th_4000_10Car_NAME                     :[DTS/10량] 서울교통공사 4세대 4000호대 전동차
 STR_Group_Seoulmetro_5th_NAME                          :[DTS] 서울교통공사 5세대 전동차
+STR_Seoulmetro_5th_2000_6Car_NAME                      :[DTS/6량] 서울교통공사 5세대 2000호대 전동차
 STR_Seoulmetro_5th_5000_8Car_NAME                      :[DTS/8량] 서울교통공사 5세대 5000호대 전동차
 STR_Seoulmetro_5th_7000_8Car_NAME                      :[DTS/8량] 서울교통공사 5세대 7000호대 전동차
 STR_Seoulmetro_5th_4000_10Car_NAME                     :[DTS/10량] 서울교통공사 5세대 4000호대 전동차
@@ -541,20 +542,20 @@ STR_REFIT_LIVERY_DHC_New_Cafe_B                        : DHC PP 신도색 카페
 STR_REFIT_LIVERY_DHC_New_Cafe_C                        : DHC PP 신도색 카페편성 C
 STR_REFIT_LIVERY_DHC_ON                                : DHC PP 구도색+신도색
 STR_REFIT_LIVERY_DHC_NO                                : DHC PP 신도색+구도색
-STR_REFIT_LIVERY_EMU320_CC                             : EMU-320 회사색상
-STR_REFIT_LIVERY_EMU320_BK                             : EMU-320 시안
-STR_REFIT_LIVERY_EMU320_SRT_A                          : EMU-320 SRT 시안 1안
-STR_REFIT_LIVERY_EMU320_SRT_B                          : EMU-320 SRT 시안 2안
-STR_REFIT_LIVERY_EMU320_SRT_C                          : EMU-320 SRT 시안 3안
-STR_REFIT_LIVERY_EMU320_SRT_D                          : EMU-320 SRT 시안 4안
-STR_REFIT_LIVERY_EMU320_SRT_E                          : EMU-320 SRT 시안 5안
-STR_REFIT_LIVERY_EMU320_ICE                            : EMU-320 ICE
-STR_REFIT_LIVERY_EMU320_Euro                           : EMU-320 Euro
-STR_REFIT_LIVERY_EMU320_THRS                           : EMU-320 THRS
-STR_REFIT_LIVERY_EMU320_JR                             : EMU-320 JR
-STR_REFIT_LIVERY_EMU320_DD_CC                          : EMU-320 DD 회사 색상
-STR_REFIT_LIVERY_EMU320_DD_BK                          : EMU-320 DD 검정 도색
-STR_REFIT_LIVERY_EMU320                                : EMU-320
+STR_REFIT_LIVERY_EMU320_CC                             : 회사색상
+STR_REFIT_LIVERY_EMU320_BK                             : 시안
+STR_REFIT_LIVERY_EMU320_SRT_A                          : SRT 시안 1안
+STR_REFIT_LIVERY_EMU320_SRT_B                          : SRT 시안 2안
+STR_REFIT_LIVERY_EMU320_SRT_C                          : SRT 시안 3안
+STR_REFIT_LIVERY_EMU320_SRT_D                          : SRT 시안 4안
+STR_REFIT_LIVERY_EMU320_SRT_E                          : SRT 시안 5안
+STR_REFIT_LIVERY_EMU320_ICE                            : ICE
+STR_REFIT_LIVERY_EMU320_Euro                           : Euro
+STR_REFIT_LIVERY_EMU320_THRS                           : THRS
+STR_REFIT_LIVERY_EMU320_JR                             : JR
+STR_REFIT_LIVERY_EMU320_DD_CC                          : 회사 색상
+STR_REFIT_LIVERY_EMU320_DD_BK                          : 검정 도색
+STR_REFIT_LIVERY_EMU320                                : EMU-320 (개별도색분리진행)
 STR_REFIT_LIVERY_FEL_8500                              : 기본도색
 STR_REFIT_LIVERY_FEL_8500_A_train                      : A-Train
 STR_REFIT_LIVERY_FEL_8500_A_train_New                  : A-Train 신도색
@@ -663,15 +664,19 @@ STR_REFIT_LIVERY_Eurostar_E300_New                     : 유로스타 신도색
 STR_REFIT_LIVERY_TGV_Atlantic                          : 아틀란틱 블루
 STR_REFIT_LIVERY_TGV_Atlantic_1st                      : 1세대 아틀란틱 블루
 STR_REFIT_LIVERY_TGV_Atlantic_2nd                      : 2세대 아틀란틱 블루
+STR_REFIT_LIVERY_TGV_Atlantic_First_2Car               : 아틀란틱 블루 2량 특실
+STR_REFIT_LIVERY_TGV_Atlantic_First_3Car               : 아틀란틱 블루 3량 특실
 STR_REFIT_LIVERY_TGV_Carmillon                         : 카밀론
 STR_REFIT_LIVERY_TGV_Carmillon_1st                     : 1세대 카밀론
 STR_REFIT_LIVERY_TGV_Carmillon_2nd                     : 2세대 카밀론
 STR_REFIT_LIVERY_TGV_Lacroix                           : 라크루아
-STR_REFIT_LIVERY_TGV_Lyair                             : 리라아
+STR_REFIT_LIVERY_TGV_Lyair                             : 리리아
+STR_REFIT_LIVERY_TGV_M                                 : TGV-M
+STR_REFIT_LIVERY_TGV_M_Inoui                           : Inoui
+STR_REFIT_LIVERY_TGV_M_Rame                            : Rame D'Essal
 STR_REFIT_LIVERY_TGV_Ouigo                             : 위고
-STR_REFIT_LIVERY_TGV_Sud_Est_original                  : TGV 쉬드-에스트 오렌지 도색
-STR_REFIT_LIVERY_TGV_Sud_Est_blue                      : TGV 쉬드-에스트 블루 & 그레이 도색
-STR_REFIT_LIVERY_TGV_Sud_Est_new                       : TGV 쉬드-에스트 카밀론 도색
+STR_REFIT_LIVERY_TGV_Sud_Est_Original                  : 오렌지도색
+STR_REFIT_LIVERY_TGV_Sud_Est_Last                      : 라스트런 특별도색
 STR_REFIT_LIVERY_Renfe_S_100_old                       : 초기 도색
 STR_REFIT_LIVERY_Renfe_S_100_new                       : 리뉴얼 도색
 STR_REFIT_LIVERY_Renfe_S_130_Alvia                     : Alvia

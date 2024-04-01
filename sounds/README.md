@@ -144,6 +144,7 @@
 
 ### Thyristor_drive_start.wav
 - TGV 아틀랑티크
+- TGV 쉬드 에스트
 
 ### TOSHIBAGTOJ2start.wav
 - 신칸센 500계 16량

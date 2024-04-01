@@ -92,7 +92,6 @@ sort(FEAT_TRAINS, [
     Seoulmetro_2nd_3000_10Car,               //2296
     Seoulmetro_2nd_10Car,                    //2261
     Seoulmetro_3rd,                          //2289
-    Seoulmetro_3rd_6Car,                     //2290
     Seoulmetro_3rd_8000_6Car,                //2316
     Seoulmetro_3rd_5000_8Car,                //2301
     Seoulmetro_3rd_7000_8Car,                //2314
@@ -107,6 +106,7 @@ sort(FEAT_TRAINS, [
     Seoulmetro_4th_2000_10Car,               //2293
     Seoulmetro_4th_4000_10Car,               //2297
     Seoulmetro_5th,                          //2398
+    Seoulmetro_5th_2000_6Car,                //2229
     Seoulmetro_5th_5000_8Car,                //2401
     Seoulmetro_5th_7000_8Car,                //2303
     Seoulmetro_5th_4000_10Car,               //2399
@@ -308,7 +308,7 @@ sort(FEAT_TRAINS, [
     TGV_A_12Car,                             //2080
     TGV_R_10Car,                             //2154
     TGV_La_Poste_10Car,                      //2081
-    TGV_M_10Car,                             //2082
+    TGV_M_11Car,                             //2082
     Shinkansen_500,                          //2202
     Shinkansen_500_8Car,                     //2086
     Shinkansen_500_16Car,                    //2062

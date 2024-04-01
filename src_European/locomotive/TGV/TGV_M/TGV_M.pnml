@@ -10,9 +10,9 @@ TGV_M
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, TGV_M_10Car, 2082){
+item(FEAT_TRAINS, TGV_M_11Car, 2082){
     property {
-        name:                           string(STR_TGV_M_10Car_NAME);
+        name:                           string(STR_TGV_M_11Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
@@ -33,7 +33,7 @@ item(FEAT_TRAINS, TGV_M_10Car, 2082){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 170;
+        cargo_capacity:                 68;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -49,12 +49,14 @@ item(FEAT_TRAINS, TGV_M_10Car, 2082){
         }
         
     graphics {
-        default:                        sw_TGV_M_10car;
+        default:                        sw_TGV_M_10car_reversed;
         articulated_part:               sw_articulated_TGV_M_10car;
         purchase:                       sw_TGV_M_purchase;
         speed:                          sw_TGV_M_speed;
+        length:                         sw_TGV_M_wagon_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        cargo_subtype_text:             sw_TGV_M_cargo_subtype_text;
         }
         }

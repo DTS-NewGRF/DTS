@@ -1,21 +1,167 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch (FEAT_TRAINS, SELF, sw_TGV_M_10car, position_in_vehid_chain % 10) {
-    1:set_TGV_M_wagon_start;
-    2:set_TGV_M_wagon;
-    3:set_TGV_M_wagon;
-    4:set_TGV_M_wagon;
-    5:set_TGV_M_wagon_r;
-    6:set_TGV_M_wagon_r;
-    7:set_TGV_M_wagon_r;
-    8:set_TGV_M_wagon_end;
-    9:set_TGV_M_engineT;
-    set_TGV_M_engineH; //default
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_TGV_M_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_TGV_M_Inoui);
+    2: return string(STR_REFIT_LIVERY_TGV_M_Rame);
+    return string(STR_REFIT_LIVERY_TGV_M);
+}
+
+// 11량
+switch(FEAT_TRAINS, SELF, sw_TGV_M_engineH, cargo_subtype) {
+    1: set_TGV_M_Inoui_engineH;
+    2: set_TGV_M_Rame_engineH;
+    set_TGV_M_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_T1, cargo_subtype) {
+    1: set_TGV_M_Inoui_wagon_T1;
+    2: set_TGV_M_Rame_wagon_T1;
+    set_TGV_M_wagon_T1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_T2, cargo_subtype) {
+    1: set_TGV_M_Inoui_wagon_T2;
+    2: set_TGV_M_Rame_wagon_T2;
+    set_TGV_M_wagon_T2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_T3, cargo_subtype) {
+    1: set_TGV_M_Inoui_wagon_T3;
+    2: set_TGV_M_Rame_wagon_T3;
+    set_TGV_M_wagon_T3;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_C, cargo_subtype) {
+    1: set_TGV_M_Inoui_wagon_C;
+    2: set_TGV_M_Rame_wagon_C;
+    set_TGV_M_wagon_C;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_T4, cargo_subtype) {
+    1: set_TGV_M_Inoui_wagon_T4;
+    2: set_TGV_M_Rame_wagon_T4;
+    set_TGV_M_wagon_T4;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_T5, cargo_subtype) {
+    1: set_TGV_M_Inoui_wagon_T5;
+    2: set_TGV_M_Rame_wagon_T5;
+    set_TGV_M_wagon_T5;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_engineT, cargo_subtype) {
+    1: set_TGV_M_Inoui_engineT;
+    2: set_TGV_M_Rame_engineT;
+    set_TGV_M_engineT;
+}
+
+// 11량 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_TGV_M_engineH_r, cargo_subtype) {
+    1: set_TGV_M_Inoui_engineH_r;
+    2: set_TGV_M_Rame_engineH_r;
+    set_TGV_M_engineH_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_T1_r, cargo_subtype) {
+    1: set_TGV_M_Inoui_wagon_T1_r;
+    2: set_TGV_M_Rame_wagon_T1_r;
+    set_TGV_M_wagon_T1_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_T2_r, cargo_subtype) {
+    1: set_TGV_M_Inoui_wagon_T2_r;
+    2: set_TGV_M_Rame_wagon_T2_r;
+    set_TGV_M_wagon_T2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_T3_r, cargo_subtype) {
+    1: set_TGV_M_Inoui_wagon_T3_r;
+    2: set_TGV_M_Rame_wagon_T3_r;
+    set_TGV_M_wagon_T3_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_C_r, cargo_subtype) {
+    1: set_TGV_M_Inoui_wagon_C_r;
+    2: set_TGV_M_Rame_wagon_C_r;
+    set_TGV_M_wagon_C_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_T4_r, cargo_subtype) {
+    1: set_TGV_M_Inoui_wagon_T4_r;
+    2: set_TGV_M_Rame_wagon_T4_r;
+    set_TGV_M_wagon_T4_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_T5_r, cargo_subtype) {
+    1: set_TGV_M_Inoui_wagon_T5_r;
+    2: set_TGV_M_Rame_wagon_T5_r;
+    set_TGV_M_wagon_T5_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_engineT_r, cargo_subtype) {
+    1: set_TGV_M_Inoui_engineT_r;
+    2: set_TGV_M_Rame_engineT_r;
+    set_TGV_M_engineT_r;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_TGV_M_10car, position_in_vehid_chain % 11) {
+     1:sw_TGV_M_wagon_T1;
+     2:sw_TGV_M_wagon_T2;
+     3:sw_TGV_M_wagon_T3;
+     4:sw_TGV_M_wagon_C;
+     5:sw_TGV_M_wagon_T4;
+     6:sw_TGV_M_wagon_T4;
+     7:sw_TGV_M_wagon_T4;
+     8:sw_TGV_M_wagon_T4;
+     9:sw_TGV_M_wagon_T5;
+    10:sw_TGV_M_engineT;
+    sw_TGV_M_engineH; //default
     }
 
+switch (FEAT_TRAINS, SELF, sw_TGV_M_10car_r, position_in_vehid_chain % 11) {
+     1:sw_TGV_M_wagon_T5_r;
+     2:sw_TGV_M_wagon_T4_r;
+     3:sw_TGV_M_wagon_T4_r;
+     4:sw_TGV_M_wagon_T4_r;
+     5:sw_TGV_M_wagon_T4_r;
+     6:sw_TGV_M_wagon_C_r;
+     7:sw_TGV_M_wagon_T3_r;
+     8:sw_TGV_M_wagon_T2_r;
+     9:sw_TGV_M_wagon_T1_r;
+    10:sw_TGV_M_engineH_r;
+    sw_TGV_M_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_10car_flipped, vehicle_is_flipped){
+    0: sw_TGV_M_10car_r;
+    sw_TGV_M_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_TGV_M_10car_reversed, vehicle_is_reversed){
+    0: sw_TGV_M_10car;
+    sw_TGV_M_10car_flipped;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_M_wagon_length_in_custom, position_in_vehid_chain % 10) {
+     1: 8;
+     2: 7;
+     3: 7;
+     4: 7;
+     5: 7;
+     6: 7;
+     7: 7;
+     8: 7;
+     9: 8;
+    10: 8;
+    8; //default;
+}
+
+// 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_TGV_M_10car, extra_callback_info1) {
-    1..9: TGV_M_10Car;
+    1..10: TGV_M_11Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
