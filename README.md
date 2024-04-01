@@ -2,12 +2,7 @@
 ![DTS_board](https://github.com/DTS-NewGRF/DTS/blob/minengallery/docs/DTS_board.png)
 **다양성 열차세트**는 <br>
 약 2016년에 [YST set](https://github.com/evepoi/YST)에서 최초로 시작했다.<br>
-2022년 4월 2일 YST에서 열차들이 나라별도 분리된 <br>
-[한국열차세트 플러스](https://github.com/GBLINER/KoreanTrainSet_Plus), [일본열차세트 플러스](https://github.com/GBLINER/JapaneseTrainSet_Plus), [중국열차세트](https://github.com/GBLINER/ChineseTrainSet), 
-[유럽열차세트](https://github.com/GBLINER/EuropeanTrainSet), [세계열차세트](https://github.com/GBLINER/WorldTrainSet), [가상열차세트](https://github.com/GBLINER/VirtualTrainSet)로 파생되었다.<br>
-가상열차세트를 제외한 다른 셋은 여전히 파생셋으로 관리되고 있다.<br>
-`[YST]는 중단되었다.`<br>
-
+2022년 4월 2일 `[YST]는 중단되었다.`<br>
 2023년 5월 `Derivative Train Set 파생형 열차세트 / DTS`로 다시 통합하여 진행을 시작했다.<br>
 2024년 1월 `Diversity Train Set 다양성 열차세트 / DTS`로 이름을 변경하여 다양한 열차들을 수용하는데 적극적으로 추가진행하고 있다.<br>
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
