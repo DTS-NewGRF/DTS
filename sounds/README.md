@@ -138,6 +138,7 @@
 ### TGV_POS_IGBT_start.wav
 - TGV-Pos
 - TGV-듀플렉스 2세대
+- 알 보라크
 
 ### Thyristor_Chopper_Start.wav
 - 부산교통공사 1세대 1000호대

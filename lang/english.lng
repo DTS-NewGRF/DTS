@@ -161,9 +161,9 @@ STR_TGV_La_Poste_10Car_NAME                            :[DTS/10Car] TGV La Poste
 STR_TGV_M_11Car_NAME                                   :[DTS/11Car] TGV M
 STR_TGV_R_10Car_NAME                                   :[DTS/10Car] TGV Reseau
 STR_TGV_Pos_10Car_NAME                                 :[DTS/10Car] TGV Pos
-STR_TGV_Pos_Thalys_10Car_NAME                          :[DTS/10Car] TGV Pos Thalys
 STR_TGV_Reseau_Duplex_10Car_NAME                       :[DTS/10Car] TGV Reseau Duplex
 STR_TGV_Sud_Est_10Car_NAME                             :[DTS/10Car] TGV Sud-Est
+STR_Thalys_PBKA_10Car_NAME                             :[DTS/10Car] Thalys PBKA
 
 # Japanese / locomotive's name
 STR_Kse2_8Car_NAME                                     :[DTS/8Car] Keisei AE series

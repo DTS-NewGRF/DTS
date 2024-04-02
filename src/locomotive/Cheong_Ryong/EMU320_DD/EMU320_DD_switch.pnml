@@ -23,6 +23,11 @@ switch(FEAT_TRAINS, SELF, sw_EMU320_DD_wagon_M2, cargo_subtype) {
     set_EMU320_DD_CC_wagon_M2;
 }
 
+switch(FEAT_TRAINS, SELF, sw_EMU320_DD_wagon_M2_1, cargo_subtype) {
+    1: set_EMU320_DD_BK_wagon_M2_1;     //EMU320_DD_BK
+    set_EMU320_DD_CC_wagon_M2_1;
+}
+
 switch(FEAT_TRAINS, SELF, sw_EMU320_DD_wagon_M3, cargo_subtype) {
     1: set_EMU320_DD_BK_wagon_M3;     //EMU320_DD_BK
     set_EMU320_DD_CC_wagon_M3;
@@ -54,6 +59,11 @@ switch(FEAT_TRAINS, SELF, sw_EMU320_DD_wagon_M2_r, cargo_subtype) {
     set_EMU320_DD_CC_wagon_M2_r;
 }
 
+switch(FEAT_TRAINS, SELF, sw_EMU320_DD_wagon_M2_1_r, cargo_subtype) {
+    1: set_EMU320_DD_BK_wagon_M2_1_r;     //EMU320_DD_BK
+    set_EMU320_DD_CC_wagon_M2_1_r;
+}
+
 switch(FEAT_TRAINS, SELF, sw_EMU320_DD_wagon_M3_r, cargo_subtype) {
     1: set_EMU320_DD_BK_wagon_M3_r;     //EMU320_DD_BK
     set_EMU320_DD_CC_wagon_M3_r;
@@ -75,7 +85,7 @@ switch (FEAT_TRAINS, SELF, sw_EMU320_DD_8car, position_in_vehid_chain % 8) {
     2:sw_EMU320_DD_wagon_M2;
     3:sw_EMU320_DD_wagon_M3;
     4:sw_EMU320_DD_wagon_M2;
-    5:sw_EMU320_DD_wagon_M2;
+    5:sw_EMU320_DD_wagon_M2_1;
     6:sw_EMU320_DD_wagon_M4;
     7:sw_EMU320_DD_engineT;
     sw_EMU320_DD_engineH; //default
@@ -83,7 +93,7 @@ switch (FEAT_TRAINS, SELF, sw_EMU320_DD_8car, position_in_vehid_chain % 8) {
 
 switch (FEAT_TRAINS, SELF, sw_EMU320_DD_8car_r, position_in_vehid_chain % 8) {
     1:sw_EMU320_DD_wagon_M4_r;
-    2:sw_EMU320_DD_wagon_M2_r;
+    2:sw_EMU320_DD_wagon_M2_1_r;
     3:sw_EMU320_DD_wagon_M2_r;
     4:sw_EMU320_DD_wagon_M3_r;
     5:sw_EMU320_DD_wagon_M2_r;

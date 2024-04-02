@@ -33,7 +33,7 @@ item(FEAT_TRAINS, TGV_Sud_Est_10Car, 2078){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 43;
+        cargo_capacity:                 35;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];

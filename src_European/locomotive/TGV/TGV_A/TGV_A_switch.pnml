@@ -150,6 +150,12 @@ switch(FEAT_TRAINS, SELF, sw_TGV_A_wagon_length_in_custom, position_in_vehid_cha
     8; //default;
 }
 
+switch(FEAT_TRAINS, SELF, sw_TGV_A_capacity_in_custom, cargo_subtype) {
+    1: return 40;
+    2: return 38;
+       40;
+}
+
 switch (FEAT_TRAINS, SELF, sw_articulated_TGV_A_wagon_12car, extra_callback_info1) {
     1..11: TGV_A_12Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

@@ -369,6 +369,10 @@ spriteset(set_KTX_Eum_purchase, "src/locomotive/KTX_Eum/KTX_Eum.png"){
     tmpl_purchase(0, 0)
 }
 
+alternative_sprites(set_KTX_Eum_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum/KTX_Eum_32bpp.png", "src/locomotive/KTX_Eum/KTX_Eum_2cc.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_KTX_Eum_purchase, cargo_subtype) {
     set_KTX_Eum_purchase;
 }

@@ -54,6 +54,7 @@ item(FEAT_TRAINS, TGV_A_12Car, 2080){
         purchase:                       sw_TGV_A_purchase;
         speed:                          sw_TGV_A_speed;
         length:                         sw_TGV_A_wagon_length_in_custom;
+        cargo_capacity:                 sw_TGV_A_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

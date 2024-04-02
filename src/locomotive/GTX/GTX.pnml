@@ -33,7 +33,7 @@ item(FEAT_TRAINS, GTX_8Car, 2017){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 72;
+        cargo_capacity:                 133;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];

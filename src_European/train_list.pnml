@@ -20,7 +20,7 @@
 #include "locomotive/TGV/TGV_La_Poste/TGV_La_Poste.pnml"
 #include "locomotive/TGV/TGV_M/TGV_M.pnml"
 #include "locomotive/TGV/TGV_Pos/TGV_Pos.pnml"
-#include "locomotive/TGV/TGV_Pos_Thalys/TGV_Pos_Thalys.pnml"
+#include "locomotive/TGV/Thalys_PBKA/Thalys_PBKA.pnml"
 #include "locomotive/TGV/TGV_R/TGV_R.pnml"
 #include "locomotive/TGV/TGV_Sud_Est/TGV_Sud_Est.pnml"
 #include "locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.pnml"

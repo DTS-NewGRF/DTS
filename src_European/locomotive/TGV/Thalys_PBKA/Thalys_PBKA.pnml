@@ -2,17 +2,17 @@
 TGV Pos
 --------------------------------------------------------------------*/
 // Graphics
-#include "TGV_Pos_Thalys_graphic.pnml"
+#include "Thalys_PBKA_graphic.pnml"
 
 // Switch
-#include "TGV_Pos_Thalys_switch.pnml"
+#include "Thalys_PBKA_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, TGV_Pos_Thalys_10Car, 2402){
+item(FEAT_TRAINS, Thalys_PBKA_10Car, 2402){
     property {
-        name:                           string(STR_TGV_Pos_Thalys_10Car_NAME);
+        name:                           string(STR_Thalys_PBKA_10Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2006, 1, 1);
         track_type:                     ELRL;
@@ -33,7 +33,7 @@ item(FEAT_TRAINS, TGV_Pos_Thalys_10Car, 2402){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 85;
+        cargo_capacity:                 38;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -49,12 +49,14 @@ item(FEAT_TRAINS, TGV_Pos_Thalys_10Car, 2402){
         }
 
 	graphics {
-        default:                        sw_TGV_Pos_Thalys_10car;
-        articulated_part:               sw_articulated_TGV_Pos_Thalys_10car;
-        purchase:                       sw_TGV_Pos_Thalys_purchase;
-        speed:                          sw_TGV_Pos_Thalys_speed;
+        default:                        sw_Thalys_PBKA_10car_reversed;
+        articulated_part:               sw_articulated_Thalys_PBKA_10car;
+        purchase:                       sw_Thalys_PBKA_purchase;
+        speed:                          sw_Thalys_PBKA_speed;
+        length:                         sw_Thalys_PBKA_wagon_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        sound_effect:                   sw_Thalys_PBKA_sound;
         }
         }

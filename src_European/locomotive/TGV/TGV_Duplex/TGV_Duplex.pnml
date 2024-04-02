@@ -33,7 +33,7 @@ item(FEAT_TRAINS, TGV_Duplex_10Car, 2076){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 170;
+        cargo_capacity:                 51;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];

@@ -1,44 +1,96 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Al_Boraq_purchase, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
-1. 알 보라크
+알 보라크
 --------------------------------------------------------------------*/
 spriteset(set_Al_Boraq_engineH, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
     engine(80, 0)
 }
 
-spriteset(set_Al_Boraq_wagon_start, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
-    wagon_start(80, 27)
+spriteset(set_Al_Boraq_engineH_r, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    engine(80, 27)
 }
 
-spriteset(set_Al_Boraq_wagon_nomal, "src_World/locomotive/AL_BORAQ/Al_Boraq.png") {
+spriteset(set_Al_Boraq_wagon_F1, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Al_Boraq_wagon_bar, "src_World/locomotive/AL_BORAQ/Al_Boraq.png") {
-    wagon_bar(80, 81)
+spriteset(set_Al_Boraq_wagon_F1_r, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_r(80, 54)
 }
 
-spriteset(set_Al_Boraq_wagon_special, "src_World/locomotive/AL_BORAQ/Al_Boraq.png") {
-    wagon_1F_F(80, 108)
+spriteset(set_Al_Boraq_wagon_F2, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
 }
 
-spriteset(set_Al_Boraq_wagon_end, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
-    wagon_start(80, 135)
+spriteset(set_Al_Boraq_wagon_F2_r, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_Al_Boraq_wagon_3, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_Al_Boraq_wagon_3_r, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_Al_Boraq_wagon_C4, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_Al_Boraq_wagon_C4_r, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_Al_Boraq_wagon_5, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_Al_Boraq_wagon_5_r, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_Al_Boraq_wagon_6, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 189)
+}
+
+spriteset(set_Al_Boraq_wagon_6_r, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 189)
+}
+
+spriteset(set_Al_Boraq_wagon_7, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 216)
+}
+
+spriteset(set_Al_Boraq_wagon_7_r, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 216)
+}
+
+spriteset(set_Al_Boraq_wagon_8, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F(80, 243)
+}
+
+spriteset(set_Al_Boraq_wagon_8_r, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    wagon_1F_F_r(80, 243)
+}
+
+spriteset(set_Al_Boraq_engineT_r, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    engine(80, 270)
 }
 
 spriteset(set_Al_Boraq_engineT, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
-    engine(80, 162)
+    engine(80, 297)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_Al_Boraq_purchase, "src_World/locomotive/AL_BORAQ/Al_Boraq.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_Al_Boraq_purchase, cargo_subtype) {
     set_Al_Boraq_purchase;
 }

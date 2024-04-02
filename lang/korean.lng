@@ -161,9 +161,9 @@ STR_TGV_La_Poste_10Car_NAME                            :[DTS/10량] TGV 라포�
 STR_TGV_M_11Car_NAME                                   :[DTS/11량] TGV M
 STR_TGV_R_10Car_NAME                                   :[DTS/10량] TGV 레조
 STR_TGV_Pos_10Car_NAME                                 :[DTS/10량] TGV 포스
-STR_TGV_Pos_Thalys_10Car_NAME                          :[DTS/10량] TGV 포스 탈리스
 STR_TGV_Reseau_Duplex_10Car_NAME                       :[DTS/10량] TGV 레조 듀플렉스
 STR_TGV_Sud_Est_10Car_NAME                             :[DTS/10량] TGV 쉬드-에스트
+STR_Thalys_PBKA_10Car_NAME                             :[DTS/10량] 탈리스 PBKA
 
 # Japanese / locomotive's name
 STR_Kse2_8Car_NAME                                     :[DTS/8량] 케이세이 AE형 2세대

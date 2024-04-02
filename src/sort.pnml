@@ -302,7 +302,7 @@ sort(FEAT_TRAINS, [
     Renfe_S_103_8Car,                        //2074
     TGV_Duplex_10Car,                        //2076
     TGV_Pos_10Car,                           //2077
-    TGV_Pos_Thalys_10Car,                    //2402
+    Thalys_PBKA_10Car,                       //2402
     TGV_Sud_Est_10Car,                       //2078
     TGV_Reseau_Duplex_10Car,                 //2079
     TGV_A_12Car,                             //2080

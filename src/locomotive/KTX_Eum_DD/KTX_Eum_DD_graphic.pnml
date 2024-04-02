@@ -28,20 +28,28 @@ spriteset(set_KTX_Eum_DD_wagon_M2_r, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD.png")
     wagon_1F_F_r(80, 108)
 }
 
-spriteset(set_KTX_Eum_DD_wagon_M3, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD.png"){
+spriteset(set_KTX_Eum_DD_wagon_M2_1, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD.png") {
     wagon_1F_F(80, 135)
 }
 
-spriteset(set_KTX_Eum_DD_wagon_M3_r, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD.png"){
+spriteset(set_KTX_Eum_DD_wagon_M2_1_r, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_KTX_Eum_DD_wagon_M3, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD.png"){
     wagon_1F_F(80, 162)
 }
 
+spriteset(set_KTX_Eum_DD_wagon_M3_r, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD.png"){
+    wagon_1F_F(80, 189)
+}
+
 spriteset(set_KTX_Eum_DD_engineT_r, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD.png"){
-    engine(80, 189)
+    engine(80, 216)
 }
 
 spriteset(set_KTX_Eum_DD_engineT, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD.png"){
-    engine(80, 216)
+    engine(80, 243)
 }
 
 /*--------------------------------------------------------------------
@@ -71,20 +79,28 @@ alternative_sprites(set_KTX_Eum_DD_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BP
     wagon_1F_F_r(80, 108)
 }
 
-alternative_sprites(set_KTX_Eum_DD_wagon_M3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_32bpp.png", "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+alternative_sprites(set_KTX_Eum_DD_wagon_M2_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_32bpp.png", "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_2CC.png") {
     wagon_1F_F(80, 135)
 }
 
-alternative_sprites(set_KTX_Eum_DD_wagon_M3_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_32bpp.png", "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+alternative_sprites(set_KTX_Eum_DD_wagon_M2_1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_32bpp.png", "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_2CC.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+alternative_sprites(set_KTX_Eum_DD_wagon_M3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_32bpp.png", "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
     wagon_1F_F(80, 162)
 }
 
+alternative_sprites(set_KTX_Eum_DD_wagon_M3_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_32bpp.png", "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
+    wagon_1F_F(80, 189)
+}
+
 alternative_sprites(set_KTX_Eum_DD_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_32bpp.png", "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
-    engine(80, 189)
+    engine(80, 216)
 }
 
 alternative_sprites(set_KTX_Eum_DD_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_32bpp.png", "src/locomotive/KTX_Eum_DD/KTX_Eum_DD_2CC.png"){
-    engine(80, 216)
+    engine(80, 243)
 }
 
 /*--------------------------------------------------------------------

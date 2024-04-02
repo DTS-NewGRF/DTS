@@ -156,6 +156,12 @@ switch(FEAT_TRAINS, SELF, sw_TGV_R_wagon_length_in_custom, position_in_vehid_cha
     8; //default;
 }
 
+switch(FEAT_TRAINS, SELF, sw_TGV_R_capacity_in_custom, cargo_subtype) {
+    1: return 38;
+    2: return 36;
+       38;
+}
+
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_TGV_R_wagon_10car, extra_callback_info1) {
     1..9: TGV_R_10Car;

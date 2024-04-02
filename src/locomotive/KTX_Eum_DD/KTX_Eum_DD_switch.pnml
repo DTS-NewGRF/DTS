@@ -1,10 +1,11 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_KTX_Eum_DD_6car, position_in_vehid_chain % 6) {
     1:set_KTX_Eum_DD_wagon_M1;
     2:set_KTX_Eum_DD_wagon_M2;
-    3:set_KTX_Eum_DD_wagon_M2;
+    3:set_KTX_Eum_DD_wagon_M2_1;
     4:set_KTX_Eum_DD_wagon_M3;
     5:set_KTX_Eum_DD_engineT;
     set_KTX_Eum_DD_engineH; //default
@@ -12,7 +13,7 @@ switch (FEAT_TRAINS, SELF, sw_KTX_Eum_DD_6car, position_in_vehid_chain % 6) {
 
 switch (FEAT_TRAINS, SELF, sw_KTX_Eum_DD_6car_r, position_in_vehid_chain % 6) {
     1:set_KTX_Eum_DD_wagon_M3_r;
-    2:set_KTX_Eum_DD_wagon_M2_r;
+    2:set_KTX_Eum_DD_wagon_M2_1_r;
     3:set_KTX_Eum_DD_wagon_M2_r;
     4:set_KTX_Eum_DD_wagon_M1_r;
     5:set_KTX_Eum_DD_engineH_r;
@@ -29,11 +30,13 @@ switch(FEAT_TRAINS, PARENT, sw_KTX_Eum_DD_6car_reversed, vehicle_is_reversed){
     sw_KTX_Eum_DD_6car_flipped;
 }
 
+// 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Eum_DD_6car, extra_callback_info1) {
     1..5: KTX_Eum_DD_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
+//사운드
 switch(FEAT_TRAINS, SELF, sw_KTX_Eum_DD_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM1Kstart.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
