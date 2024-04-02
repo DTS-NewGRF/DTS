@@ -1,6 +1,7 @@
 [1.45] 2024.04.02
 [추가]
 - [관광열차] G-Train 구도색, S-Train 구도색 파랑&분홍
+- [KTX-청룡] 실존 차량 별도 추가
 
 [변경]
 - [KTX-청룡] EMU320-> KTX-청룡 이름 변경 / EMU320 DD -> KTX-청룡 DD 이름 변경.
@@ -11,6 +12,7 @@
 - [KTX-이음] 구매그래픽 32bpp 적용
 - [KTX-청룡 DD] 그래픽 수정
 - [관광열차] G-Train, S-Train 신도색 이름 변경 및 그래픽 수정
+- [KTX-청룡] 가상도색 이름 변경, 기존 실존도색 삭제예정(0.60) 공지
 
 [사운드변경]
 - [사운드파일명] TOSHIBAIGBTKStart, Thyristor_drive_start, TGV_POS_IGBT_start
