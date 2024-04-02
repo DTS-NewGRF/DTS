@@ -1,15 +1,73 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch (FEAT_TRAINS, SELF, sw_G_Train_New_wagon, position_in_vehid_chain % 5) {
-    1:set_G_Train_New_2wagon;
-    2:set_G_Train_New_3wagon;
-    3:set_G_Train_New_4wagon;
-    4:set_G_Train_New_4wagon;
-    set_G_Train_New_1wagon; //default
+//도색
+switch(FEAT_TRAINS, SELF, sw_G_Train_2015_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_G_Train_Old);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_G_Train_2023_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_G_Train_Old);
+    1: return string(STR_REFIT_LIVERY_G_Train_New);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_G_Train_cargo_subtype_text, current_year) {
+    0..2022: sw_G_Train_2015_cargo_subtype_text;
+    sw_G_Train_2023_cargo_subtype_text;
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_G_Train_New_5car, extra_callback_info1) {
-    1..4: G_Train_New_Passenger_Car;
+//객차
+switch(FEAT_TRAINS, SELF, sw_G_Train_wagon1, cargo_subtype) {
+    1: set_G_Train_New_1wagon;
+    set_G_Train_Old_1wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_G_Train_wagon2, cargo_subtype) {
+    1: set_G_Train_New_2wagon;
+    set_G_Train_Old_2wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_G_Train_wagon3, cargo_subtype) {
+    1: set_G_Train_New_3wagon;
+    set_G_Train_Old_3wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_G_Train_wagon4, cargo_subtype) {
+    1: set_G_Train_New_4wagon;
+    set_G_Train_Old_4wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_G_Train_wagon5, cargo_subtype) {
+    1: set_G_Train_New_5wagon;
+    set_G_Train_Old_5wagon;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_G_Train_2015, position_in_vehid_chain % 5) {
+    1:set_G_Train_Old_2wagon;
+    2:set_G_Train_Old_3wagon;
+    3:set_G_Train_Old_4wagon;
+    4:set_G_Train_Old_5wagon;
+    set_G_Train_Old_1wagon; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_G_Train_2023, position_in_vehid_chain % 5) {
+    1:sw_G_Train_wagon2;
+    2:sw_G_Train_wagon3;
+    3:sw_G_Train_wagon4;
+    4:sw_G_Train_wagon5;
+    sw_G_Train_wagon1; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_G_Train_wagon, current_year) {
+    0..2022: sw_G_Train_2015;
+    sw_G_Train_2023;
+    }
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_G_Train_5car, extra_callback_info1) {
+    1..4: G_Train;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }

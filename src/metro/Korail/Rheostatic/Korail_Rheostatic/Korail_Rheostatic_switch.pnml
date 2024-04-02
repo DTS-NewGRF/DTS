@@ -4,66 +4,48 @@
 // 도색명
 switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_Korail_Rheostatic_K1000_B);
-    2: return string(STR_REFIT_LIVERY_To_Be_Deleted_202403);
-    3: return string(STR_REFIT_LIVERY_To_Be_Deleted_202403);
     return string(STR_REFIT_LIVERY_Korail_Rheostatic_K1000_A);
 }
 
 // 10량
 switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_engineH, cargo_subtype) {
     1: set_Korail_Rheostatic_K1000_engineH_TC1B;
-    2: set_RS1000_Delete_A;
-    3: set_RS1000_Delete_A;
     set_Korail_Rheostatic_K1000_engineH_TC1A;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_wagon, cargo_subtype) {
     1: set_Korail_Rheostatic_K1000_wagon;
-    2: set_RS1000_Delete_B;
-    3: set_RS1000_Delete_B;
     set_Korail_Rheostatic_K1000_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_panto_wagon, cargo_subtype) {
     1: set_Korail_Rheostatic_K1000_panto_wagon;
-    2: set_RS1000_Delete_B;
-    3: set_RS1000_Delete_B;
     set_Korail_Rheostatic_K1000_panto_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_engineT, cargo_subtype) {
     1: set_Korail_Rheostatic_K1000_engineT_TC2B;
-    2: set_RS1000_Delete_B;
-    3: set_RS1000_Delete_B;
     set_Korail_Rheostatic_K1000_engineT_TC2A;
 }
 
 // 10량 뒤집힘
 switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_engineH_r, cargo_subtype) {
     1: set_Korail_Rheostatic_K1000_engineH_TC1B_r;
-    2: set_RS1000_Delete_A;
-    3: set_RS1000_Delete_A;
     set_Korail_Rheostatic_K1000_engineH_TC1A_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_wagon_r, cargo_subtype) {
     1: set_Korail_Rheostatic_K1000_wagon_r;
-    2: set_RS1000_Delete_B;
-    3: set_RS1000_Delete_B;
     set_Korail_Rheostatic_K1000_wagon_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_panto_wagon_r, cargo_subtype) {
     1: set_Korail_Rheostatic_K1000_panto_wagon_r;
-    2: set_RS1000_Delete_B;
-    3: set_RS1000_Delete_B;
     set_Korail_Rheostatic_K1000_panto_wagon_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_Rheostatic_engineT_r, cargo_subtype) {
     1: set_Korail_Rheostatic_K1000_engineT_TC2B_r;
-    2: set_RS1000_Delete_B;
-    3: set_RS1000_Delete_B;
     set_Korail_Rheostatic_K1000_engineT_TC2A_r;
 }
 

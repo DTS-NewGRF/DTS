@@ -1,0 +1,11 @@
+name: "[계획사항]"
+description: DTS에 추가할 계획사항이 있으십니까?
+title: "[계획사항]"
+labels: "Plan"
+body:
+  - type: textarea
+    attributes:
+      label: 계획사항
+      description: 계획내용을 적어주세요.
+    validations:
+      required: true

@@ -3,8 +3,8 @@
 --------------------------------------------------------------------*/
 //도색
 switch(FEAT_TRAINS, SELF, sw_E_Train_wagon_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_E_Train_Old_Passenger_Car);
-    return string(STR_REFIT_LIVERY_E_Train_New_Passenger_Car);
+    1: return string(STR_REFIT_LIVERY_E_Train_Old);
+    return string(STR_REFIT_LIVERY_E_Train_New);
 }
 
 switch(FEAT_TRAINS, SELF, sw_EDUCATION_1wagon, cargo_subtype) {

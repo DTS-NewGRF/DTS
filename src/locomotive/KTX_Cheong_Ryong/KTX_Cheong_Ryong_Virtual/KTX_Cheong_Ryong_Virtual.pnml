@@ -1,18 +1,18 @@
 /*--------------------------------------------------------------------
-EMU
+KTX-청룡 가상도색
 --------------------------------------------------------------------*/
 // Graphics
-#include "EMU320_graphic.pnml"
+#include "KTX_Cheong_Ryong_Virtual_graphic.pnml"
 
 // Switch
-#include "EMU320_switch.pnml"
+#include "KTX_Cheong_Ryong_Virtual_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, EMU320_8Car, 2022){
+item(FEAT_TRAINS, KTX_Cheong_Ryong_Virtual_8Car, 2022){
     property {
-        name:                           string(STR_EMU320_8Car_NAME);
+        name:                           string(STR_KTX_Cheong_Ryong_Virtual_8Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
@@ -51,12 +51,12 @@ item(FEAT_TRAINS, EMU320_8Car, 2022){
         }
         
     graphics {
-        default:                        sw_EMU320_8car_reversed;
-        articulated_part:               sw_articulated_EMU320_8car;
-        purchase:                       sw_EMU320_purchase;
-        speed:                          sw_EMU320_speed;
+        default:                        sw_KTX_Cheong_Ryong_Virtual_8car_reversed;
+        articulated_part:               sw_articulated_KTX_Cheong_Ryong_Virtual_8car;
+        purchase:                       sw_KTX_Cheong_Ryong_Virtual_purchase;
+        speed:                          sw_KTX_Cheong_Ryong_Virtual_speed;
         loading_speed:                  25;
-        cargo_subtype_text:             sw_EMU320_cargo_subtype_text;
-        sound_effect:                   sw_EMU320_sound;
+        cargo_subtype_text:             sw_KTX_Cheong_Ryong_Virtual_cargo_subtype_text;
+        sound_effect:                   sw_KTX_Cheong_Ryong_Virtual_sound;
         }
         }

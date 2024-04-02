@@ -1,18 +1,18 @@
 /*--------------------------------------------------------------------
-KTX-N
+KTX-청룡 DD
 --------------------------------------------------------------------*/
 // Graphics
-#include "EMU320_DD_graphic.pnml"
+#include "KTX_Cheong_Ryong_DD_graphic.pnml"
 
 // Switch
-#include "EMU320_DD_switch.pnml"
+#include "KTX_Cheong_Ryong_DD_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, EMU320_DD_8Car, 2023){
+item(FEAT_TRAINS, KTX_Cheong_Ryong_DD_8Car, 2023){
     property {
-        name:                           string(STR_EMU320_DD_8Car_NAME);
+        name:                           string(STR_KTX_Cheong_Ryong_DD_8Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
@@ -49,14 +49,14 @@ item(FEAT_TRAINS, EMU320_DD_8Car, 2023){
         }
 
 	graphics {
-        default:                        sw_EMU320_DD_8car_reversed;
-        articulated_part:               sw_articulated_EMU320_DD_8car;
-        purchase:                       sw_EMU320_DD_purchase;
-        speed:                          sw_EMU320_DD_speed;
+        default:                        sw_KTX_Cheong_Ryong_DD_8car_reversed;
+        articulated_part:               sw_articulated_KTX_Cheong_Ryong_DD_8car;
+        purchase:                       sw_KTX_Cheong_Ryong_DD_purchase;
+        speed:                          sw_KTX_Cheong_Ryong_DD_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_EMU320_DD_cargo_subtype_text;
-        sound_effect:                   sw_EMU320_DD_sound;
+        cargo_subtype_text:             sw_KTX_Cheong_Ryong_DD_cargo_subtype_text;
+        sound_effect:                   sw_KTX_Cheong_Ryong_DD_sound;
         }
         }

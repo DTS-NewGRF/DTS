@@ -75,8 +75,9 @@ STR_ITX_Saemaeul_6Car_NAME                             :[DTS/6량] ITX-새마을
 STR_ITX_Saemaeul_8Car_NAME                             :[DTS/8량] ITX-새마을
 STR_ITX_Saemaeul_DD_6Car_NAME                          :[DTS/6량] ITX-새마을 DD
 STR_KTX_1_20Car_NAME                                   :[DTS/20량] KTX-1
-STR_EMU320_8Car_NAME                                   :[DTS/8량] KTX-청룡
-STR_EMU320_DD_8Car_NAME                                :[DTS/8량] KTX-청룡 DD
+STR_KTX_Cheong_Ryong_8Car_NAME                         :[DTS/8량] KTX-청룡
+STR_KTX_Cheong_Ryong_Virtual_8Car_NAME                 :[DTS/8량]{GREEN}[가상] {BLACK}KTX-청룡
+STR_KTX_Cheong_Ryong_DD_8Car_NAME                      :[DTS/8량]{GREEN}[가상] {BLACK}KTX-청룡 DD
 STR_KTX_Eum_6Car_NAME                                  :[DTS/6량] KTX-이음
 STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6량] KTX-이음 DD
 STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-산천
@@ -389,12 +390,12 @@ STR_E_Train_NAME                                       :[DTS/9량] E-Train
 STR_Group_Eco_Rail_NAME                                :[DTS] 에코레일
 STR_Eco_Rail_NAME                                      :[DTS/1량] 에코레일 1Car
 STR_Eco_Rail_5Car_NAME                                 :[DTS/5량] 에코레일 5Car
-STR_G_Train_New_NAME                                   :[DTS/5량] G-Train 신도색
+STR_G_Train_NAME                                        :[DTS/5량] G-Train
 STR_JA_a_NAME                                          :[DTS/단량] 정선아리랑 유람열차
 STR_Lady_Bird_NAME                                     :[DTS/9량] 레이디버드
 STR_Group_S_Train_NAME                                 :[DTS] S-Trian
 STR_S_Train_4Car_NAME                                  :[DTS/4량] S-Train 신도색
-STR_S_Train_5Car_NAME                                  :[DTS/5량] S-Train 신도색
+STR_S_Train_5Car_NAME                                  :[DTS/5량] S-Train
 STR_V_Train_NAME                                       :[DTS/3량] V-Train
 STR_Wine_Cinema_NAME                                   :[DTS/6량] 와인시네마트레인
 STR_Wine_Panax_NAME                                    :[DTS/7량] 와인인삼트레인
@@ -478,10 +479,10 @@ STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}열차구성 {}{GREEN}[관광열차] 충북국악와인 객차
 STR_REFIT_train_configuration_E_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] E-Train
 STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}열차구성 {}{GREEN}[관광열차] 에코레일 객차
-STR_REFIT_train_configuration_G_Train_New_Passenger    :{BLACK}열차구성 {}{GREEN}[관광열차] G-Train 신도색
+STR_REFIT_train_configuration_G_Train                  :{BLACK}열차구성 {}{GREEN}[관광열차] G-Train
 STR_REFIT_train_configuration_JA_a_Passenger           :{BLACK}열차구성 {}{GREEN}[관광열차] 정선아리랑 유람열차
 STR_REFIT_train_configuration_Lady_Bird_Passenger      :{BLACK}열차구성 {}{GREEN}[관광열차] 레이디버드
-STR_REFIT_train_configuration_S_Train_New_Passenger    :{BLACK}열차구성 {}{GREEN}[관광열차] S-Train 신도색
+STR_REFIT_train_configuration_S_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] S-Train
 STR_REFIT_train_configuration_V_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] V-Train
 STR_REFIT_train_configuration_Wine_Cinema_Passenger    :{BLACK}열차구성 {}{GREEN}[관광열차] 와인세네마트레인
 STR_REFIT_train_configuration_Wine_Panax_Passenger     :{BLACK}열차구성 {}{GREEN}[관광열차] 와인인삼트레인
@@ -503,7 +504,7 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}열차구성 {}{GREEN}객차형 승객 차량용
 
 # Deleted / Liveries locomotive
-STR_REFIT_LIVERY_To_Be_Deleted_202403                  : 2024년 3월 삭제예정
+STR_REFIT_LIVERY_To_Be_Deleted_60                      : {RED}DTS 0.60 삭제예정
 
 # Korea / Liveries locomotive
 STR_REFIT_LIVERY_AREX_1000_Old                         : 구도색
@@ -542,20 +543,6 @@ STR_REFIT_LIVERY_DHC_New_Cafe_B                        : DHC PP 신도색 카페
 STR_REFIT_LIVERY_DHC_New_Cafe_C                        : DHC PP 신도색 카페편성 C
 STR_REFIT_LIVERY_DHC_ON                                : DHC PP 구도색+신도색
 STR_REFIT_LIVERY_DHC_NO                                : DHC PP 신도색+구도색
-STR_REFIT_LIVERY_EMU320_CC                             : 회사색상
-STR_REFIT_LIVERY_EMU320_BK                             : 시안
-STR_REFIT_LIVERY_EMU320_SRT_A                          : SRT 시안 1안
-STR_REFIT_LIVERY_EMU320_SRT_B                          : SRT 시안 2안
-STR_REFIT_LIVERY_EMU320_SRT_C                          : SRT 시안 3안
-STR_REFIT_LIVERY_EMU320_SRT_D                          : SRT 시안 4안
-STR_REFIT_LIVERY_EMU320_SRT_E                          : SRT 시안 5안
-STR_REFIT_LIVERY_EMU320_ICE                            : ICE
-STR_REFIT_LIVERY_EMU320_Euro                           : Euro
-STR_REFIT_LIVERY_EMU320_THRS                           : THRS
-STR_REFIT_LIVERY_EMU320_JR                             : JR
-STR_REFIT_LIVERY_EMU320_DD_CC                          : 회사 색상
-STR_REFIT_LIVERY_EMU320_DD_BK                          : 검정 도색
-STR_REFIT_LIVERY_EMU320                                : EMU-320 (개별도색분리진행)
 STR_REFIT_LIVERY_FEL_8500                              : 기본도색
 STR_REFIT_LIVERY_FEL_8500_A_train                      : A-Train
 STR_REFIT_LIVERY_FEL_8500_A_train_New                  : A-Train 신도색
@@ -588,6 +575,21 @@ STR_REFIT_LIVERY_ITX_Maum_8                            : ITX-마음 8량
 STR_REFIT_LIVERY_KTX_1_A                               : KTX-1 특실 3량
 STR_REFIT_LIVERY_KTX_1_B                               : KTX-1 특실 4량
 STR_REFIT_LIVERY_KTX_1_C                               : KTX-1 영화시네마
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_CC                   : 회사색상
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_BK                   : 시안
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_A                : SRT 시안
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_B                : SRT 가상
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_C                : SRT 컨셉 1안
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_D                : SRT 컨셉 2안
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_E                : SRT 컨셉 3안
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_ICE                  : ICE
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_Euro                 : Euro
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_THRS                 : THRS
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_JR                   : JR
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_Eum                  : 이음
+STR_REFIT_LIVERY_KTX_Cheong_Ryong                      : 청룡
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_CC                : 회사 색상
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_BK                : 검정 도색
 STR_REFIT_LIVERY_KTX_Eum_W                             : KTX-이음 시안 2안
 STR_REFIT_LIVERY_KTX_Eum_BK                            : KTX-이음 시안 3안
 STR_REFIT_LIVERY_KTX_Eum_MD                            : KTX-이음 시안
@@ -990,10 +992,15 @@ STR_REFIT_LIVERY_Saemaeul_Real_Service_NSF             : 새마을호 신도색 
 STR_REFIT_LIVERY_Saemaeul_Real_Service_NSC             : 새마을호 카페객차
 STR_REFIT_LIVERY_A_Train_Old                           : 구도색
 STR_REFIT_LIVERY_A_Train_New                           : 신도색
-STR_REFIT_LIVERY_E_Train_Old_Passenger_Car             : E-Train 구도색
-STR_REFIT_LIVERY_E_Train_New_Passenger_Car             : E-Train 신도색
-STR_REFIT_LIVERY_JA_a_Old_Passenger_Car                : 정선아리랑 유람열차 구도색
-STR_REFIT_LIVERY_JA_a_New_Passenger_Car                : 정선아리랑 유람열차 신도색
+STR_REFIT_LIVERY_E_Train_Old                           : 구도색
+STR_REFIT_LIVERY_E_Train_New                           : 신도색
+STR_REFIT_LIVERY_G_Train_Old                           : 구도색
+STR_REFIT_LIVERY_G_Train_New                           : 신도색
+STR_REFIT_LIVERY_JA_a_Old                              : 구도색
+STR_REFIT_LIVERY_JA_a_New                              : 신도색
+STR_REFIT_LIVERY_S_Train_Old_B                         : 구도색 파랑
+STR_REFIT_LIVERY_S_Train_Old_P                         : 구도색 분홍
+STR_REFIT_LIVERY_S_Train_New                           : 신도색
 STR_REFIT_LIVERY_Generatar_2cc                         : 발전차
 STR_REFIT_LIVERY_Generatar_2cc_S1                      : 전망형 발전차 초기도색
 STR_REFIT_LIVERY_Generatar_2cc_L1                      : 장대형 구형 발전차 초기도색

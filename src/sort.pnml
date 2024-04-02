@@ -270,12 +270,13 @@ sort(FEAT_TRAINS, [
     CTX,                                     //2199
     CTX_F_10Car,                             //2026
     CTX_P_10Car,                             //2125
-    EMU320_8Car,                             //2022
-    EMU320_DD_8Car,                          //2023
     HSR_350X,                                //2200
     HSR_350X_7Car,                           //2027
     HSR_350X_14Car,                          //2005
     KTX_1_20Car,                             //2322
+    KTX_Cheong_Ryong_8Car,                   //2229
+    KTX_Cheong_Ryong_Virtual_8Car,           //2022
+    KTX_Cheong_Ryong_DD_8Car,                //2023
     KTX_Sancheon,                            //2317
     KTX_Sancheon_10Car,                      //2024
     KTX_Sancheon_20Car,                      //2319
@@ -338,7 +339,6 @@ sort(FEAT_TRAINS, [
     HEMU_430X,                               //2205
     HEMU_430X_6Car,                          //2028
     HEMU_430X_8Car,                          //2127
-    
     CR400AF,                                 //2206
     CR400AF_8Car,                            //2045
     CR400AF_16Car,                           //2148
@@ -366,7 +366,6 @@ sort(FEAT_TRAINS, [
     VHST_600X,                               //2371
     VHST_600X_8Car,                          //2029
     VHST_600X_16Car,                         //2372
-    
     CRH380AJ_8Car,                           //2044
     Shinkansen_923_7Car,                     //2096
     DFX_10Car,                               //2112
@@ -380,12 +379,12 @@ sort(FEAT_TRAINS, [
     Eco_Rail,                                //2329
     Eco_Rail_Passenger_Car,                  //2157
     Eco_Rail_Passenger_5Car,                 //2330
-    G_Train_New_Passenger_Car,               //2002
+    G_Train,                                 //2002
     JA_A_Passenger_Car,                      //2158
     Lady_Bird_Passenger_Car,                 //2162
     S_Train,                                 //2331
     S_Train_New_4Car,                        //2332
-    S_Train_New_5Car,                        //2163
+    S_Train_5Car,                            //2163
     V_Train_3Car,                            //2397
     Wine_Cinema_Passenger_Car,               //2161
     Wine_Panax_Passenger_Car,                //2160

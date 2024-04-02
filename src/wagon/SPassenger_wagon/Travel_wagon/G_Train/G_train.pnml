@@ -10,11 +10,11 @@
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, G_Train_New_Passenger_Car, 2002){
+item (FEAT_TRAINS, G_Train, 2002){
     property {
-        name:                           string(STR_G_Train_New_NAME);
+        name:                           string(STR_G_Train_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2023, 1, 1);
+        introduction_date:              date(2015, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         variant_group:                  Travel_wagon;
@@ -47,12 +47,13 @@ item (FEAT_TRAINS, G_Train_New_Passenger_Car, 2002){
     }
 
     graphics {
-        default:                        sw_G_Train_New_wagon;
-        articulated_part:               sw_articulated_G_Train_New_5car;
-        purchase:                       set_G_Train_New_purchase;
+        default:                        sw_G_Train_wagon;
+        articulated_part:               sw_articulated_G_Train_5car;
+        purchase:                       sw_G_Train_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_G_Train_New_Passenger);
+        cargo_subtype_text:             sw_G_Train_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_G_Train);
         }
     }

@@ -75,8 +75,9 @@ STR_ITX_Saemaeul_6Car_NAME                             :[DTS/6Car] ITX-Saemaeul
 STR_ITX_Saemaeul_8Car_NAME                             :[DTS/8Car] ITX-Saemaeul
 STR_ITX_Saemaeul_DD_6Car_NAME                          :[DTS/6Car] ITX-Saemaeul DD
 STR_KTX_1_20Car_NAME                                   :[DTS/20Car] TGV-K
-STR_EMU320_8Car_NAME                                   :[DTS/8Car] KTX-Cheong Ryong
-STR_EMU320_DD_8Car_NAME                                :[DTS/8Car] KTX-Cheong Ryong DD
+STR_KTX_Cheong_Ryong_8Car_NAME                         :[DTS/8Car] KTX-Cheong Ryong
+STR_KTX_Cheong_Ryong_Virtual_8Car_NAME                 :[DTS/8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
+STR_KTX_Cheong_Ryong_DD_8Car_NAME                      :[DTS/8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong DD
 STR_KTX_Eum_6Car_NAME                                  :[DTS/6Car] KTX-EUM
 STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6Car] KTX-EUM DD
 STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-Sancheon
@@ -390,7 +391,7 @@ STR_E_Train_NAME                                       :[DTS] E-Train Passenger 
 STR_Group_Eco_Rail_NAME                                :[DTS] Eco Rail Passenger Car
 STR_Eco_Rail_NAME                                      :[DTS] Eco Rail Passenger Car 1Car
 STR_Eco_Rail_5Car_NAME                                 :[DTS] Eco Rail Passenger Car 5Car
-STR_G_Train_New_NAME                                   :[DTS] G-Train Passenger Car
+STR_G_Train_NAME                                       :[DTS] G-Train
 STR_JA_a_NAME                                          :[DTS] Jeongseon Arirang Passenger Car
 STR_Lady_Bird_NAME                                     :[DTS] Lady Bird Passenger Car
 STR_Group_S_Train_NAME                                 :[DTS] S-Trian
@@ -482,10 +483,10 @@ STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}train configurati
 STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}train configuration {}{GREEN}Chungbuk Yeongdong Gugak & Wine Passenger Car
 STR_REFIT_train_configuration_E_Train_Passenger        :{BLACK}train configuration {}{GREEN}E-Train Passenger Car
 STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}train configuration {}{GREEN}Eco Rail Passenger Car
-STR_REFIT_train_configuration_G_Train_New_Passenger    :{BLACK}train configuration {}{GREEN}G-Train Passenger Car
+STR_REFIT_train_configuration_G_Train                  :{BLACK}train configuration {}{GREEN}G-Train
 STR_REFIT_train_configuration_JA_a_Passenger           :{BLACK}train configuration {}{GREEN}Jeongseon Arirang Passenger Car
 STR_REFIT_train_configuration_Lady_Bird_Passenger      :{BLACK}train configuration {}{GREEN}Lady Bird Passenger Car
-STR_REFIT_train_configuration_S_Train_New_Passenger    :{BLACK}train configuration {}{GREEN}S-Train Passenger Car
+STR_REFIT_train_configuration_S_Train_Passenger        :{BLACK}train configuration {}{GREEN}S-Train
 STR_REFIT_train_configuration_V_Train_Passenger        :{BLACK}train configuration {}{GREEN}V-Train Passenger Car
 STR_REFIT_train_configuration_Wine_Cinema_Passenger    :{BLACK}train configuration {}{GREEN}Wine Cinema Passenger Car
 STR_REFIT_train_configuration_Wine_Panax_Passenger     :{BLACK}train configuration {}{GREEN}Wine Panax Passenger Car
@@ -507,7 +508,7 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}train configurati
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}train configuration {}{GREEN}Coach 2F Passenger vehicles
 
 # Deleted / Liveries
-STR_REFIT_LIVERY_To_Be_Deleted_202403                  : To Be Deleted 2024.3
+STR_REFIT_LIVERY_To_Be_Deleted_60                      : {RED} To Be Deleted DTS V0.60
 
 # Korea / Liveries locomotive
 STR_REFIT_LIVERY_AREX_1000_Old                         : Old
@@ -546,20 +547,6 @@ STR_REFIT_LIVERY_DHC_New_Cafe_B                        : DHC PP New Cafe B
 STR_REFIT_LIVERY_DHC_New_Cafe_C                        : DHC PP New Cafe C
 STR_REFIT_LIVERY_DHC_ON                                : DHC PP Old+New
 STR_REFIT_LIVERY_DHC_NO                                : DHC PP New+Old
-STR_REFIT_LIVERY_EMU320_CC                             : Company Colour
-STR_REFIT_LIVERY_EMU320_BK                             : Black Livery
-STR_REFIT_LIVERY_EMU320_SRT_A                          : SRT_A
-STR_REFIT_LIVERY_EMU320_SRT_B                          : SRT_B
-STR_REFIT_LIVERY_EMU320_SRT_C                          : SRT_C
-STR_REFIT_LIVERY_EMU320_SRT_D                          : SRT_D
-STR_REFIT_LIVERY_EMU320_SRT_E                          : SRT_E
-STR_REFIT_LIVERY_EMU320_ICE                            : ICE
-STR_REFIT_LIVERY_EMU320_Euro                           : Euro
-STR_REFIT_LIVERY_EMU320_THRS                           : THRS
-STR_REFIT_LIVERY_EMU320_JR                             : JR
-STR_REFIT_LIVERY_EMU320_DD_CC                          : Company Color
-STR_REFIT_LIVERY_EMU320_DD_BK                          : Black Livery
-STR_REFIT_LIVERY_EMU320                                : EMU-320
 STR_REFIT_LIVERY_FEL_8500                              : Orginal
 STR_REFIT_LIVERY_FEL_8500_A_train                      : A-Train
 STR_REFIT_LIVERY_FEL_8500_A_train_New                  : A-Train New Color
@@ -592,6 +579,21 @@ STR_REFIT_LIVERY_ITX_Maum_8                            : ITX-Maum 8Car
 STR_REFIT_LIVERY_KTX_1_A                               : KTX-1 A
 STR_REFIT_LIVERY_KTX_1_B                               : KTX-1 B
 STR_REFIT_LIVERY_KTX_1_C                               : KTX-1 C
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_CC                   : Company Colour
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_BK                   : Black Livery
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_A                : SRT_A
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_B                : SRT_B
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_C                : SRT_C
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_D                : SRT_D
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_E                : SRT_E
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_ICE                  : ICE
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_Euro                 : Euro
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_THRS                 : THRS
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_JR                   : JR
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_Eum                  : KTX-Eum
+STR_REFIT_LIVERY_KTX_Cheong_Ryong                      : KTX-Cheong Ryong
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_CC                : Company Color
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_BK                : Black Livery
 STR_REFIT_LIVERY_KTX_Eum_W                             : KTX-Eum White Livery
 STR_REFIT_LIVERY_KTX_Eum_BK                            : KTX-Eum Black Livery
 STR_REFIT_LIVERY_KTX_Eum_MD                            : KTX-Eum Prototype Livery
@@ -994,10 +996,15 @@ STR_REFIT_LIVERY_Saemaeul_Real_Service_NSF             : New livery restaurant
 STR_REFIT_LIVERY_Saemaeul_Real_Service_NSC             : Cafe car
 STR_REFIT_LIVERY_A_Train_Old                           : Old
 STR_REFIT_LIVERY_A_Train_New                           : New
-STR_REFIT_LIVERY_E_Train_Old_Passenger_Car             : E-Train Old
-STR_REFIT_LIVERY_E_Train_New_Passenger_Car             : E-Train New
-STR_REFIT_LIVERY_JA_a_Old_Passenger_Car                : Jeongseon Arirang Old Color
-STR_REFIT_LIVERY_JA_a_New_Passenger_Car                : Jeongseon Arirang New Color
+STR_REFIT_LIVERY_E_Train_Old                           : Old
+STR_REFIT_LIVERY_E_Train_New                           : New
+STR_REFIT_LIVERY_G_Train_Old                           : Old
+STR_REFIT_LIVERY_G_Train_New                           : New
+STR_REFIT_LIVERY_JA_a_Old                              : Old
+STR_REFIT_LIVERY_JA_a_New                              : New
+STR_REFIT_LIVERY_S_Train_Old_B                         : Old Blue
+STR_REFIT_LIVERY_S_Train_Old_P                         : Old Pink
+STR_REFIT_LIVERY_S_Train_New                           : New
 STR_REFIT_LIVERY_Generatar_2cc                         : Generatar Car
 STR_REFIT_LIVERY_Generatar_2cc_S1                      : Early livery Overview car
 STR_REFIT_LIVERY_Generatar_2cc_L1                      : Early livery Long length Old car

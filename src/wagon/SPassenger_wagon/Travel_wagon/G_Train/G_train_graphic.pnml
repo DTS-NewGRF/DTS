@@ -1,23 +1,49 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_G_Train_New_1wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train.png") {
+/*--------------------------------------------------------------------
+구도색
+--------------------------------------------------------------------*/
+spriteset(set_G_Train_Old_1wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_Old.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_G_Train_New_2wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train.png") {
+spriteset(set_G_Train_Old_2wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_Old.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_G_Train_New_3wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train.png") {
+spriteset(set_G_Train_Old_3wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_Old.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_G_Train_New_4wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train.png") {
+spriteset(set_G_Train_Old_4wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_Old.png") {
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_G_Train_New_5wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train.png") {
+spriteset(set_G_Train_Old_5wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_Old.png") {
+    wagon_1F_F(80, 108)
+}
+
+/*--------------------------------------------------------------------
+신도색
+--------------------------------------------------------------------*/
+spriteset(set_G_Train_New_1wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_New.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_G_Train_New_2wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_New.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_G_Train_New_3wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_New.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_G_Train_New_4wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_New.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_G_Train_New_5wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_New.png") {
     wagon_1F_F(80, 108)
 }
 
@@ -25,6 +51,24 @@ spriteset(set_G_Train_New_5wagon, "src/wagon/SPassenger_wagon/Travel_wagon/G_Tra
 구매정보
 -------------------------------------------------------------------*/
 // 구매차량 그래픽
-spriteset(set_G_Train_New_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train.png"){
+spriteset(set_G_Train_Old_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_Old.png"){
     tmpl_wagon_purchase(0, 0)
 }
+
+spriteset(set_G_Train_New_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/G_Train/G_train_New.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_G_Train_2015_purchase, cargo_subtype) {
+    set_G_Train_Old_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_G_Train_2023_purchase, cargo_subtype) {
+    set_G_Train_New_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_G_Train_purchase, current_year) {
+    0..2022: sw_G_Train_2015_purchase;
+    sw_G_Train_2023_purchase;
+    }
