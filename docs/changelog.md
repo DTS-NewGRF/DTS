@@ -1,4 +1,4 @@
-[1.45] 2024.04.02
+[1.45] 2024.04.05
 [추가]
 - [관광열차] G-Train 구도색, S-Train 구도색 파랑&분홍
 - [KTX-청룡] 실존 차량 별도 추가
@@ -13,6 +13,7 @@
 - [KTX-청룡 DD] 그래픽 수정
 - [관광열차] G-Train, S-Train 신도색 이름 변경 및 그래픽 수정
 - [KTX-청룡] 가상도색 이름 변경, 기존 실존도색 삭제예정(0.60) 공지
+- [TGV] 레조 라크루아 그래픽 오류 수정
 
 [사운드변경]
 - [사운드파일명] TOSHIBAIGBTKStart, Thyristor_drive_start, TGV_POS_IGBT_start
