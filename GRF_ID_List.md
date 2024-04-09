@@ -39,8 +39,7 @@ Korail_3rd_G2_4car,                      //2223
 Korail_3rd_6car,                         //2224
 Korail_3rd_8car,                         //2225
 Korail_3rd_10car,                        //2226
-|2183|[그룹명] Korail_4th <br>
-|GRFID|열차명||
+|2183|[그룹명] Korail_4th|GRFID|열차명||
 |||:---:|:---||
 |||2139|Korail_392000_2Car||
 |2030|Korail_4th_G1_4Car|
