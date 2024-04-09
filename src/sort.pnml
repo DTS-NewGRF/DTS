@@ -106,7 +106,7 @@ sort(FEAT_TRAINS, [
     Seoulmetro_4th_2000_10Car,               //2293
     Seoulmetro_4th_4000_10Car,               //2297
     Seoulmetro_5th,                          //2398
-    Seoulmetro_5th_2000_6Car,                //2229
+    Seoulmetro_5th_2000_6Car,                //2290
     Seoulmetro_5th_5000_8Car,                //2401
     Seoulmetro_5th_7000_8Car,                //2303
     Seoulmetro_5th_4000_10Car,               //2399
@@ -198,13 +198,21 @@ sort(FEAT_TRAINS, [
     ITX_Maum_4Car,                           //2166
     ITX_Maum_6Car,                           //2010
     ITX_Maum_8Car,                           //2131
+    ITX_Maum_10Car,                          //2238
+    ITX_Maum_4_6Car,                         //2258
+    ITX_Maum_6_4Car,                         //2259
+    ITX_Maum_DD,                             //2262
+    ITX_Maum_DD_4Car,                        //2311
     ITX_Maum_DD_6Car,                        //2011
     ITX_Saemaeul,                            //2326
     ITX_Saemaeul_6Car,                       //2327
     ITX_Saemaeul_8Car,                       //2328
+    ITX_Saemaeul_DD,                         //2231
     ITX_Saemaeul_DD_6Car,                    //2013
+    ITX_Saemaeul_DD_8Car,                    //2233
     MEL_150,                                 //2191
     MEL_150_4Car,                            //2136
+    MEL_150_6Car,                            //2236
     MEL_150_8Car,                            //2165
     MEL_150_10Car,                           //2137
     MEL_150_12Car,                           //2138
@@ -374,6 +382,7 @@ sort(FEAT_TRAINS, [
     //객차
     Travel_wagon,                            //2210
     A_Train_Passenger_Car,                   //2164
+    Asean_Korea,                             //2318
     CY_GW_Passenger_Car,                     //2001
     E_Train_Passenger_Car,                   //2159
     Eco_Rail,                                //2329

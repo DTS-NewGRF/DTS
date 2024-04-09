@@ -44,13 +44,13 @@ item(FEAT_TRAINS, ITX_Chowol_8Car, 2018){
         running_cost_base:              RUNNING_COST_DIESEL;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
 
 	graphics {
-        default:                        sw_ITX_Chowol_8car;
-        articulated_part:               sw_articulated_ITX_Chowol_8car;
+        default:                        sw_ITX_Chowol_8car_reversed;
+        articulated_part:               sw_articulated_sw_ITX_Chowol_8car;
         purchase:                       sw_ITX_Chowol_purchase;
         speed:                          sw_ITX_Chowol_speed;
         loading_speed:                  25;

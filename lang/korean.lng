@@ -69,11 +69,18 @@ STR_Group_ITX_Maum_NAME                                :[DTS] ITX-마음
 STR_ITX_Maum_4Car_NAME                                 :[DTS/4량] ITX-마음
 STR_ITX_Maum_6Car_NAME                                 :[DTS/6량] ITX-마음
 STR_ITX_Maum_8Car_NAME                                 :[DTS/8량] ITX-마음
+STR_ITX_Maum_10Car_NAME                                :[DTS/10량] ITX-마음
+STR_ITX_Maum_4_6Car_NAME                               :[DTS/4+6량] ITX-마음
+STR_ITX_Maum_6_4Car_NAME                               :[DTS/6+4량] ITX-마음
+STR_Group_ITX_Maum_DD_NAME                             :[DTS] ITX-마음 DD
+STR_ITX_Maum_DD_4Car_NAME                              :[DTS/4량] ITX-마음 DD
 STR_ITX_Maum_DD_6Car_NAME                              :[DTS/6량] ITX-마음 DD
 STR_Group_ITX_Saemaeul_NAME                            :[DTS] ITX-새마을
 STR_ITX_Saemaeul_6Car_NAME                             :[DTS/6량] ITX-새마을
 STR_ITX_Saemaeul_8Car_NAME                             :[DTS/8량] ITX-새마을
+STR_Group_ITX_Saemaeul_DD_NAME                         :[DTS] ITX-새마을 DD
 STR_ITX_Saemaeul_DD_6Car_NAME                          :[DTS/6량] ITX-새마을 DD
+STR_ITX_Saemaeul_DD_8Car_NAME                          :[DTS/8량] ITX-새마을 DD
 STR_KTX_1_20Car_NAME                                   :[DTS/20량] KTX-1
 STR_KTX_Cheong_Ryong_8Car_NAME                         :[DTS/8량] KTX-청룡
 STR_KTX_Cheong_Ryong_Virtual_8Car_NAME                 :[DTS/8량]{GREEN}[가상] {BLACK}KTX-청룡
@@ -86,6 +93,7 @@ STR_KTX_Sancheon_20Car_NAME                            :[DTS/20량] KTX-산천 �
 STR_KTX_Sancheon_DD_10Car_NAME                         :[DTS/10량] KTX-산천 DD
 STR_Group_MEL_150_NAME                                 :[DTS] MEL-150
 STR_MEL_150_4Car_NAME                                  :[DTS/4량] MEL-150
+STR_MEL_150_6Car_NAME                                  :[DTS/6량] MEL-150
 STR_MEL_150_8Car_NAME                                  :[DTS/8량] MEL-150
 STR_MEL_150_10Car_NAME                                 :[DTS/10량] MEL-150
 STR_MEL_150_12Car_NAME                                 :[DTS/12량] MEL-150
@@ -385,6 +393,7 @@ STR_Nishitetsu_9000_3Car_NAME                          :[DTS/3량] 니시테츠 
 # wagon's name
 STR_Group_Travel_wagon_NAME                            :[DTS] 관광열차
 STR_A_Train_NAME                                       :[DTS/4량] A-Train
+STR_Asean_Korea_NAME                                   :[DTS/7량] 한-아세안
 STR_CY_GW_NAME                                         :[DTS/6량] 충북영동국악와인
 STR_E_Train_NAME                                       :[DTS/9량] E-Train
 STR_Group_Eco_Rail_NAME                                :[DTS] 에코레일
@@ -476,6 +485,7 @@ STR_PARAM_Maintenance_DESC                             :유지보수차량 사�
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 {RED}(RED)
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] A-Train
+STR_REFIT_train_configuration_Asean_Korea              :{BLACK}열차구성 {}{GREEN}[관광열차] 한-아세안
 STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}열차구성 {}{GREEN}[관광열차] 충북국악와인 객차
 STR_REFIT_train_configuration_E_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] E-Train
 STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}열차구성 {}{GREEN}[관광열차] 에코레일 객차
@@ -588,6 +598,7 @@ STR_REFIT_LIVERY_KTX_Cheong_Ryong_THRS                 : THRS
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_JR                   : JR
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_Eum                  : 이음
 STR_REFIT_LIVERY_KTX_Cheong_Ryong                      : 청룡
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD                   : 청룡
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_CC                : 회사 색상
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_BK                : 검정 도색
 STR_REFIT_LIVERY_KTX_Eum_W                             : KTX-이음 시안 2안

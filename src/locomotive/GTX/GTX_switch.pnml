@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_GTX_8car, position_in_vehid_chain % 8) {
     1:set_GTX_wagon;
     2:set_GTX_panto_wagon;
@@ -12,14 +13,16 @@ switch (FEAT_TRAINS, SELF, sw_GTX_8car, position_in_vehid_chain % 8) {
     set_GTX_engineH; //default
     }
 
+// 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_GTX_8car, extra_callback_info1) {
     1..7: GTX_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
+// 사운드
 switch(FEAT_TRAINS, SELF, sw_GTX_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBASicStart.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/BTC_DOOR_CLOSE.wav");
     return CB_RESULT_NO_SOUND;
     }
 

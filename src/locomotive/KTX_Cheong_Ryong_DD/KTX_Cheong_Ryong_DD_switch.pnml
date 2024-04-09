@@ -3,80 +3,95 @@
 --------------------------------------------------------------------*/
 //도색명
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_BK);  //EMU320_DD_BK
-    return string(STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_CC);
+    1: return string(STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_BK);
+    2: return string(STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_CC);
+    return string(STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD);
 }
 
 // 8량
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_engineH, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_engineH;
-    set_KTX_Cheong_Ryong_DD_CC_engineH;
+    2: set_KTX_Cheong_Ryong_DD_CC_engineH;
+    set_KTX_Cheong_Ryong_DD_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M1, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_wagon_M1;
-    set_KTX_Cheong_Ryong_DD_CC_wagon_M1;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M1;
+    set_KTX_Cheong_Ryong_DD_wagon_M1;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M2, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_wagon_M2;
-    set_KTX_Cheong_Ryong_DD_CC_wagon_M2;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M2;
+    set_KTX_Cheong_Ryong_DD_wagon_M2;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M2_1, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_wagon_M2_1;
-    set_KTX_Cheong_Ryong_DD_CC_wagon_M2_1;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M2_1;
+    set_KTX_Cheong_Ryong_DD_wagon_M2_1;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M3, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_wagon_M3;
-    set_KTX_Cheong_Ryong_DD_CC_wagon_M3;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M3;
+    set_KTX_Cheong_Ryong_DD_wagon_M3;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M4, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_wagon_M4;
-    set_KTX_Cheong_Ryong_DD_CC_wagon_M4;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M4;
+    set_KTX_Cheong_Ryong_DD_wagon_M4;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_engineT, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_engineT;
-    set_KTX_Cheong_Ryong_DD_CC_engineT;
+    2: set_KTX_Cheong_Ryong_DD_CC_engineT;
+    set_KTX_Cheong_Ryong_DD_engineT;
 }
 
 // 8량 뒤집힘
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_engineH_r, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_engineH_r;
-    set_KTX_Cheong_Ryong_DD_CC_engineH_r;
+    2: set_KTX_Cheong_Ryong_DD_CC_engineH_r;
+    set_KTX_Cheong_Ryong_DD_engineH_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M1_r, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_wagon_M1_r;
-    set_KTX_Cheong_Ryong_DD_CC_wagon_M1_r;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M1_r;
+    set_KTX_Cheong_Ryong_DD_wagon_M1_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M2_r, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_wagon_M2_r;
-    set_KTX_Cheong_Ryong_DD_CC_wagon_M2_r;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M2_r;
+    set_KTX_Cheong_Ryong_DD_wagon_M2_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M2_1_r, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_wagon_M2_1_r;
-    set_KTX_Cheong_Ryong_DD_CC_wagon_M2_1_r;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M2_1_r;
+    set_KTX_Cheong_Ryong_DD_wagon_M2_1_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M3_r, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_wagon_M3_r;
-    set_KTX_Cheong_Ryong_DD_CC_wagon_M3_r;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M3_r;
+    set_KTX_Cheong_Ryong_DD_wagon_M3_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_wagon_M4_r, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_wagon_M4_r;
-    set_KTX_Cheong_Ryong_DD_CC_wagon_M4_r;
+    2: set_KTX_Cheong_Ryong_DD_CC_wagon_M4_r;
+    set_KTX_Cheong_Ryong_DD_wagon_M4_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_engineT_r, cargo_subtype) {
     1: set_KTX_Cheong_Ryong_DD_BK_engineT_r;
-    set_KTX_Cheong_Ryong_DD_CC_engineT_r;
+    2: set_KTX_Cheong_Ryong_DD_CC_engineT_r;
+    set_KTX_Cheong_Ryong_DD_engineT_r;
 }
 
 // 편성그래픽

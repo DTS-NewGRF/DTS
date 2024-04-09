@@ -28,6 +28,7 @@ item(FEAT_TRAINS, Travel_wagon, 2210){
 열차 리스트
 --------------------------------------------------------------------*/
 #include "A_Train/A_Train.pnml"
+#include "Asean_Korea/Asean_Korea.pnml"
 #include "CY_GW/CY_GW.pnml"
 #include "E_Train/E_Train.pnml"
 #include "Eco_Rail/Eco_Rail.pnml"

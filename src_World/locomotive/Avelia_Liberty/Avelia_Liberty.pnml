@@ -33,7 +33,7 @@ item(FEAT_TRAINS, Avelia_Liberty_11Car, 2122){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 38;
+        cargo_capacity:                 35;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -44,16 +44,19 @@ item(FEAT_TRAINS, Avelia_Liberty_11Car, 2122){
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
         }
         
     graphics {
-        default:                        sw_Avelia_Liberty_11car;
+        default:                        sw_Avelia_Liberty_11car_reversed;
         articulated_part:               sw_articulated_Avelia_Liberty_11car;
         purchase:                       sw_Avelia_Liberty_purchase;
+        speed:                          sw_Avelia_Liberty_speed;
+        length:                         sw_Avelia_Liberty_wagon_length_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        sound_effect:                   sw_Avelia_Liberty_sound;
         }
         }

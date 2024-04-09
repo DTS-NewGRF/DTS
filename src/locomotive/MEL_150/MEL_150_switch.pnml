@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_MEL_150_4car, position_in_vehid_chain % 4) {
     1:set_MEL_150_panto_wagon;
     2:set_MEL_150_panto_wagon;
@@ -23,6 +24,34 @@ switch(FEAT_TRAINS, SELF, sw_MEL_150_4car_flipped, vehicle_is_flipped){
 switch(FEAT_TRAINS, PARENT, sw_MEL_150_4car_reversed, vehicle_is_reversed){
     0: sw_MEL_150_4car_r;
     sw_MEL_150_4car_flipped;
+}
+
+switch (FEAT_TRAINS, SELF, sw_MEL_150_6car, position_in_vehid_chain % 6) {
+    1:set_MEL_150_panto_wagon;
+    2:set_MEL_150_1F_wagon;
+    3:set_MEL_150_1F_wagon;
+    4:set_MEL_150_panto_wagon;
+    5:set_MEL_150_engineT;
+    set_MEL_150_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_MEL_150_6car_r, position_in_vehid_chain % 6) {
+    1:set_MEL_150_panto_wagon_r;
+    2:set_MEL_150_1F_wagon_r;
+    3:set_MEL_150_1F_wagon_r;
+    4:set_MEL_150_panto_wagon_r;
+    5:set_MEL_150_engineH_r;
+    set_MEL_150_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_MEL_150_6car_flipped, vehicle_is_flipped){
+    0: sw_MEL_150_6car;
+    sw_MEL_150_6car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_MEL_150_6car_reversed, vehicle_is_reversed){
+    0: sw_MEL_150_6car_r;
+    sw_MEL_150_6car_flipped;
 }
 
 switch (FEAT_TRAINS, SELF, sw_MEL_150_8car, position_in_vehid_chain % 8) {
@@ -133,8 +162,14 @@ switch(FEAT_TRAINS, PARENT, sw_MEL_150_12car_reversed, vehicle_is_reversed){
     sw_MEL_150_12car_flipped;
 }
 
+// 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_MEL_150_4car, extra_callback_info1) {
     1..3: MEL_150_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_MEL_150_6car, extra_callback_info1) {
+    1..5: MEL_150_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
@@ -153,6 +188,7 @@ switch (FEAT_TRAINS, SELF, sw_articulated_MEL_150_12car, extra_callback_info1) {
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
+// 사운드
 switch(FEAT_TRAINS, SELF, sw_MEL_150_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/HYUNDAIROTEMIGBTIPM2start.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");

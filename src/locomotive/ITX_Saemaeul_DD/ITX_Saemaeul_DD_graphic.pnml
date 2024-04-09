@@ -8,12 +8,32 @@ spriteset(set_ITX_Saemaeul_DD_engineH, "src/locomotive/ITX_Saemaeul_DD/ITX_Saema
     engine(80, 0)
 }
 
-spriteset(set_ITX_Saemaeul_DD_wagon, "src/locomotive/ITX_Saemaeul_DD/ITX_Saemaeul_DD.png") {
-    wagon_1F_F(80, 27)
+spriteset(set_ITX_Saemaeul_DD_engineH_r, "src/locomotive/ITX_Saemaeul_DD/ITX_Saemaeul_DD.png"){
+    engine(80, 27)
+}
+
+spriteset(set_ITX_Saemaeul_DD_wagon_P1, "src/locomotive/ITX_Saemaeul_DD/ITX_Saemaeul_DD.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_ITX_Saemaeul_DD_wagon_P1_r, "src/locomotive/ITX_Saemaeul_DD/ITX_Saemaeul_DD.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_ITX_Saemaeul_DD_wagon_P2, "src/locomotive/ITX_Saemaeul_DD/ITX_Saemaeul_DD.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_ITX_Saemaeul_DD_wagon_P2_r, "src/locomotive/ITX_Saemaeul_DD/ITX_Saemaeul_DD.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_ITX_Saemaeul_DD_engineT_r, "src/locomotive/ITX_Saemaeul_DD/ITX_Saemaeul_DD.png"){
+    engine(80, 108)
 }
 
 spriteset(set_ITX_Saemaeul_DD_engineT, "src/locomotive/ITX_Saemaeul_DD/ITX_Saemaeul_DD.png"){
-    engine(80, 54)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------

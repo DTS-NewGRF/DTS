@@ -1,13 +1,65 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
+// 4량
+switch (FEAT_TRAINS, SELF, sw_ITX_Maum_DD_4car, position_in_vehid_chain % 4) {
+    1:set_ITX_Maum_DD_wagon_P1;
+    2:set_ITX_Maum_DD_wagon_P2;
+    3:set_ITX_Maum_DD_engineT;
+    set_ITX_Maum_DD_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_ITX_Maum_DD_4car_r, position_in_vehid_chain % 4) {
+    1:set_ITX_Maum_DD_wagon_P2_r;
+    2:set_ITX_Maum_DD_wagon_P1_r;
+    3:set_ITX_Maum_DD_engineH_r;
+    set_ITX_Maum_DD_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_DD_4car_flipped, vehicle_is_flipped){
+    0: sw_ITX_Maum_DD_4car;
+    sw_ITX_Maum_DD_4car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_ITX_Maum_DD_4car_reversed, vehicle_is_reversed){
+    0: sw_ITX_Maum_DD_4car_r;
+    sw_ITX_Maum_DD_4car_flipped;
+}
+
+// 6량
 switch (FEAT_TRAINS, SELF, sw_ITX_Maum_DD_6car, position_in_vehid_chain % 6) {
-    1:set_ITX_Maum_DD_panto_wagon_A;
-    2:set_ITX_Maum_DD_wagon;
-    3:set_ITX_Maum_DD_wagon;
-    4:set_ITX_Maum_DD_panto_wagon_B;
+    1:set_ITX_Maum_DD_wagon_P1;
+    2:set_ITX_Maum_DD_wagon_P2;
+    3:set_ITX_Maum_DD_wagon_P1;
+    4:set_ITX_Maum_DD_wagon_P2;
     5:set_ITX_Maum_DD_engineT;
     set_ITX_Maum_DD_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_ITX_Maum_DD_6car_r, position_in_vehid_chain % 6) {
+    1:set_ITX_Maum_DD_wagon_P2_r;
+    2:set_ITX_Maum_DD_wagon_P1_r;
+    3:set_ITX_Maum_DD_wagon_P2_r;
+    4:set_ITX_Maum_DD_wagon_P1_r;
+    5:set_ITX_Maum_DD_engineH_r;
+    set_ITX_Maum_DD_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_ITX_Maum_DD_6car_flipped, vehicle_is_flipped){
+    0: sw_ITX_Maum_DD_6car;
+    sw_ITX_Maum_DD_6car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_ITX_Maum_DD_6car_reversed, vehicle_is_reversed){
+    0: sw_ITX_Maum_DD_6car_r;
+    sw_ITX_Maum_DD_6car_flipped;
+}
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_ITX_Maum_DD_4car, extra_callback_info1) {
+    1..3: ITX_Maum_DD_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
 switch (FEAT_TRAINS, SELF, sw_articulated_ITX_Maum_DD_6car, extra_callback_info1) {
@@ -15,6 +67,7 @@ switch (FEAT_TRAINS, SELF, sw_articulated_ITX_Maum_DD_6car, extra_callback_info1
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
+// 사운드
 switch(FEAT_TRAINS, SELF, sw_ITX_Maum_DD_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/DAWONSYSIGBTstart.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");

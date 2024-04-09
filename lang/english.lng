@@ -69,11 +69,18 @@ STR_Group_ITX_Maum_NAME                                :[DTS] ITX-Maum
 STR_ITX_Maum_4Car_NAME                                 :[DTS/4Car] ITX-Maum
 STR_ITX_Maum_6Car_NAME                                 :[DTS/6Car] ITX-Maum
 STR_ITX_Maum_8Car_NAME                                 :[DTS/8Car] ITX-Maum
+STR_ITX_Maum_10Car_NAME                                :[DTS/8Car] ITX-Maum
+STR_ITX_Maum_4_6Car_NAME                               :[DTS/4+8Car] ITX-Maum
+STR_ITX_Maum_6_4Car_NAME                               :[DTS/6+8Car] ITX-Maum
+STR_Group_ITX_Maum_DD_NAME                             :[DTS] ITX-Maum DD
+STR_ITX_Maum_DD_4Car_NAME                              :[DTS/4Car] ITX-Maum DD
 STR_ITX_Maum_DD_6Car_NAME                              :[DTS/6Car] ITX-Maum DD
 STR_Group_ITX_Saemaeul_NAME                            :[DTS] ITX-Saemaeul
 STR_ITX_Saemaeul_6Car_NAME                             :[DTS/6Car] ITX-Saemaeul
 STR_ITX_Saemaeul_8Car_NAME                             :[DTS/8Car] ITX-Saemaeul
+STR_Group_ITX_Saemaeul_DD_NAME                         :[DTS] ITX-Saemaeul DD
 STR_ITX_Saemaeul_DD_6Car_NAME                          :[DTS/6Car] ITX-Saemaeul DD
+STR_ITX_Saemaeul_DD_8Car_NAME                          :[DTS/8Car] ITX-Saemaeul DD
 STR_KTX_1_20Car_NAME                                   :[DTS/20Car] TGV-K
 STR_KTX_Cheong_Ryong_8Car_NAME                         :[DTS/8Car] KTX-Cheong Ryong
 STR_KTX_Cheong_Ryong_Virtual_8Car_NAME                 :[DTS/8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
@@ -86,6 +93,7 @@ STR_KTX_Sancheon_20Car_NAME                            :[DTS/20Car] KTX-Sancheon
 STR_KTX_Sancheon_DD_10Car_NAME                         :[DTS/10Car] KTX-Sancheon DD
 STR_Group_MEL_150_NAME                                 :[DTS] MEL-150
 STR_MEL_150_4Car_NAME                                  :[DTS/4Car] MEL-150
+STR_MEL_150_6Car_NAME                                  :[DTS/6Car] MEL-150
 STR_MEL_150_8Car_NAME                                  :[DTS/8Car] MEL-150
 STR_MEL_150_10Car_NAME                                 :[DTS/10Car] MEL-150
 STR_MEL_150_12Car_NAME                                 :[DTS/12Car] MEL-150
@@ -386,6 +394,7 @@ STR_Nishitetsu_9000_3Car_NAME                          :[DTS/3Car] Nishitetsu 90
 # wagon's name
 STR_Group_Travel_wagon_NAME                            :[DTS] Travel Train
 STR_A_Train_NAME                                       :[DTS] A-Train Passenger Car
+STR_Asean_Korea_NAME                                   :[DTS] ASEAN Korea
 STR_CY_GW_NAME                                         :[DTS] Chungbuk Yeongdong Gugak & Wine Passenger Car
 STR_E_Train_NAME                                       :[DTS] E-Train Passenger Car
 STR_Group_Eco_Rail_NAME                                :[DTS] Eco Rail Passenger Car
@@ -480,6 +489,7 @@ STR_PARAM_Maintenance_DESC                             :Please check when using 
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}train configuration {}{GREEN}A-Train Passenger Car
+STR_REFIT_train_configuration_Asean_Korea              :{BLACK}train configuration {}{GREEN}ASEAN Korea Train
 STR_REFIT_train_configuration_CY_GW_Passenger          :{BLACK}train configuration {}{GREEN}Chungbuk Yeongdong Gugak & Wine Passenger Car
 STR_REFIT_train_configuration_E_Train_Passenger        :{BLACK}train configuration {}{GREEN}E-Train Passenger Car
 STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}train configuration {}{GREEN}Eco Rail Passenger Car
@@ -592,6 +602,7 @@ STR_REFIT_LIVERY_KTX_Cheong_Ryong_THRS                 : THRS
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_JR                   : JR
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_Eum                  : KTX-Eum
 STR_REFIT_LIVERY_KTX_Cheong_Ryong                      : KTX-Cheong Ryong
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD                   : KTX-Cheong Ryong
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_CC                : Company Color
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_BK                : Black Livery
 STR_REFIT_LIVERY_KTX_Eum_W                             : KTX-Eum White Livery
