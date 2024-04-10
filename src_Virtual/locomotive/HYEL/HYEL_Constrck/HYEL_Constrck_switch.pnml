@@ -13,10 +13,10 @@ switch (FEAT_TRAINS, SELF, sw_HYEL_Constrck_6car, position_in_vehid_chain % 6) {
 switch (FEAT_TRAINS, SELF, sw_HYEL_Constrck_6car_r, position_in_vehid_chain % 6) {
     1:set_HYEL_Constrck_FLAT_CAR;
     2:set_HYEL_Constrck_FLAT_CAR;
-    3:set_HYEL_Constrck_Luggage_r;
-    4:set_HYEL_Constrck_wagon_r;
-    5:set_HYEL_Constrck_engineH_r;
-    set_HYEL_Constrck_FLAT_CAR; //default
+    3:set_HYEL_Constrck_FLAT_CAR;
+    4:set_HYEL_Constrck_Luggage_r;
+    5:set_HYEL_Constrck_wagon_r;
+    set_HYEL_Constrck_engineH_r; //default
     }
 
 switch(FEAT_TRAINS, SELF, sw_HYEL_Constrck_6car_flipped, vehicle_is_flipped){
