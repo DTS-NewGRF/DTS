@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+HYEL Constrck
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_Constrck_engineH, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png"){
+    engine(80, 0)
+}
+
+spriteset(set_HYEL_Constrck_engineH_r, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png"){
+    engine_r(80, 0)
+}
+
+spriteset(set_HYEL_Constrck_wagon, "src\wagon\SPassenger_wagon\PEX\PEX_SN_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_HYEL_Constrck_wagon_r, "src\wagon\SPassenger_wagon\PEX\PEX_SN_wagon.png") {
+    wagon_1F_F_r(80, 0)
+}
+
+spriteset(set_HYEL_Constrck_Luggage, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_HYEL_Constrck_Luggage_r, "src/wagon/Luggage/Luggage_Real/Luggage_Real.png") {
+    wagon_1F_F_r(80, 0)
+}
+
+spriteset(set_HYEL_Constrck_FLAT_CAR, "src_Virtual/locomotive/HYEL/HYEL_Constrck/HYEL_Constrck.png") {
+    flat_car_1f_container(80, 0)
+}
+
+/*--------------------------------------------------------------------
+HYEL Constrck 32bpp
+--------------------------------------------------------------------*/
+alternative_sprites(set_HYEL_Constrck_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300_32bpp.png"){
+    engine(80, 0)
+}
+
+alternative_sprites(set_HYEL_Constrck_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300_32bpp.png"){
+    engine_r(80, 0)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_Constrck_purchase, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png"){
+    tmpl_purchase(0, 0)
+}
+
+alternative_sprites(set_HYEL_Constrck_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_Constrck/HYEL_Constrck_32bpp.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_HYEL_Constrck_purchase, cargo_subtype) {
+    set_HYEL_Constrck_purchase;
+}

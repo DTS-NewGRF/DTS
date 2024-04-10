@@ -273,6 +273,7 @@ sort(FEAT_TRAINS, [
     Shinkansen_E7_W7_12Car,                  //2094
     HYEL_150,                                //2141
     HYEL_300_8Car,                           //2110
+    HYEL_Constrck,                           //2320
 
     //고속열차 331
     CTX,                                     //2199

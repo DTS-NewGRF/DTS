@@ -218,6 +218,7 @@ STR_Group_HYEL_400_NAME                                :[DTS] HYEL-400
 STR_HYEL_400_8Car_NAME                                 :[DTS/8량] HYEL-400
 STR_HYEL_400_10Car_NAME                                :[DTS/10량] HYEL-400
 STR_HYEL_400_16Car_NAME                                :[DTS/16량] HYEL-400
+STR_HYEL_Constrck_NAME                                 :[DTS/4량] 건설차량
 
 # World / locomotive's name
 STR_Al_Boraq_10Car_NAME                                :[DTS/10량] 알 보라크
@@ -512,6 +513,7 @@ STR_REFIT_train_configuration_TGV_Poste                :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_2F                       :{BLACK}열차구성 {}{GREEN}[기관차열차] 2층 객차
 STR_REFIT_train_configuration_Coach                    :{BLACK}열차구성 {}{GREEN}[기관차열차] 객차형 승객 차량용
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}열차구성 {}{GREEN}객차형 승객 차량용
+STR_REFIT_train_configuration_Constrck                 :{BLACK}열차구성 {}{GREEN}건설용 컨셉을 가진 차량으로 수익 0, 유지비만 나옵니다.
 
 # Deleted / Liveries locomotive
 STR_REFIT_LIVERY_To_Be_Deleted_60                      : {RED}DTS 0.60 삭제예정

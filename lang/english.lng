@@ -218,6 +218,7 @@ STR_Group_HYEL_400_NAME                                :[DTS] HYEL-400
 STR_HYEL_400_8Car_NAME                                 :[DTS/8Car] HYEL-400
 STR_HYEL_400_10Car_NAME                                :[DTS/10Car] HYEL-400
 STR_HYEL_400_16Car_NAME                                :[DTS/16Car] HYEL-400
+STR_HYEL_Constrck_NAME                                 :[DTS/4량] 건설차량
 
 # World / locomotive's name
 STR_Al_Boraq_10Car_NAME                                :[DTS/10Car] Al-Boraq
@@ -516,6 +517,7 @@ STR_REFIT_train_configuration_TGV_Poste                :{BLACK}train configurati
 STR_REFIT_train_configuration_2F                       :{BLACK}train configuration {}{GREEN}2F passenger vehicles
 STR_REFIT_train_configuration_Coach                    :{BLACK}train configuration {}{GREEN}Coach 2F Passenger vehicles
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}train configuration {}{GREEN}Coach 2F Passenger vehicles
+STR_REFIT_train_configuration_Constrck                 :{BLACK}train configuration {}{GREEN}It is a vehicle with a construction concept and generates 0 profits and only maintenance costs.
 
 # Deleted / Liveries
 STR_REFIT_LIVERY_To_Be_Deleted_60                      : {RED} To Be Deleted DTS V0.60

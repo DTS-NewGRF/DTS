@@ -336,7 +336,7 @@
 |2317|[그룹명] KTX_Sancheon|
 |2318|Asean_Korea|
 |2319|KTX_Sancheon_20Car|
-|2320|공백|
+|2320|HYEL_Constrck|
 |2321|Glory_430_10Car|
 |2322|KTX_1_20Car|
 |2323|[그룹명] Nuriro|

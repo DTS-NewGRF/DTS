@@ -33,29 +33,29 @@ spriteset(set_Asean_Korea_7wagon, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW
 }
 
 /*--------------------------------------------------------------------
-한-아세안 2~7번 32bpp (충북영동국악와인열차 그래픽 귀속)
+한-아세안 2~7번 32bpp
 --------------------------------------------------------------------*/
-alternative_sprites(set_Asean_Korea_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_32bpp.png"){
+alternative_sprites(set_Asean_Korea_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Asean_Korea/Asean_Korea_32bpp.png"){
     wagon_1F_F(80, 0)
 }
 
-alternative_sprites(set_Asean_Korea_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_32bpp.png"){
+alternative_sprites(set_Asean_Korea_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Asean_Korea/Asean_Korea_32bpp.png"){
     wagon_1F_F(80, 27)
 }
 
-alternative_sprites(set_Asean_Korea_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_32bpp.png"){
+alternative_sprites(set_Asean_Korea_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Asean_Korea/Asean_Korea_32bpp.png"){
     wagon_1F_F(80, 54)
 }
 
-alternative_sprites(set_Asean_Korea_5wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_32bpp.png"){
+alternative_sprites(set_Asean_Korea_5wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Asean_Korea/Asean_Korea_32bpp.png"){
     wagon_1F_F(80, 81)
 }
 
-alternative_sprites(set_Asean_Korea_6wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_32bpp.png"){
+alternative_sprites(set_Asean_Korea_6wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Asean_Korea/Asean_Korea_32bpp.png"){
     wagon_1F_F(80, 108)
 }
 
-alternative_sprites(set_Asean_Korea_7wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_32bpp.png"){
+alternative_sprites(set_Asean_Korea_7wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Asean_Korea/Asean_Korea_32bpp.png"){
     wagon_1F_F(80, 135)
 }
 
