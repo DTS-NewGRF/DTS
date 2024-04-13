@@ -134,12 +134,12 @@ switch (FEAT_TRAINS, SELF, sw_Rheostatic_S2000_4Car_r, position_in_vehid_chain %
     }
 
 switch(FEAT_TRAINS, SELF, sw_Rheostatic_S2000_4Car_flipped, vehicle_is_flipped){
-    0: sw_Rheostatic_S2000_4Car;
+    0: sw_Rheostatic_S2000_4Car_r;
     sw_Rheostatic_S2000_4Car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Rheostatic_S2000_4Car_reversed, vehicle_is_reversed){
-    0: sw_Rheostatic_S2000_4Car_r;
+    0: sw_Rheostatic_S2000_4Car;
     sw_Rheostatic_S2000_4Car_flipped;
 }
 
@@ -162,12 +162,12 @@ switch (FEAT_TRAINS, SELF, sw_Rheostatic_S2000_6Car_r, position_in_vehid_chain %
     }
 
 switch(FEAT_TRAINS, SELF, sw_Rheostatic_S2000_6Car_flipped, vehicle_is_flipped){
-    0: sw_Rheostatic_S2000_6Car;
+    0: sw_Rheostatic_S2000_6Car_r;
     sw_Rheostatic_S2000_6Car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Rheostatic_S2000_6Car_reversed, vehicle_is_reversed){
-    0: sw_Rheostatic_S2000_6Car_r;
+    0: sw_Rheostatic_S2000_6Car;
     sw_Rheostatic_S2000_6Car_flipped;
 }
 
@@ -198,12 +198,12 @@ switch (FEAT_TRAINS, SELF, sw_Rheostatic_S2000_10Car_r, position_in_vehid_chain 
     }
 
 switch(FEAT_TRAINS, SELF, sw_Rheostatic_S2000_10Car_flipped, vehicle_is_flipped){
-    0: sw_Rheostatic_S2000_10Car;
+    0: sw_Rheostatic_S2000_10Car_r;
     sw_Rheostatic_S2000_10Car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Rheostatic_S2000_10Car_reversed, vehicle_is_reversed){
-    0: sw_Rheostatic_S2000_10Car_r;
+    0: sw_Rheostatic_S2000_10Car;
     sw_Rheostatic_S2000_10Car_flipped;
 }
 

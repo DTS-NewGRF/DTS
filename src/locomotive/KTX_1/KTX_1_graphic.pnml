@@ -184,6 +184,97 @@ spriteset(set_KTX_1M_engineT, "src/locomotive/KTX_1/KTX_1M.png"){
 }
 
 /*--------------------------------------------------------------------
+KTX-1 LTE-A
+--------------------------------------------------------------------*/
+spriteset(set_KTX_1_LTE_A_engineH, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    engine(80, 0)
+}
+
+spriteset(set_KTX_1_LTE_A_engineH_r, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    engine(80, 27)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T1, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T1_r, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T2, "src/locomotive/KTX_1/KTX_1_LTE_A.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T2_r, "src/locomotive/KTX_1/KTX_1_LTE_A.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T3, "src/locomotive/KTX_1/KTX_1_LTE_A.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T3_r, "src/locomotive/KTX_1/KTX_1_LTE_A.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T4, "src/locomotive/KTX_1/KTX_1_LTE_A.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T4_r, "src/locomotive/KTX_1/KTX_1_LTE_A.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T5, "src/locomotive/KTX_1/KTX_1_LTE_A.png") {
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T5_r, "src/locomotive/KTX_1/KTX_1_LTE_A.png") {
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T6, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 189)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T6_r, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 189)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T7, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 216)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T7_r, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 216)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T8, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 243)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T8_r, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 243)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T9, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    wagon_1F_F(80, 270)
+}
+
+spriteset(set_KTX_1_LTE_A_wagon_T9_r, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    wagon_1F_F_r(80, 270)
+}
+
+spriteset(set_KTX_1_LTE_A_engineT_r, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    engine(80, 297)
+}
+
+spriteset(set_KTX_1_LTE_A_engineT, "src/locomotive/KTX_1/KTX_1_LTE_A.png"){
+    engine(80, 324)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 // 구매차량 그래픽

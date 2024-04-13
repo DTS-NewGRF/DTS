@@ -118,12 +118,12 @@ switch (FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_8car_r, position_in_vehid_chai
     }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_DD_8car_flipped, vehicle_is_flipped){
-    0: sw_KTX_Cheong_Ryong_DD_8car;
+    0: sw_KTX_Cheong_Ryong_DD_8car_r;
     sw_KTX_Cheong_Ryong_DD_8car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_KTX_Cheong_Ryong_DD_8car_reversed, vehicle_is_reversed){
-    0: sw_KTX_Cheong_Ryong_DD_8car_r;
+    0: sw_KTX_Cheong_Ryong_DD_8car;
     sw_KTX_Cheong_Ryong_DD_8car_flipped;
 }
 

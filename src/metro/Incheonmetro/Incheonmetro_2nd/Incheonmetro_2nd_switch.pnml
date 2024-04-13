@@ -26,12 +26,12 @@ switch (FEAT_TRAINS, SELF, sw_Incheonmetro_2nd_8car_r, position_in_vehid_chain %
     }
 
 switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2nd_8car_flipped, vehicle_is_flipped){
-    0: sw_Incheonmetro_2nd_8car;
+    0: sw_Incheonmetro_2nd_8car_r;
     sw_Incheonmetro_2nd_8car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Incheonmetro_2nd_8car_reversed, vehicle_is_reversed){
-    0: sw_Incheonmetro_2nd_8car_r;
+    0: sw_Incheonmetro_2nd_8car;
     sw_Incheonmetro_2nd_8car_flipped;
 }
 

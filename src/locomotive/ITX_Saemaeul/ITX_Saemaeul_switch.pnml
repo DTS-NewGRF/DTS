@@ -21,12 +21,12 @@ switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_6car_r, position_in_vehid_chain % 6) 
     }
 
 switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_6car_flipped, vehicle_is_flipped){
-    0: sw_ITX_Saemaeul_6car;
+    0: sw_ITX_Saemaeul_6car_r;
     sw_ITX_Saemaeul_6car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_ITX_Saemaeul_6car_reversed, vehicle_is_reversed){
-    0: sw_ITX_Saemaeul_6car_r;
+    0: sw_ITX_Saemaeul_6car;
     sw_ITX_Saemaeul_6car_flipped;
 }
 
@@ -53,12 +53,12 @@ switch (FEAT_TRAINS, SELF, sw_ITX_Saemaeul_8car_r, position_in_vehid_chain % 8) 
     }
 
 switch(FEAT_TRAINS, SELF, sw_ITX_Saemaeul_8car_flipped, vehicle_is_flipped){
-    0: sw_ITX_Saemaeul_8car;
+    0: sw_ITX_Saemaeul_8car_r;
     sw_ITX_Saemaeul_8car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_ITX_Saemaeul_8car_reversed, vehicle_is_reversed){
-    0: sw_ITX_Saemaeul_8car_r;
+    0: sw_ITX_Saemaeul_8car;
     sw_ITX_Saemaeul_8car_flipped;
 }
 

@@ -110,6 +110,7 @@ sort(FEAT_TRAINS, [
     Seoulmetro_5th_5000_8Car,                //2401
     Seoulmetro_5th_7000_8Car,                //2303
     Seoulmetro_5th_4000_10Car,               //2399
+    Seoulmetro_6th_7000_8Car,                //2404
     Shinbundang_6Car,                        //2241
     Standard_Metro_4Car,                     //2006
     AD_Tranz_CAF_A_8Car,                     //2052
@@ -199,6 +200,7 @@ sort(FEAT_TRAINS, [
     ITX_Maum_6Car,                           //2010
     ITX_Maum_8Car,                           //2131
     ITX_Maum_10Car,                          //2238
+    ITX_Maum_4_4Car,                         //2403
     ITX_Maum_4_6Car,                         //2258
     ITX_Maum_6_4Car,                         //2259
     ITX_Maum_DD,                             //2262
@@ -286,6 +288,7 @@ sort(FEAT_TRAINS, [
     KTX_Cheong_Ryong_8Car,                   //2229
     KTX_Cheong_Ryong_Virtual_8Car,           //2022
     KTX_Cheong_Ryong_DD_8Car,                //2023
+    KTX_Chowol_8Car,                         //2406
     KTX_Sancheon,                            //2317
     KTX_Sancheon_10Car,                      //2024
     KTX_Sancheon_20Car,                      //2319
@@ -392,6 +395,7 @@ sort(FEAT_TRAINS, [
     G_Train,                                 //2002
     JA_A_Passenger_Car,                      //2158
     Lady_Bird_Passenger_Car,                 //2162
+    Rail_Cruise_Haerang,                     //2405
     S_Train,                                 //2331
     S_Train_New_4Car,                        //2332
     S_Train_5Car,                            //2163

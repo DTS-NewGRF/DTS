@@ -64,13 +64,14 @@ STR_Group_ITX_CheongChun_NAME                          :[DTS] ITX-CheongChun
 STR_ITX_CheongChun_6Car_NAME                           :[DTS/6Car] ITX-CheongChun
 STR_ITX_CheongChun_8Car_NAME                           :[DTS/8Car] ITX-CheongChun
 STR_ITX_CheongChun_10Car_NAME                          :[DTS/10Car] ITX-CheongChun
-STR_ITX_Chowol_8Car_NAME                               :[DTS/8Car] ITX-Chowol
+STR_ITX_Chowol_8Car_NAME                               :[DTS/8Car] ITX-CheongChun DD
 STR_Group_ITX_Maum_NAME                                :[DTS] ITX-Maum
 STR_ITX_Maum_4Car_NAME                                 :[DTS/4Car] ITX-Maum
 STR_ITX_Maum_6Car_NAME                                 :[DTS/6Car] ITX-Maum
 STR_ITX_Maum_8Car_NAME                                 :[DTS/8Car] ITX-Maum
 STR_ITX_Maum_10Car_NAME                                :[DTS/8Car] ITX-Maum
-STR_ITX_Maum_4_6Car_NAME                               :[DTS/4+8Car] ITX-Maum
+STR_ITX_Maum_4_4Car_NAME                               :[DTS/4+4Car] ITX-Maum
+STR_ITX_Maum_4_6Car_NAME                               :[DTS/4+6Car] ITX-Maum
 STR_ITX_Maum_6_4Car_NAME                               :[DTS/6+8Car] ITX-Maum
 STR_Group_ITX_Maum_DD_NAME                             :[DTS] ITX-Maum DD
 STR_ITX_Maum_DD_4Car_NAME                              :[DTS/4Car] ITX-Maum DD
@@ -85,6 +86,7 @@ STR_KTX_1_20Car_NAME                                   :[DTS/20Car] TGV-K
 STR_KTX_Cheong_Ryong_8Car_NAME                         :[DTS/8Car] KTX-Cheong Ryong
 STR_KTX_Cheong_Ryong_Virtual_8Car_NAME                 :[DTS/8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
 STR_KTX_Cheong_Ryong_DD_8Car_NAME                      :[DTS/8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong DD
+STR_KTX_Chowol_8Car_NAME                               :[DTS/8Car] KTX-Chowol
 STR_KTX_Eum_6Car_NAME                                  :[DTS/6Car] KTX-EUM
 STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6Car] KTX-EUM DD
 STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-Sancheon
@@ -340,6 +342,7 @@ STR_Seoulmetro_5th_2000_6Car_NAME                      :[DTS/6Car] Seoulmetro 5t
 STR_Seoulmetro_5th_5000_8Car_NAME                      :[DTS/8Car] Seoulmetro 5th 5000
 STR_Seoulmetro_5th_7000_8Car_NAME                      :[DTS/8Car] Seoulmetro 5th 7000
 STR_Seoulmetro_5th_4000_10Car_NAME                     :[DTS/10Car] Seoulmetro 5th 4000
+STR_Seoulmetro_6th_7000_8Car_NAME                      :[DTS/8Car] Seoulmetro 6th 7000
 STR_Shinbundang_6Car_NAME                              :[DTS/6Car] Shinbundang line D000 series 
 STR_Standard_Metro_4Car_NAME                           :[DTS/4Car] Standard Metro
 
@@ -404,6 +407,7 @@ STR_Eco_Rail_5Car_NAME                                 :[DTS] Eco Rail Passenger
 STR_G_Train_NAME                                       :[DTS] G-Train
 STR_JA_a_NAME                                          :[DTS] Jeongseon Arirang Passenger Car
 STR_Lady_Bird_NAME                                     :[DTS] Lady Bird Passenger Car
+STR_Rail_Cruise_Haerang_NAME                           :[DTS] Rail Cruise Haerang
 STR_Group_S_Train_NAME                                 :[DTS] S-Trian
 STR_S_Train_4Car_NAME                                  :[DTS] S-Train Passenger 4Car
 STR_S_Train_5Car_NAME                                  :[DTS] S-Train Passenger 5Car
@@ -497,6 +501,7 @@ STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}train configurati
 STR_REFIT_train_configuration_G_Train                  :{BLACK}train configuration {}{GREEN}G-Train
 STR_REFIT_train_configuration_JA_a_Passenger           :{BLACK}train configuration {}{GREEN}Jeongseon Arirang Passenger Car
 STR_REFIT_train_configuration_Lady_Bird_Passenger      :{BLACK}train configuration {}{GREEN}Lady Bird Passenger Car
+STR_REFIT_train_configuration_Rail_Cruise_Haerang      :{BLACK}train configuration {}{GREEN}Rail Cruise Haerang
 STR_REFIT_train_configuration_S_Train_Passenger        :{BLACK}train configuration {}{GREEN}S-Train
 STR_REFIT_train_configuration_V_Train_Passenger        :{BLACK}train configuration {}{GREEN}V-Train Passenger Car
 STR_REFIT_train_configuration_Wine_Cinema_Passenger    :{BLACK}train configuration {}{GREEN}Wine Cinema Passenger Car
@@ -585,12 +590,12 @@ STR_REFIT_LIVERY_GT26CW_2020                           : New livery S-train
 STR_REFIT_LIVERY_GT26CW_2023                           : New livery G-train
 STR_REFIT_LIVERY_ITX_CheongChun_A                      : ITX-CheongChun A
 STR_REFIT_LIVERY_ITX_CheongChun_B                      : ITX-CheongChun B
-STR_REFIT_LIVERY_ITX_Maum_4                            : ITX-Maum 4Car
-STR_REFIT_LIVERY_ITX_Maum_6                            : ITX-Maum 6Car
-STR_REFIT_LIVERY_ITX_Maum_8                            : ITX-Maum 8Car
-STR_REFIT_LIVERY_KTX_1_A                               : KTX-1 A
-STR_REFIT_LIVERY_KTX_1_B                               : KTX-1 B
-STR_REFIT_LIVERY_KTX_1_C                               : KTX-1 C
+STR_REFIT_LIVERY_ITX_Maum                              : ITX-Maum
+STR_REFIT_LIVERY_ITX_Maum_High1                        : HIGH1 Resort
+STR_REFIT_LIVERY_KTX_1_A                               : Special 3Car
+STR_REFIT_LIVERY_KTX_1_B                               : Special 4Car
+STR_REFIT_LIVERY_KTX_1_C                               : Move Cinema
+STR_REFIT_LIVERY_KTX_1_LTE_A                           : LTE-A
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_CC                   : Company Colour
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_BK                   : Black Livery
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_A                : SRT_A
@@ -640,6 +645,8 @@ STR_REFIT_LIVERY_KTX_Sancheon_B2A2                     : KTX-Sancheon B2+A2
 STR_REFIT_LIVERY_KTX_Sancheon_SRTA1                    : SRT+KTX-Sancheon A1
 STR_REFIT_LIVERY_KTX_Sancheon_SRTA2                    : SRT+KTX-Sancheon A2
 STR_REFIT_LIVERY_KTX_Sancheon_SRTB1                    : SRT+KTX-Sancheon B1
+STR_REFIT_LIVERY_MEL_150_1F                            : 1F
+STR_REFIT_LIVERY_MEL_150_2F                            : 2F
 STR_REFIT_LIVERY_NEL_8100_A                            : NEL 8100 A
 STR_REFIT_LIVERY_NEL_8100_B                            : NEL 8100 B
 STR_REFIT_LIVERY_Nuriro_Old                            : Nuriro Old
@@ -658,10 +665,10 @@ STR_REFIT_LIVERY_Nuriro_CA                             : Nuriro Raping A+Old
 STR_REFIT_LIVERY_Nuriro_CB                             : Nuriro Raping A+New
 STR_REFIT_LIVERY_Nuriro_DA                             : Nuriro Raping B+Old
 STR_REFIT_LIVERY_Nuriro_DB                             : Nuriro Raping B+New
-STR_REFIT_LIVERY_Nuriro_DD_Old_C                       : Nuriro DD Old Company Color
-STR_REFIT_LIVERY_Nuriro_DD_New_C                       : Nuriro DD New Company Color
-STR_REFIT_LIVERY_Nuriro_DD_Old_OT                      : Nuriro DD O-train Livery
-STR_REFIT_LIVERY_Nuriro_DD_New_ITX                     : Nuriro DD ITX Livery
+STR_REFIT_LIVERY_Nuriro_DD_Old                         : Old
+STR_REFIT_LIVERY_Nuriro_DD_New                         : New
+STR_REFIT_LIVERY_Nuriro_DD_O_Train                     : O-train
+STR_REFIT_LIVERY_Nuriro_DD_ITX_Saemaeul                : ITX-Saemaeul
 STR_REFIT_LIVERY_RDC                                   : RDC
 STR_REFIT_LIVERY_RDC_Cafe_A                            : RDC Cafe Car A
 STR_REFIT_LIVERY_RDC_Cafe_B                            : RDC Cafe Car B

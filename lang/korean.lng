@@ -64,12 +64,13 @@ STR_Group_ITX_CheongChun_NAME                          :[DTS] ITX-청춘
 STR_ITX_CheongChun_6Car_NAME                           :[DTS/6량] ITX-청춘
 STR_ITX_CheongChun_8Car_NAME                           :[DTS/8량] ITX-청춘
 STR_ITX_CheongChun_10Car_NAME                          :[DTS/10량] ITX-청춘
-STR_ITX_Chowol_8Car_NAME                               :[DTS/8량] ITX-초월
+STR_ITX_Chowol_8Car_NAME                               :[DTS/8량] ITX-청춘 DD
 STR_Group_ITX_Maum_NAME                                :[DTS] ITX-마음
 STR_ITX_Maum_4Car_NAME                                 :[DTS/4량] ITX-마음
 STR_ITX_Maum_6Car_NAME                                 :[DTS/6량] ITX-마음
 STR_ITX_Maum_8Car_NAME                                 :[DTS/8량] ITX-마음
 STR_ITX_Maum_10Car_NAME                                :[DTS/10량] ITX-마음
+STR_ITX_Maum_4_4Car_NAME                               :[DTS/4+4량] ITX-마음
 STR_ITX_Maum_4_6Car_NAME                               :[DTS/4+6량] ITX-마음
 STR_ITX_Maum_6_4Car_NAME                               :[DTS/6+4량] ITX-마음
 STR_Group_ITX_Maum_DD_NAME                             :[DTS] ITX-마음 DD
@@ -85,6 +86,7 @@ STR_KTX_1_20Car_NAME                                   :[DTS/20량] KTX-1
 STR_KTX_Cheong_Ryong_8Car_NAME                         :[DTS/8량] KTX-청룡
 STR_KTX_Cheong_Ryong_Virtual_8Car_NAME                 :[DTS/8량]{GREEN}[가상] {BLACK}KTX-청룡
 STR_KTX_Cheong_Ryong_DD_8Car_NAME                      :[DTS/8량]{GREEN}[가상] {BLACK}KTX-청룡 DD
+STR_KTX_Chowol_8Car_NAME                               :[DTS/8량] KTX-초월
 STR_KTX_Eum_6Car_NAME                                  :[DTS/6량] KTX-이음
 STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6량] KTX-이음 DD
 STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-산천
@@ -339,6 +341,7 @@ STR_Seoulmetro_5th_2000_6Car_NAME                      :[DTS/6량] 서울교통�
 STR_Seoulmetro_5th_5000_8Car_NAME                      :[DTS/8량] 서울교통공사 5세대 5000호대 전동차
 STR_Seoulmetro_5th_7000_8Car_NAME                      :[DTS/8량] 서울교통공사 5세대 7000호대 전동차
 STR_Seoulmetro_5th_4000_10Car_NAME                     :[DTS/10량] 서울교통공사 5세대 4000호대 전동차
+STR_Seoulmetro_6th_7000_8Car_NAME                      :[DTS/8량] 서울교통공사 6세대 7000호대 전동차
 STR_Shinbundang_6Car_NAME                              :[DTS/6량] 신분당선 D000호대 전동차
 STR_Standard_Metro_4Car_NAME                           :[DTS/4량] 한국형 표준전동차
 
@@ -403,6 +406,7 @@ STR_Eco_Rail_5Car_NAME                                 :[DTS/5량] 에코레일 
 STR_G_Train_NAME                                        :[DTS/5량] G-Train
 STR_JA_a_NAME                                          :[DTS/단량] 정선아리랑 유람열차
 STR_Lady_Bird_NAME                                     :[DTS/9량] 레이디버드
+STR_Rail_Cruise_Haerang_NAME                           :[DTS/8량] 레일크루즈 해랑
 STR_Group_S_Train_NAME                                 :[DTS] S-Trian
 STR_S_Train_4Car_NAME                                  :[DTS/4량] S-Train 신도색
 STR_S_Train_5Car_NAME                                  :[DTS/5량] S-Train
@@ -493,6 +497,7 @@ STR_REFIT_train_configuration_Eco_Rail_Passenger       :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_G_Train                  :{BLACK}열차구성 {}{GREEN}[관광열차] G-Train
 STR_REFIT_train_configuration_JA_a_Passenger           :{BLACK}열차구성 {}{GREEN}[관광열차] 정선아리랑 유람열차
 STR_REFIT_train_configuration_Lady_Bird_Passenger      :{BLACK}열차구성 {}{GREEN}[관광열차] 레이디버드
+STR_REFIT_train_configuration_Rail_Cruise_Haerang      :{BLACK}열차구성 {}{GREEN}[관광열차] 레일크루즈 해랑
 STR_REFIT_train_configuration_S_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] S-Train
 STR_REFIT_train_configuration_V_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] V-Train
 STR_REFIT_train_configuration_Wine_Cinema_Passenger    :{BLACK}열차구성 {}{GREEN}[관광열차] 와인세네마트레인
@@ -581,12 +586,12 @@ STR_REFIT_LIVERY_GT26CW_2020                           : 남도해양관광열�
 STR_REFIT_LIVERY_GT26CW_2023                           : 서해금빛열차 신도색
 STR_REFIT_LIVERY_ITX_CheongChun_A                      : ITX-청춘
 STR_REFIT_LIVERY_ITX_CheongChun_B                      : ITX-청춘 용 랩핑
-STR_REFIT_LIVERY_ITX_Maum_4                            : ITX-마음 4량
-STR_REFIT_LIVERY_ITX_Maum_6                            : ITX-마음 6량
-STR_REFIT_LIVERY_ITX_Maum_8                            : ITX-마음 8량
-STR_REFIT_LIVERY_KTX_1_A                               : KTX-1 특실 3량
-STR_REFIT_LIVERY_KTX_1_B                               : KTX-1 특실 4량
-STR_REFIT_LIVERY_KTX_1_C                               : KTX-1 영화시네마
+STR_REFIT_LIVERY_ITX_Maum                              : ITX-마음
+STR_REFIT_LIVERY_ITX_Maum_High1                        : 하이원리조트
+STR_REFIT_LIVERY_KTX_1_A                               : 특실 3량
+STR_REFIT_LIVERY_KTX_1_B                               : 특실 4량
+STR_REFIT_LIVERY_KTX_1_C                               : 영화시네마
+STR_REFIT_LIVERY_KTX_1_LTE_A                           : LTE-A
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_CC                   : 회사색상
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_BK                   : 시안
 STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_A                : SRT 시안
@@ -636,6 +641,8 @@ STR_REFIT_LIVERY_KTX_Sancheon_B2A2                     : KTX-산천 B2+A2
 STR_REFIT_LIVERY_KTX_Sancheon_SRTA1                    : SRT+KTX-산천 A1
 STR_REFIT_LIVERY_KTX_Sancheon_SRTA2                    : SRT+KTX-산천 A2
 STR_REFIT_LIVERY_KTX_Sancheon_SRTB1                    : SRT+KTX-산천 B1
+STR_REFIT_LIVERY_MEL_150_1F                            : 1층 편성
+STR_REFIT_LIVERY_MEL_150_2F                            : 2층 편성
 STR_REFIT_LIVERY_NEL_8100_A                            : 구도색
 STR_REFIT_LIVERY_NEL_8100_B                            : 신도색
 STR_REFIT_LIVERY_Nuriro_Old                            : 누리로 구도색
@@ -654,10 +661,10 @@ STR_REFIT_LIVERY_Nuriro_CA                             : 누리로 한류관광+
 STR_REFIT_LIVERY_Nuriro_CB                             : 누리로 한류관광+신도색
 STR_REFIT_LIVERY_Nuriro_DA                             : 누리로 순천향대+구도색
 STR_REFIT_LIVERY_Nuriro_DB                             : 누리로 순천향대+신도색
-STR_REFIT_LIVERY_Nuriro_DD_Old_C                       : 누리로 DD 구도색 회사색상
-STR_REFIT_LIVERY_Nuriro_DD_New_C                       : 누리로 DD 신도색 회사색상
-STR_REFIT_LIVERY_Nuriro_DD_Old_OT                      : 누리로 DD O-train 도색
-STR_REFIT_LIVERY_Nuriro_DD_New_ITX                     : 누리로 DD ITX 도색
+STR_REFIT_LIVERY_Nuriro_DD_Old                         : 구도색
+STR_REFIT_LIVERY_Nuriro_DD_New                         : 신도색
+STR_REFIT_LIVERY_Nuriro_DD_O_Train                     : O-train
+STR_REFIT_LIVERY_Nuriro_DD_ITX_Saemaeul                : ITX-새마을
 STR_REFIT_LIVERY_RDC                                   : 일반실
 STR_REFIT_LIVERY_RDC_Cafe_A                            : 카페객차 편성 A
 STR_REFIT_LIVERY_RDC_Cafe_B                            : 카페객차 편성 B

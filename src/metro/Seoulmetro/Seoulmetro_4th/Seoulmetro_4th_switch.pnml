@@ -30,12 +30,12 @@ switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_8000_6car_r, position_in_vehid_chai
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_8000_6car_flipped, vehicle_is_flipped){
-    0: sw_Seoulmetro_4th_8000_6car;
+    0: sw_Seoulmetro_4th_8000_6car_r;
     sw_Seoulmetro_4th_8000_6car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_4th_8000_6car_reversed, vehicle_is_reversed){
-    0: sw_Seoulmetro_4th_8000_6car_r;
+    0: sw_Seoulmetro_4th_8000_6car;
     sw_Seoulmetro_4th_8000_6car_flipped;
 }
 
@@ -58,12 +58,12 @@ switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_9000_6car_r, position_in_vehid_chai
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_9000_6car_flipped, vehicle_is_flipped){
-    0: sw_Seoulmetro_4th_9000_6car;
+    0: sw_Seoulmetro_4th_9000_6car_r;
     sw_Seoulmetro_4th_9000_6car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_4th_9000_6car_reversed, vehicle_is_reversed){
-    0: sw_Seoulmetro_4th_9000_6car_r;
+    0: sw_Seoulmetro_4th_9000_6car;
     sw_Seoulmetro_4th_9000_6car_flipped;
 }
 
@@ -90,12 +90,12 @@ switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_5000_8car_r, position_in_vehid_chai
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_5000_8car_flipped, vehicle_is_flipped){
-    0: sw_Seoulmetro_4th_5000_8car;
+    0: sw_Seoulmetro_4th_5000_8car_r;
     sw_Seoulmetro_4th_5000_8car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_4th_5000_8car_reversed, vehicle_is_reversed){
-    0: sw_Seoulmetro_4th_5000_8car_r;
+    0: sw_Seoulmetro_4th_5000_8car;
     sw_Seoulmetro_4th_5000_8car_flipped;
 }
 
@@ -122,12 +122,12 @@ switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_7000_8car_r, position_in_vehid_chai
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_7000_8car_flipped, vehicle_is_flipped){
-    0: sw_Seoulmetro_4th_7000_8car;
+    0: sw_Seoulmetro_4th_7000_8car_r;
     sw_Seoulmetro_4th_7000_8car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_4th_7000_8car_reversed, vehicle_is_reversed){
-    0: sw_Seoulmetro_4th_7000_8car_r;
+    0: sw_Seoulmetro_4th_7000_8car;
     sw_Seoulmetro_4th_7000_8car_flipped;
 }
 
@@ -158,12 +158,12 @@ switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_2000_10car_r, position_in_vehid_cha
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_2000_10car_flipped, vehicle_is_flipped){
-    0: sw_Seoulmetro_4th_2000_10car;
+    0: sw_Seoulmetro_4th_2000_10car_r;
     sw_Seoulmetro_4th_2000_10car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_4th_2000_10car_reversed, vehicle_is_reversed){
-    0: sw_Seoulmetro_4th_2000_10car_r;
+    0: sw_Seoulmetro_4th_2000_10car;
     sw_Seoulmetro_4th_2000_10car_flipped;
 }
 
@@ -194,12 +194,12 @@ switch (FEAT_TRAINS, SELF, sw_Seoulmetro_4th_4000_10car_r, position_in_vehid_cha
     }
 
 switch(FEAT_TRAINS, SELF, sw_Seoulmetro_4th_4000_10car_flipped, vehicle_is_flipped){
-    0: sw_Seoulmetro_4th_4000_10car;
+    0: sw_Seoulmetro_4th_4000_10car_r;
     sw_Seoulmetro_4th_4000_10car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Seoulmetro_4th_4000_10car_reversed, vehicle_is_reversed){
-    0: sw_Seoulmetro_4th_4000_10car_r;
+    0: sw_Seoulmetro_4th_4000_10car;
     sw_Seoulmetro_4th_4000_10car_flipped;
 }
 

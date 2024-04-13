@@ -93,6 +93,57 @@ spriteset(set_ITX_Maum_engineT_DTC2_r, "src/locomotive/ITX_Maum/ITX_Maum.png"){
 }
 
 /*--------------------------------------------------------------------
+ITX_Maum Hight1
+--------------------------------------------------------------------*/
+spriteset(set_ITX_Maum_High1_engineH, "src/locomotive/ITX_Maum/ITX_Maum_High1.png"){
+    engine(80, 0)
+}
+
+spriteset(set_ITX_Maum_High1_engineH_r, "src/locomotive/ITX_Maum/ITX_Maum_High1.png"){
+    engine(80, 27)
+}
+
+spriteset(set_ITX_Maum_High1_panto_wagon_M1, "src/locomotive/ITX_Maum/ITX_Maum_High1.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_ITX_Maum_High1_panto_wagon_M1_r, "src/locomotive/ITX_Maum/ITX_Maum_High1.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_ITX_Maum_High1_panto_wagon_4Car_M2, "src/locomotive/ITX_Maum/ITX_Maum_High1.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_ITX_Maum_High1_panto_wagon_4Car_M2_r, "src/locomotive/ITX_Maum/ITX_Maum_High1.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_ITX_Maum_High1_engineT_r, "src/locomotive/ITX_Maum/ITX_Maum_High1.png"){
+    engine(80, 162)
+}
+
+spriteset(set_ITX_Maum_High1_engineT, "src/locomotive/ITX_Maum/ITX_Maum_High1.png"){
+    engine(80, 189)
+}
+
+spriteset(set_ITX_Maum_High1_engineT_DTC1, "src/locomotive/ITX_Maum/ITX_Maum_High1.png"){
+    engine(80, 216)
+}
+
+spriteset(set_ITX_Maum_High1_engineT_DTC1_r, "src/locomotive/ITX_Maum/ITX_Maum_High1.png"){
+    engine_r(80, 216)
+}
+
+spriteset(set_ITX_Maum_High1_engineT_DTC2, "src/locomotive/ITX_Maum/ITX_Maum_High1.png"){
+    engine(80, 243)
+}
+
+spriteset(set_ITX_Maum_High1_engineT_DTC2_r, "src/locomotive/ITX_Maum/ITX_Maum_High1.png"){
+    engine_r(80, 243)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 // 구매차량 그래픽

@@ -182,12 +182,12 @@ switch (FEAT_TRAINS, SELF, sw_Korail_4th_G1_4car_r, position_in_vehid_chain % 4)
     }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_G1_4car_flipped, vehicle_is_flipped){
-    0: sw_Korail_4th_G1_4car;
+    0: sw_Korail_4th_G1_4car_r;
     sw_Korail_4th_G1_4car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Korail_4th_G1_4car_reversed, vehicle_is_reversed){
-    0: sw_Korail_4th_G1_4car_r;
+    0: sw_Korail_4th_G1_4car;
     sw_Korail_4th_G1_4car_flipped;
 }
 
@@ -206,12 +206,12 @@ switch (FEAT_TRAINS, SELF, sw_Korail_4th_4car_r, position_in_vehid_chain % 4) {
     }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_4car_flipped, vehicle_is_flipped){
-    0: sw_Korail_4th_4car;
+    0: sw_Korail_4th_4car_r;
     sw_Korail_4th_4car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Korail_4th_4car_reversed, vehicle_is_reversed){
-    0: sw_Korail_4th_4car_r;
+    0: sw_Korail_4th_4car;
     sw_Korail_4th_4car_flipped;
 }
 
@@ -234,12 +234,12 @@ switch (FEAT_TRAINS, SELF, sw_Korail_4th_6car_r, position_in_vehid_chain % 6) {
     }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_6car_flipped, vehicle_is_flipped){
-    0: sw_Korail_4th_6car;
+    0: sw_Korail_4th_6car_r;
     sw_Korail_4th_6car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Korail_4th_6car_reversed, vehicle_is_reversed){
-    0: sw_Korail_4th_6car_r;
+    0: sw_Korail_4th_6car;
     sw_Korail_4th_6car_flipped;
 }
 
@@ -270,12 +270,12 @@ switch (FEAT_TRAINS, SELF, sw_Korail_4th_10car_r, position_in_vehid_chain % 10) 
     }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_10car_flipped, vehicle_is_flipped){
-    0: sw_Korail_4th_10car;
+    0: sw_Korail_4th_10car_r;
     sw_Korail_4th_10car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Korail_4th_10car_reversed, vehicle_is_reversed){
-    0: sw_Korail_4th_10car_r;
+    0: sw_Korail_4th_10car;
     sw_Korail_4th_10car_flipped;
 }
 

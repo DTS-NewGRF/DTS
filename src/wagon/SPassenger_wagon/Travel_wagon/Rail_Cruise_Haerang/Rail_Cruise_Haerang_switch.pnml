@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_Rail_Cruise_Haerang_wagon, position_in_vehid_chain % 8) {
+    1:set_Rail_Cruise_Haerang_1_3_6_8wagon;
+    2:set_Rail_Cruise_Haerang_1_3_6_8wagon;
+    3:set_Rail_Cruise_Haerang_Cafe_wagon;
+    4:set_Rail_Cruise_Haerang_5wagon;
+    5:set_Rail_Cruise_Haerang_1_3_6_8wagon;
+    6:set_Rail_Cruise_Haerang_1_3_6_8wagon;
+    7:set_Rail_Cruise_Haerang_1_3_6_8wagon;
+    set_Rail_Cruise_Haerang_1_3_6_8wagon; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Rail_Cruise_Haerang, extra_callback_info1) {
+    1..7: Rail_Cruise_Haerang;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

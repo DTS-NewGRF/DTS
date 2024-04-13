@@ -1,7 +1,25 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 도색
+switch(FEAT_TRAINS, SELF, sw_MEL_150_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_MEL_150_2F);
+    return string(STR_REFIT_LIVERY_MEL_150_1F);
+}
+
+// 열차
+switch(FEAT_TRAINS, SELF, sw_MEL_150_wagon_T, cargo_subtype) {
+    1: set_MEL_150_2F_wagon;
+    set_MEL_150_1F_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MEL_150_wagon_T_r, cargo_subtype) {
+    1: set_MEL_150_2F_wagon_r;
+    set_MEL_150_1F_wagon_r;
+}
+
 // 편성그래픽
+// 4량
 switch (FEAT_TRAINS, SELF, sw_MEL_150_4car, position_in_vehid_chain % 4) {
     1:set_MEL_150_panto_wagon;
     2:set_MEL_150_panto_wagon;
@@ -17,15 +35,16 @@ switch (FEAT_TRAINS, SELF, sw_MEL_150_4car_r, position_in_vehid_chain % 4) {
     }
 
 switch(FEAT_TRAINS, SELF, sw_MEL_150_4car_flipped, vehicle_is_flipped){
-    0: sw_MEL_150_4car;
+    0: sw_MEL_150_4car_r;
     sw_MEL_150_4car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_MEL_150_4car_reversed, vehicle_is_reversed){
-    0: sw_MEL_150_4car_r;
+    0: sw_MEL_150_4car;
     sw_MEL_150_4car_flipped;
 }
 
+// 6량
 switch (FEAT_TRAINS, SELF, sw_MEL_150_6car, position_in_vehid_chain % 6) {
     1:set_MEL_150_panto_wagon;
     2:set_MEL_150_1F_wagon;
@@ -45,54 +64,56 @@ switch (FEAT_TRAINS, SELF, sw_MEL_150_6car_r, position_in_vehid_chain % 6) {
     }
 
 switch(FEAT_TRAINS, SELF, sw_MEL_150_6car_flipped, vehicle_is_flipped){
-    0: sw_MEL_150_6car;
+    0: sw_MEL_150_6car_r;
     sw_MEL_150_6car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_MEL_150_6car_reversed, vehicle_is_reversed){
-    0: sw_MEL_150_6car_r;
+    0: sw_MEL_150_6car;
     sw_MEL_150_6car_flipped;
 }
 
+// 8량
 switch (FEAT_TRAINS, SELF, sw_MEL_150_8car, position_in_vehid_chain % 8) {
-    1:set_MEL_150_1F_wagon;
-    2:set_MEL_150_panto_wagon;
-    3:set_MEL_150_1F_wagon;
-    4:set_MEL_150_1F_wagon;
-    5:set_MEL_150_panto_wagon;
-    6:set_MEL_150_1F_wagon;
+    1:set_MEL_150_panto_wagon;
+    2:set_MEL_150_1F_wagon;
+    3:sw_MEL_150_wagon_T;
+    4:sw_MEL_150_wagon_T;
+    5:set_MEL_150_1F_wagon;
+    6:set_MEL_150_panto_wagon;
     7:set_MEL_150_engineT;
     set_MEL_150_engineH; //default
     }
 
 switch (FEAT_TRAINS, SELF, sw_MEL_150_8car_r, position_in_vehid_chain % 8) {
-    1:set_MEL_150_1F_wagon_r;
-    2:set_MEL_150_panto_wagon_r;
-    3:set_MEL_150_1F_wagon_r;
-    4:set_MEL_150_1F_wagon_r;
-    5:set_MEL_150_panto_wagon_r;
-    6:set_MEL_150_1F_wagon_r;
+    1:set_MEL_150_panto_wagon_r;
+    2:set_MEL_150_1F_wagon_r;
+    3:sw_MEL_150_wagon_T_r;
+    4:sw_MEL_150_wagon_T_r;
+    5:set_MEL_150_1F_wagon_r;
+    6:set_MEL_150_panto_wagon_r;
     7:set_MEL_150_engineH_r;
     set_MEL_150_engineT_r; //default
     }
 
 switch(FEAT_TRAINS, SELF, sw_MEL_150_8car_flipped, vehicle_is_flipped){
-    0: sw_MEL_150_8car;
+    0: sw_MEL_150_8car_r;
     sw_MEL_150_8car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_MEL_150_8car_reversed, vehicle_is_reversed){
-    0: sw_MEL_150_8car_r;
+    0: sw_MEL_150_8car;
     sw_MEL_150_8car_flipped;
 }
 
+// 10량
 switch (FEAT_TRAINS, SELF, sw_MEL_150_10car, position_in_vehid_chain % 10) {
-    1:set_MEL_150_panto_wagon;
-    2:set_MEL_150_1F_wagon;
+    1:set_MEL_150_1F_wagon;
+    2:set_MEL_150_panto_wagon;
     3:set_MEL_150_1F_wagon;
-    4:set_MEL_150_1F_wagon;
-    5:set_MEL_150_panto_wagon;
-    6:set_MEL_150_1F_wagon;
+    4:set_MEL_150_panto_wagon;
+    5:sw_MEL_150_wagon_T;
+    6:sw_MEL_150_wagon_T;
     7:set_MEL_150_panto_wagon;
     8:set_MEL_150_1F_wagon;
     9:set_MEL_150_engineT;
@@ -100,28 +121,29 @@ switch (FEAT_TRAINS, SELF, sw_MEL_150_10car, position_in_vehid_chain % 10) {
     }
 
 switch (FEAT_TRAINS, SELF, sw_MEL_150_10car_r, position_in_vehid_chain % 10) {
-    1:set_MEL_150_1F_wagon_r;
-    2:set_MEL_150_panto_wagon_r;
-    3:set_MEL_150_1F_wagon_r;
-    4:set_MEL_150_panto_wagon_r;
-    5:set_MEL_150_1F_wagon_r;
+    1:set_MEL_150_panto_wagon_r;
+    2:set_MEL_150_1F_wagon_r;
+    3:sw_MEL_150_wagon_T_r;
+    4:sw_MEL_150_wagon_T_r;
+    5:set_MEL_150_panto_wagon_r;
     6:set_MEL_150_1F_wagon_r;
-    7:set_MEL_150_1F_wagon_r;
-    8:set_MEL_150_panto_wagon_r;
+    7:set_MEL_150_panto_wagon_r;
+    8:set_MEL_150_1F_wagon_r;
     9:set_MEL_150_engineH_r;
     set_MEL_150_engineT_r; //default
     }
 
 switch(FEAT_TRAINS, SELF, sw_MEL_150_10car_flipped, vehicle_is_flipped){
-    0: sw_MEL_150_10car;
+    0: sw_MEL_150_10car_r;
     sw_MEL_150_10car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_MEL_150_10car_reversed, vehicle_is_reversed){
-    0: sw_MEL_150_10car_r;
+    0: sw_MEL_150_10car;
     sw_MEL_150_10car_flipped;
 }
 
+// 12량
 switch (FEAT_TRAINS, SELF, sw_MEL_150_12car, position_in_vehid_chain % 12) {
     1:set_MEL_150_panto_wagon;
     2:set_MEL_150_1F_wagon;
@@ -153,12 +175,12 @@ switch (FEAT_TRAINS, SELF, sw_MEL_150_12car_r, position_in_vehid_chain % 12) {
     }
 
 switch(FEAT_TRAINS, SELF, sw_MEL_150_12car_flipped, vehicle_is_flipped){
-    0: sw_MEL_150_12car;
+    0: sw_MEL_150_12car_r;
     sw_MEL_150_12car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_MEL_150_12car_reversed, vehicle_is_reversed){
-    0: sw_MEL_150_12car_r;
+    0: sw_MEL_150_12car;
     sw_MEL_150_12car_flipped;
 }
 
@@ -187,6 +209,17 @@ switch (FEAT_TRAINS, SELF, sw_articulated_MEL_150_12car, extra_callback_info1) {
     1..11: MEL_150_12Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
+
+// 수송량
+switch(FEAT_TRAINS, SELF, sw_MEL_150_8Car_capacity_in_custom, cargo_subtype) {
+    1: return 103;
+       100;
+}
+
+switch(FEAT_TRAINS, SELF, sw_MEL_150_10Car_capacity_in_custom, cargo_subtype) {
+    1: return 102;
+       100;
+}
 
 // 사운드
 switch(FEAT_TRAINS, SELF, sw_MEL_150_sound, extra_callback_info1) {

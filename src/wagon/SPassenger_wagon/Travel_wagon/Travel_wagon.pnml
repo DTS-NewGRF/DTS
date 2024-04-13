@@ -35,6 +35,7 @@ item(FEAT_TRAINS, Travel_wagon, 2210){
 #include "G_Train/G_Train.pnml"
 #include "Jeongseon_Arirang/Jeongseon_Arirang.pnml"
 #include "Lady_Bird/Lady_Bird.pnml"
+#include "Rail_Cruise_Haerang/Rail_Cruise_Haerang.pnml"
 #include "S_Train/S_Train.pnml"
 #include "V_Train/V_Train.pnml"
 #include "Wine_Cinema/Wine_Cinema.pnml"

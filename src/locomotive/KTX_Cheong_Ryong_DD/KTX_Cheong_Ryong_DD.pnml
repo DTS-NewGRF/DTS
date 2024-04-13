@@ -21,9 +21,9 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong_DD_8Car, 2023){
         
         //spec
         speed:                          362km/h;
-        power:                          10000 kW;
+        power:                          15000 kW;
         weight:                         40 ton;
-        tractive_effort_coefficient:    0.3;
+        tractive_effort_coefficient:    0.775;
         air_drag_coefficient:           0.01;
         
         //Model

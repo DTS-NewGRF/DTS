@@ -69,12 +69,12 @@ switch (FEAT_TRAINS, SELF, sw_Chopper_Wide_Range_GEC_6Car_r, position_in_vehid_c
     }
 
 switch(FEAT_TRAINS, SELF, sw_Chopper_Wide_Range_GEC_6Car_flipped, vehicle_is_flipped){
-    0: sw_Chopper_Wide_Range_GEC_6Car;
+    0: sw_Chopper_Wide_Range_GEC_6Car_r;
     sw_Chopper_Wide_Range_GEC_6Car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Chopper_Wide_Range_GEC_6Car_reversed, vehicle_is_reversed){
-    0: sw_Chopper_Wide_Range_GEC_6Car_r;
+    0: sw_Chopper_Wide_Range_GEC_6Car;
     sw_Chopper_Wide_Range_GEC_6Car_flipped;
 }
 
@@ -105,12 +105,12 @@ switch (FEAT_TRAINS, SELF, sw_Chopper_Wide_Range_GEC_10Car_r, position_in_vehid_
     }
 
 switch(FEAT_TRAINS, SELF, sw_Chopper_Wide_Range_GEC_10Car_flipped, vehicle_is_flipped){
-    0: sw_Chopper_Wide_Range_GEC_10Car;
+    0: sw_Chopper_Wide_Range_GEC_10Car_r;
     sw_Chopper_Wide_Range_GEC_10Car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Chopper_Wide_Range_GEC_10Car_reversed, vehicle_is_reversed){
-    0: sw_Chopper_Wide_Range_GEC_10Car_r;
+    0: sw_Chopper_Wide_Range_GEC_10Car;
     sw_Chopper_Wide_Range_GEC_10Car_flipped;
 }
 

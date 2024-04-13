@@ -36,6 +36,7 @@
 #include "locomotive/KTX_Cheong_Ryong/KTX_Cheong_Ryong/KTX_Cheong_Ryong.pnml"
 #include "locomotive/KTX_Cheong_Ryong/KTX_Cheong_Ryong_Virtual/KTX_Cheong_Ryong_Virtual.pnml"
 #include "locomotive/KTX_Cheong_Ryong_DD/KTX_Cheong_Ryong_DD.pnml"
+#include "locomotive/KTX_Chowol/KTX_Chowol.pnml"
 #include "locomotive/KTX_Eum/KTX_Eum.pnml"
 #include "locomotive/KTX_Eum_DD/KTX_Eum_DD.pnml"
 #include "locomotive/KTX_Sancheon/KTX_Sancheon.pnml"

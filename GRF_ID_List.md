@@ -419,7 +419,11 @@
 |2400|Seoulmetro_4th_8000_6Car|
 |2401|Seoulmetro_5th_5000_8Car|
 |2402|Thalys_PBKA_10Car|
-|2403~2999|공백|
+|2403|ITX_Maum_4_4Car|
+|2404|Seoulmetro_6th_7000_8Car|
+|2405|Rail_Cruise_Haerang|
+|2406|KTX_Chowol_8Car|
+|2407~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

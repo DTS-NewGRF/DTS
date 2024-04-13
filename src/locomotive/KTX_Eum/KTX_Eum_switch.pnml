@@ -134,12 +134,12 @@ switch (FEAT_TRAINS, SELF, sw_KTX_Eum_6car_r, position_in_vehid_chain % 6) {
     }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Eum_6car_flipped, vehicle_is_flipped){
-    0: sw_KTX_Eum_6car;
+    0: sw_KTX_Eum_6car_r;
     sw_KTX_Eum_6car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_KTX_Eum_6car_reversed, vehicle_is_reversed){
-    0: sw_KTX_Eum_6car_r;
+    0: sw_KTX_Eum_6car;
     sw_KTX_Eum_6car_flipped;
 }
 

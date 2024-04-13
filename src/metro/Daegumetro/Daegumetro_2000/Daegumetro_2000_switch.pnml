@@ -22,12 +22,12 @@ switch (FEAT_TRAINS, SELF, sw_Daegumetro_2000_6car_r, position_in_vehid_chain % 
     }
 
 switch(FEAT_TRAINS, SELF, sw_Daegumetro_2000_6car_flipped, vehicle_is_flipped){
-    0: sw_Daegumetro_2000_6car;
+    0: sw_Daegumetro_2000_6car_r;
     sw_Daegumetro_2000_6car;
 }
 
 switch(FEAT_TRAINS, PARENT, sw_Daegumetro_2000_6car_reversed, vehicle_is_reversed){
-    0: sw_Daegumetro_2000_6car_r;
+    0: sw_Daegumetro_2000_6car;
     sw_Daegumetro_2000_6car_flipped;
 }
 

@@ -49,7 +49,7 @@ item(FEAT_TRAINS, Nuriro_DD_4Car, 2012){
         }
 
 	graphics {
-        default:                        sw_Nuriro_DD_4car;
+        default:                        sw_Nuriro_DD_4car_reversed;
         articulated_part:               sw_articulated_Nuriro_DD_4car;
         purchase:                       sw_Nuriro_DD_purchase;
         speed:                          sw_Nuriro_DD_speed;

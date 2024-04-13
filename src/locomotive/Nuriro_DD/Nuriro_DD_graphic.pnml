@@ -2,70 +2,150 @@
 Graphics
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
-1. Nuriro_DD Old C
+Nuriro_DD Old
 --------------------------------------------------------------------*/
-spriteset(set_Nuriro_DD_Old_C_engineH, "src/locomotive/Nuriro_DD/Nuriro_DD_Old_C.png"){
+spriteset(set_Nuriro_DD_Old_engineH, "src/locomotive/Nuriro_DD/Nuriro_DD_Old.png"){
     engine(80, 0)
 }
 
-spriteset(set_Nuriro_DD_Old_C_wagon, "src/locomotive/Nuriro_DD/Nuriro_DD_Old_C.png") {
-    wagon_1F_F(80, 27)
+spriteset(set_Nuriro_DD_Old_engineH_r, "src/locomotive/Nuriro_DD/Nuriro_DD_Old.png"){
+    engine(80, 27)
 }
 
-spriteset(set_Nuriro_DD_Old_C_engineT, "src/locomotive/Nuriro_DD/Nuriro_DD_Old_C.png"){
-    engine(80, 54)
+spriteset(set_Nuriro_DD_Old_wagon_T1, "src/locomotive/Nuriro_DD/Nuriro_DD_Old.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Nuriro_DD_Old_wagon_T1_r, "src/locomotive/Nuriro_DD/Nuriro_DD_Old.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Nuriro_DD_Old_wagon_T2, "src/locomotive/Nuriro_DD/Nuriro_DD_Old.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Nuriro_DD_Old_wagon_T2_r, "src/locomotive/Nuriro_DD/Nuriro_DD_Old.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Nuriro_DD_Old_engineT_r, "src/locomotive/Nuriro_DD/Nuriro_DD_Old.png"){
+    engine(80, 162)
+}
+
+spriteset(set_Nuriro_DD_Old_engineT, "src/locomotive/Nuriro_DD/Nuriro_DD_Old.png"){
+    engine(80, 189)
 }
 
 /*--------------------------------------------------------------------
-2. Nuriro_DD New C
+Nuriro_DD New
 --------------------------------------------------------------------*/
-spriteset(set_Nuriro_DD_New_C_engineH, "src/locomotive/Nuriro_DD/Nuriro_DD_New_C.png"){
+spriteset(set_Nuriro_DD_New_engineH, "src/locomotive/Nuriro_DD/Nuriro_DD_New.png"){
     engine(80, 0)
 }
 
-spriteset(set_Nuriro_DD_New_C_wagon, "src/locomotive/Nuriro_DD/Nuriro_DD_New_C.png") {
-    wagon_1F_F(80, 27)
+spriteset(set_Nuriro_DD_New_engineH_r, "src/locomotive/Nuriro_DD/Nuriro_DD_New.png"){
+    engine(80, 27)
 }
 
-spriteset(set_Nuriro_DD_New_C_engineT, "src/locomotive/Nuriro_DD/Nuriro_DD_New_C.png"){
-    engine(80, 54)
+spriteset(set_Nuriro_DD_New_wagon_T1, "src/locomotive/Nuriro_DD/Nuriro_DD_New.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Nuriro_DD_New_wagon_T1_r, "src/locomotive/Nuriro_DD/Nuriro_DD_New.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Nuriro_DD_New_wagon_T2, "src/locomotive/Nuriro_DD/Nuriro_DD_New.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Nuriro_DD_New_wagon_T2_r, "src/locomotive/Nuriro_DD/Nuriro_DD_New.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Nuriro_DD_New_engineT_r, "src/locomotive/Nuriro_DD/Nuriro_DD_New.png"){
+    engine(80, 162)
+}
+
+spriteset(set_Nuriro_DD_New_engineT, "src/locomotive/Nuriro_DD/Nuriro_DD_New.png"){
+    engine(80, 189)
 }
 
 /*--------------------------------------------------------------------
-6. Nuriro_DD New ITX
+Nuriro_DD O-Train
 --------------------------------------------------------------------*/
-spriteset(set_Nuriro_DD_New_ITX_engineH, "src/locomotive/Nuriro_DD/Nuriro_DD_New_ITX.png"){
+spriteset(set_Nuriro_DD_O_Train_engineH, "src/locomotive/Nuriro_DD/Nuriro_DD_O_Train.png"){
     engine(80, 0)
 }
 
-spriteset(set_Nuriro_DD_New_ITX_wagon, "src/locomotive/Nuriro_DD/Nuriro_DD_New_ITX.png") {
-    wagon_1F_F(80, 27)
+spriteset(set_Nuriro_DD_O_Train_engineH_r, "src/locomotive/Nuriro_DD/Nuriro_DD_O_Train.png"){
+    engine(80, 27)
 }
 
-spriteset(set_Nuriro_DD_New_ITX_engineT, "src/locomotive/Nuriro_DD/Nuriro_DD_New_ITX.png"){
-    engine(80, 54)
+spriteset(set_Nuriro_DD_O_Train_wagon_T1, "src/locomotive/Nuriro_DD/Nuriro_DD_O_Train.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Nuriro_DD_O_Train_wagon_T1_r, "src/locomotive/Nuriro_DD/Nuriro_DD_O_Train.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Nuriro_DD_O_Train_wagon_T2, "src/locomotive/Nuriro_DD/Nuriro_DD_O_Train.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Nuriro_DD_O_Train_wagon_T2_r, "src/locomotive/Nuriro_DD/Nuriro_DD_O_Train.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Nuriro_DD_O_Train_engineT_r, "src/locomotive/Nuriro_DD/Nuriro_DD_O_Train.png"){
+    engine(80, 162)
+}
+
+spriteset(set_Nuriro_DD_O_Train_engineT, "src/locomotive/Nuriro_DD/Nuriro_DD_O_Train.png"){
+    engine(80, 189)
 }
 
 /*--------------------------------------------------------------------
-6. Nuriro_DD Old OT
+Nuriro_DD ITX-Saemaeul
 --------------------------------------------------------------------*/
-spriteset(set_Nuriro_DD_Old_OT_engineH, "src/locomotive/Nuriro_DD/Nuriro_DD_Old_OT.png"){
+spriteset(set_Nuriro_DD_ITX_Saemaeul_engineH, "src/locomotive/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png"){
     engine(80, 0)
 }
 
-spriteset(set_Nuriro_DD_Old_OT_wagon, "src/locomotive/Nuriro_DD/Nuriro_DD_Old_OT.png") {
-    wagon_1F_F(80, 27)
+spriteset(set_Nuriro_DD_ITX_Saemaeul_engineH_r, "src/locomotive/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png"){
+    engine(80, 27)
 }
 
-spriteset(set_Nuriro_DD_Old_OT_engineT, "src/locomotive/Nuriro_DD/Nuriro_DD_Old_OT.png"){
-    engine(80, 54)
+spriteset(set_Nuriro_DD_ITX_Saemaeul_wagon_T1, "src/locomotive/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Nuriro_DD_ITX_Saemaeul_wagon_T1_r, "src/locomotive/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Nuriro_DD_ITX_Saemaeul_wagon_T2, "src/locomotive/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Nuriro_DD_ITX_Saemaeul_wagon_T2_r, "src/locomotive/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Nuriro_DD_ITX_Saemaeul_engineT_r, "src/locomotive/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png"){
+    engine(80, 162)
+}
+
+spriteset(set_Nuriro_DD_ITX_Saemaeul_engineT, "src/locomotive/Nuriro_DD/Nuriro_DD_ITX_Saemaeul.png"){
+    engine(80, 189)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 // 구매차량 그래픽
-spriteset(set_Nuriro_DD_purchase, "src/locomotive/Nuriro_DD/Nuriro_DD_Old_C.png"){
+spriteset(set_Nuriro_DD_purchase, "src/locomotive/Nuriro_DD/Nuriro_DD_Old.png"){
     tmpl_purchase(0, 0)
 }
 

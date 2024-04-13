@@ -21,9 +21,9 @@ item(FEAT_TRAINS, KTX_Eum_6Car, 2020){
         
         //spec
         speed:                          260km/h;
-        power:                          8000 kW;
+        power:                          9112 kW;
         weight:                         40 ton;
-        tractive_effort_coefficient:    0.3;
+        tractive_effort_coefficient:    0.579;
         air_drag_coefficient:           0.01;
         
         //Model

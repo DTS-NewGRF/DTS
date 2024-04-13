@@ -180,10 +180,12 @@ item(FEAT_TRAINS, MEL_150_8Car, 2165){
         articulated_part:               sw_articulated_MEL_150_8car;
         purchase:                       sw_MEL_150_purchase;
         speed:                          sw_MEL_150_speed;
+        cargo_capacity:                 sw_MEL_150_8Car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         sound_effect:                   sw_MEL_150_sound;
+        cargo_subtype_text:             sw_MEL_150_cargo_subtype_text;
         }
         }
 
@@ -234,10 +236,12 @@ item(FEAT_TRAINS, MEL_150_10Car, 2137){
         articulated_part:               sw_articulated_MEL_150_10car;
         purchase:                       sw_MEL_150_purchase;
         speed:                          sw_MEL_150_speed;
+        cargo_capacity:                 sw_MEL_150_10Car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         sound_effect:                   sw_MEL_150_sound;
+        cargo_subtype_text:             sw_MEL_150_cargo_subtype_text;
         }
         }
 
@@ -268,7 +272,7 @@ item(FEAT_TRAINS, MEL_150_12Car, 2138){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 100;
+        cargo_capacity:                 102;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];

@@ -1,46 +1,104 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 도색
 switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Nuriro_DD_New_C);   // 회사 신도색
-    2: return string(STR_REFIT_LIVERY_Nuriro_DD_Old_OT);  // O-train 도색
-    3: return string(STR_REFIT_LIVERY_Nuriro_DD_New_ITX); // ITX 도색
-    return string(STR_REFIT_LIVERY_Nuriro_DD_Old_C);
+    1: return string(STR_REFIT_LIVERY_Nuriro_DD_New);
+    2: return string(STR_REFIT_LIVERY_Nuriro_DD_O_Train);
+    3: return string(STR_REFIT_LIVERY_Nuriro_DD_ITX_Saemaeul);
+    return string(STR_REFIT_LIVERY_Nuriro_DD_Old);
 }
 
+// 4량
 switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_engineH, cargo_subtype) {
-    1: set_Nuriro_DD_New_C_engineH;   // 회사 신도색
-    2: set_Nuriro_DD_Old_OT_engineH;  // O-train 도색
-    3: set_Nuriro_DD_New_ITX_engineH; // ITX 도색
-    set_Nuriro_DD_Old_C_engineH;
+    1: set_Nuriro_DD_New_engineH;
+    2: set_Nuriro_DD_O_Train_engineH;
+    3: set_Nuriro_DD_ITX_Saemaeul_engineH;
+    set_Nuriro_DD_Old_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_wagon_T1, cargo_subtype) {
+    1: set_Nuriro_DD_New_wagon_T1;
+    2: set_Nuriro_DD_O_Train_wagon_T1;
+    3: set_Nuriro_DD_ITX_Saemaeul_wagon_T1;
+    set_Nuriro_DD_Old_wagon_T1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_wagon_T2, cargo_subtype) {
+    1: set_Nuriro_DD_New_wagon_T2;
+    2: set_Nuriro_DD_O_Train_wagon_T2;
+    3: set_Nuriro_DD_ITX_Saemaeul_wagon_T2;
+    set_Nuriro_DD_Old_wagon_T2;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_engineT, cargo_subtype) {
-    1: set_Nuriro_DD_New_C_engineT;   // 회사 신도색
-    2: set_Nuriro_DD_Old_OT_engineT;  // O-train 도색
-    3: set_Nuriro_DD_New_ITX_engineT; // ITX 도색
-    set_Nuriro_DD_Old_C_engineT;
+    1: set_Nuriro_DD_New_engineT;
+    2: set_Nuriro_DD_O_Train_engineT;
+    3: set_Nuriro_DD_ITX_Saemaeul_engineT;
+    set_Nuriro_DD_Old_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_wagon, cargo_subtype) {
-    1: set_Nuriro_DD_New_C_wagon;   // 회사 신도색
-    2: set_Nuriro_DD_Old_OT_wagon;  // O-train 도색
-    3: set_Nuriro_DD_New_ITX_wagon; // ITX 도색
-    set_Nuriro_DD_Old_C_wagon;
+// 4량 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_engineH_r, cargo_subtype) {
+    1: set_Nuriro_DD_New_engineH_r;
+    2: set_Nuriro_DD_O_Train_engineH_r;
+    3: set_Nuriro_DD_ITX_Saemaeul_engineH_r;
+    set_Nuriro_DD_Old_engineH_r;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_wagon_T1_r, cargo_subtype) {
+    1: set_Nuriro_DD_New_wagon_T1_r;
+    2: set_Nuriro_DD_O_Train_wagon_T1_r;
+    3: set_Nuriro_DD_ITX_Saemaeul_wagon_T1_r;
+    set_Nuriro_DD_Old_wagon_T1_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_wagon_T2_r, cargo_subtype) {
+    1: set_Nuriro_DD_New_wagon_T2_r;
+    2: set_Nuriro_DD_O_Train_wagon_T2_r;
+    3: set_Nuriro_DD_ITX_Saemaeul_wagon_T2_r;
+    set_Nuriro_DD_Old_wagon_T2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_engineT_r, cargo_subtype) {
+    1: set_Nuriro_DD_New_engineT_r;
+    2: set_Nuriro_DD_O_Train_engineT_r;
+    3: set_Nuriro_DD_ITX_Saemaeul_engineT_r;
+    set_Nuriro_DD_Old_engineT_r;
+}
+
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Nuriro_DD_4car, position_in_vehid_chain % 4) {
-    1:sw_Nuriro_DD_wagon;
-    2:sw_Nuriro_DD_wagon;
+    1:sw_Nuriro_DD_wagon_T1;
+    2:sw_Nuriro_DD_wagon_T2;
     3:sw_Nuriro_DD_engineT;
     sw_Nuriro_DD_engineH; //default
     }
 
+switch (FEAT_TRAINS, SELF, sw_Nuriro_DD_4car_r, position_in_vehid_chain % 4) {
+    1:sw_Nuriro_DD_wagon_T2_r;
+    2:sw_Nuriro_DD_wagon_T1_r;
+    3:sw_Nuriro_DD_engineH_r;
+    sw_Nuriro_DD_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_4car_flipped, vehicle_is_flipped){
+    0: sw_Nuriro_DD_4car_r;
+    sw_Nuriro_DD_4car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Nuriro_DD_4car_reversed, vehicle_is_reversed){
+    0: sw_Nuriro_DD_4car;
+    sw_Nuriro_DD_4car_flipped;
+}
+
+// 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Nuriro_DD_4car, extra_callback_info1) {
     1..3: Nuriro_DD_4Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
+// 사운드
 switch(FEAT_TRAINS, SELF, sw_Nuriro_DD_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/HITACHIStart.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
