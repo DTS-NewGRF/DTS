@@ -592,6 +592,8 @@ STR_REFIT_LIVERY_ITX_CheongChun_A                      : ITX-CheongChun A
 STR_REFIT_LIVERY_ITX_CheongChun_B                      : ITX-CheongChun B
 STR_REFIT_LIVERY_ITX_Maum                              : ITX-Maum
 STR_REFIT_LIVERY_ITX_Maum_High1                        : HIGH1 Resort
+STR_REFIT_LIVERY_ITX_Maum_4_4_A                        : ITX-Maum + HIGH1 Resort
+STR_REFIT_LIVERY_ITX_Maum_4_4_B                        : HIGH1 Resort + ITX-Maum
 STR_REFIT_LIVERY_KTX_1_A                               : Special 3Car
 STR_REFIT_LIVERY_KTX_1_B                               : Special 4Car
 STR_REFIT_LIVERY_KTX_1_C                               : Move Cinema

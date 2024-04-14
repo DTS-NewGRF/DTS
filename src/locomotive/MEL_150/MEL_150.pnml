@@ -52,7 +52,7 @@ item(FEAT_TRAINS, MEL_150_4Car, 2136){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 100;
+        cargo_capacity:                 105;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -106,7 +106,7 @@ item(FEAT_TRAINS, MEL_150_6Car, 2236){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 100;
+        cargo_capacity:                 107;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -272,7 +272,7 @@ item(FEAT_TRAINS, MEL_150_12Car, 2138){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 102;
+        cargo_capacity:                 107;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];

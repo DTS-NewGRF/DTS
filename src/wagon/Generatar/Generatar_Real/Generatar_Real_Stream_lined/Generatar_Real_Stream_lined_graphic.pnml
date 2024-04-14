@@ -45,6 +45,10 @@ spriteset(set_Generatar_Real_Stream_lined_HR, "src/wagon/Generatar/Generatar_Rea
     wagon_1F_F_mini_7(80, 270)
 }
 
+alternative_sprites(set_Generatar_Real_Stream_lined_HR, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined_32bpp.png") {
+    wagon_1F_F_mini_7(80, 0)
+}
+
 spriteset(set_Generatar_Real_Stream_lined_MR, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
     wagon_1F_F_mini_7(80, 297)
 }
@@ -77,8 +81,16 @@ spriteset(set_Generatar_Real_Stream_lined_NA, "src/wagon/Generatar/Generatar_Rea
     wagon_1F_F_mini_7(80, 486)
 }
 
+alternative_sprites(set_Generatar_Real_Stream_lined_NA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined_32bpp.png") {
+    wagon_1F_F_mini_7(80, 27)
+}
+
 spriteset(set_Generatar_Real_Stream_lined_NG, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined.png") {
     wagon_1F_F_mini_7(80, 513)
+}
+
+alternative_sprites(set_Generatar_Real_Stream_lined_NG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/Generatar/Generatar_Real/Generatar_Real_Stream_lined/Generatar_Real_Stream_lined_32bpp.png") {
+    wagon_1F_F_mini_7(80, 54)
 }
 
 /*--------------------------------------------------------------------

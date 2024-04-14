@@ -588,6 +588,8 @@ STR_REFIT_LIVERY_ITX_CheongChun_A                      : ITX-청춘
 STR_REFIT_LIVERY_ITX_CheongChun_B                      : ITX-청춘 용 랩핑
 STR_REFIT_LIVERY_ITX_Maum                              : ITX-마음
 STR_REFIT_LIVERY_ITX_Maum_High1                        : 하이원리조트
+STR_REFIT_LIVERY_ITX_Maum_4_4_A                        : 기본 + 하이원리조트
+STR_REFIT_LIVERY_ITX_Maum_4_4_B                        : 하이원리조트 + 기본
 STR_REFIT_LIVERY_KTX_1_A                               : 특실 3량
 STR_REFIT_LIVERY_KTX_1_B                               : 특실 4량
 STR_REFIT_LIVERY_KTX_1_C                               : 영화시네마

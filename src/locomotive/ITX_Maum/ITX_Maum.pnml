@@ -243,13 +243,13 @@ item(FEAT_TRAINS, ITX_Maum_10Car, 2238){
         }
 
 /*--------------------------------------------------------------------
-열차정보 4량
+열차정보 4+4량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
     property {
         name:                           string(STR_ITX_Maum_4_4Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2022, 1, 1);
+        introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -292,7 +292,7 @@ item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
         purchase:                       sw_ITX_Maum_purchase;
         speed:                          sw_ITX_Maum_speed;
         loading_speed:                  25;
-        cargo_subtype_text:             sw_ITX_Maum_cargo_subtype_text;
+        cargo_subtype_text:             sw_ITX_Maum_4_4_cargo_subtype_text;
         sound_effect:                   sw_ITX_Maum_sound;
         }
         }

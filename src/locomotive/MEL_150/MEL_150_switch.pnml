@@ -212,13 +212,13 @@ switch (FEAT_TRAINS, SELF, sw_articulated_MEL_150_12car, extra_callback_info1) {
 
 // 수송량
 switch(FEAT_TRAINS, SELF, sw_MEL_150_8Car_capacity_in_custom, cargo_subtype) {
-    1: return 103;
-       100;
+    1: return 105;
+       108;
 }
 
 switch(FEAT_TRAINS, SELF, sw_MEL_150_10Car_capacity_in_custom, cargo_subtype) {
-    1: return 102;
-       100;
+    1: return 106;
+       108;
 }
 
 // 사운드
