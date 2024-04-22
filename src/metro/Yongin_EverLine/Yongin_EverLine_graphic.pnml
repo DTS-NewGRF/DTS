@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+용인경전철
+--------------------------------------------------------------------*/
+spriteset(set_Yongin_EverLine_engineH, "src/metro/Yongin_EverLine/Yongin_EverLine.png"){
+    engine(80, 0)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Yongin_EverLine_purchase, "src/metro/Yongin_EverLine/Yongin_EverLine.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Yongin_EverLine_purchase, cargo_subtype) {
+    set_Yongin_EverLine_purchase;
+}

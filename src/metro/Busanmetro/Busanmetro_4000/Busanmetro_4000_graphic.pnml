@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+부산교통공사 4000호대
+--------------------------------------------------------------------*/
+spriteset(set_Busanmetro_4000_engineH, "src/metro/Busanmetro/Busanmetro_4000/Busanmetro_4000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Busanmetro_4000_wagon, "src/metro/Busanmetro/Busanmetro_4000/Busanmetro_4000.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Busanmetro_4000_engineT, "src/metro/Busanmetro/Busanmetro_4000/Busanmetro_4000.png"){
+    engine(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Busanmetro_4000_purchase, "src/metro/Busanmetro/Busanmetro_4000/Busanmetro_4000.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Busanmetro_4000_purchase, cargo_subtype) {
+    set_Busanmetro_4000_purchase;
+}

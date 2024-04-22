@@ -25,5 +25,6 @@ item(FEAT_TRAINS, Incheonmetro, 2386){
 /*--------------------------------------------------------------------
 열차 리스트
 --------------------------------------------------------------------*/
-#include "Incheonmetro_1st/Incheonmetro_1st.pnml"
-#include "Incheonmetro_2nd/Incheonmetro_2nd.pnml"
+#include "Incheonmetro_1000_1st/Incheonmetro_1000_1st.pnml"
+#include "Incheonmetro_1000_2nd/Incheonmetro_1000_2nd.pnml"
+#include "Incheonmetro_2000/Incheonmetro_2000.pnml"

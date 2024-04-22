@@ -235,6 +235,7 @@ STR_THSR_700T_12Car_NAME                               :[DTS/12Car] THSR 700T
 # Korea / Metro's name
 STR_AUTS_6Car_NAME                                     :[DTS/6Car] AUTS
 STR_Group_Busanmetro_NAME                              :[DTS] Busan Metro
+STR_Busan_Gimhae_LRT_2Car_NAME                         :[DTS/2car] Busan-Gimhae LRT line
 STR_Group_Busanmetro_1st_1000_NAME                     :[DTS] Busanmetro 1st 1000
 STR_Busanmetro_1st_1000_6Car_NAME                      :[DTS/6car] Busanmetro 1st 1000
 STR_Busanmetro_1st_1000_8Car_NAME                      :[DTS/8car] Busanmetro 1st 1000
@@ -242,12 +243,15 @@ STR_Busanmetro_2nd_1000_8Car_NAME                      :[DTS/8car] Busanmetro 2n
 STR_Busanmetro_3rd_1000_8Car_NAME                      :[DTS/8car] Busanmetro 3rd 1000
 STR_Busanmetro_2000_6Car_NAME                          :[DTS/6car] Busanmetro 2000
 STR_Busanmetro_3000_4Car_NAME                          :[DTS/4car] Busanmetro 3000
+STR_Busanmetro_4000_6Car_NAME                          :[DTS/6car] Busanmetro 4000
 STR_Group_Daegumetro_NAME                              :[DTS] Daegu Metro
 STR_Daegumetro_1000_6Car_NAME                          :[DTS/6car] Daegumetro 1000
 STR_Daegumetro_2000_6Car_NAME                          :[DTS/6car] Daegumetro 2000
+STR_Gimpo_Gold_2Car_NAME                               :[DTS/2car] Gimpo Gold Line
 STR_Group_Incheonmetro_NAME                            :[DTS] Incheon Metro
-STR_Incheonmetro_1st_8Car_NAME                         :[DTS/8량] Incheonmetro 1st
-STR_Incheonmetro_2nd_8Car_NAME                         :[DTS/8량] Incheonmetro 2nd
+STR_Incheonmetro_1000_1st_8Car_NAME                    :[DTS/8car] Incheonmetro 1000 1st
+STR_Incheonmetro_1000_2nd_8Car_NAME                    :[DTS/8car] Incheonmetro 1000 2nd
+STR_Incheonmetro_2000_2Car_NAME                        :[DTS/2car] Incheonmetro 2000
 STR_Group_Korail_NAME                                  :[DTS] Korail Metro
 STR_Group_Korail_1st_NAME                              :[DTS] Korail 1st 
 STR_Korail_1st_4Car_NAME                               :[DTS/4Car] Korail 1st
@@ -344,7 +348,11 @@ STR_Seoulmetro_5th_7000_8Car_NAME                      :[DTS/8Car] Seoulmetro 5t
 STR_Seoulmetro_5th_4000_10Car_NAME                     :[DTS/10Car] Seoulmetro 5th 4000
 STR_Seoulmetro_6th_7000_8Car_NAME                      :[DTS/8Car] Seoulmetro 6th 7000
 STR_Shinbundang_6Car_NAME                              :[DTS/6Car] Shinbundang line D000 series 
+STR_Sillim_Line_3Car_NAME                              :[DTS/3Car] Sillim Line
 STR_Standard_Metro_4Car_NAME                           :[DTS/4Car] Standard Metro
+STR_Ui_Sinseol_2Car_NAME                               :[DTS/2Car] UI-Sinseol Line
+STR_Uijeongbu_Line_2Car_NAME                           :[DTS/2Car] Uijeongbu Light Rapid Transit
+STR_Yongin_EverLine_2Car_NAME                          :[DTS/1Car] Yongin EverLine
 
 # Hong Kong / Metro's name
 STR_MTR_AC_Cammall_8Car_NAME                           :[DTS/8Car] MTR Cammall AC Train
@@ -744,9 +752,11 @@ STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
 STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
 STR_REFIT_LIVERY_Daegumetro_1000_GTO                   : GTO
 STR_REFIT_LIVERY_Daegumetro_1000_IGBT                  : IGBT
-STR_REFIT_LIVERY_Incheonmetro_1st_Old_IGBT_1lv         : Old IGBT 1lv
-STR_REFIT_LIVERY_Incheonmetro_1st_Old_IGBT_2lv         : Old IGBT 2lv
-STR_REFIT_LIVERY_Incheonmetro_1st_New                  : New
+STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_1lv    : Old IGBT 1lv
+STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_2lv    : Old IGBT 2lv
+STR_REFIT_LIVERY_Incheonmetro_1000_1st_New             : New
+STR_REFIT_LIVERY_Incheonmetro_2000_1st                 : 1st
+STR_REFIT_LIVERY_Incheonmetro_2000_2nd                 : 2nd
 STR_REFIT_LIVERY_Korail_1st_IGBT                       : IGBT
 STR_REFIT_LIVERY_Korail_1st_GTO                        : GTO
 STR_REFIT_LIVERY_Korail_1st_3X1K_IGBT                  : 3X1K IGBT

@@ -10,7 +10,7 @@ grf {
     name :                             string(STR_GRF_NAME_WITH_VER);
     desc :                             string(STR_GRF_DESC);
     url :                              string(STR_GRF_URL);
-    version :                          20240414;
+    version :                          20240422;
     min_compatible_version :           20240201;
 	
 	// Parameters 매개변수
@@ -36,7 +36,10 @@ cargotable {
 
 // Railtypetable
 railtypetable {
-    RAIL, ELRL}
+    RAIL, ELRL,
+    KR_3RD_RAIL: ["3RDR"],
+    KR_3LIM_RAIL: ["3LIM"],
+    LAGT}
 
 // Load templates
 #include "src/template_list.pnml"

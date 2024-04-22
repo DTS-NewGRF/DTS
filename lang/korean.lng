@@ -235,6 +235,7 @@ STR_Talgo_350_SRO_14Car_NAME                           :[DTS/14량] 탈고 350 S
 # Korea / Metro's name
 STR_AUTS_6Car_NAME                                     :[DTS/6량] 차세대전동차
 STR_Group_Busanmetro_NAME                              :[DTS] 부산교통공사 전동차
+STR_Busan_Gimhae_LRT_2Car_NAME                         :[DTS/2량] 부산김해경전철 전동차
 STR_Group_Busanmetro_1st_1000_NAME                     :[DTS] 부산교통공사 1세대 1000호대 전동차
 STR_Busanmetro_1st_1000_6Car_NAME                      :[DTS/6량] 부산교통공사 1세대 1000호대 전동차
 STR_Busanmetro_1st_1000_8Car_NAME                      :[DTS/8량] 부산교통공사 1세대 1000호대 전동차
@@ -242,12 +243,16 @@ STR_Busanmetro_2nd_1000_8Car_NAME                      :[DTS/8량] 부산교통�
 STR_Busanmetro_3rd_1000_8Car_NAME                      :[DTS/8량] 부산교통공사 3세대 1000호대 전동차
 STR_Busanmetro_2000_6Car_NAME                          :[DTS/6량] 부산교통공사 2000호대 전동차
 STR_Busanmetro_3000_4Car_NAME                          :[DTS/4량] 부산교통공사 3000호대 전동차
+STR_Busanmetro_3000_4Car_NAME                          :[DTS/4량] 부산교통공사 3000호대 전동차
+STR_Busanmetro_4000_6Car_NAME                          :[DTS/6량] 부산교통공사 4000호대 전동차
 STR_Group_Daegumetro_NAME                              :[DTS] 대구교통공사 전동차
 STR_Daegumetro_1000_6Car_NAME                          :[DTS/6량] 대구교통공사 1000호대 전동차
 STR_Daegumetro_2000_6Car_NAME                          :[DTS/6량] 대구교통공사 2000호대 전동차
+STR_Gimpo_Gold_2Car_NAME                               :[DTS/2량] 김포골드라인
 STR_Group_Incheonmetro_NAME                            :[DTS] 인천교통공사 전동차
-STR_Incheonmetro_1st_8Car_NAME                         :[DTS/8량] 인천교통공사 1세대 전동차
-STR_Incheonmetro_2nd_8Car_NAME                         :[DTS/8량] 인천교통공사 2세대 전동차
+STR_Incheonmetro_1000_1st_8Car_NAME                    :[DTS/8량] 인천교통공사 1000호대 1세대 전동차
+STR_Incheonmetro_1000_2nd_8Car_NAME                    :[DTS/8량] 인천교통공사 1000호대 2세대 전동차
+STR_Incheonmetro_2000_2Car_NAME                        :[DTS/2량] 인천교통공사 2000호대 전동차
 STR_Group_Korail_NAME                                  :[DTS] 한국철도공사 통근형 전동차
 STR_Group_Korail_1st_NAME                              :[DTS] 한국철도공사 1세대 전동차
 STR_Korail_1st_4Car_NAME                               :[DTS/4량] 한국철도공사 1세대
@@ -343,7 +348,11 @@ STR_Seoulmetro_5th_7000_8Car_NAME                      :[DTS/8량] 서울교통�
 STR_Seoulmetro_5th_4000_10Car_NAME                     :[DTS/10량] 서울교통공사 5세대 4000호대 전동차
 STR_Seoulmetro_6th_7000_8Car_NAME                      :[DTS/8량] 서울교통공사 6세대 7000호대 전동차
 STR_Shinbundang_6Car_NAME                              :[DTS/6량] 신분당선 D000호대 전동차
+STR_Sillim_Line_3Car_NAME                              :[DTS/3량] 신림선 전동차
 STR_Standard_Metro_4Car_NAME                           :[DTS/4량] 한국형 표준전동차
+STR_Ui_Sinseol_2Car_NAME                               :[DTS/2량] 우이신설선
+STR_Uijeongbu_Line_2Car_NAME                           :[DTS/2량] 의정부경전철
+STR_Yongin_EverLine_2Car_NAME                          :[DTS/단량] 용인경전철
 
 # Hong Kong / Metro's name
 STR_MTR_AC_Cammall_8Car_NAME                           :[DTS/8량] 홍콩 MTR 메트로카멜 교류형 전동차
@@ -740,9 +749,11 @@ STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
 STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
 STR_REFIT_LIVERY_Daegumetro_1000_GTO                   : GTO
 STR_REFIT_LIVERY_Daegumetro_1000_IGBT                  : IGBT
-STR_REFIT_LIVERY_Incheonmetro_1st_Old_IGBT_1lv         : 구도색 IGBT 1lv
-STR_REFIT_LIVERY_Incheonmetro_1st_Old_IGBT_2lv         : 구도색 IGBT 2lv
-STR_REFIT_LIVERY_Incheonmetro_1st_New                  : 신도색
+STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_1lv    : 구도색 IGBT 1lv
+STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_2lv    : 구도색 IGBT 2lv
+STR_REFIT_LIVERY_Incheonmetro_1000_1st_New             : 신도색
+STR_REFIT_LIVERY_Incheonmetro_2000_1st                 : 1세대
+STR_REFIT_LIVERY_Incheonmetro_2000_2nd                 : 2세대
 STR_REFIT_LIVERY_Korail_1st_IGBT                       : IGBT
 STR_REFIT_LIVERY_Korail_1st_GTO                        : GTO
 STR_REFIT_LIVERY_Korail_1st_3X1K_IGBT                  : 3X1K IGBT

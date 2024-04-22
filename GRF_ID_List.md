@@ -403,8 +403,8 @@
 |2384|Daegumetro_1000_6Car|
 |2385|Daegumetro_2000_6Car|
 |2386|[그룹명] Incheonmetro|
-|2387|Incheonmetro_1st_8Car|
-|2388|Incheonmetro_2nd_8Car|
+|2387|Incheonmetro_1000_1st_8Car|
+|2388|Incheonmetro_1000_2nd_8Car|
 |2389|Mugunhwa_Real_Normal|
 |2390|Mugunhwa_Real_Special|
 |2391|Mugunhwa_Real_Service|
@@ -423,7 +423,15 @@
 |2404|Seoulmetro_6th_7000_8Car|
 |2405|Rail_Cruise_Haerang|
 |2406|KTX_Chowol_8Car|
-|2407~2999|공백|
+|2407|Busan_Gimhae_LRT_2Car|
+|2408|Incheonmetro_2000_2Car|
+|2409|Ui_Sinseol_2Car|
+|2410|Gimpo_Gold_2Car|
+|2411|Yongin_EverLine_2Car|
+|2412|Busanmetro_4000_6Car|
+|2413|Uijeongbu_Line_2Car|
+|2414|Sillim_Line_3Car|
+|2415~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+우이신설
+--------------------------------------------------------------------*/
+spriteset(set_UI_Sinseol_engineH, "src/metro/UI_Sinseol/UI_Sinseol.png"){
+    engine_mini_7(80, 0)
+}
+
+spriteset(set_UI_Sinseol_engineT, "src/metro/UI_Sinseol/UI_Sinseol.png"){
+    engine_mini_7(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_UI_Sinseol_purchase, "src/metro/UI_Sinseol/UI_Sinseol.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_UI_Sinseol_purchase, cargo_subtype) {
+    set_UI_Sinseol_purchase;
+}

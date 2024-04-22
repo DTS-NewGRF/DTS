@@ -5,11 +5,11 @@ Graphics
 구매정보
 -------------------------------------------------------------------*/
 // 구매차량 그래픽 8bpp
-spriteset(set_Incheonmetro_1998_purchase, "src/metro/Incheonmetro/Incheonmetro_1st/Incheonmetro_1st_Old.png"){
+spriteset(set_Incheonmetro_1998_purchase, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
     tmpl_single_purchase(0, 0)
 }
 
-spriteset(set_Incheonmetro_2009_purchase, "src/metro/Incheonmetro/Incheonmetro_1st/Incheonmetro_1st_Old.png"){
+spriteset(set_Incheonmetro_2009_purchase, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
     tmpl_single_purchase(0, 0)
 }
 
@@ -34,4 +34,4 @@ switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2009_purchase, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_Incheonmetro_purchase, current_year) {
     0..2008: sw_Incheonmetro_1998_purchase;
     sw_Incheonmetro_2009_purchase;
-    }
+}

@@ -1,0 +1,62 @@
+/*--------------------------------------------------------------------
+용인경전철
+--------------------------------------------------------------------*/
+// Graphics
+#include "Yongin_EverLine_graphic.pnml"
+
+// Switch
+#include "Yongin_EverLine_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 2량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Yongin_EverLine_2Car, 2411){
+    property {
+        name:                           string(STR_Yongin_EverLine_2Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2008, 1, 1);
+        track_type:                     KR_3LIM_RAIL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        
+        //spec
+        speed:                          80km/h;
+        length:                         7;
+        power:                          400 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 133;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        set_Yongin_EverLine_engineH;
+        articulated_part:               sw_articulated_Yongin_EverLine_2car;
+        purchase:                       sw_Yongin_EverLine_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_Yongin_EverLine_sound;
+        }
+        }

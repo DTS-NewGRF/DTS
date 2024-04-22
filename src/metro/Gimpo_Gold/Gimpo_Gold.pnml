@@ -1,40 +1,41 @@
 /*--------------------------------------------------------------------
-대구교통공사 2000호대
+김포골드
 --------------------------------------------------------------------*/
 // Graphics
-#include "Incheonmetro_2nd_graphic.pnml"
+#include "Gimpo_Gold_graphic.pnml"
 
 // Switch
-#include "Incheonmetro_2nd_switch.pnml"
+#include "Gimpo_Gold_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보 6량
+열차정보 2량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Incheonmetro_2nd_8Car, 2388){
+item(FEAT_TRAINS, Gimpo_Gold_2Car, 2410){
     property {
-        name:                           string(STR_Incheonmetro_2nd_8Car_NAME);
+        name:                           string(STR_Gimpo_Gold_2Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2004, 1, 1);
-        track_type:                     ELRL;
+        introduction_date:              date(2017, 1, 1);
+        track_type:                     KR_3RD_RAIL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Incheonmetro;
         
         //spec
-        speed:                          100km/h;
-        power:                          3360 kW;
+        speed:                          80km/h;
+        length:                         7;
+        power:                          520 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 109;
+        cargo_capacity:                 86;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -50,13 +51,12 @@ item(FEAT_TRAINS, Incheonmetro_2nd_8Car, 2388){
         }
 
     graphics {
-        default:                        sw_Incheonmetro_2nd_8car_reversed;
-        articulated_part:               sw_articulated_Incheonmetro_2nd_8car;
-        purchase:                       sw_Incheonmetro_2nd_purchase;
-        speed:                          sw_Incheonmetro_2nd_speed;
+        default:                        sw_Gimpo_Gold_2car;
+        articulated_part:               sw_articulated_Gimpo_Gold_2car;
+        purchase:                       sw_Gimpo_Gold_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Incheonmetro_2nd_sound;
+        sound_effect:                   sw_Gimpo_Gold_sound;
         }
         }

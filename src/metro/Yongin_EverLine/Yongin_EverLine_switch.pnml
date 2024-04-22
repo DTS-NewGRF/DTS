@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+// 편성그래픽
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_Yongin_EverLine_2car, extra_callback_info1) {
+    0: Yongin_EverLine_2Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+// 사운드
+switch(FEAT_TRAINS, SELF, sw_Yongin_EverLine_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/TOSHIBA_IGBT_LIM_start.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/BTC_DOOR_CLOSE.wav");
+    return CB_RESULT_NO_SOUND;
+    }

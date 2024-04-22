@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+의정부경전철
+--------------------------------------------------------------------*/
+spriteset(set_Uijeongbu_Line_engineH, "src/metro/Uijeongbu_Line/Uijeongbu_Line.png"){
+    engine_mini_7(80, 0)
+}
+
+spriteset(set_Uijeongbu_Line_engineT, "src/metro/Uijeongbu_Line/Uijeongbu_Line.png"){
+    engine_mini_7(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Uijeongbu_Line_purchase, "src/metro/Uijeongbu_Line/Uijeongbu_Line.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Uijeongbu_Line_purchase, cargo_subtype) {
+    set_Uijeongbu_Line_purchase;
+}

@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+신림선
+--------------------------------------------------------------------*/
+spriteset(set_Sillim_Line_engineH, "src/metro/Sillim_Line/Sillim_Line.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Sillim_Line_wagon, "src/metro/Sillim_Line/Sillim_Line.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Sillim_Line_engineT, "src/metro/Sillim_Line/Sillim_Line.png"){
+    engine(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Sillim_Line_purchase, "src/metro/Sillim_Line/Sillim_Line.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Sillim_Line_purchase, cargo_subtype) {
+    set_Sillim_Line_purchase;
+}

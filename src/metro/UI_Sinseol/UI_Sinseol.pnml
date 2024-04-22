@@ -1,0 +1,62 @@
+/*--------------------------------------------------------------------
+우이신설
+--------------------------------------------------------------------*/
+// Graphics
+#include "UI_Sinseol_graphic.pnml"
+
+// Switch
+#include "UI_Sinseol_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 2량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Ui_Sinseol_2Car, 2409){
+    property {
+        name:                           string(STR_Ui_Sinseol_2Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2015, 1, 1);
+        track_type:                     KR_3RD_RAIL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        
+        //spec
+        speed:                          70km/h;
+        length:                         7;
+        power:                          520 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 87;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_UI_Sinseol_2car;
+        articulated_part:               sw_articulated_UI_Sinseol_2car;
+        purchase:                       sw_UI_Sinseol_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_UI_Sinseol_sound;
+        }
+        }

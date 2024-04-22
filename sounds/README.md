@@ -4,7 +4,7 @@
 - 서울교통공사 5000호대 1,2세대
 
 ### ALSTOM_IGBT_Start.wav
-- 인천교통공사 1세대 1GBT 1lv
+- 인천교통공사 1000호대 1세대 1GBT 1lv
 
 ### ALSTOMGTOstart.wav
 - 서울교통공사 4000호대 2세대 GTO
@@ -89,7 +89,9 @@
 - 서울교통공사 2000호대 1·2세대 3VF
 - 서울교통공사 3000호대 1세대 3VF 전동차
 - 서울교통공사 9000호대 1~4세대 전동차
-- 인천교통공사 2세대
+- 인천교통공사 1000호대 2세대
+- 우이신설 전동차
+- 김포골드라인 전동차
 
 ### HYUNDAIROTEMPMSMstart.wav
 - AUTS(차세대전동차)
@@ -112,6 +114,10 @@
 ### MITSUBISHIGTOKstart.wav
 - 서울교통공사 1000호대, 서울교통공사 4000호대 1세대 GTO, 한국철도공사 3000호대
 
+### MITSUBISHIigbt2start.wav
+- 부산김해경전철 전동차
+- 부산교통공사 4000호대
+
 ### MITSUBISHIigbtstart.wav
 - 서울교통공사 6000호대
 
@@ -121,6 +127,9 @@
 ### RotemIGCTstart.wav
 - HSR-350X
 
+### Siemens_IGBT_CHOPPER_start.wav
+- 의정부경전철
+
 ### SIEMENSGTO2locostart.wav
 - 8100호대 전기 기관차
 
@@ -129,6 +138,9 @@
 
 ### SIEMENSGTOstart.wav
 - 대구교통공사 1000호대
+
+### SKODA_VVVF_IGBT_start.wav
+- 인천교통공사 2000호대
 
 ### TGV_Kstart.wav
 - KTX-1
@@ -148,6 +160,9 @@
 ### Thyristor_drive_start.wav
 - TGV 아틀랑티크
 - TGV 쉬드 에스트
+
+### TOSHIBA_IGBT_LIM_start.wav
+- 용인경전철
 
 ### TOSHIBAGTOJ2start.wav
 - 신칸센 500계 16량
@@ -205,11 +220,12 @@
 
 ### WOOJIN_IGBT_1start.wav
 - 서울교통공사 4000호대 2세대 IGBT
-- 인천교통공사 1세대 1GBT 2lv
+- 인천교통공사 1000호대 1세대 1GBT 2lv
 
 ### WOOJIN_IGBT_2start.wav
 - 한국철도공사 5세대 VVVF전동차
 - 부산교통공사 2000호대
+- 신림선 전동차
 
 ### WOOJINMITSUBISHIIGBT2start.wav
 - 한국철도공사 5세대 VVVF전동차 소프트웨어 개선

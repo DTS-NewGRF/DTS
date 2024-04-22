@@ -56,11 +56,16 @@
 #include "metro/AUTS/AUTS.pnml"
 #include "metro/Busanmetro/Busanmetro.pnml"
 #include "metro/Daegumetro/Daegumetro.pnml"
+#include "metro/Gimpo_Gold/Gimpo_Gold.pnml"
 #include "metro/Incheonmetro/Incheonmetro.pnml"
 #include "metro/Korail/Korail.pnml"
 #include "metro/Seoulmetro/Seoulmetro.pnml"
 #include "metro/Shinbundang/Shinbundang.pnml"
+#include "metro/Sillim_Line/Sillim_Line.pnml"
 #include "metro/standard/Standard.pnml"
+#include "metro/UI_Sinseol/UI_Sinseol.pnml"
+#include "metro/Uijeongbu_Line/Uijeongbu_Line.pnml"
+#include "metro/Yongin_EverLine/Yongin_EverLine.pnml"
 
 // Sorting
 #include "sort.pnml"

@@ -1,0 +1,98 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+인천교통공사 1000호대 1세대 구도색
+--------------------------------------------------------------------*/
+spriteset(set_Incheonmetro_1000_1st_Old_engineH, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Incheonmetro_1000_1st_Old_engineH_r, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Incheonmetro_1000_1st_Old_panto_wagon, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Incheonmetro_1000_1st_Old_panto_wagon_r, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Incheonmetro_1000_1st_Old_wagon, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Incheonmetro_1000_1st_Old_wagon_r, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Incheonmetro_1000_1st_Old_engineT_r, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Incheonmetro_1000_1st_Old_engineT, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+인천교통공사 1000호대 1세대 신도색
+--------------------------------------------------------------------*/
+spriteset(set_Incheonmetro_1000_1st_New_engineH, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Incheonmetro_1000_1st_New_engineH_r, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Incheonmetro_1000_1st_New_panto_wagon, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Incheonmetro_1000_1st_New_panto_wagon_r, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Incheonmetro_1000_1st_New_wagon, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Incheonmetro_1000_1st_New_wagon_r, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Incheonmetro_1000_1st_New_engineT_r, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Incheonmetro_1000_1st_New_engineT, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Incheonmetro_1000_1st_Old_purchase, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_Old.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Incheonmetro_1000_1st_New_purchase, "src/metro/Incheonmetro/Incheonmetro_1000_1st/Incheonmetro_1000_1st_New.png"){
+    tmpl_purchase(0, 0)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Incheonmetro_1000_1st_Old_purchase, cargo_subtype) {
+    set_Incheonmetro_1000_1st_Old_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Incheonmetro_1000_1st_New_purchase, cargo_subtype) {
+    set_Incheonmetro_1000_1st_New_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Incheonmetro_1000_1st_purchase, current_year) {
+    0..2021: sw_Incheonmetro_1000_1st_Old_purchase;
+    sw_Incheonmetro_1000_1st_New_purchase;
+    }

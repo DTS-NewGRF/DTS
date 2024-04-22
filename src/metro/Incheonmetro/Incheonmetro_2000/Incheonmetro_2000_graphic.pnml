@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+인천교통공사 2000호대 1세대
+--------------------------------------------------------------------*/
+spriteset(set_Incheonmetro_2000_1st_engineH, "src/metro/Incheonmetro/Incheonmetro_2000/Incheonmetro_2000_1st.png"){
+    engine_mini_7(80, 0)
+}
+
+spriteset(set_Incheonmetro_2000_1st_engineT, "src/metro/Incheonmetro/Incheonmetro_2000/Incheonmetro_2000_1st.png"){
+    engine_mini_7(80, 27)
+}
+
+/*--------------------------------------------------------------------
+인천교통공사 2000호대 2세대
+--------------------------------------------------------------------*/
+spriteset(set_Incheonmetro_2000_2nd_engineH, "src/metro/Incheonmetro/Incheonmetro_2000/Incheonmetro_2000_2nd.png"){
+    engine_mini_7(80, 0)
+}
+
+spriteset(set_Incheonmetro_2000_2nd_engineT, "src/metro/Incheonmetro/Incheonmetro_2000/Incheonmetro_2000_2nd.png"){
+    engine_mini_7(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Incheonmetro_2000_2012_purchase, "src/metro/Incheonmetro/Incheonmetro_2000/Incheonmetro_2000_1st.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Incheonmetro_2000_2022_purchase, "src/metro/Incheonmetro/Incheonmetro_2000/Incheonmetro_2000_2nd.png"){
+    tmpl_purchase(0, 0)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2000_2012_purchase, cargo_subtype) {
+    set_Incheonmetro_2000_2012_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2000_2022_purchase, cargo_subtype) {
+    set_Incheonmetro_2000_2022_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Incheonmetro_2000_purchase, current_year) {
+    0..2021: sw_Incheonmetro_2000_2012_purchase;
+    sw_Incheonmetro_2000_2022_purchase;
+}
