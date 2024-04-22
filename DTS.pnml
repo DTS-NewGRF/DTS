@@ -39,7 +39,7 @@ railtypetable {
     RAIL, ELRL,
     KR_3RD_RAIL: ["3RDR"],
     KR_3LIM_RAIL: ["3LIM"],
-    LAGT}
+    LAGT,}
 
 // Load templates
 #include "src/template_list.pnml"

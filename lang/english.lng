@@ -220,7 +220,7 @@ STR_Group_HYEL_400_NAME                                :[DTS] HYEL-400
 STR_HYEL_400_8Car_NAME                                 :[DTS/8Car] HYEL-400
 STR_HYEL_400_10Car_NAME                                :[DTS/10Car] HYEL-400
 STR_HYEL_400_16Car_NAME                                :[DTS/16Car] HYEL-400
-STR_HYEL_Constrck_NAME                                 :[DTS/4량] 건설차량
+STR_HYEL_Constrck_NAME                                 :[DTS/4Car] construction vehicle
 
 # World / locomotive's name
 STR_Al_Boraq_10Car_NAME                                :[DTS/10Car] Al-Boraq

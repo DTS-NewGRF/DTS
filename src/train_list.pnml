@@ -52,7 +52,7 @@
 #include "locomotive/TTX/TTX.pnml"
 #include "locomotive/VHST_600X/VHST_600X.pnml"
 
-//Metro
+// Metro
 #include "metro/AUTS/AUTS.pnml"
 #include "metro/Busanmetro/Busanmetro.pnml"
 #include "metro/Daegumetro/Daegumetro.pnml"
