@@ -39,7 +39,7 @@ item(FEAT_TRAINS, Shinkansen_N700_S_6Car, 2090){
         variant_group:                  Shinkansen_N700_S;
         
         //spec
-        speed:                          260km/h;
+        speed:                          300km/h;
         power:                          17080 kW;
         weight:                         44 ton;
         tractive_effort_coefficient:    0.3;
@@ -71,6 +71,7 @@ item(FEAT_TRAINS, Shinkansen_N700_S_6Car, 2090){
         default:                        sw_Shinkansen_N700S_6car;
         articulated_part:               sw_articulated_Shinkansen_N700S_6car;
         purchase:                       sw_Shinkansen_N700S_K_purchase;
+        speed:                          sw_Shinkansen_N700S_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
