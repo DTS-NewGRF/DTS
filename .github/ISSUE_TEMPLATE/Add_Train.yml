@@ -9,13 +9,8 @@ body:
         새로운 차량을 추가해주셔서 감사합니다!
   - type: textarea
     attributes:
-      label: 필수 스프라이트
-      description: 필수 스프라이트를 올려주세요.
-  - type: textarea
-    attributes:
-      label: 32bpp 스프라이트
-      description: 32bpp 스프라이트를 올려주세요.
-      placeholder: '주의점. 기본스프라이트가 없으면 본 32bpp는 적용되지 않는것이 기본입니다. 신규차량시 꼭 기본 스프라이트를 우선적으로 작업해주세요.'
+      label: 스프라이트
+      description: 스프라이트를 올려주세요. 기본적으로 32bpp를 지원하도록 하여 적용하고 있습니다. 크로마키부분만을 투명상태로 적용해주세요.
   - type: checkboxes
     attributes:
       label: '실존 & 가상열차'

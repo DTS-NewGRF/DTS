@@ -1,63 +1,36 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Shinkansen_E7_W7_purchase, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.png"){
-	tmpl_purchase(0, 0)
-}
-
-alternative_sprites(set_Shinkansen_E7_W7_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7_32bpp.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
-1. E7
+E7
 --------------------------------------------------------------------*/
-spriteset(set_Shinkansen_E7_W7_engineH, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.png"){
-	engine(80, 0)
-}
-
-spriteset(set_Shinkansen_E7_W7_panto_wagon, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.png"){
-	wagon_1F_F(80, 27)
-}
-
-spriteset(set_Shinkansen_E7_W7_wagon, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.png") {
-	wagon_1F_F(80, 54)
-}
-
-spriteset(set_Shinkansen_E7_W7_green_wagon, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.png") {
-	wagon_1F_F(80, 27)
-}
-
-spriteset(set_Shinkansen_E7_W7_engineT, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.png"){
-	engine(80, 81)
-}
-
-/*--------------------------------------------------------------------
-1-1. E7 32bpp
---------------------------------------------------------------------*/
-alternative_sprites(set_Shinkansen_E7_W7_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7_32bpp.png"){
+spriteset(set_Shinkansen_E7_W7_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.png"){
     engine(80, 0)
 }
 
-alternative_sprites(set_Shinkansen_E7_W7_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7_32bpp.png"){
+spriteset(set_Shinkansen_E7_W7_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.png"){
     wagon_1F_F(80, 27)
 }
 
-alternative_sprites(set_Shinkansen_E7_W7_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7_32bpp.png") {
+spriteset(set_Shinkansen_E7_W7_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.png") {
     wagon_1F_F(80, 54)
 }
 
-alternative_sprites(set_Shinkansen_E7_W7_green_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7_32bpp.png") {
+spriteset(set_Shinkansen_E7_W7_green_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.png") {
     wagon_1F_F(80, 81)
 }
 
-alternative_sprites(set_Shinkansen_E7_W7_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7_32bpp.png"){
+spriteset(set_Shinkansen_E7_W7_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.png"){
     engine(80, 108)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_Shinkansen_E7_W7_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Japanese/locomotive/Shinkansen_E7_W7/Shinkansen_E7_W7.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_Shinkansen_E7_W7_purchase, cargo_subtype) {
 	set_Shinkansen_E7_W7_purchase;
 }

@@ -2,32 +2,17 @@
 Graphics
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
-1. HMX
+HMX
 --------------------------------------------------------------------*/
-spriteset(set_HMX_engineH, "src/locomotive/HMX/HMX.png"){
+spriteset(set_HMX_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HMX/HMX.png"){
     engine(80, 0)
 }
 
-spriteset(set_HMX_wagon, "src/locomotive/HMX/HMX.png") {
+spriteset(set_HMX_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HMX/HMX.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_HMX_engineT, "src/locomotive/HMX/HMX.png"){
-    engine(80, 54)
-}
-
-/*--------------------------------------------------------------------
-1. HMX 32bpp
---------------------------------------------------------------------*/
-alternative_sprites(set_HMX_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HMX/HMX_32bpp.png"){
-    engine(80, 0)
-}
-
-alternative_sprites(set_HMX_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HMX/HMX_32bpp.png") {
-    wagon_1F_F(80, 27)
-}
-
-alternative_sprites(set_HMX_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HMX/HMX_32bpp.png"){
+spriteset(set_HMX_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HMX/HMX.png"){
     engine(80, 54)
 }
 
@@ -35,11 +20,7 @@ alternative_sprites(set_HMX_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/lo
 구매정보
 --------------------------------------------------------------------*/
 // 구매차량 그래픽
-spriteset(set_HMX_purchase, "src/locomotive/HMX/HMX.png"){
-    tmpl_purchase(0, 0)
-}
-
-alternative_sprites(set_HMX_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HMX/HMX_32bpp.png"){
+spriteset(set_HMX_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HMX/HMX.png"){
     tmpl_purchase(0, 0)
 }
 

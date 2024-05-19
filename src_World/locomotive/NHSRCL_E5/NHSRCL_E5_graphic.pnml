@@ -1,55 +1,32 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_NHSRCL_E5_purchase, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5.png"){
-    tmpl_purchase(0, 0)
-}
-
-alternative_sprites(set_NHSRCL_E5_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5_32bpp.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
-1. NHSRCL E5
+NHSRCL E5
 --------------------------------------------------------------------*/
-spriteset(set_NHSRCL_E5_engineH, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5.png"){
+spriteset(set_NHSRCL_E5_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5.png"){
     engine(80, 0)
 }
 
-spriteset(set_NHSRCL_E5_panto_wagon, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5.png"){
+spriteset(set_NHSRCL_E5_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5.png"){
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_NHSRCL_E5_wagon, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5.png") {
+spriteset(set_NHSRCL_E5_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_NHSRCL_E5_engineT, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5.png"){
-    engine(80, 81)
-}
-
-/*--------------------------------------------------------------------
-1. NHSRCL E5 32bpp
---------------------------------------------------------------------*/
-alternative_sprites(set_NHSRCL_E5_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5_32bpp.png"){
-    engine(80, 0)
-}
-
-alternative_sprites(set_NHSRCL_E5_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5_32bpp.png"){
-    wagon_1F_F(80, 27)
-}
-
-alternative_sprites(set_NHSRCL_E5_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5_32bpp.png") {
-    wagon_1F_F(80, 54)
-}
-
-alternative_sprites(set_NHSRCL_E5_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5_32bpp.png"){
+spriteset(set_NHSRCL_E5_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5.png"){
     engine(80, 81)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
+spriteset(set_NHSRCL_E5_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_World/locomotive/NHSRCL_E5/NHSRCL_E5.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_NHSRCL_E5_purchase, cargo_subtype) {
     set_NHSRCL_E5_purchase;
 }

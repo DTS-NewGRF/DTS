@@ -8,47 +8,47 @@ switch(FEAT_TRAINS, SELF, sw_E_Train_wagon_cargo_subtype_text, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_EDUCATION_1wagon, cargo_subtype) {
-    1: set_EDUCATION_1wagon;
+    1: set_EDUCATION_Old_1wagon;
     set_EDUCATION_New_1wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_EDUCATION_2wagon, cargo_subtype) {
-    1: set_EDUCATION_2wagon;
+    1: set_EDUCATION_Old_2wagon;
     set_EDUCATION_New_2wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_EDUCATION_3wagon, cargo_subtype) {
-    1: set_EDUCATION_3wagon;
+    1: set_EDUCATION_Old_3wagon;
     set_EDUCATION_New_3wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_EDUCATION_4wagon, cargo_subtype) {
-    1: set_EDUCATION_4wagon;
+    1: set_EDUCATION_Old_4wagon;
     set_EDUCATION_New_4wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_EDUCATION_5wagon, cargo_subtype) {
-    1: set_EDUCATION_5wagon;
+    1: set_EDUCATION_Old_5wagon;
     set_EDUCATION_New_5wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_EDUCATION_6wagon, cargo_subtype) {
-    1: set_EDUCATION_6wagon;
+    1: set_EDUCATION_Old_6wagon;
     set_EDUCATION_New_6wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_EDUCATION_7wagon, cargo_subtype) {
-    1: set_EDUCATION_7wagon;
+    1: set_EDUCATION_Old_7wagon;
     set_EDUCATION_New_7wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_EDUCATION_8wagon, cargo_subtype) {
-    1: set_EDUCATION_8wagon;
+    1: set_EDUCATION_Old_8wagon;
     set_EDUCATION_New_8wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_EDUCATION_9wagon, cargo_subtype) {
-    1: set_EDUCATION_9wagon;
+    1: set_EDUCATION_Old_9wagon;
     set_EDUCATION_New_9wagon;
 }
 

@@ -1,47 +1,43 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_FEL_8500_purchase, "src/locomotive/FEL_8500/FEL_8500.png"){
+spriteset(set_FEL_8500_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/FEL_8500/FEL_8500.png"){
     tmpl_single_purchase(0, 0)
 }
 
-spriteset(set_FEL_8500_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+spriteset(set_FEL_8500_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/FEL_8500/FEL_8500.png"){
     engine(80, 0)
 }
 
-spriteset(set_FEL_8500_A_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+spriteset(set_FEL_8500_A_Train_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/FEL_8500/FEL_8500.png"){
     engine(80, 27)
 }
 
-spriteset(set_FEL_8500_G_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+spriteset(set_FEL_8500_G_Train_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/FEL_8500/FEL_8500.png"){
     engine(80, 54)
 }
 
-spriteset(set_FEL_8500_S_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+spriteset(set_FEL_8500_S_Train_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/FEL_8500/FEL_8500.png"){
     engine(80, 81)
 }
 
-spriteset(set_FEL_8500_V_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+spriteset(set_FEL_8500_V_Train_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/FEL_8500/FEL_8500.png"){
     engine(80, 108)
 }
 
-spriteset(set_FEL_8500_Haerang_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
-    engine(80, 135)
-}
-
-alternative_sprites(set_FEL_8500_Haerang_Train_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/FEL_8500/FEL_8500_32bpp.png"){
+spriteset(set_FEL_8500_Haerang_Train_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/FEL_8500/FEL_8500.png"){
     engine(80, 0)
 }
 
-spriteset(set_FEL_8500_Wine_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+spriteset(set_FEL_8500_Wine_Train_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/FEL_8500/FEL_8500.png"){
     engine(80, 162)
 }
 
-spriteset(set_FEL_8500_A_New_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+spriteset(set_FEL_8500_A_New_Train_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/FEL_8500/FEL_8500.png"){
     engine(80, 189)
 }
 
-spriteset(set_FEL_8500_G_New_Train_engine, "src/locomotive/FEL_8500/FEL_8500.png"){
+spriteset(set_FEL_8500_G_New_Train_engine, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/FEL_8500/FEL_8500.png"){
     engine(80, 216)
 }
 

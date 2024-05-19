@@ -4,30 +4,15 @@ Graphics
 /*--------------------------------------------------------------------
 Glory 600
 --------------------------------------------------------------------*/
-spriteset(set_Glory_600_engineH, "src/locomotive/Glory_600/Glory_600.png"){
+spriteset(set_Glory_600_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory_600/Glory_600.png"){
     engine(80, 0)
 }
 
-spriteset(set_Glory_600_wagon, "src/locomotive/Glory_600/Glory_600.png") {
+spriteset(set_Glory_600_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory_600/Glory_600.png") {
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_Glory_600_engineT, "src/locomotive/Glory_600/Glory_600.png"){
-    engine(80, 54)
-}
-
-/*--------------------------------------------------------------------
-Glory 600 32bpp
---------------------------------------------------------------------*/
-alternative_sprites(set_Glory_600_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory_600/Glory_600_32bpp.png"){
-    engine(80, 0)
-}
-
-alternative_sprites(set_Glory_600_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory_600/Glory_600_32bpp.png") {
-    wagon_1F_F(80, 27)
-}
-
-alternative_sprites(set_Glory_600_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory_600/Glory_600_32bpp.png"){
+spriteset(set_Glory_600_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory_600/Glory_600.png"){
     engine(80, 54)
 }
 
@@ -35,11 +20,7 @@ alternative_sprites(set_Glory_600_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "
 구매정보
 --------------------------------------------------------------------*/
 // 구매차량 그래픽
-spriteset(set_Glory_600_purchase, "src/locomotive/Glory_600/Glory_600.png"){
-    tmpl_purchase(0, 0)
-}
-
-alternative_sprites(set_Glory_600_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory_600/Glory_600_32bpp.png"){
+spriteset(set_Glory_600_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Glory_600/Glory_600.png"){
     tmpl_purchase(0, 0)
 }
 
