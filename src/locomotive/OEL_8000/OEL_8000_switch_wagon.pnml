@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//객차
+switch(FEAT_TRAINS, SELF, sw_OEL8000_1972_engine, cargo_subtype) {
+    set_OEL8000_engine_I1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_OEL8000_1986_engine, cargo_subtype) {
+    1: set_OEL8000_engine_I2;
+    set_OEL8000_engine_I1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_OEL8000_1995_engine, cargo_subtype) {
+    1: set_OEL8000_engine_I2;
+    2: set_OEL8000_engine_O1;
+    3: set_OEL8000_engine_O2;
+    set_OEL8000_engine_I1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_OEL8000_2005_engine, cargo_subtype) {
+    1: set_OEL8000_engine_I2;
+    2: set_OEL8000_engine_O1;
+    3: set_OEL8000_engine_O2;
+    4: set_OEL8000_engine_N1;
+    5: set_OEL8000_engine_N2;
+    set_OEL8000_engine_I1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_OEL8000_engine, current_year) {
+    0..1985: sw_OEL8000_1972_engine;
+    1986..1994: sw_OEL8000_1986_engine;
+    1995..2004: sw_OEL8000_1995_engine;
+    sw_OEL8000_2005_engine;
+    }

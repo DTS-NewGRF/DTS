@@ -431,7 +431,10 @@
 |2412|Busanmetro_4000_6Car|
 |2413|Uijeongbu_Line_2Car|
 |2414|Sillim_Line_3Car|
-|2415~2999|공백|
+|2415|Gwangjumetro_1000_4Car|
+|2416|Daejeonmetro_1000_4Car|
+|2417|OEL8000|
+|2418~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

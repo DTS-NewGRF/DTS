@@ -8,6 +8,21 @@ switch (FEAT_TRAINS, SELF, sw_Uijeongbu_Line_2car, position_in_vehid_chain % 2) 
     set_Uijeongbu_Line_engineH; //default
     }
 
+switch (FEAT_TRAINS, SELF, sw_Uijeongbu_Line_2car_r, position_in_vehid_chain % 2) {
+    1:set_Uijeongbu_Line_engineH_r;
+    set_Uijeongbu_Line_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Uijeongbu_Line_2car_flipped, vehicle_is_flipped){
+    0: sw_Uijeongbu_Line_2car_r;
+    sw_Uijeongbu_Line_2car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Uijeongbu_Line_2car_reversed, vehicle_is_reversed){
+    0: sw_Uijeongbu_Line_2car;
+    sw_Uijeongbu_Line_2car_flipped;
+}
+
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Uijeongbu_Line_2car, extra_callback_info1) {
     1: Uijeongbu_Line_2Car;

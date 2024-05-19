@@ -107,6 +107,7 @@ STR_Group_Nuriro_NAME                                  :[DTS] 한국철도공사
 STR_Nuriro_4Car_NAME                                   :[DTS/4량] 한국철도공사 200000호대 전동차 (누리로)
 STR_Nuriro_8Car_NAME                                   :[DTS/8량] 한국철도공사 200000호대 전동차 (누리로)
 STR_Nuriro_DD_4Car_NAME                                :[DTS/4량] 누리로 DD
+STR_OEL_8000_NAME                                      :[DTS/단량] 8000호대 전기기관차
 STR_Group_RDC_NAME                                     :[DTS] RDC 디젤동차
 STR_RDC_3Car_NAME                                      :[DTS/3량] RDC 디젤동차
 STR_RDC_4Car_NAME                                      :[DTS/4량] RDC 디젤동차
@@ -247,7 +248,9 @@ STR_Busanmetro_4000_6Car_NAME                          :[DTS/6량] 부산교통�
 STR_Group_Daegumetro_NAME                              :[DTS] 대구교통공사 전동차
 STR_Daegumetro_1000_6Car_NAME                          :[DTS/6량] 대구교통공사 1000호대 전동차
 STR_Daegumetro_2000_6Car_NAME                          :[DTS/6량] 대구교통공사 2000호대 전동차
+STR_Daejeonmetro_1000_4Car_NAME                        :[DTS/4량] 대전교통공사 1000호대 전동차
 STR_Gimpo_Gold_2Car_NAME                               :[DTS/2량] 김포골드라인
+STR_Gwangjumetro_1000_4Car_NAME                        :[DTS/4량] 광주교통공사 1000호대 전동차
 STR_Group_Incheonmetro_NAME                            :[DTS] 인천교통공사 전동차
 STR_Incheonmetro_1000_1st_8Car_NAME                    :[DTS/8량] 인천교통공사 1000호대 1세대 전동차
 STR_Incheonmetro_1000_2nd_8Car_NAME                    :[DTS/8량] 인천교통공사 1000호대 2세대 전동차
@@ -675,6 +678,12 @@ STR_REFIT_LIVERY_Nuriro_DD_Old                         : 구도색
 STR_REFIT_LIVERY_Nuriro_DD_New                         : 신도색
 STR_REFIT_LIVERY_Nuriro_DD_O_Train                     : O-train
 STR_REFIT_LIVERY_Nuriro_DD_ITX_Saemaeul                : ITX-새마을
+STR_REFIT_LIVERY_OEL8000_I1                            : 초기형 초기도색
+STR_REFIT_LIVERY_OEL8000_I2                            : 후기형 초기도색
+STR_REFIT_LIVERY_OEL8000_O1                            : 초기형 구도색
+STR_REFIT_LIVERY_OEL8000_O2                            : 후기형 구도색
+STR_REFIT_LIVERY_OEL8000_N1                            : 초기형 신도색
+STR_REFIT_LIVERY_OEL8000_N2                            : 후기형 신도색
 STR_REFIT_LIVERY_RDC                                   : 일반실
 STR_REFIT_LIVERY_RDC_Cafe_A                            : 카페객차 편성 A
 STR_REFIT_LIVERY_RDC_Cafe_B                            : 카페객차 편성 B

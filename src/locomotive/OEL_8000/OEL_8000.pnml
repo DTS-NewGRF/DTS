@@ -1,41 +1,39 @@
 /*--------------------------------------------------------------------
-의정부경전철
+OEL8000
 --------------------------------------------------------------------*/
 // Graphics
-#include "Uijeongbu_Line_graphic.pnml"
+#include "OEL_8000_graphic.pnml"
 
 // Switch
-#include "Uijeongbu_Line_switch.pnml"
+#include "OEL_8000_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보 2량
+열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Uijeongbu_Line_2Car, 2413){
+item(FEAT_TRAINS, OEL8000, 2417){
     property {
-        name:                           string(STR_Uijeongbu_Line_2Car_NAME);
+        name:                           string(STR_OEL_8000_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2011, 1, 1);
-        track_type:                     LAGT;
+        introduction_date:              date(1972, 1, 1);
+        track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          80km/h;
-        length:                         7;
-        power:                          500 kW;
-        weight:                         20 ton;
-        tractive_effort_coefficient:    0.3;
+        speed:                          85km/h;
+        power:                          3900 kW;
+        weight:                         132 ton;
+        tractive_effort_coefficient:    0.319;
         air_drag_coefficient:           0.01;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
-        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 118;
+        cargo_capacity:                 1;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -43,20 +41,21 @@ item(FEAT_TRAINS, Uijeongbu_Line_2Car, 2413){
         
         //Costs
         refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
+        running_cost_base:              RUNNING_COST_DIESEL;
         
         //Flags
         misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         35 ton;
         }
-
+        
     graphics {
-        default:                        sw_Uijeongbu_Line_2car_reversed;
-        articulated_part:               sw_articulated_Uijeongbu_Line_2car;
-        purchase:                       sw_Uijeongbu_Line_purchase;
-        loading_speed:                  25;
+        default:                        sw_OEL8000_engine;
+        purchase:                       sw_OEL8000_purchase;
+        speed:                          sw_OEL8000_speed;
+        cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Uijeongbu_Line_sound;
+        cargo_subtype_text:             sw_OEL8000_cargo_subtype_text;
+        sound_effect:                   sw_OEL8000_sound;
         }
         }

@@ -9,6 +9,22 @@ switch (FEAT_TRAINS, SELF, sw_Sillim_Line_3car, position_in_vehid_chain % 3) {
     set_Sillim_Line_engineH; //default
     }
 
+switch (FEAT_TRAINS, SELF, sw_Sillim_Line_3car_r, position_in_vehid_chain % 3) {
+    1:set_Sillim_Line_wagon_r;
+    2:set_Sillim_Line_engineH_r;
+    set_Sillim_Line_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Sillim_Line_3car_flipped, vehicle_is_flipped){
+    0: sw_Sillim_Line_3car_r;
+    sw_Sillim_Line_3car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Sillim_Line_3car_reversed, vehicle_is_reversed){
+    0: sw_Sillim_Line_3car;
+    sw_Sillim_Line_3car_flipped;
+}
+
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Sillim_Line_3car, extra_callback_info1) {
     1..2: Sillim_Line_3Car;

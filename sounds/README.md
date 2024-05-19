@@ -70,6 +70,8 @@
 
 ### HYUNDAIROTEMStart.wav
 - 한국형 표준전동차
+- 광주교통공사 1000호대
+- 대전교통공사 1000호대
 
 ### HYUNDAIROTEMIGBTIPM1Kstart.wav
 - 한국철도공사 392000호대 전동차,
@@ -160,6 +162,7 @@
 ### Thyristor_drive_start.wav
 - TGV 아틀랑티크
 - TGV 쉬드 에스트
+- 8000호대 전기기관차
 
 ### TOSHIBA_IGBT_LIM_start.wav
 - 용인경전철

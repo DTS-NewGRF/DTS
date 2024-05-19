@@ -107,6 +107,7 @@ STR_Group_Nuriro_NAME                                  :[DTS] Korail 200000 seri
 STR_Nuriro_4Car_NAME                                   :[DTS/4Car] Korail 200000 series EMU (NURIRO)
 STR_Nuriro_8Car_NAME                                   :[DTS/8Car] Korail 200000 series EMU (NURIRO)
 STR_Nuriro_DD_4Car_NAME                                :[DTS] Nuriro DD 4Car
+STR_OEL_8000_NAME                                      :[DTS] OEL 8000
 STR_Group_RDC_NAME                                     :[DTS] RDC Diesel
 STR_RDC_3Car_NAME                                      :[DTS/3Car] RDC Diesel
 STR_RDC_4Car_NAME                                      :[DTS/4Car] RDC Diesel
@@ -247,7 +248,9 @@ STR_Busanmetro_4000_6Car_NAME                          :[DTS/6car] Busanmetro 40
 STR_Group_Daegumetro_NAME                              :[DTS] Daegu Metro
 STR_Daegumetro_1000_6Car_NAME                          :[DTS/6car] Daegumetro 1000
 STR_Daegumetro_2000_6Car_NAME                          :[DTS/6car] Daegumetro 2000
+STR_Daejeonmetro_1000_4Car_NAME                        :[DTS/4Car] Daejeonmetro 1000
 STR_Gimpo_Gold_2Car_NAME                               :[DTS/2car] Gimpo Gold Line
+STR_Gwangjumetro_1000_4Car_NAME                        :[DTS/4Car] Gwangjumetro 1000
 STR_Group_Incheonmetro_NAME                            :[DTS] Incheon Metro
 STR_Incheonmetro_1000_1st_8Car_NAME                    :[DTS/8car] Incheonmetro 1000 1st
 STR_Incheonmetro_1000_2nd_8Car_NAME                    :[DTS/8car] Incheonmetro 1000 2nd
@@ -679,6 +682,12 @@ STR_REFIT_LIVERY_Nuriro_DD_Old                         : Old
 STR_REFIT_LIVERY_Nuriro_DD_New                         : New
 STR_REFIT_LIVERY_Nuriro_DD_O_Train                     : O-train
 STR_REFIT_LIVERY_Nuriro_DD_ITX_Saemaeul                : ITX-Saemaeul
+STR_REFIT_LIVERY_OEL8000_I1                            : 1st Early livery
+STR_REFIT_LIVERY_OEL8000_I2                            : 2nd Early livery
+STR_REFIT_LIVERY_OEL8000_O1                            : 1st Old livery
+STR_REFIT_LIVERY_OEL8000_O2                            : 2nd Old livery
+STR_REFIT_LIVERY_OEL8000_N1                            : 1st New livery
+STR_REFIT_LIVERY_OEL8000_N2                            : 2nd New livery
 STR_REFIT_LIVERY_RDC                                   : RDC
 STR_REFIT_LIVERY_RDC_Cafe_A                            : RDC Cafe Car A
 STR_REFIT_LIVERY_RDC_Cafe_B                            : RDC Cafe Car B

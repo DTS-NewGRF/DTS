@@ -17,7 +17,9 @@ sort(FEAT_TRAINS, [
     Daegumetro,                              //2383
     Daegumetro_1000_6Car,                    //2384
     Daegumetro_2000_6Car,                    //2385
+    Daejeonmetro_1000_4Car,                  //2416
     Gimpo_Gold_2Car,                         //2410
+    Gwangjumetro_1000_4Car,                  //2415
     Incheonmetro,                            //2386
     Incheonmetro_1000_1st_8Car,              //2387
     Incheonmetro_1000_2nd_8Car,              //2388
@@ -233,6 +235,7 @@ sort(FEAT_TRAINS, [
     Nuriro_4Car,                             //2324
     Nuriro_8Car,                             //2325
     Nuriro_DD_4Car,                          //2012
+    OEL8000,                                 //2417
     RDC,                                     //2348
     RDC_3Car,                                //2349
     RDC_4Car,                                //2350

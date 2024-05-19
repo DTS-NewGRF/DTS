@@ -51,7 +51,7 @@ item(FEAT_TRAINS, Sillim_Line_3Car, 2414){
         }
 
     graphics {
-        default:                        sw_Sillim_Line_3car;
+        default:                        sw_Sillim_Line_3car_reversed;
         articulated_part:               sw_articulated_Sillim_Line_3car;
         purchase:                       sw_Sillim_Line_purchase;
         loading_speed:                  25;
