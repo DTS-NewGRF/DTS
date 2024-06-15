@@ -17,7 +17,7 @@
 # ID
 |GRFID|열차명|
 |:---:|:---|
-|2001|CY_GW_Passenger_Car|
+|2001|CY_GW_6Car|
 |2002|G_Train|
 |2003|Generatar_2cc|
 |2004|Luggage_Real|
@@ -36,7 +36,7 @@
 |2017|GTX_8Car|
 |2018|ITX_Chowol_8Car|
 |2019|TTX_6Car|
-|2020|KTX_Eum_6Car|
+|2020|KTX_Eum_Virtual_6Car|
 |2021|KTX_Eum_DD_6Car|
 |2022|KTX_Cheong_Ryong_Virtual_8Car|
 |2023|KTX_Cheong_Ryong_DD_8Car|
@@ -434,7 +434,13 @@
 |2415|Gwangjumetro_1000_4Car|
 |2416|Daejeonmetro_1000_4Car|
 |2417|OEL8000|
-|2418~2999|공백|
+|2418|[그룹명] CY_GW|
+|2419|CY_GW_7Car|
+|2420|[그룹명] Group_Nextrain|
+|2421|Nextrain_3Car|
+|2422|Nextrain_4Car|
+|2423|KTX_Eum_6Car|
+|2424~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

@@ -18,6 +18,7 @@
 ### DAWONSYSIGBT2start.wav
 - 서울교통공사 4000호대 4세대 VVVF 전동차
 - ITX-마음, ITX-마음 DD
+- 넥스트레인 1000호대
 
 ### DAWONSYSIGBTstart.wav
 - 한국철도공사 3세대 VVVF전동차 2차분

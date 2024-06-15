@@ -4,31 +4,31 @@ Graphics
 /*--------------------------------------------------------------------
 한-아세안
 --------------------------------------------------------------------*/
-spriteset(set_Asean_Korea_1wagon, "src/wagon/SPassenger_wagon/Travel_wagon/Asean_Korea/Asean_Korea.png") {
+spriteset(set_Asean_Korea_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Asean_Korea/Asean_Korea.png") {
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_Asean_Korea_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW.png"){
+spriteset(set_Asean_Korea_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_Asean_Korea_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW.png"){
+spriteset(set_Asean_Korea_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_Asean_Korea_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW.png"){
+spriteset(set_Asean_Korea_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Asean_Korea_5wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW.png"){
+spriteset(set_Asean_Korea_5wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_Asean_Korea_6wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW.png"){
+spriteset(set_Asean_Korea_6wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
     wagon_1F_F(80, 108)
 }
 
-spriteset(set_Asean_Korea_7wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW.png"){
+spriteset(set_Asean_Korea_7wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
     wagon_1F_F(80, 135)
 }
 
@@ -36,6 +36,6 @@ spriteset(set_Asean_Korea_7wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon
 구매정보
 -------------------------------------------------------------------*/
 // 구매차량 그래픽
-spriteset(set_Asean_Korea_wagon_purchase, "src/wagon/SPassenger_wagon/Travel_wagon/Asean_Korea/Asean_Korea.png"){
+spriteset(set_Asean_Korea_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Asean_Korea/Asean_Korea.png"){
     tmpl_wagon_purchase(0, 0)
 }

@@ -88,6 +88,7 @@ STR_KTX_Cheong_Ryong_Virtual_8Car_NAME                 :[DTS/8Car]{GREEN}[Virtua
 STR_KTX_Cheong_Ryong_DD_8Car_NAME                      :[DTS/8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong DD
 STR_KTX_Chowol_8Car_NAME                               :[DTS/8Car] KTX-Chowol
 STR_KTX_Eum_6Car_NAME                                  :[DTS/6Car] KTX-EUM
+STR_KTX_Eum_Virtual_6Car_NAME                          :[DTS/6Car]{GREEN}[Virtual] {BLACK} KTX-EUM
 STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6Car] KTX-EUM DD
 STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-Sancheon
 STR_KTX_Sancheon_10Car_NAME                            :[DTS/10Car] KTX-Sancheon, SRT
@@ -289,6 +290,9 @@ STR_Korail_Second_8Car_NAME                            :[DTS/8Car] Korail Rheost
 STR_Korail_Second_10Car_NAME                           :[DTS/10Car] Korail Rheostatic [Second]
 STR_Korail_Third_10Car_NAME                            :[DTS/10Car] Korail Rheostatic [Third]
 STR_Korail_Rheostatic_10Car_NAME                       :[DTS/10Car] Korail Rheostatic [Rheostatic]
+STR_Group_Nextrain_NAME                                :[DTS] Nextrain Metro
+STR_Nextrain_3Car_NAME                                 :[DTS/3Car] Nextrain
+STR_Nextrain_4Car_NAME                                 :[DTS/4Car] Nextrain
 STR_Group_Seoulmetro_NAME                              :[DTS] Seoul Metro
 STR_Group_Chopper_GEC_NAME                             :[DTS] Seoulmetro 2000 GEC chopper
 STR_Chopper_GEC_6Car_NAME                              :[DTS/6Car] Seoulmetro 2000 GEC chopper
@@ -410,7 +414,9 @@ STR_Nishitetsu_9000_3Car_NAME                          :[DTS/3Car] Nishitetsu 90
 STR_Group_Travel_wagon_NAME                            :[DTS] Travel Train
 STR_A_Train_NAME                                       :[DTS] A-Train Passenger Car
 STR_Asean_Korea_NAME                                   :[DTS] ASEAN Korea
-STR_CY_GW_NAME                                         :[DTS] Chungbuk Yeongdong Gugak & Wine Passenger Car
+STR_Group_CY_GW_NAME                                   :[DTS] Chungbuk Yeongdong Gugak & Wine Passenger Car
+STR_CY_GW_6Car_NAME                                    :[DTS] Chungbuk Yeongdong Gugak & Wine Passenger 6Car
+STR_CY_GW_7Car_NAME                                    :[DTS] Chungbuk Yeongdong Gugak & Wine Passenger 7Car
 STR_E_Train_NAME                                       :[DTS] E-Train Passenger Car
 STR_Group_Eco_Rail_NAME                                :[DTS] Eco Rail Passenger Car
 STR_Eco_Rail_NAME                                      :[DTS] Eco Rail Passenger Car 1Car
@@ -722,6 +728,9 @@ STR_REFIT_LIVERY_TGV_M_Rame                            : Rame D'Essal
 STR_REFIT_LIVERY_TGV_Ouigo                             : Ouigo
 STR_REFIT_LIVERY_TGV_Sud_Est_Original                  : Orange
 STR_REFIT_LIVERY_TGV_Sud_Est_Last                      : Last run Event
+STR_REFIT_LIVERY_TGV_Thalys_PBKA_Old                   : Thalys PBKA Old
+STR_REFIT_LIVERY_TGV_Thalys_PBKA_New                   : Thalys PBKA New
+STR_REFIT_LIVERY_TGV_Thalys_Ruby                       : Thalys Ruby
 STR_REFIT_LIVERY_Renfe_S_100_old                       : Old Livery
 STR_REFIT_LIVERY_Renfe_S_100_new                       : Renewal Livery
 STR_REFIT_LIVERY_Renfe_S_130_Alvia                     : Alvia

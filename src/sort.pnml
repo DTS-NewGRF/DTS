@@ -58,6 +58,9 @@ sort(FEAT_TRAINS, [
     Korail_Second_10Car,                     //2252
     Korail_Third_10Car,                      //2253
     Korail_Rheostatic_10Car,                 //2254
+    Group_Nextrain,                          //2420
+    Nextrain_3Car,                           //2421
+    Nextrain_4Car,                           //2422
     Seoulmetro,                              //2373
     Chopper_GEC,                             //2273
     Chopper_GEC_6Car,                        //2274
@@ -263,7 +266,8 @@ sort(FEAT_TRAINS, [
     TTX_6Car,                                //2019
 
     //준고속 260
-    KTX_Eum_6Car,                            //2020
+    KTX_Eum_6Car,                            //2423
+    KTX_Eum_Virtual_6Car,                    //2020
     KTX_Eum_DD_6Car,                         //2021
     HMX_8Car,                                //2134
     CRH1_8Car,                               //2034
@@ -398,7 +402,9 @@ sort(FEAT_TRAINS, [
     Travel_wagon,                            //2210
     A_Train_Passenger_Car,                   //2164
     Asean_Korea,                             //2318
-    CY_GW_Passenger_Car,                     //2001
+    CY_GW,                                   //2418
+    CY_GW_6Car,                              //2001
+    CY_GW_7Car,                              //2419
     E_Train_Passenger_Car,                   //2159
     Eco_Rail,                                //2329
     Eco_Rail_Passenger_Car,                  //2157

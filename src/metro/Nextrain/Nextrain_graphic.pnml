@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+넥스트레인 1000호대
+--------------------------------------------------------------------*/
+spriteset(set_Nextrain_1000_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Nextrain/Nextrain_1000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Nextrain_1000_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Nextrain/Nextrain_1000.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Nextrain_1000_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Nextrain/Nextrain_1000.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Nextrain_1000_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Nextrain/Nextrain_1000.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Nextrain_1000_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Nextrain/Nextrain_1000.png"){
+    engine(80, 81)
+}
+
+spriteset(set_Nextrain_1000_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Nextrain/Nextrain_1000.png"){
+    engine(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Nextrain_1000_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Nextrain/Nextrain_1000.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nextrain_1000_purchase, cargo_subtype) {
+    set_Nextrain_1000_purchase;
+}

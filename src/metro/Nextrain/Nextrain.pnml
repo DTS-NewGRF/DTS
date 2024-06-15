@@ -1,0 +1,134 @@
+/*--------------------------------------------------------------------
+넥스트레인
+--------------------------------------------------------------------*/
+// Graphics
+#include "Nextrain_graphic.pnml"
+
+// Switch
+#include "Nextrain_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Group_Nextrain, 2420){
+    property {
+        name:                           string(STR_Group_Nextrain_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          1680 kW;
+        }
+
+    graphics {
+        purchase:                       sw_Nextrain_1000_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 3량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Nextrain_3Car, 2421){
+    property {
+        name:                           string(STR_Nextrain_3Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2025, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Group_Nextrain;
+        
+        //spec
+        speed:                          110km/h;
+        power:                          1680 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 115;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Nextrain_1000_3car_reversed;
+        articulated_part:               sw_articulated_Nextrain_1000_3car;
+        purchase:                       sw_Nextrain_1000_purchase;
+        speed:                          sw_Nextrain_1000_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_Nextrain_1000_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 4량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Nextrain_4Car, 2422){
+    property {
+        name:                           string(STR_Nextrain_4Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2025, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Group_Nextrain;
+        
+        //spec
+        speed:                          110km/h;
+        power:                          1680 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 117;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Nextrain_1000_4car_reversed;
+        articulated_part:               sw_articulated_Nextrain_1000_4car;
+        purchase:                       sw_Nextrain_1000_purchase;
+        speed:                          sw_Nextrain_1000_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_Nextrain_1000_sound;
+        }
+        }

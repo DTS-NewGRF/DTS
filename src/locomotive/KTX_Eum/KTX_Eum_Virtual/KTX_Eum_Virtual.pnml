@@ -1,18 +1,18 @@
 /*--------------------------------------------------------------------
-KTX_Eum
+KTX_Eum 가상도색
 --------------------------------------------------------------------*/
 // Graphics
-#include "KTX_Eum_graphic.pnml"
+#include "KTX_Eum_Virtual_graphic.pnml"
 
 // Switch
-#include "KTX_Eum_switch.pnml"
+#include "KTX_Eum_Virtual_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, KTX_Eum_6Car, 2020){
+item(FEAT_TRAINS, KTX_Eum_Virtual_6Car, 2020){
     property {
-        name:                           string(STR_KTX_Eum_6Car_NAME);
+        name:                           string(STR_KTX_Eum_Virtual_6Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
@@ -51,11 +51,11 @@ item(FEAT_TRAINS, KTX_Eum_6Car, 2020){
         }
         
     graphics {
-        default:                        sw_KTX_Eum_6car_reversed;
-        articulated_part:               sw_articulated_KTX_Eum_6car;
-        purchase:                       sw_KTX_Eum_purchase;
+        default:                        sw_KTX_Eum_Virtual_6car_reversed;
+        articulated_part:               sw_articulated_KTX_Eum_Virtual_6car;
+        purchase:                       sw_KTX_Eum_Virtual_purchase;
         loading_speed:                  25;
-        cargo_subtype_text:             sw_KTX_Eum_cargo_subtype_text;
-        sound_effect:                   sw_KTX_Eum_sound;
+        cargo_subtype_text:             sw_KTX_Eum_Virtual_cargo_subtype_text;
+        sound_effect:                   sw_KTX_Eum_Virtual_sound;
         }
         }

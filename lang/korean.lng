@@ -88,7 +88,8 @@ STR_KTX_Cheong_Ryong_Virtual_8Car_NAME                 :[DTS/8량]{GREEN}[가상
 STR_KTX_Cheong_Ryong_DD_8Car_NAME                      :[DTS/8량]{GREEN}[가상] {BLACK}KTX-청룡 DD
 STR_KTX_Chowol_8Car_NAME                               :[DTS/8량] KTX-초월
 STR_KTX_Eum_6Car_NAME                                  :[DTS/6량] KTX-이음
-STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6량] KTX-이음 DD
+STR_KTX_Eum_Virtual_6Car_NAME                          :[DTS/6량]{GREEN}[가상] {BLACK} KTX-이음
+STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6량]{GREEN}[가상] {BLACK} KTX-이음 DD
 STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-산천
 STR_KTX_Sancheon_10Car_NAME                            :[DTS/10량] KTX-산천, SRT
 STR_KTX_Sancheon_20Car_NAME                            :[DTS/20량] KTX-산천 중련
@@ -289,6 +290,9 @@ STR_Korail_Second_8Car_NAME                            :[DTS/8량] 한국철도�
 STR_Korail_Second_10Car_NAME                           :[DTS/10량] 한국철도공사 저항제어 전동차 [중기저항]
 STR_Korail_Third_10Car_NAME                            :[DTS/10량] 한국철도공사 저항제어 전동차 [신조저항]
 STR_Korail_Rheostatic_10Car_NAME                       :[DTS/10량] 한국철도공사 저항제어 전동차 [개조저항]
+STR_Group_Nextrain_NAME                                :[DTS] 넥스트레인
+STR_Nextrain_3Car_NAME                                 :[DTS/3량] 넥스트레인 1000호대
+STR_Nextrain_4Car_NAME                                 :[DTS/4량] 넥스트레인 1000호대
 STR_Group_Seoulmetro_NAME                              :[DTS] 서울교통공사 전동차
 STR_Group_Chopper_GEC_NAME                             :[DTS] 서울교통공사 2000호대 GEC초퍼
 STR_Chopper_GEC_6Car_NAME                              :[DTS/6량] 서울교통공사 2000호대 GEC초퍼
@@ -409,7 +413,9 @@ STR_Nishitetsu_9000_3Car_NAME                          :[DTS/3량] 니시테츠 
 STR_Group_Travel_wagon_NAME                            :[DTS] 관광열차
 STR_A_Train_NAME                                       :[DTS/4량] A-Train
 STR_Asean_Korea_NAME                                   :[DTS/7량] 한-아세안
-STR_CY_GW_NAME                                         :[DTS/6량] 충북영동국악와인
+STR_Group_CY_GW_NAME                                   :[DTS] 충북영동국악와인
+STR_CY_GW_6Car_NAME                                    :[DTS/6량] 충북영동국악와인
+STR_CY_GW_7Car_NAME                                    :[DTS/7량] 충북영동국악와인
 STR_E_Train_NAME                                       :[DTS/9량] E-Train
 STR_Group_Eco_Rail_NAME                                :[DTS] 에코레일
 STR_Eco_Rail_NAME                                      :[DTS/1량] 에코레일 1Car
@@ -718,6 +724,9 @@ STR_REFIT_LIVERY_TGV_M_Rame                            : Rame D'Essal
 STR_REFIT_LIVERY_TGV_Ouigo                             : 위고
 STR_REFIT_LIVERY_TGV_Sud_Est_Original                  : 오렌지도색
 STR_REFIT_LIVERY_TGV_Sud_Est_Last                      : 라스트런 특별도색
+STR_REFIT_LIVERY_TGV_Thalys_PBKA_Old                   : 탈리스 PBKA 구도색
+STR_REFIT_LIVERY_TGV_Thalys_PBKA_New                   : 탈리스 PBKA 신도색
+STR_REFIT_LIVERY_TGV_Thalys_Ruby                       : 탈리스 루비
 STR_REFIT_LIVERY_Renfe_S_100_old                       : 초기 도색
 STR_REFIT_LIVERY_Renfe_S_100_new                       : 리뉴얼 도색
 STR_REFIT_LIVERY_Renfe_S_130_Alvia                     : Alvia

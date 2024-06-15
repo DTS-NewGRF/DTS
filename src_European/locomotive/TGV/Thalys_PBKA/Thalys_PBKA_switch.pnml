@@ -1,42 +1,126 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+//도색
+#include "Thalys_PBKA_switch_Year.pnml"
+
+//열차
+#include "Thalys_PBKA_switch_wagon.pnml"
+
 // 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_Thalys_PBKA_10car, position_in_vehid_chain % 10) {
-    1:set_Thalys_PBKA_wagon_F1;
-    2:set_Thalys_PBKA_wagon_F2;
-    3:set_Thalys_PBKA_wagon_F2;
-    4:set_Thalys_PBKA_wagon_C;
-    5:set_Thalys_PBKA_wagon_T1;
-    6:set_Thalys_PBKA_wagon_T2;
-    7:set_Thalys_PBKA_wagon_T2;
-    8:set_Thalys_PBKA_wagon_T3;
-    9:set_Thalys_PBKA_engineT;
-    set_Thalys_PBKA_engineH; //default
+switch (FEAT_TRAINS, SELF, sw_Thalys_PBKA_2006_10car, position_in_vehid_chain % 10) {
+    1:set_Thalys_PBKA_Old_wagon_F1;
+    2:set_Thalys_PBKA_Old_wagon_F2;
+    3:set_Thalys_PBKA_Old_wagon_F2;
+    4:set_Thalys_PBKA_Old_wagon_C;
+    5:set_Thalys_PBKA_Old_wagon_T1;
+    6:set_Thalys_PBKA_Old_wagon_T2;
+    7:set_Thalys_PBKA_Old_wagon_T2;
+    8:set_Thalys_PBKA_Old_wagon_T3;
+    9:set_Thalys_PBKA_Old_engineT;
+    set_Thalys_PBKA_Old_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_Thalys_PBKA_10car_r, position_in_vehid_chain % 10) {
-    1:set_Thalys_PBKA_wagon_T3_r;
-    2:set_Thalys_PBKA_wagon_T2_r;
-    3:set_Thalys_PBKA_wagon_T2_r;
-    4:set_Thalys_PBKA_wagon_T1_r;
-    5:set_Thalys_PBKA_wagon_C_r;
-    6:set_Thalys_PBKA_wagon_F2_r;
-    7:set_Thalys_PBKA_wagon_F2_r;
-    8:set_Thalys_PBKA_wagon_F1_r;
-    9:set_Thalys_PBKA_engineH_r;
-    set_Thalys_PBKA_engineT_r; //default
+switch (FEAT_TRAINS, SELF, sw_Thalys_PBKA_2006_10car_r, position_in_vehid_chain % 10) {
+    1:set_Thalys_PBKA_Old_wagon_T3_r;
+    2:set_Thalys_PBKA_Old_wagon_T2_r;
+    3:set_Thalys_PBKA_Old_wagon_T2_r;
+    4:set_Thalys_PBKA_Old_wagon_T1_r;
+    5:set_Thalys_PBKA_Old_wagon_C_r;
+    6:set_Thalys_PBKA_Old_wagon_F2_r;
+    7:set_Thalys_PBKA_Old_wagon_F2_r;
+    8:set_Thalys_PBKA_Old_wagon_F1_r;
+    9:set_Thalys_PBKA_Old_engineH_r;
+    set_Thalys_PBKA_Old_engineT_r; //default
     }
 
-switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_10car_flipped, vehicle_is_flipped){
-    0: sw_Thalys_PBKA_10car_r;
-    sw_Thalys_PBKA_10car;
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2006_10car_flipped, vehicle_is_flipped){
+    0: sw_Thalys_PBKA_2006_10car_r;
+    sw_Thalys_PBKA_2006_10car;
 }
 
-switch(FEAT_TRAINS, PARENT, sw_Thalys_PBKA_10car_reversed, vehicle_is_reversed){
-    0: sw_Thalys_PBKA_10car;
-    sw_Thalys_PBKA_10car_flipped;
+switch(FEAT_TRAINS, PARENT, sw_Thalys_PBKA_2006_10car_reversed, vehicle_is_reversed){
+    0: sw_Thalys_PBKA_2006_10car;
+    sw_Thalys_PBKA_2006_10car_flipped;
 }
+
+switch (FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_10car, position_in_vehid_chain % 10) {
+    1:sw_Thalys_PBKA_2016_wagon_F1;
+    2:sw_Thalys_PBKA_2016_wagon_F2;
+    3:sw_Thalys_PBKA_2016_wagon_F2;
+    4:sw_Thalys_PBKA_2016_wagon_C;
+    5:sw_Thalys_PBKA_2016_wagon_T1;
+    6:sw_Thalys_PBKA_2016_wagon_T2;
+    7:sw_Thalys_PBKA_2016_wagon_T2;
+    8:sw_Thalys_PBKA_2016_wagon_T3;
+    9:sw_Thalys_PBKA_2016_engineT;
+    sw_Thalys_PBKA_2016_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_10car_r, position_in_vehid_chain % 10) {
+    1:sw_Thalys_PBKA_2016_wagon_T3_r;
+    2:sw_Thalys_PBKA_2016_wagon_T2_r;
+    3:sw_Thalys_PBKA_2016_wagon_T2_r;
+    4:sw_Thalys_PBKA_2016_wagon_T1_r;
+    5:sw_Thalys_PBKA_2016_wagon_C_r;
+    6:sw_Thalys_PBKA_2016_wagon_F2_r;
+    7:sw_Thalys_PBKA_2016_wagon_F2_r;
+    8:sw_Thalys_PBKA_2016_wagon_F1_r;
+    9:sw_Thalys_PBKA_2016_engineH_r;
+    sw_Thalys_PBKA_2016_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_10car_flipped, vehicle_is_flipped){
+    0: sw_Thalys_PBKA_2016_10car_r;
+    sw_Thalys_PBKA_2016_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Thalys_PBKA_2016_10car_reversed, vehicle_is_reversed){
+    0: sw_Thalys_PBKA_2016_10car;
+    sw_Thalys_PBKA_2016_10car_flipped;
+}
+
+switch (FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_10car, position_in_vehid_chain % 10) {
+    1:sw_Thalys_PBKA_2021_wagon_F1;
+    2:sw_Thalys_PBKA_2021_wagon_F2;
+    3:sw_Thalys_PBKA_2021_wagon_F2;
+    4:sw_Thalys_PBKA_2021_wagon_C;
+    5:sw_Thalys_PBKA_2021_wagon_T1;
+    6:sw_Thalys_PBKA_2021_wagon_T2;
+    7:sw_Thalys_PBKA_2021_wagon_T2;
+    8:sw_Thalys_PBKA_2021_wagon_T3;
+    9:sw_Thalys_PBKA_2021_engineT;
+    sw_Thalys_PBKA_2021_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_10car_r, position_in_vehid_chain % 10) {
+    1:sw_Thalys_PBKA_2021_wagon_T3_r;
+    2:sw_Thalys_PBKA_2021_wagon_T2_r;
+    3:sw_Thalys_PBKA_2021_wagon_T2_r;
+    4:sw_Thalys_PBKA_2021_wagon_T1_r;
+    5:sw_Thalys_PBKA_2021_wagon_C_r;
+    6:sw_Thalys_PBKA_2021_wagon_F2_r;
+    7:sw_Thalys_PBKA_2021_wagon_F2_r;
+    8:sw_Thalys_PBKA_2021_wagon_F1_r;
+    9:sw_Thalys_PBKA_2021_engineH_r;
+    sw_Thalys_PBKA_2021_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_10car_flipped, vehicle_is_flipped){
+    0: sw_Thalys_PBKA_2021_10car_r;
+    sw_Thalys_PBKA_2021_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Thalys_PBKA_2021_10car_reversed, vehicle_is_reversed){
+    0: sw_Thalys_PBKA_2021_10car;
+    sw_Thalys_PBKA_2021_10car_flipped;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_10car_reversed, current_year) {
+    0..2015: sw_Thalys_PBKA_2006_10car_reversed;
+    2016..2020: sw_Thalys_PBKA_2016_10car_reversed;
+    sw_Thalys_PBKA_2021_10car_reversed;
+    }
 
 switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_wagon_length_in_custom, position_in_vehid_chain % 10) {
     1: 8;

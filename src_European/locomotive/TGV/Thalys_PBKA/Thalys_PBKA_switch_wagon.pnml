@@ -1,0 +1,182 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 2016 10량
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_engineH, cargo_subtype) {
+    1: set_Thalys_PBKA_New_engineH;
+    set_Thalys_PBKA_Old_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_wagon_F1, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_F1;
+    set_Thalys_PBKA_Old_wagon_F1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_wagon_F2, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_F2;
+    set_Thalys_PBKA_Old_wagon_F2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_wagon_C, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_C;
+    set_Thalys_PBKA_Old_wagon_C;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_wagon_T1, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_T1;
+    set_Thalys_PBKA_Old_wagon_T1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_wagon_T2, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_T2;
+    set_Thalys_PBKA_Old_wagon_T2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_wagon_T3, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_T3;
+    set_Thalys_PBKA_Old_wagon_T3;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_engineT, cargo_subtype) {
+    1: set_Thalys_PBKA_New_engineT;
+    set_Thalys_PBKA_Old_engineT;
+}
+
+// 2016 10량 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_engineH_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_engineH_r;
+    set_Thalys_PBKA_Old_engineH_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_wagon_F1_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_F1_r;
+    set_Thalys_PBKA_Old_wagon_F1_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_wagon_F2_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_F2_r;
+    set_Thalys_PBKA_Old_wagon_F2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_wagon_C_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_C_r;
+    set_Thalys_PBKA_Old_wagon_C_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_wagon_T1_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_T1_r;
+    set_Thalys_PBKA_Old_wagon_T1_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_wagon_T2_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_T2_r;
+    set_Thalys_PBKA_Old_wagon_T2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_wagon_T3_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_T3_r;
+    set_Thalys_PBKA_Old_wagon_T3_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_engineT_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_engineT_r;
+    set_Thalys_PBKA_Old_engineT_r;
+}
+
+// 2021 10량
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_engineH, cargo_subtype) {
+    1: set_Thalys_PBKA_New_engineH;
+    2: set_Thalys_PBKA_Ruby_engineH;
+    set_Thalys_PBKA_Old_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_wagon_F1, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_F1;
+    2: set_Thalys_PBKA_Ruby_wagon_F1;
+    set_Thalys_PBKA_Old_wagon_F1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_wagon_F2, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_F2;
+    2: set_Thalys_PBKA_Ruby_wagon_F2;
+    set_Thalys_PBKA_Old_wagon_F2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_wagon_C, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_C;
+    2: set_Thalys_PBKA_Ruby_wagon_C;
+    set_Thalys_PBKA_Old_wagon_C;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_wagon_T1, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_T1;
+    2: set_Thalys_PBKA_Ruby_wagon_T1;
+    set_Thalys_PBKA_Old_wagon_T1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_wagon_T2, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_T2;
+    2: set_Thalys_PBKA_Ruby_wagon_T2;
+    set_Thalys_PBKA_Old_wagon_T2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_wagon_T3, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_T3;
+    2: set_Thalys_PBKA_Ruby_wagon_T3;
+    set_Thalys_PBKA_Old_wagon_T3;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_engineT, cargo_subtype) {
+    1: set_Thalys_PBKA_New_engineT;
+    2: set_Thalys_PBKA_Ruby_engineT;
+    set_Thalys_PBKA_Old_engineT;
+}
+
+// 2021 10량 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_engineH_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_engineH_r;
+    2: set_Thalys_PBKA_Ruby_engineH_r;
+    set_Thalys_PBKA_Old_engineH_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_wagon_F1_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_F1_r;
+    2: set_Thalys_PBKA_Ruby_wagon_F1_r;
+    set_Thalys_PBKA_Old_wagon_F1_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_wagon_F2_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_F2_r;
+    2: set_Thalys_PBKA_Ruby_wagon_F2_r;
+    set_Thalys_PBKA_Old_wagon_F2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_wagon_C_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_C_r;
+    2: set_Thalys_PBKA_Ruby_wagon_C_r;
+    set_Thalys_PBKA_Old_wagon_C_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_wagon_T1_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_T1_r;
+    2: set_Thalys_PBKA_Ruby_wagon_T1_r;
+    set_Thalys_PBKA_Old_wagon_T1_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_wagon_T2_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_T2_r;
+    2: set_Thalys_PBKA_Ruby_wagon_T2_r;
+    set_Thalys_PBKA_Old_wagon_T2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_wagon_T3_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_wagon_T3_r;
+    2: set_Thalys_PBKA_Ruby_wagon_T3_r;
+    set_Thalys_PBKA_Old_wagon_T3_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_engineT_r, cargo_subtype) {
+    1: set_Thalys_PBKA_New_engineT_r;
+    2: set_Thalys_PBKA_Ruby_engineT_r;
+    set_Thalys_PBKA_Old_engineT_r;
+}

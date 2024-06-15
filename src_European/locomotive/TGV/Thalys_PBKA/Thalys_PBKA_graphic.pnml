@@ -2,79 +2,236 @@
 Graphics
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
-Thalys PBKA
+Thalys PBKA Old
 --------------------------------------------------------------------*/
-spriteset(set_Thalys_PBKA_engineH, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     engine(80, 0)
 }
 
-spriteset(set_Thalys_PBKA_engineH_r, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     engine(80, 27)
 }
 
-spriteset(set_Thalys_PBKA_wagon_F1, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_wagon_F1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Thalys_PBKA_wagon_F1_r, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_wagon_F1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     wagon_1F_F_r(80, 54)
 }
 
-spriteset(set_Thalys_PBKA_wagon_F2, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_wagon_F2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     wagon_1F_F_mini_7_KTX_SC(80, 81)
 }
 
-spriteset(set_Thalys_PBKA_wagon_F2_r, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_wagon_F2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     wagon_1F_F_r_mini_7_KTX_SC(80, 81)
 }
 
-spriteset(set_Thalys_PBKA_wagon_C, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_wagon_C, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     wagon_1F_F_mini_7_KTX_SC(80, 108)
 }
 
-spriteset(set_Thalys_PBKA_wagon_C_r, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_wagon_C_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     wagon_1F_F_r_mini_7_KTX_SC(80, 108)
 }
 
-spriteset(set_Thalys_PBKA_wagon_T1, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_wagon_T1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     wagon_1F_F_mini_7_KTX_SC(80, 135)
 }
 
-spriteset(set_Thalys_PBKA_wagon_T1_r, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_wagon_T1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     wagon_1F_F_r_mini_7_KTX_SC(80, 135)
 }
 
-spriteset(set_Thalys_PBKA_wagon_T2, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_wagon_T2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     wagon_1F_F_mini_7_KTX_SC(80, 162)
 }
 
-spriteset(set_Thalys_PBKA_wagon_T2_r, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_wagon_T2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     wagon_1F_F_r_mini_7_KTX_SC(80, 162)
 }
 
-spriteset(set_Thalys_PBKA_wagon_T3, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_wagon_T3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     wagon_1F_F(80, 189)
 }
 
-spriteset(set_Thalys_PBKA_wagon_T3_r, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_wagon_T3_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     wagon_1F_F_r(80, 189)
 }
 
-spriteset(set_Thalys_PBKA_engineT_r, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     engine(80, 216)
 }
 
-spriteset(set_Thalys_PBKA_engineT, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_Old_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
+    engine(80, 243)
+}
+
+/*--------------------------------------------------------------------
+Thalys PBKA New
+--------------------------------------------------------------------*/
+spriteset(set_Thalys_PBKA_New_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Thalys_PBKA_New_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Thalys_PBKA_New_wagon_F1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Thalys_PBKA_New_wagon_F1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Thalys_PBKA_New_wagon_F2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_Thalys_PBKA_New_wagon_F2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_Thalys_PBKA_New_wagon_C, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_Thalys_PBKA_New_wagon_C_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_Thalys_PBKA_New_wagon_T1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_Thalys_PBKA_New_wagon_T1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_Thalys_PBKA_New_wagon_T2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_Thalys_PBKA_New_wagon_T2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_Thalys_PBKA_New_wagon_T3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_Thalys_PBKA_New_wagon_T3_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_Thalys_PBKA_New_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    engine(80, 216)
+}
+
+spriteset(set_Thalys_PBKA_New_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    engine(80, 243)
+}
+
+/*--------------------------------------------------------------------
+Thalys PBKA Ruby
+--------------------------------------------------------------------*/
+spriteset(set_Thalys_PBKA_Ruby_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_wagon_F1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_wagon_F1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_wagon_F2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_wagon_F2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 81)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_wagon_C, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_wagon_C_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 108)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_wagon_T1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_wagon_T1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 135)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_wagon_T2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    wagon_1F_F_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_wagon_T2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    wagon_1F_F_r_mini_7_KTX_SC(80, 162)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_wagon_T3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_wagon_T3_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    wagon_1F_F_r(80, 189)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    engine(80, 216)
+}
+
+spriteset(set_Thalys_PBKA_Ruby_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
     engine(80, 243)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
-spriteset(set_Thalys_PBKA_purchase, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA.png"){
+spriteset(set_Thalys_PBKA_2006_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Old.png"){
     tmpl_purchase(0, 0)
 }
 
-switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_purchase, cargo_subtype) {
-    set_Thalys_PBKA_purchase;
+spriteset(set_Thalys_PBKA_2016_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_New.png"){
+    tmpl_purchase(0, 0)
 }
+
+spriteset(set_Thalys_PBKA_2021_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_European/locomotive/TGV/Thalys_PBKA/Thalys_PBKA_Ruby.png"){
+    tmpl_purchase(0, 0)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2006_purchase, cargo_subtype) {
+    set_Thalys_PBKA_2006_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2016_purchase, cargo_subtype) {
+    set_Thalys_PBKA_2016_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_2021_purchase, cargo_subtype) {
+    set_Thalys_PBKA_2021_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Thalys_PBKA_purchase, current_year) {
+    0..2015: sw_Thalys_PBKA_2006_purchase;
+    2016..2020: sw_Thalys_PBKA_2016_purchase;
+    sw_Thalys_PBKA_2021_purchase;
+    }

@@ -2,36 +2,71 @@
 Graphics
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
-충북영동국악와인열차
+충북영동국악와인열차 6량
 --------------------------------------------------------------------*/
-spriteset(set_CY_GW_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW.png"){
+spriteset(set_CY_GW_6Car_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
     wagon_1F_F(80, 0)
 }
 
-spriteset(set_CY_GW_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW.png"){
+spriteset(set_CY_GW_6Car_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
     wagon_1F_F(80, 27)
 }
 
-spriteset(set_CY_GW_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW.png"){
+spriteset(set_CY_GW_6Car_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_CY_GW_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW.png"){
+spriteset(set_CY_GW_6Car_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_CY_GW_5wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW.png"){
+spriteset(set_CY_GW_6Car_5wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
     wagon_1F_F(80, 108)
 }
 
-spriteset(set_CY_GW_6wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW.png"){
+spriteset(set_CY_GW_6Car_6wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
     wagon_1F_F(80, 135)
+}
+
+/*--------------------------------------------------------------------
+충북영동국악와인열차 7량
+--------------------------------------------------------------------*/
+spriteset(set_CY_GW_7Car_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_7Car.png"){
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_CY_GW_7Car_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_7Car.png"){
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_CY_GW_7Car_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_7Car.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CY_GW_7Car_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_7Car.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_CY_GW_7Car_5wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_7Car.png"){
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_CY_GW_7Car_6wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_7Car.png"){
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_CY_GW_7Car_7wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_7Car.png"){
+    wagon_1F_F(80, 162)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
 // 구매차량 그래픽
-spriteset(set_CY_GW_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW.png"){
+spriteset(set_CY_GW_6Car_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_6Car.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_CY_GW_7Car_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/CY_GW/CY_GW_7Car.png"){
     tmpl_wagon_purchase(0, 0)
 }

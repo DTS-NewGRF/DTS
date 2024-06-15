@@ -1,29 +1,29 @@
 /*--------------------------------------------------------------------
-TGV Pos
+KTX_Eum
 --------------------------------------------------------------------*/
 // Graphics
-#include "Thalys_PBKA_graphic.pnml"
+#include "KTX_Eum_graphic.pnml"
 
 // Switch
-#include "Thalys_PBKA_switch.pnml"
+#include "KTX_Eum_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Thalys_PBKA_10Car, 2402){
+item(FEAT_TRAINS, KTX_Eum_6Car, 2423){
     property {
-        name:                           string(STR_Thalys_PBKA_10Car_NAME);
+        name:                           string(STR_KTX_Eum_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2006, 1, 1);
+        introduction_date:              date(2020, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          362km/h;
-        power:                          8000 kW;
+        speed:                          260km/h;
+        power:                          9112 kW;
         weight:                         40 ton;
-        tractive_effort_coefficient:    0.3;
+        tractive_effort_coefficient:    0.579;
         air_drag_coefficient:           0.01;
         
         //Model
@@ -33,31 +33,28 @@ item(FEAT_TRAINS, Thalys_PBKA_10Car, 2402){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 38;
+        cargo_capacity:                 64;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
         cargo_disallow_refit:           [];
         
         //Costs
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_DIESEL;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_MU,TRAIN_FLAG_AUTOREFIT);
-        extra_weight_per_wagon:         35 ton;
-        }
-
-	graphics {
-        default:                        sw_Thalys_PBKA_10car_reversed;
-        articulated_part:               sw_articulated_Thalys_PBKA_10car;
-        purchase:                       sw_Thalys_PBKA_purchase;
-        speed:                          sw_Thalys_PBKA_speed;
-        length:                         sw_Thalys_PBKA_wagon_length_in_custom;
-        loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_TGV_Thalys_PBKA_cargo_subtype_text;
-        sound_effect:                   sw_Thalys_PBKA_sound;
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_KTX_Eum_6car_reversed;
+        articulated_part:               sw_articulated_KTX_Eum_6car;
+        purchase:                       sw_KTX_Eum_purchase;
+        loading_speed:                  25;
+        sound_effect:                   sw_KTX_Eum_sound;
         }
         }

@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_TGV_Thalys_PBKA_2006_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_TGV_Thalys_PBKA_Old);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Thalys_PBKA_2016_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_TGV_Thalys_PBKA_Old);
+    1: return string(STR_REFIT_LIVERY_TGV_Thalys_PBKA_New);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Thalys_PBKA_2021_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_TGV_Thalys_PBKA_Old);
+    1: return string(STR_REFIT_LIVERY_TGV_Thalys_PBKA_New);
+    2: return string(STR_REFIT_LIVERY_TGV_Thalys_Ruby);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_Thalys_PBKA_cargo_subtype_text, current_year) {
+    0..2015: sw_TGV_Thalys_PBKA_2006_cargo_subtype_text;
+    2016..2020: sw_TGV_Thalys_PBKA_2016_cargo_subtype_text;
+    sw_TGV_Thalys_PBKA_2021_cargo_subtype_text;
+    }
