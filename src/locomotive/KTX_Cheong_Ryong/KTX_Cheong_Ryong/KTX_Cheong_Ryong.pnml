@@ -8,16 +8,35 @@ KTX-청룡
 #include "KTX_Cheong_Ryong_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Cheong_Ryong, 2427){
+    property {
+        name:                           string(STR_Group_KTX_Cheong_Ryong_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          9112 kW;
+        }
+
+    graphics {
+        purchase:                       KTX_Cheong_Ryong_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 6량
 --------------------------------------------------------------------*/
 item(FEAT_TRAINS, KTX_Cheong_Ryong_8Car, 2229){
     property {
         name:                           string(STR_KTX_Cheong_Ryong_8Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2020, 1, 1);
+        introduction_date:              date(2022, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  KTX_Cheong_Ryong;
         
         //spec
         speed:                          362km/h;
@@ -53,6 +72,61 @@ item(FEAT_TRAINS, KTX_Cheong_Ryong_8Car, 2229){
     graphics {
         default:                        sw_KTX_Cheong_Ryong_8car_reversed;
         articulated_part:               sw_articulated_KTX_Cheong_Ryong_8car;
+        purchase:                       KTX_Cheong_Ryong_purchase;
+        speed:                          sw_KTX_Cheong_Ryong_speed;
+        loading_speed:                  25;
+        cargo_subtype_text:             sw_KTX_Cheong_Ryong_cargo_subtype_text;
+        sound_effect:                   sw_KTX_Cheong_Ryong_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 12량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Cheong_Ryong_16Car, 2428){
+    property {
+        name:                           string(STR_KTX_Cheong_Ryong_16Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2022, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  KTX_Cheong_Ryong;
+        
+        //spec
+        speed:                          362km/h;
+        power:                          13668 kW;
+        weight:                         40 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 65;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_KTX_Cheong_Ryong_16car_reversed;
+        articulated_part:               sw_articulated_KTX_Cheong_Ryong_16car;
         purchase:                       KTX_Cheong_Ryong_purchase;
         speed:                          sw_KTX_Cheong_Ryong_speed;
         loading_speed:                  25;

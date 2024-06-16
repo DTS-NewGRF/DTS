@@ -4,11 +4,11 @@ Graphics
 /*--------------------------------------------------------------------
 HYEL Constrck
 --------------------------------------------------------------------*/
-spriteset(set_HYEL_Constrck_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_Constrck/HYEL_Constrck.png"){
+spriteset(set_HYEL_Constrck_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png"){
     engine(80, 0)
 }
 
-spriteset(set_HYEL_Constrck_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_Constrck/HYEL_Constrck.png"){
+spriteset(set_HYEL_Constrck_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png"){
     engine_r(80, 0)
 }
 

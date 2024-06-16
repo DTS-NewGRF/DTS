@@ -27,3 +27,4 @@ item(FEAT_TRAINS, Daegumetro, 2383){
 --------------------------------------------------------------------*/
 #include "Daegumetro_1000/Daegumetro_1000.pnml"
 #include "Daegumetro_2000/Daegumetro_2000.pnml"
+#include "Daegumetro_3000/Daegumetro_3000.pnml"

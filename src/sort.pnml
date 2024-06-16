@@ -17,6 +17,7 @@ sort(FEAT_TRAINS, [
     Daegumetro,                              //2383
     Daegumetro_1000_6Car,                    //2384
     Daegumetro_2000_6Car,                    //2385
+    Daegumetro_3000_3Car,                    //2424
     Daejeonmetro_1000_4Car,                  //2416
     Gimpo_Gold_2Car,                         //2410
     Gwangjumetro_1000_4Car,                  //2415
@@ -266,7 +267,9 @@ sort(FEAT_TRAINS, [
     TTX_6Car,                                //2019
 
     //준고속 260
+    KTX_Eum,                                 //2425
     KTX_Eum_6Car,                            //2423
+    KTX_Eum_12Car,                           //2426
     KTX_Eum_Virtual_6Car,                    //2020
     KTX_Eum_DD_6Car,                         //2021
     HMX_8Car,                                //2134
@@ -300,7 +303,9 @@ sort(FEAT_TRAINS, [
     HSR_350X_7Car,                           //2027
     HSR_350X_14Car,                          //2005
     KTX_1_20Car,                             //2322
+    KTX_Cheong_Ryong,                        //2427
     KTX_Cheong_Ryong_8Car,                   //2229
+    KTX_Cheong_Ryong_16Car,                  //2428
     KTX_Cheong_Ryong_Virtual_8Car,           //2022
     KTX_Cheong_Ryong_DD_8Car,                //2023
     KTX_Chowol_8Car,                         //2406

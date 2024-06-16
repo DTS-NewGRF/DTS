@@ -63,6 +63,7 @@
 ### HITACHIStart.wav
 - 누리로
 - 누리로 DD
+- 대구교통공사 3000호대
 
 ### HYUNDAIROTEMIGBTIPM2start.wav
 - MEL-150

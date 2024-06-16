@@ -440,7 +440,12 @@
 |2421|Nextrain_3Car|
 |2422|Nextrain_4Car|
 |2423|KTX_Eum_6Car|
-|2424~2999|공백|
+|2424|Daegumetro_3000_3Car|
+|2425|[그룹명] KTX_Eum|
+|2426|KTX_Eum_12Car|
+|2427|[그룹명] KTX_Cheong_Ryong|
+|2428|KTX_Cheong_Ryong_16Car|
+|2429~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

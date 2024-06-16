@@ -83,11 +83,15 @@ STR_Group_ITX_Saemaeul_DD_NAME                         :[DTS] ITX-Saemaeul DD
 STR_ITX_Saemaeul_DD_6Car_NAME                          :[DTS/6Car] ITX-Saemaeul DD
 STR_ITX_Saemaeul_DD_8Car_NAME                          :[DTS/8Car] ITX-Saemaeul DD
 STR_KTX_1_20Car_NAME                                   :[DTS/20Car] TGV-K
+STR_Group_KTX_Cheong_Ryong_NAME                        :[DTS] KTX-Cheong Ryong
 STR_KTX_Cheong_Ryong_8Car_NAME                         :[DTS/8Car] KTX-Cheong Ryong
+STR_KTX_Cheong_Ryong_16Car_NAME                        :[DTS/16Car] KTX-Cheong Ryong
 STR_KTX_Cheong_Ryong_Virtual_8Car_NAME                 :[DTS/8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong
 STR_KTX_Cheong_Ryong_DD_8Car_NAME                      :[DTS/8Car]{GREEN}[Virtual] {BLACK}KTX-Cheong Ryong DD
 STR_KTX_Chowol_8Car_NAME                               :[DTS/8Car] KTX-Chowol
+STR_Group_KTX_Eum_NAME                                 :[DTS] KTX-EUM
 STR_KTX_Eum_6Car_NAME                                  :[DTS/6Car] KTX-EUM
+STR_KTX_Eum_12Car_NAME                                 :[DTS/12Car] KTX-EUM
 STR_KTX_Eum_Virtual_6Car_NAME                          :[DTS/6Car]{GREEN}[Virtual] {BLACK} KTX-EUM
 STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6Car] KTX-EUM DD
 STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-Sancheon
@@ -249,6 +253,7 @@ STR_Busanmetro_4000_6Car_NAME                          :[DTS/6car] Busanmetro 40
 STR_Group_Daegumetro_NAME                              :[DTS] Daegu Metro
 STR_Daegumetro_1000_6Car_NAME                          :[DTS/6car] Daegumetro 1000
 STR_Daegumetro_2000_6Car_NAME                          :[DTS/6car] Daegumetro 2000
+STR_Daegumetro_3000_3Car_NAME                          :[DTS/3car] Daegumetro 3000
 STR_Daejeonmetro_1000_4Car_NAME                        :[DTS/4Car] Daejeonmetro 1000
 STR_Gimpo_Gold_2Car_NAME                               :[DTS/2car] Gimpo Gold Line
 STR_Gwangjumetro_1000_4Car_NAME                        :[DTS/4Car] Gwangjumetro 1000
@@ -770,6 +775,8 @@ STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
 STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
 STR_REFIT_LIVERY_Daegumetro_1000_GTO                   : GTO
 STR_REFIT_LIVERY_Daegumetro_1000_IGBT                  : IGBT
+STR_REFIT_LIVERY_Daegumetro_3000                       : nomal
+STR_REFIT_LIVERY_Daegumetro_3000_Urban                 : Urban
 STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_1lv    : Old IGBT 1lv
 STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_2lv    : Old IGBT 2lv
 STR_REFIT_LIVERY_Incheonmetro_1000_1st_New             : New

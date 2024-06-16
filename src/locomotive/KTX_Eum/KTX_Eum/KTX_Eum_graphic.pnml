@@ -16,8 +16,16 @@ spriteset(set_KTX_Eum_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomot
     wagon_1F_F(80, 54)
 }
 
+spriteset(set_KTX_Eum_wagon_M1_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum_2cc.png"){
+    wagon_1F_F_r(80, 54)
+}
+
 spriteset(set_KTX_Eum_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum_2cc.png"){
     wagon_1F_F(80, 81)
+}
+
+spriteset(set_KTX_Eum_wagon_M1_r2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum_2cc.png"){
+    wagon_1F_F_r(80, 81)
 }
 
 spriteset(set_KTX_Eum_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum_2cc.png") {
@@ -40,8 +48,16 @@ spriteset(set_KTX_Eum_wagon_M4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomot
     wagon_1F_F(80, 162)
 }
 
+spriteset(set_KTX_Eum_wagon_M4_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum_2cc.png"){
+    wagon_1F_F_r(80, 162)
+}
+
 spriteset(set_KTX_Eum_wagon_M4_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum_2cc.png"){
     wagon_1F_F(80, 189)
+}
+
+spriteset(set_KTX_Eum_wagon_M4_r2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum_2cc.png"){
+    wagon_1F_F_r(80, 189)
 }
 
 spriteset(set_KTX_Eum_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum_2cc.png"){
@@ -50,6 +66,14 @@ spriteset(set_KTX_Eum_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomo
 
 spriteset(set_KTX_Eum_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum_2cc.png"){
     engine(80, 243)
+}
+
+spriteset(set_KTX_Eum_engineT_TCD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum_2cc.png"){
+    engine(80, 270)
+}
+
+spriteset(set_KTX_Eum_engineT_TCD_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum.png", "src/locomotive/KTX_Eum/KTX_Eum/KTX_Eum_2cc.png"){
+    engine_r(80, 270)
 }
 
 /*--------------------------------------------------------------------

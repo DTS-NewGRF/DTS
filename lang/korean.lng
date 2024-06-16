@@ -83,11 +83,15 @@ STR_Group_ITX_Saemaeul_DD_NAME                         :[DTS] ITX-새마을 DD
 STR_ITX_Saemaeul_DD_6Car_NAME                          :[DTS/6량] ITX-새마을 DD
 STR_ITX_Saemaeul_DD_8Car_NAME                          :[DTS/8량] ITX-새마을 DD
 STR_KTX_1_20Car_NAME                                   :[DTS/20량] KTX-1
+STR_Group_KTX_Cheong_Ryong_NAME                        :[DTS] KTX-청룡
 STR_KTX_Cheong_Ryong_8Car_NAME                         :[DTS/8량] KTX-청룡
+STR_KTX_Cheong_Ryong_16Car_NAME                        :[DTS/16량] KTX-청룡
 STR_KTX_Cheong_Ryong_Virtual_8Car_NAME                 :[DTS/8량]{GREEN}[가상] {BLACK}KTX-청룡
 STR_KTX_Cheong_Ryong_DD_8Car_NAME                      :[DTS/8량]{GREEN}[가상] {BLACK}KTX-청룡 DD
 STR_KTX_Chowol_8Car_NAME                               :[DTS/8량] KTX-초월
+STR_Group_KTX_Eum_NAME                                 :[DTS] KTX-이음
 STR_KTX_Eum_6Car_NAME                                  :[DTS/6량] KTX-이음
+STR_KTX_Eum_12Car_NAME                                 :[DTS/12량] KTX-이음
 STR_KTX_Eum_Virtual_6Car_NAME                          :[DTS/6량]{GREEN}[가상] {BLACK} KTX-이음
 STR_KTX_Eum_DD_6Car_NAME                               :[DTS/6량]{GREEN}[가상] {BLACK} KTX-이음 DD
 STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-산천
@@ -249,6 +253,7 @@ STR_Busanmetro_4000_6Car_NAME                          :[DTS/6량] 부산교통�
 STR_Group_Daegumetro_NAME                              :[DTS] 대구교통공사 전동차
 STR_Daegumetro_1000_6Car_NAME                          :[DTS/6량] 대구교통공사 1000호대 전동차
 STR_Daegumetro_2000_6Car_NAME                          :[DTS/6량] 대구교통공사 2000호대 전동차
+STR_Daegumetro_3000_3Car_NAME                          :[DTS/3량] 대구교통공사 3000호대 전동차
 STR_Daejeonmetro_1000_4Car_NAME                        :[DTS/4량] 대전교통공사 1000호대 전동차
 STR_Gimpo_Gold_2Car_NAME                               :[DTS/2량] 김포골드라인
 STR_Gwangjumetro_1000_4Car_NAME                        :[DTS/4량] 광주교통공사 1000호대 전동차
@@ -766,6 +771,8 @@ STR_REFIT_LIVERY_Busanmetro_2000_WOOJIN                : WOOJIN
 STR_REFIT_LIVERY_Busanmetro_2000_DAWONSYS              : DAWONSYS
 STR_REFIT_LIVERY_Daegumetro_1000_GTO                   : GTO
 STR_REFIT_LIVERY_Daegumetro_1000_IGBT                  : IGBT
+STR_REFIT_LIVERY_Daegumetro_3000                       : 기본
+STR_REFIT_LIVERY_Daegumetro_3000_Urban                 : Urban
 STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_1lv    : 구도색 IGBT 1lv
 STR_REFIT_LIVERY_Incheonmetro_1000_1st_Old_IGBT_2lv    : 구도색 IGBT 2lv
 STR_REFIT_LIVERY_Incheonmetro_1000_1st_New             : 신도색

@@ -30,8 +30,54 @@ switch(FEAT_TRAINS, PARENT, sw_KTX_Eum_6car_reversed, vehicle_is_reversed){
     sw_KTX_Eum_6car_flipped;
 }
 
+// 12량
+switch (FEAT_TRAINS, SELF, sw_KTX_Eum_12car, position_in_vehid_chain % 12) {
+     1:set_KTX_Eum_wagon_M1_r2;
+     2:set_KTX_Eum_wagon_M2;
+     3:set_KTX_Eum_wagon_M2;
+     4:set_KTX_Eum_wagon_M4_r2;
+     5:set_KTX_Eum_engineT_TCD_r;
+     6:set_KTX_Eum_engineT_TCD;
+     7:set_KTX_Eum_wagon_M1;
+     8:set_KTX_Eum_wagon_M2;
+     9:set_KTX_Eum_wagon_M2;
+    10:set_KTX_Eum_wagon_M4;
+    11:set_KTX_Eum_engineT;
+    set_KTX_Eum_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_KTX_Eum_12car_r, position_in_vehid_chain % 12) {
+     1:set_KTX_Eum_wagon_M4_2;
+     2:set_KTX_Eum_wagon_M2_r;
+     3:set_KTX_Eum_wagon_M2_r;
+     4:set_KTX_Eum_wagon_M1_2;
+     5:set_KTX_Eum_engineT_TCD_r;
+     6:set_KTX_Eum_engineT_TCD;
+     7:set_KTX_Eum_wagon_M4_r;
+     8:set_KTX_Eum_wagon_M2_r;
+     9:set_KTX_Eum_wagon_M2_r;
+    10:set_KTX_Eum_wagon_M1_r;
+    11:set_KTX_Eum_engineH_r;
+    set_KTX_Eum_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_12car_flipped, vehicle_is_flipped){
+    0: sw_KTX_Eum_12car_r;
+    sw_KTX_Eum_12car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_KTX_Eum_12car_reversed, vehicle_is_reversed){
+    0: sw_KTX_Eum_12car;
+    sw_KTX_Eum_12car_flipped;
+}
+
 switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Eum_6car, extra_callback_info1) {
     1..5: KTX_Eum_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Eum_12car, extra_callback_info1) {
+    1..11: KTX_Eum_12Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 
