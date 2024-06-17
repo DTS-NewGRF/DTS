@@ -56,7 +56,9 @@ STR_H2_WJ_4Car_NAME                                    :[DTS/4량] 우진산전 
 STR_Group_HEMU_430X_NAME                               :[DTS] HEMU-430X
 STR_HEMU_430X_6Car_NAME                                :[DTS/6량] HEMU-430X
 STR_HEMU_430X_8Car_NAME                                :[DTS/8량] HEMU-430X
+STR_Group_HMX_NAME                                     :[DTS] HMX
 STR_HMX_8Car_NAME                                      :[DTS/8량] HMX
+STR_HMX_10Car_NAME                                     :[DTS/10량] HMX
 STR_Group_HSR_350X_NAME                                :[DTS] HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[DTS/7량] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[DTS/14량] HSR-350X
@@ -107,7 +109,9 @@ STR_MEL_150_12Car_NAME                                 :[DTS/12량] MEL-150
 STR_MSB_Speeder_NAME                                   :[DTS/단량] MSB 모터카
 STR_NEL_8100_NAME                                      :[DTS/단량] 8100호대 전기기관차
 STR_NEL_8200_NAME                                      :[DTS/단량] 8200호대 전기기관차
+STR_Group_NKX_NAME                                     :[DTS] NKX
 STR_NKX_8Car_NAME                                      :[DTS/8량] NKX
+STR_NKX_10Car_NAME                                     :[DTS/10량] NKX
 STR_Group_Nuriro_NAME                                  :[DTS] 한국철도공사 200000호대 전동차 (누리로)
 STR_Nuriro_4Car_NAME                                   :[DTS/4량] 한국철도공사 200000호대 전동차 (누리로)
 STR_Nuriro_8Car_NAME                                   :[DTS/8량] 한국철도공사 200000호대 전동차 (누리로)

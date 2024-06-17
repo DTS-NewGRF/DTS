@@ -56,7 +56,9 @@ STR_H2_WJ_4Car_NAME                                    :[DTS/4Car] H2 by WOOJIN
 STR_Group_HEMU_430X_NAME                               :[DTS] HEMU-430X
 STR_HEMU_430X_6Car_NAME                                :[DTS/6Car] HEMU-430X
 STR_HEMU_430X_8Car_NAME                                :[DTS/8Car] HEMU-430X
+STR_Group_HMX_NAME                                     :[DTS] HMX
 STR_HMX_8Car_NAME                                      :[DTS/8Car] HMX
+STR_HMX_10Car_NAME                                     :[DTS/10Car] HMX
 STR_Group_HSR_350X_NAME                                :[DTS] HSR-350X
 STR_HSR_350X_7Car_NAME                                 :[DTS/7Car] HSR-350X
 STR_HSR_350X_14Car_NAME                                :[DTS/14Car] HSR-350X
@@ -107,7 +109,9 @@ STR_MEL_150_12Car_NAME                                 :[DTS/12Car] MEL-150
 STR_MSB_Speeder_NAME                                   :[DTS] MSB Speeder
 STR_NEL_8100_NAME                                      :[DTS] NEL 8100
 STR_NEL_8200_NAME                                      :[DTS] NEL 8200
+STR_Group_NKX_NAME                                     :[DTS] NKX
 STR_NKX_8Car_NAME                                      :[DTS/8Car] NKX
+STR_NKX_10Car_NAME                                     :[DTS/10Car] NKX
 STR_Group_Nuriro_NAME                                  :[DTS] Korail 200000 series EMU (NURIRO)
 STR_Nuriro_4Car_NAME                                   :[DTS/4Car] Korail 200000 series EMU (NURIRO)
 STR_Nuriro_8Car_NAME                                   :[DTS/8Car] Korail 200000 series EMU (NURIRO)

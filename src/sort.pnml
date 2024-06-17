@@ -234,7 +234,9 @@ sort(FEAT_TRAINS, [
     MEL_150_12Car,                           //2138
     NEL_8100,                                //2299
     NEL_8200,                                //2177
+    NKX,                                     //2429
     NKX_8Car,                                //2135
+    NKX_10Car,                               //2430
     Nuriro,                                  //2323
     Nuriro_4Car,                             //2324
     Nuriro_8Car,                             //2325
@@ -272,7 +274,9 @@ sort(FEAT_TRAINS, [
     KTX_Eum_12Car,                           //2426
     KTX_Eum_Virtual_6Car,                    //2020
     KTX_Eum_DD_6Car,                         //2021
+    HMX,                                     //2431
     HMX_8Car,                                //2134
+    HMX_10Car,                               //2432
     CRH1_8Car,                               //2034
     CRH1E_16Car,                             //2035
     CRH1A_A_8Car,                            //2036

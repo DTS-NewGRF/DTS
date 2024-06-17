@@ -10,8 +10,8 @@ grf {
     name :                             string(STR_GRF_NAME_WITH_VER);
     desc :                             string(STR_GRF_DESC);
     url :                              string(STR_GRF_URL);
-    version :                          20240617;
-    min_compatible_version :           20240201;
+    version :                          20240618;
+    min_compatible_version :           20240617;
 	
 	// Parameters 매개변수
     #include "src/parameter.pnml"
