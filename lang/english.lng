@@ -259,6 +259,7 @@ STR_Daegumetro_1000_6Car_NAME                          :[DTS/6car] Daegumetro 10
 STR_Daegumetro_2000_6Car_NAME                          :[DTS/6car] Daegumetro 2000
 STR_Daegumetro_3000_3Car_NAME                          :[DTS/3car] Daegumetro 3000
 STR_Daejeonmetro_1000_4Car_NAME                        :[DTS/4Car] Daejeonmetro 1000
+STR_Dongbuk_2Car_NAME                                  :[DTS/2car] Dongbuk
 STR_Gimpo_Gold_2Car_NAME                               :[DTS/2car] Gimpo Gold Line
 STR_Gwangjumetro_1000_4Car_NAME                        :[DTS/4Car] Gwangjumetro 1000
 STR_Group_Incheonmetro_NAME                            :[DTS] Incheon Metro
@@ -418,6 +419,9 @@ STR_Nishitetsu_8000_6Car_NAME                          :[DTS/6Car] Nishitetsu 80
 STR_Group_Nishitetsu_9000_NAME                         :[DTS] Nishitetsu 9000
 STR_Nishitetsu_9000_2Car_NAME                          :[DTS/2Car] Nishitetsu 9000
 STR_Nishitetsu_9000_3Car_NAME                          :[DTS/3Car] Nishitetsu 9000
+
+# World / Metro's name
+STR_Jakarta_LRT_2Car_NAME                              :[DTS/2Car] Jakarta LRT
 
 # wagon's name
 STR_Group_Travel_wagon_NAME                            :[DTS] Travel Train
@@ -876,8 +880,8 @@ STR_REFIT_LIVERY_Seoulmetro_1st_4000_IGBT              : Seoulmetro 1st 4000 IGB
 STR_REFIT_LIVERY_Seoulmetro_1st_4000_GTO               : Seoulmetro 1st 4000 GTO
 STR_REFIT_LIVERY_Seoulmetro_1st_5000_IGBT              : Seoulmetro 1st 5000 IGBT
 STR_REFIT_LIVERY_Seoulmetro_1st_5000_GTO               : Seoulmetro 1st 5000 GTO
-STR_REFIT_LIVERY_Seoulmetro_1st_7000_A                 : Seoulmetro 1st 7000 A
-STR_REFIT_LIVERY_Seoulmetro_1st_7000_B                 : Seoulmetro 1st 7000 B
+STR_REFIT_LIVERY_Seoulmetro_1st_7000_Old               : Seoulmetro 1st 7000 Old
+STR_REFIT_LIVERY_Seoulmetro_1st_7000_New               : Seoulmetro 1st 7000 New
 STR_REFIT_LIVERY_Standard_Metro_Long_Seat              : Standard MetroLong Long Seat
 STR_REFIT_LIVERY_Standard_Metro_Cross_Seat             : Standard MetroLong Cross Seat
 STR_REFIT_LIVERY_Seoulmetro_2nd_2000_A                 : Seoulmetro 2nd 2000 A

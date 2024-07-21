@@ -449,7 +449,9 @@
 |2430|NKX_10Car|
 |2431|[그룹명] HMX|
 |2432|HMX_10Car|
-|2433~2999|공백|
+|2433|Dongbuk_2Car|
+|2434|Jakarta_LRT_2Car|
+|2435~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+자카르타 LRT
+--------------------------------------------------------------------*/
+spriteset(set_Jakarta_LRT_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "src_World/metro/Jakarta_LRT/Jakarta_LRT.png"){
+    engine_mini_7(80, 0)
+}
+
+spriteset(set_Jakarta_LRT_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "src_World/metro/Jakarta_LRT/Jakarta_LRT.png"){
+    engine_mini_7(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Jakarta_LRT_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,  "src_World/metro/Jakarta_LRT/Jakarta_LRT.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Jakarta_LRT_purchase, cargo_subtype) {
+    set_Jakarta_LRT_purchase;
+}

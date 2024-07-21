@@ -220,72 +220,72 @@ spriteset(set_Seoulmetro_1st_6000_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/
 }
 
 /*--------------------------------------------------------------------
-서울교통공사 7000호대 초기도색
+서울교통공사 7000호대 초기도색 (구도색)
 --------------------------------------------------------------------*/
-spriteset(set_Seoulmetro_1st_7000_F_engineH, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_F.png"){
+spriteset(set_Seoulmetro_1st_7000_Old_engineH, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_Old.png"){
     engine(80, 0)
 }
 
-spriteset(set_Seoulmetro_1st_7000_F_engineH_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_F.png"){
+spriteset(set_Seoulmetro_1st_7000_Old_engineH_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_Old.png"){
     engine(80, 27)
 }
 
-spriteset(set_Seoulmetro_1st_7000_F_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_F.png"){
+spriteset(set_Seoulmetro_1st_7000_Old_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_Old.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Seoulmetro_1st_7000_F_wagon_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_F.png"){
+spriteset(set_Seoulmetro_1st_7000_Old_wagon_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_Old.png"){
     wagon_1F_F_r(80, 54)
 }
 
-spriteset(set_Seoulmetro_1st_7000_F_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_F.png"){
+spriteset(set_Seoulmetro_1st_7000_Old_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_Old.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_Seoulmetro_1st_7000_F_panto_wagon_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_F.png"){
+spriteset(set_Seoulmetro_1st_7000_Old_panto_wagon_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_Old.png"){
     wagon_1F_F_r(80, 81)
 }
 
-spriteset(set_Seoulmetro_1st_7000_F_engineT_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_F.png"){
+spriteset(set_Seoulmetro_1st_7000_Old_engineT_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_Old.png"){
     engine(80, 108)
 }
 
-spriteset(set_Seoulmetro_1st_7000_F_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_F.png"){
+spriteset(set_Seoulmetro_1st_7000_Old_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_Old.png"){
     engine(80, 135)
 }
 
 /*--------------------------------------------------------------------
-서울교통공사 7000호대 현도색
+서울교통공사 7000호대 현도색 (신도색)
 --------------------------------------------------------------------*/
-spriteset(set_Seoulmetro_1st_7000_N_engineH, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_N.png"){
+spriteset(set_Seoulmetro_1st_7000_New_engineH, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
     engine(80, 0)
 }
 
-spriteset(set_Seoulmetro_1st_7000_N_engineH_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_N.png"){
+spriteset(set_Seoulmetro_1st_7000_New_engineH_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
     engine(80, 27)
 }
 
-spriteset(set_Seoulmetro_1st_7000_N_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_N.png"){
+spriteset(set_Seoulmetro_1st_7000_New_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Seoulmetro_1st_7000_N_wagon_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_N.png"){
+spriteset(set_Seoulmetro_1st_7000_New_wagon_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
     wagon_1F_F_r(80, 54)
 }
 
-spriteset(set_Seoulmetro_1st_7000_N_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_N.png"){
+spriteset(set_Seoulmetro_1st_7000_New_panto_wagon, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_Seoulmetro_1st_7000_N_panto_wagon_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_N.png"){
+spriteset(set_Seoulmetro_1st_7000_New_panto_wagon_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
     wagon_1F_F_r(80, 81)
 }
 
-spriteset(set_Seoulmetro_1st_7000_N_engineT_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_N.png"){
+spriteset(set_Seoulmetro_1st_7000_New_engineT_r, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
     engine(80, 108)
 }
 
-spriteset(set_Seoulmetro_1st_7000_N_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_N.png"){
+spriteset(set_Seoulmetro_1st_7000_New_engineT, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
     engine(80, 135)
 }
 
@@ -352,7 +352,7 @@ spriteset(set_Seoulmetro_1st_6000_purchase, "src/metro/Seoulmetro/Seoulmetro_1st
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_Seoulmetro_1st_7000_purchase, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_N.png"){
+spriteset(set_Seoulmetro_1st_7000_purchase, "src/metro/Seoulmetro/Seoulmetro_1st/Seoulmetro_1st_7000_New.png"){
     tmpl_purchase(0, 0)
 }
 

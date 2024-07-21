@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+동북선
+--------------------------------------------------------------------*/
+spriteset(set_Dongbuk_engineH, "src/metro/Dongbuk/Dongbuk.png"){
+    engine_mini_7(80, 0)
+}
+
+spriteset(set_Dongbuk_engineT, "src/metro/Dongbuk/Dongbuk.png"){
+    engine_mini_7(80, 27)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Dongbuk_purchase, "src/metro/Dongbuk/Dongbuk.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Dongbuk_purchase, cargo_subtype) {
+    set_Dongbuk_purchase;
+}

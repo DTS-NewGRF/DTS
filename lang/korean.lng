@@ -259,6 +259,7 @@ STR_Daegumetro_1000_6Car_NAME                          :[DTS/6량] 대구교통�
 STR_Daegumetro_2000_6Car_NAME                          :[DTS/6량] 대구교통공사 2000호대 전동차
 STR_Daegumetro_3000_3Car_NAME                          :[DTS/3량] 대구교통공사 3000호대 전동차
 STR_Daejeonmetro_1000_4Car_NAME                        :[DTS/4량] 대전교통공사 1000호대 전동차
+STR_Dongbuk_2Car_NAME                                  :[DTS/2량] 동북선
 STR_Gimpo_Gold_2Car_NAME                               :[DTS/2량] 김포골드라인
 STR_Gwangjumetro_1000_4Car_NAME                        :[DTS/4량] 광주교통공사 1000호대 전동차
 STR_Group_Incheonmetro_NAME                            :[DTS] 인천교통공사 전동차
@@ -417,6 +418,9 @@ STR_Nishitetsu_8000_6Car_NAME                          :[DTS/6량] 니시테츠 
 STR_Group_Nishitetsu_9000_NAME                         :[DTS] 니시테츠 9000형
 STR_Nishitetsu_9000_2Car_NAME                          :[DTS/2량] 니시테츠 9000형
 STR_Nishitetsu_9000_3Car_NAME                          :[DTS/3량] 니시테츠 9000형
+
+# World / Metro's name
+STR_Jakarta_LRT_2Car_NAME                              :[DTS/2량] 자카르타 LRT
 
 # wagon's name
 STR_Group_Travel_wagon_NAME                            :[DTS] 관광열차
@@ -872,8 +876,8 @@ STR_REFIT_LIVERY_Seoulmetro_1st_4000_IGBT              : 서울교통공사 1세
 STR_REFIT_LIVERY_Seoulmetro_1st_4000_GTO               : 서울교통공사 1세대 4000호대 GTO
 STR_REFIT_LIVERY_Seoulmetro_1st_5000_IGBT              : 서울교통공사 1세대 5000호대 IGBT
 STR_REFIT_LIVERY_Seoulmetro_1st_5000_GTO               : 서울교통공사 1세대 5000호대 GTO
-STR_REFIT_LIVERY_Seoulmetro_1st_7000_A                 : 서울교통공사 1세대 7000호대 초기도색
-STR_REFIT_LIVERY_Seoulmetro_1st_7000_B                 : 서울교통공사 1세대 7000호대 현도색
+STR_REFIT_LIVERY_Seoulmetro_1st_7000_Old               : 서울교통공사 1세대 7000호대 초기도색
+STR_REFIT_LIVERY_Seoulmetro_1st_7000_New               : 서울교통공사 1세대 7000호대 현도색
 STR_REFIT_LIVERY_Seoulmetro_2nd_2000_A                 : 서울교통공사 2세대 2000호대
 STR_REFIT_LIVERY_Seoulmetro_2nd_2000_B                 : 서울교통공사 2세대 2000호대 초퍼부수객차
 STR_REFIT_LIVERY_Seoulmetro_2nd_IGBT                   : 서울교통공사 2세대 4000호대 IGBT

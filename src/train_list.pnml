@@ -59,6 +59,7 @@
 #include "metro/Busanmetro/Busanmetro.pnml"
 #include "metro/Daegumetro/Daegumetro.pnml"
 #include "metro/Daejeonmetro/Daejeonmetro.pnml"
+#include "metro/Dongbuk/Dongbuk.pnml"
 #include "metro/Gimpo_Gold/Gimpo_Gold.pnml"
 #include "metro/Gwangjumetro/Gwangjumetro.pnml"
 #include "metro/Incheonmetro/Incheonmetro.pnml"

@@ -7,3 +7,6 @@
 #include "locomotive/AL_BORAQ/Al_Boraq.pnml"
 #include "locomotive/Talgo_350_SRO/Talgo_350_SRO.pnml"
 #include "locomotive/Avelia_Liberty/Avelia_Liberty.pnml"
+
+// Metro
+#include "metro/Jakarta_LRT/Jakarta_LRT.pnml"
