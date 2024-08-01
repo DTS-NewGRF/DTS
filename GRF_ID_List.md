@@ -451,7 +451,13 @@
 |2432|HMX_10Car|
 |2433|Dongbuk_2Car|
 |2434|Jakarta_LRT_2Car|
-|2435~2999|공백|
+|2435|[그룹명] PEXS|
+|2436|PEXS_N|
+|2437|PEXS_SN|
+|2438|PEXS_D|
+|2439|PEXS_B|
+|2440|PEXS_S|
+|2441~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

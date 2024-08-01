@@ -458,6 +458,12 @@ STR_PEX_SN_NAME                                        :[DTS] PEX Special Car
 STR_PEX_D_NAME                                         :[DTS] PEX 2F Car
 STR_PEX_B_NAME                                         :[DTS] PEX Bar Car
 STR_PEX_S_NAME                                         :[DTS] PEX Bad Car
+STR_Group_PEXS_NAME                                    :[DTS] PEX-SUPER (Premium EXpress Super)
+STR_PEXS_N_NAME                                        :[DTS] PEX-SUPER regular class
+STR_PEXS_SN_NAME                                       :[DTS] PEX-SUPER first class
+STR_PEXS_D_NAME                                        :[DTS] PEX-SUPER 2F
+STR_PEXS_B_NAME                                        :[DTS] PEX-SUPER restaurant
+STR_PEXS_S_NAME                                        :[DTS] PEX-SUPER sleeping car
 STR_Generatar_2cc_NAME                                 :[DTS] Korea Generatar 2cc Car
 STR_Generatar_Real_OutLook_NAME                        :[DTS] Korea Outlook & Right Angle Shape Generator Car
 STR_Generatar_Real_Stream_lined_NAME                   :[DTS] Korea Stream lined & Long length Generator Car
@@ -541,6 +547,7 @@ STR_REFIT_train_configuration_Mugunghwa_Real           :{BLACK}train configurati
 STR_REFIT_train_configuration_Saemaeul_2cc             :{BLACK}train configuration {}{GREEN}Korea Saemaeul 2cc Passenger vehicles
 STR_REFIT_train_configuration_Saemaeul_Real            :{BLACK}train configuration {}{GREEN}Korea Saemaeul Passenger vehicles
 STR_REFIT_train_configuration_PEX                      :{BLACK}train configuration {}{GREEN}PEX
+STR_REFIT_train_configuration_PEX_Super                :{BLACK}train configuration {}{GREEN}PEX-SUPER
 STR_REFIT_train_configuration_Generatar_2cc            :{BLACK}train configuration {}{GREEN}Korea Generatar 2cc vehicles
 STR_REFIT_train_configuration_Generatar_Real           :{BLACK}train configuration {}{GREEN}Korea Generatar vehicles
 STR_REFIT_train_configuration_Luggage_Real             :{BLACK}train configuration {}{GREEN}Korea Luggage vehicles

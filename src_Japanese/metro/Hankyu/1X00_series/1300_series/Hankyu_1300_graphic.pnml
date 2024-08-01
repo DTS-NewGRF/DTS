@@ -6,22 +6,38 @@ spriteset(set_Hankyu_1300_purchase, "src_Japanese/metro/Hankyu/1X00_series/1300_
 }
 
 /*--------------------------------------------------------------------
-1. 한큐전철 1300형
+한큐전철 1300형
 --------------------------------------------------------------------*/
 spriteset(set_Hankyu_1300_engineH, "src_Japanese/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png"){
     engine(80, 0)
 }
 
-spriteset(set_Hankyu_1300_wagon, "src_Japanese/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png") {
-    wagon_1F_F(80, 27)
+spriteset(set_Hankyu_1300_engineH_r, "src_Japanese/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png"){
+    engine(80, 27)
 }
 
-spriteset(set_Hankyu_1300_panto_wagon, "src_Japanese/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png") {
+spriteset(set_Hankyu_1300_wagon, "src_Japanese/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png") {
     wagon_1F_F(80, 54)
 }
 
+spriteset(set_Hankyu_1300_wagon_r, "src_Japanese/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Hankyu_1300_panto_wagon, "src_Japanese/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Hankyu_1300_panto_wagon_r, "src_Japanese/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Hankyu_1300_engineT_r, "src_Japanese/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png"){
+    engine(80, 108)
+}
+
 spriteset(set_Hankyu_1300_engineT, "src_Japanese/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png"){
-    engine(80, 81)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------

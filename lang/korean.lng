@@ -456,6 +456,12 @@ STR_PEX_SN_NAME                                        :[DTS] PEX 특실 차량
 STR_PEX_D_NAME                                         :[DTS] PEX 2층 차량
 STR_PEX_B_NAME                                         :[DTS] PEX 식당칸
 STR_PEX_S_NAME                                         :[DTS] PEX 침대칸
+STR_Group_PEXS_NAME                                    :[DTS] PEX-SUPER (Premium EXpress Super)
+STR_PEXS_N_NAME                                        :[DTS] PEX-SUPER 일반실
+STR_PEXS_SN_NAME                                       :[DTS] PEX-SUPER 특실
+STR_PEXS_D_NAME                                        :[DTS] PEX-SUPER 2층객차
+STR_PEXS_B_NAME                                        :[DTS] PEX-SUPER 식당차
+STR_PEXS_S_NAME                                        :[DTS] PEX-SUPER 침대차
 STR_Generatar_2cc_NAME                                 :[DTS/발전차] 한국 발전차 2cc
 STR_Generatar_Real_OutLook_NAME                        :[DTS/발전차] 한국 전망형 & 직각형 발전차
 STR_Generatar_Real_Stream_lined_NAME                   :[DTS/발전차] 한국 유선형, 고속일반 & 고속장대형 발전차
@@ -537,6 +543,7 @@ STR_REFIT_train_configuration_Mugunghwa_Real           :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_Saemaeul_2cc             :{BLACK}열차구성 {}{GREEN}[기관차연결] 한국형 새마을호 객차
 STR_REFIT_train_configuration_Saemaeul_Real            :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 새마을호 객차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_PEX                      :{BLACK}열차구성 {}{GREEN}[기관차연결] PEX
+STR_REFIT_train_configuration_PEX_Super                :{BLACK}열차구성 {}{GREEN}[기관차연결] PEX-SUPER
 STR_REFIT_train_configuration_Generatar_2cc            :{BLACK}열차구성 {}{GREEN}[기관차연결] 한국형 발전차 2cc
 STR_REFIT_train_configuration_Generatar_Real           :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 발전차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_Luggage_Real             :{BLACK}열차구성 {}{GREEN}[기관차열차]{}한국형 수화물차{}년도와 실제 열차에 맞추어 적용됩니다.

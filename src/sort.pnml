@@ -444,6 +444,12 @@ sort(FEAT_TRAINS, [
     PEX_D,                                   //2336
     PEX_B,                                   //2337
     PEX_S,                                   //2338
+    PEXS,                                    //2435
+    PEXS_N,                                  //2436
+    PEXS_SN,                                 //2437
+    PEXS_D,                                  //2438
+    PEXS_B,                                  //2439
+    PEXS_S,                                  //2440
     CTS_SPassenger_Car,                      //2031
     ETS_SPassenger_Car,                      //2061
     Generatar_2cc,                           //2003
