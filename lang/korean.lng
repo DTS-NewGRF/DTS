@@ -231,6 +231,10 @@ STR_HYEL_400_8Car_NAME                                 :[DTS/8량] HYEL-400
 STR_HYEL_400_10Car_NAME                                :[DTS/10량] HYEL-400
 STR_HYEL_400_16Car_NAME                                :[DTS/16량] HYEL-400
 STR_HYEL_Constrck_NAME                                 :[DTS/4량] 건설차량
+STR_Group_HYEL_PEX_Super_NAME                          :[DTS] HYEL PEX-SUPER (Premium EXpress Super)
+STR_HYEL_PEX_Super_8Car_NAME                           :[DTS/8량] HYEL PEX-SUPER
+STR_HYEL_PEX_Super_10Car_NAME                          :[DTS/10량] HYEL PEX-SUPER
+STR_HYEL_PEX_Super_14Car_NAME                          :[DTS/14량] HYEL PEX-SUPER
 
 # World / locomotive's name
 STR_Al_Boraq_10Car_NAME                                :[DTS/10량] 알 보라크
@@ -433,7 +437,7 @@ STR_E_Train_NAME                                       :[DTS/9량] E-Train
 STR_Group_Eco_Rail_NAME                                :[DTS] 에코레일
 STR_Eco_Rail_NAME                                      :[DTS/1량] 에코레일 1Car
 STR_Eco_Rail_5Car_NAME                                 :[DTS/5량] 에코레일 5Car
-STR_G_Train_NAME                                        :[DTS/5량] G-Train
+STR_G_Train_NAME                                       :[DTS/5량] G-Train
 STR_JA_a_NAME                                          :[DTS/단량] 정선아리랑 유람열차
 STR_Lady_Bird_NAME                                     :[DTS/9량] 레이디버드
 STR_Rail_Cruise_Haerang_NAME                           :[DTS/8량] 레일크루즈 해랑
@@ -456,12 +460,6 @@ STR_PEX_SN_NAME                                        :[DTS] PEX 특실 차량
 STR_PEX_D_NAME                                         :[DTS] PEX 2층 차량
 STR_PEX_B_NAME                                         :[DTS] PEX 식당칸
 STR_PEX_S_NAME                                         :[DTS] PEX 침대칸
-STR_Group_PEXS_NAME                                    :[DTS] PEX-SUPER (Premium EXpress Super)
-STR_PEXS_N_NAME                                        :[DTS] PEX-SUPER 일반실
-STR_PEXS_SN_NAME                                       :[DTS] PEX-SUPER 특실
-STR_PEXS_D_NAME                                        :[DTS] PEX-SUPER 2층객차
-STR_PEXS_B_NAME                                        :[DTS] PEX-SUPER 식당차
-STR_PEXS_S_NAME                                        :[DTS] PEX-SUPER 침대차
 STR_Generatar_2cc_NAME                                 :[DTS/발전차] 한국 발전차 2cc
 STR_Generatar_Real_OutLook_NAME                        :[DTS/발전차] 한국 전망형 & 직각형 발전차
 STR_Generatar_Real_Stream_lined_NAME                   :[DTS/발전차] 한국 유선형, 고속일반 & 고속장대형 발전차
@@ -543,7 +541,6 @@ STR_REFIT_train_configuration_Mugunghwa_Real           :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_Saemaeul_2cc             :{BLACK}열차구성 {}{GREEN}[기관차연결] 한국형 새마을호 객차
 STR_REFIT_train_configuration_Saemaeul_Real            :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 새마을호 객차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_PEX                      :{BLACK}열차구성 {}{GREEN}[기관차연결] PEX
-STR_REFIT_train_configuration_PEX_Super                :{BLACK}열차구성 {}{GREEN}[기관차연결] PEX-SUPER
 STR_REFIT_train_configuration_Generatar_2cc            :{BLACK}열차구성 {}{GREEN}[기관차연결] 한국형 발전차 2cc
 STR_REFIT_train_configuration_Generatar_Real           :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 발전차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_Luggage_Real             :{BLACK}열차구성 {}{GREEN}[기관차열차]{}한국형 수화물차{}년도와 실제 열차에 맞추어 적용됩니다.
@@ -773,6 +770,16 @@ STR_REFIT_LIVERY_HYEL_100_CI                           : 한국철도공사 CI
 STR_REFIT_LIVERY_HYEL_100_original                     : 오리지널
 STR_REFIT_LIVERY_HYEL_150                              : HYEL-150
 STR_REFIT_LIVERY_HYEL_150_SB                           : HYEL-150 바다도색
+STR_REFIT_LIVERY_HYEL_PEX_Super_A                      : 기본도색
+STR_REFIT_LIVERY_HYEL_PEX_Super_B                      : 기본도색 (이벤트)
+STR_REFIT_LIVERY_HYEL_PEX_Super_C                      : 기본도색 (물결무늬)
+STR_REFIT_LIVERY_HYEL_PEX_Super_D                      : 기본도색 (2층객차)
+STR_REFIT_LIVERY_HYEL_PEX_Super_E                      : 기본도색 (침대차)
+STR_REFIT_LIVERY_HYEL_PEX_Super_F                      : 기본도색 (이벤트+2층객차)
+STR_REFIT_LIVERY_HYEL_PEX_Super_G                      : 기본도색 (이벤트+침대차)
+STR_REFIT_LIVERY_HYEL_PEX_Super_H                      : 무지개도색
+STR_REFIT_LIVERY_HYEL_PEX_Super_I                      : 무지개도색 (2층객차)
+STR_REFIT_LIVERY_HYEL_PEX_Super_J                      : 무지개도색 (침대차)
 
 # Liveries metro
 STR_REFIT_LIVERY_AUTS                                  : AUTS

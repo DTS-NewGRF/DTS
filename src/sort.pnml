@@ -300,6 +300,10 @@ sort(FEAT_TRAINS, [
     HYEL_150,                                //2141
     HYEL_300_8Car,                           //2110
     HYEL_Constrck,                           //2320
+    HYEL_PEX_Super,                          //2435
+    HYEL_PEX_Super_8Car,                     //2436
+    HYEL_PEX_Super_10Car,                    //2437
+    HYEL_PEX_Super_14Car,                    //2438
 
     //고속열차 331
     CTX,                                     //2199
@@ -444,12 +448,6 @@ sort(FEAT_TRAINS, [
     PEX_D,                                   //2336
     PEX_B,                                   //2337
     PEX_S,                                   //2338
-    PEXS,                                    //2435
-    PEXS_N,                                  //2436
-    PEXS_SN,                                 //2437
-    PEXS_D,                                  //2438
-    PEXS_B,                                  //2439
-    PEXS_S,                                  //2440
     CTS_SPassenger_Car,                      //2031
     ETS_SPassenger_Car,                      //2061
     Generatar_2cc,                           //2003

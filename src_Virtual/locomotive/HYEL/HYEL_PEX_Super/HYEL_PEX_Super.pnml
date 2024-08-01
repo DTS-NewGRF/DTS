@@ -1,0 +1,195 @@
+/*--------------------------------------------------------------------
+HYEL PEX-Super
+--------------------------------------------------------------------*/
+// Graphics
+#include "HYEL_PEX_Super_graphic.pnml"
+
+// Switch
+#include "HYEL_PEX_Super_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_PEX_Super, 2435){
+    property {
+        name:                           string(STR_Group_HYEL_PEX_Super_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        extra_flags:                    bitmask(VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
+        power:                          20000 kW;
+        }
+
+    graphics {
+        purchase:                       sw_HYEL_PEX_Super_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 8량
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, HYEL_PEX_Super_8Car, 2436){
+    property {
+        name:                           string(STR_HYEL_PEX_Super_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_PEX_Super;
+        
+        //spec
+        speed:                          260km/h;
+        power:                          20000 kW;
+        weight:                         30 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 1;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HYEL_PEX_Super_8car_reversed;
+        articulated_part:               sw_articulated_HYEL_PEX_Super_8car;
+        purchase:                       sw_HYEL_PEX_Super_purchase;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
+        cargo_capacity:                 sw_HYEL_PEX_Super_8car_capacity_in_custom;
+        cargo_subtype_text:             sw_HYEL_PEX_Super_cargo_subtype_text;
+        sound_effect:                   sw_HYEL_PEX_Super_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 10량
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, HYEL_PEX_Super_10Car, 2437){
+    property {
+        name:                           string(STR_HYEL_PEX_Super_10Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_PEX_Super;
+        
+        //spec
+        speed:                          260km/h;
+        power:                          20000 kW;
+        weight:                         30 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 1;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HYEL_PEX_Super_10car_reversed;
+        articulated_part:               sw_articulated_HYEL_PEX_Super_10car;
+        purchase:                       sw_HYEL_PEX_Super_purchase;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
+        cargo_capacity:                 sw_HYEL_PEX_Super_10car_capacity_in_custom;
+        cargo_subtype_text:             sw_HYEL_PEX_Super_cargo_subtype_text;
+        sound_effect:                   sw_HYEL_PEX_Super_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 14량
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, HYEL_PEX_Super_14Car, 2438){
+    property {
+        name:                           string(STR_HYEL_PEX_Super_14Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_PEX_Super;
+        
+        //spec
+        speed:                          260km/h;
+        power:                          25000 kW;
+        weight:                         30 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 1;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HYEL_PEX_Super_14car_reversed;
+        articulated_part:               sw_articulated_HYEL_PEX_Super_14car;
+        purchase:                       sw_HYEL_PEX_Super_purchase;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
+        cargo_capacity:                 sw_HYEL_PEX_Super_14car_capacity_in_custom;
+        cargo_subtype_text:             sw_HYEL_PEX_Super_14Car_cargo_subtype_text;
+        sound_effect:                   sw_HYEL_PEX_Super_sound;
+        }
+        }
