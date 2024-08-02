@@ -460,6 +460,12 @@ STR_PEX_SN_NAME                                        :[DTS] PEX 특실 차량
 STR_PEX_D_NAME                                         :[DTS] PEX 2층 차량
 STR_PEX_B_NAME                                         :[DTS] PEX 식당칸
 STR_PEX_S_NAME                                         :[DTS] PEX 침대칸
+STR_Group_PEX_Super_NAME                               :[DTS] PEX-Super (Premium EXpress Super)
+STR_PEX_Super_N_NAME                                   :[DTS] PEX-SUPER 일반실
+STR_PEX_Super_SN_NAME                                  :[DTS] PEX-SUPER 특실
+STR_PEX_Super_D_NAME                                   :[DTS] PEX-SUPER 2층객차
+STR_PEX_Super_B_NAME                                   :[DTS] PEX-SUPER 식당차
+STR_PEX_Super_S_NAME                                   :[DTS] PEX-SUPER 침대차
 STR_Generatar_2cc_NAME                                 :[DTS/발전차] 한국 발전차 2cc
 STR_Generatar_Real_OutLook_NAME                        :[DTS/발전차] 한국 전망형 & 직각형 발전차
 STR_Generatar_Real_Stream_lined_NAME                   :[DTS/발전차] 한국 유선형, 고속일반 & 고속장대형 발전차
@@ -541,6 +547,7 @@ STR_REFIT_train_configuration_Mugunghwa_Real           :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_Saemaeul_2cc             :{BLACK}열차구성 {}{GREEN}[기관차연결] 한국형 새마을호 객차
 STR_REFIT_train_configuration_Saemaeul_Real            :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 새마을호 객차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_PEX                      :{BLACK}열차구성 {}{GREEN}[기관차연결] PEX
+STR_REFIT_train_configuration_PEX_SUPER                :{BLACK}열차구성 {}{GREEN}[기관차연결] PEX-SUPER
 STR_REFIT_train_configuration_Generatar_2cc            :{BLACK}열차구성 {}{GREEN}[기관차연결] 한국형 발전차 2cc
 STR_REFIT_train_configuration_Generatar_Real           :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 발전차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_Luggage_Real             :{BLACK}열차구성 {}{GREEN}[기관차열차]{}한국형 수화물차{}년도와 실제 열차에 맞추어 적용됩니다.
@@ -548,11 +555,11 @@ STR_REFIT_train_configuration_CSPassenger              :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_CGeneratar               :{BLACK}열차구성 {}{GREEN}[기관차열차] 중국 발전차
 STR_REFIT_train_configuration_CLuggage                 :{BLACK}열차구성 {}{GREEN}[기관차열차] 중국 수화물차
 STR_REFIT_train_configuration_ESPassenger              :{BLACK}열차구성 {}{GREEN}[기관차열차] 유럽 객차
-STR_REFIT_train_configuration_TGV_Poste                :{BLACK}열차구성 {}{GREEN}TGV 라포스트
+STR_REFIT_train_configuration_TGV_Poste                :{BLACK}열차구성 {}{GREEN} TGV 라포스트
 STR_REFIT_train_configuration_2F                       :{BLACK}열차구성 {}{GREEN}[기관차열차] 2층 객차
 STR_REFIT_train_configuration_Coach                    :{BLACK}열차구성 {}{GREEN}[기관차열차] 객차형 승객 차량용
-STR_REFIT_train_configuration_Coach_Last               :{BLACK}열차구성 {}{GREEN}객차형 승객 차량용
-STR_REFIT_train_configuration_Constrck                 :{BLACK}열차구성 {}{GREEN}건설용 컨셉을 가진 차량으로 수익 0, 유지비만 나옵니다.
+STR_REFIT_train_configuration_Coach_Last               :{BLACK}열차구성 {}{GREEN} 객차형 승객 차량용
+STR_REFIT_train_configuration_Constrck                 :{BLACK}열차구성 {}{GREEN} 건설용 컨셉을 가진 차량으로 수익 0, 유지비만 나옵니다.
 
 # Deleted / Liveries locomotive
 STR_REFIT_LIVERY_To_Be_Deleted_60                      : {RED}DTS 0.60 삭제예정

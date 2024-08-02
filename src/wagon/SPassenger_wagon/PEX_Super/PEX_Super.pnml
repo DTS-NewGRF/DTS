@@ -1,0 +1,271 @@
+/*--------------------------------------------------------------------
+PEX Super
+--------------------------------------------------------------------*/
+// Graphics
+#include "PEX_Super_graphic.pnml"
+
+// Switch
+#include "PEX_Super_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, PEX_Super, 2439){
+    property {
+        name:                           string(STR_Group_PEX_Super_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        }
+
+    graphics {
+        purchase:                       set_PEX_Super_N_wagon_purchase;
+        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 1층 차량
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, PEX_Super_N, 2440){
+    property {
+        name:                           string(STR_PEX_Super_N_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX_Super;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 78;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_PEX_Super_N_wagon;
+        purchase:                       set_PEX_Super_N_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
+        }
+    }
+
+/*--------------------------------------------------------------------
+열차정보 특실차량
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, PEX_Super_SN, 2441){
+    property {
+        name:                           string(STR_PEX_Super_SN_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX_Super;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 72;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_PEX_Super_SN_wagon;
+        purchase:                       set_PEX_Super_SN_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
+        }
+    }
+
+/*--------------------------------------------------------------------
+열차정보 2층
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, PEX_Super_D, 2442){
+    property {
+        name:                           string(STR_PEX_Super_D_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX_Super;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 152;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_PEX_Super_D_wagon;
+        purchase:                       set_PEX_Super_D_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
+        }
+    }
+
+/*--------------------------------------------------------------------
+열차정보 식당칸
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, PEX_Super_B, 2443){
+    property {
+        name:                           string(STR_PEX_Super_B_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX_Super;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 54;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        set_PEX_Super_wagon_B;
+        purchase:                       set_PEX_Super_B_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
+        }
+    }
+
+/*--------------------------------------------------------------------
+열차정보 침대칸
+--------------------------------------------------------------------*/  
+item (FEAT_TRAINS, PEX_Super_S, 2444){
+    property {
+        name:                           string(STR_PEX_Super_S_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     RAIL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  PEX_Super;
+
+        //spec
+        power:                          0 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        //Cargo
+        cargo_capacity:                 32;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
+    }
+
+    graphics {
+        default:                        sw_PEX_Super_S_wagon;
+        purchase:                       set_PEX_Super_S_wagon_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            50;
+        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
+        }
+    }

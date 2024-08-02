@@ -7,3 +7,4 @@
 #include "Saemaeul/Saemaeul_Real/Saemaeul_Real.pnml"
 #include "Travel_wagon/Travel_wagon.pnml"
 #include "PEX/PEX.pnml"
+#include "PEX_Super/PEX_Super.pnml"

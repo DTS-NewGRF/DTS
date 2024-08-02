@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// N객차 랜덤
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_N_wagon, random_bits % 4) {
+    1: set_PEX_Super_wagon_NB;
+    2: set_PEX_Super_wagon_NC;
+    3: set_PEX_Super_wagon_ND;
+    set_PEX_Super_wagon_NA;
+}
+
+// SN객차 랜덤
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_SN_wagon, random_bits % 2) {
+    1: set_PEX_Super_wagon_SNB;
+    set_PEX_Super_wagon_SNA;
+}
+
+// D객차 랜덤
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_D_wagon, random_bits % 3) {
+    1: set_PEX_Super_wagon_DB;
+    set_PEX_Super_wagon_DA;
+}
+
+// S객차 랜덤
+switch(FEAT_TRAINS, SELF, sw_PEX_Super_S_wagon, random_bits % 3) {
+    1: set_PEX_Super_wagon_SB;
+    set_PEX_Super_wagon_SA;
+}
