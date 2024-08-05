@@ -42,11 +42,11 @@ spriteset(set_HYEL_PEX_Super_ST_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "sr
 }
 
 spriteset(set_HYEL_PEX_Super_HT_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
-    wagon_1F_F(80, 162)
+    wagon_1F_F(80, 189)
 }
 
 spriteset(set_HYEL_PEX_Super_HT_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {
-    wagon_1F_F_r(80, 162)
+    wagon_1F_F_r(80, 189)
 }
 
 spriteset(set_HYEL_PEX_Super_F_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_PEX_Super/HYEL_PEX_Super.png") {

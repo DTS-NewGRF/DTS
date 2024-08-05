@@ -1,10 +1,6 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Hankyu_1300_purchase, "src_Japanese/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
 한큐전철 1300형
 --------------------------------------------------------------------*/
@@ -43,6 +39,10 @@ spriteset(set_Hankyu_1300_engineT, "src_Japanese/metro/Hankyu/1X00_series/1300_s
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
+spriteset(set_Hankyu_1300_purchase, "src_Japanese/metro/Hankyu/1X00_series/1300_series/Hankyu_1300.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_Hankyu_1300_purchase, cargo_subtype) {
     set_Hankyu_1300_purchase;
 }

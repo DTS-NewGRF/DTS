@@ -461,6 +461,7 @@
 |2442|PEX_Super_D|
 |2443|PEX_Super_B|
 |2444|PEX_Super_S|
+|2445|Hankyu_8200_2Car|
 |2445~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|

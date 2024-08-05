@@ -1,27 +1,27 @@
 /*--------------------------------------------------------------------
-한큐전철 9000형
+한큐전철 8200형
 --------------------------------------------------------------------*/
 // Graphics
-#include "Hankyu_9000_graphic.pnml"
+#include "Hankyu_8200_graphic.pnml"
 
 // Switch
-#include "Hankyu_9000_switch.pnml"
+#include "Hankyu_8200_switch.pnml"
 
 /*--------------------------------------------------------------------
-열차정보 8량
+열차정보 2량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Hankyu_9000_8Car, 2246){
+item(FEAT_TRAINS, Hankyu_8200_2Car, 2445){
     property {
-        name:                           string(STR_Hankyu_9000_8Car_NAME);
+        name:                           string(STR_Hankyu_8200_2Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2010, 1, 1);
+        introduction_date:              date(1995, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         
         //spec
-        speed:                          120km/h;
-        power:                          1080 kW;
+        speed:                          115km/h;
+        power:                          1200 kW;
         weight:                         29 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -33,7 +33,7 @@ item(FEAT_TRAINS, Hankyu_9000_8Car, 2246){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 131;
+        cargo_capacity:                 133;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -49,13 +49,13 @@ item(FEAT_TRAINS, Hankyu_9000_8Car, 2246){
         }
 
         graphics {
-        default:                        sw_Hankyu_9000_8car_reversed;
-        articulated_part:               sw_articulated_Hankyu_9000_8car;
-        purchase:                       sw_Hankyu_9000_purchase;
-        speed:                          sw_Hankyu_9000_speed;
+        default:                        sw_Hankyu_8200_2car_reversed;
+        articulated_part:               sw_articulated_Hankyu_8200_2car;
+        purchase:                       sw_Hankyu_8200_purchase;
+        speed:                          sw_Hankyu_8200_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Hankyu_9000_sound;
+        sound_effect:                   sw_Hankyu_8200_sound;
         }
         }

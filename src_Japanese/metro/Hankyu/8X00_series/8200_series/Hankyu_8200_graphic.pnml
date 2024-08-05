@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+한큐전철 8200형
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_8200_engineH, "src_Japanese/metro/Hankyu/8X00_series/8200_series/Hankyu_8200.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Hankyu_8200_engineH_r, "src_Japanese/metro/Hankyu/8X00_series/8200_series/Hankyu_8200.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Hankyu_8200_engineT_r, "src_Japanese/metro/Hankyu/8X00_series/8200_series/Hankyu_8200.png"){
+    engine(80, 54)
+}
+
+spriteset(set_Hankyu_8200_engineT, "src_Japanese/metro/Hankyu/8X00_series/8200_series/Hankyu_8200.png"){
+    engine(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_Hankyu_8200_purchase, "src_Japanese/metro/Hankyu/8X00_series/8200_series/Hankyu_8200.png"){
+    tmpl_purchase(0, 0)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_8200_purchase, cargo_subtype) {
+    set_Hankyu_8200_purchase;
+}

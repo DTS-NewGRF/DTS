@@ -176,6 +176,7 @@
 
 ### TOSHIBAGTOJStart.wav
 - 한큐 8000형
+- 한큐 8200형
 
 ### TOSHIBAGTOKStrart.wav
 - 한국철도공사 1세대 VVVF전동차

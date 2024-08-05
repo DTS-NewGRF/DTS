@@ -49,7 +49,7 @@ item(FEAT_TRAINS, Hankyu_9300_8Car, 2247){
         }
 
         graphics {
-        default:                        sw_Hankyu_9300_8car;
+        default:                        sw_Hankyu_9300_8car_reversed;
         articulated_part:               sw_articulated_Hankyu_9300_8car;
         purchase:                       sw_Hankyu_9300_purchase;
         speed:                          sw_Hankyu_9300_speed;

@@ -1,32 +1,48 @@
 /*--------------------------------------------------------------------
 Graphics
 --------------------------------------------------------------------*/
-spriteset(set_Hankyu_9000_purchase, "src_Japanese/metro/Hankyu/9X00_series/9000_series/Hankyu_9000.png"){
-    tmpl_purchase(0, 0)
-}
-
 /*--------------------------------------------------------------------
-1. 한큐전철 9000형
+한큐전철 9000형
 --------------------------------------------------------------------*/
 spriteset(set_Hankyu_9000_engineH, "src_Japanese/metro/Hankyu/9X00_series/9000_series/Hankyu_9000.png"){
     engine(80, 0)
 }
 
-spriteset(set_Hankyu_9000_wagon, "src_Japanese/metro/Hankyu/9X00_series/9000_series/Hankyu_9000.png") {
-    wagon_1F_F(80, 27)
+spriteset(set_Hankyu_9000_engineH_r, "src_Japanese/metro/Hankyu/9X00_series/9000_series/Hankyu_9000.png"){
+    engine(80, 27)
 }
 
-spriteset(set_Hankyu_9000_panto_wagon, "src_Japanese/metro/Hankyu/9X00_series/9000_series/Hankyu_9000.png") {
+spriteset(set_Hankyu_9000_wagon, "src_Japanese/metro/Hankyu/9X00_series/9000_series/Hankyu_9000.png") {
     wagon_1F_F(80, 54)
 }
 
+spriteset(set_Hankyu_9000_wagon_r, "src_Japanese/metro/Hankyu/9X00_series/9000_series/Hankyu_9000.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Hankyu_9000_panto_wagon, "src_Japanese/metro/Hankyu/9X00_series/9000_series/Hankyu_9000.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Hankyu_9000_panto_wagon_r, "src_Japanese/metro/Hankyu/9X00_series/9000_series/Hankyu_9000.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Hankyu_9000_engineT_r, "src_Japanese/metro/Hankyu/9X00_series/9000_series/Hankyu_9000.png"){
+    engine(80, 108)
+}
+
 spriteset(set_Hankyu_9000_engineT, "src_Japanese/metro/Hankyu/9X00_series/9000_series/Hankyu_9000.png"){
-    engine(80, 81)
+    engine(80, 135)
 }
 
 /*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
+spriteset(set_Hankyu_9000_purchase, "src_Japanese/metro/Hankyu/9X00_series/9000_series/Hankyu_9000.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_Hankyu_9000_purchase, cargo_subtype) {
     set_Hankyu_9000_purchase;
 }
