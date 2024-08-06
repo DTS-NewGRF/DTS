@@ -392,10 +392,16 @@ STR_Group_Hankyu_6000_NAME                             :[DTS] Hankyu 6000
 STR_Hankyu_6000_2Car_NAME                              :[DTS/2Car] Hankyu 6000
 STR_Hankyu_6000_3Car_NAME                              :[DTS/3Car] Hankyu 6000
 STR_Hankyu_6000_4Car_NAME                              :[DTS/4Car] Hankyu 6000
+STR_Hankyu_6000_6Car_NAME                              :[DTS/6Car] Hankyu 6000
 STR_Hankyu_6000_8Car_NAME                              :[DTS/8Car] Hankyu 6000
 STR_Group_Hankyu_6300_NAME                             :[DTS] Hankyu 6300
 STR_Hankyu_6300_4Car_NAME                              :[DTS/4Car] Hankyu 6300
 STR_Hankyu_6300_8Car_NAME                              :[DTS/8Car] Hankyu 6300
+STR_Group_Hankyu_7000_NAME                             :[DTS] Hankyu 7000
+STR_Hankyu_7000_2Car_NAME                              :[DTS/2Car] Hankyu 7000
+STR_Hankyu_7000_4Car_NAME                              :[DTS/4Car] Hankyu 7000
+STR_Hankyu_7000_6Car_NAME                              :[DTS/6Car] Hankyu 7000
+STR_Hankyu_7000_8Car_NAME                              :[DTS/8Car] Hankyu 7000
 STR_Group_Hankyu_8000_NAME                             :[DTS] Hankyu 8000
 STR_Hankyu_8000_2Car_NAME                              :[DTS/2Car] Hankyu 8000
 STR_Hankyu_8000_8Car_NAME                              :[DTS/8Car] Hankyu 8000
@@ -933,6 +939,24 @@ STR_REFIT_LIVERY_Nishitetsu_5000_MG                    : Nishitetsu 5000 series 
 STR_REFIT_LIVERY_Nishitetsu_5000_SIV                   : Nishitetsu 5000 series SIV
 STR_REFIT_LIVERY_Nishitetsu_7000                       : Nishitetsu 7000
 STR_REFIT_LIVERY_Nishitetsu_7050                       : Nishitetsu 7050
+STR_REFIT_LIVERY_Hankyu_6000                           : Old
+STR_REFIT_LIVERY_Hankyu_6000_6Car_A                    : Old 6Car A
+STR_REFIT_LIVERY_Hankyu_6000_6Car_B                    : Old 6Car B
+STR_REFIT_LIVERY_Hankyu_6000_1993                      : Old 1993
+STR_REFIT_LIVERY_Hankyu_6000_1993_6Car_A               : Old 1993 6Car A
+STR_REFIT_LIVERY_Hankyu_6000_1993_6Car_B               : Old 1993 6Car B
+STR_REFIT_LIVERY_Hankyu_6000_1998_A                    : New A
+STR_REFIT_LIVERY_Hankyu_6000_1998_B                    : New B
+STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_A               : New 1998 6Car A
+STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_B               : New 1998 6Car B
+STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_C               : New 1998 6Car C
+STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_D               : New 1998 6Car D
+STR_REFIT_LIVERY_Hankyu_7000                           : orginal
+STR_REFIT_LIVERY_Hankyu_7000_1984                      : 1984
+STR_REFIT_LIVERY_Hankyu_7000_1998                      : 1998
+STR_REFIT_LIVERY_Hankyu_7000_2009                      : 2009
+STR_REFIT_LIVERY_Hankyu_7000_2011                      : 2011
+STR_REFIT_LIVERY_Hankyu_7000_2016                      : 2016
 STR_REFIT_LIVERY_Hankyu_8000_Long_Seat                 : Hankyu 8000 Long Seat
 STR_REFIT_LIVERY_Hankyu_8000_Cross_Seat                : Hankyu 8000 Cross Seat
 STR_REFIT_LIVERY_Hankyu_8300_Long_Seat                 : Hankyu 8300 Long Seat

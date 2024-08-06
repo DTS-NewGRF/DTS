@@ -1,107 +1,15 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 2량
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_2car, position_in_vehid_chain % 2) {
-    1:set_Hankyu_6000_engineT;
-    set_Hankyu_6000_engineH; //default
-    }
+// 도색
+#include "Hankyu_6000_switch_Year.pnml"
 
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_2car_r, position_in_vehid_chain % 2) {
-    1:set_Hankyu_6000_engineH_r;
-    set_Hankyu_6000_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_2car_flipped, vehicle_is_flipped){
-    0: sw_Hankyu_6000_2car_r;
-    sw_Hankyu_6000_2car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_Hankyu_6000_2car_reversed, vehicle_is_reversed){
-    0: sw_Hankyu_6000_2car;
-    sw_Hankyu_6000_2car_flipped;
-}
-
-// 3량
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_3car, position_in_vehid_chain % 3) {
-    1:set_Hankyu_6000_wagon;
-    2:set_Hankyu_6000_engineT;
-    set_Hankyu_6000_engineH; //default
-    }
-
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_3car_r, position_in_vehid_chain % 3) {
-    1:set_Hankyu_6000_wagon_r;
-    2:set_Hankyu_6000_engineH_r;
-    set_Hankyu_6000_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_3car_flipped, vehicle_is_flipped){
-    0: sw_Hankyu_6000_3car_r;
-    sw_Hankyu_6000_3car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_Hankyu_6000_3car_reversed, vehicle_is_reversed){
-    0: sw_Hankyu_6000_3car;
-    sw_Hankyu_6000_3car_flipped;
-}
-
-// 4량
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_4car, position_in_vehid_chain % 4) {
-    1:set_Hankyu_6000_wagon;
-    2:set_Hankyu_6000_wagon;
-    3:set_Hankyu_6000_engineT;
-    set_Hankyu_6000_engineH; //default
-    }
-
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_4car_r, position_in_vehid_chain % 4) {
-    1:set_Hankyu_6000_wagon_r;
-    2:set_Hankyu_6000_wagon_r;
-    3:set_Hankyu_6000_engineH_r;
-    set_Hankyu_6000_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_4car_flipped, vehicle_is_flipped){
-    0: sw_Hankyu_6000_4car_r;
-    sw_Hankyu_6000_4car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_Hankyu_6000_4car_reversed, vehicle_is_reversed){
-    0: sw_Hankyu_6000_4car;
-    sw_Hankyu_6000_4car_flipped;
-}
-
-// 8량
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car, position_in_vehid_chain % 8) {
-    1:set_Hankyu_6000_wagon;
-    2:set_Hankyu_6000_panto_wagon;
-    3:set_Hankyu_6000_wagon;
-    4:set_Hankyu_6000_wagon;
-    5:set_Hankyu_6000_panto_wagon;
-    6:set_Hankyu_6000_wagon;
-    7:set_Hankyu_6000_engineT;
-    set_Hankyu_6000_engineH; //default
-    }
-
-switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_r, position_in_vehid_chain % 8) {
-    1:set_Hankyu_6000_wagon_r;
-    2:set_Hankyu_6000_panto_wagon_r;
-    3:set_Hankyu_6000_wagon_r;
-    4:set_Hankyu_6000_wagon_r;
-    5:set_Hankyu_6000_panto_wagon_r;
-    6:set_Hankyu_6000_wagon_r;
-    7:set_Hankyu_6000_engineH_r;
-    set_Hankyu_6000_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_flipped, vehicle_is_flipped){
-    0: sw_Hankyu_6000_8car_r;
-    sw_Hankyu_6000_8car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_Hankyu_6000_8car_reversed, vehicle_is_reversed){
-    0: sw_Hankyu_6000_8car;
-    sw_Hankyu_6000_8car_flipped;
-}
+// 열차
+#include "Hankyu_6000_switch_2Car_wagon.pnml"
+#include "Hankyu_6000_switch_3Car_wagon.pnml"
+#include "Hankyu_6000_switch_4Car_wagon.pnml"
+#include "Hankyu_6000_switch_6Car_wagon.pnml"
+#include "Hankyu_6000_switch_8Car_wagon.pnml"
 
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6000_2car, extra_callback_info1) {
@@ -116,6 +24,11 @@ switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6000_3car, extra_callback_info1
 
 switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6000_4car, extra_callback_info1) {
     1..3: Hankyu_6000_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Hankyu_6000_6car, extra_callback_info1) {
+    1..5: Hankyu_6000_6Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
 

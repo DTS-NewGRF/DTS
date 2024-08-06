@@ -50,6 +50,9 @@
 ### FEL8500Start.wav
 - 8500호대 전기기관차
 
+### Filed_Chopper_Control.wav
+- 한큐 7000형 Chopper
+
 ### GECCHOPPERstart.wav
 - 서울교통공사 2000호대 GEC초퍼 전동차
 - 서울교통공사 광폭형 초퍼 전동차
@@ -208,6 +211,7 @@
 - 부산교통공사 3세대 1000호대
 - 서울교통공사 5세대 7000호대, 4000호대
 - 서울교통공사 6세대 7000호대
+- 한큐 7000형 VVVF
 
 ### TOSHIBASicStart.wav
 - 니시테츠 9000형

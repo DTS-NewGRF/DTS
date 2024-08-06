@@ -462,7 +462,13 @@
 |2443|PEX_Super_B|
 |2444|PEX_Super_S|
 |2445|Hankyu_8200_2Car|
-|2445~2999|공백|
+|2446|Hankyu_6000_6Car|
+|2447|[그룹명] Hankyu_7000|
+|2448|Hankyu_7000_2Car|
+|2449|Hankyu_7000_4Car|
+|2450|Hankyu_7000_6Car|
+|2451|Hankyu_7000_8Car|
+|2452~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

@@ -1,46 +1,46 @@
 /*--------------------------------------------------------------------
-한큐전철 6000형
+한큐전철 7000형
 --------------------------------------------------------------------*/
 // Graphics
-#include "Hankyu_6000_graphic.pnml"
+#include "Hankyu_7000_graphic.pnml"
 
 // Switch
-#include "Hankyu_6000_switch.pnml"
+#include "Hankyu_7000_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Hankyu_6000, 2188){
+item(FEAT_TRAINS, Hankyu_7000, 2447){
     property {
-        name:                           string(STR_Group_Hankyu_6000_NAME);
+        name:                           string(STR_Group_Hankyu_7000_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        power:                          1080 kW;
+        power:                          600 kW;
         }
 
     graphics {
-        purchase:                       sw_Hankyu_6000_purchase;
+        purchase:                       sw_Hankyu_7000_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 2량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Hankyu_6000_2Car, 2169){
+item(FEAT_TRAINS, Hankyu_7000_2Car, 2448){
     property {
-        name:                           string(STR_Hankyu_6000_2Car_NAME);
+        name:                           string(STR_Hankyu_7000_2Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1976, 1, 1);
+        introduction_date:              date(1983, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Hankyu_6000;
+        variant_group:                  Hankyu_7000;
         
         //spec
-        speed:                          120km/h;
-        power:                          1080 kW;
+        speed:                          115km/h;
+        power:                          600 kW;
         weight:                         29 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -52,7 +52,7 @@ item(FEAT_TRAINS, Hankyu_6000_2Car, 2169){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 150;
+        cargo_capacity:                 140;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -68,89 +68,34 @@ item(FEAT_TRAINS, Hankyu_6000_2Car, 2169){
         }
 
         graphics {
-        default:                        sw_Hankyu_6000_2car_wagon;
-        articulated_part:               sw_articulated_Hankyu_6000_2car;
-        purchase:                       sw_Hankyu_6000_purchase;
-        speed:                          sw_Hankyu_6000_speed;
+        default:                        sw_Hankyu_7000_2car_wagon;
+        articulated_part:               sw_articulated_Hankyu_7000_2car;
+        purchase:                       sw_Hankyu_7000_purchase;
+        speed:                          sw_Hankyu_7000_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Hankyu_6000_cargo_subtype_text;
-        sound_effect:                   sw_Hankyu_6000_sound;
-        }
-        }
-
-/*--------------------------------------------------------------------
-열차정보 3량
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, Hankyu_6000_3Car, 2170){
-    property {
-        name:                           string(STR_Hankyu_6000_3Car_NAME);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1998, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Hankyu_6000;
-        
-        //spec
-        speed:                          120km/h;
-        power:                          1080 kW;
-        weight:                         29 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 150;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
-        extra_weight_per_wagon:         35 ton;
-        }
-
-        graphics {
-        default:                        sw_Hankyu_6000_3car_1998_reversed;
-        articulated_part:               sw_articulated_Hankyu_6000_3car;
-        purchase:                       sw_Hankyu_6000_purchase;
-        speed:                          sw_Hankyu_6000_speed;
-        loading_speed:                  25;
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        cargo_subtype_text:             sw_Hankyu_6000_3Car_cargo_subtype_text;
-        sound_effect:                   sw_Hankyu_6000_sound;
+        cargo_subtype_text:             sw_Hankyu_7000_cargo_subtype_text;
+        sound_effect:                   sw_Hankyu_7000_Chopper_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 4량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Hankyu_6000_4Car, 2171){
+item(FEAT_TRAINS, Hankyu_7000_4Car, 2449){
     property {
-        name:                           string(STR_Hankyu_6000_4Car_NAME);
+        name:                           string(STR_Hankyu_7000_4Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1980, 1, 1);
+        introduction_date:              date(1987, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Hankyu_6000;
+        variant_group:                  Hankyu_7000;
         
         //spec
-        speed:                          120km/h;
-        power:                          1080 kW;
+        speed:                          115km/h;
+        power:                          1200 kW;
         weight:                         29 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -162,7 +107,7 @@ item(FEAT_TRAINS, Hankyu_6000_4Car, 2171){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 150;
+        cargo_capacity:                 145;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -178,34 +123,34 @@ item(FEAT_TRAINS, Hankyu_6000_4Car, 2171){
         }
 
         graphics {
-        default:                        sw_Hankyu_6000_4car_wagon;
-        articulated_part:               sw_articulated_Hankyu_6000_4car;
-        purchase:                       sw_Hankyu_6000_purchase;
-        speed:                          sw_Hankyu_6000_speed;
+        default:                        sw_Hankyu_7000_4car_wagon;
+        articulated_part:               sw_articulated_Hankyu_7000_4car;
+        purchase:                       sw_Hankyu_7000_purchase;
+        speed:                          sw_Hankyu_7000_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Hankyu_6000_cargo_subtype_text;
-        sound_effect:                   sw_Hankyu_6000_sound;
+        cargo_subtype_text:             sw_Hankyu_7000_cargo_subtype_text;
+        sound_effect:                   sw_Hankyu_7000_Chopper_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Hankyu_6000_6Car, 2446){
+item(FEAT_TRAINS, Hankyu_7000_6Car, 2450){
     property {
-        name:                           string(STR_Hankyu_6000_6Car_NAME);
+        name:                           string(STR_Hankyu_7000_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1976, 1, 1);
+        introduction_date:              date(1981, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Hankyu_6000;
+        variant_group:                  Hankyu_7000;
         
         //spec
-        speed:                          120km/h;
-        power:                          1080 kW;
+        speed:                          115km/h;
+        power:                          2400 kW;
         weight:                         29 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -217,7 +162,7 @@ item(FEAT_TRAINS, Hankyu_6000_6Car, 2446){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 150;
+        cargo_capacity:                 147;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -233,34 +178,34 @@ item(FEAT_TRAINS, Hankyu_6000_6Car, 2446){
         }
 
         graphics {
-        default:                        sw_Hankyu_6000_6car_wagon;
-        articulated_part:               sw_articulated_Hankyu_6000_6car;
-        purchase:                       sw_Hankyu_6000_purchase;
-        speed:                          sw_Hankyu_6000_speed;
+        default:                        sw_Hankyu_7000_6car_wagon;
+        articulated_part:               sw_articulated_Hankyu_7000_6car;
+        purchase:                       sw_Hankyu_7000_purchase;
+        speed:                          sw_Hankyu_7000_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Hankyu_6000_6Car_cargo_subtype_text;
-        sound_effect:                   sw_Hankyu_6000_sound;
+        cargo_subtype_text:             sw_Hankyu_7000_cargo_subtype_text;
+        sound_effect:                   sw_Hankyu_7000_Chopper_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 8량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Hankyu_6000_8Car, 2172){
+item(FEAT_TRAINS, Hankyu_7000_8Car, 2451){
     property {
-        name:                           string(STR_Hankyu_6000_8Car_NAME);
+        name:                           string(STR_Hankyu_7000_8Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1976, 1, 1);
+        introduction_date:              date(1980, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Hankyu_6000;
+        variant_group:                  Hankyu_7000;
         
         //spec
-        speed:                          120km/h;
-        power:                          1080 kW;
+        speed:                          115km/h;
+        power:                          2400 kW;
         weight:                         29 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -272,7 +217,7 @@ item(FEAT_TRAINS, Hankyu_6000_8Car, 2172){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 150;
+        cargo_capacity:                 148;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -288,14 +233,15 @@ item(FEAT_TRAINS, Hankyu_6000_8Car, 2172){
         }
 
         graphics {
-        default:                        sw_Hankyu_6000_8car_wagon;
-        articulated_part:               sw_articulated_Hankyu_6000_8car;
-        purchase:                       sw_Hankyu_6000_purchase;
-        speed:                          sw_Hankyu_6000_speed;
+        default:                        sw_Hankyu_7000_8car_wagon;
+        articulated_part:               sw_articulated_Hankyu_7000_8car;
+        purchase:                       sw_Hankyu_7000_purchase;
+        speed:                          sw_Hankyu_7000_speed;
+        power:                          sw_Hankyu_7000_8Car_power_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Hankyu_6000_cargo_subtype_text;
-        sound_effect:                   sw_Hankyu_6000_sound;
+        cargo_subtype_text:             sw_Hankyu_7000_8Car_cargo_subtype_text;
+        sound_effect:                   sw_Hankyu_7000_8Car_sound;
         }
         }

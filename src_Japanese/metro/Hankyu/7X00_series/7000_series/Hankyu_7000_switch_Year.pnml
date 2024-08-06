@@ -1,0 +1,92 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+// 2, 4, 6량
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_1981_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7000);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_1998_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7000);
+    1: return string(STR_REFIT_LIVERY_Hankyu_7000_1998);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_2009_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7000);
+    1: return string(STR_REFIT_LIVERY_Hankyu_7000_1998);
+    2: return string(STR_REFIT_LIVERY_Hankyu_7000_2009);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_2011_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7000);
+    1: return string(STR_REFIT_LIVERY_Hankyu_7000_1998);
+    2: return string(STR_REFIT_LIVERY_Hankyu_7000_2009);
+    3: return string(STR_REFIT_LIVERY_Hankyu_7000_2011);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_cargo_subtype_text, current_year) {
+    0..1997: sw_Hankyu_7000_1981_cargo_subtype_text;
+    1998..2008: sw_Hankyu_7000_1998_cargo_subtype_text;
+    2009..2010: sw_Hankyu_7000_2009_cargo_subtype_text;
+    sw_Hankyu_7000_2011_cargo_subtype_text;
+    }
+
+// 8량
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_1980_8Car_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7000);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_1984_8Car_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7000);
+    1: return string(STR_REFIT_LIVERY_Hankyu_7000_1984);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_1998_8Car_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7000);
+    1: return string(STR_REFIT_LIVERY_Hankyu_7000_1984);
+    2: return string(STR_REFIT_LIVERY_Hankyu_7000_1998);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_2009_8Car_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7000);
+    1: return string(STR_REFIT_LIVERY_Hankyu_7000_1984);
+    2: return string(STR_REFIT_LIVERY_Hankyu_7000_1998);
+    3: return string(STR_REFIT_LIVERY_Hankyu_7000_2009);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_2011_8Car_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7000);
+    1: return string(STR_REFIT_LIVERY_Hankyu_7000_1984);
+    2: return string(STR_REFIT_LIVERY_Hankyu_7000_1998);
+    3: return string(STR_REFIT_LIVERY_Hankyu_7000_2009);
+    4: return string(STR_REFIT_LIVERY_Hankyu_7000_2011);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_2016_8Car_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7000);
+    1: return string(STR_REFIT_LIVERY_Hankyu_7000_1984);
+    2: return string(STR_REFIT_LIVERY_Hankyu_7000_1998);
+    3: return string(STR_REFIT_LIVERY_Hankyu_7000_2009);
+    4: return string(STR_REFIT_LIVERY_Hankyu_7000_2011);
+    5: return string(STR_REFIT_LIVERY_Hankyu_7000_2016);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_8Car_cargo_subtype_text, current_year) {
+    0..1983: sw_Hankyu_7000_1980_8Car_cargo_subtype_text;
+    1984..1997: sw_Hankyu_7000_1984_8Car_cargo_subtype_text;
+    1998..2008: sw_Hankyu_7000_1998_8Car_cargo_subtype_text;
+    2009..2010: sw_Hankyu_7000_2009_8Car_cargo_subtype_text;
+    2011..2015: sw_Hankyu_7000_2011_8Car_cargo_subtype_text;
+    sw_Hankyu_7000_2016_8Car_cargo_subtype_text;
+    }

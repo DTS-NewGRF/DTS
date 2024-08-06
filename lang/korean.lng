@@ -391,10 +391,16 @@ STR_Group_Hankyu_6000_NAME                             :[DTS] 한큐전철 6000�
 STR_Hankyu_6000_2Car_NAME                              :[DTS/2량] 한큐전철 6000형
 STR_Hankyu_6000_3Car_NAME                              :[DTS/3량] 한큐전철 6000형
 STR_Hankyu_6000_4Car_NAME                              :[DTS/4량] 한큐전철 6000형
+STR_Hankyu_6000_6Car_NAME                              :[DTS/6량] 한큐전철 6000형
 STR_Hankyu_6000_8Car_NAME                              :[DTS/8량] 한큐전철 6000형
 STR_Group_Hankyu_6300_NAME                             :[DTS] 한큐전철 6300형
 STR_Hankyu_6300_4Car_NAME                              :[DTS/4량] 한큐전철 6300형
 STR_Hankyu_6300_8Car_NAME                              :[DTS/8량] 한큐전철 6300형
+STR_Group_Hankyu_7000_NAME                             :[DTS] 한큐전철 7000형
+STR_Hankyu_7000_2Car_NAME                              :[DTS/2량] 한큐전철 7000형
+STR_Hankyu_7000_4Car_NAME                              :[DTS/4량] 한큐전철 7000형
+STR_Hankyu_7000_6Car_NAME                              :[DTS/6량] 한큐전철 7000형
+STR_Hankyu_7000_8Car_NAME                              :[DTS/8량] 한큐전철 7000형
 STR_Group_Hankyu_8000_NAME                             :[DTS] 한큐전철 8000형
 STR_Hankyu_8000_2Car_NAME                              :[DTS/2량] 한큐전철 8000형
 STR_Hankyu_8000_8Car_NAME                              :[DTS/8량] 한큐전철 8000형
@@ -929,6 +935,24 @@ STR_REFIT_LIVERY_Nishitetsu_5000_MG                    : 니시테츠 5000형 �
 STR_REFIT_LIVERY_Nishitetsu_5000_SIV                   : 니시테츠 5000형 정지형 인버터
 STR_REFIT_LIVERY_Nishitetsu_7000                       : 니시테츠 7000형
 STR_REFIT_LIVERY_Nishitetsu_7050                       : 니시테츠 7050형
+STR_REFIT_LIVERY_Hankyu_6000                           : 구도색
+STR_REFIT_LIVERY_Hankyu_6000_6Car_A                    : 고베
+STR_REFIT_LIVERY_Hankyu_6000_6Car_B                    : 다카라즈카
+STR_REFIT_LIVERY_Hankyu_6000_1993                      : 구도색 쪽창개조
+STR_REFIT_LIVERY_Hankyu_6000_1993_6Car_A               : 고베 1993
+STR_REFIT_LIVERY_Hankyu_6000_1993_6Car_B               : 다카라즈카 1993
+STR_REFIT_LIVERY_Hankyu_6000_1998_A                    : 현도색
+STR_REFIT_LIVERY_Hankyu_6000_1998_B                    : 현도색 쪽창개조
+STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_A               : 고베 1998
+STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_B               : 고베 1998 쪽창개조
+STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_C               : 다카라즈카 1998
+STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_D               : 다카라즈카 1998 쪽창개조
+STR_REFIT_LIVERY_Hankyu_7000                           : 기본도색 (초퍼)
+STR_REFIT_LIVERY_Hankyu_7000_1984                      : 1984 (초퍼)
+STR_REFIT_LIVERY_Hankyu_7000_1998                      : 1998 (초퍼)
+STR_REFIT_LIVERY_Hankyu_7000_2009                      : 2009 (초퍼)
+STR_REFIT_LIVERY_Hankyu_7000_2011                      : 2011 (초퍼)
+STR_REFIT_LIVERY_Hankyu_7000_2016                      : 2016 (VVVF)
 STR_REFIT_LIVERY_Hankyu_8000_Long_Seat                 : 한큐 8000형 롱 시트
 STR_REFIT_LIVERY_Hankyu_8000_Cross_Seat                : 한큐 8000형 크로스 시트
 STR_REFIT_LIVERY_Hankyu_8300_Long_Seat                 : 한큐 8300형 롱 시트

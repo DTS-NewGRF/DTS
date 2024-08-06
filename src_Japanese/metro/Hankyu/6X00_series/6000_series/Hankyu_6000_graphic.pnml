@@ -37,12 +37,141 @@ spriteset(set_Hankyu_6000_engineT, "src_Japanese/metro/Hankyu/6X00_series/6000_s
 }
 
 /*--------------------------------------------------------------------
+한큐전철 6000형 1993
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_6000_1993_engineH, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Hankyu_6000_1993_engineH_r, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Hankyu_6000_1993_wagon, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Hankyu_6000_1993_wagon_r, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Hankyu_6000_1993_panto_wagon, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Hankyu_6000_1993_panto_wagon_r, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Hankyu_6000_1993_engineT_r, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Hankyu_6000_1993_engineT, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+한큐전철 6000형 1998 미개조
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_6000_1998_A_engineH, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Hankyu_6000_1998_A_engineH_r, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Hankyu_6000_1998_A_wagon, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Hankyu_6000_1998_A_wagon_r, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Hankyu_6000_1998_A_panto_wagon, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Hankyu_6000_1998_A_panto_wagon_r, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Hankyu_6000_1998_A_engineT_r, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Hankyu_6000_1998_A_engineT, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_A.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+한큐전철 6000형 1998 쪽창개조
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_6000_1998_B_engineH, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Hankyu_6000_1998_B_engineH_r, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Hankyu_6000_1998_B_wagon, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Hankyu_6000_1998_B_wagon_r, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Hankyu_6000_1998_B_panto_wagon, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Hankyu_6000_1998_B_panto_wagon_r, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Hankyu_6000_1998_B_engineT_r, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Hankyu_6000_1998_B_engineT, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
+// 구매차량 그래픽
 spriteset(set_Hankyu_6000_purchase, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000.png"){
     tmpl_purchase(0, 0)
 }
 
-switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_purchase, cargo_subtype) {
+spriteset(set_Hankyu_6000_1993_purchase, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1993.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Hankyu_6000_1998_purchase, "src_Japanese/metro/Hankyu/6X00_series/6000_series/Hankyu_6000_1998_B.png"){
+    tmpl_purchase(0, 0)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_1976_purchase, cargo_subtype) {
     set_Hankyu_6000_purchase;
 }
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_1993_purchase, cargo_subtype) {
+    set_Hankyu_6000_1993_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_1998_purchase, cargo_subtype) {
+    set_Hankyu_6000_1998_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_purchase, current_year) {
+    0..1992: sw_Hankyu_6000_1976_purchase;
+    1993..1997: sw_Hankyu_6000_1993_purchase;
+    sw_Hankyu_6000_1998_purchase;
+    }

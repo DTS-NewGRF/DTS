@@ -1,0 +1,58 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 열차
+// 3량
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_3car_1998_engineH, cargo_subtype) {
+    1: set_Hankyu_6000_1998_B_engineH;
+    set_Hankyu_6000_1998_A_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_3car_1998_wagon, cargo_subtype) {
+    1: set_Hankyu_6000_1998_B_wagon;
+    set_Hankyu_6000_1998_A_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_3car_1998_engineT, cargo_subtype) {
+    1: set_Hankyu_6000_1998_B_engineT;
+    set_Hankyu_6000_1998_A_engineT;
+}
+
+// 3량 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_3car_1998_engineH_r, cargo_subtype) {
+    1: set_Hankyu_6000_1998_B_engineH_r;
+    set_Hankyu_6000_1998_A_engineH_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_3car_1998_wagon_r, cargo_subtype) {
+    1: set_Hankyu_6000_1998_B_wagon_r;
+    set_Hankyu_6000_1998_A_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_3car_1998_engineT_r, cargo_subtype) {
+    1: set_Hankyu_6000_1998_B_engineT_r;
+    set_Hankyu_6000_1998_A_engineT_r;
+}
+
+// 3량
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_3car_1998, position_in_vehid_chain % 3) {
+    1:sw_Hankyu_6000_3car_1998_wagon;
+    2:sw_Hankyu_6000_3car_1998_engineT;
+    sw_Hankyu_6000_3car_1998_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_3car_1998_r, position_in_vehid_chain % 3) {
+    1:sw_Hankyu_6000_3car_1998_wagon_r;
+    2:sw_Hankyu_6000_3car_1998_engineH_r;
+    sw_Hankyu_6000_3car_1998_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_3car_1998_flipped, vehicle_is_flipped){
+    0: sw_Hankyu_6000_3car_1998_r;
+    sw_Hankyu_6000_3car_1998;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Hankyu_6000_3car_1998_reversed, vehicle_is_reversed){
+    0: sw_Hankyu_6000_3car_1998;
+    sw_Hankyu_6000_3car_1998_flipped;
+}

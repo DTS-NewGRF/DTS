@@ -1,0 +1,207 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 열차
+// 8량
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1993_engineH, cargo_subtype) {
+    1: set_Hankyu_6000_1993_engineH;
+    set_Hankyu_6000_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1993_wagon, cargo_subtype) {
+    1: set_Hankyu_6000_1993_wagon;
+    set_Hankyu_6000_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1993_panto_wagon, cargo_subtype) {
+    1: set_Hankyu_6000_1993_panto_wagon;
+    set_Hankyu_6000_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1993_engineT, cargo_subtype) {
+    1: set_Hankyu_6000_1993_engineT;
+    set_Hankyu_6000_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1998_engineH, cargo_subtype) {
+    1: set_Hankyu_6000_1993_engineH;
+    2: set_Hankyu_6000_1998_A_engineH;
+    3: set_Hankyu_6000_1998_B_engineH;
+    set_Hankyu_6000_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1998_wagon, cargo_subtype) {
+    1: set_Hankyu_6000_1993_wagon;
+    2: set_Hankyu_6000_1998_A_wagon;
+    3: set_Hankyu_6000_1998_B_wagon;
+    set_Hankyu_6000_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1998_panto_wagon, cargo_subtype) {
+    1: set_Hankyu_6000_1993_panto_wagon;
+    2: set_Hankyu_6000_1998_A_panto_wagon;
+    3: set_Hankyu_6000_1998_B_panto_wagon;
+    set_Hankyu_6000_panto_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1998_engineT, cargo_subtype) {
+    1: set_Hankyu_6000_1993_engineT;
+    2: set_Hankyu_6000_1998_A_engineT;
+    3: set_Hankyu_6000_1998_B_engineT;  
+    set_Hankyu_6000_engineT;
+}
+
+// 8량 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1993_engineH_r, cargo_subtype) {
+    1: set_Hankyu_6000_1993_engineH_r;
+    set_Hankyu_6000_engineH_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1993_wagon_r, cargo_subtype) {
+    1: set_Hankyu_6000_1993_wagon_r;
+    set_Hankyu_6000_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1993_panto_wagon_r, cargo_subtype) {
+    1: set_Hankyu_6000_1993_panto_wagon_r;
+    set_Hankyu_6000_panto_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1993_engineT_r, cargo_subtype) {
+    1: set_Hankyu_6000_1993_engineT_r;
+    set_Hankyu_6000_engineT_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1998_engineH_r, cargo_subtype) {
+    1: set_Hankyu_6000_1993_engineH_r;
+    2: set_Hankyu_6000_1998_A_engineH_r;
+    3: set_Hankyu_6000_1998_B_engineH_r;
+    set_Hankyu_6000_engineH_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1998_wagon_r, cargo_subtype) {
+    1: set_Hankyu_6000_1993_wagon_r;
+    2: set_Hankyu_6000_1998_A_wagon_r;
+    3: set_Hankyu_6000_1998_B_wagon_r;
+    set_Hankyu_6000_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1998_panto_wagon_r, cargo_subtype) {
+    1: set_Hankyu_6000_1993_panto_wagon_r;
+    2: set_Hankyu_6000_1998_A_panto_wagon_r;
+    3: set_Hankyu_6000_1998_B_panto_wagon_r;
+    set_Hankyu_6000_panto_wagon_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1998_engineT_r, cargo_subtype) {
+    1: set_Hankyu_6000_1993_engineT_r;
+    2: set_Hankyu_6000_1998_A_engineT_r;
+    3: set_Hankyu_6000_1998_B_engineT_r;
+    set_Hankyu_6000_engineT_r;
+}
+
+// 8량 1976
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1976, position_in_vehid_chain % 8) {
+    1:set_Hankyu_6000_wagon;
+    2:set_Hankyu_6000_panto_wagon;
+    3:set_Hankyu_6000_wagon;
+    4:set_Hankyu_6000_wagon;
+    5:set_Hankyu_6000_panto_wagon;
+    6:set_Hankyu_6000_wagon;
+    7:set_Hankyu_6000_engineT;
+    set_Hankyu_6000_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1976_r, position_in_vehid_chain % 8) {
+    1:set_Hankyu_6000_wagon_r;
+    2:set_Hankyu_6000_panto_wagon_r;
+    3:set_Hankyu_6000_wagon_r;
+    4:set_Hankyu_6000_wagon_r;
+    5:set_Hankyu_6000_panto_wagon_r;
+    6:set_Hankyu_6000_wagon_r;
+    7:set_Hankyu_6000_engineH_r;
+    set_Hankyu_6000_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1976_flipped, vehicle_is_flipped){
+    0: sw_Hankyu_6000_8car_1976_r;
+    sw_Hankyu_6000_8car_1976;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Hankyu_6000_8car_1976_reversed, vehicle_is_reversed){
+    0: sw_Hankyu_6000_8car_1976;
+    sw_Hankyu_6000_8car_1976_flipped;
+}
+
+// 8량 1993
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1993, position_in_vehid_chain % 8) {
+    1:sw_Hankyu_6000_8car_1993_wagon;
+    2:sw_Hankyu_6000_8car_1993_panto_wagon;
+    3:sw_Hankyu_6000_8car_1993_wagon;
+    4:sw_Hankyu_6000_8car_1993_wagon;
+    5:sw_Hankyu_6000_8car_1993_panto_wagon;
+    6:sw_Hankyu_6000_8car_1993_wagon;
+    7:sw_Hankyu_6000_8car_1993_engineT;
+    sw_Hankyu_6000_8car_1993_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1993_r, position_in_vehid_chain % 8) {
+    1:sw_Hankyu_6000_8car_1993_wagon_r;
+    2:sw_Hankyu_6000_8car_1993_panto_wagon_r;
+    3:sw_Hankyu_6000_8car_1993_wagon_r;
+    4:sw_Hankyu_6000_8car_1993_wagon_r;
+    5:sw_Hankyu_6000_8car_1993_panto_wagon_r;
+    6:sw_Hankyu_6000_8car_1993_wagon_r;
+    7:sw_Hankyu_6000_8car_1993_engineH_r;
+    sw_Hankyu_6000_8car_1993_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1993_flipped, vehicle_is_flipped){
+    0: sw_Hankyu_6000_8car_1993_r;
+    sw_Hankyu_6000_8car_1993;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Hankyu_6000_8car_1993_reversed, vehicle_is_reversed){
+    0: sw_Hankyu_6000_8car_1993;
+    sw_Hankyu_6000_8car_1993_flipped;
+}
+
+// 8량 1998
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1998, position_in_vehid_chain % 8) {
+    1:sw_Hankyu_6000_8car_1998_wagon;
+    2:sw_Hankyu_6000_8car_1998_panto_wagon;
+    3:sw_Hankyu_6000_8car_1998_wagon;
+    4:sw_Hankyu_6000_8car_1998_wagon;
+    5:sw_Hankyu_6000_8car_1998_panto_wagon;
+    6:sw_Hankyu_6000_8car_1998_wagon;
+    7:sw_Hankyu_6000_8car_1998_engineT;
+    sw_Hankyu_6000_8car_1998_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1998_r, position_in_vehid_chain % 8) {
+    1:sw_Hankyu_6000_8car_1998_wagon_r;
+    2:sw_Hankyu_6000_8car_1998_panto_wagon_r;
+    3:sw_Hankyu_6000_8car_1998_wagon_r;
+    4:sw_Hankyu_6000_8car_1998_wagon_r;
+    5:sw_Hankyu_6000_8car_1998_panto_wagon_r;
+    6:sw_Hankyu_6000_8car_1998_wagon_r;
+    7:sw_Hankyu_6000_8car_1998_engineH_r;
+    sw_Hankyu_6000_8car_1998_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_1998_flipped, vehicle_is_flipped){
+    0: sw_Hankyu_6000_8car_1998_r;
+    sw_Hankyu_6000_8car_1998;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_Hankyu_6000_8car_1998_reversed, vehicle_is_reversed){
+    0: sw_Hankyu_6000_8car_1998;
+    sw_Hankyu_6000_8car_1998_flipped;
+}
+
+// 8Car
+switch(FEAT_TRAINS, SELF, sw_Hankyu_6000_8car_wagon, current_year) {
+    0..1992: sw_Hankyu_6000_8car_1976_reversed;
+    1993..1997: sw_Hankyu_6000_8car_1993_reversed;
+    sw_Hankyu_6000_8car_1998_reversed;
+    }

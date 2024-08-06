@@ -26,6 +26,7 @@
 #include "metro/Hankyu/1X00_series/1300_series/Hankyu_1300.pnml"
 #include "metro/Hankyu/6X00_series/6000_series/Hankyu_6000.pnml"
 #include "metro/Hankyu/6X00_series/6300_series/Hankyu_6300.pnml"
+#include "metro/Hankyu/7X00_series/7000_series/Hankyu_7000.pnml"
 #include "metro/Hankyu/8X00_series/8000_series/Hankyu_8000.pnml"
 #include "metro/Hankyu/8X00_series/8200_series/Hankyu_8200.pnml"
 #include "metro/Hankyu/8X00_series/8300_series/Hankyu_8300.pnml"

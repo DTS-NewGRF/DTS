@@ -161,10 +161,16 @@ sort(FEAT_TRAINS, [
     Hankyu_6000_2Car,                        //2169
     Hankyu_6000_3Car,                        //2170
     Hankyu_6000_4Car,                        //2171
+    Hankyu_6000_6Car,                        //2446
     Hankyu_6000_8Car,                        //2172
     Hankyu_6300,                             //2189
     Hankyu_6300_4Car,                        //2179
     Hankyu_6300_8Car,                        //2180
+    Hankyu_7000,                             //2447
+    Hankyu_7000_2Car,                        //2448
+    Hankyu_7000_4Car,                        //2449
+    Hankyu_7000_6Car,                        //2450
+    Hankyu_7000_8Car,                        //2451
     Hankyu_8000,                             //2211
     Hankyu_8000_2Car,                        //2212
     Hankyu_8000_8Car,                        //2213
