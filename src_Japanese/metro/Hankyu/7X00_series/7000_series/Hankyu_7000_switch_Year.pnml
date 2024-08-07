@@ -14,25 +14,16 @@ switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_1998_cargo_subtype_text, cargo_subtype)
     return CB_RESULT_NO_TEXT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_2009_cargo_subtype_text, cargo_subtype) {
-    0: return string(STR_REFIT_LIVERY_Hankyu_7000);
-    1: return string(STR_REFIT_LIVERY_Hankyu_7000_1998);
-    2: return string(STR_REFIT_LIVERY_Hankyu_7000_2009);
-    return CB_RESULT_NO_TEXT;
-}
-
 switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_2011_cargo_subtype_text, cargo_subtype) {
     0: return string(STR_REFIT_LIVERY_Hankyu_7000);
     1: return string(STR_REFIT_LIVERY_Hankyu_7000_1998);
-    2: return string(STR_REFIT_LIVERY_Hankyu_7000_2009);
-    3: return string(STR_REFIT_LIVERY_Hankyu_7000_2011);
+    2: return string(STR_REFIT_LIVERY_Hankyu_7000_2011);
     return CB_RESULT_NO_TEXT;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_cargo_subtype_text, current_year) {
     0..1997: sw_Hankyu_7000_1981_cargo_subtype_text;
-    1998..2008: sw_Hankyu_7000_1998_cargo_subtype_text;
-    2009..2010: sw_Hankyu_7000_2009_cargo_subtype_text;
+    1998..2010: sw_Hankyu_7000_1998_cargo_subtype_text;
     sw_Hankyu_7000_2011_cargo_subtype_text;
     }
 

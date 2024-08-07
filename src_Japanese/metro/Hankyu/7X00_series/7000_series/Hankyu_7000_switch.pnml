@@ -68,7 +68,7 @@ switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_8Car_sound, current_year) {
 
 // 차량별 출력
 switch(FEAT_TRAINS, SELF, sw_Hankyu_7000_8Car_power_in_custom, cargo_subtype) {
-    5: return 4077; // 3040kw 마력<->킬로와트 변환
+    5: return 4077; // 3040kw 마력<->킬로와트 변환 (마력 = 킬로와트 X 1.341)
        3218; // 2400kw 마력<->킬로와트 변환
 }
 

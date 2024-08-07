@@ -1,0 +1,247 @@
+/*--------------------------------------------------------------------
+한큐전철 7300형
+--------------------------------------------------------------------*/
+// Graphics
+#include "Hankyu_7300_graphic.pnml"
+
+// Switch
+#include "Hankyu_7300_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Hankyu_7300, 2452){
+    property {
+        name:                           string(STR_Group_Hankyu_7300_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          600 kW;
+        }
+
+    graphics {
+        purchase:                       sw_Hankyu_7300_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 2량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Hankyu_7300_2Car, 2453){
+    property {
+        name:                           string(STR_Hankyu_7300_2Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1985, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Hankyu_7300;
+        
+        //spec
+        speed:                          115km/h;
+        power:                          600 kW;
+        weight:                         29 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 140;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+        graphics {
+        default:                        sw_Hankyu_7300_2car_wagon;
+        articulated_part:               sw_articulated_Hankyu_7300_2car;
+        purchase:                       sw_Hankyu_7300_purchase;
+        speed:                          sw_Hankyu_7300_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Hankyu_7300_cargo_subtype_text;
+        sound_effect:                   sw_Hankyu_7300_Chopper_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 6량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Hankyu_7300_6Car, 2454){
+    property {
+        name:                           string(STR_Hankyu_7300_6Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1987, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Hankyu_7300;
+        
+        //spec
+        speed:                          115km/h;
+        power:                          1200 kW;
+        weight:                         29 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 145;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+        graphics {
+        default:                        sw_Hankyu_7300_6car_wagon;
+        articulated_part:               sw_articulated_Hankyu_7300_6car;
+        purchase:                       sw_Hankyu_7300_purchase;
+        speed:                          sw_Hankyu_7300_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Hankyu_7300_cargo_subtype_text;
+        sound_effect:                   sw_Hankyu_7300_Chopper_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 7량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Hankyu_7300_7Car, 2455){
+    property {
+        name:                           string(STR_Hankyu_7300_7Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1981, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Hankyu_7300;
+        
+        //spec
+        speed:                          115km/h;
+        power:                          2400 kW;
+        weight:                         29 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 147;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+        graphics {
+        default:                        sw_Hankyu_7300_7car_wagon;
+        articulated_part:               sw_articulated_Hankyu_7300_7car;
+        purchase:                       sw_Hankyu_7300_purchase;
+        speed:                          sw_Hankyu_7300_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Hankyu_7300_cargo_subtype_text;
+        sound_effect:                   sw_Hankyu_7300_Chopper_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 8량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Hankyu_7300_8Car, 2456){
+    property {
+        name:                           string(STR_Hankyu_7300_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1980, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Hankyu_7300;
+        
+        //spec
+        speed:                          115km/h;
+        power:                          2400 kW;
+        weight:                         29 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 148;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+        graphics {
+        default:                        sw_Hankyu_7300_8car_wagon;
+        articulated_part:               sw_articulated_Hankyu_7300_8car;
+        purchase:                       sw_Hankyu_7300_purchase;
+        speed:                          sw_Hankyu_7300_speed;
+        power:                          sw_Hankyu_7300_8Car_power_in_custom;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Hankyu_7300_8Car_cargo_subtype_text;
+        sound_effect:                   sw_Hankyu_7300_8Car_sound;
+        }
+        }

@@ -52,6 +52,7 @@
 
 ### Filed_Chopper_Control.wav
 - 한큐 7000형 Chopper
+- 한큐 7300형 Chopper
 
 ### GECCHOPPERstart.wav
 - 서울교통공사 2000호대 GEC초퍼 전동차
@@ -227,6 +228,7 @@
 
 ### TOYODENKIIGBT2start.wav
 - 한큐 신1300형
+- 한큐 7300형 VVVF
 
 ### TOYODENKIIGBTStart.wav
 - 한큐 9300형

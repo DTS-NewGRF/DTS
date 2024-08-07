@@ -401,6 +401,11 @@ STR_Hankyu_7000_2Car_NAME                              :[DTS/2량] 한큐전철 
 STR_Hankyu_7000_4Car_NAME                              :[DTS/4량] 한큐전철 7000형
 STR_Hankyu_7000_6Car_NAME                              :[DTS/6량] 한큐전철 7000형
 STR_Hankyu_7000_8Car_NAME                              :[DTS/8량] 한큐전철 7000형
+STR_Group_Hankyu_7300_NAME                             :[DTS] 한큐전철 7300형
+STR_Hankyu_7300_2Car_NAME                              :[DTS/2량] 한큐전철 7300형
+STR_Hankyu_7300_6Car_NAME                              :[DTS/6량] 한큐전철 7300형
+STR_Hankyu_7300_7Car_NAME                              :[DTS/7량] 한큐전철 7300형
+STR_Hankyu_7300_8Car_NAME                              :[DTS/8량] 한큐전철 7300형
 STR_Group_Hankyu_8000_NAME                             :[DTS] 한큐전철 8000형
 STR_Hankyu_8000_2Car_NAME                              :[DTS/2량] 한큐전철 8000형
 STR_Hankyu_8000_8Car_NAME                              :[DTS/8량] 한큐전철 8000형
@@ -938,21 +943,26 @@ STR_REFIT_LIVERY_Nishitetsu_7050                       : 니시테츠 7050형
 STR_REFIT_LIVERY_Hankyu_6000                           : 구도색
 STR_REFIT_LIVERY_Hankyu_6000_6Car_A                    : 고베
 STR_REFIT_LIVERY_Hankyu_6000_6Car_B                    : 다카라즈카
-STR_REFIT_LIVERY_Hankyu_6000_1993                      : 구도색 쪽창개조
-STR_REFIT_LIVERY_Hankyu_6000_1993_6Car_A               : 고베 1993
-STR_REFIT_LIVERY_Hankyu_6000_1993_6Car_B               : 다카라즈카 1993
+STR_REFIT_LIVERY_Hankyu_6000_1993                      : 다카라즈카선 구도색
+STR_REFIT_LIVERY_Hankyu_6000_1993_6Car_A               : 고베선 구도색 쪽창개조
+STR_REFIT_LIVERY_Hankyu_6000_1993_6Car_B               : 다카라즈카 구도색 쪽창개조
 STR_REFIT_LIVERY_Hankyu_6000_1998_A                    : 현도색
 STR_REFIT_LIVERY_Hankyu_6000_1998_B                    : 현도색 쪽창개조
-STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_A               : 고베 1998
-STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_B               : 고베 1998 쪽창개조
-STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_C               : 다카라즈카 1998
-STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_D               : 다카라즈카 1998 쪽창개조
-STR_REFIT_LIVERY_Hankyu_7000                           : 기본도색 (초퍼)
-STR_REFIT_LIVERY_Hankyu_7000_1984                      : 1984 (초퍼)
-STR_REFIT_LIVERY_Hankyu_7000_1998                      : 1998 (초퍼)
-STR_REFIT_LIVERY_Hankyu_7000_2009                      : 2009 (초퍼)
-STR_REFIT_LIVERY_Hankyu_7000_2011                      : 2011 (초퍼)
-STR_REFIT_LIVERY_Hankyu_7000_2016                      : 2016 (VVVF)
+STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_A               : 고베선 현도색 미개조
+STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_B               : 고베선 현도색
+STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_C               : 다카라즈카선 현도색 미개조
+STR_REFIT_LIVERY_Hankyu_6000_1998_6Car_D               : 다카라즈카선 현도색
+STR_REFIT_LIVERY_Hankyu_7000                           : 구도색
+STR_REFIT_LIVERY_Hankyu_7000_1984                      : 구도색 재조정
+STR_REFIT_LIVERY_Hankyu_7000_1998                      : 현 도색 미개조
+STR_REFIT_LIVERY_Hankyu_7000_2009                      : 7007F 8량 한정
+STR_REFIT_LIVERY_Hankyu_7000_2011                      : 현 도색
+STR_REFIT_LIVERY_Hankyu_7000_2016                      : 현 도색 (VVVF)
+STR_REFIT_LIVERY_Hankyu_7300                           : 구도색
+STR_REFIT_LIVERY_Hankyu_7300_1998                      : 현 도색 미개조
+STR_REFIT_LIVERY_Hankyu_7300_2008                      : 7320F 8량 한정
+STR_REFIT_LIVERY_Hankyu_7300_2014                      : 현 도색
+STR_REFIT_LIVERY_Hankyu_7300_2014_VVVF                 : 현 도색 (VVVF)
 STR_REFIT_LIVERY_Hankyu_8000_Long_Seat                 : 한큐 8000형 롱 시트
 STR_REFIT_LIVERY_Hankyu_8000_Cross_Seat                : 한큐 8000형 크로스 시트
 STR_REFIT_LIVERY_Hankyu_8300_Long_Seat                 : 한큐 8300형 롱 시트

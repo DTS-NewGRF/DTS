@@ -402,6 +402,11 @@ STR_Hankyu_7000_2Car_NAME                              :[DTS/2Car] Hankyu 7000
 STR_Hankyu_7000_4Car_NAME                              :[DTS/4Car] Hankyu 7000
 STR_Hankyu_7000_6Car_NAME                              :[DTS/6Car] Hankyu 7000
 STR_Hankyu_7000_8Car_NAME                              :[DTS/8Car] Hankyu 7000
+STR_Group_Hankyu_7300_NAME                             :[DTS] Hankyu 7300
+STR_Hankyu_7300_2Car_NAME                              :[DTS/2Car] Hankyu 7300
+STR_Hankyu_7300_6Car_NAME                              :[DTS/6Car] Hankyu 7300
+STR_Hankyu_7300_7Car_NAME                              :[DTS/7Car] Hankyu 7300
+STR_Hankyu_7300_8Car_NAME                              :[DTS/8Car] Hankyu 7300
 STR_Group_Hankyu_8000_NAME                             :[DTS] Hankyu 8000
 STR_Hankyu_8000_2Car_NAME                              :[DTS/2Car] Hankyu 8000
 STR_Hankyu_8000_8Car_NAME                              :[DTS/8Car] Hankyu 8000
@@ -957,6 +962,11 @@ STR_REFIT_LIVERY_Hankyu_7000_1998                      : 1998
 STR_REFIT_LIVERY_Hankyu_7000_2009                      : 2009
 STR_REFIT_LIVERY_Hankyu_7000_2011                      : 2011
 STR_REFIT_LIVERY_Hankyu_7000_2016                      : 2016
+STR_REFIT_LIVERY_Hankyu_7300                           : Orginal
+STR_REFIT_LIVERY_Hankyu_7300_1998                      : 1998
+STR_REFIT_LIVERY_Hankyu_7300_2008                      : 2008
+STR_REFIT_LIVERY_Hankyu_7300_2014                      : 2014
+STR_REFIT_LIVERY_Hankyu_7300_2014_VVVF                 : 2014 (VVVF)
 STR_REFIT_LIVERY_Hankyu_8000_Long_Seat                 : Hankyu 8000 Long Seat
 STR_REFIT_LIVERY_Hankyu_8000_Cross_Seat                : Hankyu 8000 Cross Seat
 STR_REFIT_LIVERY_Hankyu_8300_Long_Seat                 : Hankyu 8300 Long Seat

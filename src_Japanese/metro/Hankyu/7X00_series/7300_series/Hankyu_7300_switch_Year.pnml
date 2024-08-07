@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_1982_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7300);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_1998_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7300);
+    1: return string(STR_REFIT_LIVERY_Hankyu_7300_1998);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_2008_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7300);
+    1: return string(STR_REFIT_LIVERY_Hankyu_7300_1998);
+    2: return string(STR_REFIT_LIVERY_Hankyu_7300_2008);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_2014_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7300);
+    1: return string(STR_REFIT_LIVERY_Hankyu_7300_1998);
+    2: return string(STR_REFIT_LIVERY_Hankyu_7300_2014);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_2014_8Car_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Hankyu_7300);
+    1: return string(STR_REFIT_LIVERY_Hankyu_7300_1998);
+    2: return string(STR_REFIT_LIVERY_Hankyu_7300_2008);
+    3: return string(STR_REFIT_LIVERY_Hankyu_7300_2014);
+    4: return string(STR_REFIT_LIVERY_Hankyu_7300_2014_VVVF);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_cargo_subtype_text, current_year) {
+    0..1997: sw_Hankyu_7300_1982_cargo_subtype_text;
+    1998..2013: sw_Hankyu_7300_1998_cargo_subtype_text;
+    sw_Hankyu_7300_2014_cargo_subtype_text;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_8Car_cargo_subtype_text, current_year) {
+    0..1997: sw_Hankyu_7300_1982_cargo_subtype_text;
+    1998..2007: sw_Hankyu_7300_1998_cargo_subtype_text;
+    2008..2013: sw_Hankyu_7300_2008_cargo_subtype_text;
+    sw_Hankyu_7300_2014_8Car_cargo_subtype_text;
+    }

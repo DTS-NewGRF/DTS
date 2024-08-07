@@ -1,0 +1,186 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+한큐전철 7300형
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_7300_engineH, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Hankyu_7300_engineH_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Hankyu_7300_wagon, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Hankyu_7300_wagon_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Hankyu_7300_panto_wagon, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Hankyu_7300_panto_wagon_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Hankyu_7300_engineT_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Hankyu_7300_engineT, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+한큐전철 7300형 1998
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_7300_1998_engineH, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Hankyu_7300_1998_engineH_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Hankyu_7300_1998_wagon, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Hankyu_7300_1998_wagon_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Hankyu_7300_1998_panto_wagon, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Hankyu_7300_1998_panto_wagon_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Hankyu_7300_1998_engineT_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Hankyu_7300_1998_engineT, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+한큐전철 7300형 2008
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_7300_2008_engineH, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Hankyu_7300_2008_engineH_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Hankyu_7300_2008_wagon, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Hankyu_7300_2008_wagon_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Hankyu_7300_2008_panto_wagon, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Hankyu_7300_2008_panto_wagon_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Hankyu_7300_2008_engineT_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Hankyu_7300_2008_engineT, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+한큐전철 7300형 2014
+--------------------------------------------------------------------*/
+spriteset(set_Hankyu_7300_2014_engineH, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Hankyu_7300_2014_engineH_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Hankyu_7300_2014_wagon, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Hankyu_7300_2014_wagon_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png") {
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Hankyu_7300_2014_panto_wagon, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Hankyu_7300_2014_panto_wagon_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Hankyu_7300_2014_engineT_r, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Hankyu_7300_2014_engineT, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Hankyu_7300_purchase, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Hankyu_7300_1998_purchase, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_1998.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Hankyu_7300_2008_purchase, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2008.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_Hankyu_7300_2014_purchase, "src_Japanese/metro/Hankyu/7X00_series/7300_series/Hankyu_7300_2014.png"){
+    tmpl_purchase(0, 0)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_1982_purchase, cargo_subtype) {
+    set_Hankyu_7300_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_1998_purchase, cargo_subtype) {
+    set_Hankyu_7300_1998_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_2008_purchase, cargo_subtype) {
+    set_Hankyu_7300_2008_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_2014_purchase, cargo_subtype) {
+    set_Hankyu_7300_2014_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Hankyu_7300_purchase, current_year) {
+    0..1997: sw_Hankyu_7300_1982_purchase;
+    1998..2007: sw_Hankyu_7300_1998_purchase;
+    2008..2013: sw_Hankyu_7300_2008_purchase;
+    sw_Hankyu_7300_2014_purchase;
+    }
