@@ -7,7 +7,7 @@ spriteset(set_Platforms_waypoint_HighA, "src/Waypoint/platforms.png"){
 }
 
 spriteset(set_Platforms_waypoint_HighB, "src/Waypoint/platforms.png"){
-    [100,    0,    44,    22,    -11,    2]
+    [100,    0,    44,    22,    -11,    7]
     [150,    0,    44,    22,    -31,    7]
 }
 
@@ -37,7 +37,7 @@ spriteset(set_Platforms_waypoint_HighA_Snow, "src/Waypoint/platforms.png"){
 }
 
 spriteset(set_Platforms_waypoint_HighB_Snow, "src/Waypoint/platforms.png"){
-    [100,   83,    44,    24,    -11,    2]
+    [100,   83,    44,    24,    -11,    7]
     [150,   83,    44,    24,    -31,    7]
 }
 
