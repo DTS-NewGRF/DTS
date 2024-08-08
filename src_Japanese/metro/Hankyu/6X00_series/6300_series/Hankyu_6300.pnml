@@ -129,6 +129,7 @@ item(FEAT_TRAINS, Hankyu_6300_8Car, 2180){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        cargo_subtype_text:             sw_Hankyu_6300_cargo_subtype_text;
         sound_effect:                   sw_Hankyu_6300_sound;
         }
         }
