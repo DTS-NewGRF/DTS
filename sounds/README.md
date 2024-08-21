@@ -219,6 +219,7 @@
 - GTX
 - 우진산전 수소연료전지동차
 - PEX-SUPER
+- CL-150
 
 ### TOSHIBAStart.wav
 - ITX-새마을 DD, ITX-초월, TTX, ITX-청춘

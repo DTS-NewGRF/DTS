@@ -19,9 +19,13 @@ STR_CDC_4Car_NAME                                      :[DTS/4Car] CDC Diesel
 STR_CDC_5Car_NAME                                      :[DTS/5Car] CDC Diesel
 STR_Group_CL_150_NAME                                  :[DTS] CL-150
 STR_CL_150_4Car_NAME                                   :[DTS/4Car] CL-150
+STR_CL_150_G2_4Car_NAME                                :[DTS/4Car] CL-150 generation 2
 STR_CL_150_6Car_NAME                                   :[DTS/6Car] CL-150
+STR_CL_150_G2_6Car_NAME                                :[DTS/6Car] CL-150 generation 2
 STR_CL_150_8Car_NAME                                   :[DTS/8Car] CL-150
+STR_CL_150_G2_8Car_NAME                                :[DTS/8Car] CL-150 generation 2
 STR_CL_180_8Car_NAME                                   :[DTS/8Car] CL-180
+STR_CL_180_G2_8Car_NAME                                :[DTS/8Car] CL-180 generation 2
 STR_Group_CTX_NAME                                     :[DTS] CTX
 STR_CTX_F_10Car_NAME                                   :[DTS/10Car] CTX Freight
 STR_CTX_P_10Car_NAME                                   :[DTS/10Car] CTX Passenger
@@ -577,9 +581,6 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}train configurati
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}train configuration {}{GREEN} Coach 2F Passenger vehicles
 STR_REFIT_train_configuration_Constrck                 :{BLACK}train configuration {}{GREEN} It is a vehicle with a construction concept and generates 0 profits and only maintenance costs.
 
-# Deleted / Liveries
-STR_REFIT_LIVERY_To_Be_Deleted_60                      : {RED} To Be Deleted DTS V0.60
-
 # Korea / Liveries locomotive
 STR_REFIT_LIVERY_AREX_1000_Old                         : Old
 STR_REFIT_LIVERY_AREX_1000_New                         : New
@@ -591,6 +592,8 @@ STR_REFIT_LIVERY_CDC_Baekje_Crown                      : Baekje Crown
 STR_REFIT_LIVERY_CDC_Sea_Old                           : Sea Old
 STR_REFIT_LIVERY_CDC_Sea_New                           : Sea New
 STR_REFIT_LIVERY_CDC_DMZ                               : DMZ-Train
+STR_REFIT_LIVERY_CL_150_G2_A                           : A Type
+STR_REFIT_LIVERY_CL_150_G2_B                           : B Type
 STR_REFIT_LIVERY_DEL4400_A                             : Old
 STR_REFIT_LIVERY_DEL4400_B                             : New
 STR_REFIT_LIVERY_DEL4400_C                             : V-Train
@@ -854,9 +857,11 @@ STR_REFIT_LIVERY_Korail_3rd_AL_361K_A                  : AL 361K door color
 STR_REFIT_LIVERY_Korail_3rd_AL_361K_B                  : AL 361K line color
 STR_REFIT_LIVERY_Korail_3rd_Bike                       : Bike Train
 STR_REFIT_LIVERY_Korail_3rd_Civil_complaint_365        : Civil complaint 365
+STR_REFIT_LIVERY_Korail_4th_G2_SI                      : Generation 1
 STR_REFIT_LIVERY_Korail_4th_G2_SI1                     : Generation 1 SI1
 STR_REFIT_LIVERY_Korail_4th_G2_SI2                     : Generation 1 SI2
 STR_REFIT_LIVERY_Korail_4th_G2_DOB                     : Generation 1 DOB
+STR_REFIT_LIVERY_Korail_4th_G3_SI                      : Generation 2
 STR_REFIT_LIVERY_Korail_4th_G3_SI1                     : Generation 2 SI1
 STR_REFIT_LIVERY_Korail_4th_G3_SI2                     : Generation 2 SI2
 STR_REFIT_LIVERY_Korail_4th_G3_DOB                     : Generation 2 DOB

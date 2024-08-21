@@ -53,6 +53,124 @@ spriteset(set_CL_150_engineT, "src/locomotive/CL_150/CL_150.png"){
 }
 
 /*--------------------------------------------------------------------
+CL_150 2세대 크로스
+--------------------------------------------------------------------*/
+spriteset(set_CL_150_G2_A_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CL_150_G2_A_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png"){
+    engine(80, 27)
+}
+
+spriteset(set_CL_150_G2_A_panto_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CL_150_G2_A_panto_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_CL_150_G2_A_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_CL_150_G2_A_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_CL_150_G2_A_wagon_T, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_CL_150_G2_A_wagon_T_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_CL_150_G2_A_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_CL_150_G2_A_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png") {
+    wagon_1F_F_r(80, 162)
+}
+
+spriteset(set_CL_150_G2_A_panto_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_CL_150_G2_A_panto_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png") {
+    wagon_1F_F_r(80, 216)
+}
+
+spriteset(set_CL_150_G2_A_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png"){
+    engine(80, 243)
+}
+
+spriteset(set_CL_150_G2_A_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png"){
+    engine(80, 270)
+}
+
+/*--------------------------------------------------------------------
+CL_150 2세대 세미크로스
+--------------------------------------------------------------------*/
+spriteset(set_CL_150_G2_B_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png"){
+    engine(80, 0)
+}
+
+spriteset(set_CL_150_G2_B_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png"){
+    engine(80, 27)
+}
+
+spriteset(set_CL_150_G2_B_panto_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_CL_150_G2_B_panto_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png") {
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_CL_150_G2_B_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_CL_150_G2_B_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png") {
+    wagon_1F_F_r(80, 108)
+}
+
+spriteset(set_CL_150_G2_B_wagon_T, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_CL_150_G2_B_wagon_T_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png") {
+    wagon_1F_F_r(80, 135)
+}
+
+spriteset(set_CL_150_G2_B_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_CL_150_G2_B_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png") {
+    wagon_1F_F_r(80, 162)
+}
+
+spriteset(set_CL_150_G2_B_panto_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_CL_150_G2_B_panto_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png") {
+    wagon_1F_F_r(80, 216)
+}
+
+spriteset(set_CL_150_G2_B_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png"){
+    engine(80, 243)
+}
+
+spriteset(set_CL_150_G2_B_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_B.png"){
+    engine(80, 270)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
 // 구매차량 그래픽
@@ -60,6 +178,14 @@ spriteset(set_CL_150_purchase, "src/locomotive/CL_150/CL_150.png"){
     tmpl_purchase(0, 0)
 }
 
+spriteset(set_CL_150_G2_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/CL_150/CL_150_G2_A.png"){
+    tmpl_purchase(0, 0)
+}
+
 switch(FEAT_TRAINS, SELF, sw_CL_150_purchase, cargo_subtype) {
     set_CL_150_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_CL_150_G2_purchase, cargo_subtype) {
+    set_CL_150_G2_purchase;
 }

@@ -473,7 +473,11 @@
 |2454|Hankyu_7300_6Car|
 |2455|Hankyu_7300_7Car|
 |2456|Hankyu_7300_8Car|
-|2457~2999|공백|
+|2457|CL_150_G2_4Car|
+|2458|CL_150_G2_6Car|
+|2459|CL_150_G2_8Car|
+|2460|CL_180_G2_8Car|
+|2461~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

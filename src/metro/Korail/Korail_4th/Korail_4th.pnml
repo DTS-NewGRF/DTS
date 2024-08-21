@@ -215,7 +215,7 @@ item(FEAT_TRAINS, Korail_4th_4Car, 2124){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 122;
+        cargo_capacity:                 117;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -235,11 +235,9 @@ item(FEAT_TRAINS, Korail_4th_4Car, 2124){
         articulated_part:               sw_articulated_Korail_4th_4car;
         purchase:                       sw_Korail_4th_purchase;
         speed:                          sw_Korail_4th_speed;
-        cargo_capacity:                 sw_Korail_4th_4car_capacity_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Korail_4th_4Car_cargo_subtype_text;
         sound_effect:                   sw_Korail_4th_sound;
         }
         }
@@ -296,7 +294,7 @@ item(FEAT_TRAINS, Korail_4th_6Car, 2217){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Korail_4th_cargo_subtype_text;
+        cargo_subtype_text:             sw_Korail_4th_6Car_cargo_subtype_text;
         sound_effect:                   sw_Korail_4th_sound;
         }
         }

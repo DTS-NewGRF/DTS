@@ -19,9 +19,13 @@ STR_CDC_4Car_NAME                                      :[DTS/4량] CDC 디젤동
 STR_CDC_5Car_NAME                                      :[DTS/5량] CDC 디젤동차
 STR_Group_CL_150_NAME                                  :[DTS] CL-150
 STR_CL_150_4Car_NAME                                   :[DTS/4량] CL-150
+STR_CL_150_G2_4Car_NAME                                :[DTS/4량] CL-150 2세대
 STR_CL_150_6Car_NAME                                   :[DTS/6량] CL-150
+STR_CL_150_G2_6Car_NAME                                :[DTS/6량] CL-150 2세대
 STR_CL_150_8Car_NAME                                   :[DTS/8량] CL-150
+STR_CL_150_G2_8Car_NAME                                :[DTS/8량] CL-150 2세대
 STR_CL_180_8Car_NAME                                   :[DTS/8량] CL-180
+STR_CL_180_G2_8Car_NAME                                :[DTS/8량] CL-180 2세대
 STR_Group_CTX_NAME                                     :[DTS] CTX
 STR_CTX_F_10Car_NAME                                   :[DTS/10량] CTX 화물전용
 STR_CTX_P_10Car_NAME                                   :[DTS/10량] CTX 승객전용
@@ -573,9 +577,6 @@ STR_REFIT_train_configuration_Coach                    :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_Coach_Last               :{BLACK}열차구성 {}{GREEN} 객차형 승객 차량용
 STR_REFIT_train_configuration_Constrck                 :{BLACK}열차구성 {}{GREEN} 건설용 컨셉을 가진 차량으로 수익 0, 유지비만 나옵니다.
 
-# Deleted / Liveries locomotive
-STR_REFIT_LIVERY_To_Be_Deleted_60                      : {RED}DTS 0.60 삭제예정
-
 # Korea / Liveries locomotive
 STR_REFIT_LIVERY_AREX_1000_Old                         : 구도색
 STR_REFIT_LIVERY_AREX_1000_New                         : 신도색
@@ -587,6 +588,8 @@ STR_REFIT_LIVERY_CDC_Baekje_Crown                      : 백제왕관 도색
 STR_REFIT_LIVERY_CDC_Sea_Old                           : 바다열차 구도색
 STR_REFIT_LIVERY_CDC_Sea_New                           : 바다열차 신도색
 STR_REFIT_LIVERY_CDC_DMZ                               : DMZ-Train
+STR_REFIT_LIVERY_CL_150_G2_A                           : 크로스시트
+STR_REFIT_LIVERY_CL_150_G2_B                           : 세미크로스시트
 STR_REFIT_LIVERY_DEL4400_A                             : 구도색
 STR_REFIT_LIVERY_DEL4400_B                             : 신도색
 STR_REFIT_LIVERY_DEL4400_C                             : V-Train
@@ -850,12 +853,14 @@ STR_REFIT_LIVERY_Korail_3rd_AL_361K_A                  : AL 361K 출입문 도�
 STR_REFIT_LIVERY_Korail_3rd_AL_361K_B                  : AL 361K 줄무늬 도색
 STR_REFIT_LIVERY_Korail_3rd_Bike                       : 자전거 도색
 STR_REFIT_LIVERY_Korail_3rd_Civil_complaint_365        : 민원전철365 도색
+STR_REFIT_LIVERY_Korail_4th_G2_SI                      : 1차분
 STR_REFIT_LIVERY_Korail_4th_G2_SI1                     : 1차분 싱글암1개
 STR_REFIT_LIVERY_Korail_4th_G2_SI2                     : 1차분 싱글암2개
 STR_REFIT_LIVERY_Korail_4th_G2_DOB                     : 1차분 더블암
+STR_REFIT_LIVERY_Korail_4th_G3_SI                      : 2차분
 STR_REFIT_LIVERY_Korail_4th_G3_SI1                     : 2차분 싱글암1개
 STR_REFIT_LIVERY_Korail_4th_G3_SI2                     : 2차분 싱글암2개
-STR_REFIT_LIVERY_Korail_4th_G3_DOB                     : 레일 4세대 2차분 더블암
+STR_REFIT_LIVERY_Korail_4th_G3_DOB                     : 2차분 더블암
 STR_REFIT_LIVERY_Korail_5th_Nomal                      : 기본형
 STR_REFIT_LIVERY_Korail_5th_Update_software            : 소프트웨어개선
 STR_REFIT_LIVERY_Korail_First_K1000_Initial            : 초기저항 철도청 초기도색 [비냉방]
