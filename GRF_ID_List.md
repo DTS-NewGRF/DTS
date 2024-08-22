@@ -477,7 +477,8 @@
 |2458|CL_150_G2_6Car|
 |2459|CL_150_G2_8Car|
 |2460|CL_180_G2_8Car|
-|2461~2999|공백|
+|2461|Korail_4th_8Car|
+|2462~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

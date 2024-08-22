@@ -46,6 +46,7 @@ sort(FEAT_TRAINS, [
     Korail_392000_4Car,                      //2140
     Korail_4th_4Car,                         //2124
     Korail_4th_6Car,                         //2217
+    Korail_4th_8Car,                         //2461
     Korail_4th_10Car,                        //2218
     Korail_5th_10Car,                        //2239
     Korail_First,                            //3000

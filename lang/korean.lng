@@ -292,8 +292,9 @@ STR_Group_Korail_4th_NAME                              :[DTS] 한국철도공사
 STR_Korail_392000_2Car_NAME                            :[DTS/2량] 한국철도공사 392000호대 전동차
 STR_Korail_392000_4Car_NAME                            :[DTS/4량] 한국철도공사 392000호대 전동차
 STR_Korail_4th_G1_4Car_NAME                            :[DTS/4량] 한국철도공사 4세대 초기도입분
-STR_Korail_4th_4Car_NAME                               :[DTS/4량] 한국철도공사 4세대 1·2차 도입분
+STR_Korail_4th_4Car_NAME                               :[DTS/4량] 한국철도공사 4세대 2차 도입분
 STR_Korail_4th_6Car_NAME                               :[DTS/6량] 한국철도공사 4세대 1·2차 도입분
+STR_Korail_4th_8Car_NAME                               :[DTS/8량] 한국철도공사 4세대 2차 도입분
 STR_Korail_4th_10Car_NAME                              :[DTS/10량] 한국철도공사 4세대 1·2차 도입분
 STR_Korail_5th_10Car_NAME                              :[DTS/10량] 한국철도공사 5세대 전동차
 STR_Group_Korail_First_NAME                            :[DTS] 한국철도공사 저항제어 전동차 [초기저항]
@@ -857,6 +858,8 @@ STR_REFIT_LIVERY_Korail_4th_G2_SI                      : 1차분
 STR_REFIT_LIVERY_Korail_4th_G2_SI1                     : 1차분 싱글암1개
 STR_REFIT_LIVERY_Korail_4th_G2_SI2                     : 1차분 싱글암2개
 STR_REFIT_LIVERY_Korail_4th_G2_DOB                     : 1차분 더블암
+STR_REFIT_LIVERY_Korail_4th_G2_2cc                     : 기본도색 (2CC)
+STR_REFIT_LIVERY_Korail_4th_G2_2nd                     : 경춘선 도색
 STR_REFIT_LIVERY_Korail_4th_G3_SI                      : 2차분
 STR_REFIT_LIVERY_Korail_4th_G3_SI1                     : 2차분 싱글암1개
 STR_REFIT_LIVERY_Korail_4th_G3_SI2                     : 2차분 싱글암2개

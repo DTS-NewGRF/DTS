@@ -292,8 +292,9 @@ STR_Group_Korail_4th_NAME                              :[DTS] Korail 4th
 STR_Korail_392000_2Car_NAME                            :[DTS/2Car] Korail 392000
 STR_Korail_392000_4Car_NAME                            :[DTS/4Car] Korail 392000
 STR_Korail_4th_G1_4Car_NAME                            :[DTS/4Car] Korail 4th
-STR_Korail_4th_4Car_NAME                               :[DTS/4Car] Korail 4th Generation 1nd, 2nd
+STR_Korail_4th_4Car_NAME                               :[DTS/4Car] Korail 4th Generation 2nd
 STR_Korail_4th_6Car_NAME                               :[DTS/6Car] Korail 4th Generation 1nd, 2nd
+STR_Korail_4th_8Car_NAME                               :[DTS/8Car] Korail 4th Generation 2nd
 STR_Korail_4th_10Car_NAME                              :[DTS/10Car] Korail 4th Generation 1nd, 2nd
 STR_Korail_5th_10Car_NAME                              :[DTS/10Car] Korail 5th
 STR_Group_Korail_First_NAME                            :[DTS] Korail Rheostatic
@@ -861,6 +862,8 @@ STR_REFIT_LIVERY_Korail_4th_G2_SI                      : Generation 1
 STR_REFIT_LIVERY_Korail_4th_G2_SI1                     : Generation 1 SI1
 STR_REFIT_LIVERY_Korail_4th_G2_SI2                     : Generation 1 SI2
 STR_REFIT_LIVERY_Korail_4th_G2_DOB                     : Generation 1 DOB
+STR_REFIT_LIVERY_Korail_4th_G2_2cc                     : 2CC
+STR_REFIT_LIVERY_Korail_4th_G2_2nd                     : Generation 2
 STR_REFIT_LIVERY_Korail_4th_G3_SI                      : Generation 2
 STR_REFIT_LIVERY_Korail_4th_G3_SI1                     : Generation 2 SI1
 STR_REFIT_LIVERY_Korail_4th_G3_SI2                     : Generation 2 SI2
