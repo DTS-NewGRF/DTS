@@ -259,7 +259,7 @@ spriteset(set_Korail_4th_G2_purchase, "src/metro/Korail/Korail_4th/Korail_4th_G2
     tmpl_purchase(0, 0)
 }
 
-spriteset(set_Korail_4th_G2_2nd_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd.png", "src/metro/Korail/Korail_4th/Korail_4th_G2_2cc.png"){
+spriteset(set_Korail_4th_G2_2CC_purchase, "src/metro/Korail/Korail_4th/Korail_4th_G2_2cc.png"){
     tmpl_purchase(0, 0)
 }
 
@@ -279,8 +279,8 @@ switch(FEAT_TRAINS, SELF, sw_Korail_4th_G2_purchase, cargo_subtype) {
     set_Korail_4th_G2_purchase;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Korail_4th_G2_2nd_purchase, cargo_subtype) {
-    set_Korail_4th_G2_2nd_purchase;
+switch(FEAT_TRAINS, SELF, sw_Korail_4th_G2_2CC_purchase, cargo_subtype) {
+    set_Korail_4th_G2_2CC_purchase;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_G3_purchase, cargo_subtype) {

@@ -344,7 +344,7 @@ item(FEAT_TRAINS, Korail_4th_8Car, 2461){
     graphics {
         default:                        sw_Korail_4th_8car_reversed;
         articulated_part:               sw_articulated_Korail_4th_8car;
-        purchase:                       set_Korail_4th_G2_2nd_purchase;
+        purchase:                       sw_Korail_4th_G2_2CC_purchase;
         speed:                          sw_Korail_4th_speed;
         loading_speed:                  25;
         cost_factor:                    10;
