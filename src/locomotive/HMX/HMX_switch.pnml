@@ -1,6 +1,16 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_HMX_6car, position_in_vehid_chain % 6) {
+    1:set_HMX_wagon;
+    2:set_HMX_wagon;
+    3:set_HMX_wagon;
+    4:set_HMX_wagon;
+    5:set_HMX_engineT;
+    set_HMX_engineH; //default
+    }
+
 switch (FEAT_TRAINS, SELF, sw_HMX_8car, position_in_vehid_chain % 8) {
     1:set_HMX_wagon;
     2:set_HMX_wagon;
@@ -25,6 +35,12 @@ switch (FEAT_TRAINS, SELF, sw_HMX_10car, position_in_vehid_chain % 10) {
     set_HMX_engineH; //default
     }
 
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_HMX_6car, extra_callback_info1) {
+    1..5: HMX_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
 switch (FEAT_TRAINS, SELF, sw_articulated_HMX_8car, extra_callback_info1) {
     1..7: HMX_8Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
@@ -34,7 +50,8 @@ switch (FEAT_TRAINS, SELF, sw_articulated_HMX_10car, extra_callback_info1) {
     1..9: HMX_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-    
+
+// 사운드
 switch(FEAT_TRAINS, SELF, sw_HMX_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTPMSMstart.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");

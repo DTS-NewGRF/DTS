@@ -93,7 +93,7 @@ item(FEAT_TRAINS, KTX_Eum_12Car, 2426){
         
         //spec
         speed:                          260km/h;
-        power:                          9112 kW;
+        power:                          18224 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.579;
         air_drag_coefficient:           0.01;

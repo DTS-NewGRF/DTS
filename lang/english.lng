@@ -114,6 +114,7 @@ STR_MSB_Speeder_NAME                                   :[DTS] MSB Speeder
 STR_NEL_8100_NAME                                      :[DTS] NEL 8100
 STR_NEL_8200_NAME                                      :[DTS] NEL 8200
 STR_Group_NKX_NAME                                     :[DTS] NKX
+STR_NKX_6Car_NAME                                      :[DTS/6Car] NKX
 STR_NKX_8Car_NAME                                      :[DTS/8Car] NKX
 STR_NKX_10Car_NAME                                     :[DTS/10Car] NKX
 STR_Group_Nuriro_NAME                                  :[DTS] Korail 200000 series EMU (NURIRO)
