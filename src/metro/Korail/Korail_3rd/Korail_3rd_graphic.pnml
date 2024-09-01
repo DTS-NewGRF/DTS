@@ -335,6 +335,41 @@ spriteset(set_Korail_3rd_Civil_complaint_365_engineT, "src/metro/Korail/Korail_3
 }
 
 /*--------------------------------------------------------------------
+한국철도공사 3세대 371K & 381K
+--------------------------------------------------------------------*/
+spriteset(set_Korail_3rd_371_381_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_3rd/Korail_3rd_371K_381K.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_3rd_371_381_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_3rd/Korail_3rd_371K_381K.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_3rd_371_381_panto_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_3rd/Korail_3rd_371K_381K.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_3rd_371_381_panto_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_3rd/Korail_3rd_371K_381K.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_3rd_371_381_panto_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_3rd/Korail_3rd_371K_381K.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_3rd_371_381_panto_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_3rd/Korail_3rd_371K_381K.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_3rd_371_381_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_3rd/Korail_3rd_371K_381K.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Korail_3rd_371_381_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_3rd/Korail_3rd_371K_381K.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 -------------------------------------------------------------------*/
 // 구매차량 그래픽

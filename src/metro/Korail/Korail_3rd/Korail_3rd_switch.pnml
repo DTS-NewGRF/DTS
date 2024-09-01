@@ -5,6 +5,7 @@
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4car_cargo_subtype_text, cargo_subtype) {
     1: return string(STR_REFIT_LIVERY_Korail_3rd_ST_331K_DOB); // 스테인레스 더블암 331K
     2: return string(STR_REFIT_LIVERY_Korail_3rd_ST_SI);       // 스테인레스 싱글암
+    3: return string(STR_REFIT_LIVERY_Korail_3rd_371_381);     // 경강선, 동해선
     return string(STR_REFIT_LIVERY_Korail_3rd_ST_DOB);
 }
 
@@ -32,24 +33,28 @@ switch(FEAT_TRAINS, SELF, sw_Korail_3rd_10car_cargo_subtype_text, cargo_subtype)
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_engineH, cargo_subtype) {
     1: set_Korail_3rd_G1_ST_engineH;      // 스테인레스 더블암 331K
     2: set_Korail_3rd_G1_ST_engineH;      // 스테인레스 싱글암
+    3: set_Korail_3rd_371_381_engineH;    // 경강선, 동해선
     set_Korail_3rd_G1_ST_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_panto_wagon_A, cargo_subtype) {
     1: set_Korail_3rd_G1_ST_panto_wagon_DOB1;     // 스테인레스 더블암 331K
     2: set_Korail_3rd_G1_ST_panto_wagon_SIN_4car; // 스테인레스 싱글암
+    3: set_Korail_3rd_371_381_panto_wagon_M1;     // 경강선, 동해선
     set_Korail_3rd_G1_ST_panto_wagon_DOB;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_panto_wagon_B, cargo_subtype) {
     1: set_Korail_3rd_G1_ST_panto_wagon_DOB2; // 스테인레스 더블암 331K
     2: set_Korail_3rd_G1_ST_panto_wagon_SIN;  // 스테인레스 싱글암
+    3: set_Korail_3rd_371_381_panto_wagon_M2; // 경강선, 동해선
     set_Korail_3rd_G1_ST_panto_wagon_DOB;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_engineT, cargo_subtype) {
     1: set_Korail_3rd_G1_ST_engineT;      // 스테인레스 더블암 331K
     2: set_Korail_3rd_G1_ST_engineT;      // 스테인레스 싱글암
+    3: set_Korail_3rd_371_381_engineT;    // 경강선, 동해선
     set_Korail_3rd_G1_ST_engineT;
 }
 
@@ -57,24 +62,28 @@ switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_engineT, cargo_subtype) {
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_engineH_r, cargo_subtype) {
     1: set_Korail_3rd_G1_ST_engineH_r;      // 스테인레스 더블암 331K
     2: set_Korail_3rd_G1_ST_engineH_r;      // 스테인레스 싱글암
+    3: set_Korail_3rd_371_381_engineH_r;    // 경강선, 동해선
     set_Korail_3rd_G1_ST_engineH_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_panto_wagon_A_r, cargo_subtype) {
     1: set_Korail_3rd_G1_ST_panto_wagon_DOB1_r;     // 스테인레스 더블암 331K
     2: set_Korail_3rd_G1_ST_panto_wagon_SIN_4car_r; // 스테인레스 싱글암
+    3: set_Korail_3rd_371_381_panto_wagon_M1_r;     // 경강선, 동해선
     set_Korail_3rd_G1_ST_panto_wagon_DOB_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_panto_wagon_B_r, cargo_subtype) {
     1: set_Korail_3rd_G1_ST_panto_wagon_DOB2_r; // 스테인레스 더블암 331K
     2: set_Korail_3rd_G1_ST_panto_wagon_SIN_r;  // 스테인레스 싱글암
+    3: set_Korail_3rd_371_381_panto_wagon_M2_r; // 경강선, 동해선
     set_Korail_3rd_G1_ST_panto_wagon_DOB_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_3rd_4Car_engineT_r, cargo_subtype) {
     1: set_Korail_3rd_G1_ST_engineT_r;      // 스테인레스 더블암 331K
     2: set_Korail_3rd_G1_ST_engineT_r;      // 스테인레스 싱글암
+    3: set_Korail_3rd_371_381_engineT_r;    // 경강선, 동해선
     set_Korail_3rd_G1_ST_engineT_r;
 }
 
