@@ -11,7 +11,7 @@ body:
     attributes:
       label: 스프라이트
       description: 스프라이트를 올려주세요. 기본적으로 32bpp를 지원하도록 하여 적용하고 있습니다. 크로마키부분만을 투명상태로 적용해주세요.
-       - type: textarea
+  - type: textarea
     attributes:
       label: 깃허브 자료실 파일명
       description: 깃허브 자료실내 파일명을 명시해주세요. 이슈적용시 혼란을 막기 위함입니다. 번거롭더라도 협조부탁드립니다.
