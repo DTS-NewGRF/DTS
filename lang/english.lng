@@ -860,6 +860,8 @@ STR_REFIT_LIVERY_Korail_3rd_AL_361K_B                  : AL 361K line color
 STR_REFIT_LIVERY_Korail_3rd_Bike                       : Bike Train
 STR_REFIT_LIVERY_Korail_3rd_Civil_complaint_365        : Civil complaint 365
 STR_REFIT_LIVERY_Korail_3rd_371_381                    : 371K & 381K
+STR_REFIT_LIVERY_Korail_4th_G1_2CC                     : 2CC
+STR_REFIT_LIVERY_Korail_4th_G1_381K                    : 381K
 STR_REFIT_LIVERY_Korail_4th_G2_SI                      : Generation 1
 STR_REFIT_LIVERY_Korail_4th_G2_SI1                     : Generation 1 SI1
 STR_REFIT_LIVERY_Korail_4th_G2_SI2                     : Generation 1 SI2

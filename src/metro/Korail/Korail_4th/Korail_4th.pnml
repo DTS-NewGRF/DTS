@@ -184,6 +184,7 @@ item(FEAT_TRAINS, Korail_4th_G1_4Car, 2030){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        cargo_subtype_text:             sw_Korail_4th_G1_4Car_cargo_subtype_text;
         sound_effect:                   sw_Korail_4th_G1_sound;
         }
         }

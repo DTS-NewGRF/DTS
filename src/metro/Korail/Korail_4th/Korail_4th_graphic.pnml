@@ -31,19 +31,19 @@ spriteset(set_Korail_4th_G1_engineH_r, "src/metro/Korail/Korail_4th/Korail_4th_G
     engine(80, 27)
 }
 
-spriteset(set_Korail_4th_G1_wagon_A, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+spriteset(set_Korail_4th_G1_panto_wagon_M1, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Korail_4th_G1_wagon_A_r, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+spriteset(set_Korail_4th_G1_panto_wagon_M1_r, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
     wagon_1F_F_r(80, 54)
 }
 
-spriteset(set_Korail_4th_G1_wagon_B, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+spriteset(set_Korail_4th_G1_panto_wagon_M2, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_Korail_4th_G1_wagon_B_r, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+spriteset(set_Korail_4th_G1_panto_wagon_M2_r, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
     wagon_1F_F_r(80, 81)
 }
 
@@ -52,6 +52,41 @@ spriteset(set_Korail_4th_G1_engineT_r, "src/metro/Korail/Korail_4th/Korail_4th_G
 }
 
 spriteset(set_Korail_4th_G1_engineT, "src/metro/Korail/Korail_4th/Korail_4th_G1.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+Korail 4th 초기도입분 381K
+--------------------------------------------------------------------*/
+spriteset(set_Korail_4th_G1_381K_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G1_381K.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_4th_G1_381K_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G1_381K.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_4th_G1_381K_panto_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G1_381K.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_4th_G1_381K_panto_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G1_381K.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_4th_G1_381K_panto_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G1_381K.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_4th_G1_381K_panto_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G1_381K.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_4th_G1_381K_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G1_381K.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Korail_4th_G1_381K_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G1_381K.png"){
     engine(80, 135)
 }
 

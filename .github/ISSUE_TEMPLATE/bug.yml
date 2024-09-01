@@ -11,6 +11,9 @@ body:
     attributes:
       label: 버그사항
       description: 문제가 발생한 버그사항. 필요시 스샷 첨부
+    attributes:
+      label: 깃허브 자료실 파일명
+      description: 깃허브 자료실내 파일명을 명시해주세요. 이슈적용시 혼란을 막기 위함입니다. 번거롭더라도 협조부탁드립니다.
     validations:
       required: true
   - type: textarea
