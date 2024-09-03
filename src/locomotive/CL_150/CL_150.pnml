@@ -459,6 +459,7 @@ item(FEAT_TRAINS, CL_180_G2_8Car, 2460){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        cargo_subtype_text:             sw_CL_180_G2_cargo_subtype_text;
         sound_effect:                   sw_CL_150_G2_sound;
         }
         }

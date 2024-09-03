@@ -595,7 +595,9 @@ STR_REFIT_LIVERY_CDC_Sea_Old                           : Sea Old
 STR_REFIT_LIVERY_CDC_Sea_New                           : Sea New
 STR_REFIT_LIVERY_CDC_DMZ                               : DMZ-Train
 STR_REFIT_LIVERY_CL_150_G2_A                           : A Type
+STR_REFIT_LIVERY_CL_150_G2_A_2cc                       : A Type 2cc
 STR_REFIT_LIVERY_CL_150_G2_B                           : B Type
+STR_REFIT_LIVERY_CL_150_G2_B_2cc                       : B Type 2cc
 STR_REFIT_LIVERY_DEL4400_A                             : Old
 STR_REFIT_LIVERY_DEL4400_B                             : New
 STR_REFIT_LIVERY_DEL4400_C                             : V-Train

@@ -591,7 +591,9 @@ STR_REFIT_LIVERY_CDC_Sea_Old                           : 바다열차 구도색
 STR_REFIT_LIVERY_CDC_Sea_New                           : 바다열차 신도색
 STR_REFIT_LIVERY_CDC_DMZ                               : DMZ-Train
 STR_REFIT_LIVERY_CL_150_G2_A                           : 크로스시트
+STR_REFIT_LIVERY_CL_150_G2_A_2cc                       : 크로스시트 2cc
 STR_REFIT_LIVERY_CL_150_G2_B                           : 세미크로스시트
+STR_REFIT_LIVERY_CL_150_G2_B_2cc                       : 세미크로스시트 2cc
 STR_REFIT_LIVERY_DEL4400_A                             : 구도색
 STR_REFIT_LIVERY_DEL4400_B                             : 신도색
 STR_REFIT_LIVERY_DEL4400_C                             : V-Train
