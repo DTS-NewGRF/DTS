@@ -471,16 +471,22 @@ switch (FEAT_TRAINS, SELF, sw_articulated_CL_180_G2_8car, extra_callback_info1) 
 // 수송량
 switch(FEAT_TRAINS, SELF, sw_CL_150_G2_4Car_capacity_in_custom, cargo_subtype) {
     1: return 87;
+    2: return 38;
+    3: return 87;
        38;
 }
 
 switch(FEAT_TRAINS, SELF, sw_CL_150_G2_6Car_capacity_in_custom, cargo_subtype) {
     1: return 94;
+    2: return 39;
+    3: return 94;
        39;
 }
 
 switch(FEAT_TRAINS, SELF, sw_CL_150_G2_8Car_capacity_in_custom, cargo_subtype) {
     1: return 100;
+    2: return 40;
+    3: return 100;
        40;
 }
 
