@@ -6,3 +6,9 @@
 
 //열차
 #include "Generatar_Real_Stream_lined_switch_wagon.pnml"
+
+//속도
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_Stream_lined_speed, Use_Passengercar_Real_speed) {
+   1: return 150;
+   return 0;
+   }

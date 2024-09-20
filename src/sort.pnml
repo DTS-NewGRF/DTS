@@ -210,6 +210,8 @@ sort(FEAT_TRAINS, [
     CL_150_G2_8Car,                          //2459
     CL_180_8Car,                             //2176
     CL_180_G2_8Car,                          //2460
+    CL_150_Premium_10Car,                    //2463
+    CL_180_Premium_10Car,                    //2464
     DEL4400,                                 //2396
     DEL7000,                                 //2298
     DEL7600,                                 //2015

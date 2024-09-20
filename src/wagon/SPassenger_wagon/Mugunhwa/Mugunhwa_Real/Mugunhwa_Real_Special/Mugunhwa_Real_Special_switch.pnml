@@ -9,3 +9,9 @@
 
 //수송량
 #include "Mugunhwa_Real_Special_capacity.pnml"
+
+//속도
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_speed, Use_Passengercar_Real_speed) {
+   1: return 150;
+   return 0;
+   }

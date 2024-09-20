@@ -50,6 +50,7 @@ item(FEAT_TRAINS, Generatar_Real_Stream_lined, 2394){
 	graphics {
         default:                        sw_Generatar_Real_Stream_lined_wagon;
         purchase:                       sw_Generatar_Real_Stream_lined_purchase;
+        speed:                          sw_Generatar_Real_Stream_lined_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;

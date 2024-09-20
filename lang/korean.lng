@@ -26,6 +26,8 @@ STR_CL_150_8Car_NAME                                   :[DTS/8량] CL-150
 STR_CL_150_G2_8Car_NAME                                :[DTS/8량] CL-150 2세대
 STR_CL_180_8Car_NAME                                   :[DTS/8량] CL-180
 STR_CL_180_G2_8Car_NAME                                :[DTS/8량] CL-180 2세대
+STR_CL_150_Premium_10Car_NAME                          :[DTS/10량] CL-150 Premium
+STR_CL_180_Premium_10Car_NAME                          :[DTS/10량] CL-180 Premium
 STR_Group_CTX_NAME                                     :[DTS] CTX
 STR_CTX_F_10Car_NAME                                   :[DTS/10량] CTX 화물전용
 STR_CTX_P_10Car_NAME                                   :[DTS/10량] CTX 승객전용
@@ -545,6 +547,8 @@ STR_PARAM_World_NAME                                   :월드형 열차 사용 
 STR_PARAM_World_DESC                                   :월드형 열차를 사용시 체크하세요. (기본:미사용)
 STR_PARAM_Maintenance_NAME                             :유지보수차량 사용 금지
 STR_PARAM_Maintenance_DESC                             :유지보수차량 사용시 체크하세요. (기본:미사용)
+STR_PARAM_Passengercar_Real_speed_NAME                 :객차의 속도를 제어합니다.
+STR_PARAM_Passengercar_Real_speed_DESC                 :실제 객차 속도를 희망시 체크하세요. (기본:객차속도제한)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 {RED}(RED)
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}열차구성 {}{GREEN}[관광열차] A-Train
@@ -594,6 +598,8 @@ STR_REFIT_LIVERY_CL_150_G2_A                           : 크로스시트
 STR_REFIT_LIVERY_CL_150_G2_A_2cc                       : 크로스시트 2cc
 STR_REFIT_LIVERY_CL_150_G2_B                           : 세미크로스시트
 STR_REFIT_LIVERY_CL_150_G2_B_2cc                       : 세미크로스시트 2cc
+STR_REFIT_LIVERY_CL_150_Premium                        : Premium
+STR_REFIT_LIVERY_CL_150_Premium_2cc                    : Premium 2cc
 STR_REFIT_LIVERY_DEL4400_A                             : 구도색
 STR_REFIT_LIVERY_DEL4400_B                             : 신도색
 STR_REFIT_LIVERY_DEL4400_C                             : V-Train

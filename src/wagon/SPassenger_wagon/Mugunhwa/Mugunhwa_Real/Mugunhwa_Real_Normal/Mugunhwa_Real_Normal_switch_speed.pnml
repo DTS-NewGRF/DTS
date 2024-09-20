@@ -84,7 +84,7 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_2011_speed, cargo_subtype) {
    return 120;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_speed, current_year) {
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_speed_year, current_year) {
     0..1979: sw_Mugunhwa_Real_Normal_1977_speed;
     1980..1993: sw_Mugunhwa_Real_Normal_1980_speed;
     1994: sw_Mugunhwa_Real_Normal_1994_speed;
@@ -94,3 +94,8 @@ switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_speed, current_year) {
     2006..2010: sw_Mugunhwa_Real_Normal_2006_speed;
     sw_Mugunhwa_Real_Normal_2011_speed;
     }
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Normal_speed, Use_Passengercar_Real_speed) {
+   1: sw_Mugunhwa_Real_Normal_speed_year;
+   return 0;
+   }

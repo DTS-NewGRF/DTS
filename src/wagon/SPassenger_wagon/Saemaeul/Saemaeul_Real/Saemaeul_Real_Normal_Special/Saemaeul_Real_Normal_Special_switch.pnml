@@ -9,3 +9,9 @@
 
 //수송량
 #include "Saemaeul_Real_Normal_Special_switch_capacity.pnml"
+
+//속도
+switch(FEAT_TRAINS, SELF, sw_Saemaeul_Real_Normal_Special_speed, Use_Passengercar_Real_speed) {
+   1: return 150;
+   return 0;
+   }

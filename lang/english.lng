@@ -26,6 +26,8 @@ STR_CL_150_8Car_NAME                                   :[DTS/8Car] CL-150
 STR_CL_150_G2_8Car_NAME                                :[DTS/8Car] CL-150 generation 2
 STR_CL_180_8Car_NAME                                   :[DTS/8Car] CL-180
 STR_CL_180_G2_8Car_NAME                                :[DTS/8Car] CL-180 generation 2
+STR_CL_150_Premium_10Car_NAME                          :[DTS/10Car] CL-150 Premium
+STR_CL_180_Premium_10Car_NAME                          :[DTS/10Car] CL-180 Premium
 STR_Group_CTX_NAME                                     :[DTS] CTX
 STR_CTX_F_10Car_NAME                                   :[DTS/10Car] CTX Freight
 STR_CTX_P_10Car_NAME                                   :[DTS/10Car] CTX Passenger
@@ -549,6 +551,8 @@ STR_PARAM_World_NAME                                   :No World trains allowed.
 STR_PARAM_World_DESC                                   :Please check when using World trains. (Default: unused)
 STR_PARAM_Maintenance_NAME                             :No Maintenance trains allowed.
 STR_PARAM_Maintenance_DESC                             :Please check when using Maintenance trains. (Default: unused)
+STR_PARAM_Passengercar_Real_speed_NAME                 :Controls the speed of the carriage.
+STR_PARAM_Passengercar_Real_speed_DESC                 :Check the actual carriage speed if desired. (Basic: Passenger car speed limit)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_train_configuration_A_Train_Passenger        :{BLACK}train configuration {}{GREEN} A-Train Passenger Car
@@ -598,6 +602,8 @@ STR_REFIT_LIVERY_CL_150_G2_A                           : A Type
 STR_REFIT_LIVERY_CL_150_G2_A_2cc                       : A Type 2cc
 STR_REFIT_LIVERY_CL_150_G2_B                           : B Type
 STR_REFIT_LIVERY_CL_150_G2_B_2cc                       : B Type 2cc
+STR_REFIT_LIVERY_CL_150_Premium                        : Premium
+STR_REFIT_LIVERY_CL_150_Premium_2cc                    : Premium 2cc
 STR_REFIT_LIVERY_DEL4400_A                             : Old
 STR_REFIT_LIVERY_DEL4400_B                             : New
 STR_REFIT_LIVERY_DEL4400_C                             : V-Train

@@ -55,7 +55,7 @@ switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_2010_speed, cargo_subtype) {
     150;
 }
 
-switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_speed, current_year) {
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_speed_year, current_year) {
     0..1985: sw_Generatar_Real_OutLook_1969_speed;
     1986..1993: sw_Generatar_Real_OutLook_1986_speed;
     1994..1996: sw_Generatar_Real_OutLook_1994_speed;
@@ -64,3 +64,8 @@ switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_speed, current_year) {
     2006..2009: sw_Generatar_Real_OutLook_2006_speed;
     sw_Generatar_Real_OutLook_2010_speed;
     }
+
+switch(FEAT_TRAINS, SELF, sw_Generatar_Real_OutLook_speed, Use_Passengercar_Real_speed) {
+   1: sw_Generatar_Real_OutLook_speed_year;
+   return 0;
+   }

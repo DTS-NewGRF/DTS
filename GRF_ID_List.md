@@ -479,7 +479,9 @@
 |2460|CL_180_G2_8Car|
 |2461|Korail_4th_8Car|
 |2462|HMX_6Car|
-|2463~2999|공백|
+|2463|CL_150_Premium_10Car|
+|2464|CL_180_Premium_10Car|
+|2465~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

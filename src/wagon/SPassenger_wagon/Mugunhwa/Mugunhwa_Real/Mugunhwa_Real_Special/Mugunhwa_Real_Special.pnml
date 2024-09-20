@@ -51,6 +51,7 @@ item (FEAT_TRAINS, Mugunhwa_Real_Special, 2390){
         default:                        sw_Mugunhwa_Real_Special_wagon;
         purchase:                       sw_Mugunhwa_Real_Special_purchase;
         cargo_capacity:                 sw_Mugunhwa_Real_Special_capacity_in_custom;
+        speed:                          sw_Mugunhwa_Real_Special_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;

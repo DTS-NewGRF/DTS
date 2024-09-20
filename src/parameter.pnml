@@ -130,3 +130,12 @@ param {
         def_value: 0;
         }
     }
+
+param {
+        Use_Passengercar_Real_speed {
+            type: bool;
+            name: string(STR_PARAM_Passengercar_Real_speed_NAME);
+            desc: string(STR_PARAM_Passengercar_Real_speed_DESC);
+            def_value: 1;
+            }
+    }

@@ -51,6 +51,7 @@ item (FEAT_TRAINS, Saemaeul_Real_Normal_Special, 2392){
         default:                        sw_Saemaeul_Real_Normal_Special_wagon;
         purchase:                       sw_Saemaeul_Real_Normal_Special_purchase;
         cargo_capacity:                 sw_Saemaeul_Real_Normal_Special_capacity_in_custom;
+        speed:                          sw_Saemaeul_Real_Normal_Special_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
