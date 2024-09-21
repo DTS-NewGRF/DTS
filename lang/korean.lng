@@ -42,6 +42,9 @@ STR_DHC_PP_7Car_NAME                                   :[DTS/7량] DHC PP 디젤
 STR_DHC_PP_8Car_NAME                                   :[DTS/8량] DHC PP 디젤동차
 STR_DHC_PP_14Car_NAME                                  :[DTS/14량] DHC PP 디젤동차
 STR_DHC_PP_16Car_NAME                                  :[DTS/16량] DHC PP 디젤동차
+STR_Group_Diesel_Car_NAME                              :[DTS] 디젤액압동차
+STR_Diesel_Car_NAME                                    :[DTS/단량] 디젤액압동차
+STR_Diesel_2Car_NAME                                   :[DTS/2량] 디젤액압동차
 STR_Group_E8600_NAME                                   :[DTS] 8600호대 전기기관차
 STR_E8600_NAME                                         :[DTS/단량] 8600호대 전기기관차
 STR_E8600_2Car_NAME                                    :[DTS/2량] 8600호대 전기기관차
@@ -626,6 +629,9 @@ STR_REFIT_LIVERY_DHC_New_Cafe_B                        : DHC PP 신도색 카페
 STR_REFIT_LIVERY_DHC_New_Cafe_C                        : DHC PP 신도색 카페편성 C
 STR_REFIT_LIVERY_DHC_ON                                : DHC PP 구도색+신도색
 STR_REFIT_LIVERY_DHC_NO                                : DHC PP 신도색+구도색
+STR_REFIT_LIVERY_Diesel_Car_1961                       : 초기형 초기도색
+STR_REFIT_LIVERY_Diesel_Car_1966                       : 후기형 초기도색
+STR_REFIT_LIVERY_Diesel_Car_1975                       : 후기형 편운전대 초기도색
 STR_REFIT_LIVERY_FEL_8500                              : 기본도색
 STR_REFIT_LIVERY_FEL_8500_A_train                      : A-Train
 STR_REFIT_LIVERY_FEL_8500_A_train_New                  : A-Train 신도색

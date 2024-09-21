@@ -16,6 +16,7 @@
 #include "locomotive/DEL7000/DEL7000.pnml"
 #include "locomotive/DEL7600/DEL7600.pnml"
 #include "locomotive/DHC_PP/DHC_PP.pnml"
+#include "locomotive/Diesel_Car/Diesel_Car.pnml"
 #include "locomotive/E8600/E8600.pnml"
 #include "locomotive/FEL_8500/FEL_8500.pnml"
 #include "locomotive/Glory_430/Glory_430.pnml"

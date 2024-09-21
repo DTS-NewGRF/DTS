@@ -1,0 +1,24 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//수송량
+switch(FEAT_TRAINS, SELF, sw_Diesel_1961_capacity_in_custom, cargo_subtype) {
+    126;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Diesel_1966_capacity_in_custom, cargo_subtype) {
+    1: return 132;
+    126;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Diesel_1975_capacity_in_custom, cargo_subtype) {
+    1: return 132;
+    2: return 174;
+    126;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Diesel_capacity_in_custom, current_year) {
+    0..1965: sw_Diesel_1961_capacity_in_custom;
+    1966..1974: sw_Diesel_1966_capacity_in_custom;
+    sw_Diesel_1975_capacity_in_custom;
+    }

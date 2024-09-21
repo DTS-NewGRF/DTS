@@ -223,6 +223,7 @@ sort(FEAT_TRAINS, [
     DHC_PP_8Car,                             //2361
     DHC_PP_14Car,                            //2362
     DHC_PP_16Car,                            //2363
+    Diesel_Car,                              //2466
     E8600,                                   //2279
     E8600_1Car,                              //2128
     E8600_2Car,                              //2280

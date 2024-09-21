@@ -1,0 +1,53 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Diesel_engine_1961, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Diesel_Car.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Diesel_engine_1966, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Diesel_Car.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Diesel_engine_1975, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Diesel_Car.png"){
+    engine(80, 54)
+}
+
+spriteset(set_Diesel_engine_1975_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Diesel_Car.png"){
+    engine(80, 81)
+}
+
+/*-------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Diesel_1961_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Diesel_Car.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_Diesel_1966_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Diesel_Car.png"){
+    tmpl_single_purchase(0, 27)
+}
+
+spriteset(set_Diesel_1975_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/Diesel_Car/Diesel_Car.png"){
+    tmpl_single_purchase(0, 54)
+}
+
+switch(FEAT_TRAINS, SELF, sw_Diesel_1961_purchase, cargo_subtype) {
+    set_Diesel_1961_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Diesel_1966_purchase, cargo_subtype) {
+    set_Diesel_1966_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Diesel_1975_purchase, cargo_subtype) {
+    set_Diesel_1975_purchase;
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Diesel_purchase, current_year) {
+    0..1965: sw_Diesel_1961_purchase;
+    1966..1974: sw_Diesel_1966_purchase;
+    sw_Diesel_1975_purchase;
+    }
