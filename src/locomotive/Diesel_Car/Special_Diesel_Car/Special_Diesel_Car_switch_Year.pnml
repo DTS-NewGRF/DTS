@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색
+switch(FEAT_TRAINS, SELF, sw_Special_Diesel_Car_1969_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Special_Diesel_Car_1969);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Special_Diesel_Car_1986_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Special_Diesel_Car_1969);
+    1: return string(STR_REFIT_LIVERY_Special_Diesel_Car_1986);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Special_Diesel_Car_1994_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Special_Diesel_Car_1969);
+    1: return string(STR_REFIT_LIVERY_Special_Diesel_Car_1986);
+    2: return string(STR_REFIT_LIVERY_Special_Diesel_Car_1994);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Special_Diesel_Car_cargo_subtype_text, current_year) {
+    0..1985: sw_Special_Diesel_Car_1969_cargo_subtype_text;
+    1986..1993: sw_Special_Diesel_Car_1986_cargo_subtype_text;
+    sw_Special_Diesel_Car_1994_cargo_subtype_text;
+    }

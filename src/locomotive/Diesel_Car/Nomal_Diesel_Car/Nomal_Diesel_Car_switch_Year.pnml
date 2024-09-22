@@ -1,0 +1,76 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_Car_1961_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1961);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_Car_1966_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1961);
+    1: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1966);
+    2: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_Car_1975_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1961);
+    1: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1966);
+    2: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A);
+    3: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_B);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_Car_1980_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1961);
+    1: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1966);
+    2: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A);
+    3: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_B);
+    4: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O);
+    5: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O1);
+    6: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BA);
+    7: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BB);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_Car_1984_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1961);
+    1: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1966);
+    2: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A);
+    3: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_B);
+    4: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O);
+    5: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O1);
+    6: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BA);
+    7: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BB);
+    8: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B1);
+    9: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B2);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_Car_1985_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1961);
+     1: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1966);
+     2: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A);
+     3: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_B);
+     4: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O);
+     5: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O1);
+     6: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BA);
+     7: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BB);
+     8: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B1);
+     9: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B2);
+    10: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T);
+    11: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T1);
+    12: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M);
+    13: return string(STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M1);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Nomal_Diesel_Car_cargo_subtype_text, current_year) {
+    0..1965: sw_Nomal_Diesel_Car_1961_cargo_subtype_text;
+    1966..1974: sw_Nomal_Diesel_Car_1966_cargo_subtype_text;
+    1975..1979: sw_Nomal_Diesel_Car_1975_cargo_subtype_text;
+    1980..1983: sw_Nomal_Diesel_Car_1980_cargo_subtype_text;
+    1984: sw_Nomal_Diesel_Car_1984_cargo_subtype_text;
+    sw_Nomal_Diesel_Car_1985_cargo_subtype_text;
+    }

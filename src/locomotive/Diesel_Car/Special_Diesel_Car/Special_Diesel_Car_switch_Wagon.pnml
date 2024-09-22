@@ -1,0 +1,24 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 열차
+switch(FEAT_TRAINS, SELF, sw_Special_Diesel_engine_1969, cargo_subtype) {
+    set_Special_Diesel_engine_1969;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Special_Diesel_engine_1986, cargo_subtype) {
+    1: set_Special_Diesel_engine_1986;
+    set_Special_Diesel_engine_1969;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Special_Diesel_engine_1994, cargo_subtype) {
+    1: set_Special_Diesel_engine_1986;
+    2: set_Special_Diesel_engine_1994;
+    set_Special_Diesel_engine_1969;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Special_Diesel_engine, current_year) {
+    0..1985: sw_Special_Diesel_engine_1969;
+    1986..1993: sw_Special_Diesel_engine_1986;
+    sw_Special_Diesel_engine_1994;
+    }

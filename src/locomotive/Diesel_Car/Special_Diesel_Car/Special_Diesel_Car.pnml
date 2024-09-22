@@ -1,23 +1,24 @@
 /*--------------------------------------------------------------------
-Diesel_Car
+Special Diesel Car
 --------------------------------------------------------------------*/
 // Graphics
-#include "Diesel_Car_graphic.pnml"
+#include "Special_Diesel_Car_graphic.pnml"
 
 // Switch
-#include "Diesel_Car_switch.pnml"
+#include "Special_Diesel_Car_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Diesel_Car, 2466){
+item(FEAT_TRAINS, Special_Diesel_Car, 2466){
     property {
-        name:                           string(STR_Diesel_Car_NAME);
+        name:                           string(STR_Special_Diesel_Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1961, 1, 1);
+        introduction_date:              date(1969, 1, 1);
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Group_Diesel_Car;
         
         //spec
         speed:                          100km/h;
@@ -33,7 +34,7 @@ item(FEAT_TRAINS, Diesel_Car, 2466){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 126;
+        cargo_capacity:                 24;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -49,13 +50,12 @@ item(FEAT_TRAINS, Diesel_Car, 2466){
         }
         
     graphics {
-        default:                        sw_Diesel_engine;
-        purchase:                       sw_Diesel_purchase;
-        speed:                          sw_Diesel_Car_speed;
-        cargo_capacity:                 sw_Diesel_capacity_in_custom;
+        default:                        sw_Special_Diesel_engine;
+        purchase:                       sw_Special_Diesel_purchase;
+        speed:                          sw_Special_Diesel_Car_speed;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_Diesel_Car_cargo_subtype_text;
-        sound_effect:                   sw_Diesel_Car_sound;
+        cargo_subtype_text:             sw_Special_Diesel_Car_cargo_subtype_text;
+        sound_effect:                   sw_Special_Diesel_Car_sound;
         }
         }

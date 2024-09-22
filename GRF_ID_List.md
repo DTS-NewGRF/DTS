@@ -482,9 +482,9 @@
 |2463|CL_150_Premium_10Car|
 |2464|CL_180_Premium_10Car|
 |2465|Group_Diesel_Car|
-|2466|Diesel_Car|
-|2466|Diesel_2Car|
-|2467~2999|공백|
+|2466|Nomal_Diesel_Car|
+|2467|Special_Diesel_Car|
+|2468~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

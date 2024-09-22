@@ -43,8 +43,8 @@ STR_DHC_PP_8Car_NAME                                   :[DTS/8Car] DHC PP Diesel
 STR_DHC_PP_14Car_NAME                                  :[DTS/14Car] DHC PP Diesel
 STR_DHC_PP_16Car_NAME                                  :[DTS/16Car] DHC PP Diesel
 STR_Group_Diesel_Car_NAME                              :[DTS] Diesel Car
-STR_Diesel_Car_NAME                                    :[DTS] Diesel Car
-STR_Diesel_2Car_NAME                                   :[DTS/2Car] Diesel Car
+STR_Nomal_Diesel_Car_NAME                              :[DTS] Diesel Car
+STR_Special_Diesel_Car_NAME                            :[DTS] special car (Diesel Car)
 STR_Group_E8600_NAME                                   :[DTS] E8600
 STR_E8600_NAME                                         :[DTS/1Car] E8600
 STR_E8600_2Car_NAME                                    :[DTS/2Car] E8600
@@ -633,9 +633,23 @@ STR_REFIT_LIVERY_DHC_New_Cafe_B                        : DHC PP New Cafe B
 STR_REFIT_LIVERY_DHC_New_Cafe_C                        : DHC PP New Cafe C
 STR_REFIT_LIVERY_DHC_ON                                : DHC PP Old+New
 STR_REFIT_LIVERY_DHC_NO                                : DHC PP New+Old
-STR_REFIT_LIVERY_Diesel_Car_1961                       : Diesel Car 1961
-STR_REFIT_LIVERY_Diesel_Car_1966                       : Diesel Car 1966
-STR_REFIT_LIVERY_Diesel_Car_1975                       : Diesel Car 1975
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1961                 : 1st Original livery
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1966                 : 2nd Original livery
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A               : 2nd Single Cab Original livery Semi cross seat
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_B               : 2nd Single Cab Original livery Long seat
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O               : regular express train Double Cab
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O1              : regular express train Single Cab
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B1              : Bidulgi 1st
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B2              : Bidulgi 2nd
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BA              : Bidulgi Single Cab Semi cross seat
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BB              : Bidulgi Single Cab Long seat
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T               : Tongil Double Cab
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T1              : Tongil Singie Cab
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M               : Mugunghwa Double Cab
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M1              : Mugunghwa Singie Cab
+STR_REFIT_LIVERY_Special_Diesel_Car_1969               : Special car first livery
+STR_REFIT_LIVERY_Special_Diesel_Car_1986               : Special car first livery (AIRCON)
+STR_REFIT_LIVERY_Special_Diesel_Car_1994               : Special car second livery
 STR_REFIT_LIVERY_FEL_8500                              : Orginal
 STR_REFIT_LIVERY_FEL_8500_A_train                      : A-Train
 STR_REFIT_LIVERY_FEL_8500_A_train_New                  : A-Train New Color

@@ -43,8 +43,8 @@ STR_DHC_PP_8Car_NAME                                   :[DTS/8량] DHC PP 디젤
 STR_DHC_PP_14Car_NAME                                  :[DTS/14량] DHC PP 디젤동차
 STR_DHC_PP_16Car_NAME                                  :[DTS/16량] DHC PP 디젤동차
 STR_Group_Diesel_Car_NAME                              :[DTS] 디젤액압동차
-STR_Diesel_Car_NAME                                    :[DTS/단량] 디젤액압동차
-STR_Diesel_2Car_NAME                                   :[DTS/2량] 디젤액압동차
+STR_Nomal_Diesel_Car_NAME                              :[DTS/단량] 디젤액압동차
+STR_Special_Diesel_Car_NAME                            :[DTS/단량] 특별동차 (디젤액압동차)
 STR_Group_E8600_NAME                                   :[DTS] 8600호대 전기기관차
 STR_E8600_NAME                                         :[DTS/단량] 8600호대 전기기관차
 STR_E8600_2Car_NAME                                    :[DTS/2량] 8600호대 전기기관차
@@ -629,9 +629,23 @@ STR_REFIT_LIVERY_DHC_New_Cafe_B                        : DHC PP 신도색 카페
 STR_REFIT_LIVERY_DHC_New_Cafe_C                        : DHC PP 신도색 카페편성 C
 STR_REFIT_LIVERY_DHC_ON                                : DHC PP 구도색+신도색
 STR_REFIT_LIVERY_DHC_NO                                : DHC PP 신도색+구도색
-STR_REFIT_LIVERY_Diesel_Car_1961                       : 초기형 초기도색
-STR_REFIT_LIVERY_Diesel_Car_1966                       : 후기형 초기도색
-STR_REFIT_LIVERY_Diesel_Car_1975                       : 후기형 편운전대 초기도색
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1961                 : 초기형 초기도색
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1966                 : 후기형 초기도색
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_A               : 후기형 편운전대 초기도색 세미크로스시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1975_B               : 후기형 편운전대 초기도색 롱시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O               : 보급열차 양운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1974_O1              : 보급열차 편운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B1              : 비둘기호 초기형
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1980_B2              : 비둘기호 후기형
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BA              : 비둘기호 편운전대 세미크로스시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1984_BB              : 비둘기호 편운전대 롱시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T               : 통일호 양운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T1              : 통일호 편운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M               : 무궁화호 양운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M1              : 무궁화호 편운전대
+STR_REFIT_LIVERY_Special_Diesel_Car_1969               : 특별동차 초기도색
+STR_REFIT_LIVERY_Special_Diesel_Car_1986               : 특별동차 초기도색 (냉방개조)
+STR_REFIT_LIVERY_Special_Diesel_Car_1994               : 특별동차 구도색
 STR_REFIT_LIVERY_FEL_8500                              : 기본도색
 STR_REFIT_LIVERY_FEL_8500_A_train                      : A-Train
 STR_REFIT_LIVERY_FEL_8500_A_train_New                  : A-Train 신도색
