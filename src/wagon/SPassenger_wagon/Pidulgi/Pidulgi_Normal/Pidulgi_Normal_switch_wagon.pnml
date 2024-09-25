@@ -1,0 +1,107 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//객차
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1960_wagon, cargo_subtype) {
+    1: set_Pidulgi_Normal_C_MADE_1933;
+    2: set_Pidulgi_Normal_C_MADE_1938;
+    3: set_Pidulgi_Normal_C_MADE_1954;
+    set_Pidulgi_Normal_C_MADE_1922;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1962_wagon, cargo_subtype) {
+    1: set_Pidulgi_Normal_C_MADE_1933;
+    2: set_Pidulgi_Normal_C_MADE_1938;
+    3: set_Pidulgi_Normal_C_MADE_1954;
+    4: set_Pidulgi_Normal_C_1962_1;
+    5: set_Pidulgi_Normal_C_1962_2;
+    6: set_Pidulgi_Normal_L_1962;
+    set_Pidulgi_Normal_C_MADE_1922;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1963_wagon, cargo_subtype) {
+    1: set_Pidulgi_Normal_C_MADE_1933;
+    2: set_Pidulgi_Normal_C_MADE_1938;
+    3: set_Pidulgi_Normal_C_MADE_1954;
+    4: set_Pidulgi_Normal_C_1962_1;
+    5: set_Pidulgi_Normal_C_1962_2;
+    6: set_Pidulgi_Normal_L_1962;
+    7: set_Pidulgi_Normal_C_1963;
+    set_Pidulgi_Normal_C_MADE_1922;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1965_wagon, cargo_subtype) {
+    1: set_Pidulgi_Normal_C_MADE_1933;
+    2: set_Pidulgi_Normal_C_MADE_1938;
+    3: set_Pidulgi_Normal_C_MADE_1954;
+    4: set_Pidulgi_Normal_C_1962_1;
+    5: set_Pidulgi_Normal_C_1962_2;
+    6: set_Pidulgi_Normal_L_1962;
+    7: set_Pidulgi_Normal_C_1963;
+    8: set_Pidulgi_Normal_C_1965;
+    9: set_Pidulgi_Normal_L_1965;
+    set_Pidulgi_Normal_C_MADE_1922;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1966_wagon, cargo_subtype) {
+     1: set_Pidulgi_Normal_C_MADE_1933;
+     2: set_Pidulgi_Normal_C_MADE_1938;
+     3: set_Pidulgi_Normal_C_MADE_1954;
+     4: set_Pidulgi_Normal_C_1962_1;
+     5: set_Pidulgi_Normal_C_1962_2;
+     6: set_Pidulgi_Normal_L_1962;
+     7: set_Pidulgi_Normal_C_1963;
+     8: set_Pidulgi_Normal_C_1965;
+     9: set_Pidulgi_Normal_L_1965;
+    10: set_Pidulgi_Normal_DC_1966;
+    set_Pidulgi_Normal_C_MADE_1922;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1974_wagon, cargo_subtype) {
+     1: set_Pidulgi_Normal_C_MADE_1933;
+     2: set_Pidulgi_Normal_C_MADE_1938;
+     3: set_Pidulgi_Normal_C_MADE_1954;
+     4: set_Pidulgi_Normal_C_1962_1;
+     5: set_Pidulgi_Normal_C_1962_2;
+     6: set_Pidulgi_Normal_L_1962;
+     7: set_Pidulgi_Normal_C_1963;
+     8: set_Pidulgi_Normal_C_1965;
+     9: set_Pidulgi_Normal_L_1965;
+    10: set_Pidulgi_Normal_DC_1966;
+    11: set_Pidulgi_Normal_C_1962_R;
+    set_Pidulgi_Normal_C_MADE_1922;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1984_wagon, cargo_subtype) {
+     1: set_Pidulgi_Normal_C_MADE_1933;
+     2: set_Pidulgi_Normal_C_MADE_1938;
+     3: set_Pidulgi_Normal_C_MADE_1954;
+     4: set_Pidulgi_Normal_C_1962_1;
+     5: set_Pidulgi_Normal_C_1962_2;
+     6: set_Pidulgi_Normal_L_1962;
+     7: set_Pidulgi_Normal_C_1963;
+     8: set_Pidulgi_Normal_C_1965;
+     9: set_Pidulgi_Normal_L_1965;
+    10: set_Pidulgi_Normal_DC_1966;
+    11: set_Pidulgi_Normal_C_1962_R;
+    12: set_Pidulgi_Normal_C_MADE_1954_B;
+    13: set_Pidulgi_Normal_C_1962_B;
+    14: set_Pidulgi_Normal_L_1962_B;
+    15: set_Pidulgi_Normal_T_1962_B;
+    16: set_Pidulgi_Normal_T_1963_B1;
+    17: set_Pidulgi_Normal_T_1963_B2;
+    18: set_Pidulgi_Normal_FD_1963_B;
+    19: set_Pidulgi_Normal_T_1965_B;
+    20: set_Pidulgi_Normal_L_1965_B;
+    set_Pidulgi_Normal_C_MADE_1922;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_wagon, current_year) {
+    0..1961: sw_Pidulgi_Normal_1960_wagon;
+    1962: sw_Pidulgi_Normal_1962_wagon;
+    1963..1964: sw_Pidulgi_Normal_1963_wagon;
+    1965: sw_Pidulgi_Normal_1965_wagon;
+    1966..1973: sw_Pidulgi_Normal_1966_wagon;
+    1974..1983: sw_Pidulgi_Normal_1974_wagon;
+    sw_Pidulgi_Normal_1984_wagon;
+    }

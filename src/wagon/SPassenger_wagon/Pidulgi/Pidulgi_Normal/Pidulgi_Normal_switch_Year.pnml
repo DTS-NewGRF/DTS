@@ -1,0 +1,114 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1960_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1922);
+    1: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1933);
+    2: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1938);
+    3: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1962_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1922);
+    1: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1933);
+    2: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1938);
+    3: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954);
+    4: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_1);
+    5: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_2);
+    6: return string(STR_REFIT_LIVERY_Pidulgi_Normal_L_1962);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1963_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1922);
+    1: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1933);
+    2: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1938);
+    3: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954);
+    4: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_1);
+    5: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_2);
+    6: return string(STR_REFIT_LIVERY_Pidulgi_Normal_L_1962);
+    7: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1963);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1965_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1922);
+    1: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1933);
+    2: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1938);
+    3: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954);
+    4: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_1);
+    5: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_2);
+    6: return string(STR_REFIT_LIVERY_Pidulgi_Normal_L_1962);
+    7: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1963);
+    8: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1965);
+    9: return string(STR_REFIT_LIVERY_Pidulgi_Normal_L_1965);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1966_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1922);
+    1: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1933);
+    2: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1938);
+    3: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954);
+    4: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_1);
+    5: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_2);
+    6: return string(STR_REFIT_LIVERY_Pidulgi_Normal_L_1962);
+    7: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1963);
+    8: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1965);
+    9: return string(STR_REFIT_LIVERY_Pidulgi_Normal_L_1965);
+    10: return string(STR_REFIT_LIVERY_Pidulgi_Normal_DC_1966);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1974_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1922);
+    1: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1933);
+    2: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1938);
+    3: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954);
+    4: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_1);
+    5: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_2);
+    6: return string(STR_REFIT_LIVERY_Pidulgi_Normal_L_1962);
+    7: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1963);
+    8: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1965);
+    9: return string(STR_REFIT_LIVERY_Pidulgi_Normal_L_1965);
+    10: return string(STR_REFIT_LIVERY_Pidulgi_Normal_DC_1966);
+    11: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_R);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1984_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1922);
+     1: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1933);
+     2: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1938);
+     3: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954);
+     4: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_1);
+     5: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_2);
+     6: return string(STR_REFIT_LIVERY_Pidulgi_Normal_L_1962);
+     7: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1963);
+     8: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1965);
+     9: return string(STR_REFIT_LIVERY_Pidulgi_Normal_L_1965);
+    10: return string(STR_REFIT_LIVERY_Pidulgi_Normal_DC_1966);
+    11: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_R);
+    12: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954_B);
+    13: return string(STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_B);
+    14: return string(STR_REFIT_LIVERY_Pidulgi_Normal_L_1962_B);
+    15: return string(STR_REFIT_LIVERY_Pidulgi_Normal_T_1962_B);
+    16: return string(STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B1);
+    17: return string(STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B2);
+    18: return string(STR_REFIT_LIVERY_Pidulgi_Normal_FD_1963_B);
+    19: return string(STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B);
+    20: return string(STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, Pidulgi_Normal_cargo_subtype_text, current_year) {
+    0..1961: sw_Pidulgi_Normal_1960_cargo_subtype_text;
+    1962: sw_Pidulgi_Normal_1962_cargo_subtype_text;
+    1963..1964: sw_Pidulgi_Normal_1963_cargo_subtype_text;
+    1965: sw_Pidulgi_Normal_1965_cargo_subtype_text;
+    1966..1973: sw_Pidulgi_Normal_1966_cargo_subtype_text;
+    1974..1983: sw_Pidulgi_Normal_1974_cargo_subtype_text;
+    sw_Pidulgi_Normal_1984_cargo_subtype_text;
+    }

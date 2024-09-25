@@ -491,6 +491,8 @@ STR_PEX_Super_SN_NAME                                  :[DTS] PEX-SUPER first cl
 STR_PEX_Super_D_NAME                                   :[DTS] PEX-SUPER 2F
 STR_PEX_Super_B_NAME                                   :[DTS] PEX-SUPER restaurant
 STR_PEX_Super_S_NAME                                   :[DTS] PEX-SUPER sleeping car
+STR_Group_Pidulgi_NAME                                 :[DTS] Pidulgi
+STR_Pidulgi_Normal_NAME                                :[DTS] Pidulgi Normal
 STR_Generatar_2cc_NAME                                 :[DTS] Korea Generatar 2cc Car
 STR_Generatar_Real_OutLook_NAME                        :[DTS] Korea Outlook & Right Angle Shape Generator Car
 STR_Generatar_Real_Stream_lined_NAME                   :[DTS] Korea Stream lined & Long length Generator Car
@@ -573,6 +575,7 @@ STR_REFIT_train_configuration_Wine_Cinema_Passenger    :{BLACK}train configurati
 STR_REFIT_train_configuration_Wine_Panax_Passenger     :{BLACK}train configuration {}{GREEN} Wine Panax Passenger Car
 STR_REFIT_train_configuration_Mugunhwa_2cc             :{BLACK}train configuration {}{GREEN} Korea Mugunhwa 2cc Passenger vehicles
 STR_REFIT_train_configuration_Mugunghwa_Real           :{BLACK}train configuration {}{GREEN} Korea Mugunhwa Passenger vehicles
+STR_REFIT_train_configuration_Pidulgi                  :{BLACK}train configuration {}{GREEN} Korea Pidulgi Passenger vehicles
 STR_REFIT_train_configuration_Saemaeul_2cc             :{BLACK}train configuration {}{GREEN} Korea Saemaeul 2cc Passenger vehicles
 STR_REFIT_train_configuration_Saemaeul_Real            :{BLACK}train configuration {}{GREEN} Korea Saemaeul Passenger vehicles
 STR_REFIT_train_configuration_PEX                      :{BLACK}train configuration {}{GREEN} PEX
@@ -1111,6 +1114,27 @@ STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHFM            : Old livery Haetae famil
 STR_REFIT_LIVERY_Mugunhwa_Real_Special_NHF             : New livery Haetae
 STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSB             : Long length Saemaul downgrade B type
 STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSC             : Long length Saemaul downgrade C type
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1922            : 3rd coach passenger car (1922)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1933            : 3rd coach passenger car (1933)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1938            : 3rd coach passenger car (1938)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954            : 3rd coach passenger car (1954)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_1               : regular train cross seat 1
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_2               : regular train cross seat 2
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1962                 : regular train long seat (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1963                 : regular train cross seat (1963)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1965                 : regular train cross seat (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965                 : regular train long seat (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_DC_1966                : DC car non-motorized carriage first livery livery
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_R               : regular express train
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954_B          : Bidulgi first livery cross seat (1954)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_B               : Bidulgi first livery cross seat 1 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1962_B               : Bidulgi first livery long seat (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1962_B               : Bidulgi first livery cross seat 2 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B1              : Bidulgi first livery cross seat 1
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B2              : Bidulgi first livery cross seat 2
+STR_REFIT_LIVERY_Pidulgi_Normal_FD_1963_B              : Tong-il first class downgrade Bidulgi first livery
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B               : Bidulgi first livery (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B               : Bidulgi first livery long seat (1965) & DC car non-motorized carriage second livery
 STR_REFIT_LIVERY_Saemaeul_2cc_1wagon                   : Saemaeul 2cc 1wagon
 STR_REFIT_LIVERY_Saemaeul_2cc_1wagon_S                 : Saemaeul 2cc 1wagon Special
 STR_REFIT_LIVERY_Saemaeul_2cc_2wagon                   : Saemaeul 2cc 2wagon

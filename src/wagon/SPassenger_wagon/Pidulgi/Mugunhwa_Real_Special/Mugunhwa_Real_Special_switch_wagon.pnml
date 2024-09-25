@@ -1,0 +1,122 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//객차
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1977_wagon, cargo_subtype) {
+    set_Mugunhwa_Real_Special_MR1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1980_wagon, cargo_subtype) {
+    1: set_Mugunhwa_Real_Special_M1;
+    set_Mugunhwa_Real_Special_MR1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1987_wagon, cargo_subtype) {
+    1: set_Mugunhwa_Real_Special_M1;
+    2: set_Mugunhwa_Real_Special_SI;
+    set_Mugunhwa_Real_Special_MR1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1991_wagon, cargo_subtype) {
+    1: set_Mugunhwa_Real_Special_M1;
+    2: set_Mugunhwa_Real_Special_SI;
+    3: set_Mugunhwa_Real_Special_MF;
+    set_Mugunhwa_Real_Special_MR1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1993_wagon, cargo_subtype) {
+     1: set_Mugunhwa_Real_Special_M1;
+     2: set_Mugunhwa_Real_Special_SI;
+     3: set_Mugunhwa_Real_Special_MF;
+     4: set_Mugunhwa_Real_Special_SMA;
+     5: set_Mugunhwa_Real_Special_SMB;
+    set_Mugunhwa_Real_Special_MR1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1994_wagon, cargo_subtype) {
+     1: set_Mugunhwa_Real_Special_M1;
+     2: set_Mugunhwa_Real_Special_SI;
+     3: set_Mugunhwa_Real_Special_MF;
+     4: set_Mugunhwa_Real_Special_SMA;
+     5: set_Mugunhwa_Real_Special_SMB;
+     6: set_Mugunhwa_Real_Special_ONF;
+    set_Mugunhwa_Real_Special_MR1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1995_wagon, cargo_subtype) {
+     1: set_Mugunhwa_Real_Special_M1;
+     2: set_Mugunhwa_Real_Special_SI;
+     3: set_Mugunhwa_Real_Special_MF;
+     4: set_Mugunhwa_Real_Special_SMA;
+     5: set_Mugunhwa_Real_Special_SMB;
+     6: set_Mugunhwa_Real_Special_ONF;
+     7: set_Mugunhwa_Real_Special_OMI;
+     8: set_Mugunhwa_Real_Special_OSI;
+     9: set_Mugunhwa_Real_Special_OMF;
+    set_Mugunhwa_Real_Special_MR1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1996_wagon, cargo_subtype) {
+     1: set_Mugunhwa_Real_Special_M1;
+     2: set_Mugunhwa_Real_Special_SI;
+     3: set_Mugunhwa_Real_Special_MF;
+     4: set_Mugunhwa_Real_Special_SMA;
+     5: set_Mugunhwa_Real_Special_SMB;
+     6: set_Mugunhwa_Real_Special_ONF;
+     7: set_Mugunhwa_Real_Special_OMI;
+     8: set_Mugunhwa_Real_Special_OSI;
+     9: set_Mugunhwa_Real_Special_OMF;
+    10: set_Mugunhwa_Real_Special_OSA;
+    11: set_Mugunhwa_Real_Special_OSB;
+    set_Mugunhwa_Real_Special_MR1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_1998_wagon, cargo_subtype) {
+     1: set_Mugunhwa_Real_Special_M1;
+     2: set_Mugunhwa_Real_Special_SI;
+     3: set_Mugunhwa_Real_Special_MF;
+     4: set_Mugunhwa_Real_Special_SMA;
+     5: set_Mugunhwa_Real_Special_SMB;
+     6: set_Mugunhwa_Real_Special_ONF;
+     7: set_Mugunhwa_Real_Special_OMI;
+     8: set_Mugunhwa_Real_Special_OSI;
+     9: set_Mugunhwa_Real_Special_OMF;
+    10: set_Mugunhwa_Real_Special_OSA;
+    11: set_Mugunhwa_Real_Special_OSB;
+    12: set_Mugunhwa_Real_Special_OHF;
+    13: set_Mugunhwa_Real_Special_OHFM;
+    set_Mugunhwa_Real_Special_MR1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_2007_wagon, cargo_subtype) {
+     1: set_Mugunhwa_Real_Special_M1;
+     2: set_Mugunhwa_Real_Special_SI;
+     3: set_Mugunhwa_Real_Special_MF;
+     4: set_Mugunhwa_Real_Special_SMA;
+     5: set_Mugunhwa_Real_Special_SMB;
+     6: set_Mugunhwa_Real_Special_ONF;
+     7: set_Mugunhwa_Real_Special_OMI;
+     8: set_Mugunhwa_Real_Special_OSI;
+     9: set_Mugunhwa_Real_Special_OMF;
+    10: set_Mugunhwa_Real_Special_OSA;
+    11: set_Mugunhwa_Real_Special_OSB;
+    12: set_Mugunhwa_Real_Special_OHF;
+    13: set_Mugunhwa_Real_Special_OHFM;
+    14: set_Mugunhwa_Real_Special_NHF;
+    15: set_Mugunhwa_Real_Special_NSB;
+    16: set_Mugunhwa_Real_Special_NSC;
+    set_Mugunhwa_Real_Special_MR1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Mugunhwa_Real_Special_wagon, current_year) {
+    0..1979: sw_Mugunhwa_Real_Special_1977_wagon;
+    1980..1986: sw_Mugunhwa_Real_Special_1980_wagon;
+    1987..1990: sw_Mugunhwa_Real_Special_1987_wagon;
+    1991..1992: sw_Mugunhwa_Real_Special_1991_wagon;
+    1993: sw_Mugunhwa_Real_Special_1993_wagon;
+    1994: sw_Mugunhwa_Real_Special_1994_wagon;
+    1995: sw_Mugunhwa_Real_Special_1995_wagon;
+    1996..1997: sw_Mugunhwa_Real_Special_1996_wagon;
+    1998..2006: sw_Mugunhwa_Real_Special_1998_wagon;
+    sw_Mugunhwa_Real_Special_2007_wagon;
+    }

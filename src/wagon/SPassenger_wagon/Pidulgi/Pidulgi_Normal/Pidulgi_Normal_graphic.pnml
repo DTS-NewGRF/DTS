@@ -1,0 +1,157 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Pidulgi_Normal_C_MADE_1922, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Pidulgi_Normal_C_MADE_1933, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Pidulgi_Normal_C_MADE_1938, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Pidulgi_Normal_C_MADE_1954, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Pidulgi_Normal_C_1962_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Pidulgi_Normal_C_1962_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Pidulgi_Normal_L_1962, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Pidulgi_Normal_C_1963, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_Pidulgi_Normal_C_1965, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 216)
+}
+
+spriteset(set_Pidulgi_Normal_L_1965, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 243)
+}
+
+spriteset(set_Pidulgi_Normal_DC_1966, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 270)
+}
+
+spriteset(set_Pidulgi_Normal_C_1962_R, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 297)
+}
+
+spriteset(set_Pidulgi_Normal_C_MADE_1954_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 324)
+}
+
+spriteset(set_Pidulgi_Normal_C_1962_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 351)
+}
+
+spriteset(set_Pidulgi_Normal_L_1962_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 378)
+}
+
+spriteset(set_Pidulgi_Normal_T_1962_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 405)
+}
+
+spriteset(set_Pidulgi_Normal_T_1963_B1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 432)
+}
+
+spriteset(set_Pidulgi_Normal_T_1963_B2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 459)
+}
+
+spriteset(set_Pidulgi_Normal_FD_1963_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 486)
+}
+
+spriteset(set_Pidulgi_Normal_T_1965_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 513)
+}
+
+spriteset(set_Pidulgi_Normal_L_1965_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png") {
+    wagon_1F_F(80, 540)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Pidulgi_Normal_1960_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_Pidulgi_Normal_1962_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png"){
+    tmpl_wagon_purchase(0, 108)
+}
+
+spriteset(set_Pidulgi_Normal_1963_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png"){
+    tmpl_wagon_purchase(0, 189)
+}
+
+spriteset(set_Pidulgi_Normal_1965_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png"){
+    tmpl_wagon_purchase(0, 216)
+}
+
+spriteset(set_Pidulgi_Normal_1966_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png"){
+    tmpl_wagon_purchase(0, 270)
+}
+
+spriteset(set_Pidulgi_Normal_1974_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png"){
+    tmpl_wagon_purchase(0, 297)
+}
+
+spriteset(set_Pidulgi_Normal_1984_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Pidulgi/Pidulgi_Normal/Pidulgi_Normal.png"){
+    tmpl_wagon_purchase(0, 324)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1960_purchase, cargo_subtype) {
+    set_Pidulgi_Normal_1960_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1962_purchase, cargo_subtype) {
+    set_Pidulgi_Normal_1962_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1963_purchase, cargo_subtype) {
+    set_Pidulgi_Normal_1963_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1965_purchase, cargo_subtype) {
+    set_Pidulgi_Normal_1965_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1966_purchase, cargo_subtype) {
+    set_Pidulgi_Normal_1966_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1974_purchase, cargo_subtype) {
+    set_Pidulgi_Normal_1974_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1984_purchase, cargo_subtype) {
+    set_Pidulgi_Normal_1984_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_purchase, current_year) {
+    0..1961: sw_Pidulgi_Normal_1960_purchase;
+    1962: sw_Pidulgi_Normal_1962_purchase;
+    1963..1964: sw_Pidulgi_Normal_1963_purchase;
+    1965: sw_Pidulgi_Normal_1965_purchase;
+    1966..1973: sw_Pidulgi_Normal_1966_purchase;
+    1974..1983: sw_Pidulgi_Normal_1974_purchase;
+    sw_Pidulgi_Normal_1984_purchase;
+    }

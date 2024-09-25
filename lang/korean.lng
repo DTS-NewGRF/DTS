@@ -489,6 +489,8 @@ STR_PEX_Super_SN_NAME                                  :[DTS] PEX-SUPER 특실
 STR_PEX_Super_D_NAME                                   :[DTS] PEX-SUPER 2층객차
 STR_PEX_Super_B_NAME                                   :[DTS] PEX-SUPER 식당차
 STR_PEX_Super_S_NAME                                   :[DTS] PEX-SUPER 침대차
+STR_Group_Pidulgi_NAME                                 :[DTS] 비둘기호
+STR_Pidulgi_Normal_NAME                                :[DTS] 비둘기호 일반실
 STR_Generatar_2cc_NAME                                 :[DTS/발전차] 한국 발전차 2cc
 STR_Generatar_Real_OutLook_NAME                        :[DTS/발전차] 한국 전망형 & 직각형 발전차
 STR_Generatar_Real_Stream_lined_NAME                   :[DTS/발전차] 한국 유선형, 고속일반 & 고속장대형 발전차
@@ -569,6 +571,7 @@ STR_REFIT_train_configuration_Wine_Cinema_Passenger    :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_Wine_Panax_Passenger     :{BLACK}열차구성 {}{GREEN}[관광열차] 와인인삼트레인
 STR_REFIT_train_configuration_Mugunhwa_2cc             :{BLACK}열차구성 {}{GREEN}[기관차연결] 한국형 무궁화호 2cc 객차
 STR_REFIT_train_configuration_Mugunghwa_Real           :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 무궁화호 객차{}년도와 실제 열차에 맞추어 적용됩니다.
+STR_REFIT_train_configuration_Pidulgi                  :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 비둘기호 객차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_Saemaeul_2cc             :{BLACK}열차구성 {}{GREEN}[기관차연결] 한국형 새마을호 객차
 STR_REFIT_train_configuration_Saemaeul_Real            :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 새마을호 객차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_PEX                      :{BLACK}열차구성 {}{GREEN}[기관차연결] PEX
@@ -1107,6 +1110,28 @@ STR_REFIT_LIVERY_Mugunhwa_Real_Special_OHFM            : 해태특실 구도색 
 STR_REFIT_LIVERY_Mugunhwa_Real_Special_NHF             : 해태특실 신도색
 STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSB             : 장대형 새마을호 격하 B타입
 STR_REFIT_LIVERY_Mugunhwa_Real_Special_NSC             : 장대형 새마을호 격하 C타입
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1922            : 3등 객차 (1922)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1933            : 3등 객차 (1933)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1938            : 3등 객차 (1938)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954            : 3등 객차 (1954)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_1               : 보통열차 크로스시트 1
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_2               : 보통열차 크로스시트 2
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1962                 : 보통열차 롱시트 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1963                 : 보통열차 크로스시트 (1963)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1965                 : 보통열차 크로스시트 (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965                 : 보통열차 롱시트 (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_DC_1966                : 디젤액압동차 부수차 초기도색
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_R               : 보통급행 객차
+STR_REFIT_LIVERY_Pidulgi_Normal_C_MADE_1954_B          : 비둘기호 초기도색 크로스시트 (1954)
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_B               : 비둘기호 초기도색 크로스시트 1 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1962_B               : 비둘기호 초기도색 롱시트 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1962_B               : 비둘기호 초기도색 크로스시트 2 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B1              : 비둘기호 초기도색 크로스시트 1 (1963)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B2              : 비둘기호 초기도색 크로스시트 2 (1963)
+STR_REFIT_LIVERY_Pidulgi_Normal_FD_1963_B              : 통일호 특실 격하 비둘기호 초기도색
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B               : 비둘기호 초기도색 (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B               : 비둘기호 초기도색 롱시트 (1965) & 디젤액압동차 부수차
+
 STR_REFIT_LIVERY_Saemaeul_2cc_1wagon                   : 일반실 관광호
 STR_REFIT_LIVERY_Saemaeul_2cc_1wagon_S                 : 일반실 관광호 특실
 STR_REFIT_LIVERY_Saemaeul_2cc_2wagon                   : 일반실 유선형 객차 초기 도색
