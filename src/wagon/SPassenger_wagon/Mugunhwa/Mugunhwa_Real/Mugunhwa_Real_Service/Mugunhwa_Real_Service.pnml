@@ -20,6 +20,7 @@ item (FEAT_TRAINS, Mugunhwa_Real_Service, 2391){
         variant_group:                  Mugunhwa_2cc;
 
         //spec
+        speed:                          150km/h;
         power:                          0 kW;
         weight:                         20 ton;
         tractive_effort_coefficient:    0.3;
