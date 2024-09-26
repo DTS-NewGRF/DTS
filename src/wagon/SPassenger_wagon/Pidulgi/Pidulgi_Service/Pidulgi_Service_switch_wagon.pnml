@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//객차
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1960_wagon, cargo_subtype) {
+    set_Pidulgi_Service_C_MADE_1936;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1964_wagon, cargo_subtype) {
+    1: set_Pidulgi_Service_1964;
+    set_Pidulgi_Service_C_MADE_1936;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1994_wagon, cargo_subtype) {
+    1: set_Pidulgi_Service_1964;
+    2: set_Pidulgi_Service_C_1962_B2;
+    3: set_Pidulgi_Service_L_1962_B2;
+    4: set_Pidulgi_Service_T_1962_B2;
+    5: set_Pidulgi_Service_T_1963_B3;
+    6: set_Pidulgi_Service_T_1963_B4;
+    7: set_Pidulgi_Service_T_1965_B2;
+    8: set_Pidulgi_Service_L_1965_B2;
+    set_Pidulgi_Service_C_MADE_1936;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1997_wagon, cargo_subtype) {
+    1: set_Pidulgi_Service_1964;
+    2: set_Pidulgi_Service_C_1962_B2;
+    3: set_Pidulgi_Service_L_1962_B2;
+    4: set_Pidulgi_Service_T_1962_B2;
+    5: set_Pidulgi_Service_T_1963_B3;
+    6: set_Pidulgi_Service_T_1963_B4;
+    7: set_Pidulgi_Service_T_1965_B2;
+    8: set_Pidulgi_Service_L_1965_B2;
+    9: set_Pidulgi_Service_L_1965_B3;
+    set_Pidulgi_Service_C_MADE_1936;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_wagon, current_year) {
+    0..1963: sw_Pidulgi_Service_1960_wagon;
+    1964..1993: sw_Pidulgi_Service_1964_wagon;
+    1994..1996: sw_Pidulgi_Service_1994_wagon;
+    sw_Pidulgi_Service_1997_wagon;
+    }

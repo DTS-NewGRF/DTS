@@ -493,6 +493,11 @@ STR_PEX_Super_B_NAME                                   :[DTS] PEX-SUPER restaura
 STR_PEX_Super_S_NAME                                   :[DTS] PEX-SUPER sleeping car
 STR_Group_Pidulgi_NAME                                 :[DTS] Pidulgi
 STR_Pidulgi_Normal_NAME                                :[DTS] Pidulgi Normal
+STR_Pidulgi_Service_NAME                               :[DTS] Pidulgi Restaurant
+STR_Group_Tong_il_NAME                                 :[DTS] Tong_il
+STR_Tong_il_Normal_NAME                                :[DTS] Tong-il Regular class
+STR_Tong_il_Service_NAME                               :[DTS] Tong-il restaurant car & sleeping car
+STR_Tong_il_Special_NAME                               :[DTS] Tong-il First class
 STR_Generatar_2cc_NAME                                 :[DTS] Korea Generatar 2cc Car
 STR_Generatar_Real_OutLook_NAME                        :[DTS] Korea Outlook & Right Angle Shape Generator Car
 STR_Generatar_Real_Stream_lined_NAME                   :[DTS] Korea Stream lined & Long length Generator Car
@@ -576,6 +581,7 @@ STR_REFIT_train_configuration_Wine_Panax_Passenger     :{BLACK}train configurati
 STR_REFIT_train_configuration_Mugunhwa_2cc             :{BLACK}train configuration {}{GREEN} Korea Mugunhwa 2cc Passenger vehicles
 STR_REFIT_train_configuration_Mugunghwa_Real           :{BLACK}train configuration {}{GREEN} Korea Mugunhwa Passenger vehicles
 STR_REFIT_train_configuration_Pidulgi                  :{BLACK}train configuration {}{GREEN} Korea Pidulgi Passenger vehicles
+STR_REFIT_train_configuration_Tong_il                  :{BLACK}train configuration {}{GREEN} Korea Tong_il Passenger vehicles
 STR_REFIT_train_configuration_Saemaeul_2cc             :{BLACK}train configuration {}{GREEN} Korea Saemaeul 2cc Passenger vehicles
 STR_REFIT_train_configuration_Saemaeul_Real            :{BLACK}train configuration {}{GREEN} Korea Saemaeul Passenger vehicles
 STR_REFIT_train_configuration_PEX                      :{BLACK}train configuration {}{GREEN} PEX
@@ -1135,6 +1141,44 @@ STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B2              : Bidulgi first livery cr
 STR_REFIT_LIVERY_Pidulgi_Normal_FD_1963_B              : Tong-il first class downgrade Bidulgi first livery
 STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B               : Bidulgi first livery (1965)
 STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B               : Bidulgi first livery long seat (1965) & DC car non-motorized carriage second livery
+STR_REFIT_LIVERY_Pidulgi_Service_C_MADE_1936           : regular train Restaurant (1936)
+STR_REFIT_LIVERY_Pidulgi_Service_1964                  : regular train Restaurant (1964)
+STR_REFIT_LIVERY_Pidulgi_Service_C_1962_B2             : Bidulgi second livery cross seat 1 (1962)
+STR_REFIT_LIVERY_Pidulgi_Service_L_1962_B2             : Bidulgi second livery long seat (1962)
+STR_REFIT_LIVERY_Pidulgi_Service_T_1962_B2             : Bidulgi second livery cross seat 2 (1962)
+STR_REFIT_LIVERY_Pidulgi_Service_T_1963_B3             : Bidulgi second livery cross seat (1963)
+STR_REFIT_LIVERY_Pidulgi_Service_T_1963_B4             : Tongil express downgrade second livery conversion cross seat
+STR_REFIT_LIVERY_Pidulgi_Service_T_1965_B2             : Bidulgi second livery cross seat (1965)
+STR_REFIT_LIVERY_Pidulgi_Service_L_1965_B2             : Bidulgi second livery long seat (1965) & DC car non-motorized carriage third livery
+STR_REFIT_LIVERY_Pidulgi_Service_L_1965_B3             : Bidulgi third livery long seat (1965) & DC car non-motorized carriage Fourth livery
+STR_REFIT_LIVERY_Tong_il_Normal_T_1963                 : Super Express (1963)
+STR_REFIT_LIVERY_Tong_il_Normal_T_1968                 : Express train
+STR_REFIT_LIVERY_Tong_il_Normal_T_1974                 : Super Express (1974)
+STR_REFIT_LIVERY_Tong_il_Normal_FD_1963                : Super Express train first class downgrade regular class
+STR_REFIT_LIVERY_Tong_il_Normal_B_1962_U               : Bidulgi Upgrade car
+STR_REFIT_LIVERY_Tong_il_Normal_T2_1963_1968           : Tong-il first livery (1963, 1968)
+STR_REFIT_LIVERY_Tong_il_Normal_T2_1974                : Tong-il first livery (1974)
+STR_REFIT_LIVERY_Tong_il_Normal_FD_1963_T              : Tong-il first class downgrade regular class
+STR_REFIT_LIVERY_Tong_il_Normal_T2_1984                : Tong-il first livery (Aircon)
+STR_REFIT_LIVERY_Tong_il_Normal_T_1994                 : Tong-il second livery (Express)
+STR_REFIT_LIVERY_Tong_il_Normal_TO1                    : Mugunghwa downgrade regular class
+STR_REFIT_LIVERY_Tong_il_Normal_TO2                    : Mugunghwa downgrade studio
+STR_REFIT_LIVERY_Tong_il_Normal_T_1997                 : Tong-il second livery (All stop)
+STR_REFIT_LIVERY_Tong_il_Service_D_1966	               : Super Express restaurant car
+STR_REFIT_LIVERY_Tong_il_Service_S_1966                : 1st Super Express sleeping car
+STR_REFIT_LIVERY_Tong_il_Service_D_1968                : Express train restaurant car
+STR_REFIT_LIVERY_Tong_il_Service_S_1975                : 2nd Super Express sleeping car
+STR_REFIT_LIVERY_Tong_il_Service_S_1984                : Tong-il first livery sleeping car
+STR_REFIT_LIVERY_Tong_il_Service_S_1994                : Tong-il second livery (Express) sleeping car
+STR_REFIT_LIVERY_Tong_il_Service_S_1997                : Tong-il second livery (All stop) sleeping car
+STR_REFIT_LIVERY_Tong_il_Special_F_1963_2              : 2nd coach passenger car
+STR_REFIT_LIVERY_Tong_il_Special_F_1963_T              : Super Express (1963)
+STR_REFIT_LIVERY_Tong_il_Special_F_1968                : Express train
+STR_REFIT_LIVERY_Tong_il_Special_F_1974                : Super Express (1974)
+STR_REFIT_LIVERY_Tong_il_Special_F2_1974               : Tong-il first livery
+STR_REFIT_LIVERY_Tong_il_Special_F2_1984               : Tong-il first livery (Aircon)
+STR_REFIT_LIVERY_Tong_il_Special_F_1994                : Tong-il second livery (Express)
+STR_REFIT_LIVERY_Tong_il_Special_F_1997                : Tong-il second livery (All stop)
 STR_REFIT_LIVERY_Saemaeul_2cc_1wagon                   : Saemaeul 2cc 1wagon
 STR_REFIT_LIVERY_Saemaeul_2cc_1wagon_S                 : Saemaeul 2cc 1wagon Special
 STR_REFIT_LIVERY_Saemaeul_2cc_2wagon                   : Saemaeul 2cc 2wagon

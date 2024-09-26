@@ -21,9 +21,9 @@ item(FEAT_TRAINS, DFX_10Car, 2112){
         
         //spec
         speed:                          600km/h;
-        power:                          10000 kW;
-        weight:                         20 ton;
-        tractive_effort_coefficient:    0.3;
+        power:                          40000 kW;
+        weight:                         60 ton;
+        tractive_effort_coefficient:    0.86;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;

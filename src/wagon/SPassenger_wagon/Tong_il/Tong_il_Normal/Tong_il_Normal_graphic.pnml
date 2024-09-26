@@ -1,0 +1,125 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Tong_il_Normal_T_1963, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Tong_il_Normal_T_1968, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Tong_il_Normal_T_1974, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Tong_il_Normal_FD_1963, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Tong_il_Normal_B_1962_U, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Tong_il_Normal_T2_1963_1968, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Tong_il_Normal_T2_1974, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Tong_il_Normal_FD_1963_T, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    wagon_1F_F(80, 189)
+}
+
+spriteset(set_Tong_il_Normal_T2_1984, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    wagon_1F_F(80, 216)
+}
+
+spriteset(set_Tong_il_Normal_T_1994, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    wagon_1F_F(80, 243)
+}
+
+spriteset(set_Tong_il_Normal_TO1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    wagon_1F_F(80, 270)
+}
+
+spriteset(set_Tong_il_Normal_TO2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    wagon_1F_F(80, 297)
+}
+
+spriteset(set_Tong_il_Normal_T_1997, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png") {
+    wagon_1F_F(80, 324)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Tong_il_Normal_1963_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_Tong_il_Normal_1968_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png"){
+    tmpl_wagon_purchase(0, 27)
+}
+
+spriteset(set_Tong_il_Normal_1974_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png"){
+    tmpl_wagon_purchase(0, 54)
+}
+
+spriteset(set_Tong_il_Normal_1984_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png"){
+    tmpl_wagon_purchase(0, 108)
+}
+
+spriteset(set_Tong_il_Normal_1994_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png"){
+    tmpl_wagon_purchase(0, 243)
+}
+
+spriteset(set_Tong_il_Normal_1996_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png"){
+    tmpl_wagon_purchase(0, 270)
+}
+
+spriteset(set_Tong_il_Normal_1997_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Normal/Tong_il_Normal.png"){
+    tmpl_wagon_purchase(0, 324)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1963_purchase, cargo_subtype) {
+    set_Tong_il_Normal_1963_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1968_purchase, cargo_subtype) {
+    set_Tong_il_Normal_1968_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1974_purchase, cargo_subtype) {
+    set_Tong_il_Normal_1974_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1984_purchase, cargo_subtype) {
+    set_Tong_il_Normal_1984_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1994_purchase, cargo_subtype) {
+    set_Tong_il_Normal_1994_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1996_purchase, cargo_subtype) {
+    set_Tong_il_Normal_1996_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1997_purchase, cargo_subtype) {
+    set_Tong_il_Normal_1997_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_purchase, current_year) {
+    0..1967: sw_Tong_il_Normal_1963_purchase;
+    1968..1973: sw_Tong_il_Normal_1968_purchase;
+    1974..1983: sw_Tong_il_Normal_1974_purchase;
+    1984..1993: sw_Tong_il_Normal_1984_purchase;
+    1994..1995: sw_Tong_il_Normal_1994_purchase;
+    1996: sw_Tong_il_Normal_1996_purchase;
+    sw_Tong_il_Normal_1997_purchase;
+    }

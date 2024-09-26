@@ -2,27 +2,26 @@
 객차형 승객 차량
 --------------------------------------------------------------------*/
 // Graphics
-#include "Mugunhwa_Real_Special_graphic.pnml"
+#include "Tong_il_Service_graphic.pnml"
 
 // Switch
-#include "Mugunhwa_Real_Special_switch.pnml"
+#include "Tong_il_Service_switch.pnml"
 
 /*--------------------------------------------------------------------
-한국형 무궁화호 승객 차량
+한국형 비둘기호 승객 차량
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, Mugunhwa_Real_Special, 2390){
+item (FEAT_TRAINS, Tong_il_Service, 2473){
     property {
-        name:                           string(STR_Mugunhwa_Real_Special_NAME);
+        name:                           string(STR_Tong_il_Service_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1977, 1, 1);
+        introduction_date:              date(1966, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Mugunhwa_2cc;
+        variant_group:                  Group_Tong_il;
 
         //spec
-        speed:                          150km/h;
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         35 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model
@@ -32,7 +31,7 @@ item (FEAT_TRAINS, Mugunhwa_Real_Special, 2390){
         reliability_decay:              0;
 
         //Cargo
-        cargo_capacity:                 56;
+        cargo_capacity:                 50;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -48,14 +47,14 @@ item (FEAT_TRAINS, Mugunhwa_Real_Special, 2390){
     }
 
     graphics {
-        default:                        sw_Mugunhwa_Real_Special_wagon;
-        purchase:                       sw_Mugunhwa_Real_Special_purchase;
-        cargo_capacity:                 sw_Mugunhwa_Real_Special_capacity_in_custom;
-        speed:                          sw_Mugunhwa_Real_Special_speed;
+        default:                        sw_Tong_il_Service_wagon;
+        purchase:                       sw_Tong_il_Service_purchase;
+        cargo_capacity:                 sw_Tong_il_Service_capacity_in_custom;
+        speed:                          sw_Tong_il_Service_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_Mugunhwa_Real_Special_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Mugunghwa_Real);
+        cargo_subtype_text:             sw_Tong_il_Service_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_Pidulgi);
         }
     }

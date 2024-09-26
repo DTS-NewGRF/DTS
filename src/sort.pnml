@@ -479,6 +479,11 @@ sort(FEAT_TRAINS, [
     PEX_Super_S,                             //2444
     Group_Pidulgi,                           //2468
     Pidulgi_Normal,                          //2469
+    Pidulgi_Service,                         //2470
+    Group_Tong_il,                           //2471
+    Tong_il_Normal,                          //2472
+    Pidulgi_Service,                         //2473
+    Tong_il_Special,                         //2474
     CTS_SPassenger_Car,                      //2031
     ETS_SPassenger_Car,                      //2061
     Generatar_2cc,                           //2003

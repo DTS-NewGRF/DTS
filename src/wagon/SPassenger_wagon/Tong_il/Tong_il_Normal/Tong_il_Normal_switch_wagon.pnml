@@ -1,0 +1,85 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//객차
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1963_wagon, cargo_subtype) {
+    set_Tong_il_Normal_T_1963;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1968_wagon, cargo_subtype) {
+    1: set_Tong_il_Normal_T_1968;
+    set_Tong_il_Normal_T_1963;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1974_wagon, cargo_subtype) {
+    1: set_Tong_il_Normal_T_1968;
+    2: set_Tong_il_Normal_T_1974;
+    3: set_Tong_il_Normal_FD_1963;
+    set_Tong_il_Normal_T_1963;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1984_wagon, cargo_subtype) {
+    1: set_Tong_il_Normal_T_1968;
+    2: set_Tong_il_Normal_T_1974;
+    3: set_Tong_il_Normal_FD_1963;
+    4: set_Tong_il_Normal_B_1962_U;
+    5: set_Tong_il_Normal_T2_1963_1968;
+    6: set_Tong_il_Normal_T2_1974;
+    7: set_Tong_il_Normal_FD_1963_T;
+    8: set_Tong_il_Normal_T2_1984;
+    set_Tong_il_Normal_T_1963;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1994_wagon, cargo_subtype) {
+    1: set_Tong_il_Normal_T_1968;
+    2: set_Tong_il_Normal_T_1974;
+    3: set_Tong_il_Normal_FD_1963;
+    4: set_Tong_il_Normal_B_1962_U;
+    5: set_Tong_il_Normal_T2_1963_1968;
+    6: set_Tong_il_Normal_T2_1974;
+    7: set_Tong_il_Normal_FD_1963_T;
+    8: set_Tong_il_Normal_T2_1984;
+    9: set_Tong_il_Normal_T_1994;
+    set_Tong_il_Normal_T_1963;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1996_wagon, cargo_subtype) {
+     1: set_Tong_il_Normal_T_1968;
+     2: set_Tong_il_Normal_T_1974;
+     3: set_Tong_il_Normal_FD_1963;
+     4: set_Tong_il_Normal_B_1962_U;
+     5: set_Tong_il_Normal_T2_1963_1968;
+     6: set_Tong_il_Normal_T2_1974;
+     7: set_Tong_il_Normal_FD_1963_T;
+     8: set_Tong_il_Normal_T2_1984;
+     9: set_Tong_il_Normal_T_1994;
+    10: set_Tong_il_Normal_TO1;
+    11: set_Tong_il_Normal_TO2;
+    set_Tong_il_Normal_T_1963;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1997_wagon, cargo_subtype) {
+     1: set_Tong_il_Normal_T_1968;
+     2: set_Tong_il_Normal_T_1974;
+     3: set_Tong_il_Normal_FD_1963;
+     4: set_Tong_il_Normal_B_1962_U;
+     5: set_Tong_il_Normal_T2_1963_1968;
+     6: set_Tong_il_Normal_T2_1974;
+     7: set_Tong_il_Normal_FD_1963_T;
+     8: set_Tong_il_Normal_T2_1984;
+     9: set_Tong_il_Normal_T_1994;
+    10: set_Tong_il_Normal_TO1;
+    11: set_Tong_il_Normal_TO2;
+    12: set_Tong_il_Normal_T_1997;
+    set_Tong_il_Normal_T_1963;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_wagon, current_year) {
+    0..1967: sw_Tong_il_Normal_1963_wagon;
+    1968..1973: sw_Tong_il_Normal_1968_wagon;
+    1974..1983: sw_Tong_il_Normal_1974_wagon;
+    1984..1993: sw_Tong_il_Normal_1984_wagon;
+    1994..1995: sw_Tong_il_Normal_1994_wagon;
+    1996: sw_Tong_il_Normal_1996_wagon;
+    sw_Tong_il_Normal_1997_wagon;
+    }

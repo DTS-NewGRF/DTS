@@ -491,6 +491,11 @@ STR_PEX_Super_B_NAME                                   :[DTS] PEX-SUPER 식당�
 STR_PEX_Super_S_NAME                                   :[DTS] PEX-SUPER 침대차
 STR_Group_Pidulgi_NAME                                 :[DTS] 비둘기호
 STR_Pidulgi_Normal_NAME                                :[DTS] 비둘기호 일반실
+STR_Pidulgi_Service_NAME                               :[DTS] 비둘기호 식당차
+STR_Group_Tong_il_NAME                                 :[DTS] 통일호
+STR_Tong_il_Normal_NAME                                :[DTS] 통일호 일반실
+STR_Tong_il_Service_NAME                               :[DTS] 통일호 식당차 & 침대차
+STR_Tong_il_Special_NAME                               :[DTS] 통일호 특실
 STR_Generatar_2cc_NAME                                 :[DTS/발전차] 한국 발전차 2cc
 STR_Generatar_Real_OutLook_NAME                        :[DTS/발전차] 한국 전망형 & 직각형 발전차
 STR_Generatar_Real_Stream_lined_NAME                   :[DTS/발전차] 한국 유선형, 고속일반 & 고속장대형 발전차
@@ -572,6 +577,7 @@ STR_REFIT_train_configuration_Wine_Panax_Passenger     :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_Mugunhwa_2cc             :{BLACK}열차구성 {}{GREEN}[기관차연결] 한국형 무궁화호 2cc 객차
 STR_REFIT_train_configuration_Mugunghwa_Real           :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 무궁화호 객차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_Pidulgi                  :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 비둘기호 객차{}년도와 실제 열차에 맞추어 적용됩니다.
+STR_REFIT_train_configuration_Tong_il                  :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 통일호 객차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_Saemaeul_2cc             :{BLACK}열차구성 {}{GREEN}[기관차연결] 한국형 새마을호 객차
 STR_REFIT_train_configuration_Saemaeul_Real            :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 새마을호 객차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_PEX                      :{BLACK}열차구성 {}{GREEN}[기관차연결] PEX
@@ -1131,7 +1137,44 @@ STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B2              : 비둘기호 초기도�
 STR_REFIT_LIVERY_Pidulgi_Normal_FD_1963_B              : 통일호 특실 격하 비둘기호 초기도색
 STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B               : 비둘기호 초기도색 (1965)
 STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B               : 비둘기호 초기도색 롱시트 (1965) & 디젤액압동차 부수차
-
+STR_REFIT_LIVERY_Pidulgi_Service_C_MADE_1936           : 보통열차 식당차 (1936)
+STR_REFIT_LIVERY_Pidulgi_Service_1964                  : 보통열차 식당차 (1964)
+STR_REFIT_LIVERY_Pidulgi_Service_C_1962_B2             : 비둘기호 구도색 크로스시트 1 (1962)
+STR_REFIT_LIVERY_Pidulgi_Service_L_1962_B2             : 비둘기호 구도색 롱시트 (1962)
+STR_REFIT_LIVERY_Pidulgi_Service_T_1962_B2             : 비둘기호 구도색 크로스시트 2 (1962)
+STR_REFIT_LIVERY_Pidulgi_Service_T_1963_B3             : 비둘기호 구도색 크로스시트 (1963)
+STR_REFIT_LIVERY_Pidulgi_Service_T_1963_B4             : 통일호 격하 비둘기호 구도색 크로스시트
+STR_REFIT_LIVERY_Pidulgi_Service_T_1965_B2             : 비둘기호 구도색 크로스시트 (1965)
+STR_REFIT_LIVERY_Pidulgi_Service_L_1965_B2             : 비둘기호 구도색 롱시트 (1965) & 디젤액압동차 부수차
+STR_REFIT_LIVERY_Pidulgi_Service_L_1965_B3             : 비둘기호 후기도색 롱시트 (1965) & 디젤액압동차 부수차
+STR_REFIT_LIVERY_Tong_il_Normal_T_1963                 : 특급열차 (1963)
+STR_REFIT_LIVERY_Tong_il_Normal_T_1968                 : 급행열차
+STR_REFIT_LIVERY_Tong_il_Normal_T_1974                 : 특급열차 (1974)
+STR_REFIT_LIVERY_Tong_il_Normal_FD_1963                : 특급열차 특실격하
+STR_REFIT_LIVERY_Tong_il_Normal_B_1962_U               : 비둘기호 격상 통일호
+STR_REFIT_LIVERY_Tong_il_Normal_T2_1963_1968           : 통일호 초기도색 비냉방 (1963, 1968)
+STR_REFIT_LIVERY_Tong_il_Normal_T2_1974                : 통일호 초기도색 비냉방 (1974)
+STR_REFIT_LIVERY_Tong_il_Normal_FD_1963_T              : 통일호 초기도색 특실격하
+STR_REFIT_LIVERY_Tong_il_Normal_T2_1984                : 통일호 초기도색 냉방개조
+STR_REFIT_LIVERY_Tong_il_Normal_T_1994                 : 통일호 구도색 (급행)
+STR_REFIT_LIVERY_Tong_il_Normal_TO1                    : 무궁화호 격하 통일호 구도색 일반실
+STR_REFIT_LIVERY_Tong_il_Normal_TO2                    : 무궁화호 격하 통일호 구도색 방송실
+STR_REFIT_LIVERY_Tong_il_Normal_T_1997                 : 통일호 구도색 (완행)
+STR_REFIT_LIVERY_Tong_il_Service_D_1966	               : 특급열차 식당차
+STR_REFIT_LIVERY_Tong_il_Service_S_1966                : 특급열차 침대차 초기형
+STR_REFIT_LIVERY_Tong_il_Service_D_1968                : 급행열차 식당차
+STR_REFIT_LIVERY_Tong_il_Service_S_1975                : 특급열차 침대차 후기형
+STR_REFIT_LIVERY_Tong_il_Service_S_1984                : 통일호 초기도색 침대차
+STR_REFIT_LIVERY_Tong_il_Service_S_1994                : 통일호 급행 침대차
+STR_REFIT_LIVERY_Tong_il_Service_S_1997                : 통일호 완행 침대차
+STR_REFIT_LIVERY_Tong_il_Special_F_1963_2              : 2등 객차
+STR_REFIT_LIVERY_Tong_il_Special_F_1963_T              : 특급열차 (1963)
+STR_REFIT_LIVERY_Tong_il_Special_F_1968                : 급행열차
+STR_REFIT_LIVERY_Tong_il_Special_F_1974                : 특급열차 (1974)
+STR_REFIT_LIVERY_Tong_il_Special_F2_1974               : 통일호 초기도색
+STR_REFIT_LIVERY_Tong_il_Special_F2_1984               : 통일호 초기도색 (냉방개조)
+STR_REFIT_LIVERY_Tong_il_Special_F_1994                : 통일호 구도색 (급행)
+STR_REFIT_LIVERY_Tong_il_Special_F_1997                : 통일호 구도색 (완행)
 STR_REFIT_LIVERY_Saemaeul_2cc_1wagon                   : 일반실 관광호
 STR_REFIT_LIVERY_Saemaeul_2cc_1wagon_S                 : 일반실 관광호 특실
 STR_REFIT_LIVERY_Saemaeul_2cc_2wagon                   : 일반실 유선형 객차 초기 도색

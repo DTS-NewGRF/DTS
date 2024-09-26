@@ -1,0 +1,6 @@
+/*--------------------------------------------------------------------
+통일호 객차 리스트
+--------------------------------------------------------------------*/
+#include "Tong_il_Normal/Tong_il_Normal.pnml"
+#include "Tong_il_Service/Tong_il_Service.pnml"
+#include "Tong_il_Special/Tong_il_Special.pnml"

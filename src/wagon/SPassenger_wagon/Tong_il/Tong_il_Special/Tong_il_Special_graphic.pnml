@@ -1,0 +1,96 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Tong_il_Special_F_1963_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_Tong_il_Special_F_1963_T, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_Tong_il_Special_F_1968, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Tong_il_Special_F_1974, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Tong_il_Special_F2_1974, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_Tong_il_Special_F2_1984, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    wagon_1F_F(80, 135)
+}
+
+spriteset(set_Tong_il_Special_F_1994, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    wagon_1F_F(80, 162)
+}
+
+spriteset(set_Tong_il_Special_F_1997, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    wagon_1F_F(80, 189)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+// 구매차량 그래픽
+spriteset(set_Tong_il_Special_1963_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_Tong_il_Special_1968_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    tmpl_wagon_purchase(0, 54)
+}
+
+spriteset(set_Tong_il_Special_1974_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    tmpl_wagon_purchase(0, 81)
+}
+
+spriteset(set_Tong_il_Special_1984_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    tmpl_wagon_purchase(0, 108)
+}
+
+spriteset(set_Tong_il_Special_1994_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    tmpl_wagon_purchase(0, 162)
+}
+
+spriteset(set_Tong_il_Special_1997_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Tong_il/Tong_il_Special/Tong_il_Special.png") {
+    tmpl_wagon_purchase(0, 189)
+}
+
+// 구매차량 등장년도
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1963_purchase, cargo_subtype) {
+    set_Tong_il_Special_1963_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1968_purchase, cargo_subtype) {
+    set_Tong_il_Special_1968_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1974_purchase, cargo_subtype) {
+    set_Tong_il_Special_1974_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1984_purchase, cargo_subtype) {
+    set_Tong_il_Special_1984_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1994_purchase, cargo_subtype) {
+    set_Tong_il_Special_1994_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1997_purchase, cargo_subtype) {
+    set_Tong_il_Special_1997_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_purchase, current_year) {
+    0..1967: sw_Tong_il_Special_1963_purchase;
+    1968..1973: sw_Tong_il_Special_1968_purchase;
+    1974..1983: sw_Tong_il_Special_1974_purchase;
+    1984..1993: sw_Tong_il_Special_1984_purchase;
+    1994..1996: sw_Tong_il_Special_1994_purchase;
+    sw_Tong_il_Special_1997_purchase;
+    }

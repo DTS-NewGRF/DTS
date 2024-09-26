@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1960_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Pidulgi_Service_C_MADE_1936);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1964_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Pidulgi_Service_C_MADE_1936);
+    1: return string(STR_REFIT_LIVERY_Pidulgi_Service_1964);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1994_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Pidulgi_Service_C_MADE_1936);
+    1: return string(STR_REFIT_LIVERY_Pidulgi_Service_1964);
+    2: return string(STR_REFIT_LIVERY_Pidulgi_Service_C_1962_B2);
+    3: return string(STR_REFIT_LIVERY_Pidulgi_Service_L_1962_B2);
+    4: return string(STR_REFIT_LIVERY_Pidulgi_Service_T_1962_B2);
+    5: return string(STR_REFIT_LIVERY_Pidulgi_Service_T_1963_B3);
+    6: return string(STR_REFIT_LIVERY_Pidulgi_Service_T_1963_B4);
+    7: return string(STR_REFIT_LIVERY_Pidulgi_Service_T_1965_B2);
+    8: return string(STR_REFIT_LIVERY_Pidulgi_Service_L_1965_B2);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1997_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Pidulgi_Service_C_MADE_1936);
+    1: return string(STR_REFIT_LIVERY_Pidulgi_Service_1964);
+    2: return string(STR_REFIT_LIVERY_Pidulgi_Service_C_1962_B2);
+    3: return string(STR_REFIT_LIVERY_Pidulgi_Service_L_1962_B2);
+    4: return string(STR_REFIT_LIVERY_Pidulgi_Service_T_1962_B2);
+    5: return string(STR_REFIT_LIVERY_Pidulgi_Service_T_1963_B3);
+    6: return string(STR_REFIT_LIVERY_Pidulgi_Service_T_1963_B4);
+    7: return string(STR_REFIT_LIVERY_Pidulgi_Service_T_1965_B2);
+    8: return string(STR_REFIT_LIVERY_Pidulgi_Service_L_1965_B2);
+    9: return string(STR_REFIT_LIVERY_Pidulgi_Service_L_1965_B3);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, Pidulgi_Service_cargo_subtype_text, current_year) {
+    0..1963: sw_Pidulgi_Service_1960_cargo_subtype_text;
+    1964..1993: sw_Pidulgi_Service_1964_cargo_subtype_text;
+    1994..1996: sw_Pidulgi_Service_1994_cargo_subtype_text;
+    sw_Pidulgi_Service_1997_cargo_subtype_text;
+    }

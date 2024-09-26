@@ -1,0 +1,92 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1963_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1963);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1968_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1963);
+    1: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1968);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1974_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1963);
+    1: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1968);
+    2: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1974);
+    3: return string(STR_REFIT_LIVERY_Tong_il_Normal_FD_1963);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1984_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1963);
+    1: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1968);
+    2: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1974);
+    3: return string(STR_REFIT_LIVERY_Tong_il_Normal_FD_1963);
+    4: return string(STR_REFIT_LIVERY_Tong_il_Normal_B_1962_U);
+    5: return string(STR_REFIT_LIVERY_Tong_il_Normal_T2_1963_1968);
+    6: return string(STR_REFIT_LIVERY_Tong_il_Normal_T2_1974);
+    7: return string(STR_REFIT_LIVERY_Tong_il_Normal_FD_1963_T);
+    8: return string(STR_REFIT_LIVERY_Tong_il_Normal_T2_1984);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1994_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1963);
+    1: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1968);
+    2: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1974);
+    3: return string(STR_REFIT_LIVERY_Tong_il_Normal_FD_1963);
+    4: return string(STR_REFIT_LIVERY_Tong_il_Normal_B_1962_U);
+    5: return string(STR_REFIT_LIVERY_Tong_il_Normal_T2_1963_1968);
+    6: return string(STR_REFIT_LIVERY_Tong_il_Normal_T2_1974);
+    7: return string(STR_REFIT_LIVERY_Tong_il_Normal_FD_1963_T);
+    8: return string(STR_REFIT_LIVERY_Tong_il_Normal_T2_1984);
+    9: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1994);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1996_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1963);
+    1: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1968);
+    2: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1974);
+    3: return string(STR_REFIT_LIVERY_Tong_il_Normal_FD_1963);
+    44: return string(STR_REFIT_LIVERY_Tong_il_Normal_B_1962_U);
+    5: return string(STR_REFIT_LIVERY_Tong_il_Normal_T2_1963_1968);
+    6: return string(STR_REFIT_LIVERY_Tong_il_Normal_T2_1974);
+    7: return string(STR_REFIT_LIVERY_Tong_il_Normal_FD_1963_T);
+    8: return string(STR_REFIT_LIVERY_Tong_il_Normal_T2_1984);
+    9: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1994);
+    10: return string(STR_REFIT_LIVERY_Tong_il_Normal_TO1);
+    11: return string(STR_REFIT_LIVERY_Tong_il_Normal_TO2);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_1997_cargo_subtype_text, cargo_subtype) {
+     0: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1963);
+     1: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1968);
+     2: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1974);
+     3: return string(STR_REFIT_LIVERY_Tong_il_Normal_FD_1963);
+     4: return string(STR_REFIT_LIVERY_Tong_il_Normal_B_1962_U);
+     5: return string(STR_REFIT_LIVERY_Tong_il_Normal_T2_1963_1968);
+     6: return string(STR_REFIT_LIVERY_Tong_il_Normal_T2_1974);
+     7: return string(STR_REFIT_LIVERY_Tong_il_Normal_FD_1963_T);
+     8: return string(STR_REFIT_LIVERY_Tong_il_Normal_T2_1984);
+     9: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1994);
+    10: return string(STR_REFIT_LIVERY_Tong_il_Normal_TO1);
+    11: return string(STR_REFIT_LIVERY_Tong_il_Normal_TO2);
+    12: return string(STR_REFIT_LIVERY_Tong_il_Normal_T_1997);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Normal_cargo_subtype_text, current_year) {
+    0..1967: sw_Tong_il_Normal_1963_cargo_subtype_text;
+    1968..1973: sw_Tong_il_Normal_1968_cargo_subtype_text;
+    1974..1983: sw_Tong_il_Normal_1974_cargo_subtype_text;
+    1984..1993: sw_Tong_il_Normal_1984_cargo_subtype_text;
+    1994..1995: sw_Tong_il_Normal_1994_cargo_subtype_text;
+    1996: sw_Tong_il_Normal_1996_cargo_subtype_text;
+    sw_Tong_il_Normal_1997_cargo_subtype_text;
+    }

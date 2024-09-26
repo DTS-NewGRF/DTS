@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//수송량
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1960_capacity_in_custom, cargo_subtype) {
+   50;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1964_capacity_in_custom, cargo_subtype) {
+   1: return 50;
+   50;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1994_capacity_in_custom, cargo_subtype) {
+   1: return 50;
+   2: return 108;
+   3: return 116;
+   4: return 72;
+   5: return 108;
+   6: return 108;
+   7: return 72;
+   8: return 116;
+   50;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_1997_capacity_in_custom, cargo_subtype) {
+   1: return 50;
+   2: return 108;
+   3: return 116;
+   4: return 72;
+   5: return 108;
+   6: return 108;
+   7: return 72;
+   8: return 116;
+   9: return 116;
+   50;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Service_capacity_in_custom, current_year) {
+    0..1963: sw_Pidulgi_Service_1960_capacity_in_custom;
+    1964..1993: sw_Pidulgi_Service_1964_capacity_in_custom;
+    1994..1996: sw_Pidulgi_Service_1994_capacity_in_custom;
+    sw_Pidulgi_Service_1997_capacity_in_custom;
+    }

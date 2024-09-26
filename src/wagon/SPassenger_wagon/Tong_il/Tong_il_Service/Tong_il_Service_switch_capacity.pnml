@@ -1,0 +1,57 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//수송량
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_1966_capacity_in_custom, cargo_subtype) {
+   1: return 28;
+   50;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_1968_capacity_in_custom, cargo_subtype) {
+   1: return 28;
+   2: return 50;
+   50;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_1975_capacity_in_custom, cargo_subtype) {
+   1: return 28;
+   2: return 50;
+   3: return 28;
+   50;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_1984_capacity_in_custom, cargo_subtype) {
+   1: return 28;
+   2: return 50;
+   3: return 28;
+   4: return 28;
+   50;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_1994_capacity_in_custom, cargo_subtype) {
+   1: return 28;
+   2: return 50;
+   3: return 28;
+   4: return 28;
+   5: return 28;
+   50;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_1997_capacity_in_custom, cargo_subtype) {
+   1: return 28;
+   2: return 50;
+   3: return 28;
+   4: return 28;
+   5: return 28;
+   6: return 28;
+   50;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_capacity_in_custom, current_year) {
+   0..1967: sw_Tong_il_Service_1966_capacity_in_custom;
+   1968..1974: sw_Tong_il_Service_1968_capacity_in_custom;
+   1975..1983: sw_Tong_il_Service_1975_capacity_in_custom;
+   1984..1993: sw_Tong_il_Service_1984_capacity_in_custom;
+   1994..1996: sw_Tong_il_Service_1994_capacity_in_custom;
+   sw_Tong_il_Service_1997_capacity_in_custom;
+   }

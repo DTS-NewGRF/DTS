@@ -2,26 +2,26 @@
 객차형 승객 차량
 --------------------------------------------------------------------*/
 // Graphics
-#include "Mugunhwa_Real_Service_graphic.pnml"
+#include "Pidulgi_Service_graphic.pnml"
 
 // Switch
-#include "Mugunhwa_Real_Service_switch.pnml"
+#include "Pidulgi_Service_switch.pnml"
 
 /*--------------------------------------------------------------------
-한국형 무궁화호 승객 차량
+한국형 비둘기호 승객 차량
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, Mugunhwa_Real_Service, 2391){
+item (FEAT_TRAINS, Pidulgi_Service, 2470){
     property {
-        name:                           string(STR_Mugunhwa_Real_Service_NAME);
+        name:                           string(STR_Pidulgi_Service_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1977, 1, 1);
+        introduction_date:              date(1960, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Mugunhwa_2cc;
+        variant_group:                  Group_Pidulgi;
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         35 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model
@@ -31,7 +31,7 @@ item (FEAT_TRAINS, Mugunhwa_Real_Service, 2391){
         reliability_decay:              0;
 
         //Cargo
-        cargo_capacity:                 28;
+        cargo_capacity:                 50;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -47,14 +47,14 @@ item (FEAT_TRAINS, Mugunhwa_Real_Service, 2391){
     }
 
     graphics {
-        default:                        sw_Mugunhwa_Real_Service_wagon;
-        purchase:                       sw_Mugunhwa_Real_Service_purchase;
-        cargo_capacity:                 sw_Mugunhwa_Real_Service_capacity_in_custom;
-        speed:                          sw_Mugunhwa_Real_Service_speed;
+        default:                        sw_Pidulgi_Service_wagon;
+        purchase:                       sw_Pidulgi_Service_purchase;
+        cargo_capacity:                 sw_Pidulgi_Service_capacity_in_custom;
+        speed:                          sw_Pidulgi_Service_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             sw_Mugunhwa_Real_Service_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Mugunghwa_Real);
+        cargo_subtype_text:             Pidulgi_Service_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_Pidulgi);
         }
     }

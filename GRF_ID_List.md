@@ -486,7 +486,12 @@
 |2467|Special_Diesel_Car|
 |2468|Group_Pidulgi|
 |2469|Pidulgi_Normal|
-|2470~2999|공백|
+|2470|Pidulgi_Service|
+|2471|Group_Tong_il|
+|2472|Tong_il_Normal|
+|2473|Tong_il_Service|
+|2474|Tong_il_Special|
+|2475~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

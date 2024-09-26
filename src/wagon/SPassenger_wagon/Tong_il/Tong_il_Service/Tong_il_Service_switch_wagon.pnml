@@ -1,0 +1,57 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//객차
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_1966_wagon, cargo_subtype) {
+    1: set_Tong_il_Service_S_1966;
+    set_Tong_il_Service_D_1966;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_1968_wagon, cargo_subtype) {
+    1: set_Tong_il_Service_S_1966;
+    2: set_Tong_il_Service_D_1968;
+    set_Tong_il_Service_D_1966;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_1975_wagon, cargo_subtype) {
+    1: set_Tong_il_Service_S_1966;
+    2: set_Tong_il_Service_D_1968;
+    3: set_Tong_il_Service_S_1975;
+    set_Tong_il_Service_D_1966;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_1984_wagon, cargo_subtype) {
+    1: set_Tong_il_Service_S_1966;
+    2: set_Tong_il_Service_D_1968;
+    3: set_Tong_il_Service_S_1975;
+    4: set_Tong_il_Service_S_1984;
+    set_Tong_il_Service_D_1966;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_1994_wagon, cargo_subtype) {
+    1: set_Tong_il_Service_S_1966;
+    2: set_Tong_il_Service_D_1968;
+    3: set_Tong_il_Service_S_1975;
+    4: set_Tong_il_Service_S_1984;
+    5: set_Tong_il_Service_S_1994;
+    set_Tong_il_Service_D_1966;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_1997_wagon, cargo_subtype) {
+    1: set_Tong_il_Service_S_1966;
+    2: set_Tong_il_Service_D_1968;
+    3: set_Tong_il_Service_S_1975;
+    4: set_Tong_il_Service_S_1984;
+    5: set_Tong_il_Service_S_1994;
+    6: set_Tong_il_Service_S_1997;
+    set_Tong_il_Service_D_1966;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Tong_il_Service_wagon, current_year) {
+    0..1967: sw_Tong_il_Service_1966_wagon;
+    1968..1974: sw_Tong_il_Service_1968_wagon;
+    1975..1983: sw_Tong_il_Service_1975_wagon;
+    1984..1993: sw_Tong_il_Service_1984_wagon;
+    1994..1996: sw_Tong_il_Service_1994_wagon;
+    sw_Tong_il_Service_1997_wagon;
+    }
