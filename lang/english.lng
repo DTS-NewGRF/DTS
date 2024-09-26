@@ -1141,16 +1141,17 @@ STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B2              : Bidulgi first livery cr
 STR_REFIT_LIVERY_Pidulgi_Normal_FD_1963_B              : Tong-il first class downgrade Bidulgi first livery
 STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B               : Bidulgi first livery (1965)
 STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B               : Bidulgi first livery long seat (1965) & DC car non-motorized carriage second livery
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_B2              : Bidulgi second livery cross seat 1 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1962_B2              : Bidulgi second livery long seat (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1962_B2              : Bidulgi second livery cross seat 2 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B3              : Bidulgi second livery cross seat (1963)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B4              : Tongil express downgrade second livery conversion cross seat
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B2              : Bidulgi second livery cross seat (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B2              : Bidulgi second livery long seat (1965) & DC car non-motorized carriage third livery
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B3              : Bidulgi third livery long seat (1965) & DC car non-motorized carriage Fourth livery
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B3              : Bidulgi third livery cross seat (1965)
 STR_REFIT_LIVERY_Pidulgi_Service_C_MADE_1936           : regular train Restaurant (1936)
 STR_REFIT_LIVERY_Pidulgi_Service_1964                  : regular train Restaurant (1964)
-STR_REFIT_LIVERY_Pidulgi_Service_C_1962_B2             : Bidulgi second livery cross seat 1 (1962)
-STR_REFIT_LIVERY_Pidulgi_Service_L_1962_B2             : Bidulgi second livery long seat (1962)
-STR_REFIT_LIVERY_Pidulgi_Service_T_1962_B2             : Bidulgi second livery cross seat 2 (1962)
-STR_REFIT_LIVERY_Pidulgi_Service_T_1963_B3             : Bidulgi second livery cross seat (1963)
-STR_REFIT_LIVERY_Pidulgi_Service_T_1963_B4             : Tongil express downgrade second livery conversion cross seat
-STR_REFIT_LIVERY_Pidulgi_Service_T_1965_B2             : Bidulgi second livery cross seat (1965)
-STR_REFIT_LIVERY_Pidulgi_Service_L_1965_B2             : Bidulgi second livery long seat (1965) & DC car non-motorized carriage third livery
-STR_REFIT_LIVERY_Pidulgi_Service_L_1965_B3             : Bidulgi third livery long seat (1965) & DC car non-motorized carriage Fourth livery
 STR_REFIT_LIVERY_Tong_il_Normal_T_1963                 : Super Express (1963)
 STR_REFIT_LIVERY_Tong_il_Normal_T_1968                 : Express train
 STR_REFIT_LIVERY_Tong_il_Normal_T_1974                 : Super Express (1974)

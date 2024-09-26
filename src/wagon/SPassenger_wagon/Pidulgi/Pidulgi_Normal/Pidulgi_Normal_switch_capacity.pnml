@@ -96,12 +96,78 @@ switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1984_capacity_in_custom, cargo_subty
    120;
 }
 
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1994_capacity_in_custom, cargo_subtype) {
+    1: return 128;
+    2: return 128;
+    3: return 120;
+    4: return 108;
+    5: return 72;
+    6: return 116;
+    7: return 72;
+    8: return 72;
+    9: return 116;
+   10: return 70;
+   11: return 108;
+   12: return 120;
+   13: return 108;
+   14: return 116;
+   15: return 72;
+   16: return 108;
+   17: return 108;
+   18: return 72;
+   19: return 72;
+   20: return 116;
+   21: return 108;
+   22: return 116;
+   23: return 72;
+   24: return 108;
+   25: return 108;
+   26: return 72;
+   27: return 116;
+   120;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_1997_capacity_in_custom, cargo_subtype) {
+    1: return 128;
+    2: return 128;
+    3: return 120;
+    4: return 108;
+    5: return 72;
+    6: return 116;
+    7: return 72;
+    8: return 72;
+    9: return 116;
+   10: return 70;
+   11: return 108;
+   12: return 120;
+   13: return 108;
+   14: return 116;
+   15: return 72;
+   16: return 108;
+   17: return 108;
+   18: return 72;
+   19: return 72;
+   20: return 116;
+   21: return 108;
+   22: return 116;
+   23: return 72;
+   24: return 108;
+   25: return 108;
+   26: return 72;
+   27: return 116;
+   28: return 116;
+   29: return 72;
+   120;
+}
+
 switch(FEAT_TRAINS, SELF, sw_Pidulgi_Normal_capacity_in_custom, current_year) {
-    0..1961: sw_Pidulgi_Normal_1960_capacity_in_custom;
-    1962: sw_Pidulgi_Normal_1962_capacity_in_custom;
-    1963..1964: sw_Pidulgi_Normal_1963_capacity_in_custom;
-    1965: sw_Pidulgi_Normal_1965_capacity_in_custom;
-    1966..1973: sw_Pidulgi_Normal_1966_capacity_in_custom;
-    1974..1983: sw_Pidulgi_Normal_1974_capacity_in_custom;
-    sw_Pidulgi_Normal_1984_capacity_in_custom;
+   0..1961: sw_Pidulgi_Normal_1960_capacity_in_custom;
+   1962: sw_Pidulgi_Normal_1962_capacity_in_custom;
+   1963..1964: sw_Pidulgi_Normal_1963_capacity_in_custom;
+   1965: sw_Pidulgi_Normal_1965_capacity_in_custom;
+   1966..1973: sw_Pidulgi_Normal_1966_capacity_in_custom;
+   1974..1983: sw_Pidulgi_Normal_1974_capacity_in_custom;
+   1984..1993: sw_Pidulgi_Normal_1984_capacity_in_custom;
+   1994..1996: sw_Pidulgi_Normal_1994_capacity_in_custom;
+   sw_Pidulgi_Normal_1997_capacity_in_custom;
     }

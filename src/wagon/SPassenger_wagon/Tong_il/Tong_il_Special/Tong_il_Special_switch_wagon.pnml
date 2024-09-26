@@ -8,20 +8,20 @@ switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1963_wagon, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1968_wagon, cargo_subtype) {
-    1: set_Pidulgi_Service_1964;
+    1: set_Tong_il_Special_F_1963_T;
     2: set_Tong_il_Special_F_1968;
     set_Tong_il_Special_F_1963_2;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1974_wagon, cargo_subtype) {
-    1: set_Pidulgi_Service_1964;
+    1: set_Tong_il_Special_F_1963_T;
     2: set_Tong_il_Special_F_1968;
     3: set_Tong_il_Special_F_1974;
     set_Tong_il_Special_F_1963_2;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1984_wagon, cargo_subtype) {
-    1: set_Pidulgi_Service_1964;
+    1: set_Tong_il_Special_F_1963_T;
     2: set_Tong_il_Special_F_1968;
     3: set_Tong_il_Special_F_1974;
     4: set_Tong_il_Special_F2_1974;
@@ -30,7 +30,7 @@ switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1984_wagon, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1994_wagon, cargo_subtype) {
-    1: set_Pidulgi_Service_1964;
+    1: set_Tong_il_Special_F_1963_T;
     2: set_Tong_il_Special_F_1968;
     3: set_Tong_il_Special_F_1974;
     4: set_Tong_il_Special_F2_1974;
@@ -40,7 +40,7 @@ switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1994_wagon, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Tong_il_Special_1997_wagon, cargo_subtype) {
-    1: set_Pidulgi_Service_1964;
+    1: set_Tong_il_Special_F_1963_T;
     2: set_Tong_il_Special_F_1968;
     3: set_Tong_il_Special_F_1974;
     4: set_Tong_il_Special_F2_1974;

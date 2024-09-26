@@ -1137,16 +1137,17 @@ STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B2              : 비둘기호 초기도�
 STR_REFIT_LIVERY_Pidulgi_Normal_FD_1963_B              : 통일호 특실 격하 비둘기호 초기도색
 STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B               : 비둘기호 초기도색 (1965)
 STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B               : 비둘기호 초기도색 롱시트 (1965) & 디젤액압동차 부수차
+STR_REFIT_LIVERY_Pidulgi_Normal_C_1962_B2              : 비둘기호 구도색 크로스시트 1 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1962_B2              : 비둘기호 구도색 롱시트 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1962_B2              : 비둘기호 구도색 크로스시트 2 (1962)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B3              : 비둘기호 구도색 크로스시트 (1963)
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1963_B4              : 통일호 격하 비둘기호 구도색 크로스시트
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B2              : 비둘기호 구도색 크로스시트 (1965)
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B2              : 비둘기호 구도색 롱시트 (1965) & 디젤액압동차 부수차
+STR_REFIT_LIVERY_Pidulgi_Normal_L_1965_B3              : 비둘기호 후기도색 롱시트 (1965) & 디젤액압동차 부수차
+STR_REFIT_LIVERY_Pidulgi_Normal_T_1965_B3              : 비둘기호 후기도색 크로스시트 (1965)
 STR_REFIT_LIVERY_Pidulgi_Service_C_MADE_1936           : 보통열차 식당차 (1936)
 STR_REFIT_LIVERY_Pidulgi_Service_1964                  : 보통열차 식당차 (1964)
-STR_REFIT_LIVERY_Pidulgi_Service_C_1962_B2             : 비둘기호 구도색 크로스시트 1 (1962)
-STR_REFIT_LIVERY_Pidulgi_Service_L_1962_B2             : 비둘기호 구도색 롱시트 (1962)
-STR_REFIT_LIVERY_Pidulgi_Service_T_1962_B2             : 비둘기호 구도색 크로스시트 2 (1962)
-STR_REFIT_LIVERY_Pidulgi_Service_T_1963_B3             : 비둘기호 구도색 크로스시트 (1963)
-STR_REFIT_LIVERY_Pidulgi_Service_T_1963_B4             : 통일호 격하 비둘기호 구도색 크로스시트
-STR_REFIT_LIVERY_Pidulgi_Service_T_1965_B2             : 비둘기호 구도색 크로스시트 (1965)
-STR_REFIT_LIVERY_Pidulgi_Service_L_1965_B2             : 비둘기호 구도색 롱시트 (1965) & 디젤액압동차 부수차
-STR_REFIT_LIVERY_Pidulgi_Service_L_1965_B3             : 비둘기호 후기도색 롱시트 (1965) & 디젤액압동차 부수차
 STR_REFIT_LIVERY_Tong_il_Normal_T_1963                 : 특급열차 (1963)
 STR_REFIT_LIVERY_Tong_il_Normal_T_1968                 : 급행열차
 STR_REFIT_LIVERY_Tong_il_Normal_T_1974                 : 특급열차 (1974)
