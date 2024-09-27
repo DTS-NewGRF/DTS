@@ -55,6 +55,6 @@ item (FEAT_TRAINS, Tong_il_Service, 2473){
         cost_factor:                    10;
         running_cost_factor:            50;
         cargo_subtype_text:             sw_Tong_il_Service_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Pidulgi);
+        additional_text:                string(STR_REFIT_train_configuration_Tong_il);
         }
     }
