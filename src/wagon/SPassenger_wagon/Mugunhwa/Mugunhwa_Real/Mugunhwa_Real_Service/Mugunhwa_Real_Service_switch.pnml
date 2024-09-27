@@ -9,6 +9,3 @@
 
 //수송량
 #include "Mugunhwa_Real_Service_capacity.pnml"
-
-//속도
-#include "Mugunhwa_Real_Service_speed.pnml"
