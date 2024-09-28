@@ -72,6 +72,7 @@ item(FEAT_TRAINS, Nomal_Diesel_Car, 2467){
         purchase:                       sw_Nomal_Diesel_purchase;
         speed:                          sw_Nomal_Diesel_Car_speed;
         cargo_capacity:                 sw_Nomal_Diesel_capacity_in_custom;
+        loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Nomal_Diesel_Car_cargo_subtype_text;

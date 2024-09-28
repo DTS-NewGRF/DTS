@@ -500,6 +500,9 @@ STR_Generatar_2cc_NAME                                 :[DTS/발전차] 한국 �
 STR_Generatar_Real_OutLook_NAME                        :[DTS/발전차] 한국 전망형 & 직각형 발전차
 STR_Generatar_Real_Stream_lined_NAME                   :[DTS/발전차] 한국 유선형, 고속일반 & 고속장대형 발전차
 STR_Luggage_Real_NAME                                  :[DTS/수화물차] 한국 수화물차
+STR_Guoup_Post_Car_NAME                                :[DTS/우편차] 한국 우편차
+STR_Post_Car_NAME                                      :[DTS/우편차] 한국 우편차
+STR_Express_Post_Car_NAME                              :[DTS/우편차] 한국 고속 우편차
 STR_CTS_SPASS_NAME                                     :[DTS/객차] 중국 객차 차량
 STR_CGeneratar_Car_NAME                                :[DTS/발전차] 중국 발전차
 STR_CLuggage_Car_NAME                                  :[DTS/수화물차] 중국 수화물차
@@ -585,6 +588,7 @@ STR_REFIT_train_configuration_PEX_SUPER                :{BLACK}열차구성 {}{G
 STR_REFIT_train_configuration_Generatar_2cc            :{BLACK}열차구성 {}{GREEN}[기관차연결] 한국형 발전차 2cc
 STR_REFIT_train_configuration_Generatar_Real           :{BLACK}열차구성 {}{GREEN}[기관차연결]{}한국형 발전차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_Luggage_Real             :{BLACK}열차구성 {}{GREEN}[기관차열차]{}한국형 수화물차{}년도와 실제 열차에 맞추어 적용됩니다.
+STR_REFIT_train_configuration_Post_Car                 :{BLACK}열차구성 {}{GREEN}[기관차열차]{}한국형 우편차{}년도와 실제 열차에 맞추어 적용됩니다.
 STR_REFIT_train_configuration_CSPassenger              :{BLACK}열차구성 {}{GREEN}[기관차열차] 중국 객차
 STR_REFIT_train_configuration_CGeneratar               :{BLACK}열차구성 {}{GREEN}[기관차열차] 중국 발전차
 STR_REFIT_train_configuration_CLuggage                 :{BLACK}열차구성 {}{GREEN}[기관차열차] 중국 수화물차
@@ -1304,6 +1308,10 @@ STR_REFIT_LIVERY_Luggage_Real_MP                       : 우체국 당일특급 
 STR_REFIT_LIVERY_Luggage_Real_EA                       : 에코레일 신도색 A
 STR_REFIT_LIVERY_Luggage_Real_EB                       : 에코레일 신도색 B
 STR_REFIT_LIVERY_Luggage_Real_WN                       : 충북영동국악와인열차
+STR_REFIT_LIVERY_Post_Car_POST_1973                    : 우편차 전용도색
+STR_REFIT_LIVERY_Post_Car_POST_1994                    : 우편차 표준도색
+STR_REFIT_LIVERY_Express_Post_Car_POST_M_1993          : 무궁화 구도색
+STR_REFIT_LIVERY_Express_Post_Car_POST_M_2005          : 무궁화 신도색
 STR_REFIT_LIVERY_SWagon_1F_Red                         : 25형 1층 빨강 도색
 STR_REFIT_LIVERY_SWagon_1F_Green                       : 25형 1층 녹색 도색
 STR_REFIT_LIVERY_Swagon_1F_White                       : 25형 1층 흰색 도색

@@ -491,6 +491,9 @@ sort(FEAT_TRAINS, [
     Generatar_Real_Stream_lined,             //2394
     CGeneratar_Car,                          //2032
     Luggage_Real,                            //2004
+    Guoup_Post_Car,                          //2475
+    Post_Car,                                //2476
+    Express_Post_Car,                        //2477
     CLuggage_Car,                            //2033
     FLAT_1F,                                 //2129
     FLAT_2F,                                 //2114

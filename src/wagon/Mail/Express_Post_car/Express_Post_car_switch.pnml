@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+#include "Express_Post_car_switch_Year.pnml"
+
+//열차
+#include "Express_Post_car_switch_wagon.pnml"
+
+//속도
+switch(FEAT_TRAINS, SELF, sw_Express_Post_car_speed, Use_Passengercar_Real_speed) {
+   1: return 150;
+   return 0;
+   }

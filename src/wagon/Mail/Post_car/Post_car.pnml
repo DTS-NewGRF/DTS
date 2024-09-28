@@ -1,18 +1,18 @@
 /*--------------------------------------------------------------------
-객차형 승객 차량
+우편 차량
 --------------------------------------------------------------------*/
 // Graphics
-#include "Pidulgi_Normal_graphic.pnml"
+#include "Post_car_graphic.pnml"
 
 // Switch
-#include "Pidulgi_Normal_switch.pnml"
+#include "Post_car_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Group_Pidulgi, 2468){
+item(FEAT_TRAINS, Guoup_Post_Car, 2475){
     property {
-        name:                           string(STR_Group_Pidulgi_NAME);
+        name:                           string(STR_Guoup_Post_Car_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -20,23 +20,24 @@ item(FEAT_TRAINS, Group_Pidulgi, 2468){
         }
 
     graphics {
-        purchase:                       sw_Pidulgi_Normal_purchase;
+        purchase:                       sw_Post_Car_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
-한국형 비둘기호 승객 차량
+열차정보
 --------------------------------------------------------------------*/
-item (FEAT_TRAINS, Pidulgi_Normal, 2469){
+item(FEAT_TRAINS, Post_Car, 2476){
     property {
-        name:                           string(STR_Pidulgi_Normal_NAME);
+        name:                           string(STR_Post_Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1960, 1, 1);
+        introduction_date:              date(1973, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Group_Pidulgi;
-
+        variant_group:                  Guoup_Post_Car;
+        
         //spec
+        speed:                          110km/h;
         power:                          0 kW;
         weight:                         35 ton;
         tractive_effort_coefficient:    0.3;
@@ -46,32 +47,30 @@ item (FEAT_TRAINS, Pidulgi_Normal, 2469){
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
-
+        
         //Cargo
-        cargo_capacity:                 72;
+        cargo_capacity:                 50;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
+        cargo_allow_refit:              [MAIL];
         cargo_disallow_refit:           [];
-
+        
         //Costs
         refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-
+        
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         20 ton;
-    }
+        }
 
-    graphics {
-        default:                        sw_Pidulgi_Normal_wagon;
-        purchase:                       sw_Pidulgi_Normal_purchase;
-        cargo_capacity:                 sw_Pidulgi_Normal_capacity_in_custom;
-        speed:                          sw_Pidulgi_Normal_speed;
+	graphics {
+        default:                        sw_Post_Car_wagon;
+        purchase:                       sw_Post_Car_purchase;
+        speed:                          sw_Post_car_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        cargo_subtype_text:             Pidulgi_Normal_cargo_subtype_text;
-        additional_text:                string(STR_REFIT_train_configuration_Pidulgi);
+        cargo_subtype_text:             sw_Post_Car_cargo_subtype_text;
+        additional_text:                string(STR_REFIT_train_configuration_Post_Car);
         }
-    }
+        }

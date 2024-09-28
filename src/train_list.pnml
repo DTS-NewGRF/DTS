@@ -2,6 +2,7 @@
 #include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
 #include "wagon/Generatar/Generatar.pnml"
 #include "wagon/Luggage/Luggage_Real/Luggage_Real.pnml"
+#include "wagon/Mail/Mail.pnml"
 #include "wagon/Flat_car/Flat_1F_Car/Flat_1F_Car.pnml"
 #include "wagon/Flat_car/Flat_Tank_Car/Flat_Tank_Car.pnml"
 

@@ -53,6 +53,7 @@ item(FEAT_TRAINS, Special_Diesel_Car, 2466){
         default:                        sw_Special_Diesel_engine;
         purchase:                       sw_Special_Diesel_purchase;
         speed:                          sw_Special_Diesel_Car_speed;
+        loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Special_Diesel_Car_cargo_subtype_text;

@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//객차
+switch(FEAT_TRAINS, SELF, sw_Express_Post_Car_1993_wagon, cargo_subtype) {
+    set_Express_Post_Car_POST_M_1993;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Express_Post_Car_2005_wagon, cargo_subtype) {
+    1: set_Express_Post_Car_POST_M_2005;
+    set_Express_Post_Car_POST_M_1993;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Express_Post_Car_wagon, current_year) {
+    0..2004: sw_Express_Post_Car_1993_wagon;
+    sw_Express_Post_Car_2005_wagon;
+    }

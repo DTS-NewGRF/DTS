@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색
+switch(FEAT_TRAINS, SELF, sw_Post_Car_1973_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Post_Car_POST_1973);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Post_Car_1994_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_Post_Car_POST_1973);
+    1: return string(STR_REFIT_LIVERY_Post_Car_POST_1994);
+    return CB_RESULT_NO_TEXT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_Post_Car_cargo_subtype_text, current_year) {
+    0..1993: sw_Post_Car_1973_cargo_subtype_text;
+    sw_Post_Car_1994_cargo_subtype_text;
+    }

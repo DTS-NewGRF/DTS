@@ -491,7 +491,10 @@
 |2472|Tong_il_Normal|
 |2473|Tong_il_Service|
 |2474|Tong_il_Special|
-|2475~2999|공백|
+|2475|Guoup_Post_Car|
+|2476|Post_Car|
+|2477|Express_Post_Car|
+|2478~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|
