@@ -55,5 +55,6 @@ item(FEAT_TRAINS, DPX_14Car, 2351){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        sound_effect:                   sw_DPX_sound;
         }
         }

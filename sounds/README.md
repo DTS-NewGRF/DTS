@@ -137,6 +137,11 @@
 ### Old_DMU_start.wav
 - 디젤액압동차
 
+### osfx_65.wav
+- VHST-600X
+- DFX
+- DPX
+
 ### RotemIGCTstart.wav
 - HSR-350X
 
@@ -260,9 +265,6 @@
 
 ### DEL7000Idle.wav
 - 7000호대 디젤기관차
-
-### Old_DMU_idle.wav
-- 디젤액압동차
 
 ### GT26CWDIESELIdle.wav
 - 7X00호대 디젤기관차
