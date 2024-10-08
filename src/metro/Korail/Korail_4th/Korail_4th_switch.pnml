@@ -13,7 +13,8 @@ switch(FEAT_TRAINS, SELF, sw_Korail_4th_6Car_cargo_subtype_text, cargo_subtype) 
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_8Car_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_Korail_4th_G2_2nd);
+    1: return string(STR_REFIT_LIVERY_Korail_4th_G2_2nd_A);
+    2: return string(STR_REFIT_LIVERY_Korail_4th_G2_2nd_B);
     return string(STR_REFIT_LIVERY_Korail_4th_G2_2cc);
 }
 
@@ -112,43 +113,51 @@ switch(FEAT_TRAINS, SELF, sw_Korail_4th_6Car_engineT_r, cargo_subtype) {
 
 //8량
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_8Car_engineH, cargo_subtype) {
-    1: set_Korail_4th_G2_2nd_engineH;
+    1: set_Korail_4th_G2_2nd_A_engineH;
+    2: set_Korail_4th_G2_2nd_B_engineH;
     set_Korail_4th_G2_2cc_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_8Car_wagon, cargo_subtype) {
-    1: set_Korail_4th_G2_2nd_wagon;
+    1: set_Korail_4th_G2_2nd_A_wagon;
+    2: set_Korail_4th_G2_2nd_B_wagon;
     set_Korail_4th_G2_2cc_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_8Car_panto_wagon, cargo_subtype) {
-    1: set_Korail_4th_G2_2nd_panto_wagon;
+    1: set_Korail_4th_G2_2nd_A_panto_wagon;
+    2: set_Korail_4th_G2_2nd_B_panto_wagon;
     set_Korail_4th_G2_2cc_panto_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_8Car_engineT, cargo_subtype) {
-    1: set_Korail_4th_G2_2nd_engineT;
+    1: set_Korail_4th_G2_2nd_A_engineT;
+    2: set_Korail_4th_G2_2nd_B_engineT;
     set_Korail_4th_G2_2cc_engineT;
 }
 
 //8량 뒤집힘
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_8Car_engineH_r, cargo_subtype) {
-    1: set_Korail_4th_G2_2nd_engineH_r;
+    1: set_Korail_4th_G2_2nd_A_engineH_r;
+    2: set_Korail_4th_G2_2nd_B_engineH_r;
     set_Korail_4th_G2_2cc_engineH_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_8Car_wagon_r, cargo_subtype) {
-    1: set_Korail_4th_G2_2nd_wagon_r;
+    1: set_Korail_4th_G2_2nd_A_wagon_r;
+    2: set_Korail_4th_G2_2nd_B_wagon_r;
     set_Korail_4th_G2_2cc_wagon_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_8Car_panto_wagon_r, cargo_subtype) {
-    1: set_Korail_4th_G2_2nd_panto_wagon_r;
+    1: set_Korail_4th_G2_2nd_A_panto_wagon_r;
+    2: set_Korail_4th_G2_2nd_B_panto_wagon_r;
     set_Korail_4th_G2_2cc_panto_wagon_r;
 }
 
 switch(FEAT_TRAINS, SELF, sw_Korail_4th_8Car_engineT_r, cargo_subtype) {
-    1: set_Korail_4th_G2_2nd_engineT_r;
+    1: set_Korail_4th_G2_2nd_A_engineT_r;
+    2: set_Korail_4th_G2_2nd_B_engineT_r;
     set_Korail_4th_G2_2cc_engineT_r;
 }
 

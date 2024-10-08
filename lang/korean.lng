@@ -904,7 +904,8 @@ STR_REFIT_LIVERY_Korail_4th_G2_SI1                     : 1차분 싱글암1개
 STR_REFIT_LIVERY_Korail_4th_G2_SI2                     : 1차분 싱글암2개
 STR_REFIT_LIVERY_Korail_4th_G2_DOB                     : 1차분 더블암
 STR_REFIT_LIVERY_Korail_4th_G2_2cc                     : 기본도색 (2CC)
-STR_REFIT_LIVERY_Korail_4th_G2_2nd                     : 경춘선 도색
+STR_REFIT_LIVERY_Korail_4th_G2_2nd_A                   : 경춘선 도색
+STR_REFIT_LIVERY_Korail_4th_G2_2nd_B                   : 경의중앙선 도색
 STR_REFIT_LIVERY_Korail_4th_G3_SI                      : 2차분
 STR_REFIT_LIVERY_Korail_4th_G3_SI1                     : 2차분 싱글암1개
 STR_REFIT_LIVERY_Korail_4th_G3_SI2                     : 2차분 싱글암2개

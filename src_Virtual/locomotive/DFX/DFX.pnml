@@ -54,6 +54,6 @@ item(FEAT_TRAINS, DFX_10Car, 2112){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_VHST_600X_sound;
+        sound_effect:                   sw_DFX_sound;
         }
         }

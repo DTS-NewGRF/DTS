@@ -187,35 +187,70 @@ spriteset(set_Korail_4th_G2_2cc_engineT, "src/metro/Korail/Korail_4th/Korail_4th
 /*--------------------------------------------------------------------
 Korail 4th 2차 도입분 경춘선
 --------------------------------------------------------------------*/
-spriteset(set_Korail_4th_G2_2nd_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd.png"){
+spriteset(set_Korail_4th_G2_2nd_A_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_A.png"){
     engine(80, 0)
 }
 
-spriteset(set_Korail_4th_G2_2nd_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd.png"){
+spriteset(set_Korail_4th_G2_2nd_A_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_A.png"){
     engine(80, 27)
 }
 
-spriteset(set_Korail_4th_G2_2nd_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd.png"){
+spriteset(set_Korail_4th_G2_2nd_A_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_A.png"){
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_Korail_4th_G2_2nd_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd.png"){
+spriteset(set_Korail_4th_G2_2nd_A_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_A.png"){
     wagon_1F_F_r(80, 54)
 }
 
-spriteset(set_Korail_4th_G2_2nd_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd.png"){
+spriteset(set_Korail_4th_G2_2nd_A_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_A.png"){
     wagon_1F_F(80, 81)
 }
 
-spriteset(set_Korail_4th_G2_2nd_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd.png"){
+spriteset(set_Korail_4th_G2_2nd_A_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_A.png"){
     wagon_1F_F_r(80, 81)
 }
 
-spriteset(set_Korail_4th_G2_2nd_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd.png"){
+spriteset(set_Korail_4th_G2_2nd_A_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_A.png"){
     engine(80, 108)
 }
 
-spriteset(set_Korail_4th_G2_2nd_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd.png"){
+spriteset(set_Korail_4th_G2_2nd_A_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_A.png"){
+    engine(80, 135)
+}
+
+/*--------------------------------------------------------------------
+Korail 4th 2차 도입분 경의중앙선
+--------------------------------------------------------------------*/
+spriteset(set_Korail_4th_G2_2nd_B_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_B.png"){
+    engine(80, 0)
+}
+
+spriteset(set_Korail_4th_G2_2nd_B_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_B.png"){
+    engine(80, 27)
+}
+
+spriteset(set_Korail_4th_G2_2nd_B_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_B.png"){
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_Korail_4th_G2_2nd_B_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_B.png"){
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_Korail_4th_G2_2nd_B_panto_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_B.png"){
+    wagon_1F_F(80, 81)
+}
+
+spriteset(set_Korail_4th_G2_2nd_B_panto_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_B.png"){
+    wagon_1F_F_r(80, 81)
+}
+
+spriteset(set_Korail_4th_G2_2nd_B_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_B.png"){
+    engine(80, 108)
+}
+
+spriteset(set_Korail_4th_G2_2nd_B_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/metro/Korail/Korail_4th/Korail_4th_G2_2nd_B.png"){
     engine(80, 135)
 }
 

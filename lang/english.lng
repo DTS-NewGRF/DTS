@@ -908,7 +908,8 @@ STR_REFIT_LIVERY_Korail_4th_G2_SI1                     : Generation 1 SI1
 STR_REFIT_LIVERY_Korail_4th_G2_SI2                     : Generation 1 SI2
 STR_REFIT_LIVERY_Korail_4th_G2_DOB                     : Generation 1 DOB
 STR_REFIT_LIVERY_Korail_4th_G2_2cc                     : 2CC
-STR_REFIT_LIVERY_Korail_4th_G2_2nd                     : Generation 2
+STR_REFIT_LIVERY_Korail_4th_G2_2nd_A                   : Generation 2
+STR_REFIT_LIVERY_Korail_4th_G2_2nd_B                   : Gyeongui-Jungang line
 STR_REFIT_LIVERY_Korail_4th_G3_SI                      : Generation 2
 STR_REFIT_LIVERY_Korail_4th_G3_SI1                     : Generation 2 SI1
 STR_REFIT_LIVERY_Korail_4th_G3_SI2                     : Generation 2 SI2
