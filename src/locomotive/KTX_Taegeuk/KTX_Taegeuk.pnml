@@ -1,0 +1,234 @@
+/*--------------------------------------------------------------------
+KTX-Taegeuk
+--------------------------------------------------------------------*/
+// Graphics
+#include "KTX_Taegeuk_graphic.pnml"
+
+// Switch
+#include "KTX_Taegeuk_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Taegeuk, 2478){
+    property {
+        name:                           string(STR_Group_KTX_Taegeuk_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          20000 kW;
+        }
+
+    graphics {
+        purchase:                       sw_KTX_Taegeuk_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Taegeuk_8Car, 2479){
+    property {
+        name:                           string(STR_KTX_Taegeuk_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  KTX_Taegeuk;
+        
+        //spec
+        speed:                          600km/h;
+        power:                          20000 kW;
+        weight:                         40 ton;
+        tractive_effort_coefficient:    0.3;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 80;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+    
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+	graphics {
+        default:                        sw_KTX_Taegeuk_8car_reversed;
+        articulated_part:               sw_articulated_KTX_Taegeuk_8car;
+        purchase:                       sw_KTX_Taegeuk_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_KTX_Taegeuk_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Taegeuk_10Car, 2480){
+    property {
+        name:                           string(STR_KTX_Taegeuk_10Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  KTX_Taegeuk;
+        
+        //spec
+        speed:                          600km/h;
+        power:                          20000 kW;
+        weight:                         40 ton;
+        tractive_effort_coefficient:    0.3;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 80;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+    
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+	graphics {
+        default:                        sw_KTX_Taegeuk_10car_reversed;
+        articulated_part:               sw_articulated_KTX_Taegeuk_10car;
+        purchase:                       sw_KTX_Taegeuk_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_KTX_Taegeuk_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Taegeuk_16Car, 2481){
+    property {
+        name:                           string(STR_KTX_Taegeuk_16Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  KTX_Taegeuk;
+        
+        //spec
+        speed:                          600km/h;
+        power:                          20000 kW;
+        weight:                         40 ton;
+        tractive_effort_coefficient:    0.3;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 80;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+    
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+	graphics {
+        default:                        sw_KTX_Taegeuk_16car_reversed;
+        articulated_part:               sw_articulated_KTX_Taegeuk_16car;
+        purchase:                       sw_KTX_Taegeuk_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_KTX_Taegeuk_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, KTX_Taegeuk_20Car, 2482){
+    property {
+        name:                           string(STR_KTX_Taegeuk_20Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2024, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  KTX_Taegeuk;
+        
+        //spec
+        speed:                          600km/h;
+        power:                          20000 kW;
+        weight:                         40 ton;
+        tractive_effort_coefficient:    0.3;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 80;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+    
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_MU,TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+	graphics {
+        default:                        sw_KTX_Taegeuk_20car_reversed;
+        articulated_part:               sw_articulated_KTX_Taegeuk_20car;
+        purchase:                       sw_KTX_Taegeuk_purchase;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_KTX_Taegeuk_sound;
+        }
+        }

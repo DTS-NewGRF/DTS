@@ -141,6 +141,7 @@
 - VHST-600X
 - DFX
 - DPX
+- KTX-태극
 
 ### RotemIGCTstart.wav
 - HSR-350X

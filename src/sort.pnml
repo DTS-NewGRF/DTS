@@ -431,6 +431,11 @@ sort(FEAT_TRAINS, [
     VHST_600X,                               //2371
     VHST_600X_8Car,                          //2029
     VHST_600X_16Car,                         //2372
+    KTX_Taegeuk,                             //2478
+    KTX_Taegeuk_8Car,                        //2479
+    KTX_Taegeuk_10Car,                       //2480
+    KTX_Taegeuk_16Car,                       //2481
+    KTX_Taegeuk_20Car,                       //2482
     CRH380AJ_8Car,                           //2044
     Shinkansen_923_7Car,                     //2096
     DFX_10Car,                               //2112

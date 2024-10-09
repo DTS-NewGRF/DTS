@@ -109,6 +109,11 @@ STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-산천
 STR_KTX_Sancheon_10Car_NAME                            :[DTS/10량] KTX-산천, SRT
 STR_KTX_Sancheon_20Car_NAME                            :[DTS/20량] KTX-산천 중련
 STR_KTX_Sancheon_DD_10Car_NAME                         :[DTS/10량] KTX-산천 DD
+STR_Group_KTX_Taegeuk_NAME                             :[DTS] KTX-태극
+STR_KTX_Taegeuk_8Car_NAME                              :[DTS/8량] KTX-태극
+STR_KTX_Taegeuk_10Car_NAME                             :[DTS/10량] KTX-태극
+STR_KTX_Taegeuk_16Car_NAME                             :[DTS/16량] KTX-태극
+STR_KTX_Taegeuk_20Car_NAME                             :[DTS/20량] KTX-태극
 STR_Group_MEL_150_NAME                                 :[DTS] MEL-150
 STR_MEL_150_4Car_NAME                                  :[DTS/4량] MEL-150
 STR_MEL_150_6Car_NAME                                  :[DTS/6량] MEL-150

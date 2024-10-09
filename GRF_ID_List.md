@@ -494,7 +494,12 @@
 |2475|Guoup_Post_Car|
 |2476|Post_Car|
 |2477|Express_Post_Car|
-|2478~2999|공백|
+|2478|KTX_Taegeuk|
+|2479|KTX_Taegeuk_8Car|
+|2480|KTX_Taegeuk_10Car|
+|2481|KTX_Taegeuk_16Car|
+|2482|KTX_Taegeuk_20Car|
+|2483~2999|공백|
 |3000|[그룹명] Korail_First|
 |3001|Korail_First_4Car|
 |3002|Korail_First_6Car|

@@ -45,6 +45,7 @@
 #include "locomotive/KTX_Eum_DD/KTX_Eum_DD.pnml"
 #include "locomotive/KTX_Sancheon/KTX_Sancheon.pnml"
 #include "locomotive/KTX_Sancheon_DD/KTX_Sancheon_DD.pnml"
+#include "locomotive/KTX_Taegeuk/KTX_Taegeuk.pnml"
 #include "locomotive/MEL_150/MEL_150.pnml"
 #include "locomotive/MSB_Speeder/MSB_Speeder.pnml"
 #include "locomotive/NEL_8100/NEL_8100.pnml"

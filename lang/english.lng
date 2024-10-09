@@ -109,6 +109,11 @@ STR_Group_KTX_Sancheon_NAME                            :[DTS] KTX-Sancheon
 STR_KTX_Sancheon_10Car_NAME                            :[DTS/10Car] KTX-Sancheon, SRT
 STR_KTX_Sancheon_20Car_NAME                            :[DTS/20Car] KTX-Sancheon
 STR_KTX_Sancheon_DD_10Car_NAME                         :[DTS/10Car] KTX-Sancheon DD
+STR_Group_KTX_Taegeuk_NAME                             :[DTS] KTX Taegeuk
+STR_KTX_Taegeuk_8Car_NAME                              :[DTS/8Car] KTX Taegeuk
+STR_KTX_Taegeuk_10Car_NAME                             :[DTS/10Car] KTX Taegeuk
+STR_KTX_Taegeuk_16Car_NAME                             :[DTS/16Car] KTX Taegeuk
+STR_KTX_Taegeuk_20Car_NAME                             :[DTS/20Car] KTX Taegeuk
 STR_Group_MEL_150_NAME                                 :[DTS] MEL-150
 STR_MEL_150_4Car_NAME                                  :[DTS/4Car] MEL-150
 STR_MEL_150_6Car_NAME                                  :[DTS/6Car] MEL-150
