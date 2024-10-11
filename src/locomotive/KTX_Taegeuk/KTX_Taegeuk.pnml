@@ -40,9 +40,9 @@ item(FEAT_TRAINS, KTX_Taegeuk_8Car, 2479){
         
         //spec
         speed:                          600km/h;
-        power:                          20000 kW;
-        weight:                         40 ton;
-        tractive_effort_coefficient:    0.3;
+        power:                          40000 kW;
+        weight:                         60 ton;
+        tractive_effort_coefficient:    0.86;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -92,9 +92,9 @@ item(FEAT_TRAINS, KTX_Taegeuk_10Car, 2480){
         
         //spec
         speed:                          600km/h;
-        power:                          20000 kW;
-        weight:                         40 ton;
-        tractive_effort_coefficient:    0.3;
+        power:                          40000 kW;
+        weight:                         60 ton;
+        tractive_effort_coefficient:    0.86;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -144,9 +144,9 @@ item(FEAT_TRAINS, KTX_Taegeuk_16Car, 2481){
         
         //spec
         speed:                          600km/h;
-        power:                          20000 kW;
-        weight:                         40 ton;
-        tractive_effort_coefficient:    0.3;
+        power:                          40000 kW;
+        weight:                         60 ton;
+        tractive_effort_coefficient:    0.86;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -196,9 +196,9 @@ item(FEAT_TRAINS, KTX_Taegeuk_20Car, 2482){
         
         //spec
         speed:                          600km/h;
-        power:                          20000 kW;
-        weight:                         40 ton;
-        tractive_effort_coefficient:    0.3;
+        power:                          40000 kW;
+        weight:                         60 ton;
+        tractive_effort_coefficient:    0.86;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
