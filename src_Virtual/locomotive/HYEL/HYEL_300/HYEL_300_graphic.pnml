@@ -29,6 +29,49 @@ spriteset(set_HYEL_300_wagon_tail_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Vi
 }
 
 /*--------------------------------------------------------------------
+HYEL 300 PEX-Super
+--------------------------------------------------------------------*/
+spriteset(set_HYEL_300_PEX_Super_wagon_NA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_N_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_HYEL_300_PEX_Super_wagon_NA_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_N_wagon.png") {
+    wagon_1F_F_r(80, 0)
+}
+
+spriteset(set_HYEL_300_PEX_Super_wagon_NB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_N_wagon.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_HYEL_300_PEX_Super_wagon_NB_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_N_wagon.png") {
+    wagon_1F_F_r(80, 27)
+}
+
+spriteset(set_HYEL_300_PEX_Super_wagon_SNA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_SN_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_HYEL_300_PEX_Super_wagon_SNA_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_SN_wagon.png") {
+    wagon_1F_F_r(80, 0)
+}
+
+spriteset(set_HYEL_300_PEX_Super_wagon_SNB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_SN_wagon.png") {
+    wagon_1F_F(80, 27)
+}
+
+spriteset(set_HYEL_300_PEX_Super_wagon_SNB_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_SN_wagon.png") {
+    wagon_1F_F_r(80, 27)
+}
+
+spriteset(set_HYEL_300_PEX_Super_wagon_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_B_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_HYEL_300_PEX_Super_wagon_B_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\SPassenger_wagon\PEX_Super\PEX_Super_B_wagon.png") {
+    wagon_1F_F_r(80, 0)
+}
+
+/*--------------------------------------------------------------------
 구매정보
 --------------------------------------------------------------------*/
 spriteset(set_HYEL_300_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src_Virtual/locomotive/HYEL/HYEL_300/HYEL_300.png"){

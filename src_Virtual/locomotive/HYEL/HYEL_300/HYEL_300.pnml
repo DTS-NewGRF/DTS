@@ -1,11 +1,29 @@
 /*--------------------------------------------------------------------
-GT26CW
+HYEL-300
 --------------------------------------------------------------------*/
 // Graphics
 #include "HYEL_300_graphic.pnml"
 
 // Switch
 #include "HYEL_300_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_300, 2483){
+    property {
+        name:                           string(STR_Group_HYEL_300_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          8000 kW;
+        }
+
+    graphics {
+        purchase:                       sw_HYEL_300_purchase;
+        }
+        }
 
 /*--------------------------------------------------------------------
 열차정보
@@ -18,6 +36,7 @@ item(FEAT_TRAINS, HYEL_300_8Car, 2110){
         track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_DIESEL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_300;
         
         //spec
         speed:                          260km/h;
@@ -53,10 +72,67 @@ item(FEAT_TRAINS, HYEL_300_8Car, 2110){
         default:                        sw_HYEL_300_8car_reversed;
         articulated_part:               sw_articulated_HYEL_300_8car;
         purchase:                       sw_HYEL_300_purchase;
-        cargo_capacity:                 140;
+        cargo_capacity:                 sw_HYEL_300_8car_capacity_in_custom;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
+        cargo_subtype_text:             sw_HYEL_300_cargo_subtype_text;
+        sound_effect:                   sw_HYEL_300_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, HYEL_300_10Car, 2484){
+    property {
+        name:                           string(STR_HYEL_300_10Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2030, 1, 1);
+        track_type:                     RAIL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  HYEL_300;
+        
+        //spec
+        speed:                          260km/h;
+        power:                          8000 kW;
+        weight:                         30 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 1;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        extra_weight_per_wagon:         35 ton;
+        }
+        
+    graphics {
+        default:                        sw_HYEL_300_10car_reversed;
+        articulated_part:               sw_articulated_HYEL_300_10car;
+        purchase:                       sw_HYEL_300_purchase;
+        cargo_capacity:                 sw_HYEL_300_10car_capacity_in_custom;
+        cost_factor:                    10;
+        loading_speed:                  25;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_HYEL_300_cargo_subtype_text;
         sound_effect:                   sw_HYEL_300_sound;
         }
         }

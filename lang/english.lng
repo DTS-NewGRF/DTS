@@ -240,7 +240,9 @@ STR_Group_HYEL_200_NAME                                :[DTS] HYEL-200
 STR_HYEL_200_4Car_NAME                                 :[DTS/4Car] HYEL-200
 STR_HYEL_200_6Car_NAME                                 :[DTS/6Car] HYEL-200
 STR_HYEL_220_6Car_NAME                                 :[DTS/6Car] HYEL-220
+STR_Group_HYEL_300_NAME                                :[DTS] HYEL-300
 STR_HYEL_300_8Car_NAME                                 :[DTS/8Car] HYEL-300
+STR_HYEL_300_10Car_NAME                                :[DTS/10Car] HYEL-300
 STR_Group_HYEL_400_NAME                                :[DTS] HYEL-400
 STR_HYEL_400_8Car_NAME                                 :[DTS/8Car] HYEL-400
 STR_HYEL_400_10Car_NAME                                :[DTS/10Car] HYEL-400
@@ -844,6 +846,9 @@ STR_REFIT_LIVERY_HYEL_100_CI                           : Korail CI
 STR_REFIT_LIVERY_HYEL_100_original                     : Original
 STR_REFIT_LIVERY_HYEL_150                              : HYEL-150
 STR_REFIT_LIVERY_HYEL_150_SB                           : HYEL-150 Sea Livery
+STR_REFIT_LIVERY_HYEL_300                              : HYEL-300
+STR_REFIT_LIVERY_HYEL_300_PEX_A                        : HYEL-300 PEX-Super A Type
+STR_REFIT_LIVERY_HYEL_300_PEX_B                        : HYEL-300 PEX-Super B Type
 STR_REFIT_LIVERY_HYEL_PEX_Super_A                      : HYEL PEX_Super A
 STR_REFIT_LIVERY_HYEL_PEX_Super_B                      : HYEL PEX_Super B
 STR_REFIT_LIVERY_HYEL_PEX_Super_C                      : HYEL PEX_Super C

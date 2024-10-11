@@ -321,7 +321,9 @@ sort(FEAT_TRAINS, [
     Shinkansen_E2_10Car,                     //2091
     Shinkansen_E7_W7_12Car,                  //2094
     HYEL_150,                                //2141
+    HYEL_300,                                //2483
     HYEL_300_8Car,                           //2110
+    HYEL_300_10Car,                          //2484
     HYEL_Constrck,                           //2320
     HYEL_PEX_Super,                          //2435
     HYEL_PEX_Super_8Car,                     //2436
