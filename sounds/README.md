@@ -105,6 +105,7 @@
 
 ### HYUNDAIROTEMPMSMstart.wav
 - AUTS(차세대전동차)
+- 한국철도공사 4세대 VVVF전동차 PMSM
 
 ### KTXSC140000start.wav
 - KTX-산천 B타입

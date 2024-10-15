@@ -239,7 +239,8 @@ item(FEAT_TRAINS, Korail_4th_4Car, 2124){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_Korail_4th_sound;
+        cargo_subtype_text:             sw_Korail_4th_G3_4Car_cargo_subtype_text;
+        sound_effect:                   sw_Korail_4th_4Car_sound;
         }
         }
 
@@ -296,7 +297,7 @@ item(FEAT_TRAINS, Korail_4th_6Car, 2217){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Korail_4th_6Car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_4th_sound;
+        sound_effect:                   sw_Korail_4th_6Car_sound;
         }
         }
 
@@ -351,7 +352,7 @@ item(FEAT_TRAINS, Korail_4th_8Car, 2461){
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_subtype_text:             sw_Korail_4th_8Car_cargo_subtype_text;
-        sound_effect:                   sw_Korail_4th_sound;
+        sound_effect:                   sw_Korail_4th_8Car_sound;
         }
         }
 

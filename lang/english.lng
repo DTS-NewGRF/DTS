@@ -667,6 +667,9 @@ STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T               : Tongil Double Cab
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T1              : Tongil Singie Cab
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M               : Mugunghwa Double Cab
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M1              : Mugunghwa Singie Cab
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B               : Bidulgi KNR 2
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1A             : Bidulgi Single Cab Semi cross seat KNR 2
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1B             : Bidulgi Single Cab Long seat KNR 2
 STR_REFIT_LIVERY_Special_Diesel_Car_1969               : Special car first livery
 STR_REFIT_LIVERY_Special_Diesel_Car_1986               : Special car first livery (AIRCON)
 STR_REFIT_LIVERY_Special_Diesel_Car_1994               : Special car second livery
@@ -924,6 +927,7 @@ STR_REFIT_LIVERY_Korail_4th_G3_SI                      : Generation 2
 STR_REFIT_LIVERY_Korail_4th_G3_SI1                     : Generation 2 SI1
 STR_REFIT_LIVERY_Korail_4th_G3_SI2                     : Generation 2 SI2
 STR_REFIT_LIVERY_Korail_4th_G3_DOB                     : Generation 2 DOB
+STR_REFIT_LIVERY_Korail_4th_G3_PMSM                    : PMSM
 STR_REFIT_LIVERY_Korail_5th_Nomal                      : Nomal
 STR_REFIT_LIVERY_Korail_5th_Update_software            : Update software
 STR_REFIT_LIVERY_Korail_First_K1000_Initial            : Korail First KNR 1st livery

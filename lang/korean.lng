@@ -663,6 +663,9 @@ STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T               : 통일호 양운전대
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_T1              : 통일호 편운전대
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M               : 무궁화호 양운전대
 STR_REFIT_LIVERY_Nomal_Diesel_Car_1985_M1              : 무궁화호 편운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B               : 비둘기호 한국철도 CI 2 양운전대
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1A             : 비둘기호 한국철도 CI 2 편운전대 세미크로스시트
+STR_REFIT_LIVERY_Nomal_Diesel_Car_1994_B1B             : 비둘기호 한국철도 CI 2 편운전대 롱시트
 STR_REFIT_LIVERY_Special_Diesel_Car_1969               : 특별동차 초기도색
 STR_REFIT_LIVERY_Special_Diesel_Car_1986               : 특별동차 초기도색 (냉방개조)
 STR_REFIT_LIVERY_Special_Diesel_Car_1994               : 특별동차 구도색
@@ -920,6 +923,7 @@ STR_REFIT_LIVERY_Korail_4th_G3_SI                      : 2차분
 STR_REFIT_LIVERY_Korail_4th_G3_SI1                     : 2차분 싱글암1개
 STR_REFIT_LIVERY_Korail_4th_G3_SI2                     : 2차분 싱글암2개
 STR_REFIT_LIVERY_Korail_4th_G3_DOB                     : 2차분 더블암
+STR_REFIT_LIVERY_Korail_4th_G3_PMSM                    : PMSM
 STR_REFIT_LIVERY_Korail_5th_Nomal                      : 기본형
 STR_REFIT_LIVERY_Korail_5th_Update_software            : 소프트웨어개선
 STR_REFIT_LIVERY_Korail_First_K1000_Initial            : 초기저항 철도청 초기도색 [비냉방]
